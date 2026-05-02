@@ -1,0 +1,230 @@
+---
+# This empty front matter is REQUIRED — it tells Jekyll to process this file
+# as a Liquid template (so the @import below can use {{ site.* }} variables).
+---
+
+// =============================================================================
+// CUSTOM STYLES — coastal palette + rounded cards + serif headings
+// =============================================================================
+// HOW THIS FILE WORKS:
+//   1. We declare color/style variables BEFORE importing the theme.
+//      Minimal Mistakes uses Sass, so any variable we set here overrides
+//      the theme's default for the same name.
+//   2. We import the theme's skin file and main stylesheet AFTER our overrides.
+//   3. Anything below the imports adds new rules on top of the theme.
+// =============================================================================
+
+
+// -----------------------------------------------------------------------------
+// COASTAL PALETTE
+// -----------------------------------------------------------------------------
+// Sand, navy, sea-glass green. Light and airy.
+$sand-light:   #FAF7F2;   // page background
+$sand-medium:  #EFE6D6;   // card backgrounds, footer
+$sand-warm:    #E8DCC4;   // accent / hover
+
+$navy-deep:    #1F4858;   // primary — headings, links
+$navy-mid:     #2C5876;   // secondary — buttons
+$seaglass:     #7FB3A2;   // accent — highlights, tags
+
+$ink:          #1A2B33;   // body text
+$muted:        #6B7E85;   // metadata, dates
+
+// -----------------------------------------------------------------------------
+// MINIMAL MISTAKES VARIABLE OVERRIDES
+// -----------------------------------------------------------------------------
+// Each $var maps to something the theme uses internally. Search the theme's
+// _variables.scss on GitHub if you want to tweak something specific.
+$background-color: $sand-light;
+$text-color:       $ink;
+$muted-text-color: $muted;
+$primary-color:    $navy-deep;
+$link-color:       $navy-mid;
+$link-color-hover: $seaglass;
+$link-color-visited: $navy-mid;
+
+$footer-background-color: $sand-medium;
+$masthead-link-color:     $navy-deep;
+$masthead-link-color-hover: $seaglass;
+
+$border-color: darken($sand-medium, 8%);
+
+// Slightly more humane, slightly more "blog" — Lora for headings.
+$serif:         "Lora", Georgia, "Times New Roman", serif;
+$header-font-family: $serif;
+
+
+// -----------------------------------------------------------------------------
+// IMPORT THE THEME (must come AFTER variable overrides)
+// -----------------------------------------------------------------------------
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+
+// -----------------------------------------------------------------------------
+// EXTRA CUSTOM RULES (applied AFTER the theme — these win)
+// -----------------------------------------------------------------------------
+
+// Site-wide soften: rounder corners, gentler shadows, more breathing room.
+body {
+  font-feature-settings: "kern", "liga", "clig";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $serif;
+  letter-spacing: -0.01em;
+}
+
+// Make body links stay readable but pick up the seaglass on hover.
+a {
+  transition: color 0.15s ease;
+}
+
+// -----------------------------------------------------------------------------
+// TRIP CARDS (homepage grid)
+// -----------------------------------------------------------------------------
+.trip-card {
+  border: 1px solid $border-color;
+  border-radius: 16px;                // softer corners
+  background: #fff;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba($navy-deep, 0.12);
+  }
+
+  .trip-card-image {
+    border-radius: 16px 16px 0 0;     // match the card corner on top only
+  }
+
+  .trip-card-body h3 {
+    color: $navy-deep;
+    font-size: 1.4em;
+  }
+
+  .trip-card-meta {
+    color: $muted;
+    text-transform: uppercase;
+    font-size: 0.78em;
+    letter-spacing: 0.05em;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// DAY CARDS (trip page)
+// -----------------------------------------------------------------------------
+.day-card {
+  border: 1px solid $border-color;
+  border-radius: 14px;
+  background: #fff;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba($navy-deep, 0.10);
+  }
+
+  .day-card-body h3 {
+    color: $navy-deep;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// SORT / FILTER CONTROLS (used on homepage and /trips/)
+// -----------------------------------------------------------------------------
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: center;
+  margin: 1.5em 0 1em;
+  padding: 1em 1.25em;
+  background: $sand-medium;
+  border-radius: 14px;
+}
+
+.controls label {
+  font-weight: 600;
+  color: $navy-deep;
+  font-size: 0.95em;
+  margin-right: 0.4em;
+}
+
+.controls select {
+  padding: 0.4em 0.7em;
+  border-radius: 8px;
+  border: 1px solid $border-color;
+  background: #fff;
+  font-size: 0.95em;
+  color: $ink;
+  cursor: pointer;
+}
+
+.tag-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  align-items: center;
+}
+
+.tag-chip {
+  display: inline-block;
+  padding: 0.3em 0.85em;
+  border-radius: 999px;             // pill
+  background: #fff;
+  border: 1px solid $border-color;
+  color: $navy-deep;
+  font-size: 0.85em;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    border-color: $seaglass;
+  }
+
+  &.is-active {
+    background: $seaglass;
+    color: #fff;
+    border-color: $seaglass;
+  }
+}
+
+.tag-clear {
+  background: transparent;
+  border: none;
+  color: $muted;
+  font-size: 0.85em;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0.3em 0.5em;
+
+  &:hover {
+    color: $navy-deep;
+  }
+}
+
+.empty-state {
+  text-align: center;
+  color: $muted;
+  padding: 2em 1em;
+  font-style: italic;
+}
+
+// -----------------------------------------------------------------------------
+// SUBSCRIBE BLOCK
+// -----------------------------------------------------------------------------
+.subscribe-box {
+  margin: 2em 0;
+  padding: 1.5em;
+  background: $sand-medium;
+  border-radius: 14px;
+  border: 1px solid $border-color;
+  text-align: center;
+
+  h3 {
+    margin-top: 0;
+    color: $navy-deep;
+  }
+}

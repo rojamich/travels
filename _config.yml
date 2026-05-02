@@ -52,6 +52,7 @@ plugins:
   - jekyll-sitemap             # Auto-generates sitemap.xml for search engines
   - jekyll-feed                # Auto-generates RSS/Atom feed
   - jekyll-seo-tag             # Adds SEO meta tags automatically
+  - jemoji                     # Lets you write :airplane: and get ✈️ in posts
 
 
 # -----------------------------------------------------------------------------

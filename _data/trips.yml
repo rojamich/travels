@@ -16,7 +16,11 @@
 #   description  — one-sentence summary shown on the homepage
 #   cover        — path to the trip's cover image (relative to site root)
 #   start_date / end_date — for sorting and display
-#   location     — country / region (optional; shown on listings)
+#   location     — country / region (shown on listings, used by "sort by location")
+#   tags         — list of tags used for the filter buttons on the homepage
+#                  and /trips/ page. Use whatever categorization helps you —
+#                  region (Europe, Asia), style (road-trip, beach), theme
+#                  (food, hiking, family). Lowercase + dashes recommended.
 # =============================================================================
 
 - slug: iceland-2024
@@ -26,6 +30,10 @@
   start_date: 2024-06-01
   end_date: 2024-06-14
   location: "Iceland"
+  tags:
+    - europe
+    - road-trip
+    - nature
 
 # Add another trip here when you're ready. Example:
 # - slug: japan-2025
@@ -35,3 +43,7 @@
 #   start_date: 2025-03-10
 #   end_date: 2025-03-24
 #   location: "Japan"
+#   tags:
+#     - asia
+#     - city
+#     - food
