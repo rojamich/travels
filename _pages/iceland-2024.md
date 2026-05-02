@@ -39,6 +39,9 @@ trip_slug: iceland-2024
 
 <p style="font-size:1.1em;">{{ trip.description }}</p>
 
+<!-- Embedded mini-map for this trip. Shows day pins + route between them. -->
+{% include trip-map.html trip_slug=page.trip_slug %}
+
 <hr>
 
 <!--

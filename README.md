@@ -162,6 +162,50 @@ The homepage and `/trips/` page will pick up the new trip automatically.
 
 ---
 
+## Comments (Cusdis — visitors don't need an account)
+
+The post template already includes a comments section. It only renders once
+you've added a Cusdis App ID to `_config.yml`.
+
+1. Go to [cusdis.com](https://cusdis.com/) and sign up (free, generous limits).
+2. Add a new site. URL: `https://rojamich.github.io/travels/`.
+3. They give you an **App ID** that looks like a UUID (e.g. `8b3f1c2e-...`).
+4. Open `_config.yml`, find this line:
+   ```yaml
+   cusdis_app_id: ""
+   ```
+   Paste the App ID between the quotes, commit, push.
+5. Visitors can now comment on any post — they just type a name and message.
+   You moderate from your Cusdis dashboard (approve/delete).
+
+To temporarily turn off comments: clear `cusdis_app_id` back to `""`.
+
+## Maps
+
+There's a `/map/` page in the nav showing one pin per trip on a world map.
+Click a pin → zoom in and reveal the day-by-day route for that trip.
+Each trip page also has a small embedded map of just that trip.
+
+To make a trip appear on the map, add `lat:` and `lng:` to its entry in
+`_data/trips.yml`. To make individual days appear as pins on the route,
+add `location:` to each post:
+
+```yaml
+location:
+  name: "Reykjavik, Iceland"
+  lat: 64.1466
+  lng: -21.9426
+```
+
+Get coordinates from [latlong.net](https://www.latlong.net/) — search a
+place and copy the lat/lng. Posts without `location:` simply don't get a pin.
+
+**Optional v2 upgrade:** fill visited countries with their flag (instead
+of just placing a pin). Doable but adds ~2 hours of work — needs country
+boundary GeoJSON, flag images, and SVG pattern fills. The `country_code`
+field already in `_data/trips.yml` is forward-compat for this — when you
+want it, just say so.
+
 ## Subscriber emails (free)
 
 Sign up for [follow.it](https://follow.it/), point it at the RSS feed at

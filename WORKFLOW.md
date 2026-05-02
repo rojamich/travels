@@ -334,6 +334,37 @@ Paste this anywhere, replacing `VIDEO_ID` with the YouTube video's ID
   allowfullscreen></iframe>
 ```
 
+## Putting a post on the map
+
+If you add a `location:` block to a post's front matter, the post becomes
+a clickable pin on the trip's map (and on the world map's zoom-in view):
+
+```yaml
+location:
+  name: "Reykjavik, Iceland"
+  lat: 64.1466
+  lng: -21.9426
+```
+
+Get the lat/lng from [latlong.net](https://www.latlong.net/): search the
+place name, copy the two numbers, paste them in. Posts without `location:`
+simply don't get a pin — totally fine for "rest day" or "travel day"
+posts where there's no specific spot to mark.
+
+The map automatically draws a dashed line connecting the day pins in the
+order you set with the `order:` field, so the route reflects however you
+choose to sequence the days.
+
+## Comments
+
+Each post automatically gets a comments section at the bottom — provided
+your husband has activated Cusdis (a one-time setup). Visitors don't need
+to sign up; they just type a name and a message and hit submit.
+
+To moderate (delete spam, hide rude messages), log in to your Cusdis
+dashboard at [cusdis.com](https://cusdis.com/). It also emails when a new
+comment lands.
+
 ## Filtering and sorting (for visitors)
 
 This part isn't for writing posts — it's just so you know what visitors

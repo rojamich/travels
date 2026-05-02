@@ -56,22 +56,18 @@ plugins:
 
 
 # -----------------------------------------------------------------------------
-# COMMENTS — disabled for now. Enable Giscus (free, GitHub-based) later.
+# COMMENTS — Cusdis (no signup required for visitors)
 # -----------------------------------------------------------------------------
-# To turn on comments:
-#   1. Go to https://giscus.app/ and follow their setup wizard
-#   2. It will give you a `repo`, `repo_id`, `category`, `category_id`
-#   3. Uncomment the block below and paste those values in
+# Activation is a two-step process:
+#   1. Sign up at https://cusdis.com (free), add your site.
+#      They give you an "App ID" (looks like 8b3f...uuid).
+#   2. Paste the App ID into `cusdis_app_id` below, commit + push.
 #
-# comments:
-#   provider: "giscus"
-#   giscus:
-#     repo_id: "<paste here>"
-#     category_name: "Announcements"
-#     category_id: "<paste here>"
-#     discussion_term: "pathname"
-#     reactions_enabled: "1"
-#     theme: "light"
+# Until you fill in `cusdis_app_id`, comment sections won't render.
+comments:
+  provider: "custom"            # tells Minimal Mistakes to use _includes/comments-providers/custom.html
+
+cusdis_app_id: ""               # PASTE YOUR CUSDIS APP ID HERE (between the quotes)
 
 
 # -----------------------------------------------------------------------------
@@ -107,7 +103,7 @@ defaults:
       layout: single                 # Use Minimal Mistakes' "single" layout
       author_profile: false          # Hide the sidebar author box
       read_time: true                # Show estimated read time
-      comments: false                # Off until Giscus is configured
+      comments: true                 # Renders the Cusdis include if cusdis_app_id is set
       share: true                    # Show social share buttons
       related: true                  # Show "related posts" at the bottom
       show_date: true

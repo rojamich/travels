@@ -1,0 +1,61 @@
+<!--
+  =============================================================================
+  trip-map.html — embeddable mini-map for a single trip page
+  =============================================================================
+  Drop into a trip page like this:
+
+      {% include trip-map.html trip_slug="iceland-2024" %}
+
+  Renders a small map showing day pins + the route between them. Skips
+  silently if the trip has no coordinates.
+  =============================================================================
+-->
+
+{%- assign trip = site.data.trips | where: "slug", include.trip_slug | first -%}
+{%- if trip and trip.lat -%}
+{%- assign trip_posts = site.categories[trip.slug] | sort: "order" -%}
+
+<div id="trip-map-{{ trip.slug }}"
+     style="height: 360px; border-radius: 14px; overflow: hidden; border: 1px solid #ddd; margin: 1.5em 0;"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+
+<script>
+  (function () {
+    var trip = {
+      "slug":  {{ trip.slug | jsonify }},
+      "name":  {{ trip.name | jsonify }},
+      "lat":   {{ trip.lat }},
+      "lng":   {{ trip.lng }},
+      "cover": {{ trip.cover | relative_url | jsonify }},
+      "url":   {{ '/' | append: trip.slug | append: '/' | relative_url | jsonify }},
+      "posts": [
+        {%- for post in trip_posts -%}
+          {%- if post.location and post.location.lat -%}
+            {
+              "title": {{ post.title | jsonify }},
+              "name":  {{ post.location.name | jsonify }},
+              "lat":   {{ post.location.lat }},
+              "lng":   {{ post.location.lng }},
+              "url":   {{ post.url | relative_url | jsonify }}
+            }{%- unless forloop.last -%},{%- endunless -%}
+          {%- endif -%}
+        {%- endfor -%}
+      ]
+    };
+    function go() { TravelMap.initTrip("trip-map-{{ trip.slug }}", trip); }
+    if (window.TravelMap) { go(); }
+    else {
+      var s = document.createElement("script");
+      s.src = "{{ '/assets/js/maps.js' | relative_url }}";
+      s.onload = go;
+      document.head.appendChild(s);
+    }
+  })();
+</script>
+{%- endif -%}

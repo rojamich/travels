@@ -10,5 +10,7 @@ main:
     url: /
   - title: "All Trips"
     url: /trips/
+  - title: "Map"
+    url: /map/
   - title: "About"
     url: /about/

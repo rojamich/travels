@@ -1,0 +1,37 @@
+<!--
+  =============================================================================
+  CUSTOM COMMENTS PROVIDER — Cusdis
+  =============================================================================
+  Minimal Mistakes lets us slot in any comment system here. We use Cusdis
+  because it requires no signup from your visitors — they just type a name
+  and a comment.
+
+  Activation is gated on `site.cusdis_app_id` being set in _config.yml.
+  Until you fill that in, this include renders nothing (post pages just
+  silently lack comments — no error, no broken UI).
+
+  See README.md for the one-time signup at cusdis.com.
+  =============================================================================
+-->
+
+{% if site.cusdis_app_id %}
+<div class="comments-block" style="margin-top: 2.5em; padding-top: 1.5em; border-top: 1px solid #e0d6c2;">
+  <h3 style="margin-bottom: 0.5em;">Comments</h3>
+  <p style="color:#6B7E85; font-size:0.9em; margin-bottom:1em;">
+    Have a thought or a wish for our next trip? Leave us a note below — no signup needed.
+  </p>
+
+  <!--
+    Cusdis embed. The data-* attributes tell their script which post this is
+    (so threads stay attached to the right post even if URLs change later).
+  -->
+  <div id="cusdis_thread"
+    data-host="https://cusdis.com"
+    data-app-id="{{ site.cusdis_app_id }}"
+    data-page-id="{{ page.id }}"
+    data-page-url="{{ page.url | absolute_url }}"
+    data-page-title="{{ page.title | escape }}">
+  </div>
+  <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+</div>
+{% endif %}

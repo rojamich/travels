@@ -43,6 +43,14 @@ tags:
   - reykjavik
   - arrival
 
+# --- Optional location (used to draw a pin on the trip map). ---
+# Get coordinates from https://www.latlong.net/ — search for the place,
+# copy the lat and lng. Posts without `location:` simply don't get a pin.
+location:
+  name: "Reykjavik, Iceland"
+  lat: 64.1466
+  lng: -21.9426
+
 # --- Photo gallery for this post (optional). ---
 # Each entry needs `url` (full size) and `image_path` (thumbnail).
 # Usually the same image. Fill in `alt` for accessibility.
