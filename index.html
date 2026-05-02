@@ -2,11 +2,8 @@
 # =============================================================================
 # HOMEPAGE
 # =============================================================================
-# This is what visitors see first. It shows the most recent trip, then a grid
-# of all trips with their cover photos. Trips come from _data/trips.yml.
-#
-# To change the homepage layout, edit the HTML and Liquid below.
-# Liquid is the templating language — anything in {{ }} or {% %} is logic.
+# Shows the trip grid with sort + tag-filter controls. The cards have data-*
+# attributes used by /assets/js/sort-filter.js to do client-side sort/filter.
 # =============================================================================
 
 layout: single
@@ -28,14 +25,27 @@ classes: wide
 <h2>Trips</h2>
 
 <!--
-  Loop over every trip in _data/trips.yml, sorted by start_date descending
-  (newest first). For each one, render a "card" with cover image + summary.
+  The .js-controls container is empty in the HTML — sort-filter.js fills it
+  with a sort dropdown and tag chips at page load. The data-list-selector
+  attribute tells the script which container holds the cards to control.
+-->
+<div class="js-controls controls" data-list-selector=".js-trip-list"></div>
+
+<!--
+  The trip grid. Each card carries data-* attributes used for sorting and
+  filtering. Server-rendered order is "most recent first" but JS re-sorts
+  on load so the result is deterministic either way.
 -->
 {% assign sorted_trips = site.data.trips | sort: "start_date" | reverse %}
 
-<div class="trip-grid">
+<div class="trip-grid js-trip-list">
   {% for trip in sorted_trips %}
-    <a href="{{ '/' | append: trip.slug | append: '/' | relative_url }}" class="trip-card">
+    <a href="{{ '/' | append: trip.slug | append: '/' | relative_url }}"
+       class="trip-card"
+       data-name="{{ trip.name }}"
+       data-location="{{ trip.location }}"
+       data-start-date="{{ trip.start_date | date: '%Y-%m-%d' }}"
+       data-tags="{% if trip.tags %}{{ trip.tags | join: ' ' }}{% endif %}">
       <div class="trip-card-image">
         <img src="{{ trip.cover | relative_url }}"
              alt="{{ trip.name }}"
@@ -53,51 +63,22 @@ classes: wide
   {% endfor %}
 </div>
 
-<!--
-  Inline styling for the trip-card grid. Kept here so it's all in one place
-  while the site is small. Move to assets/css/main.scss later if it grows.
--->
+<!-- Subscriber widget — same content on homepage and /about/ -->
+{% include subscribe.html %}
+
 <style>
   .trip-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1.5em;
-    margin: 2em 0;
+    margin: 1.5em 0;
   }
-  .trip-card {
-    display: block;
-    text-decoration: none !important;
-    color: inherit !important;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
-    background: #fff;
-  }
-  .trip-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-  }
-  .trip-card-image {
-    width: 100%;
-    height: 200px;
-    background: #f0f0f0;
-    overflow: hidden;
-  }
-  .trip-card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .trip-card-body {
-    padding: 1em;
-  }
-  .trip-card-body h3 {
-    margin: 0 0 0.3em 0;
-  }
-  .trip-card-meta {
-    color: #888;
-    font-size: 0.9em;
-    margin: 0 0 0.5em 0;
-  }
+  .trip-card { display: block; text-decoration: none !important; color: inherit !important; overflow: hidden; }
+  .trip-card-image { width: 100%; height: 200px; background: #f0f0f0; overflow: hidden; }
+  .trip-card-image img { width: 100%; height: 100%; object-fit: cover; }
+  .trip-card-body { padding: 1em; }
+  .trip-card-body h3 { margin: 0 0 0.3em 0; }
+  .trip-card-meta { margin: 0 0 0.5em 0; }
 </style>
+
+<script src="{{ '/assets/js/sort-filter.js' | relative_url }}"></script>
