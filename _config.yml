@@ -1,0 +1,151 @@
+# =============================================================================
+# JEKYLL SITE CONFIGURATION
+# =============================================================================
+# This file controls site-wide settings. When you change anything in this file,
+# GitHub Pages has to rebuild the whole site (takes about 1 minute).
+#
+# After pushing changes to GitHub, give it a minute, then refresh the browser.
+# =============================================================================
+
+
+# -----------------------------------------------------------------------------
+# SITE BASICS — the stuff that shows up in titles, search results, RSS feeds
+# -----------------------------------------------------------------------------
+title: "Our Travels"
+subtitle: "Adventures around the world"
+name: "Mike & [Wife's Name]"          # Used in copyright footer; replace with real name
+description: "A blog of our trips, photos, and stories."
+email: ""                              # Optional. Leave blank if you don't want it public.
+
+# IMPORTANT: these two URLs control where the site lives.
+# - `url` is the GitHub Pages domain.
+# - `baseurl` is the subfolder (because this is a project page, not a root site).
+# Together they mean the site lives at:  https://rojamich.github.io/travels/
+url: "https://rojamich.github.io"
+baseurl: "/travels"
+
+# GitHub repo info — used by some theme features (edit-this-page links, etc.)
+repository: "rojamich/travels"
+
+
+# -----------------------------------------------------------------------------
+# THEME — Minimal Mistakes, loaded remotely so we don't need to install gems
+# -----------------------------------------------------------------------------
+# `remote_theme` tells GitHub Pages to fetch the theme from another GitHub repo
+# at build time. This is the secret to skipping local Ruby/Jekyll setup.
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+# Minimal Mistakes ships several skins (color schemes). Pick one, or comment
+# out and customize fully later. Options: default, air, aqua, contrast, dark,
+# dirt, mint, neon, plum, sunrise.
+minimal_mistakes_skin: "air"
+
+
+# -----------------------------------------------------------------------------
+# PLUGINS — extra features that GitHub Pages allows
+# -----------------------------------------------------------------------------
+# Only plugins on GitHub Pages' allowlist work without local builds.
+# Full list: https://pages.github.com/versions/
+plugins:
+  - jekyll-include-cache       # Required by Minimal Mistakes for performance
+  - jekyll-paginate            # For paginated post lists (older/newer)
+  - jekyll-sitemap             # Auto-generates sitemap.xml for search engines
+  - jekyll-feed                # Auto-generates RSS/Atom feed
+  - jekyll-seo-tag             # Adds SEO meta tags automatically
+
+
+# -----------------------------------------------------------------------------
+# COMMENTS — disabled for now. Enable Giscus (free, GitHub-based) later.
+# -----------------------------------------------------------------------------
+# To turn on comments:
+#   1. Go to https://giscus.app/ and follow their setup wizard
+#   2. It will give you a `repo`, `repo_id`, `category`, `category_id`
+#   3. Uncomment the block below and paste those values in
+#
+# comments:
+#   provider: "giscus"
+#   giscus:
+#     repo_id: "<paste here>"
+#     category_name: "Announcements"
+#     category_id: "<paste here>"
+#     discussion_term: "pathname"
+#     reactions_enabled: "1"
+#     theme: "light"
+
+
+# -----------------------------------------------------------------------------
+# READING — how posts are loaded and shown
+# -----------------------------------------------------------------------------
+# Read all .md files inside _posts/ as blog posts (Jekyll default).
+# `permalink` controls the URL pattern. We use category + title so URLs look
+# like /travels/iceland-2024/day-1-reykjavik/
+permalink: /:categories/:title/
+
+# Show 10 posts per archive page. Older ones get paginated.
+paginate: 10
+paginate_path: /page:num/
+
+# Use Markdown processor "kramdown" with GitHub-Flavored Markdown.
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+
+# -----------------------------------------------------------------------------
+# DEFAULTS — front matter values applied to every post unless overridden
+# -----------------------------------------------------------------------------
+# This saves typing the same fields on every post. Anything you write in a
+# post's own front matter overrides these defaults.
+defaults:
+  # Defaults for everything in _posts/
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single                 # Use Minimal Mistakes' "single" layout
+      author_profile: false          # Hide the sidebar author box
+      read_time: true                # Show estimated read time
+      comments: false                # Off until Giscus is configured
+      share: true                    # Show social share buttons
+      related: true                  # Show "related posts" at the bottom
+      show_date: true
+      toc: false                     # Table of contents — turn on per post if needed
+      classes: wide                  # Use wider content area (good for photos)
+
+  # Defaults for pages in _pages/
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      classes: wide
+
+
+# -----------------------------------------------------------------------------
+# COLLECTIONS — Jekyll lets us group content beyond just posts
+# -----------------------------------------------------------------------------
+# We treat trip overview pages as their own collection so we can list them
+# easily on the homepage.
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+
+# -----------------------------------------------------------------------------
+# INCLUDE / EXCLUDE — files to ignore when building the site
+# -----------------------------------------------------------------------------
+include:
+  - _pages
+
+exclude:
+  - README.md
+  - WORKFLOW.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - scripts
+  - node_modules
+  - "*.gemspec"

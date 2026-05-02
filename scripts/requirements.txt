@@ -1,0 +1,4 @@
+# Python dependencies for the Blogger import script.
+# Install with:  pip install -r scripts/requirements.txt
+
+html2text>=2024.2.26

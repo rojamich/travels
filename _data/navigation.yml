@@ -1,0 +1,14 @@
+# =============================================================================
+# navigation.yml — top navigation bar links
+# =============================================================================
+# The "main" key here is what Minimal Mistakes uses for the top nav.
+# Add or remove items to change the menu.
+# =============================================================================
+
+main:
+  - title: "Home"
+    url: /
+  - title: "All Trips"
+    url: /trips/
+  - title: "About"
+    url: /about/
