@@ -38,16 +38,16 @@ classes: wide
 -->
 <script>
   window.TRAVEL_DATA = [
-  {%- assign sorted = site.data.trips | sort: "start_date" -%}
+  {%- assign sorted = site.trips | sort: "start_date" -%}
   {%- for trip in sorted -%}
     {%- assign trip_posts = site.categories[trip.slug] | sort: "order" -%}
     {
       "slug":  {{ trip.slug | jsonify }},
-      "name":  {{ trip.name | jsonify }},
+      "name":  {{ trip.title | jsonify }},
       "lat":   {{ trip.lat | default: 0 }},
       "lng":   {{ trip.lng | default: 0 }},
       "cover": {{ trip.cover | relative_url | jsonify }},
-      "url":   {{ '/' | append: trip.slug | append: '/' | relative_url | jsonify }},
+      "url":   {{ trip.url | relative_url | jsonify }},
       "posts": [
         {%- for post in trip_posts -%}
           {%- if post.location and post.location.lat -%}

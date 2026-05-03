@@ -27,14 +27,18 @@ wife, see [WORKFLOW.md](WORKFLOW.md).
 ├── index.html              ← homepage (auto-lists trips)
 │
 ├── _data/
-│   ├── trips.yml           ← MASTER LIST of trips (you edit this)
 │   └── navigation.yml      ← top nav menu items
+│
+├── _trips/                 ← one file per trip (managed via /admin/)
+│   └── iceland-2024.md
+│
+├── _layouts/
+│   └── trip.html           ← layout for trip pages (cover, map, day list)
 │
 ├── _pages/
 │   ├── trips.md            ← "All Trips" page
 │   ├── about.md            ← About page
-│   ├── map.md              ← interactive world map
-│   └── iceland-2024.md     ← one file per trip; lists its posts
+│   └── map.md              ← interactive world map
 │
 ├── _posts/                 ← your wife's posts (she creates these via /admin/)
 │   ├── 2024-06-01-day-1-arrival-in-reykjavik.md
@@ -130,23 +134,16 @@ Pushing to `main` → Netlify auto-rebuilds within a minute.
 
 ## Adding a new trip
 
-The CMS doesn't manage trips, only posts. To add a new trip:
+**Your wife does this herself in `/admin/`** — no code changes needed:
 
-1. Add an entry to `_data/trips.yml` (copy the Iceland one). Required fields:
-   `slug`, `name`, `description`, `cover`, `start_date`, `end_date`,
-   `location`, optionally `lat`/`lng` (for the world map pin),
-   `country_code`, and `tags`.
-2. Create `_pages/<slug>.md` by copying `_pages/iceland-2024.md` and
-   changing `permalink`, `title`, and `trip_slug` to match the new slug.
-3. **Add the trip to the dropdown in the admin form**: open
-   `admin/config.yml`, find the `categories` field, add a new option:
-   ```yaml
-   options:
-     - { label: "Iceland 2024", value: "iceland-2024" }
-     - { label: "Japan 2025", value: "japan-2025" }
-   ```
-   Without this step, your wife can't pick the new trip from the form.
-4. Push. Done.
+1. She goes to `/admin/`, clicks **"New Trip"** in the trips collection.
+2. Fills in the form (Trip name, dates, cover photo, location, lat/lng for the map pin, tags).
+3. Clicks **Publish**.
+4. Within a minute, the new trip appears on the homepage, /trips/, and the world map. It also auto-populates the **Trip** dropdown when she creates posts — no separate config to update.
+
+Each trip is stored as one file in `_trips/<slug>.md`. The trip page lives at `/<slug>/`.
+
+If you ever need to edit a trip directly (rare — for advanced things the form doesn't expose), the file format is the same fields as the form, plus optional markdown body for an intro paragraph.
 
 ---
 

@@ -43,10 +43,92 @@ public_folder: "/assets/images/uploads"
 
 # -----------------------------------------------------------------------------
 # Collections — the kinds of content that can be edited from the admin.
-# We start with just "posts" (the daily case). Trips and pages are still
-# managed via GitHub by the husband.
+# Two collections: trips (one per vacation) and posts (one per day).
+# When you create a trip, it shows up in the Trip dropdown when you create
+# posts — no code changes needed for new trips.
 # -----------------------------------------------------------------------------
 collections:
+
+  # -------------------------------------------------------------------------
+  # Trips collection — one entry per vacation.
+  # Each trip becomes a page at /<slug>/ showing its day-by-day post list.
+  # -------------------------------------------------------------------------
+  - name: "trips"
+    label: "Trips"
+    label_singular: "Trip"
+    description: "One entry per vacation. Add a trip first, then create day posts and assign them to it."
+    folder: "_trips"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    summary: "{{title}} · {{location}}"
+    sortable_fields: ['start_date', 'title']
+    fields:
+      - { label: "Trip name",
+          name: "title",
+          widget: "string",
+          hint: "e.g. 'Iceland 2024'. The URL will be auto-generated from this — keep it short and recognizable." }
+
+      - { label: "One-sentence description",
+          name: "description",
+          widget: "string",
+          hint: "Shown on the homepage card and in listings." }
+
+      - { label: "Cover photo",
+          name: "cover",
+          widget: "image",
+          hint: "Drag in the photo that represents this whole trip — used as the card image on the homepage." }
+
+      - { label: "Start date",
+          name: "start_date",
+          widget: "datetime",
+          format: "YYYY-MM-DD",
+          time_format: false,
+          date_format: "YYYY-MM-DD" }
+
+      - { label: "End date",
+          name: "end_date",
+          widget: "datetime",
+          format: "YYYY-MM-DD",
+          time_format: false,
+          date_format: "YYYY-MM-DD" }
+
+      - { label: "Location (region/country)",
+          name: "location",
+          widget: "string",
+          hint: "e.g. 'Iceland', 'Tokyo, Japan'. Shown on the card and used by the 'sort by location' option." }
+
+      - { label: "Map pin — Latitude",
+          name: "lat",
+          widget: "number",
+          required: false,
+          value_type: "float",
+          hint: "Where to place this trip's pin on the world map. Get from latlong.net. Optional but recommended." }
+
+      - { label: "Map pin — Longitude",
+          name: "lng",
+          widget: "number",
+          required: false,
+          value_type: "float" }
+
+      - { label: "Country code (2 letters)",
+          name: "country_code",
+          widget: "string",
+          required: false,
+          hint: "e.g. 'is' for Iceland, 'jp' for Japan. Optional — used for a future country-fill feature on the map." }
+
+      - { label: "Tags",
+          name: "tags",
+          widget: "list",
+          required: false,
+          default: [],
+          hint: "Filter chips on the homepage. Use region (europe, asia), style (road-trip, beach), or theme (food, hiking). Lowercase + dashes." }
+
+      - { label: "Optional intro text",
+          name: "body",
+          widget: "markdown",
+          required: false,
+          hint: "Optional. Appears below the description on the trip page, before the day-by-day list. Leave blank to skip." }
 
   # -------------------------------------------------------------------------
   # Posts collection — one entry per day of a trip.
@@ -79,13 +161,15 @@ collections:
 
       - label: "Trip"
         name: "categories"
-        widget: "select"
+        widget: "relation"
+        collection: "trips"
+        search_fields: ["title", "location"]
+        value_field: "{{slug}}"
+        display_fields: ["title"]
         multiple: true
         min: 1
         max: 1
-        options:
-          - { label: "Iceland 2024", value: "iceland-2024" }
-        hint: "Pick which trip this post belongs to. (To add a new trip, your husband edits _data/trips.yml and this admin config.)"
+        hint: "Pick which trip this post belongs to. New trips you create show up here automatically."
 
       - { label: "Day order in trip",
           name: "order",

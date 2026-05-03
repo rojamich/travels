@@ -36,23 +36,23 @@ classes: wide
   filtering. Server-rendered order is "most recent first" but JS re-sorts
   on load so the result is deterministic either way.
 -->
-{% assign sorted_trips = site.data.trips | sort: "start_date" | reverse %}
+{% assign sorted_trips = site.trips | sort: "start_date" | reverse %}
 
 <div class="trip-grid js-trip-list">
   {% for trip in sorted_trips %}
-    <a href="{{ '/' | append: trip.slug | append: '/' | relative_url }}"
+    <a href="{{ trip.url | relative_url }}"
        class="trip-card"
-       data-name="{{ trip.name }}"
+       data-name="{{ trip.title }}"
        data-location="{{ trip.location }}"
        data-start-date="{{ trip.start_date | date: '%Y-%m-%d' }}"
        data-tags="{% if trip.tags %}{{ trip.tags | join: ' ' }}{% endif %}">
       <div class="trip-card-image">
         <img src="{{ trip.cover | relative_url }}"
-             alt="{{ trip.name }}"
+             alt="{{ trip.title }}"
              onerror="this.style.display='none'">
       </div>
       <div class="trip-card-body">
-        <h3>{{ trip.name }}</h3>
+        <h3>{{ trip.title }}</h3>
         <p class="trip-card-meta">
           {{ trip.location }} &middot;
           {{ trip.start_date | date: "%b %Y" }}

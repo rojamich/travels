@@ -11,7 +11,7 @@
   =============================================================================
 {% endcomment %}
 
-{%- assign trip = site.data.trips | where: "slug", include.trip_slug | first -%}
+{%- assign trip = site.trips | where: "slug", include.trip_slug | first -%}
 {%- if trip and trip.lat -%}
 {%- assign trip_posts = site.categories[trip.slug] | sort: "order" -%}
 
@@ -29,11 +29,11 @@
   (function () {
     var trip = {
       "slug":  {{ trip.slug | jsonify }},
-      "name":  {{ trip.name | jsonify }},
+      "name":  {{ trip.title | jsonify }},
       "lat":   {{ trip.lat }},
       "lng":   {{ trip.lng }},
       "cover": {{ trip.cover | relative_url | jsonify }},
-      "url":   {{ '/' | append: trip.slug | append: '/' | relative_url | jsonify }},
+      "url":   {{ trip.url | relative_url | jsonify }},
       "posts": [
         {%- for post in trip_posts -%}
           {%- if post.location and post.location.lat -%}

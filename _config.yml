@@ -118,16 +118,30 @@ defaults:
       author_profile: false
       classes: wide
 
+  # Defaults for trip files in _trips/. The custom `trip` layout renders the
+  # cover, mini-map, and the day-by-day post list automatically.
+  - scope:
+      path: ""
+      type: trips
+    values:
+      layout: trip
+      author_profile: false
+      classes: wide
+
 
 # -----------------------------------------------------------------------------
-# COLLECTIONS — Jekyll lets us group content beyond just posts
+# COLLECTIONS — Jekyll content types beyond just posts
 # -----------------------------------------------------------------------------
-# We treat trip overview pages as their own collection so we can list them
-# easily on the homepage.
+# `trips` is the master list of trips. Each file in _trips/ is one trip
+# (metadata in front matter, optional intro text in body). Replaces the old
+# _data/trips.yml — done this way so Decap CMS can edit trips visually.
 collections:
   pages:
     output: true
     permalink: /:path/
+  trips:
+    output: true
+    permalink: /:name/
 
 
 # -----------------------------------------------------------------------------
@@ -135,6 +149,7 @@ collections:
 # -----------------------------------------------------------------------------
 include:
   - _pages
+  - _trips
 
 exclude:
   - README.md

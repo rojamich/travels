@@ -15,17 +15,17 @@ classes: wide
 
 <div class="js-controls controls" data-list-selector=".js-trip-list"></div>
 
-{% assign sorted_trips = site.data.trips | sort: "start_date" | reverse %}
+{% assign sorted_trips = site.trips | sort: "start_date" | reverse %}
 
 <div class="js-trip-list">
   {% for trip in sorted_trips %}
     <article class="trip-card trip-list-row"
-             data-name="{{ trip.name }}"
+             data-name="{{ trip.title }}"
              data-location="{{ trip.location }}"
              data-start-date="{{ trip.start_date | date: '%Y-%m-%d' }}"
              data-tags="{% if trip.tags %}{{ trip.tags | join: ' ' }}{% endif %}">
       <h2 style="margin-bottom:0.2em;">
-        <a href="{{ '/' | append: trip.slug | append: '/' | relative_url }}">{{ trip.name }}</a>
+        <a href="{{ trip.url | relative_url }}">{{ trip.title }}</a>
       </h2>
       <p class="trip-card-meta">
         {{ trip.location }} &middot;
