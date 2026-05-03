@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<!--
+  =============================================================================
+  /admin/index.html — entry point for the visual content editor
+  =============================================================================
+  This page IS the editor. When your wife visits /admin/ she'll see a
+  Netlify Identity login prompt; once logged in, Decap CMS loads the posts
+  from the GitHub repo and presents them as a form-based editor.
+
+  Photos uploaded inside the editor go to Cloudinary (configured in
+  /admin/config.yml). Content saved goes back to the GitHub repo via
+  Netlify's Git Gateway, which triggers a Netlify rebuild.
+
+  No build step or front matter on this file — Jekyll passes it through
+  to the published site as-is.
+  =============================================================================
+-->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Blog · Editor</title>
+  <link rel="icon" href="data:," />
+</head>
+<body>
+  <!-- Decap CMS itself (the admin UI) -->
+  <script src="https://unpkg.com/decap-cms@^3.1.0/dist/decap-cms.js"></script>
+
+  <!-- Cloudinary media library plugin for Decap (drag-and-drop uploads) -->
+  <script src="https://unpkg.com/decap-cms-media-library-cloudinary@^3.0.0/dist/decap-cms-media-library-cloudinary.js"></script>
+
+  <!-- Netlify Identity widget for login (handles invitation, password, sessions) -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</body>
+</html>

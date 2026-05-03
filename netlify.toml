@@ -1,0 +1,28 @@
+# =============================================================================
+# netlify.toml — build configuration for Netlify
+# =============================================================================
+# Netlify reads this file to know how to build the site. Most things are
+# auto-detected from the Gemfile, but pinning Ruby version + the build
+# command makes the build deterministic.
+# =============================================================================
+
+[build]
+  command = "bundle exec jekyll build"
+  publish = "_site"
+
+[build.environment]
+  JEKYLL_ENV = "production"
+  RUBY_VERSION = "3.1.4"
+
+# -----------------------------------------------------------------------------
+# Headers — small UX/security tweaks for the admin route.
+# -----------------------------------------------------------------------------
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    # Prevent the admin page from being framed by another site.
+    X-Frame-Options = "DENY"
+
+# -----------------------------------------------------------------------------
+# Redirects — none for now. If you ever buy a custom domain, add it here.
+# -----------------------------------------------------------------------------

@@ -12,3 +12,26 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+<!--
+  Netlify Identity widget. Loaded on every page so that:
+   1. When someone clicks the email-confirmation link from their invite, the
+      page can detect the auth token in the URL and route them to /admin/.
+   2. A "Login" link in the future could trigger the widget from anywhere.
+  When no one is signed in, the widget is invisible.
+-->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  // After confirming an invitation, Netlify Identity drops the user back on
+  // the homepage with a token in the URL. This snippet catches that and
+  // forwards them straight to the admin editor.
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", function (user) {
+      if (!user) {
+        window.netlifyIdentity.on("login", function () {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>

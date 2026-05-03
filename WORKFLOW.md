@@ -1,30 +1,68 @@
 # How to Post a New Travel Entry
 
 This guide is the everyday "I just got back from the day, want to write it up" workflow.
-Once your husband finishes the one-time setup, you only ever need this page.
+You only ever need this page.
 
-You'll do **everything from a web browser**. No code editor, no terminal, no installs.
+You do **everything from a web browser**. No code editor, no terminal, no installs.
 
 ---
 
-## The 5-minute version
+## The 30-second version
 
-1. Go to https://github.com/rojamich/travels
-2. Open the `_posts/` folder
-3. Click **Add file → Create new file**
-4. Name the file using this exact pattern:
-   ```
-   2024-06-03-day-3-the-south-coast.md
-   ```
-   (date first, then a short description, no spaces, dashes between words, ends in `.md`)
-5. Paste the **template below**, fill in your text, save (called "commit") at the bottom.
-6. Within ~1 minute the new entry is live at https://rojamich.github.io/travels/
+1. Go to **https://where-in-the-world-are-mike-and-jen.netlify.app/admin/**
+2. Log in with your email and password (the first time, click your invitation link from the email Netlify sent you and set a password).
+3. Click **"New Travel Post"** in the top-right.
+4. Fill in the form — title, date, trip, day order, etc.
+5. Drag photos into the **Cover**, **Banner**, and **Gallery** fields. They upload automatically (no compression needed — Cloudinary handles it).
+6. Write your post in the big **Body** box at the bottom.
+7. Click **Publish** in the top-right.
+8. Within ~1 minute the post is live on the site.
 
 That's it.
 
 ---
 
-## The template — copy and paste this for every new post
+## What each field on the form means
+
+| Field | What to put |
+|-------|-------------|
+| **Title** | The headline of the post — e.g. "Day 3 — The South Coast" |
+| **Date** | The date this happened (format YYYY-MM-DD; the date picker handles it) |
+| **Trip** | Pick which trip this post belongs to from the dropdown |
+| **Day order in trip** | 1 for day 1, 2 for day 2, etc. Posts on the trip page sort by this — so you can reorder days even after writing them out of order |
+| **Cover & banner → Teaser** | The small thumbnail shown in the homepage and trip-page listings |
+| **Cover & banner → Banner** | The big photo at the top of the post itself (often the same as Teaser) |
+| **Cover & banner → Banner darkening** | 0 = no darkening, 1 = fully black. Higher numbers make the title text more readable on bright photos. 0.4 is the default sweet spot |
+| **Tags** | Optional keywords (food, hiking, etc). Skip if you don't care |
+| **Map pin location** | Where this day happened. Adds a clickable pin on the map. Click "Add Map pin location" to expand, then fill in name + lat + lng (get coords from [latlong.net](https://www.latlong.net/)). Skip the whole block for travel/rest days |
+| **Photo gallery** | Photos shown together as a grid. Click "Add Photo gallery" then "Add" once per photo. The two image fields can be the same photo |
+| **Excerpt** | Optional one-sentence summary shown in listings |
+| **Body** | The actual blog post. The toolbar above the box has buttons for bold, italic, headings, links, etc. Drag photos in to add them inline |
+
+---
+
+## Editing or deleting an existing post
+
+1. Same admin page, click any post in the list to open it.
+2. Make your changes — change works exactly like creating a new post.
+3. Click **Publish** to save (or **Delete** at the bottom to remove).
+4. Goes live within a minute.
+
+---
+
+## "Help, I broke something"
+
+The admin form prevents most kinds of breakage — you can't accidentally delete the site or mess up the structure.
+
+If a published post looks weird, just open it in admin and fix it. If you can't figure out what's wrong, send your husband the link to the post and he can look at the file directly.
+
+Nothing you can do in admin will permanently break anything; everything is in Git history and can be undone.
+
+---
+
+## (Advanced) Direct file template — only if admin is unavailable
+
+If you ever can't log in to admin, you can still post by editing the GitHub repo directly. Skip this section unless you need it.
 
 ```markdown
 ---
@@ -34,8 +72,8 @@ categories:
   - iceland-2024
 order: 3
 header:
-  teaser: /travels/assets/images/iceland-2024/day3-cover.jpg
-  overlay_image: /travels/assets/images/iceland-2024/day3-cover.jpg
+  teaser: /assets/images/iceland-2024/day3-cover.jpg
+  overlay_image: /assets/images/iceland-2024/day3-cover.jpg
   overlay_filter: 0.4
 tags:
   - iceland
@@ -45,11 +83,11 @@ location:
   lat: 63.4194
   lng: -19.0064
 gallery:
-  - url: /travels/assets/images/iceland-2024/day3-photo1.jpg
-    image_path: /travels/assets/images/iceland-2024/day3-photo1.jpg
+  - url: /assets/images/iceland-2024/day3-photo1.jpg
+    image_path: /assets/images/iceland-2024/day3-photo1.jpg
     alt: "what this photo shows"
-  - url: /travels/assets/images/iceland-2024/day3-photo2.jpg
-    image_path: /travels/assets/images/iceland-2024/day3-photo2.jpg
+  - url: /assets/images/iceland-2024/day3-photo2.jpg
+    image_path: /assets/images/iceland-2024/day3-photo2.jpg
     alt: "what this photo shows"
 excerpt: "One-sentence teaser shown in the trip listing."
 ---
@@ -84,52 +122,24 @@ Another paragraph.
 
 ## Adding photos
 
-### Step 1: compress them first
+You don't compress, you don't resize, you don't upload to a folder. Just **drag photos straight into the form.**
 
-Phone photos are huge. Drag-and-drop them into one of these (free, no signup):
+When you click an image field (Cover, Banner, Gallery rows) or drag a photo into one, the photo uploads to Cloudinary in the background. Cloudinary stores the original AND automatically generates an optimized smaller version that the website serves to visitors. Result: visitors see fast-loading photos without you doing any work.
 
-- [Squoosh.app](https://squoosh.app/) — best quality, more options
-- [TinyPNG.com](https://tinypng.com/) — simpler, batch-uploads up to 20 at a time
+To put a photo inline in the post body (in the middle of your writing, not in a gallery), click the image button in the body editor's toolbar.
 
-Aim for **under 500 KB each** after compression.
+### How many photos can I add?
 
-### Step 2: upload to the right folder
-
-1. On GitHub, go to `assets/images/iceland-2024/` (or whatever trip you're on).
-2. Click **Add file → Upload files**.
-3. Drag the compressed photos in.
-4. Scroll down → **Commit changes**.
-
-### Step 3: reference them in your post
-
-The path is always:
-
-```
-/travels/assets/images/<trip-slug>/<filename>
-```
-
-So if you uploaded `sunset.jpg` to the iceland-2024 folder:
-
-```
-/travels/assets/images/iceland-2024/sunset.jpg
-```
-
-To put a photo inline in the post body:
-
-```markdown
-![A nice sunset](/travels/assets/images/iceland-2024/sunset.jpg)
-```
-
-To use it as the cover, put it in the `header:` block of the front matter.
-To put it in the gallery, add it as a new entry under `gallery:`.
+Cloudinary's free plan gives ~25 GB of photos and 25 GB/month of bandwidth. At your typical 20 photos per post, that's around 500–1000 posts before storage becomes a concern. Realistically: years and years.
 
 ---
 
 ## Adding videos
 
-YouTube and Vimeo are free and don't count toward GitHub's storage. Upload
-the video to YouTube (you can mark it Unlisted if it's just for family),
-then paste this snippet into the post wherever you want the video:
+YouTube and Vimeo are free, work great with the site, and don't count
+against any storage. Upload the video to YouTube (mark it Unlisted if it's
+just for family), then in the body editor click the **HTML** button (or
+type directly) and paste:
 
 ```html
 <iframe width="100%" height="400"
@@ -140,9 +150,6 @@ then paste this snippet into the post wherever you want the video:
 
 To get the `VIDEO_ID`: from a YouTube URL like
 `https://www.youtube.com/watch?v=dQw4w9WgXcQ`, the ID is `dQw4w9WgXcQ`.
-
-**Don't upload `.mp4` files into the repo** — videos are huge and will
-quickly run you into GitHub's storage limits.
 
 ---
 
@@ -225,7 +232,7 @@ Check out the [official site](https://example.com).
 To put a single photo inline (right where you put it in the text):
 
 ```
-![Sunset over the harbor](/travels/assets/images/iceland-2024/sunset.jpg)
+![Sunset over the harbor](/assets/images/iceland-2024/sunset.jpg)
 ```
 
 For a multi-photo gallery, set up the photos in the front matter under

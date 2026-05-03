@@ -1,10 +1,13 @@
 # Travel Blog — Setup Guide
 
-This is a Jekyll-based travel blog that runs free on GitHub Pages.
-Site URL once deployed: **https://rojamich.github.io/travels/**
+A Jekyll-based travel blog hosted on Netlify, with photos on Cloudinary and a
+visual content editor (Decap CMS) at `/admin/`.
+
+Live URL: **https://where-in-the-world-are-mike-and-jen.netlify.app**
 
 This README is for **you (the technical setup person).**
-For the day-to-day "how do I post a new entry" guide, see [WORKFLOW.md](WORKFLOW.md).
+For the day-to-day "how do I post a new entry" guide that you hand to your
+wife, see [WORKFLOW.md](WORKFLOW.md).
 
 ---
 
@@ -12,240 +15,234 @@ For the day-to-day "how do I post a new entry" guide, see [WORKFLOW.md](WORKFLOW
 
 ```
 .
-├── _config.yml             ← site-wide settings (title, theme, URL)
-├── Gemfile                 ← Ruby gem list (read by GitHub Pages, not by you)
-├── .gitignore              ← files Git should ignore
+├── _config.yml             ← site-wide settings (title, theme, URL, plugins)
+├── Gemfile                 ← Ruby gem list (read by Netlify, not by you)
+├── netlify.toml            ← Netlify build config
+├── .gitignore
+│
+├── admin/                  ← Decap CMS visual editor (lives at /admin/)
+│   ├── index.html          ← entry point — your wife visits this
+│   └── config.yml          ← form definitions (which fields appear)
 │
 ├── index.html              ← homepage (auto-lists trips)
 │
 ├── _data/
-│   ├── trips.yml           ← MASTER LIST of trips (edit this when adding a trip)
+│   ├── trips.yml           ← MASTER LIST of trips (you edit this)
 │   └── navigation.yml      ← top nav menu items
 │
 ├── _pages/
 │   ├── trips.md            ← "All Trips" page
 │   ├── about.md            ← About page
+│   ├── map.md              ← interactive world map
 │   └── iceland-2024.md     ← one file per trip; lists its posts
 │
-├── _posts/
+├── _posts/                 ← your wife's posts (she creates these via /admin/)
 │   ├── 2024-06-01-day-1-arrival-in-reykjavik.md
 │   └── 2024-06-02-day-2-the-golden-circle.md
 │
+├── _includes/
+│   ├── head/custom.html    ← Google Fonts + Netlify Identity widget
+│   ├── subscribe.html      ← email subscription block
+│   ├── trip-map.html       ← embedded mini-map for trip pages
+│   └── comments-providers/
+│       └── custom.html     ← Cusdis comments embed
+│
 ├── assets/
-│   └── images/
-│       └── iceland-2024/   ← photos for that trip live here
+│   ├── css/main.scss       ← coastal palette + custom styles
+│   ├── js/maps.js          ← Leaflet map logic
+│   ├── js/sort-filter.js   ← homepage/trip-list sort + tag filter
+│   └── images/             ← (rarely used now — photos live on Cloudinary)
 │
 └── scripts/
     ├── import_blogger.py   ← convert Blogger XML export to Jekyll posts
-    └── requirements.txt    ← Python deps for the import script
+    └── requirements.txt
 ```
 
 ---
 
-## One-time setup (about 15 minutes)
+## One-time hosting setup
 
-### 1. Create the GitHub repo
+### 1. Netlify — connect to the GitHub repo
 
-1. On GitHub, click **+ → New repository**.
-2. Name it exactly: **`travels`**
-3. Set it to **Public** (required for free GitHub Pages).
-4. Do NOT initialize it with a README — we already have one.
-5. Click **Create repository**.
+1. Sign in at [app.netlify.com](https://app.netlify.com).
+2. **Add new site → Import an existing project → Deploy with GitHub**.
+3. Pick the `rojamich/travels` repo.
+4. Netlify will show a build settings page. Defaults are correct (build
+   command `bundle exec jekyll build`, publish dir `_site`) — they come
+   from the `netlify.toml` in the repo. Click **Deploy site**.
+5. First build takes ~2-3 min. Once it's green, you'll have a temporary URL
+   like `random-name.netlify.app`.
+6. Go to **Site configuration → Change site name** and set it to:
+   `where-in-the-world-are-mike-and-jen`
+7. Confirm the live URL is `https://where-in-the-world-are-mike-and-jen.netlify.app`.
 
-### 2. Push this folder to GitHub
+### 2. Netlify Identity — admin login
 
-The simplest path is GitHub Desktop:
+1. In your Netlify site dashboard, click **Integrations**, find
+   **Netlify Identity**, click **Enable Identity** (free tier is fine).
+2. Under **Registration preferences**, set to **Invite only** (so randos
+   can't sign themselves up as editors).
+3. Under **Services → Git Gateway**, click **Enable Git Gateway**. This
+   lets the CMS commit to the repo on your wife's behalf.
+4. Under **Identity → Users**, click **Invite users** and enter your
+   wife's email: `jennabooksrojas@gmail.com`. She'll get an email with
+   a link.
+5. When she clicks it, she'll land on the homepage with a token in the URL,
+   the page detects it, prompts her to set a password, and forwards her
+   to `/admin/`. She's in.
 
-1. Install [GitHub Desktop](https://desktop.github.com/) if you don't have it.
-2. **File → Add local repository →** select this folder.
-3. It will say "this is not a Git repository" — click **Create a repository**.
-4. **Publish repository** (top right). Make sure "Keep this code private" is **unchecked**.
+### 3. Cloudinary — already configured
 
-Or via command line, from this folder:
+The Cloudinary cloud name and API key are already in `admin/config.yml`.
+Photos uploaded inside `/admin/` will automatically go to your Cloudinary
+account. Visit your [Cloudinary dashboard](https://console.cloudinary.com/)
+to see them landing as she works.
 
-```bash
-git init
-git add .
-git commit -m "initial commit"
-git branch -M main
-git remote add origin https://github.com/rojamich/travels.git
-git push -u origin main
-```
+### 4. Turn off GitHub Pages (optional but recommended)
 
-### 3. Turn on GitHub Pages
+Once Netlify is up and working, the old GitHub Pages site at
+`rojamich.github.io/travels/` will be serving a broken version of the same
+content. Turn it off so there's only one canonical site:
 
-1. On GitHub, go to your `travels` repo → **Settings → Pages**.
-2. Under **Build and deployment → Source**, pick **Deploy from a branch**.
-3. Branch: **main**, folder: **/ (root)**. Click **Save**.
-4. Wait ~1 minute. The page will refresh and show:
-   *Your site is live at https://rojamich.github.io/travels/*
-
-That's it. The site builds automatically every time anything is pushed to `main`.
-
-### 4. Verify it works
-
-Open https://rojamich.github.io/travels/ in a browser. You should see:
-- The homepage with a single Iceland 2024 card
-- Clicking the card → trip page listing Day 1 and Day 2
-- Clicking a day → the full post
-
-The sample posts use `picsum.photos` placeholder images so it looks alive
-out of the box. Replace those URLs (in the post front matter) with real
-photos from `/assets/images/iceland-2024/` once you upload them.
+1. GitHub repo → **Settings → Pages**.
+2. Under **Source**, change to **None** (or **Deploy from a branch** with a
+   non-existent branch). Save.
 
 ---
 
-## Adding photos
+## Daily workflow
 
-Drag-and-drop them into the GitHub web UI:
+**Your wife** uses the visual editor:
+- She goes to `/admin/`, logs in, and creates/edits posts via forms.
+- Photos go to Cloudinary automatically — no compression, no folder management.
+- "Publish" commits to GitHub via Netlify Git Gateway, which triggers a rebuild.
 
-1. Go to your repo → `assets/images/iceland-2024/` (or whatever trip folder).
-2. Click **Add file → Upload files**.
-3. Drag photos in. **Commit changes**.
+**You** continue to use VS Code + GitHub for everything that's not a post:
+- Theme/CSS tweaks (`assets/css/main.scss`)
+- Trip metadata (`_data/trips.yml`)
+- New trip pages (`_pages/<slug>.md`)
+- Site config (`_config.yml`)
+- The admin form schema if it ever needs new fields (`admin/config.yml`)
 
-In a post, reference an image as:
+Pushing to `main` → Netlify auto-rebuilds within a minute.
 
-```markdown
-![Caption here](/travels/assets/images/iceland-2024/sunset.jpg)
-```
+---
 
-Note the `/travels/` prefix — that's the `baseurl` from `_config.yml`.
+## Adding a new trip
 
-### Compressing photos
+The CMS doesn't manage trips, only posts. To add a new trip:
 
-Phone photos are typically 4–8 MB each. The repo will balloon fast.
-**Before uploading, run them through:**
+1. Add an entry to `_data/trips.yml` (copy the Iceland one). Required fields:
+   `slug`, `name`, `description`, `cover`, `start_date`, `end_date`,
+   `location`, optionally `lat`/`lng` (for the world map pin),
+   `country_code`, and `tags`.
+2. Create `_pages/<slug>.md` by copying `_pages/iceland-2024.md` and
+   changing `permalink`, `title`, and `trip_slug` to match the new slug.
+3. **Add the trip to the dropdown in the admin form**: open
+   `admin/config.yml`, find the `categories` field, add a new option:
+   ```yaml
+   options:
+     - { label: "Iceland 2024", value: "iceland-2024" }
+     - { label: "Japan 2025", value: "japan-2025" }
+   ```
+   Without this step, your wife can't pick the new trip from the form.
+4. Push. Done.
 
-- [Squoosh.app](https://squoosh.app/) — drag-and-drop, browser-only
-- [TinyPNG.com](https://tinypng.com/) — even simpler
+---
 
-Aim for **under 500 KB per photo**. The site loads way faster, and Google
-Pages has a soft 1 GB repo limit.
+## Comments — Cusdis
+
+Already set up. The Cusdis App ID is in `_config.yml` (`cusdis_app_id`).
+Visitors comment without an account; you moderate at
+[cusdis.com](https://cusdis.com/dashboard).
+
+To temporarily disable comments: clear `cusdis_app_id` back to `""`.
+
+---
+
+## Maps
+
+`/map/` page shows one pin per trip on a world map. Click a pin → zoom in
+and reveal the day-by-day route for that trip. Each trip page also embeds
+a smaller map of just that trip.
+
+For trips: add `lat:` and `lng:` to the entry in `_data/trips.yml`.
+For per-day pins: when your wife adds a `Map pin location` in the admin
+form, that day shows up as a pin on the route. Get coordinates from
+[latlong.net](https://www.latlong.net/).
+
+**Optional v2 upgrade:** fill visited countries with their flag (instead
+of just a pin). Adds ~2 hours of work — needs country boundary GeoJSON,
+flag images, and SVG pattern fills. The `country_code` field in
+`_data/trips.yml` is forward-compat for this — say the word when you
+want it.
 
 ---
 
 ## Importing existing Blogger posts
 
 ```bash
-# in this folder
 pip install -r scripts/requirements.txt
 python scripts/import_blogger.py path/to/blog-export.xml --trip iceland-2024
 ```
 
-That will:
-- Convert each Blogger post to Markdown in `_posts/`
-- Download all referenced images into `assets/images/iceland-2024/`
-- Tag everything with the trip slug you provided
+Converts each post to Markdown in `_posts/` and downloads images to
+`assets/images/<trip>/`. After importing, you may want to:
+- Open each generated `.md` and set the `order:` field to control sequence
+- Move the downloaded images to Cloudinary so they live alongside new uploads
+  (or leave them in the repo — both work)
 
 If the Blogger blog covers multiple trips, run the script multiple times
-with `--since` and `--until` to bucket posts by date range, e.g.:
-
-```bash
-python scripts/import_blogger.py blog.xml --trip iceland-2024 --since 2024-06-01 --until 2024-06-14
-python scripts/import_blogger.py blog.xml --trip japan-2025  --since 2025-03-10 --until 2025-03-24
-```
-
-After importing, open each generated `.md`, add an `order:` field to control
-the sequence on the trip page, and clean up any messy formatting Blogger left behind.
+with `--since` and `--until` to bucket posts by date range.
 
 ---
-
-## Adding a new trip
-
-1. Add an entry to `_data/trips.yml` (copy the existing Iceland one).
-2. Create `_pages/<slug>.md` (copy `iceland-2024.md`, change `permalink`,
-   `title`, and `trip_slug`).
-3. Create `assets/images/<slug>/` and add photos.
-4. Write posts in `_posts/` with `categories: [<slug>]` and an `order:` field.
-
-The homepage and `/trips/` page will pick up the new trip automatically.
-
----
-
-## Comments (Cusdis — visitors don't need an account)
-
-The post template already includes a comments section. It only renders once
-you've added a Cusdis App ID to `_config.yml`.
-
-1. Go to [cusdis.com](https://cusdis.com/) and sign up (free, generous limits).
-2. Add a new site. URL: `https://rojamich.github.io/travels/`.
-3. They give you an **App ID** that looks like a UUID (e.g. `8b3f1c2e-...`).
-4. Open `_config.yml`, find this line:
-   ```yaml
-   cusdis_app_id: ""
-   ```
-   Paste the App ID between the quotes, commit, push.
-5. Visitors can now comment on any post — they just type a name and message.
-   You moderate from your Cusdis dashboard (approve/delete).
-
-To temporarily turn off comments: clear `cusdis_app_id` back to `""`.
-
-## Maps
-
-There's a `/map/` page in the nav showing one pin per trip on a world map.
-Click a pin → zoom in and reveal the day-by-day route for that trip.
-Each trip page also has a small embedded map of just that trip.
-
-To make a trip appear on the map, add `lat:` and `lng:` to its entry in
-`_data/trips.yml`. To make individual days appear as pins on the route,
-add `location:` to each post:
-
-```yaml
-location:
-  name: "Reykjavik, Iceland"
-  lat: 64.1466
-  lng: -21.9426
-```
-
-Get coordinates from [latlong.net](https://www.latlong.net/) — search a
-place and copy the lat/lng. Posts without `location:` simply don't get a pin.
-
-**Optional v2 upgrade:** fill visited countries with their flag (instead
-of just placing a pin). Doable but adds ~2 hours of work — needs country
-boundary GeoJSON, flag images, and SVG pattern fills. The `country_code`
-field already in `_data/trips.yml` is forward-compat for this — when you
-want it, just say so.
 
 ## Subscriber emails (free)
 
-Sign up for [follow.it](https://follow.it/), point it at the RSS feed at
-`https://rojamich.github.io/travels/feed.xml`. They give you an embed snippet
-(a small HTML form). Paste it into `_pages/about.md` where the comment
-`<!-- Subscriber widget goes here once configured. -->` is.
-
-That's the easiest free option. No domain, no server, no monthly cost.
+Sign up for [follow.it](https://follow.it/), point it at the RSS feed:
+`https://where-in-the-world-are-mike-and-jen.netlify.app/feed.xml`.
+They give you an HTML form snippet — paste it into
+`_includes/subscribe.html` between the `<!-- SUBSCRIBE-FORM START -->`
+and `<!-- SUBSCRIBE-FORM END -->` markers, replacing the placeholder.
 
 ---
 
-## Optional upgrades (do these later)
+## Optional upgrades
 
-| Want | Action |
-|------|--------|
-| Visual editor for your wife (no Markdown) | Switch hosting from GitHub Pages to Netlify (still free) and turn on Decap CMS. About 15 minutes of work. Ask Claude when you're ready. |
-| Comments | Set up [Giscus](https://giscus.app/) and uncomment the `comments:` block in `_config.yml`. |
-| Custom domain | Buy a domain ($10–15/yr), add a `CNAME` file with the domain, configure DNS. |
-| Auto-compress photos | A pre-commit hook running ImageMagick or a GitHub Action with [calibreapp/image-actions](https://github.com/calibreapp/image-actions). |
+| Want | How |
+|------|-----|
+| Custom domain (e.g. `ourtravels.com`) | Buy at Namecheap/Cloudflare (~$12/yr). Netlify → Domain settings → Add custom domain. SSL is free and automatic. |
+| Country flag fill on world map | Mentioned in Maps section above. Ask Claude. |
+| Auto-resize photos beyond Cloudinary defaults | Cloudinary has powerful URL-based transformations. Can be set as defaults in the upload preset. |
+| Multi-user editor (e.g. you and wife both editing) | Netlify Identity → invite more users. Decap respects auth. |
 
 ---
 
 ## Troubleshooting
 
-**Site broken after a push.** Go to repo → **Actions** tab. The latest
-workflow run will show a red X if the build failed. Click in to see the
-error — usually a typo in YAML front matter (a missing colon, mis-indented field).
+**Site broken after a push.** Go to Netlify dashboard → **Deploys** tab.
+The failing deploy will show a red X. Click in for the build log;
+errors are at the bottom.
 
-**Photos look gigantic on the page.** They're not compressed. Run them
-through Squoosh and re-upload.
+**Wife can't log in to /admin/.**
+- Netlify Identity might not be enabled (check site settings).
+- Git Gateway might not be enabled (check site settings).
+- Her invitation may have expired (24h limit) — re-invite.
 
-**Page changes don't appear.** GitHub Pages caches aggressively. Hard
-refresh (Ctrl+F5 / Cmd+Shift+R). If still nothing, check the Actions tab.
+**Wife logs in but sees "config not found" or no posts.**
+- The `admin/config.yml` file isn't being served. Check that the file
+  exists at the repo root and that Netlify deployed the latest commit.
 
-**Image broken on a post.** Three usual culprits:
-- The path is missing the `/travels/` baseurl prefix
-- Filename casing (`Photo.jpg` vs `photo.jpg`) — GitHub Pages is case-sensitive
-- The file wasn't actually pushed (check the repo on github.com)
+**Photos upload but don't appear.**
+- Check the post's front matter — the image URL should look like
+  `https://res.cloudinary.com/dgw35sldo/image/upload/...`.
+- If it does, check that the URL works in a fresh browser tab (rare network/CORS issue).
 
----
+**Comment section missing.**
+- `cusdis_app_id` is empty in `_config.yml`.
+- Or the Cusdis Site ID doesn't match what's configured.
 
-That's the whole thing. Hand [WORKFLOW.md](WORKFLOW.md) to your wife and she
-should be able to post without ever opening this README.
+**Image broken on an old (pre-migration) post.**
+- These referenced `/travels/...` paths. Now baseurl is empty, so the
+  image path should just be `/...`. Edit the post via /admin/ and re-upload
+  the photo, or fix the path manually in the file.

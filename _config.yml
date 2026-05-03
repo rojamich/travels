@@ -1,8 +1,8 @@
 # =============================================================================
 # JEKYLL SITE CONFIGURATION
 # =============================================================================
-# This file controls site-wide settings. When you change anything in this file,
-# GitHub Pages has to rebuild the whole site (takes about 1 minute).
+# This file controls site-wide settings. When you change anything here,
+# Netlify rebuilds the whole site (takes about 1 minute).
 #
 # After pushing changes to GitHub, give it a minute, then refresh the browser.
 # =============================================================================
@@ -18,21 +18,20 @@ description: "A blog of our trips, photos, and stories."
 email: ""                              # Optional. Leave blank if you don't want it public.
 
 # IMPORTANT: these two URLs control where the site lives.
-# - `url` is the GitHub Pages domain.
-# - `baseurl` is the subfolder (because this is a project page, not a root site).
-# Together they mean the site lives at:  https://rojamich.github.io/travels/
-url: "https://rojamich.github.io"
-baseurl: "/travels"
+# Site is hosted on Netlify at the root domain (no subfolder), so baseurl
+# is empty and url is the netlify.app domain.
+url: "https://where-in-the-world-are-mike-and-jen.netlify.app"
+baseurl: ""
 
 # GitHub repo info — used by some theme features (edit-this-page links, etc.)
 repository: "rojamich/travels"
 
 
 # -----------------------------------------------------------------------------
-# THEME — Minimal Mistakes, loaded remotely so we don't need to install gems
+# THEME — Minimal Mistakes, loaded remotely (no local install needed)
 # -----------------------------------------------------------------------------
-# `remote_theme` tells GitHub Pages to fetch the theme from another GitHub repo
-# at build time. This is the secret to skipping local Ruby/Jekyll setup.
+# `remote_theme` tells the build to fetch the theme from a GitHub repo at
+# build time. The jekyll-remote-theme plugin (loaded below) handles this.
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 # Minimal Mistakes ships several skins (color schemes). Pick one, or comment
@@ -42,10 +41,9 @@ minimal_mistakes_skin: "air"
 
 
 # -----------------------------------------------------------------------------
-# PLUGINS — extra features that GitHub Pages allows
+# PLUGINS — extra Jekyll features
 # -----------------------------------------------------------------------------
-# Only plugins on GitHub Pages' allowlist work without local builds.
-# Full list: https://pages.github.com/versions/
+# These must also be listed in the Gemfile.
 plugins:
   - jekyll-include-cache       # Required by Minimal Mistakes for performance
   - jekyll-paginate            # For paginated post lists (older/newer)
@@ -53,6 +51,7 @@ plugins:
   - jekyll-feed                # Auto-generates RSS/Atom feed
   - jekyll-seo-tag             # Adds SEO meta tags automatically
   - jemoji                     # Lets you write :airplane: and get ✈️ in posts
+  - jekyll-remote-theme        # Loads the Minimal Mistakes theme from GitHub
 
 
 # -----------------------------------------------------------------------------
@@ -67,7 +66,7 @@ plugins:
 comments:
   provider: "custom"            # tells Minimal Mistakes to use _includes/comments-providers/custom.html
 
-cusdis_app_id: ""               # PASTE YOUR CUSDIS APP ID HERE (between the quotes)
+cusdis_app_id: "7db99976-0c56-4488-bbbc-70579203ed05"               # PASTE YOUR CUSDIS APP ID HERE (between the quotes)
 
 
 # -----------------------------------------------------------------------------
@@ -75,7 +74,7 @@ cusdis_app_id: ""               # PASTE YOUR CUSDIS APP ID HERE (between the quo
 # -----------------------------------------------------------------------------
 # Read all .md files inside _posts/ as blog posts (Jekyll default).
 # `permalink` controls the URL pattern. We use category + title so URLs look
-# like /travels/iceland-2024/day-1-reykjavik/
+# like /iceland-2024/day-1-reykjavik/
 permalink: /:categories/:title/
 
 # Show 10 posts per archive page. Older ones get paginated.
@@ -145,4 +144,5 @@ exclude:
   - vendor
   - scripts
   - node_modules
+  - netlify.toml
   - "*.gemspec"

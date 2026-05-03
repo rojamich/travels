@@ -9,10 +9,9 @@
 
 source "https://rubygems.org"
 
-# The `github-pages` gem bundles the exact versions of Jekyll and plugins that
-# GitHub Pages supports. Pinning to it guarantees what builds locally will
-# also build on GitHub.
-gem "github-pages", group: :jekyll_plugins
+# We use plain Jekyll on Netlify (not the `github-pages` meta-gem, which
+# pins old versions). This gives us a faster, more current Jekyll.
+gem "jekyll", "~> 4.3"
 
 # Plugins. These must also be listed in _config.yml under `plugins:`.
 group :jekyll_plugins do
@@ -22,7 +21,11 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
   gem "jemoji"
+  gem "jekyll-remote-theme"   # required for `remote_theme:` in _config.yml
 end
+
+# webrick is no longer in stdlib for Ruby 3+ — needed for `jekyll serve`.
+gem "webrick"
 
 # Windows / JRuby do not include zoneinfo, so bundle the tzinfo-data gem.
 # (Harmless on Linux/macOS — only loads when needed.)

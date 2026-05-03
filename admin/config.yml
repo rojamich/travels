@@ -1,0 +1,175 @@
+# =============================================================================
+# Decap CMS configuration
+# =============================================================================
+# This file defines what the admin form looks like. Each `field` here
+# becomes one input on the page. The `name` of a field is what gets written
+# into the post's front matter, so they must match what _config.yml and the
+# layouts expect (title, date, categories, header, location, gallery, etc).
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Backend: Netlify Identity + Git Gateway
+# Saves go to GitHub via Netlify; we don't need to put any GitHub token here.
+# -----------------------------------------------------------------------------
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: 'Add post: {{slug}}'
+    update: 'Edit post: {{slug}}'
+    delete: 'Delete post: {{slug}}'
+    uploadMedia: 'Upload {{path}}'
+    deleteMedia: 'Delete {{path}}'
+
+# Where the live site lives. Used by the "preview" feature.
+site_url: https://where-in-the-world-are-mike-and-jen.netlify.app
+display_url: https://where-in-the-world-are-mike-and-jen.netlify.app
+logo_url: https://where-in-the-world-are-mike-and-jen.netlify.app/assets/images/iceland-2024/cover.jpg
+
+# -----------------------------------------------------------------------------
+# Media: Cloudinary
+# Photos uploaded inside the editor go straight to Cloudinary. Decap inserts
+# the Cloudinary URL into the post automatically.
+# -----------------------------------------------------------------------------
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dgw35sldo
+    api_key: '353435959467269'
+
+# Local fallback (only used if Cloudinary fails to load — should never trigger).
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+# -----------------------------------------------------------------------------
+# Collections — the kinds of content that can be edited from the admin.
+# We start with just "posts" (the daily case). Trips and pages are still
+# managed via GitHub by the husband.
+# -----------------------------------------------------------------------------
+collections:
+
+  # -------------------------------------------------------------------------
+  # Posts collection — one entry per day of a trip.
+  # -------------------------------------------------------------------------
+  - name: "posts"
+    label: "Travel Posts"
+    label_singular: "Travel Post"
+    description: "Each day's blog entry. Pick the trip, set the day order, write away."
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}} · {{commit_date | date('YYYY-MM-DD')}}"
+    sortable_fields: ['date', 'title', 'order']
+    view_filters:
+      - label: "Iceland 2024"
+        field: categories
+        pattern: "iceland-2024"
+    fields:
+      - { label: "Title",
+          name: "title",
+          widget: "string",
+          hint: "The headline of the post — e.g. 'Day 3 — The South Coast'." }
+
+      - { label: "Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD",
+          time_format: false,
+          date_format: "YYYY-MM-DD" }
+
+      - label: "Trip"
+        name: "categories"
+        widget: "select"
+        multiple: true
+        min: 1
+        max: 1
+        options:
+          - { label: "Iceland 2024", value: "iceland-2024" }
+        hint: "Pick which trip this post belongs to. (To add a new trip, your husband edits _data/trips.yml and this admin config.)"
+
+      - { label: "Day order in trip",
+          name: "order",
+          widget: "number",
+          value_type: "int",
+          min: 0,
+          hint: "1 = day 1, 2 = day 2. Controls sort order on the trip page." }
+
+      - label: "Cover & banner"
+        name: "header"
+        widget: "object"
+        hint: "The big photo at the top of the post and the thumbnail in listings."
+        fields:
+          - { label: "Teaser (small thumbnail in listings)",
+              name: "teaser",
+              widget: "image" }
+          - { label: "Banner (large image at top of post)",
+              name: "overlay_image",
+              widget: "image" }
+          - { label: "Banner darkening (0–1)",
+              name: "overlay_filter",
+              widget: "number",
+              value_type: "float",
+              default: 0.4,
+              min: 0,
+              max: 1,
+              step: 0.1,
+              hint: "0 = no darkening, 1 = fully black. Higher numbers make the title text more readable on bright photos." }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        default: []
+        hint: "Optional keywords (e.g. food, hiking). Leave empty if you don't care."
+
+      - label: "Map pin location"
+        name: "location"
+        widget: "object"
+        required: false
+        collapsed: true
+        hint: "Adds a pin to the trip map. Get coordinates from latlong.net. Skip the whole block for travel/rest days with no specific location."
+        fields:
+          - { label: "Place name",
+              name: "name",
+              widget: "string",
+              required: false,
+              hint: "e.g. Reykjavik, Iceland" }
+          - { label: "Latitude",
+              name: "lat",
+              widget: "number",
+              required: false,
+              value_type: "float" }
+          - { label: "Longitude",
+              name: "lng",
+              widget: "number",
+              required: false,
+              value_type: "float" }
+
+      - label: "Photo gallery"
+        name: "gallery"
+        widget: "list"
+        required: false
+        collapsed: true
+        hint: "Photos shown together as a grid. Add a row per photo. The two image fields can be the same — upload once, click 'use existing' for the second."
+        fields:
+          - { label: "Image (full size)",
+              name: "url",
+              widget: "image" }
+          - { label: "Image (thumbnail — usually same)",
+              name: "image_path",
+              widget: "image" }
+          - { label: "Caption / alt text",
+              name: "alt",
+              widget: "string",
+              required: false }
+
+      - { label: "Excerpt",
+          name: "excerpt",
+          widget: "string",
+          required: false,
+          hint: "One-sentence summary shown in listings. Optional — Jekyll auto-generates one from the body if you skip this." }
+
+      - { label: "Body",
+          name: "body",
+          widget: "markdown",
+          hint: "Write your post here. Use the toolbar above for formatting; drag photos in to upload." }
