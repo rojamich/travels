@@ -1,15 +1,15 @@
-<!--
+{% comment %}
   =============================================================================
   trip-map.html — embeddable mini-map for a single trip page
   =============================================================================
   Drop into a trip page like this:
 
-      {% include trip-map.html trip_slug="iceland-2024" %}
+  {% raw %}{% include trip-map.html trip_slug="iceland-2024" %}{% endraw %}
 
   Renders a small map showing day pins + the route between them. Skips
   silently if the trip has no coordinates.
   =============================================================================
--->
+{% endcomment %}
 
 {%- assign trip = site.data.trips | where: "slug", include.trip_slug | first -%}
 {%- if trip and trip.lat -%}

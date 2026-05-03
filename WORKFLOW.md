@@ -40,6 +40,10 @@ header:
 tags:
   - iceland
   - waterfalls
+location:
+  name: "Vík, Iceland"
+  lat: 63.4194
+  lng: -19.0064
 gallery:
   - url: /travels/assets/images/iceland-2024/day3-photo1.jpg
     image_path: /travels/assets/images/iceland-2024/day3-photo1.jpg
@@ -71,6 +75,7 @@ Another paragraph.
 | `order:` | A number controlling sequence on the trip page. Day 1 is `1`, day 2 is `2`, etc. |
 | `header:` images | Path to the post's cover photo (see "Adding photos" below) |
 | `tags:` | Optional keywords. Leave empty or delete if you don't care. |
+| `location:` | Where this day happened. Becomes a clickable pin on the trip map (see "Putting a post on the map" below). Delete the whole block if you don't want a pin for this day. |
 | `gallery:` | One block per gallery photo. Add or remove blocks as needed. |
 | `excerpt:` | One-sentence summary shown in listings |
 | Body | Everything below the second `---`. This is your actual blog post. |

@@ -213,6 +213,47 @@ a {
 }
 
 // -----------------------------------------------------------------------------
+// PREVIOUS / NEXT POST BUTTONS (bottom of every single post)
+// -----------------------------------------------------------------------------
+// Minimal Mistakes' default makes these big block buttons. Slimming them
+// down to compact pills that match the tag-chip aesthetic.
+.pagination--pager {
+  display: inline-block !important;
+  padding: 0.45em 1.1em !important;
+  border-radius: 999px !important;       // full pill
+  font-size: 0.8em !important;
+  font-weight: 600;
+  background: #fff !important;
+  color: $navy-deep !important;
+  border: 1px solid $border-color !important;
+  width: auto !important;                // override theme's 49%-width rule
+  max-width: 48%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    background: $sand-medium !important;
+    border-color: $seaglass !important;
+    color: $navy-deep !important;
+  }
+
+  &.disabled {
+    opacity: 0.4;
+    pointer-events: none;
+  }
+}
+
+// Tighten the wrapper so the two pills sit comfortably on one line.
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5em;
+  margin-top: 1.5em;
+}
+
+// -----------------------------------------------------------------------------
 // SUBSCRIBE BLOCK
 // -----------------------------------------------------------------------------
 .subscribe-box {
