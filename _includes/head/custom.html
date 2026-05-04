@@ -14,6 +14,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
 <!--
+  Favicon — emoji (✈️) embedded as an SVG data URL. No file needed.
+  This is what shows in the browser tab next to the site title and stops
+  the /favicon.ico 404 errors in the console.
+-->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%E2%9C%88%EF%B8%8F</text></svg>">
+
+<!--
   GLightbox — click any photo (gallery or inline) to open a fullscreen viewer
   with prev/next arrows, ESC-to-close, and click-background-to-close. Free,
   vanilla JS, no jQuery.
@@ -24,10 +31,20 @@
   // Initialize after DOM and GLightbox library are both loaded.
   window.addEventListener("DOMContentLoaded", function () {
     if (typeof GLightbox === "undefined") return;
+
+    // GLightbox auto-detects slide type from URL extension. Some image hosts
+    // (Cloudinary's transformed paths, picsum, etc.) don't end in .jpg, so
+    // GLightbox falls back to iframe mode and the photo loads at native
+    // size with scrollbars. Pre-tag every gallery link as type:image to
+    // skip the auto-detection.
+    var GALLERY_SELECTOR =
+      ".page__content figure a, .page__content .gallery a, .page__content a.image-popup";
+    document.querySelectorAll(GALLERY_SELECTOR).forEach(function (a) {
+      if (!a.dataset.glightbox) a.dataset.glightbox = "type: image";
+    });
+
     GLightbox({
-      // Catch gallery photos (rendered inside <figure>), inline body images
-      // wrapped in links, and any explicit popup-marked anchor.
-      selector: ".page__content figure a, .page__content .gallery a, .page__content a.image-popup",
+      selector: GALLERY_SELECTOR,
       loop: true,
       touchNavigation: true,
       // Disable click-to-zoom so the photo fits the viewport instead of
