@@ -374,18 +374,38 @@ hr {
 // -----------------------------------------------------------------------------
 // GLIGHTBOX — keep photos inside the viewport
 // -----------------------------------------------------------------------------
-// By default GLightbox shows images at their native pixel size, which can
-// overflow the viewport for high-res photos. Constrain them so they always
-// fit on screen with no scrolling.
+// We force every container in the slide to clip overflow, then size the
+// image to fit. Without this, GLightbox falls back to native size with
+// scrollbars on tall/wide photos.
 .glightbox-container {
-  .gslide-image img {
+  // No scrolling anywhere in the slide — this is the key change.
+  .gslide,
+  .gslide-inner-content,
+  .gslide-image,
+  .gslide-media {
+    overflow: hidden !important;
+  }
+
+  .gslide-image,
+  .gslide-media {
+    max-width: 95vw !important;
+    max-height: 88vh !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gslide-image img,
+  .gslide-media img {
     max-width: 95vw !important;
     max-height: 88vh !important;
     width: auto !important;
     height: auto !important;
-    object-fit: contain;
+    object-fit: contain !important;
+    display: block;
   }
-  // The clickable arrows: make them more obvious (dark backdrop + light icon).
+
+  // The clickable arrows: more obvious (dark backdrop + light icon).
   .gnext, .gprev, .gclose {
     background: rgba(0, 0, 0, 0.45);
     border-radius: 50%;
@@ -398,7 +418,7 @@ hr {
       background: rgba(0, 0, 0, 0.7);
     }
   }
-  // Caption styling — shown if alt text is provided.
+  // Caption shown if alt text is provided.
   .gslide-description {
     background: rgba(0, 0, 0, 0.6);
     color: #fff;
@@ -426,6 +446,18 @@ hr {
     border-radius: 12px;
     border: 0;
     box-shadow: 0 4px 14px rgba($navy-deep, 0.12);
+  }
+
+  // When Kramdown wraps a standalone iframe in a <p>, the paragraph's
+  // default margins create extra vertical whitespace around the video.
+  // Strip the wrapper margin when its only child is a video iframe.
+  p {
+    &:has(> iframe[src*="youtube.com"]),
+    &:has(> iframe[src*="youtu.be"]),
+    &:has(> iframe[src*="vimeo.com"]) {
+      margin: 0;
+      line-height: 0;
+    }
   }
 }
 

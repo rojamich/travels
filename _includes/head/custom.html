@@ -29,7 +29,11 @@
       // wrapped in links, and any explicit popup-marked anchor.
       selector: ".page__content figure a, .page__content .gallery a, .page__content a.image-popup",
       loop: true,
-      touchNavigation: true
+      touchNavigation: true,
+      // Disable click-to-zoom so the photo fits the viewport instead of
+      // showing native-size with scrollbars.
+      zoomable: false,
+      draggable: false
     });
   });
 </script>
