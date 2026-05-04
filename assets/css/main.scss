@@ -254,6 +254,64 @@ a {
 }
 
 // -----------------------------------------------------------------------------
+// GLIGHTBOX — keep photos inside the viewport
+// -----------------------------------------------------------------------------
+// By default GLightbox shows images at their native pixel size, which can
+// overflow the viewport for high-res photos. Constrain them so they always
+// fit on screen with no scrolling.
+.glightbox-container {
+  .gslide-image img {
+    max-width: 95vw !important;
+    max-height: 88vh !important;
+    width: auto !important;
+    height: auto !important;
+    object-fit: contain;
+  }
+  // The clickable arrows: make them more obvious (dark backdrop + light icon).
+  .gnext, .gprev, .gclose {
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    opacity: 0.9;
+
+    &:hover {
+      opacity: 1;
+      background: rgba(0, 0, 0, 0.7);
+    }
+  }
+  // Caption styling — shown if alt text is provided.
+  .gslide-description {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 0.6em 1em;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// EMBEDDED VIDEOS — sane size + 16:9 ratio
+// -----------------------------------------------------------------------------
+// Targets YouTube and Vimeo iframes anywhere in post content. Caps width and
+// locks aspect ratio so even raw embed code from share dialogs renders well.
+.page__content {
+  iframe[src*="youtube.com"],
+  iframe[src*="youtu.be"],
+  iframe[src*="youtube-nocookie.com"],
+  iframe[src*="vimeo.com"] {
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    height: auto !important;
+    aspect-ratio: 16 / 9;
+    margin: 1.5em auto;
+    border-radius: 12px;
+    border: 0;
+    box-shadow: 0 4px 14px rgba($navy-deep, 0.12);
+  }
+}
+
+// -----------------------------------------------------------------------------
 // COMMENTS BLOCK (Cusdis)
 // -----------------------------------------------------------------------------
 // Make the comments section visually prominent so casual visitors notice it
