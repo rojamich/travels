@@ -435,34 +435,35 @@ hr {
 .page__content {
   // -------------------------------------------------------------------------
   // Minimal Mistakes auto-wraps YouTube/Vimeo iframes in
-  // .fluid-width-video-wrapper using the padding-top trick for aspect
-  // ratio. It calculates ratio from the iframe's width/height attributes,
-  // but `width="100%" height="400"` produces a nonsense 400% padding-top
-  // (the giant green block in DevTools). Force a real 16:9 ratio.
+  // .fluid-width-video-wrapper. We replace its padding-top trick with the
+  // modern `aspect-ratio` property — cleaner, no height-collapse quirks,
+  // and the iframe reliably fills the box.
   // -------------------------------------------------------------------------
   .fluid-width-video-wrapper {
-    padding-top: 56.25% !important;     // 9 / 16 = 0.5625
-    padding-bottom: 0 !important;
-    height: 0 !important;
-    position: relative !important;
+    aspect-ratio: 16 / 9;
+    width: 100%;
     max-width: 640px;
+    height: auto !important;
+    padding: 0 !important;            // wipe MM's inline padding-top
     margin: 1.5em auto !important;
+    position: relative !important;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 0 4px 14px rgba($navy-deep, 0.12);
 
     iframe {
+      width: 100% !important;
+      height: 100% !important;
+      max-width: none !important;     // override the bare-iframe rule below
+      aspect-ratio: auto !important;  // wrapper handles ratio; iframe just fills
+      margin: 0 !important;
       position: absolute !important;
       top: 0 !important;
       left: 0 !important;
-      width: 100% !important;
-      height: 100% !important;
-      max-width: none !important;       // override the bare-iframe rule below
-      aspect-ratio: auto !important;
-      margin: 0 !important;
       border-radius: 12px;
       border: 0;
       box-shadow: none;
+      display: block;
     }
   }
 

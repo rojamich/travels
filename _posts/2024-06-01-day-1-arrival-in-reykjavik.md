@@ -115,10 +115,12 @@ To include a video, just paste a YouTube embed in the post like this:
   The trick: get the video ID (the part after v=) and put it in the URL
   after /embed/. So https://www.youtube.com/watch?v=ABC123 becomes
   https://www.youtube.com/embed/ABC123
+
+  Don't set width/height attributes — CSS handles sizing automatically
+  (capped at 640px, locked to 16:9 ratio).
 -->
 
-<iframe width="100%" height="400"
-  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"
   frameborder="0"
   allowfullscreen></iframe>
 

@@ -142,11 +142,13 @@ just for family), then in the body editor click the **HTML** button (or
 type directly) and paste:
 
 ```html
-<iframe width="100%" height="400"
-  src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+<iframe src="https://www.youtube.com/embed/VIDEO_ID_HERE"
   frameborder="0"
   allowfullscreen></iframe>
 ```
+
+(No need to set width or height — the site auto-caps videos at a clean
+640-pixel-wide 16:9 size, regardless of how you embed them.)
 
 To get the `VIDEO_ID`: from a YouTube URL like
 `https://www.youtube.com/watch?v=dQw4w9WgXcQ`, the ID is `dQw4w9WgXcQ`.
