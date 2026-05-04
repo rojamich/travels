@@ -27,6 +27,30 @@
 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 <script defer src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  // -------------------------------------------------------------------------
+  // FIX MINIMAL MISTAKES' VIDEO WRAPPER
+  // -------------------------------------------------------------------------
+  // MM auto-wraps every YouTube/Vimeo iframe in a .fluid-width-video-wrapper
+  // div using inline `style="padding-top: <ratio>%"`. When the iframe has
+  // `width="100%" height="400"` attributes, the calculated ratio is 400%,
+  // making the wrapper 4× too tall. Even with !important CSS rules, MM's
+  // inline styles can occasionally win the specificity race.
+  //
+  // This snippet runs after the page loads and force-rewrites the inline
+  // styles on every video wrapper to a clean 16:9 aspect ratio. JS-set
+  // inline styles always win over JS-set inline styles (last-write).
+  // -------------------------------------------------------------------------
+  window.addEventListener("load", function () {
+    document.querySelectorAll(".fluid-width-video-wrapper").forEach(function (w) {
+      w.style.paddingTop = "0";
+      w.style.paddingBottom = "0";
+      w.style.height = "auto";
+      w.style.aspectRatio = "16 / 9";
+    });
+  });
+</script>
+
 <script defer>
   // Initialize after DOM and GLightbox library are both loaded.
   window.addEventListener("DOMContentLoaded", function () {
