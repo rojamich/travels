@@ -254,6 +254,53 @@ a {
 }
 
 // -----------------------------------------------------------------------------
+// COMMENTS BLOCK (Cusdis)
+// -----------------------------------------------------------------------------
+// Make the comments section visually prominent so casual visitors notice it
+// and aren't intimidated. Reserve enough vertical room that the Submit
+// button is visible without scrolling inside the iframe.
+.comments-block {
+  margin: 3em 0 1em;
+  padding: 1.75em;
+  background: $sand-medium;
+  border-radius: 14px;
+  border: 1px solid $border-color;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0.4em;
+    color: $navy-deep;
+    font-size: 1.6em;
+  }
+
+  .comments-instructions {
+    color: $ink;
+    font-size: 1em;
+    margin-bottom: 1.2em;
+    line-height: 1.5;
+
+    strong {
+      color: $navy-deep;
+    }
+  }
+
+  // The Cusdis iframe inserts itself here. Force a tall min-height so the
+  // form (name field + message + Submit button) is visible without the
+  // iframe having to scroll.
+  #cusdis_thread {
+    min-height: 380px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 0.5em;
+  }
+
+  #cusdis_thread iframe {
+    width: 100% !important;
+    min-height: 360px !important;
+  }
+}
+
+// -----------------------------------------------------------------------------
 // SUBSCRIBE BLOCK
 // -----------------------------------------------------------------------------
 .subscribe-box {

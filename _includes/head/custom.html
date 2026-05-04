@@ -14,6 +14,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
 <!--
+  GLightbox — click any photo (gallery or inline) to open a fullscreen viewer
+  with prev/next arrows, ESC-to-close, and click-background-to-close. Free,
+  vanilla JS, no jQuery.
+-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script defer>
+  // Initialize after DOM and GLightbox library are both loaded.
+  window.addEventListener("DOMContentLoaded", function () {
+    if (typeof GLightbox === "undefined") return;
+    GLightbox({
+      // Catch gallery photos (rendered inside <figure>), inline body images
+      // wrapped in links, and any explicit popup-marked anchor.
+      selector: ".page__content figure a, .page__content .gallery a, .page__content a.image-popup",
+      loop: true,
+      touchNavigation: true
+    });
+  });
+</script>
+
+<!--
   Netlify Identity widget. Loaded on every page so that:
    1. When someone clicks the email-confirmation link from their invite, the
       page can detect the auth token in the URL and route them to /admin/.

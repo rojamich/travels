@@ -15,15 +15,18 @@
 -->
 
 {% if site.cusdis_app_id %}
-<div class="comments-block" style="margin-top: 2.5em; padding-top: 1.5em; border-top: 1px solid #e0d6c2;">
-  <h3 style="margin-bottom: 0.5em;">Comments</h3>
-  <p style="color:#6B7E85; font-size:0.9em; margin-bottom:1em;">
-    Have a thought or a wish for our next trip? Leave us a note below — no signup needed.
+<section class="comments-block">
+  <h2>💬 Leave us a note</h2>
+  <p class="comments-instructions">
+    No signup needed — just type your name and a message, then click <strong>Submit</strong>.
+    We love hearing from family, friends, and fellow travelers.
   </p>
 
   <!--
     Cusdis embed. The data-* attributes tell their script which post this is
     (so threads stay attached to the right post even if URLs change later).
+    The min-height on the iframe is enforced via main.scss so the Submit
+    button is always visible without scrolling.
   -->
   <div id="cusdis_thread"
     data-host="https://cusdis.com"
@@ -33,5 +36,5 @@
     data-page-title="{{ page.title | escape }}">
   </div>
   <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-</div>
+</section>
 {% endif %}
