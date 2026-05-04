@@ -254,6 +254,124 @@ a {
 }
 
 // -----------------------------------------------------------------------------
+// HERO BANNER — bottom-up gradient so titles stay readable on bright photos
+// -----------------------------------------------------------------------------
+// Minimal Mistakes already applies an overlay_filter as a flat darken across
+// the whole image. We layer a bottom-weighted gradient on top so the upper
+// half of the photo stays bright and visible while the title text at the
+// bottom gets a strong dark contrast.
+.page__hero--overlay {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 35%,
+      rgba(0, 0, 0, 0.45) 75%,
+      rgba(0, 0, 0, 0.8) 100%
+    );
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  // Make sure title/meta sit ABOVE the gradient.
+  .wrapper, .page__title, .page__lead, .page__meta, .page__hero-caption {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// BREADCRUMB — shown above each post to give context (Iceland 2024 › Day 1)
+// -----------------------------------------------------------------------------
+.breadcrumb {
+  margin: 0 0 1.2em 0;
+  font-size: 0.9em;
+  color: $muted;
+  letter-spacing: 0.02em;
+
+  a {
+    color: $navy-mid;
+    text-decoration: none;
+    border-bottom: 1px dotted transparent;
+    transition: color 0.15s ease, border-color 0.15s ease;
+
+    &:hover {
+      color: $seaglass;
+      border-bottom-color: $seaglass;
+    }
+  }
+
+  .breadcrumb-sep {
+    margin: 0 0.4em;
+    color: $muted;
+  }
+
+  .breadcrumb-current {
+    color: $navy-deep;
+    font-weight: 600;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// HORIZONTAL RULES — sand-colored, gradient-faded edges
+// -----------------------------------------------------------------------------
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    $sand-warm 20%,
+    $sand-warm 80%,
+    transparent 100%
+  );
+  margin: 2.5em 0;
+}
+
+// -----------------------------------------------------------------------------
+// TABLE OF CONTENTS (only renders when post has `toc: true` in front matter)
+// -----------------------------------------------------------------------------
+.toc {
+  background: $sand-medium;
+  border: 1px solid $border-color;
+  border-radius: 14px;
+  overflow: hidden;
+  font-size: 0.9em;
+
+  .nav__title {
+    background: $navy-deep;
+    color: #fff;
+    margin: 0;
+    padding: 0.6em 1em;
+
+    .icon {
+      color: $sand-warm;
+    }
+  }
+
+  .toc__menu a {
+    color: $navy-mid;
+    border-bottom: 1px solid rgba($border-color, 0.5);
+
+    &:hover {
+      color: $seaglass;
+      background: rgba($seaglass, 0.08);
+    }
+
+    &.active {
+      background: $seaglass;
+      color: #fff;
+      font-weight: 600;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
 // GLIGHTBOX — keep photos inside the viewport
 // -----------------------------------------------------------------------------
 // By default GLightbox shows images at their native pixel size, which can

@@ -1,0 +1,74 @@
+{%- comment -%}
+=============================================================================
+post_pagination.html — overrides Minimal Mistakes' default
+=============================================================================
+This shows the "Previous post" and "Next post" pills at the bottom of every
+post. Two improvements over MM's default:
+
+  1. Navigation stays WITHIN the same trip — clicking Next on the last day
+     of Iceland 2024 doesn't jump into a Vietnam post.
+  2. Labels show "← Day N" / "Day N →" using the post's `order:` field,
+     instead of truncating the full post title which always overflows.
+
+Falls back to MM's behavior (chronological prev/next across all posts)
+if the current post has no categories — shouldn't happen with our schema
+but defensive against weirdness.
+=============================================================================
+{%- endcomment -%}
+
+{%- assign trip_slug = page.categories | first -%}
+
+{%- if trip_slug and site.categories[trip_slug] -%}
+  {%- comment -%}
+    Same-trip navigation. Find the current post's index in the sorted list
+    of posts for this trip, then look up the previous and next entries.
+  {%- endcomment -%}
+  {%- assign all_in_trip = site.categories[trip_slug] | sort: "order" -%}
+  {%- assign current_idx = -1 -%}
+  {%- for p in all_in_trip -%}
+    {%- if p.url == page.url -%}
+      {%- assign current_idx = forloop.index0 -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- if current_idx > 0 -%}
+    {%- assign prev_post = all_in_trip[current_idx | minus: 1] -%}
+  {%- endif -%}
+  {%- assign next_idx = current_idx | plus: 1 -%}
+  {%- if next_idx < all_in_trip.size and current_idx >= 0 -%}
+    {%- assign next_post = all_in_trip[next_idx] -%}
+  {%- endif -%}
+{%- else -%}
+  {%- comment -%} Fallback: chronological. {%- endcomment -%}
+  {%- if page.previous -%}{%- assign prev_post = page.previous -%}{%- endif -%}
+  {%- if page.next -%}{%- assign next_post = page.next -%}{%- endif -%}
+{%- endif -%}
+
+{%- if prev_post or next_post -%}
+<nav class="pagination">
+  {%- if prev_post -%}
+    <a href="{{ prev_post.url | relative_url }}"
+       class="pagination--pager"
+       title="{{ prev_post.title | escape }}">
+      &larr;
+      {%- if prev_post.order -%} Day {{ prev_post.order }}
+      {%- else -%} Previous{%- endif -%}
+    </a>
+  {%- else -%}
+    <span class="pagination--pager disabled">&larr; Previous</span>
+  {%- endif -%}
+
+  {%- if next_post -%}
+    <a href="{{ next_post.url | relative_url }}"
+       class="pagination--pager"
+       title="{{ next_post.title | escape }}">
+      {%- if next_post.order -%}Day {{ next_post.order }}
+      {%- else -%}Next{%- endif -%}
+      &rarr;
+    </a>
+  {%- else -%}
+    <span class="pagination--pager disabled">Next &rarr;</span>
+  {%- endif -%}
+</nav>
+{%- endif -%}

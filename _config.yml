@@ -99,7 +99,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single                 # Use Minimal Mistakes' "single" layout
+      layout: post                   # Custom wrapper that adds breadcrumb above the body
       author_profile: false          # Hide the sidebar author box
       read_time: true                # Show estimated read time
       comments: true                 # Renders the Cusdis include if cusdis_app_id is set

@@ -30,3 +30,4 @@ scripts/venv/
 # Blogger XML exports — keep them local, don't commit (often huge + private)
 *.xml
 !_data/*.xml
+.claude/

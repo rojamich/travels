@@ -253,6 +253,13 @@ collections:
           required: false,
           hint: "One-sentence summary shown in listings. Optional — Jekyll auto-generates one from the body if you skip this." }
 
+      - { label: "Show table of contents",
+          name: "toc",
+          widget: "boolean",
+          default: false,
+          required: false,
+          hint: "Turn on for long posts (5+ sections). Adds a sticky list of headings on the side that readers can click to jump around. Off by default." }
+
       - { label: "Body",
           name: "body",
           widget: "markdown",

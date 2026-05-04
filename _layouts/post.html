@@ -1,0 +1,30 @@
+---
+# =============================================================================
+# post layout — wraps Minimal Mistakes' "single" layout, adding a breadcrumb
+# row above the body content showing trip context.
+# =============================================================================
+# All travel posts use this layout (set in _config.yml post defaults).
+# Inheritance chain:  post.md  →  post.html  →  single.html (theme)
+# =============================================================================
+layout: single
+---
+
+{%- comment -%} Look up the trip this post belongs to. {%- endcomment -%}
+{%- if page.categories.size > 0 -%}
+  {%- assign trip_slug = page.categories | first -%}
+  {%- assign trip = site.trips | where: "slug", trip_slug | first -%}
+{%- endif -%}
+
+{%- if trip -%}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="{{ trip.url | relative_url }}">{{ trip.title }}</a>
+  <span class="breadcrumb-sep">›</span>
+  <span class="breadcrumb-current">
+    {%- if page.order -%}Day {{ page.order }}
+    {%- else -%}{{ page.title | truncate: 40 }}
+    {%- endif -%}
+  </span>
+</nav>
+{%- endif -%}
+
+{{ content }}
