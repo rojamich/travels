@@ -38,6 +38,7 @@ classes: wide
 -->
 <script>
   window.TRAVEL_DATA = [
+  {%- if site.trips and site.trips.size > 0 -%}
   {%- assign sorted = site.trips | sort: "start_date" -%}
   {%- for trip in sorted -%}
     {%- assign trip_posts = site.categories[trip.slug] | sort: "order" -%}
@@ -63,6 +64,7 @@ classes: wide
       ]
     }{%- unless forloop.last -%},{%- endunless -%}
   {%- endfor -%}
+  {%- endif -%}
   ];
 </script>
 

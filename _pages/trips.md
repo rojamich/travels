@@ -15,7 +15,11 @@ classes: wide
 
 <div class="js-controls controls" data-list-selector=".js-trip-list"></div>
 
-{% assign sorted_trips = site.trips | sort: "start_date" | reverse %}
+{% if site.trips and site.trips.size > 0 %}
+  {% assign sorted_trips = site.trips | sort: "start_date" | reverse %}
+{% else %}
+  {% assign sorted_trips = "" | split: "" %}
+{% endif %}
 
 <div class="js-trip-list">
   {% for trip in sorted_trips %}

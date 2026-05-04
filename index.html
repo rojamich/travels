@@ -36,7 +36,11 @@ classes: wide
   filtering. Server-rendered order is "most recent first" but JS re-sorts
   on load so the result is deterministic either way.
 -->
-{% assign sorted_trips = site.trips | sort: "start_date" | reverse %}
+{% if site.trips and site.trips.size > 0 %}
+  {% assign sorted_trips = site.trips | sort: "start_date" | reverse %}
+{% else %}
+  {% assign sorted_trips = "" | split: "" %}
+{% endif %}
 
 <div class="trip-grid js-trip-list">
   {% for trip in sorted_trips %}
