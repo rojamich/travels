@@ -41,7 +41,10 @@ classes: wide
   {%- if site.trips and site.trips.size > 0 -%}
   {%- assign sorted = site.trips | sort: "start_date" -%}
   {%- for trip in sorted -%}
-    {%- assign trip_posts = site.categories[trip.slug] | sort: "order" -%}
+    {%- assign trip_posts = "" | split: "" -%}
+    {%- if site.categories[trip.slug] -%}
+      {%- assign trip_posts = site.categories[trip.slug] | sort: "order" -%}
+    {%- endif -%}
     {
       "slug":  {{ trip.slug | jsonify }},
       "name":  {{ trip.title | jsonify }},

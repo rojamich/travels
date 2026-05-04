@@ -13,7 +13,10 @@
 
 {%- assign trip = site.trips | where: "slug", include.trip_slug | first -%}
 {%- if trip and trip.lat -%}
-{%- assign trip_posts = site.categories[trip.slug] | sort: "order" -%}
+{%- assign trip_posts = "" | split: "" -%}
+{%- if site.categories[trip.slug] -%}
+  {%- assign trip_posts = site.categories[trip.slug] | sort: "order" -%}
+{%- endif -%}
 
 <div id="trip-map-{{ trip.slug }}"
      style="height: 360px; border-radius: 14px; overflow: hidden; border: 1px solid #ddd; margin: 1.5em 0;"></div>

@@ -37,7 +37,10 @@ layout: single
   site.categories["iceland-2024"]. Sort by manual `order:` field so the wife
   controls sequence regardless of when each post was actually written.
 -->
-{% assign trip_posts = site.categories[page.slug] | sort: "order" %}
+{% assign trip_posts = "" | split: "" %}
+{% if site.categories[page.slug] %}
+  {% assign trip_posts = site.categories[page.slug] | sort: "order" %}
+{% endif %}
 
 {% if trip_posts.size == 0 %}
   <p><em>No posts yet for this trip. Check back soon!</em></p>
