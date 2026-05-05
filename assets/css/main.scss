@@ -451,10 +451,16 @@ hr {
     border-radius: 12px;
     box-shadow: 0 4px 14px rgba($navy-deep, 0.12);
 
-    iframe {
+    // The `[src]` qualifier bumps this selector's specificity above the
+    // bare-iframe rule below (which targets youtube/vimeo by URL). Without
+    // this bump, the bare-iframe rule's `height: auto !important` wins
+    // because both rules have equal specificity and the bare-iframe rule
+    // appears later in the file — collapsing the iframe to its 150px
+    // browser default.
+    iframe[src] {
       width: 100% !important;
       height: 100% !important;
-      max-width: none !important;     // override the bare-iframe rule below
+      max-width: none !important;
       aspect-ratio: auto !important;  // wrapper handles ratio; iframe just fills
       margin: 0 !important;
       position: absolute !important;
