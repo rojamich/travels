@@ -15,10 +15,22 @@ You do **everything from a web browser**. No code editor, no terminal, no instal
 4. Fill in the form — title, date, trip, day order, etc.
 5. Drag photos into the **Cover**, **Banner**, and **Gallery** fields. They upload automatically (no compression needed — Cloudinary handles it).
 6. Write your post in the big **Body** box at the bottom.
-7. Click **Publish** in the top-right.
-8. Within ~1 minute the post is live on the site.
+7. Click **Save** as often as you want while writing — your changes are saved as a draft and **don't go live yet**.
+8. When the post is finished and you want it visible to the world, click the **Status** dropdown → **Ready**, then click **Publish**.
+9. Within ~1 minute the post is live on the site.
 
 That's it.
+
+## Save vs Publish
+
+This is the most important thing to understand:
+
+- **Save** = saves a draft. Doesn't trigger a build. Doesn't go live. Free to do as often as you want — every paragraph, every photo, every spelling fix. Drafts persist between sessions, so you can save and come back tomorrow.
+- **Publish** = puts the post live on the website. Costs one "build credit" each time. Use this when the post is genuinely done.
+
+Same applies to edits on existing posts — you can save many revisions of an edit without each one triggering a rebuild. Only the final Publish click matters.
+
+The **Workflow** tab in the left navigation shows all your unpublished drafts as cards. Drag a card from "Draft" → "In Review" → "Ready" if you like to mark progress, or just go straight to Publish when ready.
 
 ---
 
