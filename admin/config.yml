@@ -21,6 +21,18 @@ backend:
     uploadMedia: 'Upload {{path}}'
     deleteMedia: 'Delete {{path}}'
 
+# -----------------------------------------------------------------------------
+# Editorial workflow — drafts don't trigger builds; only Publish does
+# -----------------------------------------------------------------------------
+# When this is on, "Save" stores a draft on a separate branch (cms/...) and
+# does NOT trigger a Netlify build. Only when she clicks "Publish" (or drags
+# a card to "Ready") does the change merge to main and the site rebuild.
+#
+# IMPORTANT: in Netlify dashboard, Site configuration → Build & Deploy →
+# Deploy Previews → set to "Don't build deploy previews". Otherwise Netlify
+# builds every CMS branch and the credit savings vanish.
+publish_mode: editorial_workflow
+
 # Where the live site lives. Used by the "preview" feature.
 site_url: https://where-in-the-world-are-mike-and-jen.netlify.app
 display_url: https://where-in-the-world-are-mike-and-jen.netlify.app
