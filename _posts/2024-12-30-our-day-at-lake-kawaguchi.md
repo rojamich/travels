@@ -1,0 +1,110 @@
+---
+title: "Our day at Lake Kawaguchi"
+date: 2024-12-30
+categories:
+  - bamboo-bulgogi
+order: 11
+tags:
+  - Japan
+---
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWpfbzvjILN8jc8zXDeutWjyqysS1rsYHFwcfBntUuK_U8SmhLJx1RXlTEhrLUqz7hgnldZN-n0tRrA-MHCbrl92ehgvfryKZ9-ggbO3zPwCtdaHZUWjlflGbcGnocxQ6xUiRuOgI8Yzkwl3XTVL_dztDVzvLgrhJd-sltjsbamlzFzv8Y1nV866pXkSu7/s320/20241220_062619.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWpfbzvjILN8jc8zXDeutWjyqysS1rsYHFwcfBntUuK_U8SmhLJx1RXlTEhrLUqz7hgnldZN-n0tRrA-MHCbrl92ehgvfryKZ9-ggbO3zPwCtdaHZUWjlflGbcGnocxQ6xUiRuOgI8Yzkwl3XTVL_dztDVzvLgrhJd-sltjsbamlzFzv8Y1nV866pXkSu7/s4000/20241220_062619.jpg)
+
+Waking up to this view felt unbelievable and I felt the urge to get out and run (despite it being 25 degrees). It was peaceful and most of the snow had melted the night before so there was no worry of falling. 
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbHii-cxO5jBvncocWL4Zd40JjGsBty8I3HPnKjgCp4bEeigrrwzZVr8sT3ml6-rmO_jc9zsK_OFffDVa24O2s3KtgysS3ExG_n7IZ2kBNxDwOmWu5inzrC8r5wo0ph04G5QnjEZwa34k_eof4iYteK8KaSDdjUWY4tXUmeMV8vHiQ14sKsqj9KMVTTYcw/s320/20241220_071952.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbHii-cxO5jBvncocWL4Zd40JjGsBty8I3HPnKjgCp4bEeigrrwzZVr8sT3ml6-rmO_jc9zsK_OFffDVa24O2s3KtgysS3ExG_n7IZ2kBNxDwOmWu5inzrC8r5wo0ph04G5QnjEZwa34k_eof4iYteK8KaSDdjUWY4tXUmeMV8vHiQ14sKsqj9KMVTTYcw/s4000/20241220_071952.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLxIy2Dm77nXDH4lCwc9rtIu3MjULv5_s-DT82gybjPdYrDdyDeC6aAAWeq3kUjR4HslaGuTHsJ7P_lvGQXQEjykGdXamgJ51mZrbT5VncA7gx3qz6pxmMuFZRud2-D1U7iJheBnI62o689BklcsR_QFVh9bXdEysW6fCN5A611OSm87pFIx0TeisDEnKh/s320/20241220_072130.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLxIy2Dm77nXDH4lCwc9rtIu3MjULv5_s-DT82gybjPdYrDdyDeC6aAAWeq3kUjR4HslaGuTHsJ7P_lvGQXQEjykGdXamgJ51mZrbT5VncA7gx3qz6pxmMuFZRud2-D1U7iJheBnI62o689BklcsR_QFVh9bXdEysW6fCN5A611OSm87pFIx0TeisDEnKh/s4000/20241220_072130.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmdG7C2vrVTWVOKLQKYuPJhBHW9ms-igkvhUzXZulu1c48fr9sxi5MwRrjh1FLJ2KsxVVaOfPHsxV4Sn7i9C3RKMESCAzkRHTSFeHJrG_wUr7DZlEIUqSQ2DQMZtWSN5jWBF7S4aJA9GJCqyd18AgDwZxCXSJfIokli-kYWRExMSzMtj0kGdW3BnMrsRK9/s320/20241220_072141.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmdG7C2vrVTWVOKLQKYuPJhBHW9ms-igkvhUzXZulu1c48fr9sxi5MwRrjh1FLJ2KsxVVaOfPHsxV4Sn7i9C3RKMESCAzkRHTSFeHJrG_wUr7DZlEIUqSQ2DQMZtWSN5jWBF7S4aJA9GJCqyd18AgDwZxCXSJfIokli-kYWRExMSzMtj0kGdW3BnMrsRK9/s3392/20241220_072141.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOGwWB0RXVXtc_3ylOmrBCyExnKYb3wl-Uvh6RNlJiwyYXeYjRCZXd8ar15LAD-GR97WyFB5bnEHfwG_AAyZYHn6uiM3sDLJQbKSCXCFZj9ozut6IFc2eOCPlMC_XNCw_oP4S4DgvwakFNq-NP0bnT1Kg4JMRvkt542DVaTWHbMgrrOYnuGKGgxitCXaU0/s320/20241220_072501.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOGwWB0RXVXtc_3ylOmrBCyExnKYb3wl-Uvh6RNlJiwyYXeYjRCZXd8ar15LAD-GR97WyFB5bnEHfwG_AAyZYHn6uiM3sDLJQbKSCXCFZj9ozut6IFc2eOCPlMC_XNCw_oP4S4DgvwakFNq-NP0bnT1Kg4JMRvkt542DVaTWHbMgrrOYnuGKGgxitCXaU0/s4000/20241220_072501.jpg)
+
+  
+
+
+I followed a walking path near the lake that led me to a park nearby. There, I saw a couple of girls taking selfies and turned to see their background...Mt. Fuji! Breathtaking isn't enough to describe how I feel when I see Mt. Fuji. 
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfLvBRlJ59gJOM9u72ss_Uj4SUFspw3RM4Hag_8BThztkMV_EUl78LJR2L7okWA8DYRtHCqATRncvz9CWFf7S0CFbxhKN6rjIh9mnfqjim6_uBg73GGOg3cMZKthhcUdb1az0_L51jNh9H1VLPF7wNGj1ZekM9WWzL7E8AHgAXG13VJdevRpjYQQcxwT_A/s320/20241220_071209.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfLvBRlJ59gJOM9u72ss_Uj4SUFspw3RM4Hag_8BThztkMV_EUl78LJR2L7okWA8DYRtHCqATRncvz9CWFf7S0CFbxhKN6rjIh9mnfqjim6_uBg73GGOg3cMZKthhcUdb1az0_L51jNh9H1VLPF7wNGj1ZekM9WWzL7E8AHgAXG13VJdevRpjYQQcxwT_A/s4000/20241220_071209.jpg)
+
+  
+
+
+I hustled back to the hotel to let Mike know where we should definitely take a walk today! We had also spotted a place that sold super precious Mt. Fuji cookies - this was shaping up to be an awesome day! Mike showed me that he was able to spot me running and caught a few photos, haha.
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4D7xcHtqGyIlGBoCVsV2PW1f-kbcWrbaW4wr3KoZSEj-KewjFs5YxahIFUqoiDlYDlV6uftARq7Bw1ymHcrCW1oTgIwstz9T1CtysS0a0gchcAvLqe39krhfw4A6oHf5X6cqpyBVm_e_yLIRlRlQFl2q7pEybpA4p6uNskqaM9As8vGL3LV0QM5DBYXzH/s320/20241220_105650.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4D7xcHtqGyIlGBoCVsV2PW1f-kbcWrbaW4wr3KoZSEj-KewjFs5YxahIFUqoiDlYDlV6uftARq7Bw1ymHcrCW1oTgIwstz9T1CtysS0a0gchcAvLqe39krhfw4A6oHf5X6cqpyBVm_e_yLIRlRlQFl2q7pEybpA4p6uNskqaM9As8vGL3LV0QM5DBYXzH/s3854/20241220_105650.jpg)
+
+  
+
+
+We had breakfast provided by the hotel and set out on a relaxing morning walk. The shop sold multiple Mt. Fuji cookies! I grabbed a strawberry while Mike opted for a vanilla one. 
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUVHTspF3c32CrgJmVrBSJVV7SRIwQv9i3clNCJVts2SuHZsY-lIZ_2GS0IfQ3vv-8Egw1fHzK3bTv6sOWRJ3jtbYWsQvnvFjLcV3sWxoP_vMhGvLppk4OI3G2O2X8Yo25lqDIIWMuRTHzBw7hNsrsOcIdihpAI_uF40VSE5O-ocyn1AquBK8nBQ1Rld8J/s320/20241220_110652.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUVHTspF3c32CrgJmVrBSJVV7SRIwQv9i3clNCJVts2SuHZsY-lIZ_2GS0IfQ3vv-8Egw1fHzK3bTv6sOWRJ3jtbYWsQvnvFjLcV3sWxoP_vMhGvLppk4OI3G2O2X8Yo25lqDIIWMuRTHzBw7hNsrsOcIdihpAI_uF40VSE5O-ocyn1AquBK8nBQ1Rld8J/s4000/20241220_110652.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1kMYdcgP0GESNhBXfgaiAaJo95UVFEjhI_im_B6BdXH482XObzV4HN8nR3lo_8jkA-9nAjIGUWC51td_KUENNYHhBhnKm5D9mcvGfQDCXsIrbSEMAKw97UPo5KHdz-W89UCYFwjJmjGiHucISSxXhV7a9OC1oGewWeo4yZQbh2azI6LL71rbnaCspZhvo/s320/20241220_105710.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1kMYdcgP0GESNhBXfgaiAaJo95UVFEjhI_im_B6BdXH482XObzV4HN8nR3lo_8jkA-9nAjIGUWC51td_KUENNYHhBhnKm5D9mcvGfQDCXsIrbSEMAKw97UPo5KHdz-W89UCYFwjJmjGiHucISSxXhV7a9OC1oGewWeo4yZQbh2azI6LL71rbnaCspZhvo/s4000/20241220_105710.jpg)
+
+  
+
+
+We enjoyed the views with our cookies, which were super soft and yummy!
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkv3kRKZ4lFkrsL57MAsDqlvWyLZZHUFrjRXa93OssO-FL2bTfHwFR9fZcmlmZiUzTvLjyPcXn6N9IQ0fVG8AKIo6qu1NjLGaLc6d-vhA9vCwI5A337-m1sRytjCeFAEteXlWgVpHjNzx_vU8zID-EbXGfmhR1yyCPZiKBpE0Toqaud1m_OAabQUnJ_0KZ/s320/20241220_115418.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkv3kRKZ4lFkrsL57MAsDqlvWyLZZHUFrjRXa93OssO-FL2bTfHwFR9fZcmlmZiUzTvLjyPcXn6N9IQ0fVG8AKIo6qu1NjLGaLc6d-vhA9vCwI5A337-m1sRytjCeFAEteXlWgVpHjNzx_vU8zID-EbXGfmhR1yyCPZiKBpE0Toqaud1m_OAabQUnJ_0KZ/s4000/20241220_115418.jpg)
+
+  
+
+
+It was time for some real relaxation with reading, snacks, and the traditional kimonos provided by the hotel! They were very silky and we got in some much-needed rest!
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfyy_aEbTqumA-fouz4pNKfkkOKz6NJ5VELDjNO03tosDJgM3WPqdPDnO_rrwNtYOHnSVgcUZfLeMyBw3eFcIxPIbBuUI6aCl558nfXw5VAx8iqR7xS0VYbZ9p-i6a1o-sGWI2cyproS-cNhsRbdMHms8erF_4fWDNGZKx56IuldMpXSZqjRt55-cGq6_L/s320/20241221_065755.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfyy_aEbTqumA-fouz4pNKfkkOKz6NJ5VELDjNO03tosDJgM3WPqdPDnO_rrwNtYOHnSVgcUZfLeMyBw3eFcIxPIbBuUI6aCl558nfXw5VAx8iqR7xS0VYbZ9p-i6a1o-sGWI2cyproS-cNhsRbdMHms8erF_4fWDNGZKx56IuldMpXSZqjRt55-cGq6_L/s4000/20241221_065755.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYcqCSLytq_sF9pmFA_fq7FFx2ofggIEQHX8OrNBflgcAPi3XBc1iUfe9fdhvIUqMj4ZGx2nV-BO_Mp6mL35o5cSOsBf6KkKsyTa-IbzntRQIc-XF9G3VlunYYTGAE71dWlkaXwAAKWfEGCKvAQkJueo5oerHbuh_c90qjBTpdFWrtagfWJx-nYFU6yR1N/s320/20241220_120014.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYcqCSLytq_sF9pmFA_fq7FFx2ofggIEQHX8OrNBflgcAPi3XBc1iUfe9fdhvIUqMj4ZGx2nV-BO_Mp6mL35o5cSOsBf6KkKsyTa-IbzntRQIc-XF9G3VlunYYTGAE71dWlkaXwAAKWfEGCKvAQkJueo5oerHbuh_c90qjBTpdFWrtagfWJx-nYFU6yR1N/s4000/20241220_120014.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLbIcYIl4Z6wUYp8CcIVTDlwDfURHem1tQJX5rS_95_5kc20wjhT7Xak6U3fcPSJf2viLaAatb_P4DnaGhkhMBzFq5y_H9_PL0VbW5sPPrm4VYYMOXBMC-1zFw6MQmbT2HaIez8HQMNswUNQQW-Kkiv3wWidVNMFzT-F18Gxz33cMvH3yvTCTgbRGYLpXd/s320/20241220_151238.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLbIcYIl4Z6wUYp8CcIVTDlwDfURHem1tQJX5rS_95_5kc20wjhT7Xak6U3fcPSJf2viLaAatb_P4DnaGhkhMBzFq5y_H9_PL0VbW5sPPrm4VYYMOXBMC-1zFw6MQmbT2HaIez8HQMNswUNQQW-Kkiv3wWidVNMFzT-F18Gxz33cMvH3yvTCTgbRGYLpXd/s4000/20241220_151238.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLHIZzEBJ-QMGtaovZCPKB7OoMKO7w65ni6OZ80sZ23ayYk6f_N1O9vN7FwZHqOAqWiI83xchLnsxiSAxhCkpkh1D9TUw60XGVOjSlnpwJl9qudftY27K-jJs2xfeUNEDABvUla7ogv8aCYEVquAHmiQsLB48uWOHgcU3BJDDLIgrknvgLVTZSXWAmihlX/s320/20241220_151243.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLHIZzEBJ-QMGtaovZCPKB7OoMKO7w65ni6OZ80sZ23ayYk6f_N1O9vN7FwZHqOAqWiI83xchLnsxiSAxhCkpkh1D9TUw60XGVOjSlnpwJl9qudftY27K-jJs2xfeUNEDABvUla7ogv8aCYEVquAHmiQsLB48uWOHgcU3BJDDLIgrknvgLVTZSXWAmihlX/s4000/20241220_151243.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7u7fMU6DC0bUQZGV7AAbsmesxPlFsjpe2KcSf2HaqxrG_Y4YPIClsGJFs6U1NKDvhv7Gp7-19Dwu5m7WNTI-JB0_vuAzjAnLvl8wNr5cFoXQGdyHVSeBOWiKBsR2Yb7mQkb1WK3d8-kghqJhTuhhFGMUfoEbeWu6D5ZSlmcMhY0BTUEe4jnIemm7-F4pO/s320/20241220_151728.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7u7fMU6DC0bUQZGV7AAbsmesxPlFsjpe2KcSf2HaqxrG_Y4YPIClsGJFs6U1NKDvhv7Gp7-19Dwu5m7WNTI-JB0_vuAzjAnLvl8wNr5cFoXQGdyHVSeBOWiKBsR2Yb7mQkb1WK3d8-kghqJhTuhhFGMUfoEbeWu6D5ZSlmcMhY0BTUEe4jnIemm7-F4pO/s4000/20241220_151728.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGa6FwIPWZLS6rTDdDXXdyWF_HWwmGyIUhU7d2r7_MnzKOS1MHLsOVw8Q2jpMJkN6uZ0HDtGJHNFMCPx0D86XzVe3Qvfldt-ePK56pbAhieODHG0IfBwwNjjJT0TUE3x566Y1kjhaeMuXRTbGW6_Iixe49PB1vdAL2AFqyzNsHvXf3ik_gIuIBkyCsfL7l/s320/20241220_151733.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGa6FwIPWZLS6rTDdDXXdyWF_HWwmGyIUhU7d2r7_MnzKOS1MHLsOVw8Q2jpMJkN6uZ0HDtGJHNFMCPx0D86XzVe3Qvfldt-ePK56pbAhieODHG0IfBwwNjjJT0TUE3x566Y1kjhaeMuXRTbGW6_Iixe49PB1vdAL2AFqyzNsHvXf3ik_gIuIBkyCsfL7l/s4000/20241220_151733.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGIrdp0qRK4d9qkxMwQiAO8Dz62b9tFcbDwtMASxndqUjKkcg9FtcStzvLGhU0fycoDgd7yVrRaQ8t2kWeVRbfHxobH3SCWUcx0sAPaQEnrvsYOJYVjzHw_kO_57rRM9Lqk1Y-LZAsfotJZYWzZFRuHVWzV2In4cIv16iy8VpEFJqaohmqxeHALPSpt2Rj/s320/20241220_151748.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGIrdp0qRK4d9qkxMwQiAO8Dz62b9tFcbDwtMASxndqUjKkcg9FtcStzvLGhU0fycoDgd7yVrRaQ8t2kWeVRbfHxobH3SCWUcx0sAPaQEnrvsYOJYVjzHw_kO_57rRM9Lqk1Y-LZAsfotJZYWzZFRuHVWzV2In4cIv16iy8VpEFJqaohmqxeHALPSpt2Rj/s3947/20241220_151748.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzgtAoPIJPe8_trtSV2qJ-1U44cX1xu7frRzO0EAvvtV0iRdveahKqUcWsPsqaZfAjpKjLaYHc84YHHHAhI29IH2HwelG8XLWMOMT4DQLSC73K4CN6b8Z31PWBRAoLm_JCCYWhgjAzqpJD49-ygLmlqlgQ9Am_z1hsQ8TNFDVI4Wtwy_lfUSA3aHlb6opo/s320/20241220_175720.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzgtAoPIJPe8_trtSV2qJ-1U44cX1xu7frRzO0EAvvtV0iRdveahKqUcWsPsqaZfAjpKjLaYHc84YHHHAhI29IH2HwelG8XLWMOMT4DQLSC73K4CN6b8Z31PWBRAoLm_JCCYWhgjAzqpJD49-ygLmlqlgQ9Am_z1hsQ8TNFDVI4Wtwy_lfUSA3aHlb6opo/s4000/20241220_175720.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2G8Zpq09wWOdrJRIHFcCSiXSgQt92OFqPfdPCgAJEZ0FS1FgLSrJC8oU13C5UlhFwo3FKlk72APO4Iu0995BgTBHVQOeYv0xtOib2uGv6fE9evJce49CoDaDcxgKRBNq9sVAT6laRcJLMC-v6Bwh8H2IG_EjAlaelPJjJO71cVanj1hwiNCX7PUmHQr5O/s320/20241220_185937.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2G8Zpq09wWOdrJRIHFcCSiXSgQt92OFqPfdPCgAJEZ0FS1FgLSrJC8oU13C5UlhFwo3FKlk72APO4Iu0995BgTBHVQOeYv0xtOib2uGv6fE9evJce49CoDaDcxgKRBNq9sVAT6laRcJLMC-v6Bwh8H2IG_EjAlaelPJjJO71cVanj1hwiNCX7PUmHQr5O/s4000/20241220_185937.jpg)
+
+  
+
+
+The rest of the evening was all reading, snacks, games, and soaking in the onsen!
+
+  
+
+
+It was at this point we realized that we actually had a few things we wanted to see here at Lake Kawaguchi and rapidly formed a plan for the following day (ahead of our trip to Kyoto).

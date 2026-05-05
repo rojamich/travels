@@ -1,0 +1,65 @@
+---
+title: "Mt Cook Hike!"
+date: 2022-12-05
+categories:
+  - new-zealand
+order: 25
+tags:
+  - South Island
+---
+
+We were able to park the camper near a beautiful flower meadow for breakfast this morning which split the long drive up to My Cook nicely!
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8Qtqe45jB4bHmr62gohGe7T0c48VTMiGvs_Wp2XouwhEufLHMaYQ_BbzVG6T59jwvCRHhgzZgZcU624zXxWZ058QroS5uKmYYhMV98whGPcsMTukl3c6XPmuMBYTCu3k3ERALAS9tpGQtcUP6wqsdzCnEjSee-zofdjJp-F0_1L_DrBUMibZNw3zj7Q/w200-h150/received_667922898202269.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8Qtqe45jB4bHmr62gohGe7T0c48VTMiGvs_Wp2XouwhEufLHMaYQ_BbzVG6T59jwvCRHhgzZgZcU624zXxWZ058QroS5uKmYYhMV98whGPcsMTukl3c6XPmuMBYTCu3k3ERALAS9tpGQtcUP6wqsdzCnEjSee-zofdjJp-F0_1L_DrBUMibZNw3zj7Q/s2048/received_667922898202269.jpeg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEju9GnQVjmbwu8pUmsLx7Pq7aOB95DGk4pcvM6vppn1w0v8CVqT3r7eV9E293j6WNVG0ZkNCq8jvmgGVQMUP2mJRl08P5b_wYUHTQh8ShtnXeukq82eN8sXHOUZgqdaDSpiIG0gtzhGLVzKe5FihMfEdTb3WE20SNVJXGx4_YfW7yTG70sVuzGvMXgw/w200-h144/20221203_090549.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEju9GnQVjmbwu8pUmsLx7Pq7aOB95DGk4pcvM6vppn1w0v8CVqT3r7eV9E293j6WNVG0ZkNCq8jvmgGVQMUP2mJRl08P5b_wYUHTQh8ShtnXeukq82eN8sXHOUZgqdaDSpiIG0gtzhGLVzKe5FihMfEdTb3WE20SNVJXGx4_YfW7yTG70sVuzGvMXgw/s3509/20221203_090549.jpg)  
+  
+
+
+There was a super cute and convenient coffee stop near gas so we were grateful for the fuel ⛽ ☕
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiinEuXwH96cU3guuCKF4Y-7xXJON4BBODB0hVYe8Y6vJfzpidZAVTpJxXE7CvTrhy5wMLtzKfGufJ7BGTiRCn6iudYpjwDBDtGK59ZIoi1hToOB02mE3KynnjHY7Tx2Urq-eIOiPUn9oA6JMlPoTBE-G8tHDi7mFC2B3P1j6yNmThE3VDXU5v9dTwzoQ/w200-h150/20221203_101109.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiinEuXwH96cU3guuCKF4Y-7xXJON4BBODB0hVYe8Y6vJfzpidZAVTpJxXE7CvTrhy5wMLtzKfGufJ7BGTiRCn6iudYpjwDBDtGK59ZIoi1hToOB02mE3KynnjHY7Tx2Urq-eIOiPUn9oA6JMlPoTBE-G8tHDi7mFC2B3P1j6yNmThE3VDXU5v9dTwzoQ/s4032/20221203_101109.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibbJ6bijOoYtsb4A_xraRbPFrbaBfBwJUHev5WvRymRGxSnaS82vsOUYhof8qbrV-K754hpJxKsEghVDimMudX0KXoE4TJ5Ik67vfAm9ztUEJo_ijDFRPmIWYXVpFyCW1M56XYzBQb0Xh1JuO6W--DV1SfeCGSlBhT_Puntset9wlG52O2x6fZF-xXuQ/w200-h150/20221203_101115.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibbJ6bijOoYtsb4A_xraRbPFrbaBfBwJUHev5WvRymRGxSnaS82vsOUYhof8qbrV-K754hpJxKsEghVDimMudX0KXoE4TJ5Ik67vfAm9ztUEJo_ijDFRPmIWYXVpFyCW1M56XYzBQb0Xh1JuO6W--DV1SfeCGSlBhT_Puntset9wlG52O2x6fZF-xXuQ/s4032/20221203_101115.jpg)
+
+  
+
+
+There was somehow still available parking when we arrived around 11am! This park is usually loaded and was one of the only spots that was filled with people on this trip.   
+
+
+  
+
+
+We were treated to the view of a small avalanche! It was so LOUD!
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSGZRU0zYFw_XHReG5h4iStvje8bLmZJvyHGpxVcuEL_RVytj5PfICSg3fq59FLW04R2PNaRd_2XtKhZXFUIaptcJ-IYPDViZr9xza81V0xvluHds1NMTt6CbhE5VUcjLcoh9PvBRGnb72e8DOML9ZOsynt3ZOJkKGs64DCf_0EYoPXVU4Sz5GkkpHmA/w200-h149/20221203_114721.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSGZRU0zYFw_XHReG5h4iStvje8bLmZJvyHGpxVcuEL_RVytj5PfICSg3fq59FLW04R2PNaRd_2XtKhZXFUIaptcJ-IYPDViZr9xza81V0xvluHds1NMTt6CbhE5VUcjLcoh9PvBRGnb72e8DOML9ZOsynt3ZOJkKGs64DCf_0EYoPXVU4Sz5GkkpHmA/s1052/20221203_114721.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW27R0FuaaaZa6RN7uwH4qfX9b8ImB19QKpjTdd1ZXhgtD6RH4pZnnS11BahdCONuu4E7-th-NEzHJmg4Q-AgKdHTQW04iDVAXXYCjfbRxj5RBVmnRKDNIYRUytcZj4Y-vOlNaA__3MKnLiTmQHilMZcuuJbViaPtUkeWcEsPfCLERsVp3tRDyF0OsAg/w200-h150/20221203_114749.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW27R0FuaaaZa6RN7uwH4qfX9b8ImB19QKpjTdd1ZXhgtD6RH4pZnnS11BahdCONuu4E7-th-NEzHJmg4Q-AgKdHTQW04iDVAXXYCjfbRxj5RBVmnRKDNIYRUytcZj4Y-vOlNaA__3MKnLiTmQHilMZcuuJbViaPtUkeWcEsPfCLERsVp3tRDyF0OsAg/s4032/20221203_114749.jpg)
+
+  
+
+
+It was an easy 6.5 miler but a warm day with crowds and unique views. 
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGAsFXvXHuZW6aGKoyjH_II52k12T8cgDLpv7Ea0J64PUpuJiJBKphYz8dTOgxhzzJSu7ZoFZYno4g_fR6n5d-tr3ei96fx9urgI4hqAS29EB_T8ZO8UGIS7lLhdnAq3fZqVExGq8HjhrWtTVihmEpgK2ro3RjddbMIHSFG7HO0NKqX0fA64eBxzq0ag/s320/20221203_120627.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGAsFXvXHuZW6aGKoyjH_II52k12T8cgDLpv7Ea0J64PUpuJiJBKphYz8dTOgxhzzJSu7ZoFZYno4g_fR6n5d-tr3ei96fx9urgI4hqAS29EB_T8ZO8UGIS7lLhdnAq3fZqVExGq8HjhrWtTVihmEpgK2ro3RjddbMIHSFG7HO0NKqX0fA64eBxzq0ag/s4032/20221203_120627.jpg)
+
+  
+
+
+The hike ended with a cool mountain/lake view with glaciers!
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRGBridRyE6XBo_FJ1DW6tryEWS2TvUdG1mzpXUtWMx9Zsle5I2QAVpmxI4pXobxfaeIcQfdgxzcFl4W8xL2PGxCIPYcvRPMkmlHjjIgsnQpCnjWZ5eHiQmSyNXnYRJVzoRiZW2YxWF0UF5L4elO2Aee7H8WB3bgzCzB5s6wmW88u9Da8AeEgZikUSYQ/s320/20221203_130938.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRGBridRyE6XBo_FJ1DW6tryEWS2TvUdG1mzpXUtWMx9Zsle5I2QAVpmxI4pXobxfaeIcQfdgxzcFl4W8xL2PGxCIPYcvRPMkmlHjjIgsnQpCnjWZ5eHiQmSyNXnYRJVzoRiZW2YxWF0UF5L4elO2Aee7H8WB3bgzCzB5s6wmW88u9Da8AeEgZikUSYQ/s3919/20221203_130938.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyXFT1SZO6tijUtGFwHadqeKJC4fXnNE72m3dqBYS4Q0FZgZ5D2TbxQvcJy_8LHQZvyFxsb27w3wm6-U1DtRk_qYpPMwnse6vaGSa_wpXnVPX6F3i_1dDsyBjgscfgTiH4JYQ5G1QyG-alokm6SqaPthjjuzG4b3gveye3yUsNHo_zw0bYNO1o61e0WA/s320/20221203_130941.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyXFT1SZO6tijUtGFwHadqeKJC4fXnNE72m3dqBYS4Q0FZgZ5D2TbxQvcJy_8LHQZvyFxsb27w3wm6-U1DtRk_qYpPMwnse6vaGSa_wpXnVPX6F3i_1dDsyBjgscfgTiH4JYQ5G1QyG-alokm6SqaPthjjuzG4b3gveye3yUsNHo_zw0bYNO1o61e0WA/s4032/20221203_130941.jpg)
+
+  
+
+
+Mike even taught me to skip rocks!
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk3qA_rOrLRJZ9W2lvU2otD667BS2P36Yt-b2ddzWLQxtWlnVJNlbWXB7vG0LlWriVl7hqSAGP7jRQ8u7-Plc5iwcIH1fD9UAOEcxrOW_Ya5-ipht24bfEYCIpLK2wFazErdxi4F1kjkLyXi-tNF4J5jvAJh6NqxE9LX3AFgbhVhokize_3-Ewf307_w/s320/20221203_134514.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk3qA_rOrLRJZ9W2lvU2otD667BS2P36Yt-b2ddzWLQxtWlnVJNlbWXB7vG0LlWriVl7hqSAGP7jRQ8u7-Plc5iwcIH1fD9UAOEcxrOW_Ya5-ipht24bfEYCIpLK2wFazErdxi4F1kjkLyXi-tNF4J5jvAJh6NqxE9LX3AFgbhVhokize_3-Ewf307_w/s3648/20221203_134514.jpg)

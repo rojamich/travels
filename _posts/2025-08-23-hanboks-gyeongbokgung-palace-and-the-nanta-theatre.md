@@ -1,0 +1,149 @@
+---
+title: "Hanboks, Gyeongbokgung Palace, and the NANTA theatre!"
+date: 2025-08-23
+categories:
+  - bamboo-bulgogi
+order: 21
+tags:
+  - South Korea
+---
+
+Spoiler alert! This day offered one of my all-time favorite travel experiences! You'll see why in just a few minutes!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEit80bB3zrWT1dtf_R6paHoYJm2bYbW7p7atqOPzMb8FpkZniS1e4XW4UMwGlzbmNQjrDzgzy731EjwIxb2A-8xj9U3nY10x88Z6W9I9iqauHz-dOURyLAq7jA8CB4e0elRLnoqK-tITGBL9ro4-sr0u75rAF8yXxBYKGJJlwGWP6Sq5UP4P1czg6yA8HqN)](https://blogger.googleusercontent.com/img/a/AVvXsEit80bB3zrWT1dtf_R6paHoYJm2bYbW7p7atqOPzMb8FpkZniS1e4XW4UMwGlzbmNQjrDzgzy731EjwIxb2A-8xj9U3nY10x88Z6W9I9iqauHz-dOURyLAq7jA8CB4e0elRLnoqK-tITGBL9ro4-sr0u75rAF8yXxBYKGJJlwGWP6Sq5UP4P1czg6yA8HqN)
+
+We woke up to a few religious proclamations by a roving vehicle with a loudspeaker system! What a way to start the day XD
+
+After a hotel breakfast, we set off for a unique adventure where we were able to wear traditional hanboks! These are still worn by locals for special occasions. South Korea urges tourists to wear them, and there are many local shops to visit that will dress you up, and do your hair, and makeup. By doing this, you also get into local museums and palaces for free and skip the lines!
+
+There were SO many to choose from, but Mike had done lots of research and found us an excellent one at Daehan Hanbok Gyeongbokgung Hanbok Rental. As soon as I walked in the door they had us choose packages (do you want just the outfit? Hair? Makeup? Photos?) I selected the outfit and hair while Mike went with the outfit only. He looks great without makeup!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEiqstQiTD0SrbdSmgh4_L5B70G9ugUSo0_0k-6FExqMpRgSQXBDBQP-tUxekMiFdMJhrZKfWNVWfZ-I1Sjb0Gag5pmi-1xFQA-vTEmZfKi7rPC1wwYml5bNbEtrv6Mx-yEvcSePG1adSaKSbcdeHUMUgeB31zZ_PgMiV7pDFlyORS-Cd-mUzeSHgzSzixi4)](https://blogger.googleusercontent.com/img/a/AVvXsEiqstQiTD0SrbdSmgh4_L5B70G9ugUSo0_0k-6FExqMpRgSQXBDBQP-tUxekMiFdMJhrZKfWNVWfZ-I1Sjb0Gag5pmi-1xFQA-vTEmZfKi7rPC1wwYml5bNbEtrv6Mx-yEvcSePG1adSaKSbcdeHUMUgeB31zZ_PgMiV7pDFlyORS-Cd-mUzeSHgzSzixi4) [![](https://blogger.googleusercontent.com/img/a/AVvXsEgFkhpSZlMtKMTAkiuzv1ONSMl15UBh1mffjd8yV0yj51gCz3ZQkWJXA4VW71rD45iIp0qIdRajrAElp1sot9QN4OnRaOdJ9mCbgVENDhyTD2jjp2nUiaphApTmnXAubRW-5AauQo7HHvlLblm50iXgVSKl-LTTYyd3wGbDduSjtQh2NMY0as3N-Wt1K8zS)](https://blogger.googleusercontent.com/img/a/AVvXsEgFkhpSZlMtKMTAkiuzv1ONSMl15UBh1mffjd8yV0yj51gCz3ZQkWJXA4VW71rD45iIp0qIdRajrAElp1sot9QN4OnRaOdJ9mCbgVENDhyTD2jjp2nUiaphApTmnXAubRW-5AauQo7HHvlLblm50iXgVSKl-LTTYyd3wGbDduSjtQh2NMY0as3N-Wt1K8zS)  
+
+
+ They showed me to a few racks of dresses to select from, and one employee found a top that matched well and would keep me warm :) Here I am, excitedly waiting for my turn with a hairstylist. Mike found a great outfit that went well with mine! Doesn't he look dashing?!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhIaaBq-pFwYmi2Ll2Uwjb0NE5PnbFvum9FlyrP5ZVRpi9gMUKjG7Fs57pJUKPR1Ya3Cw_GBoPwHOqBbXZl8EYbn0w87rwTYLge6qpsEP91NuaKjAgsiEgCC_4cYT3r2vW8zec5x1g2uWzU2F9_IvBc1F2FXfsrIHPLxpY_fXuuwioeuKTH7TUGWhiOTBjU)](https://blogger.googleusercontent.com/img/a/AVvXsEhIaaBq-pFwYmi2Ll2Uwjb0NE5PnbFvum9FlyrP5ZVRpi9gMUKjG7Fs57pJUKPR1Ya3Cw_GBoPwHOqBbXZl8EYbn0w87rwTYLge6qpsEP91NuaKjAgsiEgCC_4cYT3r2vW8zec5x1g2uWzU2F9_IvBc1F2FXfsrIHPLxpY_fXuuwioeuKTH7TUGWhiOTBjU)
+
+You can see on the wall to my left all the style options to choose from when getting your hair done. She was really sweet and gentle.
+
+ 
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEh65jf3QK_hN1qIz3DQ6cuznrLks5VDiwg-YL57Z0bQQUu7Zwh0rqDlpx_KbUA4w4JHVbNVcsDnvyLCkcGKmZLnFAXsIJJlVSLimuOOenSCWZ_vE0qpKtM0oqZXzJq1XEY6PFBMuLH-qIg32iBAcUyfAEVc3hWR3blXHeDOF3Yba5KSTj5Ol5aKOuInsznv)](https://blogger.googleusercontent.com/img/a/AVvXsEh65jf3QK_hN1qIz3DQ6cuznrLks5VDiwg-YL57Z0bQQUu7Zwh0rqDlpx_KbUA4w4JHVbNVcsDnvyLCkcGKmZLnFAXsIJJlVSLimuOOenSCWZ_vE0qpKtM0oqZXzJq1XEY6PFBMuLH-qIg32iBAcUyfAEVc3hWR3blXHeDOF3Yba5KSTj5Ol5aKOuInsznv)[![](https://blogger.googleusercontent.com/img/a/AVvXsEh-XsBzxmjNLyfMQsVAhSjhZXywsaayb4jCSeaXkr_iKTMc7QtFRg269ZCf4srsFFg5o-6Alk6kfMwah2FZBK02ObKv2jnywD7ZqoKVJE9PBMX5qMjxMgYcHFRGbyNzFcCS-LSIyxpBej9nng62HKXEEYbp6sieUFnzLGj1wlFIBKy8iXgejdtT4Rx1N_65)](https://blogger.googleusercontent.com/img/a/AVvXsEh-XsBzxmjNLyfMQsVAhSjhZXywsaayb4jCSeaXkr_iKTMc7QtFRg269ZCf4srsFFg5o-6Alk6kfMwah2FZBK02ObKv2jnywD7ZqoKVJE9PBMX5qMjxMgYcHFRGbyNzFcCS-LSIyxpBej9nng62HKXEEYbp6sieUFnzLGj1wlFIBKy8iXgejdtT4Rx1N_65)[![](https://blogger.googleusercontent.com/img/a/AVvXsEh-BAcvnW89_4LMoicb5ltGPJcRfrKOdFfvlXRIjQWFXIZrnO20wFjfF-NDCMQKrKsUDkT_Sn8OI_51gfFXp5hSlFFkcI2ipjZcLcI9hv1B0ed5aJ2DVOUAz3Dt6atBuNNXAx7KDbBW1RHM7_jxxurKe8Fyd2M6ujH3lM_Cw-2ecGVX07Rn6mFVkMa5jp3f)](https://blogger.googleusercontent.com/img/a/AVvXsEh-BAcvnW89_4LMoicb5ltGPJcRfrKOdFfvlXRIjQWFXIZrnO20wFjfF-NDCMQKrKsUDkT_Sn8OI_51gfFXp5hSlFFkcI2ipjZcLcI9hv1B0ed5aJ2DVOUAz3Dt6atBuNNXAx7KDbBW1RHM7_jxxurKe8Fyd2M6ujH3lM_Cw-2ecGVX07Rn6mFVkMa5jp3f)
+
+There was even a backdrop for us to take photos, and we felt like we finally got to go to prom together!
+
+As we walked down the road towards the Gyeongbokgung Palace, there were a few groups who had also gone for the Hanbok experience. We were all turning heads! Mike was one of the few men brave enough to go for it with their spouse. I'm so lucky!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEiIEbg_-v4Buw5_JILCuGlY7q4ThzLsfB5zshT74pQyAmJL1z99SKOZ6X0r2aKnm86n7h-l0FBpySZ_9s-uN0ERehYocJDXDP_gAAUVZ3i2chfvf4UHd6lwMcSDlmZAPBxEsO4o8DDGm_oJqRVZbWbD32Euz_oF3bz7gFVuS6dPN_9cLATlj_3iUxbzWy8j)](https://blogger.googleusercontent.com/img/a/AVvXsEiIEbg_-v4Buw5_JILCuGlY7q4ThzLsfB5zshT74pQyAmJL1z99SKOZ6X0r2aKnm86n7h-l0FBpySZ_9s-uN0ERehYocJDXDP_gAAUVZ3i2chfvf4UHd6lwMcSDlmZAPBxEsO4o8DDGm_oJqRVZbWbD32Euz_oF3bz7gFVuS6dPN_9cLATlj_3iUxbzWy8j) [![](https://blogger.googleusercontent.com/img/a/AVvXsEgZTTLURdxsTgod60_UZzs32rXiowcgaXwV10xx-nwMNxG5QO_f3ofJYwWXjuh_NUrcRbRg5wgNF7AEB9PHoFZ9kXVNl80e9E4Hm0nat4TZHcIKOqhVqrLGRxAjn_AQS1d2wjDjxpz8O-cdYHCv0im1jUDYORVDFM3dPn176N65wRQzlVYw2wntSuGUrzqw)](https://blogger.googleusercontent.com/img/a/AVvXsEgZTTLURdxsTgod60_UZzs32rXiowcgaXwV10xx-nwMNxG5QO_f3ofJYwWXjuh_NUrcRbRg5wgNF7AEB9PHoFZ9kXVNl80e9E4Hm0nat4TZHcIKOqhVqrLGRxAjn_AQS1d2wjDjxpz8O-cdYHCv0im1jUDYORVDFM3dPn176N65wRQzlVYw2wntSuGUrzqw)  
+  
+
+
+When we reached the palace, we awaited entry while the changing of the guard occurred, what timing! We were able to sneak in a few photos beforehand, thanks to a group of super sweet British girls on a girls' trip!
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEh8E_Rfe2BDYkFHPaskOG2xxy3EY-3o1uyb2-GIx0a6GmSJqsdTEzNuylXEbgi-R6-Tt-23voTSoYgOXwHVotCIFLW6_u3OS5GF7nB8QYi_OyHtU-lsogdOXyBWzcV1_-rM4cdAoK5pMkboAucJHmDrFMBjL0-oQZjyzWeMKsaPuCNXYbAidDrz9ob5MV9v)](https://blogger.googleusercontent.com/img/a/AVvXsEh8E_Rfe2BDYkFHPaskOG2xxy3EY-3o1uyb2-GIx0a6GmSJqsdTEzNuylXEbgi-R6-Tt-23voTSoYgOXwHVotCIFLW6_u3OS5GF7nB8QYi_OyHtU-lsogdOXyBWzcV1_-rM4cdAoK5pMkboAucJHmDrFMBjL0-oQZjyzWeMKsaPuCNXYbAidDrz9ob5MV9v)[![](https://blogger.googleusercontent.com/img/a/AVvXsEj_nH_i7G1RWP5HuIfBbfU4YC8WhcIhDi0kpjlR6V8nZlNk7748MuK91pCkx3SipSyzlaKo2y3LM0cDf3yWU3ggegQT1FGGemBL2O_66Pd60QHmE9pnOsDU6u6GbWnR3dzJTGkCqt7pM24CwX8Gz4FGsNNC2ZvAYCMXvcAnbaINGJaLqBnuog4brzyJoxN1)](https://blogger.googleusercontent.com/img/a/AVvXsEj_nH_i7G1RWP5HuIfBbfU4YC8WhcIhDi0kpjlR6V8nZlNk7748MuK91pCkx3SipSyzlaKo2y3LM0cDf3yWU3ggegQT1FGGemBL2O_66Pd60QHmE9pnOsDU6u6GbWnR3dzJTGkCqt7pM24CwX8Gz4FGsNNC2ZvAYCMXvcAnbaINGJaLqBnuog4brzyJoxN1)
+
+We were relieved to not miss this!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgnIZooGn2aT3GE72UY7m9FVSE6X_yiuADXTqqVobN8dtdQaPjawZYLXHqR0UO0ZjqCEKXuGhRbZmI8oySc7DbC6JvUz3R2Vt_ya-_1ieNKIQgoclR-Zvvo10-CGX2xk2qjoROzVJTl8JuyIjzlJRlwNFkcgLzMo0ZDVCoGzNJ9ecyhvRLqq6D1rhnyAQaN)](https://blogger.googleusercontent.com/img/a/AVvXsEgnIZooGn2aT3GE72UY7m9FVSE6X_yiuADXTqqVobN8dtdQaPjawZYLXHqR0UO0ZjqCEKXuGhRbZmI8oySc7DbC6JvUz3R2Vt_ya-_1ieNKIQgoclR-Zvvo10-CGX2xk2qjoROzVJTl8JuyIjzlJRlwNFkcgLzMo0ZDVCoGzNJ9ecyhvRLqq6D1rhnyAQaN)[![](https://blogger.googleusercontent.com/img/a/AVvXsEi_eCPi7JzYL0sbMxzAcTQIy4lhwFiRamr3UT3r8bEpk0kpPTKH7yszBKjyscwdZFUE1dyq0d0iVanRCHodhbAI4XSNcwfsZrydNUx2rQgwv5b7ljmf_IOWCY5sKHq3Mv-ymTk-CoPWvcglPKFqCOjMGL5Ro13jsv1hga7DVEUYn0ZsClZOcSPsa9Mvmgop)](https://blogger.googleusercontent.com/img/a/AVvXsEi_eCPi7JzYL0sbMxzAcTQIy4lhwFiRamr3UT3r8bEpk0kpPTKH7yszBKjyscwdZFUE1dyq0d0iVanRCHodhbAI4XSNcwfsZrydNUx2rQgwv5b7ljmf_IOWCY5sKHq3Mv-ymTk-CoPWvcglPKFqCOjMGL5Ro13jsv1hga7DVEUYn0ZsClZOcSPsa9Mvmgop)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgY5yx2y1lYsh1qDaiTi4BgMzJwVHKfUV_13dkTMdkmIpBf46AXs3j1scBFdmBxhOfkumHj796SpXSMSPokcbTvZmp3qGVoeNzgig_CvJewg8jG0jLIzrjPceWUCLE5VkRZpLiQSURrncNBnfOD5HrD8N0sQvADD1L9tNbhiuij7R8R0Uxdbp3boizi9lTE)](https://blogger.googleusercontent.com/img/a/AVvXsEgY5yx2y1lYsh1qDaiTi4BgMzJwVHKfUV_13dkTMdkmIpBf46AXs3j1scBFdmBxhOfkumHj796SpXSMSPokcbTvZmp3qGVoeNzgig_CvJewg8jG0jLIzrjPceWUCLE5VkRZpLiQSURrncNBnfOD5HrD8N0sQvADD1L9tNbhiuij7R8R0Uxdbp3boizi9lTE)
+
+  
+The girls and I took turns snapping photos of each other to ensure everyone got the full experience. We were so happy with the way they turned out! How freaking cool to be able to dress up and walk through a palace together this way!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhm14i_qnbTrZdlXzIQB3ebDhBld8smL5oKfgo3c6n9CksrSAUmxOGPYgCz_fWkpvDjaqSsv9oZc0Q6iJpMIVeeBIao34BojtM7o7k_zKVZW8C325r5g5SqhwE-1GJf7KAgcRnhVxjArKrdxVEYVO4z60FotfTXthZ9KmkGtKYEWpHcoJajahNMs3n074cG)](https://blogger.googleusercontent.com/img/a/AVvXsEhm14i_qnbTrZdlXzIQB3ebDhBld8smL5oKfgo3c6n9CksrSAUmxOGPYgCz_fWkpvDjaqSsv9oZc0Q6iJpMIVeeBIao34BojtM7o7k_zKVZW8C325r5g5SqhwE-1GJf7KAgcRnhVxjArKrdxVEYVO4z60FotfTXthZ9KmkGtKYEWpHcoJajahNMs3n074cG)[![](https://blogger.googleusercontent.com/img/a/AVvXsEjCqEhh6D5gennGUR8EJdGPbX0Iefs5mdWCxGb99qlc8vrZXUgooGAcoAvd9Ajd2Lu3TCfuT8Vamn18IP2jevUaWSuev-W6l1t4qw3_pqOcotALp89mHuKSVIQWP7YCAoXyFv2bJUAqO6HaFi93qNtRfXqBeVQPqRW7OAs2c_8EhH0UNk9epVihUgckbYNE)](https://blogger.googleusercontent.com/img/a/AVvXsEjCqEhh6D5gennGUR8EJdGPbX0Iefs5mdWCxGb99qlc8vrZXUgooGAcoAvd9Ajd2Lu3TCfuT8Vamn18IP2jevUaWSuev-W6l1t4qw3_pqOcotALp89mHuKSVIQWP7YCAoXyFv2bJUAqO6HaFi93qNtRfXqBeVQPqRW7OAs2c_8EhH0UNk9epVihUgckbYNE)
+
+  
+I felt really fancy here and loved how my hair turned out! Didn't Mike do super well taking photos? Hes so patient lol
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjkbzLv2ND4YKN5SC9d0H36b795Ew-V1gCQSjV9DfCii0sGjQQ34T35bMzIG1s8LB3DZzYTjJ3bUrxdz2muRivXEANaaB_xw7MP-iy7Lky3pP85JOC82fu4og9gxzbMDWa4BiwHVVh08_NL56eM6YgcKsg9UmFlpbtrHdWKAJJK3xvSGYpi2WNfUrScgRoG)](https://blogger.googleusercontent.com/img/a/AVvXsEjkbzLv2ND4YKN5SC9d0H36b795Ew-V1gCQSjV9DfCii0sGjQQ34T35bMzIG1s8LB3DZzYTjJ3bUrxdz2muRivXEANaaB_xw7MP-iy7Lky3pP85JOC82fu4og9gxzbMDWa4BiwHVVh08_NL56eM6YgcKsg9UmFlpbtrHdWKAJJK3xvSGYpi2WNfUrScgRoG)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjekKYCUEjQG63bUAWaw3oAbL4DtJUCas7BkkvKFDWa_AKGZEFOf59QVmsVMfHVO7ZJCmdIzbC64xXAUauHNJ4DujrGANFamth-vXiGKvoLZBQnBrISM_Lvz7OI3GnYzb9T0PJAX0rEPhfwTnNzGOZ7WmoVVift3Oq1JgzC-d2ulb_rsYjcSUJVIaR7zB8L)](https://blogger.googleusercontent.com/img/a/AVvXsEjekKYCUEjQG63bUAWaw3oAbL4DtJUCas7BkkvKFDWa_AKGZEFOf59QVmsVMfHVO7ZJCmdIzbC64xXAUauHNJ4DujrGANFamth-vXiGKvoLZBQnBrISM_Lvz7OI3GnYzb9T0PJAX0rEPhfwTnNzGOZ7WmoVVift3Oq1JgzC-d2ulb_rsYjcSUJVIaR7zB8L)
+
+  
+We were grateful to stop and take in the experience.
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEj_jYn4GZzubFjPOyzV2b_WMC98v4Bmvo1vm6-jl9oIcVpLEyLibBWZE2iHCRb2HzSA8iZ0VwZeQVfUXgFvyvCszFIOQa-VsXkcWc1Na2lmdcIKthNBd_lcSWCIwr1eg3Wt7FcCyQ0weLbWyCf3mDr_Esot5KjvKjg__c_zmTxNsv3KdduPGHt3yVjmbf5A)](https://blogger.googleusercontent.com/img/a/AVvXsEj_jYn4GZzubFjPOyzV2b_WMC98v4Bmvo1vm6-jl9oIcVpLEyLibBWZE2iHCRb2HzSA8iZ0VwZeQVfUXgFvyvCszFIOQa-VsXkcWc1Na2lmdcIKthNBd_lcSWCIwr1eg3Wt7FcCyQ0weLbWyCf3mDr_Esot5KjvKjg__c_zmTxNsv3KdduPGHt3yVjmbf5A)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgQZki6lnHweU4Ul8_ryhYR8Zhbf_Jea9lWDHcfqs2Qy9tFYpLg8Z1OXAUDWHvUJsGMyGrLyeuR7JDW4DXWVsp-5uYzPkIZQT2y3P3tmXqeboWzzON1ks7D9LZQcGunMA0_9ARPyGGYk8GcZZcvPQznWYvR-TC29AIXp_EKQxJr3EXzf1jR8hDZmVwtaQnr)](https://blogger.googleusercontent.com/img/a/AVvXsEgQZki6lnHweU4Ul8_ryhYR8Zhbf_Jea9lWDHcfqs2Qy9tFYpLg8Z1OXAUDWHvUJsGMyGrLyeuR7JDW4DXWVsp-5uYzPkIZQT2y3P3tmXqeboWzzON1ks7D9LZQcGunMA0_9ARPyGGYk8GcZZcvPQznWYvR-TC29AIXp_EKQxJr3EXzf1jR8hDZmVwtaQnr)
+
+Even the underside of the archways had intense and colorful detail!
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEinUUXbNt-hGLTe2USObJ5KF0fUg7VN_LVjIKvJXrrNAAbDYN4LeYyUAntVoq7BDsNEdHcAZ9QTg9_uqvxToJRDnxlmb2fhHnRaSaZuKWvls74LbT0Qs7D8HTGJeb9i4i_D2yKnVsXIhNaGLjKYwwSaC18Qt07y2kCU-6lJ0mhtZE8OQWOkeNoF94NHz_F4)](https://blogger.googleusercontent.com/img/a/AVvXsEinUUXbNt-hGLTe2USObJ5KF0fUg7VN_LVjIKvJXrrNAAbDYN4LeYyUAntVoq7BDsNEdHcAZ9QTg9_uqvxToJRDnxlmb2fhHnRaSaZuKWvls74LbT0Qs7D8HTGJeb9i4i_D2yKnVsXIhNaGLjKYwwSaC18Qt07y2kCU-6lJ0mhtZE8OQWOkeNoF94NHz_F4)
+
+Look at how peaceful this spot is. I think this is Mike's dream zen garden.
+
+Sadly, it was time to return the hanboks and continue on with our day. I was so freaking happy we did this experience, and am grateful we soaked up every minute together!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgE7Dc1gRVjAFEcpWf-ab3FC6O1ssjNMakTdVUUqo-orOfnxKDkuTzd9OoaY_sHu9qQxCYNyYL0rSnWDchbRr67CCkzmUGZnUgi4KWPQoQFzif4oytq6NjpIm41imORMlXDYgeYEiLVEGnIjFOg8_ocpr9OFEopz2FBpZ-yGBbt10hXzRiOHvOnPC0MoIVE)](https://blogger.googleusercontent.com/img/a/AVvXsEgE7Dc1gRVjAFEcpWf-ab3FC6O1ssjNMakTdVUUqo-orOfnxKDkuTzd9OoaY_sHu9qQxCYNyYL0rSnWDchbRr67CCkzmUGZnUgi4KWPQoQFzif4oytq6NjpIm41imORMlXDYgeYEiLVEGnIjFOg8_ocpr9OFEopz2FBpZ-yGBbt10hXzRiOHvOnPC0MoIVE)[![](https://blogger.googleusercontent.com/img/a/AVvXsEhPMSOmVDcX0WusNBZV6j9tpSiU-gSwGraeB3r_UXfV6oGKqwUl3kWOx8AqQKX4N2C9gcbAtQCkdgtSo8jHkLyf1C48UKeP2nZVg213j9QHpMTfGbD9XL0MqNm4V90MI6PeouNInOZoyIm9GTbkts4xp2BcS4MFfMhy8qhwlUQEpTxZZz5WkyOEV_Pai7mQ)](https://blogger.googleusercontent.com/img/a/AVvXsEhPMSOmVDcX0WusNBZV6j9tpSiU-gSwGraeB3r_UXfV6oGKqwUl3kWOx8AqQKX4N2C9gcbAtQCkdgtSo8jHkLyf1C48UKeP2nZVg213j9QHpMTfGbD9XL0MqNm4V90MI6PeouNInOZoyIm9GTbkts4xp2BcS4MFfMhy8qhwlUQEpTxZZz5WkyOEV_Pai7mQ)
+
+  
+We came across a local spot offering bulgogi and got warm/full on these dishes!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEiHEaPgj6Ibm0z-ph2ECWkd8hqMsGPz3UgllbKQfHFYlg3M299IMetEhWwvH8HMhbjONrIivhHoxLTCOYSFBdqgXOjJE5NIyLDtGxn1rafpUw0duyC0BQ3S8McBLNVFFMyzZeYS5LX4cOEClV5Jl-Ic0w57_McopuRO0aCvoT-igFCyM0ERKPg2wHtFH677)](https://blogger.googleusercontent.com/img/a/AVvXsEiHEaPgj6Ibm0z-ph2ECWkd8hqMsGPz3UgllbKQfHFYlg3M299IMetEhWwvH8HMhbjONrIivhHoxLTCOYSFBdqgXOjJE5NIyLDtGxn1rafpUw0duyC0BQ3S8McBLNVFFMyzZeYS5LX4cOEClV5Jl-Ic0w57_McopuRO0aCvoT-igFCyM0ERKPg2wHtFH677)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgMszhW8Z2kq0lD6Om0xULmbh8FzOdDnDuQU3PaZNqO8dPUkkmlxLqkn2BvDkYhyS7w5FxV1iH6w1FJieP_1_9pCLVsGQn5DeTOixaVu3Q_QHTl-l7lL9x-jMxSCKXrkiAh_8-nbldH5pUs9hiZ5A0UC7BRhc7SUQQ0Ee2-_ewRJ2U9cbmykmPc-W8ocT-3)](https://blogger.googleusercontent.com/img/a/AVvXsEgMszhW8Z2kq0lD6Om0xULmbh8FzOdDnDuQU3PaZNqO8dPUkkmlxLqkn2BvDkYhyS7w5FxV1iH6w1FJieP_1_9pCLVsGQn5DeTOixaVu3Q_QHTl-l7lL9x-jMxSCKXrkiAh_8-nbldH5pUs9hiZ5A0UC7BRhc7SUQQ0Ee2-_ewRJ2U9cbmykmPc-W8ocT-3)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEi944jEGjqf7ef_4qq8eybw_YCm033w08YqcGl5I4TKY84PC1aShwDguYZ5HLb8HOeHlhGFM291ArQNLSoTBNB-t1coFPuSDsI71xHb9GODUUD9j8ct7biXzUUyP4Nl3f4algsN2ABWUQSvI6FLRFFxzALl9lbbh6Xvhxv2-z8T1WKyh_cxcUUtDV3pKM7Q)](https://blogger.googleusercontent.com/img/a/AVvXsEi944jEGjqf7ef_4qq8eybw_YCm033w08YqcGl5I4TKY84PC1aShwDguYZ5HLb8HOeHlhGFM291ArQNLSoTBNB-t1coFPuSDsI71xHb9GODUUD9j8ct7biXzUUyP4Nl3f4algsN2ABWUQSvI6FLRFFxzALl9lbbh6Xvhxv2-z8T1WKyh_cxcUUtDV3pKM7Q)[![](https://blogger.googleusercontent.com/img/a/AVvXsEjAeh9K1yWapTqwVuBsklEwB-wf5FLaXAlGRmZCSLtUfhGi9R2op_uhqIi__urwnOSYe6OhMYiXqEjPexNADQVmU1CRodCa7gpZ663YqbPzFW7gpV-p7c87mej7Vt1YEySoG7wjE5CTdcqTOv58FzM3piWIyItfDum9OeKZE8VhyS5M9EpR-5LBn8CaL4WX)](https://blogger.googleusercontent.com/img/a/AVvXsEjAeh9K1yWapTqwVuBsklEwB-wf5FLaXAlGRmZCSLtUfhGi9R2op_uhqIi__urwnOSYe6OhMYiXqEjPexNADQVmU1CRodCa7gpZ663YqbPzFW7gpV-p7c87mej7Vt1YEySoG7wjE5CTdcqTOv58FzM3piWIyItfDum9OeKZE8VhyS5M9EpR-5LBn8CaL4WX)  
+
+
+Next, we revisited the Cheonggyecheon Stream on our way to the Gwanghwamun Square and took in all the sites! Look how festive it is!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjSPrKnIp_eJYnJas-6c38jcM_qVzi7eUdCtcPk00s1TbzFP-lOhDpDKlhwKjGzwwSZPklqOWGTJovt9RiJWe4fdZr6Cgr_7YzuGjvyVY9RCmDdOL8iWB7C0Bfr8Tdl7fSx_m1PIZgB0iNXzYO7Pucu7tCexlyaBjgmvMWVrcVaya5T27rsYgInE_S1WUri)](https://blogger.googleusercontent.com/img/a/AVvXsEjSPrKnIp_eJYnJas-6c38jcM_qVzi7eUdCtcPk00s1TbzFP-lOhDpDKlhwKjGzwwSZPklqOWGTJovt9RiJWe4fdZr6Cgr_7YzuGjvyVY9RCmDdOL8iWB7C0Bfr8Tdl7fSx_m1PIZgB0iNXzYO7Pucu7tCexlyaBjgmvMWVrcVaya5T27rsYgInE_S1WUri)[![](https://blogger.googleusercontent.com/img/a/AVvXsEjsdIO1LuXsnkfJElWOr9GtP4bmwBxOsW6IB1jT6be-jqJ6yCbuL_ZgLJsBbD9zwlaaWrVLqpHHOJE-Y1HzZaQZoI5PdnCAqLX72utOUQo1jBOXI5YmfZBsCaAOFEcltNwcgTqUO4-P3Z89y_-7ntncrNadnN8OkPkT_k79BbsyScIVCch6jlYYdZGSnlVk)](https://blogger.googleusercontent.com/img/a/AVvXsEjsdIO1LuXsnkfJElWOr9GtP4bmwBxOsW6IB1jT6be-jqJ6yCbuL_ZgLJsBbD9zwlaaWrVLqpHHOJE-Y1HzZaQZoI5PdnCAqLX72utOUQo1jBOXI5YmfZBsCaAOFEcltNwcgTqUO4-P3Z89y_-7ntncrNadnN8OkPkT_k79BbsyScIVCch6jlYYdZGSnlVk)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjHXH6A63cDz7Tnc324CsOYompfBxgbXdRxLlOfJmaGOu7t1kJWGXAXfyYUI9CeD2JpCjnFhkY56Fh32KPfDEbrBeJk7vrfy-4KhPSKn6Jidiv3945oVFkDoioWkBi814AO41Dv6DyhgOSzDFS4JvAwtjF7A2ANntWhR51_3dseHFbqS1yTNVDS8-Vc1vIR)](https://blogger.googleusercontent.com/img/a/AVvXsEjHXH6A63cDz7Tnc324CsOYompfBxgbXdRxLlOfJmaGOu7t1kJWGXAXfyYUI9CeD2JpCjnFhkY56Fh32KPfDEbrBeJk7vrfy-4KhPSKn6Jidiv3945oVFkDoioWkBi814AO41Dv6DyhgOSzDFS4JvAwtjF7A2ANntWhR51_3dseHFbqS1yTNVDS8-Vc1vIR)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhFfjmxcUU5VpjsKyN_8_YBsHOCCl3lfDPSHSTVNJmQzQyh4-6778QShrzculVe4XkCVzEQQD6DuAYH7fwMGOGU48ybGWWDaCtJSOcwu-VfQVvH6NhudEF7TPx6jsUNdw9355kCRf4zxTzAnU7ul4OyFYG2RvQUONYEIHKM7i7qUSww7zTRBekPqrXGHr4r)](https://blogger.googleusercontent.com/img/a/AVvXsEhFfjmxcUU5VpjsKyN_8_YBsHOCCl3lfDPSHSTVNJmQzQyh4-6778QShrzculVe4XkCVzEQQD6DuAYH7fwMGOGU48ybGWWDaCtJSOcwu-VfQVvH6NhudEF7TPx6jsUNdw9355kCRf4zxTzAnU7ul4OyFYG2RvQUONYEIHKM7i7qUSww7zTRBekPqrXGHr4r)
+
+There was no shortage of interesting architecture here either! Mike found a very kind gentleman to chat with on a bench, too.
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhiVcZJCcH97x59pmNsOazc0cVp2qBB8rUWaCu6Q9EkXFZTiAHaYcvbDZIMtCkZMQmkwrJ971jvjEBqUK0IjqIncDdK_AesKsU62xR_xP3_vycZZ0S2u3DlYYUEx6O-UwmOqDNRlEEQfwttV5P10SlYI_gjwn9l-VFHxEswDE1KpORH36GQDzbeCGF2ySKs)](https://blogger.googleusercontent.com/img/a/AVvXsEhiVcZJCcH97x59pmNsOazc0cVp2qBB8rUWaCu6Q9EkXFZTiAHaYcvbDZIMtCkZMQmkwrJ971jvjEBqUK0IjqIncDdK_AesKsU62xR_xP3_vycZZ0S2u3DlYYUEx6O-UwmOqDNRlEEQfwttV5P10SlYI_gjwn9l-VFHxEswDE1KpORH36GQDzbeCGF2ySKs)[![](https://blogger.googleusercontent.com/img/a/AVvXsEinr4fT0tthNp2_pqh8Z2uqf9Ev0fbLskVWPRm0ARmiuIDylu0AKiWJiCE4FrGeH92BpB_dltbX9SluyhfrQuetns45D-Usjt3DGzSQccifVv6pXy_xL2EgB0ZOutoFWxFWPt2xp5QBVy18xSUqOfnMNFif1kLgDlh-NmIRALOKJAoNAdXiCfsQrKA0kFqt)](https://blogger.googleusercontent.com/img/a/AVvXsEinr4fT0tthNp2_pqh8Z2uqf9Ev0fbLskVWPRm0ARmiuIDylu0AKiWJiCE4FrGeH92BpB_dltbX9SluyhfrQuetns45D-Usjt3DGzSQccifVv6pXy_xL2EgB0ZOutoFWxFWPt2xp5QBVy18xSUqOfnMNFif1kLgDlh-NmIRALOKJAoNAdXiCfsQrKA0kFqt)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgCYRP2cUsqKvbdhrsQ837MsnsFQlAnXA84VEOSymiwEpArUk15xsPccT2wN2mIvrXXNbSYTpoxbYKuM1D4We50vzXSIgxa0mkTdNuEhDpm1HnsuE1INdgZUOvZJ3Wfja8DXDMqwEUpHQhW3IQ51cU37TpIktyMaOtP2jjJbnDbzWvcs7PcL4oQDQPqNAKI)](https://blogger.googleusercontent.com/img/a/AVvXsEgCYRP2cUsqKvbdhrsQ837MsnsFQlAnXA84VEOSymiwEpArUk15xsPccT2wN2mIvrXXNbSYTpoxbYKuM1D4We50vzXSIgxa0mkTdNuEhDpm1HnsuE1INdgZUOvZJ3Wfja8DXDMqwEUpHQhW3IQ51cU37TpIktyMaOtP2jjJbnDbzWvcs7PcL4oQDQPqNAKI)
+
+  
+Here was the very overwhelming but super interesting Namdaemun Market! It had just about anything you could think of there!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhq38Hthijy9pSiDZNX30JyOyG6OGFcMudjYPZp0R6Tlrg4txbVQklZch4p0dASOWEp44P5vEkqg94Er6PZL1gal7jX9LsFhDEjuhFKduT9SQxZeJRHd1YLDJj4thLyoO3JIXC-zcPP9omisiSAfAviPUo0_q876PCrQG6nspqXRRxYlET2qdcT_uzODATx)](https://blogger.googleusercontent.com/img/a/AVvXsEhq38Hthijy9pSiDZNX30JyOyG6OGFcMudjYPZp0R6Tlrg4txbVQklZch4p0dASOWEp44P5vEkqg94Er6PZL1gal7jX9LsFhDEjuhFKduT9SQxZeJRHd1YLDJj4thLyoO3JIXC-zcPP9omisiSAfAviPUo0_q876PCrQG6nspqXRRxYlET2qdcT_uzODATx)
+
+Including ...waffles of all sorts!! I chowed down on a caramel waffle while chatting with a table of sweet elderly ladies with my very limited Korean and their very limited English. It was SO cute!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjm2EQpgwwrKVINP2vVDWPGyOetcOCp516On5gSI8y8cMUx2CRfROwHOPIPKN7Ji-TeF0e8iAF7kXyDRwEJNnrsJYKVjzfSOjHDgGMzjQOsdgs-NC4OH3hHLgY7DSTFVkBKLygnt02KV4E1VPjDbVs9h4Da-vOOAi7VaPJb3Zw0d8bP-K6XTKN-1M2_OE41)](https://blogger.googleusercontent.com/img/a/AVvXsEjm2EQpgwwrKVINP2vVDWPGyOetcOCp516On5gSI8y8cMUx2CRfROwHOPIPKN7Ji-TeF0e8iAF7kXyDRwEJNnrsJYKVjzfSOjHDgGMzjQOsdgs-NC4OH3hHLgY7DSTFVkBKLygnt02KV4E1VPjDbVs9h4Da-vOOAi7VaPJb3Zw0d8bP-K6XTKN-1M2_OE41)
+
+This night, we attended a show called [NANTA ](https://www.nanta.co.kr:452/)\- it was HILARIOUS! They dance, drum, get into crazy predicaments, and do acrobatics! We almost passed this up, but were so entertained - a must do!
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEiaWWOTYcP34zubhH11xuXc0wtnO-S4_xdo6iXbJ0rf5Yb8ljCTTc3Evr8vMElF3qgmAymn7TLYisLZjfDAZT10lhBYtvrXNMgmmlRcttZnL2zETamW9tPYwy7uXHa0e--yJbqhJ_mw48hebxESiUNLRPKJ835fme2FwoVivjyEREYX2USXZJGeVyu52fFJ)](https://blogger.googleusercontent.com/img/a/AVvXsEiaWWOTYcP34zubhH11xuXc0wtnO-S4_xdo6iXbJ0rf5Yb8ljCTTc3Evr8vMElF3qgmAymn7TLYisLZjfDAZT10lhBYtvrXNMgmmlRcttZnL2zETamW9tPYwy7uXHa0e--yJbqhJ_mw48hebxESiUNLRPKJ835fme2FwoVivjyEREYX2USXZJGeVyu52fFJ)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjIWDT46qxBmvDmkH2aMEzqMDla_6z9LPSnnDqPs32CkOfH2RJ3Vp0azIfN1sr1zkz9F3URnDOrJTwq9jG3-NqjjK2YONozob70JiCXL2ALke7IJXV0RZZrNjEzOKghe2cs7bYLGkqJG6gbr4iZbEj-LBBlQS2-_zMM4TvH_4nJGG4zEwzC80_FzOuD3Ilo)](https://blogger.googleusercontent.com/img/a/AVvXsEjIWDT46qxBmvDmkH2aMEzqMDla_6z9LPSnnDqPs32CkOfH2RJ3Vp0azIfN1sr1zkz9F3URnDOrJTwq9jG3-NqjjK2YONozob70JiCXL2ALke7IJXV0RZZrNjEzOKghe2cs7bYLGkqJG6gbr4iZbEj-LBBlQS2-_zMM4TvH_4nJGG4zEwzC80_FzOuD3Ilo)[![](https://blogger.googleusercontent.com/img/a/AVvXsEh-NWFDFFhNMsH2DDlPad7P1lVzC5ZCRna3Y170mPZLOnLDfW6LLQpSYJdqfjiTc_OYMMGu6OnHa2Mk2ceR0SkkB4r6882Wx0pwiWxILgS3B9php0HM_8fdqVMDwoVuPbcDz7bTkF8XodF_OqzOpciqJ2Eu67DGiTeaeXp2TJiOwuIbkdyuxrmtfwCF3JQF)](https://blogger.googleusercontent.com/img/a/AVvXsEh-NWFDFFhNMsH2DDlPad7P1lVzC5ZCRna3Y170mPZLOnLDfW6LLQpSYJdqfjiTc_OYMMGu6OnHa2Mk2ceR0SkkB4r6882Wx0pwiWxILgS3B9php0HM_8fdqVMDwoVuPbcDz7bTkF8XodF_OqzOpciqJ2Eu67DGiTeaeXp2TJiOwuIbkdyuxrmtfwCF3JQF)
+
+  
+
+
+Since dinner the night before went so well, we returned to the street food and enjoyed spicy wontons, beef bulgogi, and more tarts!
+
+  
+
+
+The cold here was depleting my moisturizer products, and my hands began to hurt! South Korea is also known for their beauty products so we stopped into one of their many shops and grabbed an awesome jar of their heavenly lotion. I'm still using it 8 months later!

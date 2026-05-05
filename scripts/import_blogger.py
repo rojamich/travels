@@ -64,9 +64,14 @@ except ImportError:
 
 
 # Atom XML namespaces used by Blogger's export format.
+# Two slightly different shapes exist in the wild:
+#   - Old "Back up content" XML: uses atom:category to mark posts vs comments.
+#   - New Google Takeout feed.atom: uses <blogger:type>POST</blogger:type>.
+# We support both.
 NS = {
     "atom": "http://www.w3.org/2005/Atom",
     "app": "http://purl.org/atom/app#",
+    "blogger": "http://schemas.google.com/blogger/2018",
 }
 
 
@@ -79,8 +84,24 @@ def slugify(text: str) -> str:
 
 
 def is_post(entry) -> bool:
-    """Blogger's export contains posts, comments, settings, and templates
-    all mixed together. We only want published posts."""
+    """The export contains posts, comments, and other entries mixed together.
+    We only want published posts.
+
+    Newer Takeout atom feeds tag entries with <blogger:type>POST</blogger:type>.
+    Older XML uses <category scheme="...#kind" term="...#post"/>.
+    """
+    # New Takeout format.
+    type_el = entry.find("blogger:type", NS)
+    if type_el is not None:
+        if (type_el.text or "").strip() != "POST":
+            return False
+        # Status: only LIVE posts; skip DRAFT/SCHEDULED.
+        status_el = entry.find("blogger:status", NS)
+        if status_el is not None and (status_el.text or "").strip() != "LIVE":
+            return False
+        return True
+
+    # Old format fallback.
     for category in entry.findall("atom:category", NS):
         scheme = category.get("scheme", "")
         term = category.get("term", "")
@@ -89,7 +110,7 @@ def is_post(entry) -> bool:
     else:
         return False
 
-    # Skip drafts.
+    # Skip drafts (old format).
     draft = entry.find("app:control/app:draft", NS)
     if draft is not None and draft.text == "yes":
         return False
@@ -142,8 +163,12 @@ def download_image(url: str, dest_dir: Path) -> Path | None:
         return None
 
 
-def process_entry(entry, args, image_dir: Path):
-    """Convert one Atom entry into a Jekyll post file."""
+def process_entry(entry, args, image_dir: Path, order=None):
+    """Convert one Atom entry into a Jekyll post file.
+
+    `order` (optional int) is written into the front matter so the trip
+    page can sort posts deterministically.
+    """
     title_el = entry.find("atom:title", NS)
     content_el = entry.find("atom:content", NS)
     published_el = entry.find("atom:published", NS)
@@ -192,6 +217,8 @@ def process_entry(entry, args, image_dir: Path):
         "categories:",
         f"  - {args.trip}",
     ]
+    if order is not None:
+        front_matter_lines.append(f"order: {order}")
     if tags:
         front_matter_lines.append("tags:")
         for tag in tags:
@@ -230,14 +257,31 @@ def main():
     tree = ET.parse(args.xml_file)
     root = tree.getroot()
 
-    count = 0
+    # First pass: collect all qualifying post entries with their published
+    # dates so we can sort chronologically and assign deterministic order.
+    candidates = []
     for entry in root.findall("atom:entry", NS):
         if not is_post(entry):
             continue
-        result = process_entry(entry, args, image_dir)
+        pub_el = entry.find("atom:published", NS)
+        if pub_el is None or not pub_el.text:
+            continue
+        pub_dt = datetime.fromisoformat(pub_el.text.replace("Z", "+00:00"))
+        if args.since and pub_dt.date() < args.since:
+            continue
+        if args.until and pub_dt.date() > args.until:
+            continue
+        candidates.append((pub_dt, entry))
+
+    # Sort oldest -> newest; assign order 1..N in that sequence.
+    candidates.sort(key=lambda x: x[0])
+
+    count = 0
+    for order, (_pub_dt, entry) in enumerate(candidates, start=1):
+        result = process_entry(entry, args, image_dir, order=order)
         if result:
             count += 1
-            print(f"   wrote {result}")
+            print(f"   [order={order:3d}] wrote {result}")
 
     print(f"\nDone. {count} post(s) imported into '{args.output}/'.")
     if not args.skip_images:

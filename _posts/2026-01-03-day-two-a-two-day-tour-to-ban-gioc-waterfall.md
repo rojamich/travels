@@ -1,0 +1,152 @@
+---
+title: "Day Two - A Two Day Tour to Ban Gioc Waterfall"
+date: 2026-01-03
+categories:
+  - vietnam
+order: 15
+tags:
+  - Vietnam
+---
+
+The next morning began with an early wake-up, before the sun! I was eager to get some exercise in before the rest of the tour started, so I headed downstairs to the little park to practice dancing!
+
+The lights were still on from the night before, but I went to the far side of the park so I wasn't directly under a spotlight. Thankfully, Mike could still see me from our window. I practiced a few dance moves before I heard loud barking over my headphones and a German Shepard let me know I was entirely too close to his home. 
+
+Back to the other side of the park I went, haha! At this time, a few clusters of elderly folks were making their rounds, walking around the park for exercise before the day began. It was so cute in their velvet/matching track suits!
+
+It was at this point that all the lights turned off in the park and I was suddenly plunged into darkness! ...Dancing in the dark now...I suppose!
+
+We were driven to a nearby town for breakfast that morning which tasted like deliciously seasoned chicken noodle soup!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhPke6Vq4kf16y_th9z6C6eTXu951QozpqZHluk_QWT_XaOV3jY1lkqtP3GWUs8Ha5P5v9Gi8apmhURzoadIhZNe5VFLfwPjbVpcVGtabkKSwsAHOl07vdkHzXXIKFQxwFudD7ryqz9FHzray0Wm8IqwgOz_cRJjulRsVyEIIl20YQ5_Rcx3VILIxR0M_Lv)](https://blogger.googleusercontent.com/img/a/AVvXsEhPke6Vq4kf16y_th9z6C6eTXu951QozpqZHluk_QWT_XaOV3jY1lkqtP3GWUs8Ha5P5v9Gi8apmhURzoadIhZNe5VFLfwPjbVpcVGtabkKSwsAHOl07vdkHzXXIKFQxwFudD7ryqz9FHzray0Wm8IqwgOz_cRJjulRsVyEIIl20YQ5_Rcx3VILIxR0M_Lv)[![](https://blogger.googleusercontent.com/img/a/AVvXsEj59FN0NH7PnMJT0qXQg7nv3s4O2SCiF9nQEltxPZLpjE9k6tMsybqhXELBC0UsdmI6pJ4yUF8qnVsfa949z8uYfj7pBK3_k3s-urHt7Z_FmRNGO1qDaLSlMSbckvfrA4I8YCODFRnYnY2w3L5BmZvWxkG6bTpC63D8f_yix96UJggKgOiuP29Qo-H9cwy0)](https://blogger.googleusercontent.com/img/a/AVvXsEj59FN0NH7PnMJT0qXQg7nv3s4O2SCiF9nQEltxPZLpjE9k6tMsybqhXELBC0UsdmI6pJ4yUF8qnVsfa949z8uYfj7pBK3_k3s-urHt7Z_FmRNGO1qDaLSlMSbckvfrA4I8YCODFRnYnY2w3L5BmZvWxkG6bTpC63D8f_yix96UJggKgOiuP29Qo-H9cwy0)
+
+  
+
+
+We did run into some unexpected traffic on the way there, though...
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhIIp3gzxzpHu5f7NonEr6W-1Fk2Yx0pq7WFn_HemImohgPg_gz34HLtvYZBdlB8ZdDWkHUtJhrBn9Zm8APSvS0xNK9_07rqEO7SYaFpN4glElYvISe3k1e025DdlEP-0vW6FS7XlAro71X4OZatpnyB37YRID7GcEIiCJmL-njzdwnaCUCwhh6sREGo1Uy)](https://blogger.googleusercontent.com/img/a/AVvXsEhIIp3gzxzpHu5f7NonEr6W-1Fk2Yx0pq7WFn_HemImohgPg_gz34HLtvYZBdlB8ZdDWkHUtJhrBn9Zm8APSvS0xNK9_07rqEO7SYaFpN4glElYvISe3k1e025DdlEP-0vW6FS7XlAro71X4OZatpnyB37YRID7GcEIiCJmL-njzdwnaCUCwhh6sREGo1Uy)[![](https://blogger.googleusercontent.com/img/a/AVvXsEj5yKKlT5vU8dTVVoiepw6GETC--ml9ewJosgUgf90He8ASnnqz5XU6sWkbIdEFELaWXFiA6x3vej8mQkcaQRdBr866xDDViIJO7gh2rKxD5OMWsbY3fPHwV3DRI0Gig-9P3392_tRZ-4eBxG1aP0jznRQW48jEi78a46V6j7Ud0uk7C-gVBCSu0SJkOOpD)](https://blogger.googleusercontent.com/img/a/AVvXsEj5yKKlT5vU8dTVVoiepw6GETC--ml9ewJosgUgf90He8ASnnqz5XU6sWkbIdEFELaWXFiA6x3vej8mQkcaQRdBr866xDDViIJO7gh2rKxD5OMWsbY3fPHwV3DRI0Gig-9P3392_tRZ-4eBxG1aP0jznRQW48jEi78a46V6j7Ud0uk7C-gVBCSu0SJkOOpD)
+
+  
+
+
+By this point, I am properly in love with ca phe muoi (salted coffee) and was thrilled to hear our next stop would be a coffee shop, atop a hill, looking over God's Eye.
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEj99A9F_MTj53mABU4V_qDUCz9fTSmRVtdvx0l7-28yu6znQMeYvhajsPxai1xhNTq9qehV8RdtsA3NY-j_r63DmctTKNNhNkqL0bRf_B2NaOvULDOnsc5G87Y6DbYthIB7U5HFsqO-N5wqPPEfHTQz7KMAsrCHmn7BlHsvspXNxvGv3U1FWP4xtap_M77W)](https://blogger.googleusercontent.com/img/a/AVvXsEj99A9F_MTj53mABU4V_qDUCz9fTSmRVtdvx0l7-28yu6znQMeYvhajsPxai1xhNTq9qehV8RdtsA3NY-j_r63DmctTKNNhNkqL0bRf_B2NaOvULDOnsc5G87Y6DbYthIB7U5HFsqO-N5wqPPEfHTQz7KMAsrCHmn7BlHsvspXNxvGv3U1FWP4xtap_M77W)
+
+  
+
+
+  
+
+
+It was nice to have time to soak up the views and our coffee. Apparently, you can camp down there in the valley!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhO1AA8sCRMbYTGN6Wtck970Ur6u8Ymj4o1oJtg3W-Pv8VDQAbWBkNPHn5OEm0Pl-YjeaPL00UADFS0Zu8Sm5vZu_yPR-VMy0dw-RxzCmFNaWTvUiXILypUgjS5W4qO4B-U9Qw_5L-7JVfIyDETMjFXbSPXPGbJZn_ZO8InN6lIa5LBnmvzmRtPISfvZM8F)](https://blogger.googleusercontent.com/img/a/AVvXsEhO1AA8sCRMbYTGN6Wtck970Ur6u8Ymj4o1oJtg3W-Pv8VDQAbWBkNPHn5OEm0Pl-YjeaPL00UADFS0Zu8Sm5vZu_yPR-VMy0dw-RxzCmFNaWTvUiXILypUgjS5W4qO4B-U9Qw_5L-7JVfIyDETMjFXbSPXPGbJZn_ZO8InN6lIa5LBnmvzmRtPISfvZM8F)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgwyYl0aNF2gUnoiGLoONglPpzX_fmW-DrXTwjSMBBQbgX9te-sVrSye-rXVWYUSk7foCgXgDaVKAjgNWvHIWFvD_T0Lec2FUj3PP4erSf5xm4iD_ex8m2873uZlXuvqzgeYsCE8kRfpI602VSfS3NJ3ixmngT5D48riedqzUKL3l829wKjVBfijGmpyfMY)](https://blogger.googleusercontent.com/img/a/AVvXsEgwyYl0aNF2gUnoiGLoONglPpzX_fmW-DrXTwjSMBBQbgX9te-sVrSye-rXVWYUSk7foCgXgDaVKAjgNWvHIWFvD_T0Lec2FUj3PP4erSf5xm4iD_ex8m2873uZlXuvqzgeYsCE8kRfpI602VSfS3NJ3ixmngT5D48riedqzUKL3l829wKjVBfijGmpyfMY)
+
+  
+
+
+Next, we got to see how knives are forged in a nearby village!
+
+[](https://blogger.googleusercontent.com/img/a/AVvXsEiOMSTnvOJtLFMD3jdlrmMxoQMzZo6JIP1ELZq4qlBkZ78cm3qtHcmbBOx4ZS3hSc8N64cOQ9rWBtIlG2oqlM1BpTO-ZcLgAwT-piuwkwLBKr86NEKq_Xlq1cNjHNXxX8u8bvJcBmUZhLBykNH00pQkISHOXYBVhhrmirTK-vcwG_X0-mARceWRxvKwGDhN)[![](https://blogger.googleusercontent.com/img/a/AVvXsEg1TrKbUemx_jtfB4RFpbfvWH3H6lBwZeQ0To721oPIr0I0IWdp1WyCAKvpxv6JKSeMkNo6vjC1YMPBySG0NXu_2A6_Q7Szmh_nlKuSFGHGy5txQ9Xd7nAinmICXBKqbCCa3OXQZfi5b3ppWG06geKGCxWsmy7BNo02Vi3oT1L9o9Erb6Y9WnGzYhpe2bep)](https://blogger.googleusercontent.com/img/a/AVvXsEg1TrKbUemx_jtfB4RFpbfvWH3H6lBwZeQ0To721oPIr0I0IWdp1WyCAKvpxv6JKSeMkNo6vjC1YMPBySG0NXu_2A6_Q7Szmh_nlKuSFGHGy5txQ9Xd7nAinmICXBKqbCCa3OXQZfi5b3ppWG06geKGCxWsmy7BNo02Vi3oT1L9o9Erb6Y9WnGzYhpe2bep)![](https://blogger.googleusercontent.com/img/a/AVvXsEiOMSTnvOJtLFMD3jdlrmMxoQMzZo6JIP1ELZq4qlBkZ78cm3qtHcmbBOx4ZS3hSc8N64cOQ9rWBtIlG2oqlM1BpTO-ZcLgAwT-piuwkwLBKr86NEKq_Xlq1cNjHNXxX8u8bvJcBmUZhLBykNH00pQkISHOXYBVhhrmirTK-vcwG_X0-mARceWRxvKwGDhN)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgfkHkUhdAHZNacPy-CmCcJB3HCW37esKIaVpa_hDjHm4gevim2EB6Wwj7zgZIJoI_00UGzOQE6BDKA3knH3JX2u6s2T-39FZFDfVy8q0XdwxHtFTkm6OlG24c0vYvWKx1Z2E1DAK9uoz1hQOm1dfTjaMAP9NdKvtdU6iSgd0FhZ7mtm9zhdCh7gzCJMvVg)](https://blogger.googleusercontent.com/img/a/AVvXsEgfkHkUhdAHZNacPy-CmCcJB3HCW37esKIaVpa_hDjHm4gevim2EB6Wwj7zgZIJoI_00UGzOQE6BDKA3knH3JX2u6s2T-39FZFDfVy8q0XdwxHtFTkm6OlG24c0vYvWKx1Z2E1DAK9uoz1hQOm1dfTjaMAP9NdKvtdU6iSgd0FhZ7mtm9zhdCh7gzCJMvVg)[![](https://blogger.googleusercontent.com/img/a/AVvXsEjc8j9Lb8E8ovhf1S3rXeWqrverdeQ39vz05Eitq_YvkEjTW4wtj8A4a_nV49hsz3CsnoUIGHuRISJNbRLScrinEIZ0SVZdO9oyhMMGN0iFsZNRasyXM_5MJ_zC04ZKiciLvXjwm4vapSoCb3SZ56_0Bp5vxxOlZWxZfr-IL_mAUbUufWRjbsoFS7VyIwPx)](https://blogger.googleusercontent.com/img/a/AVvXsEjc8j9Lb8E8ovhf1S3rXeWqrverdeQ39vz05Eitq_YvkEjTW4wtj8A4a_nV49hsz3CsnoUIGHuRISJNbRLScrinEIZ0SVZdO9oyhMMGN0iFsZNRasyXM_5MJ_zC04ZKiciLvXjwm4vapSoCb3SZ56_0Bp5vxxOlZWxZfr-IL_mAUbUufWRjbsoFS7VyIwPx)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEiMWpCt9WABnO--Itwh1dGpGJJlPb582ntl9ByVo-lu_KYWIY4_jVUMdmBKrD3j9Y4xxkeurRAi4FGola16la4b662trpP0smKACnblnnld6dPqQ9zK6NNlkihSOJoNEQf1WGJJsUppjFutHIyUQ4-tySuBmyyQIQRb0dI0LtT2UkpX5CINQwN_lcYKveyB)](https://blogger.googleusercontent.com/img/a/AVvXsEiMWpCt9WABnO--Itwh1dGpGJJlPb582ntl9ByVo-lu_KYWIY4_jVUMdmBKrD3j9Y4xxkeurRAi4FGola16la4b662trpP0smKACnblnnld6dPqQ9zK6NNlkihSOJoNEQf1WGJJsUppjFutHIyUQ4-tySuBmyyQIQRb0dI0LtT2UkpX5CINQwN_lcYKveyB)
+
+  
+
+
+How cool to see the way they stamp the blade with their brand!
+
+We even took part in the forging process!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgbPeGctmBlD4O59r2HJ9iU07L5iqRKXqtCgC76Dz6w7_xc691XEIQAsOnix5Tw6rQUEwjnR2bLvXvsi77ZE41LT60Pl-k6xzs8s54MgNCx6OdbYeIYKvvQtm8ZdBDV_6m57xecDCQGzXU5vuObzFppqBkcqZL7qRChpiwu4Nm3rt3Gtw-MPeLfVN37tnJ9)](https://blogger.googleusercontent.com/img/a/AVvXsEgbPeGctmBlD4O59r2HJ9iU07L5iqRKXqtCgC76Dz6w7_xc691XEIQAsOnix5Tw6rQUEwjnR2bLvXvsi77ZE41LT60Pl-k6xzs8s54MgNCx6OdbYeIYKvvQtm8ZdBDV_6m57xecDCQGzXU5vuObzFppqBkcqZL7qRChpiwu4Nm3rt3Gtw-MPeLfVN37tnJ9)[![](https://blogger.googleusercontent.com/img/a/AVvXsEiLmBq2OrrhRdeesiZT6kyxMJs2NiWlq7dGLKGxDxceQayEDSi3LAeKFhDvRBc48IbDKsTkifY32EN6dcqdw3sIFK8uUGekCN0qm3dg3mCMzKZbckQsrCbI2kEL4niR26ANUuj4z77AikI-M7NsPm2aFCZla_OeFzh9Yt2Y1qXaSFiX6NHNcXOpM4yC2D_h)](https://blogger.googleusercontent.com/img/a/AVvXsEiLmBq2OrrhRdeesiZT6kyxMJs2NiWlq7dGLKGxDxceQayEDSi3LAeKFhDvRBc48IbDKsTkifY32EN6dcqdw3sIFK8uUGekCN0qm3dg3mCMzKZbckQsrCbI2kEL4niR26ANUuj4z77AikI-M7NsPm2aFCZla_OeFzh9Yt2Y1qXaSFiX6NHNcXOpM4yC2D_h)
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEj21msp5WMitTcWXMOV1vOniZS-FwjtPJanhqBKA4hieq776lDZykLZBW8cpU59TJOrgPpczyIAtqRM1MAMzhCYKdWCHd9SjnqEfCGD9G6xSG9Muctup0cWEIf9bEtsu62A-oObXzj-4s5vW9LuoADeYXkALk-1K9hcmumfrxotL-19i7C2nNJ4BYRuo7HD)](https://blogger.googleusercontent.com/img/a/AVvXsEj21msp5WMitTcWXMOV1vOniZS-FwjtPJanhqBKA4hieq776lDZykLZBW8cpU59TJOrgPpczyIAtqRM1MAMzhCYKdWCHd9SjnqEfCGD9G6xSG9Muctup0cWEIf9bEtsu62A-oObXzj-4s5vW9LuoADeYXkALk-1K9hcmumfrxotL-19i7C2nNJ4BYRuo7HD)
+
+  
+
+
+Our very last stop of the tour was at the Den Mau Dong Dang Temple.
+
+[](https://blogger.googleusercontent.com/img/a/AVvXsEiZP2v3jRiwtHXyTpMxSsDoYKX6yZ7lwgxVh3AMil6SsYv8wwPnWvzLa8Jd8Kl2tGGlPSzx0t0zzdAnKWSy5r_XUCaf6jVkqDZsn6GkAcbaKLsgocI5i3yo69q2FGvHP4CMasDRxb6Nlv7Rv49rDTOSn6ZDJfIVNjuRH7QL7jRegG_7J-P1AeJ0qtQ3BiXR)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgZi1QoAmfihShXWIovCs68WzZNRXFLxisuvLPoEjh1tOZGnN1gexZjwU9fPO9UafM8_atN3pAB3DFM53yeojdeNGik_T80vveCMWRCVIKm7FiTTxlQRFYbItAbdEYx0vJoynD44xnUH2a-3KkAzGVx4pdAswuPQBGLE4SP0ovCUGZjdAmdA3u9JGIHRyQd)](https://blogger.googleusercontent.com/img/a/AVvXsEgZi1QoAmfihShXWIovCs68WzZNRXFLxisuvLPoEjh1tOZGnN1gexZjwU9fPO9UafM8_atN3pAB3DFM53yeojdeNGik_T80vveCMWRCVIKm7FiTTxlQRFYbItAbdEYx0vJoynD44xnUH2a-3KkAzGVx4pdAswuPQBGLE4SP0ovCUGZjdAmdA3u9JGIHRyQd)![](https://blogger.googleusercontent.com/img/a/AVvXsEiZP2v3jRiwtHXyTpMxSsDoYKX6yZ7lwgxVh3AMil6SsYv8wwPnWvzLa8Jd8Kl2tGGlPSzx0t0zzdAnKWSy5r_XUCaf6jVkqDZsn6GkAcbaKLsgocI5i3yo69q2FGvHP4CMasDRxb6Nlv7Rv49rDTOSn6ZDJfIVNjuRH7QL7jRegG_7J-P1AeJ0qtQ3BiXR)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgDbpgJXoldYZPlVucg8i-F9mdqcnBEoSdSRjXsi7flBsSMB_iLZNcMzwXE0c75staKOaQwxb2c7b_125OM4pELvv4lItiFaqQVRBZoTVhW84prJv2r8LyDpAj82LBnFIbuEq_sLiT2oE8sX41A1BWTYoX03uLsgaVnWpaVWrwbiQcZWFiqPVpSz6tOL_18)](https://blogger.googleusercontent.com/img/a/AVvXsEgDbpgJXoldYZPlVucg8i-F9mdqcnBEoSdSRjXsi7flBsSMB_iLZNcMzwXE0c75staKOaQwxb2c7b_125OM4pELvv4lItiFaqQVRBZoTVhW84prJv2r8LyDpAj82LBnFIbuEq_sLiT2oE8sX41A1BWTYoX03uLsgaVnWpaVWrwbiQcZWFiqPVpSz6tOL_18)
+
+  
+
+
+We had time to walk around and admire the ornate decor that celebrates their Mother Goddess.
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjjr0W72SYkrDLMbDfLF2OWvImXl3oGUk-UYy5gVyp3ifa675g9uiuu_Wno8Qjl5l-42doQrnLRhwNNry71Z24LB9szOYisot8Bbdj_gnEDztP92M5AvqFKhb08ulEvtJVzx88hx17xDxWjLAKmFtoCfchSOSqz91XHx5efB7tciWRRUp0Y0yEK4--VX0xQ)](https://blogger.googleusercontent.com/img/a/AVvXsEjjr0W72SYkrDLMbDfLF2OWvImXl3oGUk-UYy5gVyp3ifa675g9uiuu_Wno8Qjl5l-42doQrnLRhwNNry71Z24LB9szOYisot8Bbdj_gnEDztP92M5AvqFKhb08ulEvtJVzx88hx17xDxWjLAKmFtoCfchSOSqz91XHx5efB7tciWRRUp0Y0yEK4--VX0xQ)[![](https://blogger.googleusercontent.com/img/a/AVvXsEine_yhMifXZPJzgtOL0Lsdtmvedp3FRJF5-rU2wr6Huw-23R2pX-J1yWQmD20kT52GU7c_fjxkC22obs2bGLDirELAm0QG8wcegx05s18vgjgV5ogRPN-xLDGmyvzrDo6h_PG2ScWvbmWz-gj0JZkV9-FFVmiijTC-oZHZGm_Ac5-ciN1fjDtn0pxmWvhK)](https://blogger.googleusercontent.com/img/a/AVvXsEine_yhMifXZPJzgtOL0Lsdtmvedp3FRJF5-rU2wr6Huw-23R2pX-J1yWQmD20kT52GU7c_fjxkC22obs2bGLDirELAm0QG8wcegx05s18vgjgV5ogRPN-xLDGmyvzrDo6h_PG2ScWvbmWz-gj0JZkV9-FFVmiijTC-oZHZGm_Ac5-ciN1fjDtn0pxmWvhK)
+
+  
+
+
+After a brief stop for lunch nearby, it was ABSOLUTELY pouring while we ate. Episode 23 of what am I eating??!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjlsIBoWA6PFckmNM-_nC6oCfaqzpRj6koufCb4nIGZ9xUjR67mmGLivSWmi2WFT0x5Jeb9sxlDXMQeLl_m9FEbhRIU_hegtyLovFLPmShaUoHEj6W5l0YNO23dRdwCYUmYNiqYrRw8h6YXoDQ9tXSmSgXySM2tClLe-Or94y6SuC6Og51Vo51n8TJPdAXu)](https://blogger.googleusercontent.com/img/a/AVvXsEjlsIBoWA6PFckmNM-_nC6oCfaqzpRj6koufCb4nIGZ9xUjR67mmGLivSWmi2WFT0x5Jeb9sxlDXMQeLl_m9FEbhRIU_hegtyLovFLPmShaUoHEj6W5l0YNO23dRdwCYUmYNiqYrRw8h6YXoDQ9tXSmSgXySM2tClLe-Or94y6SuC6Og51Vo51n8TJPdAXu)[![](https://blogger.googleusercontent.com/img/a/AVvXsEg9xsv0uBHTY3le2TKsYsOP661OCXTXc2X0ZEIVp1uMOjQgFVT78YaTe8xVXbFMz5StS4bHwtg-LQibEcrSG3w5JgINxO_u_bRkVnLzmo9oVQDOb3Kppl59zsXBcWqSxYfPTsMJDAitlUV0W-L5GAsyzYlCAE5KGpuMOwUTRsZi56yNnDXQf6NKw77z5Vu2)](https://blogger.googleusercontent.com/img/a/AVvXsEg9xsv0uBHTY3le2TKsYsOP661OCXTXc2X0ZEIVp1uMOjQgFVT78YaTe8xVXbFMz5StS4bHwtg-LQibEcrSG3w5JgINxO_u_bRkVnLzmo9oVQDOb3Kppl59zsXBcWqSxYfPTsMJDAitlUV0W-L5GAsyzYlCAE5KGpuMOwUTRsZi56yNnDXQf6NKw77z5Vu2)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEid3ne5Qrx6gXDHekNhiq5fnBRD1M6XmU8k4flh8wVOs6niN23Sa-AlmoXKusqPqUY8ZAJ0ctKbYQMevETv1BHpeo6-SNz6zSGJQPjlrmukBIB-jpIHfIhKL7u75N9D9714iwRgFVp-nWwa79nNK0vyxAT0EacLTP0goS5bByelRaMrJtUUBG8k3zy1D4nA)](https://blogger.googleusercontent.com/img/a/AVvXsEid3ne5Qrx6gXDHekNhiq5fnBRD1M6XmU8k4flh8wVOs6niN23Sa-AlmoXKusqPqUY8ZAJ0ctKbYQMevETv1BHpeo6-SNz6zSGJQPjlrmukBIB-jpIHfIhKL7u75N9D9714iwRgFVp-nWwa79nNK0vyxAT0EacLTP0goS5bByelRaMrJtUUBG8k3zy1D4nA)
+
+  
+
+
+That bread had sugar on it, to our surprise! The group was kind enough to wait for me to pick up my coffee across the street for the long drive back to Hanoi. I'll admit I was a bit distracted this day because it was the semi-finals of our Fantasy Football League! It was another tight race until the 49ers took over! Purdy and Kittle went wild for me and scored 54 points together total! This week, I thought I'd be eliminated early because my opponent had Puke Nacua, who scored 43 points by himself, early in the week. Not a hopeful start for me. I ended up winning by 30 points and beating him in the semi-finals for the second year in a row!
+
+  
+
+
+That evening, we dropped off laundry to prepare for our upcoming four-day excursion, tried an overrated banh mi spot recommended by Reddit & the Lonely Planet guidebook, enjoyed the skyline from our hotel, and worked on the blog in the tiniest cafe with the worst coffee XD
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhgLnYlvSZ1xnhLlHD6OurF3JppL7sUKog5QgsmTGOvcsSm8re6KX1ylD7Hm_7FeLrZFE9vfUcVQwKf8Wu366HQLy3B6VOT3983anXDvdKQwRpWHNP8bH8ZBXTgfmnFWQA9FOrOl_Rqk9lrGLiNR_hDkDpZBo3LGE2W26YuoAvrNwqr8mZC0bNv5LqD4AgS)](https://blogger.googleusercontent.com/img/a/AVvXsEhgLnYlvSZ1xnhLlHD6OurF3JppL7sUKog5QgsmTGOvcsSm8re6KX1ylD7Hm_7FeLrZFE9vfUcVQwKf8Wu366HQLy3B6VOT3983anXDvdKQwRpWHNP8bH8ZBXTgfmnFWQA9FOrOl_Rqk9lrGLiNR_hDkDpZBo3LGE2W26YuoAvrNwqr8mZC0bNv5LqD4AgS)[![](https://blogger.googleusercontent.com/img/a/AVvXsEhjD3rCUpoEpwlCxe2DBlTNQz2jBkavFBsgbsyDmIlfLKbOB9x06UKIsYlEbX0xtlxqaYhAj3X-rEVu94UKWomThdUT6k9eeZy4o-lnswqH3wige9ikSYVL-5OMQzMCPIXNk_-FKY7lIWZabJlP8D4VLZqLW024RDtnp_NXzrtV26KEz2UV8GwXcEYwBSsp)](https://blogger.googleusercontent.com/img/a/AVvXsEhjD3rCUpoEpwlCxe2DBlTNQz2jBkavFBsgbsyDmIlfLKbOB9x06UKIsYlEbX0xtlxqaYhAj3X-rEVu94UKWomThdUT6k9eeZy4o-lnswqH3wige9ikSYVL-5OMQzMCPIXNk_-FKY7lIWZabJlP8D4VLZqLW024RDtnp_NXzrtV26KEz2UV8GwXcEYwBSsp)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhKl2Np4jBgryroG7MAuX0Ps1qqMM3iiSBw3xipXL8OipJ7JkEb43GqKYUT4cF8lwZhOvimmasfQ7u7NrmO0Y-BPjoy0KadBUbfgUlzHwrpmtLp3T7t-jo_Us5ftfIE0ocJFFwbStHroxd7fsi8rLMkDnnFpK2x44QEPDi7yl_9aodqT13h6_gtoKl4f1vt)](https://blogger.googleusercontent.com/img/a/AVvXsEhKl2Np4jBgryroG7MAuX0Ps1qqMM3iiSBw3xipXL8OipJ7JkEb43GqKYUT4cF8lwZhOvimmasfQ7u7NrmO0Y-BPjoy0KadBUbfgUlzHwrpmtLp3T7t-jo_Us5ftfIE0ocJFFwbStHroxd7fsi8rLMkDnnFpK2x44QEPDi7yl_9aodqT13h6_gtoKl4f1vt)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEiguFORmxCRd7K56SEnMOFF6wlqq29Ltld7ruSPpePFOCOwzR7Tn8g52nDpQBNqI9PSYuNpJCW3j5g9FnwF1-X5WILTRKnwHh4nHuFY6ypjEZCLMeNBlbSDAeGI-xm0nD1A8an5yXwU_QEUy__WfI6eXPDSXlegPNafspa4sxlrmSzTdHSouXWI1R7kjFV2)](https://blogger.googleusercontent.com/img/a/AVvXsEiguFORmxCRd7K56SEnMOFF6wlqq29Ltld7ruSPpePFOCOwzR7Tn8g52nDpQBNqI9PSYuNpJCW3j5g9FnwF1-X5WILTRKnwHh4nHuFY6ypjEZCLMeNBlbSDAeGI-xm0nD1A8an5yXwU_QEUy__WfI6eXPDSXlegPNafspa4sxlrmSzTdHSouXWI1R7kjFV2)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEitVBywAfLMn_M21DyQGhKgoaasvJii-HOoRGHxLJaGn_24WiOt-7mrpEAuXo7S727ojFaVQYkaDfdxuVzFWVMMeDvEY0U7h0OJGXj6S6EsXs0_PU7w0mYPSCn1nEcYunC4wRZdH1NnjigPfQAUJEu2r4QD11PRBjTuNWgaV20NLlZkF4EPD9vcVXvyN-zG)](https://blogger.googleusercontent.com/img/a/AVvXsEitVBywAfLMn_M21DyQGhKgoaasvJii-HOoRGHxLJaGn_24WiOt-7mrpEAuXo7S727ojFaVQYkaDfdxuVzFWVMMeDvEY0U7h0OJGXj6S6EsXs0_PU7w0mYPSCn1nEcYunC4wRZdH1NnjigPfQAUJEu2r4QD11PRBjTuNWgaV20NLlZkF4EPD9vcVXvyN-zG)[![](https://blogger.googleusercontent.com/img/a/AVvXsEj8bCL_pAuyuclrH-YzP6bDWyHiV_Itc843fmjrq-QsXYDn46d4aex5jFIQC7lTgvAHNT0eCWqDRAdHF3HnsyscsquBCsjKqwRhOJorZwiFeROTdoKgJ26F8dB6ERA-So7dlss_f5WjAcBt5RFO0tZkqP45mJkSlBC9_QEG-4vyqHI6mAOMCojM6xtO0vvj)](https://blogger.googleusercontent.com/img/a/AVvXsEj8bCL_pAuyuclrH-YzP6bDWyHiV_Itc843fmjrq-QsXYDn46d4aex5jFIQC7lTgvAHNT0eCWqDRAdHF3HnsyscsquBCsjKqwRhOJorZwiFeROTdoKgJ26F8dB6ERA-So7dlss_f5WjAcBt5RFO0tZkqP45mJkSlBC9_QEG-4vyqHI6mAOMCojM6xtO0vvj)
+
+  
+
+
+Also, we walked through this area (Beer Street) that becomes WILDLY packed at night!!
+
+Here is what it looked like earlier:
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjK9smXkfdRmPc8NFzhlI3rR4tppwJcZwT-Ex4TjfN3AXAlvNZXfIRTduiPOV15iXs9kS4iSxkg8aHuDKitZsP6Me3BtK9VrTceNghFNJrKWHyRECuJndUeP0zbuonhoU9YkveHA3Kj2CPBWTL20MpDzdRNld4vmWCKQePA4xCEIbeSR5_pYGWaguEhuWwu)](https://blogger.googleusercontent.com/img/a/AVvXsEjK9smXkfdRmPc8NFzhlI3rR4tppwJcZwT-Ex4TjfN3AXAlvNZXfIRTduiPOV15iXs9kS4iSxkg8aHuDKitZsP6Me3BtK9VrTceNghFNJrKWHyRECuJndUeP0zbuonhoU9YkveHA3Kj2CPBWTL20MpDzdRNld4vmWCKQePA4xCEIbeSR5_pYGWaguEhuWwu)
+
+  
+
+
+Here it is, post 9pm!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEiHGNCZRoUkb14gEoBFVM4eEcHqlEFvE5-76qf8LapveZzeO83WS3E1RkjnCsy0uSYCBIYcAoAkESBDCEk6c4waM8juDYo70U1Lau0j4r_bc-G9xgkAc8-yCCueSEZL2q1agPv-k9zLCrPOXiHXV1ioJnGU6pEc2LKmQD98NDkb1jVpusZ3cTxPL6rpWxfh)](https://blogger.googleusercontent.com/img/a/AVvXsEiHGNCZRoUkb14gEoBFVM4eEcHqlEFvE5-76qf8LapveZzeO83WS3E1RkjnCsy0uSYCBIYcAoAkESBDCEk6c4waM8juDYo70U1Lau0j4r_bc-G9xgkAc8-yCCueSEZL2q1agPv-k9zLCrPOXiHXV1ioJnGU6pEc2LKmQD98NDkb1jVpusZ3cTxPL6rpWxfh)[![](https://blogger.googleusercontent.com/img/a/AVvXsEg_dH6zFaDteWjYe16gBpu7Kq8utARjBGr9oRjxnFSBjfHiID5XCBeyx-P2StbI7juVPbVOFkqJ5yxixxoGVtLfzjjdVss4PCfZZPZGtgPFaNpGdus1K8grOFyhFuDsOyj_5pBfv0CWJgitch7BYyOM3Fp4jZSLdp59MqUBoasB3Wn1UcYFpIkwiGKomCln)](https://blogger.googleusercontent.com/img/a/AVvXsEg_dH6zFaDteWjYe16gBpu7Kq8utARjBGr9oRjxnFSBjfHiID5XCBeyx-P2StbI7juVPbVOFkqJ5yxixxoGVtLfzjjdVss4PCfZZPZGtgPFaNpGdus1K8grOFyhFuDsOyj_5pBfv0CWJgitch7BYyOM3Fp4jZSLdp59MqUBoasB3Wn1UcYFpIkwiGKomCln)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhAKHwMOhX19Mq4BJUeYecb1V9Gc4HWRthWHH1Xs9uK5KKSBet4u0-Ma-EtXIGlKr-fxMCBN3_TH_jYla_umrsoPwmGfdWUSYERiwT70J9F6kgnCQOjDE3eIWJmqFVi9IDnUWHnYF1C8EUb6Gh1Q0nbYlModod8gx61sKf0agNWMCJb14OSvo1walVvfNd_)](https://blogger.googleusercontent.com/img/a/AVvXsEhAKHwMOhX19Mq4BJUeYecb1V9Gc4HWRthWHH1Xs9uK5KKSBet4u0-Ma-EtXIGlKr-fxMCBN3_TH_jYla_umrsoPwmGfdWUSYERiwT70J9F6kgnCQOjDE3eIWJmqFVi9IDnUWHnYF1C8EUb6Gh1Q0nbYlModod8gx61sKf0agNWMCJb14OSvo1walVvfNd_)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgQZ6EYltWQ-SVWIpKW7wmnOT73266AXQUJQQNkvxIMCkxe4XpiWqCjU8qJD0LiY1QiR6dAVdzwQJWdaAWnfzKrlKeoqTe8BMVj9hZkGwuVC6rzL8XaYsmxRwiqjF11ijCv4U0WX6YQA_PftaXuZyZ7nm0SmgOhrBblSQQrUnMO5PLh29-lFUKUyaTKFW7v)](https://blogger.googleusercontent.com/img/a/AVvXsEgQZ6EYltWQ-SVWIpKW7wmnOT73266AXQUJQQNkvxIMCkxe4XpiWqCjU8qJD0LiY1QiR6dAVdzwQJWdaAWnfzKrlKeoqTe8BMVj9hZkGwuVC6rzL8XaYsmxRwiqjF11ijCv4U0WX6YQA_PftaXuZyZ7nm0SmgOhrBblSQQrUnMO5PLh29-lFUKUyaTKFW7v)

@@ -1,0 +1,245 @@
+---
+title: "An Overnight Adventure in the Bush!"
+date: 2024-09-12
+categories:
+  - african-safari
+order: 13
+tags:
+  - South Africa
+---
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdye24z0UGLhvku8qdcTT1woO0vde4U11kBJvNwHqHyretffPY04oWjuubvHYYfOoFKai9br1JHb8cZwlp1GEUqqbW7HnedSu3KgotPTPyBpv60S2eKxaqPCQz5iKp6ff3u_8pvIWeKOCwOc_-XNBpa_ohINwqVI1Qg9XIhFnPTvfrs6mqiD35i8WyPnU/s320/20240905_065100.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdye24z0UGLhvku8qdcTT1woO0vde4U11kBJvNwHqHyretffPY04oWjuubvHYYfOoFKai9br1JHb8cZwlp1GEUqqbW7HnedSu3KgotPTPyBpv60S2eKxaqPCQz5iKp6ff3u_8pvIWeKOCwOc_-XNBpa_ohINwqVI1Qg9XIhFnPTvfrs6mqiD35i8WyPnU/s4000/20240905_065100.jpg)
+
+This morning we woke, packed up, and had a good buffet breakfast! Not seen was a yogurt mixture with nuts - yum! We also snuck a few grapes for a midday snack, shhhh!
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjH6yuYHHAiJSFuV_GnrHNsBbIvxcIj8_ld-WasihH-JHTjdkQjnbSPxDDeOEhZXHGle0ivVnPdastB7SZOi0keLZ_yM3ipcSaQ3rMxyHG-j3eUrp4aGdF-wF95uDW3XGQqhGVXmlDNFtseRs0gTzlnF620dZAx_bIMR8XcAVhUoiOURWdr4nYb5uJeBf0/s320/20240905_085411.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjH6yuYHHAiJSFuV_GnrHNsBbIvxcIj8_ld-WasihH-JHTjdkQjnbSPxDDeOEhZXHGle0ivVnPdastB7SZOi0keLZ_yM3ipcSaQ3rMxyHG-j3eUrp4aGdF-wF95uDW3XGQqhGVXmlDNFtseRs0gTzlnF620dZAx_bIMR8XcAVhUoiOURWdr4nYb5uJeBf0/s4000/20240905_085411.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8igocaVbLVLAExAg8yUQDtCvZH6meiMMnnt3rPt4yhkR7EyWEGo6Dfm550aUx4TISktUYXMrLwp3Tdr0Df5hSKMFHE4zxhIM5ZltjiFUjrV5qiZLvYdAjqU91GJN2uenOZQPVFzgFW5mo1XwUOLVbixikXuMdR2aTv_NgHd6P9PN7UYH3OZMqsFF926U/s320/20240905_085654.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8igocaVbLVLAExAg8yUQDtCvZH6meiMMnnt3rPt4yhkR7EyWEGo6Dfm550aUx4TISktUYXMrLwp3Tdr0Df5hSKMFHE4zxhIM5ZltjiFUjrV5qiZLvYdAjqU91GJN2uenOZQPVFzgFW5mo1XwUOLVbixikXuMdR2aTv_NgHd6P9PN7UYH3OZMqsFF926U/s4000/20240905_085654.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvlmVkoRtSLLUKwXxAxUlNf68hyXKUfrz3F1ZwmurXBgAJdpEy68whCp5XIIpCtbyEMNM-Mkf1CqBmau8UB8UbY7-JfaF5PBIrEwMGhkT2ksX6RMH6R6I2cqxAxd_taAO2N4Z30BbuMS9RLFCQ3pP6UslJvEBGYAglI0m2IqNGvbWKDoJQNByudMJ7WMY/s320/20240905_085633.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvlmVkoRtSLLUKwXxAxUlNf68hyXKUfrz3F1ZwmurXBgAJdpEy68whCp5XIIpCtbyEMNM-Mkf1CqBmau8UB8UbY7-JfaF5PBIrEwMGhkT2ksX6RMH6R6I2cqxAxd_taAO2N4Z30BbuMS9RLFCQ3pP6UslJvEBGYAglI0m2IqNGvbWKDoJQNByudMJ7WMY/s4000/20240905_085633.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8lMUaO1-kcXx0NeiJ0idLA6l3Vay7fXEgtcz4ginFnJ3Msmi2mz3FRyiuO62sNZtAIyWjAMpT79FCIK7IT4G0Et368hgfmNk-e5TtXg9s8hHeAlLOC3DN4QMgwGh7F3Fl08n48V5be9aFr_gpm6IFm5usRUpMCKX2cRJAmOVafhbQFjeJLPQhe6KrcqI/s320/20240905_084254.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8lMUaO1-kcXx0NeiJ0idLA6l3Vay7fXEgtcz4ginFnJ3Msmi2mz3FRyiuO62sNZtAIyWjAMpT79FCIK7IT4G0Et368hgfmNk-e5TtXg9s8hHeAlLOC3DN4QMgwGh7F3Fl08n48V5be9aFr_gpm6IFm5usRUpMCKX2cRJAmOVafhbQFjeJLPQhe6KrcqI/s4000/20240905_084254.jpg)
+
+Our guide was there early to pick us up to start exploring! Our first stop was this adventure park with amazing views. We snagged a coffee and explored the park. That bridge swings wildly! We opted to save more high adrenaline adventures for future trips to experience different/new things in different/new places. 
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgygFM1pXnO6hR5Ql0ud-wXYCofHfy17_WRGXO9e1mSkAJeC23y31y5eNQ6b3QHo8K1bE5V6wnFz9RyDRrhFgCoKmD89-zSt8-5TdIDYmoaPFAbUsuf308bqa3peJeCkup6BV2cQrOPga-m6JtxIQMYhTjxH2fgw-lyPPufFpm3A8-v6YSZJ8VZqBIqeto/s320/20240905_110901.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgygFM1pXnO6hR5Ql0ud-wXYCofHfy17_WRGXO9e1mSkAJeC23y31y5eNQ6b3QHo8K1bE5V6wnFz9RyDRrhFgCoKmD89-zSt8-5TdIDYmoaPFAbUsuf308bqa3peJeCkup6BV2cQrOPga-m6JtxIQMYhTjxH2fgw-lyPPufFpm3A8-v6YSZJ8VZqBIqeto/s4000/20240905_110901.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihnyBRb9yE5cp8FYmqUTF8YnjISBQz0oNdiKTz8mW-tfsZzJPcipj0s7shMaNEe7x1xyPxSo1xgzoJYKlVwwclGN0eMpprwxtNQvO7aA1VPNhIBBgLYoa2oA7LSxJmYyq9KI5BsMaFjtJ10KhITappvGkkWWc2HSmfZ7sUsF3Uh9PVpqdHnSGl71gYMxA/s320/20240905_094819.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihnyBRb9yE5cp8FYmqUTF8YnjISBQz0oNdiKTz8mW-tfsZzJPcipj0s7shMaNEe7x1xyPxSo1xgzoJYKlVwwclGN0eMpprwxtNQvO7aA1VPNhIBBgLYoa2oA7LSxJmYyq9KI5BsMaFjtJ10KhITappvGkkWWc2HSmfZ7sUsF3Uh9PVpqdHnSGl71gYMxA/s4000/20240905_094819.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHb-JbJbgGAZgAXWnWYLjTVfU-1OJJgIS5yGS172e6Kl9fWzS6kq3oVSamVsLHLUfrcwFVko5_qkJMLMvAd6c_ZmR0eCf7Ad-XHcRLbIlz6fprea84RHwUNi4B23f73gh4oCvMU7kdClT3at55YYoXjCMsELg14Pp3VuboMuRbz0FeLM9uqwUAEvj9xro/s320/20240905_100201.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHb-JbJbgGAZgAXWnWYLjTVfU-1OJJgIS5yGS172e6Kl9fWzS6kq3oVSamVsLHLUfrcwFVko5_qkJMLMvAd6c_ZmR0eCf7Ad-XHcRLbIlz6fprea84RHwUNi4B23f73gh4oCvMU7kdClT3at55YYoXjCMsELg14Pp3VuboMuRbz0FeLM9uqwUAEvj9xro/s4000/20240905_100201.jpg)
+
+Our next two stops were the town of Graskop (where I found this delicious flavor of pringles!) and then to the Pinnacle which was incredible! I didn't know Africa looked like this - so green!
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjijTT9mzB2Q3s3sPsH3x0b4HPSzRkreZ4a4v2wbtrfzO357suyLOaKgVxqdMC31HMYHqE1b9GUeVdI-gkzczx65Zl_EdzK1jIpHRV-OFPb4NYeFAgX5AqaF8Oydx8R7HBQjSVdAUSj5v2rF63KULxaRoBBJjbac0gxn7PwnNPKzG9TDpHid5IrPTi7pbs/s320/20240905_101357.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjijTT9mzB2Q3s3sPsH3x0b4HPSzRkreZ4a4v2wbtrfzO357suyLOaKgVxqdMC31HMYHqE1b9GUeVdI-gkzczx65Zl_EdzK1jIpHRV-OFPb4NYeFAgX5AqaF8Oydx8R7HBQjSVdAUSj5v2rF63KULxaRoBBJjbac0gxn7PwnNPKzG9TDpHid5IrPTi7pbs/s4000/20240905_101357.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBSyUusY96noihIZ5NXOBhUb2bY2eeoMiZ25yl9xISt4ekZLCasljlNdsqNKdThutvpLctMMJ52Bq5QVqMqh9hj2nJqVZp3p-04ZUCQ-8nqOviISvGCSV3LKC8UElLx7tgAJrb5BTOZb2ApPE3McuhPMK0HkpzQhetNj1xTB8FkTDgtZKrqvU_IjcRXMU/s320/20240905_101554.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBSyUusY96noihIZ5NXOBhUb2bY2eeoMiZ25yl9xISt4ekZLCasljlNdsqNKdThutvpLctMMJ52Bq5QVqMqh9hj2nJqVZp3p-04ZUCQ-8nqOviISvGCSV3LKC8UElLx7tgAJrb5BTOZb2ApPE3McuhPMK0HkpzQhetNj1xTB8FkTDgtZKrqvU_IjcRXMU/s4000/20240905_101554.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-LQnbyVSVtpOWlBQSKsdLR_-mAjaTQYmPmMTGVRw693moLsEmA4iSnDjwxLQRUeOJxUzWdyuP-f8H8jPCuvhW36NcILhjTCJeV41D8sEXC6Soi4Yk41MPOMgQ5uWopITHJzVBmc2zkepXMvkUsgftPEkzGxmOp8GkyZSEXwJzXzTlO3xXiI9xnlS8K3g/s320/20240905_101648.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-LQnbyVSVtpOWlBQSKsdLR_-mAjaTQYmPmMTGVRw693moLsEmA4iSnDjwxLQRUeOJxUzWdyuP-f8H8jPCuvhW36NcILhjTCJeV41D8sEXC6Soi4Yk41MPOMgQ5uWopITHJzVBmc2zkepXMvkUsgftPEkzGxmOp8GkyZSEXwJzXzTlO3xXiI9xnlS8K3g/s4000/20240905_101648.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCCTI0EJz9Vm8Ms692bx9uP3ulGkW7KrRl4Hw5i8WB6doEV-YhlSWeY2zcdwgGy1luRoQr38aD90q0z9NwCTy0vpOczOTYUvNjLi3jZEhlSmWQnokH3IiV32XM1ZKDX7q2Nl0uV1cUpg-1dUk5wEMGuEB8-HreRC4uA7i2901S95hK0SycgAdoltj9U3U/s320/20240905_101035.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCCTI0EJz9Vm8Ms692bx9uP3ulGkW7KrRl4Hw5i8WB6doEV-YhlSWeY2zcdwgGy1luRoQr38aD90q0z9NwCTy0vpOczOTYUvNjLi3jZEhlSmWQnokH3IiV32XM1ZKDX7q2Nl0uV1cUpg-1dUk5wEMGuEB8-HreRC4uA7i2901S95hK0SycgAdoltj9U3U/s6160/20240905_101035.jpg)
+
+We hiked up this cute and rocky hill to get a look at "God's Window". We thought the pinnacle view was better than this one! 
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5JokypDvhhFKxG9dcoZADHUoHyFceSkSarwlx0wAu1WjsViMyU8Bvfn_I57xmZ5B4K1JX0o3qnqxS9qySNrMmDCTlxvn81PgW3xeMXjnV1oAxgxtS2TMLD1jdet6nnOIAbYKDqjkTQ5z1pKJ1tQjEiGa03cj0sfYfa1AjY67-ID1OAL-srgz-m35iutU/s320/20240905_111927.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5JokypDvhhFKxG9dcoZADHUoHyFceSkSarwlx0wAu1WjsViMyU8Bvfn_I57xmZ5B4K1JX0o3qnqxS9qySNrMmDCTlxvn81PgW3xeMXjnV1oAxgxtS2TMLD1jdet6nnOIAbYKDqjkTQ5z1pKJ1tQjEiGa03cj0sfYfa1AjY67-ID1OAL-srgz-m35iutU/s4000/20240905_111927.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj08b6KTj1AbRXUlI2LoSbmlTfehjizMF2PdBPY74HjLO7T1DVzBpCvpxI8zIQ7o7kKdcB05mme8puMvV0UGxNIpmFFPpTnFl_JPSmWfpAoad2fnnrYS3KnN9fH8niwaOcLNagK_Ui0pfmV52DpPe_W7wU1G6Q3WlPaabdtkMr5PYs-fce5_VxpkBDDupI/s320/20240905_111942.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj08b6KTj1AbRXUlI2LoSbmlTfehjizMF2PdBPY74HjLO7T1DVzBpCvpxI8zIQ7o7kKdcB05mme8puMvV0UGxNIpmFFPpTnFl_JPSmWfpAoad2fnnrYS3KnN9fH8niwaOcLNagK_Ui0pfmV52DpPe_W7wU1G6Q3WlPaabdtkMr5PYs-fce5_VxpkBDDupI/s4000/20240905_111942.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIAN6oLVQpGVy2GONsvSYMBOj_uc17F27L9UbAZrivdnF5rCkcixclAN6lUL_qCP2uoHFNxqjsojJQrsRoBmwz9S_TUzt9x3cVpIZJ248IFQzK8xT-80Ud16SJvcOdIcR3qxWXB5OuMBRn6HNEaThyuZkNsmZb2pZAShy_zS0Aqbs2xiXYyHTGwCxVVKM/s320/20240905_112737.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIAN6oLVQpGVy2GONsvSYMBOj_uc17F27L9UbAZrivdnF5rCkcixclAN6lUL_qCP2uoHFNxqjsojJQrsRoBmwz9S_TUzt9x3cVpIZJ248IFQzK8xT-80Ud16SJvcOdIcR3qxWXB5OuMBRn6HNEaThyuZkNsmZb2pZAShy_zS0Aqbs2xiXYyHTGwCxVVKM/s4000/20240905_112737.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmUw6kUHefG3monl-kX2eCFsEraKimZ8W8pm4dg63_9kbCpkvCwqeo4V0JydMRkrJI59qJpI67FPusRbskEEIUHvwM-ALVoI7HCazxhgRR-NJ2oUHXOhMAZRAwsjkh8jBacPB6LeSyiGSywBjfyKNaAW4JZ66hF7Cn0uh82Tg_dR9tl30ayf_ewilLwE4/s320/20240905_113217.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmUw6kUHefG3monl-kX2eCFsEraKimZ8W8pm4dg63_9kbCpkvCwqeo4V0JydMRkrJI59qJpI67FPusRbskEEIUHvwM-ALVoI7HCazxhgRR-NJ2oUHXOhMAZRAwsjkh8jBacPB6LeSyiGSywBjfyKNaAW4JZ66hF7Cn0uh82Tg_dR9tl30ayf_ewilLwE4/s4000/20240905_113217.jpg)
+
+After about 40 minutes of driving we arrived at the Three Rondavels which offered the best sights and coolest land formations! Our guide told us each rondavel was named after a tribel chief's wife (polygamous). We had time to walk around a bit here and check out the local market.
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfF49S-4S_aKtPqzx3Xj4_RQFEQ9_nhqgwmOZo8qkTNp8rtwP8sZbiiQUiYBLN8TeM-5H5g33qxYQVjH3s1fTGeFSQXAtwvbvR-jOvR90ifMreIrJXLDwDmqNxLavQQthI7eMIOlym_yIM0nGBaCOJArd8IVvBjcqpC297660-L-sMigpC8NjC33lSgQ4/s320/20240905_115638.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfF49S-4S_aKtPqzx3Xj4_RQFEQ9_nhqgwmOZo8qkTNp8rtwP8sZbiiQUiYBLN8TeM-5H5g33qxYQVjH3s1fTGeFSQXAtwvbvR-jOvR90ifMreIrJXLDwDmqNxLavQQthI7eMIOlym_yIM0nGBaCOJArd8IVvBjcqpC297660-L-sMigpC8NjC33lSgQ4/s4000/20240905_115638.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB1qPr59cXq_OO8AvLMsw7s-F8i0mtslw0eIeB_3oMAqQgLlC59znJkQqgWY0KQu9WrOZeV6aiEGvUak5ExJADg3zfP0sVODpqgNIONMPaG7YmrqJBpwNirZ2W6DfCumk8tJUOqmCu3qZdCNYMtb1RQCD9_OFILC7afVfYAoSwwMIjqqAKMHWfovgTnZQ/s320/20240905_120240.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB1qPr59cXq_OO8AvLMsw7s-F8i0mtslw0eIeB_3oMAqQgLlC59znJkQqgWY0KQu9WrOZeV6aiEGvUak5ExJADg3zfP0sVODpqgNIONMPaG7YmrqJBpwNirZ2W6DfCumk8tJUOqmCu3qZdCNYMtb1RQCD9_OFILC7afVfYAoSwwMIjqqAKMHWfovgTnZQ/s4000/20240905_120240.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_DVu1_KJaZP-c9E4xg0ZyjbH8nagAYmIP-7fHA5KTXMmxaaDXgP6WLso5TqC6xwpRtTHy5fG_e42UXd0lzNXrD5lxK3A5GA-qDsV7M_fBjcjOzk0dj2M_-ruRWoViL075BreFV5qBF748XvtjwzksNA4Ahr7LFMfbPTXlbw14jlxoNmdrE_XlMKTw2Ss/s320/20240905_120739.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_DVu1_KJaZP-c9E4xg0ZyjbH8nagAYmIP-7fHA5KTXMmxaaDXgP6WLso5TqC6xwpRtTHy5fG_e42UXd0lzNXrD5lxK3A5GA-qDsV7M_fBjcjOzk0dj2M_-ruRWoViL075BreFV5qBF748XvtjwzksNA4Ahr7LFMfbPTXlbw14jlxoNmdrE_XlMKTw2Ss/s4000/20240905_120739.jpg)
+
+Who knew that natural potholes could look this incredible!? You're allowed to walk all over this area which leads us to suspect they won't be in great shape for too much longer. Seeing the two rivers meet was really cool especially in their vastly different colors!
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAdmcrt5vpUGC6mtH9Wfo6GksLR_a7JuZ8SzxfHKBbkUWhe2qdO44vumKhxkZcyPDl2idU4Tmln40WwJR1_29RE-KvVgkmWSYlI8AoMy1Uydsni_GdhyJdh_pKbb5afBrJFPb6xkVz2_Dj_cwt1CJSY6RSOsxSw54L2ses8XM4VxYy_GidmTL5iHXJQ9A/s320/20240905_124612.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAdmcrt5vpUGC6mtH9Wfo6GksLR_a7JuZ8SzxfHKBbkUWhe2qdO44vumKhxkZcyPDl2idU4Tmln40WwJR1_29RE-KvVgkmWSYlI8AoMy1Uydsni_GdhyJdh_pKbb5afBrJFPb6xkVz2_Dj_cwt1CJSY6RSOsxSw54L2ses8XM4VxYy_GidmTL5iHXJQ9A/s4000/20240905_124612.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6wQU5WklxMNfCoJPqfPEafUIYgpH_oi2z4Ar8nTk60fBbcxouuzkB9XpAmpYQ1jsP36_ZJZENK_OW2xQV-Ozp1DNehp31N6WiDVoYzFUbEgyO0Cwi5c-_4jm7RQwpZpBXjsE8UjhZfCdE6cXOTRkWwoDjfZxEfCV7r3UAoqxw4H098vcW5Mj-mRE-8FY/s320/20240905_124819.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6wQU5WklxMNfCoJPqfPEafUIYgpH_oi2z4Ar8nTk60fBbcxouuzkB9XpAmpYQ1jsP36_ZJZENK_OW2xQV-Ozp1DNehp31N6WiDVoYzFUbEgyO0Cwi5c-_4jm7RQwpZpBXjsE8UjhZfCdE6cXOTRkWwoDjfZxEfCV7r3UAoqxw4H098vcW5Mj-mRE-8FY/s4000/20240905_124819.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhar-hmd5YspY_rRTWr5VUiC9V1lSPjrevyq2ejI_eKfpbefcd_6qLTknrqaCtfee9pC2jc1x2MF7dRSraPwAy4UnXhplqR7QZG37dUjrA1SnOoVbxFuNYnytwUSPyO0wJ7cjlRY951BiClMi8sRbBiBDiINnLcdP2sUhqLWA-ismViMWf_oJ835r6f0pI/s320/20240905_125005.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhar-hmd5YspY_rRTWr5VUiC9V1lSPjrevyq2ejI_eKfpbefcd_6qLTknrqaCtfee9pC2jc1x2MF7dRSraPwAy4UnXhplqR7QZG37dUjrA1SnOoVbxFuNYnytwUSPyO0wJ7cjlRY951BiClMi8sRbBiBDiINnLcdP2sUhqLWA-ismViMWf_oJ835r6f0pI/s4000/20240905_125005.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrtlwXMSWN9rb6wvT-VQN1PEEUOR7gFrx5UOvvbNAvr-HzDzFgvLBV16mPb45tHXWQm4MvGoXNzfejfN35uAR1bz-7_OMcioat2f2S0TKd2jSgoNYV3yzUjq1G2SFtq3y2jZoXpn0kEFUvpaW-_5TPJCoMS_QbkGdcnsbUB0jk_lMBRjI3Xp393YGYZCU/s320/20240905_125231\(0\).jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrtlwXMSWN9rb6wvT-VQN1PEEUOR7gFrx5UOvvbNAvr-HzDzFgvLBV16mPb45tHXWQm4MvGoXNzfejfN35uAR1bz-7_OMcioat2f2S0TKd2jSgoNYV3yzUjq1G2SFtq3y2jZoXpn0kEFUvpaW-_5TPJCoMS_QbkGdcnsbUB0jk_lMBRjI3Xp393YGYZCU/s4000/20240905_125231\(0\).jpg)
+
+Our final sightseeing stop was called Libson Falls. You can see Mike pointing out the second waterfall for us here hahah! The dfferent colors were unexpected and lovely! The flowers never cease to surprise us! 
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUn8r92kIJm-5p1odDnzvCDZna1LxwOCYEqOA6EejNnud-v28x_C3G1ZsKc2wgLV3lkZrkQgbJD0CE1qJnC1S5KgF5eKe4Zye5h2jSzv_kRoYc4PCQr97uSqpJDHdx8_clkMBisVB6kBXkJ6N_NlZXRzaWBkC6sUtRMd9u-q3C3v-o-9RSuvW3pix2DUs/s320/20240905_133927.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUn8r92kIJm-5p1odDnzvCDZna1LxwOCYEqOA6EejNnud-v28x_C3G1ZsKc2wgLV3lkZrkQgbJD0CE1qJnC1S5KgF5eKe4Zye5h2jSzv_kRoYc4PCQr97uSqpJDHdx8_clkMBisVB6kBXkJ6N_NlZXRzaWBkC6sUtRMd9u-q3C3v-o-9RSuvW3pix2DUs/s4000/20240905_133927.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhocsts6JRHIq3YXrJ96d2ujq4j8v8-va6t6KnFxBQ8wAjz-Qz1_tr8ZxxECcMBcTJGuotpSh-MKxEdMhw6i97AC1Jtqn0x3pPjTrO5Kpb4b13NKZB3H5Spn4gpIhq67YKVaV3cDaa29IoCqWxvTie1vnyBHrAD6hKW8QRG_y20E5HEJKp3yyAiHeAu2SU/s320/20240905_133948.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhocsts6JRHIq3YXrJ96d2ujq4j8v8-va6t6KnFxBQ8wAjz-Qz1_tr8ZxxECcMBcTJGuotpSh-MKxEdMhw6i97AC1Jtqn0x3pPjTrO5Kpb4b13NKZB3H5Spn4gpIhq67YKVaV3cDaa29IoCqWxvTie1vnyBHrAD6hKW8QRG_y20E5HEJKp3yyAiHeAu2SU/s4000/20240905_133948.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjERJ2wT7DJElpGRq39nPi8Q-DXowpJ3LkDygIWARfNlHzHx0Ys6QmOVqZLkixscZQgiAQm7BqEXHFzNIeE9QtfiRUwcCyOY3PiK2qP7l9WtYM7-dxvGx9wJjMf4_RSzA3OMbodxfFsQKgdkwJ-4pqaf7e_n3g8XYJCVxexYImjeCHyTUQ9zg9rJTw2cZI/s320/20240905_134545.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjERJ2wT7DJElpGRq39nPi8Q-DXowpJ3LkDygIWARfNlHzHx0Ys6QmOVqZLkixscZQgiAQm7BqEXHFzNIeE9QtfiRUwcCyOY3PiK2qP7l9WtYM7-dxvGx9wJjMf4_RSzA3OMbodxfFsQKgdkwJ-4pqaf7e_n3g8XYJCVxexYImjeCHyTUQ9zg9rJTw2cZI/s4000/20240905_134545.jpg)
+
+Our lunch was trout for Mike (I had to separate us with a water bottle because the eye was staring at me) I had the ostrich kebab with fries and saw the Malva pudding on the menu so, naturally, that had to happen. Unfortunately none of it was good. We ate enough to sustain us and were sad.
+
+  
+
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhooSorEpNTJy-cF3tknMjmvKevEeyMrJNMRP-supcrC1uYL4m2cbmHgpDajS-w4cCaKGd5JdxjXGKWS2AENzlpJCPMGtbK__TvfbG533fuiDAikl69EvaRXypv6IZLm19U7JY5Bin9JDL_Xt0uK_93VWXiHeD07qOgIK9kfHzxkkuWGI_5rIpSzTjhYgk/s320/20240905_150512.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhooSorEpNTJy-cF3tknMjmvKevEeyMrJNMRP-supcrC1uYL4m2cbmHgpDajS-w4cCaKGd5JdxjXGKWS2AENzlpJCPMGtbK__TvfbG533fuiDAikl69EvaRXypv6IZLm19U7JY5Bin9JDL_Xt0uK_93VWXiHeD07qOgIK9kfHzxkkuWGI_5rIpSzTjhYgk/s4000/20240905_150512.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHQYgiUVYx0qHeuDOvcaSmSs1RToe81zbyu9dzJ6HSZYOzP36U8zL1GldPL9ujAgeSPhb-H1hKveq1w-6nhR6VYzIXDzUp5nhKOHxDEETJU-rbey80crQAeGzHBe9qvBqIdUPvSsMSsUKJJiKiVF2vmgT4wFh8_PbQediLB7Df5X4VN9d4flS3gvRLSbk/s320/20240905_150519.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHQYgiUVYx0qHeuDOvcaSmSs1RToe81zbyu9dzJ6HSZYOzP36U8zL1GldPL9ujAgeSPhb-H1hKveq1w-6nhR6VYzIXDzUp5nhKOHxDEETJU-rbey80crQAeGzHBe9qvBqIdUPvSsMSsUKJJiKiVF2vmgT4wFh8_PbQediLB7Df5X4VN9d4flS3gvRLSbk/s4000/20240905_150519.jpg)
+
+It was FINALLY time to enter Kruger park, hooray! We were so excited to see some wild life but trying not to get our hopes up. I was most eager for the elephants, hippos, and giraffes. Mike was wanting to see lions and rhinos. (Oh my!)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipaBvpDFPNTgFw8LabtNApIv24JQsq2X1UO6rHfusxP1oQB8ILKy27DY_7q7j1hvLizUj_nCaBshsqtcerbF96PDasWPmPfRrPUmOfkMJuXGtbYoQhIgM_ZEsgvI1WoGhmE-K4485fNgR6kS-3niyeAc1alP8SDU_uAjvyKgliCgsUYticm6N6lnV7R-s/s320/20240905_151032.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipaBvpDFPNTgFw8LabtNApIv24JQsq2X1UO6rHfusxP1oQB8ILKy27DY_7q7j1hvLizUj_nCaBshsqtcerbF96PDasWPmPfRrPUmOfkMJuXGtbYoQhIgM_ZEsgvI1WoGhmE-K4485fNgR6kS-3niyeAc1alP8SDU_uAjvyKgliCgsUYticm6N6lnV7R-s/s4000/20240905_151032.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipWj-K_fBQbvFPM_44AFe8d-aYXPKowjAuWIdsDM4hS-nzQ5yugEwyyRCztUkWZdZJjnqqZlv7RJaNN2ERgM8ozb1OmKKbQV-P0bgkHTS7ieGTivO2P3-mCihe1IrUQsZMX9JPwbFDmH4g5e57R4hYX004NxiY7rtkt8EbBAFjEcR8VI0cupXFJ6fPWI8/s320/20240905_151130.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipWj-K_fBQbvFPM_44AFe8d-aYXPKowjAuWIdsDM4hS-nzQ5yugEwyyRCztUkWZdZJjnqqZlv7RJaNN2ERgM8ozb1OmKKbQV-P0bgkHTS7ieGTivO2P3-mCihe1IrUQsZMX9JPwbFDmH4g5e57R4hYX004NxiY7rtkt8EbBAFjEcR8VI0cupXFJ6fPWI8/s4000/20240905_151130.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrke6gnOYdIOvkOKWA8GkO8tQz2D7Q25f_4UeSIhmr1zg32NM5Gca1DgdWqg0DAPEQoWiLjllnmvBIUw5Ajf-D3E3wWMamdKK-vd43yRI7wpSALDTO_LI2OwAGQ0R2GP-ulB4RYSbU_iea0AdtJ2zv7rcSZktmV7LZajo9I-Y3mSfERGCUc_MKRsmnFMc/s320/20240905_152119.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrke6gnOYdIOvkOKWA8GkO8tQz2D7Q25f_4UeSIhmr1zg32NM5Gca1DgdWqg0DAPEQoWiLjllnmvBIUw5Ajf-D3E3wWMamdKK-vd43yRI7wpSALDTO_LI2OwAGQ0R2GP-ulB4RYSbU_iea0AdtJ2zv7rcSZktmV7LZajo9I-Y3mSfERGCUc_MKRsmnFMc/s4000/20240905_152119.jpg)
+
+IMMEDIATELY inside the gate we saw zebras and impala! Right by the road! We were amazed. The guide was amused since both are a common occurrence in the park.
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlXI7p37dL9G1di-hiQmaUr5MhUa486fV8M1199aMfODMd9VuhDW0WfmEmtqS6CvH-T0O4IRUDLPU3wepGGszmEFyopM5C4qpOpvBQaE5xemtMFCjxiSK-06XtftrDFDN56DeC-7CgHWWG-E7-QDARZWTL2PwwRLg4oLt4DRuSNVoOpoC03FsZzxAB45c/s320/20240905_153305.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlXI7p37dL9G1di-hiQmaUr5MhUa486fV8M1199aMfODMd9VuhDW0WfmEmtqS6CvH-T0O4IRUDLPU3wepGGszmEFyopM5C4qpOpvBQaE5xemtMFCjxiSK-06XtftrDFDN56DeC-7CgHWWG-E7-QDARZWTL2PwwRLg4oLt4DRuSNVoOpoC03FsZzxAB45c/s4000/20240905_153305.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPisCqvcoUe5i8BE2iWZfZcmej_oIrV0w7jy2ZR2NMpvRHYWkwXuXtBWicpg9gXVEbKq1tUbhyphenhyphendQMVdT-IlQfKeHB2f7fyqy0tShBks9mcv0Iz5dXla_o2JyjsQqHjUDFZKWK5eYohWJ4EySUmwkqcX-h8G8cql0lx8gb0-H41giPlKvSPwDk0HuhMKTQ/s320/20240905_153338.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPisCqvcoUe5i8BE2iWZfZcmej_oIrV0w7jy2ZR2NMpvRHYWkwXuXtBWicpg9gXVEbKq1tUbhyphenhyphendQMVdT-IlQfKeHB2f7fyqy0tShBks9mcv0Iz5dXla_o2JyjsQqHjUDFZKWK5eYohWJ4EySUmwkqcX-h8G8cql0lx8gb0-H41giPlKvSPwDk0HuhMKTQ/s4000/20240905_153338.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoW2Cwd39_DinrNXPel1fPDMlRlupn5gd4hHvjTgNJ-pckhxn7gpi7aWF4GCc4uKBQI-IEKNATJCUN1L-EH10a58xWFUbH-kttkTbEmCKYF6ouzBadpDAwfud_TlAhhl5jtVv7DWn3_EKqh952835zOjz8u1sP0F8-fVkZMe-MQ6pcaaYN4bqpBn7-Rz4/s320/20240905_162621.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoW2Cwd39_DinrNXPel1fPDMlRlupn5gd4hHvjTgNJ-pckhxn7gpi7aWF4GCc4uKBQI-IEKNATJCUN1L-EH10a58xWFUbH-kttkTbEmCKYF6ouzBadpDAwfud_TlAhhl5jtVv7DWn3_EKqh952835zOjz8u1sP0F8-fVkZMe-MQ6pcaaYN4bqpBn7-Rz4/s4000/20240905_162621.jpg)
+
+We were driven to our accomodations for the night and it was really glamping! Look how cute this is! Once settled in, we headed to the camp shop and got a few snacks and spotted this really colorful bird!
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFOSBg9Fa42Xc-9_kYGM8NC6TF2N6-XxfxVGfsBFb9XGURq1SQTBkciuHJx3VxK01UYTXqlElEBFOVrtq7I732UO13kfaMJkS_NSrfKQaZIqJjv1T3yWIw4Nkbl1fTlgZ2bHMQOzVL_lqf1XaJLmEW3r_5PNWR8LS0WfZgkcEoLZB-CkEfK1bR2t527Wo/s320/20240905_164552.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFOSBg9Fa42Xc-9_kYGM8NC6TF2N6-XxfxVGfsBFb9XGURq1SQTBkciuHJx3VxK01UYTXqlElEBFOVrtq7I732UO13kfaMJkS_NSrfKQaZIqJjv1T3yWIw4Nkbl1fTlgZ2bHMQOzVL_lqf1XaJLmEW3r_5PNWR8LS0WfZgkcEoLZB-CkEfK1bR2t527Wo/s4000/20240905_164552.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtP5-cUXOAPaeafpFoZ5UCGHJWRfwNKVsEY6nlXnvFIHkPDQdpKlod7mveqRCHPUr92V81Mq8MhQ1-fzzJ6vfbRIOaoBZp7OMM_y4VORvFLbEn_ijmH19WUzZSS0oqSnN6MejcLnEySK_jaAHjPWIQq9v1UpZiGeff2dl-MLdzc9owjwD21jxtF94CyYY/s320/20240905_165216.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtP5-cUXOAPaeafpFoZ5UCGHJWRfwNKVsEY6nlXnvFIHkPDQdpKlod7mveqRCHPUr92V81Mq8MhQ1-fzzJ6vfbRIOaoBZp7OMM_y4VORvFLbEn_ijmH19WUzZSS0oqSnN6MejcLnEySK_jaAHjPWIQq9v1UpZiGeff2dl-MLdzc9owjwD21jxtF94CyYY/s4000/20240905_165216.jpg)
+
+Pretty quickly we saw a family of elephants traveling together - can you spot the baby?  
+This photo of a zebra is one of my favorite from the entire trip!  
+We ended up seeing SO many zebras, elephants, kudu, and impala!
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4s4dktEUHwF21YWTGuKsW8rJAG9fHHE7HJvF7rJqhW0vB1EUVSrpBYvzem47621MWQ3UwHpwLqvzlRQu_0_aI8DJV16Fk-jG4YUhYtJUjWOPBkcDxd20c0468CFHnn_pLacV9PdiuBig070Sva_VR_PqA6UGJi_cacS4US950X4nzKdvqeDki2l10bw0/s320/20240905_170643.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4s4dktEUHwF21YWTGuKsW8rJAG9fHHE7HJvF7rJqhW0vB1EUVSrpBYvzem47621MWQ3UwHpwLqvzlRQu_0_aI8DJV16Fk-jG4YUhYtJUjWOPBkcDxd20c0468CFHnn_pLacV9PdiuBig070Sva_VR_PqA6UGJi_cacS4US950X4nzKdvqeDki2l10bw0/s4000/20240905_170643.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwtXOzpoSfxA6I93KtaOEHqzfi89W8YWwXB13AbvPkfD73QdGvYNWxHqWR-MYtbfl2NSmI5U7lc9hZQHWIICBKQ0yIf6NkAApzTZqSApzfo4cB_ocQvScePLNqOyn7InaM0yAauKjedrqgjQ8G4LonKld1fPygB-jqtTOOGVq8Asqxt0mwhfQeF1Q1z-U/s320/20240905_171136.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwtXOzpoSfxA6I93KtaOEHqzfi89W8YWwXB13AbvPkfD73QdGvYNWxHqWR-MYtbfl2NSmI5U7lc9hZQHWIICBKQ0yIf6NkAApzTZqSApzfo4cB_ocQvScePLNqOyn7InaM0yAauKjedrqgjQ8G4LonKld1fPygB-jqtTOOGVq8Asqxt0mwhfQeF1Q1z-U/s4000/20240905_171136.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwpWkSUiWL1D7CRdG97Mi4I89b1s2QXxL-HZtKXAJpUVsa5PuClk5zp7rvp9bb2fxNgp4TSuaqnkVO-OVn30MYAudp6A7513-MRuIA2NzZ4VSrJwPIVNchkY61j01IjOlwjLGYFvOZepXRq1Rl6l7iRajzBbSPFpoYDf_HHz9L6gf5Qg5EpgO6_FQAeYc/s320/IMG-20240906-WA0026.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwpWkSUiWL1D7CRdG97Mi4I89b1s2QXxL-HZtKXAJpUVsa5PuClk5zp7rvp9bb2fxNgp4TSuaqnkVO-OVn30MYAudp6A7513-MRuIA2NzZ4VSrJwPIVNchkY61j01IjOlwjLGYFvOZepXRq1Rl6l7iRajzBbSPFpoYDf_HHz9L6gf5Qg5EpgO6_FQAeYc/s2000/IMG-20240906-WA0026.jpg)
+
+Once we got close to the watering hole we saw hippos ominously peeking out of the water! It was really cool and scary lol (if you have seen Jumangi 2, this was a real treat!) The elephants were bathing themselves and trotting along for everyone to watch.
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDr7JljQjTdxJAT4l5jf8N5z1FmBSS70jwCzsKKmoU57HJE8Fr0uHon3-phITUtnetQJtfdVeY2sy2AjBhYU-sJazMvQPaDwfIBW_EYG6SOi9eeXfCyLMIRHpPDycgp8_-iOkV2sIHPZaPut2jrKDOw7JGbS0rD_5DerARuUT8sPPyZMLWNOSN96k8V6U/s320/20240905_173141.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDr7JljQjTdxJAT4l5jf8N5z1FmBSS70jwCzsKKmoU57HJE8Fr0uHon3-phITUtnetQJtfdVeY2sy2AjBhYU-sJazMvQPaDwfIBW_EYG6SOi9eeXfCyLMIRHpPDycgp8_-iOkV2sIHPZaPut2jrKDOw7JGbS0rD_5DerARuUT8sPPyZMLWNOSN96k8V6U/s4000/20240905_173141.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhasdIiQRzzbEBe3w4D2_oN1YlhTpBETgMGTsb0-KSJrcXRdx2R1xPzGK5uYBVPOmqAGRs5ySs5K7UaasdRryldoGY0OLog98v1dkQQ2yEwGFVx5fW6z6pOc5g3lhHD0fDFm2oOgvaTwAV7fH-jVbk46hSewnB3p_3EaXFHNolc0GDH6egCsxJgk9hLSoo/s320/IMG-20240906-WA0022.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhasdIiQRzzbEBe3w4D2_oN1YlhTpBETgMGTsb0-KSJrcXRdx2R1xPzGK5uYBVPOmqAGRs5ySs5K7UaasdRryldoGY0OLog98v1dkQQ2yEwGFVx5fW6z6pOc5g3lhHD0fDFm2oOgvaTwAV7fH-jVbk46hSewnB3p_3EaXFHNolc0GDH6egCsxJgk9hLSoo/s2000/IMG-20240906-WA0022.jpg)
+
+Here is one thing we did not expect to see but were happily surprised by, a Warthog! Our guides call it one of the ugly five (rather than the big five: leopar, lion, elephant, buffalo, rhino). We got to see a pair of them running about and then entering their residence (a hole in the ground). Did you know the warthog enters the hole backwards? It's for an easy escape forwards! It was really entertaining to watch them backing in. 
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9zoF41yFZa-QVET6FrxDfHKZLNCwGgKrvaiZV97xiaJpkroNA60qKuEBx1M6ELtJxrU8CrMU-KTHgC7-NZIvBIHt15TUoIlDBAQxAu1FsRxnjccJxDPklTKnbOuN4atgeW6tUcQhycamepWHFaEuVdV2qLVIpjDJwKxxjfAaZIiTPr_mX9G43ugAV4_M/s320/20240905_173642.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9zoF41yFZa-QVET6FrxDfHKZLNCwGgKrvaiZV97xiaJpkroNA60qKuEBx1M6ELtJxrU8CrMU-KTHgC7-NZIvBIHt15TUoIlDBAQxAu1FsRxnjccJxDPklTKnbOuN4atgeW6tUcQhycamepWHFaEuVdV2qLVIpjDJwKxxjfAaZIiTPr_mX9G43ugAV4_M/s4000/20240905_173642.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiD5MZAuGiTrOqlnulI8ybiKk5VPlMb8LEwf6Eyhdz2tN5wJWcuP_B1W136kf67FqI1yFi5pB-ZM5sSxxHbGzEUDDyvuF8WNMMtSg7Y1zLMXAcpHUiLXLk9Z0oLxyVjtzBQhVRDCo2Os50zdQbtvzibbyDeWxmcZ_fKKiu96XxPy0fbnSDSCC0EvTOoyw8/s320/20240905_173442.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiD5MZAuGiTrOqlnulI8ybiKk5VPlMb8LEwf6Eyhdz2tN5wJWcuP_B1W136kf67FqI1yFi5pB-ZM5sSxxHbGzEUDDyvuF8WNMMtSg7Y1zLMXAcpHUiLXLk9Z0oLxyVjtzBQhVRDCo2Os50zdQbtvzibbyDeWxmcZ_fKKiu96XxPy0fbnSDSCC0EvTOoyw8/s4000/20240905_173442.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9C-mmz3K-59UUEeFscpNkmornFUZXdclcQg1ixdA4BKdiATklNUYZ4eiAcr9ulfQpSOnhagstRx2quenp3XK_pzlb4aO1iGSr-8Gd3CBL3vEqKqTZA4xksFZNM5mX0amfaFxdW9jlRdKi72pTdznFRLkv-tBXkdWJ72M-4HQKx35YxQY2HOUCbaFPZqo/s320/20240905_173232.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9C-mmz3K-59UUEeFscpNkmornFUZXdclcQg1ixdA4BKdiATklNUYZ4eiAcr9ulfQpSOnhagstRx2quenp3XK_pzlb4aO1iGSr-8Gd3CBL3vEqKqTZA4xksFZNM5mX0amfaFxdW9jlRdKi72pTdznFRLkv-tBXkdWJ72M-4HQKx35YxQY2HOUCbaFPZqo/s4000/20240905_173232.jpg)
+
+  
+WOW! What a sunset. It felt so unreal to watch the sun go down over the landscape of Africa. I can't believe we really got to experience this!  
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpZG3TnRyTHShrZHhZhW8Qix-QHF8lSuVNx7SvBed7Wt4SnIWsxN2-VC_HdCDW36UtYIdloZCrmhQm-7GTLWnU4szy8y8Sq5_JNsGtmQRpFUTB4Mj5E0Q3hE03PUO2NJ9VSaiPKMZDByBnrebJL9GFRqz-6Ns2NnqyeETZ3jJUw6FDsNtBZ53Sm6_I5Wc/s320/20240905_174259.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpZG3TnRyTHShrZHhZhW8Qix-QHF8lSuVNx7SvBed7Wt4SnIWsxN2-VC_HdCDW36UtYIdloZCrmhQm-7GTLWnU4szy8y8Sq5_JNsGtmQRpFUTB4Mj5E0Q3hE03PUO2NJ9VSaiPKMZDByBnrebJL9GFRqz-6Ns2NnqyeETZ3jJUw6FDsNtBZ53Sm6_I5Wc/s4000/20240905_174259.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieCjVS_K9bpWAIzLEHxZJGvuPw9QaPxUepxAynDeZg5oxVF8s3XNlOXnoeeFVcB-r9qkZVSyKqZa8Er68AzkC-iIN6GkGoFxKv7dsgsFFQoJprhihIISBhWLI1yJ9jGRWVChHzMDn0ej830ppc-xHDNSL_QqkncOQwhb2BmiAqv0fKuMKvhrpuDfkE6Aw/s320/20240905_174328.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieCjVS_K9bpWAIzLEHxZJGvuPw9QaPxUepxAynDeZg5oxVF8s3XNlOXnoeeFVcB-r9qkZVSyKqZa8Er68AzkC-iIN6GkGoFxKv7dsgsFFQoJprhihIISBhWLI1yJ9jGRWVChHzMDn0ej830ppc-xHDNSL_QqkncOQwhb2BmiAqv0fKuMKvhrpuDfkE6Aw/s4000/20240905_174328.jpg)
+
+ Anotoher surprise in store for us was a family of hyena! I didn't expect them to play like dogs! But they were play fighting over a stick (could've been a bone haha!)  
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIggVRNWQHdP02sAkv_i3YWLxe9OYVOyCeho8ZNHIxqKtHLm_E9dUOPtLjqpSBOQ5aBUXgkM79GzgYBDkrvGOCFN1LKZMjRIFmeazy7q5o3gdMXWdAAyV0kGlJZiFb-iBK8CJ9Qn0AupKH1g8qkw-yEa8W6WytjI4AElGvYIrY2zo2BcFEQR-QbivXaqA/s320/20240905_175823.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIggVRNWQHdP02sAkv_i3YWLxe9OYVOyCeho8ZNHIxqKtHLm_E9dUOPtLjqpSBOQ5aBUXgkM79GzgYBDkrvGOCFN1LKZMjRIFmeazy7q5o3gdMXWdAAyV0kGlJZiFb-iBK8CJ9Qn0AupKH1g8qkw-yEa8W6WytjI4AElGvYIrY2zo2BcFEQR-QbivXaqA/s4000/20240905_175823.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5A_U4cCuZX2yQyTHacAHwV4b5Q-OjyJ4NRYtThGI8z9-wP3riT18YKY7zN1THcYpikwgCQriaiZJWACWHASX_v1sQpCtNTqJwpnS3ZwtD1_CAZqyhmqfxBJeRhwbcqcHhZ0QeC6vEloqSFjUsnoLd5-lAlmL3zgbcUWJwoqRBNZmnkEfEXxZMawRe9sI/s320/20240905_175828.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5A_U4cCuZX2yQyTHacAHwV4b5Q-OjyJ4NRYtThGI8z9-wP3riT18YKY7zN1THcYpikwgCQriaiZJWACWHASX_v1sQpCtNTqJwpnS3ZwtD1_CAZqyhmqfxBJeRhwbcqcHhZ0QeC6vEloqSFjUsnoLd5-lAlmL3zgbcUWJwoqRBNZmnkEfEXxZMawRe9sI/s4000/20240905_175828.jpg)
+
+I have NO IDEA how Mike spotted this but he somehow was able to pick out this giraffe for us to admire while the vehicle was moving! I can't believe how much we saw on our very first safari! Look how handsome this tall fella is!  
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiMFmeeAokWH6m3BKzYDD43xiOKsLxf7XJwWMxMttQQOLuIrYppuyGG8Vrhn4ABpCwWJ4oEMnv9rX3lDPqJs2daerDgrE8CsKRFgxAYmDhE35l2Op0CzUM9LoiV5_J972JEXT4SbupYUxOTA3c4DO0N97tOoowWA3t1M0JBMmYkjNka_CwV6qfjm5vjtE/s320/20240905_180413.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiMFmeeAokWH6m3BKzYDD43xiOKsLxf7XJwWMxMttQQOLuIrYppuyGG8Vrhn4ABpCwWJ4oEMnv9rX3lDPqJs2daerDgrE8CsKRFgxAYmDhE35l2Op0CzUM9LoiV5_J972JEXT4SbupYUxOTA3c4DO0N97tOoowWA3t1M0JBMmYkjNka_CwV6qfjm5vjtE/s4000/20240905_180413.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTS-ZBEzfBY1zmo4ad1iL0y0kc6k3dHrQFmxQaFAk1VpKGVTBvU28pd8ApZoQw2F5N8TGSaMYIYO0JcXuD1AQfsKy1YjS4slLRM0GnVEVlF62GMporjYWUbL2WXSG8L1IZ3H6gtjQOEyTgHbQpHnPQVBxovRLVGm6eBd9RGhm0-5LtjFdk0YSnj0IloT0/s320/20240905_180708.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTS-ZBEzfBY1zmo4ad1iL0y0kc6k3dHrQFmxQaFAk1VpKGVTBvU28pd8ApZoQw2F5N8TGSaMYIYO0JcXuD1AQfsKy1YjS4slLRM0GnVEVlF62GMporjYWUbL2WXSG8L1IZ3H6gtjQOEyTgHbQpHnPQVBxovRLVGm6eBd9RGhm0-5LtjFdk0YSnj0IloT0/s4000/20240905_180708.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUUG7fXfr0dL1u4eWUDv5ENRl_MRgoEW63p89GotqfutOecUi85uJ8Q0UyFRnSDK1-KjwOrTDpRVL5PjnMlX6UAaRK0aR0XE18XnsVQ7UJXkaKYvHvPBqV_YTmATJZ5dSsPO6ZPyxKhSCbOZE5GTMyoD_-zXGfIIO-4r56mzc6zRtdS-DsX5bf8-_vKcE/s320/20240905_180958.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUUG7fXfr0dL1u4eWUDv5ENRl_MRgoEW63p89GotqfutOecUi85uJ8Q0UyFRnSDK1-KjwOrTDpRVL5PjnMlX6UAaRK0aR0XE18XnsVQ7UJXkaKYvHvPBqV_YTmATJZ5dSsPO6ZPyxKhSCbOZE5GTMyoD_-zXGfIIO-4r56mzc6zRtdS-DsX5bf8-_vKcE/s4000/20240905_180958.jpg)
+
+I could not stop admiring the colorful backdrop as the sun went down. 
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQyqGj5lDm4Be0p7pMZTg5bIzPHtmQ-jvp3xP2ud0HzA4i_UmOXcgXTOfqYvbIz2Hfz0VIgubvyprYU4eGZzFnALSDvA2NtWcqS9A3QH9eRr9CuorbDu49PTRAMkSPCv-vRSaQWVg09pPm3DC-V-SWHriJA2e4UnUQb-lPFDqbPrqzEcTUFnm2yn6Z_HE/s320/20240905_183358.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQyqGj5lDm4Be0p7pMZTg5bIzPHtmQ-jvp3xP2ud0HzA4i_UmOXcgXTOfqYvbIz2Hfz0VIgubvyprYU4eGZzFnALSDvA2NtWcqS9A3QH9eRr9CuorbDu49PTRAMkSPCv-vRSaQWVg09pPm3DC-V-SWHriJA2e4UnUQb-lPFDqbPrqzEcTUFnm2yn6Z_HE/s4000/20240905_183358.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1HqGx0RTriYZJZJacfjzBeoYTU784aWv0RGYn7GDO7qPmX8TWkhJdDbpNUMLB8zSXjCpFFp33STO6otN8Z123ww_3a6D0G89DCSns6YZIhAEUIt839gUWFZtG9U8cS8mohbXDr4ibkJjqSZTMyJXF-t5gKNkZ-lxHThMJ7BG4zpr_Aunhi8-5XTyQxDM/s320/20240905_183425.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1HqGx0RTriYZJZJacfjzBeoYTU784aWv0RGYn7GDO7qPmX8TWkhJdDbpNUMLB8zSXjCpFFp33STO6otN8Z123ww_3a6D0G89DCSns6YZIhAEUIt839gUWFZtG9U8cS8mohbXDr4ibkJjqSZTMyJXF-t5gKNkZ-lxHThMJ7BG4zpr_Aunhi8-5XTyQxDM/s4000/20240905_183425.jpg)
+
+On the way back to camp, we were lucky to see a whole herd of water buffalo crossing the road! Man they're ugly too! The horns look like a giant eyebrow/mustache to me. 
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZkIrVVv4LPv4ffftcYaaGeJte6z4XDX9N7ZENFTYyam5cj-Y4WeQSrWpaarOIWrGrMMV2HS5KxYUeEKlfcOWKeF8j4eE47tudsTqEBkWDgT9DEt69dSCBW_CaSjwKQ0FJJCmrzCv7WjfBtXKDoek_qeCRUywlhK2ybI-MfVhJeOnYc0ZIu-uWeO4RgbI/s320/20240905_194150.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZkIrVVv4LPv4ffftcYaaGeJte6z4XDX9N7ZENFTYyam5cj-Y4WeQSrWpaarOIWrGrMMV2HS5KxYUeEKlfcOWKeF8j4eE47tudsTqEBkWDgT9DEt69dSCBW_CaSjwKQ0FJJCmrzCv7WjfBtXKDoek_qeCRUywlhK2ybI-MfVhJeOnYc0ZIu-uWeO4RgbI/s4000/20240905_194150.jpg)
+
+We returned to camp around 730pm to a dinner set up just for us! It was spaghetti, salad, steamed veggies, and garlic bread! After the last couple of meals, this tasted like heaven! And you know I've severely missed my garlic. Mike also adores pasta so this could not have been more perfect.   
+  
+We fell asleep quickly as wake-up was at 530am for our sunrise safari! We were lulled to sleep by the craziest bird sound I've ever heard - think of a dog with a squeaky toy!

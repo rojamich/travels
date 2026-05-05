@@ -1,0 +1,112 @@
+---
+title: "Venice, Take Two!"
+date: 2023-08-10
+categories:
+  - european-exploration
+order: 14
+tags:
+  - Italy
+---
+
+Today was our chance to finish anything in Venice we may have missed last time. However, getting to the actual city center from the ship was more complicated. We had to take a tender boat to the commercial district of Venice which was about a 40 minute walk from the city center. They had buses there waiting to move us out of the commercial district and then we were pretty much on our own.
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMuw0fWSKB_yEAuZ5wRgkImsD5Cc4rVXqaXR8glvtyvTzL-5VmFrFY5Cx1oAiFuU1oKS5j3W3ypRt0e2KpAgxOF3SB7QkkKeMpoPR81g4yV49wdwCkSCznjqKEtVT7rDdNVfLDMMqz7lSzPgRWaxUPKQGNJ4iBONnRhfp5o4bMWeOHQIVVDqMyyLifYus/w200-h150/20230730_081449.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMuw0fWSKB_yEAuZ5wRgkImsD5Cc4rVXqaXR8glvtyvTzL-5VmFrFY5Cx1oAiFuU1oKS5j3W3ypRt0e2KpAgxOF3SB7QkkKeMpoPR81g4yV49wdwCkSCznjqKEtVT7rDdNVfLDMMqz7lSzPgRWaxUPKQGNJ4iBONnRhfp5o4bMWeOHQIVVDqMyyLifYus/s4000/20230730_081449.jpg)
+
+  
+
+
+Mike and I decided to go by foot and explore more of Venice. We enjoyed seeing the canals, crossing over the bridges and remembering all of the beauty that Venice has to offer.
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxzi2P6LuPH8cBHV-dDZ317epyyCJy9hk0EDWcURJcTx-ioW8qSzHaXDeug90R5dKlpr4d3Io1AibZoh_S0Z1XKRHQU1bC10KXQ_Vq3WZDNfqp17-CAKwBI5L9iHF7kR8azMkfVO_RjgbrCaV2oEpWCclJkkD_vn75yk96iujeDGkdVYYYOwF8Ff56Vks/w200-h150/20230730_090417.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxzi2P6LuPH8cBHV-dDZ317epyyCJy9hk0EDWcURJcTx-ioW8qSzHaXDeug90R5dKlpr4d3Io1AibZoh_S0Z1XKRHQU1bC10KXQ_Vq3WZDNfqp17-CAKwBI5L9iHF7kR8azMkfVO_RjgbrCaV2oEpWCclJkkD_vn75yk96iujeDGkdVYYYOwF8Ff56Vks/s4000/20230730_090417.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-TQnTvI0ndcyEiGGMIxO_XFh-ZrjB3qvxvergVaW9p_CpJAtmkAqpK2faT9yQtCipMkQeM98NNucEFJs8wlF6p2dES86E1whvCdNJ4vz7RbxYNg0D-trbdGxHWxeG3mccvsG0okbgbTCMRFnF05clFZbjmaPCidj4vTNsBl9U6f6m3AwmlYHfen-fWpg/w200-h150/20230730_091000.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-TQnTvI0ndcyEiGGMIxO_XFh-ZrjB3qvxvergVaW9p_CpJAtmkAqpK2faT9yQtCipMkQeM98NNucEFJs8wlF6p2dES86E1whvCdNJ4vz7RbxYNg0D-trbdGxHWxeG3mccvsG0okbgbTCMRFnF05clFZbjmaPCidj4vTNsBl9U6f6m3AwmlYHfen-fWpg/s4000/20230730_091000.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyaqtOmBr0OBMxLBSemeVvhfRVWFFfBJIKrjKijJt6Wql4Epl9xosi6Do2JVYYZGJNuaVCOUl9tBN5PKcAFgQ-wc7Gb8gi0J4QYYaF1hGXxLD4Ph-P675gC25ob2Jns7pBU0N3LyBt3jba6lvSGATC38wrkJAFH0-vUFi4vQr86FyvbC4aNQgGkgme6HY/w150-h200/20230730_091913.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyaqtOmBr0OBMxLBSemeVvhfRVWFFfBJIKrjKijJt6Wql4Epl9xosi6Do2JVYYZGJNuaVCOUl9tBN5PKcAFgQ-wc7Gb8gi0J4QYYaF1hGXxLD4Ph-P675gC25ob2Jns7pBU0N3LyBt3jba6lvSGATC38wrkJAFH0-vUFi4vQr86FyvbC4aNQgGkgme6HY/s4000/20230730_091913.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7SbVidc91jGucYHhVpDSz_0_PyMMNPKF8hT1I9OnJ7g8-VC1AocVMrPE6fXBo7zzXAmu--l4n7XkIU_OVIqIUouaDjM1qid2mJxWgZRaEtMr6K1CVW9Bu44v6yFxhiaW0HynSJrk0gMQDqpUzVhBlHql3Sb2bQ1rkn8uZFL641fEs-yy-dxlQxnjgIpE/w200-h150/20230730_095630.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7SbVidc91jGucYHhVpDSz_0_PyMMNPKF8hT1I9OnJ7g8-VC1AocVMrPE6fXBo7zzXAmu--l4n7XkIU_OVIqIUouaDjM1qid2mJxWgZRaEtMr6K1CVW9Bu44v6yFxhiaW0HynSJrk0gMQDqpUzVhBlHql3Sb2bQ1rkn8uZFL641fEs-yy-dxlQxnjgIpE/s4000/20230730_095630.jpg)
+
+  
+
+
+  
+
+
+Not having had much of a breakfast, we revisited a cafe where Mike got an espresso and we both enjoyed the chocolate cannolis! They were simply spectacular. I never want them to end.
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGn2XxlRdZRByxnPXXQxKLuCqUXoln6blsfM8Xh6-9SLHf3vMxbxO-4IgukL0jtMCOhqWJcQrsRGsseQiPnyFUDdjArR5539URbQfjKtRISH5kQDJMMbpMpoB4jvIL-up75_vHk95iJtI6T2mWVi1xrxg4DXP0NNWsDqoGASFQ5eeUNeuiB7oDiNuBNTY/w200-h150/20230730_094521.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGn2XxlRdZRByxnPXXQxKLuCqUXoln6blsfM8Xh6-9SLHf3vMxbxO-4IgukL0jtMCOhqWJcQrsRGsseQiPnyFUDdjArR5539URbQfjKtRISH5kQDJMMbpMpoB4jvIL-up75_vHk95iJtI6T2mWVi1xrxg4DXP0NNWsDqoGASFQ5eeUNeuiB7oDiNuBNTY/s4000/20230730_094521.jpg)
+
+  
+
+
+  
+
+
+We made it to St. Mark's square and were grateful to get there so early in the morning as it generally gets PACKED.
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZg8IE1R2wM32Fi7uLWYfx2GA5KtwVbtzUbgp6eqdogk1bR6aewI6K8aMlldcDUgTlYe-nP-Phf9_9NaB-jFSM1D_SzBhM_fMQ2HFhy-9utDl7S6nE47wQijH56zOSo5GzCttKPafNdSnYd7X4-h_ZjmRUbUNSdNmnqQnR99Nq2a5b7E1UO6vDo4CSnW0/w200-h150/20230730_101248.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZg8IE1R2wM32Fi7uLWYfx2GA5KtwVbtzUbgp6eqdogk1bR6aewI6K8aMlldcDUgTlYe-nP-Phf9_9NaB-jFSM1D_SzBhM_fMQ2HFhy-9utDl7S6nE47wQijH56zOSo5GzCttKPafNdSnYd7X4-h_ZjmRUbUNSdNmnqQnR99Nq2a5b7E1UO6vDo4CSnW0/s4000/20230730_101248.jpg)
+
+  
+  
+  
+We had an appt at Doge's Palace for 1130 but arrived early and toured the grounds while we were waiting.   
+Our tour was for the underground stuff as well as the prison. Mike loved the tour!  
+   
+  
+
+
+ 
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuxeyopwf7_Sao-Rgq-HbWySBUAPiLMWwuMrL9DHWIzUh1lRw1q_VAJnz0U0FySL7LYjs7M1RKlXFJtXAL_eScoygnVT8_QPhxaXr0j0neZW1_M_k76xD4ENNNqrCbB8Q_GDLvuUpPyPLMJyjQhKYH-qk8q3yRS9aIhPB8ZpVxP4umPUlBpWKoye-9MUo/w150-h200/20230730_124149.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuxeyopwf7_Sao-Rgq-HbWySBUAPiLMWwuMrL9DHWIzUh1lRw1q_VAJnz0U0FySL7LYjs7M1RKlXFJtXAL_eScoygnVT8_QPhxaXr0j0neZW1_M_k76xD4ENNNqrCbB8Q_GDLvuUpPyPLMJyjQhKYH-qk8q3yRS9aIhPB8ZpVxP4umPUlBpWKoye-9MUo/s4000/20230730_124149.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu3r5GO7w-FMdOZaiqVW6C_GOvYdj6Jgx8xvlPzP7KF92FVslVjHeTFPw_5TlQMP2ommayxxQgd1k9v9haX-KMVBYQY7v6fRBmO8O9bUF-gbjw4Ra4wdT4hup8vGCGIf5c3VY5QmZo-UQING7MlU3A25ZeBLVanJFSqJo63HK8-XP0L3Sf2YLYKmnJYMY/w150-h200/20230730_122643.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu3r5GO7w-FMdOZaiqVW6C_GOvYdj6Jgx8xvlPzP7KF92FVslVjHeTFPw_5TlQMP2ommayxxQgd1k9v9haX-KMVBYQY7v6fRBmO8O9bUF-gbjw4Ra4wdT4hup8vGCGIf5c3VY5QmZo-UQING7MlU3A25ZeBLVanJFSqJo63HK8-XP0L3Sf2YLYKmnJYMY/s4000/20230730_122643.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ8PAaxX6ncEt0iRigToaOqykqcLV8WyOVHXwE2eJE6W5hgeJjcDw7v6ZAkmqr-UpeKPEnXpUQbf5RhvkVT_xMMCmvd_n5oP4w3HBuiC3o8RKnS4WKGZB_qBLnN4AJpO_Msd31FJC5J9ctIwxIrjCDcJ2zTKuns9sRmtNEP-lT2H23ThKaARTejFu9OTE/w150-h200/20230730_120228.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ8PAaxX6ncEt0iRigToaOqykqcLV8WyOVHXwE2eJE6W5hgeJjcDw7v6ZAkmqr-UpeKPEnXpUQbf5RhvkVT_xMMCmvd_n5oP4w3HBuiC3o8RKnS4WKGZB_qBLnN4AJpO_Msd31FJC5J9ctIwxIrjCDcJ2zTKuns9sRmtNEP-lT2H23ThKaARTejFu9OTE/s4000/20230730_120228.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPRv7VnfOf2MVFXTY--57CRMb2aGrd-2Y97_cfyqdahOI3-urPm9IiZSyYO5hXNypXbN2pWHOIPGinUCc-t7706gs0AuKxl3ttrTTLVS3_x-K0Y-Jc-FdhkK39cB_76WN4i4xJQL1KXivSNiR9Hq_EBllQFF2-NHLpI5ePoDE-045fc8SlWEQdNgjVsCY/w200-h150/20230730_115656.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPRv7VnfOf2MVFXTY--57CRMb2aGrd-2Y97_cfyqdahOI3-urPm9IiZSyYO5hXNypXbN2pWHOIPGinUCc-t7706gs0AuKxl3ttrTTLVS3_x-K0Y-Jc-FdhkK39cB_76WN4i4xJQL1KXivSNiR9Hq_EBllQFF2-NHLpI5ePoDE-045fc8SlWEQdNgjVsCY/s4000/20230730_115656.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioKAgjPs39K3vtr4uvfkUMxexWkagDBKEfQFFCxK5Vj0SLu4dUfiQspZCk3Mo7Ai_JsibnSDpTVW_BRd058POSjt8DuAtolYTwfR_8oYt_4UoVZBDmkk0z-CozioMJvdATa5bhCU7LKr3WIno1qKQl-AAn2bFGETSBZEATwv-8_FAQs14wsnUxkLV_7Mg/w200-h150/20230730_115139.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioKAgjPs39K3vtr4uvfkUMxexWkagDBKEfQFFCxK5Vj0SLu4dUfiQspZCk3Mo7Ai_JsibnSDpTVW_BRd058POSjt8DuAtolYTwfR_8oYt_4UoVZBDmkk0z-CozioMJvdATa5bhCU7LKr3WIno1qKQl-AAn2bFGETSBZEATwv-8_FAQs14wsnUxkLV_7Mg/s4000/20230730_115139.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeBb5-cruQDFm1OEzRLYj9_HdvBGbBAWq-5pGN6FRsxY_cGKdhfECQDcaC6JpEQjbIoBcjmy9d7fLRGVlsEkUQKYo1d2SCdLttbEZUtEtxOnV96paLznVPLI-1hgL2J1C_NfdI8OCaoPLt0f_20StG3MWFMnt87MNeLCRIYON18ALcuGuRcKxPHtycTmw/w150-h200/20230730_111600.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeBb5-cruQDFm1OEzRLYj9_HdvBGbBAWq-5pGN6FRsxY_cGKdhfECQDcaC6JpEQjbIoBcjmy9d7fLRGVlsEkUQKYo1d2SCdLttbEZUtEtxOnV96paLznVPLI-1hgL2J1C_NfdI8OCaoPLt0f_20StG3MWFMnt87MNeLCRIYON18ALcuGuRcKxPHtycTmw/s4000/20230730_111600.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqGDLqzgOMgGWOvr3XW20_epT2ze55GYaB0rMyylhCU5QwuMLSt-KL_k9BKDi1XB0InTINbtGt_HYOUcd6yAiR7_ppYRtuqmKExI_ptWSqwrTNORc1SCo5msoJNbaLk6WzzGqurku0QeXNz6Ps4bVY1FV4leWe1rroY8r38flR6m_drR_ITjPv8azEotU/w200-h150/20230730_110844.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqGDLqzgOMgGWOvr3XW20_epT2ze55GYaB0rMyylhCU5QwuMLSt-KL_k9BKDi1XB0InTINbtGt_HYOUcd6yAiR7_ppYRtuqmKExI_ptWSqwrTNORc1SCo5msoJNbaLk6WzzGqurku0QeXNz6Ps4bVY1FV4leWe1rroY8r38flR6m_drR_ITjPv8azEotU/s4000/20230730_110844.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJtXgh6D6IxJDzTA8z-o8eux54uK_PsURGpOnVsVg1y1rs0nuAfHWFO0Qr1HdlVhrCJFYUoLFALu4zH8CV5-HUTaliGGZvT7KMlyP25UNs8D7kRbdYr3RgSqzmsQwaKyVhnEFcmcZSkff2tyVQkHGGf2DjarZGQ05yEA8Ll6cY8PB724Z0Y8gBMEy45rU/w200-h150/20230730_105831.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJtXgh6D6IxJDzTA8z-o8eux54uK_PsURGpOnVsVg1y1rs0nuAfHWFO0Qr1HdlVhrCJFYUoLFALu4zH8CV5-HUTaliGGZvT7KMlyP25UNs8D7kRbdYr3RgSqzmsQwaKyVhnEFcmcZSkff2tyVQkHGGf2DjarZGQ05yEA8Ll6cY8PB724Z0Y8gBMEy45rU/s4000/20230730_105831.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlCR-IfhEYuQlDntncSPI4fHX4O-NQWVqZpbekxeI5K1GAOlZNbiUEPKbcCRpJD1ExB9O6zF85dqyyv0SwEVLhi6IbmIluI5CdV1zFJOgOc4xhPR3Mg2KUQ8tN0YcMb9-WSNzdoqoWoY-DaE0a5PcqiAfKVdubrUFmSX8UvulV0rPcS2W3i5ZLHc-rFj4/w200-h150/20230730_105505.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlCR-IfhEYuQlDntncSPI4fHX4O-NQWVqZpbekxeI5K1GAOlZNbiUEPKbcCRpJD1ExB9O6zF85dqyyv0SwEVLhi6IbmIluI5CdV1zFJOgOc4xhPR3Mg2KUQ8tN0YcMb9-WSNzdoqoWoY-DaE0a5PcqiAfKVdubrUFmSX8UvulV0rPcS2W3i5ZLHc-rFj4/s4000/20230730_105505.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjApCXrG4QqctK37lIpe3meYrt8fTQSQfrzoydeA4qSwIGQWxJSrNXmYXzx7hBEret74fyQbF01zlJSM9U1QFhaVdaVkvboCeDaFTXEKImgtQvDxAhccg3Z143oJHMXK0FQFscTRFWT_-PjZn9dgDusJ_cRJszZh_09YwL9upxm449x9KJJygezGx441aY/w200-h150/20230730_104236.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjApCXrG4QqctK37lIpe3meYrt8fTQSQfrzoydeA4qSwIGQWxJSrNXmYXzx7hBEret74fyQbF01zlJSM9U1QFhaVdaVkvboCeDaFTXEKImgtQvDxAhccg3Z143oJHMXK0FQFscTRFWT_-PjZn9dgDusJ_cRJszZh_09YwL9upxm449x9KJJygezGx441aY/s4000/20230730_104236.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGQ3LFQ1gFjttlgzOisgtTNGAkJ2M3DYanoa28SDsgIusKmEs7w6AAY2uLHP80uz1P5Alr0TsLtObaahn16GNXmF5KK3uNjqsSgww72SkRQEAOPoqN7UlQMoG7QVTetcpe6BBHAhvFbfaKdUaxIE-AXhGZ8FJ4s_e0kjKLZehx3VfJPgrAJI8rB0bE8ks/w200-h150/20230730_103934.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGQ3LFQ1gFjttlgzOisgtTNGAkJ2M3DYanoa28SDsgIusKmEs7w6AAY2uLHP80uz1P5Alr0TsLtObaahn16GNXmF5KK3uNjqsSgww72SkRQEAOPoqN7UlQMoG7QVTetcpe6BBHAhvFbfaKdUaxIE-AXhGZ8FJ4s_e0kjKLZehx3VfJPgrAJI8rB0bE8ks/s4000/20230730_103934.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj36YOxuygJqx8RdewhbsP6xTqALrqrcO7hZ3_Xh_avEkbyF1ATdVAj6xs94_MbJon4_bhBHDNMoT9JB2RKCCyGZj1n4QQmUcq1lmIgjkijP8quSpIDgkeRsL7dXiVUYvDngOHR1qzvlQuhAoV5OISXDVSoewv9aPzJOWRKi1EO5L1ezzSm48mmkxf8QAs/w150-h200/20230730_103818.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj36YOxuygJqx8RdewhbsP6xTqALrqrcO7hZ3_Xh_avEkbyF1ATdVAj6xs94_MbJon4_bhBHDNMoT9JB2RKCCyGZj1n4QQmUcq1lmIgjkijP8quSpIDgkeRsL7dXiVUYvDngOHR1qzvlQuhAoV5OISXDVSoewv9aPzJOWRKi1EO5L1ezzSm48mmkxf8QAs/s4000/20230730_103818.jpg)
+
+  
+
+
+  
+
+
+The views from the palace were so beautiful.
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjudusM29wBKUIbDEqOl9sNRMFnngHqE12gXaAwZ7V0yjqIr9rVZcb5ZpK4HKl_W2A4U0tK762r2swpQ5pawokpkecdeosqnUiRqwY2kEMizDcH3NZnZeqc8XTCLUMOdqUfIy0raEAl6xfBqrT6xTZWOR23MvHtpJLwVc0nxiacnSk9WWOGnt35pYo9tJY/w150-h200/20230730_105942.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjudusM29wBKUIbDEqOl9sNRMFnngHqE12gXaAwZ7V0yjqIr9rVZcb5ZpK4HKl_W2A4U0tK762r2swpQ5pawokpkecdeosqnUiRqwY2kEMizDcH3NZnZeqc8XTCLUMOdqUfIy0raEAl6xfBqrT6xTZWOR23MvHtpJLwVc0nxiacnSk9WWOGnt35pYo9tJY/s4000/20230730_105942.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjznoJTcpa26TGfTCTEOLUt7JXP4S-OI5rcUrP3jj4C6aLw4elvpMeF9-ZOR-Z9SObCaIzquEqZfmHyv0wr-Om__SNBfBtAt5X1-UU4B1TyJb9JasXWFXQKYFsXP2TVmIl0Vu57gfif6QDJHpbEgy-3EicgEO3CSENKaMiRGt06CvO9zVPjRFUpbg2eTa4/w150-h200/20230730_111849.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjznoJTcpa26TGfTCTEOLUt7JXP4S-OI5rcUrP3jj4C6aLw4elvpMeF9-ZOR-Z9SObCaIzquEqZfmHyv0wr-Om__SNBfBtAt5X1-UU4B1TyJb9JasXWFXQKYFsXP2TVmIl0Vu57gfif6QDJHpbEgy-3EicgEO3CSENKaMiRGt06CvO9zVPjRFUpbg2eTa4/s4000/20230730_111849.jpg)
+
+  
+
+
+  
+
+
+We found a pasta place and got it to go to eat on the boat. (The ship food is NOT for us!) The pasta was so good, even cold! We would've liked to have a few more hours in Venice so we could take a ferry to the island of Morano (known for its blown glass) but we had to get back.   
+  
+  
+  
+Total distance walked in Venice: 8.71 miles  
+ 
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoWsadDG8if61MUoiK9QQs4jklODvkINsQKApHzXN-unmZkQ-ePKNC2eYlAqQAboXDT65GXmAgm1FcWlWfK64sFM8Rq8Zujfe34BEzwUtye5cpQWHdx-3cABda6HJLslRouzo249PuWxZTE-K66rsCn2LBONGmbD-W9CQfzea_k0p9wWy3ldBaYVR_1nc/w150-h200/20230730_133842.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoWsadDG8if61MUoiK9QQs4jklODvkINsQKApHzXN-unmZkQ-ePKNC2eYlAqQAboXDT65GXmAgm1FcWlWfK64sFM8Rq8Zujfe34BEzwUtye5cpQWHdx-3cABda6HJLslRouzo249PuWxZTE-K66rsCn2LBONGmbD-W9CQfzea_k0p9wWy3ldBaYVR_1nc/s4000/20230730_133842.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguiJnpX-xkyG5mCgmBGW0HugrKp3mRPRNqKTJnFwU4Xot2y11D7Z8sNVsiqDFc7Q7a3uHqSHlmwD5vqol9GPNHtvEoekVgbCmTBBKPBOWZqcE6o96HlWmFaO1pWdivQPR0gMTTaQYZ0zwmYfJXbzUtg7MPllvPVSGBE87ObHD-POB2B-G2rzjZzouCeGg/w200-h150/20230730_133658.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguiJnpX-xkyG5mCgmBGW0HugrKp3mRPRNqKTJnFwU4Xot2y11D7Z8sNVsiqDFc7Q7a3uHqSHlmwD5vqol9GPNHtvEoekVgbCmTBBKPBOWZqcE6o96HlWmFaO1pWdivQPR0gMTTaQYZ0zwmYfJXbzUtg7MPllvPVSGBE87ObHD-POB2B-G2rzjZzouCeGg/s4000/20230730_133658.jpg)

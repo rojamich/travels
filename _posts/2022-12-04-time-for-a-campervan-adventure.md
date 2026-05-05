@@ -1,0 +1,33 @@
+---
+title: "Time for a Campervan Adventure!"
+date: 2022-12-04
+categories:
+  - new-zealand
+order: 22
+tags:
+  - South Island
+---
+
+Day 15 and December is already here! I got one last run in down by the lake of Queenstown and soaked up the scenery.
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFnZleLpSBQpaXK7MSSbrxDEfqdtV9OawQQzFOWrXbKc2fKWb_z5GIrRgALX-JKYz9eLYYA5S2Tl79Ek7_-N5PCmDbeL4S0zVHag9bIg6SKkrH9iX5hVLQm99sm0wQf6Ow5DoHQpK9QUVZ3hdnt6ff73iPRLlkeeM2Pvj0CHcWk7cPWTQMHE3QLnTj7Q/s320/20221201_072131.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFnZleLpSBQpaXK7MSSbrxDEfqdtV9OawQQzFOWrXbKc2fKWb_z5GIrRgALX-JKYz9eLYYA5S2Tl79Ek7_-N5PCmDbeL4S0zVHag9bIg6SKkrH9iX5hVLQm99sm0wQf6Ow5DoHQpK9QUVZ3hdnt6ff73iPRLlkeeM2Pvj0CHcWk7cPWTQMHE3QLnTj7Q/s4032/20221201_072131.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibYihqg94FQVHHwnRQT_Loj4cvU02h7JgOvRlN0BXzQgjGVq0nWBhQ72oTFARt8KA_L0Li7pzvg_YQfD2Z_WpQdC_V3gTCSp8LhrAOm5vr8vot3IgNZPdhyl20hosK7rnppMWsmDHy66JJVlhkAVzTtYj03iFOlpf6G5oVyjeHfj6MuJ4sv_Qq2VRiSA/s320/20221201_072611.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibYihqg94FQVHHwnRQT_Loj4cvU02h7JgOvRlN0BXzQgjGVq0nWBhQ72oTFARt8KA_L0Li7pzvg_YQfD2Z_WpQdC_V3gTCSp8LhrAOm5vr8vot3IgNZPdhyl20hosK7rnppMWsmDHy66JJVlhkAVzTtYj03iFOlpf6G5oVyjeHfj6MuJ4sv_Qq2VRiSA/s4032/20221201_072611.jpg)
+
+  
+
+
+After a good breakfast we were on our way to pick up our home for the next five days!
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKNKvI2wC62ANJCTqIUzBETIiC5V9wDxp1vcsDCaipjQSunIWOG-aCFo11L4-luo4HsxRttSl8dNqZ5N4WINPqQt8DCZkDk0vaGV1DBpV0Hsv6L7F0OIYwkT88u9uwZ8-LhRhSVyFCylhutiKKGualFchL3mP6ZIr5oGdhPt_8d2aU_p8ckkdZYKLb-A/s320/20221201_104351.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKNKvI2wC62ANJCTqIUzBETIiC5V9wDxp1vcsDCaipjQSunIWOG-aCFo11L4-luo4HsxRttSl8dNqZ5N4WINPqQt8DCZkDk0vaGV1DBpV0Hsv6L7F0OIYwkT88u9uwZ8-LhRhSVyFCylhutiKKGualFchL3mP6ZIr5oGdhPt_8d2aU_p8ckkdZYKLb-A/s2972/20221201_104351.jpg)
+
+  
+Here are a couple of cool things I saw at the grocery store here! A juicer, a pineapple cutter, and a potato chart. 
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj96m9644pdFAK7_A1Z4fIgS2X-rEvUeKCeVt9B-x-3YAgZg_VMbzwkcoWBuOOg47zsmB8p8Wl0c27zlMcs1RgSNhMpOgDwkOfzf9Wm7pUrNh1b-lOpfVJ9r5JutZ65TWHJFcNSXG36aEalrQqQaaBQWHAFUu-nKPLztOMHP3iWYi7XmTwS6fdgYDU0Pg/s320/20221129_121334.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj96m9644pdFAK7_A1Z4fIgS2X-rEvUeKCeVt9B-x-3YAgZg_VMbzwkcoWBuOOg47zsmB8p8Wl0c27zlMcs1RgSNhMpOgDwkOfzf9Wm7pUrNh1b-lOpfVJ9r5JutZ65TWHJFcNSXG36aEalrQqQaaBQWHAFUu-nKPLztOMHP3iWYi7XmTwS6fdgYDU0Pg/s4032/20221129_121334.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQmNlQEB-HhGFT-vmHGSrayiUfIi7mxY_ewWSaC28-jqC3blDwp_BerJb2IFAyajrCwxvPPF8QsNRx6D7_IUfdT7YZY-RMfe8fJEhE6FnCrMmwGQHUF9z32UodUxMPzyrwR-Nsd11MRUL18y2ItgDZDGHnbfXurKCSGEBJd4jRI2PUzpqhoKz1MX6PlQ/s320/20221201_105711.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQmNlQEB-HhGFT-vmHGSrayiUfIi7mxY_ewWSaC28-jqC3blDwp_BerJb2IFAyajrCwxvPPF8QsNRx6D7_IUfdT7YZY-RMfe8fJEhE6FnCrMmwGQHUF9z32UodUxMPzyrwR-Nsd11MRUL18y2ItgDZDGHnbfXurKCSGEBJd4jRI2PUzpqhoKz1MX6PlQ/s4032/20221201_105711.jpg)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWEOzAOfTuJnfDKZbVFU3j1LerSEgh8HDzwpI6SRxFlOyzr33Q6ALD5YCDldFvkJxfP-opxVPEEOSEb7EaHUDcH0B8LjAd2ocYSgktUhV9hlyNK_P_NIgYb7GfrkXZR9QjPLyNALgMeZBKJm0El7L02cNSOENh9oTLOdyHwpuuCF7CoMb1J1ilS69XqQ/s320/20221204_080130.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWEOzAOfTuJnfDKZbVFU3j1LerSEgh8HDzwpI6SRxFlOyzr33Q6ALD5YCDldFvkJxfP-opxVPEEOSEb7EaHUDcH0B8LjAd2ocYSgktUhV9hlyNK_P_NIgYb7GfrkXZR9QjPLyNALgMeZBKJm0El7L02cNSOENh9oTLOdyHwpuuCF7CoMb1J1ilS69XqQ/s2646/20221204_080130.jpg)

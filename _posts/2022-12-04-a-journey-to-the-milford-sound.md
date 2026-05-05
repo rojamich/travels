@@ -1,0 +1,52 @@
+---
+title: "A Journey to the Milford Sound"
+date: 2022-12-04
+categories:
+  - new-zealand
+order: 23
+tags:
+  - South Island
+---
+
+We made a stop for coffee about 2 hours away from the Milford Sound to try and break up the drive. 
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiJFtHmcffUK4_VQvA8KHCGjDqUasLj-71S_W1L-DbmATITGPuNRD9l_vWIAoMCFwrIPQH9IBQp3Benz2cgw3TrrvEUvvnw2Fp76jpI_DMAGVFzrQxC96Z4mazj8ECmQWLMcKvjzzsDaeDIQI2NBXHA7nKYmdaZmthO6A2ugF8RZTwmls20Zt41uhk7w/s320/20221201_131512.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiJFtHmcffUK4_VQvA8KHCGjDqUasLj-71S_W1L-DbmATITGPuNRD9l_vWIAoMCFwrIPQH9IBQp3Benz2cgw3TrrvEUvvnw2Fp76jpI_DMAGVFzrQxC96Z4mazj8ECmQWLMcKvjzzsDaeDIQI2NBXHA7nKYmdaZmthO6A2ugF8RZTwmls20Zt41uhk7w/s3831/20221201_131512.jpg)
+
+  
+
+
+The scenery was great along the way but I could do without all the construction!
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjoJgo0ewiDtNoHFJpGc5CCUAQWyF2IRThYGfXH848PfC3NN5p6PX2q4cxNoO9a_bZz5d7V_dc9gHT3wXExKN9EYuEfNVDn3QrmWkwuZJNjWRv4yl1TblC1evAOftALeeiUlIqFhKSCuehlU1AwpBCExgkZ_xYtlTQ1SEt-huPJgtUpKhtjDyWDqSydg/s320/20221201_175138.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjoJgo0ewiDtNoHFJpGc5CCUAQWyF2IRThYGfXH848PfC3NN5p6PX2q4cxNoO9a_bZz5d7V_dc9gHT3wXExKN9EYuEfNVDn3QrmWkwuZJNjWRv4yl1TblC1evAOftALeeiUlIqFhKSCuehlU1AwpBCExgkZ_xYtlTQ1SEt-huPJgtUpKhtjDyWDqSydg/s4032/20221201_175138.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgabrRyGc5d28sO4VJL_Ef9nWoHSzfgjeGf724eeC0edREhKsECZiTGlGBWT1bKwyMxUcmdLRgOrDl9T4KA4-hHt4cSK8ZEjDjEoqctJaK-f9v9nziCx9uV-v8NL_tjHDEDuKo_DlEWJLhfo3X87z1-9OxChBhicuwAvdbGqnm4qdXo_5HQuIE4TD0O_Q/s320/received_1560575801022045.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgabrRyGc5d28sO4VJL_Ef9nWoHSzfgjeGf724eeC0edREhKsECZiTGlGBWT1bKwyMxUcmdLRgOrDl9T4KA4-hHt4cSK8ZEjDjEoqctJaK-f9v9nziCx9uV-v8NL_tjHDEDuKo_DlEWJLhfo3X87z1-9OxChBhicuwAvdbGqnm4qdXo_5HQuIE4TD0O_Q/s2048/received_1560575801022045.jpeg)
+
+  
+
+
+The journey was worth the views that the Milford Sound delivered!
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbVPYOs7BLwG1t0wSeI2tvrnpT7k7j43kFVsW5e8MhdLhEUcH7vY8_JEAdFoAbysLST7q75IjGMAxQHDSAmOoEDW4Jn7oPl0t3VREmQqPnotRwyTTr-46_YfWYA1vC0GzKgfmmaaa5qXO1AO7IAzjJP5vCxC6ZsIKiK20FROGJ-p_ELspwhciS2Spcmg/s320/20221201_165824.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbVPYOs7BLwG1t0wSeI2tvrnpT7k7j43kFVsW5e8MhdLhEUcH7vY8_JEAdFoAbysLST7q75IjGMAxQHDSAmOoEDW4Jn7oPl0t3VREmQqPnotRwyTTr-46_YfWYA1vC0GzKgfmmaaa5qXO1AO7IAzjJP5vCxC6ZsIKiK20FROGJ-p_ELspwhciS2Spcmg/s3964/20221201_165824.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifMHZfmSuZ1HNZd4jLwYs1TozHoF70DXs8s1_lPWC3cbLarCVwQAWJmwcNEjhXgvLot9nsOsjvrQE7GnKYTdTVz8FidNdzMNrvynH5Gx7KecEnY_nxwd4Xx8jTBEAIxrmtLwm5_w8G8dSDzL54qa5pgqjg4H16K7dZSL9WtsG-VbpymJWhw798jSEPxw/s320/received_1298994364208977.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifMHZfmSuZ1HNZd4jLwYs1TozHoF70DXs8s1_lPWC3cbLarCVwQAWJmwcNEjhXgvLot9nsOsjvrQE7GnKYTdTVz8FidNdzMNrvynH5Gx7KecEnY_nxwd4Xx8jTBEAIxrmtLwm5_w8G8dSDzL54qa5pgqjg4H16K7dZSL9WtsG-VbpymJWhw798jSEPxw/s2048/received_1298994364208977.jpeg)
+
+  
+
+
+The Kea is another well known bird here!  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBLu_z1Cj-8EpGP3VhVyQgndHPDhGUyrN0zhRfwGb-GNEa7pa5kEti_1kFvj4bdlB3_zZpuRrojYesMAx0Db9Svaqu1ZNfesYJ_gcqch4Dp7QnOdlj5KYzTpFbX7EZphQajCgjjAek8h0lX3ZmqoOtfAfKTt3TWK-ohzlnJVKs8sT6luBGUScW3MdFWw/s320/20221202_085041.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBLu_z1Cj-8EpGP3VhVyQgndHPDhGUyrN0zhRfwGb-GNEa7pa5kEti_1kFvj4bdlB3_zZpuRrojYesMAx0Db9Svaqu1ZNfesYJ_gcqch4Dp7QnOdlj5KYzTpFbX7EZphQajCgjjAek8h0lX3ZmqoOtfAfKTt3TWK-ohzlnJVKs8sT6luBGUScW3MdFWw/s2746/20221202_085041.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHV0jnd3nGgVz8dU1GS1io2Q8l_LIH45D4mj7UknznrNsSWK_2Uwl_hD_5oT3Wz0jCgICP5DhIlwfDCIViyIVzkPJD2P2IKh__eLcIdGvYWuOsYW6aYl_EgMNRmXkZxdF6qm5Yt0vUEtkVWWD2g42BH8Yqp3iTXhed3QiJTq2ecdLj03WVn7v__Z_ufQ/s320/received_5370297349746341.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHV0jnd3nGgVz8dU1GS1io2Q8l_LIH45D4mj7UknznrNsSWK_2Uwl_hD_5oT3Wz0jCgICP5DhIlwfDCIViyIVzkPJD2P2IKh__eLcIdGvYWuOsYW6aYl_EgMNRmXkZxdF6qm5Yt0vUEtkVWWD2g42BH8Yqp3iTXhed3QiJTq2ecdLj03WVn7v__Z_ufQ/s1800/received_5370297349746341.jpeg)
+
+  
+
+
+We saw the do not feed sign and then immediately watched someone feed this Kea.
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcWYxRWzaPIbYG08B_zLNhXf62CeSJ6nkqzYbJBMvap1mLzmf0oBY-YLPNHAZyUJ70tAUmkv2VddHWJi-3BcgX_UUBw-Ma49le56YZF1MZBar9u5_WO67IcP7Y5zKLJ-_NHv6rsb0DKQNSnui-jb-VumAjDNLuAfMfLCFtQf4mIvkFpRnkjvWfsi8Ehw/s320/received_807270123673332.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcWYxRWzaPIbYG08B_zLNhXf62CeSJ6nkqzYbJBMvap1mLzmf0oBY-YLPNHAZyUJ70tAUmkv2VddHWJi-3BcgX_UUBw-Ma49le56YZF1MZBar9u5_WO67IcP7Y5zKLJ-_NHv6rsb0DKQNSnui-jb-VumAjDNLuAfMfLCFtQf4mIvkFpRnkjvWfsi8Ehw/s1525/received_807270123673332.jpeg)
+
+  
+
+
+We made it to our campsite for the night and fell asleep with the view of the lake. 
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5z7yH-w2s5TaOElciOr8FCsczLjXPN9XpXGu0dyu2nHwm5T6KagRZdCNJorRsD3dPNWBnkLNizz25Tjfm8E6oSr-Aw1pyY7Y4ppC8HiiGGogkzN_imip9PCHpZu6eXU-zpIbBuzik7UbHq-G_vWc90Rttdh9kXY8RTSYJ4sCHPh04F-FM5FN_0MZkNg/s320/20221201_193344.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5z7yH-w2s5TaOElciOr8FCsczLjXPN9XpXGu0dyu2nHwm5T6KagRZdCNJorRsD3dPNWBnkLNizz25Tjfm8E6oSr-Aw1pyY7Y4ppC8HiiGGogkzN_imip9PCHpZu6eXU-zpIbBuzik7UbHq-G_vWc90Rttdh9kXY8RTSYJ4sCHPh04F-FM5FN_0MZkNg/s4032/20221201_193344.jpg)

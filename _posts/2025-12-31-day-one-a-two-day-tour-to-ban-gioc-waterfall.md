@@ -1,0 +1,217 @@
+---
+title: "Day One - A Two Day Tour to Ban Gioc Waterfall"
+date: 2025-12-31
+categories:
+  - vietnam
+order: 14
+tags:
+  - Vietnam
+---
+
+Hello! It's been a while, hasn't it? Spoiler: we have had two back-to-back tours and are preparing for another! So tired but happy and filled with experiences!
+
+The first tour was a two-day experience taking us to the mountain range between Vietnam and China! We pre-planned with our hotel to provide us breakfast to-go and had snacks at the ready. Our guide surprised us that morning to say our first stop would be breakfast (a rarity for any tour we have taken!)
+
+We were in a group with a guy from Slovenia, a guy from Australia, and a guy from France! We ordered our breakfast and found a table. I roamed a bit after seeing this giant Christmas tree.
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhHFJ8sk8aFGzDygjfoQuMKKt0OdzAMlsbLUv6xVQTGm5ST9lYgjs-FIz2kZCh_1xP8eQ21xunvX4muYqfI6pf1s1-m7lEU_wj3d96K7yEJj8uin2EytpzP3dSHnhtUYffKpxTYkGbjdLzbdhxuYp7mlZxTgk_LST5vgnbG0h_4LZ3yTceikqcQUkHH5R8C)](https://blogger.googleusercontent.com/img/a/AVvXsEhHFJ8sk8aFGzDygjfoQuMKKt0OdzAMlsbLUv6xVQTGm5ST9lYgjs-FIz2kZCh_1xP8eQ21xunvX4muYqfI6pf1s1-m7lEU_wj3d96K7yEJj8uin2EytpzP3dSHnhtUYffKpxTYkGbjdLzbdhxuYp7mlZxTgk_LST5vgnbG0h_4LZ3yTceikqcQUkHH5R8C)
+
+  
+
+
+As I was capturing this view, a family invited me to sit down with them and enjoy tea. I didn't want to intrude, and I couldn't understand everything they said, speaking so fast!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhCiFDkN-7ESBQxlKz3A3sx9RlcxLQyRSrd5kbMsYmb5HyuFL7uYEZr1iSrp5i33Bx4RTkJyh9OuaTbmbNbabWFTZQQ3oF0GQa8Ufw9lF02Tcq9doQDLmeW0gPNbtElZH9Qsj1K9M8tsWeUATFsdDbmBNFiJKxgHV5MkAO5SY2ihK8rEsZv36qECGwtRS3j)](https://blogger.googleusercontent.com/img/a/AVvXsEhCiFDkN-7ESBQxlKz3A3sx9RlcxLQyRSrd5kbMsYmb5HyuFL7uYEZr1iSrp5i33Bx4RTkJyh9OuaTbmbNbabWFTZQQ3oF0GQa8Ufw9lF02Tcq9doQDLmeW0gPNbtElZH9Qsj1K9M8tsWeUATFsdDbmBNFiJKxgHV5MkAO5SY2ihK8rEsZv36qECGwtRS3j)
+
+Two other people got their breakfast who ordered after us, and we started running out of time for our break... We finally asked, and they had forgotten about our order! Thank goodness we had already eaten! We opted for a refund and just grabbed coffees to go.
+
+After a long drive in which Mike and I started listening to the Jack Reacher 
+
+novel, "Gone Tomorrow" - This novel is what Reacher Season Four will be based on, so we are prepping. It was time for a lunch stop - yay! Episode 22 of "What Am I Eating?"
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjuEBBejS9FqIn5QvPlxFZgpqCH76jbfBkSePykXazNBqInlevvhRLDbIiozrSDuNmZ6au8BInq3l9UdbL_rM5ggnYL_Vlm034oGbQBYVShaqL_7AHXyihApM6JnN_izfxtTRREzZOmMZpFctOqd1zIbBPLv4iXN7wKeQ82VRJ3Zt0_esUzDUBHXgbBA9wN)](https://blogger.googleusercontent.com/img/a/AVvXsEjuEBBejS9FqIn5QvPlxFZgpqCH76jbfBkSePykXazNBqInlevvhRLDbIiozrSDuNmZ6au8BInq3l9UdbL_rM5ggnYL_Vlm034oGbQBYVShaqL_7AHXyihApM6JnN_izfxtTRREzZOmMZpFctOqd1zIbBPLv4iXN7wKeQ82VRJ3Zt0_esUzDUBHXgbBA9wN)
+
+  
+
+
+We learned recently that when the dishes are shared, you scoop yourself a portion from the shared plate using the non-eating end of your chopsticks.
+
+Our next stop was the Nguom Vai Cave, a large, underground labyrinth with incredible stalagmites (from the ground) and stalactites (from the ceiling)!
+
+[](https://blogger.googleusercontent.com/img/a/AVvXsEgyOt9FDfEMs-A3oEy2YBw9BTHQLdA6xNrD9v4MklLecWMe9dP7ZnPAo4gocjvZicAW4H48Ndtk0zHqMPHXuAi6rCV0Di_B0OXqfcjEXV1tJqAIW5Lepa4RuPgCGU-WGpOPZeutpHsXgwIeiYLrVLctsXb5j7QV6laL5voUg_XmP3Upfjc0SqNUSj0AKCk0)
+
+[](https://blogger.googleusercontent.com/img/a/AVvXsEgyOt9FDfEMs-A3oEy2YBw9BTHQLdA6xNrD9v4MklLecWMe9dP7ZnPAo4gocjvZicAW4H48Ndtk0zHqMPHXuAi6rCV0Di_B0OXqfcjEXV1tJqAIW5Lepa4RuPgCGU-WGpOPZeutpHsXgwIeiYLrVLctsXb5j7QV6laL5voUg_XmP3Upfjc0SqNUSj0AKCk0)[![](https://blogger.googleusercontent.com/img/a/AVvXsEhj1ZZSYMUBPL0gTRMWA6CnfsAx9LgCXIHSO39bwO_4oHKedLXwejI-Uhou18ITVVZfP8pN11NYVBalLFS8IwMuA_WaoBULg4GHHQdZJqaJyjYJlVnOzCgqAz25N9Zj1MNdB9EuLqLtES9ACmS_FV3pfshClrORw2i-4zDMl8rzqEXMaTLR5O36VJsO3HEc)](https://blogger.googleusercontent.com/img/a/AVvXsEhj1ZZSYMUBPL0gTRMWA6CnfsAx9LgCXIHSO39bwO_4oHKedLXwejI-Uhou18ITVVZfP8pN11NYVBalLFS8IwMuA_WaoBULg4GHHQdZJqaJyjYJlVnOzCgqAz25N9Zj1MNdB9EuLqLtES9ACmS_FV3pfshClrORw2i-4zDMl8rzqEXMaTLR5O36VJsO3HEc)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgyOt9FDfEMs-A3oEy2YBw9BTHQLdA6xNrD9v4MklLecWMe9dP7ZnPAo4gocjvZicAW4H48Ndtk0zHqMPHXuAi6rCV0Di_B0OXqfcjEXV1tJqAIW5Lepa4RuPgCGU-WGpOPZeutpHsXgwIeiYLrVLctsXb5j7QV6laL5voUg_XmP3Upfjc0SqNUSj0AKCk0)](https://blogger.googleusercontent.com/img/a/AVvXsEgyOt9FDfEMs-A3oEy2YBw9BTHQLdA6xNrD9v4MklLecWMe9dP7ZnPAo4gocjvZicAW4H48Ndtk0zHqMPHXuAi6rCV0Di_B0OXqfcjEXV1tJqAIW5Lepa4RuPgCGU-WGpOPZeutpHsXgwIeiYLrVLctsXb5j7QV6laL5voUg_XmP3Upfjc0SqNUSj0AKCk0)
+
+ We followed our guide down sets of stairs and through the winding tunnels, ducking frequently and admiring the way they meet - growing from the ceiling and ground.
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjm-GnbSlWGpcIOKLVPzEidEPY4MPcsbbucF2drRunzgxdrnJTjM46zkIlQf-7UnnSeIDCm6mKfnOw5OYWgRuUUnAaayJZkWGoJ1kPmiZZ5ToXDl_F3ey7_z3pxwYoUNKTbEaKww3rz9rNrmGaoPvitN6FcgMZyJim4NwWAowss_cJx8lec86NnhHaCqKe7)](https://blogger.googleusercontent.com/img/a/AVvXsEjm-GnbSlWGpcIOKLVPzEidEPY4MPcsbbucF2drRunzgxdrnJTjM46zkIlQf-7UnnSeIDCm6mKfnOw5OYWgRuUUnAaayJZkWGoJ1kPmiZZ5ToXDl_F3ey7_z3pxwYoUNKTbEaKww3rz9rNrmGaoPvitN6FcgMZyJim4NwWAowss_cJx8lec86NnhHaCqKe7)[![](https://blogger.googleusercontent.com/img/a/AVvXsEh6DFMClGuUaSfZ3KeHrEs1umW3nwTPENzyz8z8UfbIwK14DoxDRjdGcxrp-xLYYEaBZ53M4Z9rJSpAwhYSbpnafBJK7YeR4bfjaePK2MM79dZkdZDdLzIFPuD5NL3Z7Fe36pzCwDKribR_woJBV1gDgvOdUQvTid67AtoRYLHLi-9ul5ib1JDg-BoCGFk7)](https://blogger.googleusercontent.com/img/a/AVvXsEh6DFMClGuUaSfZ3KeHrEs1umW3nwTPENzyz8z8UfbIwK14DoxDRjdGcxrp-xLYYEaBZ53M4Z9rJSpAwhYSbpnafBJK7YeR4bfjaePK2MM79dZkdZDdLzIFPuD5NL3Z7Fe36pzCwDKribR_woJBV1gDgvOdUQvTid67AtoRYLHLi-9ul5ib1JDg-BoCGFk7)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgjw30dgqndxG_uVVHW72onbZzmfIzJaX0rF38aqgT8aLEbUaGiD1ymemSxHH_ny0pMNjbJBeLcLhZYEOzQL1ceo4hsMhgukZGCzS11TlBOrfV2CGJpn160LzZqn4jiTMIvnI6dwhmE7E5CRUevkKLHP35KyvbFxNMNF70EPff036MsUlHKtAyQumLlSpe7)](https://blogger.googleusercontent.com/img/a/AVvXsEgjw30dgqndxG_uVVHW72onbZzmfIzJaX0rF38aqgT8aLEbUaGiD1ymemSxHH_ny0pMNjbJBeLcLhZYEOzQL1ceo4hsMhgukZGCzS11TlBOrfV2CGJpn160LzZqn4jiTMIvnI6dwhmE7E5CRUevkKLHP35KyvbFxNMNF70EPff036MsUlHKtAyQumLlSpe7)
+
+  
+
+
+The coolest-formed one was called the lotus!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjWsD30FwVzXolNb4x8zMUgzjtoxn4-8GUoUd8KJEh8RgO69jNDPlaXZeLVI1xWCcos6y4v8IDgq0RYD9Aunqzo_pS3qkNdxzQZaM4un6QZ_EyEVQ5X9aiJ9w2JSOG5D6XjYzhAqGyRHeTB51urLPyTJjcvE2OOYogSaU8bvQXTeAksWcrWGegujf1FuI8a)](https://blogger.googleusercontent.com/img/a/AVvXsEjWsD30FwVzXolNb4x8zMUgzjtoxn4-8GUoUd8KJEh8RgO69jNDPlaXZeLVI1xWCcos6y4v8IDgq0RYD9Aunqzo_pS3qkNdxzQZaM4un6QZ_EyEVQ5X9aiJ9w2JSOG5D6XjYzhAqGyRHeTB51urLPyTJjcvE2OOYogSaU8bvQXTeAksWcrWGegujf1FuI8a)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjq8UqLy4tkv1mgUa4bDwRJsB9aIqbhosPjm7CL-vCpgiYQEeCLDKUxVVlRFsSUMgUhhgGnnJI-k3o5wEAN7Qd8znOZCB5vMgpRArHderDH9nSkNDIDfbHNm9TDkNu0BdWyyYY64cuZph7btb69aZxSeLOLTFLrKNK7bEGQSLvoEeHiGM6mMaOFCOjQn1SE)](https://blogger.googleusercontent.com/img/a/AVvXsEjq8UqLy4tkv1mgUa4bDwRJsB9aIqbhosPjm7CL-vCpgiYQEeCLDKUxVVlRFsSUMgUhhgGnnJI-k3o5wEAN7Qd8znOZCB5vMgpRArHderDH9nSkNDIDfbHNm9TDkNu0BdWyyYY64cuZph7btb69aZxSeLOLTFLrKNK7bEGQSLvoEeHiGM6mMaOFCOjQn1SE)[![](https://blogger.googleusercontent.com/img/a/AVvXsEivB2D3egleYTOkMVOJGvj7qOuy0C5e_JUhalTqwdOGTgR8STwnwpKR_ceZShxzjMFOhSK3IEYLDm1nPOnRlPsEHHdTkTiFDQbcNd9JKzO7yPLCSlv9bgRTaIHGR5MJkBdbjIZWVfJAdgL96Lr0mU7TfxvgALhTSU0RQEPUdNVnOewb99zs3KRrdEztWp6u)](https://blogger.googleusercontent.com/img/a/AVvXsEivB2D3egleYTOkMVOJGvj7qOuy0C5e_JUhalTqwdOGTgR8STwnwpKR_ceZShxzjMFOhSK3IEYLDm1nPOnRlPsEHHdTkTiFDQbcNd9JKzO7yPLCSlv9bgRTaIHGR5MJkBdbjIZWVfJAdgL96Lr0mU7TfxvgALhTSU0RQEPUdNVnOewb99zs3KRrdEztWp6u)
+
+  
+
+
+In this photo, you can see just how large the cavities were at times. Thankfully, people were pretty reverent in here, which made the atmosphere more enjoyable. 
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEg3TROqfVfudPZ9Ps8vvOT5_zAyfzNsG02d4p8GVzQBON5PcUtGL4mojtiwEbBHowhZqn6kVjCV492NoYO6T2e00tKJRLvXY0-uKDvE5mYl_jhYFe7krIbSYHvDTFBxnfE2dML8xeNbuDsZUtuA84OACfpqiLhhEK7R-qnnosV4EksY7nUd_yJ3JxkbDEr3)](https://blogger.googleusercontent.com/img/a/AVvXsEg3TROqfVfudPZ9Ps8vvOT5_zAyfzNsG02d4p8GVzQBON5PcUtGL4mojtiwEbBHowhZqn6kVjCV492NoYO6T2e00tKJRLvXY0-uKDvE5mYl_jhYFe7krIbSYHvDTFBxnfE2dML8xeNbuDsZUtuA84OACfpqiLhhEK7R-qnnosV4EksY7nUd_yJ3JxkbDEr3)[![](https://blogger.googleusercontent.com/img/a/AVvXsEi-haQ46jVfKwqcN3gf_ErMcwSEBGCHakDycwbT5FmYTMP1ATcCj_xK0jDsapNAsFS5psNCGbA1xv9uW87HK_PKjL8__cOdb_dLPi3VwvzBTP4N8_WcW4kDZP3-jkPUI7FBlU9AT7Hbi788k5ygcCFwmQCMil0NR3KIQbWz4vcaIxR0OVY3-7Ngw-htEHyY)](https://blogger.googleusercontent.com/img/a/AVvXsEi-haQ46jVfKwqcN3gf_ErMcwSEBGCHakDycwbT5FmYTMP1ATcCj_xK0jDsapNAsFS5psNCGbA1xv9uW87HK_PKjL8__cOdb_dLPi3VwvzBTP4N8_WcW4kDZP3-jkPUI7FBlU9AT7Hbi788k5ygcCFwmQCMil0NR3KIQbWz4vcaIxR0OVY3-7Ngw-htEHyY)
+
+  
+
+
+Our guide pointed out how shimmery the formations can become! Light plays off the tiny calcite crystals on their surfaces :)
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEiDZTQtK_J7oYqGA4o6jJlLd44ATmOSw6XuGEjunAdMmOXVa-PDpPWRHImMWZ81ZoEYAk37WUyRnEhuXeoXnLRRYcYMAlZqPuOWMqbHQPqpWGI0AZSF-XUPHFEoZaJc4QRKsHlG_39XyZeRObLrWWC80nD-Rg4_etdx7x7U2jDOcLkzZqr5J7raMC-qKCpz)](https://blogger.googleusercontent.com/img/a/AVvXsEiDZTQtK_J7oYqGA4o6jJlLd44ATmOSw6XuGEjunAdMmOXVa-PDpPWRHImMWZ81ZoEYAk37WUyRnEhuXeoXnLRRYcYMAlZqPuOWMqbHQPqpWGI0AZSF-XUPHFEoZaJc4QRKsHlG_39XyZeRObLrWWC80nD-Rg4_etdx7x7U2jDOcLkzZqr5J7raMC-qKCpz)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgBNvJAcjHCjXrHRj5OYBX6-P4hjKZS7ydTe1ldpT7IlEZHILV_raKFesILBQ88Z6r64B2saEcLtnX-uzDwk0I1xoz9tiC3dn7lbnsFlwomosiY07M6RTXW7lb3pgRN168x8Ep-U5goj8wD9EqvtJLgqzA1h-VEKsK4YUhzdfCDERzDHAT-inUfLaC4Df_u)](https://blogger.googleusercontent.com/img/a/AVvXsEgBNvJAcjHCjXrHRj5OYBX6-P4hjKZS7ydTe1ldpT7IlEZHILV_raKFesILBQ88Z6r64B2saEcLtnX-uzDwk0I1xoz9tiC3dn7lbnsFlwomosiY07M6RTXW7lb3pgRN168x8Ep-U5goj8wD9EqvtJLgqzA1h-VEKsK4YUhzdfCDERzDHAT-inUfLaC4Df_u)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEg8j54uEse40q7nC6sVk9uVOrRLQsjGpcfKVJaL9BGI8ZrKmeHdmakaIeWlggiocD6c80qxQcN8N1gU76pG3P56K5XiRzBnSRHJU91hngzJosFMgmh9V_RSuKEM4S5VC7TTlIYw3PVpBCH325qups3EzJWuN4ScvSmKi_wvSXt7Tvn119lCuGoEYJ2aFBBg)](https://blogger.googleusercontent.com/img/a/AVvXsEg8j54uEse40q7nC6sVk9uVOrRLQsjGpcfKVJaL9BGI8ZrKmeHdmakaIeWlggiocD6c80qxQcN8N1gU76pG3P56K5XiRzBnSRHJU91hngzJosFMgmh9V_RSuKEM4S5VC7TTlIYw3PVpBCH325qups3EzJWuN4ScvSmKi_wvSXt7Tvn119lCuGoEYJ2aFBBg)[![](https://blogger.googleusercontent.com/img/a/AVvXsEisNEn7ktaOBMkQgzmn0oJESsUxSQcQEO-xHvFg3PUNBBrzwmJp9mc3pwqYksac7--69-5qRXtnJknDjybPKyZuc4GW4c8OTDvsMxX4QVhkufwkQJzN_dTWfFOVPRZyZ4iuR63sKQ1ykJEUPMFe3snSGZuKttmn-K2ZJ4JBPwNipIkzZtz2DAp7AP9cC_R-)](https://blogger.googleusercontent.com/img/a/AVvXsEisNEn7ktaOBMkQgzmn0oJESsUxSQcQEO-xHvFg3PUNBBrzwmJp9mc3pwqYksac7--69-5qRXtnJknDjybPKyZuc4GW4c8OTDvsMxX4QVhkufwkQJzN_dTWfFOVPRZyZ4iuR63sKQ1ykJEUPMFe3snSGZuKttmn-K2ZJ4JBPwNipIkzZtz2DAp7AP9cC_R-)
+
+  
+
+
+The views just outside the tunnels were stunning and beautifully framed by flowers and sculptures!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEglSjlcUb9VU2uhLrstXyECIDxpRp3zJgA6h6Z-Cb1bnXF10fqEUQhr-2ZQAbjaJWnA8_HB6aWdyKrT9fvwZ-SJFrkWmOIkHRiGWp3kXnLaXKYJV1IO9oREcfkWZZ8AUvOB3SH8a2pNidZd9Z2C2-O3rIpMjTQUvsRug1M3faMATeqHCuhW_yx1G7UfsukT)](https://blogger.googleusercontent.com/img/a/AVvXsEglSjlcUb9VU2uhLrstXyECIDxpRp3zJgA6h6Z-Cb1bnXF10fqEUQhr-2ZQAbjaJWnA8_HB6aWdyKrT9fvwZ-SJFrkWmOIkHRiGWp3kXnLaXKYJV1IO9oREcfkWZZ8AUvOB3SH8a2pNidZd9Z2C2-O3rIpMjTQUvsRug1M3faMATeqHCuhW_yx1G7UfsukT)[![](https://blogger.googleusercontent.com/img/a/AVvXsEhWqpvn7RzH_ZEe80Ku5rKiivnGYsRfi2_-VosuC5d05jVZM6u_7TmuTDqHNcg99C2JDpTQbDI1Uc5Hg1gJwm7t7COhcrAnZuvYfve3qrG3pkO0jA_PB0ujluHyCabw5l5Qst0woWsf0TUSWXmw6goT8fkujaYDmYIsSS4cFeiIOT9nktqTJHaCWs5_0g_K)](https://blogger.googleusercontent.com/img/a/AVvXsEhWqpvn7RzH_ZEe80Ku5rKiivnGYsRfi2_-VosuC5d05jVZM6u_7TmuTDqHNcg99C2JDpTQbDI1Uc5Hg1gJwm7t7COhcrAnZuvYfve3qrG3pkO0jA_PB0ujluHyCabw5l5Qst0woWsf0TUSWXmw6goT8fkujaYDmYIsSS4cFeiIOT9nktqTJHaCWs5_0g_K)
+
+  
+
+
+Our next stop would be the Ban Gioc Waterfall - a must-see for our trip! It is the largest waterfall in Vietnam! It is around 100 feet high and about 1,000 feet wide 😱
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhNFvsfL8ao2RH6SHsVdzbwzbCRrKqTbVz9ayciA2Q8jomnOyQ6YMyyleDKbmOzVUSZk8XlUAs5FbMMc2ohuukqZEVaB6Bs_CKxb9u7d6vRFtYaH4mQovFnYl8c-nn6gdjC-kWfNJ22W_AAw0kcfl0u0SgLBMMIaLPQFm_60TqUWAF-uS23IRTsjpuLo7KE)](https://blogger.googleusercontent.com/img/a/AVvXsEhNFvsfL8ao2RH6SHsVdzbwzbCRrKqTbVz9ayciA2Q8jomnOyQ6YMyyleDKbmOzVUSZk8XlUAs5FbMMc2ohuukqZEVaB6Bs_CKxb9u7d6vRFtYaH4mQovFnYl8c-nn6gdjC-kWfNJ22W_AAw0kcfl0u0SgLBMMIaLPQFm_60TqUWAF-uS23IRTsjpuLo7KE)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEiTKXG6LnvCJPHj3K45hY-I2qjvJ5aZbvnrkMAj6c0FxS29NGn3sf8XO_a9wqb2EnnMzFKbKbD0hjbUkK_xkiYzrayrwI9nONcv0odcIQloksz05w0TM82BeEVvAhW2OyY8tirYtRoyOqwWKzKtQ5u9c3ezUTJYQzHbzCI1W3glLQ2AGeHmpzDGNhWy9UPp)](https://blogger.googleusercontent.com/img/a/AVvXsEiTKXG6LnvCJPHj3K45hY-I2qjvJ5aZbvnrkMAj6c0FxS29NGn3sf8XO_a9wqb2EnnMzFKbKbD0hjbUkK_xkiYzrayrwI9nONcv0odcIQloksz05w0TM82BeEVvAhW2OyY8tirYtRoyOqwWKzKtQ5u9c3ezUTJYQzHbzCI1W3glLQ2AGeHmpzDGNhWy9UPp)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhpbKig67xXhHRCb-DYp8eLvAKR39ZcCVNQ9SwAvoWXRCstPZ7YifjUE7Ocio9A4vd0MtxQ7VE-uET4_23lhJZ7TS4sRe9oW7mhxo2ZA6GnMrkdgWfb0U1iWv0WxRjL2b1ru2ki63jUIAUiBCkQOrjwX8EI-kSsvQH6FQHfCogHz0iAGNWwOx_K3FtFSuJZ)](https://blogger.googleusercontent.com/img/a/AVvXsEhpbKig67xXhHRCb-DYp8eLvAKR39ZcCVNQ9SwAvoWXRCstPZ7YifjUE7Ocio9A4vd0MtxQ7VE-uET4_23lhJZ7TS4sRe9oW7mhxo2ZA6GnMrkdgWfb0U1iWv0WxRjL2b1ru2ki63jUIAUiBCkQOrjwX8EI-kSsvQH6FQHfCogHz0iAGNWwOx_K3FtFSuJZ)
+
+Leading up to the waterfall was a winding walkway that gave us a viewpoint of the Chinese border!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEiC91Fc5tOkSgavRnuDZfVTUcOEGAjCTCjYXrkikOsPf3K67tYNiN25TiR-jXpVjJ7nvTZWtPImgKfU0znTepPNUSQhhA79BVObO7aGOgih-DF7Vt1lIiMiBzWpmjI7B5VUZCLLLGnbjQbrBP4yvx6YXkoANp0lDwbrskhyHMGZmEE3PVDKjoxhLWW7Cg7e)](https://blogger.googleusercontent.com/img/a/AVvXsEiC91Fc5tOkSgavRnuDZfVTUcOEGAjCTCjYXrkikOsPf3K67tYNiN25TiR-jXpVjJ7nvTZWtPImgKfU0znTepPNUSQhhA79BVObO7aGOgih-DF7Vt1lIiMiBzWpmjI7B5VUZCLLLGnbjQbrBP4yvx6YXkoANp0lDwbrskhyHMGZmEE3PVDKjoxhLWW7Cg7e)
+
+  
+
+
+That's how close we were to China! Just across the river!
+
+There were beautiful rolling mountains and other sets of waterfalls surrounding us here.
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhBec_NajLxTGAo4GmhtucVV465S9WlvkCGV6hYetBLVPayVL6QLfT_LsriRp-rzt5aFXbZVA9t-jgRZyCGmpLal8tFd8JLITDtfa7ZssdCuxR_fD7sFlBZnPKcfr_o0mRaLKBy2MZWvboTiDSJZcrDLmUnbIDP0Ad_uWys0XD3p1N1MiwNkc7O4lxNjMqN)](https://blogger.googleusercontent.com/img/a/AVvXsEhBec_NajLxTGAo4GmhtucVV465S9WlvkCGV6hYetBLVPayVL6QLfT_LsriRp-rzt5aFXbZVA9t-jgRZyCGmpLal8tFd8JLITDtfa7ZssdCuxR_fD7sFlBZnPKcfr_o0mRaLKBy2MZWvboTiDSJZcrDLmUnbIDP0Ad_uWys0XD3p1N1MiwNkc7O4lxNjMqN)[![](https://blogger.googleusercontent.com/img/a/AVvXsEjTK4mAFklNQhiuEJNVvBQLIUG0vJkXoJyiQGU8FnmEOoiHMsmPmYKikvYRxrcv21k0mKgKB3N1Hr57h2a93_rqc91GE-dtIQxKQtGql2ovRvblT2oa52OxY7uQoNwfUSw930UjzxDJzJXCTfGqbeN0bnxEOGmXGurq3v7191J4DwWeVkmS01z7dHensrrm)](https://blogger.googleusercontent.com/img/a/AVvXsEjTK4mAFklNQhiuEJNVvBQLIUG0vJkXoJyiQGU8FnmEOoiHMsmPmYKikvYRxrcv21k0mKgKB3N1Hr57h2a93_rqc91GE-dtIQxKQtGql2ovRvblT2oa52OxY7uQoNwfUSw930UjzxDJzJXCTfGqbeN0bnxEOGmXGurq3v7191J4DwWeVkmS01z7dHensrrm)
+
+  
+
+
+They offered boat rides on the river, right up to the falls - we preferred the views from a distance, but it was cool to see China was running the same tours!
+
+As we photographed and took in the scenery, a group aboard one of the tours started excitedly waving and shouting at me - it was that family who offered me tea that morning!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjd5AS2eiOA4FceqtnCZ8t_OpOpQCKgOHW5Djc4jZKAVXYMGMe3DHRAUxfhcA5Scpzc1mfzR5vCA7s1g-NWXssU27JipAIbJfAbWjOGgauzjm3Gx5IyWT6QGa_PZHPqxGZu1zzFV1nXU3Y1ok-iLcqvs6tF2aQAjSnLIBIfTGn4TFRwC1fEHaL42XCa__lW)](https://blogger.googleusercontent.com/img/a/AVvXsEjd5AS2eiOA4FceqtnCZ8t_OpOpQCKgOHW5Djc4jZKAVXYMGMe3DHRAUxfhcA5Scpzc1mfzR5vCA7s1g-NWXssU27JipAIbJfAbWjOGgauzjm3Gx5IyWT6QGa_PZHPqxGZu1zzFV1nXU3Y1ok-iLcqvs6tF2aQAjSnLIBIfTGn4TFRwC1fEHaL42XCa__lW)
+
+  
+
+
+The final stop of the day was Chùa Phật Tích Trúc Lâm Bản Giốc - a Buddhist Pagoda. It was quite a little hike up a hill - there was a woman on a motorbike at the bottom, offering rides to the top! Our guide pronounced it as PERgoader, which I thought was pretty adorable, and I wish someone would tell me what I'm saying when I mispronounce Vietnamese.
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEikrCSaeiQ23ss_WRp2ou3puZByAbCVzRZgowsrLXbPWyl5UJ5TxJ4jTVcuWmxEnUgOPI3qKwIlU3qtb7Z2SmRuIdcjmWcNHsn21GUyK1j3gbioC6K2gXBg8bZ2M8WbhY24rFvmDLDWx6VlAjvrmi4OANoFlVxaq-RucaJv_V-fgfQsXLmkxkL2cNmQ4817)](https://blogger.googleusercontent.com/img/a/AVvXsEikrCSaeiQ23ss_WRp2ou3puZByAbCVzRZgowsrLXbPWyl5UJ5TxJ4jTVcuWmxEnUgOPI3qKwIlU3qtb7Z2SmRuIdcjmWcNHsn21GUyK1j3gbioC6K2gXBg8bZ2M8WbhY24rFvmDLDWx6VlAjvrmi4OANoFlVxaq-RucaJv_V-fgfQsXLmkxkL2cNmQ4817)[![](https://blogger.googleusercontent.com/img/a/AVvXsEhTNn0aavK9PFqeBubd53cbrs8Ou0jRg8d4OZ8Armf1o38e0Iy54xY5KIb0-B-JKkgkuxvu3JY1XFE_QDE8bLTpe3gYw6JnBsOBTENAw3NBBB0_jS9ErW-0xG3nddzM_-3X2TyYbewv9_hwtswYih9hzz6Nmi4KyBNHsstXIYstMDrLbNzwoFsJT6RM4ete)](https://blogger.googleusercontent.com/img/a/AVvXsEhTNn0aavK9PFqeBubd53cbrs8Ou0jRg8d4OZ8Armf1o38e0Iy54xY5KIb0-B-JKkgkuxvu3JY1XFE_QDE8bLTpe3gYw6JnBsOBTENAw3NBBB0_jS9ErW-0xG3nddzM_-3X2TyYbewv9_hwtswYih9hzz6Nmi4KyBNHsstXIYstMDrLbNzwoFsJT6RM4ete)
+
+  
+
+
+The views at the top were stunning and totally worth the hike up!
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgUeHf8RYwMjFjNGlf_AcjAGbzH0XKkike2wwkQ_3Mna_0nKZb1nHtBDbp5lZJWA5qwL4aS1prqkRaVAl9a6xKoZVgozp05wU0QFbZWhNaiWgw8-U3giAhTVZaYVsf1m8ZVvBDi1JEXVmFsxpenHL8VC9fMq2uRH6DZwZZWSvBrZqfDgmETRcT0fV_Cy0GL)](https://blogger.googleusercontent.com/img/a/AVvXsEgUeHf8RYwMjFjNGlf_AcjAGbzH0XKkike2wwkQ_3Mna_0nKZb1nHtBDbp5lZJWA5qwL4aS1prqkRaVAl9a6xKoZVgozp05wU0QFbZWhNaiWgw8-U3giAhTVZaYVsf1m8ZVvBDi1JEXVmFsxpenHL8VC9fMq2uRH6DZwZZWSvBrZqfDgmETRcT0fV_Cy0GL)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjT_WchJRSdd7TUVygC3ZG5mlLPdRhesuiWjU08S_EK08Wab5tRfI7NltAEFPgCfsU8tIxs8Rfh3jx6LfXq8mqjqqaZju575tkli3DMNMHmLqL3zDj_sa-f6JEbHqu1SeEIrxkDm_RsdFFX6ux26Hsgu0C7F2nRBohuA8H0hmKiQSnTmo19jP9sFCxcqpRw)](https://blogger.googleusercontent.com/img/a/AVvXsEjT_WchJRSdd7TUVygC3ZG5mlLPdRhesuiWjU08S_EK08Wab5tRfI7NltAEFPgCfsU8tIxs8Rfh3jx6LfXq8mqjqqaZju575tkli3DMNMHmLqL3zDj_sa-f6JEbHqu1SeEIrxkDm_RsdFFX6ux26Hsgu0C7F2nRBohuA8H0hmKiQSnTmo19jP9sFCxcqpRw)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgml8_Q8Ug0iNh3HXeKiXh9URTLbAwvEJhbk7jYGj4H63ZOj7sAQqdaoDZY1XdZcOSHcBTdAmVwvFK6geRA1aeD9GnJpvEGlnGnLpgp0mZ53hEqE3oyokI3JPPtfgQHlTEKNw3C3xeUTSG-Q_JT7bDZBe3Ojg14i_ZlMPHIxFrG5XVOQrJgqiuuBTJpLo-w)](https://blogger.googleusercontent.com/img/a/AVvXsEgml8_Q8Ug0iNh3HXeKiXh9URTLbAwvEJhbk7jYGj4H63ZOj7sAQqdaoDZY1XdZcOSHcBTdAmVwvFK6geRA1aeD9GnJpvEGlnGnLpgp0mZ53hEqE3oyokI3JPPtfgQHlTEKNw3C3xeUTSG-Q_JT7bDZBe3Ojg14i_ZlMPHIxFrG5XVOQrJgqiuuBTJpLo-w)
+
+[](https://blogger.googleusercontent.com/img/a/AVvXsEgml8_Q8Ug0iNh3HXeKiXh9URTLbAwvEJhbk7jYGj4H63ZOj7sAQqdaoDZY1XdZcOSHcBTdAmVwvFK6geRA1aeD9GnJpvEGlnGnLpgp0mZ53hEqE3oyokI3JPPtfgQHlTEKNw3C3xeUTSG-Q_JT7bDZBe3Ojg14i_ZlMPHIxFrG5XVOQrJgqiuuBTJpLo-w)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgvYFVD7B6OAMgKdpcvUnlLeyCn5GtHXFJJblOSKjfMjZkG1v8-k5yGvwS0yYdGMy1X4fsDjfF_6Tq7luqZ7Mfvv7tDTHLG-HIQYgBLmGzsluYLr1ukgOYxnNxKycV4oYY2NoqlkAzS4IMYXDN37n4U1SMk0MI9BheU5cnSOt5MABHlfYnzmtPIdoTc3Rh6)](https://blogger.googleusercontent.com/img/a/AVvXsEgvYFVD7B6OAMgKdpcvUnlLeyCn5GtHXFJJblOSKjfMjZkG1v8-k5yGvwS0yYdGMy1X4fsDjfF_6Tq7luqZ7Mfvv7tDTHLG-HIQYgBLmGzsluYLr1ukgOYxnNxKycV4oYY2NoqlkAzS4IMYXDN37n4U1SMk0MI9BheU5cnSOt5MABHlfYnzmtPIdoTc3Rh6)
+
+  
+
+
+[](https://blogger.googleusercontent.com/img/a/AVvXsEgpzG8eoDpZtjppBdmJ3taLA9wTdPp33AveO-D-vksfICTgrdXtN5lkBhO-oeWVIbqGYUzIlknU-LeQTmDgM3XuSRLCsn9J-9ZQqG0sm4C6F55-veFPBZmR3xrz1lcjScYrY5ZEPqKDXvNURfmz0VmJeA6z9kqU_nGcsTf9Tk0SsPaRNAGGn4sE6DQqZydf)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgpzG8eoDpZtjppBdmJ3taLA9wTdPp33AveO-D-vksfICTgrdXtN5lkBhO-oeWVIbqGYUzIlknU-LeQTmDgM3XuSRLCsn9J-9ZQqG0sm4C6F55-veFPBZmR3xrz1lcjScYrY5ZEPqKDXvNURfmz0VmJeA6z9kqU_nGcsTf9Tk0SsPaRNAGGn4sE6DQqZydf)](https://blogger.googleusercontent.com/img/a/AVvXsEgpzG8eoDpZtjppBdmJ3taLA9wTdPp33AveO-D-vksfICTgrdXtN5lkBhO-oeWVIbqGYUzIlknU-LeQTmDgM3XuSRLCsn9J-9ZQqG0sm4C6F55-veFPBZmR3xrz1lcjScYrY5ZEPqKDXvNURfmz0VmJeA6z9kqU_nGcsTf9Tk0SsPaRNAGGn4sE6DQqZydf)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgWV28JRSFyhgaaG8JvurnzBz_r8H1uNNBRrb1jP-ns9bGNTQvj16xC4Bn5NGPVt_WeukW61olheUxAaum6_mCkrys-GnXf7I9TmAE4DjE6ydwRIMdsr-2wttC5qJGZJhRW3OX9-8gnAjNCCzKaHhKUctpHZurUCFClwC8_uHu8zA53w66vK3t7a8z_v9CE)](https://blogger.googleusercontent.com/img/a/AVvXsEgWV28JRSFyhgaaG8JvurnzBz_r8H1uNNBRrb1jP-ns9bGNTQvj16xC4Bn5NGPVt_WeukW61olheUxAaum6_mCkrys-GnXf7I9TmAE4DjE6ydwRIMdsr-2wttC5qJGZJhRW3OX9-8gnAjNCCzKaHhKUctpHZurUCFClwC8_uHu8zA53w66vK3t7a8z_v9CE)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEiyRaRIIE8QzAHhep-yPVJsbMZQKqpFuX-eQrcl4sYyiNe-dMLxujhbMpjwWWFJv346Iyp-ELEmNCPU3-QpEkTe6eRZt8Ss2udsw2pZa_o5TLF3WPishLC6O53kpzW3HWSkYuTH-dX46_pFJHiQGUXYoktwqkwBBLiTFCOqParVoWxoAVpHxCOWfu1HX0vI)](https://blogger.googleusercontent.com/img/a/AVvXsEiyRaRIIE8QzAHhep-yPVJsbMZQKqpFuX-eQrcl4sYyiNe-dMLxujhbMpjwWWFJv346Iyp-ELEmNCPU3-QpEkTe6eRZt8Ss2udsw2pZa_o5TLF3WPishLC6O53kpzW3HWSkYuTH-dX46_pFJHiQGUXYoktwqkwBBLiTFCOqParVoWxoAVpHxCOWfu1HX0vI)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhT1okVtbuCxjKEy34_hxrcNM2WD9ox45KK5sX0p0U75bu7Vu6W3s3ge-SCtapdkr0UgubydZr9gx4zVRyXnXIN-wNxrWXSdiN_ShxtqDGFqT9sWWw1A1XcAzPkJVGuXAr7te7WW6K_6CURlucJjzQm7wORWbMIaTO1LHHyOn3hzd2aq1sBZeJ1RgLx1OkA)](https://blogger.googleusercontent.com/img/a/AVvXsEhT1okVtbuCxjKEy34_hxrcNM2WD9ox45KK5sX0p0U75bu7Vu6W3s3ge-SCtapdkr0UgubydZr9gx4zVRyXnXIN-wNxrWXSdiN_ShxtqDGFqT9sWWw1A1XcAzPkJVGuXAr7te7WW6K_6CURlucJjzQm7wORWbMIaTO1LHHyOn3hzd2aq1sBZeJ1RgLx1OkA)
+
+  
+
+
+To enter this area, you had to cover your knees and shoulders for religious modesty.
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjR-pFw91U3FGrRJ0RYykT-IrUVUwjunllafcZYxenNX5RxhuQD8dKXN8UCsHtr52RhQ8DVgLikC94puwt-Z4gzJJfcR3YKtwQIAWcbllvyf4QQNYlYzd3liA_PYj9mmEyZwWcXKZUYbylM86WQplNpw6ojGpbOU3NUUheUZtWZHRQAAVb-u0OGMxzoAFKS)](https://blogger.googleusercontent.com/img/a/AVvXsEjR-pFw91U3FGrRJ0RYykT-IrUVUwjunllafcZYxenNX5RxhuQD8dKXN8UCsHtr52RhQ8DVgLikC94puwt-Z4gzJJfcR3YKtwQIAWcbllvyf4QQNYlYzd3liA_PYj9mmEyZwWcXKZUYbylM86WQplNpw6ojGpbOU3NUUheUZtWZHRQAAVb-u0OGMxzoAFKS)
+
+  
+
+
+On the way back down, we spotted a gentleman feeding his chickens!
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhC6ZOeE96mtU9nvj0F_N6T0uioY6f23_LuSmTSWeki9FCnr1F_ump9VrUWnlbQ_d6-oha77HcdLR89_q-J4wly0ZFDFrgFuAAstYSiNxvMWkhtGhOWsqjswrS3RaWZeY49wITPwj0VNUYSErRudiKMdA3HLuYi_C5QkAUMPis1auAwe_PDqAlpHAAxnvUd)](https://blogger.googleusercontent.com/img/a/AVvXsEhC6ZOeE96mtU9nvj0F_N6T0uioY6f23_LuSmTSWeki9FCnr1F_ump9VrUWnlbQ_d6-oha77HcdLR89_q-J4wly0ZFDFrgFuAAstYSiNxvMWkhtGhOWsqjswrS3RaWZeY49wITPwj0VNUYSErRudiKMdA3HLuYi_C5QkAUMPis1auAwe_PDqAlpHAAxnvUd)
+
+  
+
+
+That evening, we stayed at a hotel with a cool little town square nearby and ate some more food that was good but somewhat unidentifiable - go us!
+
+  
+
+
+[](https://blogger.googleusercontent.com/img/a/AVvXsEhDu1HMPMnch9sYPkwfa6XWi6BEUZyFxnsjsQRaoFKCYVKtJO8q7wrSEUV2I9sAa2TVhJY3LyoaJ7fZEQ-m1B1U0kSg4_hzzPkd_I2llyQeHJBtIn0V3Vip6LaKrkvEbAFWsB-bRg00B2UFUkydm9WQi0GvKZBI13e3wYa89q8Y0Gd4tMEghUcLxirZ6OW4)
+
+[](https://blogger.googleusercontent.com/img/a/AVvXsEhDu1HMPMnch9sYPkwfa6XWi6BEUZyFxnsjsQRaoFKCYVKtJO8q7wrSEUV2I9sAa2TVhJY3LyoaJ7fZEQ-m1B1U0kSg4_hzzPkd_I2llyQeHJBtIn0V3Vip6LaKrkvEbAFWsB-bRg00B2UFUkydm9WQi0GvKZBI13e3wYa89q8Y0Gd4tMEghUcLxirZ6OW4)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgABgjLGGoKGsC8v7oTmeqCEnXP0axmWHT9j5CaxT0tlLQfZsdhgu6OYpc565GIJnJ2JA2_8ItYHYxtH1EzwVrMQnSafZeCtLuvnjYuurjIRxRF8TWqXH7xjZ7txqK0stY3dfWVH0XIFiJKY44ohpFJnPWrJxE9juj4DF-lf-a4oFG_3mt_jDabOsElm-sQ)](https://blogger.googleusercontent.com/img/a/AVvXsEgABgjLGGoKGsC8v7oTmeqCEnXP0axmWHT9j5CaxT0tlLQfZsdhgu6OYpc565GIJnJ2JA2_8ItYHYxtH1EzwVrMQnSafZeCtLuvnjYuurjIRxRF8TWqXH7xjZ7txqK0stY3dfWVH0XIFiJKY44ohpFJnPWrJxE9juj4DF-lf-a4oFG_3mt_jDabOsElm-sQ)[![](https://blogger.googleusercontent.com/img/a/AVvXsEhDu1HMPMnch9sYPkwfa6XWi6BEUZyFxnsjsQRaoFKCYVKtJO8q7wrSEUV2I9sAa2TVhJY3LyoaJ7fZEQ-m1B1U0kSg4_hzzPkd_I2llyQeHJBtIn0V3Vip6LaKrkvEbAFWsB-bRg00B2UFUkydm9WQi0GvKZBI13e3wYa89q8Y0Gd4tMEghUcLxirZ6OW4)](https://blogger.googleusercontent.com/img/a/AVvXsEhDu1HMPMnch9sYPkwfa6XWi6BEUZyFxnsjsQRaoFKCYVKtJO8q7wrSEUV2I9sAa2TVhJY3LyoaJ7fZEQ-m1B1U0kSg4_hzzPkd_I2llyQeHJBtIn0V3Vip6LaKrkvEbAFWsB-bRg00B2UFUkydm9WQi0GvKZBI13e3wYa89q8Y0Gd4tMEghUcLxirZ6OW4)
+
+  
+
+
+That evening, we went for a walk in the town and spotted this lovely group dancing - how neat!
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEijr3TsGfa0tod-80Wj_Pj6k052J1urswqml-nbTY2QHkx98vSDt3XYMjhAMICbO5S_-yJxZ2lbtsogpnv5NCuXI7k5L4rSYqgwqDt63pgLe2Mw7qIGnMXWLj2pbwNQ5gHUkR2NmZm9YOFn3kaHHiGYwDH-ujdxU59qDgJAlp9SBxi395HxpulzUUncKuAd)](https://blogger.googleusercontent.com/img/a/AVvXsEijr3TsGfa0tod-80Wj_Pj6k052J1urswqml-nbTY2QHkx98vSDt3XYMjhAMICbO5S_-yJxZ2lbtsogpnv5NCuXI7k5L4rSYqgwqDt63pgLe2Mw7qIGnMXWLj2pbwNQ5gHUkR2NmZm9YOFn3kaHHiGYwDH-ujdxU59qDgJAlp9SBxi395HxpulzUUncKuAd)
+
+  
+
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhtAtSmC8OXDKQK-lMCwZXWiqAv1-IQKco1EStgT1-nRqpy1Obqc9dZhOl8xrDFGTuSF_2Q9X8VPmXG6INb_Hs43KRFOCUfumHRZJeQrfpXOFauh1MXnr0a-O_yQRBTCZCLvG48Wn0_wU1-RnnneLgAvoTCcXyAyeNIsxY7PsZsFJvxrFRz41F2HNiwdkk6)](https://blogger.googleusercontent.com/img/a/AVvXsEhtAtSmC8OXDKQK-lMCwZXWiqAv1-IQKco1EStgT1-nRqpy1Obqc9dZhOl8xrDFGTuSF_2Q9X8VPmXG6INb_Hs43KRFOCUfumHRZJeQrfpXOFauh1MXnr0a-O_yQRBTCZCLvG48Wn0_wU1-RnnneLgAvoTCcXyAyeNIsxY7PsZsFJvxrFRz41F2HNiwdkk6)
