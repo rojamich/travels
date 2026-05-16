@@ -6,6 +6,10 @@ categories:
 order: 5
 tags:
   - Vietnam
+location:
+  name: "Ho Chi Minh City"
+  lat: 10.8231
+  lng: 106.6297
 ---
 
 That's right! Our tutor (Thu Hằng) lives in Ho Chi Minh City! I met her through my manicurist (May) back in Corvallis! When Mike and I started learning Vietnamese, I overheard staff at P&P nails and asked if they could correct me if I said a few words. They were surprised and ecstatic :) They gave me tons of advice and recommendations! May told me that her daughter was taking lessons in Vietnamese and offered to connect us with the same tutor. We met with Thu Hằng over Zoom for the next 5 weeks and learned a lot! She asked to meet when we visited, and we were only too happy to make that happen 😁

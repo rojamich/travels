@@ -6,6 +6,10 @@ categories:
 order: 10
 tags:
   - Peru
+location:
+  name: "Amazon Rainforest, Peru"
+  lat: -3.7437
+  lng: -73.2516
 ---
 
 You read that right! After Machu Picchu, the last leg of this trip would take place in the Amazon Rainforest! We could not be more excited to see this enchanting and often spoken of place!

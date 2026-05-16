@@ -6,6 +6,10 @@ categories:
 order: 4
 tags:
   - Vietnam
+location:
+  name: "Ho Chi Minh City"
+  lat: 10.7724
+  lng: 106.6981
 ---
 
 After waking up early and making good use of the gym, it was time to try some more delicious food! We strolled the neighborhood in search of just that! We found a little stand around the corner from us, offering Cơm tấm, here offered as rice, a medium fried egg, DELICIOUS pork, and veggies. This is easily my favorite meal here. There were a few locals already enjoying some, and we were able to eat in this cute alleyway.

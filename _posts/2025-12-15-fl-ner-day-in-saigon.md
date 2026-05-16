@@ -6,6 +6,10 @@ categories:
 order: 3
 tags:
   - Vietnam
+location:
+  name: "Ho Chi Minh City"
+  lat: 10.8231
+  lng: 106.6297
 ---
 
 That's right! Many people still refer to Ho Chi Minh City (HCMC) as Saigon, despite the name being changed on July 2, 1976, after the Vietnam War ended. We woke up early on our first day in Vietnam and needed local currency (Vietnamese Dong) to purchase breakfast. Many places (especially authentic food) will be cash only. 

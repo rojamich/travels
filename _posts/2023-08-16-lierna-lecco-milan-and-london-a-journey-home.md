@@ -7,6 +7,10 @@ order: 26
 tags:
   - England
   - Italy
+location:
+  name: "London, UK"
+  lat: 51.5074
+  lng: -0.1278
 ---
 
 I woke up with a bittersweet feeling filling my heart. You may be thinking "boo hoo, she has to come home from vacation" and I wouldn't blame you. But I've loved adventuring with Mike and breaking out of our comfort zones, and learning and laughing together. 

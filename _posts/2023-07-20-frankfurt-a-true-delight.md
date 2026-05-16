@@ -6,6 +6,10 @@ categories:
 order: 4
 tags:
   - Germany
+location:
+  name: "Frankfurt, Germany"
+  lat: 50.1109
+  lng: 8.6821
 ---
 
 Preparing for Frankfurt this day was more challenging as we had read a few negative reviews of the city. Thankfully, we have no idea why! It was a really delightful city with a lot of charm, things to see, and good food!

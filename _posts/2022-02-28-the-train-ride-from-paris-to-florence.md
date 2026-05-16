@@ -7,6 +7,10 @@ order: 35
 tags:
   - Italy
   - France
+location:
+  name: "Florence, Italy"
+  lat: 43.7696
+  lng: 11.2558
 ---
 
 The train ride there was completely captivating. I fell in love with the French countryside and we wove through the snow-covered mountains of the Vanoise National Park. 

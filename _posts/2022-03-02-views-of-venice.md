@@ -6,6 +6,10 @@ categories:
 order: 58
 tags:
   - Italy
+location:
+  name: "Venice, Italy"
+  lat: 45.4408
+  lng: 12.3155
 ---
 
 There are no cars in Venice but a lot of pedestrian bridges. So, there were no ubers but water taxis! We had a 35-minute walk ahead of us in crowded “streets” which are more similar to alleyways! The police there conduct “traffic control” where they split the alleyways so people going in opposite directions don’t run into each other.

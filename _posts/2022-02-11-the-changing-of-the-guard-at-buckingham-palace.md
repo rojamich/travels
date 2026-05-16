@@ -6,6 +6,10 @@ categories:
 order: 7
 tags:
   - London
+location:
+  name: "Buckingham Palace, London"
+  lat: 51.5014
+  lng: -0.1419
 ---
 
 Here we watched the changing of the guard. We were grateful to arrive during an off-peak tourist season as we didn’t have to fight for a spot to watch it! We stood at the Victorian Monument and noticed the guards wear grey winter coats currently and change into red summer coats during the warmer weather, fun fact!  

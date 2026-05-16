@@ -6,6 +6,10 @@ categories:
 order: 67
 tags:
   - Germany
+location:
+  name: "Dachau Memorial, Germany"
+  lat: 48.2683
+  lng: 11.4348
 ---
 
 The next morning, we woke early and headed to the Dachau Concentration Camp Memorial Site. I didn’t take any photographs because it just didn’t feel right to. It was something you had to feel to experience, not see. We had to make a few connections to get there but we were able to get an audio guide through the memorial site that was fairly helpful in explaining what we were looking at. They also had labels to tell you what was going to be a part of each exhibit so you could choose to skip it or not.

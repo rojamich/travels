@@ -6,6 +6,10 @@ categories:
 order: 9
 tags:
   - London
+location:
+  name: "London Chinatown"
+  lat: 51.5114
+  lng: -0.1316
 ---
 
 Did you know there’s a Chinatown in London?? I had no idea! We stumbled upon this area and I found something called a Waffle Wrap which is like a soft crepe type waffle with gelato inside! I had Nutella, peanuts, and peanut butter on top and it was glorious!

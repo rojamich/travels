@@ -6,6 +6,10 @@ categories:
 order: 47
 tags:
   - Italy
+location:
+  name: "Colosseum, Rome"
+  lat: 41.8902
+  lng: 12.4922
 ---
 
 The next morning, we woke early to beat the rush to the Colosseum and saw some cool sights along the way! The first is the view from our apartment. The second is our breakfast for the day. The third is Trajan’s Market. It was supposed to rain this day but we were blessed with a beautiful time!

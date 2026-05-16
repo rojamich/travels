@@ -6,6 +6,10 @@ categories:
 order: 3
 tags:
   - Peru
+location:
+  name: "Lima, Peru"
+  lat: -12.0464
+  lng: -77.0428
 ---
 
 Wahoo our first full day in Lima is here! We accidentally slept in until 9am (that's 7am at home) but thankfully felt very refreshed! We rushed to get a subpar breakfast just to have some food (thank you Dunkin donuts) where I got the weirdest breakfast sandwich. In my defense, I thought it was going to be on a bagel!

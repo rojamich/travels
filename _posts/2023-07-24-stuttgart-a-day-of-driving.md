@@ -6,6 +6,10 @@ categories:
 order: 6
 tags:
   - Germany
+location:
+  name: "Stuttgart, Germany"
+  lat: 48.7758
+  lng: 9.1829
 ---
 
 This morning we woke to the sound of pouring rain on our skylight windows! Absolutely loved this! The roll-back overings are made of metal so the rain melody was so pleasant. As we got ready for the day, this little stealth machine strutted towards me for morning pets. 

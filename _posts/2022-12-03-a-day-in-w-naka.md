@@ -6,6 +6,10 @@ categories:
 order: 21
 tags:
   - South Island
+location:
+  name: "Wanaka, NZ"
+  lat: -44.6986
+  lng: 169.1486
 ---
 
 It was going to be a rainy day so we passed on a muddy hike and just explored the city. It was really cool to see the Wānaka Tree growing out of Lake Wānaka. 

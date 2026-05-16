@@ -6,6 +6,10 @@ categories:
 order: 96
 tags:
   - The Netherlands
+location:
+  name: "Amsterdam, Netherlands"
+  lat: 52.3676
+  lng: 4.9041
 ---
 
 Some things we wish we had done/known for Amsterdam.

@@ -6,6 +6,10 @@ categories:
 order: 16
 tags:
   - Vietnam
+location:
+  name: "Hanoi, Vietnam"
+  lat: 21.0285
+  lng: 105.8542
 ---
 
 We had a day just before departing on this tour where we took care of the essentials like sleep, laundry, good food, massage, and hairwash. I think I washed my own hair once on this trip - SPOILED. Quite a few options at breakfast started our day off right, and we were pleased that we could order eggs any way at every hotel we stayed in!

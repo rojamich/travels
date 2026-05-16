@@ -6,6 +6,10 @@ categories:
 order: 84
 tags:
   - Germany
+location:
+  name: "Berlin, Germany"
+  lat: 52.5193
+  lng: 13.4019
 ---
 
 I found us a checkpoint Charlie escape room! Keeping with the theme of the day and it was a fun one! We were really confused by the ending where Mike might have reported me to the Soviets which got me killed. Thankfully that was not the case and we ended up getting our fake passports to cross checkpoint Charlie and make our escape. Mike did really well on this one especially finding the clue inside the heel of a boot!

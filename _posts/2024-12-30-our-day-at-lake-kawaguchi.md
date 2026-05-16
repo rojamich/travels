@@ -6,6 +6,10 @@ categories:
 order: 11
 tags:
   - Japan
+location:
+  name: "Lake Kawaguchi, Japan"
+  lat: 35.5158
+  lng: 138.7625
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWpfbzvjILN8jc8zXDeutWjyqysS1rsYHFwcfBntUuK_U8SmhLJx1RXlTEhrLUqz7hgnldZN-n0tRrA-MHCbrl92ehgvfryKZ9-ggbO3zPwCtdaHZUWjlflGbcGnocxQ6xUiRuOgI8Yzkwl3XTVL_dztDVzvLgrhJd-sltjsbamlzFzv8Y1nV866pXkSu7/s320/20241220_062619.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWpfbzvjILN8jc8zXDeutWjyqysS1rsYHFwcfBntUuK_U8SmhLJx1RXlTEhrLUqz7hgnldZN-n0tRrA-MHCbrl92ehgvfryKZ9-ggbO3zPwCtdaHZUWjlflGbcGnocxQ6xUiRuOgI8Yzkwl3XTVL_dztDVzvLgrhJd-sltjsbamlzFzv8Y1nV866pXkSu7/s4000/20241220_062619.jpg)

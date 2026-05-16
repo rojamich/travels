@@ -6,6 +6,10 @@ categories:
 order: 25
 tags:
   - South Island
+location:
+  name: "Mt Cook (Aoraki), NZ"
+  lat: -43.5985
+  lng: 170.1421
 ---
 
 We were able to park the camper near a beautiful flower meadow for breakfast this morning which split the long drive up to My Cook nicely!

@@ -6,6 +6,10 @@ categories:
 order: 28
 tags:
   - South Island
+location:
+  name: "Franz Josef Glacier, NZ"
+  lat: -43.3776
+  lng: 170.1819
 ---
 
 We made the drive up to Fox Glacier which was a scenic easy three miles to get the privilege of seeing a glacier lodged in the mountain covered by rainforests!

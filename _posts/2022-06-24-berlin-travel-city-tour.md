@@ -6,6 +6,10 @@ categories:
 order: 79
 tags:
   - Germany
+location:
+  name: "Berlin, Germany"
+  lat: 52.52
+  lng: 13.405
 ---
 
 BERRRRRRLINNNNNNNNN!! Loved it here! To all’s surprise! There was so much to do, I pushed myself out of my comfort zone to enjoy a broader range of things here, food was amazing and it was cold but I did have a lot of fun. The transportation here was the most efficient an overall just really enjoyed the time here. I would be open to going to school here (assuming Florence isn’t available or the program is better).

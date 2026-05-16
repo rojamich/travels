@@ -6,6 +6,10 @@ categories:
 order: 12
 tags:
   - London
+location:
+  name: "London, UK"
+  lat: 51.5074
+  lng: -0.1278
 ---
 
 Some things we wish we had done/known for London.

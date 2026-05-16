@@ -6,6 +6,10 @@ categories:
 order: 16
 tags:
   - North Island
+location:
+  name: "Gisborne, NZ"
+  lat: -38.6624
+  lng: 178.0177
 ---
 
 We spontaneously decided to make the drive to Gisborne on Thursday night rather than wait and do it Friday morning so we could be some of the first people on Earth to view the sunrise on Friday, 11/24! How cool is that?! The drive was windy and filled with crazy potholes so we were extra grateful to do the drive during the day.

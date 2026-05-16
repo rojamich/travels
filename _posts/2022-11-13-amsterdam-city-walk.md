@@ -6,6 +6,10 @@ categories:
 order: 92
 tags:
   - The Netherlands
+location:
+  name: "Amsterdam, Netherlands"
+  lat: 52.3676
+  lng: 4.9041
 ---
 
 The next morning, we were scheduled to do the Amsterdam City walk!

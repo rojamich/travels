@@ -1,9 +1,9 @@
 ---
 title: "Nomadic New Zealand Adventure"
 description: "A month-long road trip across New Zealand's North and South Islands — Hobbiton, fiords, glaciers, bungee jumping."
-cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJsyX80202I0z1yOU0xnX2UsLnZWGDh5_Hl6BwXzmqEuSYzw2fwX1rIlXPsj_UKrUXNZjQ_v-y8jl0tuypi3BCHkaR_AuOiiwqsuuQztcj2YenKY33ktGUgY8P9E1U3kiumZGIJId52d2dDE0-gx4U6oIoz5dO4m8DiPcFfyQPXlxZA3ZxLlt3HQxSiA/s320/20221114_200605.jpg
-start_date: 2022-11-13
-end_date: 2022-12-13
+cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEqwjtaxDzETtCykuVh-ZkiqFrdOIMgnb95ZGaxFluy8DQe_fuoR96IXAV1oOBvacwUPHpfDKrZUC4ZMTgAszUELOEilDRs0hbAj_i9pDJyDUqco3ltHOUru_D0jvgiKIiya5Vw7-v-egtV7RywuENG7_kE91k_KMDy1hAv7oqzdcrYTiv4asuTCtRmg/w161-h189/20221117_171618.jpg
+start_date: 2020-12-26
+end_date: 2021-01-08
 location: "New Zealand"
 lat: -45.0312
 lng: 168.6626

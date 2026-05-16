@@ -6,6 +6,10 @@ categories:
 order: 32
 tags:
   - France
+location:
+  name: "Louvre, Paris"
+  lat: 48.8606
+  lng: 2.3376
 ---
 
 We had just enough time to have one last breakfast Nutella crepe from Café De Tullaries before setting off for our tour of the Louvre. I will sincerely miss those cocoa powder-covered crepes and the managers dog that alluded me.

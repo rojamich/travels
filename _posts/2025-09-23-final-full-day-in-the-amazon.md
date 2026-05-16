@@ -6,6 +6,10 @@ categories:
 order: 15
 tags:
   - Peru
+location:
+  name: "Amazon Rainforest, Peru"
+  lat: -3.7437
+  lng: -73.2516
 ---
 
 Today was filled with animal sightseeing! We started the day with a riverboat trip to see birds, and we were rewarded with seeing monkeys and a giant lizard as well! Check out the tucan and macaw parrots - they're so blue!

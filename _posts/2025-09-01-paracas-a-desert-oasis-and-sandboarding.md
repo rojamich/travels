@@ -6,6 +6,10 @@ categories:
 order: 4
 tags:
   - Peru
+location:
+  name: "Paracas, Peru"
+  lat: -13.835
+  lng: -76.2486
 ---
 
 This promised to be a full day adventure starting with a 5am pickup from our hotel. We had snagged lots of snacks for this day as they warned us there would be no breakfast stop. Per the usual, we were in a country that doesn't typically do breakfast! 🥞 🍳 

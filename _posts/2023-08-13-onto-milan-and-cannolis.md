@@ -6,6 +6,10 @@ categories:
 order: 20
 tags:
   - Italy
+location:
+  name: "Milan, Italy"
+  lat: 45.4642
+  lng: 9.19
 ---
 
 We were not necessarily excited for Milan but we were eager to see what it was about. We loved most of Italy so far and I was keeping my fingers crossed for amazing cannolis.

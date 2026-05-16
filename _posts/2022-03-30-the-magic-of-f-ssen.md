@@ -6,6 +6,10 @@ categories:
 order: 68
 tags:
   - Germany
+location:
+  name: "Fussen, Germany"
+  lat: 47.5712
+  lng: 10.7498
 ---
 
 The next day was Füssen! We got the heck outta the hotel and headed for the train station for our train at 930am! We snacked on treats from Starbucks and some coffee before it was time for the two-hour train ride to the Neuschwanstein Castle! We wanted to get there early to hike around the area before our tour at 3pm. The castle was what Disney based theirs off of! It was actually built by mad King Ludwig II whose manner of death was never confirmed. The ride up there gave us some beautiful views and a sneak preview of how cold it was going to be up there! See the snow??

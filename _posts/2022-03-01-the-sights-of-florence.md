@@ -6,6 +6,10 @@ categories:
 order: 39
 tags:
   - Italy
+location:
+  name: "Florence, Italy"
+  lat: 43.7696
+  lng: 11.2558
 ---
 
 Here is the view from our Tuscan Airbnb! We definitely felt like we were in Italy 😍

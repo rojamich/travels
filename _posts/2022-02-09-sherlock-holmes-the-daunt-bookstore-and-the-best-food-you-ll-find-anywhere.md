@@ -6,6 +6,10 @@ categories:
 order: 5
 tags:
   - London
+location:
+  name: "London, UK"
+  lat: 51.5224
+  lng: -0.1556
 ---
 
 After the museum we completed an awesome Sherlock Holmes-themed escape room and found the most beautiful bookstore!

@@ -6,6 +6,10 @@ categories:
 order: 8
 tags:
   - Vietnam
+location:
+  name: "Ba Na Hills, Vietnam"
+  lat: 15.9988
+  lng: 107.9988
 ---
 
 We have a tour day ahead of us! One of the highlights of the trip I was looking forward to is the Golden Bridge! We had a drive to Ba Na Hills, and Mike used this time to learn more about the culture from our guide. He had a lot of knowledge to share regarding Buddhism because he grew up in a Buddhist family!

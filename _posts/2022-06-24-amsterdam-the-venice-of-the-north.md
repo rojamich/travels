@@ -6,6 +6,10 @@ categories:
 order: 87
 tags:
   - The Netherlands
+location:
+  name: "Amsterdam, Netherlands"
+  lat: 52.3676
+  lng: 4.9041
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2wizipdOUKDm5AQ6eyfJ2Uo39k17UkA_Y2uIa7J4C34wqJ5cHX-9mJ0qSjg5t-_tpmov6fiy-n79JmFlk4qfcBJiHMkfHxjBRDJqJ0VauwEKIiTUlIxbue7P0YlWZW1vpRzDMBghp0dypZpXfCSd3jsJ7cKVtGiZA7hlRBWz9b3qI_FPgXKjHZdVh/w290-h284/20220314_155142%20\(2\).jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2wizipdOUKDm5AQ6eyfJ2Uo39k17UkA_Y2uIa7J4C34wqJ5cHX-9mJ0qSjg5t-_tpmov6fiy-n79JmFlk4qfcBJiHMkfHxjBRDJqJ0VauwEKIiTUlIxbue7P0YlWZW1vpRzDMBghp0dypZpXfCSd3jsJ7cKVtGiZA7hlRBWz9b3qI_FPgXKjHZdVh/s2690/20220314_155142%20\(2\).jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtlk3RjCO8rRv2aEAk5Yoy8MOIiV1I1ZX3iYeQFFdqCiliSg0HTWVVntsnXvf81fWmOrRBZJfjgP3-SCoNFkBd0o5JHvJQP2wCVl4Rpo_mU47ttXNUWxfQWrGLwEvKRGuA5mrPP3Wx8ZrPe_r8vNlXDwWOIcmcy3CRX5l7iIOHkqGLIWYEaywLONF3/w298-h207/20220314_155953%20\(2\).jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtlk3RjCO8rRv2aEAk5Yoy8MOIiV1I1ZX3iYeQFFdqCiliSg0HTWVVntsnXvf81fWmOrRBZJfjgP3-SCoNFkBd0o5JHvJQP2wCVl4Rpo_mU47ttXNUWxfQWrGLwEvKRGuA5mrPP3Wx8ZrPe_r8vNlXDwWOIcmcy3CRX5l7iIOHkqGLIWYEaywLONF3/s3422/20220314_155953%20\(2\).jpg)

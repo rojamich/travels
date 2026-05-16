@@ -6,6 +6,10 @@ categories:
 order: 9
 tags:
   - Germany
+location:
+  name: "Koblenz, Germany"
+  lat: 50.3569
+  lng: 7.589
 ---
 
 Wow! This city has So much history we needed way more than 9 hours!

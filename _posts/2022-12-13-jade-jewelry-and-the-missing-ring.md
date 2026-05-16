@@ -4,6 +4,10 @@ date: 2022-12-13
 categories:
   - new-zealand
 order: 29
+location:
+  name: "Hokitika, NZ"
+  lat: -42.7176
+  lng: 170.9683
 ---
 
 Carving our own jewelry was pretty high on the excitement list for this trip. It was fairly unique to this area and pretty cool we would have a natural but unique souvenir from our time here!

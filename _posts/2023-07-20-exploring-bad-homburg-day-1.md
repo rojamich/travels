@@ -6,6 +6,10 @@ categories:
 order: 3
 tags:
   - Germany
+location:
+  name: "Bad Homburg, Germany"
+  lat: 50.2274
+  lng: 8.6177
 ---
 
 After crashing at about 8pm the night before, we couldn't sleep a wink past 230am on our first full day in Bad Homburg. We excitedly whispered in the dark our plans for the day. We brought our resistence bands and found a park nearby. 

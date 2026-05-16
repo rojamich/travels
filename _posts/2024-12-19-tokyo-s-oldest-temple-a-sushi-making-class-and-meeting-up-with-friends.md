@@ -6,6 +6,10 @@ categories:
 order: 5
 tags:
   - Japan
+location:
+  name: "Senso-ji Temple, Tokyo"
+  lat: 35.7148
+  lng: 139.7967
 ---
 
 It was another early morning for us to beat the crowds to see Tokyo's oldest temple! 

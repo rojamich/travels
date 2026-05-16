@@ -6,6 +6,10 @@ categories:
 order: 24
 tags:
   - Italy
+location:
+  name: "Lake Como, Italy"
+  lat: 45.9594
+  lng: 9.2895
 ---
 
 This morning I woke again to a sore throat and I would swallow and feel like I was gulping glass. Crap! Oh well, not missing out on Lake Como for what could be allergies. I had woken up a few times and was able to go back to sleep which is unnatural for me. I told Mike I was going to try to sleep a bit more and he didn't say anything....

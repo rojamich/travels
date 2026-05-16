@@ -6,6 +6,10 @@ categories:
 order: 20
 tags:
   - Belgium
+location:
+  name: "Brussels, Belgium"
+  lat: 50.895
+  lng: 4.3415
 ---
 
 We had a relaxing train ride back to Brussels from Bruges and once we arrived at the station, we rushed over to Atomium which Michael was overly excited for since we decided to visit Belgium! It was even more massive than I could have imagined! The day was beautiful out. 

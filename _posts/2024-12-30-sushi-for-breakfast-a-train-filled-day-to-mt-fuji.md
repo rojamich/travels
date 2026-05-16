@@ -6,6 +6,10 @@ categories:
 order: 10
 tags:
   - Japan
+location:
+  name: "Mt Fuji, Japan"
+  lat: 35.3606
+  lng: 138.7274
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZWGbg3rdELrFrcCfx32j4INwI4YtiRnonI-n-7qawueLZFKPeRpF9pl-QjB3WWLnmM_BQcQSlnJSLYmP0YSZTycfIGZrghkqMngTQEzusXdetoxOjCn1fzrxkqs9msfwhf932YhKlmU1A2fRkT9JC_7ji-0-w9F7hS1fyGpRgIbKKUB9C9-QjhKUPZFbf/s320/20241219_085558.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZWGbg3rdELrFrcCfx32j4INwI4YtiRnonI-n-7qawueLZFKPeRpF9pl-QjB3WWLnmM_BQcQSlnJSLYmP0YSZTycfIGZrghkqMngTQEzusXdetoxOjCn1fzrxkqs9msfwhf932YhKlmU1A2fRkT9JC_7ji-0-w9F7hS1fyGpRgIbKKUB9C9-QjhKUPZFbf/s4000/20241219_085558.jpg)

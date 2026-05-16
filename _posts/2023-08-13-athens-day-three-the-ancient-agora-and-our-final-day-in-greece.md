@@ -6,6 +6,10 @@ categories:
 order: 19
 tags:
   - Greece
+location:
+  name: "Ancient Agora, Athens"
+  lat: 37.9748
+  lng: 23.7233
 ---
 
 Our first item on the agenda today was the Ancient Agora. We had breakfast (delicious once again) I had a little cereal on the side called mini churros haha!

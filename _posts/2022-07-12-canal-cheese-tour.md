@@ -6,6 +6,10 @@ categories:
 order: 89
 tags:
   - The Netherlands
+location:
+  name: "Amsterdam, Netherlands"
+  lat: 52.3676
+  lng: 4.9041
 ---
 
 It was time for our riverboat tour! We were so glad that we waited for the later tour because it was covered, filled with cheese, and a more upscale crowd.

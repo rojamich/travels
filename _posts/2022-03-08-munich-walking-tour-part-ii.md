@@ -6,6 +6,10 @@ categories:
 order: 62
 tags:
   - Germany
+location:
+  name: "Munich, Germany"
+  lat: 48.1351
+  lng: 11.582
 ---
 
 We got turned around again looking for the Jewish Synagogue (the street signs are virtually nonexistent and very few landmarks to help). We were able to locate it here.

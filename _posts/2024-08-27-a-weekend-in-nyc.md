@@ -6,6 +6,10 @@ categories:
 order: 2
 tags:
   - New York
+location:
+  name: "New York City"
+  lat: 40.7128
+  lng: -74.006
 ---
 
 After an easy 5 hour flight from PDX, we arrived in NYC ahead of schedule! The weather was a surprisingly cool 80 degrees and we headed to our hotel straight away. This was a much easier feat than we are used to because we are traveling with only one backpack each! We ALMOST made it to our hotel when two doors down we spotted a scrumptious Ramen spot and were seated right away. Just ahead of me becoming hangry :P

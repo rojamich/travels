@@ -6,6 +6,10 @@ categories:
 order: 18
 tags:
   - Japan
+location:
+  name: "Hiroshima, Japan"
+  lat: 34.3853
+  lng: 132.4553
 ---
 
 While we enjoyed Osaka the previous day, we debated what our last day in Japan would hold. Every evening, we reviewed the next day's itinerary, got excited for things to come, and planned. We concluded that our return to Japan in the future would be entirely too long from now to miss a trip to Hiroshima.

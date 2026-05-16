@@ -6,6 +6,10 @@ categories:
 order: 40
 tags:
   - Italy
+location:
+  name: "Florence, Italy"
+  lat: 43.7696
+  lng: 11.2558
 ---
 
 This morning we ate at the Rivori and it was nowhere near as good as Ginos. If you go to Florence, get some Ginos pastries please! However, during breakfast a woman came over to Mike and told him she initially mistook us for Ben Affleck and Jennifer Garner. Not a bad way to start the day but Mike is way more attractive!

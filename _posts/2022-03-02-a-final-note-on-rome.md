@@ -6,6 +6,10 @@ categories:
 order: 56
 tags:
   - Italy
+location:
+  name: "Rome, Italy"
+  lat: 41.9028
+  lng: 12.4964
 ---
 
 Some things we wish we had done/known for Rome.

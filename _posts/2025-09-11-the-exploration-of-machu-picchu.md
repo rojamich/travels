@@ -6,6 +6,10 @@ categories:
 order: 12
 tags:
   - Peru
+location:
+  name: "Machu Picchu, Peru"
+  lat: -13.1631
+  lng: -72.545
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0m9kIAOnS9SI-WDt9NyAadAVmezGCw95B7bfNHsSO1MJkgOC0FrWgZV1CJLk2YaQmoihg7YL7a56BvpBfPcNtG6ODNWV49l74vOCzAP6ADyrJy8a2ArxU_2ARr6Jnse6Gchl66bHSAs2wl62ziZX9P38ZLktUdUMKYykqdGyJKQwRfaibuYuA02XRu6I/s320/1000045395.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0m9kIAOnS9SI-WDt9NyAadAVmezGCw95B7bfNHsSO1MJkgOC0FrWgZV1CJLk2YaQmoihg7YL7a56BvpBfPcNtG6ODNWV49l74vOCzAP6ADyrJy8a2ArxU_2ARr6Jnse6Gchl66bHSAs2wl62ziZX9P38ZLktUdUMKYykqdGyJKQwRfaibuYuA02XRu6I/s4000/1000045395.jpg)

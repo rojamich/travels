@@ -6,6 +6,10 @@ categories:
 order: 6
 tags:
   - Vietnam
+location:
+  name: "Cu Chi Tunnels, Vietnam"
+  lat: 11.1421
+  lng: 106.4636
 ---
 
 We got an early morning workout in before our all-day tour this morning! I think we were too excited to sleep late because we were going to see the Cu Chi Tunnels today! Mike probably watched a dozen Vietnam War documentaries leading up to this trip. Every trip we go on, he absorbs the history to prepare - so nerdy and cute! Our tour guide (Aurora) arrived early, just as the coffee shop downstairs opened. We found out this was going to be a private tour - just the two of us! WHAT! What a wonderful surprise! No big van, no waiting for anyone, just us and our 100,000 questions!

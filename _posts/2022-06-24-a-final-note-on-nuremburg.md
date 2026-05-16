@@ -6,6 +6,10 @@ categories:
 order: 78
 tags:
   - Germany
+location:
+  name: "Nuremberg, Germany"
+  lat: 49.4521
+  lng: 11.0767
 ---
 
 Some things we wish we had done/known for Nuremburg.

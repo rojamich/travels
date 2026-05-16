@@ -6,6 +6,10 @@ categories:
 order: 13
 tags:
   - Japan
+location:
+  name: "Kyoto, Japan"
+  lat: 35.0247
+  lng: 135.795
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWOdyFnxwtMrVX21M3IonHMVpYhIokRVTgBqrXsmEnX-7J1QCI4EGwG2awaVOAq1HLnqP3YDbX9OvjdCNcDQCP9pEbGfIB64_C89aMUes63zNBcTArLEY7ibp3AEM4lBgkZi_glVp8SsBVixKFIVgsRHmeHSKvT3RCvhyr7oJGNVEWBvKplrD0904-gS2V/s320/20241222_074048.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWOdyFnxwtMrVX21M3IonHMVpYhIokRVTgBqrXsmEnX-7J1QCI4EGwG2awaVOAq1HLnqP3YDbX9OvjdCNcDQCP9pEbGfIB64_C89aMUes63zNBcTArLEY7ibp3AEM4lBgkZi_glVp8SsBVixKFIVgsRHmeHSKvT3RCvhyr7oJGNVEWBvKplrD0904-gS2V/s4000/20241222_074048.jpg)

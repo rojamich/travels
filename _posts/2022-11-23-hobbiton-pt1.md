@@ -6,6 +6,10 @@ categories:
 order: 7
 tags:
   - North Island
+location:
+  name: "Hobbiton, New Zealand"
+  lat: -37.8721
+  lng: 175.6831
 ---
 
 We were finally making a dream come true! [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEqwjtaxDzETtCykuVh-ZkiqFrdOIMgnb95ZGaxFluy8DQe_fuoR96IXAV1oOBvacwUPHpfDKrZUC4ZMTgAszUELOEilDRs0hbAj_i9pDJyDUqco3ltHOUru_D0jvgiKIiya5Vw7-v-egtV7RywuENG7_kE91k_KMDy1hAv7oqzdcrYTiv4asuTCtRmg/w161-h189/20221117_171618.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEqwjtaxDzETtCykuVh-ZkiqFrdOIMgnb95ZGaxFluy8DQe_fuoR96IXAV1oOBvacwUPHpfDKrZUC4ZMTgAszUELOEilDRs0hbAj_i9pDJyDUqco3ltHOUru_D0jvgiKIiya5Vw7-v-egtV7RywuENG7_kE91k_KMDy1hAv7oqzdcrYTiv4asuTCtRmg/s3563/20221117_171618.jpg)

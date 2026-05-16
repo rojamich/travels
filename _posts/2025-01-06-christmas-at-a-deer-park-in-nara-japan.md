@@ -6,6 +6,10 @@ categories:
 order: 16
 tags:
   - Japan
+location:
+  name: "Nara Deer Park, Japan"
+  lat: 34.6851
+  lng: 135.8048
 ---
 
 This was a day I'd been so excited for and it was just that more magical that it fell on Christmas day. There is a deer park in Nara, Japan where you can go and feed deer by hand, Disney princess status!

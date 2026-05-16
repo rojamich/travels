@@ -6,6 +6,10 @@ categories:
 order: 12
 tags:
   - South Africa
+location:
+  name: "Kruger National Park, South Africa"
+  lat: -23.9884
+  lng: 31.5547
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTNgeZwpZ4sLCRWZhdam2ryVP4M0C5TjKtlRh4VlmbdOqeTLNx6Ndz7sVGECRe9jqIj51gXCFVKPKYolphdDZUgCHSZGXqSv1zvSOsveK-PhnePqoDFItu4-w0p_urGDbuVAkY8Urb5dDCwAJlsz0p_1TPxa3rzmMXqR7a3uT_YA1AxLYTCsLwslKHIOs/w200-h150/20240904_073013.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTNgeZwpZ4sLCRWZhdam2ryVP4M0C5TjKtlRh4VlmbdOqeTLNx6Ndz7sVGECRe9jqIj51gXCFVKPKYolphdDZUgCHSZGXqSv1zvSOsveK-PhnePqoDFItu4-w0p_urGDbuVAkY8Urb5dDCwAJlsz0p_1TPxa3rzmMXqR7a3uT_YA1AxLYTCsLwslKHIOs/s3751/20240904_073013.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKCVsFvCd0TliL4It2Lby84K7GWzKWZiHVligTFsj7iNZDVyM0BpToz5GPLF_z0AlcOaiHLUjGitrSEgVWR77fiLI7lG2f-1DFmzXR0ruodaaAERR9FbZdwYNV_zadsr74bON3_zYHmJMjy5ceM1U2cWVwlsGh4cO7rrzpF3TfyyYLUtq3XODiHodf5iw/w200-h150/20240904_073007.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKCVsFvCd0TliL4It2Lby84K7GWzKWZiHVligTFsj7iNZDVyM0BpToz5GPLF_z0AlcOaiHLUjGitrSEgVWR77fiLI7lG2f-1DFmzXR0ruodaaAERR9FbZdwYNV_zadsr74bON3_zYHmJMjy5ceM1U2cWVwlsGh4cO7rrzpF3TfyyYLUtq3XODiHodf5iw/s4000/20240904_073007.jpg)

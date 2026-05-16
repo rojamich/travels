@@ -6,6 +6,10 @@ categories:
 order: 27
 tags:
   - France
+location:
+  name: "Versailles, France"
+  lat: 48.8048
+  lng: 2.1203
 ---
 
 We woke bright and early the next morning to try and catch the first train to Versailles!

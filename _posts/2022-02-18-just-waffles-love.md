@@ -6,6 +6,10 @@ categories:
 order: 16
 tags:
   - Belgium
+location:
+  name: "Brussels, Belgium"
+  lat: 50.8503
+  lng: 4.3517
 ---
 
 Now that we were properly hungry again, we wanted a less-crowded photo with manneken-pis and a couple of waffles! We searched and searched for the perfect waffle place. Cash only, not enough topping choices, genital-shaped?! We finally found the right place where I got a half-nutella and half-caramel one!! I never thought to put caramel on a waffle but it was exquisite! Mike got a waffle topped with strawberries, bananas, whip cream and hot fudge! In true Michael fashion, his fork broke early into the feast and he tried to continue eating it like toast would be consumed. Naturally, this ended up on/in his beard, on his face, on his neck somehow, and then the toppings falling off completely😂

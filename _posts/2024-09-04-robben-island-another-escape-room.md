@@ -6,6 +6,10 @@ categories:
 order: 9
 tags:
   - South Africa
+location:
+  name: "Robben Island, Cape Town"
+  lat: -33.8067
+  lng: 18.3661
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmrIdZkuqCMiBj0m_EMgk1xER1NODMAw11g3456xssBOdI83xqGgLKEzbdSRCTLlWVSuUrGAx-HleaDovUjt-rkI_Me9CDvlJ-kwpEu4uF0diay0YsFXVE7iiSj6JnlJX5xt4gFj3PdpxPp0uKS0haAvPJGuUf41tu6tiLn15sMVBUKDisw3bq8doMGcM/s320/20240901_072427.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmrIdZkuqCMiBj0m_EMgk1xER1NODMAw11g3456xssBOdI83xqGgLKEzbdSRCTLlWVSuUrGAx-HleaDovUjt-rkI_Me9CDvlJ-kwpEu4uF0diay0YsFXVE7iiSj6JnlJX5xt4gFj3PdpxPp0uKS0haAvPJGuUf41tu6tiLn15sMVBUKDisw3bq8doMGcM/s4000/20240901_072427.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsqk2YX2mbSqYzy8-Zo7mVaYjFoPMTU2Kn0jb0HXa3gs9Gz_KQEZyHQslGNmPJhFYjYIWcZBxKQXd1k0Py6K5e-DxZSIx4mlmZprOCaGObZhJOKrunSq14ZRs0lRdnzBninqT6Z7Dgsg2tlIAHRIBP5Rke8RS-rmZ8K5WIDXywPbPTIt_166LxXSDGkvw/s320/20240901_072423.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsqk2YX2mbSqYzy8-Zo7mVaYjFoPMTU2Kn0jb0HXa3gs9Gz_KQEZyHQslGNmPJhFYjYIWcZBxKQXd1k0Py6K5e-DxZSIx4mlmZprOCaGObZhJOKrunSq14ZRs0lRdnzBninqT6Z7Dgsg2tlIAHRIBP5Rke8RS-rmZ8K5WIDXywPbPTIt_166LxXSDGkvw/s4000/20240901_072423.jpg)

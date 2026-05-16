@@ -6,6 +6,10 @@ categories:
 order: 25
 tags:
   - France
+location:
+  name: "Paris, France"
+  lat: 48.8566
+  lng: 2.3522
 ---
 
 We continued to walk through town and found my favorite view of the tower!

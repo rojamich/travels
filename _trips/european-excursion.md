@@ -1,9 +1,9 @@
 ---
 title: "European Excursion"
 description: "A months-long European tour — London, Brussels, Paris, Italy, Germany, and Amsterdam."
-cover: https://blogger.googleusercontent.com/img/a/AVvXsEgp1D-90LnTQQCfWx1uUoZSONwxMUKWkk-qmvkFJVo0sq3XTx_CfIdjDeccPlC8YiaFFsNUOfRGSrdXfY9mgdMjQIITrcsNb6vFe1VrOC4lK0lqFmZPQqFhcMdN71tpuj6tGg9shsoNY2aReqpmnPCRz2pyFO8vb1KeyoFjTDW045A1ou9stIrBO1BE=s320
-start_date: 2022-01-27
-end_date: 2022-11-13
+cover: https://blogger.googleusercontent.com/img/a/AVvXsEjDGlbsvwmJh7NwpZEN9_2PKUY3exVzdOG-S-Vzqboi_CxTaxtzXlXjdGQVEQtND0h-nRxlJrCsuyDzpdiu5OziSTYO5WVNct0jygBXvSTdl2j0yFgGHOXGP0-dbhepi-dLLJNYA7JagJdyQPREQFrG27fb18HCvKj0csGrK9hpbeo1J6idVJ_ikeDt=w293-h220
+start_date: 2021-02-06
+end_date: 2021-03-18
 location: "Europe (UK → Belgium → France → Italy → Germany → Netherlands)"
 lat: 48.8566
 lng: 2.3522

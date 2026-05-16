@@ -7,6 +7,10 @@ order: 18
 tags:
   - Zimbabwe
   - South Africa
+location:
+  name: "Johannesburg, South Africa"
+  lat: -26.2041
+  lng: 28.0473
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI6-dDm21OfnOIIsTmSRv62RjDWcHsrI3Ro1qPrWP1vh6SRo5XXmcjZdnjvs0235RVubdGMWkwTMxLrcidaoHEO8KP6ujRV1t9uef-GrsF1z_Rd95MxRXZH9zKMw3oVoiVBLpIECYEzAF1M2pUyaAS1-2A8i8G2rS3oMMlDy2JtPUCYcPxFa0rZH7MhyM/s320/20240911_064100.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI6-dDm21OfnOIIsTmSRv62RjDWcHsrI3Ro1qPrWP1vh6SRo5XXmcjZdnjvs0235RVubdGMWkwTMxLrcidaoHEO8KP6ujRV1t9uef-GrsF1z_Rd95MxRXZH9zKMw3oVoiVBLpIECYEzAF1M2pUyaAS1-2A8i8G2rS3oMMlDy2JtPUCYcPxFa0rZH7MhyM/s4000/20240911_064100.jpg)

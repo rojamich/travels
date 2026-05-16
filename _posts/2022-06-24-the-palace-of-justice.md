@@ -6,6 +6,10 @@ categories:
 order: 76
 tags:
   - Germany
+location:
+  name: "Nuremberg, Germany"
+  lat: 49.4521
+  lng: 11.0767
 ---
 
 We found a chocolate place while walking around (I was still searching for a passable knock-off of our Belgian truffles) and we found an intimate store filled with chocolate but a woman who spoke ZERO English! Mike did so well explaining to her what chocolates we wanted and how many. She asked where we were from (Mike had just studied this expression and was able to recognize it!) It was really awesome to see him being able to communicate in the language he worked so hard to study to get there. As we wrapped up our purchase, she told him he spoke German beautifully and my heart swelled with pride!

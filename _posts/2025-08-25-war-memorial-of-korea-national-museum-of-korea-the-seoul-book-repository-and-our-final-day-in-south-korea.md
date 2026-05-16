@@ -6,6 +6,10 @@ categories:
 order: 24
 tags:
   - South Korea
+location:
+  name: "Seoul, South Korea"
+  lat: 37.5665
+  lng: 126.978
 ---
 
 Our last day in South Korea really snuck up on us, and I was not prepared to leave this amazing country. I hadn't expected to thoroughly enjoy it here so much, but I really hope we can live here one day while we are nomads traveling abroad! A big part we missed was Busan, in Southern South Korea. A good place for beaches and diving!

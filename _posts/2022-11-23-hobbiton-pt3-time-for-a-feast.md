@@ -6,6 +6,10 @@ categories:
 order: 9
 tags:
   - North Island
+location:
+  name: "Hobbiton, New Zealand"
+  lat: -37.8721
+  lng: 175.6831
 ---
 
 It was really cool to watch the doors of the Green Dragon swing open to greet us for the feast! They had cozy fireplaces, free beverages, and we even got to dress up as hobbits!

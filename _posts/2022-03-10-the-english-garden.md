@@ -6,6 +6,10 @@ categories:
 order: 65
 tags:
   - Germany
+location:
+  name: "Munich, Germany"
+  lat: 48.1351
+  lng: 11.582
 ---
 
 The next morning, we wisely stayed in to avoid the overly cold and just enjoyed our hotel room. Our location was great with downtown not being far, coffee close to the room with the train station so everything was pretty much walkable or metro-able. The metro here was great! Very clean, efficient, well-lit and comfortable. The only downside was figuring out the ticketing system. There are single passes, day passes, weekend passes, monthly passes, strip tickets and each one has a zone connected to it. So, if you travel outside the zone, you could be ticketed! This is also all on the honor system. There isn’t a ticketing machine to get into the metro. But they do random spot checks so you’d better be right!

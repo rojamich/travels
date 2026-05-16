@@ -6,6 +6,10 @@ categories:
 order: 4
 tags:
   - Japan
+location:
+  name: "Mt Fuji, Japan"
+  lat: 35.3606
+  lng: 138.7274
 ---
 
 After a full night of sleep, we were bursting with excitement and ready to explore! Today's adventure would take us to Kamakura, Hasedera, and Enoshima. 

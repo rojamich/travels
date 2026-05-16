@@ -6,6 +6,10 @@ categories:
 order: 59
 tags:
   - Germany
+location:
+  name: "Munich, Germany"
+  lat: 48.1351
+  lng: 11.582
 ---
 
 An eight-hour train ride brought with it some beautiful views! We saw the northern Italian countryside and wove through the Austrian Alps! I finished writing about Venice and Pisa and nearly finished the book I had purchased in London.

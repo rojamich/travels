@@ -6,6 +6,10 @@ categories:
 order: 51
 tags:
   - Italy
+location:
+  name: "Rome, Italy"
+  lat: 41.9028
+  lng: 12.4964
 ---
 
 We continued on to the Pantheon! I had pictured its insides to be like the one we saw in Paris but it was vastly different! It is called the Pantheon because it was said to be dedicated to the worship of all (pan) the gods (theon). It was impressive in size and held multiple coffins inside! It is said to have the second-largest dome in the world! Can you guess where the first-largest is? See the bottom of this post for the answer!

@@ -6,6 +6,10 @@ categories:
 order: 13
 tags:
   - North Island
+location:
+  name: "Huka Falls, NZ"
+  lat: -38.6406
+  lng: 176.0884
 ---
 
 After the terrifying and seemingly near-death experience we had bungee jumping, a calm and beautiful walk around Huka Falls was in order. We walked across the bridge and were stunned into silence by the brilliant colors!

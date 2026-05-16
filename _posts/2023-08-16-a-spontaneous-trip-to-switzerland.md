@@ -6,6 +6,10 @@ categories:
 order: 23
 tags:
   - Switzerland
+location:
+  name: "Lugano, Switzerland"
+  lat: 46.0037
+  lng: 8.951
 ---
 
 Yes, after the casual mention of a day trip to Switzerland was made by our Airbnb host, we sprung into action to make it happen the next day.

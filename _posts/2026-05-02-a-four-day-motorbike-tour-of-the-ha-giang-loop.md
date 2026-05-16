@@ -6,6 +6,10 @@ categories:
 order: 17
 tags:
   - Vietnam
+location:
+  name: "Ha Giang, Vietnam"
+  lat: 22.8233
+  lng: 104.9844
 ---
 
 This was totally worth waking up early for!! We finally got the cute little takeaway carriers for our coffee! Naturally, we started the day with this delightful treat and walked to the meeting point for the tour. 

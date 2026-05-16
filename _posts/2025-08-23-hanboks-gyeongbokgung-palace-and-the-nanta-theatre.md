@@ -6,6 +6,10 @@ categories:
 order: 21
 tags:
   - South Korea
+location:
+  name: "Gyeongbokgung Palace, Seoul"
+  lat: 37.5796
+  lng: 126.977
 ---
 
 Spoiler alert! This day offered one of my all-time favorite travel experiences! You'll see why in just a few minutes!

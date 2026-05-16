@@ -6,6 +6,10 @@ categories:
 order: 55
 tags:
   - Italy
+location:
+  name: "Rome, Italy"
+  lat: 41.9028
+  lng: 12.4964
 ---
 
 We got back to the room with enough time to finish planning Germany and pack most of our things for the trip to Venice the next day. Mike found us an Italian escape room across town, the only thing I was nervous about was…taking the bus! And I was right to be nervous! The bus line we wanted never came. We waited and waited until we were forced to try another one. Everyone pushed onto the bus until we were packed like sardines in a can. This would be a fun thirty minute ride… At least no one touched anything they shouldn’t or even smelled! The downside was I was starting to get pretty nauseous. The bus was gentrified and the ride was miserable.

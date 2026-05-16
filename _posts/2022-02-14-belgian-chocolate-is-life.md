@@ -6,6 +6,10 @@ categories:
 order: 13
 tags:
   - Belgium
+location:
+  name: "Brussels, Belgium"
+  lat: 50.8503
+  lng: 4.3517
 ---
 
 We arrived in Brussels and left the train station only to be immersed in the sketchiest area of the city. (If you visit, definitely arrive in Brussels – Nord, NOT Brussels – Midi-Zuid. There was graffiti everywhere, gentrification, and some of the angriest looking people you’ll see there. Thankfully, once you get closer to the city center, the buildings are ornate and the people are extremely friendly. 

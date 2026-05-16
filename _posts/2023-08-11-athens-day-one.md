@@ -6,6 +6,10 @@ categories:
 order: 17
 tags:
   - Greece
+location:
+  name: "Athens, Greece"
+  lat: 37.9838
+  lng: 23.7275
 ---
 
 We woke up early and packed our bags for another travel day! We were greeted this morning by a beautiful sunrise!

@@ -6,6 +6,10 @@ categories:
 order: 27
 tags:
   - England
+location:
+  name: "London, UK"
+  lat: 51.5074
+  lng: -0.1278
 ---
 
 I woke up this morning bright-eyed and bushy-tailed. My throat still hurt but not as badly. I only had 6.5 hours of sleep but really wanted to get a workout in before the 9.5-hour flight. So I got my butt down to the actually nice gym (thanks Hilton!) And had myself a great workout and stretch session.  

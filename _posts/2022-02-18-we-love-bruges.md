@@ -6,6 +6,10 @@ categories:
 order: 17
 tags:
   - Belgium
+location:
+  name: "Bruges, Belgium"
+  lat: 51.2093
+  lng: 3.2247
 ---
 
 We decided to board the train from the Brussels-Nord station this time to save our lives (hey you would assume the other station would be even worse early in the darkness!) 

@@ -6,6 +6,10 @@ categories:
 order: 7
 tags:
   - Japan
+location:
+  name: "Shinjuku, Tokyo"
+  lat: 35.6938
+  lng: 139.7036
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBSv8pFueS3QTQWuqD-tgOJwAH45YP127FESeYnDSo6wRwEqAyioSmpuqMaTaGcLTvcA4MGiJNehRHaSdQi6FT0_IUjj3LexolvAOffKtTiEVX3KcxVIr4SrOV6vyGnvxAePJWQtZAQMeDqRXWIkf_ShIW0SvoJbnzwQxwvC1cjvHOpAtu7kIUnd7Cym0u/s320/20241216_061623.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBSv8pFueS3QTQWuqD-tgOJwAH45YP127FESeYnDSo6wRwEqAyioSmpuqMaTaGcLTvcA4MGiJNehRHaSdQi6FT0_IUjj3LexolvAOffKtTiEVX3KcxVIr4SrOV6vyGnvxAePJWQtZAQMeDqRXWIkf_ShIW0SvoJbnzwQxwvC1cjvHOpAtu7kIUnd7Cym0u/s4000/20241216_061623.jpg)

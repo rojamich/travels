@@ -6,6 +6,10 @@ categories:
 order: 69
 tags:
   - Germany
+location:
+  name: "Munich, Germany"
+  lat: 48.1351
+  lng: 11.582
 ---
 
 Some things we wish we had done/known for Munich.

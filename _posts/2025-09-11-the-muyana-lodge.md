@@ -6,6 +6,10 @@ categories:
 order: 11
 tags:
   - Peru
+location:
+  name: "Muyana Lodge, Amazon"
+  lat: -3.7437
+  lng: -73.2516
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiegza0ZKZ5E7th0uECFT-hi2NFZV66U4Ycyqxah2vNmS9nnZHEQmIDoMTN04RypnEwGPPWM-KQHKDRXmmOxHHPgriCqzQrCRn_2aJesqz0CpXU5bBA-E5zZ4__tfHBbwXszd1pgsOm0GBLqFHxfXUSfJuyMZAuybUXT9zQMi-QqrEYH1DMNK2_8ccPPRE/s320/20250907_123413.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiegza0ZKZ5E7th0uECFT-hi2NFZV66U4Ycyqxah2vNmS9nnZHEQmIDoMTN04RypnEwGPPWM-KQHKDRXmmOxHHPgriCqzQrCRn_2aJesqz0CpXU5bBA-E5zZ4__tfHBbwXszd1pgsOm0GBLqFHxfXUSfJuyMZAuybUXT9zQMi-QqrEYH1DMNK2_8ccPPRE/s4000/20250907_123413.jpg)

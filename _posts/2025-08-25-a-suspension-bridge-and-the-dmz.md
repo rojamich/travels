@@ -6,6 +6,10 @@ categories:
 order: 22
 tags:
   - South Korea
+location:
+  name: "DMZ, Korea"
+  lat: 37.9568
+  lng: 126.6776
 ---
 
 Today called for a bright and early wake-up for a tour to the DMZ! We were SO stoked to see this controversial site. We grabbed breakfast snacks from a nearby convenience store the night before because we knew nothing would be open before our early pickup that morning. We hustled out the door and to the meet spot a few blocks away at a subway entrance. Our tour bus was on time, and we climbed aboard the spacious seats!

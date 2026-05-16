@@ -6,6 +6,10 @@ categories:
 order: 15
 tags:
   - Italy
+location:
+  name: "Brindisi, Italy"
+  lat: 40.632
+  lng: 17.9362
 ---
 
 We tried looking into Brindisi a few times trying to find ANYTHING to do here but nothing ever came up. Mike and I elected to walk the city to see any sights available and ended up walking for nearly four hours!

@@ -6,6 +6,10 @@ categories:
 order: 61
 tags:
   - Germany
+location:
+  name: "Munich, Germany"
+  lat: 48.1351
+  lng: 11.582
 ---
 
 The next morning, we woke up and got going about 8am, not ready for the 24 degree weather that awaited us! Oh man I am not sure I’ve regained feeling in my fingers yet! 

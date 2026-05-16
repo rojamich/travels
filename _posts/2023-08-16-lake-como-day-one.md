@@ -6,6 +6,10 @@ categories:
 order: 22
 tags:
   - Italy
+location:
+  name: "Lake Como, Italy"
+  lat: 45.9594
+  lng: 9.2895
 ---
 
 There was no shortage of excitement this morning as we eagerly got ready for a day of travel to Lake Como. We are still managing to keep everything to two backpacks, purchasing the minimum amount of souvenirs (and the smallest ones at that!)

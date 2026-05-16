@@ -6,6 +6,10 @@ categories:
 order: 17
 tags:
   - North Island
+location:
+  name: "Rotorua Redwoods, NZ"
+  lat: -38.1368
+  lng: 176.2497
 ---
 
 When we planned this trip we were surprised to learn that the Redwood forests were introduced all over the world and are currently thriving right here in Rotorua! We found the perfect hike and went exploring the moment we got back from Gisborne!

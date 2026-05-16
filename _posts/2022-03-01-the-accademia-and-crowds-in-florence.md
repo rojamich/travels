@@ -6,6 +6,10 @@ categories:
 order: 41
 tags:
   - Italy
+location:
+  name: "Florence, Italy"
+  lat: 43.7696
+  lng: 11.2558
 ---
 
 This afternoon we were prepared to fight the rumored lines to see the statue of David in the Accademia Gallery! It was magnificent. Mike wanted _just_ the right shot, which impressed me!

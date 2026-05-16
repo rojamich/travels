@@ -6,6 +6,10 @@ categories:
 order: 15
 tags:
   - Belgium
+location:
+  name: "Brussels, Belgium"
+  lat: 50.8503
+  lng: 4.3517
 ---
 
 Most of our walking there consisted of gazing at the amazing architecture and how detailed and unique it felt to us. Below you will see the Royal Palace and some of the architecture.

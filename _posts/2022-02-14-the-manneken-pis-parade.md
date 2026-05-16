@@ -6,6 +6,10 @@ categories:
 order: 14
 tags:
   - Belgium
+location:
+  name: "Brussels, Belgium"
+  lat: 50.8458
+  lng: 4.3499
 ---
 
 We headed off in search of the Grand Place and found it really remarkable! It was like a city square surrounded by gold, decorative buildings.

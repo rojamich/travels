@@ -6,6 +6,10 @@ categories:
 order: 4
 tags:
   - London
+location:
+  name: "British Museum, London"
+  lat: 51.5194
+  lng: -0.127
 ---
 
 [![](https://blogger.googleusercontent.com/img/a/AVvXsEgVWDrOwVAtAgkhUlqCtDFliJU6ws0TnFemXPYoQ19XmTaWM2U7O6_35YGYcz1dy3VeH-7zDaHbN3ZRiuqyHZWVLf6KKc0Kadho5c3vXFn1-5vuZp_nW4JJJRvrZrkwUdCT6ciQqZk27ttf426-lNBnBY2WOb9yLopJfhXEjbt-dkn9xQryTxUP6cHu=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEgVWDrOwVAtAgkhUlqCtDFliJU6ws0TnFemXPYoQ19XmTaWM2U7O6_35YGYcz1dy3VeH-7zDaHbN3ZRiuqyHZWVLf6KKc0Kadho5c3vXFn1-5vuZp_nW4JJJRvrZrkwUdCT6ciQqZk27ttf426-lNBnBY2WOb9yLopJfhXEjbt-dkn9xQryTxUP6cHu=s3648)

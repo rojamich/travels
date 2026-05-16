@@ -6,6 +6,10 @@ categories:
 order: 2
 tags:
   - London
+location:
+  name: "London, UK"
+  lat: 51.5074
+  lng: -0.1278
 ---
 
 Our flight was roughly ten hours and painless! I was anticipating boredom and dead-legs with terrible sleep. Instead, the flight attendants were extraordinary and kept calling me “love”. Even when I somehow lost my butterknife for about 5 minutes😒. She cheered like I had kicked the wining field goal at the Superbowl when I had found it. For the record, someone broke a glass on the flight (we had real glass and silverware) and it wasn’t me!

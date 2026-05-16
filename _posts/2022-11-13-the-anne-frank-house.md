@@ -6,6 +6,10 @@ categories:
 order: 94
 tags:
   - The Netherlands
+location:
+  name: "Anne Frank House, Amsterdam"
+  lat: 52.3752
+  lng: 4.884
 ---
 
 It was our last morning in Amsterdam and I had somehow secured last-minute tickets to the Anne Frank Museum! They had entry tickets, entry + English intro, and entry + Dutch intro. I chose the Dutch intro and they had some left! We asked if we could just use those to enter and they allowed it! Hooray! They had an audio tour for each room and it was so heartbreaking and humbling to listen to what they went through. It was particularly difficult after reading her diary. You could take photos in certain areas of the museum but it didn’t feel right. I took a photo of the model of the bookcase used to block the door of the hiding place.

@@ -6,6 +6,10 @@ categories:
 order: 24
 tags:
   - France
+location:
+  name: "Paris, France"
+  lat: 48.8566
+  lng: 2.3522
 ---
 
 Our first morning in Paris, I woke up and went for a run towards the Eiffel Tower 😍 The water was a really blue and the bridges were so pedestrian friendly! 

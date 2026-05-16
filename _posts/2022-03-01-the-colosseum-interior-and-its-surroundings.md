@@ -6,6 +6,10 @@ categories:
 order: 48
 tags:
   - Italy
+location:
+  name: "Colosseum, Rome"
+  lat: 41.8902
+  lng: 12.4922
 ---
 
 After completing photo time, we realized no one was in line to see the Colosseum yet – it was about 820am and they didn’t open til 9am. We were expecting our longest line yet! But nothing yet, so we rushed around the area looking for headphones. After about four stops we found a shop with headphones, only to see they were only iPhone compatible. Oh brother. We would have to make do without them. 

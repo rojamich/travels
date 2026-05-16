@@ -6,6 +6,10 @@ categories:
 order: 46
 tags:
   - Italy
+location:
+  name: "Rome, Italy"
+  lat: 41.9028
+  lng: 12.4964
 ---
 
 Another amazing train ride. While it was more jerky, and less nice of a train, the actual scenery was brilliant! We went along the coast of Italy from Pisa, to Rome! The water is so turquoise and beautiful, I really hope we return to dive in the summer, some day. Towards the end of the ride, it began pouring and we had a lightening and thunderstorm streaking across our windows! It was really beautiful and inspiring to write to. I was able to finish documenting our whole trip to Florence on the train and relive its majesty. 

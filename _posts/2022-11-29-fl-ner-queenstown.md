@@ -6,6 +6,10 @@ categories:
 order: 19
 tags:
   - South Island
+location:
+  name: "Queenstown, NZ"
+  lat: -45.0312
+  lng: 168.6626
 ---
 
 After struggling to pull myself away from the view at our Airbnb

@@ -6,6 +6,10 @@ categories:
 order: 17
 tags:
   - Zimbabwe
+location:
+  name: "Zambezi River, Zimbabwe"
+  lat: -17.9244
+  lng: 25.8367
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTWmUlWse8UNrJjE9EP8PFG1NBX6B30V1lUM7FJSPmehmz1mvhEzGy-gDGD4cvxVZCjZdYXSQJHZ6tZsbjz3H2C9ryeTUitFA8odrXtlPwzEwTNoRy7R6lAqoYcHMNQ4CXzesYkbrAkXaOkwfVLEpm1NE0kEDOfA-Rpko3hxtFRPbcdXwgLufoZU9dpL8/s320/20240910_060039.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTWmUlWse8UNrJjE9EP8PFG1NBX6B30V1lUM7FJSPmehmz1mvhEzGy-gDGD4cvxVZCjZdYXSQJHZ6tZsbjz3H2C9ryeTUitFA8odrXtlPwzEwTNoRy7R6lAqoYcHMNQ4CXzesYkbrAkXaOkwfVLEpm1NE0kEDOfA-Rpko3hxtFRPbcdXwgLufoZU9dpL8/s4000/20240910_060039.jpg)

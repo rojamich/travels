@@ -6,6 +6,10 @@ categories:
 order: 28
 tags:
   - France
+location:
+  name: "Sainte-Chappelle, Paris"
+  lat: 48.8554
+  lng: 2.345
 ---
 
 We had extra time after visiting Versailles so we made our way to Sainte-Chappelle. This 13th Century Chapel was really beautiful! I didn’t anticipate it being as gorgeous as the photos but it really exceeded expectations! This location is guarded by military too! The individual window panes each told a different story from different books in the bible. There were placards at the entrance that explained each story in a variety of languages! The final window pane is called the rose. 

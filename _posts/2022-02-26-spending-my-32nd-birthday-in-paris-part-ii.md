@@ -6,6 +6,10 @@ categories:
 order: 31
 tags:
   - France
+location:
+  name: "Paris, France"
+  lat: 48.8566
+  lng: 2.3522
 ---
 
 We rested briefly in our room before setting off for the Montparnasse Tower for some evening ice skating! It was so windy and lightly sprinkling but I loved every minute of it! The view from there at night is truly gorgeous. It’s the perfect spot to see the Eiffel Tower and Paris lit up at night (just after our hotel room!)

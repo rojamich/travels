@@ -6,6 +6,10 @@ categories:
 order: 8
 tags:
   - North Island
+location:
+  name: "Hobbiton, New Zealand"
+  lat: -37.8721
+  lng: 175.6831
 ---
 
 They gave us enough time to see each of the hobbit holes and take photos thankfully because each was so unique!

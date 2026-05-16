@@ -6,6 +6,10 @@ categories:
 order: 8
 tags:
   - London
+location:
+  name: "Stonehenge, UK"
+  lat: 51.1789
+  lng: -1.8262
 ---
 
 The train ride was beautiful and allowed us to see the English countryside. We arrived in Salisbury and it was an extraordinary and adorable little town! Here we caught the bus out to Stonehenge which you could actually drive right up to, if you had a car!

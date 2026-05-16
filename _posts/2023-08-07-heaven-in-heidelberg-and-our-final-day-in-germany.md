@@ -6,6 +6,10 @@ categories:
 order: 11
 tags:
   - Germany
+location:
+  name: "Heidelberg, Germany"
+  lat: 49.3988
+  lng: 8.6724
 ---
 
 We went into this day with high expectations and hopes and Heidelberg met every one of them! After breakfast (there must've been a lot of new birds out to watch) 

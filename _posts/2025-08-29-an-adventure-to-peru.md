@@ -4,6 +4,10 @@ date: 2025-08-29
 categories:
   - peruvian-passage
 order: 2
+location:
+  name: "Lima, Peru"
+  lat: -12.0464
+  lng: -77.0428
 ---
 
 Welcome back everyone!

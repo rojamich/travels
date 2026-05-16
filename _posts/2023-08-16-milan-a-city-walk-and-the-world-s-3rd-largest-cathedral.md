@@ -6,6 +6,10 @@ categories:
 order: 21
 tags:
   - Italy
+location:
+  name: "Milan, Italy"
+  lat: 45.4642
+  lng: 9.19
 ---
 
 Good morning Italy! So happy to be back in your sweet embrace! Granted, Milan does not feel "as Italian" as Venice, Rome, Brindisi, Florence, or Venice but it's at least got the same food!

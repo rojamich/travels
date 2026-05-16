@@ -6,6 +6,10 @@ categories:
 order: 15
 tags:
   - Vietnam
+location:
+  name: "Ban Gioc Waterfall, Vietnam"
+  lat: 22.853
+  lng: 106.7233
 ---
 
 The next morning began with an early wake-up, before the sun! I was eager to get some exercise in before the rest of the tour started, so I headed downstairs to the little park to practice dancing!

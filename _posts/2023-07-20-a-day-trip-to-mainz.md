@@ -6,6 +6,10 @@ categories:
 order: 2
 tags:
   - Germany
+location:
+  name: "Mainz, Germany"
+  lat: 49.9929
+  lng: 8.2473
 ---
 
 This beautiful morning we planned to travel to Mainz, Germany! We feared the weather during our trip here would be brutal (and we have no air condinitioning!) but thankfully its been in the 50s to 70s!

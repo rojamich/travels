@@ -7,6 +7,10 @@ order: 19
 tags:
   - South Korea
   - Japan
+location:
+  name: "Kobe, Japan"
+  lat: 34.6901
+  lng: 135.1955
 ---
 
 Boy howdy, thank you for your patience! While we were in Tokyo I hurt my back and as soon as we got home - I got sick! It's taking me forever to write this and I'm sorry :(

@@ -6,6 +6,10 @@ categories:
 order: 25
 tags:
   - Italy
+location:
+  name: "Lake Como, Italy"
+  lat: 45.9594
+  lng: 9.2895
 ---
 
 Disclaimer: I love paddleboarding. It's fun, it's a good workout, and I usually do it in some beautiful places. Mike does not like paddleboarding, he prefers kayaking. I tried to talk him into kayaking while I paddleboarded but he wanted to try paddleboarding with me. It was nothing short of entertaining!

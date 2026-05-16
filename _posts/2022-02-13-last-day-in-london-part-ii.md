@@ -6,6 +6,10 @@ categories:
 order: 11
 tags:
   - London
+location:
+  name: "London, UK"
+  lat: 51.5074
+  lng: -0.1278
 ---
 
 What was supposed to be our last stop of the day was the Imperial War Museum! It had SO MUCH information! I learned a ton! This museum needs about 5 hours set aside to fully see everything (at the rate we were going- one floor an hour). I wish we could’ve seen everything!

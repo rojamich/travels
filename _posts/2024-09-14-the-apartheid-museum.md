@@ -6,6 +6,10 @@ categories:
 order: 19
 tags:
   - South Africa
+location:
+  name: "Apartheid Museum, Johannesburg"
+  lat: -26.236
+  lng: 28.0107
 ---
 
 The next morning we woke feeling rested and ready for the day! The hotel gym was literally across the hall and we got a good workout in right way. It felt fabulous to exercise again.

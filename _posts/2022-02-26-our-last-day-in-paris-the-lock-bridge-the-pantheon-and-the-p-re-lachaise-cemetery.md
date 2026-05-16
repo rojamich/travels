@@ -6,6 +6,10 @@ categories:
 order: 33
 tags:
   - France
+location:
+  name: "Pantheon, Paris"
+  lat: 48.8462
+  lng: 2.3464
 ---
 
 Being the romantic man that he is, we walked over to the Lock Bridge that I was so longing to go to after seeing Leslie Knope go there in an episode of Parks & Recreation. Unfortunately, due to the bridge’s construction restraints, no locks are allowed to be attached to the bridge. They have all been removed and plexiglass placed over the bridge parts. So, we found a loop hole. Ours is the bright gold one nearest me. We attached it, took a photo, and brought it back with us to hang as an ornament on our Christmas tree.

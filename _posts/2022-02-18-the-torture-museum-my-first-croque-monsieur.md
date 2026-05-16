@@ -6,6 +6,10 @@ categories:
 order: 19
 tags:
   - Belgium
+location:
+  name: "Bruges, Belgium"
+  lat: 51.2093
+  lng: 3.2247
 ---
 
 Mike found a freaking cool and morbid torture museum here in Bruges that was meticulously thorough regarding the methods of torture used, the era it was used in, and the crimes that were severe enough to qualify for torture. It was really interesting to learn about how some countries actually had standards you had to meet to torture someone regarding eye witnesses and circumstantial evidence. The museum was actually inside a historical prison!

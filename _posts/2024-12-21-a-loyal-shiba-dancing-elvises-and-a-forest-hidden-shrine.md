@@ -6,6 +6,10 @@ categories:
 order: 6
 tags:
   - Japan
+location:
+  name: "Shibuya, Tokyo"
+  lat: 35.658
+  lng: 139.7016
 ---
 
 Finally a quiet and easy morning! We slept in, had our yummy 7/11 breakfast, and took advantage of our hotel gym (it even has enough space for yoga and dance!) After putting away the laundry (there's an in-room washing machine!), we set out for a day of exploring closer to us (Shibuya and surrounding areas). 

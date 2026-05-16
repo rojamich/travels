@@ -7,6 +7,10 @@ order: 20
 tags:
   - USA
   - South Africa
+location:
+  name: "Johannesburg, South Africa"
+  lat: -26.2041
+  lng: 28.0473
 ---
 
 After a fitful night of sleep I woke feeling unrested - I suspect I was worried about the laundry. This was fine by me as I hoped it would ensure lots of sleep on our flights! We walked over to the mall and grabbed coffee and donuts to enjoy on the hotel balcony this morning as a nice endcap to our journey.

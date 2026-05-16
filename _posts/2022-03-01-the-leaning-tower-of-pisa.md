@@ -6,6 +6,10 @@ categories:
 order: 43
 tags:
   - Italy
+location:
+  name: "Pisa, Italy"
+  lat: 43.7228
+  lng: 10.4017
 ---
 
 We caught an early morning train out of Florence to Pisa, Italy. It was hard to leave the gorgeous city filled with amazing gelato, delicious pasta and friendly people. It was everything I wanted out of Italy and more than I could have asked for. As we got closer to Pisa, we were reminded of the likelihood of a downpour that day and, sure enough, it was raining when we got off the train! We went in search of a luggage storage locker as we had to bring everything with us. We were set to travel from Pisa straight into Rome.

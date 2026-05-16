@@ -6,6 +6,10 @@ categories:
 order: 5
 tags:
   - Germany
+location:
+  name: "Dusseldorf, Germany"
+  lat: 51.2277
+  lng: 6.7735
 ---
 
 Wowzers, what a day! We got an earlier start for the longer travel day up to Dusseldorf from Bad Homburg and brought our books with us on the lovely train ride which wove through a nice forested area, what a great surprise!

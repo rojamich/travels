@@ -6,6 +6,10 @@ categories:
 order: 13
 tags:
   - Vietnam
+location:
+  name: "Hanoi, Vietnam"
+  lat: 21.0285
+  lng: 105.8542
 ---
 
 It was our last day in Hue, and our flight was delayed. We decided to take advantage of the time in Hue and started by enjoying the nearby park. Mike grabbed a coffee and brought his book while I danced!

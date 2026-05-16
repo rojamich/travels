@@ -6,6 +6,10 @@ categories:
 order: 23
 tags:
   - South Island
+location:
+  name: "Milford Sound, NZ"
+  lat: -44.6712
+  lng: 167.9192
 ---
 
 We made a stop for coffee about 2 hours away from the Milford Sound to try and break up the drive. 

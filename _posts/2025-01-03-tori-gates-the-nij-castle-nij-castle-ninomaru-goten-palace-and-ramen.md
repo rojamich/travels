@@ -6,6 +6,10 @@ categories:
 order: 14
 tags:
   - Japan
+location:
+  name: "Fushimi Inari, Kyoto"
+  lat: 34.9671
+  lng: 135.7727
 ---
 
 It was a VERY early morning as we wanted to arrive at Fushimi Inari Taisha - a Shinto shrine from 711 A.D. with 10,000 torii gateways of all sizes along the mountain paths leading to Fushimi Inari Taisha! I'd been dying to see this in person and today was finally the day! However, it was a rude awakening at how fast this trip was going. 

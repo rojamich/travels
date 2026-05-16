@@ -6,6 +6,10 @@ categories:
 order: 23
 tags:
   - South Korea
+location:
+  name: "Itaewon, Seoul"
+  lat: 37.5345
+  lng: 126.9938
 ---
 
 We slept in a bit this morning to recover from the day before. My legs and feet needed some serious recovery. Where were those feet relievers from Japan when we needed them??

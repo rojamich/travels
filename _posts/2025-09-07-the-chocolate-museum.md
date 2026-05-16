@@ -6,6 +6,10 @@ categories:
 order: 7
 tags:
   - Peru
+location:
+  name: "Cusco, Peru"
+  lat: -13.517
+  lng: -71.9785
 ---
 
 Happy last full day in Cusco What a wonderful leg of the Peruvian journey!

@@ -6,6 +6,10 @@ categories:
 order: 88
 tags:
   - The Netherlands
+location:
+  name: "Amsterdam, Netherlands"
+  lat: 52.3676
+  lng: 4.9041
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHZvY6NKzzl5lU2qauYyLRRNkrN3UKRSoQwZqqDr6rxPsCT-maVKr6tssDkprFQw4KDBbTAu10uILQlz2AOIuUBbs265_LAn5D-kcvtqb-cLLf6qt2-WtANiJvMR8HBfT7ejI8Yp7zFdOiOMhnFmPuhZrcwy67hCnne6b_OKqeHijvyoK56sYeuWip/s320/20220315_083906.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHZvY6NKzzl5lU2qauYyLRRNkrN3UKRSoQwZqqDr6rxPsCT-maVKr6tssDkprFQw4KDBbTAu10uILQlz2AOIuUBbs265_LAn5D-kcvtqb-cLLf6qt2-WtANiJvMR8HBfT7ejI8Yp7zFdOiOMhnFmPuhZrcwy67hCnne6b_OKqeHijvyoK56sYeuWip/s4032/20220315_083906.jpg)

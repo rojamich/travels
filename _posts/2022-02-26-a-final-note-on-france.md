@@ -6,6 +6,10 @@ categories:
 order: 34
 tags:
   - France
+location:
+  name: "Paris, France"
+  lat: 48.8566
+  lng: 2.3522
 ---
 
 Some things we wish we had done/known for Paris, France. 

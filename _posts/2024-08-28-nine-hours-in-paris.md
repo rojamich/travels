@@ -6,6 +6,10 @@ categories:
 order: 3
 tags:
   - France
+location:
+  name: "Paris, France (layover)"
+  lat: 48.8566
+  lng: 2.3522
 ---
 
 When we began planning this adventure (a whole year ago!) we had to decide how long of a layover we wanted in Paris. The itinerary went as follows: PDX to NYC NYC to Paris Paris to Jburg Jburg to Capetown The options were 6 hours or 9 hours. Either way, a lot of time at the airport! We opted for the nine hour layover. Now you may be thinking, are you crazy? Quite possibly, but we wanted some time on the ground in France! We decided to brave customs, security, and public transport to have a smidge of time in Europe before moving on to unfamiliar terrain. The actual flight to Paris was surprisingly quick! A nap, some reading, and some snacking and we were there :) Mike somehow fell asleep as soon as we hit the chairs. Customs was surprisingly quick and we made our way to the unairconditioned train (be grateful you are not within sniffing distance of us). After an hour of navigating, we arrived in the Montmartre neighborhood in Northern Paris. It was charming in shops, environment, and architecture. 

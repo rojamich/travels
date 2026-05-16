@@ -6,6 +6,10 @@ categories:
 order: 49
 tags:
   - Italy
+location:
+  name: "Roman Forum, Rome"
+  lat: 41.8924
+  lng: 12.4853
 ---
 
 After exploring the colosseum we headed across the street in search of the Roman Forum and Palatine Hill. Mike was so intrigued we went towards the Temple of Venus and Roma, first. However, we learned it was actually part of the Roman Forum. This turned out to be ENORMOUS! Thankfully Rick Steve had a tour because we would have had no idea what we were looking at. The signs there were fairly vague and not easily found. We sat by the entrance arch looking out over the forum, listening to its history, before embarking onto the stops it led us to.

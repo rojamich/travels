@@ -4,6 +4,10 @@ date: 2025-09-04
 categories:
   - peruvian-passage
 order: 6
+location:
+  name: "Cusco, Peru"
+  lat: -13.517
+  lng: -71.9785
 ---
 
 After a loud evening of trying to sleep, we drug ourselves out of bed to grab some hotel breakfast. Eggs, sausage, toast, fruit but in the worst way. The eggs were stone cold, the coffee was a mud sludge, and the toaster did not work. We ate as much as we could and headed out to type up the blog and read in the local starbucks. It's been really fun speaking in Spanish every day! Many times we get through interactions without defaulting to English :)

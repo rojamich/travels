@@ -7,6 +7,10 @@ order: 16
 tags:
   - Botswana
   - Zimbabwe
+location:
+  name: "Chobe National Park, Botswana"
+  lat: -17.8167
+  lng: 25.0917
 ---
 
 Still not feeling super we didn't want to miss our last safari so we climbed aboard the transport van at 7am to Botswana! We were heading to Choebe National Park and some parts of the drive look like this:

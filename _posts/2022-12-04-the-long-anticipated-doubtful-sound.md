@@ -6,6 +6,10 @@ categories:
 order: 24
 tags:
   - South Island
+location:
+  name: "Doubtful Sound, NZ"
+  lat: -45.4506
+  lng: 167.0394
 ---
 
 We booked a cruise for the Doubtful Sound back in September and pretty much have looking forward to it ever since! And now, the day was finally here!

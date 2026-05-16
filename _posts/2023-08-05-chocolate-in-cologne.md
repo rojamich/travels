@@ -6,6 +6,10 @@ categories:
 order: 10
 tags:
   - Germany
+location:
+  name: "Cologne, Germany"
+  lat: 50.9375
+  lng: 6.9603
 ---
 
 I have been so excited to see Cologne since I found out they have a chocolate factory there! Another long drive got us to the downtown area where they had several parking garages to choose from. It's cool they have signs when you exit the freeway that lead you to their parking garages and say how many spaces are available in each of them! You can just follow the blue arrows along the streets to reach the parking garages.

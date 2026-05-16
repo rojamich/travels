@@ -6,6 +6,10 @@ categories:
 order: 18
 tags:
   - Belgium
+location:
+  name: "Bruges, Belgium"
+  lat: 51.2093
+  lng: 3.2247
 ---
 
 >  Walking the streets of Bruges to get to the church we see some amazing sights with the canals.

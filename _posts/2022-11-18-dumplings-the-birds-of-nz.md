@@ -6,6 +6,10 @@ categories:
 order: 5
 tags:
   - North Island
+location:
+  name: "Auckland, NZ"
+  lat: -36.8485
+  lng: 174.7633
 ---
 
 Wow! The variety of Asian food here is limitless and spectacular! I've nearly had it ever meal thus far! We had the best wontons of our lives downtown and even took some back to our Airbnb. 

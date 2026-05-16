@@ -6,6 +6,10 @@ categories:
 order: 7
 tags:
   - Germany
+location:
+  name: "Baden-Baden, Germany"
+  lat: 48.7611
+  lng: 8.2397
 ---
 
 Today we were especially excited because it was our first trip to the Black Forest! This was something we have talked about for a long time and could not fit it into our last trip. It is actually one of the biggest reasons we got the car! It would've been too expensive and time restrictive to take public transportation here. 

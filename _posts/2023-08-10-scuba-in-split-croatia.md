@@ -6,6 +6,10 @@ categories:
 order: 13
 tags:
   - Croatia
+location:
+  name: "Split, Croatia"
+  lat: 43.5081
+  lng: 16.4402
 ---
 
 This was the first time I had planned an event for Mike's family and I was so nervous about screwing up! Mario (Mike's dad) had the ultimate bucket list items to check off. 1) Visit Greece and 2) Scuba diving with his kids to see statues. So three got certified in preparation for the trip, and Mike and I were already certified. Three others committed to snorkeling while we scuba dove in the same area. So there was a lot riding on this!

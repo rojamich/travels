@@ -1,9 +1,9 @@
 ---
 title: "African Safari Sojourn"
 description: "Three weeks across South Africa, Zimbabwe, and Botswana — Cape Town, Kruger National Park, and the Zambezi River."
-cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibiDR1gF7TKBBIQkGD2XI9ph-CqTTuJuOUo8Du9lwtPU_T56jWzmhM5gahZ6MUz_G4JrAwUcJjuRCRNH-VEHEhp47vIQl1K-XS3SMfjZWEn8GagXsC-uzQXk07dCfOIcih4Y0wX7qJJrBTQemwBLV9sZHwWQ842D8bNxOKHLKNoD7UuGBLZi3QjGfYXG0/w259-h259/background-is-mountains-foreground-says-i-do-belie-c4OEFgFOQ8ySY3HMjh79sg-Mw8edMRnRFezd6y-eq4RIQ.jpeg
-start_date: 2024-08-20
-end_date: 2024-09-18
+cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEistzTzDrNOkfuIzTp5nJ0Lv1-PSDNBXi_8loZgDtL_GkItXw2aysagKeQcU0VESuwErNFaRG5e7r2T5E4VW61u-2SrnooFMjXPI-4FUkNPtwJ-qR6XGlHkTS5ZykSZ8ZFncZKzSVww6kdew77S6edXLGwnr6VRwHZBe2RCZm4kztRnGvoSRKFt4hnLlnE/s320/20240906_062946.jpg
+start_date: 2024-08-23
+end_date: 2024-09-14
 location: "South Africa, Zimbabwe & Botswana"
 lat: -33.9249
 lng: 18.4241

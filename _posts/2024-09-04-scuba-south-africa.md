@@ -6,6 +6,10 @@ categories:
 order: 8
 tags:
   - South Africa
+location:
+  name: "Cape Town, South Africa"
+  lat: -33.9249
+  lng: 18.4241
 ---
 
 The next morning we woke bright and early for our 6am pickup by the scuba staff at our hotel to head to dive near Simonstown! We were stoked to dive in another country and compare to our other experiences.

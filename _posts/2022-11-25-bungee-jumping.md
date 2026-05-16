@@ -6,6 +6,10 @@ categories:
 order: 12
 tags:
   - North Island
+location:
+  name: "Queenstown, NZ"
+  lat: -45.0312
+  lng: 168.6626
 ---
 
 It was about a 2.5 hour drive down to Rotorua from Auckland but well worth the trip. We enjoyed dinner in Rotorua's downtown area called "Eat Street" which was a long corridor of restaurants with a lot of options to choose from.

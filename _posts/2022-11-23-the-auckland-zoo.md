@@ -6,6 +6,10 @@ categories:
 order: 11
 tags:
   - North Island
+location:
+  name: "Auckland Zoo, NZ"
+  lat: -36.8629
+  lng: 174.7196
 ---
 
 We were determined to see a Kiwi here so we stopped for the local zoo! It was huge! 

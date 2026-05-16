@@ -6,6 +6,10 @@ categories:
 order: 15
 tags:
   - Japan
+location:
+  name: "Arashiyama, Kyoto"
+  lat: 35.0094
+  lng: 135.6717
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib_qwO0YQTBMtUm1_RfEN57aYB7gWB1ps11d5m8ymc-Ou6A9EXyG2dpwO2tTxYnbDSTdmS0yNRcvdhQxmD1tKgZJ6TRsXmkYWq38ZUGAiFT5BnlaDIK4MuJYqPm2jAXy6CxkF5nT_E9LLPJEEbdWGWOHIC1W6m7p6SiMEMsvbv1XdJwICsjyfa1EHXxCwb/s320/20241224_073353.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib_qwO0YQTBMtUm1_RfEN57aYB7gWB1ps11d5m8ymc-Ou6A9EXyG2dpwO2tTxYnbDSTdmS0yNRcvdhQxmD1tKgZJ6TRsXmkYWq38ZUGAiFT5BnlaDIK4MuJYqPm2jAXy6CxkF5nT_E9LLPJEEbdWGWOHIC1W6m7p6SiMEMsvbv1XdJwICsjyfa1EHXxCwb/s4000/20241224_073353.jpg)

@@ -6,6 +6,10 @@ categories:
 order: 10
 tags:
   - Vietnam
+location:
+  name: "Da Nang, Vietnam"
+  lat: 16.0544
+  lng: 108.2022
 ---
 
 Happy 34th birthday, honey! What a place to celebrate 😍

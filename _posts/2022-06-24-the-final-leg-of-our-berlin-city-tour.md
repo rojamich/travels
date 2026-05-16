@@ -6,6 +6,10 @@ categories:
 order: 82
 tags:
   - Germany
+location:
+  name: "Berlin, Germany"
+  lat: 52.52
+  lng: 13.405
 ---
 
 We moved on to Bebelplatz which is a square that is surrounded by the Humboldt University, the library, and St. Hedwig’s Catholic church (aka the upside-down teacup).

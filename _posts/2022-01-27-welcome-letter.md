@@ -4,6 +4,10 @@ date: 2022-01-27
 categories:
   - european-excursion
 order: 1
+location:
+  name: "London, UK"
+  lat: 51.5074
+  lng: -0.1278
 ---
 
 **  Welcome, Friends & Family!**

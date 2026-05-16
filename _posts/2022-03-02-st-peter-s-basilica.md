@@ -6,6 +6,10 @@ categories:
 order: 53
 tags:
   - Italy
+location:
+  name: "St Peters Basilica, Vatican"
+  lat: 41.9022
+  lng: 12.4574
 ---
 
 We had to walk out and around to get to Saint Peter’s Basilica where a long line snaked out front. There was a dress code of no shorts or exposed shoulders to enter. The exterior was massive and surrounded by the architect’s top 140 favorite saints. Until this trip, I did not know there are literally thousands of saints.

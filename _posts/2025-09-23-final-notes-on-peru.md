@@ -6,6 +6,10 @@ categories:
 order: 18
 tags:
   - Peru
+location:
+  name: "Peru"
+  lat: -12.0464
+  lng: -77.0428
 ---
 
 Wow! What a crazy adventure on our first trip to South America! Getting to see the city, food, and culture of Lima, the beauty of Cusco, the mind-blowing site of Machu Picchu, loving each train ride, and exploring the depths of the Amazon was just non-stop new and exciting experiences!

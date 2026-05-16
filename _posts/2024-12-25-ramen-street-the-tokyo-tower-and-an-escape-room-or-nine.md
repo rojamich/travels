@@ -6,6 +6,10 @@ categories:
 order: 8
 tags:
   - Japan
+location:
+  name: "Tokyo, Japan"
+  lat: 35.6762
+  lng: 139.6503
 ---
 
 Boy howdy, we should have woken up earlier. This is what we would say to ourselves about 3 hours later. 

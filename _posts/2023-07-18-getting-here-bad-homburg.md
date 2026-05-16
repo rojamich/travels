@@ -4,6 +4,10 @@ date: 2023-07-18
 categories:
   - european-exploration
 order: 1
+location:
+  name: "Bad Homburg, Germany"
+  lat: 50.2274
+  lng: 8.6177
 ---
 
 Hello and Welcome Back!

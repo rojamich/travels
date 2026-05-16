@@ -6,6 +6,10 @@ categories:
 order: 16
 tags:
   - Greece
+location:
+  name: "Delos, Greece"
+  lat: 37.3938
+  lng: 25.2715
 ---
 
 Holy moly what a day this was! We had a total of 9 hours off the ship and used up 8 of them! 

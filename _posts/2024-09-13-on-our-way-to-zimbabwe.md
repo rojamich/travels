@@ -6,6 +6,10 @@ categories:
 order: 15
 tags:
   - Zimbabwe
+location:
+  name: "Victoria Falls, Zimbabwe"
+  lat: -17.9243
+  lng: 25.8572
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9LUl3D8QRuFD5-qDq74BpmzgfX-lbE3SQFfwZEJxq5uWt3GfRFIiBEHlq_eFxigaQjO10qY0-uu8Dz3slRyhUvoby50Osozjx5F5n6wpeOE9g8pizDOMIysUTTB8KlKrTaC2VxppzUHjs3fVzoEel9wHgfuebXx3DJ5CxQ9tM20C-FHsmSHjbbshGuqk/s320/20240907_062106.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9LUl3D8QRuFD5-qDq74BpmzgfX-lbE3SQFfwZEJxq5uWt3GfRFIiBEHlq_eFxigaQjO10qY0-uu8Dz3slRyhUvoby50Osozjx5F5n6wpeOE9g8pizDOMIysUTTB8KlKrTaC2VxppzUHjs3fVzoEel9wHgfuebXx3DJ5CxQ9tM20C-FHsmSHjbbshGuqk/s4000/20240907_062106.jpg)

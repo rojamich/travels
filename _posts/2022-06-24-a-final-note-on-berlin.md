@@ -6,6 +6,10 @@ categories:
 order: 86
 tags:
   - Germany
+location:
+  name: "Berlin, Germany"
+  lat: 52.52
+  lng: 13.405
 ---
 
 Some things we wish we had done/known for Berlin.

@@ -6,6 +6,10 @@ categories:
 order: 45
 tags:
   - Italy
+location:
+  name: "Pisa, Italy"
+  lat: 43.7228
+  lng: 10.4017
 ---
 
 Here is Mike displaying how small the sidewalks are in this city. I’m sure this makes traffic tricky for cars when its high tourist season!

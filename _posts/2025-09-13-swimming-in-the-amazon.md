@@ -6,6 +6,10 @@ categories:
 order: 13
 tags:
   - Peru
+location:
+  name: "Amazon Rainforest, Peru"
+  lat: -3.7437
+  lng: -73.2516
 ---
 
 First up on the schedule would be breakfast at 630am. A loud boat came by around 430am, so that was all the sleep we would get for that night. We checked on the clothes and they were nowhere near dry... uh oh. Thanks a lot, 100% humidity! I worked on the blog while Mike read, and then I danced to get some exercise in. 

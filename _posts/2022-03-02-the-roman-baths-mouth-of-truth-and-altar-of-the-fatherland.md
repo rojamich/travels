@@ -6,6 +6,10 @@ categories:
 order: 54
 tags:
   - Italy
+location:
+  name: "Rome, Italy"
+  lat: 41.9028
+  lng: 12.4964
 ---
 
 The next morning was a beautiful day and we stopped by the near-empty Trevi fountain to get a good look without the crowd. It was worth it!

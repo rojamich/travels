@@ -6,6 +6,10 @@ categories:
 order: 63
 tags:
   - Germany
+location:
+  name: "Munich, Germany"
+  lat: 48.1351
+  lng: 11.582
 ---
 
 Naturally, our trip would not be complete without finding a St. Michael’s church! This church holds the tomb of King Ludwig II. We will later visit his castle in Füssen! Private citizens still lay flowers at his tomb to this day.

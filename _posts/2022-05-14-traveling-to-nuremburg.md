@@ -6,6 +6,10 @@ categories:
 order: 74
 tags:
   - Germany
+location:
+  name: "Nuremberg, Germany"
+  lat: 49.4521
+  lng: 11.0767
 ---
 
 We enjoyed our last beautiful breakfast in Sankt Goar and took no bite for granted before we continued onto Nuremburg. We knew the breakfasts would not be as fulfilling so we savored every moment. It was pretty chilly this day as we jogged down the hill (it was so steep there was no other way to get down it) to get to our train. We had to ride North just to connect to a train that was going South lol. 

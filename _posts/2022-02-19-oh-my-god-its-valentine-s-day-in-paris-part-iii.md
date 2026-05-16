@@ -6,6 +6,10 @@ categories:
 order: 26
 tags:
   - France
+location:
+  name: "Paris, France"
+  lat: 48.8566
+  lng: 2.3522
 ---
 
 Sadly, the Notre Dame is still closed due to repairs from the 2019 fire so we were unable to enter it. The outside was surprisingly intact though!

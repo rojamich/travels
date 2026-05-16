@@ -6,6 +6,10 @@ categories:
 order: 83
 tags:
   - Germany
+location:
+  name: "Berlin, Germany"
+  lat: 52.5076
+  lng: 13.3904
 ---
 
 We finally found a burger place that looked promising and were on our way there when a sight stopped me in my tracks! Cosmic Comedy Club! The sign out front said English Comedy Night: 11.03 7pm-8pm. It was 705pm. What luck! Would we be let in even though its late? The doorman told us the comedy starts at 9pm (oh my god that’s late!) and two-for-one drinks were from 7-8. Mike looked at me like its ok, I know we really aren’t going to do this and I told the doorman, yes! We do want two tickets!  I thought Mike was going to fall over in surprise. 

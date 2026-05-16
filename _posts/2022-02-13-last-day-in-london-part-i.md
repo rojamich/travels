@@ -6,6 +6,10 @@ categories:
 order: 10
 tags:
   - London
+location:
+  name: "London, UK"
+  lat: 51.5074
+  lng: -0.1278
 ---
 
 Our last day in London 😧! We walked to our Duck & Waffle breakfast reservation on top of one of London’s tallest buildings for a morning view and to watch the sunrise (well that was the plan, another overcast day but it was still lovely!)

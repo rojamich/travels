@@ -6,6 +6,10 @@ categories:
 order: 80
 tags:
   - Germany
+location:
+  name: "Berlin, Germany"
+  lat: 52.52
+  lng: 13.405
 ---
 
 Next to the Reichstag is a Memorial to the Politicians who opposed Hitler. Their name, party affiliation, and life-outcomes can be found on the individual stones.

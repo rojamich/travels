@@ -6,6 +6,10 @@ categories:
 order: 50
 tags:
   - Italy
+location:
+  name: "Rome, Italy"
+  lat: 41.9028
+  lng: 12.4964
 ---
 
 The next day, all we had planned was a walking tour, provided by none other than Rick Steve lol. The first few sights were the Palazzo Farnese, three Baroque Fountains, and a recommendation for us to try Tartufo -an extremely rich chocolate gelato!

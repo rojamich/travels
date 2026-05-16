@@ -6,6 +6,10 @@ categories:
 order: 30
 tags:
   - France
+location:
+  name: "Paris, France"
+  lat: 48.8566
+  lng: 2.3522
 ---
 
 We slept in (Hallelujah) as our bodies were begging for some recovery after all the walking we have done thus far! Here I am eating the biggest Macaron I have ever seen in my life! Its raspberry                  flavored! Paris has made me fall in love with Raspberries and Hazelnuts!

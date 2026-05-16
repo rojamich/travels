@@ -6,6 +6,10 @@ categories:
 order: 21
 tags:
   - Belgium
+location:
+  name: "Brussels, Belgium"
+  lat: 50.8503
+  lng: 4.3517
 ---
 
 Some things we wish we had done/known for Belgium.

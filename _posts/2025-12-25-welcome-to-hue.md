@@ -6,6 +6,10 @@ categories:
 order: 11
 tags:
   - Vietnam
+location:
+  name: "Hue, Vietnam"
+  lat: 16.4637
+  lng: 107.5909
 ---
 
 It was an hour car ride from our hotel to the train station in Da Nang (the city we wish we had more time in!). We confirmed where we needed to board and then went out into the city in search of a coffee shop.

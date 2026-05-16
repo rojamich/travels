@@ -6,6 +6,10 @@ categories:
 order: 18
 tags:
   - South Island
+location:
+  name: "South Island, NZ"
+  lat: -45.0312
+  lng: 168.6626
 ---
 
 After a 330am wake up, we made the drive up to Auckland for our flight down to Queenstown, in the south island of New Zealand. The flight was a quick 1.5 hour and the Queenstown airport was far superior to the Auckland airport. The view during the descent was fantastic!

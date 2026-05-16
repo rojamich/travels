@@ -6,6 +6,10 @@ categories:
 order: 85
 tags:
   - Germany
+location:
+  name: "Berlin, Germany"
+  lat: 52.52
+  lng: 13.405
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqRHxR1pyRxtji-sl5MymdtnZrMfB6YEn3PtwgsDPYF2SbqYQuI3OH6tw-LdoFK8f4JE8AMrYWr30PIK83ZTWQVfZFJwvhyUJZ-dMsT3ee205U7_2gsfrHDVz8LeN0xhFXqfBzf6XnFwpAUs-ZlLs0XOzj19hpzuDCayArdvqfOM23AKqErHbTUWUp/s320/20220313_165111.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqRHxR1pyRxtji-sl5MymdtnZrMfB6YEn3PtwgsDPYF2SbqYQuI3OH6tw-LdoFK8f4JE8AMrYWr30PIK83ZTWQVfZFJwvhyUJZ-dMsT3ee205U7_2gsfrHDVz8LeN0xhFXqfBzf6XnFwpAUs-ZlLs0XOzj19hpzuDCayArdvqfOM23AKqErHbTUWUp/s4032/20220313_165111.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnWnG6my6kYa0a6xeTkBKE_MG_ecpLwn5NTloQS9yiREi5rSMpKEj82Hz2f85-_zX0fhECtOjwruRCaXB97Jn9CmagHmZ_E5sAO37K3qrGtboB-m_wvGSJ63PGX4L4l64WMWQWzejlwxbPmaNxsPJtNvRYI74939fJ7eLU3p8EDz0jxo8vUlqwWNkM/s320/20220313_165332.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnWnG6my6kYa0a6xeTkBKE_MG_ecpLwn5NTloQS9yiREi5rSMpKEj82Hz2f85-_zX0fhECtOjwruRCaXB97Jn9CmagHmZ_E5sAO37K3qrGtboB-m_wvGSJ63PGX4L4l64WMWQWzejlwxbPmaNxsPJtNvRYI74939fJ7eLU3p8EDz0jxo8vUlqwWNkM/s4032/20220313_165332.jpg)

@@ -6,6 +6,10 @@ categories:
 order: 42
 tags:
   - Italy
+location:
+  name: "Florence, Italy"
+  lat: 43.7696
+  lng: 11.2558
 ---
 
 Some things we wish we had done/known for Florence.

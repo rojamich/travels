@@ -6,6 +6,10 @@ categories:
 order: 38
 tags:
   - Italy
+location:
+  name: "Florence, Italy"
+  lat: 43.7696
+  lng: 11.2558
 ---
 
 The next morning, we slept in and woke to eat more cannoli. If they had protein, I could probably live off of them. I have tried cannoli before and did NOT like them. Italy is so special. 

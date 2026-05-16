@@ -6,6 +6,10 @@ categories:
 order: 14
 tags:
   - North Island
+location:
+  name: "Tongariro National Park, NZ"
+  lat: -39.1576
+  lng: 175.6362
 ---
 
 Doom and Gloom indeed! It poured all night and into the morning as we made the two hour drive up to Mt. Doom. We looked at each other and just knew our luck had probably run out as every time we stepped out of the car, the rain stopped, but not this day. It had finally caught up to us. 

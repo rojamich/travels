@@ -7,6 +7,10 @@ order: 3
 tags:
   - Japan
   - Taiwan
+location:
+  name: "Taipei, Taiwan"
+  lat: 25.033
+  lng: 121.5654
 ---
 
 Well, now I want to go to Taiwan! We enjoyed our lovely flight and landed in Taipei, Taiwan. As we made our way to the China Airlines lounge, we took in the magnificence of their airport.

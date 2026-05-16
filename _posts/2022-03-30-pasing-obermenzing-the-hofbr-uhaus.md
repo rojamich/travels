@@ -6,6 +6,10 @@ categories:
 order: 66
 tags:
   - Germany
+location:
+  name: "Munich, Germany"
+  lat: 48.1351
+  lng: 11.582
 ---
 
 We took a train out to Pasing-Obermenzing to see what we thought would be a cute little Bavarian town. Unfortunately, it was just a small version of Munich with its modern shops. We walked around briefly and found an Italian restaurant to dive into! We both surprised each other by ordering the exact same thing lol. Ravioli with spinach and buffalo mozzarella. I was so shocked to see just how fresh the food was! They were literally picking the leaves off the plant here!

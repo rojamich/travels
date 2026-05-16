@@ -6,6 +6,10 @@ categories:
 order: 12
 tags:
   - Vietnam
+location:
+  name: "Imperial City, Hue"
+  lat: 16.4708
+  lng: 107.5827
 ---
 
 We woke up early enough that I could go for a run along the river! What a lovely view to start the day with :) 

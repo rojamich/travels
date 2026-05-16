@@ -6,6 +6,10 @@ categories:
 order: 72
 tags:
   - Germany
+location:
+  name: "Sankt Goar, Germany"
+  lat: 50.15
+  lng: 7.7167
 ---
 
 Here is the view of our castle at night and the view of the Rhine!

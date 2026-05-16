@@ -6,6 +6,10 @@ categories:
 order: 52
 tags:
   - Italy
+location:
+  name: "Vatican City"
+  lat: 41.9029
+  lng: 12.4534
 ---
 
 The metro here was less than desirable and I’d avoid it if I could. Not due dangers but because its unreliable and gentrified. 

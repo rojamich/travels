@@ -6,6 +6,10 @@ categories:
 order: 36
 tags:
   - Italy
+location:
+  name: "Florence, Italy"
+  lat: 43.7696
+  lng: 11.2558
 ---
 
 I love Florence! Or Firenze as the Italians refer to it. There is probably no coincidence that the more we flâner around a city, the more I love it. The city was packed on Saturday and Sunday starting at about 10am. We liked waking up before 8am and having the morning and the city all to ourselves. Just the feeling of being in Florence was relaxing and I felt at peace. The architecture was beautiful and old. Most people there were kind and understanding with our attempt at Italian niceties. 

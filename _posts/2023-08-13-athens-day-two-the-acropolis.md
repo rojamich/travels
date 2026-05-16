@@ -6,6 +6,10 @@ categories:
 order: 18
 tags:
   - Greece
+location:
+  name: "Acropolis, Athens"
+  lat: 37.9715
+  lng: 23.7257
 ---
 
 We woke bright and early to get a jump start on the long lines into the Acropolis and to get ahead of the anticipated 96 degree heat. We had a filling, fresh, and refreshing breakfast and set off to get a good spot in line. From cruise day zero til the end of our Athens visit we religiously applied sunscreen. Often twice a day! We were grateful to have packed our travel sunscreen this time.

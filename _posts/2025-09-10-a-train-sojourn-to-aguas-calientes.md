@@ -6,6 +6,10 @@ categories:
 order: 9
 tags:
   - Peru
+location:
+  name: "Aguas Calientes, Peru"
+  lat: -13.1538
+  lng: -72.5252
 ---
 
 We woke up after a wonderful night of sleep, to the brisk air of Ollantatambo. The smell of nature, combined with a scent of campfire and cold air made me feel like we were camping.

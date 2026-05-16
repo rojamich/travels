@@ -6,6 +6,10 @@ categories:
 order: 9
 tags:
   - Japan
+location:
+  name: "Imperial Palace, Tokyo"
+  lat: 35.6852
+  lng: 139.7528
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgswG0teFYrQBven92cOrhyphenhyphenAl8sJ5Fq_HPL_jRe0e6i6v7YHi0nTyUxhSr-gOjb4N-wnoxdzI5ORmpvqR1mLuRyFsCjFBP-3TklTk3KlZd3CX1d-PkPRrhqf42ia8H6JPT_iRLEVuUO9JR11nsgmb6hmRa-_3pc0Qn3vqRTF8Tygf96_ZaYbDUS4fSEYCwZ/s320/20241218_085826.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgswG0teFYrQBven92cOrhyphenhyphenAl8sJ5Fq_HPL_jRe0e6i6v7YHi0nTyUxhSr-gOjb4N-wnoxdzI5ORmpvqR1mLuRyFsCjFBP-3TklTk3KlZd3CX1d-PkPRrhqf42ia8H6JPT_iRLEVuUO9JR11nsgmb6hmRa-_3pc0Qn3vqRTF8Tygf96_ZaYbDUS4fSEYCwZ/s3392/20241218_085826.jpg)

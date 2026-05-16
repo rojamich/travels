@@ -6,6 +6,10 @@ categories:
 order: 44
 tags:
   - Italy
+location:
+  name: "Pisa, Italy"
+  lat: 43.7228
+  lng: 10.4017
 ---
 
 After getting our caffeine fix, we returned to the tower and found out you can go to the very top of it and look out onto Pisa! That was our first stop! Something interesting I learned was that the original lean of the tower was 5.5 degrees. It is now 3.9 degrees of lean after some correction! We were impressed by how massive it was in person!

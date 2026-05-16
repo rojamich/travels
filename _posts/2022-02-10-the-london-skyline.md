@@ -6,6 +6,10 @@ categories:
 order: 6
 tags:
   - London
+location:
+  name: "London, UK"
+  lat: 51.5074
+  lng: -0.1278
 ---
 
 We woke up bright-eyed and bushy-tailed Wednesday morning to start exploring the touristy areas of London! The best meal we enjoyed so far was had at Sista’s Café, near our Airbnb. The caramel was so smooth in my latte and the breakfast sandwiches were indescribably delicious! We took our food to go and ate underneath the London Eye, in front of the Thames River.

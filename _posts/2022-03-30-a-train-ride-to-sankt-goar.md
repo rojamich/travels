@@ -6,6 +6,10 @@ categories:
 order: 70
 tags:
   - Germany
+location:
+  name: "Sankt Goar, Germany"
+  lat: 50.15
+  lng: 7.7167
 ---
 
 It was about 6 hours of train travel to get from München to Sankt Goar with several transfers and, due to delays, one missed train! At least the views were beautiful with the sunrise and then rolling along the Rhine Valley.

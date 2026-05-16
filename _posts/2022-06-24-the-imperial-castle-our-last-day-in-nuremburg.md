@@ -6,6 +6,10 @@ categories:
 order: 77
 tags:
   - Germany
+location:
+  name: "Nuremberg, Germany"
+  lat: 49.4521
+  lng: 11.0767
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcSXHwFMIQ4YxgI_TZbCkTIJLAtvvigpuuo8d0n65dQOcfRjayqbafs3ZNl-xi3OIIgawbYt2q8pplzJaK-2t3x2YY49laNucH_HmS5UswtanbB8ImwssyWbgzNs2ZBUhGa1LYdtSS8Erdi1YGU6tE_OC2kbatLW7wnwf__eVWdpykl33OLVBNc4sG/s320/20220309_141531.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcSXHwFMIQ4YxgI_TZbCkTIJLAtvvigpuuo8d0n65dQOcfRjayqbafs3ZNl-xi3OIIgawbYt2q8pplzJaK-2t3x2YY49laNucH_HmS5UswtanbB8ImwssyWbgzNs2ZBUhGa1LYdtSS8Erdi1YGU6tE_OC2kbatLW7wnwf__eVWdpykl33OLVBNc4sG/s4032/20220309_141531.jpg)

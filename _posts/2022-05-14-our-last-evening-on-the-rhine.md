@@ -6,6 +6,10 @@ categories:
 order: 73
 tags:
   - Germany
+location:
+  name: "Sankt Goar, Germany"
+  lat: 50.15
+  lng: 7.7167
 ---
 
 This would be our last night of a big beautiful tub and cozy room. The next morning we would head to Nuremberg. 

@@ -6,6 +6,10 @@ categories:
 order: 5
 tags:
   - Peru
+location:
+  name: "Cusco, Peru"
+  lat: -13.517
+  lng: -71.9785
 ---
 
 Waking up feeling wiped out, we both looked at our plan for the day, then each other, and made the decision to take a rest day for our final day in Lima. This meant missing out on some museums but we didn't want to be exhausted for the rest of the trip - we were only five days in!

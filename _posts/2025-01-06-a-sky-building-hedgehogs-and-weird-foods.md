@@ -6,6 +6,10 @@ categories:
 order: 17
 tags:
   - Japan
+location:
+  name: "Tokyo, Japan"
+  lat: 35.6762
+  lng: 139.6503
 ---
 
 What a title, right?? I think it's a pretty good description of our experience in Osaka, Japan. 

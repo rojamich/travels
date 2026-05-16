@@ -6,6 +6,10 @@ categories:
 order: 15
 tags:
   - North Island
+location:
+  name: "Waitomo Caves, NZ"
+  lat: -38.2611
+  lng: 175.1043
 ---
 
 It was _still_ pouring, nevertheless, we made the two hour drive to the Waitomo Glow Worm Caves. Thankfully, we arrived early to find out our rafting of the caves was cancelled! The water levels inside the caves were too high to safely raft down but were offered the dry cave tour. We jumped at it! The other option had us in the 50-degree water with wetsuits on so we were more than happy to stay dry on this wet and cold day!

@@ -6,6 +6,10 @@ categories:
 order: 27
 tags:
   - South Island
+location:
+  name: "Blue Pools, Haast, NZ"
+  lat: -44.0813
+  lng: 169.0432
 ---
 
 After an early morning start, we enjoyed Nutella crepes by the lake in Wānaka and coffee over a card game of munchkins.

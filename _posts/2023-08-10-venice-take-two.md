@@ -6,6 +6,10 @@ categories:
 order: 14
 tags:
   - Italy
+location:
+  name: "Venice, Italy"
+  lat: 45.4408
+  lng: 12.3155
 ---
 
 Today was our chance to finish anything in Venice we may have missed last time. However, getting to the actual city center from the ship was more complicated. We had to take a tender boat to the commercial district of Venice which was about a 40 minute walk from the city center. They had buses there waiting to move us out of the commercial district and then we were pretty much on our own.

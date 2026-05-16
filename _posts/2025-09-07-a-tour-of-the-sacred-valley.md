@@ -6,6 +6,10 @@ categories:
 order: 8
 tags:
   - Peru
+location:
+  name: "Sacred Valley, Peru"
+  lat: -13.3447
+  lng: -72.07
 ---
 
 Our time in Cusco had finally come to an end and we had an early wake up to tour the Sacred Valley! We got packed up, stomached some breakfast downstairs at the hotel, and poured some coca tea to prepare for an even higher elevation.

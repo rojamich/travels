@@ -6,6 +6,10 @@ categories:
 order: 20
 tags:
   - South Korea
+location:
+  name: "Seoul, South Korea"
+  lat: 37.5665
+  lng: 126.978
 ---
 
 To preface this blog, I was pretty nervous and unsure of what to expect in South Korea! We planned this trip around our dream of seeing Japan. Well, since we were in the area, why not stop by South Korea? When will we be this close again? So we tacked on 5 more days to see as much of the country as possible! Mike was stationed there during his Military service and had always talked about how amazing the country was. He got to spend a little time in Seoul and he loved it! His adventure really inspired this trip :)

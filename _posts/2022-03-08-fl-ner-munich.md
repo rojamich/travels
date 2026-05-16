@@ -6,6 +6,10 @@ categories:
 order: 60
 tags:
   - Germany
+location:
+  name: "Munich, Germany"
+  lat: 48.1351
+  lng: 11.582
 ---
 
 Munich reminded me of a smaller version of DC with fewer amenities. The sidewalks were HUGE! It’s a city moving towards being green so they replaced a lot of conventional roads with walking and biking paved paths. You can see the plain path is for bikers and the block-paved path is for walkers. The bikers are on a speedy mission here so you may die if you walk ifo one! The city was _very_ clean and enjoyable to walk around because it was pedestrian friendly.

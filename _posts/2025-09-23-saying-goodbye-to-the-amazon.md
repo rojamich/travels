@@ -6,6 +6,10 @@ categories:
 order: 16
 tags:
   - Peru
+location:
+  name: "Amazon Rainforest, Peru"
+  lat: -3.7437
+  lng: -73.2516
 ---
 
 We had a 430am wake-up today to catch the sunrise over the Amazon Rainforest. It was utterly breathtaking to watch everything come alive as the sun rose.

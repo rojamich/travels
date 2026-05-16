@@ -6,6 +6,10 @@ categories:
 order: 11
 tags:
   - South Africa
+location:
+  name: "Cape Town, South Africa"
+  lat: -33.9249
+  lng: 18.4241
 ---
 
 After a good night's rest I was determined to make the most out of the hotel amenities. A few times during our stay I enjoyed the conference room space in our hotel room (usually before 6am so no one was around) and practiced my dancing! If you don't know, I've been linedancing weekly since February! I don't want to forget the steps to the songs I know so when we travel, I usually walk around in search of a space big enough to secretly dance in. One morning a security guard and I scared the crap out of each other lol.

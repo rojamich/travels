@@ -6,6 +6,10 @@ categories:
 order: 4
 tags:
   - South Africa
+location:
+  name: "Cape Town, South Africa"
+  lat: -33.9249
+  lng: 18.4241
 ---
 
 Our 12 hour flight to Jburg was no way near as daunting as I thought it may be! We were grateful for the seats with extra leg space! I would say out of the 20 hours of flying, I was probably unconscious for 15 of them. We spent the rest of the time watching the Long Walk to Freedom movie and reading our books. The customs line arriving in Jburg was SO LONG! It only took us an hour to get through but we had beat the rush and were only in the fourth row that zig-zagged like a themepark rollercoaster. There were about 10 other lines zigging behind us. To our dismay, we could see baggage claim from where we waited and did not see my bag rotating on the conveyor belt. Cue 1 hour of stress before we found out they had taken a handful of bags off the belt and laid them on the floor. We caught our hopper flight (2hrs) to Cape Town where we snagged a 15 min uber to our hotel. The views on the way to the airport made it real for us that we had made it to Africa finally! 

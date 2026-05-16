@@ -6,6 +6,10 @@ categories:
 order: 10
 tags:
   - South Africa
+location:
+  name: "Cape Town, South Africa"
+  lat: -33.9249
+  lng: 18.4241
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAn2Y5N8Y3eFJh3yqkK4k2klrGKAaEQRh3wlTjoac3oR7QQkyxLB6SX5LGRah48NE2RPQf7fVb9n_T3-VgFF0ZRw119G3ESl0QchxcZ2KR9aSY7lkkR4h8Pi246NfXd1f9G_ATt1weMekPb0MbWLBy0pAkvXbhb9TAy3OR1phWALCHqtMC6C-edr5UJpA/s320/20240902_091914.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAn2Y5N8Y3eFJh3yqkK4k2klrGKAaEQRh3wlTjoac3oR7QQkyxLB6SX5LGRah48NE2RPQf7fVb9n_T3-VgFF0ZRw119G3ESl0QchxcZ2KR9aSY7lkkR4h8Pi246NfXd1f9G_ATt1weMekPb0MbWLBy0pAkvXbhb9TAy3OR1phWALCHqtMC6C-edr5UJpA/s4000/20240902_091914.jpg)

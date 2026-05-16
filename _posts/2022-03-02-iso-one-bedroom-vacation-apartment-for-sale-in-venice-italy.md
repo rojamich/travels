@@ -6,6 +6,10 @@ categories:
 order: 57
 tags:
   - Italy
+location:
+  name: "Venice, Italy"
+  lat: 45.4408
+  lng: 12.3155
 ---
 
 Oops! Is this not google? It’s safe to say that Venice is on my must return list. Our train ride from Rome was an easy four hours and took us through a snow-covered Bologna! It was really beautiful.
