@@ -1,19 +1,16 @@
 ---
 title: "European Excursion"
-description: "Mike & Jen's first European excursion."
-cover: ""
+description: "A months-long European tour — London, Brussels, Paris, Italy, Germany, and Amsterdam."
+cover: https://blogger.googleusercontent.com/img/a/AVvXsEgp1D-90LnTQQCfWx1uUoZSONwxMUKWkk-qmvkFJVo0sq3XTx_CfIdjDeccPlC8YiaFFsNUOfRGSrdXfY9mgdMjQIITrcsNb6vFe1VrOC4lK0lqFmZPQqFhcMdN71tpuj6tGg9shsoNY2aReqpmnPCRz2pyFO8vb1KeyoFjTDW045A1ou9stIrBO1BE=s320
 start_date: 2022-01-27
 end_date: 2022-11-13
-location: "Europe"
+location: "Europe (UK → Belgium → France → Italy → Germany → Netherlands)"
+lat: 48.8566
+lng: 2.3522
 country_code: ""
 tags:
   - europe
   - city
 ---
 
-<!--
-  Imported from Blogger via scripts/import_blogger.py.
-  Date range reflects the span of all blog posts (97 posts written
-  over 10 months — likely an extended stay or retrospective writing);
-  narrow start_date/end_date to the actual trip dates via /admin/.
--->
+<!-- Optional intro text appears here on the trip page; leave blank to skip. -->

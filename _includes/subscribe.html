@@ -1,4 +1,4 @@
-<!--
+{% comment %}
   =============================================================================
   SUBSCRIBE BLOCK — used on homepage and About page
   =============================================================================
@@ -8,19 +8,16 @@
   HOW TO ACTIVATE THIS (one-time setup):
     1. Go to https://follow.it/intro and sign up (free).
     2. When asked for your feed URL, paste:
-         https://rojamich.github.io/travels/feed.xml
-    3. follow.it will give you an HTML "Form Code" snippet. It looks like:
-         <form action="https://follow.it/..." method="post">
-           <input type="email" name="email" placeholder="Your email" />
-           <input type="submit" value="Subscribe" />
-         </form>
+         https://where-in-the-world-are-mike-and-jen.netlify.app/feed.xml
+    3. follow.it will give you an HTML "Form Code" snippet that looks like:
+         <form action="..." method="post"> <input name="email" ...> </form>
     4. Copy that snippet and PASTE IT BELOW, replacing the placeholder
-       paragraph between the two <!-- SUBSCRIBE-FORM --> markers.
+       paragraph between the two SUBSCRIBE-FORM markers.
     5. Commit. Done.
 
   Until you do that, visitors see the friendly "coming soon" placeholder.
   =============================================================================
--->
+{% endcomment %}
 
 <div class="subscribe-box">
   <h3>Get email updates</h3>
