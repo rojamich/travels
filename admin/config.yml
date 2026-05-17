@@ -62,6 +62,33 @@ public_folder: "/assets/images/uploads"
 collections:
 
   # -------------------------------------------------------------------------
+  # Site configuration — single-file edits for site-wide settings
+  # -------------------------------------------------------------------------
+  - name: "site-config"
+    label: "Site Settings"
+    description: "Quick edits to global site values."
+    files:
+      - file: "_data/status.yml"
+        label: "Status bar (current location / next destination)"
+        name: "status"
+        fields:
+          - { label: "Current location",
+              name: "current_location",
+              widget: "string",
+              hint: "Shown in the top bar with a 📍 pin. Use 'Home' or leave blank to hide between trips." }
+          - { label: "Current timezone",
+              name: "current_timezone",
+              widget: "string",
+              required: false,
+              default: "America/Los_Angeles",
+              hint: "IANA timezone for the live clock. Examples: America/Los_Angeles, America/New_York, Europe/Paris, Asia/Tokyo, Asia/Ho_Chi_Minh." }
+          - { label: "Next destination",
+              name: "next_destination",
+              widget: "string",
+              required: false,
+              hint: "Free-form text shown with a ✈️ icon. e.g. 'Tokyo, Japan — Sep 2026'. Leave blank to hide." }
+
+  # -------------------------------------------------------------------------
   # Trips collection — one entry per vacation.
   # Each trip becomes a page at /<slug>/ showing its day-by-day post list.
   # -------------------------------------------------------------------------

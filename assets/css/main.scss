@@ -254,6 +254,63 @@ a {
 }
 
 // -----------------------------------------------------------------------------
+// STATUS BAR — fixed strip at the top of the viewport showing current
+// location, live local time, and next destination
+// -----------------------------------------------------------------------------
+// Driven by _data/status.yml. Rendered via _includes/footer/custom.html and
+// positioned visually at the top with CSS — works on every page regardless
+// of where in the DOM it lives.
+.status-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  min-height: 32px;
+  background: $navy-deep;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6em;
+  flex-wrap: wrap;
+  font-size: 0.85em;
+  letter-spacing: 0.02em;
+  padding: 0.35em 1em;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.status-bar .status-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  white-space: nowrap;
+}
+
+.status-bar .status-emoji {
+  font-size: 1em;
+  // Keep emoji baseline-aligned with text
+  line-height: 1;
+}
+
+// Push the rest of the page down so the masthead isn't hidden behind the bar.
+body {
+  padding-top: 32px;
+}
+
+// Tighter on mobile: smaller font, hide "Next: ..." to keep one line
+@media (max-width: 600px) {
+  .status-bar {
+    font-size: 0.78em;
+    gap: 1em;
+    padding: 0.3em 0.6em;
+  }
+  .status-bar .status-next {
+    display: none;
+  }
+}
+
+// -----------------------------------------------------------------------------
 // HERO BANNER — bottom-up gradient so titles stay readable on bright photos
 // -----------------------------------------------------------------------------
 // Minimal Mistakes already applies an overlay_filter as a flat darken across

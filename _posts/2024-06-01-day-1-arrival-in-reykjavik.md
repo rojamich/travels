@@ -13,6 +13,7 @@
 
 # --- The headline shown on the page and in listings ---
 title: "Day 1 — Arrival in Reykjavik"
+published: false  # Reference template only — hidden from live site
 
 # --- Publish date. Use ISO format (YYYY-MM-DD). Time is optional. ---
 date: 2024-06-01

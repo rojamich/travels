@@ -2,6 +2,7 @@
 # Second sample post — same structure as day 1.
 # See day-1 for explanations of every front matter field.
 title: "Day 2 — The Golden Circle"
+published: false  # Reference template only — hidden from live site
 date: 2024-06-02
 categories:
   - iceland-2024

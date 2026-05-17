@@ -1,0 +1,64 @@
+{%- comment -%}
+=============================================================================
+status-bar.html — slim "where we are right now" bar at the top of every page
+=============================================================================
+Reads data from _data/status.yml. Shows: current location, live local time
+(client-side JS using the configured timezone), and next destination.
+
+If current_location is blank, the whole bar is suppressed.
+
+Included from _includes/footer/custom.html — but rendered visually at the
+top of the viewport via CSS position: fixed (see assets/css/main.scss).
+=============================================================================
+{%- endcomment -%}
+
+{%- assign status = site.data.status -%}
+{%- if status and status.current_location and status.current_location != "" -%}
+
+<div class="status-bar" role="region" aria-label="Current status">
+  <span class="status-item">
+    <span class="status-emoji" aria-hidden="true">📍</span>
+    <span>{{ status.current_location }}</span>
+  </span>
+
+  {%- if status.current_timezone and status.current_timezone != "" %}
+  <span class="status-item">
+    <span class="status-emoji" aria-hidden="true">🕒</span>
+    <span id="status-time" data-tz="{{ status.current_timezone }}">--:-- --</span>
+  </span>
+  {%- endif %}
+
+  {%- if status.next_destination and status.next_destination != "" %}
+  <span class="status-item status-next">
+    <span class="status-emoji" aria-hidden="true">✈️</span>
+    <span>Next: {{ status.next_destination }}</span>
+  </span>
+  {%- endif %}
+</div>
+
+<script>
+  (function () {
+    var el = document.getElementById("status-time");
+    if (!el) return;
+    var tz = el.getAttribute("data-tz");
+    function update() {
+      try {
+        var fmt = new Intl.DateTimeFormat("en-US", {
+          hour: "numeric",
+          minute: "2-digit",
+          hour12: true,
+          timeZone: tz
+        });
+        el.textContent = fmt.format(new Date()) + " local";
+      } catch (e) {
+        // Invalid timezone — fail silently rather than show garbage.
+        el.style.display = "none";
+      }
+    }
+    update();
+    // Refresh once a minute. No need for second-precision.
+    setInterval(update, 60000);
+  })();
+</script>
+
+{%- endif -%}

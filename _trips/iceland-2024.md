@@ -10,8 +10,9 @@
 # in a form and Decap saves a file with this exact shape.
 # =============================================================================
 
-title: "Iceland 2024"
-description: "Two weeks driving the Ring Road, chasing waterfalls and northern lights."
+title: "📝 Template (Reference Only) — Iceland"
+description: "Template trip — used as a reference for what fields to fill in. Hidden from the live site."
+published: false
 cover: /assets/images/iceland-2024/cover.jpg
 start_date: 2024-06-01
 end_date: 2024-06-14

@@ -1,0 +1,27 @@
+# =============================================================================
+# status.yml — the data behind the status bar at the top of every page
+# =============================================================================
+# Edit these values to update what visitors see in the status bar:
+#   📍 Currently in [current_location] · 🕒 [live time in timezone] · ✈️ Next: [next_destination]
+#
+# You can edit this file via /admin/ (under "Site Configuration") or directly
+# via GitHub. Changes only need one publish/commit to update site-wide.
+#
+# If `current_location` is empty, the bar doesn't render at all.
+# =============================================================================
+
+current_location: "Home"
+
+# IANA timezone for the live clock. Common ones:
+#   America/Los_Angeles, America/Denver, America/Chicago, America/New_York
+#   Europe/London, Europe/Paris
+#   Asia/Tokyo, Asia/Ho_Chi_Minh, Asia/Bangkok, Asia/Seoul
+#   Pacific/Auckland, Australia/Sydney
+# Full list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+current_timezone: "America/Los_Angeles"
+
+# Free-form text. Examples:
+#   "Tokyo, Japan — Sep 2026"
+#   "Planning Antarctica for 2027"
+#   "TBD" (or empty to hide the "Next" segment)
+next_destination: "Planning the next adventure"
