@@ -36,7 +36,9 @@ publish_mode: editorial_workflow
 # Where the live site lives. Used by the "preview" feature.
 site_url: https://where-in-the-world-are-mike-and-jen.netlify.app
 display_url: https://where-in-the-world-are-mike-and-jen.netlify.app
-logo_url: https://where-in-the-world-are-mike-and-jen.netlify.app/assets/images/iceland-2024/cover.jpg
+# logo_url removed — was pointing at a now-hidden Iceland placeholder image
+# and 404'd in the admin console. Add a real Cloudinary URL here if you want
+# a custom logo at the top of the admin sidebar.
 
 # -----------------------------------------------------------------------------
 # Media: Cloudinary
