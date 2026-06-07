@@ -1,11 +1,15 @@
 ---
-title: "Welcome Letter!"
+title: Welcome Letter!
 date: 2022-01-27
 categories:
   - european-excursion
 order: 1
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/v1780792557/20220207_184340a_2_rxmpdj.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/v1780792557/20220207_184340a_2_rxmpdj.jpg
+  overlay_filter: 0.1
 location:
-  name: "London, UK"
+  name: London, UK
   lat: 51.5074
   lng: -0.1278
 ---
