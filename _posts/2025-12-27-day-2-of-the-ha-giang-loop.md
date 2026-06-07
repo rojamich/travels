@@ -11,7 +11,9 @@ header:
 tags: []
 toc: false
 ---
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780802579/20251227_071050_ojwdeb.jpg)
+Our second full day exploring the Ha Giang Loop via motorbike :)
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/ar_3:4,c_auto/c_limit,f_auto,q_auto,w_1200/v1780802579/20251227_071050_ojwdeb.jpg)
 
  We woke up the next morning to the gorgeous view of the Tonkinese Alps! We wanted to go out and experience the market in the nearby town. It was bustling at 7am!
 
@@ -20,11 +22,11 @@ toc: false
 There was a wide-ranging assortment of food available - including live animals! There were multiple coffee shops and food stands to choose from, so we picked a fried sesame dough ball filled with sweet mung bean paste and drizzled with honey (Bánh Rán). It was not my favorite food. One of my favorite experiences when we travel is watching Mike interact with the locals because he works so extremely hard to learn languages!
 We had a delicious and filling breakfast before striking out on our second day of motorbiking. Check out our view!
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780802806/20251227_092021_jsdnpw.jpg)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/ar_16:9,c_auto/c_limit,f_auto,q_auto,w_1200/v1780802806/20251227_092021_jsdnpw.jpg)
 
 There were no shortages of coffee shops with breathtaking views - what more could I ask for? Really??
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780803016/20251227_093620_ujunxn.jpg)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/ar_3:4,c_auto,g_east/ar_3:4,c_auto/c_limit,f_auto,q_auto,w_1200/v1780803016/20251227_093620_ujunxn.jpg)
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780803018/20251227_093627_horp2c.jpg)
 
@@ -100,7 +102,6 @@ I feel so privileged to experience this country 💗
 At last, it was time to disembark and continue on our tour. 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780804295/20251227_145653_zniex5.jpg)
-
 
 As we zipped along through the mountains, we were treated to a stop overlooking the valley where the green seemed endless. I'm currently re-reading "The Midnight Library" and renewing my appreciation for this incredible life :)
 
