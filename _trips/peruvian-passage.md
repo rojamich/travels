@@ -1,5 +1,5 @@
 ---
-title: Peruvian Passage 2024
+title: Peruvian Passage 2025
 description: A month in Peru — Lima, the Paracas desert, Cusco, Machu Picchu,
   and the Amazon rainforest.
 cover: https://res.cloudinary.com/dgw35sldo/image/upload/v1780793338/20250828_112552_njozvm.jpg
