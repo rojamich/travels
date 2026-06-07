@@ -254,6 +254,35 @@ a {
 }
 
 // -----------------------------------------------------------------------------
+// INLINE AUDIO — rendered by the {% audio_block ... %} Liquid tag
+// -----------------------------------------------------------------------------
+.inline-audio {
+  margin: 1.5em auto;
+  max-width: 520px;
+  padding: 1em 1.2em;
+  background: $sand-medium;
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid $border-color;
+
+  audio {
+    width: 100%;
+    margin-top: 0.4em;
+    // Style the native player controls slightly (browser-dependent).
+    &::-webkit-media-controls-panel {
+      background-color: $sand-warm;
+    }
+  }
+}
+
+.inline-audio-title {
+  margin: 0 0 0.3em 0;
+  font-weight: 600;
+  color: $navy-deep;
+  font-size: 0.95em;
+}
+
+// -----------------------------------------------------------------------------
 // INLINE GALLERY — rendered by the {% gallery_block ... %} Liquid tag,
 // which the Decap "Photo Gallery" editor component inserts into post body.
 // -----------------------------------------------------------------------------

@@ -45,6 +45,49 @@
     =========================================================================
   -->
   <script>
+    // ----- "🎵 Audio Clip" -----
+    CMS.registerEditorComponent({
+      id: "audio",
+      label: "🎵 Audio Clip",
+      fields: [
+        {
+          name: "audio",
+          label: "Audio file",
+          widget: "file",
+          hint: "Upload an MP3 (or any audio file Cloudinary accepts)."
+        },
+        {
+          name: "title",
+          label: "Title (optional)",
+          widget: "string",
+          required: false,
+          hint: "Shown above the player. e.g. 'Sounds of the Hanoi market'."
+        }
+      ],
+      pattern: /\{%\s*audio_block\s+(\S+)\s*%\}/,
+      fromBlock: function (match) {
+        try {
+          return JSON.parse(decodeURIComponent(match[1]));
+        } catch (e) {
+          return { audio: "", title: "" };
+        }
+      },
+      toBlock: function (data) {
+        return "{% audio_block " + encodeURIComponent(JSON.stringify(data)) + " %}";
+      },
+      toPreview: function (data) {
+        var title = (data && data.title) ? data.title : "(audio clip)";
+        var url = (data && data.audio) || "";
+        return (
+          '<div style="border:1px dashed #aaa;padding:0.6em;background:#fafafa;border-radius:6px;">' +
+          '<div style="font-size:0.85em;color:#555;">🎵 ' + title + '</div>' +
+          (url ? '<audio controls preload="none" src="' + url + '" style="width:100%;margin-top:0.5em;"></audio>' : '<div style="color:#aaa;">(no audio uploaded yet)</div>') +
+          "</div>"
+        );
+      }
+    });
+
+    // ----- "📷 Photo Gallery" -----
     CMS.registerEditorComponent({
       id: "gallery",
       label: "📷 Photo Gallery",
