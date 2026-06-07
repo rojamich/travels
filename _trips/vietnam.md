@@ -9,4 +9,7 @@ lat: 10.823099
 lng: 106.629662
 tags:
   - Asia
+  - Nature
+  - Food
+  - ""
 ---
