@@ -85,9 +85,17 @@ We lined up right away to bus over to the boats. It was packed, waiting in line!
 It was a very short ride, probably less than 5 minutes, over to the boats, where there was no wait to board. 
 Our little group is stoked for another adventure together!
 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780804037/20251227_142342_b3jnl5.jpg)
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780804040/20251227_142332_r6amck.jpg)
+
 As we floated, we admired the unique color of the water and how it cuts through the mountains!
 
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780804154%2F20251227_143326_ahfv53.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780804163%2F20251227_143249_dwj0n0.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780804143%2FIMG-20251227-WA0009_upurvt.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780804175%2F20251227_143245_krh1c5.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780804155%2F20251227_142901_zybunn.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
 I feel so privileged to experience this country 💗
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780804238/20251227_144157_gaamdx.jpg)
 
 At last, it was time to disembark and continue on our tour. 
 As we zipped along through the mountains, we were treated to a stop overlooking the valley where the green seemed endless. I'm currently re-reading "The Midnight Library" and renewing my appreciation for this incredible life :)
