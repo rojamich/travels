@@ -31,5 +31,82 @@
 
   <!-- Netlify Identity widget for login (handles invitation, password, sessions) -->
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  <!--
+    =========================================================================
+    EDITOR COMPONENTS — custom blocks she can insert in the post body
+    =========================================================================
+    The "📷 Photo Gallery" button appears in the markdown editor's toolbar.
+    Clicking it opens a form: she picks one or more photos (via Cloudinary)
+    and optionally adds a caption. On save, a {% gallery_block ... %} tag is
+    written into the markdown at her cursor position. At build time, the
+    Jekyll plugin in _plugins/gallery_block.rb converts that tag into a
+    styled grid of clickable photos.
+    =========================================================================
+  -->
+  <script>
+    CMS.registerEditorComponent({
+      id: "gallery",
+      label: "📷 Photo Gallery",
+      fields: [
+        {
+          name: "photos",
+          label: "Photos",
+          widget: "list",
+          summary: "{{fields.image}}",
+          field: {
+            name: "image",
+            label: "Image",
+            widget: "image",
+            hint: "Click here, then upload or pick a photo. Repeat 'Add' to add more."
+          },
+          hint: "Add as many photos as you want — they'll render in a grid."
+        },
+        {
+          name: "caption",
+          label: "Caption (optional)",
+          widget: "string",
+          required: false,
+          hint: "Shown below the gallery in italic."
+        }
+      ],
+      pattern: /\{%\s*gallery_block\s+(\S+)\s*%\}/,
+      fromBlock: function (match) {
+        try {
+          return JSON.parse(decodeURIComponent(match[1]));
+        } catch (e) {
+          return { photos: [], caption: "" };
+        }
+      },
+      toBlock: function (data) {
+        return "{% gallery_block " + encodeURIComponent(JSON.stringify(data)) + " %}";
+      },
+      toPreview: function (data) {
+        var photos = (data && data.photos) || [];
+        var imgs = photos
+          .map(function (p) {
+            var url = p && (p.image || p);
+            if (!url) return "";
+            return '<img src="' + url + '" style="width:23%;margin:1%;border-radius:4px;">';
+          })
+          .join("");
+        return (
+          '<div style="border:1px dashed #aaa;padding:0.6em;background:#fafafa;border-radius:6px;">' +
+          '<div style="font-size:0.85em;color:#555;margin-bottom:0.3em;">📷 Gallery (' +
+          photos.length +
+          " photo" +
+          (photos.length === 1 ? "" : "s") +
+          ")</div>" +
+          imgs +
+          (data && data.caption
+            ? '<div style="text-align:center;color:#666;font-style:italic;font-size:0.9em;margin-top:0.3em;">' +
+              data.caption +
+              "</div>"
+            : "") +
+          "</div>"
+        );
+      }
+    });
+  </script>
 </body>
 </html>

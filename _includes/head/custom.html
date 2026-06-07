@@ -62,7 +62,7 @@
     // size with scrollbars. Pre-tag every gallery link as type:image to
     // skip the auto-detection.
     var GALLERY_SELECTOR =
-      ".page__content figure a, .page__content .gallery a, .page__content a.image-popup";
+      ".page__content figure a, .page__content .gallery a, .page__content a.image-popup, .page__content .inline-gallery-link";
     document.querySelectorAll(GALLERY_SELECTOR).forEach(function (a) {
       if (!a.dataset.glightbox) a.dataset.glightbox = "type: image";
     });
