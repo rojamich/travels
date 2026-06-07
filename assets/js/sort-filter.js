@@ -43,15 +43,28 @@
     if (cards.length === 0) return;
 
     // ----- SORT DROPDOWN -----
+    // Options can be configured per-controls via data-sort-options attribute:
+    //   <div class="js-controls" data-sort-options="order,oldest,recent,name">
+    // The first value in the list becomes the default sort on load.
+    var SORT_LABELS = {
+      order:    "Day order",
+      recent:   "Most recent",
+      oldest:   "Oldest first",
+      location: "By location (A–Z)",
+      name:     "By title (A–Z)"
+    };
+    var sortOptions = (controls.dataset.sortOptions || "recent,oldest,location,name")
+      .split(",")
+      .map(function (s) { return s.trim(); })
+      .filter(function (s) { return SORT_LABELS[s]; });
+    var optionsHtml = sortOptions.map(function (opt) {
+      return '<option value="' + opt + '">' + SORT_LABELS[opt] + '</option>';
+    }).join("");
+
     var sortWrap = document.createElement("div");
     sortWrap.innerHTML =
       '<label for="sort-select">Sort:</label>' +
-      '<select id="sort-select">' +
-        '<option value="recent">Most recent</option>' +
-        '<option value="oldest">Oldest first</option>' +
-        '<option value="location">By location (A–Z)</option>' +
-        '<option value="name">By name (A–Z)</option>' +
-      "</select>";
+      '<select id="sort-select">' + optionsHtml + "</select>";
     controls.appendChild(sortWrap);
 
     // ----- TAG CHIPS -----
@@ -145,6 +158,9 @@
       var sorted = cards.slice();   // copy so we don't mutate the original
       sorted.sort(function (a, b) {
         switch (mode) {
+          case "order":
+            return (parseInt(a.dataset.order || 999, 10) -
+                    parseInt(b.dataset.order || 999, 10));
           case "oldest":
             return cmpDate(a, b);
           case "location":
@@ -170,8 +186,8 @@
       return (a || "").localeCompare(b || "", undefined, { sensitivity: "base" });
     }
 
-    // Apply default sort (most recent) on load so order is deterministic
-    // regardless of how Liquid produced the markup.
-    applySort("recent");
+    // Apply default sort on load — the first option from the configured list,
+    // so order is deterministic regardless of how Liquid produced the markup.
+    applySort(sortOptions[0] || "recent");
   }
 })();

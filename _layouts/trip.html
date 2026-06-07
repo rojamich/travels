@@ -45,9 +45,28 @@ layout: single
 {% if trip_posts.size == 0 %}
   <p><em>No posts yet for this trip. Check back soon!</em></p>
 {% else %}
-  <div class="day-list">
+  <!--
+    Sort + filter controls. The script (assets/js/sort-filter.js) reads
+    data-list-selector to know which list to control and data-sort-options
+    to know which sort modes to offer. First option in the list is the default.
+  -->
+  <div class="js-controls controls"
+       data-list-selector=".js-day-list"
+       data-sort-options="order,oldest,recent,name"></div>
+
+  <div class="day-list js-day-list">
     {% for post in trip_posts %}
-      <a href="{{ post.url | relative_url }}" class="day-card">
+      {%- assign location_city = "" -%}
+      {%- if post.location.name -%}
+        {%- assign location_city = post.location.name | split: "," | first | strip -%}
+      {%- endif -%}
+      <a href="{{ post.url | relative_url }}"
+         class="day-card"
+         data-order="{{ post.order | default: 999 }}"
+         data-name="{{ post.title | escape }}"
+         data-location="{{ post.location.name | default: '' | escape }}"
+         data-start-date="{{ post.date | date: '%Y-%m-%d' }}"
+         data-tags="{{ location_city }}">
         <div class="day-card-image">
           {% if post.header.teaser %}
             <img src="{{ post.header.teaser | relative_url }}"
@@ -59,6 +78,7 @@ layout: single
           <h3>{{ post.title }}</h3>
           <p style="color:#888; margin:0 0 0.5em 0;">
             {{ post.date | date: "%A, %B %-d, %Y" }}
+            {% if post.location.name %} &middot; {{ post.location.name }}{% endif %}
           </p>
           {% if post.excerpt %}
             <p>{{ post.excerpt | strip_html | truncate: 200 }}</p>
@@ -67,6 +87,8 @@ layout: single
       </a>
     {% endfor %}
   </div>
+
+  <script src="{{ '/assets/js/sort-filter.js' | relative_url }}"></script>
 {% endif %}
 
 {% include follow-button.html %}
