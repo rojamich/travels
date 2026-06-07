@@ -20,7 +20,13 @@ toc: false
 There was a wide-ranging assortment of food available - including live animals! There were multiple coffee shops and food stands to choose from, so we picked a fried sesame dough ball filled with sweet mung bean paste and drizzled with honey (Bánh Rán). It was not my favorite food. One of my favorite experiences when we travel is watching Mike interact with the locals because he works so extremely hard to learn languages!
 We had a delicious and filling breakfast before striking out on our second day of motorbiking. Check out our view!
 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780802806/20251227_092021_jsdnpw.jpg)
+
 There were no shortages of coffee shops with breathtaking views - what more could I ask for? Really??
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780803016/20251227_093620_ujunxn.jpg)
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780803018/20251227_093627_horp2c.jpg)
 
 Here I am still savoring my favorite coffee (ca phe muoi) while taking off again to wind through the mountains 💗🌄
 
