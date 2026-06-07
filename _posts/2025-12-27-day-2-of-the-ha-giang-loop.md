@@ -121,6 +121,10 @@ We settled in and met up for a hot pot dinner - one of our companions taught us 
 
 A group of us decided to walk around the town a bit after dinner - these lights were so festive!
 
-The girls in our group asked if I would teach them a few line dances that evening, so we got permission from the hotel staff to use the open space to dance in!I taught them "fireball", "flex", and "church clap" - it was SO fun! 
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780804522%2F20251227_193658_pt9rib.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780804523%2F20251227_182123_bjpa9n.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780804518%2F20251227_195556_yzoceq.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+The girls in our group asked if I would teach them a few line dances that evening, so we got permission from the hotel staff to use the open space to dance in! I taught them "fireball", "flex", and "church clap" - it was SO fun! 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780804596/20251227_211649_k3myaq.jpg)
 
 We finally turned in and got some hard sleep that night in our well-air-conditioned room!
