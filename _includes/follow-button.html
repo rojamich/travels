@@ -1,0 +1,23 @@
+{%- comment -%}
+=============================================================================
+follow-button.html — compact "Follow this blog" button for posts and trips
+=============================================================================
+Renders a single inline button that opens follow.it's hosted subscription
+page in a new tab. Goes at the bottom of every post and trip page via
+_layouts/post.html and _layouts/trip.html.
+
+If a reader likes a post enough to want updates, this is the one-click
+path to subscribe without leaving the page.
+=============================================================================
+{%- endcomment -%}
+
+<div class="follow-cta">
+  <p class="follow-cta-prompt">Enjoyed this? Get future posts in your inbox.</p>
+  <a href="https://follow.it/our-travels?leanpub"
+     class="follow-button"
+     target="_blank"
+     rel="noopener">
+    <span class="follow-button-icon" aria-hidden="true">↳</span>
+    <span>Follow this blog</span>
+  </a>
+</div>

@@ -254,6 +254,53 @@ a {
 }
 
 // -----------------------------------------------------------------------------
+// FOLLOW BUTTON — green CTA at the bottom of every post and trip page
+// -----------------------------------------------------------------------------
+.follow-cta {
+  margin: 2.5em 0 1em;
+  padding: 1.5em 1.25em;
+  text-align: center;
+  background: linear-gradient(135deg, lighten($sand-medium, 2%) 0%, $sand-medium 100%);
+  border-radius: 14px;
+  border: 1px solid $border-color;
+}
+
+.follow-cta-prompt {
+  margin: 0 0 0.9em 0;
+  color: $navy-deep;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.follow-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55em;
+  background: #2EB872;
+  color: #fff !important;
+  text-decoration: none !important;
+  padding: 0.75em 1.6em;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95em;
+  letter-spacing: 0.01em;
+  transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 2px 8px rgba(46, 184, 114, 0.25);
+
+  &:hover {
+    background: darken(#2EB872, 6%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(46, 184, 114, 0.35);
+    color: #fff !important;
+  }
+}
+
+.follow-button-icon {
+  font-size: 1.15em;
+  font-weight: 700;
+}
+
+// -----------------------------------------------------------------------------
 // STATUS BAR — fixed strip at the top of the viewport showing current
 // location, live local time, and next destination
 // -----------------------------------------------------------------------------

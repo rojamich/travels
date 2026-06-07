@@ -48,6 +48,16 @@ media_library:
   config:
     cloud_name: dgw35sldo
     api_key: '353435959467269'
+    # Auto-optimization on every uploaded image:
+    #   - fetch_format: auto      → serve WebP/AVIF where supported, JPEG otherwise
+    #   - quality: auto           → Cloudinary picks the smallest size with no visible loss
+    #   - width: 1200, crop: limit → cap displayed width at 1200px (no upscaling)
+    # Originals stay full-size in Cloudinary; only the delivered URL is shrunk.
+    default_transformations:
+      - - fetch_format: auto
+          quality: auto
+          width: 1200
+          crop: limit
 
 # Local fallback (only used if Cloudinary fails to load — should never trigger).
 media_folder: "assets/images/uploads"
@@ -87,6 +97,19 @@ collections:
               widget: "string",
               required: false,
               hint: "Free-form text shown with a ✈️ icon. e.g. 'Tokyo, Japan — Sep 2026'. Leave blank to hide." }
+
+      - file: "_pages/about.md"
+        label: "About page (text)"
+        name: "about"
+        fields:
+          - { label: "Title", name: "title", widget: "hidden", default: "About" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "single" }
+          - { label: "Author profile", name: "author_profile", widget: "hidden", default: false }
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
+            hint: "Write the about page content. Use the toolbar for formatting; drag photos in to upload."
 
   # -------------------------------------------------------------------------
   # Trips collection — one entry per vacation.
