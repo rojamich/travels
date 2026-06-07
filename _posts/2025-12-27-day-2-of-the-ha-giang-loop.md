@@ -30,23 +30,45 @@ There were no shortages of coffee shops with breathtaking views - what more coul
 
 Here I am still savoring my favorite coffee (ca phe muoi) while taking off again to wind through the mountains 💗🌄
 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780803065/20251227_094609_avpowi.jpg)
+
 This is a view I never would've imagined I'd see with my own eyes. 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780803114/20251227_095237_psjhif.jpg)
 
 Each rest stop had a version of Đá Cầu being played! It's the national sport of Vietnam and is a lot like hackeysack but somehow harder! You stand in a circle and take turns kicking this towards each other - trying to keep it off the ground :)
 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780803163/20251227_100037_blqzvu.jpg)
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780803167/image_1_cjnqqn.png)
+
 There are random sobriety checkpoints along the loop to ensure drivers are sober. If not, they must pay a fine...and continue on their way 🤯!!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780803219/20251227_101135_ny4dpu.jpg)
 
 Mike and I had the opportunity to drive ourselves on the tour if we wanted to, but we are REALLY glad we didn't. This day was a good example of why! Reason #1 - the views are too incredible. I would probably drive off the road trying to admire it. Let alone all the photos I would miss!
 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780803279/20251227_101703_pss76o.jpg)
+
 Reason #2 - Driving in the fog that only got thicker! I'd probably be lost pretty quickly.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780803285/20251227_102447_bjcgal.jpg)
 
 Reason #3 - Most of the time, the road is paved...but sometimes it's not!
 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780803284/20251227_103201_n58nvv.jpg)
+
 It started to get pretty chilly! We went from Ho Chi Minh (In the 80s) to the loop (In the 50s).Our next stop allowed for some time around a fire to warm our bones :)
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780803489/20251227_103910_hacpk1.jpg)
 
 It began to drizzle, so my motorbike guide broke out this fancy raincover suit for me! How thoughtful is that?? Do I look like Barney? Yes. Am I dry? Also yes.
 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780803488/20251227_105434_lilkoe.jpg)
+
 We came across a major traffic jam today! Holy moly, I DID NOT think we were going to make it through!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780803553%2F20251227_113310_l11usn.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780803554%2F20251227_113422_pxaaph.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780803548%2F20251227_113343_wy4hgl.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 Mike was very insistent that he wanted to teach everyone on the road the motorcyclist wave. This is a normal 'stay safe' wave that most riders do back and forth to each other on the roadways in the US. Spoiler, it has not made it to Vietnam yet 🤣
 
