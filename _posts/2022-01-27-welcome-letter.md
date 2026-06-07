@@ -6,7 +6,7 @@ categories:
 order: 1
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/v1780792557/20220207_184340a_2_rxmpdj.jpg
-  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/v1780792557/20220207_184340a_2_rxmpdj.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780795142/20220209_084603_-_Copy_k2hagz.jpg
   overlay_filter: 0.1
 location:
   name: London, UK
