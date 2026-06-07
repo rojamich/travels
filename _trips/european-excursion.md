@@ -2,7 +2,7 @@
 title: European Excursion
 description: A months-long European tour — London, Brussels, Paris, Italy,
   Germany, and Amsterdam.
-cover: https://res.cloudinary.com/dgw35sldo/image/upload/v1780793139/20230810_141220_gbpnwr.jpg
+cover: https://res.cloudinary.com/dgw35sldo/image/upload/v1780793221/20220211_163905_jk2kcd.jpg
 start_date: 2021-02-06
 end_date: 2021-03-18
 location: Europe (UK → Belgium → France → Italy → Germany → Netherlands)
