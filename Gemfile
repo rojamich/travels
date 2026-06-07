@@ -13,6 +13,12 @@ source "https://rubygems.org"
 # pins old versions). This gives us a faster, more current Jekyll.
 gem "jekyll", "~> 4.3"
 
+# Pin sass-embedded to <1.100.0 — upstream's 1.100.0 release has a broken
+# native extension build (references a non-existent JSON::Fragment constant)
+# that fails Netlify's gem install step. Last good version is 1.99.x.
+# Remove this pin once sass-embedded ships a patched 1.100.x.
+gem "sass-embedded", "< 1.100.0"
+
 # Plugins. These must also be listed in _config.yml under `plugins:`.
 group :jekyll_plugins do
   gem "jekyll-include-cache"
