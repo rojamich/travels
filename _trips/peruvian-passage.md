@@ -10,9 +10,9 @@ lat: -13.517
 lng: -71.9785
 country_code: pe
 tags:
-  - south-america
-  - nature
-  - hiking
+  - South-America
+  - Nature
+  - Hiking
 ---
 
 <!-- Optional intro text appears here on the trip page; leave blank to skip. -->
