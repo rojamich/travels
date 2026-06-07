@@ -5,3 +5,46 @@ bar visually at the top of the viewport via position: fixed.
 {%- endcomment -%}
 
 {% include status-bar.html %}
+
+{%- comment -%}
+=============================================================================
+back-to-top button — appears bottom-right after scrolling, smooth-scrolls
+to the top of the page when clicked. Hidden when near the top.
+=============================================================================
+{%- endcomment -%}
+<button id="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+  <span aria-hidden="true">↑</span>
+</button>
+
+<script>
+  (function () {
+    var btn = document.getElementById("back-to-top");
+    if (!btn) return;
+
+    function update() {
+      if (window.scrollY > 400) {
+        btn.classList.add("is-visible");
+      } else {
+        btn.classList.remove("is-visible");
+      }
+    }
+    // Throttle scroll handler — requestAnimationFrame ensures we don't fire
+    // hundreds of times per second.
+    var ticking = false;
+    window.addEventListener("scroll", function () {
+      if (!ticking) {
+        window.requestAnimationFrame(function () {
+          update();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    }, { passive: true });
+
+    btn.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    update();
+  })();
+</script>
