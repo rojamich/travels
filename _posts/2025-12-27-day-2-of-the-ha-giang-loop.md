@@ -72,9 +72,15 @@ We came across a major traffic jam today! Holy moly, I DID NOT think we were goi
 
 Mike was very insistent that he wanted to teach everyone on the road the motorcyclist wave. This is a normal 'stay safe' wave that most riders do back and forth to each other on the roadways in the US. Spoiler, it has not made it to Vietnam yet 🤣
 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780803819/20251227_121257_fcizhd.jpg)
+
 We wound our way through the Du Già area and down to the river, where we prepared for our boat ride! It was a windy but beautifully woven road down to the village.
 
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780803946%2F20251227_123656_d2hqtz.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780803947%2F20251227_140228_myh1ea.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780803951%2F20251227_140301_biyul9.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
 We lined up right away to bus over to the boats. It was packed, waiting in line! They also packed us into the van like sardines! 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780803999/20251227_141059_efxxz0.jpg)
 
 It was a very short ride, probably less than 5 minutes, over to the boats, where there was no wait to board. 
 Our little group is stoked for another adventure together!
