@@ -1,5 +1,5 @@
 ---
-title: European Excursion
+title: European Excursion 2022
 description: A months-long European tour — London, Brussels, Paris, Italy,
   Germany, and Amsterdam.
 cover: https://res.cloudinary.com/dgw35sldo/image/upload/v1780793221/20220211_163905_jk2kcd.jpg
