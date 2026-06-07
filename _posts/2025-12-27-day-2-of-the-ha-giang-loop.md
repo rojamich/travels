@@ -98,14 +98,26 @@ I feel so privileged to experience this country 💗
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780804238/20251227_144157_gaamdx.jpg)
 
 At last, it was time to disembark and continue on our tour. 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780804295/20251227_145653_zniex5.jpg)
+
+
 As we zipped along through the mountains, we were treated to a stop overlooking the valley where the green seemed endless. I'm currently re-reading "The Midnight Library" and renewing my appreciation for this incredible life :)
 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780804337/20251227_155731_i0eui0.jpg)
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780804340/20251227_155534_fa3fq0.jpg)
+
 On our way to the hotel for the night, we saw some insane loads being hefted onto backs and bikes!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780804396%2F20251227_162113_ckdrg4.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780804398%2F20251227_162544_rrre3e.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780804401%2F20251227_163106_gdzwn4.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 Feeling embarrassed that I've been proud to bike with one thing in my hand and not crash...
 We made it to our accommodations for the night, and they were spacious and welcoming! They even had an elevator! Plus, it was a stop in a cute little town :) 
 
 We settled in and met up for a hot pot dinner - one of our companions taught us how to eat it as he had thankfully been in-country longer!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780804463%2F20251227_183958_ec1uzm.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780804466%2F20251227_184325_m69pcr.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780804468%2F20251227_184348_sry9cc.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 A group of us decided to walk around the town a bit after dinner - these lights were so festive!
 
