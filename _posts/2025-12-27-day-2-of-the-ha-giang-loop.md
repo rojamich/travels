@@ -11,7 +11,11 @@ header:
 tags: []
 toc: false
 ---
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780802579/20251227_071050_ojwdeb.jpg)
+
  We woke up the next morning to the gorgeous view of the Tonkinese Alps! We wanted to go out and experience the market in the nearby town. It was bustling at 7am!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780802599%2F20251227_072431_nvlj8i.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780802604%2F20251227_071656_uh8kpf.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780802605%2F20251227_073347_yvd0v6.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780802600%2F20251227_071538_ng2rom.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 There was a wide-ranging assortment of food available - including live animals! There were multiple coffee shops and food stands to choose from, so we picked a fried sesame dough ball filled with sweet mung bean paste and drizzled with honey (Bánh Rán). It was not my favorite food. One of my favorite experiences when we travel is watching Mike interact with the locals because he works so extremely hard to learn languages!
 We had a delicious and filling breakfast before striking out on our second day of motorbiking. Check out our view!
@@ -22,7 +26,6 @@ Here I am still savoring my favorite coffee (ca phe muoi) while taking off again
 
 This is a view I never would've imagined I'd see with my own eyes. 
 
-
 Each rest stop had a version of Đá Cầu being played! It's the national sport of Vietnam and is a lot like hackeysack but somehow harder! You stand in a circle and take turns kicking this towards each other - trying to keep it off the ground :)
 
 There are random sobriety checkpoints along the loop to ensure drivers are sober. If not, they must pay a fine...and continue on their way 🤯!!
@@ -31,9 +34,7 @@ Mike and I had the opportunity to drive ourselves on the tour if we wanted to, b
 
 Reason #2 - Driving in the fog that only got thicker! I'd probably be lost pretty quickly.
 
-
 Reason #3 - Most of the time, the road is paved...but sometimes it's not!
-
 
 It started to get pretty chilly! We went from Ho Chi Minh (In the 80s) to the loop (In the 50s).Our next stop allowed for some time around a fire to warm our bones :)
 
@@ -52,7 +53,6 @@ Our little group is stoked for another adventure together!
 
 As we floated, we admired the unique color of the water and how it cuts through the mountains!
 
-
 I feel so privileged to experience this country 💗
 
 At last, it was time to disembark and continue on our tour. 
@@ -66,7 +66,6 @@ We made it to our accommodations for the night, and they were spacious and welco
 We settled in and met up for a hot pot dinner - one of our companions taught us how to eat it as he had thankfully been in-country longer!
 
 A group of us decided to walk around the town a bit after dinner - these lights were so festive!
-
 
 The girls in our group asked if I would teach them a few line dances that evening, so we got permission from the hotel staff to use the open space to dance in!I taught them "fireball", "flex", and "church clap" - it was SO fun! 
 
