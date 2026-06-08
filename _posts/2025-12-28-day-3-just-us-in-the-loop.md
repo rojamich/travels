@@ -57,4 +57,28 @@ We were given time to stroll through the village and it was so cool! Around ever
 
 After lunch, we were back on the road and reached a stop with a view and hot tea to keep warm :) It was pretty chilly!
 
-{% gallery_block %7B%22photos%22%3A%22%22%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780889092%2F20251228_135105_fxnm24.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Our tour took us to the di tích kiến trúc nghệ thuật nha vuong vuong castle which translates to architectural and artistic relics of the royal house and royal castle.
+
+Here we got to walk through the garden and grounds of the castle and recognize once more that we are very tall!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780889802%2F20251228_142200_q1jp7j.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780889778%2F20251228_142459_idhrxc.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780889814%2F20251228_142229_odzkey.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780889824%2F20251228_143120_z8xqmo.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780889831%2F20251228_143618_dodno1.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780889844%2F20251228_143711_c3aamq.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780889846%2F20251228_143714_flmrzb.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780889859%2F20251228_145124_cxowe3.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780889865%2F20251228_145642_ktxegh.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+We rode for a bit longer before coming to one of my favorite stops. It was easily one of the coolest views and something I return to when I think of Vietnam.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780890566/20251228_160936_hli55f.jpg)
+
+Here we were able to have fun playing đá cầu and I have reaffirmed I am very bad at it! Don't ask me *how* bad lol.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780890630/20251228_154552_fqj4uz.jpg)
+
+There were little shops lining the rest stop area and our guides were kind enough to buy us bandanas! We officially look like hippies! 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780890863/20251228_161130_sm9nrt.jpg)
+
+We had a couple groups of tourists ask to take photos with me, how cute is that?!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780890900/20251228_162057_vlasxl.jpg)
+
+After stopping for dinner, we rolled into our hostel village for the evening. It was such a tiny "town"!
