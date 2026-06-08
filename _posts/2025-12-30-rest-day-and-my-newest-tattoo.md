@@ -31,7 +31,7 @@ The walk over was peaceful and quiet. The roadways are filled with pedestrians a
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780946380/20251230_083932_ezk6cl.jpg)
 
- We made it to the shop and met with the manager to discuss last minute details of the tattoo. One that stuck out in my mind is the detail of the snowman. It was a really cheerful looking guy and I had to explain this was from a serial killer series ([Jo Nesbo](https://jonesbo.com/)) so, perhaps he could look less joyful? The details were just perfect then and [Rita](https://www.instagram.com/rita.silverant/) began setting up the chair for work. 
+ We made it to the shop and met with the manager to discuss last minute details of the tattoo. One that stuck out in my mind is the detail of the snowman. It was a really cheerful looking guy and I had to explain this was from a serial killer series ([Jo Nesbo](https://jonesbo.com/harry-hole/)) so, perhaps he could look less joyful? The details were just perfect then and [Rita](https://www.instagram.com/rita.silverant/) began setting up the chair for work. 
 
 I settled in after they said it would likely be an all-day job! Here is the outline before the ink :)
 
