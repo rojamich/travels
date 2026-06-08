@@ -81,4 +81,12 @@ We had a couple groups of tourists ask to take photos with me, how cute is that?
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780890900/20251228_162057_vlasxl.jpg)
 
-After stopping for dinner, we rolled into our hostel village for the evening. It was such a tiny "town"!
+After stopping for dinner, we rolled into our hostel village for the evening. It was such a tiny "town"! This is the view of our hostel! How cool is this?!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780891386/20251228_165738_1_sqxe53.jpg)
+
+We walked "into town" and stopped at the little market for snacks for the next day. This is where we met the cutest kids who were fascinated by us and by Mike's watch. They wanted to do special handshakes with us! They even did the explosion noises after a fist bump :o
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780891379%2F20251228_171218_wn2bnr.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780891387%2F20251228_171046_1_q49dvn.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780891392%2F20251228_165711_p95lpa.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+At dinner, we chowed down and had to turn down drinks about 50 times. The guides really wanted to party this night! A night of rest was very needed after such a day full of adventure!
