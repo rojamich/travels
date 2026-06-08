@@ -29,7 +29,11 @@ We were happy to have our backrests back on the bikes. For the past couple days,
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780881378%2F20251228_095316_lxdt3h.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780884356%2F20251228_100412_zgmois.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780884347%2F20251228_100356_yxneoi.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780884352%2F20251228_095346_kurk7i.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
-The first stop of the day was the most gorgeous coffee spot I will probably ever experience in my life. Those terraces felt unreal. Something from a magazine or Instagram post. I never expected Mike & I to travel somewhere so vast and gorgeous. We hopped off the bikes and approached the tiny coffee stand - as we got closer, I could hear music. You won't believe what they were playing... Fireball! The song I had taught the girls from the night before! What a world we live in :) Mike and I got our coffee orders (ca phe muoi for me and ca phe sua for him) and sat on the edge of this valley, quietly appreciating the moment and the delicious coffee. 
+The first stop of the day was the most gorgeous coffee spot I will probably ever experience in my life. Those terraces felt unreal. Something from a magazine or Instagram post. I never expected Mike & I to travel somewhere so vast and gorgeous. We hopped off the bikes and approached the tiny coffee stand - as we got closer, I could hear music. You won't believe what they were playing... 
+
+
+
+Fireball! The song I had taught the girls from the night before! What a world we live in :) Mike and I got our coffee orders (ca phe muoi for me and ca phe sua for him) and sat on the edge of this valley, quietly appreciating the moment and the delicious coffee. 
 
 As we made our way through the valley towards Lung Cu Flag Point, we took in the views and the interesting sights! 
 
