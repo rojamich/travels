@@ -51,6 +51,25 @@ After eight hours of work, the tattoo was ready!
 
 They had a professional photographer and studio set up for the final product and featured the work on their instagram!
 
+I named the piece "Spinebound Secrets" here is the list of novels included in my choices!
+
+1. [The Historian](https://www.goodreads.com/book/show/30236962-the-historian) by Elizabeth Kostova
+2. [IT](https://www.goodreads.com/book/show/830502.It) by Stephen King
+3. [The Snowman](https://www.goodreads.com/book/show/9572203-the-snowman?ac=1&from_search=true&qid=OzAUtlxhN4&rank=1) by Jo Nesbo
+4. [Legends & Lattes](https://www.goodreads.com/book/show/61242426-legends-lattes?ref=nav_sb_ss_1_16) by Travis Baldree
+5. [Book Lovers](https://www.goodreads.com/book/show/58690308-book-lovers?ac=1&from_search=true&qid=1UOGwt3azo&rank=3) by Emily Henry
+6. [Everyone in My Family Has Killed Someone](https://www.goodreads.com/book/show/60879779-everyone-in-my-family-has-killed-someone) by Benjamin Stevenson
+7. [Done and Dusted](https://www.goodreads.com/book/show/123179008-done-and-dusted) by Lyla Sage
+8. [The Outsider](https://www.goodreads.com/book/show/36124936-the-outsider?ref=nav_sb_ss_2_12) by Stephen King
+9. [Prey](https://www.goodreads.com/book/show/83763.Prey?ref=nav_sb_ss_1_4) by Michael Crichton
+10. [Harry Potter series](https://www.goodreads.com/book/show/862041.Harry_Potter_Series_Box_Set?from_search=true&from_srp=true&qid=5bOguTBKsR&rank=1) by J.K. Rowling
+11. [The Midnight Library](https://www.goodreads.com/book/show/52578297-the-midnight-library?ac=1&from_search=true&qid=hDx9KYaXcG&rank=1) by Matt Haig
+12. [Library Lover's Mystery Series ](https://www.goodreads.com/series/54780-library-lover-s-mystery)by Jenn McKinlay
+13. [Dr. Sleep ](https://www.goodreads.com/book/show/16092173-dr-sleep?ref=nav_sb_ss_3_8)by Stephen King
+14. [Shōgun](https://www.goodreads.com/book/show/52382796-sh-gun?ac=1&from_search=true&qid=5pxWAaoksl&rank=1) by James Clavell
+15. [Lincoln Rhyme Series](https://www.goodreads.com/series/40606-lincoln-rhyme) by Jeffrey Deaver
+16. [The Protector](https://www.goodreads.com/book/show/212351400-the-protector?ref=nav_sb_ss_1_18) by Tony Park
+
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780943780%2FIMG_20251231_110844_475_eimuzv.webp%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944240%2F20251230_191600_w8ppdk.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 While I had the last half of my tattoo worked on, Mike found a perfect spot at an outdoor pub nearby to read and people watch! He ended up making friends with an English couple and was having a ball! 
