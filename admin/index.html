@@ -45,6 +45,41 @@
     =========================================================================
   -->
   <script>
+    // ----- "🎬 YouTube Video" -----
+    CMS.registerEditorComponent({
+      id: "youtube",
+      label: "🎬 YouTube Video",
+      fields: [
+        {
+          name: "url",
+          label: "YouTube URL",
+          widget: "string",
+          hint: "Paste the YouTube URL from your browser. Any format works (youtube.com/watch?v=..., youtu.be/..., or just the video ID)."
+        }
+      ],
+      pattern: /\{%\s*youtube_block\s+(\S+)\s*%\}/,
+      fromBlock: function (match) {
+        try { return JSON.parse(decodeURIComponent(match[1])); }
+        catch (e) { return { url: "" }; }
+      },
+      toBlock: function (data) {
+        return "{% youtube_block " + encodeURIComponent(JSON.stringify(data)) + " %}";
+      },
+      toPreview: function (data) {
+        var url = (data && data.url) || "";
+        // Try to extract the ID so we can show a thumbnail preview
+        var m = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/|v\/|shorts\/)|youtu\.be\/)([\w-]{11})|^([\w-]{11})$/);
+        var id = m && (m[1] || m[2]);
+        if (id) {
+          return '<div style="border:1px dashed #aaa;padding:0.6em;background:#fafafa;border-radius:6px;">' +
+                 '<div style="font-size:0.85em;color:#555;margin-bottom:0.3em;">🎬 YouTube preview</div>' +
+                 '<img src="https://img.youtube.com/vi/' + id + '/hqdefault.jpg" style="width:100%;max-width:480px;display:block;">' +
+                 '</div>';
+        }
+        return '<div style="border:1px dashed #aaa;padding:0.6em;background:#fafafa;color:#888;">🎬 ' + (url || '(paste a YouTube URL)') + '</div>';
+      }
+    });
+
     // ----- "🎵 Audio Clip" -----
     CMS.registerEditorComponent({
       id: "audio",

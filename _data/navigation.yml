@@ -12,5 +12,9 @@ main:
     url: /trips/
   - title: "Map"
     url: /map/
+  - title: "Favorites"
+    url: /favorites/
+  - title: "Daydreaming"
+    url: /daydream/
   - title: "About"
     url: /about/

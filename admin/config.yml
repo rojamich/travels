@@ -113,6 +113,51 @@ collections:
             widget: "markdown"
             hint: "Write the about page content. Use the toolbar for formatting; drag photos in to upload."
 
+      - file: "_data/favorites.yml"
+        label: "Favorites page"
+        name: "favorites"
+        fields:
+          - { label: "Intro paragraph",
+              name: "intro",
+              widget: "string",
+              required: false }
+          - label: "Categories"
+            name: "categories"
+            widget: "list"
+            summary: "{{fields.icon}} {{fields.name}}"
+            fields:
+              - { label: "Category name", name: "name", widget: "string", hint: "e.g. 'Best Food'" }
+              - { label: "Icon emoji", name: "icon", widget: "string", required: false, hint: "Single emoji shown next to the title. e.g. 🍜" }
+              - { label: "Short description", name: "description", widget: "string", required: false }
+              - label: "Countries in this category"
+                name: "entries"
+                widget: "list"
+                summary: "{{fields.country}}"
+                required: false
+                fields:
+                  - { label: "Country / Place", name: "country", widget: "string" }
+                  - { label: "Linked trip slug", name: "trip_slug", widget: "string", required: false, hint: "If this country has a trip on the site, paste its slug (e.g. 'vietnam') to make the card clickable." }
+                  - { label: "Cover photo", name: "cover", widget: "image", required: false }
+                  - { label: "Blurb (one line)", name: "blurb", widget: "string", required: false }
+
+      - file: "_data/daydream.yml"
+        label: "Daydreaming page"
+        name: "daydream"
+        fields:
+          - { label: "Intro paragraph",
+              name: "intro",
+              widget: "string",
+              required: false }
+          - label: "Wish list (in priority order)"
+            name: "queue"
+            widget: "list"
+            summary: "{{fields.country}}"
+            fields:
+              - { label: "Country / Place", name: "country", widget: "string" }
+              - { label: "Cover photo", name: "cover", widget: "image", required: false }
+              - { label: "Why we want to go", name: "why", widget: "string", required: false, hint: "One sentence on what's drawing us there." }
+              - { label: "When (rough timing)", name: "when", widget: "string", required: false, hint: "e.g. 'Summer 2027' or 'Once the kids are older'." }
+
   # -------------------------------------------------------------------------
   # Trips collection — one entry per vacation.
   # Each trip becomes a page at /<slug>/ showing its day-by-day post list.

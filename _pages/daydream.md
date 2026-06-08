@@ -1,0 +1,39 @@
+---
+title: "Daydreaming"
+permalink: /daydream/
+layout: single
+author_profile: false
+classes: wide
+---
+
+{%- assign data = site.data.daydream -%}
+
+{%- if data.intro and data.intro != "" %}
+<p style="font-size:1.1em;">{{ data.intro }}</p>
+{%- endif %}
+
+{%- if data.queue.size == 0 %}
+  <p><em>Nothing on the wish list yet.</em></p>
+{%- else %}
+  <ol class="daydream-queue">
+    {%- for entry in data.queue %}
+      <li class="daydream-item">
+        <div class="daydream-rank">{{ forloop.index }}</div>
+        {%- if entry.cover and entry.cover != "" %}
+          <div class="daydream-cover">
+            <img src="{{ entry.cover }}" alt="{{ entry.country }}" onerror="this.parentNode.style.display='none'">
+          </div>
+        {%- endif %}
+        <div class="daydream-body">
+          <h3>{{ entry.country }}</h3>
+          {%- if entry.why and entry.why != "" %}
+            <p class="daydream-why">{{ entry.why }}</p>
+          {%- endif %}
+          {%- if entry.when and entry.when != "" %}
+            <p class="daydream-when">{{ entry.when }}</p>
+          {%- endif %}
+        </div>
+      </li>
+    {%- endfor %}
+  </ol>
+{%- endif %}

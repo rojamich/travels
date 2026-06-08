@@ -1,0 +1,20 @@
+# =============================================================================
+# daydream.yml — "Next up" priority queue + bucket list
+# =============================================================================
+# Top-ranked entries appear at the top of the page. Click any country to
+# expand and see "why we want to go" and rough timing.
+# Edit via /admin/ → Site Settings → "Daydreaming page".
+# =============================================================================
+
+intro: "Where we're hoping to wander next."
+
+queue:
+  - country: "Switzerland"
+    cover: ""
+    why: "Mountain trains, hiking trails, chocolate."
+    when: ""
+
+  - country: "Australia"
+    cover: ""
+    why: "The Great Barrier Reef and the outback."
+    when: ""
