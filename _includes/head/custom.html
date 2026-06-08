@@ -67,6 +67,17 @@
       if (!a.dataset.glightbox) a.dataset.glightbox = "type: image";
     });
 
+    // Per-gallery scope: assign each <figure>'s links a unique data-gallery
+    // so the lightbox cycles only within that figure's photos, not across
+    // every gallery on the page. Our inline-gallery blocks already get
+    // their own data-gallery via the Ruby plugin.
+    document.querySelectorAll(".page__content figure").forEach(function (fig, i) {
+      var groupId = "fig" + i;
+      fig.querySelectorAll("a").forEach(function (a) {
+        if (!a.dataset.gallery) a.dataset.gallery = groupId;
+      });
+    });
+
     GLightbox({
       selector: GALLERY_SELECTOR,
       loop: true,

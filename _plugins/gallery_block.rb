@@ -15,6 +15,7 @@
 require "json"
 require "uri"
 require "cgi"
+require "digest"
 
 module Jekyll
   class GalleryBlockTag < Liquid::Tag
@@ -48,12 +49,17 @@ module Jekyll
 
       return "" if urls.empty?
 
+      # Unique gallery ID per block so GLightbox treats each block as its own
+      # gallery (prev/next arrows cycle within this block only, not across
+      # all galleries on the page).
+      gallery_id = "gb" + Digest::SHA1.hexdigest(@markup)[0, 8]
+
       tiles = urls.map do |url|
         safe_url = CGI.escapeHTML(url)
         # Wrap each image in an <a> so GLightbox finds them. The full-size
         # image is the same URL — Cloudinary serves the original, plus our
         # default_transformations downsize the delivered version.
-        %(<a href="#{safe_url}" class="inline-gallery-link" data-glightbox="type: image"><img src="#{safe_url}" alt="" loading="lazy"></a>)
+        %(<a href="#{safe_url}" class="inline-gallery-link" data-glightbox="type: image" data-gallery="#{gallery_id}"><img src="#{safe_url}" alt="" loading="lazy"></a>)
       end.join
 
       html = %(<div class="inline-gallery">#{tiles}</div>)

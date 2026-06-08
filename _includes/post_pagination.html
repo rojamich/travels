@@ -33,7 +33,8 @@ but defensive against weirdness.
   {%- endfor -%}
 
   {%- if current_idx > 0 -%}
-    {%- assign prev_post = all_in_trip[current_idx | minus: 1] -%}
+    {%- assign prev_idx = current_idx | minus: 1 -%}
+    {%- assign prev_post = all_in_trip[prev_idx] -%}
   {%- endif -%}
   {%- assign next_idx = current_idx | plus: 1 -%}
   {%- if next_idx < all_in_trip.size and current_idx >= 0 -%}
