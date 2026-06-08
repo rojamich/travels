@@ -1,20 +1,13 @@
-# =============================================================================
-# daydream.yml — "Next up" priority queue + bucket list
-# =============================================================================
-# Top-ranked entries appear at the top of the page. Click any country to
-# expand and see "why we want to go" and rough timing.
-# Edit via /admin/ → Site Settings → "Daydreaming page".
-# =============================================================================
-
-intro: "Where we're hoping to wander next."
-
+intro: Where we're hoping to wander next...
 queue:
-  - country: "Switzerland"
-    cover: ""
-    why: "Mountain trains, hiking trails, chocolate."
+  - country: China
+    why: The unreal landscapes, endless wonders, and amazing cities!
     when: ""
-
-  - country: "Australia"
-    cover: ""
-    why: "The Great Barrier Reef and the outback."
-    when: ""
+  - country: Portugal
+    why: Dramatic cliffs (yes, Jenna's excited to cliff-jump finally!), hiking the
+      Azores, volcanic lakes... we may not come back!
+  - country: Chile
+    why: Patagonia, please!
+  - country: Ecuador
+    why: The biggest bucket list item that hasn't been booked yet. The unreal
+      diving, wildest nature, and untamed wildlife!

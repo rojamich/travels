@@ -1,37 +1,57 @@
-# =============================================================================
-# favorites.yml — "What made it special" categories for the Favorites page
-# =============================================================================
-# Each category groups countries/trips around a theme. Add or remove
-# categories freely. Edit via /admin/ → Site Settings → "Favorites page".
-# =============================================================================
-
-intro: "Our favorite places, by what made them unforgettable."
-
+intro: Our favorite places, by what made them unforgettable.
 categories:
-  - name: "Best Food"
-    icon: "🍜"
-    description: "Where my taste buds were happiest."
+  - name: Best Food
+    icon: 🍜
+    description: Where my taste buds were happiest.
     entries:
-      - country: "Vietnam"
-        trip_slug: "vietnam"
+      - country: Vietnam
+        trip_slug: vietnam
         cover: ""
         blurb: ""
-
-  - name: "Best Nature"
-    icon: "🏔️"
-    description: "Landscapes that took our breath away."
+      - country: Mexico
+      - country: South Korea
+        trip_slug: bamboo-bulgogi
+  - name: Best Nature
+    icon: 🏔️
+    description: Landscapes that took our breath away.
     entries:
-      - country: "New Zealand"
-        trip_slug: "new-zealand"
+      - country: New Zealand
+        trip_slug: new-zealand
         cover: ""
         blurb: ""
-
-  - name: "Best City Life"
-    icon: "🏙️"
-    description: "Cities we could see ourselves living in."
-    entries: []
-
-  - name: "Most Underrated"
-    icon: "✨"
-    description: "Places we didn't expect to love."
-    entries: []
+      - country: Vietnam
+        trip_slug: vietnam
+      - country: United States of America
+      - country: South Africa
+        trip_slug: african-safari
+      - country: Peru
+        trip_slug: peruvian-passage
+  - name: Best City Life
+    icon: 🏙️
+    description: Cities we could see ourselves living in.
+    entries:
+      - country: Japan
+        trip_slug: bamboo-bulgogi
+      - country: Germany
+        trip_slug: european-excursion
+  - name: Most Underrated
+    icon: ✨
+    description: Places we didn't expect to love.
+    entries:
+      - country: Mexico
+      - country: The Netherlands
+        trip_slug: european-excursion
+      - country: Vietnam
+        trip_slug: vietnam
+  - name: Best Wonders
+    icon: 🗼
+    description: Sights that blew our minds!
+    entries:
+      - country: Peru
+        trip_slug: peruvian-passage
+      - country: England
+        trip_slug: european-excursion
+      - country: Italy
+        trip_slug: european-excursion
+      - country: Germany
+        trip_slug: european-excursion

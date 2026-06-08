@@ -300,6 +300,17 @@ a {
     transform: translateY(-3px);
     box-shadow: 0 6px 16px rgba($navy-deep, 0.12);
   }
+
+  // Unlinked countries (no trip yet) get a slightly muted look + no hover lift
+  &--unlinked {
+    cursor: default;
+    background: lighten($sand-medium, 4%);
+
+    &:hover {
+      transform: none;
+      box-shadow: none;
+    }
+  }
 }
 
 .favorite-card-image {

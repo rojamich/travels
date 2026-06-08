@@ -1,5 +1,5 @@
 ---
-title: European Exploratio
+title: European Exploration
 description: A return to Europe — German road trip, Mediterranean cruise
   (Croatia, Greece, Italy), and Lake Como.
 cover: https://res.cloudinary.com/dgw35sldo/image/upload/v1780793139/20230810_141220_gbpnwr.jpg
