@@ -35,7 +35,7 @@ It was then that something unexpected happened!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780938746%2F20251229_094538_qqt5we.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780938795%2F20251229_094355_mvnz7u.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
-My? My Guides? The bike we were riding on broke down! Here is my guide working to fix it. Mike's guide loaded up ***all three of us*** on his bike and took us to the nearest coffee stop :o. This is also about the time where the fantasy football championship was coming to an end. I was neck and neck with another team for the championship game and I was one pass away from taking the lead in the last five minutes of the game. My stress level was at an all time high! My competition was also the biggest crap-talker of the league. Losing would burn me good. 
+The bike we were riding on broke down! Here is my guide working to fix it. Mike's guide loaded up ***all three of us*** on his bike and took us to the nearest coffee stop :o. This is also about the time where the fantasy football championship was coming to an end. I was neck and neck with another team for the championship game and I was one pass away from taking the lead in the last five minutes of the game. My stress level was at an all time high! My competition was also the biggest crap-talker of the league. Losing would burn me good. 
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780938670%2F20251229_094932_sazznv.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780938731%2F20251229_094950_slrsp1.jpg%22%5D%2C%22caption%22%3A%22Here%20I%20am%20pretending%20I'm%20not%20stressing%20out%20and%20just%20trying%20to%20roll%20with%20the%20day!%20Though%20my%20butt%20did%20hurt%20from%20sitting%20on%20the%20rack%20instead%20of%20a%20seat!sitting%20on%20the%20%22%7D %}
 
@@ -47,7 +47,7 @@ I needed to use the restroom and discovered there was one you could pay for or t
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780938830/20251229_103559_pv3le0.jpg "If you haven't seen or read \"IT\" by Stephen King, you are missing out... on a brilliant story but also nightmares.")
 
-To my surprise, I was not devoured by a fear-munching clown and scurried back upstairs to safety. To my utter heartbreak, I lost the fantasy championship by .04 of a point. One completed pass would have won me the season. While I am/was devastated, second for the second year in a row ain't bad. Here's to next season!!
+To my surprise, I was not devoured by a fear-munching clown and scurried back upstairs to safety. To my utter heartbreak, I lost the fantasy championship by 0.04 of a point. One completed pass would have won me the season. While I am/was devastated, second for the second year in a row ain't bad. Here's to next season!!
 
 Back on the road, we wound through the foggy and chilly countryside while admiring the jagged rock formations!
 
@@ -69,9 +69,9 @@ I really liked my guide for the trip. Mike's seemed more veteran at the job and 
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780941254%2F20251229_141832_mljqgg.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780941291%2F20251229_142124_um7428.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
-We were finally on our way to the final hostel - not to stay but to get scooped up by the bus to Hanoi. We were able to see a few neat sights on the way too!
+We were finally on our way to the final hostel - not to stay but to get scooped up by the limo bus to Hanoi. We were able to see a few neat sights on the way too!
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780941219%2F20251229_142826_mqja05.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780941205%2F20251229_142848_wncikk.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780941212%2F20251229_143134_lm1w5i.jpg%22%5D%2C%22caption%22%3A%22Creating%20a%20roof%20by%20collecting%20tree%20branches%2Fleaves%20and%20a%20massive%20pro-communism%20sign!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780941219%2F20251229_142826_mqja05.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780941205%2F20251229_142848_wncikk.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780941212%2F20251229_143134_lm1w5i.jpg%22%5D%2C%22caption%22%3A%22Creating%20a%20roof%20by%20collecting%20tree%20branches%2Fleaves%20and%20a%20massive%20pro-communism%20sign%20that%20are%20in%20most%20of%20the%20major%20towns!%22%7D %}
 
 It was time to say our goodbyes to our guides and, after several hugs, we watched them ride away. What an amazing experience - a real once-in-a-lifetime adventure that we won't forget! I'm so glad we did this! We waited for the bus and played backgammon/ate Oreos until it arrived :) Yes, they were for sale at this hostel! Neapolitan flavor?? Yes, please!
 
