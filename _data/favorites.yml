@@ -1,37 +1,45 @@
-# =============================================================================
-# favorites.yml — "What made it special" categories for the Favorites page
-# =============================================================================
-# Each category groups countries/trips around a theme. Add or remove
-# categories freely. Edit via /admin/ → Site Settings → "Favorites page".
-# =============================================================================
-
-intro: "Our favorite places, by what made them unforgettable."
-
+intro: Our favorite places, by what made them unforgettable.
 categories:
-  - name: "Best Food"
-    icon: "🍜"
-    description: "Where my taste buds were happiest."
+  - name: Best Food
+    icon: 🍜
+    description: Where my taste buds were happiest.
     entries:
-      - country: "Vietnam"
-        trip_slug: "vietnam"
+      - country: Vietnam
+        trip_slug: vietnam
         cover: ""
         blurb: ""
-
-  - name: "Best Nature"
-    icon: "🏔️"
-    description: "Landscapes that took our breath away."
+      - country: Mexico
+      - country: South Korea
+  - name: Best Nature
+    icon: 🏔️
+    description: Landscapes that took our breath away.
     entries:
-      - country: "New Zealand"
-        trip_slug: "new-zealand"
+      - country: New Zealand
+        trip_slug: new-zealand
         cover: ""
         blurb: ""
-
-  - name: "Best City Life"
-    icon: "🏙️"
-    description: "Cities we could see ourselves living in."
-    entries: []
-
-  - name: "Most Underrated"
-    icon: "✨"
-    description: "Places we didn't expect to love."
-    entries: []
+      - country: Vietnam
+      - country: United States of America
+      - country: South Africa
+      - country: Peru
+  - name: Best City Life
+    icon: 🏙️
+    description: Cities we could see ourselves living in.
+    entries:
+      - country: Japan
+      - country: Germany
+  - name: Most Underrated
+    icon: ✨
+    description: Places we didn't expect to love.
+    entries:
+      - country: Mexico
+      - country: The Netherlands
+      - country: Vietnam
+  - name: Best Wonders
+    icon: 🗼
+    description: Sights that blew our minds!
+    entries:
+      - country: Peru
+      - country: England
+      - country: Italy
+      - country: Germany
