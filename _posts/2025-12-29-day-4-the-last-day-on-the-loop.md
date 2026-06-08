@@ -75,6 +75,8 @@ We were finally on our way to the final hostel - not to stay but to get scooped 
 
 It was time to say our goodbyes to our guides and, after several hugs, we watched them ride away. What an amazing experience - a real once-in-a-lifetime adventure that we won't forget! I'm so glad we did this! We waited for the bus and played backgammon/ate Oreos until it arrived :) Yes, they were for sale at this hostel! Neapolitan flavor?? Yes, please!
 
-![]()
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780943630/20260104_211745_hwbmi4.jpg)
 
-It was roughly 4 hours back to our hotel and we were so happy to see this giant bed :o Why is it covered in a heart with rose petals? Because we were celebrating (late) our 13 years of marriage! Wahoo!
+It was roughly 4 hours back to our hotel and we were so happy to see this giant bed :o Why is it covered in a heart with rose petals? Because we were celebrating (late) our 13 years of marriage! Wahoo! 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780943353/20251229_222142_tbmflf.jpg "We soon fell into a blissful and much-needed sleep :)")
