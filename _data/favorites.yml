@@ -10,6 +10,7 @@ categories:
         blurb: ""
       - country: Mexico
       - country: South Korea
+        trip_slug: bamboo-bulgogi
   - name: Best Nature
     icon: 🏔️
     description: Landscapes that took our breath away.
@@ -19,27 +20,38 @@ categories:
         cover: ""
         blurb: ""
       - country: Vietnam
+        trip_slug: vietnam
       - country: United States of America
       - country: South Africa
+        trip_slug: african-safari
       - country: Peru
+        trip_slug: peruvian-passage
   - name: Best City Life
     icon: 🏙️
     description: Cities we could see ourselves living in.
     entries:
       - country: Japan
+        trip_slug: bamboo-bulgogi
       - country: Germany
+        trip_slug: european-excursion
   - name: Most Underrated
     icon: ✨
     description: Places we didn't expect to love.
     entries:
       - country: Mexico
       - country: The Netherlands
+        trip_slug: european-excursion
       - country: Vietnam
+        trip_slug: vietnam
   - name: Best Wonders
     icon: 🗼
     description: Sights that blew our minds!
     entries:
       - country: Peru
+        trip_slug: peruvian-passage
       - country: England
+        trip_slug: european-excursion
       - country: Italy
+        trip_slug: european-excursion
       - country: Germany
+        trip_slug: european-excursion
