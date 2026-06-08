@@ -129,3 +129,5 @@ The girls in our group asked if I would teach them a few line dances that evenin
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780804596/20251227_211649_k3myaq.jpg)
 
 We finally turned in and got some hard sleep that night in our well-air-conditioned room!
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2FRTlnveUpYxM%3Fsi%3DpTKdIl-IWcumtQUQ%22%7D %}
