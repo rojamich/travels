@@ -18,7 +18,7 @@ We headed to central park with our few remaining hours in NYC to eat breakfast a
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781541999/20260613_090152_xyuljl.jpg)
 
-We go to grab a coffee and go for a walk with our friend Tom! It was some great time catching up this trip and we are looking forward to seeing him and the rest of the fantasy league this summer!
+We got to grab a coffee and go for a walk with our friend Tom! It was some great time catching up this trip and we are looking forward to seeing him and the rest of the fantasy league this summer!
 
 After our walk to the hotel, we prepared to head to the airport and had lunch before a couple of subway rides to JFK. Thankfully, we got here early and snagged a spot at a really nice airport lounge!
 
@@ -32,7 +32,7 @@ Time to board came before we knew it and we had to pack up to head to the gate. 
 
 I chose [Burnout Summer by Jenna Ramirez](https://www.goodreads.com/book/show/240019684-burnout-summer) :)
 
-We had fancy lean-back seats that were wide with leg space so I was a comfy camper! IF you'd like to read more, you can find it in our blog on London!
+We had fancy lean-back seats that were wide with leg space so I was a comfy camper! *IF* you'd like to read more, you can find it in our blog on London!
 
 Have a super day everyone!
 
