@@ -41,9 +41,16 @@ module Jekyll
         # Defensive: skip empty titles (shouldn't happen given regex, but safe).
         next "#{a_open}#{img_tag}#{a_close}" if title.to_s.strip.empty?
 
-        # The figure-with-caption wrapper. Reuse the same CSS class the
-        # gallery uses so single captioned images look identical.
-        %(<figure class="captioned-image">#{a_open}#{img_tag}#{a_close}<figcaption class="inline-gallery-caption">#{CGI.escapeHTML(title)}</figcaption></figure>)
+        # Strip the title attribute from the <img> tag itself. Two reasons:
+        #   1. The caption is now visible in the figcaption — the hover-only
+        #      title tooltip is redundant and clutters the UI on touch devices.
+        #   2. Idempotency. Jekyll's :post_render hook fires for posts AND
+        #      documents (which includes posts in newer Jekyll), so this
+        #      method runs twice. Without the strip, the second pass would
+        #      re-wrap an already-wrapped image, producing nested figures.
+        img_stripped = img_tag.sub(/\stitle\s*=\s*"[^"]+"/, "")
+
+        %(<figure class="captioned-image">#{a_open}#{img_stripped}#{a_close}<figcaption class="inline-gallery-caption">#{CGI.escapeHTML(title)}</figcaption></figure>)
       end
     end
   end
