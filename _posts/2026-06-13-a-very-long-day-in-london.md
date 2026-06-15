@@ -50,3 +50,5 @@ Mike ordered a beef noodle dish and I got a fried rice dish with a plant-based "
 We were falling asleep sitting down so we headed to the park nearby to nap in the sunshine :o - what perfect weather for this!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781554654/20260614_145805_zuizwz.jpg "We napped SO hard!")
+
+It was about time to check in so we headed back to the hotel, got some laundry done and the dryer did not work so we used our travel clothes line to dry everything. All our clothes were dry in about 6 hours! Wow!
