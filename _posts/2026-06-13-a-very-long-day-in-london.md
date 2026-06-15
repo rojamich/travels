@@ -36,3 +36,17 @@ I worked on a few more blog posts before we got sleepy and decided to explore Lo
  
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781554579/20260614_122949_eoao8p.jpg "A truly gorgeous day. Newport was in the 50s, New York was in the 90s, and here is a juuuuuuust right 70s and overcast <3")
+
+The market was bustling this Sunday morning and we saw everything from gelato to raw meat - Thai food to Argentinian foods! So, naturally, we ate at a Vietnamese restaurant nearby XD What can I say, I go weak in the knees for Vietnamese! (That rhymes).
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781555339/20260614_132915_fjxi9b.jpg)
+
+I was **so** grateful to see Morning Glory on the menu - my favorite veggie! A water spinach, flash-fried or stir-fried. usually made with lots of garlic, chili, and soy sauce. We also added chilis for extra spiciness!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781554658/20260614_133543_izokku.jpg)
+
+Mike ordered a beef noodle dish and I got a fried rice dish with a plant-based "chicken" and a fried egg! I got that extra spicy too! Loving it! 
+
+We were falling asleep sitting down so we headed to the park nearby to nap in the sunshine :o - what perfect weather for this!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781554654/20260614_145805_zuizwz.jpg "We napped SO hard!")
