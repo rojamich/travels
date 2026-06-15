@@ -43,7 +43,7 @@ We learned so much on this tour! Things like:
 
 During the walk, we saw parliament, Winston Churchill's statue, West Minster Abby, and the house of the Prime Minister (heavily guarded with many security measures!).
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554645%2FIMG_9772_kkgno4.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554754%2FIMG_9774_gpgm1x.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554816%2FIMG_9778_duth5s.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554645%2FIMG_9772_kkgno4.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554754%2FIMG_9774_gpgm1x.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554816%2FIMG_9778_duth5s.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554831%2FIMG_9777_tgc5vw.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 Further down the road we learned about the famous Banqueting House - once the biggest palace in Europe before a fire destroyed most of it!
 
@@ -51,4 +51,30 @@ The road was lined with incredibly beautiful architecture that I've been ogling!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554476%2FIMG_9776_hvyab3.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554826%2FIMG_9779_jamtwv.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
-We finished the tour at Trafalgar Square
+We finished the tour at Trafalgar Square - do not ask me how to properly pronounce the name. Can you see the giant lion statues? Each of these was made from melted down canons!
+
+At the top of the square is the National Gallery which holds paintings from da Vinci, Monet, and Van Gogh!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781555335%2FIMG_9780_j9mge3.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554469%2FIMG_9781_gtcler.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554465%2FIMG_9782_gch59n.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Finishing the tour, it was time to head to see the changing of the guard at Buckingham Palace! We have been looking forward to this since our first trip to London! We did go the first time.. but it was during Winter. Did you know the guard wears a different uniform in Winter? Neither did we! They're grey coats! It was time to see the red coats. 
+
+Another walk later, we found a great spot in the crowd to see the action! New York fondly reminded us how much we love hearing other languages being spoken! We identified Japanese, German, and French! Today was another reminder as we were surrounded by the Italian, French, and German languages :) Of course, we heard many we did not know as well!
+
+The procession was nearly interrupted by this police car! 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781554848/IMG_9787_geagaq.jpg)
+
+The guard was led by a female rider and was so cool to see them in their red coats!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554752%2FIMG_9788_d8mjsd.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781555342%2FIMG_9789_yoytui.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781555338%2FIMG_9784_viqabn.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554722%2FIMG_9799_hwjg8u.jpg%22%5D%2C%22caption%22%3A%22Can%20you%20see%20how%20busy%20it%20is%3F!%22%7D %}
+
+We were grateful to have a good view and accomplish our goal :) Our next goal? Jenna tries proper fish & chips!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781543958/20260615_115601_natwzp.jpg "Fried cod for Jenna and fried Haddock for Michael!")
+
+It was actually really delicious! Yes, this is really Jenna. Yes, I was nervous!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781564453/20260615_113353_ajiajc.jpg "Here is some information about our fish!")
+
+One of the waitstaff was French and called us "love" during the course of the meal, super cute!
