@@ -7,7 +7,7 @@ order: 4
 header:
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781542419/20260613_120108_lmyv0i.jpg
-  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781541999/20260613_090152_xyuljl.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781432833/20260612_180730_ujezvs.jpg
 tags:
   - TravelDay
 toc: false
@@ -15,6 +15,8 @@ toc: false
 Holy Moly, I was sore in all new places from that trapeze class! Definitely thought I would workout or run this morning but rest was much needed.
 
 We headed to central park with our few remaining hours in NYC to eat breakfast and soak up some nature :) 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781541999/20260613_090152_xyuljl.jpg)
 
 We go to grab a coffee and go for a walk with our friend Tom! It was some great time catching up this trip and we are looking forward to seeing him and the rest of the fantasy league this summer!
 
