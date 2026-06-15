@@ -51,4 +51,6 @@ We were falling asleep sitting down so we headed to the park nearby to nap in th
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781554654/20260614_145805_zuizwz.jpg "We napped SO hard!")
 
+Nearby was a bookstore, so, of course, we strolled through the aisles. It was interesting how they change the covers and titles for books depending on what country they're selling them in! Super different from the same book in the US!
+
 It was about time to check in so we headed back to the hotel, got some laundry done and the dryer did not work so we used our travel clothes line to dry everything. All our clothes were dry in about 6 hours! Wow!
