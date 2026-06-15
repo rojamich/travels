@@ -29,3 +29,5 @@ With the last few days, we enjoyed reading, running/working out on the beach, an
 The day finally arrived! We packed up one backpack each, and one small personal item (our worldly items fit into these!) and headed to PDX. We enjoyed our favorite bagel spot on the way to the airport and had a (rare) late morning flight.
 
 We quickly remembered why we take the earliest flight of the day when both flights were delayed! Our flight from Seattle to NYC was supposed to arrive at 1030pm but we actually arrived at 130am - ouch! We got tucked into bed at 330am, thankfully, that was about 1230am PST so we weren't dead on our feet. But that 8am wake up felt a wee bit early!
+
+At least I had time to read [Stephen King's Revival](https://www.goodreads.com/book/show/20926278-revival) cover to cover! It was horrifying, captivating, and I cried twice before page 80.
