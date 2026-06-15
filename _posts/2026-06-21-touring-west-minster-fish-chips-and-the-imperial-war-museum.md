@@ -78,3 +78,27 @@ It was actually really delicious! Yes, this is really Jenna. Yes, I was nervous!
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781564453/20260615_113353_ajiajc.jpg "Here is some information about our fish!")
 
 One of the waitstaff was French and called us "love" during the course of the meal, super cute!
+
+Our next stop had us traveling through London's Chinatown and I was mesmerized by this ramen!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554580%2F20260615_124850_irwdaj.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554612%2F20260615_124738_huglel.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2F6AVKp4g--bU%22%7D %}
+
+Time to revisit one of our absolute favorite museums! We caught a red, double-decker bus to the Imperial War Museum! The first time we visited London, we spent about 6 hours here. For clarification, each floor is a different war - and we read every placard on the first two floors... We only had one more floor left so it only took us about 2 hours to finish :o The steps today were off the charts!!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554658%2F20260615_133340_higwdq.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554626%2F20260615_140242_wkj32v.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554540%2F20260615_141242_wlqjdw.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554503%2F20260615_142128_bhvihe.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554447%2F20260615_142138_xs9enf.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+It was horrible to read how many wars went on at once and how each impacted the other. The museum is very well-organized and carefully curated. Each room was thoughtfully laid out and ensured the stories of the victims were told. 
+
+On the walk home, we decided a sweet treat was in order and selected a bakery on our way home. 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781554550/20260615_153807_gg6qeo.jpg "Good. Gracious.")
+
+Mike had been yearning for a waffle all day so we split the Nutella waffle and tried something new with an Oreo cookie dough thingy. My. Goodness. Words cannot describe the deliciousness. My mouth waters as I type. You may notice half the waffle is gone. We were too excited lol
+
+Later, we ventured out for dinner - yes we had dessert before our dinner - rebels, I know! We were craving German Doner!
+
+We planned to split one wrap... but it was just too good and we were starving! Hence only getting a photo of the lone tomato lol. Mike ran up to reorder and we went in for an actual doner this time instead of a wrap. Both were flavorful and scrumptious. Another win for London. Really unexpectedly pulling through on the food game this time. 
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781566266%2F20260615_193243_szr5ip.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781566265%2F20260615_193601_tdvwhl.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781566265%2F20260615_195053_jcgi0d.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
