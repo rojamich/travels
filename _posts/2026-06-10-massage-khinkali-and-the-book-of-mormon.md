@@ -3,7 +3,7 @@ title: Massage, Khinkali, and the Book of Mormon
 date: 2026-06-11
 categories:
   - life-in-the-big-city
-order: 1
+order: 2
 header:
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781268355/20260611_125849_lutlup.jpg
