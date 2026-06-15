@@ -1,6 +1,6 @@
 ---
 title: Touring West Minster, Fish & Chips, and the Imperial War Museum!
-date: 2026-06-22
+date: 2026-06-15
 categories:
   - red-coats-red-buses
 order: 2
