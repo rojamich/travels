@@ -571,12 +571,19 @@ a {
 .captioned-image {
   margin: 1.5em 0 0.8em;
   padding: 0;
+  text-align: center;     // centers both the image (inline) and the caption
 }
 
 .captioned-image img {
-  display: block;
-  margin: 0 auto;
+  display: inline-block;  // inline so parent's text-align: center wins
   max-width: 100%;
+  margin: 0;
+}
+
+// Anchor wrapper around captioned images (from markdown links) — keep
+// it inline so it's centered by the figure's text-align: center.
+.captioned-image > a {
+  display: inline-block;
 }
 
 .inline-gallery-figure .inline-gallery {
