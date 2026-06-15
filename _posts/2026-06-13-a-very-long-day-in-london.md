@@ -24,3 +24,15 @@ Ok, not a complete waste, I did finish the book [What Lies in the Woods by Kate 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781554590/20260614_075324_ba0tgn.jpg)
 
 We land, pack up, and head for passport control. On our way, we discover some people do not appreciate being passed while walking. Even if you're super polite, even if you leave plenty of space, even if you're not even going to the same place! There will still be grumbling. I'm not even sure what to say... sorry our knees hurt if we stay behind you for a mile?
+
+After passing through the fastest foreign (to us) security line, we take two train rides and walk 20 minutes to our hotel room. Of course, our room will not be ready by 930am but thankfully, they have a local coffee shop in the cozy sundrenched lobby downstairs where we can have breakfast and work :)
+
+I ordered a delicious honeycomb latte, extra sweet. I add that I would like it American-sweet lol so they made it very sugar-filled, just the way I like it XD. Breakfast was scrambled eggs on plain toast so I headed to check out the condiments for some sauce. He pointed out the normal ones and I asked about one I didn't know. He said "oh, that's brown sauce.".. Apparently that means BBQ sauce to them lol. 
+
+We got right down to business and I submitted all my final grades for term! Summer has officially started YAHOOOOO!!!!!!!!!
+
+I worked on a few more blog posts before we got sleepy and decided to explore London's Borough Market. 
+
+ 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781554579/20260614_122949_eoao8p.jpg "A truly gorgeous day. Newport was in the 50s, New York was in the 90s, and here is a juuuuuuust right 70s and overcast <3")
