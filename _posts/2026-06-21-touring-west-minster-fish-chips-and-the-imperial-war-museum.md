@@ -19,7 +19,7 @@ It was a super cute and cozy cafe - I ordered fried eggs, hashbrowns, guacamole,
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781554610/20260615_080206_ocptgn.jpg "As I type this, I am conspiring how I can convince Mike to go back here tomorrow...")
 
-We headed for the West Minster bridge to start our [Rick Steve's tour](https://www.ricksteves.com/watch-read-listen/audio/audio-tours) where he audibly walks us through the area - for free and with so much passion and excitement! We love his tours!
+We headed for the Westminster bridge to start our [Rick Steve's tour](https://www.ricksteves.com/watch-read-listen/audio/audio-tours) where he audibly walks us through the area - for free and with so much passion and excitement! We love his tours!
 
 I saw something I didn't notice our last trip here - these walk signs!
 
