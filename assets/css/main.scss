@@ -567,9 +567,16 @@ a {
   }
 }
 
-.inline-gallery-figure {
+.inline-gallery-figure,
+.captioned-image {
   margin: 1.5em 0 0.8em;
   padding: 0;
+}
+
+.captioned-image img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .inline-gallery-figure .inline-gallery {
