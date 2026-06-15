@@ -3,7 +3,7 @@ title: Trapeze lesson, massive food portions, an escape room, and our friend Tom
 date: 2026-06-12
 categories:
   - life-in-the-big-city
-order: 2
+order: 3
 header:
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781432837/20260612_130529_hfwsdz.jpg
