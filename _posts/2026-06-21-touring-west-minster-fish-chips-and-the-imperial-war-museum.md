@@ -46,3 +46,9 @@ During the walk, we saw parliament, Winston Churchill's statue, West Minster Abb
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554645%2FIMG_9772_kkgno4.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554754%2FIMG_9774_gpgm1x.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554816%2FIMG_9778_duth5s.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 Further down the road we learned about the famous Banqueting House - once the biggest palace in Europe before a fire destroyed most of it!
+
+The road was lined with incredibly beautiful architecture that I've been ogling!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554476%2FIMG_9776_hvyab3.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781554826%2FIMG_9779_jamtwv.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+We finished the tour at Trafalgar Square
