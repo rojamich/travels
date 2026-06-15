@@ -11,6 +11,5 @@ country_code: EN
 tags:
   - Cityscapes
   - Tours
-  - ""
 ---
 This was our second trip to London (if you don't count our one day trip from NZ to get home in '22!) It was a great way to connect us from NYC to Norway (next up) and enable us to finish seeing parts of London we missed out on the first time!
