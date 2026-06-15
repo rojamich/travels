@@ -52,6 +52,31 @@
 </script>
 
 <script defer>
+  // External links in post body should open in a new tab so readers don't
+  // lose their place. Skip in-page anchors, gallery photo links (GLightbox
+  // owns those), and any link on the same host (internal navigation stays
+  // in the same tab so the back button works as expected).
+  window.addEventListener("DOMContentLoaded", function () {
+    var siteHost = window.location.hostname;
+    document.querySelectorAll(".page__content a[href]").forEach(function (a) {
+      var href = a.getAttribute("href") || "";
+      if (href.charAt(0) === "#") return;
+      if (a.classList.contains("inline-gallery-link")) return;
+      if (a.classList.contains("image-popup")) return;
+      if (a.closest("figure")) return;
+      if (!/^https?:\/\//i.test(href)) return;
+      try {
+        var url = new URL(href);
+        if (url.hostname && url.hostname !== siteHost) {
+          a.setAttribute("target", "_blank");
+          a.setAttribute("rel", "noopener noreferrer");
+        }
+      } catch (e) { /* malformed URL — leave alone */ }
+    });
+  });
+</script>
+
+<script defer>
   // Initialize after DOM and GLightbox library are both loaded.
   window.addEventListener("DOMContentLoaded", function () {
     if (typeof GLightbox === "undefined") return;

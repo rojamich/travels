@@ -62,12 +62,16 @@ module Jekyll
         %(<a href="#{safe_url}" class="inline-gallery-link" data-glightbox="type: image" data-gallery="#{gallery_id}"><img src="#{safe_url}" alt="" loading="lazy"></a>)
       end.join
 
-      html = %(<div class="inline-gallery">#{tiles}</div>)
-
+      # Use <figure>/<figcaption> so the caption is semantically tied to the
+      # gallery AND so Kramdown reliably treats the whole thing as one block.
+      # The previous structure (<div> followed by sibling <p>) sometimes had
+      # Kramdown wrap the <p> incorrectly when the gallery had only one
+      # photo, causing the caption to disappear.
+      html = %(<figure class="inline-gallery-figure"><div class="inline-gallery">#{tiles}</div>)
       unless caption.empty?
-        html += %(<p class="inline-gallery-caption">#{CGI.escapeHTML(caption)}</p>)
+        html += %(<figcaption class="inline-gallery-caption">#{CGI.escapeHTML(caption)}</figcaption>)
       end
-
+      html += "</figure>"
       html
     end
   end
