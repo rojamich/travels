@@ -1,6 +1,7 @@
 ---
 title: Life in the Big City
-description: A New Chapter - Off to New York!
+description: Off to New York! A Three Day Adventure filled with Broadway, an
+  Escape Room, Acrobatic Thrill-Seeking, & Central Park <3
 cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781264913/20260612_061812_xjimdt.jpg
 start_date: 2026-06-11
 end_date: 2026-06-13
