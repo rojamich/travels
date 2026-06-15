@@ -1,7 +1,7 @@
 ---
 title: Red Coats & Red Buses
 description: Our Three Day Trip to London!
-cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781543958/20260615_115601_natwzp.jpg
+cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781554377/IMG_9791_i3r1re.jpg
 start_date: 2026-06-14
 end_date: 2026-06-17
 location: London, England
