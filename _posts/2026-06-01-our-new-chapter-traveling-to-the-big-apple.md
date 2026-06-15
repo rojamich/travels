@@ -22,9 +22,9 @@ We scheduled our lease to expire May 31st and rented out a spot right on the bea
 
 I had my final week at school, graded papers, while Mike worked on moving prep for the majority of our stay in Newport.
 
-With the last few days, we enjoyed reading, running/working out on the beach, and moving prep! It was ***so*** nice to soak up beach time before leaving :) We found a peanut butter & nutella cookie that blew our minds!
+With the last few days, we enjoyed reading, running/working out on the beach, and moving prep! It was ***so*** nice to soak up beach time before leaving :) 
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781268334/20260606_234235_oquhir.jpg)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781268334/20260606_234235_oquhir.jpg "We found a peanut butter & nutella cookie that blew our minds!")
 
 The day finally arrived! We packed up one backpack each, and one small personal item (our worldly items fit into these!) and headed to PDX. We enjoyed our favorite bagel spot on the way to the airport and had a (rare) late morning flight.
 
