@@ -21,6 +21,8 @@ There was a photoshoot going on at the breakfast spot so we were provided entert
 
 I got the Chorizo and potato hash, poached eggs, spinach, tomato fresca, saffron buttermilk dressing and Mike had The fry: 2 eggs, thick cut bacon, pork sausage, slow roasted tomato, roasted mushroom, house spiced black beans, toasted sourdough with a side of coffee served in a conical flask!
 
+I still do not enjoy hollandaise sauce but wish I did. Fried eggs over medium are still the superior egg choice!
+
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660681%2F20260616_105305_c1awnv.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660699%2F20260616_105055_tymjy6.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 We set out west to the beginning of our three-hour Rick Steve's audio tour of "Historic London: The City" - the name of this district within London!
@@ -42,3 +44,49 @@ We noticed that there weren't many tea establishments or advertisements, apparen
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781660702/IMG_9807_mcx4yx.jpg)
 
 This tea house was established in 1706, when tea offered a refreshing break - coffee establishments back then were seedy haha!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660711%2FIMG_9809_apzy2g.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660693%2FIMG_9810_rcgdlv.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Something interesting about this spot is that the Queen will not pass this point without ceremonial permission from the City's Lord Mayor.
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660715%2FIMG_9813_liwsa3.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660714%2FIMG_9815_raitib.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660716%2FIMG_9816_tp6iwe.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+The Temple Church is a crusader church! You can see the templar on the top of the column and is there because this was headquarters for the Knights Templar - a band of monks who joined the crusades in the 1100-1300s. The complex surrounding the church is filled with attorney offices, their residences, and courtrooms!
+
+The following church was spared in the Great Fire of 1666 - check out the statue of the queen statue and how the bells gong: by way of slaves.
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660706%2FIMG_9824_ccfhkj.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660696%2FIMG_9825_marnpg.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+I love the little matchbox building next door, a newspaper office! This area used to be known for Pen & Wigs. Due to the high number of newspaper businesses and journalists operating here as well as lawyers (who still wear wigs in court, to this day!)
+
+"When a man is tired of London, he is tired of life" - Dr. Samuel Johnson, who wrote the first English-language dictionary! We were able to see his home and courtyard!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660709%2FIMG_9827_mjog8x.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660705%2FIMG_9828_phogtd.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660713%2FIMG_9829_fboslw.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660701%2FIMG_9830_ugsrnh.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660679%2F20260616_124536_kitl9l.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+A short way down the alley was Dr. Johnson's favorite pub - a tavern now, which was also frequented by Charles Dickens!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660680%2F20260616_125007_l3meep.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660679%2F20260616_125003_yw6kzd.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+As we make our way down Fleet street - we are reminded that this entire walk spans the path of the great fire. And the ground was so hot it couldn't be walked on for *weeks*. That is unimaginable! We can see St. Paul's cathedral rising up in the distance.
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660695%2FIMG_9838_lyteyw.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660696%2FIMG_9832_zvwebx.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+St. Bridges church - said to have inspired the wedding cake! Can you see the resemblance?!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660696%2FIMG_9833_crxoe8.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660687%2FIMG_9835_ewvp7e.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Beneath the church lie tombs from centuries ago, roman coins, stained class, and examples of early printing. Photography is strictly prohibited inside. We did get to see some renovation happening!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781660703/IMG_9836_goseoh.jpg)
+
+The next stop is Old Bailey, the central criminal court. This is where some of England's most notorious criminals were tried:
+
+* Rebels who beheaded King Charles I
+* William Penn - religious radical
+* Oscar Wilde - homosexuality
+* The Yorkshire ripper - a serial killer
+* Julian Assange - founder of WikiLeaks
+
+The staggering St. Paul's Cathedral is Europe's fourth largest church. The dome alone weighs 65,000 tons!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660688%2FIMG_9840_hvlrqy.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660709%2FIMG_9842_nbltcy.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
