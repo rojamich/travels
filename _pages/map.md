@@ -52,6 +52,19 @@ classes: wide
       "lng":   {{ trip.lng | default: 0 }},
       "cover": {{ trip.cover | relative_url | jsonify }},
       "url":   {{ trip.url | relative_url | jsonify }},
+      "countries": [
+        {%- if trip.countries -%}
+        {%- for c in trip.countries -%}
+          {%- if c.lat and c.lng -%}
+            {
+              "name": {{ c.name | jsonify }},
+              "lat":  {{ c.lat }},
+              "lng":  {{ c.lng }}
+            }{%- unless forloop.last -%},{%- endunless -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- endif -%}
+      ],
       "posts": [
         {%- for post in trip_posts -%}
           {%- if post.location and post.location.lat -%}

@@ -113,18 +113,36 @@ window.TravelMap = (function () {
     // route line). We clear and rebuild it whenever the user clicks a trip.
     var detailLayer = L.layerGroup().addTo(map);
 
-    // The trip pins themselves.
+    // The trip pins themselves. A multi-country trip can have additional
+    // pins via trip.countries[] — each renders as its own marker on the
+    // world map but all point at the same trip page.
     var tripPins = L.layerGroup();
     var bounds = [];
-    trips.forEach(function (trip) {
-      if (typeof trip.lat !== "number" || typeof trip.lng !== "number") return;
-      bounds.push([trip.lat, trip.lng]);
-      var marker = L.marker([trip.lat, trip.lng], { icon: TRIP_ICON })
+    function addTripPin(trip, lat, lng) {
+      bounds.push([lat, lng]);
+      var marker = L.marker([lat, lng], { icon: TRIP_ICON })
         .bindPopup(tripPopupHtml(trip))
         .on("click", function () {
           showTripDetail(trip);
         });
       tripPins.addLayer(marker);
+    }
+
+    trips.forEach(function (trip) {
+      // Primary pin (single-country fallback). Skipped if the trip lists
+      // any countries explicitly, since those replace the single pin.
+      var hasCountries = Array.isArray(trip.countries) && trip.countries.length > 0;
+      if (!hasCountries && typeof trip.lat === "number" && typeof trip.lng === "number") {
+        addTripPin(trip, trip.lat, trip.lng);
+      }
+      // Additional per-country pins for multi-country trips.
+      if (hasCountries) {
+        trip.countries.forEach(function (c) {
+          if (typeof c.lat === "number" && typeof c.lng === "number") {
+            addTripPin(trip, c.lat, c.lng);
+          }
+        });
+      }
     });
     tripPins.addTo(map);
 

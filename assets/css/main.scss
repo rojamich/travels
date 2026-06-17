@@ -567,23 +567,36 @@ a {
   }
 }
 
+// Captioned images: shrink the figure to image width and center it. That
+// way the caption text — centered inside the figure — sits directly
+// under the image, not under the wider post column.
 .inline-gallery-figure,
-.captioned-image {
-  margin: 1.5em 0 0.8em;
+.captioned-image,
+.page__content .captioned-image {
+  display: block;
+  margin: 1.5em auto 0.8em !important;
   padding: 0;
-  text-align: center;     // centers both the image (inline) and the caption
-}
-
-.captioned-image img {
-  display: inline-block;  // inline so parent's text-align: center wins
+  width: fit-content;
   max-width: 100%;
-  margin: 0;
+  text-align: center;
 }
 
-// Anchor wrapper around captioned images (from markdown links) — keep
-// it inline so it's centered by the figure's text-align: center.
-.captioned-image > a {
-  display: inline-block;
+.captioned-image > img,
+.captioned-image > a,
+.captioned-image > a > img,
+.page__content .captioned-image > img,
+.page__content .captioned-image > a > img {
+  display: block !important;
+  margin: 0 auto !important;
+  max-width: 100%;
+}
+
+.captioned-image > figcaption,
+.captioned-image > .inline-gallery-caption,
+.page__content .captioned-image > figcaption {
+  display: block;
+  text-align: center !important;
+  margin: 0.4em 0 0;
 }
 
 .inline-gallery-figure .inline-gallery {

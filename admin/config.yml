@@ -220,6 +220,18 @@ collections:
           required: false,
           value_type: "float" }
 
+      - label: "Additional countries (multi-country trip)"
+        name: "countries"
+        widget: "list"
+        required: false
+        collapsed: true
+        summary: "{{fields.name}}"
+        hint: "For trips that span multiple countries, add a pin per country. Each pin appears on the world map and clicks through to this same trip page. Get coords from latlong.net (country center is usually fine)."
+        fields:
+          - { label: "Country name", name: "name", widget: "string" }
+          - { label: "Latitude", name: "lat", widget: "number", value_type: "float" }
+          - { label: "Longitude", name: "lng", widget: "number", value_type: "float" }
+
       - { label: "Country code (2 letters)",
           name: "country_code",
           widget: "string",
