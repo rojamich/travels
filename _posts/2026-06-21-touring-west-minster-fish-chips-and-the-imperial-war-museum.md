@@ -105,4 +105,4 @@ We planned to split one wrap... but it was just too good and we were starving! H
 
 Heading back to our hotel, we spotted the Bridge Watch volunteer - trained volunteers patrol crossings (like Tower Bridge and London Bridge) to spot and support vulnerable individuals in an effort to prevent suicide.
 
-{% gallery_block %7B%22photos%22%3A%5Bnull%2Cnull%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781661017%2F20260615_200956_knjxqh.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660998%2F20260615_200954_v1jeqg.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
