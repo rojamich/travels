@@ -90,3 +90,33 @@ The next stop is Old Bailey, the central criminal court. This is where some of E
 The staggering St. Paul's Cathedral is Europe's fourth largest church. The dome alone weighs 65,000 tons!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660688%2FIMG_9840_hvlrqy.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660709%2FIMG_9842_nbltcy.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+It was the location of Churchill's funeral and the wedding of Prince Charles and Lady Diana.
+
+As we headed to the financial district, we saw another cool Starbucks! We need cool ones in the US!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781660701/IMG_9843_tw5jg4.jpg)
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781660617/20260616_135038_nd0qoh.jpg)
+
+Check out the incredible mix of modern and old architecture!
+
+This square mile likely processes more money than any square mile on earth! It holds 500 foreign and British banks! 
+
+Our final stop will be the London Bridge, and we passed the 202 foot column that stands as a tribute to the Great Fire. It was wild to imagine that fire burning the length we had just walked over three hours!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781660702/IMG_9846_a7e3lp.jpg "The London Bridge has been torn down and rebuilt four times!")
+
+Theis bridge used to be the only crossing point into the city - wow, what a day of learning!
+
+Properly starving now (as they would say here), we made our way to a Bahn Mi shop and had a delicious sandwich! Very flavorful and we brushed up on our Vietnamese niceities!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781660680/20260616_144920_xv7nbh.jpg)
+
+The afternoon called for rest and a bit of blog writing! That evening, we walked to Indian food - I found it delicious but Mike did not. The waiter was an absolute wanker. No photos for this meal as I was cranky. 
+
+But, we did make up for it by having some gelato and packing up for an early flight tomorrow!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781660684/20260616_192606_itadwr.jpg)
+
+We will be leaving for the airport before the buses run so we pre-scheduled an uber ride - I CAN'T WAIT TO GO TO NORWAY!!!
