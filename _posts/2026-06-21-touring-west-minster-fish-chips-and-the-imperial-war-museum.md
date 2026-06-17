@@ -19,7 +19,7 @@ It was a super cute and cozy cafe - I ordered fried eggs, hashbrowns, guacamole,
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781554610/20260615_080206_ocptgn.jpg "As I type this, I am conspiring how I can convince Mike to go back here tomorrow...")
 
-We headed for the West Minster bridge to start our [Rick Steve's tour](https://www.ricksteves.com/watch-read-listen/audio/audio-tours) where he audibly walks us through the area - for free and with so much passion and excitement! We love his tours!
+We headed for the Westminster bridge to start our [Rick Steve's tour](https://www.ricksteves.com/watch-read-listen/audio/audio-tours) where he audibly walks us through the area - for free and with so much passion and excitement! We love his tours!
 
 I saw something I didn't notice our last trip here - these walk signs!
 
@@ -102,3 +102,7 @@ Later, we ventured out for dinner - yes we had dessert before our dinner - rebel
 We planned to split one wrap... but it was just too good and we were starving! Hence only getting a photo of the lone tomato lol. Mike ran up to reorder and we went in for an actual doner this time instead of a wrap. Both were flavorful and scrumptious. Another win for London. Really unexpectedly pulling through on the food game this time. 
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781566266%2F20260615_193243_szr5ip.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781566265%2F20260615_193601_tdvwhl.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781566265%2F20260615_195053_jcgi0d.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Heading back to our hotel, we spotted the Bridge Watch volunteer - trained volunteers patrol crossings (like Tower Bridge and London Bridge) to spot and support vulnerable individuals in an effort to prevent suicide.
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781661017%2F20260615_200956_knjxqh.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781660998%2F20260615_200954_v1jeqg.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
