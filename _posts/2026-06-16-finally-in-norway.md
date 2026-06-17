@@ -42,3 +42,5 @@ The park was gorgeous and filled with silent people! So many people in the middl
 So much reading later (I finished my book today: [Summer Share by Jenn McKinley](https://www.goodreads.com/en/book/show/240688508-the-summer-share) - love it!!!) and it was time to check in! All settled in, we headed to grocery shop. Norway is *not* cheap, we will save some KRN by making breakfasts at the apartment :)
 
 Tonight we tried a Korean restaurant bulgogi for me and bibimbap for Mike! Really delicious! We got to eat back in the park and it was really a lovely first day in Norway!!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720025%2F20260617_190342_sid26m.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720043%2F20260617_190043_tttcfe.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720036%2F20260617_190346_m8mwib.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
