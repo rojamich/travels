@@ -39,7 +39,7 @@ Naturally, we stopped for a coffee, this is where I find out this shop doesn't o
 
 The park was gorgeous and filled with silent people! So many people in the middle of the day on a Wednesday! This is due to them receiving 5 weeks a year of paid time off (on top of federal holidays - woah!)
 
-So much reading later (I finished my book today: [Summer Share by Jenn McKinley](https://www.goodreads.com/en/book/show/240688508-the-summer-share) - love it!!!) and it was time to check in! All settled in, we headed to grocery shop. Norway is *not* cheap, we will save some KRN by making breakfasts at the apartment :)
+So much reading later (I finished my book today: [Summer Share by Jenn McKinley](https://www.goodreads.com/en/book/show/240688508-the-summer-share) - love it!!!) and it was time to check in! All settled in, we headed to grocery shop. Norway is *not* cheap, we will save some KR by making breakfasts at the apartment :)
 
 Tonight we tried a Korean restaurant bulgogi for me and bibimbap for Mike! Really delicious! We got to eat back in the park and it was really a lovely first day in Norway!!
 
