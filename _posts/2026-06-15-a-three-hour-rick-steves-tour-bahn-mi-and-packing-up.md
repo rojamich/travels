@@ -120,3 +120,13 @@ But, we did make up for it by having some gelato and packing up for an early fli
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781660684/20260616_192606_itadwr.jpg)
 
 We will be leaving for the airport before the buses run so we pre-scheduled an uber ride - I CAN'T WAIT TO GO TO NORWAY!!!
+
+**Final Notes on London:**
+
+**Trip Length:** 3 Days
+
+**Daily weather:** the 60s until our last day which was in the 70s!
+
+**Total distance walked:** 39.89 miles
+
+**Transportations used:** walking, bus, and the underground.
