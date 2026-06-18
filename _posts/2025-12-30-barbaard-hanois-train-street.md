@@ -30,3 +30,5 @@ We were pretty tired so we decided to try the tuk tuk experience (our first tuk 
 The special part of this street is that the train runs right down the middle of a typically pedestrian-filled walkway! Shops line the train tracks and you can sit mere feet away from the train crossing and enjoy a (very expensive) meal or beverage!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781780355%2F20251231_113036_s2comm.jpg%22%2Cnull%5D%2C%22caption%22%3A%22%22%7D %}
+
+Mike ordered a Cà Phê Sữa Đá - an iced coffee with milk and I had my cherished Cà phê muối - it was the worst one I'd had in Vietnam! Probably not a surprise as we were in a very touristy area.
