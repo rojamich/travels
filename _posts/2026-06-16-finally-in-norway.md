@@ -25,6 +25,8 @@ I grabbed an airport coffee and confirmed, I still hate Nero coffee. On a bright
 
 The flight was (unfortunately) very short. I barely got to read at all! However, boarding and deplaning were very efficient so we were happy with our first encounter with British Airways!
 
+We had a fun interaction with border patrol at passport control :) The agent was very friendly and we chatted about Norway. She asked us what we planned to do here and I told her hiking, kayaking, rock climbing, paddleboarding! She said, "Oh! It's so nice to see Americans come here to hike!" I said, "Really? What do we usually do?" She said, "I'm not sure!" Mike suggested, "Eat?!" She laughed and nodded XD
+
 One train ride and one tram ride later, we were in the middle of Oslo - I CAN'T BELIEVE WE ARE HERE - I LOVE IT! Everything is green, the weather is cool, flowers are in bloom!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720021%2F20260617_115043_qfzykv.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720018%2F20260617_121520_oisgiq.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
