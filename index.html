@@ -62,6 +62,13 @@ classes: wide
           {{ trip.start_date | date: "%b %Y" }}
         </p>
         <p>{{ trip.description }}</p>
+        {% if trip.tags and trip.tags.size > 0 %}
+        <p class="trip-card-tags">
+          {% for tag in trip.tags %}
+            <span class="tag-chip" style="cursor:default;">{{ tag }}</span>
+          {% endfor %}
+        </p>
+        {% endif %}
       </div>
     </a>
   {% endfor %}
@@ -83,6 +90,16 @@ classes: wide
   .trip-card-body { padding: 1em; }
   .trip-card-body h3 { margin: 0 0 0.3em 0; }
   .trip-card-meta { margin: 0 0 0.5em 0; }
+  .trip-card-tags {
+    margin: 0.8em 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3em;
+  }
+  .trip-card-tags .tag-chip {
+    font-size: 0.75em;
+    padding: 0.18em 0.65em;
+  }
 </style>
 
 <script src="{{ '/assets/js/sort-filter.js' | relative_url }}"></script>

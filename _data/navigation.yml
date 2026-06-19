@@ -8,8 +8,6 @@
 main:
   - title: "Home"
     url: /
-  - title: "All Trips"
-    url: /trips/
   - title: "Map"
     url: /map/
   - title: "Favorites"
