@@ -37,7 +37,7 @@ Here is Mike climbing out of the structure nearby to show the door size - it cou
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781888448/20260619_130540_ray7xa.jpg)
 
-Easily one of the coolest views was the Stavkirke (the Stave Church). A dramatic and unique looking church!
+Easily one of the coolest views was the Stavkirke (the Stave Church). A dramatic and unique looking church, estimated to have been built between 1157 and 1216!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781888376%2F20260619_122623_e0strf.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781888433%2F20260619_123604_t3r3ox.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781888434%2F20260619_122521_zhltml.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781888451%2F20260619_125857_uyup9g.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -79,7 +79,7 @@ We learned about it's unique construction and how the idea for this voyage was a
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781888436%2F20260619_145822_qzs3nn.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781888437%2F20260619_152031_dxwkia.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
-We were allowed to climb aboard and walk each deck of the ship too!
+We were allowed to climb aboard and walk each deck of the ship too! This was THE original ship - we walked on the original planks!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781888442%2F20260619_150024_jmhwvs.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781888440%2F20260619_150230_khnhmx.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781891658%2F20260619_150123_nyoail.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -105,7 +105,7 @@ We were pretty excited that both voyages: the Arctic and Antarctic were highligh
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781893746%2F20260619_153357_vtd5tw.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781893745%2F20260619_153409_slolia.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
-The second half of the museum highlighted voyages on land and in the air!
+The second half of the museum highlighted voyages on land and in the air! Another original ship as well, incredible.
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781888437/20260619_154353_togtju.jpg)
 
@@ -124,6 +124,8 @@ Don't forget, there's never an excuse not to bathe!
 There was a really cool igloo to explore as well! I can't wait to stay in one, one day! Our 15 year anniversary is coming up...
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781888431%2F20260619_155542_bl0mhu.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781888431%2F20260619_155616_tdanvi.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781891656%2F20260619_155559_xjevao.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781888445%2F20260619_155738_w9zb6g.jpg%22%5D%2C%22caption%22%3A%22I%20could%20see%20Mike%20from%20the%20outside%2C%20hello%20honey!!%22%7D %}
+
+This igloo was a good reminder for us of why we are on this journey at our age. There was an older couple who tried to crawl into the igloo but couldn't physically make it. We recognize that retirement isn't promised. Even if we make it to retirement, we may not be able to physically accomplish everything we want to. We even made a list of priority trips to take while we are younger because there are so many places that demand physical ability (at least, how we want to explore them). Even with things we think won't be physical, something simple like a museum might ask for abled-bodies. 
 
 We hopped on a bus to the beach and grabbed a snack on the way - another new flavor!
 
