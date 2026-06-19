@@ -1,0 +1,114 @@
+---
+title: "Log In"
+permalink: /login/
+layout: single
+author_profile: false
+classes: wide
+---
+
+<form id="custom-login-form" class="login-form" method="post" action="javascript:void(0)" autocomplete="on">
+  <h2>Log in to admin</h2>
+
+  <div class="login-form-group">
+    <label for="login-email">Email</label>
+    <input type="email"
+           id="login-email"
+           name="email"
+           autocomplete="username"
+           required
+           autofocus>
+  </div>
+
+  <div class="login-form-group">
+    <label for="login-password">Password</label>
+    <input type="password"
+           id="login-password"
+           name="password"
+           autocomplete="current-password"
+           required>
+  </div>
+
+  <button type="submit" id="login-submit">Log in</button>
+
+  <p id="login-message" class="login-message" style="display:none;"></p>
+
+  <p class="login-fineprint">
+    This is for site editors only. Visitors don't need an account to read.
+  </p>
+</form>
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  (function () {
+    var form = document.getElementById("custom-login-form");
+    var submitBtn = document.getElementById("login-submit");
+    var msgEl = document.getElementById("login-message");
+
+    function showError(text) {
+      msgEl.textContent = text;
+      msgEl.style.display = "block";
+      msgEl.classList.add("is-error");
+    }
+
+    function clearError() {
+      msgEl.textContent = "";
+      msgEl.style.display = "none";
+      msgEl.classList.remove("is-error");
+    }
+
+    // The Netlify Identity widget loads in the background and exposes
+    // `netlifyIdentity` globally. We don't open its UI — we just use its
+    // GoTrue client to authenticate against the same Identity backend.
+    // This means the JWT it stores is identical to what the widget would
+    // store, so Decap CMS at /admin/ recognizes the session normally.
+    function waitForIdentity(callback, tries) {
+      tries = tries || 0;
+      if (window.netlifyIdentity && netlifyIdentity.gotrue) {
+        callback();
+      } else if (tries < 50) {
+        setTimeout(function () { waitForIdentity(callback, tries + 1); }, 100);
+      } else {
+        showError("Login service didn't load. Refresh and try again.");
+      }
+    }
+
+    waitForIdentity(function () {
+      // Auto-redirect to admin if already logged in.
+      var currentUser = netlifyIdentity.currentUser && netlifyIdentity.currentUser();
+      if (currentUser) {
+        window.location.href = "/admin/";
+        return;
+      }
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        clearError();
+
+        var email = document.getElementById("login-email").value.trim();
+        var password = document.getElementById("login-password").value;
+
+        if (!email || !password) {
+          showError("Please enter both email and password.");
+          return;
+        }
+
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Logging in...";
+
+        // remember=true → token persists across page reloads
+        netlifyIdentity.gotrue
+          .login(email, password, true)
+          .then(function () {
+            // GoTrue stored the JWT — Decap will pick it up.
+            window.location.href = "/admin/";
+          })
+          .catch(function (err) {
+            submitBtn.disabled = false;
+            submitBtn.textContent = "Log in";
+            var message = (err && err.message) || "Login failed. Check your email and password.";
+            showError(message);
+          });
+      });
+    });
+  })();
+</script>

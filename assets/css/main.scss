@@ -972,6 +972,102 @@ hr {
 }
 
 // -----------------------------------------------------------------------------
+// CUSTOM LOGIN FORM (/login/)
+// -----------------------------------------------------------------------------
+.login-form {
+  max-width: 420px;
+  margin: 2.5em auto;
+  padding: 2em 2em 1.5em;
+  background: #fff;
+  border: 1px solid $border-color;
+  border-radius: 14px;
+  box-shadow: 0 6px 24px rgba($navy-deep, 0.10);
+
+  h2 {
+    margin: 0 0 1em;
+    text-align: center;
+    color: $navy-deep;
+    font-size: 1.4em;
+  }
+}
+
+.login-form-group {
+  margin-bottom: 1em;
+
+  label {
+    display: block;
+    margin-bottom: 0.35em;
+    font-weight: 600;
+    font-size: 0.92em;
+    color: $navy-deep;
+  }
+
+  input {
+    width: 100%;
+    padding: 0.65em 0.85em;
+    border: 1px solid $border-color;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 1em;
+    color: $ink;
+    box-sizing: border-box;
+
+    &:focus {
+      outline: none;
+      border-color: $seaglass;
+      box-shadow: 0 0 0 3px rgba($seaglass, 0.18);
+    }
+  }
+}
+
+#login-submit {
+  width: 100%;
+  padding: 0.75em;
+  margin-top: 0.4em;
+  background: $navy-deep;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+
+  &:hover:not(:disabled) {
+    background: $navy-mid;
+  }
+
+  &:active:not(:disabled) {
+    transform: translateY(1px);
+  }
+
+  &:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+}
+
+.login-message {
+  margin-top: 1em;
+  padding: 0.6em 0.8em;
+  text-align: center;
+  border-radius: 6px;
+
+  &.is-error {
+    background: #fdecea;
+    border: 1px solid #f5b5b0;
+    color: #7d1410;
+  }
+}
+
+.login-fineprint {
+  margin: 1.4em 0 0;
+  text-align: center;
+  font-size: 0.85em;
+  color: $muted;
+}
+
+// -----------------------------------------------------------------------------
 // COMMENTS BLOCK (Cusdis)
 // -----------------------------------------------------------------------------
 // Make the comments section visually prominent so casual visitors notice it

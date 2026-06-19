@@ -34,6 +34,51 @@
 
   <!--
     =========================================================================
+    JWT AUTO-REFRESH + REDIRECT TO CUSTOM LOGIN
+    =========================================================================
+    Netlify Identity JWTs default to a 1-hour lifetime. Without explicit
+    refresh, a long writing session ends with "unable to save" errors.
+    Two safeguards:
+
+      1. Every 45 minutes, force-refresh the JWT so it never expires
+         while the editor is open.
+      2. If the user lands on /admin/ without a session, send them to
+         /login/ — our custom Bitwarden-friendly form — rather than
+         showing the iframe widget that password managers can't fill.
+    =========================================================================
+  -->
+  <script>
+    (function () {
+      function whenReady(cb, tries) {
+        tries = tries || 0;
+        if (window.netlifyIdentity) cb();
+        else if (tries < 50) setTimeout(function () { whenReady(cb, tries + 1); }, 100);
+      }
+
+      whenReady(function () {
+        netlifyIdentity.on("init", function (user) {
+          if (!user) {
+            // No session — send them through our custom login.
+            window.location.href = "/login/";
+          }
+        });
+
+        // Refresh the JWT every 45 minutes to keep the session alive.
+        setInterval(function () {
+          var u = netlifyIdentity.currentUser && netlifyIdentity.currentUser();
+          if (u && u.jwt) {
+            u.jwt(true).catch(function () {
+              // Refresh failed — log it but don't break the editor.
+              console.warn("[admin] JWT refresh failed; user may need to log in again.");
+            });
+          }
+        }, 45 * 60 * 1000);
+      });
+    })();
+  </script>
+
+  <!--
+    =========================================================================
     EDITOR COMPONENTS — custom blocks she can insert in the post body
     =========================================================================
     The "📷 Photo Gallery" button appears in the markdown editor's toolbar.
