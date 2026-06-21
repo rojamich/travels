@@ -11,7 +11,7 @@ header:
 tags: []
 toc: false
 ---
-What a day of relaxation! We took today off, there was supposed to be a big rainstorm! So it felt fitting to call it a down day. 10hours of sleep later, a ton of reading (steam deck playing for Mike) and a walk for gelato – there was never a rainstorm lol!
+What a day of relaxation! We took today off, there was supposed to be a big rainstorm! So it felt fitting to call it a down day. 10 hours of sleep later, a ton of reading (steam deck playing for Mike) and a walk for gelato – there was never a rainstorm lol!
 
 That night we decided to try Schroder’s restaurant – the favorite haunt of Harry Hole from the Jo Nesbo serial killer series. We read all the novels and they just released the first season on Netflix!! 
 
