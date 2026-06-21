@@ -11,9 +11,9 @@ header:
 tags: []
 toc: false
 ---
-My feet hurt so bad XD Three museums in one day should beillegal. IDC how cool they are. We started the day in the park with a workout(remember the gym equipment I showed you the other day? We had a nap after thatand boy howdy, Norway has been good for resting so far! 
+My feet hurt so bad XD Three museums in one day should be illegal. IDC how cool they are. We started the day in the park with a workout (remember the gym equipment I showed you the other day? We had a nap after that and boy howdy, Norway has been good for resting so far! 
 
-We walked through several parks on our way to a usedbookstore – this city feels like the city of parks :o
+We walked through several parks on our way to a used bookstore – this city feels like the city of parks :o
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782066049%2F20260621_111015_hcaktk.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782066048%2F20260621_111724_oftdau.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -25,7 +25,7 @@ The museums we visited were inside a fortress :o WHAT!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782066232/20260621_132203_blbbwf.jpg "This was the fortress we spotted from the Nobel Peace Center! ")
 
-The first museum was our personal favorite this day: The Norwegian Resistance Museum - it covered Norway's struggle/fight against Hilter's takeover. 
+The first museum was our personal favorite this day: The Norwegian Resistance Museum - it covered Norway's struggle/fight against Hitler's takeover. 
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782066366%2F20260621_133310_f9txko.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782066362%2F20260621_135457_c4kfsf.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782066364%2F20260621_135504_i8x0k2.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782066362%2F20260621_134050_gfyqqq.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782066363%2F20260621_141459_iurxbb.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782066366%2F20260621_141504_cnug21.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -61,7 +61,7 @@ If you don't remember, Mike was a mortarman in the military so I was excited to 
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782067404%2F20260621_154036_udu1za.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782067474%2F20260621_154040_ni8c7k.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
-Properly exhausted... the day wasn't over. It was time for a gelato break though! We stopped long enough to lick our cones and head to the museum park. The statues were kindof ...eh and there were a lot of people in bikinis tanning so it wasn't the time to take photos lol.
+Properly exhausted... the day wasn't over. It was time for a gelato break though! We stopped long enough to lick our cones and head to the sculpture park. The statues were kindof ...eh and there were a lot of people in bikinis tanning so it wasn't the time to take photos lol.
 
 We caught the tram to the Oslo Opera House!
 
