@@ -31,6 +31,8 @@ The entrance had photos of the filming set, Harry’s favorite table had a label
 
 I played it safe by ordering the steak, the maître d lookedat me expectantly and asked medium rare? To Mike’s shame, I asked for mediumwell. Mike got the pork dish! 
 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782067789/20260620_191419_njdv8l.jpg)
+
 Apparently, this is medium well.. Mike, thankfully, switchedwith me because his bacon looked fantastic and my steak was made to his liking.How did I get so lucky??
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782065167%2F20260620_195314_oxjrx5.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782065180%2F20260620_200111_memy3j.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782065163%2F20260620_200116_bogsnu.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
