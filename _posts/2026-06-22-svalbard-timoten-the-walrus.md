@@ -1,5 +1,5 @@
 ---
-title: Svalbard & Timoten the Walrus
+title: Svalbard & Timoten the Lazy Walrus
 date: 2026-06-23
 categories:
   - fjords-forever
@@ -7,7 +7,7 @@ order: 7
 header:
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782242108/20260623_184802_d1s6hp.jpg
-  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782242143/20260622_191556_u8dw5p.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782244993/IMG_9884_slpkgk.jpg
 tags: []
 location:
   name: Svalbard
@@ -24,9 +24,9 @@ The books I'm reading right now:
 
 We made it to the airport and browsed a couple of bookstores before getting a frappuccino (my first coffee of Norway, 7 days in!)
 
-Walking towards passport control before boarding our plane, I thought it would be easy breezy like the passport check we had in London...nope. Instead it was easy breezy, tummy queasy. A loonnnnnnnng @$$ line was waiting for us. There were two man children ahead of us who showed there passports to **every.single.agent** that walked by (seriously like 8 people) and asked if they could skip the line to make their flight. Each one said no! Amazing. 
+Walking towards passport control before boarding our plane, I thought it would be easy breezy like the passport check we had in London...nope. Instead it was easy breezy, tummy queasy. This is thanks to the new [ETIAS system](https://www.bbc.com/news/articles/c39rkpe8mj2o) across Europe. A loonnnnnnnng @$$ line was waiting for us. There were two man-children ahead of us who showed their boarding passes to **every.single.agent** that walked by (seriously like 8 people) and asked if they could skip the line to make their flight. Each one said no! Amazing. 
 
-Finally, we made it to the front and answered one question and were released to scurry to our gate. Thankfully, they had not started boarding and no one looked twice at our backpacks. We are down to one backpack and one personal item, yes but the domestic flights can be picky on sizing and even weigh them. We got to board in group B and are in row 8 thankfully. \
+Finally, we made it to the front and answered one question and were released to scurry to our gate. Thankfully, they had not started boarding and no one looked twice at our backpacks. We are down to one backpack and one personal item, yes but other country's domestic flights can be picky on sizing and even weigh them. They typically target those with large backpacks, two bags, or large suitcases. This is very different from the US domestic flights where bags can be massive! We got to board in group B and are in row 8 thankfully. Usually, if we upgrade to a higher group, they don't check us. It's typically later in the boarding process they become more and more strict.\
 It was a great, easy 2.5 hour flight filled with reading and beautiful sights!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782243159%2F20260622_185026_tx3ewj.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782243168%2F20260622_185338_o1nzqa.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782243177%2F20260622_185407_zuhg1a.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
@@ -37,7 +37,7 @@ The airport is teeny tiny and we made it outside where we thought it would be fr
 
 A 6 minute bus ride into town led us up the street to our Airbnb - back to easy breezy! Our place is roomy and cute - very comfortable too! Plenty of room to cook and do yoga, thankfully! 
 
-We raced to the nearest sushi spot because *someone* was getting hangry. That would be me. Some average sushi later, we were satisfied and it was 930pm. Not a tiny bit dark at all. 
+We raced to the nearest sushi spot (the northern most sushi spot in the world!) because *someone* was getting hangry. That would be me. Some average sushi later, we were satisfied and it was 930pm. Not a tiny bit dark at all. 
 
 We crashed and slept well :)
 
@@ -59,13 +59,13 @@ I woke up ready to see the island, so I took myself on a running tour. I stopped
 >
 > Me: "Wonderful, thank you and have a great day!"
 
-You're probably wondering what that was all about. You cannot run outside the city limits with bear protection (long firearm) or a tour guide. Being that I had neither, I didn't want to get in trouble (lawfully or physically). 
+You're probably wondering what that was all about. You cannot run outside the city limits without bear protection (long firearm) or a tour guide. Being that I had neither, I didn't want to get in trouble (lawfully or physically). 
 
 But I did find the limit as well as some gorgeous views on my route!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782243835%2F20260623_093505_o6vojd.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782243845%2F20260623_095704_gs9dbs.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
-Two homemade meals later (we refuse to pay a ton for meh food here) and we are off to meet for our first tour! Heading to see glaciers! Look how cute this tiny pot is!
+Two homemade meals later (we refuse to pay a ton for meh food here) and we are off to meet our first tour! Heading to see glaciers! Look how cute this tiny pot is!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782244274/20260623_135025_l5lb59.jpg)
 
@@ -73,7 +73,7 @@ We had slapped on our seasickness patches and climbed aboard, securing a spot in
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782244465/20260623_152134_urnfox.jpg)
 
-Our first stop was to meet Timoten the Walrus (we named him). He is very lazy as walruses typically eat and sleep and mate. That's everything. They 25 to 50+ kilos (50 to 100 pounds) of food per day (life goals) and are exclusively found in the Arctic Ocean and sub-Arctic seas of the Northern Hemisphere. How neat! Did you see he only has one tusk?
+Our first stop was to meet Timoten the Walrus (we named him). He is very lazy as walruses typically eat and sleep and mate. That's everything. They eat 25 to 50+ kilos (50 to 100 pounds) of food per day (life goals) and are exclusively found in the Arctic Ocean and sub-Arctic seas of the Northern Hemisphere. How neat! Did you see he only has one tusk?
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782244516%2F20260623_160305_hupovn.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782244524%2F20260623_160316_fluxpb.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782244543%2F20260623_160352_0_gblzcq.jpg%22%5D%2C%22caption%22%3A%22Here%20we%20are%20taking%20a%20moment%20to%20appreciate%20life%20and%20just%20be%20in%20disbelief%20that%20we%20are%20really%20here!%22%7D %}
 
@@ -91,7 +91,9 @@ Heading back, we listened to two guest lecturers from the local university discu
 
 The last stop before making it to shore was to say bye to Timoten, who lives up to his lazy walrus ways by being in the exact same spot we left him but scratching his belly lol.
 
-<https://youtube.com/shorts/qJHPz2i3CYo?feature=share>
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2FqJHPz2i3CYo%3Ffeature%3Dshare%22%7D %}
+
+
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782245279/20260623_184802_yvgz8e.jpg)
 
