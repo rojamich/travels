@@ -27,11 +27,7 @@ On the way there, we spotted beluga whales! First time ever! P.s. Beluga whales 
 
 {% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FNS0nsILJqlM%22%7D %}
 
-We also saw Puffins! My must-see! Look how cute they are 
-
-😍
-
-!
+We also saw Puffins! My must-see! Look how cute they are 😍!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782324126%2F20260624_114337_wbn0kj.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782324113%2F20260624_114451_yomgjp.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -84,3 +80,7 @@ That's right! Timoten the lazy walrus! He was still in the same spot!
 We were ravenous on our return to Svalbard so we grabbed dinner at a pub!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782326722/20260624_175005_lnkdvm.jpg)
+
+I got the Cesar salad and Mike tried the reindeer burger - he says it was fine and wouldn't have again.
+
+See you tomorrow for our hike!
