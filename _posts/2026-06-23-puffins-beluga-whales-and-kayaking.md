@@ -80,3 +80,7 @@ That's right! Timoten the lazy walrus! He was still in the same spot!
 We were ravenous on our return to Svalbard so we grabbed dinner at a pub!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782326722/20260624_175005_lnkdvm.jpg)
+
+I got the Cesar salad and Mike tried the reindeer burger - he says it was fine and wouldn't have again.
+
+See you tomorrow for our hike!
