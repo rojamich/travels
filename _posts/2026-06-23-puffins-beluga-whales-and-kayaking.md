@@ -27,11 +27,7 @@ On the way there, we spotted beluga whales! First time ever! P.s. Beluga whales 
 
 {% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FNS0nsILJqlM%22%7D %}
 
-We also saw Puffins! My must-see! Look how cute they are 
-
-😍
-
-!
+We also saw Puffins! My must-see! Look how cute they are 😍!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782324126%2F20260624_114337_wbn0kj.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782324113%2F20260624_114451_yomgjp.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
