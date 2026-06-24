@@ -90,6 +90,128 @@
     =========================================================================
   -->
   <script>
+    // ----- "😊 Emoji" -----
+    // Curated list of useful general + travel emojis. Pick one from the
+    // dropdown and it's inserted at her cursor. For anything not on the
+    // list, OS emoji picker still works (Win+. on Windows, Ctrl+Cmd+Space on Mac).
+    CMS.registerEditorComponent({
+      id: "emoji",
+      label: "😊 Emoji",
+      fields: [
+        {
+          name: "emoji",
+          label: "Pick an emoji",
+          widget: "select",
+          options: [
+            // Travel / transport
+            { label: "✈️  Plane",            value: "✈️" },
+            { label: "🚗 Car",               value: "🚗" },
+            { label: "🚆 Train",             value: "🚆" },
+            { label: "🛵 Scooter",           value: "🛵" },
+            { label: "🏍️  Motorbike",        value: "🏍️" },
+            { label: "🚢 Ship",              value: "🚢" },
+            { label: "🛶 Canoe",             value: "🛶" },
+            { label: "🚁 Helicopter",        value: "🚁" },
+            { label: "🌍 Globe (EU/AF)",     value: "🌍" },
+            { label: "🌏 Globe (Asia)",      value: "🌏" },
+            { label: "🌎 Globe (Americas)",  value: "🌎" },
+            { label: "🗺️  Map",              value: "🗺️" },
+            { label: "📍 Pin",               value: "📍" },
+            { label: "🧳 Suitcase",          value: "🧳" },
+            { label: "🎒 Backpack",          value: "🎒" },
+            { label: "🛏️  Hotel bed",        value: "🛏️" },
+            { label: "⛺ Tent",              value: "⛺" },
+            // Nature / scenery
+            { label: "🏔️  Mountain",         value: "🏔️" },
+            { label: "🌋 Volcano",           value: "🌋" },
+            { label: "🏖️  Beach",            value: "🏖️" },
+            { label: "🏝️  Island",           value: "🏝️" },
+            { label: "🌅 Sunrise",           value: "🌅" },
+            { label: "🌄 Sunrise over mtns", value: "🌄" },
+            { label: "🌇 Sunset (city)",     value: "🌇" },
+            { label: "🌌 Milky Way",         value: "🌌" },
+            { label: "🌳 Tree",              value: "🌳" },
+            { label: "🌴 Palm",              value: "🌴" },
+            { label: "🌊 Wave",              value: "🌊" },
+            { label: "❄️  Snowflake",        value: "❄️" },
+            { label: "☀️  Sun",              value: "☀️" },
+            { label: "⛅ Cloudy",            value: "⛅" },
+            { label: "🌧️  Rain",             value: "🌧️" },
+            { label: "🌈 Rainbow",           value: "🌈" },
+            // Animals
+            { label: "🐅 Tiger",             value: "🐅" },
+            { label: "🐘 Elephant",          value: "🐘" },
+            { label: "🦒 Giraffe",           value: "🦒" },
+            { label: "🦓 Zebra",             value: "🦓" },
+            { label: "🐆 Leopard",           value: "🐆" },
+            { label: "🐧 Penguin",           value: "🐧" },
+            { label: "🐠 Fish",              value: "🐠" },
+            { label: "🐢 Turtle",            value: "🐢" },
+            { label: "🐑 Sheep",             value: "🐑" },
+            { label: "🐕 Dog",               value: "🐕" },
+            // Food / drink
+            { label: "🍜 Noodles",           value: "🍜" },
+            { label: "🍣 Sushi",             value: "🍣" },
+            { label: "🍕 Pizza",             value: "🍕" },
+            { label: "🥖 Bread",             value: "🥖" },
+            { label: "🥐 Croissant",         value: "🥐" },
+            { label: "🌮 Taco",              value: "🌮" },
+            { label: "🍔 Burger",            value: "🍔" },
+            { label: "🍦 Ice cream",         value: "🍦" },
+            { label: "🍫 Chocolate",         value: "🍫" },
+            { label: "🍷 Wine",              value: "🍷" },
+            { label: "🍺 Beer",              value: "🍺" },
+            { label: "☕ Coffee",            value: "☕" },
+            { label: "🧉 Mate",              value: "🧉" },
+            // Buildings / culture
+            { label: "🏰 Castle",            value: "🏰" },
+            { label: "🕌 Mosque",            value: "🕌" },
+            { label: "⛩️  Torii",            value: "⛩️" },
+            { label: "🛕 Temple",            value: "🛕" },
+            { label: "⛪ Church",            value: "⛪" },
+            { label: "🗽 Statue of Liberty", value: "🗽" },
+            { label: "🗼 Tokyo Tower",       value: "🗼" },
+            { label: "🏛️  Classical",        value: "🏛️" },
+            // Activities / vibes
+            { label: "🥾 Hiking boot",       value: "🥾" },
+            { label: "🚴 Cycling",           value: "🚴" },
+            { label: "🏊 Swimming",          value: "🏊" },
+            { label: "🧗 Climbing",          value: "🧗" },
+            { label: "🎒 Backpacking",       value: "🎒" },
+            { label: "📸 Camera",            value: "📸" },
+            { label: "🎫 Ticket",            value: "🎫" },
+            { label: "🎟️  Admission",        value: "🎟️" },
+            // Emotions / reactions
+            { label: "❤️  Heart",            value: "❤️" },
+            { label: "💗 Pink heart",        value: "💗" },
+            { label: "✨ Sparkles",          value: "✨" },
+            { label: "🌟 Star",              value: "🌟" },
+            { label: "😍 Heart eyes",        value: "😍" },
+            { label: "🥰 Smiling hearts",    value: "🥰" },
+            { label: "😋 Yum",               value: "😋" },
+            { label: "😮 Wow",               value: "😮" },
+            { label: "😂 Laughing",          value: "😂" },
+            { label: "🤣 Rolling laugh",     value: "🤣" },
+            { label: "🥹 Holding back tears",value: "🥹" },
+            { label: "😴 Sleepy",            value: "😴" },
+            { label: "🥺 Pleading",          value: "🥺" }
+          ]
+        }
+      ],
+      pattern: /\{%\s*emoji_block\s+(\S+)\s*%\}/,
+      fromBlock: function (match) {
+        try { return JSON.parse(decodeURIComponent(match[1])); }
+        catch (e) { return { emoji: "" }; }
+      },
+      toBlock: function (data) {
+        // Just insert the emoji character directly — no Liquid tag, no plugin.
+        return (data && data.emoji) ? data.emoji : "";
+      },
+      toPreview: function (data) {
+        return '<span style="font-size:1.4em;">' + ((data && data.emoji) || "") + '</span>';
+      }
+    });
+
     // ----- "🎬 YouTube Video" -----
     CMS.registerEditorComponent({
       id: "youtube",

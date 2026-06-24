@@ -23,7 +23,7 @@ But first! Hanoi's train street. If you've ever seen Vietnam on Instagram, two t
 
 We were pretty tired so we decided to try the tuk tuk experience (our first tuk tuk ride!) to get to the other side of town. After a barter with the driver, we were in and relaxing on the way over!
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781779639%2F20251231_101914_nlgnss.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781779623%2F20251231_101853_pemkh9.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781779639%2F20251231_101914_nlgnss.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781779623%2F20251231_101853_pemkh9.jpg%22%5D%2C%22caption%22%3A%22As%20we%20departed%20the%20tuk%20tuk%2C%20the%20driver%20tried%20to%20say%20the%20price%20we%20negotiated%20was%20for%20each%20of%20us.%20We%20said%2C%20%5C%22no%5C%22%2C%20and%20walked%20away%20from%20that%20attempted%20scammer.%22%7D %}
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781780024%2F20251231_105352_rmonze.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781780024%2F20251231_105458_lsn3kt.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -32,3 +32,51 @@ The special part of this street is that the train runs right down the middle of 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781780355%2F20251231_113036_s2comm.jpg%22%2Cnull%5D%2C%22caption%22%3A%22%22%7D %}
 
 Mike ordered a Cà Phê Sữa Đá - an iced coffee with milk and I had my cherished Cà phê muối - it was the worst one I'd had in Vietnam! Probably not a surprise as we were in a very touristy area.
+
+After some patient waiting, the train came rumbling down the street! A woman came down the tracks with a broom, pushing at the ground near your feet if you were too close to the line. The line acts as a physical barrier between you and the train's width!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782277907%2F20251231_113050_xln6la.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782277915%2F20251231_113056_zzknex.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782277923%2F20251231_113105_ulqaks.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782277941%2F20251231_113118_ogwkfl.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782277950%2F20251231_113222_zqr8uc.jpg%22%5D%2C%22caption%22%3A%22It%20was%20so%20neat%20watching%20it%20rounding%20the%20corner!%22%7D %}
+
+After, it was time to get a proper coffee. Walking around, we saw this hole in the wall with just a TV screen - what is this??
+
+We tapped the screen and it came to life to take our order!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278339%2F20251231_114807_cjxbip.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278357%2F20251231_114811_db32c5.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278377%2F20251231_114816_y2eibz.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+After seating, a musical noise and singing came from the wall to announce my coffee was ready! I was blown away by how cute this is!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278500%2F20251231_114721_ldthnl.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278501%2F20251231_114727_ixgld3.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278508%2F20251231_114734_p3xuxm.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278550%2F20251231_114735_uiozxy.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+It was time to head to Mike's appointment. The route reminded us how green and beautiful this city is.
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278643%2F20251231_134428_vmym7u.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278635%2F20251231_134431_jqd69w.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+We arrived at Barbaard, the luxury grooming and lounge bar! It was ***so*** fancy inside!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278799%2F20251225_113617_ewgqou.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278794%2F20251225_113525_prqrj9.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278928%2F20251225_112816_rivmcu.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+We relaxed by the bar with snacks and drinks until Mike was brought back for his appointment.
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279321%2F20251231_140650_yfmvox.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279011%2F20251231_140936_f6wt8v.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279029%2F20251231_141502_ykbeag.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+A luxurious wash later, it was time for the cut!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279087%2F20251231_142347_agqxsy.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279171%2F20251231_143212_upzolw.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Looking so good babe!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782279177/20251231_145005_obitcy.jpg)
+
+I'm too nervous to try and give Mike a fade at home so I was glad he went to someone who can do it right! Now for the facial hair <3
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279385%2F20251231_145917_mlae60.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279400%2F20251231_150826_am9nyw.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279439%2F20251231_152506_thfiat.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279442%2F20251231_152955_orhfyj.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Looking sharp sweetheart! I'm so glad he took the time to treat himself to this experience - especially since it was a great price in Vietnam!
+
+We walked back to dinner at Pizza Four Pie! Here are our views along the way!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279668%2F20251231_160557_qzvbhw.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279664%2F20251231_155613_kv9ur6.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279674%2F20251229_221001_zourcp.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Dinner was scrumptious and we snagged snacks for the next day's adventure and a treat for tonight!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279706%2F20251231_183736_eholzm.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279717%2F20251231_201814_ofkggp.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279717%2F20251231_204154_jagcxp.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
