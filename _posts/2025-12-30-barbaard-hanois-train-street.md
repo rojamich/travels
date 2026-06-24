@@ -50,3 +50,25 @@ After seating, a musical noise and singing came from the wall to announce my cof
 It was time to head to Mike's appointment. The route reminded us how green and beautiful this city is.
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278643%2F20251231_134428_vmym7u.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278635%2F20251231_134431_jqd69w.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+We arrived at Barbaard, the luxury grooming and lounge bar! It was ***so*** fancy inside!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278799%2F20251225_113617_ewgqou.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278794%2F20251225_113525_prqrj9.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782278928%2F20251225_112816_rivmcu.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+We relaxed by the bar with snacks and drinks until Mike was brought back for his appointment.
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279321%2F20251231_140650_yfmvox.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279011%2F20251231_140936_f6wt8v.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279029%2F20251231_141502_ykbeag.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+A luxurious wash later, it was time for the cut!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279087%2F20251231_142347_agqxsy.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279171%2F20251231_143212_upzolw.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Looking so good babe!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782279177/20251231_145005_obitcy.jpg)
+
+I'm too nervous to try and give Mike a fade at home so I was glad he went to someone who can do it right! Now for the facial hair <3
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279385%2F20251231_145917_mlae60.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279400%2F20251231_150826_am9nyw.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279439%2F20251231_152506_thfiat.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279442%2F20251231_152955_orhfyj.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Looking sharp sweetheart!
