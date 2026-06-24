@@ -71,4 +71,12 @@ I'm too nervous to try and give Mike a fade at home so I was glad he went to som
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279385%2F20251231_145917_mlae60.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279400%2F20251231_150826_am9nyw.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279439%2F20251231_152506_thfiat.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279442%2F20251231_152955_orhfyj.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
-Looking sharp sweetheart!
+Looking sharp sweetheart! I'm so glad he took the time to treat himself to this experience - especially since it was a great price in Vietnam!
+
+We walked back to dinner at Pizza Four Pie! Here are our views along the way!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279668%2F20251231_160557_qzvbhw.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279664%2F20251231_155613_kv9ur6.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279674%2F20251229_221001_zourcp.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Dinner was scrumptious and we snagged snacks for the next day's adventure and a treat for tonight!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279706%2F20251231_183736_eholzm.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279717%2F20251231_201814_ofkggp.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782279717%2F20251231_204154_jagcxp.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
