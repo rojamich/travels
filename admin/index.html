@@ -237,6 +237,10 @@
     // the focal values is to find the rendered inputs by their label text and
     // manipulate them via React's nativeInputValueSetter trick so the form
     // state stays consistent and the change persists on Save.
+    //
+    // The whole IIFE is wrapped in try/catch with logging so a runtime error
+    // here can never block the rest of the admin (especially saving).
+    try {
     (function () {
       // Each entry describes one photo field that the positioner can target.
       //   labelMatch: front of the label text Decap will render (we use
@@ -556,6 +560,9 @@
         buildButton();
       }
     })();
+    } catch (err) {
+      console.error("[admin] Photo Positioner init failed:", err);
+    }
 
     // ----- "🎬 YouTube Video" -----
     CMS.registerEditorComponent({
