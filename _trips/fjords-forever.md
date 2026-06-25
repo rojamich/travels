@@ -12,6 +12,9 @@ countries:
   - name: Oslo, Norway
     lat: 59.913868
     lng: 10.752245
+  - name: Svalbard, Norway
+    lat: 78.223175
+    lng: 15.626723
 country_code: NO
 tags:
   - Nature
