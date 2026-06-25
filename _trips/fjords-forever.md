@@ -6,8 +6,12 @@ cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w
 start_date: 2026-06-17
 end_date: 2026-07-17
 location: Svalbard, Norway
-lat: 59.9139
-lng: 10.7522
+lat: 58.959759
+lng: 5.72427
+countries:
+  - name: Oslo, Norway
+    lat: 59.913868
+    lng: 10.752245
 country_code: NO
 tags:
   - Nature
