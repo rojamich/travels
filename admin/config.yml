@@ -188,6 +188,25 @@ collections:
           widget: "image",
           hint: "Drag in the photo that represents this whole trip — used as the card image on the homepage." }
 
+      - { label: "Cover — focal X (0–100)",
+          name: "cover_focal_x",
+          widget: "number",
+          required: false,
+          value_type: "int",
+          default: 50,
+          min: 0,
+          max: 100,
+          hint: "Set automatically by the 🎯 Position Photo tool (floating button bottom-right). 50 = centered. Don't edit by hand unless you know what you want." }
+
+      - { label: "Cover — focal Y (0–100)",
+          name: "cover_focal_y",
+          widget: "number",
+          required: false,
+          value_type: "int",
+          default: 50,
+          min: 0,
+          max: 100 }
+
       - { label: "Start date",
           name: "start_date",
           widget: "datetime",
@@ -307,9 +326,43 @@ collections:
           - { label: "Teaser (small thumbnail in listings)",
               name: "teaser",
               widget: "image" }
+          - { label: "Teaser — focal X (0–100)",
+              name: "teaser_focal_x",
+              widget: "number",
+              required: false,
+              value_type: "int",
+              default: 50,
+              min: 0,
+              max: 100,
+              hint: "Set automatically by the 🎯 Position Photo tool (floating button bottom-right). 50 = centered." }
+          - { label: "Teaser — focal Y (0–100)",
+              name: "teaser_focal_y",
+              widget: "number",
+              required: false,
+              value_type: "int",
+              default: 50,
+              min: 0,
+              max: 100 }
           - { label: "Banner (large image at top of post)",
               name: "overlay_image",
               widget: "image" }
+          - { label: "Banner — focal X (0–100)",
+              name: "overlay_focal_x",
+              widget: "number",
+              required: false,
+              value_type: "int",
+              default: 50,
+              min: 0,
+              max: 100,
+              hint: "Set automatically by the 🎯 Position Photo tool. 50 = centered." }
+          - { label: "Banner — focal Y (0–100)",
+              name: "overlay_focal_y",
+              widget: "number",
+              required: false,
+              value_type: "int",
+              default: 50,
+              min: 0,
+              max: 100 }
           - { label: "Banner darkening (0–1)",
               name: "overlay_filter",
               widget: "number",

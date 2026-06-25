@@ -223,6 +223,334 @@
       }
     })();
 
+    // ----- "🎯 Photo Positioner" -----
+    // Floating button (bottom-right of /admin/, left of the emoji button) that
+    // opens a modal letting the user drag the photo around inside a preview
+    // box matching the actual render aspect ratio. The image is NOT cropped;
+    // we just compute object-position percentages (0–100 for X and Y) and
+    // write them back into the hidden focal_x / focal_y number fields on the
+    // current Decap form. The render side then applies object-position
+    // (for <img> thumbnails) or background-position (for the MM banner div).
+    //
+    // Why label-based DOM scraping: Decap doesn't expose its React form state
+    // to user scripts. The reliable way to read the image URL and write back
+    // the focal values is to find the rendered inputs by their label text and
+    // manipulate them via React's nativeInputValueSetter trick so the form
+    // state stays consistent and the change persists on Save.
+    (function () {
+      // Each entry describes one photo field that the positioner can target.
+      //   labelMatch: front of the label text Decap will render (we use
+      //               startsWith so trailing required markers don't break it).
+      //   focalXLabel / focalYLabel: labels of the two number inputs to write.
+      //   box: { w, h } pixel size of the preview box in the modal — choose
+      //        an aspect ratio that matches how the photo is used on the site.
+      var FIELDS = [
+        { key: "cover",   tab: "Trip cover",       labelMatch: "Cover photo",
+          focalXLabel: "Cover — focal X (0–100)",
+          focalYLabel: "Cover — focal Y (0–100)",
+          box: { w: 360, h: 240 },
+          desc: "Shows as the trip card on the homepage (3:2)." },
+        { key: "teaser",  tab: "Post teaser",      labelMatch: "Teaser (small thumbnail in listings)",
+          focalXLabel: "Teaser — focal X (0–100)",
+          focalYLabel: "Teaser — focal Y (0–100)",
+          box: { w: 400, h: 280 },
+          desc: "Shows as the day thumbnail on the trip page (10:7)." },
+        { key: "overlay", tab: "Post banner",      labelMatch: "Banner (large image at top of post)",
+          focalXLabel: "Banner — focal X (0–100)",
+          focalYLabel: "Banner — focal Y (0–100)",
+          box: { w: 480, h: 160 },
+          desc: "The wide banner at the top of the post page (3:1)." }
+      ];
+
+      // ----- DOM scraping helpers -----
+      // Walk all <label>s in the form; match by startsWith so we tolerate the
+      // little extras Decap may append (asterisks, hints, colons).
+      function eachLabel(text, fn) {
+        var labels = document.querySelectorAll("label, span[class*='label']");
+        for (var i = 0; i < labels.length; i++) {
+          var t = (labels[i].textContent || "").trim();
+          if (t === text || t.indexOf(text) === 0) {
+            if (fn(labels[i]) === false) return;
+          }
+        }
+      }
+      function findFieldContainer(labelText) {
+        var found = null;
+        eachLabel(labelText, function (lbl) {
+          var parent = lbl.parentElement;
+          for (var d = 0; d < 5 && parent; d++) {
+            if (parent.querySelector("input, textarea, img")) { found = parent; return false; }
+            parent = parent.parentElement;
+          }
+        });
+        return found;
+      }
+      function readImageUrl(container) {
+        if (!container) return "";
+        // The image widget renders a preview <img> whose src is the current URL.
+        var img = container.querySelector("img");
+        if (img && img.src && img.src.indexOf("data:") !== 0) return img.src;
+        var input = container.querySelector("input[type='text'], input[type='url']");
+        return input ? input.value : "";
+      }
+      function findNumberInput(labelText) {
+        var found = null;
+        eachLabel(labelText, function (lbl) {
+          var parent = lbl.parentElement;
+          for (var d = 0; d < 5 && parent; d++) {
+            var input = parent.querySelector("input[type='number']");
+            if (input) { found = input; return false; }
+            parent = parent.parentElement;
+          }
+        });
+        return found;
+      }
+      // React-controlled inputs ignore plain `input.value = x`. We have to call
+      // the prototype's native setter and dispatch an input event so React's
+      // synthetic onChange picks it up and updates state.
+      function setReactValue(input, value) {
+        if (!input) return;
+        var setter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, "value").set;
+        setter.call(input, String(value));
+        input.dispatchEvent(new Event("input", { bubbles: true }));
+        input.dispatchEvent(new Event("change", { bubbles: true }));
+      }
+      function readFocalValue(input, fallback) {
+        if (!input) return fallback;
+        var v = parseFloat(input.value);
+        if (isNaN(v) || v < 0 || v > 100) return fallback;
+        return v;
+      }
+
+      // ----- Drag mechanics -----
+      // We render the image with object-fit: cover inside a fixed-size box.
+      // Dragging the image translates mouse delta into focal-percentage delta
+      // proportional to the cropped overflow (the part of the image that
+      // doesn't fit). If the image already fits exactly on an axis,
+      // overflow is 0 and that axis can't be moved (no info to gain).
+      function bindDrag(box, img, state, render) {
+        var dragging = false, sx = 0, sy = 0, sfx = 50, sfy = 50;
+        var overflowX = 0, overflowY = 0;
+
+        function recompute() {
+          var bw = box.clientWidth, bh = box.clientHeight;
+          var iw = img.naturalWidth, ih = img.naturalHeight;
+          if (!iw || !ih) return;
+          var imgAR = iw / ih, boxAR = bw / bh;
+          var rW, rH;
+          if (imgAR > boxAR) { rH = bh; rW = bh * imgAR; }
+          else                { rW = bw; rH = bw / imgAR; }
+          overflowX = Math.max(0, rW - bw);
+          overflowY = Math.max(0, rH - bh);
+        }
+        function clamp(v) { return Math.max(0, Math.min(100, v)); }
+
+        if (img.complete) recompute();
+        img.addEventListener("load", function () { recompute(); render(); });
+
+        function start(clientX, clientY) {
+          dragging = true; sx = clientX; sy = clientY;
+          sfx = state.x; sfy = state.y;
+          document.body.style.userSelect = "none";
+          box.style.cursor = "grabbing";
+        }
+        function move(clientX, clientY) {
+          if (!dragging) return;
+          var dx = clientX - sx, dy = clientY - sy;
+          // Drag right reveals more LEFT of the image → focal X decreases.
+          state.x = overflowX > 0 ? clamp(sfx - (dx / overflowX) * 100) : sfx;
+          state.y = overflowY > 0 ? clamp(sfy - (dy / overflowY) * 100) : sfy;
+          render();
+        }
+        function end() {
+          if (!dragging) return;
+          dragging = false;
+          document.body.style.userSelect = "";
+          box.style.cursor = "grab";
+        }
+
+        box.addEventListener("mousedown", function (e) { e.preventDefault(); start(e.clientX, e.clientY); });
+        document.addEventListener("mousemove", function (e) { move(e.clientX, e.clientY); });
+        document.addEventListener("mouseup",   end);
+
+        box.addEventListener("touchstart", function (e) {
+          if (!e.touches[0]) return;
+          e.preventDefault();
+          start(e.touches[0].clientX, e.touches[0].clientY);
+        }, { passive: false });
+        document.addEventListener("touchmove", function (e) {
+          if (!dragging || !e.touches[0]) return;
+          move(e.touches[0].clientX, e.touches[0].clientY);
+        }, { passive: false });
+        document.addEventListener("touchend", end);
+
+        return { recompute: recompute };
+      }
+
+      // ----- Modal UI -----
+      var modal, modalBody;
+      function buildModal() {
+        if (modal) return;
+        var style = document.createElement("style");
+        style.textContent =
+          "#photo-pos-btn{position:fixed;bottom:18px;right:74px;width:46px;height:46px;border-radius:50%;border:none;background:#5a8770;color:#fff;font-size:22px;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,0.25);z-index:9999;display:flex;align-items:center;justify-content:center;}" +
+          "#photo-pos-btn:hover{background:#476d59;}" +
+          "#photo-pos-modal{position:fixed;inset:0;background:rgba(0,0,0,0.55);display:none;align-items:center;justify-content:center;z-index:10000;}" +
+          "#photo-pos-modal.open{display:flex;}" +
+          "#photo-pos-modal .modal-card{background:#fff;border-radius:14px;padding:18px 22px;max-width:90vw;max-height:90vh;overflow-y:auto;box-shadow:0 8px 32px rgba(0,0,0,0.3);min-width:420px;}" +
+          "#photo-pos-modal h3{margin:0 0 4px 0;font-size:18px;color:#2a4d69;}" +
+          "#photo-pos-modal .modal-sub{font-size:12px;color:#666;margin-bottom:14px;}" +
+          "#photo-pos-modal .tabs{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap;}" +
+          "#photo-pos-modal .tab{background:#eef3f7;border:1px solid #d4dde4;border-radius:6px;padding:5px 12px;cursor:pointer;font-size:13px;color:#2a4d69;}" +
+          "#photo-pos-modal .tab.active{background:#2a4d69;color:#fff;border-color:#2a4d69;}" +
+          "#photo-pos-modal .tab:disabled{opacity:0.4;cursor:not-allowed;}" +
+          "#photo-pos-modal .stage-desc{font-size:12px;color:#777;margin-bottom:8px;}" +
+          "#photo-pos-modal .stage{position:relative;background:#000;border-radius:8px;overflow:hidden;cursor:grab;user-select:none;touch-action:none;margin:0 auto;}" +
+          "#photo-pos-modal .stage img{display:block;width:100%;height:100%;object-fit:cover;pointer-events:none;-webkit-user-drag:none;}" +
+          "#photo-pos-modal .stage-empty{display:flex;align-items:center;justify-content:center;color:#888;font-size:13px;background:#f3f3f3;border-radius:8px;}" +
+          "#photo-pos-modal .stage-overlay{position:absolute;inset:0;pointer-events:none;background:linear-gradient(to bottom, rgba(255,255,255,0.0) 0%, rgba(255,255,255,0.0) 100%);}" +
+          "#photo-pos-modal .coords{display:flex;justify-content:space-between;align-items:center;margin-top:10px;font-size:13px;color:#444;}" +
+          "#photo-pos-modal .coords .reset{background:none;border:none;color:#2a4d69;text-decoration:underline;cursor:pointer;font-size:12px;padding:0;}" +
+          "#photo-pos-modal .actions{display:flex;justify-content:flex-end;gap:8px;margin-top:16px;}" +
+          "#photo-pos-modal .actions button{padding:8px 16px;border-radius:6px;border:1px solid #ccc;background:#fff;cursor:pointer;font-size:14px;}" +
+          "#photo-pos-modal .actions button.primary{background:#2a4d69;color:#fff;border-color:#2a4d69;}" +
+          "#photo-pos-modal .actions button.primary:hover{background:#1f3a52;}" +
+          "#photo-pos-modal .nofields{padding:20px;text-align:center;color:#666;font-size:14px;line-height:1.5;}";
+        document.head.appendChild(style);
+
+        modal = document.createElement("div");
+        modal.id = "photo-pos-modal";
+        modal.innerHTML =
+          "<div class='modal-card'>" +
+          "  <h3>🎯 Position your photo</h3>" +
+          "  <div class='modal-sub'>Drag the photo to choose which part shows in the thumbnail or banner. The photo isn't cropped — it just shifts inside the frame.</div>" +
+          "  <div class='modal-body'></div>" +
+          "</div>";
+        document.body.appendChild(modal);
+        modalBody = modal.querySelector(".modal-body");
+
+        // Click outside the card closes the modal (without saving).
+        modal.addEventListener("click", function (ev) {
+          if (ev.target === modal) closeModal();
+        });
+      }
+
+      function openModal() {
+        buildModal();
+        // Scan the form for known photo fields. Pending = the values she's
+        // changed in the modal but hasn't yet saved back to the form.
+        var available = FIELDS.map(function (f) {
+          var container = findFieldContainer(f.labelMatch);
+          var url = readImageUrl(container);
+          var fxIn = findNumberInput(f.focalXLabel);
+          var fyIn = findNumberInput(f.focalYLabel);
+          return {
+            cfg: f,
+            url: url,
+            hasFields: !!(fxIn && fyIn),
+            fxInput: fxIn,
+            fyInput: fyIn,
+            pending: { x: readFocalValue(fxIn, 50), y: readFocalValue(fyIn, 50) }
+          };
+        }).filter(function (e) { return e.hasFields; });
+
+        if (available.length === 0) {
+          modalBody.innerHTML =
+            "<div class='nofields'>" +
+            "Open a post or trip to edit, then click 🎯 again. The positioner needs the photo fields in view to work." +
+            "</div>" +
+            "<div class='actions'><button type='button' class='primary' id='photo-pos-close'>Close</button></div>";
+          modalBody.querySelector("#photo-pos-close").addEventListener("click", closeModal);
+          modal.classList.add("open");
+          return;
+        }
+
+        // Tabs (one per photo field present on the form).
+        var activeIdx = 0;
+        function render() {
+          var entry = available[activeIdx];
+          var tabsHtml = available.map(function (e, i) {
+            return "<button type='button' class='tab" + (i === activeIdx ? " active" : "") + "' data-i='" + i + "'>" + e.cfg.tab + "</button>";
+          }).join("");
+          modalBody.innerHTML =
+            "<div class='tabs'>" + tabsHtml + "</div>" +
+            "<div class='stage-desc'>" + entry.cfg.desc + "</div>" +
+            (entry.url
+              ? "<div class='stage' style='width:" + entry.cfg.box.w + "px;height:" + entry.cfg.box.h + "px;'>" +
+                  "<img alt='' src='" + entry.url.replace(/'/g, "&#39;") + "'>" +
+                "</div>"
+              : "<div class='stage stage-empty' style='width:" + entry.cfg.box.w + "px;height:" + entry.cfg.box.h + "px;'>No photo set for this field yet.</div>") +
+            "<div class='coords'>" +
+              "<span>X: <strong class='vx'>" + Math.round(entry.pending.x) + "</strong>%  &middot;  Y: <strong class='vy'>" + Math.round(entry.pending.y) + "</strong>%</span>" +
+              "<button type='button' class='reset'>Reset to center (50, 50)</button>" +
+            "</div>" +
+            "<div class='actions'>" +
+              "<button type='button' id='photo-pos-cancel'>Cancel</button>" +
+              "<button type='button' class='primary' id='photo-pos-save'>Save positions</button>" +
+            "</div>";
+
+          var tabs = modalBody.querySelectorAll(".tab");
+          tabs.forEach(function (t) {
+            t.addEventListener("click", function () {
+              activeIdx = parseInt(t.getAttribute("data-i"), 10);
+              render();
+            });
+          });
+          modalBody.querySelector(".reset").addEventListener("click", function () {
+            entry.pending.x = 50; entry.pending.y = 50;
+            render();
+          });
+          modalBody.querySelector("#photo-pos-cancel").addEventListener("click", closeModal);
+          modalBody.querySelector("#photo-pos-save").addEventListener("click", function () {
+            // Write every entry's pending values back into its Decap inputs.
+            available.forEach(function (e) {
+              setReactValue(e.fxInput, Math.round(e.pending.x));
+              setReactValue(e.fyInput, Math.round(e.pending.y));
+            });
+            closeModal();
+          });
+
+          var stage = modalBody.querySelector(".stage");
+          var img = stage && stage.querySelector("img");
+          if (img) {
+            function paint() {
+              img.style.objectPosition = entry.pending.x + "% " + entry.pending.y + "%";
+              var vx = modalBody.querySelector(".vx");
+              var vy = modalBody.querySelector(".vy");
+              if (vx) vx.textContent = Math.round(entry.pending.x);
+              if (vy) vy.textContent = Math.round(entry.pending.y);
+            }
+            paint();
+            bindDrag(stage, img, entry.pending, paint);
+            stage.style.cursor = "grab";
+          }
+        }
+
+        render();
+        modal.classList.add("open");
+      }
+      function closeModal() {
+        if (modal) modal.classList.remove("open");
+      }
+
+      function buildButton() {
+        if (document.getElementById("photo-pos-btn")) return;
+        var btn = document.createElement("button");
+        btn.id = "photo-pos-btn";
+        btn.type = "button";
+        btn.title = "Position photo (cover / teaser / banner)";
+        btn.textContent = "🎯";
+        document.body.appendChild(btn);
+        btn.addEventListener("click", openModal);
+      }
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", buildButton);
+      } else {
+        buildButton();
+      }
+    })();
+
     // ----- "🎬 YouTube Video" -----
     CMS.registerEditorComponent({
       id: "youtube",

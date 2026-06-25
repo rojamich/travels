@@ -9,6 +9,20 @@
 layout: single
 ---
 
+{%- comment -%}
+  Banner photo positioning. MM renders header.overlay_image as a CSS
+  background-image on .page__hero--overlay (inline style). We override
+  background-position via a scoped style block so she can drag-position
+  the banner from the 🎯 Position Photo tool in /admin/.
+{%- endcomment -%}
+{%- if page.header.overlay_image and (page.header.overlay_focal_x or page.header.overlay_focal_y) -%}
+<style>
+  .page__hero--overlay {
+    background-position: {{ page.header.overlay_focal_x | default: 50 }}% {{ page.header.overlay_focal_y | default: 50 }}% !important;
+  }
+</style>
+{%- endif -%}
+
 {%- comment -%} Look up the trip this post belongs to. {%- endcomment -%}
 {%- if page.categories.size > 0 -%}
   {%- assign trip_slug = page.categories | first -%}

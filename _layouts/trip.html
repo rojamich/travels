@@ -71,6 +71,7 @@ layout: single
           {% if post.header.teaser %}
             <img src="{{ post.header.teaser | relative_url }}"
                  alt="{{ post.title }}"
+                 style="object-position: {{ post.header.teaser_focal_x | default: 50 }}% {{ post.header.teaser_focal_y | default: 50 }}%;"
                  onerror="this.style.display='none'">
           {% endif %}
         </div>

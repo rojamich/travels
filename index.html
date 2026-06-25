@@ -53,6 +53,7 @@ classes: wide
       <div class="trip-card-image">
         <img src="{{ trip.cover | relative_url }}"
              alt="{{ trip.title }}"
+             style="object-position: {{ trip.cover_focal_x | default: 50 }}% {{ trip.cover_focal_y | default: 50 }}%;"
              onerror="this.style.display='none'">
       </div>
       <div class="trip-card-body">
