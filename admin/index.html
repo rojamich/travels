@@ -323,68 +323,74 @@
       }
 
       // ----- Drag mechanics -----
-      // We render the image with object-fit: cover inside a fixed-size box.
-      // Dragging the image translates mouse delta into focal-percentage delta
-      // proportional to the cropped overflow (the part of the image that
-      // doesn't fit). If the image already fits exactly on an axis,
-      // overflow is 0 and that axis can't be moved (no info to gain).
-      function bindDrag(box, img, state, render) {
-        var dragging = false, sx = 0, sy = 0, sfx = 50, sfy = 50;
-        var overflowX = 0, overflowY = 0;
+      // Single shared drag state across the whole positioner. Global mouse /
+      // touch listeners are attached ONCE at module init (not per bindDrag
+      // call) so repeatedly opening the modal or switching tabs doesn't stack
+      // duplicate listeners on document. Each bindDrag call just swaps the
+      // currentDrag pointer; an inactive currentDrag is a no-op for the
+      // global handlers.
+      var currentDrag = null;
+      function clamp01(v) { return Math.max(0, Math.min(100, v)); }
+      function doMove(clientX, clientY) {
+        if (!currentDrag || !currentDrag.dragging) return;
+        var d = currentDrag;
+        var dx = clientX - d.sx, dy = clientY - d.sy;
+        d.state.x = d.overflowX > 0 ? clamp01(d.sfx - (dx / d.overflowX) * 100) : d.sfx;
+        d.state.y = d.overflowY > 0 ? clamp01(d.sfy - (dy / d.overflowY) * 100) : d.sfy;
+        d.render();
+      }
+      function doEnd() {
+        if (!currentDrag || !currentDrag.dragging) return;
+        currentDrag.dragging = false;
+        document.body.style.userSelect = "";
+        if (currentDrag.box) currentDrag.box.style.cursor = "grab";
+      }
+      document.addEventListener("mousemove", function (e) { doMove(e.clientX, e.clientY); });
+      document.addEventListener("mouseup",   doEnd);
+      document.addEventListener("touchmove", function (e) {
+        if (!currentDrag || !currentDrag.dragging || !e.touches[0]) return;
+        doMove(e.touches[0].clientX, e.touches[0].clientY);
+      }, { passive: false });
+      document.addEventListener("touchend", doEnd);
 
+      function bindDrag(box, img, state, render) {
         function recompute() {
           var bw = box.clientWidth, bh = box.clientHeight;
           var iw = img.naturalWidth, ih = img.naturalHeight;
-          if (!iw || !ih) return;
+          if (!iw || !ih || !currentDrag) return;
           var imgAR = iw / ih, boxAR = bw / bh;
           var rW, rH;
           if (imgAR > boxAR) { rH = bh; rW = bh * imgAR; }
           else                { rW = bw; rH = bw / imgAR; }
-          overflowX = Math.max(0, rW - bw);
-          overflowY = Math.max(0, rH - bh);
+          currentDrag.overflowX = Math.max(0, rW - bw);
+          currentDrag.overflowY = Math.max(0, rH - bh);
         }
-        function clamp(v) { return Math.max(0, Math.min(100, v)); }
+
+        // Replace whatever was the active drag context with this new one.
+        currentDrag = {
+          box: box, img: img, state: state, render: render,
+          dragging: false, sx: 0, sy: 0, sfx: 50, sfy: 50,
+          overflowX: 0, overflowY: 0
+        };
 
         if (img.complete) recompute();
         img.addEventListener("load", function () { recompute(); render(); });
 
         function start(clientX, clientY) {
-          dragging = true; sx = clientX; sy = clientY;
-          sfx = state.x; sfy = state.y;
+          if (!currentDrag) return;
+          currentDrag.dragging = true;
+          currentDrag.sx = clientX; currentDrag.sy = clientY;
+          currentDrag.sfx = state.x; currentDrag.sfy = state.y;
           document.body.style.userSelect = "none";
           box.style.cursor = "grabbing";
         }
-        function move(clientX, clientY) {
-          if (!dragging) return;
-          var dx = clientX - sx, dy = clientY - sy;
-          // Drag right reveals more LEFT of the image → focal X decreases.
-          state.x = overflowX > 0 ? clamp(sfx - (dx / overflowX) * 100) : sfx;
-          state.y = overflowY > 0 ? clamp(sfy - (dy / overflowY) * 100) : sfy;
-          render();
-        }
-        function end() {
-          if (!dragging) return;
-          dragging = false;
-          document.body.style.userSelect = "";
-          box.style.cursor = "grab";
-        }
 
         box.addEventListener("mousedown", function (e) { e.preventDefault(); start(e.clientX, e.clientY); });
-        document.addEventListener("mousemove", function (e) { move(e.clientX, e.clientY); });
-        document.addEventListener("mouseup",   end);
-
         box.addEventListener("touchstart", function (e) {
           if (!e.touches[0]) return;
           e.preventDefault();
           start(e.touches[0].clientX, e.touches[0].clientY);
         }, { passive: false });
-        document.addEventListener("touchmove", function (e) {
-          if (!dragging || !e.touches[0]) return;
-          move(e.touches[0].clientX, e.touches[0].clientY);
-        }, { passive: false });
-        document.addEventListener("touchend", end);
-
-        return { recompute: recompute };
       }
 
       // ----- Modal UI -----
