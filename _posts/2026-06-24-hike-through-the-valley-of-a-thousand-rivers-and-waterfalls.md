@@ -34,7 +34,7 @@ Our hike began near an old coal mining factory.
 
 We also saw evidence of coal miners' presence from long ago! - Here is some of the evidence we saw along the way!
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782408846%2F20260625_141931_viqg7u.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782408857%2F20260625_141801_nv0jpl.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782408979%2F20260625_111203_vus8j1.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782408846%2F20260625_141931_viqg7u.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782408857%2F20260625_141801_nv0jpl.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782408979%2F20260625_111203_vus8j1.jpg%22%5D%2C%22caption%22%3A%22You%20cannot%20remove%20these%20items%20as%20they%20are%20now%20historically%20protected!%22%7D %}
 
 As we approached the coal mine area, these cute and curious reindeer came by! During the summer, their coats will start to match the landscape colors. In winter, they're stark white!
 
@@ -130,7 +130,7 @@ And here is me trying my best with the rocks...
 
 I am having so much fun! 
 
-![But I am also thinking about how good a milkshake sounds...](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782412585/20260625_131901_eqmt12.jpg)
+![...](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782412585/20260625_131901_eqmt12.jpg "But I am also thinking about how good a milkshake sounds")
 
 Our guide suddenly got very exicted and said, "a penguin!"
 
