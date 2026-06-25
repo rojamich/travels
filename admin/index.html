@@ -403,9 +403,9 @@
         if (modal) return;
         var style = document.createElement("style");
         style.textContent =
-          "#photo-pos-btn{position:fixed;bottom:18px;right:74px;width:46px;height:46px;border-radius:50%;border:none;background:#5a8770;color:#fff;font-size:22px;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,0.25);z-index:9999;display:flex;align-items:center;justify-content:center;}" +
-          "#photo-pos-btn:hover{background:#476d59;}" +
-          "#photo-pos-modal{position:fixed;inset:0;background:rgba(0,0,0,0.55);display:none;align-items:center;justify-content:center;z-index:10000;}" +
+          "#photo-pos-btn{position:fixed;bottom:18px;right:74px;width:52px;height:52px;border-radius:50%;border:3px solid #fff;background:#d9534f;color:#fff;font-size:24px;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,0.4);z-index:2147483647;display:flex;align-items:center;justify-content:center;}" +
+          "#photo-pos-btn:hover{background:#b94340;}" +
+          "#photo-pos-modal{position:fixed;inset:0;background:rgba(0,0,0,0.55);display:none;align-items:center;justify-content:center;z-index:2147483647;}" +
           "#photo-pos-modal.open{display:flex;}" +
           "#photo-pos-modal .modal-card{background:#fff;border-radius:14px;padding:18px 22px;max-width:90vw;max-height:90vh;overflow-y:auto;box-shadow:0 8px 32px rgba(0,0,0,0.3);min-width:420px;}" +
           "#photo-pos-modal h3{margin:0 0 4px 0;font-size:18px;color:#2a4d69;}" +
@@ -544,7 +544,16 @@
       }
 
       function buildButton() {
-        if (document.getElementById("photo-pos-btn")) return;
+        console.log("[photo-pos] buildButton called");
+        if (document.getElementById("photo-pos-btn")) {
+          console.log("[photo-pos] button already exists, skipping");
+          return;
+        }
+        if (!document.body) {
+          console.warn("[photo-pos] no document.body yet — retrying in 100ms");
+          setTimeout(buildButton, 100);
+          return;
+        }
         var btn = document.createElement("button");
         btn.id = "photo-pos-btn";
         btn.type = "button";
@@ -552,13 +561,18 @@
         btn.textContent = "🎯";
         document.body.appendChild(btn);
         btn.addEventListener("click", openModal);
+        console.log("[photo-pos] button injected into body. visible at bottom-right (red circle).");
       }
 
+      console.log("[photo-pos] script ran; document.readyState =", document.readyState);
       if (document.readyState === "loading") {
         document.addEventListener("DOMContentLoaded", buildButton);
       } else {
         buildButton();
       }
+      // Defensive retry in case Decap remounts the body later and removes the button.
+      setTimeout(buildButton, 2000);
+      setTimeout(buildButton, 5000);
     })();
     } catch (err) {
       console.error("[admin] Photo Positioner init failed:", err);
