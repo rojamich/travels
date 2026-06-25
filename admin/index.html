@@ -558,10 +558,54 @@
         btn.id = "photo-pos-btn";
         btn.type = "button";
         btn.title = "Position photo (cover / teaser / banner)";
-        btn.textContent = "🎯";
+        btn.textContent = "POS";
+        // Inline styles (cssText) win over any class-based CSS Decap might
+        // inject, AND they win over our own #photo-pos-btn rule. !important
+        // wins over even more — we'll know it's NOT a CSS specificity fight.
+        btn.style.cssText =
+          "position:fixed!important;" +
+          "bottom:80px!important;" +    /* well above the emoji button */
+          "right:18px!important;" +
+          "width:64px!important;" +
+          "height:64px!important;" +
+          "border-radius:50%!important;" +
+          "border:4px solid #fff!important;" +
+          "background:#ff0066!important;" +    /* hot pink — impossible to miss */
+          "color:#fff!important;" +
+          "font-size:14px!important;" +
+          "font-weight:bold!important;" +
+          "cursor:pointer!important;" +
+          "box-shadow:0 4px 20px rgba(0,0,0,0.5)!important;" +
+          "z-index:2147483647!important;" +
+          "display:flex!important;" +
+          "align-items:center!important;" +
+          "justify-content:center!important;" +
+          "visibility:visible!important;" +
+          "opacity:1!important;" +
+          "pointer-events:auto!important;" +
+          "transform:none!important;";
         document.body.appendChild(btn);
         btn.addEventListener("click", openModal);
-        console.log("[photo-pos] button injected into body. visible at bottom-right (red circle).");
+
+        // Verify the button actually has a non-zero, on-screen bounding box.
+        setTimeout(function () {
+          var el = document.getElementById("photo-pos-btn");
+          if (!el) {
+            console.warn("[photo-pos] button vanished from DOM after insertion — Decap likely re-rendered body. Will re-inject on retry.");
+            return;
+          }
+          var r = el.getBoundingClientRect();
+          var cs = window.getComputedStyle(el);
+          console.log("[photo-pos] btn rect:", JSON.stringify({
+            top: r.top, left: r.left, width: r.width, height: r.height
+          }));
+          console.log("[photo-pos] computed:", JSON.stringify({
+            display: cs.display, visibility: cs.visibility, opacity: cs.opacity,
+            position: cs.position, zIndex: cs.zIndex, background: cs.backgroundColor
+          }));
+          console.log("[photo-pos] parent:", el.parentElement && el.parentElement.tagName,
+                      "isConnected:", el.isConnected);
+        }, 50);
       }
 
       console.log("[photo-pos] script ran; document.readyState =", document.readyState);
