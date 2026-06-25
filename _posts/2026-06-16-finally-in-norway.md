@@ -9,6 +9,10 @@ header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781720021/20260617_115043_qfzykv.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781720026/20260617_130413_eozyvm.jpg
 tags: []
+location:
+  name: Oslo, Norway
+  lat: 59.913868
+  lng: 10.752245
 toc: false
 ---
 It was an early morning for the Rojas family! We couldn't sleep a wink past 130am - unfortunate because our alarm was set for 3am! Our uber ride was scheduled for 350am pick up. SO ready and excited to get to my bucket list country! 
