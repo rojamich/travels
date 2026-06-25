@@ -7,6 +7,7 @@ start_date: 2026-06-17
 end_date: 2026-07-17
 location: Svalbard, Norway
 lat: 59.9139
+lng: 10.7522
 country_code: NO
 tags:
   - Nature

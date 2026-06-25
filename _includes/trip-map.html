@@ -12,7 +12,9 @@
 {% endcomment %}
 
 {%- assign trip = site.trips | where: "slug", include.trip_slug | first -%}
-{%- if trip and trip.lat -%}
+{%- assign tlat = trip.lat | default: "" -%}
+{%- assign tlng = trip.lng | default: "" -%}
+{%- if trip and tlat != "" and tlng != "" -%}
 {%- assign trip_posts = "" | split: "" -%}
 {%- if site.categories[trip.slug] -%}
   {%- assign trip_posts = site.categories[trip.slug] | sort: "order" -%}
@@ -33,8 +35,8 @@
     var trip = {
       "slug":  {{ trip.slug | jsonify }},
       "name":  {{ trip.title | jsonify }},
-      "lat":   {{ trip.lat }},
-      "lng":   {{ trip.lng }},
+      "lat":   {{ tlat }},
+      "lng":   {{ tlng }},
       "cover": {{ trip.cover | relative_url | jsonify }},
       "url":   {{ trip.url | relative_url | jsonify }},
       "posts": [

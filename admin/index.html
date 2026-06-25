@@ -90,127 +90,138 @@
     =========================================================================
   -->
   <script>
-    // ----- "😊 Emoji" -----
-    // Curated list of useful general + travel emojis. Pick one from the
-    // dropdown and it's inserted at her cursor. For anything not on the
-    // list, OS emoji picker still works (Win+. on Windows, Ctrl+Cmd+Space on Mac).
-    CMS.registerEditorComponent({
-      id: "emoji",
-      label: "😊 Emoji",
-      fields: [
-        {
-          name: "emoji",
-          label: "Pick an emoji",
-          widget: "select",
-          options: [
-            // Travel / transport
-            { label: "✈️  Plane",            value: "✈️" },
-            { label: "🚗 Car",               value: "🚗" },
-            { label: "🚆 Train",             value: "🚆" },
-            { label: "🛵 Scooter",           value: "🛵" },
-            { label: "🏍️  Motorbike",        value: "🏍️" },
-            { label: "🚢 Ship",              value: "🚢" },
-            { label: "🛶 Canoe",             value: "🛶" },
-            { label: "🚁 Helicopter",        value: "🚁" },
-            { label: "🌍 Globe (EU/AF)",     value: "🌍" },
-            { label: "🌏 Globe (Asia)",      value: "🌏" },
-            { label: "🌎 Globe (Americas)",  value: "🌎" },
-            { label: "🗺️  Map",              value: "🗺️" },
-            { label: "📍 Pin",               value: "📍" },
-            { label: "🧳 Suitcase",          value: "🧳" },
-            { label: "🎒 Backpack",          value: "🎒" },
-            { label: "🛏️  Hotel bed",        value: "🛏️" },
-            { label: "⛺ Tent",              value: "⛺" },
-            // Nature / scenery
-            { label: "🏔️  Mountain",         value: "🏔️" },
-            { label: "🌋 Volcano",           value: "🌋" },
-            { label: "🏖️  Beach",            value: "🏖️" },
-            { label: "🏝️  Island",           value: "🏝️" },
-            { label: "🌅 Sunrise",           value: "🌅" },
-            { label: "🌄 Sunrise over mtns", value: "🌄" },
-            { label: "🌇 Sunset (city)",     value: "🌇" },
-            { label: "🌌 Milky Way",         value: "🌌" },
-            { label: "🌳 Tree",              value: "🌳" },
-            { label: "🌴 Palm",              value: "🌴" },
-            { label: "🌊 Wave",              value: "🌊" },
-            { label: "❄️  Snowflake",        value: "❄️" },
-            { label: "☀️  Sun",              value: "☀️" },
-            { label: "⛅ Cloudy",            value: "⛅" },
-            { label: "🌧️  Rain",             value: "🌧️" },
-            { label: "🌈 Rainbow",           value: "🌈" },
-            // Animals
-            { label: "🐅 Tiger",             value: "🐅" },
-            { label: "🐘 Elephant",          value: "🐘" },
-            { label: "🦒 Giraffe",           value: "🦒" },
-            { label: "🦓 Zebra",             value: "🦓" },
-            { label: "🐆 Leopard",           value: "🐆" },
-            { label: "🐧 Penguin",           value: "🐧" },
-            { label: "🐠 Fish",              value: "🐠" },
-            { label: "🐢 Turtle",            value: "🐢" },
-            { label: "🐑 Sheep",             value: "🐑" },
-            { label: "🐕 Dog",               value: "🐕" },
-            // Food / drink
-            { label: "🍜 Noodles",           value: "🍜" },
-            { label: "🍣 Sushi",             value: "🍣" },
-            { label: "🍕 Pizza",             value: "🍕" },
-            { label: "🥖 Bread",             value: "🥖" },
-            { label: "🥐 Croissant",         value: "🥐" },
-            { label: "🌮 Taco",              value: "🌮" },
-            { label: "🍔 Burger",            value: "🍔" },
-            { label: "🍦 Ice cream",         value: "🍦" },
-            { label: "🍫 Chocolate",         value: "🍫" },
-            { label: "🍷 Wine",              value: "🍷" },
-            { label: "🍺 Beer",              value: "🍺" },
-            { label: "☕ Coffee",            value: "☕" },
-            { label: "🧉 Mate",              value: "🧉" },
-            // Buildings / culture
-            { label: "🏰 Castle",            value: "🏰" },
-            { label: "🕌 Mosque",            value: "🕌" },
-            { label: "⛩️  Torii",            value: "⛩️" },
-            { label: "🛕 Temple",            value: "🛕" },
-            { label: "⛪ Church",            value: "⛪" },
-            { label: "🗽 Statue of Liberty", value: "🗽" },
-            { label: "🗼 Tokyo Tower",       value: "🗼" },
-            { label: "🏛️  Classical",        value: "🏛️" },
-            // Activities / vibes
-            { label: "🥾 Hiking boot",       value: "🥾" },
-            { label: "🚴 Cycling",           value: "🚴" },
-            { label: "🏊 Swimming",          value: "🏊" },
-            { label: "🧗 Climbing",          value: "🧗" },
-            { label: "🎒 Backpacking",       value: "🎒" },
-            { label: "📸 Camera",            value: "📸" },
-            { label: "🎫 Ticket",            value: "🎫" },
-            { label: "🎟️  Admission",        value: "🎟️" },
-            // Emotions / reactions
-            { label: "❤️  Heart",            value: "❤️" },
-            { label: "💗 Pink heart",        value: "💗" },
-            { label: "✨ Sparkles",          value: "✨" },
-            { label: "🌟 Star",              value: "🌟" },
-            { label: "😍 Heart eyes",        value: "😍" },
-            { label: "🥰 Smiling hearts",    value: "🥰" },
-            { label: "😋 Yum",               value: "😋" },
-            { label: "😮 Wow",               value: "😮" },
-            { label: "😂 Laughing",          value: "😂" },
-            { label: "🤣 Rolling laugh",     value: "🤣" },
-            { label: "🥹 Holding back tears",value: "🥹" },
-            { label: "😴 Sleepy",            value: "😴" },
-            { label: "🥺 Pleading",          value: "🥺" }
-          ]
-        }
-      ],
-      pattern: /\{%\s*emoji_block\s+(\S+)\s*%\}/,
-      fromBlock: function (match) {
-        try { return JSON.parse(decodeURIComponent(match[1])); }
-        catch (e) { return { emoji: "" }; }
-      },
-      toBlock: function (data) {
-        // Just insert the emoji character directly — no Liquid tag, no plugin.
-        return (data && data.emoji) ? data.emoji : "";
-      },
-      toPreview: function (data) {
-        return '<span style="font-size:1.4em;">' + ((data && data.emoji) || "") + '</span>';
+    // ----- "🙂 Inline Emoji Picker" -----
+    // Decap's CMS.registerEditorComponent always creates BLOCK-level elements,
+    // which forced emojis onto their own line. Instead we render a floating
+    // button (bottom-right of /admin/) that opens an emoji grid. Clicking an
+    // emoji refocuses the last-active editable element and inserts the emoji
+    // character at the cursor — staying inline with surrounding text.
+    //
+    // For anything not on the list, the OS emoji picker still works inline:
+    // Win+. on Windows, Ctrl+Cmd+Space on Mac.
+    (function () {
+      var EMOJIS = [
+        // Travel / transport
+        "✈️","🚗","🚆","🛵","🏍️","🚢","🛶","🚁","🌍","🌏","🌎","🗺️","📍","🧳","🎒","🛏️","⛺",
+        // Nature / scenery
+        "🏔️","🌋","🏖️","🏝️","🌅","🌄","🌇","🌌","🌳","🌴","🌊","❄️","☀️","⛅","🌧️","🌈",
+        // Animals
+        "🐅","🐘","🦒","🦓","🐆","🐧","🐠","🐢","🐑","🐕",
+        // Food / drink
+        "🍜","🍣","🍕","🥖","🥐","🌮","🍔","🍦","🍫","🍷","🍺","☕","🧉",
+        // Buildings / culture
+        "🏰","🕌","⛩️","🛕","⛪","🗽","🗼","🏛️",
+        // Activities
+        "🥾","🚴","🏊","🧗","📸","🎫","🎟️",
+        // Reactions
+        "❤️","💗","✨","🌟","😍","🥰","😋","😮","😂","🤣","🥹","😴","🥺"
+      ];
+
+      // Track the last text-editable element that had focus, so the picker
+      // can restore focus and insert into it after the user clicks an emoji.
+      var lastEditable = null;
+      function isEditable(el) {
+        if (!el) return false;
+        if (el.tagName === "TEXTAREA" || el.tagName === "INPUT") return true;
+        if (el.isContentEditable) return true;
+        return false;
       }
-    });
+      document.addEventListener("focusin", function (e) {
+        if (isEditable(e.target)) lastEditable = e.target;
+      }, true);
+
+      function insertAtCursor(text) {
+        var el = lastEditable;
+        if (!el || !document.body.contains(el)) return false;
+        el.focus();
+
+        if (el.tagName === "TEXTAREA" || el.tagName === "INPUT") {
+          var start = el.selectionStart, end = el.selectionEnd, val = el.value;
+          el.value = val.slice(0, start) + text + val.slice(end);
+          var pos = start + text.length;
+          el.setSelectionRange(pos, pos);
+          el.dispatchEvent(new Event("input", { bubbles: true }));
+          return true;
+        }
+
+        // contenteditable (Decap's Slate-based markdown editor)
+        // execCommand is deprecated but it's the only API that Slate's
+        // beforeinput listeners reliably pick up, so the edit stays in sync.
+        var ok = document.execCommand && document.execCommand("insertText", false, text);
+        if (!ok) {
+          // Fallback: raw Range API
+          var sel = window.getSelection();
+          if (sel && sel.rangeCount) {
+            var range = sel.getRangeAt(0);
+            range.deleteContents();
+            range.insertNode(document.createTextNode(text));
+            range.collapse(false);
+          }
+        }
+        return true;
+      }
+
+      function buildUI() {
+        if (document.getElementById("inline-emoji-btn")) return;
+
+        var style = document.createElement("style");
+        style.textContent =
+          "#inline-emoji-btn{position:fixed;bottom:18px;right:18px;width:46px;height:46px;border-radius:50%;border:none;background:#2a4d69;color:#fff;font-size:22px;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,0.25);z-index:9999;display:flex;align-items:center;justify-content:center;}" +
+          "#inline-emoji-btn:hover{background:#1f3a52;}" +
+          "#inline-emoji-panel{position:fixed;bottom:74px;right:18px;width:300px;max-height:340px;overflow-y:auto;background:#fff;border:1px solid #ccc;border-radius:10px;box-shadow:0 4px 16px rgba(0,0,0,0.2);padding:10px;z-index:9999;display:none;}" +
+          "#inline-emoji-panel.open{display:block;}" +
+          "#inline-emoji-panel .emoji-grid{display:grid;grid-template-columns:repeat(8,1fr);gap:4px;}" +
+          "#inline-emoji-panel button{background:none;border:none;font-size:20px;cursor:pointer;padding:4px;border-radius:4px;}" +
+          "#inline-emoji-panel button:hover{background:#eef3f7;}" +
+          "#inline-emoji-panel .hint{font-size:11px;color:#666;margin-bottom:6px;line-height:1.3;}";
+        document.head.appendChild(style);
+
+        var btn = document.createElement("button");
+        btn.id = "inline-emoji-btn";
+        btn.type = "button";
+        btn.title = "Insert emoji at cursor";
+        btn.textContent = "🙂";
+        document.body.appendChild(btn);
+
+        var panel = document.createElement("div");
+        panel.id = "inline-emoji-panel";
+        var hint = document.createElement("div");
+        hint.className = "hint";
+        hint.textContent = "Click in the editor first, then pick an emoji. Use Win+. for the full OS picker.";
+        panel.appendChild(hint);
+        var grid = document.createElement("div");
+        grid.className = "emoji-grid";
+        EMOJIS.forEach(function (e) {
+          var b = document.createElement("button");
+          b.type = "button";
+          b.textContent = e;
+          b.title = e;
+          // mousedown (not click) so we insert BEFORE the editor loses focus
+          b.addEventListener("mousedown", function (ev) {
+            ev.preventDefault();
+            insertAtCursor(e);
+          });
+          grid.appendChild(b);
+        });
+        panel.appendChild(grid);
+        document.body.appendChild(panel);
+
+        btn.addEventListener("click", function () {
+          panel.classList.toggle("open");
+        });
+        document.addEventListener("click", function (ev) {
+          if (ev.target !== btn && !panel.contains(ev.target)) {
+            panel.classList.remove("open");
+          }
+        });
+      }
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", buildUI);
+      } else {
+        buildUI();
+      }
+    })();
 
     // ----- "🎬 YouTube Video" -----
     CMS.registerEditorComponent({
