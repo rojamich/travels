@@ -11,7 +11,8 @@ header:
 tags: []
 location:
   name: Svalbard
-  lat: ""
+  lat: 78.2232
+  lng: 15.6267
 toc: false
 ---
 The morning was spent in the park reading and eating Korean food before taking the tram to the train to the airport to head to  Svalbard!

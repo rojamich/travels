@@ -38,15 +38,20 @@
       "cover": {{ trip.cover | relative_url | jsonify }},
       "url":   {{ trip.url | relative_url | jsonify }},
       "posts": [
+        {%- assign p_first = true -%}
         {%- for post in trip_posts -%}
-          {%- if post.location and post.location.lat -%}
+          {%- assign plat = post.location.lat | default: "" -%}
+          {%- assign plng = post.location.lng | default: "" -%}
+          {%- if post.location and plat != "" and plng != "" -%}
+            {%- if p_first %}{% else %},{% endif -%}
+            {%- assign p_first = false -%}
             {
               "title": {{ post.title | jsonify }},
               "name":  {{ post.location.name | jsonify }},
-              "lat":   {{ post.location.lat }},
-              "lng":   {{ post.location.lng }},
+              "lat":   {{ plat }},
+              "lng":   {{ plng }},
               "url":   {{ post.url | relative_url | jsonify }}
-            }{%- unless forloop.last -%},{%- endunless -%}
+            }
           {%- endif -%}
         {%- endfor -%}
       ]

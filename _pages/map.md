@@ -56,10 +56,12 @@ classes: wide
         {%- assign c_first = true -%}
         {%- if trip.countries -%}
         {%- for c in trip.countries -%}
-          {%- if c.lat and c.lng -%}
+          {%- assign clat = c.lat | default: "" -%}
+          {%- assign clng = c.lng | default: "" -%}
+          {%- if clat != "" and clng != "" -%}
             {%- if c_first %}{% else %},{% endif -%}
             {%- assign c_first = false -%}
-            { "name": {{ c.name | jsonify }}, "lat": {{ c.lat }}, "lng": {{ c.lng }} }
+            { "name": {{ c.name | jsonify }}, "lat": {{ clat }}, "lng": {{ clng }} }
           {%- endif -%}
         {%- endfor -%}
         {%- endif -%}
@@ -67,10 +69,12 @@ classes: wide
       "posts": [
         {%- assign p_first = true -%}
         {%- for post in trip_posts -%}
-          {%- if post.location and post.location.lat -%}
+          {%- assign plat = post.location.lat | default: "" -%}
+          {%- assign plng = post.location.lng | default: "" -%}
+          {%- if post.location and plat != "" and plng != "" -%}
             {%- if p_first %}{% else %},{% endif -%}
             {%- assign p_first = false -%}
-            { "title": {{ post.title | jsonify }}, "name": {{ post.location.name | jsonify }}, "lat": {{ post.location.lat }}, "lng": {{ post.location.lng }}, "url": {{ post.url | relative_url | jsonify }} }
+            { "title": {{ post.title | jsonify }}, "name": {{ post.location.name | jsonify }}, "lat": {{ plat }}, "lng": {{ plng }}, "url": {{ post.url | relative_url | jsonify }} }
           {%- endif -%}
         {%- endfor -%}
       ]
