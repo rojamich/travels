@@ -24,3 +24,5 @@ Up at 415am with excitement, we hit the park nearby for a nearly workout! Its be
 Today we started the train ride from Oslo to Bergen! What a FREAKING DREAM !!! The first train will take us to Myrdal, where we will transfer to  a train to Flam. That’s where we will have a tour to the top of a fjord and stay the night!
 
 I’m currently writing on the train, soaking up the breath-taking views, and stopping to read my book. Excuse me while I kiss Mike with utter gratitude and excitement!
+
+The views
