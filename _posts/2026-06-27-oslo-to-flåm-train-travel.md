@@ -3,7 +3,7 @@ title: Oslo to Flåm Train Travel
 date: 2026-06-28
 categories:
   - fjords-forever
-order: 11
+order: 12
 header:
   teaser_focal_x: 50
   teaser_focal_y: 50
