@@ -25,4 +25,4 @@ Today we started the train ride from Oslo to Bergen! What a FREAKING DREAM !!! T
 
 I’m currently writing on the train, soaking up the breath-taking views, and stopping to read my book. Excuse me while I kiss Mike with utter gratitude and excitement!
 
-The views
+The view
