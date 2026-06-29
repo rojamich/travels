@@ -3,7 +3,7 @@ title: A Peaceful Last Day in Svalbard & Pride in Oslo!
 date: 2026-06-26
 categories:
   - fjords-forever
-order: 9
+order: 10
 header:
   teaser_focal_x: 50
   teaser_focal_y: 50
