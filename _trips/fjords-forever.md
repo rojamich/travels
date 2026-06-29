@@ -2,9 +2,9 @@
 title: Fjords & Forever
 description: Twenty-six days exploring, rock climbing, paddleboarding, kayaking,
   and hiking throughout the country of Norway!
-cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782243845/20260623_095704_gs9dbs.jpg
+cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782735243/20260629_102929_dpkkzb.jpg
 start_date: 2026-06-17
-end_date: 2026-07-17
+end_date: 2026-07-13
 location: Svalbard, Norway
 lat: 58.959759
 lng: 5.72427
