@@ -13,6 +13,10 @@ header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782672598/20260626_090326_gzc9lq.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782672606/20260627_123655_em4y8k.jpg
 tags: []
+location:
+  lat: 59.913868
+  lng: 10.752245
+  name: Oslo, Norway
 toc: false
 ---
 Our last full day of Svalbard ☹ It was a brisk but beautiful 46 degrees – very consistent while we have been here. The first day was extremely sunny but overcast the next few days. As our guide would say, it IS the arctic!
