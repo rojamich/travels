@@ -41,7 +41,7 @@ Dinner was a revisit to the Japanese restaurant where I had really good/flavorfu
 
 It was time! We grabbed our bags and headed to the tiny airport – it only has ONE gate! The flight was 2.5 hours long and I got to read and even nap! Landing, we hopped on the train to our Airbnb for two nights in Oslo before heading to our next landing spot. Norway had played in the World cup (and lost) this evening and the streets were LOUD and busy. Uh oh. 
 
-Our Airbnb was right off the busy area and it was lively. We got in at 2am and people were still partying in the streets! And they had lost?!
+Our Airbnb was right off the busy area and it was lively. We got in at 2am and people were still partying in the streets! And they had lost?! (They are still advancing in their group at least). 
 
 Thankfully, we were so tired all we could do was shower and pass out.
 
