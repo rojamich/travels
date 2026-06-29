@@ -16,7 +16,7 @@ tags: []
 location:
   name: Flåm
   lat: 60.852451
-  lng: 60.852451
+  lng: 7.11361
 toc: false
 ---
 Up at 415am with excitement, we hit the park nearby for a nearly workout! Its been fun to get creative and mix things up between running, dancing, jungle gym equipment, hiking, and kayaking! Up way too early and ready to go, we headed to the train station early to find breakfast and snacks for the journey. 
