@@ -2,7 +2,9 @@
 title: European Excursion
 description: A months-long European tour — London, Brussels, Paris, Italy,
   Germany, and Amsterdam.
-cover: https://res.cloudinary.com/dgw35sldo/image/upload/v1780793221/20220211_163905_jk2kcd.jpg
+cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782417771/20220222_124738_j9mlmq.jpg
+cover_focal_x: 50
+cover_focal_y: 0
 start_date: 2022-02-06
 end_date: 2022-03-18
 location: Europe (UK → Belgium → France → Italy → Germany → Netherlands)
@@ -11,7 +13,7 @@ lng: 2.3522
 countries:
   - name: United Kingdom
     lat: 55.3781
-    lng: -3.4360
+    lng: -3.436
   - name: Belgium
     lat: 50.5039
     lng: 4.4699
