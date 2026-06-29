@@ -54,3 +54,66 @@ The train began to follow a river flowing through the cut in the mountains, how 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782740102%2F20260628_134746_s8c8oo.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782740102%2F20260628_135601_nhqatj.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782742927%2F20260628_140549_xppxa9.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 The train pulled into the station and we were so thrilled to be in the middle of a Norwegian fjord! A literal dream come true! We made our way through the "downtown" of Flåm - a town with a population of 350 at the high end
+
+
+
+
+
+We were a smidge early for check-in, so we dropped our bags and found a German doner nearby. They were enormous so we split one. Unfortunately, we were so hungry that we ate it all before we could take a photo lol. Just trust that it was good 🤣
+
+Now, we could check-in! We had the sweetest interaction with the woman at the front desk (Marie) and headed up to our room. We book our trips so far in advance that we often don't remember what kind of a place we are staying - its always a surprise! For some reason, we booked a stay with a hotel that had a normal bedroom and bath but also a sitting room! It was huge! We noticed this device on the wall and were confused - there's no airconditioning, right?
+
+
+
+I headed down to ask Marie and she said, no AC isn't a thing here, that's the floor heater for the bathroom! That's right! We had heated floors!! Glory on the feeties! But she did get us a fan - why am I hot all the time?
+
+We had a van scheduled to pick us up that afternoon to take us up the mountain to a gorgeous viewpoint! The road was very narrow and twisty! I got too warm and then slightly carsick but thankfully it was a short ride where we learned about the surrounding areas. 
+
+Mike did not appreciate being so close to the edge but the views were worth it! 
+
+
+
+He quickly pointed out that this looks like a butt crack. 
+
+Do you agree?
+
+
+
+Check out how cute this tiny town is! Aurland has a population of approximately 800 people! The church was built in 1202!
+
+
+
+We were given 30 minutes to bask in this glorious site at Stegastein Viewpoint. 
+
+
+
+That's when we noticed these glowing points in the water!
+
+
+
+Apparently, these are caused by:
+
+1. "**Algal Blooms:** The most frequent cause during late spring and early summer (May to June) is the blooming of a harmless microscopic alga called ***Emiliania huxleyi***. This alga is covered in calcium carbonate (chalk) scales that reflect sunlight, giving the water a milky turquoise or emerald green appearance" (Source)
+2. "Glacial Flour: Fine mineral particles, such as quartz and feldspar, created by glaciers grinding against bedrock are carried into the fjord by meltwater." (Source).
+
+Our guide/driver up to the viewpoint was an easy going and quick to laugh, gentleman from Poland. He was genuinely so happy to live here doing this job. Even when other people made questionable driving decisions, he took it in stride and made room to help others. 
+
+He made an extra stop for us on the way down - his last tour of the day so he gave us time to see more of the Fjord 😍
+
+
+
+At our last bend in the road, we found a Ford Mustang who had gone too far off the road to make room and was now stuck. 
+
+We waited to see if he could free himself but no luck. 
+
+> Me: Should we push?
+>
+> Driver: Hm, maybe.
+>
+> ....
+>
+> Driver: Sit tight, and maybe you come? (Pointing to Mike).
+
+Never to be left out of a workout, and it was *my* idea, I obviously hopped out too. Other drivers scrambled from their cars and soon there were 8 of us heaving this mustang back on the road! WAHOO! We did it! High fives all around and it was time to load back up into the van. 
+
+Hike mention, dinner, blog.
