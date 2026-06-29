@@ -19,7 +19,7 @@ location:
   lng: 7.11361
 toc: false
 ---
-Up at 415am with excitement, we hit the park nearby for a nearly workout! Its been fun to get creative and mix things up between running, dancing, jungle gym equipment, hiking, and kayaking! Up way too early and ready to go, we headed to the train station early to find breakfast and snacks for the journey. 
+Up at 415am with excitement, we hit the park nearby for an early workout! Its been fun to get creative and mix things up between running, dancing, jungle gym equipment, hiking, and kayaking! Up way too early and ready to go, we headed to the train station early to find breakfast and snacks for the journey. 
 
 Today we started the train ride from Oslo to Bergen! What a FREAKING DREAM !!! The first train will take us to Myrdal, where we will transfer to  a train to Flam. That’s where we will have a tour to the top of a fjord and stay the night!
 
