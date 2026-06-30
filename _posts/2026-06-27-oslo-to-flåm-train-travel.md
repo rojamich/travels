@@ -49,47 +49,43 @@ Suddenly, Hundra appeared! The seductive forest spirit from Norse Folklore! Acco
 
 The train began to follow a river flowing through the cut in the mountains, how alluring!
 
-
-
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782740102%2F20260628_134746_s8c8oo.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782740102%2F20260628_135601_nhqatj.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782742927%2F20260628_140549_xppxa9.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
-The train pulled into the station and we were so thrilled to be in the middle of a Norwegian fjord! A literal dream come true! We made our way through the "downtown" of Flåm - a town with a population of 350 at the high end
+The train pulled into the station and we were so thrilled to be in the middle of a Norwegian fjord! A literal dream come true! We made our way through the "downtown" of Flåm - a town with a population of 350 at the high end 
 
 
 
-
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782740463%2F20260628_142842_od4x7y.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782740465%2F20260628_142758_qmf4yi.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782740467%2F20260628_142806_zusn6a.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 We were a smidge early for check-in, so we dropped our bags and found a German doner nearby. They were enormous so we split one. Unfortunately, we were so hungry that we ate it all before we could take a photo lol. Just trust that it was good 🤣
 
-Now, we could check-in! We had the sweetest interaction with the woman at the front desk (Marie) and headed up to our room. We book our trips so far in advance that we often don't remember what kind of a place we are staying - its always a surprise! For some reason, we booked a stay with a hotel that had a normal bedroom and bath but also a sitting room! It was huge! We noticed this device on the wall and were confused - there's no airconditioning, right?
+Now, we could check-in! We had the sweetest interaction with the woman at the front desk (Marie) and headed up to our room. We book our trips so far in advance that we often don't remember what kind of a place we are staying - its always a surprise! For some reason, we booked a stay with a hotel that had a normal bedroom and bathroom but also a sitting room! It was huge! We noticed this device on the wall and were confused - there's no air conditioning, right?
 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782740984/20260628_151017_klw8j2.jpg)
 
-
-I headed down to ask Marie and she said, no AC isn't a thing here, that's the floor heater for the bathroom! That's right! We had heated floors!! Glory on the feeties! But she did get us a fan - why am I hot all the time?
+I headed down to ask Marie and she said, no AC isn't a thing here, that's the floor heater for the bathroom! That's right! We had heated floors!! Glory on the feeties! But she did get us a fan - *why* am I hot all the time?
 
 We had a van scheduled to pick us up that afternoon to take us up the mountain to a gorgeous viewpoint! The road was very narrow and twisty! I got too warm and then slightly carsick but thankfully it was a short ride where we learned about the surrounding areas. 
 
-Mike did not appreciate being so close to the edge but the views were worth it! 
+Mike did not appreciate being so close to the edge but the views were worth it!
 
-
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782741252%2F20260628_172911_qarxkf.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782741346%2FIMG_9970_zgwukj.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782741567%2F20260628_172255_a43fty.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782741584%2F20260628_171059_tqpagu.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 He quickly pointed out that this looks like a butt crack. 
 
-Do you agree?
-
-
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782741643/20260628_171526_dazivn.jpg "Do you agree?")
 
 Check out how cute this tiny town is! Aurland has a population of approximately 800 people! The church was built in 1202!
 
-
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782741757/20260628_171803_he3glw.jpg)
 
 We were given 30 minutes to bask in this glorious site at Stegastein Viewpoint. 
 
-
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782741920%2FIMG_9961_xz6yuj.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782741938%2F20260628_171330_qrydva.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782741924%2FIMG_9962_bpvjpq.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 That's when we noticed these glowing points in the water!
 
-
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782742005%2F20260628_172527_d6wkiu.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782742009%2F20260628_172657_sdhzug.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 Apparently, these are caused by:
 
@@ -98,9 +94,9 @@ Apparently, these are caused by:
 
 Our guide/driver up to the viewpoint was an easy going and quick to laugh, gentleman from Poland. He was genuinely so happy to live here doing this job. Even when other people made questionable driving decisions, he took it in stride and made room to help others. 
 
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782742367%2F20260628_164330_djkngz.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782742375%2F20260628_164543_bgxhyo.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782742378%2F20260628_164638_lhw2ca.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
 He made an extra stop for us on the way down - his last tour of the day so he gave us time to see more of the Fjord 😍
-
-
 
 At our last bend in the road, we found a Ford Mustang who had gone too far off the road to make room and was now stuck. 
 
@@ -116,4 +112,19 @@ We waited to see if he could free himself but no luck.
 
 Never to be left out of a workout, and it was *my* idea, I obviously hopped out too. Other drivers scrambled from their cars and soon there were 8 of us heaving this mustang back on the road! WAHOO! We did it! High fives all around and it was time to load back up into the van. 
 
-Hike mention, dinner, blog.
+On our way back into town, he mentioned we would be passing a hike that was an easy 3k from town with a waterfall at the end. We agreed we were too tired to do it tonight but maybe in the morning?? We had a 9am departure though...
+
+Dinner took us to the restaurant downstairs for some fish - thank goodness I've gotten into fish & chips because I would be sentenced to a month of hamburgers if I didn't. Mike is currently trying to persuade me to try fish soup but it has HUGE pieces of fish in it! I'm a texture person dang it. \
+I was allowed to get the kids meal because the portion sizes here are surprisingly enormous. 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782814952/20260628_185614_labccs.jpg "Mike got the salmon and said it was good! Salmon is pretty disgusting to me but I'm so happy for him :)")
+
+We shared dessert - an "apple cake", it was not good.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782814954/20260628_193912_i59mpv.jpg)
+
+We walked through a shop on our evening walk and saw these little weirdos lol
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782814957/20260628_182011_jc72cz.jpg)
+
+The evening was spent working on the blog and crashing into a deep sleep!
