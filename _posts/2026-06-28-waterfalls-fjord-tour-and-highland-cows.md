@@ -82,4 +82,32 @@ This multi-layered waterfall was so cool to see! How it flows off the plateau of
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782818169/20260629_103443_ma6p9r.jpg)
 
-Every
+Every so often we would have a stop at a tiny town to pick up more ferry-riders and many of the spots had sheep and goats outnumbering the people!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782818489%2F20260629_105738_blqqta.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782818490%2F20260629_105735_vmasuc.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782818502%2F20260629_105649_lo0yyf.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782818599%2F20260629_101056_cnsnuc.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+I'm sorry but I couldn't choose which photos I loved more!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782818807%2F20260629_105909_eaouz6.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782818802%2F20260629_105906_il4r3g.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782818799%2F20260629_105939_rhpypi.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782818692%2F20260629_102932_0_spfw4q.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782818645%2F20260629_101200_calg99.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+We arrived at Gudvangen to conclude our ferry through the Aurlandsfjord and board a bus to Voss. It was a massive bus and we got front row seats! I promptly fell asleep and woke every 10 minutes to peek at the lovely sites along the route. 
+
+Voss was a cute little city with a few food trucks and cafes. Its right on the shore of lake Vangsvatnet! 
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782819202%2F20260629_123734_nohqiz.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782819201%2F20260629_123645_iiao5g.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Unfortunately, it was raining off and on today - which we normally love but we had scheduled a paddleboarding session today 
+
+We split a burrito while we waited to see if the weather would clear up and we have sworn off of Mexican food in Norway. Just don't. 
+
+The paddleboarding office said they don't cancel due to rain but it was pretty cold and windy and paddleboarding in those conditions did not sound super fun so we found a cute coffee shop and worked on the blog instead :)
+
+Our train was prompt and we boarded quickly! It was only an hour to Bergen! The route followed multiple rivers with lovely views. 
+
+Bergen is a super cute, oceanside city of roughly 294,000 people! It does not feel that enormous but is a popular spot for cruise lines! Properly starving, we searched for food options with no luck. Hanger was setting in and we headed to the grocery store nearest our Airbnb (a one minute walk!) Dinner was abysmal but at least it was cheap!
+
+Our Airbnb is quirky but enough room for three days, thankfully. It has multiple locks to get inside, we have to keep the key in the lockbox unless we are actively using it, shut and lock all windows when we leave, some shelves are marked as private, we have to pay if we want to use the washer/dryer, the shower is smaller than a phone booth, doorbell/speakers in each room, a direct button for the firehouse, and a button on the stove that will beep if you've been cooking for a long enough time it thinks you've forgotten the food lol.
+
+I did my laundry in the sink and we watched the last half of the Japan/Brazil game! We laid down for a nap at 10pm to prepare to watch the Germany/Paraguay game but were so tired we ended up sleeping through the night instead - roughly nine hours of sleep, wow! It's much colder here in Bergen 17 degrees (64 Fahrenheit) during the day and 4 to 10 degrees (40s to 50s) at night.
+
+Excited to see more of Bergen tomorrow!
