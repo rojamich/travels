@@ -56,4 +56,30 @@ All ready for the day, we headed downstairs for our buffet breakfast - it was a 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782816932/20260629_065748_kwpuow.jpg "The eggs even tasted good! ")
 
-Early on in our trip here,
+Early on in our trip here, I looked up cantaloupe season in Norway to see if I should get some...There is no cantaloupe season here lol. Of course, there is no cantaloupe season here  Its all imported. Talk about spoiled Californian!
+
+We had a smidge of time before our morning adventure so I finished my newest paperback and put it in the hotel book selection for someone else to enjoy! Mike said it's been cool to see me do that because it's like leaving little pieces of me everywhere 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782817211/20260629_084345_mcz7ak.jpg)
+
+Our fjord tour was coming up so I headed to get a spot in line while Mike checked us out of the hotel. I thought I was in for a long line ahead of me as it was 30 minutes 'til boarding but there were just people milling about... I wove my way through the rope-lines like a rollercoaster line and got first in line! WHAT! A truly lovely surprise! Immediately, I set something off and the fellow tourists piled in behind me. Before we knew it, the rope lines were completely full!
+
+I dropped our luggage in the luggage rack because this was not just a tour but a transportation to our next town, too! Mike grabbed us a front row seat for best fjord viewing and door access. The ride was so smooth I felt zero water-rocking us! I sipped some average cocoa and tried this chip flavor 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782817491/20260629_094520_b7nae2.jpg "Its just salt XD - isn't that all chips??")
+
+We wove through "Norway's grand canyon" and saw so many different waterfalls and waterways. The green of the water was exquisite!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782817834%2FIMG_9974_hufdee.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782817836%2F20260629_101053_mlmfmn.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782817838%2F20260629_101148_tgptn3.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782817840%2F20260629_101157_glf2ho.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+The weather was really warm with the sun shining at first!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782818031%2F20260629_103027_ekvo6o.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782818030%2F20260629_103053_taof6i.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782818028%2F20260629_103025_pv3ifj.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+But then the cloud coverage came out and it went straight threw us! Either way, it was utterly beautiful and even more than I expected from the fjords here. We were blown away by the beauty!
+
+This multi-layered waterfall was so cool to see! How it flows off the plateau of the mountains and all the way down to the valley!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782818169/20260629_103443_ma6p9r.jpg)
+
+Every
