@@ -16,6 +16,10 @@ tags:
   - Nature
   - Wildlife
   - Hiking
+location:
+  name: Bergen, Norway
+  lat: 60.391262
+  lng: 5.322054
 toc: false
 ---
 I armed my alarm for 5am to have enough time for the run hike to the waterfall today! It still isn't getting dark out so our eye covers have been total life savers! We've been tracking our sleep stats with our [aura rings](https://ouraring.com/?srsltid=AfmBOopTUU-ll55c0i8PnknwPKVcy9vpprdOukP1Ri3fq5zN3DNp5WNz) too and it's amazing how the cold influences if we sleep well or not. No AC means adapting and changing a lot of sleep conditions!
