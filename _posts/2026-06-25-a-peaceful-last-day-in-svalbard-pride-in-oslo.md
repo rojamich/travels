@@ -3,7 +3,7 @@ title: A Peaceful Last Day in Svalbard & Pride in Oslo!
 date: 2026-06-26
 categories:
   - fjords-forever
-order: 9
+order: 10
 header:
   teaser_focal_x: 50
   teaser_focal_y: 50
@@ -13,6 +13,10 @@ header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782672598/20260626_090326_gzc9lq.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782672606/20260627_123655_em4y8k.jpg
 tags: []
+location:
+  lat: 59.913868
+  lng: 10.752245
+  name: Oslo, Norway
 toc: false
 ---
 Our last full day of Svalbard ☹ It was a brisk but beautiful 46 degrees – very consistent while we have been here. The first day was extremely sunny but overcast the next few days. As our guide would say, it IS the arctic!
@@ -41,7 +45,7 @@ Dinner was a revisit to the Japanese restaurant where I had really good/flavorfu
 
 It was time! We grabbed our bags and headed to the tiny airport – it only has ONE gate! The flight was 2.5 hours long and I got to read and even nap! Landing, we hopped on the train to our Airbnb for two nights in Oslo before heading to our next landing spot. Norway had played in the World cup (and lost) this evening and the streets were LOUD and busy. Uh oh. 
 
-Our Airbnb was right off the busy area and it was lively. We got in at 2am and people were still partying in the streets! And they had lost?!
+Our Airbnb was right off the busy area and it was lively. We got in at 2am and people were still partying in the streets! And they had lost?! (They are still advancing in their group at least). 
 
 Thankfully, we were so tired all we could do was shower and pass out.
 
