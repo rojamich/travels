@@ -3,10 +3,10 @@ title: Reindeer hotdogs & Norway Advances!
 date: 2026-06-30
 categories:
   - fjords-forever
-order: 13
+order: 14
 header:
   teaser_focal_x: 50
-  teaser_focal_y: 50
+  teaser_focal_y: 0
   overlay_focal_x: 50
   overlay_focal_y: 50
   overlay_filter: 0.4
@@ -56,7 +56,7 @@ Between the tower and St. Mary's Church, this cityscape is quite a sight to beho
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782922695%2F20260630_143505_l6lqmf.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782922696%2F20260630_143618_scrj2v.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
-This showstopping alleyway led us to the famous Trekroneren, a stand that has been serving hotdogs since 1978. But not just any hotdogs, we got Reindeer dogs! 
+This showstopping alleyway led us to the famous Trekroneren, a stand that has been serving hotdogs since 1978. But not just any hotdogs, we got Reindeer dogs! I think we might be on Santa's naughty list this year...
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782922836%2F20260630_145435_x2aq3v.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782922842%2F20260630_150700_ejhb3x.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782922839%2F20260630_150122_ri2h7s.jpg%22%5D%2C%22caption%22%3A%22We%20bought%20one%20first%2C%20in%20case%20I%20didn't%20like%20it.%20I%20have%20historically%20not%20liked%20hotdogs.%20Then%20I%20went%20back%20up%20and%20got%20my%20own!%22%7D %}
 
@@ -127,6 +127,8 @@ We applied sunscreen and then they re-applied my flag! They insisted the other g
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782924406%2F20260630_184113_cyp3gi.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782924409%2F20260630_184129_uh1jhk.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782924412%2F20260630_184126_wjuuka.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782924407%2F20260630_184319_edzeks.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782924404%2F20260630_185233_wjhooh.jpg%22%5D%2C%22caption%22%3A%22You%20can%20see%20the%20group%20looking%20on%20to%20ensure%20it's%20properly%20applied%20XD%22%7D %}
 
 We had such a blast with this crew! They had all been to the US, mostly California but others were wildly well-traveled! We learned Norwegian, they interpreted announcements and songs. We talked about travel and books and Jo Nesbo of course. They were hilariously entertained by my tattoo devoted to a Jo Nesbo book. 
+
+Speaking of interpreting songs, they regularly sang one song over and over - we asked and they laughed explaining that it was a sibling rivalry type song with Denmark and Norway against Sweden. Norway is also very wealthy, so the song goes, "We could buy Sweden if we want to" XD. Mike asked if that was anything like the US trying to buy Greenland  - For clarification it is not lol
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782925729/20260630_185300_sycwxx.jpg)
 
