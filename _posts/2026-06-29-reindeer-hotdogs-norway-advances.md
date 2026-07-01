@@ -48,6 +48,10 @@ Right on the waterline, you can see the Rosenkrantz tower.
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782922623%2F20260630_142926_ggjbei.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782922624%2F20260630_142911_loge8y.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
+Across the wharf, you can see this cool zigzag road! Reminds me of San Fransisco!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782925788%2F20260630_142243_lmcf16.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782925784%2F20260630_142252_y0n7rr.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
 Between the tower and St. Mary's Church, this cityscape is quite a sight to behold 
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782922695%2F20260630_143505_l6lqmf.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782922696%2F20260630_143618_scrj2v.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
@@ -122,4 +126,42 @@ We applied sunscreen and then they re-applied my flag! They insisted the other g
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782924406%2F20260630_184113_cyp3gi.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782924409%2F20260630_184129_uh1jhk.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782924412%2F20260630_184126_wjuuka.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782924407%2F20260630_184319_edzeks.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782924404%2F20260630_185233_wjhooh.jpg%22%5D%2C%22caption%22%3A%22You%20can%20see%20the%20group%20looking%20on%20to%20ensure%20it's%20properly%20applied%20XD%22%7D %}
 
-We had such a blast with this crew! They had all been to the US, mostly California but others were wildly well-traveled! We learned Norwegian, they in
+We had such a blast with this crew! They had all been to the US, mostly California but others were wildly well-traveled! We learned Norwegian, they interpreted announcements and songs. We talked about travel and books and Jo Nesbo of course. They were hilariously entertained by my tattoo devoted to a Jo Nesbo book. 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782925729/20260630_185300_sycwxx.jpg)
+
+After the first goal, the crowed LOST THEIR MINDS!!!
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FBU8lgAVOZDY%22%7D %}
+
+Standing on tables and benches, we all celebrated! 
+
+I took a look around as we all settled and saw people were still in line to come into the venue and people were even watching from the carpark across the street!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782925788%2F20260630_170310_pbym5q.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782925954%2F20260630_185432_ojsfmc.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+After the Ivory Coast scored a goal, a serious but somber wave moved through the crowd. It was serious now. Everything was on the line. Norway has not been this far in a World Cup since 1998!
+
+Erling Haaland scored a goal to win Norway the game! It was amazing and the crowd shot to their feet. We were all jumping for joy! He was already a Hometown Hero, definitely everyone's favorite!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782926193/20260630_210247_re8gu2.jpg)
+
+The winning reactions!
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2FR1VYOE_SFoI%22%7D %}
+
+And here is where we got to do the winning ROW with everyone!
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2FSsEasisDBRg%22%7D %}
+
+It was such a high to be in the middle of this historic win with the locals! I can't believe we are here during this time! How lucky can you get!!??
+
+We finally said our goodbyes and wonderful to meet-yous! I'm so glad we managed to sit next to such a lovely group :)
+
+We headed home to get some shut eye.
+
+I should let you know, this is the loudest area ever... not because of Bergen. Not because of crowds. Not even random shouting. ITS THE BIRDS.
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2FOlbcGooCXFY%22%7D %}
+
+I have a complicated history with birds. They used to wake me up in college all the time, when I was badly sleep-deprived. Now I have a massive bird nerd in my life, along with a budding bird nerd and I am trying to curb my hatred. This is not helping. These are the most dramatic birds I have ever heard in my life. They literally do not stop yapping ALL NIGHT!
