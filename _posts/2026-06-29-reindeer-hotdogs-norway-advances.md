@@ -3,10 +3,10 @@ title: Reindeer hotdogs & Norway Advances!
 date: 2026-06-30
 categories:
   - fjords-forever
-order: 13
+order: 14
 header:
   teaser_focal_x: 50
-  teaser_focal_y: 50
+  teaser_focal_y: 0
   overlay_focal_x: 50
   overlay_focal_y: 50
   overlay_filter: 0.4
@@ -127,6 +127,8 @@ We applied sunscreen and then they re-applied my flag! They insisted the other g
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782924406%2F20260630_184113_cyp3gi.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782924409%2F20260630_184129_uh1jhk.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782924412%2F20260630_184126_wjuuka.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782924407%2F20260630_184319_edzeks.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782924404%2F20260630_185233_wjhooh.jpg%22%5D%2C%22caption%22%3A%22You%20can%20see%20the%20group%20looking%20on%20to%20ensure%20it's%20properly%20applied%20XD%22%7D %}
 
 We had such a blast with this crew! They had all been to the US, mostly California but others were wildly well-traveled! We learned Norwegian, they interpreted announcements and songs. We talked about travel and books and Jo Nesbo of course. They were hilariously entertained by my tattoo devoted to a Jo Nesbo book. 
+
+Speaking of interpreting songs, they regularly sang one song over and over - we asked and they laughed explaining that it was a sibling rivalry type song with Denmark and Norway against Sweden. Norway is also very wealthy, so the song goes, "We could buy Sweden if we want to" XD. Mike asked if that was anything like the US trying to buy Greenland 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782925729/20260630_185300_sycwxx.jpg)
 
