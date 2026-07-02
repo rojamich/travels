@@ -75,3 +75,37 @@ But it got really cold really fast! So we went back inside until it was time to 
 We lined up with many many others and walked through the caves. It was much larger than it looked from the outside too!
 
 {% gallery_block %7B%22photos%22%3A%5Bnull%2Cnull%2Cnull%5D%2C%22caption%22%3A%22%22%7D %}
+
+We re-boarded and cruised to our next destination where we were able to kayak around the bay!
+
+{% gallery_block %7B%22photos%22%3A%5Bnull%2Cnull%2Cnull%2Cnull%5D%2C%22caption%22%3A%22There%20were%20even%20monkeys%20surrounding%20the%20bay!%22%7D %}
+
+It was an easy kayak but not well-instructed on timing. There were so many people to coordinate. 
+
+Our last stop was an incredible viewpoint which means... a lot of stairs!!
+
+![]()
+
+There were people in masses just lined up going up and down these stairs. People trying to pass, people taking breaks, people going the wrong way. Endless. Lines. Of People. 
+
+We finally reached the top and it was utterly stunning and everything I had been imagining when picturing Ha Long Bay.
+
+![]()
+
+We were able to take photos and everyone was more than willing to help each other take photos!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999481%2F20260101_163048_m6j4tj.jpg%22%2Cnull%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999582%2F20260101_162604_h16vjk.jpg%22%2Cnull%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999615%2F20260101_162510_c8r9o5.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+We had a little more time to walk around the beach and take in the views before heading back. We took it all in :)
+
+The sun began to set on our cruise back - this was so rewarding!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782999544/20260101_170519_qeta8g.jpg)
+
+Our search for food led us to Mexican food and it was actually good!? Wow!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783002064/20260101_210710_pcsn7y.jpg)
+
+Walking back to our hotel we witnessed.... I'm not even sure what this is! So many kid-sized cars lined the streets! How fun! I remember growing up with a little barbie car and loving it!!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999605%2F20260101_205338_jysbk6.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999771%2F20260101_205320_qzjkwh.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
