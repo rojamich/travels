@@ -1,13 +1,17 @@
 ---
-title: "A Four-Day Motorbike Tour of the  Ha Giang Loop!"
+title: A Four-Day Motorbike Tour of the  Ha Giang Loop!
 date: 2026-05-02
 categories:
   - vietnam
 order: 17
+header:
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782998323/20251226_152811_pvjtml.jpg
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782997939/20251226_061747_fcvcpe.jpg
+  overlay_filter: 0.1
 tags:
   - Vietnam
 location:
-  name: "Ha Giang, Vietnam"
+  name: Ha Giang, Vietnam
   lat: 22.8233
   lng: 104.9844
 ---
