@@ -1,13 +1,21 @@
 ---
-title: "A busy day in Hanoi!"
+title: A busy day in Hanoi!
 date: 2026-01-04
 categories:
   - vietnam
 order: 16
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783000857/20251225_103217_fk3c9l.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783001310/20251225_114930_pqwlmu.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 71
+  overlay_focal_x: 50
+  overlay_focal_y: 59
+  overlay_filter: 0.1
 tags:
   - Vietnam
 location:
-  name: "Hanoi, Vietnam"
+  name: Hanoi, Vietnam
   lat: 21.0285
   lng: 105.8542
 ---
