@@ -39,3 +39,39 @@ Walking back to our hotel, we saw a few different and interesting things being s
 Like raw meat, veggies, and fruits!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782996854/20260101_072201_jvdtvk.jpg)
+
+We had time to grab our iced coffees before hitting the open road on a tour to Ha Long Bay!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782996928/20260101_072201_wegtfp.jpg)
+
+Our first stop was a pearl farm, where they collected and then created pearl jewelry! The demonstration led the woman to try and entice Mike to buy me pearl gifts. She didn't know how far off she was 
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782997351%2F20260101_104326_huvsfh.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782997351%2F20260101_104107_epqe3p.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782997405%2F20260101_104154_j9mdcf.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Back on the road, we only had a short while left in the journey to bay. It was a total of 2.5 hours but it felt short thanks to the comfort and audiobooks!
+
+We walked around the harbor and then headed to our ship for the day. We ordered drinks and sat back to enjoy the cruise with our books!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782998501/20260101_120620_hjokwh.jpg)
+
+They were fresh and yummy! The reading was plentiful and before we knew it, lunch buffet was available!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782998819/20260101_122631_vwzhj2.jpg)
+
+I was pleasantly surprised to see many foods that I could eat! They were mostly labeled incorrectly but we did a decent job of guessing what they actually were lol!
+
+We began weaving through the limestone karsts (the mountain like structures) that look as though they're bursting up out of the earth. 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782999771/20260101_124953_ualuim.jpg)
+
+So we headed outside to read and enjoy the views as they passed by.
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999885%2F20260101_125223_blg2b3.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999826%2F20260101_125108_ufi0v3.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+But it got really cold really fast! So we went back inside until it was time to head out to explore our first stop, a massive cave!
+
+{% gallery_block %7B%22photos%22%3A%5Bnull%2Cnull%5D%2C%22caption%22%3A%22%22%7D %}
+
+We lined up with many many others and walked through the caves. It was much larger than it looked from the outside too!
+
+{% gallery_block %7B%22photos%22%3A%5Bnull%2Cnull%2Cnull%5D%2C%22caption%22%3A%22%22%7D %}
