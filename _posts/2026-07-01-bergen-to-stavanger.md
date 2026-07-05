@@ -19,7 +19,7 @@ location:
   lng: 5.72625
 toc: false
 ---
-Let's kick our last day in Bergen off with a run! I found a viewpoint that I could run to and decided that would have to happen  I stepped outside to start my run and it was sprinkling... rain run??
+Let's kick our last day in Bergen off with a run! I found a viewpoint that I could run to and decided that would have to happen. 😍 I stepped outside to start my run and it was sprinkling... rain run??
 
 It was allllll uphill baby. While I knew it would be some uphill, I didn't think my whole legs would burn!
 
@@ -69,7 +69,7 @@ We ordered pizza for dinner onboard and I have so many regrets. Also, why is the
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783276076%2F20260702_171103_ffpnxc.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783276080%2F20260702_171215_hnxsmm.jpg%22%5D%2C%22caption%22%3A%22I%20just%20took%20a%20nap%20afterwards%20because%20I%20was%20disappointed.%20Since%2C%20Oslo%2C%20the%20food%20has%20been...fine.%22%7D %}
 
-One ferry and two buses later, we were at Hertz rental for our rental car! Mike has almost driven on every continent! Probably won't hit Antarctica driving but who knows 
+One ferry and two buses later, we were at Hertz rental for our rental car! Mike has almost driven on every continent! Probably won't hit Antarctica driving but who knows 😂
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783276084/IMG-20260702-WA0043_bk5kuz.jpg)
 
