@@ -49,7 +49,7 @@ Our booked stay for the evening was on a farm! Its smack dab in the middle of a 
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783278569%2F20260703_180447_ysljsg.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783278564%2F20260703_181749_c4nrn0.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783278558%2F20260703_180431_p0jkck.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783278552%2F20260703_182400_el3ag1.jpg%22%5D%2C%22caption%22%3A%22The%20barn%20is%20an%20open%20spot%20with%20couches%20and%20chairs%20covered%20in%20a%20sheep%20skins!%22%7D %}
 
-We were greeted by the kindest Spanish  young woman who seemed genuinely happy to have us! She walked us around the property, showed us our rooms, and we were instructed to wear these between buildings.
+We were greeted by the kindest Spanish  young woman who seemed genuinely happy to have us! She walked us around the property, showed us our rooms, and we were instructed to wear these between buildings. She also explained the BnB has been run by the same family for six generations! The staff lives and works on site!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783279342/20260703_180525_fzdfil.jpg "I never saw myself ever wearing crocs... they aren't uncomfortable.")
 
@@ -59,7 +59,7 @@ They don't have food on site so we hurried to the one restaurant in town she rec
 
 We ordered the lapskaus, a traditional Norwegian stew of diced potato, carrot, and leek in a light broth and the fish & chips. Both were so bad. But we couldn't really expect a lot from this spot. 
 
-Back at our BnB we cozied up by the fireplace and read books! Such a relaxing night!
+Back at our BnB we cozied up by the fireplace and read books! We were allowed to build a fire so Mike got a roaring one going to keep us warm :) Such a relaxing night!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783280031%2F20260703_194322_hos3fn.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783280035%2F20260703_195214_t0jp2l.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783280039%2F20260703_195223_eqzbgh.jpg%22%5D%2C%22caption%22%3A%22The%20smokey%20smell%20of%20the%20fireplace%20is%20one%20of%20my%20favorites!%20Definitely%20made%20me%20hungry%20for%20marshmallows%20though!%22%7D %}
 
