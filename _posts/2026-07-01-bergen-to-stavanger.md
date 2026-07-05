@@ -77,4 +77,6 @@ We found our way to the hotel room and showered/passed out hard...until the loud
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783276089%2F20260703_004719_xxbuv7.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783276095%2F20260703_004726_v2okzc.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
+According to local reports (thank you honey!) The fire department located burnt paper on the fifth floor, the cause of the fire alarm. 
+
 Oy. It was only an hour later that we were re-shuffled back into the hotel. The lines for the elevators were long but we finally made it back upstairs for some more deep sleep.
