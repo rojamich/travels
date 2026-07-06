@@ -1,13 +1,21 @@
 ---
-title: "Day One - A Two Day Tour to Ban Gioc Waterfall"
+title: Day One - A Two Day Tour to Ban Gioc Waterfall
 date: 2025-12-31
 categories:
   - vietnam
 order: 14
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783002232/20251223_143352_glvijs.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783002568/20251223_152217_e5qbjv.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 88
+  overlay_filter: 0
 tags:
   - Vietnam
 location:
-  name: "Ban Gioc Waterfall, Vietnam"
+  name: Ban Gioc Waterfall, Vietnam
   lat: 22.853
   lng: 106.7233
 ---
