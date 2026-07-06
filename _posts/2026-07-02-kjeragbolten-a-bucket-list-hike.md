@@ -159,4 +159,4 @@ Thankfully we got to our budget room and it was just what we needed for the nigh
 
 As you can imagine, it was a decently noisy boarding house, they thankfully provided ear plugs. I've never used earplugs to sleep before but I did this day since I was feeling crummy and really needed to recover from this day's hike before tomorrows! I was super duper sore! I don't enjoy sleeping with ear covers or eye covers because I feel unsafe. 
 
-Mike was out like a light and I followed shortly :)
+Mike was out like a light and I followed shortly :) - though I initially had a nightmare where I accidentally stepped of the boulder from today and jerked myself awake 😥
