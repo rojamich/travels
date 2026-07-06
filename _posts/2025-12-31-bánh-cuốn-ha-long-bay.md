@@ -6,9 +6,9 @@ categories:
 order: 23
 header:
   teaser_focal_x: 50
-  teaser_focal_y: 50
+  teaser_focal_y: 52
   overlay_focal_x: 50
-  overlay_focal_y: 50
+  overlay_focal_y: 71
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782994590/20260101_071153_jabjon.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782994860/20260101_150329_dchqoc.jpg
@@ -70,31 +70,31 @@ So we headed outside to read and enjoy the views as they passed by.
 
 But it got really cold really fast! So we went back inside until it was time to head out to explore our first stop, a massive cave!
 
-{% gallery_block %7B%22photos%22%3A%5Bnull%2Cnull%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783359857%2F20260101_133301_xiirgq.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783359904%2F20260101_132724_dn6dkw.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 We lined up with many many others and walked through the caves. It was much larger than it looked from the outside too!
 
-{% gallery_block %7B%22photos%22%3A%5Bnull%2Cnull%2Cnull%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783359879%2F20260101_133501_l7nsha.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783359880%2F20260101_134205_utpxa7.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783359882%2F20260101_134846_qjouo4.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 We re-boarded and cruised to our next destination where we were able to kayak around the bay!
 
-{% gallery_block %7B%22photos%22%3A%5Bnull%2Cnull%2Cnull%2Cnull%5D%2C%22caption%22%3A%22There%20were%20even%20monkeys%20surrounding%20the%20bay!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782994860%2F20260101_150329_dchqoc.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783360104%2F20260101_150046_mvarai.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783360104%2F20260101_150434_ttyfz6.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783360103%2F20260101_150449_ns4wic.jpg%22%5D%2C%22caption%22%3A%22There%20were%20even%20monkeys%20surrounding%20the%20bay!%22%7D %}
 
 It was an easy kayak but not well-instructed on timing. There were so many people to coordinate. 
 
 Our last stop was an incredible viewpoint which means... a lot of stairs!!
 
-![]()
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783360214/20260101_161300_zd9rge.jpg)
 
 There were people in masses just lined up going up and down these stairs. People trying to pass, people taking breaks, people going the wrong way. Endless. Lines. Of People. 
 
 We finally reached the top and it was utterly stunning and everything I had been imagining when picturing Ha Long Bay.
 
-![]()
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783360249/20260101_162347_fiduns.jpg)
 
 We were able to take photos and everyone was more than willing to help each other take photos!
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999481%2F20260101_163048_m6j4tj.jpg%22%2Cnull%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999582%2F20260101_162604_h16vjk.jpg%22%2Cnull%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999615%2F20260101_162510_c8r9o5.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999481%2F20260101_163048_m6j4tj.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783360289%2F20260101_162842_wb7q6r.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999582%2F20260101_162604_h16vjk.jpg%22%2Cnull%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999615%2F20260101_162510_c8r9o5.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 We had a little more time to walk around the beach and take in the views before heading back. We took it all in :)
 
@@ -109,3 +109,5 @@ Our search for food led us to Mexican food and it was actually good!? Wow!
 Walking back to our hotel we witnessed.... I'm not even sure what this is! So many kid-sized cars lined the streets! How fun! I remember growing up with a little barbie car and loving it!!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999605%2F20260101_205338_jysbk6.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999771%2F20260101_205320_qzjkwh.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Between all our business the last few days, getting over my cough, and the meds from the patches for seasickness, we slept so hard this night!
