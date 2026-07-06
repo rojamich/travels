@@ -87,6 +87,8 @@ The sun started to peek out and it got much warmer up there! Really glad we star
 
 I was snacking and using the chains to repel down which was so fun! Their sour cream and onion chip flavor does not slack on punch! A very satisfying end to the hike! Especially when we saw several bus loads of high school students start down the first mountain as we returned!
 
+I said good morning to almost every hiker and some excitedly told their partners in other languages "she said good morning!" We wondered if that was as exciting for them as speaking other languages or being greeted that way by others is for us! 
+
 As we finished, we were able to look back at where we started, 4.5 hours ago!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783288326%2F20260704_121908_vp20tc.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783288348%2F20260704_122033_je8pgb.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783288438%2F20260704_122631_j0ifpc.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
