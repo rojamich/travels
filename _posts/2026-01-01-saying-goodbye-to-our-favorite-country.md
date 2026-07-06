@@ -51,4 +51,16 @@ We made it to the airport and it was beautiful!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783003015/20260102_153243_tcq4qy.jpg)
 
-The lounge had everything you might need, including a shower!
+We headed towards the lounge and this was the line to get in 🤯
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783363177/20260102_174037_y5vxuu.jpg)
+
+We managed to get in and find a good table in a quiet back room area. The food offered was plentiful and good!
+
+The lounge had everything you might need, including a shower! I must feel clean before flying.
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783363115%2F20260102_160229_e5jolj.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783363119%2F20260102_160233_k3tdmu.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+We also saw my friend from San Fran that I'd met in the park that morning! The four of us exchanged names and talked about our travels!
+
+It was an easy 3.5 hour flight to Singapore for a few days stopover. Feel free to join on the next blog to read about it!
