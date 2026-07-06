@@ -75,7 +75,7 @@ We did it!! To our surprise, we learned no one has died on this rock! Very surpr
 
 We sat near the edge of the cliff and Mike was dangling his legs off! Who are you??
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783287583%2F20260704_100352_gnmtpb.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783287585%2F20260704_100420_np6c4q.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783287586%2F20260704_100344_sghztf.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783287607%2F20260704_100440_nz3qmz.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783287583%2F20260704_100352_gnmtpb.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783287585%2F20260704_100420_np6c4q.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783287586%2F20260704_100344_sghztf.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783287607%2F20260704_100440_nz3qmz.jpg%22%5D%2C%22caption%22%3A%22The%20long%20platform%20to%20the%20left%20is%20where%20people%20usually%20base%20jump%20from!%20There%20have%20been%20roughly%20nine%20deaths%20from%20base%20jumping%20here%20%F0%9F%98%AE%22%7D %}
 
 The hike down was so satisfying, though we felt this hike was more bouldering than anything!
 
@@ -117,8 +117,44 @@ Check out these tiny lighthouses!
 
 The captain announced the sites as we cruised through the Lysefjord.
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783289408/20260704_194119_yy9lzf.jpg "This is where people usually base jump from! There have been roughly nine deaths from base jumping here 😮")
-
 Here is the view of our boulder from this morning! Look how tiny it is!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783289633%2F20260704_181508_zhk1ah.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783289667%2F20260704_181512_yepstt.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783289671%2F20260704_181533_vk83wj.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+While we were planning this trip, Mike asked me if I wanted to do the fjord viewpoint that required climbing over 4,000 stairs. I believe he may have been trolling me. The only time I want to climb that many stairs is when we visit the Great Wall of China one day. We were able to see this hike from the bottom and it looks even more daunting than I imagined!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783340304%2F20260704_184723_eejdkz.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783340304%2F20260704_184055_gnrkcx.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783340304%2F20260704_184111_an18vi.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783340311%2F20260704_185029_bdg4ei.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783340313%2F20260704_185025_wbbtnw.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+It was about that time my stomach started to hurt. I suspected it was the ferry and lack of dinner 😥
+
+Check out the full-grown trees sprouting out of the rocky mountainside!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783340429/20260704_183156_gota7p.jpg)
+
+Then we were directed to the opposite side of the boat to see pulpit rock! The hike we would be hitting the next day!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783340509%2F20260704_194116_rrh3ea.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783340512%2F20260704_194119_p2iwgr.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+That's about the time I was thinking, hmm, this hike might be more challenging than I thought it would be...
+
+The fjord was beautiful.
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783341171%2F20260704_185002_h5x1lj.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783341171%2F20260704_200357_y0t34r.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783341171%2F20260704_200122_jsyib5.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Exiting the ferry, we hopped in line (in our car) for the next ferry. Unfortunately, it had stopped running 2 hours ago... That made our 25 minute drive now an hour and we were hungry! My tummy really hurt now too!
+
+We crossed in an underwater tunnel from Stavanger to Preikestolen and it was lit up really well! I'll show you tomorrow morning on our way back 🛣️
+
+The parking lot was a bit confusing on where the hike was vs the hotel parking vs walkways but we made it to the hotel - basecamp! It was pretty fancy inside with the stone fireplace and each seat wrapped in lamb wool. There was a group of elegant / fancy travelers who looked at us like we were trailer trash coming in with our backpacks... I smiled and said good evening to them and they looked right through me lol
+
+They had stopped serving food an hour earlier but had a few snacks at the counter. I couldn't eat to save my life but we got a couple snacks for the hike the next day. We had to stop by a restroom before heading to our room so I could be sick 😥
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783341920/20260705_111902_cm1wu6.jpg "Ours is the third building away from this viewpoint and Mike was so excited to stay in a residence with a roof made of greenery! ")
+
+Thankfully we got to our budget room and it was just what we needed for the night! It felt like summer camp lol! I was really wanting the top bunk but didn't want to temp how I was feeling and had to stay on bottom - I got sick two more times that night before bed and took meds for "traveler's sickness".
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783341912/20260704_220305_vaxsy3.jpg)
+
+As you can imagine, it was a decently noisy boarding house, they thankfully provided ear plugs. I've never used earplugs to sleep before but I did this day since I was feeling crummy and really needed to recover from this day's hike before tomorrows! I was super duper sore! I don't enjoy sleeping with ear covers or eye covers because I feel unsafe. 
+
+Mike was out like a light and I followed shortly :)
