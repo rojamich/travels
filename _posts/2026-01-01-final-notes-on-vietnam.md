@@ -49,4 +49,4 @@ Thanks so much for coming on this journey with us :) 
 
 See you up next for for Singapore!
 
-**Our Singaporean Stopover 🏢🌆**
+**Our [Singaporean Stopover](https://where-in-the-world-are-mike-and-jen.netlify.app/the-singaporean-stopover/) 🏢🌆**
