@@ -6,9 +6,9 @@ categories:
 order: 14
 header:
   teaser_focal_x: 50
-  teaser_focal_y: 0
+  teaser_focal_y: 4
   overlay_focal_x: 50
-  overlay_focal_y: 50
+  overlay_focal_y: 47
   overlay_filter: 0.4
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782921748/20260630_142346_oay9nf.jpg
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782924554/20260630_210706_a9e4l4.jpg
@@ -102,6 +102,10 @@ The venue put on a "Kahoots" game to quiz people on fotball (how you spell footb
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782923808%2F20260630_172546_abrfgt.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782923809%2F20260630_172548_yxlhhn.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
+This was Mike's character 🤣
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783343149/Screenshot_20260630_172656_Chrome_de7bn7.jpg)
+
 It got SO busy! They eventually stopped letting anyone in, the line persisted. If anyone left, they were quickly replaced. 
 
 The weather was awfully threatening too!
@@ -132,6 +136,10 @@ Speaking of interpreting songs, they regularly sang one song over and over - we 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782925729/20260630_185300_sycwxx.jpg)
 
+The venue played songs from a local band and even put the QR code up so we could follow along with the words!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783343237/Screenshot_20260630_175026_Instagram_sfsbce.jpg)
+
 After the first goal, the crowed LOST THEIR MINDS!!!
 
 {% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FBU8lgAVOZDY%22%7D %}
@@ -155,6 +163,10 @@ The winning reactions!
 And here is where we got to do the winning ROW with everyone!
 
 {% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2FSsEasisDBRg%22%7D %}
+
+Mike caught a video of us rowing and I didn't know right away so it was really funny to find out mid-row!
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2FJC8a7RCux1k%22%7D %}
 
 It was such a high to be in the middle of this historic win with the locals! I can't believe we are here during this time! How lucky can you get!!??
 
