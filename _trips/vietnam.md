@@ -5,7 +5,7 @@ description: An epic three-week journey though Vietnam filled with motorbikes,
   locals we have ever been blessed to meet!
 cover: https://res.cloudinary.com/dgw35sldo/image/upload/v1777789132/20251228_100412_gdzkqi.jpg
 cover_focal_x: 50
-cover_focal_y: 0
+cover_focal_y: 1
 start_date: 2025-12-08
 end_date: 2026-01-02
 location: Vietnam
@@ -15,5 +15,4 @@ tags:
   - Asia
   - Nature
   - Food
-  - ""
 ---
