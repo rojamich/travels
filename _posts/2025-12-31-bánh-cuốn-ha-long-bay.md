@@ -42,13 +42,11 @@ Like raw meat, veggies, and fruits!
 
 We had time to grab our iced coffees before hitting the open road on a tour to Ha Long Bay!
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782996928/20260101_072201_wegtfp.jpg)
-
 Our first stop was a pearl farm, where they collected and then created pearl jewelry! The demonstration led the woman to try and entice Mike to buy me pearl gifts. She didn't know how far off she was 
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782997351%2F20260101_104326_huvsfh.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782997351%2F20260101_104107_epqe3p.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782997405%2F20260101_104154_j9mdcf.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
-Back on the road, we only had a short while left in the journey to bay. It was a total of 2.5 hours but it felt short thanks to the comfort and audiobooks!
+Back on the road, we only had a short while left in the journey to the bay. It was a total of 2.5 hours but it felt short thanks to the comfort and audiobooks!
 
 We walked around the harbor and then headed to our ship for the day. We ordered drinks and sat back to enjoy the cruise with our books!
 
@@ -92,7 +90,7 @@ We finally reached the top and it was utterly stunning and everything I had been
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783360249/20260101_162347_fiduns.jpg)
 
-We were able to take photos and everyone was more than willing to help each other take photos!
+We were able to take photos and everyone was more than willing to help each other take their shots! 📸
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999481%2F20260101_163048_m6j4tj.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783360289%2F20260101_162842_wb7q6r.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999582%2F20260101_162604_h16vjk.jpg%22%2Cnull%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782999615%2F20260101_162510_c8r9o5.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
