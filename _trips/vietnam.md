@@ -15,5 +15,4 @@ tags:
   - Asia
   - Nature
   - Food
-  - ""
 ---
