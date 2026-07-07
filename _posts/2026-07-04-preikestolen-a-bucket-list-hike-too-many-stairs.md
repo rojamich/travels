@@ -75,7 +75,7 @@ This is where we got silly and decided to pose like the poster this morning!
 
 We marched back down the mountain - it was not alllll down, unfortunately. Sometimes there were, again, stair cases. We hopped and climbed boulders and skipped over streams and tried not to slide over slick rocks.
 
-It was close to 930 and we were grateful to have started early again. We had looked up the schedule for the hike and buses usually started arriving between 830 and 10am so we saw A LOT of crowds on their way up. Apparently ,you usually don't take turns on the pulpit. You just deal with the crowds in your photos. I will forever be adamant that waking up early is the way to go! We did experience mosquitos though. I have three bites on my neck, one on my cheek, several on my scalp and another on my forehead! How?? Its so cold!
+It was close to 930 and we were grateful to have started early again. We had looked up the schedule for the hike and buses usually started arriving between 830 and 10am so we saw A LOT of crowds on their way up. Apparently, you usually don't take turns on the pulpit. You just deal with the crowds in your photos. I will forever be adamant that waking up early is the way to go! We did experience mosquitos though. I have three bites on my neck, one on my cheek, several on my scalp and another on my forehead! How?? Its so cold!
 
 After a snack at the cafe at the bottom of the hike, we hit the road for a short 40 minute drive back to Stavanger. Here's that cool underwater tunnel!
 
