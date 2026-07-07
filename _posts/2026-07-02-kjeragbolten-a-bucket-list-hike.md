@@ -15,9 +15,9 @@ header:
 tags: []
 toc: false
 ---
-We woke up ahead of our alarm out of anticipation and excitement! But, also, because we had to pee. The restroom was in another building! I think the floor creaking may have woken up other people... to be fair... I was woken up by someone else heading out to he restroom lol.
+We woke up ahead of our alarm out of anticipation and excitement! But, also, because we had to pee. The restroom was in another building! I think the floor creaking may have woken up other people... to be fair... I was woken up by someone else heading out to the restroom lol.
 
-Packing up quickly, we bought a few snacks from the lobby and our host (the kind Spanish young woman's sister!) had our breakfasts all packed up to go for us! The drive was a short 15 minutes but steep, up a narrow road. We saw a little old man hiking up it and he stuck out his thumb as we creeped by. Well... we picked up our first (and hopefully) last hitch hiker! He was so adorable! He was from Poland and spoke limited English but was so excited about the hike and greeted us with, "Hello beautiful people!" We chatted about each of our trips to Norway and there might have been some confusion with us thinking he's only in Norway for 3 days and him thinking we are in Lysebotn for 30 days. He told us about Poland and all the beautiful places we should visit when we go 😍
+Packing up quickly, we bought a few snacks from the lobby and our host (the kind Spanish young woman's sister!) had our breakfasts all packed up to go for us! The drive was a short 15 minutes but steep, up a narrow road. We saw a little old man hiking up it and he stuck out his thumb as we crept by. Well... we picked up our first (and hopefully) last hitch hiker! He was so adorable! He was from Poland and spoke limited English but was so excited about the hike and greeted us with, "Hello beautiful people!" We chatted about each of our trips to Norway and there might have been some confusion with us thinking he's only in Norway for 3 days and him thinking we are in Lysebotn for 30 days. He told us about Poland and all the beautiful places we should visit when we go 😍
 
 We parked at the trailhead (only three other cars in the lot!) and he hopped out  - oozing with gratitude for the ride :)
 
@@ -87,9 +87,9 @@ The sun started to peek out and it got much warmer up there! Really glad we star
 
 I was snacking and using the chains to repel down which was so fun! Their sour cream and onion chip flavor does not slack on punch! A very satisfying end to the hike! Especially when we saw several bus loads of high school students start down the first mountain as we returned!
 
-I said good morning to almost every hiker and some excitedly told their partners in other languages "she said good morning!" We wondered if that was as exciting for them as speaking other languages or being greeted that way by others is for us! 
+I said good morning to almost every hiker and some excitedly told their partners in other languages "she said good morning!" (We've heard this is a very "American" thing to do). We wondered if that was as exciting for them as speaking other languages or being greeted that way by others is for us! 
 
-As we finished, we were able to look back at where we started, 4.5 hours ago!
+As we finished, we were able to look back at where we started, 4.5 hours ago 🫨
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783288326%2F20260704_121908_vp20tc.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783288348%2F20260704_122033_je8pgb.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783288438%2F20260704_122631_j0ifpc.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -153,7 +153,7 @@ They had stopped serving food an hour earlier but had a few snacks at the counte
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783341920/20260705_111902_cm1wu6.jpg "Ours is the third building away from this viewpoint and Mike was so excited to stay in a residence with a roof made of greenery! ")
 
-Thankfully we got to our budget room and it was just what we needed for the night! It felt like summer camp lol! I was really wanting the top bunk but didn't want to temp how I was feeling and had to stay on bottom - I got sick two more times that night before bed and took meds for "traveler's sickness".
+Thankfully we got to our budget room and it was just what we needed for the night! It felt like summer camp lol! I was really wanting the top bunk but didn't want to tempt how I was feeling and had to stay on bottom - I got sick two more times that night before bed and took meds for "traveler's sickness".
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783341912/20260704_220305_vaxsy3.jpg)
 
