@@ -75,4 +75,8 @@ Our waitress told us that we could order a small portion of the fish soup to try
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783624045/20260707_200909_n6wkuo.jpg)
 
-It was all really good! Whew! A day of two fish meals and all tasty, who am I?? We crashed hard for a very long day the next morning. Here we go, our last week in Norway!
+It was all really good! Whew! A day of two fish meals and all tasty, who am I?? 
+
+On the way back we stopped at two bookstores where Mike found a paperback thankfully! We also grabbed breakfast groceries for the next two days. Their eggs come in many different amounts like 6, 9, 10, 12, 18, 20, etc.
+
+We crashed hard for a very long day the next morning. Here we go, our last week in Norway!
