@@ -29,23 +29,27 @@ We had time before our flight - security was a breeze! So I took some time to br
 
 This was the flight we were nervous about our bags for. Small airport, small plane. The airline crew came around assessing bags to tag for forced checked luggage and somehow, our bags made the cut!
 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783621783/20260707_101753_xxwyix.jpg "Look how small our plane is! ")
+
 However, once we boarded, it was a struggle to fit our bags in the overhead compartment! We had to work to get mine overhead and Mike's had to go under our feet. Somehow the feet room was very spacious. 
 
 The first flight was an easy one - an hour and a half to Bodø was spent re-reading [Book Lovers](https://www.goodreads.com/en/book/show/58690308-book-lovers) by Emily Henry (I finished the book by Tony Park, another banger!). The views were immaculate!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783622460%2F20260707_110049_xptta9.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783622471%2F20260707_111503_kgek66.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
-We were delayed on the tarmac before take off and I had been anxious the whole flight about missing our connection as we only had a 30 minute layover. Thankfully, the airport was so small and the flights so few, they waited for us! 
+We were delayed on the tarmac before take off and I had been anxious the whole flight about missing our connection. Our delay got us in 5 minutes after we were supposed to take off but each connection was made aware we were coming in late! Thankfully, the airport was so small and the flights so few, they waited for us! 
 
-Look how tiny our plane is!
+We thought our last plane was tiny, apparently they do get smaller!
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783621783/20260707_101753_xxwyix.jpg "Its a propeller plane, Mike assures me this is actually a safer plane to fly in!")
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783625481/20260707_124811_fz4wbl.jpg "Its a propeller plane, Mike assures me this is actually a safer plane to fly in!")
 
 We boarded our shorter flight and everyone but us and one woman from our flight were already seated 😥So that's about 40 people waiting and staring at us and we were late! Not our fault technically but UGH! We didn't see any overhead compartment space and it was all free seating. I asked about our bags and the stewardess said just to put them under the seat (hopefully I have a seatmate with a small piece of luggage!) There were no seats together so I grabbed one next to a sweet elderly woman who helped me shove my bag under. Her name was Ruth and we talked from the moment I sat down to the moment she got into her car at the next airport! She was so flipping sweet oh my gosh I could've adopted her!
 
 We talked about travels, her family overseas, her many vacation homes. She mentioned this type of plane was the safest because it was propeller. Did her and Mike read the same safety pamphlet on the plane or what??
 
 As soon as I sat down and said hi, she said, "Ah, so you're American!" I said, "What gave it away? How loud I am?" She said "No, my cousin came to visit from New York and we chatted on my balcony. She is loud. I think everyone outside heard her." Hilarious! It also came up in conversation that if we were to go down, she would hold my hand. I adore her lol
+
+Mike was seated next to a young child and his dad was across the aisle with his other child. This becomes important tomorrow!
 
 Lofoten had a lot to offer right away!
 
@@ -73,10 +77,10 @@ Dinner was at a much fancier place than we anticipated and, once again, we were 
 
 Our waitress told us that we could order a small portion of the fish soup to try rather than the main portion and it was really good and creamy! Just like clam chowder and not fishy at all, thankfully. I also got fish and chips and a strawberry mocktail and Mike got the Halibut. 
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783624045/20260707_200909_n6wkuo.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783625947%2F20260707_194825_dmufub.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783624047%2F20260707_200904_paghi2.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 It was all really good! Whew! A day of two fish meals and all tasty, who am I?? 
 
-On the way back we stopped at two bookstores where Mike found a paperback thankfully! We also grabbed breakfast groceries for the next two days. Their eggs come in many different amounts like 6, 9, 10, 12, 18, 20, etc.
+On the way back we stopped at two bookstores where Mike found a paperback thankfully! We also grabbed breakfast groceries for the next two days. Their eggs come in many different amounts like 6, 9, 10, 12, 18, 20, etc. They also put different sized eggs in the same box! M, L, and XL!
 
 We crashed hard for a very long day the next morning. Here we go, our last week in Norway!
