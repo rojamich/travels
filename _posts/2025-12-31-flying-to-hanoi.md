@@ -1,13 +1,21 @@
 ---
-title: "Flying to Hanoi!"
+title: Flying to Hanoi!
 date: 2025-12-31
 categories:
   - vietnam
 order: 13
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783626481/20251222_084644_bcjwwf.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783626484/20251222_194253_ry4mlc.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 0
+  overlay_focal_x: 50
+  overlay_focal_y: 61
+  overlay_filter: 0
 tags:
   - Vietnam
 location:
-  name: "Hanoi, Vietnam"
+  name: Hanoi, Vietnam
   lat: 21.0285
   lng: 105.8542
 ---
