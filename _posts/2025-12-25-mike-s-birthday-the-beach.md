@@ -1,13 +1,21 @@
 ---
-title: "Mike's Birthday & the Beach!"
+title: Mike's Birthday & the Beach!
 date: 2025-12-25
 categories:
   - vietnam
 order: 10
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783626842/20251219_164500_ten6vx.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783626872/20251219_130901_mqjqzb.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 11
+  overlay_focal_x: 50
+  overlay_focal_y: 79
+  overlay_filter: 0
 tags:
   - Vietnam
 location:
-  name: "Da Nang, Vietnam"
+  name: Da Nang, Vietnam
   lat: 16.0544
   lng: 108.2022
 ---
