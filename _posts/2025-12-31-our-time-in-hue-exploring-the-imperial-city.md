@@ -4,10 +4,18 @@ date: 2025-12-31
 categories:
   - vietnam
 order: 12
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783626703/20251221_100343_scdotd.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783626623/20251221_091134_crst8q.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 47
+  overlay_focal_x: 50
+  overlay_focal_y: 40
+  overlay_filter: 0
 tags:
   - Vietnam
 location:
-  name: "Imperial City, Hue"
+  name: Imperial City, Hue
   lat: 16.4708
   lng: 107.5827
 ---
