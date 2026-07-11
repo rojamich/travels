@@ -197,4 +197,4 @@ They had the softest and tastiest rye bread my mouth has ever beheld. That could
 
 The fish soup and Bacalao (tomato-based fish stew) were fine. 
 
-{% gallery_block %7B%22photos%22%3A%5Bnull%2Cnull%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783774236%2F20260708_162034_iitpkl.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783774259%2F20260708_162031_drt1jt.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
