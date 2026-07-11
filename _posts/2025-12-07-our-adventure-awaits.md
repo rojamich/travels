@@ -1,11 +1,20 @@
 ---
-title: "Our Adventure Awaits!"
+title: Our Adventure Awaits!
 date: 2025-12-07
 categories:
   - vietnam
 order: 1
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783803886/20251206_224335_uhq26h.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783803895/20251208_092332_pikced.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 43
+  overlay_focal_x: 50
+  overlay_focal_y: 80
+  overlay_filter: 0
 tags:
   - Vietnam
+  - Flights
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB3XCYyonVKg5FSF580CB8lWrG19o5Ym5N1nxE5dJl2LFBFQN85savyI53QYHEfMkGwXoxkKvJ7PK6zCAJ0bnkdgh9yMkQZC3vv09qKoMwHbC5pPTpRUsr_ID_ev8meqpxnUyRkCbfuWZEFq2WIgvpIkkanbKqfJ31-OFGKy2U_FxDhXEJMBCBXB6NGnXX/s320/20251206_224155.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB3XCYyonVKg5FSF580CB8lWrG19o5Ym5N1nxE5dJl2LFBFQN85savyI53QYHEfMkGwXoxkKvJ7PK6zCAJ0bnkdgh9yMkQZC3vv09qKoMwHbC5pPTpRUsr_ID_ev8meqpxnUyRkCbfuWZEFq2WIgvpIkkanbKqfJ31-OFGKy2U_FxDhXEJMBCBXB6NGnXX/s4000/20251206_224155.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm0snfjdKjCH3cWn4ihs0DqZQd-Pfwcv1-8dszaesG-lcu39wUhR4-ZMKCrK4kiwmPOTyP4GhhuWVFLMA5_f1BSI-RPc27DfIzKloyw4RdyfrwXsp6Wu9yUbnmxvfke7kOamfp_6Z_BqwlWbzZOr5TrzwD7tyYXAlOx2L99fW9wc79nbdX6AkV1NZTsEW2/s320/20251206_224055.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm0snfjdKjCH3cWn4ihs0DqZQd-Pfwcv1-8dszaesG-lcu39wUhR4-ZMKCrK4kiwmPOTyP4GhhuWVFLMA5_f1BSI-RPc27DfIzKloyw4RdyfrwXsp6Wu9yUbnmxvfke7kOamfp_6Z_BqwlWbzZOr5TrzwD7tyYXAlOx2L99fW9wc79nbdX6AkV1NZTsEW2/s4000/20251206_224055.jpg)
