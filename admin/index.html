@@ -37,42 +37,85 @@
     JWT AUTO-REFRESH + REDIRECT TO CUSTOM LOGIN
     =========================================================================
     Netlify Identity JWTs default to a 1-hour lifetime. Without explicit
-    refresh, a long writing session ends with "unable to save" errors.
-    Two safeguards:
+    refresh, a long writing session ends with "unable to save" errors that
+    can lose all pending edits.
 
-      1. Every 45 minutes, force-refresh the JWT so it never expires
-         while the editor is open.
-      2. If the user lands on /admin/ without a session, send them to
-         /login/ — our custom Bitwarden-friendly form — rather than
-         showing the iframe widget that password managers can't fill.
+    Multi-layer refresh strategy:
+      1. Every 20 minutes (down from 45), force-refresh the JWT.
+      2. Whenever the tab regains focus after being backgrounded, refresh
+         the JWT — this catches the common case of leaving the editor for
+         30+ minutes and coming back to a stale token.
+      3. Track consecutive refresh failures; if 3 in a row, show a red
+         banner asking her to log out and back in before her save fails.
+      4. If the user lands on /admin/ without a session, send them to
+         /login/ instead of Decap's iframe widget.
     =========================================================================
   -->
   <script>
     (function () {
+      var consecutiveFailures = 0;
+      var lastRefreshMs = 0;
+      var banner = null;
+
       function whenReady(cb, tries) {
         tries = tries || 0;
         if (window.netlifyIdentity) cb();
         else if (tries < 50) setTimeout(function () { whenReady(cb, tries + 1); }, 100);
       }
 
+      function showBanner() {
+        if (banner) return;
+        banner = document.createElement("div");
+        banner.textContent = "⚠️ Your login may be expiring soon. Save what you have now, then log out (top-right) and log back in before writing more. Otherwise the next save can fail and lose your work.";
+        banner.style.cssText =
+          "position:fixed;top:0;left:0;right:0;padding:12px 20px;" +
+          "background:#d9534f;color:#fff;font-size:14px;font-weight:bold;" +
+          "text-align:center;z-index:2147483647;box-shadow:0 2px 8px rgba(0,0,0,0.3);";
+        document.body.appendChild(banner);
+      }
+      function hideBanner() {
+        if (banner) { banner.remove(); banner = null; }
+      }
+
+      function refreshNow(reason) {
+        var u = window.netlifyIdentity && netlifyIdentity.currentUser && netlifyIdentity.currentUser();
+        if (!u || !u.jwt) return;
+        // Only refresh if we haven't just done so (avoid spamming when
+        // visibility toggles rapidly).
+        if (Date.now() - lastRefreshMs < 60 * 1000) return;
+        u.jwt(true)
+          .then(function () {
+            lastRefreshMs = Date.now();
+            consecutiveFailures = 0;
+            hideBanner();
+            console.log("[admin] JWT refreshed (" + reason + ")");
+          })
+          .catch(function (err) {
+            consecutiveFailures++;
+            console.warn("[admin] JWT refresh failed (" + reason + ", failure #" + consecutiveFailures + "):", err && err.message);
+            if (consecutiveFailures >= 3) showBanner();
+          });
+      }
+
       whenReady(function () {
         netlifyIdentity.on("init", function (user) {
           if (!user) {
-            // No session — send them through our custom login.
             window.location.href = "/login/";
+          } else {
+            lastRefreshMs = Date.now();
           }
         });
 
-        // Refresh the JWT every 45 minutes to keep the session alive.
-        setInterval(function () {
-          var u = netlifyIdentity.currentUser && netlifyIdentity.currentUser();
-          if (u && u.jwt) {
-            u.jwt(true).catch(function () {
-              // Refresh failed — log it but don't break the editor.
-              console.warn("[admin] JWT refresh failed; user may need to log in again.");
-            });
-          }
-        }, 45 * 60 * 1000);
+        // Layer 1: periodic refresh (every 20 min).
+        setInterval(function () { refreshNow("periodic"); }, 20 * 60 * 1000);
+
+        // Layer 2: refresh when the tab regains focus. Most token errors
+        // happen when she comes back to /admin/ after being away for a
+        // while — refresh proactively before she clicks Save.
+        document.addEventListener("visibilitychange", function () {
+          if (document.visibilityState === "visible") refreshNow("visibilitychange");
+        });
+        window.addEventListener("focus", function () { refreshNow("focus"); });
       });
     })();
   </script>
