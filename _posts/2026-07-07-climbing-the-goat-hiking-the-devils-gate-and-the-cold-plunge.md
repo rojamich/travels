@@ -34,3 +34,157 @@ As we got close to the goat, we had to climb/boulder the rest of the way. For th
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783768141%2F20260708_091531_rlmok9.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783768143%2F20260708_092114_e4gvcg.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783768145%2F20260708_091618_l3wmoa.jpg%22%5D%2C%22caption%22%3A%22How%20pretty!!%22%7D %}
 
 No rocks fell, thankfully. So we geared up and got some instruction for the climb ahead!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783769406%2F20260708_092611_hkvopp.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783769399%2F20260708_093935_xybfhj.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783769399%2F20260708_093204_ql4fh8.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783769400%2F20260708_092615_ghuqgy.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783769390%2F20260708_093943_y9avxb.jpg%22%5D%2C%22caption%22%3A%22This%20rock%20formation%20is%20called%20%5C%22the%20goat%5C%22%20because%20of%20the%20horns!%20Can%20you%20see%20them%20at%20the%20top%20of%20the%20spire-like%20mountain%3F%22%7D %}
+
+I was more nervous than Mike (per the usual), so I followed Chris up first. The initial climb has no hand holds so they use rods, hooked into crevices to hang a rope ladder from! How crazy is that! We had to start the climb by committing all our weight to a flimsy rope ladder? Ok Chris, I'm trusting you! 
+
+Of course, it was completely safe and held our weight. The rock was rougher than I was expecting and left my fingertips feeling raw! Like I scraped them against sandpaper. 
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783769933%2FIMG_9053_jwvitt.heic%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783769929%2FIMG_9054_olcz0z.heic%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+It was really challenging and fun to find the right holds for each foot and push myself up to meet the next hand hold - no matter how tiny or unobvious they may be!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783769988/IMG_9057_kqzesq.heic)
+
+This is, apparently, what I look like when I'm very focused but also trying to breathe 🤣
+
+We reached a shelf where we were given more instruction on how to tackle the next section. It would be a crevice you had to shimmy up, using your counter weight. This is different than what we did initially using handholds. I felt like a clumsy spiderman! 
+
+Chris was really supportive of us, directing us, and encouraging us! We were able to peek over a stack of rocks that lay between the goats "horns". It was an extraordinary view of the city and island!
+
+Then we had to wedge ourselves along a thin/tiny shelf and inch our way across, leaning out above the rock. To come around the horn, we would hug the rock face while carefully edging around it. The final climb to the top was **TOUGH**. The finger holds (not hand holds) were miniscule and difficult to clench onto and trust your weight on as you were at an angle. Your shoulders were jutted out above your body and you essentially had to climb over this outward-slanted rock!
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2FyEHoe8GCobo%22%7D %}
+
+Thankfully, I had Mike right behind me, showing me how a stud does it! 
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783770702%2FIMG_9064_wbz00o.heic%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783770704%2FIMG_9063_c0tria.heic%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783770708%2FIMG_9060_eilyi2.heic%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783770784%2FIMG_9070_ktycao.heic%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783770813%2FIMG_9077_zkdsd0.heic%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783770809%2FIMG_9074_x8gyhj.heic%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Here's to a successful and super fun climb! So glad we found another extreme sport to engage in on our travels!
+
+While our possessions are numbered, I managed to save this tiny pumpkin. My first time teaching forensics at WOU, I had an exceptional group of students. Five of them put their fingerprints on this tiny pumpkin during our class activity and I brought it with me because they are such great kids. 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783771005/IMG_9079_rhkx1c.heic)
+
+Chris snapped a photo of me and my feelings of the stairs on the hike.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783771013/IMG_9083_lvetbe.heic)
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783771016/IMG_9080_brj8ej.heic)
+
+Please appreciate this shot of the stairs that traumatized me.
+
+The best part was just ahead! Rappelling! I love rappelling! It's so fun and carefree. We had to climb back over the outwards slanting rock and squat on a tiny ledge. Then we just let go and commit our weight to the rope (whew!)
+
+My first couple of bounces down I said whee!! It was such a blast. I even got to greet the group below as I came down 😊
+
+Mike's path down was a bit more complicated with others beginning their climb. SO happy we were there first!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783771237%2F20260708_105543_x2giff.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783771244%2F20260708_105554_gzdhxw.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783771237%2F20260708_105558_gfh6sc.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Mike did great maneuvering around the group and we met a couple at the bottom from San Diego! What a coincidence!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783771313/IMG_9086_kul2vt.heic)
+
+We loaded up our gear and scrambled back down the rocky path. We still felt pretty good so we decided to hike afterwards to save our future selves the trouble of the stairs. 
+
+Chris led us to the intersection that would take us to our hike and we said our 'thank yous' and goodbyes - what an excellent guide!
+
+The hike had several different points to admire and we made our way up towards "the frog".
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783771485/20260708_115411_mjlhia.jpg)
+
+The trail was all kinds of arduous! Bouldering, searching for solid footing, stairs (of course), and sometimes outright searching for the trail itself.
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783771963%2F20260708_114001_lsqdwv.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783771964%2F20260708_120227_pmxlqu.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783771964%2F20260708_120934_kqszhy.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783771962%2F20260708_115409_x1thvz.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+See the frog straight ahead from this walking board? The first sight will be just to the right of that. And the end goal is all the way to the right in this photo.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783771950/20260708_120102_rob1kr.jpg)
+
+The views were impressive though 😍🗻
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783772093/20260708_121154_ckmcxn.jpg)
+
+We rounded the corner to this sign and see our first stop, and our "last stop" listed!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783772132/20260708_121608_rh6i8l.jpg)
+
+Very demanding is an understatement! According to Chris, they put these on each of the trail signs to discourage those who may not be in shape for hiking. Some come straight from the cruise port and try to hike unsuccessfully. This results in dozens of rescues every year. Some are dehydration, injury, walking straight off the trail, or getting lost. 
+
+We reached the first destination: Mini Kjerag. Remember that boulder we stood on that was super scary?? Here is the mini version of that! 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783772378/20260708_121756_m2cjop.jpg)
+
+Mike caught a video of me hiking up to it! You can hear his reaction when I accidentally trip 🤣
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2F_bWZ7hjCMik%22%7D %}
+
+It was no where near as scary as Kjerag!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783772456/20260708_122011_0_xtguq1.jpg)
+
+So much so, that Mike decides to jump on the boulder. 
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783772484%2F20260708_122153_f10kfb.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783772498%2F20260708_122153_1_farwrt.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Presumably, to give his beautiful wife a heart attack. I suppose it is payback for me convincing him to do Kjerag with me.
+
+We pause so I can photograph a kind man who is solo traveling and afraid of heights as I cheerlead him onto conquer his fears!
+
+Then, we resume our hike to the next destination, Fløya.
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783772673%2F20260708_122304_ls6iev.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783772672%2F20260708_124943_favoar.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783772690%2F20260708_122501_tfhjaz.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+While there were stairs, there were also views of lakes and wild flowers :)
+
+The mist drifted in at times and we hoped it would abate long enough to see the islands from the top!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783772781/20260708_125130_s5fhy1.jpg)
+
+This is the view circa Fløya.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783772820/20260708_131320_fa33oq.jpg)
+
+We promptly walked past it, and the groups eating lunch, to the far off point to the right with an infinitely better view!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783772887%2F20260708_125156_oyxq8y.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783772889%2F20260708_125154_ycmaqv.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783772890%2F20260708_125211_ryfva1.jpg%22%2Cnull%5D%2C%22caption%22%3A%22%22%7D %}
+
+We are stunned by it's beauty.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783773079/20260708_125337_g2riae.jpg)
+
+Mist rolls in so we sit and wait. No rush at all 😊🌄
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783773161/20260708_125610_wqr4oe.jpg "You can even see our rock climb from earlier! It's the goat!!")
+
+Another couple comes along and we take turns snapping memories for each other.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783773232/20260708_130616_svmmi9.jpg)
+
+The way down was also challenging with scrambling down rocks, marching down stairs, trying to find the trail markers when there were multiple false paths and, eventually, A LOT of people! 
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783773642%2F20260708_133113_sto75f.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783773647%2F20260708_135939_sfs576.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Around 1pm the trail was flooded and there were hoards of people hiking up! Including a tall gentleman who suddenly waves Mike down and says, "HI!!" He promptly picks up his lanky 8 year old(ish) son by the shoulders and shows him to Mike exclaiming, "FROM THE PLANE!" 
+
+It was flat out hilarious. Probably the last interaction we expected after this long and physically challenging day but it really got a hardy laugh out of us! He was SO excited to recognize Mike 🤣 We said hi!! and everyone went on their way lol.
+
+We made it to the midway point back and oh! There's the goat!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783773933/20260708_141248_gvqm1h.jpg)
+
+Almost back to the car, we spot a van that appears to be an ambulance. A seemingly EMT is hustling with another man towards us to assist someone up the mountain. What a difficult job!
+
+Thankfully there was enough time to shower and head to lunch/dinner as we were much too late for lunch but entirely too late for dinner too.
+
+We headed to this restaurant that was next door to our activity that evening and it had great views!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783774067/20260708_155155_i5ewsu.jpg)
+
+The restaurant was really pretty inside too!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783774101/20260708_155420_xegeeo.jpg)
