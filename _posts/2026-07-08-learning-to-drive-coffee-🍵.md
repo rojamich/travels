@@ -27,7 +27,7 @@ We made our breakfast and packed up for the day ahead, stopping to read and play
 
 There was a nearby cafe and we parked there and scouted the place. Are there cookies? Coffee? A workspace? Yes. Yes. and YES! Mike locked up parking and I searched for an open booth. A group appeared to be leaving so I asked and the gentleman said yes! He seemed very excited! He then said, "Your English is SO good! Where are you from?!
 
-I nearly choked on my own spit before getting out that I'm from Oregon - it was too dang funny! I didn't outwardly laugh, only on the inside. We chatted about where he's from (Michigan) and hiking before his group took off after clearly the table. I may never forget that interaction. I'm so proud of my English 😮
+I nearly choked on my own spit before getting out that I'm from Oregon - it was too dang funny! I didn't outwardly laugh, only on the inside. We chatted about where he's from (Michigan) and hiking before his group took off after clearing the table. I may never forget that interaction. I'm so proud of my English 😮
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783798921/20260709_110102_vtvlzw.jpg)
 
