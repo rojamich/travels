@@ -12,7 +12,9 @@ header:
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783766199/20260708_122153_1_yscnie.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783766225/20260708_125337_szufuu.jpg
-tags: []
+tags:
+  - RockClimbing
+  - Hiking
 toc: false
 ---
 The weather held out for us! It's a beautiful morning for a rock climbing lesson 🥳 We made breakfast 🍳 and headed out to meet our guide. 
