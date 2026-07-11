@@ -188,3 +188,9 @@ We headed to this restaurant that was next door to our activity that evening and
 The restaurant was really pretty inside too!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783774101/20260708_155420_xegeeo.jpg)
+
+They also had this poster that Mike was a fan of. Look at all the different fish!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783774168/20260708_155134_rzakfi.jpg)
+
+They had the softest and tastiest rye bread my mouth has ever beheld. That could be the hunger and exhaustion talking.
