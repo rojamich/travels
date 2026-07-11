@@ -1,13 +1,21 @@
 ---
-title: "Ba Na Hills, the Golden Bridge, and the Marble Mountains"
+title: Ba Na Hills, the Golden Bridge, and the Marble Mountains
 date: 2025-12-24
 categories:
   - vietnam
 order: 8
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783627156/20251216_094338_e6izji.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783627138/20251216_083716_gt2uoi.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 40
+  overlay_focal_x: 50
+  overlay_focal_y: 33
 tags:
   - Vietnam
 location:
-  name: "Ba Na Hills, Vietnam"
+  name: Ba Na Hills, Vietnam
   lat: 15.9988
   lng: 107.9988
 ---
