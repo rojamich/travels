@@ -194,3 +194,7 @@ They also had this poster that Mike was a fan of. Look at all the different fish
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783774168/20260708_155134_rzakfi.jpg)
 
 They had the softest and tastiest rye bread my mouth has ever beheld. That could be the hunger and exhaustion talking.
+
+The fish soup and Bacalao (tomato-based fish stew) were fine. 
+
+{% gallery_block %7B%22photos%22%3A%5Bnull%2Cnull%5D%2C%22caption%22%3A%22%22%7D %}
