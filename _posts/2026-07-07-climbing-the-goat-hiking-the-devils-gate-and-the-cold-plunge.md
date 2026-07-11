@@ -229,6 +229,8 @@ Some time later, we notice our books are falling apart due to the heat and we mu
 
 After our third jump, Mike discovers a jelly fish! What the heck! A quick search and it is likely a "a moon jellyfish - harmless to humans with a mild sting." Ok google, any sting is not harmless lol. 
 
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783792575%2F20260708_193640_nbbtrh.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783792573%2F20260708_193642_uovi0q.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
 We head to the front door for our final plunge and... we push... we pull... nothing. WE ARE LOCKED IN THE HOT LOBBY OF THE SAUNA. We both try the door with no luck and recall we had to have it unlocked by the front door. No phone number for the sauna. Thankfully, the windows of the bathroom are small but Mike is able to squeeze through and jump down to alert the staff who are clearly not monitoring any cameras. He also cuts his arm in the process! 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783793035/20260708_202521_valztx.jpg)
