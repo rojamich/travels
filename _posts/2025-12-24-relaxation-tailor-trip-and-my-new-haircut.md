@@ -1,9 +1,17 @@
 ---
-title: "Relaxation, tailor trip, and my new haircut!"
+title: Relaxation, tailor trip, and my new haircut!
 date: 2025-12-24
 categories:
   - vietnam
 order: 9
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783627273/20251217_155700_wmhnfz.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783627279/20251217_092835_igcvis.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 80
+  overlay_focal_x: 50
+  overlay_focal_y: 56
 tags:
   - Vietnam
 ---
