@@ -1,7 +1,7 @@
 ---
 title: Fjords & Forever
-description: Twenty-six days exploring, rock climbing, paddleboarding, kayaking,
-  and hiking throughout the country of Norway!
+description: Twenty-six days exploring, rock climbing, kayaking, and hiking
+  throughout the country of Norway!
 cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782735243/20260629_102929_dpkkzb.jpg
 cover_focal_x: 50
 cover_focal_y: 28
