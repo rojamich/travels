@@ -1,9 +1,17 @@
 ---
-title: "A Long Day of Travel!"
+title: A Long Day of Travel!
 date: 2025-12-12
 categories:
   - vietnam
 order: 2
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783804021/20251208_132841_nuyvvd.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783804025/20251208_095740_l4nia0.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 39
+  overlay_filter: 0
 tags:
   - Vietnam
 ---
