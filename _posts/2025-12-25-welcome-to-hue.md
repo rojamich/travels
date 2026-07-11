@@ -1,13 +1,21 @@
 ---
-title: "Welcome to Hue!"
+title: Welcome to Hue!
 date: 2025-12-25
 categories:
   - vietnam
 order: 11
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783627000/20251220_150533_jc10sj.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783627009/20251220_085145_l3xnzb.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 73
+  overlay_focal_x: 50
+  overlay_focal_y: 71
 tags:
   - Vietnam
 location:
-  name: "Hue, Vietnam"
+  name: Hue, Vietnam
   lat: 16.4637
   lng: 107.5909
 ---
