@@ -15,7 +15,11 @@ header:
 tags: []
 toc: false
 ---
-The weather held out for us! It's a beautiful morning for a rock climbing lesson 🥳 We made breakfast 🍳 and headed out to meet our guide. We arrived early (a true surprise) and our guide, Chris arrived shortly thereafter. He was so excited and personable, we were quickly put at ease. We all talked about travel, accents, and exercise as we got fitted for our gear. Mike has had more experience than I with outdoor climbing so I was excited to see him in action! I volunteered to carry some of the gear and the three of us donned our backpacks and drove over to the hike point.
+The weather held out for us! It's a beautiful morning for a rock climbing lesson 🥳 We made breakfast 🍳 and headed out to meet our guide. 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783790951/20260708_082301_0_rnjxmr.jpg "Check out this cool church we saw along the way!")
+
+We arrived early (a true surprise) and our guide, Chris arrived shortly thereafter. He was so excited and personable, we were quickly put at ease. We all talked about travel, accents, and exercise as we got fitted for our gear. Mike has had more experience than I with outdoor climbing so I was excited to see him in action! I volunteered to carry some of the gear and the three of us donned our backpacks and drove over to the hike point.
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783766707%2F20260708_083746_xktxty.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783766708%2F20260708_083749_rctb60.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783766708%2F20260708_083755_qpoiw9.jpg%22%5D%2C%22caption%22%3A%22Do%20you%20see%20those%20pointy%20parts%20in%20the%20far%20distance%20on%20top%20of%20that%20mountain%3F%20That's%20where%20we%20are%20hiking%20to%20start%20our%20rock%20climb%20to%20eventually%20sit%20atop!%22%7D %}
 
@@ -198,3 +202,7 @@ They had the softest and tastiest rye bread my mouth has ever beheld. That could
 The fish soup and Bacalao (tomato-based fish stew) were fine. 
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783774236%2F20260708_162034_iitpkl.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783774259%2F20260708_162031_drt1jt.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+The drive around the small town was well-worth it, though!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783790867%2F20260708_165359_iylyle.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783790871%2F20260708_165357_s3qdze.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
