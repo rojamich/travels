@@ -229,4 +229,16 @@ Some time later, we notice our books are falling apart due to the heat and we mu
 
 After our third jump, Mike discovers a jelly fish! What the heck! A quick search and it is likely a "a moon jellyfish - harmless to humans with a mild sting." Ok google, any sting is not harmless lol. 
 
-We head to the front door for our final plunge
+We head to the front door for our final plunge and... we push... we pull... nothing. WE ARE LOCKED IN THE HOT LOBBY OF THE SAUNA. We both try the door with no luck and recall we had to have it unlocked by the front door. No phone number for the sauna. Thankfully, the windows of the bathroom are small but Mike is able to squeeze through and jump down to alert the staff who are clearly not monitoring any cameras. He also cuts his arm in the process! 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783793035/20260708_202521_valztx.jpg)
+
+What if we fainted? What if we slipped? What a way to go.
+
+The clueless kid at the desk says sorry to Mike and unlocks the door. The heat in the sauna has climbed to 95c which is 203 degrees Fahrenheit♨️🔥🌵🥵!! 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783793126/20260708_200518_xzd5dc.jpg)
+
+It was a .. mixed experience! We are so happy we tried the cold plunge and took care of our bodies overall! It was a mostly relaxing and fun experience but man. That was scary for a second lol. 
+
+Back at the Airbnb we did some yoga to loosen up the muscles more from the long day and hit the hay 🥱
