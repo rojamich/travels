@@ -55,4 +55,40 @@ Well ok then 🤣🤣 There isn't even tipping here!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783799535/20260709_124910_r35rei.jpg)
 
-Feeling fortified, it was finally time for my first manual driving lesson.
+Feeling fortified, it was finally time for my first manual driving lesson. 
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783798531%2F20260709_132153_qpre7c.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783799587%2F20260709_132133_fnz2r3.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+It went really well and I didn't stall once! I could get into second and made it back and forth a big parking lot multiple times. I finally felt comfortable to circle around the neighborhood! One problem. Every street has a big hill. Not San Fran big but big enough. Nope, nope, nope. Slapped the Ebrake and climbed out. A little girl lept off her porch chair to ask if something was wrong lol. Thankfully, Mike bailed me out and got us up the hill. Lesson one complete.
+
+Our next stop was Henningsvær, the next island over! It was a raining now and we made it to our hotel in no time at all. We were able to check in early and get cozy.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783799768/20260709_143601_brm1ja.jpg "The view from our room!")
+
+Crap on a spatula this bed is comfy as all get out!!
+
+Look at the size of this pillow! (regular pillow for scale).
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783799811/20260710_073418_tx4zev.jpg)
+
+The comforter was equally fluffy and our sore bodies were ever-so-grateful. Reading and resting commenced!
+
+We donned some waterproof clothing and made the 15 min walk to a nearby restaurant for dinner. 
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783800188%2F20260709_173457_kjs8g0.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783800191%2F20260709_192441_jla5c2.jpg%22%5D%2C%22caption%22%3A%22The%20views%20of%20the%20town%20around%20us.%22%7D %}
+
+The place got really packed really quickly! 
+
+We ordered a pizza and Mike tried the popular Norwegian drink called aquavit! It's distilled from potatoes and he says its very sweet and smooth.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783799937/20260709_181833_xn7itz.jpg)
+
+If you look past the pizza, you'll see the fiskeboller we also tried! They're Fish balls! Aka "breaded, deep-fried croquette-style balls served over a smear of aioli/crème fraîche with a herb oil and dill or fennel garnish." It was so creamy and didn't taste of fish at all! I love fish stuff that tastes nothing like fish 🥇🌟
+
+The pizza was good and we ate it with a fork and knife which was challenging because the pizza seemed to fight back. A lot of people were looking at us. Not sure if it's because we ate our pizza this way or because we spoke English 🤷🏼‍♀️
+
+For dessert we tried a nutella calzone!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783800292/20260709_185345_yddg3u.jpg "It was different but not in a bad way!")
+
+That night was nothing but relaxation and fully taking in the luxurious bed. Hallelujah!
