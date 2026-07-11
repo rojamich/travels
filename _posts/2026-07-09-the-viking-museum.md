@@ -74,7 +74,7 @@ We headed to our Airbnb and it is *very* nice. Tons of amenities and very roomy!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783802393/20260710_191235_q0lkqh.jpg)
 
-The sushi and gyoza were good and I'm so relieved I like more fish food now. I think I would've starved to death or eaten only cheese burgers here if not. 
+The sushi and gyoza were good and I'm so relieved I like more fish food now. I think I would've starved to death or eaten only cheeseburgers here if not. 
 
 Our last stop was the big grocery store in town to shop for breakfast! They had a sliding walkway to get in??
 
