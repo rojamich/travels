@@ -206,3 +206,27 @@ The fish soup and Bacalao (tomato-based fish stew) were fine.
 The drive around the small town was well-worth it, though!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783790867%2F20260708_165359_iylyle.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783790871%2F20260708_165357_s3qdze.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Mike had some time to check in with his dad and we got to see him recently taking up painting!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783790999%2FIMG_20260708_175152_iysvgt.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783791002%2FIMG_20260708_175149_g8uzsr.jpg%22%5D%2C%22caption%22%3A%22How%20awesome%20are%20these%3F%3F%22%7D %}
+
+We packed up to head to the private floating sauna we booked a year ago! I was able to find a paperback for our next two wellness days and settled on "[Till Summer Do Us Part](https://www.goodreads.com/en/book/show/227081370-till-summer-do-us-part)*"* by Meghan Quinn. The sauna sits right on the water and we were able to get the staff to let us in right away. Immediately we are hit with the 29 degrees (85f) which is a start contrast to the 10c degrees (50f) ouside. And that's just the entryway!
+
+The actual room is set to 88c degrees (190f!!) Holy hell and face-melting hot!! I'm more of a steam room girl myself but beggars can't be choosers 🤣
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783792188%2F20260708_185941_yerwyr.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783792192%2F20260708_185947_xynbqr.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Mike has decided he must experience cold plunge which refreshes you after the extreme heat of the sauna. I think he's nuts and this sounds miserable. He quickly hops in and says wow! Refreshing! I check the time, it's only been 10 minutes of our two hour session. I won't make it through two hours of sauna without jumping in. Plus he has done SO much adventurous stuff that I wanted to do... its finally my turn. UGH!
+
+There's a two story dock I decide go big or go home... and I don't have the plane ticket. 
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2FCS5gra4DX4M%3Ffeature%3Dshare%22%7D %}
+
+Holy moly its cold! Really slaps you in the face but dammit if Mike isn't right. It is refreshing. Even at 10 degrees, it's refreshing! Did you notice my double-take when I saw how high I was? Prepping for a cliff jump one day 🤣
+
+Some time later, we notice our books are falling apart due to the heat and we must remove them from the room. 
+
+After our third jump, Mike discovers a jelly fish! What the heck! A quick search and it is likely a "a moon jellyfish - harmless to humans with a mild sting." Ok google, any sting is not harmless lol. 
+
+We head to the front door for our final plunge
