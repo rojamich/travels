@@ -1,13 +1,21 @@
 ---
-title: "The Black Virgin Mountain, the first Cao Dai church, and the Cu Chi Tunnels!"
+title: The Black Virgin Mountain, the first Cao Dai church, and the Cu Chi Tunnels!
 date: 2025-12-18
 categories:
   - vietnam
 order: 6
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783803704/20251213_103727_shyx8q.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783803744/20251213_112114_g02lkt.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 15
 tags:
   - Vietnam
 location:
-  name: "Cu Chi Tunnels, Vietnam"
+  name: Cu Chi Tunnels, Vietnam
   lat: 11.1421
   lng: 106.4636
 ---
