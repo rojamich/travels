@@ -80,6 +80,8 @@ Our last stop was the big grocery store in town to shop for breakfast! They had 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783802476/20260710_162706_qes13z.jpg)
 
-The grocery store was in the lower floor of the mall 😮
+The grocery store was in the lower floor of the mall 😮 This is where I saw something interesting.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783802691/20260710_164647_ml4dcf.jpg "Why.")
 
 That night we watched Belgium vs. Spain and slept, slept, slept!
