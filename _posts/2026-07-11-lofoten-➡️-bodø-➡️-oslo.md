@@ -6,7 +6,7 @@ categories:
 order: 24
 header:
   teaser_focal_x: 50
-  teaser_focal_y: 50
+  teaser_focal_y: 7
   overlay_focal_x: 50
   overlay_focal_y: 53
   overlay_filter: 0.4
