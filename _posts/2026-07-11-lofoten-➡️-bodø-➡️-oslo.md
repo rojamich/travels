@@ -27,9 +27,9 @@ Regardless, we sprung out of bed and made breakfast, packed, and hit the road fo
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783873923%2F20260712_094148_1_ewhvdf.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783873843%2F20260712_094154_kbmaga.jpg%22%5D%2C%22caption%22%3A%22Mike%20says%20this%20is%20my%20zen%20face.%22%7D %}
 
-It went really well! I was able to shift and stop and get up to third! Of course, everyone and their mom decided to come to the same intersection at once so I got a smidge overwhelmed then. Its not fun driving manual when you have to give the right-of-way to everyone on your right when driving down the road. There are no stop signs in Lofoten just this policy. 
+It went really well! I was able to shift and stop and get up to third! Of course, everyone and their mom decided to come to the same intersection at once so I got a smidge overwhelmed then. Its not fun driving manual when you have to give the right-of-way to everyone on your right when driving down the road. There are no stop signs in Lofoten, just this policy. 
 
-But I felt good and appreciated my patient teacher! I don't understand why people enjoy driving manual but love it on a motorcyle. Probably the same reason I'm bad at soccer.
+But I felt good and appreciated my patient teacher! I don't understand why people enjoy driving manual but love it on a motorcyle. Probably the same reason I'm bad at soccer. Poor hand-foot coordination.
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783874065%2F20260712_095135_xkq6rd.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783874070%2F20260712_095128_intnuo.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -53,7 +53,7 @@ We grabbed Mikes coffee and headed back to the car where we saw the same man aga
 
 I had to hold all of my laughter in as we walked away. My eyes were streaming with laughing tears but I held the hysterics in until we got in the car.
 
-Finally, we dropped off the rental car and grabbed coffee and snacks (these were hard to find because it's Sunday and a lot of places are closed on Sundays here). But my hot caramel latte was really good! When Mike went to order, one of the girls at the counter was singing "put the lime in the coconut" and her coworkers were teasing her because no one knows that song. Mike confirmed he knew the song and she said, "It's from friends!" Apparently, people often use friends to learn English!
+Finally, we dropped off the rental car and grabbed coffee and snacks (these were hard to find because it's Sunday and a lot of places are closed on Sundays here). But my hot caramel latte was really good! When Mike went to order, one of the girls at the counter was singing "put the lime in the coconut" and her coworkers were teasing her because no one knows that song. Mike confirmed he knew the song and she said, "It's from friends!" Apparently, people often use friends (the TV show) to learn English!
 
 Our ferry ran during lunch and was 3.5 hours long. It was a "speedboat ferry". They immediately advised to stay seated as much as possible because we had poor weather which made for a rocky ride. 
 
