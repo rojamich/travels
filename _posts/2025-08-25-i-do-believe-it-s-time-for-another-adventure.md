@@ -1,9 +1,17 @@
 ---
-title: "I do believe it's time for another adventure!"
+title: I do believe it's time for another adventure!
 date: 2025-08-25
 categories:
   - peruvian-passage
 order: 1
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783871634/Globetrotting_duo_and_dreamy_landmarks_gvy1pp.png
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783871640/image_1_r7ulaw.png
+  teaser_focal_x: 50
+  teaser_focal_y: 17
+  overlay_focal_x: 50
+  overlay_focal_y: 81
+  overlay_filter: 0
 tags:
   - Peru
 ---
