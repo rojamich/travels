@@ -19,19 +19,21 @@ Norway was a gorgeous and magical place. Each fjord, summit, and island took our
 
 I'm so grateful we were able to hit my bucket list country - far before my fortieth birthday and revel in the beauty that is Norway. We tried so many new things, many of which, I never thought I would (re: fish).
 
-Mike and I used the eSIM app here, which worked well everywhere we went! Wifi was also available in most restaurants with the code almost always being the same series of numbers (everywhere!)
+Mike and I used the eSIM app here, which worked well everywhere we went! Even in the remote towns! Wifi was also available in most cafes but not restaurants.
 
-We utilized planes, trains, buses, grab, walking, bicycles, motorbikes, and ferries for our modes of transportation here!
+We utilized planes, trains, trams, buses, walking, and ferries for our modes of transportation here!
 
-Saigon> 38.87 miles
+Oslo > miles
 
-Hoi An> 41.11 miles
+Svalbard >  miles
 
-Hue > 11.64 miles
+Bergen >  miles
 
-Hanoi + tours > 84.90 miles
+Stavanger + tours >  miles
 
-Total Miles Walked in 24 days is 176.52 miles!
+Lofoten > miles
+
+Total Miles Walked in 26 days is 176.52 miles!
 
 That’s like walking from Macon, GA to Savannah, GA!
 
@@ -45,4 +47,4 @@ San Francisco, CA to Fresno, CA!
 
 Thanks so much for coming on this journey with us :) 
 
-See you up next for for Singapore!
+See you up next for for Tbilisi, Georgia!
