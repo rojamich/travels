@@ -1,9 +1,17 @@
 ---
-title: "Leaving HCMC ----> Coastal Hoi An"
+title: Leaving HCMC ----> Coastal Hoi An
 date: 2025-12-19
 categories:
   - vietnam
 order: 7
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783870811/20251215_152116_laykwe.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783870837/20251215_134234_aiyscm.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 26
+  overlay_focal_x: 50
+  overlay_focal_y: 82
 tags:
   - Vietnam
 ---
