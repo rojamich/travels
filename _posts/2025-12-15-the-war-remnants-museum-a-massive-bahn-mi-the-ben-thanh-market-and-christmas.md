@@ -9,6 +9,10 @@ header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783870261/20251211_074839_wzvtw7.jpg
   overlay_filter: 0
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783870282/20251211_121703_v9eje4.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 78
 tags:
   - Vietnam
 location:
