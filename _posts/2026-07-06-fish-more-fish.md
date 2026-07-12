@@ -16,9 +16,9 @@ tags:
   - Food
   - Flights
 location:
-  name: Lofoten, Norway
-  lat: 67.879578
-  lng: 12.98407
+  name: Svolvær, Lofoten Norway
+  lat: 68.280172
+  lng: 14.66002
 toc: false
 ---
 Our morning alarm came early as I stayed up working on the blog and watching the Spain v. Portugal game 🤯
