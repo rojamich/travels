@@ -1,13 +1,21 @@
 ---
-title: "Meeting Our Vietnamese Tutor, Egg Coffee, and Bùi Viện Walking Street"
+title: Meeting Our Vietnamese Tutor, Egg Coffee, and Bùi Viện Walking Street
 date: 2025-12-17
 categories:
   - vietnam
 order: 5
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783870381/20251212_141721_0_b0xird.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783870387/20251212_161620_g58san.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 100
+  overlay_focal_x: 50
+  overlay_focal_y: 33
+  overlay_filter: 0
 tags:
   - Vietnam
 location:
-  name: "Ho Chi Minh City"
+  name: Ho Chi Minh City
   lat: 10.8231
   lng: 106.6297
 ---
