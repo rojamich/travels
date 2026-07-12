@@ -1,13 +1,21 @@
 ---
-title: "Flâner Day in Saigon"
+title: Flâner Day in Saigon
 date: 2025-12-15
 categories:
   - vietnam
 order: 3
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783870083/20251210_145305_wqryup.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783870131/20251210_095448_jkgyaa.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 81
+  overlay_focal_x: 50
+  overlay_focal_y: 49
+  overlay_filter: 0
 tags:
   - Vietnam
 location:
-  name: "Ho Chi Minh City"
+  name: Ho Chi Minh City
   lat: 10.8231
   lng: 106.6297
 ---
