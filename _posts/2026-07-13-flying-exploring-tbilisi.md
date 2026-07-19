@@ -69,6 +69,8 @@ We circled Freedom Square and searched for a good lunch spot. Breakfast typicall
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784462374/20260714_134445_snyxt6.jpg)
 
+There was a fancy gym nearby so we decided to check it out. It was $250 a month PER PERSON! That would be an insane price for the US much less Georgia!
+
 We found a good looking Khinkali spot (the food Jenna dreams of ever since visiting here 6 years ago) and found a spot inside. It was decorated with Spanish! 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784462688/20260714_140243_og0oou.jpg)
@@ -81,4 +83,20 @@ I'm so happy it's everything I remembered and Mike says it far surpasses the one
 
 The woman running the shop teaches us how to say delicious (gemrieli) in Georgian. We thanked her (madloba) and headed towards the local medium-sized grocery store to stock up.
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784462935/20260714_145621_qorbdx.jpg)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784462935/20260714_145621_qorbdx.jpg "This is the typical sentiment here (and many places). Russian has a history of invading, controlling, encroaching Georgia.")
+
+Many protests here are anti-Russian in nature and they have a similar relationship with Russia as Ukraine does with Russia. 
+
+Later that evening we headed to check out the nearby gym outdoor gym - its pretty freaking awesome!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784463327%2F20260714_200001_uxc1s5.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784463337%2F20260714_200017_lyjww3.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784463335%2F20260714_200024_tg4jtx.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784463327%2F20260714_200011_jx0bvy.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784463326%2F20260714_200029_xs6a2a.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784463325%2F20260714_200039_vyg1m5.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784463324%2F20260714_200035_mvqm2p.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+There is a resistance knob on each machine and it'll be great to use this with our month here!
+
+That night we head to a Khinkali House nearby (one of many but the same chain Jenna visited her first time here). It was busy as all get out and the music was BLARING inside! 
+
+We tried Adjaruli Khachapuri - a bread boat with cheese and egg!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784463476/20260714_204520_hmlghh.jpg)
+
+The food and lemonade were good but nowhere near as good as this afternoon's! Another sweaty walk later and we were home for a shower, yoga, and to sleep for 11.5 hours!
