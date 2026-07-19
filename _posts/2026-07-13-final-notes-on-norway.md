@@ -17,34 +17,34 @@ toc: false
 ---
 Norway was a gorgeous and magical place. Each fjord, summit, and island took our breath away with more majesty than we thought existed on this Earth. The colors surprised us and the way we were physically challenged was so rewarding 💪🏼🥾
 
-I'm so grateful we were able to hit my bucket list country - far before my fortieth birthday and revel in the beauty that is Norway. We tried so many new things, many of which, I never thought I would (re: fish).
+I'm so grateful we were able to hit my bucket list country - far before my fortieth birthday and revel in the beauty that is Norway. We tried so many new things, many of which, I never thought I would (ex: fish).
 
 Mike and I used the eSIM app here, which worked well everywhere we went! Even in the remote towns! Wifi was also available in most cafes but not restaurants.
 
-We utilized planes, trains, trams, buses, walking, and ferries for our modes of transportation here!
+We utilized planes, trains, trams, buses, walking, bolt and ferries for our modes of transportation here!
 
-Oslo > miles
+Oslo > 54.65 miles
 
-Svalbard >  miles
+Svalbard > 26.6 miles
 
-Bergen >  miles
+Bergen + Flåm>  28.2 miles
 
-Stavanger + tours >  miles
+Stavanger + tours > 26.76 miles
 
-Lofoten > miles
+Lofoten > 32.31 miles
 
-Total Miles Walked in 26 days is 176.52 miles!
+Total Miles Walked in 26 days is 168.52 miles!
 
-That’s like walking from Macon, GA to Savannah, GA!
+That’s like walking from Atlanta, GA to Augusta, GA!
 
 OR
 
-Portland, OR to Bend, OR!
+Portland, OR to Eugene, OR!
 
 OR 
 
-San Francisco, CA to Fresno, CA!
+San Diego, CA to Palm Springs, CA!
 
 Thanks so much for coming on this journey with us :) 
 
-See you up next for for Tbilisi, Georgia!
+See you up next for for Welcome Home: [Tbilisi, Georgia](https://where-in-the-world-are-mike-and-jen.netlify.app/welcome-home-tbilisi-georgia/)!
