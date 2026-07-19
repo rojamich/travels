@@ -37,7 +37,7 @@ It was overwhelming with all the choices! We started with the outdoor jacuzzi an
 
 We decided it was time to try the saunas downstairs and each is set to a different temperature. The choices as I would've labeled them were:
 
-1. Hot as Hell
+1. Hot as the Depths of Hell
 2. Fiery Inferno
 3. Boiling Day in the Desert
 
@@ -53,4 +53,16 @@ To cool off, we tried the showers that had many different settings like:
 
 There were seven but I can't remember them all, I'm so sorry 😶
 
-Then, there was the waterfall experience 😍Easily my favorite feature of the spa. We got to walk through seven different types of "waterfalls" that each had their own special affects.
+Then, there was the waterfall experience 😍Easily my favorite feature of the spa. We got to walk through seven different types of "waterfalls" that each had their own special affects. Some felt fantastic on the shoulders, others massaged my calves. Many, I felt like I was showering below an actual waterfall! It was supremely relaxing!
+
+Emerging, we tried the indoor jacuzzi and it was, again, too chilly of water. Let's try one of their "experiences"! Mike suggested getting in line early and I'm glad he did! It got really busy, really quickly. This took place in the upstairs sauna and I grabbed a middle-bench seat while Mike bravely grabbed an upper bench seat (its hotter on top). The room was at 88c (190f) to start. A buff and enthusiastic gentleman came in with a stereo, a collapsible hand-held fan, and three (large-hand) sized snowballs that were filled with essential oils. 
+
+He introduced himself and advised the session would only be 11 minutes long (ok, I'm thinking to myself, I can totally do 11 minutes in the fiery underworld that is this sauna room). He said it will also get hotter and people are free to leave at any time (HOTTER? There are people below me on the lower bench, sir, how do you propose I leave??). It's ok, its ok, I can do this. He plays the upbeat, instrumental music that helps me focus on my breathing and relax. Its easy to keep track of how far the session has left because he begins by breaking one of the snowballs over the hot stone bed in the middle of the room, releasing the oils into the air. He fans around the room, spreading the heat as well as the scents. Halfway through, the second ball is broken, and I am sure I'll make it through 💪🏼 Yay me!
+
+Released from purgatory within the Sahara Desert, there are cold showers directly across and we line up for them. Thankfully, Mike is paying attention and warns me that I'm entering the male showers 🤣 CLOSE ONE!
+
+It's lunch time so we try some delicious and fresh poke bowls! Mine has teriyaki chicken and Mike's has salmon. They were so dang good and flavorful! WOW! I need to make these at home! 
+
+We decide to try the pool which was refreshing and then hit another jacuzzi to cap the experience off. It felt a bit warmer and the jets were better. I read my book and just let loose. I hit the showers while Mike enjoyed one more sauna session. 
+
+Leaving the spa, we had to rush to the bus stop to start our journey back to the airport hotel. It was a *very* warm day in Oslo and we actually jogged to our stop so we were immediately hot and sweaty. The first bus took us all the way downtown for our last Paradis gelato
