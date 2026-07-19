@@ -97,6 +97,119 @@
           });
       }
 
+      // -----------------------------------------------------------------
+      // Multi-tab detector.
+      // -----------------------------------------------------------------
+      // gotrue-js stores tokens in localStorage. When Tab A refreshes the
+      // JWT, the old refresh_token is INVALIDATED on the server. Tab B is
+      // still holding that stale token — its next save fails with
+      // "ACCESS_TOKEN_ERROR: Failed getting access token". Any unsaved
+      // content in Tab B is then lost on refresh.
+      //
+      // We use the BroadcastChannel API to detect a sibling admin tab and
+      // show a red warning banner in whichever tab was second. She can
+      // still work in it — but the banner tells her the risk clearly.
+      (function () {
+        try {
+          var bc = new BroadcastChannel("travel-admin-tabs");
+          var iAmSecond = false;
+          bc.postMessage({ type: "hello", ts: Date.now() });
+          bc.onmessage = function (e) {
+            if (e.data && e.data.type === "hello" && !iAmSecond) {
+              // Another tab exists and it was here first (it responds).
+              iAmSecond = true;
+              showMultiTabBanner();
+              bc.postMessage({ type: "ack" });
+            } else if (e.data && e.data.type === "ack") {
+              // Someone else's hello — respond so THEY know we're first.
+              bc.postMessage({ type: "ack" });
+            }
+          };
+        } catch (e) {
+          // BroadcastChannel not supported — fall back silently.
+        }
+      })();
+
+      function showMultiTabBanner() {
+        if (document.getElementById("multi-tab-banner")) return;
+        var b = document.createElement("div");
+        b.id = "multi-tab-banner";
+        b.innerHTML =
+          "⚠️ <strong>Another editor tab is open.</strong> " +
+          "Multiple tabs cause save failures and can lose your work. " +
+          "Close the other tab before saving here.";
+        b.style.cssText =
+          "position:fixed;top:0;left:0;right:0;padding:10px 20px;" +
+          "background:#f0ad4e;color:#fff;font-size:14px;font-weight:bold;" +
+          "text-align:center;z-index:2147483646;box-shadow:0 2px 8px rgba(0,0,0,0.3);";
+        document.body.appendChild(b);
+      }
+
+      // -----------------------------------------------------------------
+      // Autosave-to-localStorage safety net.
+      // -----------------------------------------------------------------
+      // Independent of Decap's git-gateway save flow: every 30 seconds we
+      // snapshot the content of every markdown editor on the page into
+      // localStorage. If a save fails and she refreshes, we DON'T lose the
+      // work — she can copy it back from localStorage via the console:
+      //     Object.keys(localStorage)
+      //       .filter(k => k.startsWith("editor-snapshot:"))
+      //       .forEach(k => console.log(k, localStorage.getItem(k)));
+      // Old snapshots (>7 days) are cleaned up on load so localStorage
+      // doesn't grow unbounded.
+      (function () {
+        var SNAP_PREFIX = "editor-snapshot:";
+        var MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
+
+        function cleanOld() {
+          try {
+            var now = Date.now();
+            var keys = Object.keys(localStorage);
+            keys.forEach(function (k) {
+              if (k.indexOf(SNAP_PREFIX) !== 0) return;
+              var raw = localStorage.getItem(k);
+              try {
+                var obj = JSON.parse(raw);
+                if (obj && obj.ts && (now - obj.ts) > MAX_AGE_MS) {
+                  localStorage.removeItem(k);
+                }
+              } catch (e) {
+                localStorage.removeItem(k);
+              }
+            });
+          } catch (e) {}
+        }
+
+        function snapshot() {
+          try {
+            var editors = document.querySelectorAll(
+              'textarea, [contenteditable="true"], [role="textbox"]'
+            );
+            var totalLen = 0;
+            editors.forEach(function (el, i) {
+              var val = el.value || el.innerText || "";
+              if (val.length < 100) return;   // ignore tiny inputs
+              totalLen += val.length;
+              var key = SNAP_PREFIX + (el.id || el.name || ("editor-" + i));
+              localStorage.setItem(key, JSON.stringify({
+                ts: Date.now(),
+                url: location.href,
+                len: val.length,
+                content: val
+              }));
+            });
+            if (totalLen > 0) {
+              console.log("[safety-net] snapshot: " + totalLen + " chars stored in localStorage");
+            }
+          } catch (e) {
+            console.warn("[safety-net] snapshot failed:", e && e.message);
+          }
+        }
+
+        cleanOld();
+        setInterval(snapshot, 30 * 1000);
+      })();
+
       whenReady(function () {
         netlifyIdentity.on("init", function (user) {
           if (!user) {
