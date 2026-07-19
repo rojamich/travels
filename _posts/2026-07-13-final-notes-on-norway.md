@@ -21,15 +21,15 @@ I'm so grateful we were able to hit my bucket list country - far before my forti
 
 Mike and I used the eSIM app here, which worked well everywhere we went! Even in the remote towns! Wifi was also available in most cafes but not restaurants.
 
-We utilized planes, trains, trams, buses, walking, bolt and ferries for our modes of transportation here!
+We utilized planes, trains, and automobiles! Also trams, buses, walking, bolt and ferries for our modes of transportation here!
 
 Oslo > 54.65 miles
 
 Svalbard > 26.6 miles
 
-Bergen + Flåm>  28.2 miles
+Bergen + Flåm >  28.2 miles
 
-Stavanger + tours > 26.76 miles
+Stavanger + hikes > 26.76 miles
 
 Lofoten > 32.31 miles
 
