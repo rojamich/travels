@@ -75,4 +75,6 @@ We grabbed our bags and walked to the airport, hoping there would be acceptable 
 
 We had to pass through into the international section of the airport and there were very few food options. We opted for Italian and it was quite bad. Mike ate my poorly chosen pesto and I ate his bad carbonara (it was still better than pesto and Mike is, once again, a saint). 
 
-There was Starbucks there though! So I got a frapp and did a little happy dance as I enjoyed my book some more. Our flight was, once again, delayed. But we were stocked up with snacks and water so we were prepared for the next 5.5 hours of red eye flying.
+There was Starbucks there though! So I got a frapp and did a little happy dance as I enjoyed my book some more. Our flight was, once again, delayed. But we were stocked up with snacks and water so we were prepared for the next 5.5 hours of red eye flying. 
+
+Ps. The photo at the top of this post of the airplane was from a previous flight but I had no other photos for the day and I have to add something, sorry if this confused you!
