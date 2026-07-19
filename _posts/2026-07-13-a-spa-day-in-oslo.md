@@ -25,11 +25,11 @@ Our flight was scheduled for 9pm but because of the late night flight curse, we 
 
 We passed out quickly in the air conditioned bliss. Thankfully, we woke up early enough to hit the gym and it felt great to get back in there.
 
-The breakfast buffet was good and plentiful! They had these scrumptious blueberry muffins that had some amazing crumble on top 🤤It reminded me of the muffins I used to make Mike and I when we first got married!
+The breakfast buffet was good and plentiful! They had these scrumptious blueberry muffins  that had some amazing crumble on top 🤤It reminded me of the muffins I used to make Mike and I when we first got married!
 
 We packed up and the hotel held our bags in storage because we were close to the airport and our flight to Tbilisi was tonight 😮
 
-A bolt came to pick us up (their version of Uber) and we were grateful for a mostly highway drive because our driver was a speedster! Once we hit the backroads to the spa, it was windy and fast 🤮
+A bolt ⚡ came to pick us up (their version of Uber) and we were grateful for a mostly highway drive because our driver was a speedster 🏎️! Once we hit the backroads to the spa, it was windy and fast 🤮
 
 Grateful to be out of the car, we were welcomed warmly into the spa and given robes and towels. We had separate rooms for males/females with lockers, changing areas, showers, bathrooms, etc. The actual [spa](https://thewell.no/) is MASSIVE! There were indoor and outdoor pools, saunas, hot tubs, meditation rooms, bars, a restaurant, "experiences" and massages!
 
@@ -53,7 +53,7 @@ To cool off, we tried the showers that had many different settings like:
 
 There were seven but I can't remember them all, I'm so sorry 😶
 
-Then, there was the waterfall experience 😍Easily my favorite feature of the spa. We got to walk through seven different types of "waterfalls" that each had their own special affects. Some felt fantastic on the shoulders, others massaged my calves. Many, I felt like I was showering below an actual waterfall! It was supremely relaxing!
+Then, there was the waterfall experience 😍Easily my favorite feature of the spa. We got to walk through ten different types of "waterfalls" that each had their own special affects. Some felt fantastic on the shoulders, others massaged my calves. Many, I felt like I was showering below an actual waterfall! It was supremely relaxing!
 
 Emerging, we tried the indoor jacuzzi and it was, again, too chilly of water. Let's try one of their "experiences"! Mike suggested getting in line early and I'm glad he did! It got really busy, really quickly. This took place in the upstairs sauna and I grabbed a middle-bench seat while Mike bravely grabbed an upper bench seat (its hotter on top). The room was at 88c (190f) to start. A buff and enthusiastic gentleman came in with a stereo, a collapsible hand-held fan, and three (large-hand) sized snowballs that were filled with essential oils. 
 
@@ -65,16 +65,18 @@ It's lunch time so we try some delicious and fresh poke bowls! Mine has teriyaki
 
 We decide to try the pool which was refreshing and then hit another jacuzzi to cap the experience off. It felt a bit warmer and the jets were better. I read my book and just let loose. I hit the showers while Mike enjoyed one more sauna session. 
 
-Leaving the spa, we had to rush to the bus stop to start our journey back to the airport hotel. It was a *very* warm day in Oslo and we actually jogged to our stop so we were immediately hot and sweaty. The first bus took us all the way downtown for our last Paradis gelato 😍 Of course, this location did not have my flavors. So, Mike, being the saint he is, found another one very close by! That's where I found out that the two flavors I fell in love with, were seasonal and gone. What the heck, we haven't been gone that long! 
+Leaving the spa, we had to rush to the bus stop to start our journey back to the airport hotel. It was a *very* warm day in Oslo and we actually jogged to our stop (barely arriving to the bus stop as it pulled up) so we were immediately hot and sweaty. The first bus took us all the way downtown for our last Paradis gelato 😍 Of course, this location did not have my flavors. So, Mike, being the saint he is, found another one very close by! That's where I found out that the two flavors 🍨 I fell in love with, were seasonal and gone. What the heck, we haven't been gone that long! 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784448374/20260713_160959_z8bsys.jpg)
 
-So I tried kinder bar (delicious) and hazelnut (good!) so creamy and refreshing. Mike had the lemon and raspberry (very good!) We had to rush to our train and got good seats in the quiet car - hooray! It was literally so quiet that the loudest sound was my crunch of a waffle cone (sorry!). We immersed ourselves in our books until we reached the hotel stop. 
+So I tried kinder bar (delicious) and hazelnut (good!) so creamy and refreshing. Mike had the lemon and raspberry (very good!) We had to rush to our train and got good seats in the quiet car - hooray! It was literally so quiet that the loudest sound was my crunch of a waffle cone (sorry!). We immersed ourselves in our books 📖 until we reached the hotel stop. 
 
-We grabbed our bags and walked to the airport, hoping there would be acceptable food. Security was smooth and, for the first time in Norway, neither of us had to be checked again or have a bag go through the scanner for a second time (aw yeah!!).
+We grabbed our bags 💼 and walked to the airport 🛬, hoping there would be acceptable food. We got split up at security and it was smooth for me and, I thought for the first time in Norway, we might make it through without having to be checked again or have a bag go through the scanner for a second time. However, as I looked around for Mike, he was waiting in the extra screening area as they had to rerun his bag through the scanner again (This time it flagged his laptop cord... 💻). 
 
-We had to pass through into the international section of the airport and there were very few food options. We opted for Italian and it was quite bad. Mike ate my poorly chosen pesto and I ate his bad carbonara (it was still better than pesto and Mike is, once again, a saint). 
+We had to pass through into the international section of the airport and there were very few food options. We opted for Italian 🍝 and it was quite bad. Mike ate my poorly chosen pesto and I ate his bad carbonara (it was still better than pesto and Mike is, once again, a saint 😇). 
 
-There was Starbucks there though! So I got a frapp and did a little happy dance as I enjoyed my book some more. Our flight was, once again, delayed. But we were stocked up with snacks and water so we were prepared for the next 5.5 hours of red eye flying. 
+There was Starbucks there though! So I got a frapp and did a little happy dance as I enjoyed my book some more. Our flight was, once again, delayed. But we were stocked up with snacks and water so we were prepared for the next 5.5 hours of red-eye flying. 
 
-Ps. The photo at the top of this post of the airplane was from a previous flight but I had no other photos for the day and I have to add something, sorry if this confused you!
+Ps. The photo at the top of this post of the airplane was from a previous flight but I had no other photos for the day and I have to add something, sorry if this confused you! Just imagine it was neon green!\
+\
+P.p.s. Random Emojis brought to you by Mike
