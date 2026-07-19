@@ -21,7 +21,7 @@ location:
   lng: 44.827
 toc: false
 ---
-Per tradition, our late night flight did not leave on time (the curse of the late flight delays!) Instead of arriving in Riga, Latvia (the largest city in the baltics) for a short layover at 1120pm, we arrived at 1150pm and our next flight was AT 1150pm - UGH! We raced to our connection and SURPRISE! We had to go through passport control even though we were just passing through the country for about 30 minutes in the airport. There were only two people working passport control but we were fast enough walkers that we made it there first and met an unsmiling man who seemed mildly amused by our excitement. 
+Per tradition, our late night flight did not leave on time (the curse of the late flight delays!) Instead of arriving in Riga, Latvia (the largest city in the Baltics) for a short layover at 1120pm, we arrived at 1150pm and our next flight was AT 1150pm - UGH 😠! We raced to our connection and SURPRISE 😲! We had to go through passport control even though we were just passing through the country for about 30 minutes in the airport. There were only two people working passport control but we were fast enough walkers that we made it there first and met an unsmiling man who seemed mildly amused by our excitement. 
 
 We spent roughly 1 minute there and continued on to our flight that was just starting to board (WHEW) No problems fitting bags aboard so we were relieved we haven't had any issues yet!
 
@@ -69,7 +69,11 @@ We circled Freedom Square and searched for a good lunch spot. Breakfast typicall
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784462374/20260714_134445_snyxt6.jpg)
 
-There was a fancy gym nearby so we decided to check it out. It was $250 a month PER PERSON! That would be an insane price for the US much less Georgia!
+There was a fancy gym nearby so we decided to check it out. It was $250 a month PER PERSON! That would be an insane price for the US much less Georgia! 
+
+"Mike got confused with the conversion (first day here) and said it looks great and was ready to pay (thinking it was right on budget), luckily he looked at my shocked face and said we'll talk about it and come back. Whew. 😅" *This was written from Mike's perspective.
+
+\*Back to Jenna\*
 
 We found a good looking Khinkali spot (the food Jenna dreams of ever since visiting here 6 years ago) and found a spot inside. It was decorated with Spanish! 
 
