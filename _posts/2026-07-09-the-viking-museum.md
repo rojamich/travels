@@ -15,8 +15,8 @@ header:
 tags:
   - Museum
 location:
-  lat: 60.567631
-  lng: 5.37698
+  lat: 68.1475
+  lng: 13.6004
   name: Leknes, Norway
 toc: false
 ---
