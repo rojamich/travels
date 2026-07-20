@@ -17,11 +17,11 @@ tags:
   - Workout
 toc: false
 ---
-Over the last four days we have gotten into a good rhythm / schedule living here! This is a vastly different trip than our usual of sightseeing and, instead, we are living here and working remotely! Jenna is writing the blogs and prepping for fall term! Mike is also working remotely 💻One morning, our place didn't have gas so we didn't have hot water or gas to cook. We decided this was the perfect day to try the French bakery two blocks away!
+Over the last five days we have gotten into a good rhythm / schedule living here! This is a vastly different trip than our usual of sightseeing and, instead, we are living here and working remotely! Jenna is writing the blogs and prepping for fall term! Mike is also working remotely 💻One morning, our place didn't have gas so we didn't have hot water or gas to cook. We decided this was the perfect day to try the French bakery two blocks away!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784540515%2F20260717_105743_ojcrft.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784540518%2F20260717_105749_rqjqtd.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784540522%2F20260717_111309_cm6q75.jpg%22%5D%2C%22caption%22%3A%22It%20was%20so%20cute!%22%7D %}
 
-They played oldies (think 'Remember the Titans' Soundtrack) and Mike got an Americano and a madame croque (a fancy, toasted ham and cheese sandwich with creamy béchamel sauce and a fried egg)! I got a sesame bagel with scrambled eggs 🤤Very good! I have been absolutely absorbed in the book 'Congo' by Michael Crichton and finished it like I was breathing air! Mike finished the Red Rising series and said the first three books were fantastic but the author should've stopped there.
+They played oldies (think 'Remember the Titans' Soundtrack) and Mike got an Americano and a madame croque (a fancy, toasted ham and cheese sandwich with creamy béchamel sauce and a fried egg)! I got a sesame bagel with scrambled eggs 🤤Very good! I have been absolutely absorbed in the book 'Congo' by Michael Crichton and finished it like I was breathing air! Mike finished the 5th book of the Red Rising series and said the first three books were fantastic but the author should've stopped there.
 
 One night, we saw fireworks and saw the Tbilisi TV Broadcasting Tower nearby is lit up at night!
 
@@ -39,7 +39,7 @@ Check out this enormous tree that is a block away!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784541524/20260717_191101_phwfi0.jpg)
 
-We have made yummy meals like chicken lobio 🫘 blueberry smoothies 🫐 and eggs with veggies.
+We have made yummy meals like chicken lobio 🫘 blueberry smoothies 🫐 and eggs with veggies 🍳.
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784541653%2F20260716_210252_fc3q6r.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784541657%2F20260719_142512_mq8xim.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784571148%2FIMG-20260720-WA0018_bpdgaf.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -77,7 +77,7 @@ He accidentally dropped the last two inches of it on his clothes and we learned 
 
 We made a return trip to the bazaar and replaced my fanny pack (end of an era!) with one that'll fit my kindle 😍 and a new hairclip! I love both! the clip is insanely strong and my bag has the smoothest zippers 😮
 
-The FIFA world cup was last night so we spent the evening watching Spain win (poor Argentina 😓) Mike also convinced me that since I liked Congo I have to try Planet of the Apes. So far, it's actually good, not silly as I expected. I also tried a new chip flavor and it's really good!
+The FIFA world cup final match was last night so we spent the evening watching Spain win (poor Argentina 😓) Mike also convinced me that since I liked Congo I have to try Planet of the Apes. So far, it's actually good, not silly as I expected. I also tried a new chip flavor and it's really good!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784544363/20260719_215617_u2czry.jpg)
 
