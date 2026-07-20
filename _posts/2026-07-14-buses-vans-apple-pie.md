@@ -46,11 +46,11 @@ Mike uses my phone to look this up while I use the restroom and realizes that my
 10 minutes later we stop in front of an empty store front and realize that is normal here - many locations say open but no longer exist or are closed 😫 I'm so hungry and tired!\
 We search for another spot and settle on the insanely fancy, two-story McDonald's nearby (as per our tradition)! Something super interesting we learned was that "McDonald's in Tbilisi offers a healthier, higher-quality taste than the US due to stricter EU food regulations." This is what made our food taste way fresher and better than usual for McDonalds 🤯
 
-Now we are on a mission to see the large grocery store in Tbilisi called "Carrefour Market" - we search for the bus and head out! Waiting at the bus stop, we see many buses with 300 numbers and some with 400 and 500s. Hm, I wonder what the differences are? Some are labeled green and others blue. Ours is blue and 500 level. We quickly find out these are, in fact, vans!
+Now we are on a mission to see the large grocery store in Tbilisi called "Carrefour Market" - we search for the bus and head out! Waiting at the bus stop, we see many buses with 300 numbers and some with 400 and 500s. Hm, I wonder what the differences are? Some are labeled green and others blue. Ours is blue and 500 level. We quickly find out these are, in fact, marshrutka minivans!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784537192%2F20260715_162937_eto5uo.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784537191%2F20260715_162926_bnjd43.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
-We squeeze in, in the back and are transported with other locals around Tbilisi - what a freaking adventure today! The van is very toasty and Mike is not a fan. (literally but he also is not enjoying this van haha). We have to look up how to flag the driver for a stop and were hoping someone else would get off first. Unfortunately, everyone seems to be here for the long haul so Mike bravely stands up and says some Georgian words we have never uttered before. At first, there is some confusion but they quickly realize we are asking to stop and we are dropped at the market bus stop. 
+We squeeze in, in the back and are transported with locals around Tbilisi - what a freaking adventure today! The van is very toasty and Mike is not a fan. (literally but he also is not enjoying this van haha). We have to look up how to flag the driver for a stop and were hoping someone else would get off first. Unfortunately, everyone seems to be here for the long haul so Mike bravely stands up and says some Georgian words we have never uttered before. At first, there is some confusion but they quickly realize we are asking to stop and we are dropped at the market bus stop. 
 
 Holy crap what a gorgeous building!
 
@@ -73,6 +73,8 @@ We saw Georgian candy (its everywhere here!) called Georgian snickers because it
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784539567/20260715_170301_iqgtzh.jpg)
 
 I also have sworn I will try this new Oreo treat while we are here 🤤
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784572341/20260715_173248_djet4y.jpg)
 
 Thankfully, it's back in the 80s for the foreseeable future so we didn't die today.
 
