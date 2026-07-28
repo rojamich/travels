@@ -5,12 +5,12 @@ categories:
   - welcome-home-tbilisi-georgia
 order: 7
 header:
-  teaser_focal_x: 50
+  teaser_focal_x: 56
   teaser_focal_y: 29
   overlay_focal_x: 50
   overlay_focal_y: 63
   overlay_filter: 0.4
-  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784540362/20260716_220344_c8vyqk.jpg
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784543956/20260717_153735_lkqkde.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784540365/20260717_153735_ec1fb8.jpg
 tags:
   - Food
