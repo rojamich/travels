@@ -109,4 +109,50 @@ The attendant kept their word and allowed us back in!
 
 We were welcomed back into the sweet shady embrace and plunged into a bamboo forest!
 
-{% gallery_block %7B%22photos%22%3A%5Bnull%2Cnull%2Cnull%2Cnull%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785250665%2F20260721_120111_dxscgo.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785250665%2F20260721_120041_jfpqr9.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785250666%2F20260721_120006_jo3sxe.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785250663%2F20260721_120108_jtrz50.jpg%22%5D%2C%22caption%22%3A%22The%20forest%20both%20reminded%20me%20of%20Japan%20and%20stood%20in%20stark%20contrast%20of%20it.%22%7D %}
+
+We followed the river until we reached the ricketiest bridge I have ever seen. Do I dare cross it??? Oh, it is part of our trail, so naturally, yes we must.
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785250664%2F20260721_120507_ahbg3z.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785250663%2F20260721_120510_onxkat.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2FTdjWK1GCbyA%3Ffeature%3Dshare%22%7D %}
+
+Along the path there are countless water features, unpaved trails, the "forgotten fruit alley", lotus flowers, and tadpoles!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785252986%2F20260721_123810_m9nzua.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785252985%2F20260721_123829_boee7g.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785252987%2F20260721_123836_qtcgkh.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785252986%2F20260721_124019_n6kffy.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785252988%2F20260721_121447_gllskc.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785252988%2F20260721_122349_ial7oa.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785252984%2F20260721_123944_rzykta.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+We crest another hill and are greeted with massive views of the city below us. How many churches can you spot??
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785253240%2F20260721_124540_pvsqah.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785253239%2F20260721_124548_wcm2md.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785253241%2F20260721_124503_bov07s.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+You can even see where we hiked earlier that morning! That ridge line looks way more narrow and high than it did when we were on it! 
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785253529%2F20260721_125738_fr6cfj.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785253528%2F20260721_125723_gtm5rl.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+The brick building with round domes across it is a 300-year-old traditional bathhouse! It's still a working bathhouse as well!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785253242/20260721_110155_jak1fo.jpg)
+
+The coolest spot in the whole garden is easily the Japanese Tea Garden, its so miniature and precious!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785253663/20260721_125947_jig7kq.jpg)
+
+We depart the garden and walk down the steep hill - toasty and sweaty as ever. Like an unbelievable mirage, we see wine-flavored soft-serve rise up into view... is this real? We have never heard of this before!
+
+As Georgia is known for their wine, Mike gives the ice cream a shot! 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785253847/20260721_131328_oreyw8.jpg)
+
+As he pays, I take a lick - it does not taste like wine, hooray! It's actually really good and refreshing! We race back up and grab Mike one too! A new one for Mike as I'm three licks into his by now.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785253928/20260721_131454_fxgjrf.jpg)
+
+ I'm a sucker for a good chocolate soft-serve (no, not vanilla, that is disgusting Todd) so I'm very happy to report this was a new and delicious flavor!
+
+We spot a river cutting through the city below us and decide to go inspect it. We weave through the brick-lined alleyways ...
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785254033%2F20260721_131927_j0i03y.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785254030%2F20260721_131930_r6ub80.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785254029%2F20260721_131932_wmq6yd.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+...and down a shaky spiral staircase to the ravine below.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785254105/20260721_132749_bgcbx9.jpg "Can you see the staircase on the left??")
