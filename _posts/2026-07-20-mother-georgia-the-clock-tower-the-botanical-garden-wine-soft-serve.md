@@ -105,6 +105,8 @@ We have to exit the park to visit her but thankfully, the attendant says they wi
 
 There are stalls lining the walkway with tourist prices (it's 0.80 gel for water in the city but 5.0gel here! - A 525% increase!
 
-The attendan
+The attendant kept their word and allowed us back in!
 
-{% gallery_block %7B%22photos%22%3A%5Bnull%5D%2C%22caption%22%3A%22%22%7D %}
+We were welcomed back into the sweet shady embrace and plunged into a bamboo forest!
+
+{% gallery_block %7B%22photos%22%3A%5Bnull%2Cnull%2Cnull%2Cnull%5D%2C%22caption%22%3A%22%22%7D %}
