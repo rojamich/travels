@@ -46,6 +46,6 @@ Speaking of home, the US doesn't typically rank higher than #50 in the safest co
 
 [Source 1](https://www.usnews.com/news/best-countries/rankings/public-safety)
 
-Source 2
+[Source 2](https://gfmag.com/data/safest-countries-world/)
 
-Source 3
+[Source 3](https://www.visionofhumanity.org/maps/#/)
