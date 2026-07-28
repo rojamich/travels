@@ -175,4 +175,18 @@ Now we are on a mission to get lunch and follow the river towards our meal.
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785254381/20260721_133553_dovlya.jpg "I'm living in a flashback - walking the same path I ran 5 years ago and thinking to myself back then, \"Man, I wish I had time to explore this area\". I can't believe we are really here doing this!")
 
-We make it to Jenna's first introduction to Khnin
+We make it to Jenna's first introduction to Khninkali 5 years ago and I am thrown back into the memory of walking in here: it was completely empty aside from the employees and I sit in a giant booth with my flash cards (EMT school). They helped me with ordering and even showed me how to eat it!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785261030/20260721_145611_owruou.jpg)
+
+We are seated by a friendly young waiter and notice they have a call service where you can request your waiter and even the bill!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785261236%2F20260721_140535_w0adqc.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785261233%2F20260721_140154_byxmo6.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+We order a delicious (probably the best we have had!) Tarragon lemonade, water (hydration people!!) and a beer that we quickly gulp down. Thankfully, the food isn't far behind and I'm already eating when Mike offers to photograph the food 🤣🍳🥟🤤
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785261237%2F20260721_141730_ysw74o.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785261235%2F20260721_142301_fmjnxt.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785261239%2F20260721_142256_voqzp8.jpg%22%5D%2C%22caption%22%3A%22SO%20HUNGRY%22%7D %}
+
+Well that was a ton of food so we decide to walk the 40 minutes back home. Thankfully, the views and digestion make it worth the sweat!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785261387%2F20260721_150531_zsmmcs.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785261386%2F20260721_150549_jdjuec.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785261387%2F20260721_151307_mxxm8s.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785261387%2F20260721_151234_qbd5on.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785261388%2F20260721_151311_qgrwwm.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
