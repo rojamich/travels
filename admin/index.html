@@ -146,33 +146,48 @@
       }
 
       // -----------------------------------------------------------------
-      // Autosave-to-localStorage safety net.
+      // Autosave-to-localStorage safety net (aggressive version).
       // -----------------------------------------------------------------
-      // Independent of Decap's git-gateway save flow: every 30 seconds we
-      // snapshot the content of every markdown editor on the page into
-      // localStorage. If a save fails and she refreshes, we DON'T lose the
-      // work — she can copy it back from localStorage via the console:
-      //     Object.keys(localStorage)
-      //       .filter(k => k.startsWith("editor-snapshot:"))
-      //       .forEach(k => console.log(k, localStorage.getItem(k)));
-      // Old snapshots (>7 days) are cleaned up on load so localStorage
-      // doesn't grow unbounded.
+      // Independent of Decap's git-gateway save flow. Snapshots every
+      // editor's content to localStorage and — critically — keeps a
+      // rolling history of the last N snapshots per editor rather than
+      // overwriting a single key. That way, if a save fails and Decap
+      // resets the DOM to the last-known-good state, we still have the
+      // pre-error content history to recover from.
+      //
+      // Snapshots trigger on:
+      //   - every keystroke/paste (input event), debounced 1.5s
+      //   - every 5 seconds (fallback if input events don't fire)
+      //   - tab hide (visibilitychange) and page unload — final capture
+      //
+      // Recovery commands (console):
+      //   RECOVERY_LATEST()        → prints newest snapshot per editor
+      //   RECOVERY_HISTORY()       → prints all snapshots with timestamps
+      //   RECOVERY_COPY(N)         → copies snapshot #N's content to clipboard
+      //
+      // Snapshots older than 14 days are cleaned up on load. Max ~20
+      // snapshots per editor key to keep localStorage size bounded.
       (function () {
-        var SNAP_PREFIX = "editor-snapshot:";
-        var MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
+        var SNAP_PREFIX = "editor-snapshot:";      // legacy single-slot key
+        var HIST_PREFIX = "editor-history:";       // rolling history array
+        var MAX_AGE_MS  = 14 * 24 * 60 * 60 * 1000;
+        var MAX_HIST    = 20;
+        var lastContent = {};                       // key → last stored content
 
         function cleanOld() {
           try {
             var now = Date.now();
-            var keys = Object.keys(localStorage);
-            keys.forEach(function (k) {
-              if (k.indexOf(SNAP_PREFIX) !== 0) return;
-              var raw = localStorage.getItem(k);
+            Object.keys(localStorage).forEach(function (k) {
+              if (k.indexOf(SNAP_PREFIX) !== 0 && k.indexOf(HIST_PREFIX) !== 0) return;
               try {
-                var obj = JSON.parse(raw);
-                if (obj && obj.ts && (now - obj.ts) > MAX_AGE_MS) {
-                  localStorage.removeItem(k);
+                var raw = JSON.parse(localStorage.getItem(k));
+                var newest = 0;
+                if (Array.isArray(raw)) {
+                  raw.forEach(function (e) { if (e && e.ts > newest) newest = e.ts; });
+                } else if (raw && raw.ts) {
+                  newest = raw.ts;
                 }
+                if (newest && (now - newest) > MAX_AGE_MS) localStorage.removeItem(k);
               } catch (e) {
                 localStorage.removeItem(k);
               }
@@ -180,34 +195,122 @@
           } catch (e) {}
         }
 
-        function snapshot() {
+        function collectEditors() {
+          return document.querySelectorAll(
+            'textarea, [contenteditable="true"], [role="textbox"]'
+          );
+        }
+
+        function snapshot(reason) {
           try {
-            var editors = document.querySelectorAll(
-              'textarea, [contenteditable="true"], [role="textbox"]'
-            );
+            var editors = collectEditors();
             var totalLen = 0;
+            var changedKeys = [];
             editors.forEach(function (el, i) {
               var val = el.value || el.innerText || "";
-              if (val.length < 100) return;   // ignore tiny inputs
+              if (val.length < 100) return;
               totalLen += val.length;
-              var key = SNAP_PREFIX + (el.id || el.name || ("editor-" + i));
-              localStorage.setItem(key, JSON.stringify({
-                ts: Date.now(),
-                url: location.href,
-                len: val.length,
-                content: val
+              var key = (el.id || el.name || ("editor-" + i));
+              // Skip if content unchanged since last capture — avoids
+              // storing duplicate snapshots on the 5s interval.
+              if (lastContent[key] === val) return;
+              lastContent[key] = val;
+              changedKeys.push(key);
+
+              // 1) Legacy single-slot key (for backwards-compat).
+              localStorage.setItem(SNAP_PREFIX + key, JSON.stringify({
+                ts: Date.now(), url: location.href, len: val.length, content: val
               }));
+              // 2) Rolling history — append + trim.
+              var histKey = HIST_PREFIX + key;
+              var hist;
+              try { hist = JSON.parse(localStorage.getItem(histKey)) || []; }
+              catch (e) { hist = []; }
+              hist.push({ ts: Date.now(), url: location.href, len: val.length, content: val });
+              if (hist.length > MAX_HIST) hist = hist.slice(-MAX_HIST);
+              try {
+                localStorage.setItem(histKey, JSON.stringify(hist));
+              } catch (quotaErr) {
+                // Quota exceeded — drop oldest half of history and retry.
+                hist = hist.slice(-Math.floor(MAX_HIST / 2));
+                try { localStorage.setItem(histKey, JSON.stringify(hist)); } catch (e2) {}
+              }
             });
-            if (totalLen > 0) {
-              console.log("[safety-net] snapshot: " + totalLen + " chars stored in localStorage");
+            if (changedKeys.length > 0) {
+              console.log("[safety-net] " + reason + " → snapshot " + totalLen +
+                          " chars, changed: " + changedKeys.join(", "));
             }
           } catch (e) {
             console.warn("[safety-net] snapshot failed:", e && e.message);
           }
         }
 
+        // Debounced input handler — catches every keystroke within 1.5s.
+        var inputTimer = null;
+        document.addEventListener("input", function () {
+          if (inputTimer) clearTimeout(inputTimer);
+          inputTimer = setTimeout(function () { snapshot("input"); }, 1500);
+        }, true);
+
+        // Also fire on tab hide / page unload as a last-chance capture.
+        document.addEventListener("visibilitychange", function () {
+          if (document.visibilityState === "hidden") snapshot("hide");
+        });
+        window.addEventListener("pagehide", function () { snapshot("pagehide"); });
+        window.addEventListener("beforeunload", function () { snapshot("beforeunload"); });
+
         cleanOld();
-        setInterval(snapshot, 30 * 1000);
+        setInterval(function () { snapshot("interval"); }, 5 * 1000);   // was 30s
+
+        // Recovery helpers exposed on window for console use.
+        window.RECOVERY_LATEST = function () {
+          Object.keys(localStorage)
+            .filter(function (k) { return k.indexOf(SNAP_PREFIX) === 0; })
+            .forEach(function (k) {
+              try {
+                var v = JSON.parse(localStorage.getItem(k));
+                console.log(k, "(" + new Date(v.ts).toLocaleString() + ", " + v.len + " chars)");
+                console.log(v.content);
+              } catch (e) {}
+            });
+        };
+        window.RECOVERY_HISTORY = function () {
+          Object.keys(localStorage)
+            .filter(function (k) { return k.indexOf(HIST_PREFIX) === 0; })
+            .forEach(function (k) {
+              try {
+                var arr = JSON.parse(localStorage.getItem(k)) || [];
+                console.log("=== " + k + " (" + arr.length + " snapshots) ===");
+                arr.forEach(function (e, i) {
+                  console.log("  #" + i + " " + new Date(e.ts).toLocaleString() +
+                              " → " + e.len + " chars");
+                });
+              } catch (e) {}
+            });
+        };
+        window.RECOVERY_COPY = function (idxFromEnd) {
+          idxFromEnd = idxFromEnd || 0;   // 0 = newest
+          var found = null;
+          Object.keys(localStorage)
+            .filter(function (k) { return k.indexOf(HIST_PREFIX) === 0; })
+            .forEach(function (k) {
+              try {
+                var arr = JSON.parse(localStorage.getItem(k)) || [];
+                var entry = arr[arr.length - 1 - idxFromEnd];
+                if (entry && (!found || entry.ts > found.ts)) found = entry;
+              } catch (e) {}
+            });
+          if (found && window.copy) {
+            window.copy(found.content);
+            console.log("copied " + found.len + " chars from " +
+                        new Date(found.ts).toLocaleString() + " to clipboard");
+          } else if (found) {
+            console.log("copy() unavailable — content follows:");
+            console.log(found.content);
+          } else {
+            console.log("no snapshot found at index " + idxFromEnd);
+          }
+        };
       })();
 
       whenReady(function () {
