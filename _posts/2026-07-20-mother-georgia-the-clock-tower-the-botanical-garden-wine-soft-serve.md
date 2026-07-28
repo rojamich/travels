@@ -157,7 +157,7 @@ We spot a river cutting through the city below us and decide to go inspect it. W
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785254105/20260721_132749_bgcbx9.jpg "Can you see the staircase on the left??")
 
-We cross multiple wood-paneled walkways to reach the roaring waterfall - 
+We cross multiple wood-paneled walkways and reach a roaring waterfall - 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785254182/20260721_132550_u7yvph.jpg)
 
@@ -173,7 +173,9 @@ The end of the walkway took us to the bathhouse and adjacent to the most beautif
 
 Now we are on a mission to get lunch and follow the river towards our meal.
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785254381/20260721_133553_dovlya.jpg "I'm living in a flashback - walking the same path I ran 5 years ago and thinking to myself back then, \"Man, I wish I had time to explore this area\". I can't believe we are really here doing this!")
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785254381/20260721_133553_dovlya.jpg)
+
+Walking down this street brings back a lot of memories for me. I remember running down this path and wishing to myself that I had more time to explore and see what this area had to offer! Now we are here, doing it together!
 
 We make it to Jenna's first introduction to Khninkali 5 years ago and I am thrown back into the memory of walking in here: it was completely empty aside from the employees and I sit in a giant booth with my flash cards (EMT school). They helped me with ordering and even showed me how to eat it!
 
@@ -183,7 +185,7 @@ We are seated by a friendly young waiter and notice they have a call service whe
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785261236%2F20260721_140535_w0adqc.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785261233%2F20260721_140154_byxmo6.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
-We order a delicious (probably the best we have had!) Tarragon lemonade, water (hydration people!!) and a beer that we quickly gulp down. Thankfully, the food isn't far behind and I'm already eating when Mike offers to photograph the food 🤣🍳🥟🤤
+We order a delicious (probably the best we have had!) Tarragon lemonade, water (hydration people!!) and a beer- all are just what the doctor ordered. Thankfully, the food isn't far behind and I'm already eating when Mike offers to photograph the food 🤣🍳🥟🤤
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785261237%2F20260721_141730_ysw74o.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785261235%2F20260721_142301_fmjnxt.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785261239%2F20260721_142256_voqzp8.jpg%22%5D%2C%22caption%22%3A%22SO%20HUNGRY%22%7D %}
 
