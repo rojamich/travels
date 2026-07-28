@@ -91,4 +91,20 @@ A river greets you as you enter the garden, you pass by the ponds with fish, Lil
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785225307/20260721_112321_teo3cn.jpg)
 
-You'll walk through paved paths lined with drinking fountains,
+You'll walk through paved paths lined with drinking fountains, benches, and overarching trees that bless you with shade 🌲🌳🌴 and often open up to stonework that make you feel like you're in central Europe
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785225518%2F20260721_113118_vu11cb.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785225520%2F20260721_113309_tpyvtw.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Up a few flights of stairs we cross over the bridge to visit Mother Georgia! 
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785225576%2F20260721_113541_d2evhy.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785225573%2F20260721_113434_clf0zs.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+We have to exit the park to visit her but thankfully, the attendant says they will let us back in the park - there is still much to be explored!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785225643%2F20260721_114357_p0avtf.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785225645%2F20260721_114204_feoii2.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785225644%2F20260721_114252_apj8k2.jpg%22%5D%2C%22caption%22%3A%22She%20stands%20mightily%20over%20her%20city%20and%20we%20can%20see%20all%20the%20points%20we%20have%20explored%20today!%22%7D %}
+
+There are stalls lining the walkway with tourist prices (it's 0.80 gel for water in the city but 5.0gel here! - A 525% increase!
+
+The attendan
+
+{% gallery_block %7B%22photos%22%3A%5Bnull%5D%2C%22caption%22%3A%22%22%7D %}
