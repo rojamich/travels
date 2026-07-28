@@ -156,3 +156,23 @@ We spot a river cutting through the city below us and decide to go inspect it. W
 ...and down a shaky spiral staircase to the ravine below.
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785254105/20260721_132749_bgcbx9.jpg "Can you see the staircase on the left??")
+
+We cross multiple wood-paneled walkways to reach the roaring waterfall - 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785254182/20260721_132550_u7yvph.jpg)
+
+\- and it's totally worth the effort!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785254145/20260721_132440_uvnbec.jpg)
+
+In the middle of this ancient city no less! To be honest, I think the walkways are the main attraction though! At the end of one stands two men singing (they don't know the words to their song) and one is also playing an accordion. This just made it flat out funny 🤣
+
+The end of the walkway took us to the bathhouse and adjacent to the most beautiful building I have ever seen. 
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785254287%2F20260721_133033_cu9hop.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785254289%2F20260721_133044_o18td8.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785254285%2F20260721_133215_pcb4of.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785254293%2F20260721_133219_ko8d84.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785254283%2F20260721_133121_i4fw3g.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Now we are on a mission to get lunch and follow the river towards our meal.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785254381/20260721_133553_dovlya.jpg "I'm living in a flashback - walking the same path I ran 5 years ago and thinking to myself back then, \"Man, I wish I had time to explore this area\". I can't believe we are really here doing this!")
+
+We make it to Jenna's first introduction to Khnin
