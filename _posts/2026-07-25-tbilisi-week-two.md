@@ -58,4 +58,8 @@ Our Airbnb host dropped off new linens for the week - we heard knocking at the s
 >
 > I DO NOT SPEAK ENGLISH!!
 
-We have been saying this to each other for days. Needless to say, I'm getting caught up on the minion movies (did you know there are 5 of them now??) Each is as good as the first and I'm loving it. Why are those little yellow guys so amusing to me??
+We have been saying this to each other for days. Needless to say, I'm getting caught up on the minion movies (did you know there are 5 of them now??) Each is as good as the first and I'm loving it. Why are those little yellow guys so amusing to me?? Mike also convinced me to watch the Planet of the Apes movie and it surprisingly was not bad. 
+
+There has been lots of time for working out and reading: I've finished [Timeline by Michael Crichton](https://www.goodreads.com/book/show/7669.Timeline) and [Nora Goes Off Script by Annabel Monaghan!](https://www.goodreads.com/en/book/show/58988426-nora-goes-off-script)
+
+There is also endless Khinkali and several naps have taken place. What a week!
