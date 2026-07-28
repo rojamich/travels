@@ -79,7 +79,7 @@ The churches and cathedrals here require pants for men, skirts or dresses and he
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785224943%2F20260721_105814_gugh4f.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785224947%2F20260721_110015_gjxpiq.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
- No photography is allowed inside and we are greeted by an excited woman running and cleaning the church. She asks where we are from and seems to speak everything but English. She greets us in Georgian, asks if we speak Russian, German, Italian, or French! Mike enjoyed speaking some German with here and I am blown away by her ability to speak so many languages! 
+ No photography is allowed inside and we are greeted by an excited woman running and cleaning the church. She asks where we are from and seems to speak everything but English. She greets us in Georgian, asks if we speak Russian, German, Italian, or French! Mike enjoyed speaking some German with her and I am blown away by her ability to speak so many languages! 
 
 Leaving the church, we decide the best way to see Mother Georgia from our current position is to explore the Botanical Garden first!
 
@@ -87,7 +87,7 @@ It was $2.50 for us both to enter the lush and sprawling garden that seemed to g
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785225199%2F20260721_111441_fuism2.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785225202%2F20260721_111521_fbuvoc.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785225207%2F20260721_111902_cjvwiq.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
-A river greets you as you enter the garden, you pass by the ponds with fish, Lilly pads, and lotus flowers until you reach a gushing waterfall topped with a bridge!
+A river greets you as you enter the garden, you pass by the ponds with fish, lily pads, and lotus flowers until you reach a gushing waterfall topped with a bridge!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785225307/20260721_112321_teo3cn.jpg)
 
@@ -103,7 +103,7 @@ We have to exit the park to visit her but thankfully, the attendant says they wi
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785225643%2F20260721_114357_p0avtf.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785225645%2F20260721_114204_feoii2.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785225644%2F20260721_114252_apj8k2.jpg%22%5D%2C%22caption%22%3A%22She%20stands%20mightily%20over%20her%20city%20and%20we%20can%20see%20all%20the%20points%20we%20have%20explored%20today!%22%7D %}
 
-There are stalls lining the walkway with tourist prices (it's 0.80 gel for water in the city but 5.0gel here! - A 525% increase!
+There are stalls lining the walkway with tourist prices (it's 0.80 gel for water in the city but 5.0gel here! - A 525% increase!)
 
 The attendant kept their word and allowed us back in!
 
