@@ -219,8 +219,8 @@
           }
         });
 
-        // Layer 1: periodic refresh (every 20 min).
-        setInterval(function () { refreshNow("periodic"); }, 20 * 60 * 1000);
+        // Layer 1: periodic refresh (every 10 min — tightened from 20).
+        setInterval(function () { refreshNow("periodic"); }, 10 * 60 * 1000);
 
         // Layer 2: refresh when the tab regains focus. Most token errors
         // happen when she comes back to /admin/ after being away for a
@@ -229,6 +229,77 @@
           if (document.visibilityState === "visible") refreshNow("visibilitychange");
         });
         window.addEventListener("focus", function () { refreshNow("focus"); });
+
+        // Layer 3: refresh on every Save / Publish click.
+        // ---------------------------------------------------------------
+        // Root cause of the remaining ACCESS_TOKEN_ERROR losses: even with
+        // periodic + focus refresh, there's a race window — if she clicks
+        // Save the moment the 1-hour JWT is about to expire, Decap sends
+        // the request with the stale token, git-gateway returns 401, and
+        // Decap doesn't automatically retry with a fresh token. The save
+        // fails and any pending body changes get wiped on next reload.
+        //
+        // Fix: capture-phase pointerdown on any Save/Publish/status button
+        // triggers a background JWT refresh a few ms BEFORE the click
+        // actually reaches Decap's handler. By the time gotrue-js needs
+        // the token, it's been minted seconds ago.
+        //
+        // We use pointerdown (fires ~200ms before click), don't preventDefault,
+        // and don't block Decap's normal flow — we're just piggybacking.
+        function looksLikeSaveButton(el) {
+          if (!el || el.nodeType !== 1) return false;
+          var text = (el.textContent || "").trim().toLowerCase();
+          if (text.length > 40) return false;
+          return /^(save|publish|publish now|save and publish|set status|set status:|new|delete)/.test(text) ||
+                 /^(save|publish)/.test((el.getAttribute("aria-label") || "").toLowerCase());
+        }
+        document.addEventListener("pointerdown", function (e) {
+          var el = e.target;
+          for (var depth = 0; depth < 5 && el; depth++) {
+            if (looksLikeSaveButton(el)) {
+              refreshNow("save-click");
+              return;
+            }
+            el = el.parentElement;
+          }
+        }, true);
+
+        // Layer 4: mint a persistent "backup indicator" that shows when the
+        // safety net last snapshotted her work. Peace of mind + easy check
+        // that snapshots are actually running.
+        function updateBackupIndicator() {
+          var ind = document.getElementById("backup-indicator");
+          if (!ind) {
+            ind = document.createElement("div");
+            ind.id = "backup-indicator";
+            ind.style.cssText =
+              "position:fixed;bottom:18px;left:18px;padding:6px 12px;" +
+              "background:rgba(42,77,105,0.9);color:#fff;font-size:11px;" +
+              "border-radius:6px;z-index:2147483645;pointer-events:none;" +
+              "font-family:system-ui,sans-serif;";
+            document.body.appendChild(ind);
+          }
+          try {
+            var keys = Object.keys(localStorage).filter(function (k) {
+              return k.indexOf("editor-snapshot:") === 0;
+            });
+            if (keys.length === 0) {
+              ind.textContent = "💾 Backup: no draft yet";
+              return;
+            }
+            var newest = 0;
+            keys.forEach(function (k) {
+              try {
+                var o = JSON.parse(localStorage.getItem(k));
+                if (o && o.ts && o.ts > newest) newest = o.ts;
+              } catch (e) {}
+            });
+            var mins = Math.round((Date.now() - newest) / 60000);
+            ind.textContent = "💾 Backup: " + (mins < 1 ? "just now" : mins + "m ago");
+          } catch (e) {}
+        }
+        setInterval(updateBackupIndicator, 15 * 1000);
+        setTimeout(updateBackupIndicator, 2000);
       });
     })();
   </script>

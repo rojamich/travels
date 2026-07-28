@@ -93,7 +93,7 @@ collections:
               widget: "string",
               required: false,
               default: "America/Los_Angeles",
-              hint: "IANA timezone for the live clock. Examples: America/Los_Angeles, America/New_York, Europe/Paris, Asia/Tokyo, Asia/Ho_Chi_Minh." }
+              hint: "IANA timezone for the live clock. Use the 'TZ identifier' column on Wikipedia's list — format is Continent/City (NOT the country code or the 'Comments' column). Examples: America/Los_Angeles, America/New_York, Europe/Paris, Asia/Tokyo, Asia/Ho_Chi_Minh, Asia/Tbilisi." }
           - { label: "Next destination",
               name: "next_destination",
               widget: "string",
