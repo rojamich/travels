@@ -62,4 +62,8 @@ We have been saying this to each other for days. Needless to say, I'm getting ca
 
 There has been lots of time for working out and reading: I've finished [Timeline by Michael Crichton](https://www.goodreads.com/book/show/7669.Timeline) and [Nora Goes Off Script by Annabel Monaghan!](https://www.goodreads.com/en/book/show/58988426-nora-goes-off-script)
 
+I took my first run the other day and it was 90 degrees outside - somehow I did not die and surprisingly enjoyed it! To avoid a post-run headache from running in the heat I learned you should walk afterwards, have electrolytes or oranges, and **do not** take a cold shower! Where was this information when I lived in the state of Georgia???
+
+Lastly, I received a subpoena from a case in Florida (how am I *still* getting these??) and had to zoom meet with a prosecutor who was surprised I wasn't readily available to travel to Florida or willing to stay up to zoom meet between 10pm-2am. What world is this guy living in?? Thankfully, I think he will work to excuse me from having to fly to Florida from Spain in December. Less for my convenience and more because the court won't want to pay for that since the entirety of my involvement was photographing injuries. 
+
 There is also endless Khinkali and several naps have taken place. What a week!
