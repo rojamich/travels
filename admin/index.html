@@ -129,25 +129,45 @@
             netlifyIdentity.on("login", function () {
               hideDeadSessionModal();
               netlifyIdentity.close();
-              // reload to reset Decap's internal state cleanly
-              setTimeout(function () { location.reload(); }, 500);
+              // Do NOT reload — that re-runs any startup false-positive
+              // detection and can re-trap her in the modal. Just dismiss
+              // and let her keep editing with the fresh token.
             });
           } else {
             window.location.href = "/login/";
           }
         });
+
+        // Dismiss link — for when the modal is a false positive.
+        // She can bypass it and try to save; if the save actually fails,
+        // she'll know for sure and can re-open the modal.
+        var dismiss = document.createElement("a");
+        dismiss.href = "#";
+        dismiss.textContent = "Dismiss and try to save anyway";
+        dismiss.style.cssText = "display:block;margin-top:14px;font-size:12px;color:#888;";
+        dismiss.addEventListener("click", function (e) {
+          e.preventDefault();
+          hideDeadSessionModal();
+        });
+        deadSessionModal.firstChild.appendChild(dismiss);
       }
       function hideDeadSessionModal() {
         if (deadSessionModal) { deadSessionModal.remove(); deadSessionModal = null; }
         sessionIsDead = false;
       }
 
+      // Skip dead-session modal for the first 90s after load. Startup
+      // races (Decap firing user-verify calls before our token warms up,
+      // network hiccups on initial load) produce spurious refresh
+      // failures that DO NOT mean the session is dead.
+      var pageLoadedMs = Date.now();
+      function safeToShowDeadModal() { return Date.now() - pageLoadedMs > 90 * 1000; }
+
       // Returns a promise so save-click code can await freshness.
       function refreshNow(reason) {
         var u = window.netlifyIdentity && netlifyIdentity.currentUser && netlifyIdentity.currentUser();
         if (!u || !u.jwt) return Promise.resolve(false);
         // Dedupe: don't spam when visibility toggles or clicks are rapid.
-        // (Save-click bypasses this — see refreshNowForced.)
         if (Date.now() - lastRefreshMs < 60 * 1000) return Promise.resolve(true);
         return u.jwt(true)
           .then(function () {
@@ -159,40 +179,20 @@
           })
           .catch(function (err) {
             consecutiveFailures++;
-            console.warn("[admin] JWT refresh failed (" + reason + ", failure #" + consecutiveFailures + "):", err && err.message);
-            // Dead-session criteria: refresh_token expired / invalid → the
-            // error is usually "invalid_grant" or similar. Any refresh
-            // failure that isn't a plain network hiccup should trigger
-            // the modal — err on the side of blocking.
-            if (consecutiveFailures >= 2) showDeadSessionModal("refresh:" + reason);
-            else showBanner();
+            var msg = err && err.message || String(err);
+            console.warn("[admin] JWT refresh failed (" + reason + ", failure #" + consecutiveFailures + "):", msg);
+            // Only treat as a truly dead session when gotrue-js itself
+            // reports the refresh_token is invalid ("invalid_grant" or
+            // 400/401 responses). Generic network errors don't count —
+            // they get the warning banner but no blocking modal.
+            var isAuthError = /invalid.?grant|invalid.?token|401|400|Unauthorized/i.test(msg);
+            if (isAuthError && consecutiveFailures >= 3 && safeToShowDeadModal()) {
+              showDeadSessionModal("refresh:" + reason);
+            } else {
+              showBanner();
+            }
             return false;
           });
-      }
-
-      // -----------------------------------------------------------------
-      // Session health-check ping.
-      // -----------------------------------------------------------------
-      // Even when she's active, we probe git-gateway every 5 minutes with
-      // the current token. A 401 response is the ground truth for a dead
-      // session — surface the modal immediately, before her next Save.
-      function healthCheck() {
-        if (sessionIsDead) return;
-        var u = window.netlifyIdentity && netlifyIdentity.currentUser && netlifyIdentity.currentUser();
-        if (!u) return;
-        u.jwt().then(function (token) {
-          fetch("/.netlify/git/github/user", {
-            headers: { "Authorization": "Bearer " + token }
-          }).then(function (res) {
-            if (res.status === 401 || res.status === 403) {
-              showDeadSessionModal("health-check:" + res.status);
-            }
-          }).catch(function () {
-            // Network failure — don't block on this, could be offline.
-          });
-        }).catch(function () {
-          showDeadSessionModal("health-check:no-jwt");
-        });
       }
 
       // -----------------------------------------------------------------
@@ -464,21 +464,12 @@
           }
         }, true);
 
-        // Layer 5: periodic session health check.
-        // ---------------------------------------------------------------
-        // Every 5 min while the tab is visible, ping git-gateway with
-        // the current token. A 401 is the ground truth for a dead
-        // session — surface the modal immediately, well before her next
-        // Save. This is the fix for the "meeting break" case: even if
-        // she comes back and doesn't touch anything for a while, we
-        // detect the dead session in the background and stop her from
-        // writing on it unknowingly.
-        setInterval(function () {
-          if (document.visibilityState === "visible") healthCheck();
-        }, 5 * 60 * 1000);
-        // Also fire once shortly after load in case the initial 401s
-        // (Decap's user-verify calls) already indicated a dead session.
-        setTimeout(healthCheck, 8 * 1000);
+        // (Removed: the health-check fetch ping. The endpoint we hit
+        // returned 401 under normal conditions in this git-gateway
+        // version, producing false positives that trapped her in the
+        // dead-session modal even after a fresh login. gotrue-js's own
+        // JWT refresh signal — surfaced via refreshNow() — is a more
+        // trustworthy indicator, and it's already wired to the modal.)
 
         // Layer 4: mint a persistent "backup indicator" that shows when the
         // safety net last snapshotted her work. Peace of mind + easy check
