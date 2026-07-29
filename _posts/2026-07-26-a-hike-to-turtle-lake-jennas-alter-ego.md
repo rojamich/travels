@@ -81,6 +81,8 @@ My drink comes with whip and Mike graciously eats it for me as I hate whip cream
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350087%2F20260727_120000_ialrcv.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350082%2F20260727_120032_irm4vt.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350084%2F20260727_120029_pwjcj0.jpg%22%5D%2C%22caption%22%3A%22It%20ended%20up%20being%20quite%20delicious!!%22%7D %}
 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785354268/Screenshot_2026-07-29_234315_ruzrkc.jpg)
+
 After a crazy bus ride, a shower and some much needed rest, we cap off the day at our favorite khinkali and adjaruli khachapuri location - The Khinkali House!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350191%2F20260727_201036_dhmfpr.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350190%2F20260727_201032_ywh0uq.jpg%22%5D%2C%22caption%22%3A%22Why%20do%20they%20have%20this%20entertainment%3F%20It's%20so%20loud%20and%20he%20only%20actually%20sings%20every%20few%20words!%22%7D %}
