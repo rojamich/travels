@@ -42,10 +42,40 @@ We were quickly informed that church was in session and we would have to wait to
 
 Across the road, on a cliff overlooking the Mtkvari River stands the Metekhi Virgin Mary Assumption Church. This is technically assigned to another sightseeing day but we decide to take a detour to see it!
 
-
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785347058/20260726_094622_m9pqm7.jpg)
 
 Naturally, it was a hike and a half to get up there.
 
-Mike and I stood before this massive church while service went on inside. We hesitated outside the door and it looked really full. I had worn pants to avoid being offensive but a skirt and head-covering were required. An elderly man quietly (with what appeared to be a scowl on his face) watched our exchange.
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785347087/20260726_094856_cct6tp.jpg)
 
-Just when we were about to turn back, I hear him utter a few Georgian words and he extends his hand with a wrap  towards me. I quickly tie it around myself as he tosses a headscarf on my head 🤣
+The views of Tbilisi were pretty great from up here (including from the garden!)
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785347182%2F20260726_100032_omp54n.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785347182%2F20260726_100045_lpj7ii.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785347183%2F20260726_100317_xr33dc.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785347181%2F20260726_100458_ucl5nz.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785347179%2F20260726_101345_nnur7u.jpg%22%5D%2C%22caption%22%3A%22Look!%20The%20hot%20air%20balloon%20in%20%5C%22flight%5C%22!%22%7D %}
+
+Mike and I stood before this massive church while service went on inside. 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785347120/20260726_100012_acwkru.jpg)
+
+We hesitated outside the door and it looked really full inside. I had worn pants to avoid being offensive but a skirt and head-covering were required. An elderly man quietly (with what appeared to be a scowl on his face) watched our exchange.
+
+Just when we were about to turn back, I hear him utter a few Georgian words and he extends his hand with a wrap  towards me. I quickly tie it around myself as he tosses a headscarf on my head 🤣 A quiet act of kindness from someone I thought was cranky at a tourist for encroaching on their sacred time ⛪
+
+It was hot as all get out in there and then they started lighting candles...was it not hot enough before?? No one seems perturbed by the rising temps and why are Mike and I the only ones drenched in sweat?? We gotta buy more linen.
+
+After experiencing the church, we decide to visit the Meidan Bazar - it wasn't open when we passed earlier but it's open now! 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785347453/20260726_101951_agzqbd.jpg)
+
+As we descend into the massive underground tunnel, it opens up into what I imagine a wine cellar looks like!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785347540%2F20260726_103010_ik357a.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785347627%2F20260726_103016_njrztm.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785347543%2F20260726_102056_j5xkmy.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785347543%2F20260726_102226_zwyupv.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785347632%2F20260726_102220_ep4ise.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+It looks really incredible and I'm glad we explored it! But the items for sale were essentially high-priced wares we could get at the souvenir shop on the street.
+
+There was money in the grates though! 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785347698/20260726_102129_x5vqst.jpg)
+
+It was time to head home and we got to enjoy the street art on the way!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785347637%2F20260726_104027_x9wy1w.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785347797%2F20260726_104017_zckp7s.jpg%22%5D%2C%22caption%22%3A%22Khinkali...%20yum!!%22%7D %}
