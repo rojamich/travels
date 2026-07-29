@@ -64,3 +64,33 @@ It was about time for a protein bar break so we looked out over the city on a be
 The trail is all sun for the last mile and we are grateful to have sun screened up before leaving! We reach turtle lake (our destination) and are pleasantly surprised we also see this defensive tower on a hill called Svan Tower!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785349475%2F20260727_103244_zbkasp.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785349479%2F20260727_102301_k496qa.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785349483%2F20260727_102410_zdmo0k.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+Now we have to decide, hike or funicular down to the city... ok we will hike some more! It is wayyyyy lower down than we thought and takes us about another hour to get down there 😱
+
+We end up having to walk down an insane looking set of mountain bike trails (thankfully no bikes come), pass an Iran embassy (how interesting!), and end up walking by this massive park ([Vake park](https://share.google/4cAmSb1dKMgSbZy2r) to be exact)!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785349791/20260727_114053_hvnxt2.jpg "Its actually decently close to our Airbnb next time we visit Tbilisi so I'll have to run here!")
+
+Well, it is time to knock something off Jenna's bucket list. This item has been on this list since I was just a lad... like a decade at least! And the place to do it is at Georgia's very first Starbucks that just opened within the week!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785349920/20260727_114915_cqhsqb.jpg)
+
+I order and am very nervous about what my beverage will look like. I haven't enjoyed a full coffee in many moons and this location just opened! The barista asks my name and Mike nudges me with a reminder.. yes, my name is Nora! She looks at me skeptically and I'm like oh no! The jig is up! Turns out it's just hard to hear and I repeat myself and life moves on as normal lol. Thank goodness I never tried to be a spy 🤣
+
+My drink comes with whip and Mike graciously eats it for me as I hate whip cream! But I enthusiastically accept that I've completed my bucket list item of giving a fake name at Starbucks!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350087%2F20260727_120000_ialrcv.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350082%2F20260727_120032_irm4vt.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350084%2F20260727_120029_pwjcj0.jpg%22%5D%2C%22caption%22%3A%22It%20ended%20up%20being%20quite%20delicious!!%22%7D %}
+
+After a crazy bus ride, a shower and some much needed rest, we cap off the day at our favorite khinkali and adjaruli khachapuri location - The Khinkali House!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350191%2F20260727_201036_dhmfpr.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350190%2F20260727_201032_ywh0uq.jpg%22%5D%2C%22caption%22%3A%22Why%20do%20they%20have%20this%20entertainment%3F%20It's%20so%20loud%20and%20he%20only%20actually%20sings%20every%20few%20words!%22%7D %}
+
+Oh and the traffic has been crazy here! Rustaveli Avenue (their major thoroughfare) has been shut down for renovation so all traffic has been diverted to side streets that are **not** equipped for this many cars. The drivers are also heavy footed, I'm talking neck-breaking brakes and gas escalation. Wild!
+
+Thankfully, dinner was scrumptious and we are insanely full. Another walk back is in order so we get to enjoy the city views at night! Holy cow I need a full night to take all this in! The bridge is sparkling too!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350449%2F20260727_211427_qqkkwt.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350452%2F20260727_211413_odmji8.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+ We end our walk through the historic district and I get to admire it in a whole other light. Literally. I'm noticing aspects I hadn't before and its dreamy 😍😶‍🌫️
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350564%2F20260727_212820_x4aylz.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350567%2F20260727_212536_uusj0y.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
