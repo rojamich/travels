@@ -71,17 +71,17 @@ We end up having to walk down an insane looking set of mountain bike trails (tha
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785349791/20260727_114053_hvnxt2.jpg "Its actually decently close to our Airbnb next time we visit Tbilisi so I'll have to run here!")
 
-Well, it is time to knock something off Jenna's bucket list. This item has been on this list since I was just a lad... like a decade at least! And the place to do it is at Georgia's very first Starbucks that just opened within the week!
+Well, it is time to knock something off Jenna's bucket list. This item has been on this list since I was just a wee lad... like a decade at least! And the place to do it is at Georgia's very first Starbucks that just opened within the week!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785349920/20260727_114915_cqhsqb.jpg)
 
-I order and am very nervous about what my beverage will look like. I haven't enjoyed a full coffee in many moons and this location just opened! The barista asks my name and Mike nudges me with a reminder.. yes, my name is Nora! She looks at me skeptically and I'm like oh no! The jig is up! Turns out it's just hard to hear and I repeat myself and life moves on as normal lol. Thank goodness I never tried to be a spy 🤣
+I order and am very nervous about what my beverage will look like. I haven't enjoyed a full coffee 🍵 in many moons 🌛 and this location just opened! The barista asks my name and Mike nudges me with a reminder.. yes, my name is Nora! She looks at me skeptically and I'm like oh no! The jig is up! Turns out it's just hard to hear and I repeat myself and life moves on as normal lol. Thank goodness I never tried to be a spy 🤣
 
 My drink comes with whip and Mike graciously eats it for me as I hate whip cream! But I enthusiastically accept that I've completed my bucket list item of giving a fake name at Starbucks!
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350087%2F20260727_120000_ialrcv.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350082%2F20260727_120032_irm4vt.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785350084%2F20260727_120029_pwjcj0.jpg%22%5D%2C%22caption%22%3A%22It%20ended%20up%20being%20quite%20delicious!!%22%7D %}
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785354268/Screenshot_2026-07-29_234315_ruzrkc.jpg)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785355160/Screenshot_2026-07-29_235751_u66zlt.jpg "Heres me adding this to my completed bucket list board! 😃")
 
 After a crazy bus ride, a shower and some much needed rest, we cap off the day at our favorite khinkali and adjaruli khachapuri location - The Khinkali House!
 
