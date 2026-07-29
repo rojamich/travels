@@ -41,3 +41,11 @@ We were quickly informed that church was in session and we would have to wait to
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785344363%2F20260726_094113_dhblyi.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785344360%2F20260726_094132_xjjl0p.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785344362%2F20260726_094121_lfqf7w.jpg%22%5D%2C%22caption%22%3A%22Mike%20is%20working%20on%20his%20photography%20skills%20and%20I'm%20so%20impressed%2Fproud!%22%7D %}
 
 Across the road, on a cliff overlooking the Mtkvari River stands the Metekhi Virgin Mary Assumption Church. This is technically assigned to another sightseeing day but we decide to take a detour to see it!
+
+
+
+Naturally, it was a hike and a half to get up there.
+
+Mike and I stood before this massive church while service went on inside. We hesitated outside the door and it looked really full. I had worn pants to avoid being offensive but a skirt and head-covering were required. An elderly man quietly (with what appeared to be a scowl on his face) watched our exchange.
+
+Just when we were about to turn back, I hear him utter a few Georgian words and he extends his hand with a wrap  towards me. I quickly tie it around myself as he tosses a headscarf on my head 🤣
