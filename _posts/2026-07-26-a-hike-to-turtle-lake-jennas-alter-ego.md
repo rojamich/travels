@@ -3,7 +3,7 @@ title: A Hike to Turtle Lake & Jenna's Alter Ego
 date: 2026-07-27
 categories:
   - welcome-home-tbilisi-georgia
-order: 13
+order: 14
 header:
   teaser_focal_x: 50
   teaser_focal_y: 0
