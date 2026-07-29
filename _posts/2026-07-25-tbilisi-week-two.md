@@ -1,9 +1,9 @@
 ---
 title: "Tbilisi: Week Two!"
-date: 2026-07-26
+date: 2026-07-25
 categories:
   - welcome-home-tbilisi-georgia
-order: 13
+order: 12
 header:
   teaser_focal_x: 50
   teaser_focal_y: 50
