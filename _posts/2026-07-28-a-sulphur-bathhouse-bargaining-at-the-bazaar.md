@@ -38,7 +38,7 @@ This room came with a hot tub, cold plunge, restroom, sauna, showers, and restin
 
 PSA: You do not want to bring jewelry or certain materials into the bathhouse because it can stain, rust, or get the Sulphur smell in the materials! We were very careful to avoid this!
 
-After a cold shower, we dipped our toes into the hot tub. HOLY YIKES!!!🌵🌶️🔥🥵 They did not skimp on the boiling hot water! It took awhile to get used to and eventually we were able to submerge. We didn't last as long in there as we typically do with regular hot tubs and we jumped in to the FREEZING cold plunge 🥶❄️🌨️☃️My body is so confused but so refreshed! 
+After a cold shower, we dipped our toes into the hot tub. HOLY YIKES!!!🌵🌶️🔥🥵 They did not skimp on the boiling hot water (45°c or 113°f)! It took awhile to get used to and eventually we were able to submerge. We didn't last as long in there as we typically do with regular hot tubs and we jumped in to the FREEZING cold plunge 🥶❄️🌨️☃️My body is so confused but so refreshed! 
 
 We opted in for the body scrub and Jenna's attendant came in first (why must I be the guinea pig for this??) She motions me to the stone bed and I lie face up. There's a rough scrub pad in her hand as she fills a pail with water. While the spigot is running water, I reach back to feel how hot or cold this is about to be to prepare myself 🤣 It's warm and she asks if that's good for me (how thoughtful!) Yes, and she gets to work scrubbing my top layer of skin off (and maybe more) like I'm a dirty floor in need of shine. By the time she's done scrubbing me, I feel like a newborn infant with brand new skin! It's really refreshing! 
 
