@@ -839,7 +839,9 @@
       function resolveCoverBox() {
         var h = location.hash || "";
         if (h.indexOf("favorites") !== -1) {
-          return { w: 270, h: 140,
+          // grid auto-fill minmax(240px,1fr) + 1em gap in a wide container
+          // settles around 4 columns of ~285px at desktop widths.
+          return { w: 285, h: 140,
                    desc: "Shows as the card image on the Favorites page." };
         }
         if (h.indexOf("daydream") !== -1) {
@@ -1024,30 +1026,61 @@
       document.addEventListener("touchend", doEnd);
 
       function bindDrag(box, img, state, render) {
-        function recompute() {
+        // Identity token for THIS bind. Guards against a late-firing load
+        // event from a previously-bound tab writing its own measurements
+        // into the drag context that has since been replaced.
+        //
+        // Without this, switching tabs in a multi-entry form (Favorites has
+        // one tab per entry) left a landmine: the old tab's image finishes
+        // decoding after the switch, its load handler runs, and it clobbers
+        // the CURRENT tab's overflow numbers with the old image's. The drag
+        // math then divides by the wrong overflow, so the same physical drag
+        // produced a wildly different percentage than the preview showed.
+        var token = {};
+
+        // Returns how many pixels of the image hang outside the box on each
+        // axis under object-fit: cover. That overflow is the full travel
+        // range 0%–100% maps onto.
+        function measure() {
           var bw = box.clientWidth, bh = box.clientHeight;
           var iw = img.naturalWidth, ih = img.naturalHeight;
-          if (!iw || !ih || !currentDrag) return;
+          if (!iw || !ih || !bw || !bh) return null;
           var imgAR = iw / ih, boxAR = bw / bh;
           var rW, rH;
           if (imgAR > boxAR) { rH = bh; rW = bh * imgAR; }
           else                { rW = bw; rH = bw / imgAR; }
-          currentDrag.overflowX = Math.max(0, rW - bw);
-          currentDrag.overflowY = Math.max(0, rH - bh);
+          return { x: Math.max(0, rW - bw), y: Math.max(0, rH - bh) };
         }
 
         // Replace whatever was the active drag context with this new one.
         currentDrag = {
+          token: token,
           box: box, img: img, state: state, render: render,
           dragging: false, sx: 0, sy: 0, sfx: 50, sfy: 50,
           overflowX: 0, overflowY: 0
         };
 
-        if (img.complete) recompute();
-        img.addEventListener("load", function () { recompute(); render(); });
+        function applyMeasure() {
+          if (!currentDrag || currentDrag.token !== token) return;
+          var m = measure();
+          if (!m) return;
+          currentDrag.overflowX = m.x;
+          currentDrag.overflowY = m.y;
+        }
+
+        // The <img> was just written via innerHTML, so img.complete is
+        // almost always false here — measure now if we can, and again on
+        // load, and once more at grab time (below) which is the one that
+        // actually matters.
+        applyMeasure();
+        img.addEventListener("load", function () { applyMeasure(); render(); });
 
         function start(clientX, clientY) {
-          if (!currentDrag) return;
+          if (!currentDrag || currentDrag.token !== token) return;
+          // Re-measure at grab time. By now the image is decoded and the box
+          // has its final layout size, so these numbers are the real ones —
+          // no dependence on whether a load event fired in time.
+          applyMeasure();
           currentDrag.dragging = true;
           currentDrag.sx = clientX; currentDrag.sy = clientY;
           currentDrag.sfx = state.x; currentDrag.sfy = state.y;
