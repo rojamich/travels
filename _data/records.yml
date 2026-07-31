@@ -4,13 +4,20 @@
 # Fun personal records that get top billing on /stats/. Edit these from
 # /admin/ → Site Settings → Records & leaderboard.
 #
-# "Most countries in one year" is auto-detected from post/trip data —
-# don't add it here manually; the stats page computes it live.
+# Auto-computed (do NOT add here manually — the stats page handles them):
+#   Most countries in one year
+#   Longest single trip
+#   Total words written
+#   Furthest north / south / east / west
+#
+# Filled-in ones show a value; blank template entries below are placeholders
+# — fill them in as they happen (or delete the ones you don't care about).
 # =============================================================================
 
 intro: "Personal bests from the road."
 
 entries:
+  # ── Filled in ────────────────────────────────────────────────────────
   - title: "Most steps in one day"
     value: "42,382"
     unit: "steps"
@@ -26,3 +33,76 @@ entries:
     date:
     note: "Plane, Car, Bike, Walk, Bus, Train"
     icon: "🚆"
+
+  # ── Templates — fill in when they happen ────────────────────────────
+  - title: "Longest travel day"
+    value: ""
+    unit: "hours"
+    place: ""
+    date:
+    note: "Door to door"
+    icon: "🧳"
+
+  - title: "Longest single flight"
+    value: ""
+    unit: "hours"
+    place: ""
+    date:
+    note: ""
+    icon: "✈️"
+
+  - title: "Hottest day"
+    value: ""
+    unit: "°F / °C"
+    place: ""
+    date:
+    note: ""
+    icon: "🥵"
+
+  - title: "Coldest day"
+    value: ""
+    unit: "°F / °C"
+    place: ""
+    date:
+    note: ""
+    icon: "🥶"
+
+  - title: "Longest hike in one day"
+    value: ""
+    unit: "mi / km"
+    place: ""
+    date:
+    note: ""
+    icon: "🥾"
+
+  - title: "Most expensive meal"
+    value: ""
+    unit: ""
+    place: ""
+    date:
+    note: ""
+    icon: "🍽️"
+
+  - title: "Cheapest meal"
+    value: ""
+    unit: ""
+    place: ""
+    date:
+    note: ""
+    icon: "🍜"
+
+  - title: "Most languages used in one day"
+    value: ""
+    unit: "languages"
+    place: ""
+    date:
+    note: ""
+    icon: "🗣️"
+
+  - title: "Highest altitude reached"
+    value: ""
+    unit: "ft / m"
+    place: ""
+    date:
+    note: ""
+    icon: "🏔️"

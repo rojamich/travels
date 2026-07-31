@@ -9,8 +9,8 @@ classes: wide
 {%- comment -%}
   Auto-computed travel stats. Nothing here is edited manually — everything
   reads from site.posts, site.trips, site.data.continents (country→continent
-  lookup table), site.data.records (leaderboard entries), and
-  site.data.status.nomad_start_date (running clock).
+  lookup), site.data.country_codes (country→ISO alpha-3), site.data.records
+  (leaderboard entries), and site.data.status.nomad_start_date (running clock).
 {%- endcomment -%}
 
 {%- assign total_posts = site.posts | size -%}
@@ -47,6 +47,19 @@ classes: wide
 {%- endfor -%}
 {%- assign total_continents = continents_visited | size -%}
 
+{%- comment -%} Visited ISO alpha-3 codes for the world coverage map. {%- endcomment -%}
+{%- assign visited_codes = "" | split: "" -%}
+{%- for c in uniq_countries -%}
+  {%- assign code = site.data.country_codes[c] -%}
+  {%- if code and code != "" -%}
+    {%- unless visited_codes contains code -%}
+      {%- assign visited_codes = visited_codes | push: code -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign world_total = 195 -%}
+{%- assign world_pct = visited_codes.size | times: 100 | divided_by: world_total -%}
+
 {%- comment -%} Total days on the road across all trips with dates. {%- endcomment -%}
 {%- assign total_days = 0 -%}
 {%- for t in site.trips -%}
@@ -56,6 +69,77 @@ classes: wide
     {%- assign secs = end_s | minus: start_s -%}
     {%- assign days = secs | divided_by: 86400 | plus: 1 -%}
     {%- assign total_days = total_days | plus: days -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%} Longest single trip. {%- endcomment -%}
+{%- assign longest_trip_days = 0 -%}
+{%- assign longest_trip_name = "" -%}
+{%- assign longest_trip_url = "" -%}
+{%- for t in site.trips -%}
+  {%- if t.start_date and t.end_date -%}
+    {%- assign s_s = t.start_date | date: "%s" | plus: 0 -%}
+    {%- assign e_s = t.end_date | date: "%s" | plus: 0 -%}
+    {%- assign trip_len = e_s | minus: s_s | divided_by: 86400 | plus: 1 -%}
+    {%- if trip_len > longest_trip_days -%}
+      {%- assign longest_trip_days = trip_len -%}
+      {%- assign longest_trip_name = t.title -%}
+      {%- assign longest_trip_url = t.url -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%} Total words written across all posts. {%- endcomment -%}
+{%- assign total_words = 0 -%}
+{%- for p in site.posts -%}
+  {%- assign wc = p.content | strip_html | number_of_words -%}
+  {%- assign total_words = total_words | plus: wc -%}
+{%- endfor -%}
+
+{%- comment -%} Furthest N/S/E/W. Iterate posts + trips + trip.countries[] and
+    track the extremes. "Center" is 0°N, 0°E (Greenwich prime meridian ×
+    equator) — the standard reference point for all lat/lng coordinates. {%- endcomment -%}
+{%- assign north_lat = -999 -%}
+{%- assign south_lat = 999 -%}
+{%- assign east_lng = -999 -%}
+{%- assign west_lng = 999 -%}
+{%- assign north_place = "" -%}{%- assign north_url = "" -%}
+{%- assign south_place = "" -%}{%- assign south_url = "" -%}
+{%- assign east_place  = "" -%}{%- assign east_url  = "" -%}
+{%- assign west_place  = "" -%}{%- assign west_url  = "" -%}
+
+{%- for p in site.posts -%}
+  {%- if p.location.lat and p.location.lng -%}
+    {%- assign plat = p.location.lat | plus: 0.0 -%}
+    {%- assign plng = p.location.lng | plus: 0.0 -%}
+    {%- assign pname = p.location.name | default: p.title -%}
+    {%- assign purl = p.url -%}
+    {%- if plat > north_lat -%}{%- assign north_lat = plat -%}{%- assign north_place = pname -%}{%- assign north_url = purl -%}{%- endif -%}
+    {%- if plat < south_lat -%}{%- assign south_lat = plat -%}{%- assign south_place = pname -%}{%- assign south_url = purl -%}{%- endif -%}
+    {%- if plng > east_lng -%}{%- assign east_lng = plng -%}{%- assign east_place = pname -%}{%- assign east_url = purl -%}{%- endif -%}
+    {%- if plng < west_lng -%}{%- assign west_lng = plng -%}{%- assign west_place = pname -%}{%- assign west_url = purl -%}{%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- for t in site.trips -%}
+  {%- if t.lat and t.lng -%}
+    {%- assign tlat = t.lat | plus: 0.0 -%}
+    {%- assign tlng = t.lng | plus: 0.0 -%}
+    {%- if tlat > north_lat -%}{%- assign north_lat = tlat -%}{%- assign north_place = t.title -%}{%- assign north_url = t.url -%}{%- endif -%}
+    {%- if tlat < south_lat -%}{%- assign south_lat = tlat -%}{%- assign south_place = t.title -%}{%- assign south_url = t.url -%}{%- endif -%}
+    {%- if tlng > east_lng -%}{%- assign east_lng = tlng -%}{%- assign east_place = t.title -%}{%- assign east_url = t.url -%}{%- endif -%}
+    {%- if tlng < west_lng -%}{%- assign west_lng = tlng -%}{%- assign west_place = t.title -%}{%- assign west_url = t.url -%}{%- endif -%}
+  {%- endif -%}
+  {%- if t.countries -%}
+    {%- for c in t.countries -%}
+      {%- if c.lat and c.lng -%}
+        {%- assign clat = c.lat | plus: 0.0 -%}
+        {%- assign clng = c.lng | plus: 0.0 -%}
+        {%- if clat > north_lat -%}{%- assign north_lat = clat -%}{%- assign north_place = c.name -%}{%- assign north_url = t.url -%}{%- endif -%}
+        {%- if clat < south_lat -%}{%- assign south_lat = clat -%}{%- assign south_place = c.name -%}{%- assign south_url = t.url -%}{%- endif -%}
+        {%- if clng > east_lng -%}{%- assign east_lng = clng -%}{%- assign east_place = c.name -%}{%- assign east_url = t.url -%}{%- endif -%}
+        {%- if clng < west_lng -%}{%- assign west_lng = clng -%}{%- assign west_place = c.name -%}{%- assign west_url = t.url -%}{%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
   {%- endif -%}
 {%- endfor -%}
 
@@ -132,6 +216,10 @@ classes: wide
     <div class="stat-value">{{ total_days }}</div>
     <div class="stat-label">Days on trips</div>
   </div>
+  <div class="stat-tile">
+    <div class="stat-value">{{ total_words }}</div>
+    <div class="stat-label">Words written</div>
+  </div>
 </div>
 
 {% if site.data.status.nomad_start_date and site.data.status.nomad_start_date != "" %}
@@ -165,6 +253,101 @@ classes: wide
 </script>
 {% endif %}
 
+<h2 style="margin-top:2em;">🌍 World coverage</h2>
+<p style="color:#666;margin:0 0 0.6em;">
+  <strong>{{ visited_codes.size }}</strong> of ~{{ world_total }} countries visited — <strong>{{ world_pct }}%</strong> of the world.
+  Shaded countries are places we've been.
+</p>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+
+<div id="coverage-map" style="height:420px;border-radius:14px;overflow:hidden;border:1px solid #ddd;background:#f5f8fa;"></div>
+<script>
+  (function () {
+    var VISITED = {{ visited_codes | jsonify }};
+    var visitedSet = {};
+    VISITED.forEach(function (c) { visitedSet[c] = true; });
+
+    var map = L.map("coverage-map", {
+      center: [20, 0],
+      zoom: 1,
+      minZoom: 1,
+      maxZoom: 5,
+      zoomControl: true,
+      attributionControl: false,
+      worldCopyJump: true,
+      scrollWheelZoom: false
+    });
+    // No tile layer — plain background so the polygons speak for themselves.
+
+    fetch("https://cdn.jsdelivr.net/gh/johan/world.geo.json/countries.geo.json")
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        L.geoJSON(data, {
+          style: function (feat) {
+            var visited = !!visitedSet[feat.id];
+            return {
+              fillColor: visited ? "#5a8770" : "#e5e9ec",
+              fillOpacity: visited ? 0.85 : 0.5,
+              weight: 0.5,
+              color: "#fff"
+            };
+          },
+          onEachFeature: function (feat, layer) {
+            var name = (feat.properties && feat.properties.name) || feat.id;
+            var visited = !!visitedSet[feat.id];
+            layer.bindTooltip(name + (visited ? " ✓" : ""), { sticky: true });
+          }
+        }).addTo(map);
+      })
+      .catch(function (err) {
+        console.warn("[coverage-map] failed to load countries geojson:", err);
+        document.getElementById("coverage-map").innerHTML =
+          '<div style="padding:2em;text-align:center;color:#888;">Couldn\'t load the world map right now — try refreshing.</div>';
+      });
+  })();
+</script>
+
+<h2 style="margin-top:2em;">🧭 Furthest points</h2>
+<p style="color:#666;margin:0 0 0.6em;">
+  Distance from the "center" — 0° latitude (equator), 0° longitude (Greenwich prime meridian, which runs through London). All coordinates on Earth are measured from this reference.
+</p>
+<div class="compass-grid">
+  {% if north_place != "" %}
+  <a href="{{ north_url | relative_url }}" class="compass-card">
+    <div class="compass-dir">⬆️ North</div>
+    <div class="compass-place">{{ north_place }}</div>
+    <div class="compass-val">{{ north_lat | round: 2 }}°</div>
+  </a>
+  {% endif %}
+  {% if south_place != "" %}
+  <a href="{{ south_url | relative_url }}" class="compass-card">
+    <div class="compass-dir">⬇️ South</div>
+    <div class="compass-place">{{ south_place }}</div>
+    <div class="compass-val">{{ south_lat | round: 2 }}°</div>
+  </a>
+  {% endif %}
+  {% if east_place != "" %}
+  <a href="{{ east_url | relative_url }}" class="compass-card">
+    <div class="compass-dir">➡️ East</div>
+    <div class="compass-place">{{ east_place }}</div>
+    <div class="compass-val">{{ east_lng | round: 2 }}°</div>
+  </a>
+  {% endif %}
+  {% if west_place != "" %}
+  <a href="{{ west_url | relative_url }}" class="compass-card">
+    <div class="compass-dir">⬅️ West</div>
+    <div class="compass-place">{{ west_place }}</div>
+    <div class="compass-val">{{ west_lng | round: 2 }}°</div>
+  </a>
+  {% endif %}
+</div>
+
 <h2 style="margin-top:2em;">🏆 Leaderboard</h2>
 {% if site.data.records.intro and site.data.records.intro != "" %}
 <p style="color:#666;">{{ site.data.records.intro }}</p>
@@ -181,7 +364,20 @@ classes: wide
   </div>
   {% endif %}
 
+  {% if longest_trip_days > 0 %}
+  <a href="{{ longest_trip_url | relative_url }}" class="record-card record-auto">
+    <div class="record-icon">📅</div>
+    <div class="record-body">
+      <div class="record-title">Longest single trip</div>
+      <div class="record-value">{{ longest_trip_days }} <span class="record-unit">days</span></div>
+      <div class="record-meta">{{ longest_trip_name }}</div>
+    </div>
+  </a>
+  {% endif %}
+
   {% for r in site.data.records.entries %}
+    {%- comment -%} Skip blank template entries (no value filled in yet). {%- endcomment -%}
+    {% if r.value and r.value != "" %}
     <div class="record-card">
       <div class="record-icon">{{ r.icon | default: "⭐" }}</div>
       <div class="record-body">
@@ -194,6 +390,7 @@ classes: wide
         {% if r.note and r.note != "" %}<div class="record-note">{{ r.note }}</div>{% endif %}
       </div>
     </div>
+    {% endif %}
   {% endfor %}
 </div>
 
@@ -288,6 +485,34 @@ classes: wide
     letter-spacing: 0.05em;
   }
 
+  .compass-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 0.9em;
+    margin: 1em 0 2em;
+  }
+  .compass-card {
+    padding: 1em 1.1em;
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    text-decoration: none !important;
+    color: inherit !important;
+    transition: transform 0.15s, box-shadow 0.15s;
+    display: block;
+  }
+  .compass-card:hover { transform: translateY(-2px); box-shadow: 0 3px 10px rgba(0,0,0,0.08); }
+  .compass-dir {
+    font-size: 0.8em;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    margin-bottom: 0.3em;
+  }
+  .compass-place { font-weight: bold; color: #2a4d69; font-size: 1.1em; }
+  .compass-val { font-size: 0.85em; color: #888; margin-top: 0.15em; font-family: ui-monospace, monospace; }
+
   .leaderboard {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -302,7 +527,11 @@ classes: wide
     border-radius: 12px;
     border: 1px solid #ddd;
     align-items: flex-start;
+    text-decoration: none !important;
+    color: inherit !important;
+    transition: transform 0.15s, box-shadow 0.15s;
   }
+  a.record-card:hover { transform: translateY(-2px); box-shadow: 0 3px 10px rgba(0,0,0,0.08); }
   .record-icon { font-size: 2em; line-height: 1; }
   .record-body { flex: 1; min-width: 0; }
   .record-title {
@@ -322,18 +551,6 @@ classes: wide
   .record-unit { font-size: 0.55em; color: #666; font-weight: normal; margin-left: 4px; }
   .record-meta { font-size: 0.85em; color: #888; margin-top: 0.2em; }
   .record-note { font-size: 0.85em; color: #666; margin-top: 0.35em; font-style: italic; }
-  .record-auto-badge {
-    display: inline-block;
-    margin-left: 0.4em;
-    padding: 0.05em 0.5em;
-    background: #eef3f7;
-    color: #2a4d69;
-    border-radius: 999px;
-    font-size: 0.75em;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    font-weight: bold;
-  }
 
   .stats-trip-list {
     display: flex;

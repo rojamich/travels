@@ -1,0 +1,101 @@
+# =============================================================================
+# country_codes.yml — country name → ISO 3166-1 alpha-3 code
+# =============================================================================
+# Used by /stats/ world coverage map to match our visited-country names
+# against the GeoJSON feature ids (which are alpha-3 codes).
+#
+# Match must be EXACT to the trailing-comma country name we extract
+# from trip.location and trip.countries[].name. Missing codes just
+# don't get shaded on the map — they still count in the country tally.
+# =============================================================================
+
+# North America
+United States: USA
+United States of America: USA
+USA: USA
+Canada: CAN
+Mexico: MEX
+
+# South America
+Peru: PER
+Chile: CHL
+Argentina: ARG
+Brazil: BRA
+Ecuador: ECU
+Colombia: COL
+Bolivia: BOL
+
+# Europe (England / Scotland / Wales all map to GBR — Great Britain)
+England: GBR
+United Kingdom: GBR
+UK: GBR
+Scotland: GBR
+Wales: GBR
+Ireland: IRL
+France: FRA
+Germany: DEU
+Italy: ITA
+Spain: ESP
+Portugal: PRT
+Netherlands: NLD
+The Netherlands: NLD
+Belgium: BEL
+Austria: AUT
+Switzerland: CHE
+Greece: GRC
+Croatia: HRV
+Norway: NOR
+Sweden: SWE
+Denmark: DNK
+Finland: FIN
+Iceland: ISL
+Poland: POL
+Czech Republic: CZE
+Czechia: CZE
+Hungary: HUN
+Georgia: GEO
+
+# Asia
+Japan: JPN
+South Korea: KOR
+Korea: KOR
+China: CHN
+Vietnam: VNM
+Thailand: THA
+Cambodia: KHM
+Laos: LAO
+Singapore: SGP
+Malaysia: MYS
+Indonesia: IDN
+Philippines: PHL
+India: IND
+Nepal: NPL
+Sri Lanka: LKA
+Taiwan: TWN
+Turkey: TUR
+Israel: ISR
+Jordan: JOR
+United Arab Emirates: ARE
+UAE: ARE
+
+# Africa
+South Africa: ZAF
+Egypt: EGY
+Morocco: MAR
+Kenya: KEN
+Tanzania: TZA
+Zambia: ZMB
+Zimbabwe: ZWE
+Botswana: BWA
+Namibia: NAM
+Rwanda: RWA
+Uganda: UGA
+Ethiopia: ETH
+
+# Oceania
+Australia: AUS
+New Zealand: NZL
+Fiji: FJI
+
+# Antarctica
+Antarctica: ATA
