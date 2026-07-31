@@ -5,10 +5,11 @@ categories:
     description: Where my taste buds were happiest.
     entries:
       - country: Vietnam
-        trip_slug: vietnam
+        trip_slug: Vietnam
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785508950/IMG-20251212-WA0015_uoianw.jpg
         blurb: ""
       - country: Mexico
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785512085/20250503_182727_bs0xmv.jpg
       - country: South Korea
         trip_slug: bamboo-bulgogi
   - name: Best Nature
