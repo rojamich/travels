@@ -11,7 +11,7 @@ location: United Kingdom
 lat: 48.8566
 lng: 2.3522
 countries:
-  - name: United Kingdom
+  - name: England
     lat: 55.3781
     lng: -3.436
   - name: Belgium
