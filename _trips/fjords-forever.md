@@ -7,13 +7,10 @@ cover_focal_x: 50
 cover_focal_y: 34
 start_date: 2026-06-17
 end_date: 2026-07-13
-location: Svalbard, Norway
-lat: 58.959759
-lng: 5.72427
+location: Oslo, Norway
+lat: 59.913868
+lng: 9
 countries:
-  - name: Oslo, Norway
-    lat: 59.913868
-    lng: 10.752245
   - name: Svalbard, Norway
     lat: 78.223175
     lng: 15.626723
