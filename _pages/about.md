@@ -12,4 +12,6 @@ Thank you for coming with us :)
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780795691/20230713_154536_tnpmqn.jpg)
 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781264906/20260610_080946_y59oop.jpg)
+
 {% include subscribe.html %}
