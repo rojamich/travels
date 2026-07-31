@@ -36,7 +36,7 @@ classes: wide
 <div class="favorite-card favorite-card--unlinked">
 {% endif %}
 {% if entry.cover and entry.cover != "" %}
-<div class="favorite-card-image"><img src="{{ entry.cover }}" alt="{{ entry.country }}" onerror="this.parentNode.style.display='none'"></div>
+<div class="favorite-card-image"><img src="{{ entry.cover }}" alt="{{ entry.country }}" style="object-position: {{ entry.cover_focal_x | default: 50 }}% {{ entry.cover_focal_y | default: 50 }}%;" onerror="this.parentNode.style.display='none'"></div>
 {% endif %}
 <div class="favorite-card-body">
 <h3>{{ entry.country }}</h3>

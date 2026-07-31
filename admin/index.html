@@ -801,11 +801,15 @@
       //   box: { w, h } pixel size of the preview box in the modal — choose
       //        an aspect ratio that matches how the photo is used on the site.
       var FIELDS = [
-        { key: "cover",   tab: "Trip cover",       labelMatch: "Cover photo",
+        // "Cover photo" appears on Trips, Favorites entries and Daydream
+        // entries — all with the same focal label pair — so this single
+        // config covers all three. groupedTargets() splits repeating list
+        // rows into one tab each.
+        { key: "cover",   tab: "Cover",            labelMatch: "Cover photo",
           focalXLabel: "Cover — focal X (0–100)",
           focalYLabel: "Cover — focal Y (0–100)",
           box: { w: 360, h: 240 },
-          desc: "Shows as the trip card on the homepage (3:2)." },
+          desc: "Shows as the card image on the homepage / Favorites / Daydreaming (3:2)." },
         { key: "teaser",  tab: "Post teaser",      labelMatch: "Teaser (small thumbnail in listings)",
           focalXLabel: "Teaser — focal X (0–100)",
           focalYLabel: "Teaser — focal Y (0–100)",
@@ -817,6 +821,12 @@
           box: { w: 480, h: 160 },
           desc: "The wide banner at the top of the post page (3:1)." }
       ];
+
+      function escapeHtmlAttr(s) {
+        return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+          return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+        });
+      }
 
       // ----- DOM scraping helpers -----
       // Walk all <label>s in the form; match by startsWith so we tolerate the
@@ -860,6 +870,82 @@
           }
         });
         return found;
+      }
+
+      // ----- Repeating-list support -----
+      // Favorites categories and Daydream entries are Decap LIST widgets, so
+      // a single form can contain many "Cover photo" fields — one per entry.
+      // findFieldContainer() only ever returns the first, which would let her
+      // position entry #1 and nothing else.
+      //
+      // groupedTargets() instead collects EVERY label matching imageLabel,
+      // then walks up from each to the nearest ancestor that also contains
+      // the matching focal X/Y number inputs. That ancestor is the list
+      // item, so each entry gets its own independent target. Falls back to
+      // the whole document for non-repeating fields (trip cover, post
+      // teaser/banner) where there's only one of each.
+      function groupedTargets(imageLabel, focalXLabel, focalYLabel) {
+        var out = [];
+        var labels = document.querySelectorAll("label, span[class*='label']");
+        for (var i = 0; i < labels.length; i++) {
+          var t = (labels[i].textContent || "").trim();
+          if (t !== imageLabel && t.indexOf(imageLabel) !== 0) continue;
+
+          // Walk up looking for a scope that holds this image AND its focal pair.
+          var node = labels[i].parentElement;
+          for (var d = 0; d < 12 && node; d++) {
+            var fx = findNumberInputWithin(node, focalXLabel);
+            var fy = findNumberInputWithin(node, focalYLabel);
+            if (fx && fy) {
+              out.push({
+                container: node,
+                url: readImageUrl(node),
+                fxInput: fx,
+                fyInput: fy,
+                // Best-effort label for the tab: the entry's own name field
+                // (Country / Place) so tabs read "Vietnam" not "Entry 3".
+                name: readEntryName(node)
+              });
+              break;
+            }
+            node = node.parentElement;
+          }
+        }
+        return out;
+      }
+      function findNumberInputWithin(scope, labelText) {
+        var labels = scope.querySelectorAll("label, span[class*='label']");
+        for (var i = 0; i < labels.length; i++) {
+          var t = (labels[i].textContent || "").trim();
+          if (t !== labelText && t.indexOf(labelText) !== 0) continue;
+          var parent = labels[i].parentElement;
+          for (var d = 0; d < 5 && parent; d++) {
+            var input = parent.querySelector("input[type='number']");
+            if (input) return input;
+            parent = parent.parentElement;
+          }
+        }
+        return null;
+      }
+      // Pull a human name out of a list-entry scope so tabs are readable.
+      // Looks for the first text input whose label starts with a known
+      // naming field ("Country / Place", "Category name", "Title").
+      function readEntryName(scope) {
+        var NAME_LABELS = ["Country / Place", "Category name", "Title", "Trip name", "Place name"];
+        var labels = scope.querySelectorAll("label, span[class*='label']");
+        for (var i = 0; i < labels.length; i++) {
+          var t = (labels[i].textContent || "").trim();
+          for (var n = 0; n < NAME_LABELS.length; n++) {
+            if (t.indexOf(NAME_LABELS[n]) !== 0) continue;
+            var parent = labels[i].parentElement;
+            for (var d = 0; d < 5 && parent; d++) {
+              var input = parent.querySelector("input[type='text']");
+              if (input && input.value) return input.value;
+              parent = parent.parentElement;
+            }
+          }
+        }
+        return "";
       }
       // React-controlled inputs ignore plain `input.value = x`. We have to call
       // the prototype's native setter and dispatch an input event so React's
@@ -1001,25 +1087,31 @@
         buildModal();
         // Scan the form for known photo fields. Pending = the values she's
         // changed in the modal but hasn't yet saved back to the form.
-        var available = FIELDS.map(function (f) {
-          var container = findFieldContainer(f.labelMatch);
-          var url = readImageUrl(container);
-          var fxIn = findNumberInput(f.focalXLabel);
-          var fyIn = findNumberInput(f.focalYLabel);
-          return {
-            cfg: f,
-            url: url,
-            hasFields: !!(fxIn && fyIn),
-            fxInput: fxIn,
-            fyInput: fyIn,
-            pending: { x: readFocalValue(fxIn, 50), y: readFocalValue(fyIn, 50) }
-          };
-        }).filter(function (e) { return e.hasFields; });
+        // Expand each configured field into one entry PER occurrence on the
+        // form. Single fields (trip cover, post teaser/banner) yield one;
+        // list fields (Favorites entries, Daydream entries) yield one per
+        // row, each wired to that row's own focal inputs.
+        var available = [];
+        FIELDS.forEach(function (f) {
+          var targets = groupedTargets(f.labelMatch, f.focalXLabel, f.focalYLabel);
+          targets.forEach(function (t, idx) {
+            available.push({
+              cfg: f,
+              tabLabel: targets.length > 1
+                ? (t.name || (f.tab + " " + (idx + 1)))
+                : f.tab,
+              url: t.url,
+              fxInput: t.fxInput,
+              fyInput: t.fyInput,
+              pending: { x: readFocalValue(t.fxInput, 50), y: readFocalValue(t.fyInput, 50) }
+            });
+          });
+        });
 
         if (available.length === 0) {
           modalBody.innerHTML =
             "<div class='nofields'>" +
-            "Open a post or trip to edit, then click 🎯 again. The positioner needs the photo fields in view to work." +
+            "Open a post, trip, Favorites or Daydreaming entry to edit, then click 🎯 again. The positioner needs the photo fields in view to work.<br><br>For Favorites and Daydreaming, expand the entry rows first so their photo fields are visible." +
             "</div>" +
             "<div class='actions'><button type='button' class='primary' id='photo-pos-close'>Close</button></div>";
           modalBody.querySelector("#photo-pos-close").addEventListener("click", closeModal);
@@ -1032,7 +1124,7 @@
         function render() {
           var entry = available[activeIdx];
           var tabsHtml = available.map(function (e, i) {
-            return "<button type='button' class='tab" + (i === activeIdx ? " active" : "") + "' data-i='" + i + "'>" + e.cfg.tab + "</button>";
+            return "<button type='button' class='tab" + (i === activeIdx ? " active" : "") + "' data-i='" + i + "'>" + escapeHtmlAttr(e.tabLabel) + "</button>";
           }).join("");
           modalBody.innerHTML =
             "<div class='tabs'>" + tabsHtml + "</div>" +

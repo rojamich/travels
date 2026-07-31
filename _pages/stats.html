@@ -17,13 +17,10 @@ classes: wide
 {%- assign total_trips = site.trips | size -%}
 
 {%- comment -%}
-  Total distinct countries: gather trip.location + trip.countries[].name.
-  For location: only parse the LAST comma-separated segment IF it looks
-  like a plain country name (no "&" / "→" / "(" — those are multi-country
-  strings that should have been decomposed into countries[] instead).
-  This prevents "Zimbabwe & Botswana" or "United States of America" from
-  being counted as one weird "country" while still handling normal
-  "City, Country" locations correctly.
+  Total distinct countries: gather trip.location + trip.countries[].name,
+  then dedupe by ISO code (via country_codes.yml) — NOT by name — so
+  "England" + "United Kingdom" both mapping to GBR count as one country.
+  Names without a known code fall back to name-based dedup.
 {%- endcomment -%}
 {%- assign country_names = "" | split: "" -%}
 {%- for t in site.trips -%}
@@ -46,7 +43,23 @@ classes: wide
     {%- endfor -%}
   {%- endif -%}
 {%- endfor -%}
-{%- assign uniq_countries = country_names | uniq -%}
+
+{%- comment -%} Dedupe by ISO code (GBR wins over England/UK duplicates). {%- endcomment -%}
+{%- assign seen_codes = "" | split: "" -%}
+{%- assign uniq_countries = "" | split: "" -%}
+{%- for name in country_names -%}
+  {%- assign code = site.data.country_codes[name] -%}
+  {%- if code and code != "" -%}
+    {%- unless seen_codes contains code -%}
+      {%- assign seen_codes = seen_codes | push: code -%}
+      {%- assign uniq_countries = uniq_countries | push: name -%}
+    {%- endunless -%}
+  {%- else -%}
+    {%- unless uniq_countries contains name -%}
+      {%- assign uniq_countries = uniq_countries | push: name -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
 {%- assign total_countries = uniq_countries | size -%}
 
 {%- comment -%} Distinct continents visited (via _data/continents.yml lookup). {%- endcomment -%}
@@ -174,23 +187,35 @@ classes: wide
   {%- endif -%}
 {%- endfor -%}
 
-{%- comment -%} Most countries in one year (auto-detected). {%- endcomment -%}
+{%- comment -%}
+  Most countries in one year (auto-detected). Pairs are keyed by ISO
+  code where available so UK + England in the same year count once,
+  falling back to the raw name if no code is known.
+{%- endcomment -%}
 {%- assign year_country_pairs = "" | split: "" -%}
 {%- for t in site.trips -%}
   {%- if t.start_date -%}
     {%- assign ty = t.start_date | date: "%Y" -%}
     {%- if t.location and t.location != "" -%}
       {%- assign cn = t.location | split: "," | last | strip -%}
-      {%- assign pair = ty | append: "|" | append: cn -%}
-      {%- unless year_country_pairs contains pair -%}
-        {%- assign year_country_pairs = year_country_pairs | push: pair -%}
-      {%- endunless -%}
+      {%- assign is_valid = true -%}
+      {%- if cn contains "&" or cn contains "→" or cn contains "(" -%}
+        {%- assign is_valid = false -%}
+      {%- endif -%}
+      {%- if is_valid -%}
+        {%- assign code = site.data.country_codes[cn] | default: cn -%}
+        {%- assign pair = ty | append: "|" | append: code -%}
+        {%- unless year_country_pairs contains pair -%}
+          {%- assign year_country_pairs = year_country_pairs | push: pair -%}
+        {%- endunless -%}
+      {%- endif -%}
     {%- endif -%}
     {%- if t.countries -%}
       {%- for c in t.countries -%}
         {%- if c.name and c.name != "" -%}
           {%- assign cn2 = c.name | split: "," | last | strip -%}
-          {%- assign pair2 = ty | append: "|" | append: cn2 -%}
+          {%- assign code2 = site.data.country_codes[cn2] | default: cn2 -%}
+          {%- assign pair2 = ty | append: "|" | append: code2 -%}
           {%- unless year_country_pairs contains pair2 -%}
             {%- assign year_country_pairs = year_country_pairs | push: pair2 -%}
           {%- endunless -%}
@@ -777,12 +802,19 @@ classes: wide
     border-color: #f3d9c2;
   }
   .chip-img {
-    width: 20px;
-    height: 14px;
+    width: 26px;
+    height: 18px;
     object-fit: cover;
-    border-radius: 2px;
-    margin-right: 0.45em;
-    vertical-align: -0.15em;
+    border-radius: 3px;
+    margin-right: 0.5em;
+    vertical-align: middle;
     box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  }
+  /* Make chips align content on the baseline so the image reads as
+     centered alongside the country name. */
+  .country-chip {
+    display: inline-flex;
+    align-items: center;
+    line-height: 1.4;
   }
 </style>

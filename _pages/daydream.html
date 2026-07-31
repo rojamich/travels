@@ -37,7 +37,7 @@ classes: wide
   {% endif %}
 </div>
 {% if entry.cover and entry.cover != "" %}
-<div class="daydream-cover"><img src="{{ entry.cover }}" alt="{{ entry.country }}" onerror="this.parentNode.style.display='none'"></div>
+<div class="daydream-cover"><img src="{{ entry.cover }}" alt="{{ entry.country }}" style="object-position: {{ entry.cover_focal_x | default: 50 }}% {{ entry.cover_focal_y | default: 50 }}%;" onerror="this.parentNode.style.display='none'"></div>
 {% endif %}
 <div class="daydream-body">
 <h3>{{ entry.country }}</h3>
@@ -72,7 +72,7 @@ classes: wide
 <li class="daydream-item">
 <div class="daydream-rank">{{ forloop.index }}</div>
 {% if entry.cover and entry.cover != "" %}
-<div class="daydream-cover"><img src="{{ entry.cover }}" alt="{{ entry.country }}" onerror="this.parentNode.style.display='none'"></div>
+<div class="daydream-cover"><img src="{{ entry.cover }}" alt="{{ entry.country }}" style="object-position: {{ entry.cover_focal_x | default: 50 }}% {{ entry.cover_focal_y | default: 50 }}%;" onerror="this.parentNode.style.display='none'"></div>
 {% endif %}
 <div class="daydream-body">
 <h3>{{ entry.country }}</h3>

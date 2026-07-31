@@ -146,6 +146,8 @@ collections:
                   - { label: "Country / Place", name: "country", widget: "string" }
                   - { label: "Linked trip slug", name: "trip_slug", widget: "string", required: false, hint: "If this country has a trip on the site, paste its slug (e.g. 'vietnam') to make the card clickable." }
                   - { label: "Cover photo", name: "cover", widget: "image", required: false, hint: "The photo that represents this choice — shown as the card image. Recommended for every entry." }
+                  - { label: "Cover — focal X (0–100)", name: "cover_focal_x", widget: "number", required: false, value_type: "int", default: 50, min: 0, max: 100, hint: "Which part of the photo shows in the card. 50 = centered, 0 = far left, 100 = far right. Use the 🎯 Position Photo button (bottom-right) to drag it visually instead of guessing." }
+                  - { label: "Cover — focal Y (0–100)", name: "cover_focal_y", widget: "number", required: false, value_type: "int", default: 50, min: 0, max: 100, hint: "0 = top of the photo, 100 = bottom." }
                   - { label: "Blurb (one line)", name: "blurb", widget: "string", required: false }
 
       - file: "_data/daydream.yml"
@@ -166,6 +168,8 @@ collections:
             fields:
               - { label: "Country / Place", name: "country", widget: "string" }
               - { label: "Cover photo", name: "cover", widget: "image", required: false }
+              - { label: "Cover — focal X (0–100)", name: "cover_focal_x", widget: "number", required: false, value_type: "int", default: 50, min: 0, max: 100, hint: "Which part of the photo shows in the card. 50 = centered. Use the 🎯 Position Photo button (bottom-right) to drag it visually." }
+              - { label: "Cover — focal Y (0–100)", name: "cover_focal_y", widget: "number", required: false, value_type: "int", default: 50, min: 0, max: 100, hint: "0 = top of the photo, 100 = bottom." }
               - { label: "Why we're going", name: "why", widget: "string", required: false, hint: "One sentence on what we're looking forward to." }
               - { label: "When", name: "when", widget: "string", required: false, hint: "e.g. 'March 2027' or 'Booked for June'." }
           - label: "Wish list (in priority order)"
@@ -176,6 +180,8 @@ collections:
             fields:
               - { label: "Country / Place", name: "country", widget: "string" }
               - { label: "Cover photo", name: "cover", widget: "image", required: false }
+              - { label: "Cover — focal X (0–100)", name: "cover_focal_x", widget: "number", required: false, value_type: "int", default: 50, min: 0, max: 100, hint: "Which part of the photo shows in the card. 50 = centered. Use the 🎯 Position Photo button (bottom-right) to drag it visually." }
+              - { label: "Cover — focal Y (0–100)", name: "cover_focal_y", widget: "number", required: false, value_type: "int", default: 50, min: 0, max: 100, hint: "0 = top of the photo, 100 = bottom." }
               - { label: "Why we want to go", name: "why", widget: "string", required: false, hint: "One sentence on what's drawing us there." }
               - { label: "When (rough timing)", name: "when", widget: "string", required: false, hint: "e.g. 'Summer 2027' or 'Once the kids are older'." }
 
@@ -192,7 +198,7 @@ collections:
             hint: "Add a country name + image URL. On /stats/ the chip for that country will show the image as a small rounded rectangle to the left of the name. Country name MUST match spelling used in your trip files (e.g. 'Vietnam', not 'Viet Nam') — use the same dropdown values from the Trip → Additional countries picker."
             fields:
               - { label: "Country name", name: "name", widget: "string", hint: "e.g. 'Vietnam', 'United Kingdom'. Case-sensitive; must match your trip data exactly." }
-              - { label: "Image URL", name: "url", widget: "string", hint: "Direct URL to a flag or emblem image. Wikipedia flag SVGs work great — e.g. https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg" }
+              - { label: "Image URL", name: "url", widget: "string", hint: "Must be a DIRECT image link starting with https://upload.wikimedia.org/ — NOT a wikipedia.org/wiki/File: page link (those show a webpage, not an image, so nothing renders). To get it: open the Wikipedia flag page, right-click the flag itself, choose 'Copy image address'. Example: https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/960px-Flag_of_Vietnam.svg.png" }
 
       - file: "_data/us_state_images.yml"
         label: "US state flag images"
@@ -207,7 +213,7 @@ collections:
             hint: "Add a US state name + image URL. Same shape as the country version above, but keyed by full state name (e.g. 'California', 'New York')."
             fields:
               - { label: "State name", name: "name", widget: "string", hint: "e.g. 'California', 'New York'. Case-sensitive; must match your trip data exactly." }
-              - { label: "Image URL", name: "url", widget: "string", hint: "Direct URL to a state flag image. Wikipedia state flag SVGs work well." }
+              - { label: "Image URL", name: "url", widget: "string", hint: "Must be a DIRECT image link starting with https://upload.wikimedia.org/ — NOT a wikipedia.org/wiki/File: page link. Right-click the flag image itself and choose 'Copy image address'. Example: https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/960px-Flag_of_California.svg.png" }
 
       - file: "_data/records.yml"
         label: "Records & leaderboard"
