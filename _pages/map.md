@@ -52,6 +52,7 @@ classes: wide
       "lng":   {{ trip.lng | default: 0 }},
       "cover": {{ trip.cover | relative_url | jsonify }},
       "url":   {{ trip.url | relative_url | jsonify }},
+      "postCount": {{ trip_posts | size }},
       "countries": [
         {%- assign c_first = true -%}
         {%- if trip.countries -%}

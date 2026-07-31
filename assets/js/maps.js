@@ -66,12 +66,17 @@ window.TravelMap = (function () {
     var img = trip.cover
       ? '<img src="' + trip.cover + '" alt="" style="width:100%; height:90px; object-fit:cover; border-radius:6px; margin-bottom:0.5em;">'
       : "";
+    // Prefer trip.postCount (total posts regardless of location coords).
+    // Fall back to trip.posts.length only for legacy data without the field.
+    var count = (typeof trip.postCount === "number")
+      ? trip.postCount
+      : (trip.posts ? trip.posts.length : 0);
     return (
       '<div style="min-width:180px;">' +
         img +
         '<strong>' + escapeHtml(trip.name) + '</strong><br>' +
         '<span style="color:#888; font-size:0.85em;">' +
-          (trip.posts ? trip.posts.length : 0) + ' post(s)' +
+          count + ' post' + (count === 1 ? '' : 's') +
         '</span><br>' +
         '<a href="' + trip.url + '" style="display:inline-block; margin-top:0.5em;">Read trip &rarr;</a>' +
       '</div>'

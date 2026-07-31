@@ -17,8 +17,25 @@ classes: wide
 <p style="color:#666;margin-top:-0.3em;">Booked or planned — heading here soon.</p>
 <ol class="daydream-queue daydream-queue--upcoming">
 {% for entry in data.upcoming %}
+{%- comment -%}
+  Rank badge: prefer the country's flag image from _data/country_images.yml
+  if she's uploaded one there. Fall back to a 🗺️ emoji otherwise. This
+  keeps the badge visually meaningful even before flags are added.
+{%- endcomment -%}
+{%- assign flag_url = "" -%}
+{%- if site.data.country_images.entries -%}
+  {%- for e in site.data.country_images.entries -%}
+    {%- if e.name == entry.country -%}{%- assign flag_url = e.url -%}{%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
 <li class="daydream-item">
-<div class="daydream-rank">✓</div>
+<div class="daydream-rank daydream-rank--flag">
+  {% if flag_url != "" %}
+    <img src="{{ flag_url }}" alt="{{ entry.country }} flag" onerror="this.replaceWith(Object.assign(document.createElement('span'), {textContent: '🗺️'}))">
+  {% else %}
+    <span class="daydream-rank-emoji">🗺️</span>
+  {% endif %}
+</div>
 {% if entry.cover and entry.cover != "" %}
 <div class="daydream-cover"><img src="{{ entry.cover }}" alt="{{ entry.country }}" onerror="this.parentNode.style.display='none'"></div>
 {% endif %}
@@ -30,6 +47,22 @@ classes: wide
 </li>
 {% endfor %}
 </ol>
+
+<style>
+  .daydream-rank--flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .daydream-rank--flag img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .daydream-rank-emoji { font-size: 1.3em; }
+</style>
 {% endif %}
 
 {% if data.queue and data.queue.size > 0 %}
