@@ -12,7 +12,15 @@ main:
     url: /map/
   - title: "Favorites"
     url: /favorites/
+  - title: "Lessons"
+    url: /lessons/
   - title: "Daydreaming"
     url: /daydream/
+  - title: "Stats"
+    url: /stats/
+  - title: "Years"
+    url: /year/
+  - title: "Search"
+    url: /search/
   - title: "About"
     url: /about/

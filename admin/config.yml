@@ -158,6 +158,64 @@ collections:
               - { label: "Why we want to go", name: "why", widget: "string", required: false, hint: "One sentence on what's drawing us there." }
               - { label: "When (rough timing)", name: "when", widget: "string", required: false, hint: "e.g. 'Summer 2027' or 'Once the kids are older'." }
 
+      - file: "_data/lessons.yml"
+        label: "Lessons page"
+        name: "lessons"
+        fields:
+          - { label: "Intro paragraph",
+              name: "intro",
+              widget: "string",
+              required: false,
+              hint: "Shown at the top of the /lessons/ page under the Rick Steves quote." }
+          - label: "Reflections & goals"
+            name: "entries"
+            widget: "list"
+            summary: "{{fields.topic}}"
+            hint: "Each entry captures how our view on a topic has evolved. Add updates over time as our thinking shifts."
+            fields:
+              - { label: "Topic",
+                  name: "topic",
+                  widget: "string",
+                  hint: "e.g. 'Living out of a backpack' or 'Vietnam' or 'Learning a language on the road'." }
+              - { label: "Example only? (hides from public page — used as a reference)",
+                  name: "example",
+                  widget: "boolean",
+                  default: false,
+                  required: false,
+                  hint: "Turn ON for template/example entries — they'll only be visible here in the editor, not on the public site." }
+              - { label: "Category",
+                  name: "category",
+                  widget: "select",
+                  required: false,
+                  options: ["Country", "City", "Life on the road", "Relationships", "Health & fitness", "Money", "Food", "Goal", "Other"],
+                  hint: "Broad grouping shown as a pill on the card." }
+              - { label: "Status",
+                  name: "status",
+                  widget: "select",
+                  required: false,
+                  default: "evolved",
+                  options: ["evolved", "loved", "in_progress", "achieved", "pivoted", "abandoned"],
+                  hint: "Shown as a colored badge on the card. 'evolved' is the default for reflections; the others are useful for goals." }
+              - { label: "Before we left",
+                  name: "before",
+                  widget: "text",
+                  required: false,
+                  hint: "What we thought / expected before this experience." }
+              - label: "Updates along the way"
+                name: "updates"
+                widget: "list"
+                required: false
+                summary: "{{fields.date}}"
+                hint: "Dated thoughts as our view shifts. Add one whenever we notice our thinking changed."
+                fields:
+                  - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false, date_format: "YYYY-MM-DD" }
+                  - { label: "Thought", name: "thought", widget: "text" }
+              - { label: "Where we've landed (current view)",
+                  name: "current",
+                  widget: "text",
+                  required: false,
+                  hint: "The distilled current take, shown in a highlighted box at the bottom of the card." }
+
   # -------------------------------------------------------------------------
   # Trips collection — one entry per vacation.
   # Each trip becomes a page at /<slug>/ showing its day-by-day post list.

@@ -1,0 +1,172 @@
+---
+# =============================================================================
+# year layout — renders a single year's wrap-up page
+# =============================================================================
+# Used by /year/YYYY/ pages produced by _plugins/year_pages.rb. All the
+# heavy lifting is here so the plugin stays tiny.
+# =============================================================================
+layout: single
+---
+
+{%- assign yr = page.year -%}
+
+{%- comment -%} All posts in this year, sorted oldest → newest. {%- endcomment -%}
+{%- assign year_posts = "" | split: "" -%}
+{%- for p in site.posts -%}
+  {%- assign py = p.date | date: "%Y" -%}
+  {%- if py == yr -%}{%- assign year_posts = year_posts | push: p -%}{%- endif -%}
+{%- endfor -%}
+{%- assign year_posts = year_posts | sort: "date" -%}
+
+{%- comment -%} Distinct trips that year (from post.categories first slug). {%- endcomment -%}
+{%- assign trip_slugs = "" | split: "" -%}
+{%- for p in year_posts -%}
+  {%- assign slug = p.categories | first -%}
+  {%- if slug and slug != "" -%}
+    {%- unless trip_slugs contains slug -%}
+      {%- assign trip_slugs = trip_slugs | push: slug -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%} Distinct countries via each trip's location + countries[]. {%- endcomment -%}
+{%- assign year_countries = "" | split: "" -%}
+{%- for slug in trip_slugs -%}
+  {%- assign t = site.trips | where: "slug", slug | first -%}
+  {%- if t -%}
+    {%- if t.location and t.location != "" -%}
+      {%- assign cn = t.location | split: "," | last | strip -%}
+      {%- unless year_countries contains cn -%}
+        {%- assign year_countries = year_countries | push: cn -%}
+      {%- endunless -%}
+    {%- endif -%}
+    {%- if t.countries -%}
+      {%- for c in t.countries -%}
+        {%- if c.name and c.name != "" -%}
+          {%- assign cn2 = c.name | split: "," | last | strip -%}
+          {%- unless year_countries contains cn2 -%}
+            {%- assign year_countries = year_countries | push: cn2 -%}
+          {%- endunless -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<p style="font-size:1.05em;color:#444;">
+  Everything we posted and everywhere we went in {{ yr }}.
+</p>
+
+<div class="year-stats">
+  <div class="year-stat"><div class="v">{{ year_countries | size }}</div><div class="l">Countries</div></div>
+  <div class="year-stat"><div class="v">{{ trip_slugs | size }}</div><div class="l">Trips</div></div>
+  <div class="year-stat"><div class="v">{{ year_posts | size }}</div><div class="l">Posts</div></div>
+</div>
+
+{% if year_countries.size > 0 %}
+<h2>Where we went</h2>
+<div class="year-countries">
+  {% assign sorted_c = year_countries | sort %}
+  {% for c in sorted_c %}<span class="country-chip">{{ c }}</span>{% endfor %}
+</div>
+{% endif %}
+
+{% if trip_slugs.size > 0 %}
+<h2>Trips</h2>
+<div class="year-trip-list">
+  {% for slug in trip_slugs %}
+    {%- assign t = site.trips | where: "slug", slug | first -%}
+    {% if t %}
+      {%- assign trip_year_posts = "" | split: "" -%}
+      {%- for p in year_posts -%}
+        {%- if p.categories contains slug -%}{%- assign trip_year_posts = trip_year_posts | push: p -%}{%- endif -%}
+      {%- endfor -%}
+      <a href="{{ t.url | relative_url }}" class="year-trip-card">
+        {% if t.cover %}
+          <div class="year-trip-cover"><img src="{{ t.cover }}" alt="{{ t.title }}" onerror="this.style.display='none'"></div>
+        {% endif %}
+        <div class="year-trip-body">
+          <h3>{{ t.title }}</h3>
+          <p class="year-trip-meta">
+            {{ t.location }} &middot; {{ t.start_date | date: "%b %-d" }} – {{ t.end_date | date: "%b %-d" }} &middot;
+            {{ trip_year_posts | size }} post{% if trip_year_posts.size != 1 %}s{% endif %}
+          </p>
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+<h2>All posts from {{ yr }}</h2>
+<ul class="year-post-list">
+  {% for p in year_posts %}
+    <li>
+      <a href="{{ p.url | relative_url }}">
+        <span class="year-post-date">{{ p.date | date: "%b %-d" }}</span>
+        <span class="year-post-title">{{ p.title }}</span>
+        {% if p.location.name %}<span class="year-post-loc">{{ p.location.name }}</span>{% endif %}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+<style>
+  .year-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1em;
+    margin: 1.5em 0;
+  }
+  .year-stat {
+    padding: 1.2em;
+    background: #eef3f7;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #d4dde4;
+  }
+  .year-stat .v { font-size: 2.2em; font-weight: bold; color: #2a4d69; line-height: 1; }
+  .year-stat .l { margin-top: 0.3em; font-size: 0.85em; color: #666; text-transform: uppercase; letter-spacing: 0.04em; }
+
+  .year-countries { display: flex; flex-wrap: wrap; gap: 0.4em; margin: 1em 0 2em; }
+  .country-chip {
+    background: #f0f6f0; color: #2c5c3f;
+    padding: 0.3em 0.9em; border-radius: 999px;
+    font-size: 0.9em; border: 1px solid #d0e0d5;
+  }
+
+  .year-trip-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1em;
+    margin: 1em 0 2em;
+  }
+  .year-trip-card {
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    text-decoration: none !important;
+    color: inherit !important;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .year-trip-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+  .year-trip-cover { height: 140px; background: #f0f0f0; }
+  .year-trip-cover img { width: 100%; height: 100%; object-fit: cover; }
+  .year-trip-body { padding: 0.9em 1.1em; }
+  .year-trip-body h3 { margin: 0 0 0.3em 0; color: #2a4d69; }
+  .year-trip-meta { margin: 0; color: #666; font-size: 0.9em; }
+
+  .year-post-list { list-style: none; padding: 0; margin: 1em 0; }
+  .year-post-list li { border-bottom: 1px solid #eee; }
+  .year-post-list a {
+    display: flex; gap: 1em; padding: 0.6em 0.4em;
+    text-decoration: none !important; color: inherit !important;
+    align-items: baseline;
+  }
+  .year-post-list a:hover { background: #f7f9fc; }
+  .year-post-date { color: #888; font-size: 0.85em; font-weight: bold; min-width: 60px; }
+  .year-post-title { color: #2a4d69; font-weight: bold; flex: 1; }
+  .year-post-loc { color: #666; font-size: 0.85em; }
+</style>

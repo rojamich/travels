@@ -20,6 +20,92 @@ classes: wide
   </p>
 </div>
 
+{%- comment -%}
+  ── On this day widget ─────────────────────────────────────────────────
+  Shows every post from today's month+day in previous years. On Nov 5 in
+  the current year, this surfaces every Nov 5 post from 2020, 2021, etc.
+  The whole widget is hidden when there are no matches (site.time is the
+  build time, so this refreshes on every deploy).
+{%- endcomment -%}
+{%- assign today_md = site.time | date: "%m-%d" -%}
+{%- assign this_year = site.time | date: "%Y" -%}
+{%- assign on_this_day = "" | split: "" -%}
+{%- for p in site.posts -%}
+  {%- assign pmd = p.date | date: "%m-%d" -%}
+  {%- assign py  = p.date | date: "%Y" -%}
+  {%- if pmd == today_md and py != this_year -%}
+    {%- assign on_this_day = on_this_day | push: p -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if on_this_day.size > 0 -%}
+<section class="on-this-day">
+  <h2>📅 On this day</h2>
+  <p class="on-this-day-sub">Posts from {{ site.time | date: "%B %-d" }} in previous years.</p>
+  <div class="on-this-day-list">
+    {%- assign sorted_otd = on_this_day | sort: "date" | reverse -%}
+    {% for p in sorted_otd %}
+      {%- assign trip_slug = p.categories | first -%}
+      {%- assign trip = site.trips | where: "slug", trip_slug | first -%}
+      <a href="{{ p.url | relative_url }}" class="otd-card">
+        {% if p.header.teaser %}
+          <div class="otd-thumb"><img src="{{ p.header.teaser }}" alt="{{ p.title }}" onerror="this.parentNode.style.display='none'"></div>
+        {% endif %}
+        <div class="otd-body">
+          <span class="otd-year">{{ p.date | date: "%Y" }}</span>
+          <h3>{{ p.title }}</h3>
+          {% if trip %}<p class="otd-trip">{{ trip.title }}</p>{% endif %}
+          {% if p.location.name %}<p class="otd-loc">{{ p.location.name }}</p>{% endif %}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
+<style>
+  .on-this-day {
+    margin: 2em 0;
+    padding: 1.4em 1.6em;
+    background: linear-gradient(135deg, #f7f9fc 0%, #eef3f7 100%);
+    border-radius: 14px;
+    border: 1px solid #d4dde4;
+  }
+  .on-this-day h2 { margin: 0 0 0.2em 0; color: #2a4d69; }
+  .on-this-day-sub { margin: 0 0 1em 0; color: #666; font-size: 0.95em; }
+  .on-this-day-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 0.9em;
+  }
+  .otd-card {
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none !important;
+    color: inherit !important;
+    border: 1px solid #ddd;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .otd-card:hover { transform: translateY(-2px); box-shadow: 0 3px 10px rgba(0,0,0,0.08); }
+  .otd-thumb { flex: 0 0 80px; height: auto; background: #f0f0f0; }
+  .otd-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .otd-body { padding: 0.7em 0.9em; flex: 1; min-width: 0; }
+  .otd-year {
+    display: inline-block;
+    background: #2a4d69;
+    color: #fff;
+    padding: 0.1em 0.55em;
+    border-radius: 999px;
+    font-size: 0.72em;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+  }
+  .otd-body h3 { margin: 0.35em 0 0.2em 0; font-size: 1em; color: #2a4d69; line-height: 1.25; }
+  .otd-trip { margin: 0; color: #888; font-size: 0.8em; }
+  .otd-loc  { margin: 0.15em 0 0 0; color: #666; font-size: 0.8em; }
+</style>
+{%- endif -%}
+
 <hr>
 
 <h2>Trips</h2>

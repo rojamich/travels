@@ -1,0 +1,77 @@
+---
+title: "Year in Review"
+permalink: /year/
+layout: single
+author_profile: false
+classes: wide
+---
+
+{%- comment -%}
+  Landing page for yearly wrap-ups. Lists every year for which we have
+  posts, linking to /year/YYYY/. The individual year pages are all
+  produced by _layouts/year.html rendering out of _pages/year-YYYY.md
+  stubs (created below for every year present in the archive).
+
+  If you want to add a new year: drop a file _pages/year-YYYY.md with
+  front matter `year: YYYY` and this layout will render it.
+{%- endcomment -%}
+
+{%- assign years_seen = "" | split: "" -%}
+{%- for p in site.posts -%}
+  {%- assign y = p.date | date: "%Y" -%}
+  {%- unless years_seen contains y -%}
+    {%- assign years_seen = years_seen | push: y -%}
+  {%- endunless -%}
+{%- endfor -%}
+{%- assign sorted_years = years_seen | sort | reverse -%}
+
+<p style="font-size:1.05em;color:#444;">
+  Wrap-ups of everywhere we went and what we did, one year at a time.
+</p>
+
+<div class="year-index">
+  {% for y in sorted_years %}
+    {%- assign year_posts = "" | split: "" -%}
+    {%- for p in site.posts -%}
+      {%- assign py = p.date | date: "%Y" -%}
+      {%- if py == y -%}{%- assign year_posts = year_posts | push: p -%}{%- endif -%}
+    {%- endfor -%}
+    <a href="{{ '/year/' | append: y | append: '/' | relative_url }}" class="year-index-card">
+      <span class="year-index-year">{{ y }}</span>
+      <span class="year-index-count">{{ year_posts | size }} posts</span>
+    </a>
+  {% endfor %}
+</div>
+
+<style>
+  .year-index {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1em;
+    margin: 1.5em 0;
+  }
+  .year-index-card {
+    padding: 1.4em 1em;
+    background: #eef3f7;
+    border-radius: 14px;
+    border: 1px solid #d4dde4;
+    text-align: center;
+    text-decoration: none !important;
+    color: inherit !important;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+  }
+  .year-index-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+  .year-index-year {
+    font-size: 2em;
+    font-weight: bold;
+    color: #2a4d69;
+    line-height: 1;
+  }
+  .year-index-count { font-size: 0.9em; color: #666; }
+</style>

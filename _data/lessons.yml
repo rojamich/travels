@@ -1,0 +1,37 @@
+# =============================================================================
+# lessons.yml — our evolving views on places and life on the road
+# =============================================================================
+# Each entry captures what we thought BEFORE, plus dated UPDATES as our
+# view shifts over time. The page /lessons/ renders them as timeline
+# cards so we (and readers) can see how thinking changed.
+#
+# Entries with `example: true` are shown only in the CMS editor as a
+# reference — they're filtered out on the public page.
+# =============================================================================
+
+intro: What we thought vs how it played out — a running collection of our shifting views on places and life on the road.
+
+entries:
+  - topic: "Example — Living out of a backpack"
+    example: true
+    category: "Life on the road"
+    before: "We assumed we'd want a full closet after a month and be miserable rewearing the same three shirts."
+    updates:
+      - date: 2026-01-15
+        thought: "One month in and honestly, choosing an outfit takes 5 seconds. It's freeing."
+      - date: 2026-04-02
+        thought: "Started missing our nice clothes once we hit a wedding. Might upgrade one 'nice outfit' per person."
+    current: "Less stuff, more freedom — but keep one dressy outfit each. The daily decision-fatigue reduction is a real quality-of-life win we didn't expect."
+    status: "evolved"
+
+  - topic: "Example — Vietnam"
+    example: true
+    category: "Country"
+    before: "Expected it to feel intimidating — traffic chaos, language barrier, food we couldn't identify."
+    updates:
+      - date: 2025-12-14
+        thought: "The traffic looks insane but there's a rhythm. Just walk slow and steady, don't stop."
+      - date: 2025-12-22
+        thought: "Falling in love with pho for breakfast. Vietnamese coffee is the best coffee we've had anywhere."
+    current: "One of the most welcoming places we've been. We'd return in a heartbeat and go slower next time."
+    status: "loved"

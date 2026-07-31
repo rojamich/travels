@@ -1,0 +1,170 @@
+---
+title: "Search"
+permalink: /search/
+layout: single
+author_profile: false
+classes: wide
+---
+
+{%- comment -%}
+  Client-side search across every post + trip. The index is embedded
+  as JSON in this page at build time — no separate fetch, no external
+  service. Simple case-insensitive substring match over title, excerpt,
+  location, tags, and the first ~500 chars of the body.
+{%- endcomment -%}
+
+<p style="font-size:1.05em;color:#444;">
+  Search across every post and trip.
+</p>
+
+<input id="search-input" type="search" placeholder="Type to search titles, places, tags, or content…"
+       autofocus autocomplete="off"
+       style="width:100%;padding:12px 16px;font-size:16px;border:2px solid #d4dde4;border-radius:10px;box-sizing:border-box;">
+<p id="search-count" style="font-size:0.9em;color:#666;margin:0.6em 0;"></p>
+
+<div id="search-results" class="search-results"></div>
+
+<script>
+  window.SEARCH_INDEX = [
+    {%- for p in site.posts -%}
+      {%- assign body_text = p.content | strip_html | strip_newlines | truncate: 500 -%}
+      {%- assign tag_str = p.tags | join: " " -%}
+      {%- assign trip_slug = p.categories | first -%}
+      {%- assign trip = site.trips | where: "slug", trip_slug | first -%}
+      {
+        "type": "post",
+        "title": {{ p.title | jsonify }},
+        "url": {{ p.url | relative_url | jsonify }},
+        "date": {{ p.date | date: "%Y-%m-%d" | jsonify }},
+        "trip": {{ trip.title | default: "" | jsonify }},
+        "location": {{ p.location.name | default: "" | jsonify }},
+        "tags": {{ tag_str | default: "" | jsonify }},
+        "excerpt": {{ p.excerpt | default: "" | strip_html | strip_newlines | truncate: 200 | jsonify }},
+        "body": {{ body_text | jsonify }}
+      }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+    {%- if site.posts.size > 0 and site.trips.size > 0 -%},{%- endif -%}
+    {%- for t in site.trips -%}
+      {
+        "type": "trip",
+        "title": {{ t.title | jsonify }},
+        "url": {{ t.url | relative_url | jsonify }},
+        "date": {{ t.start_date | date: "%Y-%m-%d" | jsonify }},
+        "trip": {{ t.title | jsonify }},
+        "location": {{ t.location | default: "" | jsonify }},
+        "tags": {{ t.tags | join: " " | default: "" | jsonify }},
+        "excerpt": {{ t.description | default: "" | jsonify }},
+        "body": {{ t.description | default: "" | jsonify }}
+      }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ];
+</script>
+
+<script>
+  (function () {
+    var input = document.getElementById("search-input");
+    var results = document.getElementById("search-results");
+    var count = document.getElementById("search-count");
+    var index = window.SEARCH_INDEX || [];
+
+    function escape(s) {
+      return String(s).replace(/[&<>"']/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+      });
+    }
+    function highlight(text, q) {
+      if (!q) return escape(text);
+      var re = new RegExp("(" + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ")", "ig");
+      return escape(text).replace(re, "<mark>$1</mark>");
+    }
+    function snippet(body, q) {
+      if (!q || !body) return escape(body || "").slice(0, 180);
+      var lower = body.toLowerCase();
+      var i = lower.indexOf(q.toLowerCase());
+      if (i === -1) return escape(body).slice(0, 180);
+      var start = Math.max(0, i - 60);
+      var end = Math.min(body.length, i + q.length + 100);
+      var piece = (start > 0 ? "…" : "") + body.slice(start, end) + (end < body.length ? "…" : "");
+      return highlight(piece, q);
+    }
+
+    function render(q) {
+      if (!q || q.length < 2) {
+        results.innerHTML = "";
+        count.textContent = "Type at least 2 characters.";
+        return;
+      }
+      var ql = q.toLowerCase();
+      var matches = index.filter(function (r) {
+        return (r.title || "").toLowerCase().indexOf(ql) !== -1 ||
+               (r.location || "").toLowerCase().indexOf(ql) !== -1 ||
+               (r.tags || "").toLowerCase().indexOf(ql) !== -1 ||
+               (r.excerpt || "").toLowerCase().indexOf(ql) !== -1 ||
+               (r.body || "").toLowerCase().indexOf(ql) !== -1;
+      });
+      // Rank: title hits first, then location, then everything else.
+      matches.sort(function (a, b) {
+        var aTitle = (a.title || "").toLowerCase().indexOf(ql) !== -1 ? 0 : 1;
+        var bTitle = (b.title || "").toLowerCase().indexOf(ql) !== -1 ? 0 : 1;
+        if (aTitle !== bTitle) return aTitle - bTitle;
+        return (b.date || "").localeCompare(a.date || "");
+      });
+
+      count.textContent = matches.length + " result" + (matches.length === 1 ? "" : "s");
+
+      results.innerHTML = matches.slice(0, 100).map(function (r) {
+        return '<a href="' + escape(r.url) + '" class="search-result">' +
+          '<div class="search-result-type ' + r.type + '">' + r.type + '</div>' +
+          '<h3>' + highlight(r.title, q) + '</h3>' +
+          '<p class="search-result-meta">' +
+            (r.trip ? escape(r.trip) + ' &middot; ' : '') +
+            (r.location ? escape(r.location) + ' &middot; ' : '') +
+            (r.date || '') +
+          '</p>' +
+          '<p class="search-result-snippet">' + snippet(r.body || r.excerpt, q) + '</p>' +
+          '</a>';
+      }).join("");
+    }
+
+    var debounce = null;
+    input.addEventListener("input", function () {
+      if (debounce) clearTimeout(debounce);
+      debounce = setTimeout(function () { render(input.value.trim()); }, 120);
+    });
+    render("");
+
+    // Support ?q=xxx via URL for shareable searches.
+    var q = new URLSearchParams(location.search).get("q");
+    if (q) { input.value = q; render(q); }
+  })();
+</script>
+
+<style>
+  .search-results { display: flex; flex-direction: column; gap: 0.8em; margin-top: 1em; }
+  .search-result {
+    display: block;
+    padding: 1em 1.2em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-decoration: none !important;
+    color: inherit !important;
+    background: #fff;
+    transition: background 0.15s;
+  }
+  .search-result:hover { background: #f7f9fc; }
+  .search-result h3 { margin: 0.2em 0 0.3em 0; color: #2a4d69; font-size: 1.1em; }
+  .search-result-type {
+    display: inline-block;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    padding: 0.15em 0.6em;
+    border-radius: 999px;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+  }
+  .search-result-type.post { background: #eef3f7; color: #2a4d69; }
+  .search-result-type.trip { background: #ffe0e6; color: #b03052; }
+  .search-result-meta { font-size: 0.85em; color: #888; margin: 0 0 0.4em 0; }
+  .search-result-snippet { margin: 0; color: #444; font-size: 0.95em; line-height: 1.5; }
+  mark { background: #fff3cd; padding: 0 2px; border-radius: 2px; }
+</style>

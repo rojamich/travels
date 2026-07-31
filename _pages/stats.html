@@ -1,0 +1,172 @@
+---
+title: "By the Numbers"
+permalink: /stats/
+layout: single
+author_profile: false
+classes: wide
+---
+
+{%- comment -%}
+  Auto-computed travel stats. Nothing here is edited manually — everything
+  reads from site.posts and site.trips. Publish a new post → this page
+  updates on the next build.
+
+  Days on the road: sums (end_date - start_date + 1) across all trips
+  where both dates are set. Skips trips with missing dates.
+{%- endcomment -%}
+
+{%- assign total_posts = site.posts | size -%}
+{%- assign total_trips = site.trips | size -%}
+
+{%- comment -%} Total distinct countries: gather trip.location + trip.countries[].name {%- endcomment -%}
+{%- assign country_names = "" | split: "" -%}
+{%- for t in site.trips -%}
+  {%- if t.location and t.location != "" -%}
+    {%- assign first_country = t.location | split: "," | last | strip -%}
+    {%- assign country_names = country_names | push: first_country -%}
+  {%- endif -%}
+  {%- if t.countries -%}
+    {%- for c in t.countries -%}
+      {%- if c.name and c.name != "" -%}
+        {%- assign cn = c.name | split: "," | last | strip -%}
+        {%- assign country_names = country_names | push: cn -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign uniq_countries = country_names | uniq -%}
+{%- assign total_countries = uniq_countries | size -%}
+
+{%- comment -%} Total days on the road across all trips with dates. {%- endcomment -%}
+{%- assign total_days = 0 -%}
+{%- for t in site.trips -%}
+  {%- if t.start_date and t.end_date -%}
+    {%- assign start_s = t.start_date | date: "%s" | plus: 0 -%}
+    {%- assign end_s = t.end_date | date: "%s" | plus: 0 -%}
+    {%- assign secs = end_s | minus: start_s -%}
+    {%- assign days = secs | divided_by: 86400 | plus: 1 -%}
+    {%- assign total_days = total_days | plus: days -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<p style="font-size:1.05em; color:#444;">
+  A running scoreboard of where we've been and how long we've been at this.
+</p>
+
+<div class="stats-grid">
+  <div class="stat-tile">
+    <div class="stat-value">{{ total_countries }}</div>
+    <div class="stat-label">Countries visited</div>
+  </div>
+  <div class="stat-tile">
+    <div class="stat-value">{{ total_trips }}</div>
+    <div class="stat-label">Trips taken</div>
+  </div>
+  <div class="stat-tile">
+    <div class="stat-value">{{ total_posts }}</div>
+    <div class="stat-label">Posts written</div>
+  </div>
+  <div class="stat-tile">
+    <div class="stat-value">{{ total_days }}</div>
+    <div class="stat-label">Days on the road</div>
+  </div>
+</div>
+
+<h2 style="margin-top:2em;">By trip</h2>
+<div class="stats-trip-list">
+  {%- assign sorted_trips = site.trips | sort: "start_date" | reverse -%}
+  {% for t in sorted_trips %}
+    {%- assign trip_posts = site.categories[t.slug] | default: empty -%}
+    {%- assign trip_post_count = trip_posts | size -%}
+    {%- assign trip_days = 0 -%}
+    {%- if t.start_date and t.end_date -%}
+      {%- assign s_s = t.start_date | date: "%s" | plus: 0 -%}
+      {%- assign e_s = t.end_date | date: "%s" | plus: 0 -%}
+      {%- assign trip_days = e_s | minus: s_s | divided_by: 86400 | plus: 1 -%}
+    {%- endif -%}
+    <a href="{{ t.url | relative_url }}" class="stats-trip-row">
+      <span class="stats-trip-name">{{ t.title }}</span>
+      <span class="stats-trip-meta">
+        {{ t.location }} &middot;
+        {% if trip_days > 0 %}{{ trip_days }} days &middot; {% endif %}
+        {{ trip_post_count }} post{% if trip_post_count != 1 %}s{% endif %}
+      </span>
+    </a>
+  {% endfor %}
+</div>
+
+<h2 style="margin-top:2em;">Countries</h2>
+<div class="stats-country-chips">
+  {%- assign sorted_countries = uniq_countries | sort -%}
+  {% for c in sorted_countries %}
+    <span class="country-chip">{{ c }}</span>
+  {% endfor %}
+</div>
+
+<style>
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1em;
+    margin: 1.5em 0;
+  }
+  .stat-tile {
+    padding: 1.6em 1em;
+    background: #eef3f7;
+    border-radius: 14px;
+    text-align: center;
+    border: 1px solid #d4dde4;
+  }
+  .stat-value {
+    font-size: 2.8em;
+    font-weight: bold;
+    color: #2a4d69;
+    line-height: 1.1;
+  }
+  .stat-label {
+    margin-top: 0.3em;
+    font-size: 0.9em;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .stats-trip-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    margin: 1em 0;
+  }
+  .stats-trip-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.7em 1em;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    text-decoration: none !important;
+    color: inherit !important;
+    background: #fff;
+    transition: background 0.15s;
+    gap: 1em;
+    flex-wrap: wrap;
+  }
+  .stats-trip-row:hover { background: #f7f9fc; }
+  .stats-trip-name { font-weight: bold; color: #2a4d69; }
+  .stats-trip-meta { font-size: 0.9em; color: #666; }
+
+  .stats-country-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+    margin: 1em 0;
+  }
+  .country-chip {
+    background: #f0f6f0;
+    color: #2c5c3f;
+    padding: 0.3em 0.9em;
+    border-radius: 999px;
+    font-size: 0.9em;
+    border: 1px solid #d0e0d5;
+  }
+</style>

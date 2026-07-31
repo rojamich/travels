@@ -1,0 +1,188 @@
+---
+title: "Lessons"
+permalink: /lessons/
+layout: single
+author_profile: false
+classes: wide
+---
+
+{%- assign data = site.data.lessons -%}
+
+<blockquote class="lessons-quote">
+  <p>"Travel is rich with learning opportunities, and the ultimate souvenir is a broader perspective."</p>
+  <cite>— Rick Steves</cite>
+</blockquote>
+
+{% if data.intro and data.intro != "" %}
+<p style="font-size:1.05em; color:#444;">{{ data.intro }}</p>
+{% endif %}
+
+{%- assign live_entries = "" | split: "" -%}
+{%- for e in data.entries -%}
+  {%- unless e.example -%}
+    {%- assign live_entries = live_entries | push: e -%}
+  {%- endunless -%}
+{%- endfor -%}
+
+{% if live_entries.size == 0 %}
+  <p><em>No entries yet — reflections will appear here as we add them from /admin/ → Site Settings → Lessons page.</em></p>
+{% else %}
+
+<div class="lessons-list">
+  {% for entry in live_entries %}
+    <article class="lesson-card" data-status="{{ entry.status | default: 'evolved' }}">
+      <header class="lesson-head">
+        {% if entry.category %}<span class="lesson-cat">{{ entry.category }}</span>{% endif %}
+        <h2 class="lesson-topic">{{ entry.topic }}</h2>
+        {% if entry.status %}<span class="lesson-status status-{{ entry.status }}">{{ entry.status | replace: '_', ' ' }}</span>{% endif %}
+      </header>
+
+      {% if entry.before and entry.before != "" %}
+      <section class="lesson-before">
+        <h4>Before we left</h4>
+        <p>{{ entry.before }}</p>
+      </section>
+      {% endif %}
+
+      {% if entry.updates and entry.updates.size > 0 %}
+      <section class="lesson-updates">
+        <h4>Along the way</h4>
+        <ol class="lesson-timeline">
+          {% assign sorted_updates = entry.updates | sort: "date" %}
+          {% for u in sorted_updates %}
+          <li class="lesson-update">
+            <time datetime="{{ u.date | date: '%Y-%m-%d' }}">{{ u.date | date: "%b %-d, %Y" }}</time>
+            <p>{{ u.thought }}</p>
+          </li>
+          {% endfor %}
+        </ol>
+      </section>
+      {% endif %}
+
+      {% if entry.current and entry.current != "" %}
+      <section class="lesson-current">
+        <h4>Where we've landed</h4>
+        <p>{{ entry.current }}</p>
+      </section>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>
+
+{% endif %}
+
+<style>
+  .lessons-quote {
+    border-left: 4px solid #5a8770;
+    padding: 1em 1.2em;
+    margin: 1.5em 0 2em 0;
+    background: #f7f9f7;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+  }
+  .lessons-quote p { margin: 0 0 0.4em 0; font-size: 1.1em; color: #2a4d69; }
+  .lessons-quote cite { color: #666; font-size: 0.9em; font-style: normal; }
+
+  .lessons-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8em;
+    margin: 2em 0;
+  }
+  .lesson-card {
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    padding: 1.4em 1.6em;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  .lesson-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.6em;
+    margin-bottom: 0.8em;
+    padding-bottom: 0.6em;
+    border-bottom: 1px dashed #eee;
+  }
+  .lesson-topic {
+    margin: 0;
+    font-size: 1.3em;
+    flex: 1;
+    color: #2a4d69;
+  }
+  .lesson-cat {
+    background: #eef3f7;
+    color: #2a4d69;
+    padding: 0.2em 0.7em;
+    border-radius: 999px;
+    font-size: 0.75em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .lesson-status {
+    padding: 0.2em 0.7em;
+    border-radius: 999px;
+    font-size: 0.75em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .status-in-progress, .status-in_progress { background: #fff3cd; color: #8a6d1a; }
+  .status-achieved { background: #d4edda; color: #155724; }
+  .status-loved { background: #ffe0e6; color: #b03052; }
+  .status-evolved { background: #e2e6ea; color: #495057; }
+  .status-pivoted { background: #cfe2f3; color: #1c5490; }
+  .status-abandoned { background: #f8d7da; color: #721c24; }
+
+  .lesson-card h4 {
+    margin: 0.9em 0 0.3em 0;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #888;
+    font-weight: bold;
+  }
+  .lesson-card section p { margin: 0.3em 0; line-height: 1.6; }
+
+  .lesson-before p { color: #666; font-style: italic; }
+  .lesson-current p {
+    background: #f0f6f0;
+    padding: 0.8em 1em;
+    border-radius: 8px;
+    border-left: 3px solid #5a8770;
+    margin: 0.3em 0 0 0;
+  }
+
+  .lesson-timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 1.2em;
+    border-left: 2px solid #d4dde4;
+  }
+  .lesson-update {
+    position: relative;
+    margin: 0.8em 0;
+    padding-left: 0.4em;
+  }
+  .lesson-update::before {
+    content: "";
+    position: absolute;
+    left: -1.5em;
+    top: 0.4em;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5a8770;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #d4dde4;
+  }
+  .lesson-update time {
+    display: block;
+    font-size: 0.8em;
+    color: #888;
+    font-weight: bold;
+    margin-bottom: 0.15em;
+  }
+  .lesson-update p { margin: 0; }
+</style>
