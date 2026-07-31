@@ -506,6 +506,40 @@ a {
 }
 
 // -----------------------------------------------------------------------------
+// FIXED-HEIGHT CARD THUMBNAILS — must fill and crop, not letterbox.
+// -----------------------------------------------------------------------------
+// `.page__content img` above sets height:auto + object-fit:contain for inline
+// body images. Those two properties are poison for our card thumbnails: the
+// image renders at its own aspect ratio and spills out of the fixed-height
+// container instead of cropping to fill it.
+//
+// It bit Favorites and Daydreaming specifically because their rules live
+// EARLIER in this file (lines ~316 and ~385) than `.page__content img`
+// (~492). Same specificity (0-1-1), so the later rule won and quietly
+// replaced cover with contain.
+//
+// Trip cards escaped it only because their CSS is inline in index.html and
+// _layouts/trip.html, which the browser applies after this stylesheet.
+//
+// Consequence beyond the visual: with object-fit:contain there is no
+// overflow to pan within, so object-position — and therefore the whole
+// focal-point / 🎯 Position Photo feature — had nothing to move.
+//
+// Two classes here so the selectors reach 0-2-1 and win outright rather
+// than depending on source order.
+.page__content .favorite-card-image img,
+.page__content .daydream-cover img,
+.page__content .trip-card-image img,
+.page__content .day-card-image img,
+.page__content .otd-thumb img,
+.page__content .year-trip-cover img {
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: cover;
+}
+
+// -----------------------------------------------------------------------------
 // INLINE AUDIO — rendered by the {% audio_block ... %} Liquid tag
 // -----------------------------------------------------------------------------
 .inline-audio {

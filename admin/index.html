@@ -839,17 +839,18 @@
       function resolveCoverBox() {
         var h = location.hash || "";
         if (h.indexOf("favorites") !== -1) {
-          // grid auto-fill minmax(240px,1fr) + 1em gap in a wide container
-          // settles around 4 columns of ~285px at desktop widths.
-          return { w: 285, h: 140,
+          // Measured in-browser: card image renders 264x140 at a typical
+          // desktop width (grid auto-fill minmax(240px,1fr)).
+          return { w: 264, h: 140,
                    desc: "Shows as the card image on the Favorites page." };
         }
         if (h.indexOf("daydream") !== -1) {
           return { w: 180, h: 140,
                    desc: "Shows as the thumbnail on the Daydreaming page." };
         }
-        return { w: 360, h: 200,
-                 desc: "Shows as the trip card on the homepage. Card width varies with screen size, so treat this as very close but not pixel-exact." };
+        // Measured in-browser: homepage trip card image renders ~400x200.
+        return { w: 400, h: 200,
+                 desc: "Shows as the trip card on the homepage. Card width flexes with screen size, so this is very close but not pixel-exact." };
       }
 
       function escapeHtmlAttr(s) {
