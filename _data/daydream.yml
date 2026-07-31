@@ -1,4 +1,7 @@
 intro: Where we're hoping to wander next...
+# Trips that are actually booked / planned — go at the top under "Upcoming".
+upcoming: []
+# Wish list — no dates yet. Rendered below the upcoming section.
 queue:
   - country: China
     why: The unreal landscapes, endless wonders, and amazing cities!

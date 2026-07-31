@@ -26,12 +26,12 @@ entries:
     note: ""
     icon: "👣"
 
-  - title: "Most modes of transportation in one trip"
-    value: "6"
+  - title: "Most modes of transportation in one day"
+    value: "5"
     unit: "modes"
-    place: "Toronto, Canada"
+    place: "Oslo, Norway"
     date:
-    note: "Plane, Car, Bike, Walk, Bus, Train"
+    note: "Rideshare, Bus, Walk, Train, Plane"
     icon: "🚆"
 
   # ── Templates — fill in when they happen ────────────────────────────

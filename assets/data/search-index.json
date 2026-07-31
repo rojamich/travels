@@ -16,7 +16,14 @@ sitemap: false
 ---
 [
 {%- for p in site.posts -%}
-  {%- assign body_text = p.content | strip_html | strip_newlines | truncate: 250 -%}
+  {%- comment -%}
+    Full body text (no truncation). Earlier we truncated to 250 chars to
+    keep the index small, but that meant words appearing later in a post
+    (e.g. "bagel" mentioned midway through) wouldn't be found. With
+    ~300 posts and average ~2KB body each, the full index is ~600KB
+    raw, ~150KB gzipped — well worth the accuracy for real search.
+  {%- endcomment -%}
+  {%- assign body_text = p.content | strip_html | strip_newlines -%}
   {%- assign tag_str = p.tags | join: " " -%}
   {%- assign trip_slug = p.categories | first -%}
   {%- assign trip = site.trips | where: "slug", trip_slug | first -%}

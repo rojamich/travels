@@ -18,29 +18,80 @@ classes: wide
     Welcome! This is where we share photos and stories from our trips.
     Pick a trip below to start exploring.
   </p>
+
+  <blockquote class="home-quote">
+    <p>
+      "If I'm an advocate for anything, it's to move. As far as you can, as much as you can.
+      Across the ocean, or simply across the river. The extent to which you can walk in
+      someone else's shoes or at least eat their food, it's a plus for everybody.
+      Open your mind, get up off the couch, move."
+    </p>
+    <span class="home-quote-cite">― Anthony Bourdain</span>
+  </blockquote>
 </div>
+
+<style>
+  .home-quote {
+    border-left: 4px solid #5a8770;
+    padding: 1em 1.2em;
+    margin: 1.5em 0 0.5em;
+    background: #f7f9f7;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    color: #2a4d69;
+  }
+  .home-quote p { margin: 0 0 0.4em 0; font-size: 1em; }
+  .home-quote-cite { color: #666; font-size: 0.9em; font-style: normal; }
+</style>
 
 {%- comment -%}
   ── On this day widget ─────────────────────────────────────────────────
-  Shows every post from today's month+day in previous years. On Nov 5 in
-  the current year, this surfaces every Nov 5 post from 2020, 2021, etc.
-  The whole widget is hidden when there are no matches (site.time is the
-  build time, so this refreshes on every deploy).
+  Two-pass approach: first find the SMALLEST day-of-year distance to any
+  post from a previous year, then show every post at that distance.
+
+  Delta 0 = exact today's date match → subtitle: "Posts from ... in
+  previous years." Otherwise → "Closest matches — from ~N days away."
+
+  Handles the year wrap (e.g. Jan 2 vs Dec 31 is 2 days, not 363) by
+  taking the min of the raw distance and (366 - distance). site.time is
+  the build time, so this refreshes on every deploy.
 {%- endcomment -%}
-{%- assign today_md = site.time | date: "%m-%d" -%}
+{%- assign today_doy = site.time | date: "%j" | plus: 0 -%}
 {%- assign this_year = site.time | date: "%Y" -%}
-{%- assign on_this_day = "" | split: "" -%}
+{%- assign min_delta = 999 -%}
 {%- for p in site.posts -%}
-  {%- assign pmd = p.date | date: "%m-%d" -%}
-  {%- assign py  = p.date | date: "%Y" -%}
-  {%- if pmd == today_md and py != this_year -%}
-    {%- assign on_this_day = on_this_day | push: p -%}
-  {%- endif -%}
+  {%- assign py = p.date | date: "%Y" -%}
+  {%- unless py == this_year -%}
+    {%- assign p_doy = p.date | date: "%j" | plus: 0 -%}
+    {%- assign d = p_doy | minus: today_doy -%}
+    {%- if d < 0 -%}{%- assign d = 0 | minus: d -%}{%- endif -%}
+    {%- if d > 183 -%}{%- assign d = 366 | minus: d -%}{%- endif -%}
+    {%- if d < min_delta -%}{%- assign min_delta = d -%}{%- endif -%}
+  {%- endunless -%}
 {%- endfor -%}
+{%- assign on_this_day = "" | split: "" -%}
+{%- if min_delta < 999 -%}
+  {%- for p in site.posts -%}
+    {%- assign py = p.date | date: "%Y" -%}
+    {%- unless py == this_year -%}
+      {%- assign p_doy = p.date | date: "%j" | plus: 0 -%}
+      {%- assign d = p_doy | minus: today_doy -%}
+      {%- if d < 0 -%}{%- assign d = 0 | minus: d -%}{%- endif -%}
+      {%- if d > 183 -%}{%- assign d = 366 | minus: d -%}{%- endif -%}
+      {%- if d == min_delta -%}
+        {%- assign on_this_day = on_this_day | push: p -%}
+      {%- endif -%}
+    {%- endunless -%}
+  {%- endfor -%}
+{%- endif -%}
 {%- if on_this_day.size > 0 -%}
 <section class="on-this-day">
   <h2>📅 On this day</h2>
+  {%- if min_delta == 0 -%}
   <p class="on-this-day-sub">Posts from {{ site.time | date: "%B %-d" }} in previous years.</p>
+  {%- else -%}
+  <p class="on-this-day-sub">No post from today itself — showing the closest matches ({{ min_delta }} day{% if min_delta != 1 %}s{% endif %} away).</p>
+  {%- endif -%}
   <div class="on-this-day-list">
     {%- assign sorted_otd = on_this_day | sort: "date" | reverse -%}
     {% for p in sorted_otd %}

@@ -16,12 +16,26 @@ classes: wide
 {%- assign total_posts = site.posts | size -%}
 {%- assign total_trips = site.trips | size -%}
 
-{%- comment -%} Total distinct countries: gather trip.location + trip.countries[].name {%- endcomment -%}
+{%- comment -%}
+  Total distinct countries: gather trip.location + trip.countries[].name.
+  For location: only parse the LAST comma-separated segment IF it looks
+  like a plain country name (no "&" / "→" / "(" — those are multi-country
+  strings that should have been decomposed into countries[] instead).
+  This prevents "Zimbabwe & Botswana" or "United States of America" from
+  being counted as one weird "country" while still handling normal
+  "City, Country" locations correctly.
+{%- endcomment -%}
 {%- assign country_names = "" | split: "" -%}
 {%- for t in site.trips -%}
   {%- if t.location and t.location != "" -%}
     {%- assign first_country = t.location | split: "," | last | strip -%}
-    {%- assign country_names = country_names | push: first_country -%}
+    {%- assign is_valid = true -%}
+    {%- if first_country contains "&" or first_country contains "→" or first_country contains "(" -%}
+      {%- assign is_valid = false -%}
+    {%- endif -%}
+    {%- if is_valid -%}
+      {%- assign country_names = country_names | push: first_country -%}
+    {%- endif -%}
   {%- endif -%}
   {%- if t.countries -%}
     {%- for c in t.countries -%}
@@ -214,33 +228,54 @@ classes: wide
 
 <div class="stats-grid">
   <div class="stat-tile">
-    <div class="stat-value">{{ total_continents }}</div>
-    <div class="stat-label">Continents</div>
+    <div class="stat-icon">🌐</div>
+    <div class="stat-body">
+      <div class="stat-value">{{ total_continents }}</div>
+      <div class="stat-label">Continents</div>
+    </div>
   </div>
   <div class="stat-tile">
-    <div class="stat-value">{{ total_countries }}</div>
-    <div class="stat-label">Countries visited</div>
+    <div class="stat-icon">🏳️</div>
+    <div class="stat-body">
+      <div class="stat-value">{{ total_countries }}</div>
+      <div class="stat-label">Countries visited</div>
+    </div>
   </div>
   <div class="stat-tile">
-    <div class="stat-value">{{ total_trips }}</div>
-    <div class="stat-label">Trips taken</div>
+    <div class="stat-icon">✈️</div>
+    <div class="stat-body">
+      <div class="stat-value">{{ total_trips }}</div>
+      <div class="stat-label">Trips taken</div>
+    </div>
   </div>
   <div class="stat-tile">
-    <div class="stat-value">{{ total_posts }}</div>
-    <div class="stat-label">Posts written</div>
+    <div class="stat-icon">📝</div>
+    <div class="stat-body">
+      <div class="stat-value">{{ total_posts }}</div>
+      <div class="stat-label">Posts written</div>
+    </div>
   </div>
   <div class="stat-tile">
-    <div class="stat-value">{{ total_days }}</div>
-    <div class="stat-label">Days on trips</div>
+    <div class="stat-icon">📅</div>
+    <div class="stat-body">
+      <div class="stat-value">{{ total_days }}</div>
+      <div class="stat-label">Days on trips</div>
+    </div>
   </div>
   <div class="stat-tile">
-    <div class="stat-value">{{ total_words }}</div>
-    <div class="stat-label">Words written</div>
+    <div class="stat-icon">📖</div>
+    <div class="stat-body">
+      <div class="stat-value">{{ total_words }}</div>
+      <div class="stat-label">Words written</div>
+    </div>
   </div>
   {% if us_states.size > 0 %}
   <div class="stat-tile">
-    <div class="stat-value">{{ us_states.size }}</div>
-    <div class="stat-label">US States ({{ us_pct }}%)</div>
+    <div class="stat-icon">🇺🇸</div>
+    <div class="stat-body">
+      <div class="stat-value">{{ us_states.size }}</div>
+      <div class="stat-label">States ({{ us_pct }}%)</div>
+    </div>
   </div>
   {% endif %}
 </div>
@@ -505,7 +540,8 @@ classes: wide
 <div class="stats-country-chips">
   {%- assign sorted_countries = uniq_countries | sort -%}
   {% for c in sorted_countries %}
-    <span class="country-chip">{{ c }}</span>
+    {%- assign flag = site.data.country_flags[c] -%}
+    <span class="country-chip">{% if flag %}<span class="chip-flag">{{ flag }}</span>{% endif %}{{ c }}</span>
   {% endfor %}
 </div>
 
@@ -514,7 +550,7 @@ classes: wide
 <div class="stats-country-chips">
   {%- assign sorted_states = us_states | sort -%}
   {% for s in sorted_states %}
-    <span class="country-chip country-chip--state">{{ s }}</span>
+    <span class="country-chip country-chip--state"><span class="chip-flag">🇺🇸</span>{{ s }}</span>
   {% endfor %}
 </div>
 {% endif %}
@@ -542,35 +578,48 @@ classes: wide
 </script>
 
 <style>
+  /* Horizontal tiles: icon on the left, number+label on the right.
+     minmax(220px, ...) sizes each tile to fit its content on ONE line
+     — no more wrapped labels breaking mid-stat. auto-fill packs as
+     many per row as the viewport allows. */
   .stats-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 1em;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.8em;
     margin: 1.5em 0;
   }
   .stat-tile {
-    padding: 1.6em 1em;
+    display: flex;
+    align-items: center;
+    gap: 0.9em;
+    padding: 0.9em 1.1em;
     background: #eef3f7;
-    border-radius: 14px;
-    text-align: center;
+    border-radius: 12px;
     border: 1px solid #d4dde4;
+    min-width: 0;
   }
+  .stat-icon {
+    font-size: 1.9em;
+    line-height: 1;
+    flex: 0 0 auto;
+  }
+  .stat-body { min-width: 0; flex: 1; }
   .stat-value {
-    /* clamp() shrinks the font on narrow tiles so long numbers
-       (e.g. "156,432" words written) never overflow the box. */
-    font-size: clamp(1.4em, 5vw, 2.6em);
+    font-size: clamp(1.4em, 4vw, 1.9em);
     font-weight: bold;
     color: #2a4d69;
     line-height: 1.1;
-    word-break: break-word;
-    hyphens: none;
+    white-space: nowrap;
   }
   .stat-label {
-    margin-top: 0.3em;
-    font-size: 0.9em;
+    margin-top: 0.15em;
+    font-size: 0.78em;
     color: #666;
     text-transform: uppercase;
     letter-spacing: 0.04em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .nomad-clock {
@@ -712,5 +761,10 @@ classes: wide
     background: #fef4ea;
     color: #8a4a1f;
     border-color: #f3d9c2;
+  }
+  .chip-flag {
+    margin-right: 0.35em;
+    font-size: 1.05em;
+    vertical-align: -0.05em;
   }
 </style>

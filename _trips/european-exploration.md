@@ -5,10 +5,20 @@ description: A return to Europe — German road trip, Mediterranean cruise
 cover: https://res.cloudinary.com/dgw35sldo/image/upload/v1780793139/20230810_141220_gbpnwr.jpg
 start_date: 2023-07-16
 end_date: 2023-08-13
-location: Germany & the Mediterranean
+location: Germany
 lat: 50.1109
 lng: 8.6821
 country_code: de
+countries:
+  - name: Croatia
+    lat: 45.1
+    lng: 15.2
+  - name: Greece
+    lat: 39.0742
+    lng: 21.8243
+  - name: Italy
+    lat: 41.8719
+    lng: 12.5674
 tags:
   - Europe
   - City

@@ -12,7 +12,28 @@ classes: wide
 <p style="font-size:1.1em;">{{ data.intro }}</p>
 {% endif %}
 
+{% if data.upcoming and data.upcoming.size > 0 %}
+<h2 style="margin-top:1em;">✈️ Upcoming</h2>
+<p style="color:#666;margin-top:-0.3em;">Booked or planned — heading here soon.</p>
+<ol class="daydream-queue daydream-queue--upcoming">
+{% for entry in data.upcoming %}
+<li class="daydream-item">
+<div class="daydream-rank">✓</div>
+{% if entry.cover and entry.cover != "" %}
+<div class="daydream-cover"><img src="{{ entry.cover }}" alt="{{ entry.country }}" onerror="this.parentNode.style.display='none'"></div>
+{% endif %}
+<div class="daydream-body">
+<h3>{{ entry.country }}</h3>
+{% if entry.why and entry.why != "" %}<p class="daydream-why">{{ entry.why }}</p>{% endif %}
+{% if entry.when and entry.when != "" %}<p class="daydream-when">📅 {{ entry.when }}</p>{% endif %}
+</div>
+</li>
+{% endfor %}
+</ol>
+{% endif %}
+
 {% if data.queue and data.queue.size > 0 %}
+<h2 style="margin-top:1.5em;">🌍 Where we're hoping to wander next</h2>
 <ol class="daydream-queue">
 {% for entry in data.queue %}
 <li class="daydream-item">

@@ -1,0 +1,10 @@
+{
+  "name": "travel-blog-functions",
+  "version": "1.0.0",
+  "description": "Netlify Functions for the travel blog (views + hearts + counts). Declared here so Netlify's function bundler resolves and includes @netlify/blobs. Files use ESM (type: module) — imports work with .js extension inside this directory.",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  }
+}

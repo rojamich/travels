@@ -1,0 +1,104 @@
+# =============================================================================
+# country_flags.yml — country name → national flag emoji
+# =============================================================================
+# Used by /stats/ to show a flag next to each country in the chip cloud.
+# Keys must match the trailing-comma country name extracted from
+# trip.location and trip.countries[].name — same as _data/continents.yml
+# and _data/country_codes.yml. Missing lookups render the chip without
+# a flag, no breakage.
+#
+# Flag emojis are two regional-indicator characters joined together
+# (ISO 3166-1 alpha-2). Copy from any online reference if you add new
+# countries; every UN member state has one.
+# =============================================================================
+
+# North America
+United States: 🇺🇸
+United States of America: 🇺🇸
+USA: 🇺🇸
+Canada: 🇨🇦
+Mexico: 🇲🇽
+
+# South America
+Peru: 🇵🇪
+Chile: 🇨🇱
+Argentina: 🇦🇷
+Brazil: 🇧🇷
+Ecuador: 🇪🇨
+Colombia: 🇨🇴
+Bolivia: 🇧🇴
+
+# Europe
+England: 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+Scotland: 🏴󠁧󠁢󠁳󠁣󠁴󠁿
+Wales: 🏴󠁧󠁢󠁷󠁬󠁳󠁿
+United Kingdom: 🇬🇧
+UK: 🇬🇧
+Ireland: 🇮🇪
+France: 🇫🇷
+Germany: 🇩🇪
+Italy: 🇮🇹
+Spain: 🇪🇸
+Portugal: 🇵🇹
+Netherlands: 🇳🇱
+The Netherlands: 🇳🇱
+Belgium: 🇧🇪
+Austria: 🇦🇹
+Switzerland: 🇨🇭
+Greece: 🇬🇷
+Croatia: 🇭🇷
+Norway: 🇳🇴
+Sweden: 🇸🇪
+Denmark: 🇩🇰
+Finland: 🇫🇮
+Iceland: 🇮🇸
+Poland: 🇵🇱
+Czech Republic: 🇨🇿
+Czechia: 🇨🇿
+Hungary: 🇭🇺
+Georgia: 🇬🇪
+
+# Asia
+Japan: 🇯🇵
+South Korea: 🇰🇷
+Korea: 🇰🇷
+China: 🇨🇳
+Vietnam: 🇻🇳
+Thailand: 🇹🇭
+Cambodia: 🇰🇭
+Laos: 🇱🇦
+Singapore: 🇸🇬
+Malaysia: 🇲🇾
+Indonesia: 🇮🇩
+Philippines: 🇵🇭
+India: 🇮🇳
+Nepal: 🇳🇵
+Sri Lanka: 🇱🇰
+Taiwan: 🇹🇼
+Turkey: 🇹🇷
+Israel: 🇮🇱
+Jordan: 🇯🇴
+United Arab Emirates: 🇦🇪
+UAE: 🇦🇪
+
+# Africa
+South Africa: 🇿🇦
+Egypt: 🇪🇬
+Morocco: 🇲🇦
+Kenya: 🇰🇪
+Tanzania: 🇹🇿
+Zambia: 🇿🇲
+Zimbabwe: 🇿🇼
+Botswana: 🇧🇼
+Namibia: 🇳🇦
+Rwanda: 🇷🇼
+Uganda: 🇺🇬
+Ethiopia: 🇪🇹
+
+# Oceania
+Australia: 🇦🇺
+New Zealand: 🇳🇿
+Fiji: 🇫🇯
+
+# Antarctica
+Antarctica: 🇦🇶
