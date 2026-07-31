@@ -22,6 +22,7 @@ categories:
       - country: Vietnam
         trip_slug: vietnam
       - country: United States of America
+        trip_slug: "'Party in the USA'"
       - country: South Africa
         trip_slug: african-safari
       - country: Peru
