@@ -393,9 +393,6 @@ classes: wide
 {% endif %}
 
 <h2 style="margin-top:2em;">🧭 Furthest points</h2>
-<p style="color:#666;margin:0 0 0.6em;">
-  Distance from the "center" — 0° latitude (equator), 0° longitude (Greenwich prime meridian, which runs through London). All coordinates on Earth are measured from this reference.
-</p>
 <div class="compass-grid">
   {% if north_place != "" %}
   <a href="{{ north_url | relative_url }}" class="compass-card">
@@ -522,6 +519,28 @@ classes: wide
 </div>
 {% endif %}
 
+<script>
+  // Format every large integer in a .stat-value / .record-value / compass-val
+  // tile with comma separators after page render. Purely visual — Liquid
+  // emits raw digits, we prettify them here so the box math (font size,
+  // wrapping) uses the actual displayed string.
+  (function () {
+    function fmt(n) {
+      if (!isFinite(n)) return "";
+      if (n >= 1000000) return (n / 1000000).toFixed(n >= 10000000 ? 0 : 1).replace(/\.0$/, "") + "M";
+      return n.toLocaleString("en-US");
+    }
+    document.querySelectorAll(".stat-value, .record-value").forEach(function (el) {
+      // Grab the leading integer (record-value may contain a unit span after).
+      var m = (el.firstChild && el.firstChild.nodeValue || "").trim().match(/^-?\d+(\.\d+)?$/);
+      if (!m) return;
+      var n = parseFloat(m[0]);
+      if (n < 1000) return;
+      el.firstChild.nodeValue = fmt(n) + " ";
+    });
+  })();
+</script>
+
 <style>
   .stats-grid {
     display: grid;
@@ -537,10 +556,14 @@ classes: wide
     border: 1px solid #d4dde4;
   }
   .stat-value {
-    font-size: 2.8em;
+    /* clamp() shrinks the font on narrow tiles so long numbers
+       (e.g. "156,432" words written) never overflow the box. */
+    font-size: clamp(1.4em, 5vw, 2.6em);
     font-weight: bold;
     color: #2a4d69;
     line-height: 1.1;
+    word-break: break-word;
+    hyphens: none;
   }
   .stat-label {
     margin-top: 0.3em;

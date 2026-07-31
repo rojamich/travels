@@ -1,36 +1,43 @@
 {%- comment -%}
   ===========================================================================
-  engagement.html — heart button + view counter for a post
+  engagement.html — heart + share + view counter for a post
   ===========================================================================
-  Include at the bottom of a post via {% include engagement.html %}. Reads
-  the post's slug and calls two Netlify Functions (backed by Netlify Blobs)
-  to fetch and update counts. Zero blocking on page render — everything
-  fires async after the DOM is in place.
+  Include at the bottom of a post via {% include engagement.html %}.
 
-  Anti-spam:
-    - Views: incremented once per BROWSER SESSION (sessionStorage flag).
-      Reloading in the same tab does not re-count; opening a new tab does.
-    - Hearts: one per BROWSER (localStorage flag). Once hearted, the icon
-      fills in and the button becomes inert.
+  Widgets:
+    ❤️ Heart — click to toggle on/off. Uses Netlify Functions +
+       Blobs to store the count; localStorage flag tracks per-browser
+       state so clicking again decrements (undo an accidental heart).
+    📤 Share — native Web Share API on mobile / touch devices; falls
+       back to copy-link on desktop with a tiny toast confirmation.
+    👁️ Views — passive counter. Incremented once per browser session
+       (sessionStorage flag) so reloads don't inflate.
 
-  If the functions fail (network offline, Blobs quota, whatever), the
-  widget shows a dash instead of a count and stays quietly broken —
-  never blocks anything else on the page.
+  If any function fails (network, quota, whatever) the widget shows a
+  dash and stays quietly broken — never blocks anything else.
   ===========================================================================
 {%- endcomment -%}
 
-<div class="engagement-widget" data-slug="{{ page.slug }}">
+<div class="engagement-widget" data-slug="{{ page.slug }}" data-title="{{ page.title | escape }}">
   <button type="button"
           class="engagement-btn engagement-heart"
           aria-label="Like this post"
-          title="Like this post">
+          title="Like this post (click again to undo)">
     <span class="eng-icon eng-heart-icon">🤍</span>
     <span class="eng-count eng-heart-count">·</span>
+  </button>
+  <button type="button"
+          class="engagement-btn engagement-share"
+          aria-label="Share this post"
+          title="Share this post">
+    <span class="eng-icon">🔗</span>
+    <span class="eng-share-label">Share</span>
   </button>
   <div class="engagement-view" title="Total views">
     <span class="eng-icon">👁️</span>
     <span class="eng-count eng-view-count">·</span>
   </div>
+  <span class="engagement-toast" aria-live="polite"></span>
 </div>
 
 <script>
@@ -42,22 +49,33 @@
     if (!widget) return;
 
     var slug = widget.getAttribute("data-slug");
+    var title = widget.getAttribute("data-title") || document.title;
     if (!slug) return;
 
     var heartBtn = widget.querySelector(".engagement-heart");
     var heartIcon = widget.querySelector(".eng-heart-icon");
     var heartCount = widget.querySelector(".eng-heart-count");
+    var shareBtn = widget.querySelector(".engagement-share");
     var viewCount = widget.querySelector(".eng-view-count");
+    var toast = widget.querySelector(".engagement-toast");
 
     var VIEW_URL = "/.netlify/functions/views?slug=" + encodeURIComponent(slug);
     var HEART_URL = "/.netlify/functions/hearts?slug=" + encodeURIComponent(slug);
     var VIEW_SESSION_KEY = "viewed:" + slug;
-    var HEART_LOCAL_KEY  = "hearted:" + slug;
+    var HEART_LOCAL_KEY = "hearted:" + slug;
 
-    // ----- Views -----
-    // Once per browser session. First hit in this tab POSTs (which also
-    // returns the new count). Any subsequent visit (or another tab) GETs
-    // the current value without incrementing.
+    function formatCount(n) {
+      if (n >= 1000) return (n / 1000).toFixed(n >= 10000 ? 0 : 1) + "k";
+      return String(n);
+    }
+
+    function showToast(msg) {
+      toast.textContent = msg;
+      toast.classList.add("visible");
+      setTimeout(function () { toast.classList.remove("visible"); }, 1800);
+    }
+
+    // ----- Views (unchanged: session-once counter) -----
     var alreadyViewed = false;
     try { alreadyViewed = !!sessionStorage.getItem(VIEW_SESSION_KEY); } catch (e) {}
 
@@ -73,66 +91,89 @@
       })
       .catch(function () { viewCount.textContent = "—"; });
 
-    // ----- Hearts -----
-    // Always GET the current count on load. If she's already hearted from
-    // this browser, show the filled heart and disable the button.
+    // ----- Hearts (toggle on/off) -----
+    // Local state tracks whether THIS browser has an outstanding heart.
+    // Click while unhearted → POST (increment). Click while hearted →
+    // DELETE (decrement). Optimistic UI; roll back on failure.
+    var isHearted = false;
+    try { isHearted = !!localStorage.getItem(HEART_LOCAL_KEY); } catch (e) {}
+
+    function paintHeart() {
+      heartIcon.textContent = isHearted ? "❤️" : "🤍";
+      heartBtn.classList.toggle("hearted", isHearted);
+      heartBtn.setAttribute("title", isHearted
+        ? "You liked this — click again to undo"
+        : "Like this post (click again to undo)");
+    }
+    paintHeart();
+
     fetch(HEART_URL, { method: "GET" })
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (data) {
-        if (data && typeof data.count === "number") {
-          heartCount.textContent = formatCount(data.count);
-        } else {
-          heartCount.textContent = "—";
-        }
+        heartCount.textContent = (data && typeof data.count === "number")
+          ? formatCount(data.count) : "—";
       })
       .catch(function () { heartCount.textContent = "—"; });
 
-    var alreadyHearted = false;
-    try { alreadyHearted = !!localStorage.getItem(HEART_LOCAL_KEY); } catch (e) {}
-    if (alreadyHearted) {
-      heartIcon.textContent = "❤️";
-      heartBtn.disabled = true;
-      heartBtn.classList.add("hearted");
-    }
-
     heartBtn.addEventListener("click", function () {
-      if (alreadyHearted) return;
-      // Optimistic: fill the heart immediately so it feels responsive.
-      // If the request fails, roll back.
-      heartIcon.textContent = "❤️";
+      var prevHearted = isHearted;
+      var prevText = heartCount.textContent;
+      var prevN = parseInt(prevText, 10);
+      // Optimistic flip.
+      isHearted = !prevHearted;
+      paintHeart();
+      if (!isNaN(prevN)) {
+        heartCount.textContent = formatCount(prevN + (isHearted ? 1 : -1));
+      }
       heartBtn.disabled = true;
-      heartBtn.classList.add("hearted");
-      var currentText = heartCount.textContent;
-      var prevN = parseInt(currentText, 10);
-      if (!isNaN(prevN)) heartCount.textContent = formatCount(prevN + 1);
 
-      fetch(HEART_URL, { method: "POST" })
+      fetch(HEART_URL, { method: isHearted ? "POST" : "DELETE" })
         .then(function (r) { return r.ok ? r.json() : null; })
         .then(function (data) {
+          heartBtn.disabled = false;
           if (data && typeof data.count === "number") {
             heartCount.textContent = formatCount(data.count);
-            try { localStorage.setItem(HEART_LOCAL_KEY, "1"); } catch (e) {}
-            alreadyHearted = true;
+            try {
+              if (isHearted) localStorage.setItem(HEART_LOCAL_KEY, "1");
+              else localStorage.removeItem(HEART_LOCAL_KEY);
+            } catch (e) {}
           } else {
-            // Rollback on failure.
-            heartIcon.textContent = "🤍";
-            heartBtn.disabled = false;
-            heartBtn.classList.remove("hearted");
-            heartCount.textContent = currentText;
+            // Roll back.
+            isHearted = prevHearted;
+            paintHeart();
+            heartCount.textContent = prevText;
           }
         })
         .catch(function () {
-          heartIcon.textContent = "🤍";
           heartBtn.disabled = false;
-          heartBtn.classList.remove("hearted");
-          heartCount.textContent = currentText;
+          isHearted = prevHearted;
+          paintHeart();
+          heartCount.textContent = prevText;
         });
     });
 
-    function formatCount(n) {
-      if (n >= 1000) return (n / 1000).toFixed(n >= 10000 ? 0 : 1) + "k";
-      return String(n);
-    }
+    // ----- Share -----
+    // Use the native share sheet where available (mobile Safari/Chrome,
+    // desktop Safari, some Android browsers). Otherwise copy the URL
+    // to the clipboard with a small toast so the reader gets feedback.
+    shareBtn.addEventListener("click", function () {
+      var url = window.location.href;
+      var shareData = { title: title, text: title, url: url };
+      if (navigator.share) {
+        navigator.share(shareData).catch(function () {
+          // User cancelled or share failed — silently ignore.
+        });
+      } else if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(function () {
+          showToast("Link copied ✓");
+        }).catch(function () {
+          showToast("Couldn't copy — try manually");
+        });
+      } else {
+        // Very old browsers — select-and-prompt fallback.
+        window.prompt("Copy this link:", url);
+      }
+    });
   })();
 </script>
 
@@ -140,13 +181,14 @@
   .engagement-widget {
     display: flex;
     align-items: center;
-    gap: 0.6em;
+    gap: 0.5em;
     margin: 2em 0 1em;
     padding: 0.6em 0.9em;
     background: #f7f9fc;
     border-radius: 12px;
     border: 1px solid #e2e8ee;
     width: fit-content;
+    position: relative;
   }
   .engagement-btn, .engagement-view {
     display: flex;
@@ -163,8 +205,26 @@
   .engagement-btn { cursor: pointer; transition: background 0.15s, transform 0.1s; }
   .engagement-btn:hover:not(:disabled) { background: #eef3f7; }
   .engagement-btn:active:not(:disabled) { transform: scale(0.96); }
-  .engagement-btn:disabled { cursor: default; opacity: 0.9; }
+  .engagement-btn:disabled { cursor: default; opacity: 0.6; }
   .engagement-btn.hearted { color: #b03052; }
   .eng-icon { font-size: 1.1em; line-height: 1; }
   .eng-count { font-weight: bold; font-variant-numeric: tabular-nums; min-width: 1em; text-align: left; }
+  .eng-share-label { font-weight: 500; }
+
+  .engagement-toast {
+    position: absolute;
+    top: -2.2em;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2a4d69;
+    color: #fff;
+    padding: 0.35em 0.9em;
+    border-radius: 6px;
+    font-size: 0.85em;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+  }
+  .engagement-toast.visible { opacity: 1; }
 </style>

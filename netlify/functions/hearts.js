@@ -31,6 +31,16 @@ export default async (req) => {
     return json({ count: next });
   }
 
+  if (req.method === "DELETE") {
+    // Undo a previous heart. Floor at 0 so accidental spam-clicks
+    // (or someone hitting DELETE without having POSTed) can never
+    // produce a negative count.
+    const current = parseInt(await store.get(slug) || "0", 10) || 0;
+    const next = Math.max(0, current - 1);
+    await store.set(slug, String(next));
+    return json({ count: next });
+  }
+
   if (req.method === "GET") {
     const current = parseInt(await store.get(slug) || "0", 10) || 0;
     return json({ count: current });

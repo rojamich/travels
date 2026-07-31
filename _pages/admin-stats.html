@@ -1,0 +1,212 @@
+---
+title: "Post Rankings"
+permalink: /admin-stats/
+layout: single
+author_profile: false
+classes: wide
+sitemap: false
+---
+
+{%- comment -%}
+  Ranked list of posts by views + hearts. NOT linked from the public
+  navigation — accessible only if you know the URL. Fetches every count
+  in one call via /.netlify/functions/counts, joins with the search
+  index for post titles/URLs/dates, and renders a sortable table.
+
+  If you want to make this admin-only later: gate the render behind a
+  Netlify Identity check (window.netlifyIdentity.currentUser()) and
+  send anyone else to /. For now, security-through-obscurity is fine
+  since the underlying counts are already publicly readable per-post.
+{%- endcomment -%}
+
+<p style="font-size:1.05em;color:#444;">
+  Live view + heart counts for every post. Click a column header to sort.
+</p>
+
+<div class="ranking-controls">
+  <input id="ranking-search" type="search" placeholder="Filter by title…"
+         autocomplete="off"
+         style="padding:8px 12px;font-size:14px;border:1px solid #d4dde4;border-radius:8px;min-width:220px;">
+  <span id="ranking-status" style="color:#666;font-size:0.9em;"></span>
+</div>
+
+<table class="ranking-table">
+  <thead>
+    <tr>
+      <th data-sort="title">Post</th>
+      <th data-sort="date" class="col-date">Date</th>
+      <th data-sort="views" class="col-num sort-active sort-desc">👁️ Views</th>
+      <th data-sort="hearts" class="col-num">❤️ Hearts</th>
+    </tr>
+  </thead>
+  <tbody id="ranking-body">
+    <tr><td colspan="4" style="text-align:center;color:#888;padding:2em;">Loading…</td></tr>
+  </tbody>
+</table>
+
+<script>
+  (function () {
+    var status = document.getElementById("ranking-status");
+    var body = document.getElementById("ranking-body");
+    var searchInput = document.getElementById("ranking-search");
+    var rows = [];
+    var sortKey = "views";
+    var sortDir = -1; // -1 = desc, 1 = asc
+
+    function fmt(n) {
+      if (typeof n !== "number") return "—";
+      return n.toLocaleString();
+    }
+    function escape(s) {
+      return String(s).replace(/[&<>"']/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+      });
+    }
+
+    function render() {
+      var q = (searchInput.value || "").trim().toLowerCase();
+      var visible = q
+        ? rows.filter(function (r) { return (r.title || "").toLowerCase().indexOf(q) !== -1; })
+        : rows.slice();
+      visible.sort(function (a, b) {
+        var av = a[sortKey], bv = b[sortKey];
+        if (sortKey === "title" || sortKey === "date") {
+          return String(av).localeCompare(String(bv)) * sortDir;
+        }
+        return ((av || 0) - (bv || 0)) * sortDir;
+      });
+
+      if (visible.length === 0) {
+        body.innerHTML = '<tr><td colspan="4" style="text-align:center;color:#888;padding:2em;">No posts match.</td></tr>';
+      } else {
+        body.innerHTML = visible.map(function (r) {
+          return "<tr>" +
+            '<td><a href="' + escape(r.url) + '">' + escape(r.title) + '</a>' +
+              (r.trip ? '<div class="row-sub">' + escape(r.trip) + '</div>' : '') +
+            '</td>' +
+            '<td class="col-date">' + escape(r.date || "") + '</td>' +
+            '<td class="col-num">' + fmt(r.views) + '</td>' +
+            '<td class="col-num">' + fmt(r.hearts) + '</td>' +
+            '</tr>';
+        }).join("");
+      }
+      status.textContent = visible.length + " of " + rows.length + " posts";
+    }
+
+    // Header click → change sort key / flip direction.
+    document.querySelectorAll("th[data-sort]").forEach(function (th) {
+      th.addEventListener("click", function () {
+        var k = th.getAttribute("data-sort");
+        if (k === sortKey) {
+          sortDir = -sortDir;
+        } else {
+          sortKey = k;
+          sortDir = (k === "title" || k === "date") ? 1 : -1;
+        }
+        document.querySelectorAll("th[data-sort]").forEach(function (h) {
+          h.classList.remove("sort-active", "sort-asc", "sort-desc");
+        });
+        th.classList.add("sort-active", sortDir === 1 ? "sort-asc" : "sort-desc");
+        render();
+      });
+    });
+    searchInput.addEventListener("input", render);
+
+    // Fetch both the post metadata (from the search index — we already
+    // build it, so no extra data source needed) and the counts.
+    Promise.all([
+      fetch("{{ '/search-index.json' | relative_url }}").then(function (r) { return r.json(); }),
+      fetch("/.netlify/functions/counts").then(function (r) { return r.json(); })
+    ]).then(function (out) {
+      var index = out[0];
+      var counts = out[1] || {};
+      // Build slug → post metadata map, keeping only real posts (not trips).
+      var byUrl = {};
+      index.filter(function (i) { return i.type === "post"; }).forEach(function (p) {
+        // Slug used by the engagement widget is Jekyll's page.slug (last
+        // path segment without date prefix). We infer it from the URL.
+        var m = p.url.match(/([a-z0-9-]+)\/?$/i);
+        if (!m) return;
+        var slug = m[1];
+        byUrl[slug] = p;
+      });
+
+      // Build the row set. Include any post that has counts OR (as a
+      // fallback) every post in the index if we have no count data yet.
+      var haveAny = Object.keys(counts).length > 0;
+      Object.keys(byUrl).forEach(function (slug) {
+        var meta = byUrl[slug];
+        var c = counts[slug] || { views: 0, hearts: 0 };
+        rows.push({
+          slug: slug,
+          title: meta.title,
+          url: meta.url,
+          date: meta.date,
+          trip: meta.trip,
+          views: c.views,
+          hearts: c.hearts
+        });
+      });
+
+      if (!haveAny) {
+        status.textContent = "No view/heart data yet — will populate as readers visit posts.";
+      }
+      render();
+    }).catch(function (err) {
+      console.warn("[admin-stats] failed to load data:", err);
+      body.innerHTML = '<tr><td colspan="4" style="text-align:center;color:#c33;padding:2em;">Failed to load rankings — try refreshing.</td></tr>';
+    });
+  })();
+</script>
+
+<style>
+  .ranking-controls {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 1em 0;
+    flex-wrap: wrap;
+  }
+  .ranking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    font-size: 0.95em;
+  }
+  .ranking-table th {
+    text-align: left;
+    padding: 0.7em 0.8em;
+    background: #eef3f7;
+    color: #2a4d69;
+    font-weight: bold;
+    border-bottom: 2px solid #d4dde4;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+  }
+  .ranking-table th:hover { background: #dfe7ed; }
+  .ranking-table th.sort-active::after {
+    content: "";
+    display: inline-block;
+    margin-left: 0.4em;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    vertical-align: middle;
+  }
+  .ranking-table th.sort-desc::after { border-top: 5px solid #2a4d69; }
+  .ranking-table th.sort-asc::after { border-bottom: 5px solid #2a4d69; }
+  .ranking-table td {
+    padding: 0.6em 0.8em;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+  }
+  .ranking-table tbody tr:hover { background: #f7f9fc; }
+  .ranking-table a { color: #2a4d69; text-decoration: none; font-weight: bold; }
+  .ranking-table a:hover { text-decoration: underline; }
+  .ranking-table .row-sub { font-size: 0.8em; color: #888; margin-top: 0.15em; }
+  .ranking-table .col-num { text-align: right; font-variant-numeric: tabular-nums; }
+  .ranking-table .col-date { color: #888; font-size: 0.9em; white-space: nowrap; }
+  @media (max-width: 600px) {
+    .ranking-table .col-date { display: none; }
+  }
+</style>
