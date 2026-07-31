@@ -372,7 +372,7 @@ classes: wide
 </script>
 
 {% if us_states.size > 0 %}
-<h2 style="margin-top:2em;">🇺🇸 US States coverage</h2>
+<h2 style="margin-top:2em;">🇺🇸 States coverage</h2>
 <p style="color:#666;margin:0 0 0.6em;">
   <strong>{{ us_states.size }}</strong> of 50 states visited — <strong>{{ us_pct }}%</strong> of the country.
 </p>
@@ -536,12 +536,19 @@ classes: wide
   {% endfor %}
 </div>
 
+{%- comment -%}
+  Country + state chips. Optional image support: if _data/country_images.yml
+  has an entry for a country (map of "Country Name" → image URL), it's
+  rendered as a small circle on the left side of the chip. Same for
+  _data/us_state_images.yml. When no image is set, the chip is just the
+  name. Add wikipedia image URLs to those files to opt in per country/state.
+{%- endcomment -%}
 <h2 style="margin-top:1.5em;">Countries</h2>
 <div class="stats-country-chips">
   {%- assign sorted_countries = uniq_countries | sort -%}
   {% for c in sorted_countries %}
-    {%- assign flag = site.data.country_flags[c] -%}
-    <span class="country-chip">{% if flag %}<span class="chip-flag">{{ flag }}</span>{% endif %}{{ c }}</span>
+    {%- assign img = site.data.country_images[c] -%}
+    <span class="country-chip">{% if img %}<img class="chip-img" src="{{ img }}" alt="" onerror="this.style.display='none'">{% endif %}{{ c }}</span>
   {% endfor %}
 </div>
 
@@ -550,7 +557,8 @@ classes: wide
 <div class="stats-country-chips">
   {%- assign sorted_states = us_states | sort -%}
   {% for s in sorted_states %}
-    <span class="country-chip country-chip--state"><span class="chip-flag">🇺🇸</span>{{ s }}</span>
+    {%- assign img = site.data.us_state_images[s] -%}
+    <span class="country-chip country-chip--state">{% if img %}<img class="chip-img" src="{{ img }}" alt="" onerror="this.style.display='none'">{% endif %}{{ s }}</span>
   {% endfor %}
 </div>
 {% endif %}
@@ -599,21 +607,26 @@ classes: wide
     min-width: 0;
   }
   .stat-icon {
-    font-size: 1.9em;
+    font-size: 1.6em;
     line-height: 1;
     flex: 0 0 auto;
   }
-  .stat-body { min-width: 0; flex: 1; }
+  .stat-body { min-width: 0; flex: 1; overflow: hidden; }
   .stat-value {
-    font-size: clamp(1.4em, 4vw, 1.9em);
+    /* Sized so 7-digit numbers (e.g. "1,234,567") fit within the
+       220px min tile width alongside the icon. Falls back smaller
+       on narrow viewports. */
+    font-size: clamp(1.1em, 3.2vw, 1.45em);
     font-weight: bold;
     color: #2a4d69;
     line-height: 1.1;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .stat-label {
     margin-top: 0.15em;
-    font-size: 0.78em;
+    font-size: 0.72em;
     color: #666;
     text-transform: uppercase;
     letter-spacing: 0.04em;
@@ -762,9 +775,13 @@ classes: wide
     color: #8a4a1f;
     border-color: #f3d9c2;
   }
-  .chip-flag {
-    margin-right: 0.35em;
-    font-size: 1.05em;
-    vertical-align: -0.05em;
+  .chip-img {
+    width: 20px;
+    height: 14px;
+    object-fit: cover;
+    border-radius: 2px;
+    margin-right: 0.45em;
+    vertical-align: -0.15em;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
   }
 </style>

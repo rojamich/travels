@@ -15,8 +15,7 @@ classes: wide
 
 <div class="home-intro">
   <p style="font-size: 1.2em;">
-    Welcome! This is where we share photos and stories from our trips.
-    Pick a trip below to start exploring.
+    Welcome to the Rojas Travel Page! Select a trip below to start exploring 🚂🥾🏔️🍜
   </p>
 
   <blockquote class="home-quote">
@@ -56,41 +55,60 @@ classes: wide
   taking the min of the raw distance and (366 - distance). site.time is
   the build time, so this refreshes on every deploy.
 {%- endcomment -%}
+{%- comment -%}
+  Two-pass: (1) enumerate every past year with posts, (2) for EACH year
+  find its own closest-to-today post. Result: at most one post per year,
+  each the nearest date to today from that year. Sorted newest year first.
+  We track the max delta across the years shown so the subtitle can
+  describe how far off "closest" ended up.
+{%- endcomment -%}
 {%- assign today_doy = site.time | date: "%j" | plus: 0 -%}
 {%- assign this_year = site.time | date: "%Y" -%}
-{%- assign min_delta = 999 -%}
+
+{%- assign past_years = "" | split: "" -%}
 {%- for p in site.posts -%}
   {%- assign py = p.date | date: "%Y" -%}
   {%- unless py == this_year -%}
-    {%- assign p_doy = p.date | date: "%j" | plus: 0 -%}
-    {%- assign d = p_doy | minus: today_doy -%}
-    {%- if d < 0 -%}{%- assign d = 0 | minus: d -%}{%- endif -%}
-    {%- if d > 183 -%}{%- assign d = 366 | minus: d -%}{%- endif -%}
-    {%- if d < min_delta -%}{%- assign min_delta = d -%}{%- endif -%}
+    {%- unless past_years contains py -%}
+      {%- assign past_years = past_years | push: py -%}
+    {%- endunless -%}
   {%- endunless -%}
 {%- endfor -%}
+{%- assign past_years = past_years | sort | reverse -%}
+
 {%- assign on_this_day = "" | split: "" -%}
-{%- if min_delta < 999 -%}
+{%- assign max_delta_shown = 0 -%}
+{%- for year in past_years -%}
+  {%- assign best_post = nil -%}
+  {%- assign best_delta = 999 -%}
   {%- for p in site.posts -%}
     {%- assign py = p.date | date: "%Y" -%}
-    {%- unless py == this_year -%}
+    {%- if py == year -%}
       {%- assign p_doy = p.date | date: "%j" | plus: 0 -%}
       {%- assign d = p_doy | minus: today_doy -%}
       {%- if d < 0 -%}{%- assign d = 0 | minus: d -%}{%- endif -%}
       {%- if d > 183 -%}{%- assign d = 366 | minus: d -%}{%- endif -%}
-      {%- if d == min_delta -%}
-        {%- assign on_this_day = on_this_day | push: p -%}
+      {%- if d < best_delta -%}
+        {%- assign best_delta = d -%}
+        {%- assign best_post = p -%}
       {%- endif -%}
-    {%- endunless -%}
+    {%- endif -%}
   {%- endfor -%}
-{%- endif -%}
+  {%- if best_post -%}
+    {%- assign on_this_day = on_this_day | push: best_post -%}
+    {%- if best_delta > max_delta_shown -%}
+      {%- assign max_delta_shown = best_delta -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
 {%- if on_this_day.size > 0 -%}
 <section class="on-this-day">
   <h2>📅 On this day</h2>
-  {%- if min_delta == 0 -%}
+  {%- if max_delta_shown == 0 -%}
   <p class="on-this-day-sub">Posts from {{ site.time | date: "%B %-d" }} in previous years.</p>
   {%- else -%}
-  <p class="on-this-day-sub">No post from today itself — showing the closest matches ({{ min_delta }} day{% if min_delta != 1 %}s{% endif %} away).</p>
+  <p class="on-this-day-sub">The closest post from each previous year — up to {{ max_delta_shown }} day{% if max_delta_shown != 1 %}s{% endif %} off today's date.</p>
   {%- endif -%}
   <div class="on-this-day-list">
     {%- assign sorted_otd = on_this_day | sort: "date" | reverse -%}

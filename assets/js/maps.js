@@ -129,13 +129,18 @@ window.TravelMap = (function () {
     }
 
     trips.forEach(function (trip) {
-      // Primary pin (single-country fallback). Skipped if the trip lists
-      // any countries explicitly, since those replace the single pin.
-      var hasCountries = Array.isArray(trip.countries) && trip.countries.length > 0;
-      if (!hasCountries && typeof trip.lat === "number" && typeof trip.lng === "number") {
+      // Always show the primary pin at the trip's own lat/lng. Previously
+      // we skipped this when countries[] was set, but that meant the
+      // PRIMARY country got no pin — e.g. African Safari with South
+      // Africa as location + Botswana/Zimbabwe in countries[] rendered
+      // only Botswana/Zimbabwe pins, no SA. Now: primary pin always
+      // shows; countries[] pins are ADDITIONAL. If a trip's countries[]
+      // includes the same country as the primary, there'll be a minor
+      // duplicate pin — that's the tradeoff for making both work.
+      if (typeof trip.lat === "number" && typeof trip.lng === "number") {
         addTripPin(trip, trip.lat, trip.lng);
       }
-      // Additional per-country pins for multi-country trips.
+      var hasCountries = Array.isArray(trip.countries) && trip.countries.length > 0;
       if (hasCountries) {
         trip.countries.forEach(function (c) {
           if (typeof c.lat === "number" && typeof c.lng === "number") {

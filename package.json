@@ -1,0 +1,10 @@
+{
+  "name": "travel-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node dependencies for the Netlify Functions that back the per-post view + heart counters. Site itself is Jekyll (Ruby, see Gemfile); this file only exists so Netlify installs @netlify/blobs during the build and the function bundler can find it.",
+  "type": "module",
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  }
+}

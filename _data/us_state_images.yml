@@ -1,0 +1,18 @@
+# =============================================================================
+# us_state_images.yml — optional flag/photo per US state for the stats chips
+# =============================================================================
+# Same shape as country_images.yml but keyed by full state name (e.g.
+# "California", "New York"). When a state has an image URL here, the
+# chip on /stats/ renders it to the left of the state name.
+#
+# Use direct image URLs — Wikipedia state flag SVGs from
+# commons.wikimedia.org are usually the cleanest source.
+#
+# Example:
+#   California: https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg
+#   Texas:      https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Texas.svg
+#
+# Add entries below as you go.
+# =============================================================================
+
+# California: https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg

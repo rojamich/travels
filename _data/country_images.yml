@@ -1,0 +1,27 @@
+# =============================================================================
+# country_images.yml — optional flag/photo per country for the stats chips
+# =============================================================================
+# When a country here has an image URL, the stats page chip renders it as
+# a small rounded rectangle to the left of the country name. If a country
+# isn't listed, or its image URL 404s, the chip just shows the plain name.
+#
+# Use direct image URLs — Wikipedia flag SVGs from commons.wikimedia.org
+# work well. To find one:
+#   1. Search "Flag of Vietnam" on Wikipedia
+#   2. Click the flag image at the top-right infobox
+#   3. Right-click the file → "Copy image link"  (or use the direct URL
+#      Wikipedia shows under "File:Flag_of_Vietnam.svg")
+#   4. Paste it here as the value.
+#
+# Sizing: any format is fine — the CSS shrinks it to ~20×14px. SVG scales
+# cleanly; PNG works too. Wikipedia thumbs like "/w/thumb.php?..." also
+# work if you want a specific pixel width.
+#
+# Example:
+#   Vietnam: https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg
+#   Japan:   https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg
+#
+# Add entries below as you go — no need to fill all of them upfront.
+# =============================================================================
+
+# Vietnam: https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg

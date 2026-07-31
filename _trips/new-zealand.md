@@ -5,8 +5,8 @@ description: A month-long road trip across New Zealand's North and South Islands
 cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEqwjtaxDzETtCykuVh-ZkiqFrdOIMgnb95ZGaxFluy8DQe_fuoR96IXAV1oOBvacwUPHpfDKrZUC4ZMTgAszUELOEilDRs0hbAj_i9pDJyDUqco3ltHOUru_D0jvgiKIiya5Vw7-v-egtV7RywuENG7_kE91k_KMDy1hAv7oqzdcrYTiv4asuTCtRmg/w161-h189/20221117_171618.jpg
 cover_focal_x: 50
 cover_focal_y: 28
-start_date: 2020-12-26
-end_date: 2021-01-08
+start_date: 2022-11-17
+end_date: 2022-12-17
 location: New Zealand
 lat: -45.0312
 lng: 168.6626
