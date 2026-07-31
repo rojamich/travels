@@ -1,27 +1,19 @@
 # =============================================================================
 # country_images.yml — optional flag/photo per country for the stats chips
 # =============================================================================
-# When a country here has an image URL, the stats page chip renders it as
-# a small rounded rectangle to the left of the country name. If a country
-# isn't listed, or its image URL 404s, the chip just shows the plain name.
+# List of {name, url} entries. Managed from /admin/ → Site Settings →
+# "Country flag images". When a country's name here matches a country
+# on /stats/, the chip renders the image as a small 20×14 rounded
+# rectangle to the left of the country name.
 #
-# Use direct image URLs — Wikipedia flag SVGs from commons.wikimedia.org
-# work well. To find one:
-#   1. Search "Flag of Vietnam" on Wikipedia
-#   2. Click the flag image at the top-right infobox
-#   3. Right-click the file → "Copy image link"  (or use the direct URL
-#      Wikipedia shows under "File:Flag_of_Vietnam.svg")
-#   4. Paste it here as the value.
+# To find a Wikipedia flag URL:
+#   1. Search "Flag of Vietnam" on Wikipedia.
+#   2. Click the flag image in the infobox at the top right.
+#   3. On the file page, right-click the main image and Copy Image Link.
+#   4. Paste it as the URL here.
 #
-# Sizing: any format is fine — the CSS shrinks it to ~20×14px. SVG scales
-# cleanly; PNG works too. Wikipedia thumbs like "/w/thumb.php?..." also
-# work if you want a specific pixel width.
-#
-# Example:
-#   Vietnam: https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg
-#   Japan:   https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg
-#
-# Add entries below as you go — no need to fill all of them upfront.
+# Any format works (SVG scales best; PNG/JPG fine). Missing or 404'd
+# images just don't render — the chip falls back to plain name.
 # =============================================================================
 
-# Vietnam: https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg
+entries: []

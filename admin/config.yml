@@ -179,6 +179,36 @@ collections:
               - { label: "Why we want to go", name: "why", widget: "string", required: false, hint: "One sentence on what's drawing us there." }
               - { label: "When (rough timing)", name: "when", widget: "string", required: false, hint: "e.g. 'Summer 2027' or 'Once the kids are older'." }
 
+      - file: "_data/country_images.yml"
+        label: "Country flag images"
+        name: "country_images"
+        fields:
+          - label: "Entries"
+            name: "entries"
+            widget: "list"
+            required: false
+            default: []
+            summary: "{{fields.name}}"
+            hint: "Add a country name + image URL. On /stats/ the chip for that country will show the image as a small rounded rectangle to the left of the name. Country name MUST match spelling used in your trip files (e.g. 'Vietnam', not 'Viet Nam') — use the same dropdown values from the Trip → Additional countries picker."
+            fields:
+              - { label: "Country name", name: "name", widget: "string", hint: "e.g. 'Vietnam', 'United Kingdom'. Case-sensitive; must match your trip data exactly." }
+              - { label: "Image URL", name: "url", widget: "string", hint: "Direct URL to a flag or emblem image. Wikipedia flag SVGs work great — e.g. https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg" }
+
+      - file: "_data/us_state_images.yml"
+        label: "US state flag images"
+        name: "us_state_images"
+        fields:
+          - label: "Entries"
+            name: "entries"
+            widget: "list"
+            required: false
+            default: []
+            summary: "{{fields.name}}"
+            hint: "Add a US state name + image URL. Same shape as the country version above, but keyed by full state name (e.g. 'California', 'New York')."
+            fields:
+              - { label: "State name", name: "name", widget: "string", hint: "e.g. 'California', 'New York'. Case-sensitive; must match your trip data exactly." }
+              - { label: "Image URL", name: "url", widget: "string", hint: "Direct URL to a state flag image. Wikipedia state flag SVGs work well." }
+
       - file: "_data/records.yml"
         label: "Records & leaderboard"
         name: "records"
@@ -553,6 +583,27 @@ collections:
               - "Yemen"
               - "Zambia"
               - "Zimbabwe"
+              # ── Territories & regions ────────────────────────────────
+              - "Antarctica"
+              - "Aruba"
+              - "Bermuda"
+              - "British Virgin Islands"
+              - "Cayman Islands"
+              - "Cook Islands"
+              - "Curaçao"
+              - "Faroe Islands"
+              - "French Polynesia"
+              - "Gibraltar"
+              - "Greenland"
+              - "Guam"
+              - "Hong Kong"
+              - "Isle of Man"
+              - "Kosovo"
+              - "Macau"
+              - "New Caledonia"
+              - "Palestine"
+              - "Puerto Rico"
+              - "U.S. Virgin Islands"
           - { label: "Latitude", name: "lat", widget: "number", value_type: "float" }
           - { label: "Longitude", name: "lng", widget: "number", value_type: "float" }
 

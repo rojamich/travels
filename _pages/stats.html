@@ -537,18 +537,22 @@ classes: wide
 </div>
 
 {%- comment -%}
-  Country + state chips. Optional image support: if _data/country_images.yml
-  has an entry for a country (map of "Country Name" → image URL), it's
-  rendered as a small circle on the left side of the chip. Same for
-  _data/us_state_images.yml. When no image is set, the chip is just the
-  name. Add wikipedia image URLs to those files to opt in per country/state.
+  Country + state chips with optional image support. Image data lives in
+  _data/country_images.yml (list of {name, url}) — edit from /admin/
+  → Site Settings → "Country flag images". Same for us_state_images.yml.
+  Missing images just render nothing; the chip falls back to plain name.
 {%- endcomment -%}
 <h2 style="margin-top:1.5em;">Countries</h2>
 <div class="stats-country-chips">
   {%- assign sorted_countries = uniq_countries | sort -%}
   {% for c in sorted_countries %}
-    {%- assign img = site.data.country_images[c] -%}
-    <span class="country-chip">{% if img %}<img class="chip-img" src="{{ img }}" alt="" onerror="this.style.display='none'">{% endif %}{{ c }}</span>
+    {%- assign img_url = "" -%}
+    {%- if site.data.country_images.entries -%}
+      {%- for e in site.data.country_images.entries -%}
+        {%- if e.name == c -%}{%- assign img_url = e.url -%}{%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+    <span class="country-chip">{% if img_url != "" %}<img class="chip-img" src="{{ img_url }}" alt="" onerror="this.style.display='none'">{% endif %}{{ c }}</span>
   {% endfor %}
 </div>
 
@@ -557,8 +561,13 @@ classes: wide
 <div class="stats-country-chips">
   {%- assign sorted_states = us_states | sort -%}
   {% for s in sorted_states %}
-    {%- assign img = site.data.us_state_images[s] -%}
-    <span class="country-chip country-chip--state">{% if img %}<img class="chip-img" src="{{ img }}" alt="" onerror="this.style.display='none'">{% endif %}{{ s }}</span>
+    {%- assign img_url = "" -%}
+    {%- if site.data.us_state_images.entries -%}
+      {%- for e in site.data.us_state_images.entries -%}
+        {%- if e.name == s -%}{%- assign img_url = e.url -%}{%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+    <span class="country-chip country-chip--state">{% if img_url != "" %}<img class="chip-img" src="{{ img_url }}" alt="" onerror="this.style.display='none'">{% endif %}{{ s }}</span>
   {% endfor %}
 </div>
 {% endif %}
@@ -586,53 +595,45 @@ classes: wide
 </script>
 
 <style>
-  /* Horizontal tiles: icon on the left, number+label on the right.
-     minmax(220px, ...) sizes each tile to fit its content on ONE line
-     — no more wrapped labels breaking mid-stat. auto-fill packs as
-     many per row as the viewport allows. */
+  /* Flex-wrap layout so each tile sizes to its OWN content (no fixed
+     column width forcing text to truncate). Tiles line up horizontally
+     and wrap to a new row as needed. */
   .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 0.8em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7em;
     margin: 1.5em 0;
   }
   .stat-tile {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 0.9em;
-    padding: 0.9em 1.1em;
+    gap: 0.7em;
+    padding: 0.75em 1.1em;
     background: #eef3f7;
     border-radius: 12px;
     border: 1px solid #d4dde4;
-    min-width: 0;
+    flex: 0 0 auto;   /* size to content, don't stretch or shrink */
   }
   .stat-icon {
-    font-size: 1.6em;
+    font-size: 1.7em;
     line-height: 1;
     flex: 0 0 auto;
   }
-  .stat-body { min-width: 0; flex: 1; overflow: hidden; }
+  .stat-body { flex: 0 0 auto; }
   .stat-value {
-    /* Sized so 7-digit numbers (e.g. "1,234,567") fit within the
-       220px min tile width alongside the icon. Falls back smaller
-       on narrow viewports. */
-    font-size: clamp(1.1em, 3.2vw, 1.45em);
+    font-size: 1.5em;
     font-weight: bold;
     color: #2a4d69;
     line-height: 1.1;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
   .stat-label {
     margin-top: 0.15em;
-    font-size: 0.72em;
+    font-size: 0.75em;
     color: #666;
     text-transform: uppercase;
     letter-spacing: 0.04em;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   .nomad-clock {
