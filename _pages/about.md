@@ -6,7 +6,7 @@ author_profile: false
 ---
 Hi! We're Jenna and Michael Rojas, a couple who decided that life was too short to wonder, "what if?!" And too long to spend it in one place📍
 
-What began as a few trips to see more than our hometowns 🚂, quickly grew into travel & working remotely through fjords ⛰️ and medinas 🏪, the ends of the Earth 🌍, and everything in between 🗺️
+What began as a few trips to see more than our hometowns 🚂, quickly grew into travel & working remotely through fjords ⛰️ and medinas 🏪, the literal ends of the Earth 🌍, and everything in between 🗺️
 
 This blog is our way of bringing you along. Family, friends, and anyone who stumbled here by accident — we're glad you're here 🤗
 
