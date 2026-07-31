@@ -9,16 +9,16 @@ categories:
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785508950/IMG-20251212-WA0015_uoianw.jpg
         blurb: ""
         cover_focal_x: 50
-        cover_focal_y: 67
+        cover_focal_y: 13
       - country: Mexico
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785512085/20250503_182727_bs0xmv.jpg
         cover_focal_x: 50
-        cover_focal_y: 62
+        cover_focal_y: 58
       - country: South Korea
         trip_slug: bamboo-bulgogi
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785518773/20241229_140729_u3cs7o.jpg
         cover_focal_x: 50
-        cover_focal_y: 32
+        cover_focal_y: 28
   - name: Best Nature
     icon: 🏔️
     description: Landscapes that took our breath away.
@@ -28,16 +28,16 @@ categories:
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785519074/20221120_123432_m4o4k8.jpg
         blurb: ""
         cover_focal_x: 50
-        cover_focal_y: 40
+        cover_focal_y: 43
       - country: Vietnam
         trip_slug: vietnam
         cover_focal_x: 50
-        cover_focal_y: 50
+        cover_focal_y: 38
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521017/IMG_9637_tby65s.jpg
       - country: United States of America
         trip_slug: "'Party in the USA'"
         cover_focal_x: 50
-        cover_focal_y: 50
+        cover_focal_y: 32
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521019/IMG_0208_aeboqo.jpg
       - country: South Africa
         trip_slug: african-safari
@@ -56,24 +56,24 @@ categories:
       - country: Tokyo, Japan
         trip_slug: bamboo-bulgogi
         cover_focal_x: 50
-        cover_focal_y: 50
+        cover_focal_y: 35
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522179/20241216_173952_ahkcbf.jpg
       - country: Berlin, Germany
         trip_slug: european-excursion
         cover_focal_x: 50
-        cover_focal_y: 50
+        cover_focal_y: 20
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522181/20220311_140300_odv5jd.jpg
       - cover_focal_x: 50
-        cover_focal_y: 50
+        cover_focal_y: 42
         country: Ho Chi Minh City, Vietnam
         trip_slug: Vietnam
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522184/20251211_074831_x5hkss.jpg
       - cover_focal_x: 50
-        cover_focal_y: 50
+        cover_focal_y: 71
         country: Mexico City, Mexico
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522190/20250504_123641_ker1pw.jpg
       - cover_focal_x: 50
-        cover_focal_y: 50
+        cover_focal_y: 28
         country: NYC, NY
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522304/20240824_095500_fq9o1x.jpg
   - name: Most Underrated
@@ -82,15 +82,18 @@ categories:
     entries:
       - country: Mexico
         cover_focal_x: 50
-        cover_focal_y: 50
+        cover_focal_y: 37
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522890/20250504_104626_iceu1d.jpg
       - country: The Netherlands
         trip_slug: european-excursion
         cover_focal_x: 50
-        cover_focal_y: 50
+        cover_focal_y: 18
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522893/20220315_105300_xpehr2.jpg
       - country: Vietnam
         trip_slug: vietnam
         cover_focal_x: 50
-        cover_focal_y: 50
+        cover_focal_y: 69
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522916/20251213_103717_khrodv.jpg
   - name: Best Wonders
     icon: 🗼
     description: Sights that blew our minds!
@@ -98,16 +101,20 @@ categories:
       - country: Peru
         trip_slug: peruvian-passage
         cover_focal_x: 50
-        cover_focal_y: 50
+        cover_focal_y: 22
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522919/20250905_104042_woqmqg.jpg
       - country: England
         trip_slug: european-excursion
         cover_focal_x: 50
-        cover_focal_y: 50
+        cover_focal_y: 39
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522922/20220209_090911_migfol.jpg
       - country: Italy
         trip_slug: european-excursion
         cover_focal_x: 50
-        cover_focal_y: 50
+        cover_focal_y: 7
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522976/20220220_144310_ecmp9t.jpg
       - country: Germany
         trip_slug: european-excursion
         cover_focal_x: 50
-        cover_focal_y: 50
+        cover_focal_y: 13
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522982/20220304_135515_mq9tyq.jpg
