@@ -1,7 +1,7 @@
 ---
 title: Party in the USA
 description: From Alaska to Florida we have explored the US, admired landmarks,
-  dined on it's delicious food, , and summited mountains!
+  dined on it's delicious food, and summited mountains!
 cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785504485/20250720_062335_jqddwm.jpg
 cover_focal_x: 50
 cover_focal_y: 50
