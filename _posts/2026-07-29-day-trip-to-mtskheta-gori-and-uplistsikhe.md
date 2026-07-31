@@ -22,4 +22,13 @@ location:
   lng: 44.110001
 toc: false
 ---
-Here is my draft!
+In planning this trip to Georgia, we knew much of it would be living our new, day-to-day lives and figuring out what that means in this country. We had a handful of days planned (museums, landmarks, cathedrals, and a few must-sees around the city. 
+
+Instead of picking hard dates and booking them in advance (as we usually do), we decided to choose when felt best for us depending on:
+
+* soreness
+* energy
+* weather
+* excitment
+
+Two days ago we saw there would be a break in the weather and very overcast. That, combined with it being a weekday, would make for a super day to tour Gori: Stalin's birthplace.
