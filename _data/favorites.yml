@@ -8,52 +8,95 @@ categories:
         trip_slug: Vietnam
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785508950/IMG-20251212-WA0015_uoianw.jpg
         blurb: ""
+        cover_focal_x: 50
+        cover_focal_y: 67
       - country: Mexico
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785512085/20250503_182727_bs0xmv.jpg
+        cover_focal_x: 50
+        cover_focal_y: 62
       - country: South Korea
         trip_slug: bamboo-bulgogi
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785518773/20241229_140729_u3cs7o.jpg
+        cover_focal_x: 50
+        cover_focal_y: 32
   - name: Best Nature
     icon: 🏔️
     description: Landscapes that took our breath away.
     entries:
       - country: New Zealand
         trip_slug: new-zealand
-        cover: ""
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785519074/20221120_123432_m4o4k8.jpg
         blurb: ""
+        cover_focal_x: 50
+        cover_focal_y: 40
       - country: Vietnam
         trip_slug: vietnam
+        cover_focal_x: 50
+        cover_focal_y: 50
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521017/IMG_9637_tby65s.jpg
       - country: United States of America
         trip_slug: "'Party in the USA'"
+        cover_focal_x: 50
+        cover_focal_y: 50
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521019/IMG_0208_aeboqo.jpg
       - country: South Africa
         trip_slug: african-safari
+        cover_focal_x: 50
+        cover_focal_y: 50
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521023/20240902_130309_hw2p2e.jpg
       - country: Peru
         trip_slug: peruvian-passage
+        cover_focal_x: 50
+        cover_focal_y: 50
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521030/20250910_051147_rindpo.jpg
   - name: Best City Life
     icon: 🏙️
-    description: Cities we could see ourselves living in.
+    description: Our absolute favorite cities we plan to keep coming back to!
     entries:
-      - country: Japan
+      - country: Tokyo, Japan
         trip_slug: bamboo-bulgogi
+        cover_focal_x: 50
+        cover_focal_y: 50
       - country: Germany
         trip_slug: european-excursion
+        cover_focal_x: 50
+        cover_focal_y: 50
+      - cover_focal_x: 50
+        cover_focal_y: 50
+        country: Ho Chi Minh City, Vietnam
+        trip_slug: Vietnam
   - name: Most Underrated
     icon: ✨
     description: Places we didn't expect to love.
     entries:
       - country: Mexico
+        cover_focal_x: 50
+        cover_focal_y: 50
       - country: The Netherlands
         trip_slug: european-excursion
+        cover_focal_x: 50
+        cover_focal_y: 50
       - country: Vietnam
         trip_slug: vietnam
+        cover_focal_x: 50
+        cover_focal_y: 50
   - name: Best Wonders
     icon: 🗼
     description: Sights that blew our minds!
     entries:
       - country: Peru
         trip_slug: peruvian-passage
+        cover_focal_x: 50
+        cover_focal_y: 50
       - country: England
         trip_slug: european-excursion
+        cover_focal_x: 50
+        cover_focal_y: 50
       - country: Italy
         trip_slug: european-excursion
+        cover_focal_x: 50
+        cover_focal_y: 50
       - country: Germany
         trip_slug: european-excursion
+        cover_focal_x: 50
+        cover_focal_y: 50
