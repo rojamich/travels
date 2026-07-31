@@ -13,7 +13,7 @@ categories:
       - country: Mexico
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785512085/20250503_182727_bs0xmv.jpg
         cover_focal_x: 50
-        cover_focal_y: 58
+        cover_focal_y: 51
       - country: South Korea
         trip_slug: bamboo-bulgogi
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785518773/20241229_140729_u3cs7o.jpg
@@ -28,11 +28,11 @@ categories:
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785519074/20221120_123432_m4o4k8.jpg
         blurb: ""
         cover_focal_x: 50
-        cover_focal_y: 43
+        cover_focal_y: 40
       - country: Vietnam
         trip_slug: vietnam
         cover_focal_x: 50
-        cover_focal_y: 38
+        cover_focal_y: 48
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521017/IMG_9637_tby65s.jpg
       - country: United States of America
         trip_slug: "'Party in the USA'"
