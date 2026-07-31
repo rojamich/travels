@@ -12,13 +12,14 @@ categories:
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785512085/20250503_182727_bs0xmv.jpg
       - country: South Korea
         trip_slug: bamboo-bulgogi
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785518773/20241229_140729_u3cs7o.jpg
   - name: Best Nature
     icon: 🏔️
     description: Landscapes that took our breath away.
     entries:
       - country: New Zealand
         trip_slug: new-zealand
-        cover: ""
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785519074/20221120_123432_m4o4k8.jpg
         blurb: ""
       - country: Vietnam
         trip_slug: vietnam
