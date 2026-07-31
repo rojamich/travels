@@ -29,6 +29,8 @@ Instead of picking hard dates and booking them in advance (as we usually do), we
 * soreness
 * energy
 * weather
-* excitment
+* excitement
 
-Two days ago we saw there would be a break in the weather and very overcast. That, combined with it being a weekday, would make for a super day to tour Gori: Stalin's birthplace.
+Two days ago we saw there would be a break in the weather and very overcast. That, combined with it being a weekday, would make for a super day to tour Gori: Stalin's birthplace. 
+
+Unfortunately, we stayed up way too late the night before and that meant for a brutal early alarm this morning. We dragged ourselves out of bed, ate a delicious breakfast
