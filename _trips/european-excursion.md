@@ -1,7 +1,7 @@
 ---
 title: European Excursion
-description: A months-long European tour — London, Brussels, Paris, Italy,
-  Germany, and Amsterdam.
+description: A months-long European tour — England, Belgium, France, Italy,
+  Germany, and Netherlands.
 cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782417771/20220222_124738_j9mlmq.jpg
 cover_focal_x: 50
 cover_focal_y: 0
