@@ -7,10 +7,11 @@ classes: wide
 ---
 
 {%- comment -%}
-  Client-side search across every post + trip. The index is embedded
-  as JSON in this page at build time — no separate fetch, no external
-  service. Simple case-insensitive substring match over title, excerpt,
-  location, tags, and the first ~500 chars of the body.
+  Client-side search across every post + trip. The corpus is served
+  from /search-index.json (built by /assets/data/search-index.json)
+  and fetched at page load — kept OUT of the HTML so this page stays
+  small and the (bigger) index gets cached across visits. Cache
+  headers on the JSON file set in netlify.toml.
 {%- endcomment -%}
 
 <p style="font-size:1.05em;color:#444;">
@@ -25,47 +26,29 @@ classes: wide
 <div id="search-results" class="search-results"></div>
 
 <script>
-  window.SEARCH_INDEX = [
-    {%- for p in site.posts -%}
-      {%- assign body_text = p.content | strip_html | strip_newlines | truncate: 500 -%}
-      {%- assign tag_str = p.tags | join: " " -%}
-      {%- assign trip_slug = p.categories | first -%}
-      {%- assign trip = site.trips | where: "slug", trip_slug | first -%}
-      {
-        "type": "post",
-        "title": {{ p.title | jsonify }},
-        "url": {{ p.url | relative_url | jsonify }},
-        "date": {{ p.date | date: "%Y-%m-%d" | jsonify }},
-        "trip": {{ trip.title | default: "" | jsonify }},
-        "location": {{ p.location.name | default: "" | jsonify }},
-        "tags": {{ tag_str | default: "" | jsonify }},
-        "excerpt": {{ p.excerpt | default: "" | strip_html | strip_newlines | truncate: 200 | jsonify }},
-        "body": {{ body_text | jsonify }}
-      }{%- unless forloop.last -%},{%- endunless -%}
-    {%- endfor -%}
-    {%- if site.posts.size > 0 and site.trips.size > 0 -%},{%- endif -%}
-    {%- for t in site.trips -%}
-      {
-        "type": "trip",
-        "title": {{ t.title | jsonify }},
-        "url": {{ t.url | relative_url | jsonify }},
-        "date": {{ t.start_date | date: "%Y-%m-%d" | jsonify }},
-        "trip": {{ t.title | jsonify }},
-        "location": {{ t.location | default: "" | jsonify }},
-        "tags": {{ t.tags | join: " " | default: "" | jsonify }},
-        "excerpt": {{ t.description | default: "" | jsonify }},
-        "body": {{ t.description | default: "" | jsonify }}
-      }{%- unless forloop.last -%},{%- endunless -%}
-    {%- endfor -%}
-  ];
-</script>
-
-<script>
   (function () {
     var input = document.getElementById("search-input");
     var results = document.getElementById("search-results");
     var count = document.getElementById("search-count");
-    var index = window.SEARCH_INDEX || [];
+    var index = null;      // filled in when fetch resolves
+    var pendingQuery = null;
+
+    // Fetch the (cached, per netlify.toml) search corpus on load.
+    count.textContent = "Loading search index…";
+    fetch("{{ '/search-index.json' | relative_url }}")
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        index = data;
+        count.textContent = "";
+        // If they already typed while we were fetching, run it now.
+        if (pendingQuery) render(pendingQuery);
+        var q = new URLSearchParams(location.search).get("q");
+        if (q) { input.value = q; render(q); }
+      })
+      .catch(function (err) {
+        console.warn("[search] failed to load index:", err);
+        count.textContent = "Search index couldn't load — try refreshing.";
+      });
 
     function escape(s) {
       return String(s).replace(/[&<>"']/g, function (c) {
@@ -91,9 +74,12 @@ classes: wide
     function render(q) {
       if (!q || q.length < 2) {
         results.innerHTML = "";
-        count.textContent = "";
+        if (index) count.textContent = "";
         return;
       }
+      // Index still loading — remember the query and let the fetch
+      // callback run it once the corpus arrives.
+      if (!index) { pendingQuery = q; return; }
       var ql = q.toLowerCase();
       var matches = index.filter(function (r) {
         return (r.title || "").toLowerCase().indexOf(ql) !== -1 ||
@@ -131,11 +117,8 @@ classes: wide
       if (debounce) clearTimeout(debounce);
       debounce = setTimeout(function () { render(input.value.trim()); }, 120);
     });
-    render("");
-
-    // Support ?q=xxx via URL for shareable searches.
-    var q = new URLSearchParams(location.search).get("q");
-    if (q) { input.value = q; render(q); }
+    // ?q=xxx URL param is handled inside the fetch callback so it runs
+    // once the corpus is actually available (not before).
   })();
 </script>
 

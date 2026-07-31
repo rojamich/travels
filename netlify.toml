@@ -23,6 +23,15 @@
     # Prevent the admin page from being framed by another site.
     X-Frame-Options = "DENY"
 
+# Cache the search index for an hour in the browser. It's regenerated
+# on every build, so its content changes when we publish — but between
+# builds it's stable, and skipping the re-download on every search-page
+# visit is a big perf win as the archive grows.
+[[headers]]
+  for = "/search-index.json"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
 # -----------------------------------------------------------------------------
 # Redirects — none for now. If you ever buy a custom domain, add it here.
 # -----------------------------------------------------------------------------

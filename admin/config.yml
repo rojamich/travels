@@ -346,6 +346,18 @@ collections:
           required: false,
           hint: "e.g. 'is' for Iceland, 'jp' for Japan. Optional — used for a future country-fill feature on the map." }
 
+      - label: "US states visited (if this trip is in the USA)"
+        name: "states"
+        widget: "list"
+        required: false
+        default: []
+        collapsed: true
+        hint: "Full state names as they appear on a US map, e.g. California, New York, Texas. Each state you list will get counted in the Stats page and shaded on the US coverage map. It's fine to make a placeholder trip with just states listed and no posts — you can add posts later."
+        field:
+          name: state
+          label: "State"
+          widget: string
+
       - { label: "Tags",
           name: "tags",
           widget: "list",

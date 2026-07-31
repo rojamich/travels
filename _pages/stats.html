@@ -60,6 +60,23 @@ classes: wide
 {%- assign world_total = 195 -%}
 {%- assign world_pct = visited_codes.size | times: 100 | divided_by: world_total -%}
 
+{%- comment -%} US states visited: collected from trip.states[] arrays. {%- endcomment -%}
+{%- assign us_states = "" | split: "" -%}
+{%- for t in site.trips -%}
+  {%- if t.states -%}
+    {%- for s in t.states -%}
+      {%- assign sn = s | strip -%}
+      {%- if sn and sn != "" -%}
+        {%- unless us_states contains sn -%}
+          {%- assign us_states = us_states | push: sn -%}
+        {%- endunless -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign us_total = 50 -%}
+{%- assign us_pct = us_states.size | times: 100 | divided_by: us_total -%}
+
 {%- comment -%} Total days on the road across all trips with dates. {%- endcomment -%}
 {%- assign total_days = 0 -%}
 {%- for t in site.trips -%}
@@ -220,6 +237,12 @@ classes: wide
     <div class="stat-value">{{ total_words }}</div>
     <div class="stat-label">Words written</div>
   </div>
+  {% if us_states.size > 0 %}
+  <div class="stat-tile">
+    <div class="stat-value">{{ us_states.size }}</div>
+    <div class="stat-label">US States ({{ us_pct }}%)</div>
+  </div>
+  {% endif %}
 </div>
 
 {% if site.data.status.nomad_start_date and site.data.status.nomad_start_date != "" %}
@@ -312,6 +335,62 @@ classes: wide
       });
   })();
 </script>
+
+{% if us_states.size > 0 %}
+<h2 style="margin-top:2em;">🇺🇸 US States coverage</h2>
+<p style="color:#666;margin:0 0 0.6em;">
+  <strong>{{ us_states.size }}</strong> of 50 states visited — <strong>{{ us_pct }}%</strong> of the country.
+</p>
+
+<div id="us-map" style="height:360px;border-radius:14px;overflow:hidden;border:1px solid #ddd;background:#f5f8fa;"></div>
+<script>
+  (function () {
+    var VISITED_STATES = {{ us_states | jsonify }};
+    var visitedSet = {};
+    VISITED_STATES.forEach(function (s) { visitedSet[s.toLowerCase().trim()] = true; });
+
+    function initUsMap() {
+      if (!window.L) { setTimeout(initUsMap, 200); return; }
+      var map = L.map("us-map", {
+        center: [39.5, -98.35],
+        zoom: 3,
+        minZoom: 2,
+        maxZoom: 6,
+        zoomControl: true,
+        attributionControl: false,
+        scrollWheelZoom: false
+      });
+      fetch("https://cdn.jsdelivr.net/gh/PublicaMundi/MappingAPI@master/data/geojson/us-states.json")
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          L.geoJSON(data, {
+            style: function (feat) {
+              var name = (feat.properties && feat.properties.name) || "";
+              var visited = !!visitedSet[name.toLowerCase().trim()];
+              return {
+                fillColor: visited ? "#5a8770" : "#e5e9ec",
+                fillOpacity: visited ? 0.85 : 0.5,
+                weight: 0.6,
+                color: "#fff"
+              };
+            },
+            onEachFeature: function (feat, layer) {
+              var name = (feat.properties && feat.properties.name) || "";
+              var visited = !!visitedSet[name.toLowerCase().trim()];
+              layer.bindTooltip(name + (visited ? " ✓" : ""), { sticky: true });
+            }
+          }).addTo(map);
+        })
+        .catch(function (err) {
+          console.warn("[us-map] failed to load states geojson:", err);
+          document.getElementById("us-map").innerHTML =
+            '<div style="padding:2em;text-align:center;color:#888;">Couldn\'t load the US map right now — try refreshing.</div>';
+        });
+    }
+    initUsMap();
+  })();
+</script>
+{% endif %}
 
 <h2 style="margin-top:2em;">🧭 Furthest points</h2>
 <p style="color:#666;margin:0 0 0.6em;">
@@ -432,6 +511,16 @@ classes: wide
     <span class="country-chip">{{ c }}</span>
   {% endfor %}
 </div>
+
+{% if us_states.size > 0 %}
+<h2 style="margin-top:1.5em;">US States</h2>
+<div class="stats-country-chips">
+  {%- assign sorted_states = us_states | sort -%}
+  {% for s in sorted_states %}
+    <span class="country-chip country-chip--state">{{ s }}</span>
+  {% endfor %}
+</div>
+{% endif %}
 
 <style>
   .stats-grid {
@@ -595,5 +684,10 @@ classes: wide
     color: #2a4d69;
     border-color: #d4dde4;
     font-weight: bold;
+  }
+  .country-chip--state {
+    background: #fef4ea;
+    color: #8a4a1f;
+    border-color: #f3d9c2;
   }
 </style>

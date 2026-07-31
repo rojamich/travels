@@ -1,0 +1,49 @@
+---
+# =============================================================================
+# search-index.json — client-side search corpus
+# =============================================================================
+# Generated at build time from every post + trip. The /search/ page
+# fetches this file with fetch() instead of embedding the JSON inline,
+# so the search page HTML stays small and the (larger) index gets
+# cached by the browser across visits. Cache headers set in /_headers.
+#
+# Body text is truncated to 250 chars per post (was 500 when embedded)
+# to keep total size reasonable as the archive grows.
+# =============================================================================
+layout: null
+permalink: /search-index.json
+sitemap: false
+---
+[
+{%- for p in site.posts -%}
+  {%- assign body_text = p.content | strip_html | strip_newlines | truncate: 250 -%}
+  {%- assign tag_str = p.tags | join: " " -%}
+  {%- assign trip_slug = p.categories | first -%}
+  {%- assign trip = site.trips | where: "slug", trip_slug | first -%}
+  {
+    "type": "post",
+    "title": {{ p.title | jsonify }},
+    "url": {{ p.url | relative_url | jsonify }},
+    "date": {{ p.date | date: "%Y-%m-%d" | jsonify }},
+    "trip": {{ trip.title | default: "" | jsonify }},
+    "location": {{ p.location.name | default: "" | jsonify }},
+    "tags": {{ tag_str | default: "" | jsonify }},
+    "excerpt": {{ p.excerpt | default: "" | strip_html | strip_newlines | truncate: 200 | jsonify }},
+    "body": {{ body_text | jsonify }}
+  }{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%}
+{%- if site.posts.size > 0 and site.trips.size > 0 -%},{%- endif -%}
+{%- for t in site.trips -%}
+  {
+    "type": "trip",
+    "title": {{ t.title | jsonify }},
+    "url": {{ t.url | relative_url | jsonify }},
+    "date": {{ t.start_date | date: "%Y-%m-%d" | jsonify }},
+    "trip": {{ t.title | jsonify }},
+    "location": {{ t.location | default: "" | jsonify }},
+    "tags": {{ t.tags | join: " " | default: "" | jsonify }},
+    "excerpt": {{ t.description | default: "" | jsonify }},
+    "body": {{ t.description | default: "" | jsonify }}
+  }{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%}
+]
