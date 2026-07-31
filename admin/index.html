@@ -804,12 +804,13 @@
         // "Cover photo" appears on Trips, Favorites entries and Daydream
         // entries — all with the same focal label pair — so this single
         // config covers all three. groupedTargets() splits repeating list
-        // rows into one tab each.
+        // rows into one tab each, and resolveCoverBox() picks the preview
+        // size that matches whichever collection is actually open.
         { key: "cover",   tab: "Cover",            labelMatch: "Cover photo",
           focalXLabel: "Cover — focal X (0–100)",
           focalYLabel: "Cover — focal Y (0–100)",
-          box: { w: 360, h: 240 },
-          desc: "Shows as the card image on the homepage / Favorites / Daydreaming (3:2)." },
+          box: null,   // resolved per-collection at open time
+          desc: null },
         { key: "teaser",  tab: "Post teaser",      labelMatch: "Teaser (small thumbnail in listings)",
           focalXLabel: "Teaser — focal X (0–100)",
           focalYLabel: "Teaser — focal Y (0–100)",
@@ -821,6 +822,33 @@
           box: { w: 480, h: 160 },
           desc: "The wide banner at the top of the post page (3:1)." }
       ];
+
+      // ----- Preview box sizing -----
+      // object-position percentages resolve differently at different aspect
+      // ratios, so the preview box MUST match the real card's shape or the
+      // saved position won't reproduce what she saw while dragging.
+      //
+      // "Cover photo" is shared by three collections whose cards are all
+      // different shapes, and the label alone can't tell them apart — so we
+      // read the open collection out of Decap's hash route instead.
+      //
+      // Sizes below mirror the live CSS:
+      //   Trip card   grid minmax(300px,1fr) x 200px tall   (index.html)
+      //   Favorites   grid minmax(240px,1fr) x 140px tall   (main.scss)
+      //   Daydream    flex 0 0 180px wide, row-height tall  (main.scss)
+      function resolveCoverBox() {
+        var h = location.hash || "";
+        if (h.indexOf("favorites") !== -1) {
+          return { w: 270, h: 140,
+                   desc: "Shows as the card image on the Favorites page." };
+        }
+        if (h.indexOf("daydream") !== -1) {
+          return { w: 180, h: 140,
+                   desc: "Shows as the thumbnail on the Daydreaming page." };
+        }
+        return { w: 360, h: 200,
+                 desc: "Shows as the trip card on the homepage. Card width varies with screen size, so treat this as very close but not pixel-exact." };
+      }
 
       function escapeHtmlAttr(s) {
         return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -1094,9 +1122,21 @@
         var available = [];
         FIELDS.forEach(function (f) {
           var targets = groupedTargets(f.labelMatch, f.focalXLabel, f.focalYLabel);
+          // Cover ships with box/desc null — resolve them against whichever
+          // collection is currently open so the preview matches that card.
+          var cfg = f;
+          if (!f.box) {
+            var resolved = resolveCoverBox();
+            cfg = {
+              key: f.key, tab: f.tab, labelMatch: f.labelMatch,
+              focalXLabel: f.focalXLabel, focalYLabel: f.focalYLabel,
+              box: { w: resolved.w, h: resolved.h },
+              desc: resolved.desc
+            };
+          }
           targets.forEach(function (t, idx) {
             available.push({
-              cfg: f,
+              cfg: cfg,
               tabLabel: targets.length > 1
                 ? (t.name || (f.tab + " " + (idx + 1)))
                 : f.tab,
