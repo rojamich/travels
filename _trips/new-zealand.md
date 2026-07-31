@@ -2,8 +2,8 @@
 title: Nomadic New Zealand Adventure 2022
 description: A month-long road trip across New Zealand's North and South Islands
   — Hobbiton, fiords, glaciers, bungee jumping.
-cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEqwjtaxDzETtCykuVh-ZkiqFrdOIMgnb95ZGaxFluy8DQe_fuoR96IXAV1oOBvacwUPHpfDKrZUC4ZMTgAszUELOEilDRs0hbAj_i9pDJyDUqco3ltHOUru_D0jvgiKIiya5Vw7-v-egtV7RywuENG7_kE91k_KMDy1hAv7oqzdcrYTiv4asuTCtRmg/w161-h189/20221117_171618.jpg
-cover_focal_x: 50
+cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785517761/JMR_2339x_x0ekub.jpg
+cover_focal_x: 100
 cover_focal_y: 28
 start_date: 2022-11-17
 end_date: 2022-12-17
