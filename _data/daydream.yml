@@ -1,7 +1,26 @@
 intro: Where we're hoping to wander next...
-# Trips that are actually booked / planned — go at the top under "Upcoming".
-upcoming: []
-# Wish list — no dates yet. Rendered below the upcoming section.
+upcoming:
+  - country: Armenia
+    why: More new foods than I can even list here, hiking, our first sleeper train,
+      monasteries, and staying in a hobbit hole!
+    when: August '26
+  - country: Turkey
+    why: Our first trip to Turkey and we can't wait to explore Istanbul - The Blue
+      Mosque, Hagia Sophia, Turkish Baths and the home of the döner 😃
+    when: August/September '26
+  - country: Argentina
+    why: A second visit to South America to dip our toes into tango lessons, nature
+      reserves, and empanadas 🥟
+    when: September-November '26
+  - country: "Antarctica "
+    why: "Ummm can you say bucket list trip?! I can't believe we are really going
+      here. The polar plunge, so much wildlife, and hopefully surviving Drake's
+      Passage 🚢 "
+    when: November '26
+  - country: Spain
+    why: Tapas, the Architecture, Historical Sites, Flamenco, and Kelli is coming to
+      visit!!!
+    when: November '26 - January '27
 queue:
   - country: China
     why: The unreal landscapes, endless wonders, and amazing cities!
