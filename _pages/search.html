@@ -17,7 +17,7 @@ classes: wide
   Search across every post and trip.
 </p>
 
-<input id="search-input" type="search" placeholder="Type to search titles, places, tags, or content…"
+<input id="search-input" type="search" placeholder="Type at least 2 characters."
        autofocus autocomplete="off"
        style="width:100%;padding:12px 16px;font-size:16px;border:2px solid #d4dde4;border-radius:10px;box-sizing:border-box;">
 <p id="search-count" style="font-size:0.9em;color:#666;margin:0.6em 0;"></p>
@@ -91,7 +91,7 @@ classes: wide
     function render(q) {
       if (!q || q.length < 2) {
         results.innerHTML = "";
-        count.textContent = "Type at least 2 characters.";
+        count.textContent = "";
         return;
       }
       var ql = q.toLowerCase();

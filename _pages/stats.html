@@ -8,11 +8,9 @@ classes: wide
 
 {%- comment -%}
   Auto-computed travel stats. Nothing here is edited manually — everything
-  reads from site.posts and site.trips. Publish a new post → this page
-  updates on the next build.
-
-  Days on the road: sums (end_date - start_date + 1) across all trips
-  where both dates are set. Skips trips with missing dates.
+  reads from site.posts, site.trips, site.data.continents (country→continent
+  lookup table), site.data.records (leaderboard entries), and
+  site.data.status.nomad_start_date (running clock).
 {%- endcomment -%}
 
 {%- assign total_posts = site.posts | size -%}
@@ -37,6 +35,18 @@ classes: wide
 {%- assign uniq_countries = country_names | uniq -%}
 {%- assign total_countries = uniq_countries | size -%}
 
+{%- comment -%} Distinct continents visited (via _data/continents.yml lookup). {%- endcomment -%}
+{%- assign continents_visited = "" | split: "" -%}
+{%- for c in uniq_countries -%}
+  {%- assign cont = site.data.continents[c] -%}
+  {%- if cont and cont != "" -%}
+    {%- unless continents_visited contains cont -%}
+      {%- assign continents_visited = continents_visited | push: cont -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign total_continents = continents_visited | size -%}
+
 {%- comment -%} Total days on the road across all trips with dates. {%- endcomment -%}
 {%- assign total_days = 0 -%}
 {%- for t in site.trips -%}
@@ -49,11 +59,63 @@ classes: wide
   {%- endif -%}
 {%- endfor -%}
 
+{%- comment -%} Most countries in one year (auto-detected). {%- endcomment -%}
+{%- assign year_country_pairs = "" | split: "" -%}
+{%- for t in site.trips -%}
+  {%- if t.start_date -%}
+    {%- assign ty = t.start_date | date: "%Y" -%}
+    {%- if t.location and t.location != "" -%}
+      {%- assign cn = t.location | split: "," | last | strip -%}
+      {%- assign pair = ty | append: "|" | append: cn -%}
+      {%- unless year_country_pairs contains pair -%}
+        {%- assign year_country_pairs = year_country_pairs | push: pair -%}
+      {%- endunless -%}
+    {%- endif -%}
+    {%- if t.countries -%}
+      {%- for c in t.countries -%}
+        {%- if c.name and c.name != "" -%}
+          {%- assign cn2 = c.name | split: "," | last | strip -%}
+          {%- assign pair2 = ty | append: "|" | append: cn2 -%}
+          {%- unless year_country_pairs contains pair2 -%}
+            {%- assign year_country_pairs = year_country_pairs | push: pair2 -%}
+          {%- endunless -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign best_year = "" -%}
+{%- assign best_year_count = 0 -%}
+{%- assign years_seen = "" | split: "" -%}
+{%- for pair in year_country_pairs -%}
+  {%- assign py = pair | split: "|" | first -%}
+  {%- unless years_seen contains py -%}
+    {%- assign years_seen = years_seen | push: py -%}
+  {%- endunless -%}
+{%- endfor -%}
+{%- for y in years_seen -%}
+  {%- assign yc = 0 -%}
+  {%- for pair in year_country_pairs -%}
+    {%- if pair contains y -%}
+      {%- assign py = pair | split: "|" | first -%}
+      {%- if py == y -%}{%- assign yc = yc | plus: 1 -%}{%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if yc > best_year_count -%}
+    {%- assign best_year_count = yc -%}
+    {%- assign best_year = y -%}
+  {%- endif -%}
+{%- endfor -%}
+
 <p style="font-size:1.05em; color:#444;">
-  A running scoreboard of where we've been and how long we've been at this.
+  Where we've journeyed so far.
 </p>
 
 <div class="stats-grid">
+  <div class="stat-tile">
+    <div class="stat-value">{{ total_continents }}</div>
+    <div class="stat-label">Continents</div>
+  </div>
   <div class="stat-tile">
     <div class="stat-value">{{ total_countries }}</div>
     <div class="stat-label">Countries visited</div>
@@ -68,8 +130,71 @@ classes: wide
   </div>
   <div class="stat-tile">
     <div class="stat-value">{{ total_days }}</div>
-    <div class="stat-label">Days on the road</div>
+    <div class="stat-label">Days on trips</div>
   </div>
+</div>
+
+{% if site.data.status.nomad_start_date and site.data.status.nomad_start_date != "" %}
+<div class="nomad-clock" data-start="{{ site.data.status.nomad_start_date | date: '%Y-%m-%dT00:00:00Z' }}">
+  <div class="nomad-clock-value" id="nomad-clock-value">…</div>
+  <div class="nomad-clock-label">On the road since {{ site.data.status.nomad_start_date | date: "%B %-d, %Y" }}</div>
+</div>
+<script>
+  (function () {
+    var el = document.querySelector(".nomad-clock");
+    if (!el) return;
+    var startISO = el.getAttribute("data-start");
+    var startMs = Date.parse(startISO);
+    if (isNaN(startMs)) return;
+    var out = document.getElementById("nomad-clock-value");
+    function tick() {
+      var diff = Date.now() - startMs;
+      if (diff < 0) { out.textContent = "not yet…"; return; }
+      var s = Math.floor(diff / 1000);
+      var d = Math.floor(s / 86400); s -= d * 86400;
+      var h = Math.floor(s / 3600);  s -= h * 3600;
+      var m = Math.floor(s / 60);    s -= m * 60;
+      out.innerHTML =
+        '<span class="nc-num">' + d + '</span><span class="nc-u">d</span> ' +
+        '<span class="nc-num">' + h + '</span><span class="nc-u">h</span> ' +
+        '<span class="nc-num">' + m + '</span><span class="nc-u">m</span> ' +
+        '<span class="nc-num">' + s + '</span><span class="nc-u">s</span>';
+    }
+    tick(); setInterval(tick, 1000);
+  })();
+</script>
+{% endif %}
+
+<h2 style="margin-top:2em;">🏆 Leaderboard</h2>
+{% if site.data.records.intro and site.data.records.intro != "" %}
+<p style="color:#666;">{{ site.data.records.intro }}</p>
+{% endif %}
+<div class="leaderboard">
+  {% if best_year != "" %}
+  <div class="record-card record-auto">
+    <div class="record-icon">🌍</div>
+    <div class="record-body">
+      <div class="record-title">Most countries in one year</div>
+      <div class="record-value">{{ best_year_count }} <span class="record-unit">countries</span></div>
+      <div class="record-meta">{{ best_year }} <span class="record-auto-badge">auto</span></div>
+    </div>
+  </div>
+  {% endif %}
+
+  {% for r in site.data.records.entries %}
+    <div class="record-card">
+      <div class="record-icon">{{ r.icon | default: "⭐" }}</div>
+      <div class="record-body">
+        <div class="record-title">{{ r.title }}</div>
+        <div class="record-value">{{ r.value }} {% if r.unit %}<span class="record-unit">{{ r.unit }}</span>{% endif %}</div>
+        <div class="record-meta">
+          {% if r.place and r.place != "" %}{{ r.place }}{% endif %}
+          {% if r.date %} &middot; {{ r.date | date: "%b %Y" }}{% endif %}
+        </div>
+        {% if r.note and r.note != "" %}<div class="record-note">{{ r.note }}</div>{% endif %}
+      </div>
+    </div>
+  {% endfor %}
 </div>
 
 <h2 style="margin-top:2em;">By trip</h2>
@@ -95,7 +220,15 @@ classes: wide
   {% endfor %}
 </div>
 
-<h2 style="margin-top:2em;">Countries</h2>
+<h2 style="margin-top:2em;">Continents</h2>
+<div class="stats-country-chips">
+  {%- assign sorted_conts = continents_visited | sort -%}
+  {% for c in sorted_conts %}
+    <span class="country-chip country-chip--cont">{{ c }}</span>
+  {% endfor %}
+</div>
+
+<h2 style="margin-top:1.5em;">Countries</h2>
 <div class="stats-country-chips">
   {%- assign sorted_countries = uniq_countries | sort -%}
   {% for c in sorted_countries %}
@@ -106,7 +239,7 @@ classes: wide
 <style>
   .stats-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 1em;
     margin: 1.5em 0;
   }
@@ -129,6 +262,77 @@ classes: wide
     color: #666;
     text-transform: uppercase;
     letter-spacing: 0.04em;
+  }
+
+  .nomad-clock {
+    margin: 1em 0 1.5em;
+    padding: 1.4em 1.6em;
+    background: linear-gradient(135deg, #2a4d69 0%, #476d59 100%);
+    border-radius: 14px;
+    color: #fff;
+    text-align: center;
+  }
+  .nomad-clock-value {
+    font-size: 2.2em;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+  }
+  .nomad-clock-value .nc-num { color: #fff; }
+  .nomad-clock-value .nc-u { color: rgba(255,255,255,0.7); font-size: 0.55em; margin-left: 2px; margin-right: 8px; text-transform: lowercase; font-weight: normal; }
+  .nomad-clock-label {
+    margin-top: 0.4em;
+    font-size: 0.85em;
+    color: rgba(255,255,255,0.85);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .leaderboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1em;
+    margin: 1em 0 2em;
+  }
+  .record-card {
+    display: flex;
+    gap: 1em;
+    padding: 1.1em 1.2em;
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    align-items: flex-start;
+  }
+  .record-icon { font-size: 2em; line-height: 1; }
+  .record-body { flex: 1; min-width: 0; }
+  .record-title {
+    font-size: 0.75em;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+  }
+  .record-value {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #2a4d69;
+    line-height: 1.1;
+  }
+  .record-unit { font-size: 0.55em; color: #666; font-weight: normal; margin-left: 4px; }
+  .record-meta { font-size: 0.85em; color: #888; margin-top: 0.2em; }
+  .record-note { font-size: 0.85em; color: #666; margin-top: 0.35em; font-style: italic; }
+  .record-auto-badge {
+    display: inline-block;
+    margin-left: 0.4em;
+    padding: 0.05em 0.5em;
+    background: #eef3f7;
+    color: #2a4d69;
+    border-radius: 999px;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: bold;
   }
 
   .stats-trip-list {
@@ -168,5 +372,11 @@ classes: wide
     border-radius: 999px;
     font-size: 0.9em;
     border: 1px solid #d0e0d5;
+  }
+  .country-chip--cont {
+    background: #eef3f7;
+    color: #2a4d69;
+    border-color: #d4dde4;
+    font-weight: bold;
   }
 </style>

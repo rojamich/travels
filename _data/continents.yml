@@ -1,0 +1,101 @@
+# =============================================================================
+# continents.yml — country → continent mapping
+# =============================================================================
+# Used by /stats/ to count distinct continents visited. Keys must exactly
+# match the trailing-comma country name we extract from trip.location and
+# trip.countries[].name (e.g. "Vietnam", "United States of America").
+#
+# Add countries here as we visit new ones. Missing lookups just don't
+# count toward the continent tally — they don't break the page.
+# =============================================================================
+
+# North America
+United States: North America
+United States of America: North America
+USA: North America
+Canada: North America
+Mexico: North America
+
+# South America
+Peru: South America
+Chile: South America
+Argentina: South America
+Brazil: South America
+Ecuador: South America
+Colombia: South America
+Bolivia: South America
+
+# Europe
+England: Europe
+United Kingdom: Europe
+UK: Europe
+Scotland: Europe
+Wales: Europe
+Ireland: Europe
+France: Europe
+Germany: Europe
+Italy: Europe
+Spain: Europe
+Portugal: Europe
+Netherlands: Europe
+The Netherlands: Europe
+Belgium: Europe
+Austria: Europe
+Switzerland: Europe
+Greece: Europe
+Croatia: Europe
+Norway: Europe
+Sweden: Europe
+Denmark: Europe
+Finland: Europe
+Iceland: Europe
+Poland: Europe
+Czech Republic: Europe
+Czechia: Europe
+Hungary: Europe
+Georgia: Europe
+
+# Asia
+Japan: Asia
+South Korea: Asia
+Korea: Asia
+China: Asia
+Vietnam: Asia
+Thailand: Asia
+Cambodia: Asia
+Laos: Asia
+Singapore: Asia
+Malaysia: Asia
+Indonesia: Asia
+Philippines: Asia
+India: Asia
+Nepal: Asia
+Sri Lanka: Asia
+Taiwan: Asia
+Turkey: Asia
+Israel: Asia
+Jordan: Asia
+United Arab Emirates: Asia
+UAE: Asia
+
+# Africa
+South Africa: Africa
+Egypt: Africa
+Morocco: Africa
+Kenya: Africa
+Tanzania: Africa
+Zambia: Africa
+Zimbabwe: Africa
+Botswana: Africa
+Namibia: Africa
+Rwanda: Africa
+Uganda: Africa
+Ethiopia: Africa
+
+# Oceania
+Australia: Oceania
+New Zealand: Oceania
+Fiji: Oceania
+
+# Antarctica
+Antarctica: Antarctica

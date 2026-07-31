@@ -99,6 +99,14 @@ collections:
               widget: "string",
               required: false,
               hint: "Free-form text shown with a ✈️ icon. e.g. 'Tokyo, Japan — Sep 2026'. Leave blank to hide." }
+          - { label: "Nomad start date",
+              name: "nomad_start_date",
+              widget: "datetime",
+              required: false,
+              format: "YYYY-MM-DD",
+              time_format: false,
+              date_format: "YYYY-MM-DD",
+              hint: "The day the nomadic chapter began. Powers the live 'days on the road' clock on the Stats page. Leave blank to hide the clock." }
 
       - file: "_pages/about.md"
         label: "About page (text)"
@@ -137,7 +145,7 @@ collections:
                 fields:
                   - { label: "Country / Place", name: "country", widget: "string" }
                   - { label: "Linked trip slug", name: "trip_slug", widget: "string", required: false, hint: "If this country has a trip on the site, paste its slug (e.g. 'vietnam') to make the card clickable." }
-                  - { label: "Cover photo", name: "cover", widget: "image", required: false }
+                  - { label: "Cover photo", name: "cover", widget: "image", required: false, hint: "The photo that represents this choice — shown as the card image. Recommended for every entry." }
                   - { label: "Blurb (one line)", name: "blurb", widget: "string", required: false }
 
       - file: "_data/daydream.yml"
@@ -157,6 +165,29 @@ collections:
               - { label: "Cover photo", name: "cover", widget: "image", required: false }
               - { label: "Why we want to go", name: "why", widget: "string", required: false, hint: "One sentence on what's drawing us there." }
               - { label: "When (rough timing)", name: "when", widget: "string", required: false, hint: "e.g. 'Summer 2027' or 'Once the kids are older'." }
+
+      - file: "_data/records.yml"
+        label: "Records & leaderboard"
+        name: "records"
+        fields:
+          - { label: "Intro line",
+              name: "intro",
+              widget: "string",
+              required: false,
+              hint: "Short line under the Leaderboard heading on /stats/." }
+          - label: "Records"
+            name: "entries"
+            widget: "list"
+            summary: "{{fields.title}} — {{fields.value}}"
+            hint: "Fun personal bests. 'Most countries in one year' is auto-computed — don't add it here manually."
+            fields:
+              - { label: "Title", name: "title", widget: "string", hint: "e.g. 'Most steps in one day'" }
+              - { label: "Value", name: "value", widget: "string", hint: "The number or figure. Formatted freely, e.g. '42,382' or '3.5'." }
+              - { label: "Unit", name: "unit", widget: "string", required: false, hint: "e.g. 'steps', 'km', 'countries'." }
+              - { label: "Where", name: "place", widget: "string", required: false, hint: "The city, country, or trip where the record was set." }
+              - { label: "Date", name: "date", widget: "datetime", required: false, format: "YYYY-MM-DD", time_format: false, date_format: "YYYY-MM-DD" }
+              - { label: "Note", name: "note", widget: "string", required: false, hint: "Details shown in small text under the value. e.g. 'Plane, Car, Bike, Walk, Bus, Train'." }
+              - { label: "Icon emoji", name: "icon", widget: "string", required: false, hint: "Single emoji shown on the record card. e.g. 👣 🚆 🏔️. Defaults to ⭐." }
 
       - file: "_data/lessons.yml"
         label: "Lessons page"

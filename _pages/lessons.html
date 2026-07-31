@@ -10,7 +10,7 @@ classes: wide
 
 <blockquote class="lessons-quote">
   <p>"Travel is rich with learning opportunities, and the ultimate souvenir is a broader perspective."</p>
-  <cite>— Rick Steves</cite>
+  <cite>- Rick Steves</cite>
 </blockquote>
 
 {% if data.intro and data.intro != "" %}
@@ -24,10 +24,7 @@ classes: wide
   {%- endunless -%}
 {%- endfor -%}
 
-{% if live_entries.size == 0 %}
-  <p><em>No entries yet — reflections will appear here as we add them from /admin/ → Site Settings → Lessons page.</em></p>
-{% else %}
-
+{% if live_entries.size > 0 %}
 <div class="lessons-list">
   {% for entry in live_entries %}
     <article class="lesson-card" data-status="{{ entry.status | default: 'evolved' }}">

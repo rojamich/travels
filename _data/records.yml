@@ -1,0 +1,28 @@
+# =============================================================================
+# records.yml — the travel leaderboard
+# =============================================================================
+# Fun personal records that get top billing on /stats/. Edit these from
+# /admin/ → Site Settings → Records & leaderboard.
+#
+# "Most countries in one year" is auto-detected from post/trip data —
+# don't add it here manually; the stats page computes it live.
+# =============================================================================
+
+intro: "Personal bests from the road."
+
+entries:
+  - title: "Most steps in one day"
+    value: "42,382"
+    unit: "steps"
+    place: "Toronto, Canada"
+    date: 2019-08-15
+    note: ""
+    icon: "👣"
+
+  - title: "Most modes of transportation in one trip"
+    value: "6"
+    unit: "modes"
+    place: "Toronto, Canada"
+    date:
+    note: "Plane, Car, Bike, Walk, Bus, Train"
+    icon: "🚆"
