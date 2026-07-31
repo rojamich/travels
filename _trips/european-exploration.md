@@ -23,7 +23,7 @@ tags:
   - Europe
   - City
   - Nature
-  - Pet-Sitting
+  - PetSitting
   - Food
 ---
 
