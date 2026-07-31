@@ -1,0 +1,170 @@
+{%- comment -%}
+  ===========================================================================
+  engagement.html — heart button + view counter for a post
+  ===========================================================================
+  Include at the bottom of a post via {% include engagement.html %}. Reads
+  the post's slug and calls two Netlify Functions (backed by Netlify Blobs)
+  to fetch and update counts. Zero blocking on page render — everything
+  fires async after the DOM is in place.
+
+  Anti-spam:
+    - Views: incremented once per BROWSER SESSION (sessionStorage flag).
+      Reloading in the same tab does not re-count; opening a new tab does.
+    - Hearts: one per BROWSER (localStorage flag). Once hearted, the icon
+      fills in and the button becomes inert.
+
+  If the functions fail (network offline, Blobs quota, whatever), the
+  widget shows a dash instead of a count and stays quietly broken —
+  never blocks anything else on the page.
+  ===========================================================================
+{%- endcomment -%}
+
+<div class="engagement-widget" data-slug="{{ page.slug }}">
+  <button type="button"
+          class="engagement-btn engagement-heart"
+          aria-label="Like this post"
+          title="Like this post">
+    <span class="eng-icon eng-heart-icon">🤍</span>
+    <span class="eng-count eng-heart-count">·</span>
+  </button>
+  <div class="engagement-view" title="Total views">
+    <span class="eng-icon">👁️</span>
+    <span class="eng-count eng-view-count">·</span>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var widget = document.currentScript.previousElementSibling;
+    while (widget && !widget.classList.contains("engagement-widget")) {
+      widget = widget.previousElementSibling;
+    }
+    if (!widget) return;
+
+    var slug = widget.getAttribute("data-slug");
+    if (!slug) return;
+
+    var heartBtn = widget.querySelector(".engagement-heart");
+    var heartIcon = widget.querySelector(".eng-heart-icon");
+    var heartCount = widget.querySelector(".eng-heart-count");
+    var viewCount = widget.querySelector(".eng-view-count");
+
+    var VIEW_URL = "/.netlify/functions/views?slug=" + encodeURIComponent(slug);
+    var HEART_URL = "/.netlify/functions/hearts?slug=" + encodeURIComponent(slug);
+    var VIEW_SESSION_KEY = "viewed:" + slug;
+    var HEART_LOCAL_KEY  = "hearted:" + slug;
+
+    // ----- Views -----
+    // Once per browser session. First hit in this tab POSTs (which also
+    // returns the new count). Any subsequent visit (or another tab) GETs
+    // the current value without incrementing.
+    var alreadyViewed = false;
+    try { alreadyViewed = !!sessionStorage.getItem(VIEW_SESSION_KEY); } catch (e) {}
+
+    fetch(VIEW_URL, { method: alreadyViewed ? "GET" : "POST" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (data) {
+        if (data && typeof data.count === "number") {
+          viewCount.textContent = formatCount(data.count);
+          try { sessionStorage.setItem(VIEW_SESSION_KEY, "1"); } catch (e) {}
+        } else {
+          viewCount.textContent = "—";
+        }
+      })
+      .catch(function () { viewCount.textContent = "—"; });
+
+    // ----- Hearts -----
+    // Always GET the current count on load. If she's already hearted from
+    // this browser, show the filled heart and disable the button.
+    fetch(HEART_URL, { method: "GET" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (data) {
+        if (data && typeof data.count === "number") {
+          heartCount.textContent = formatCount(data.count);
+        } else {
+          heartCount.textContent = "—";
+        }
+      })
+      .catch(function () { heartCount.textContent = "—"; });
+
+    var alreadyHearted = false;
+    try { alreadyHearted = !!localStorage.getItem(HEART_LOCAL_KEY); } catch (e) {}
+    if (alreadyHearted) {
+      heartIcon.textContent = "❤️";
+      heartBtn.disabled = true;
+      heartBtn.classList.add("hearted");
+    }
+
+    heartBtn.addEventListener("click", function () {
+      if (alreadyHearted) return;
+      // Optimistic: fill the heart immediately so it feels responsive.
+      // If the request fails, roll back.
+      heartIcon.textContent = "❤️";
+      heartBtn.disabled = true;
+      heartBtn.classList.add("hearted");
+      var currentText = heartCount.textContent;
+      var prevN = parseInt(currentText, 10);
+      if (!isNaN(prevN)) heartCount.textContent = formatCount(prevN + 1);
+
+      fetch(HEART_URL, { method: "POST" })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (data) {
+          if (data && typeof data.count === "number") {
+            heartCount.textContent = formatCount(data.count);
+            try { localStorage.setItem(HEART_LOCAL_KEY, "1"); } catch (e) {}
+            alreadyHearted = true;
+          } else {
+            // Rollback on failure.
+            heartIcon.textContent = "🤍";
+            heartBtn.disabled = false;
+            heartBtn.classList.remove("hearted");
+            heartCount.textContent = currentText;
+          }
+        })
+        .catch(function () {
+          heartIcon.textContent = "🤍";
+          heartBtn.disabled = false;
+          heartBtn.classList.remove("hearted");
+          heartCount.textContent = currentText;
+        });
+    });
+
+    function formatCount(n) {
+      if (n >= 1000) return (n / 1000).toFixed(n >= 10000 ? 0 : 1) + "k";
+      return String(n);
+    }
+  })();
+</script>
+
+<style>
+  .engagement-widget {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    margin: 2em 0 1em;
+    padding: 0.6em 0.9em;
+    background: #f7f9fc;
+    border-radius: 12px;
+    border: 1px solid #e2e8ee;
+    width: fit-content;
+  }
+  .engagement-btn, .engagement-view {
+    display: flex;
+    align-items: center;
+    gap: 0.35em;
+    padding: 0.35em 0.7em;
+    border-radius: 8px;
+    background: transparent;
+    border: none;
+    font-size: 0.95em;
+    color: #2a4d69;
+    line-height: 1;
+  }
+  .engagement-btn { cursor: pointer; transition: background 0.15s, transform 0.1s; }
+  .engagement-btn:hover:not(:disabled) { background: #eef3f7; }
+  .engagement-btn:active:not(:disabled) { transform: scale(0.96); }
+  .engagement-btn:disabled { cursor: default; opacity: 0.9; }
+  .engagement-btn.hearted { color: #b03052; }
+  .eng-icon { font-size: 1.1em; line-height: 1; }
+  .eng-count { font-weight: bold; font-variant-numeric: tabular-nums; min-width: 1em; text-align: left; }
+</style>
