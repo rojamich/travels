@@ -5,7 +5,7 @@ categories:
     description: Where my taste buds were happiest.
     entries:
       - country: Vietnam
-        trip_slug: Vietnam
+        trip_slug: vietnam
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785508950/IMG-20251212-WA0015_uoianw.jpg
         blurb: ""
         cover_focal_x: 50
@@ -19,6 +19,16 @@ categories:
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785518773/20241229_140729_u3cs7o.jpg
         cover_focal_x: 50
         cover_focal_y: 28
+      - cover_focal_x: 50
+        cover_focal_y: 36
+        country: Georgia
+        trip_slug: welcome-home-tbilisi-georgia
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784463476/20260714_204520_hmlghh.jpg
+      - cover_focal_x: 50
+        cover_focal_y: 50
+        country: United States of America
+        trip_slug: party-in-the-usa
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785525254/20240502_140523_cydbqu.jpg
   - name: Best Nature
     icon: 🏔️
     description: Landscapes that took our breath away.
@@ -49,6 +59,11 @@ categories:
         cover_focal_x: 50
         cover_focal_y: 50
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521030/20250910_051147_rindpo.jpg
+      - cover_focal_x: 50
+        cover_focal_y: 50
+        country: "Norway "
+        trip_slug: fjords-forever
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782741924/IMG_9962_bpvjpq.jpg
   - name: Best City Life
     icon: 🏙️
     description: Our absolute favorite cities we plan to keep coming back to!
@@ -103,11 +118,6 @@ categories:
         cover_focal_x: 50
         cover_focal_y: 22
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522919/20250905_104042_woqmqg.jpg
-      - country: England
-        trip_slug: european-excursion
-        cover_focal_x: 50
-        cover_focal_y: 39
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522922/20220209_090911_migfol.jpg
       - country: Italy
         trip_slug: european-excursion
         cover_focal_x: 50
@@ -118,3 +128,8 @@ categories:
         cover_focal_x: 50
         cover_focal_y: 13
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522982/20220304_135515_mq9tyq.jpg
+      - cover_focal_x: 50
+        cover_focal_y: 50
+        country: Japan
+        trip_slug: bamboo-bulgogi
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785525843/20241213_112519_tgka0s.jpg
