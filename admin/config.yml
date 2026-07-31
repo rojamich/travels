@@ -228,10 +228,10 @@ collections:
             name: "entries"
             widget: "list"
             summary: "{{fields.title}} — {{fields.value}}"
-            hint: "Fun personal bests. 'Most countries in one year' is auto-computed — don't add it here manually."
+            hint: "Fun personal bests. 'Most countries in one year' is auto-computed — don't add it here manually. Every field is optional: leave an entry's Value blank to keep it here as a placeholder without showing it on the public Stats page."
             fields:
-              - { label: "Title", name: "title", widget: "string", hint: "e.g. 'Most steps in one day'" }
-              - { label: "Value", name: "value", widget: "string", hint: "The number or figure. Formatted freely, e.g. '42,382' or '3.5'." }
+              - { label: "Title", name: "title", widget: "string", required: false, hint: "e.g. 'Most steps in one day'" }
+              - { label: "Value", name: "value", widget: "string", required: false, hint: "The number or figure. Formatted freely, e.g. '42,382' or '3.5'. Leave blank and this record stays hidden from the site until you fill it in." }
               - { label: "Unit", name: "unit", widget: "string", required: false, hint: "e.g. 'steps', 'km', 'countries'." }
               - { label: "Where", name: "place", widget: "string", required: false, hint: "The city, country, or trip where the record was set." }
               - { label: "Date", name: "date", widget: "datetime", required: false, format: "YYYY-MM-DD", time_format: false, date_format: "YYYY-MM-DD" }

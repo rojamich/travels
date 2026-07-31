@@ -512,8 +512,13 @@ classes: wide
   {% endif %}
 
   {% for r in site.data.records.entries %}
-    {%- comment -%} Skip blank template entries (no value filled in yet). {%- endcomment -%}
-    {% if r.value and r.value != "" %}
+    {%- comment -%}
+      Skip placeholder entries. Every field is optional in the CMS, so a
+      record only renders once it has BOTH a title and a value — that way
+      half-filled rows sit in the editor as reminders without showing up
+      half-broken on the public page.
+    {%- endcomment -%}
+    {% if r.value and r.value != "" and r.title and r.title != "" %}
     <div class="record-card">
       <div class="record-icon">{{ r.icon | default: "⭐" }}</div>
       <div class="record-body">
