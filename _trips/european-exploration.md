@@ -8,7 +8,6 @@ end_date: 2023-08-13
 location: Germany
 lat: 50.1109
 lng: 8.6821
-country_code: de
 countries:
   - name: Croatia
     lat: 45.1
@@ -19,11 +18,12 @@ countries:
   - name: Italy
     lat: 41.8719
     lng: 12.5674
+country_code: de
 tags:
   - Europe
   - City
   - Nature
-  - Pet sitting
+  - Pet-Sitting
   - Food
 ---
 
