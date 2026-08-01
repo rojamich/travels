@@ -922,7 +922,18 @@
           var t = (labels[i].textContent || "").trim();
           if (t !== imageLabel && t.indexOf(imageLabel) !== 0) continue;
 
-          // Walk up looking for a scope that holds this image AND its focal pair.
+          // Read the image from the label's OWN field wrapper before widening
+          // the search for the focal inputs.
+          //
+          // Post banners were showing the teaser photo because of this: the
+          // scope that contains "Banner — focal X/Y" also contains the Teaser
+          // image field, and querySelector("img") returns the first match in
+          // document order — the teaser. So changing the banner appeared to
+          // do nothing, since the tool was previewing a different field's
+          // photo the whole time.
+          var ownUrl = readImageUrlNearLabel(labels[i]);
+
+          // Now walk up looking for a scope that holds this field's focal pair.
           var node = labels[i].parentElement;
           for (var d = 0; d < 12 && node; d++) {
             var fx = findNumberInputWithin(node, focalXLabel);
@@ -930,7 +941,7 @@
             if (fx && fy) {
               out.push({
                 container: node,
-                url: readImageUrl(node),
+                url: ownUrl,
                 fxInput: fx,
                 fyInput: fy,
                 // Best-effort label for the tab: the entry's own name field
@@ -944,6 +955,27 @@
         }
         return out;
       }
+      // Resolve the image belonging to THIS label specifically.
+      //
+      // Walks up one ancestor at a time and returns as soon as it finds an
+      // <img>. The nearest ancestor holding an image is that field's own
+      // widget wrapper, so a label like "Banner (large image at top of post)"
+      // can never pick up a neighbouring field's photo (e.g. the teaser)
+      // the way a wider group-level search would.
+      //
+      // Falls back to the widget's URL text input when no image is set yet.
+      function readImageUrlNearLabel(label) {
+        var node = label.parentElement;
+        for (var d = 0; d < 8 && node; d++) {
+          var img = node.querySelector("img");
+          if (img && img.src && img.src.indexOf("data:") !== 0) return img.src;
+          var input = node.querySelector("input[type='text'], input[type='url']");
+          if (input && input.value && /^https?:\/\//i.test(input.value)) return input.value;
+          node = node.parentElement;
+        }
+        return "";
+      }
+
       function findNumberInputWithin(scope, labelText) {
         var labels = scope.querySelectorAll("label, span[class*='label']");
         for (var i = 0; i < labels.length; i++) {

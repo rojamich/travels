@@ -313,7 +313,41 @@ a {
   }
 }
 
+// Medal badge for the positional ranking on Favorites cards.
+// 1st gold, 2nd silver, 3rd bronze, 4th+ honorable mention.
+.favorite-medal {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 1;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.28);
+  pointer-events: none;
+
+  // Tinted ring per tier so the standing reads at a glance even before
+  // the emoji resolves.
+  &.medal-gold      { box-shadow: 0 0 0 2px #d4af37, 0 1px 4px rgba(0,0,0,0.28); }
+  &.medal-silver    { box-shadow: 0 0 0 2px #aeb4bb, 0 1px 4px rgba(0,0,0,0.28); }
+  &.medal-bronze    { box-shadow: 0 0 0 2px #b0763a, 0 1px 4px rgba(0,0,0,0.28); }
+  &.medal-honorable { box-shadow: 0 0 0 2px #c9d3da, 0 1px 4px rgba(0,0,0,0.28); }
+}
+
+// Fallback placement when an entry has no cover photo — the badge has no
+// image to sit on, so it rides inline beside the country name instead.
+.favorite-medal-inline {
+  font-size: 0.9em;
+  margin-right: 0.15em;
+}
+
 .favorite-card-image {
+  position: relative;
   width: 100%;
   height: 140px;
   background: $sand-medium;

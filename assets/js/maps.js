@@ -28,7 +28,8 @@ window.TravelMap = (function () {
     navy:     "#1F4858",
     navyMid:  "#2C5876",
     seaglass: "#7FB3A2",
-    sand:     "#E8DCC4"
+    sand:     "#E8DCC4",
+    repeat:   "#C1783C"   // places visited on more than one trip
   };
 
   // Custom pin icons. We use Leaflet's divIcon with inline SVG so we don't
@@ -50,6 +51,29 @@ window.TravelMap = (function () {
   }
   var TRIP_ICON = makeIcon(COLORS.navy);
   var DAY_ICON  = makeIcon(COLORS.seaglass);
+
+  // Pin for a place we've been to on more than one trip. Amber so it reads
+  // as distinct from the navy single-visit pins at a glance, and carries the
+  // visit count in the middle instead of the plain dot.
+  function makeMultiIcon(count) {
+    var label = count > 9 ? "9+" : String(count);
+    var html =
+      '<svg width="32" height="46" viewBox="0 0 32 46" xmlns="http://www.w3.org/2000/svg">' +
+        '<path d="M16 0 C7 0 0 7 0 16 C0 27 16 46 16 46 C16 46 32 27 32 16 C32 7 25 0 16 0 Z"' +
+              ' fill="' + COLORS.repeat + '" stroke="#fff" stroke-width="2"/>' +
+        '<circle cx="16" cy="16" r="8.5" fill="#fff"/>' +
+        '<text x="16" y="16" text-anchor="middle" dominant-baseline="central"' +
+             ' font-family="system-ui, sans-serif" font-size="11" font-weight="700"' +
+             ' fill="' + COLORS.repeat + '">' + label + '</text>' +
+      '</svg>';
+    return L.divIcon({
+      html: html,
+      className: "",
+      iconSize: [32, 46],
+      iconAnchor: [16, 46],
+      popupAnchor: [0, -40]
+    });
+  }
 
   // ---------------------------------------------------------------------------
   // Helpers
@@ -79,6 +103,36 @@ window.TravelMap = (function () {
           count + ' post' + (count === 1 ? '' : 's') +
         '</span><br>' +
         '<a href="' + trip.url + '" style="display:inline-block; margin-top:0.5em;">Read trip &rarr;</a>' +
+      '</div>'
+    );
+  }
+
+  // Popup for a location we've reached on several different trips. Lists
+  // every trip so none of them get buried, with its own post count.
+  function multiTripPopupHtml(tripsHere) {
+    var rows = tripsHere.map(function (t) {
+      var count = (typeof t.postCount === "number")
+        ? t.postCount
+        : (t.posts ? t.posts.length : 0);
+      return '<li style="margin:0 0 0.45em 0;">' +
+        '<a href="#" data-trip-slug="' + escapeHtml(t.slug) + '"' +
+           ' style="font-weight:600; text-decoration:none;">' +
+          escapeHtml(t.name) +
+        '</a>' +
+        '<br><span style="color:#888; font-size:0.85em;">' +
+          count + ' post' + (count === 1 ? '' : 's') +
+        '</span></li>';
+    }).join("");
+
+    return (
+      '<div style="min-width:190px;">' +
+        '<div style="font-weight:700; margin-bottom:0.15em;">' +
+          'Visited ' + tripsHere.length + ' times' +
+        '</div>' +
+        '<div style="color:#888; font-size:0.8em; margin-bottom:0.6em;">' +
+          'Pick a trip to see its route' +
+        '</div>' +
+        '<ul style="list-style:none; margin:0; padding:0;">' + rows + '</ul>' +
       '</div>'
     );
   }
@@ -123,14 +177,14 @@ window.TravelMap = (function () {
     // world map but all point at the same trip page.
     var tripPins = L.layerGroup();
     var bounds = [];
-    function addTripPin(trip, lat, lng) {
-      bounds.push([lat, lng]);
-      var marker = L.marker([lat, lng], { icon: TRIP_ICON })
-        .bindPopup(tripPopupHtml(trip))
-        .on("click", function () {
-          showTripDetail(trip);
-        });
-      tripPins.addLayer(marker);
+
+    // ---- Pass 1: collect every pin we intend to draw --------------------
+    // Nothing is rendered yet. We need the full set first so we can tell
+    // which coordinates host more than one trip.
+    var candidates = [];
+    function addCandidate(trip, lat, lng) {
+      if (typeof lat !== "number" || typeof lng !== "number") return;
+      candidates.push({ trip: trip, lat: lat, lng: lng });
     }
 
     trips.forEach(function (trip) {
@@ -139,20 +193,62 @@ window.TravelMap = (function () {
       // PRIMARY country got no pin — e.g. African Safari with South
       // Africa as location + Botswana/Zimbabwe in countries[] rendered
       // only Botswana/Zimbabwe pins, no SA. Now: primary pin always
-      // shows; countries[] pins are ADDITIONAL. If a trip's countries[]
-      // includes the same country as the primary, there'll be a minor
-      // duplicate pin — that's the tradeoff for making both work.
-      if (typeof trip.lat === "number" && typeof trip.lng === "number") {
-        addTripPin(trip, trip.lat, trip.lng);
+      // shows; countries[] pins are ADDITIONAL.
+      addCandidate(trip, trip.lat, trip.lng);
+      if (Array.isArray(trip.countries)) {
+        trip.countries.forEach(function (c) { addCandidate(trip, c.lat, c.lng); });
       }
-      var hasCountries = Array.isArray(trip.countries) && trip.countries.length > 0;
-      if (hasCountries) {
-        trip.countries.forEach(function (c) {
-          if (typeof c.lat === "number" && typeof c.lng === "number") {
-            addTripPin(trip, c.lat, c.lng);
-          }
+    });
+
+    // ---- Pass 2: group by rounded coordinate ---------------------------
+    // 1 decimal place is roughly 11km, so separate trips that each start in
+    // e.g. New York collapse into one group even when their coordinates
+    // aren't byte-identical, while genuinely different cities stay apart.
+    var groups = {};
+    var order = [];
+    candidates.forEach(function (c) {
+      var key = c.lat.toFixed(1) + "," + c.lng.toFixed(1);
+      if (!groups[key]) {
+        groups[key] = { lat: c.lat, lng: c.lng, trips: [] };
+        order.push(key);
+      }
+      // De-dupe by slug: a trip listing its own primary country again in
+      // countries[] shouldn't make the place look twice-visited.
+      var seen = groups[key].trips.some(function (t) { return t.slug === c.trip.slug; });
+      if (!seen) groups[key].trips.push(c.trip);
+    });
+
+    // ---- Pass 3: render one marker per group ---------------------------
+    order.forEach(function (key) {
+      var g = groups[key];
+      bounds.push([g.lat, g.lng]);
+      var repeat = g.trips.length > 1;
+      var marker = L.marker([g.lat, g.lng], {
+        icon: repeat ? makeMultiIcon(g.trips.length) : TRIP_ICON
+      });
+
+      if (repeat) {
+        // Several trips here: list them all and let her pick. Don't jump
+        // straight into a trip, since we can't know which one she means.
+        marker.bindPopup(multiTripPopupHtml(g.trips));
+        marker.on("popupopen", function (e) {
+          var root = e.popup.getElement();
+          if (!root) return;
+          root.querySelectorAll("[data-trip-slug]").forEach(function (el) {
+            el.addEventListener("click", function (ev) {
+              ev.preventDefault();
+              var slug = el.getAttribute("data-trip-slug");
+              var picked = g.trips.filter(function (t) { return t.slug === slug; })[0];
+              if (picked) { map.closePopup(); showTripDetail(picked); }
+            });
+          });
         });
+      } else {
+        marker.bindPopup(tripPopupHtml(g.trips[0]))
+              .on("click", function () { showTripDetail(g.trips[0]); });
       }
+
+      tripPins.addLayer(marker);
     });
     tripPins.addTo(map);
 

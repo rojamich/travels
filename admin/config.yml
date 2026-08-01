@@ -137,6 +137,7 @@ collections:
               - { label: "Category name", name: "name", widget: "string", hint: "e.g. 'Best Food'" }
               - { label: "Icon emoji", name: "icon", widget: "string", required: false, hint: "Single emoji shown next to the title. e.g. 🍜" }
               - { label: "Short description", name: "description", widget: "string", required: false }
+              - { label: "Show medal rankings", name: "ranked", widget: "boolean", default: true, required: false, hint: "On: the entry order below becomes the ranking — 1st gets 🥇, 2nd 🥈, 3rd 🥉, and everything after gets ⭐ honorable mention. Drag entries to change the standings. Turn off for a category that's just an unordered list." }
               - label: "Countries in this category"
                 name: "entries"
                 widget: "list"
@@ -656,10 +657,56 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     summary: "{{title}} · {{commit_date | date('YYYY-MM-DD')}}"
     sortable_fields: ['date', 'title', 'order']
-    view_filters:
-      - label: "Iceland 2024"
+    # Group-by is DYNAMIC — Decap builds one group per distinct value of
+    # `categories`, so new trips appear here automatically with no config
+    # edit. Use "Group by → Trip" in the editor sidebar.
+    view_groups:
+      - label: "Trip"
         field: categories
-        pattern: "iceland-2024"
+
+    # Quick one-click filters. Decap can't generate these dynamically, so
+    # they're enumerated. When you add a new trip, add a line here too —
+    # or just use "Group by → Trip" above, which never needs updating.
+    view_filters:
+      - label: "African Safari Sojourn"
+        field: categories
+        pattern: "african-safari"
+      - label: "Bamboo & Bulgogi Bliss"
+        field: categories
+        pattern: "bamboo-bulgogi"
+      - label: "European Excursion"
+        field: categories
+        pattern: "european-excursion"
+      - label: "European Exploration"
+        field: categories
+        pattern: "european-exploration"
+      - label: "Fjords & Forever"
+        field: categories
+        pattern: "fjords-forever"
+      - label: "Life in the Big City"
+        field: categories
+        pattern: "life-in-the-big-city"
+      - label: "Nomadic New Zealand Adventure 2022"
+        field: categories
+        pattern: "new-zealand"
+      - label: "Party in the USA"
+        field: categories
+        pattern: "party-in-the-usa"
+      - label: "Peruvian Passage"
+        field: categories
+        pattern: "peruvian-passage"
+      - label: "Red Coats & Red Buses"
+        field: categories
+        pattern: "red-coats-red-buses"
+      - label: "The Singaporean Stopover"
+        field: categories
+        pattern: "the-singaporean-stopover"
+      - label: "Vietnamese Voyage"
+        field: categories
+        pattern: "vietnam"
+      - label: "Welcome Home: Tbilisi, Georgia"
+        field: categories
+        pattern: "welcome-home-tbilisi-georgia"
     fields:
       - { label: "Title",
           name: "title",
