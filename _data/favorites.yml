@@ -114,3 +114,8 @@ categories:
         cover_focal_x: 50
         cover_focal_y: 13
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522982/20220304_135515_mq9tyq.jpg
+  - ranked: true
+    name: Best Wildlife
+    icon: 🐋
+    description: Animals in nature that we met in awe!
+    entries: []
