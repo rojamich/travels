@@ -1,13 +1,21 @@
 ---
-title: "Final Notes on Peru"
+title: Final Notes on Peru
 date: 2025-09-23
 categories:
   - peruvian-passage
 order: 18
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785588726/20250908_174934_pbvmaj.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785592127/20250829_183835_kfyg7i.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 50
+  overlay_filter: 0
 tags:
   - Peru
 location:
-  name: "Peru"
+  name: Peru
   lat: -12.0464
   lng: -77.0428
 ---
