@@ -4,18 +4,18 @@ categories:
     icon: 🍜
     description: Where my taste buds were happiest.
     entries:
-      - cover_focal_x: 50
-        cover_focal_y: 50
-        country: United States of America
-        trip_slug: party-in-the-usa
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785525254/20240502_140523_cydbqu.jpg
-        rank: gold
       - country: Vietnam
         trip_slug: vietnam
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785508950/IMG-20251212-WA0015_uoianw.jpg
         blurb: ""
         cover_focal_x: 50
         cover_focal_y: 13
+        rank: gold
+      - cover_focal_x: 50
+        cover_focal_y: 50
+        country: United States of America
+        trip_slug: party-in-the-usa
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785525254/20240502_140523_cydbqu.jpg
         rank: silver
       - cover_focal_x: 50
         cover_focal_y: 36
@@ -27,18 +27,18 @@ categories:
     icon: 🏔️
     description: Landscapes that took our breath away.
     entries:
-      - cover_focal_x: 50
-        cover_focal_y: 50
-        country: "Norway "
-        trip_slug: fjords-forever
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782741924/IMG_9962_bpvjpq.jpg
-        rank: gold
       - country: New Zealand
         trip_slug: new-zealand
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785519074/20221120_123432_m4o4k8.jpg
         blurb: ""
         cover_focal_x: 50
         cover_focal_y: 40
+        rank: gold
+      - cover_focal_x: 50
+        cover_focal_y: 50
+        country: "Norway "
+        trip_slug: fjords-forever
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782741924/IMG_9962_bpvjpq.jpg
         rank: silver
       - country: United States of America
         trip_slug: "'Party in the USA'"
@@ -57,72 +57,103 @@ categories:
     description: Our absolute favorite cities we plan to keep coming back to!
     entries:
       - cover_focal_x: 50
-        cover_focal_y: 42
-        country: Ho Chi Minh City, Vietnam
-        trip_slug: Vietnam
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522184/20251211_074831_x5hkss.jpg
-      - country: Berlin, Germany
-        trip_slug: european-excursion
-        cover_focal_x: 50
-        cover_focal_y: 20
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522181/20220311_140300_odv5jd.jpg
-      - cover_focal_x: 50
         cover_focal_y: 28
         country: NYC, USA
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522304/20240824_095500_fq9o1x.jpg
+        rank: gold
+        trip_slug: party-in-the-usa
+      - cover_focal_x: 50
+        cover_focal_y: 6
+        country: Ho Chi Minh City, Vietnam
+        trip_slug: Vietnam
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522184/20251211_074831_x5hkss.jpg
+        rank: silver
       - country: Tokyo, Japan
         trip_slug: bamboo-bulgogi
         cover_focal_x: 50
         cover_focal_y: 35
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522179/20241216_173952_ahkcbf.jpg
-      - cover_focal_x: 50
-        cover_focal_y: 71
-        country: Mexico City, Mexico
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522190/20250504_123641_ker1pw.jpg
+        rank: bronze
+      - country: Berlin, Germany
+        trip_slug: european-excursion
+        cover_focal_x: 50
+        cover_focal_y: 20
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522181/20220311_140300_odv5jd.jpg
+        rank: honorable
   - name: Most Underrated
     icon: ✨
     description: Places we didn't expect to love.
     entries:
-      - country: Mexico
-        cover_focal_x: 50
-        cover_focal_y: 37
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522890/20250504_104626_iceu1d.jpg
       - country: The Netherlands
         trip_slug: european-excursion
         cover_focal_x: 50
         cover_focal_y: 18
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522893/20220315_105300_xpehr2.jpg
+      - cover_focal_x: 50
+        cover_focal_y: 50
+        country: South Africa
+        trip_slug: african-safari
+        rank: silver
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614715/20240829_080848_hqq96p.jpg
       - country: Vietnam
         trip_slug: vietnam
         cover_focal_x: 50
-        cover_focal_y: 69
+        cover_focal_y: 95
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522916/20251213_103717_khrodv.jpg
+        rank: bronze
+      - cover_focal_x: 50
+        cover_focal_y: 2
+        country: Mexico
+        rank: honorable
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614799/20250504_101609_krkg8a.jpg
   - name: Best Wonders
     icon: 🗼
     description: Sights that blew our minds!
     entries:
+      - cover_focal_x: 50
+        cover_focal_y: 50
+        country: France
+        rank: gold
+        trip_slug: european-excursion
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614965/20220215_163656_l5rm7w.jpg
       - country: Italy
         trip_slug: european-excursion
         cover_focal_x: 50
         cover_focal_y: 7
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522976/20220220_144310_ecmp9t.jpg
-      - country: Peru
-        trip_slug: peruvian-passage
-        cover_focal_x: 50
-        cover_focal_y: 22
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522919/20250905_104042_woqmqg.jpg
+        rank: honorable
       - cover_focal_x: 50
-        cover_focal_y: 50
-        country: Greece
-        trip_slug: european-exploration
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785572453/20230804_084900_wucvat.jpg
-      - country: Germany
-        trip_slug: european-excursion
-        cover_focal_x: 50
-        cover_focal_y: 13
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522982/20220304_135515_mq9tyq.jpg
+        cover_focal_y: 30
+        country: United States of America
+        rank: silver
+        trip_slug: party-in-the-usa
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785615285/20240824_100117_zxwcdl.jpg
   - ranked: true
     name: Best Wildlife
     icon: 🐋
     description: Animals in nature that we met in awe!
-    entries: []
+    entries:
+      - cover_focal_x: 50
+        cover_focal_y: 50
+        country: Peru
+        rank: gold
+        trip_slug: peruvian-passage
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785604038/20250908_161036_pdcmaz.jpg
+      - cover_focal_x: 50
+        cover_focal_y: 16
+        country: South Africa
+        rank: silver
+        trip_slug: african-safari
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614255/20240909_104540_q5ujsg.jpg
+      - cover_focal_x: 50
+        cover_focal_y: 71
+        rank: bronze
+        country: Botswana
+        trip_slug: african-safari
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614231/20240909_110309_wxad5f.jpg
+      - cover_focal_x: 50
+        cover_focal_y: 83
+        country: United States of America
+        trip_slug: party-in-the-usa
+        rank: honorable
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614445/20220525_082644_megssq.jpg
