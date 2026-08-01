@@ -1,13 +1,21 @@
 ---
-title: "A Tour of the Sacred Valley"
-date: 2025-09-07
+title: A Tour of the Sacred Valley
+date: 2025-09-03
 categories:
   - peruvian-passage
-order: 8
+order: 9
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785613518/20250903_151445_fj1wkb.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785613460/20250903_145901_brkric.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 32
 tags:
   - Peru
 location:
-  name: "Sacred Valley, Peru"
+  name: Sacred Valley, Peru
   lat: -13.3447
   lng: -72.07
 ---
