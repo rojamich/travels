@@ -63,7 +63,7 @@ categories:
         rank: gold
         trip_slug: party-in-the-usa
       - cover_focal_x: 50
-        cover_focal_y: 6
+        cover_focal_y: 0
         country: Ho Chi Minh City, Vietnam
         trip_slug: Vietnam
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522184/20251211_074831_x5hkss.jpg
@@ -116,18 +116,24 @@ categories:
         rank: gold
         trip_slug: european-excursion
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614965/20220215_163656_l5rm7w.jpg
+      - cover_focal_x: 50
+        cover_focal_y: 71
+        country: Japan
+        rank: silver
+        trip_slug: bamboo-bulgogi
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785615104/20241223_062840_h5ingb.jpg
+      - cover_focal_x: 50
+        cover_focal_y: 30
+        country: United States of America
+        rank: bronze
+        trip_slug: party-in-the-usa
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785615285/20240824_100117_zxwcdl.jpg
       - country: Italy
         trip_slug: european-excursion
         cover_focal_x: 50
         cover_focal_y: 7
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522976/20220220_144310_ecmp9t.jpg
         rank: honorable
-      - cover_focal_x: 50
-        cover_focal_y: 30
-        country: United States of America
-        rank: silver
-        trip_slug: party-in-the-usa
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785615285/20240824_100117_zxwcdl.jpg
   - ranked: true
     name: Best Wildlife
     icon: 🐋
@@ -157,3 +163,30 @@ categories:
         trip_slug: party-in-the-usa
         rank: honorable
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614445/20220525_082644_megssq.jpg
+  - name: Kindest Locals
+    icon: 🤗
+    entries:
+      - cover_focal_x: 50
+        cover_focal_y: 83
+        country: Japan
+        trip_slug: bamboo-bulgogi
+        rank: gold
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785615659/IMG-20241214-WA0013_k2hakz.jpg
+      - cover_focal_x: 50
+        cover_focal_y: 26
+        country: Vietnam
+        rank: silver
+        trip_slug: vietnam
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783626842/20251219_164500_ten6vx.jpg
+      - cover_focal_x: 50
+        cover_focal_y: 95
+        country: Norway
+        rank: bronze
+        trip_slug: fjords-forever
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782925729/20260630_185300_sycwxx.jpg
+      - cover_focal_x: 50
+        cover_focal_y: 95
+        country: United States of America
+        rank: honorable
+        trip_slug: party-in-the-usa
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785616026/20260417_210356_ysfcll.jpg
