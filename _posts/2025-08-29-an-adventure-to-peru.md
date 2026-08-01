@@ -1,11 +1,19 @@
 ---
-title: "An Adventure to Peru"
+title: An Adventure to Peru
 date: 2025-08-29
 categories:
   - peruvian-passage
 order: 2
+header:
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785590466/20250827_184702_jrtxdh.jpg
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785590607/20250827_184659_paf1gl.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 10
+  overlay_focal_x: 50
+  overlay_focal_y: 50
+  overlay_filter: 0
 location:
-  name: "Lima, Peru"
+  name: Lima, Peru
   lat: -12.0464
   lng: -77.0428
 ---
