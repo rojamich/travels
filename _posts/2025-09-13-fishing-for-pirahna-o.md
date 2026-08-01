@@ -14,6 +14,9 @@ header:
   overlay_filter: 0
 tags:
   - Peru
+  - Nature
+  - Wildlife
+  - Adventure
 location:
   name: Amazon Rainforest, Peru
   lat: 3.749
