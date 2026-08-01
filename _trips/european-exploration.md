@@ -2,9 +2,9 @@
 title: European Exploration
 description: A return to Europe — German road trip, Mediterranean cruise
   (Croatia, Greece, Italy), and Lake Como.
-cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785572453/20230804_084900_wucvat.jpg
+cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785573551/20230804_090411_tetqqf.jpg
 cover_focal_x: 50
-cover_focal_y: 47
+cover_focal_y: 28
 start_date: 2023-07-16
 end_date: 2023-08-13
 location: Germany
