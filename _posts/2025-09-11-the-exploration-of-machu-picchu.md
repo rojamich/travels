@@ -1,13 +1,21 @@
 ---
-title: "The Exploration of Machu Picchu"
-date: 2025-09-11
+title: The Exploration of Machu Picchu
+date: 2025-09-05
 categories:
   - peruvian-passage
-order: 12
+order: 11
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785610635/20250905_104042_yxav6i.jpg
+  overlay_filter: 0
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785610708/20250905_101214_ijnt9z.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 12
+  overlay_focal_x: 50
+  overlay_focal_y: 42
 tags:
   - Peru
 location:
-  name: "Machu Picchu, Peru"
+  name: Machu Picchu, Peru
   lat: -13.1631
   lng: -72.545
 ---
