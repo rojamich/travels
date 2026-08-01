@@ -1,11 +1,23 @@
 ---
-title: "Fishing for Pirahna :o"
-date: 2025-09-13
+title: Fishing for Pirahna :o
+date: 2025-09-09
 categories:
   - peruvian-passage
 order: 14
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785604038/20250908_161036_pdcmaz.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785604133/20250908_174039_cqnj8h.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 43
+  overlay_filter: 0
 tags:
   - Peru
+location:
+  name: Amazon Rainforest, Peru
+  lat: 3.749
+  lng: 73.254
 ---
 
 After lunch, a refreshing nap, and listening to our audiobook while the rain poured down, it was time to go back out on the boat. 
