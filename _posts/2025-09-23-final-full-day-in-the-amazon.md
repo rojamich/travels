@@ -5,12 +5,12 @@ categories:
   - peruvian-passage
 order: 15
 header:
-  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785592096/20250829_170852_splreo.jpg
-  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785592127/20250829_183835_kfyg7i.jpg
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785597741/20250909_155946_axtdp5.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785597809/20250909_091531_gsvj1h.jpg
   teaser_focal_x: 50
-  teaser_focal_y: 50
+  teaser_focal_y: 33
   overlay_focal_x: 50
-  overlay_focal_y: 100
+  overlay_focal_y: 47
   overlay_filter: 0
 tags:
   - Peru
