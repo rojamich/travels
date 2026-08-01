@@ -24,27 +24,27 @@ categories:
     icon: 🏔️
     description: Landscapes that took our breath away.
     entries:
+      - cover_focal_x: 50
+        cover_focal_y: 50
+        country: "Norway "
+        trip_slug: fjords-forever
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782741924/IMG_9962_bpvjpq.jpg
       - country: New Zealand
         trip_slug: new-zealand
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785519074/20221120_123432_m4o4k8.jpg
         blurb: ""
         cover_focal_x: 50
         cover_focal_y: 40
-      - country: Vietnam
-        trip_slug: vietnam
-        cover_focal_x: 50
-        cover_focal_y: 48
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521017/IMG_9637_tby65s.jpg
       - country: United States of America
         trip_slug: "'Party in the USA'"
         cover_focal_x: 50
         cover_focal_y: 32
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521019/IMG_0208_aeboqo.jpg
-      - cover_focal_x: 50
-        cover_focal_y: 50
-        country: "Norway "
-        trip_slug: fjords-forever
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782741924/IMG_9962_bpvjpq.jpg
+      - country: Vietnam
+        trip_slug: vietnam
+        cover_focal_x: 50
+        cover_focal_y: 48
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521017/IMG_9637_tby65s.jpg
   - name: Best City Life
     icon: 🏙️
     description: Our absolute favorite cities we plan to keep coming back to!
