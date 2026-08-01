@@ -1,13 +1,21 @@
 ---
-title: "A Train Sojourn to Aguas Calientes"
-date: 2025-09-10
+title: A Train Sojourn to Aguas Calientes
+date: 2025-09-05
 categories:
   - peruvian-passage
-order: 9
+order: 11
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785613226/20250904_140139_thgjsy.jpg
+  overlay_filter: 0
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785613260/20250904_155301_wrdmmd.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 57
+  overlay_focal_x: 50
+  overlay_focal_y: 34
 tags:
   - Peru
 location:
-  name: "Aguas Calientes, Peru"
+  name: Aguas Calientes, Peru
   lat: -13.1538
   lng: -72.5252
 ---
