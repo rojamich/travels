@@ -1,5 +1,5 @@
 ---
-title: Fishing for Pirahna :o
+title: Fishing for Piranha 🤯🐠🎣🚣🏻
 date: 2025-09-09
 categories:
   - peruvian-passage
