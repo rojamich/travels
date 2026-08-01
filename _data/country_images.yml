@@ -3,3 +3,51 @@ entries:
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/3840px-Flag_of_New_Zealand.svg.png
   - name: Vietnam
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/960px-Flag_of_Vietnam.svg.png
+  - name: United States of America
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/500px-Flag_of_the_United_States.svg.png
+  - name: Zimbabwe
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/500px-Flag_of_Zimbabwe.svg.png
+  - name: South Korea
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/330px-Flag_of_South_Korea.svg.png
+  - name: South Africa
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/330px-Flag_of_South_Africa.svg.png
+  - name: Peru
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/330px-Flag_of_Peru.svg.png
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/330px-Flag_of_Norway.svg.png
+    name: Norway
+  - name: Netherlands
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/330px-Flag_of_the_Netherlands.svg.png
+  - name: Mexico
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/500px-Flag_of_Mexico.svg.png
+  - name: Japan
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/330px-Flag_of_Japan.svg.png
+  - name: Vatican City
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Vatican_City_%282023%E2%80%93present%29.svg/250px-Flag_of_Vatican_City_%282023%E2%80%93present%29.svg.png
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/330px-Flag_of_Italy.svg.png
+    name: Italy
+  - name: Germany
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/500px-Flag_of_Germany.svg.png
+  - name: Greece
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/330px-Flag_of_Greece.svg.png
+  - name: Georgia
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/330px-Flag_of_Georgia.svg.png
+  - name: France
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/330px-Flag_of_France.svg.png
+  - name: Costa Rica
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/500px-Flag_of_Costa_Rica.svg.png
+  - name: Canada
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Canada.svg/500px-Flag_of_Canada.svg.png
+  - name: Botswana
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Botswana.svg/330px-Flag_of_Botswana.svg.png
+  - name: United Kingdom
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/500px-Flag_of_the_United_Kingdom_%283-5%29.svg.png
+  - name: Belgium
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png
+  - name: Cayman Islands
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_the_Cayman_Islands.svg/500px-Flag_of_the_Cayman_Islands.svg.png
+  - name: Croatia
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/500px-Flag_of_Croatia.svg.png
+  - name: Switzerland
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/250px-Flag_of_Switzerland.svg.png
+  - name: Singapore
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/330px-Flag_of_Singapore.svg.png
