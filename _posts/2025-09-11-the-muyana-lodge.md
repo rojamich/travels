@@ -1,13 +1,21 @@
 ---
-title: "The Muyana Lodge"
-date: 2025-09-11
+title: The Muyana Lodge
+date: 2025-09-07
 categories:
   - peruvian-passage
-order: 11
+order: 13
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785612998/20250907_203359_yfkx8m.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785613012/20250907_204413_pg1xc9.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 46
+  overlay_focal_x: 50
+  overlay_focal_y: 50
 tags:
   - Peru
 location:
-  name: "Muyana Lodge, Amazon"
+  name: Muyana Lodge, Amazon
   lat: -3.7437
   lng: -73.2516
 ---
