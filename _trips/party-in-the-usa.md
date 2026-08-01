@@ -7,7 +7,7 @@ cover_focal_x: 50
 cover_focal_y: 50
 start_date: 2011-08-30
 end_date: 2026-05-31
-location: Washington DC, US
+location: Washington DC, United States of America
 lat: 38.892059
 lng: -77.019913
 country_code: US
