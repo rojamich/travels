@@ -68,29 +68,29 @@ categories:
     icon: 🏙️
     description: Our absolute favorite cities we plan to keep coming back to!
     entries:
-      - country: Tokyo, Japan
-        trip_slug: bamboo-bulgogi
-        cover_focal_x: 50
-        cover_focal_y: 35
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522179/20241216_173952_ahkcbf.jpg
+      - cover_focal_x: 50
+        cover_focal_y: 42
+        country: Ho Chi Minh City, Vietnam
+        trip_slug: Vietnam
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522184/20251211_074831_x5hkss.jpg
       - country: Berlin, Germany
         trip_slug: european-excursion
         cover_focal_x: 50
         cover_focal_y: 20
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522181/20220311_140300_odv5jd.jpg
       - cover_focal_x: 50
-        cover_focal_y: 42
-        country: Ho Chi Minh City, Vietnam
-        trip_slug: Vietnam
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522184/20251211_074831_x5hkss.jpg
+        cover_focal_y: 28
+        country: NYC, USA
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522304/20240824_095500_fq9o1x.jpg
+      - country: Tokyo, Japan
+        trip_slug: bamboo-bulgogi
+        cover_focal_x: 50
+        cover_focal_y: 35
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522179/20241216_173952_ahkcbf.jpg
       - cover_focal_x: 50
         cover_focal_y: 71
         country: Mexico City, Mexico
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522190/20250504_123641_ker1pw.jpg
-      - cover_focal_x: 50
-        cover_focal_y: 28
-        country: NYC, USA
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522304/20240824_095500_fq9o1x.jpg
   - name: Most Underrated
     icon: ✨
     description: Places we didn't expect to love.
