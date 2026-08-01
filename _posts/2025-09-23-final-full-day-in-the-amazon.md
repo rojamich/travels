@@ -1,13 +1,21 @@
 ---
-title: "Final Full Day in the Amazon"
-date: 2025-09-23
+title: Final Full Day in the Amazon
+date: 2025-09-09
 categories:
   - peruvian-passage
 order: 15
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785597741/20250909_155946_axtdp5.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785597809/20250909_091531_gsvj1h.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 33
+  overlay_focal_x: 50
+  overlay_focal_y: 47
+  overlay_filter: 0
 tags:
   - Peru
 location:
-  name: "Amazon Rainforest, Peru"
+  name: Amazon Rainforest, Peru
   lat: -3.7437
   lng: -73.2516
 ---
