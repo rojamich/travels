@@ -1,6 +1,6 @@
 ---
 title: Final Full Day in the Amazon
-date: 2025-09-23
+date: 2025-09-09
 categories:
   - peruvian-passage
 order: 15
