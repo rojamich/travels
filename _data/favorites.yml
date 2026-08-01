@@ -9,17 +9,20 @@ categories:
         country: United States of America
         trip_slug: party-in-the-usa
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785525254/20240502_140523_cydbqu.jpg
+        rank: gold
       - country: Vietnam
         trip_slug: vietnam
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785508950/IMG-20251212-WA0015_uoianw.jpg
         blurb: ""
         cover_focal_x: 50
         cover_focal_y: 13
+        rank: silver
       - cover_focal_x: 50
         cover_focal_y: 36
         country: Germany
         trip_slug: european-excursion
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785587749/Mensa_tgf7qc.jpg
+        rank: bronze
   - name: Best Nature
     icon: 🏔️
     description: Landscapes that took our breath away.
@@ -29,22 +32,26 @@ categories:
         country: "Norway "
         trip_slug: fjords-forever
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782741924/IMG_9962_bpvjpq.jpg
+        rank: gold
       - country: New Zealand
         trip_slug: new-zealand
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785519074/20221120_123432_m4o4k8.jpg
         blurb: ""
         cover_focal_x: 50
         cover_focal_y: 40
+        rank: silver
       - country: United States of America
         trip_slug: "'Party in the USA'"
         cover_focal_x: 50
         cover_focal_y: 32
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521019/IMG_0208_aeboqo.jpg
+        rank: bronze
       - country: Vietnam
         trip_slug: vietnam
         cover_focal_x: 50
         cover_focal_y: 48
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521017/IMG_9637_tby65s.jpg
+        rank: honorable
   - name: Best City Life
     icon: 🏙️
     description: Our absolute favorite cities we plan to keep coming back to!
