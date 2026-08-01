@@ -1,13 +1,21 @@
 ---
-title: "Flaner Historic Lima"
+title: Flaner Historic Lima
 date: 2025-08-29
 categories:
   - peruvian-passage
 order: 3
+header:
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785588309/20250828_111526_fj6yaf.jpg
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785588401/20250828_130312_xyzcbe.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 53
+  overlay_focal_x: 50
+  overlay_focal_y: 50
+  overlay_filter: 0
 tags:
   - Peru
 location:
-  name: "Lima, Peru"
+  name: Lima, Peru
   lat: -12.0464
   lng: -77.0428
 ---
