@@ -1,9 +1,17 @@
 ---
-title: "The Adventure Traveling Home"
-date: 2025-09-23
+title: The Adventure Traveling Home
+date: 2025-09-11
 categories:
   - peruvian-passage
 order: 17
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785603402/20250911_071247_mhdhun.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785603617/IMG_20250512_104540_jrhomu.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 51
+  overlay_focal_x: 50
+  overlay_focal_y: 34
+  overlay_filter: 0
 tags:
   - Peru
 ---
