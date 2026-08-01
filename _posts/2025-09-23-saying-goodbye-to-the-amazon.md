@@ -1,6 +1,6 @@
 ---
 title: Saying Goodbye to the Amazon
-date: 2025-09-23
+date: 2025-09-10
 categories:
   - peruvian-passage
 order: 16
