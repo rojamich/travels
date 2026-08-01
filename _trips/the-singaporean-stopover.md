@@ -2,9 +2,9 @@
 title: The Singaporean Stopover
 description: A short stay, chasing the views of skyscrapers, Jurassic park
   experience, and massively famous airport!
-cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783365407/20260103_193441_k0emnb.jpg
+cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785573849/20260103_195211_jdfg3p.jpg
 cover_focal_x: 50
-cover_focal_y: 39
+cover_focal_y: 17
 start_date: 2026-01-02
 end_date: 2026-01-05
 location: Singapore, Singapore
