@@ -1,6 +1,6 @@
 ---
 title: The Adventure Traveling Home
-date: 2025-09-23
+date: 2025-09-11
 categories:
   - peruvian-passage
 order: 17
