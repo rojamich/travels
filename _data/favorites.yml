@@ -49,16 +49,6 @@ categories:
         cover_focal_x: 50
         cover_focal_y: 32
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521019/IMG_0208_aeboqo.jpg
-      - country: South Africa
-        trip_slug: african-safari
-        cover_focal_x: 50
-        cover_focal_y: 50
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521023/20240902_130309_hw2p2e.jpg
-      - country: Peru
-        trip_slug: peruvian-passage
-        cover_focal_x: 50
-        cover_focal_y: 50
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521030/20250910_051147_rindpo.jpg
       - cover_focal_x: 50
         cover_focal_y: 50
         country: "Norway "
