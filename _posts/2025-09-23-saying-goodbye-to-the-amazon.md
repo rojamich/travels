@@ -1,13 +1,21 @@
 ---
-title: "Saying Goodbye to the Amazon"
-date: 2025-09-23
+title: Saying Goodbye to the Amazon
+date: 2025-09-10
 categories:
   - peruvian-passage
 order: 16
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785599291/20250910_102339_gwz1hv.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785599365/20250910_092827_ay2oi3.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 50
 tags:
   - Peru
 location:
-  name: "Amazon Rainforest, Peru"
+  name: Amazon Rainforest, Peru
   lat: -3.7437
   lng: -73.2516
 ---
