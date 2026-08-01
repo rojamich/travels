@@ -1,6 +1,6 @@
 ---
 title: Final Notes on Peru
-date: 2025-09-23
+date: 2025-09-12
 categories:
   - peruvian-passage
 order: 18
