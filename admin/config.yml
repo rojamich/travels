@@ -137,7 +137,6 @@ collections:
               - { label: "Category name", name: "name", widget: "string", hint: "e.g. 'Best Food'" }
               - { label: "Icon emoji", name: "icon", widget: "string", required: false, hint: "Single emoji shown next to the title. e.g. 🍜" }
               - { label: "Short description", name: "description", widget: "string", required: false }
-              - { label: "Show medal rankings", name: "ranked", widget: "boolean", default: true, required: false, hint: "On: the entry order below becomes the ranking — 1st gets 🥇, 2nd 🥈, 3rd 🥉, and everything after gets ⭐ honorable mention. Drag entries to change the standings. Turn off for a category that's just an unordered list." }
               - label: "Countries in this category"
                 name: "entries"
                 widget: "list"
@@ -145,6 +144,7 @@ collections:
                 required: false
                 fields:
                   - { label: "Country / Place", name: "country", widget: "string" }
+                  - { label: "Medal", name: "rank", widget: "select", required: false, options: ["", "gold", "silver", "bronze", "honorable"], hint: "Award a medal to this entry: gold 🥇, silver 🥈, bronze 🥉, or honorable ⭐. Leave blank for no medal. Medals are independent of list order, so you can reorder entries freely without changing the standings." }
                   - { label: "Linked trip slug", name: "trip_slug", widget: "string", required: false, hint: "If this country has a trip on the site, paste its slug (e.g. 'vietnam') to make the card clickable." }
                   - { label: "Cover photo", name: "cover", widget: "image", required: false, hint: "The photo that represents this choice — shown as the card image. Recommended for every entry." }
                   - { label: "Cover — focal X (0–100)", name: "cover_focal_x", widget: "number", required: false, value_type: "int", default: 50, min: 0, max: 100, hint: "Which part of the photo shows in the card. 50 = centered, 0 = far left, 100 = far right. Use the 🎯 Position Photo button (bottom-right) to drag it visually instead of guessing." }

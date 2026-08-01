@@ -313,37 +313,53 @@ a {
   }
 }
 
-// Medal badge for the positional ranking on Favorites cards.
-// 1st gold, 2nd silver, 3rd bronze, 4th+ honorable mention.
+// Medal badge for the Favorites ranking, awarded explicitly per entry.
+// Sits in the lower-right of the name area rather than over the photo, so
+// it never covers the subject and reads consistently whether or not an
+// entry has a cover image.
 .favorite-medal {
   position: absolute;
-  top: 8px;
-  left: 8px;
-  width: 34px;
-  height: 34px;
+  right: 10px;
+  bottom: 10px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1;
-  background: rgba(255, 255, 255, 0.94);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.28);
   pointer-events: none;
 
-  // Tinted ring per tier so the standing reads at a glance even before
-  // the emoji resolves.
-  &.medal-gold      { box-shadow: 0 0 0 2px #d4af37, 0 1px 4px rgba(0,0,0,0.28); }
-  &.medal-silver    { box-shadow: 0 0 0 2px #aeb4bb, 0 1px 4px rgba(0,0,0,0.28); }
-  &.medal-bronze    { box-shadow: 0 0 0 2px #b0763a, 0 1px 4px rgba(0,0,0,0.28); }
-  &.medal-honorable { box-shadow: 0 0 0 2px #c9d3da, 0 1px 4px rgba(0,0,0,0.28); }
+  // Each tier tints its own backing instead of sitting on plain white.
+  // Tints are kept light and paired with a darker same-family border so
+  // the emoji and any surrounding text stay legible against them.
+  &.medal-gold {
+    background: #f7e7a6;
+    border: 1px solid #d4af37;
+  }
+  &.medal-silver {
+    background: #e6eaed;
+    border: 1px solid #9aa3ac;
+  }
+  &.medal-bronze {
+    background: #f2dcc4;
+    border: 1px solid #b0763a;
+  }
+  &.medal-honorable {
+    background: #eaf0f4;
+    border: 1px solid #b6c4ce;
+  }
 }
 
-// Fallback placement when an entry has no cover photo — the badge has no
-// image to sit on, so it rides inline beside the country name instead.
-.favorite-medal-inline {
-  font-size: 0.9em;
-  margin-right: 0.15em;
+// Reserve room on the right so a long country name never runs under the
+// badge. Only applied when a medal is actually present.
+.favorite-card-body {
+  position: relative;
+
+  &.has-medal {
+    padding-right: 52px;
+  }
 }
 
 .favorite-card-image {

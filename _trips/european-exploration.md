@@ -18,8 +18,12 @@ countries:
     lat: 39.0742
     lng: 21.8243
   - name: Italy
-    lat: 41.8719
-    lng: 12.5674
+    # Milan, not Rome. This trip's Italy stops were Milan, Lake Como,
+    # Venice and Brindisi — Rome belongs to European Excursion (2022).
+    # Both trips previously carried Rome's coords, which is why Rome
+    # appeared as a twice-visited place on the map.
+    lat: 45.4642
+    lng: 9.19
 country_code: de
 tags:
   - Europe

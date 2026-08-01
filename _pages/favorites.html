@@ -24,15 +24,14 @@ classes: wide
 <p class="favorite-category-desc">{{ cat.description }}</p>
 {% endif %}
 {%- comment -%}
-  Ranking is positional: the order of entries in the CMS list IS the
-  ranking, so she reorders by dragging rather than maintaining a
-  separate rank field that could drift out of sync with the order.
-    1st → 🥇 gold   2nd → 🥈 silver   3rd → 🥉 bronze   4th+ → honorable mention
-  A category can opt out entirely by unticking "Show medal rankings",
-  which is the `ranked` flag (defaults to on when unset).
+  Ranking is EXPLICIT, set per entry via the "Medal" dropdown.
+
+  It was briefly positional (1st = gold, 2nd = silver, ...) but that
+  retroactively turned every existing list — which had been ordered for
+  other reasons — into a ranking nobody chose. Entries now carry their
+  own `rank`, so list order and medals are independent: reorder freely
+  without disturbing the standings, and leave Medal blank for no medal.
 {%- endcomment -%}
-{%- assign show_ranks = true -%}
-{%- if cat.ranked == false -%}{%- assign show_ranks = false -%}{%- endif -%}
 <div class="favorite-grid">
 {% for entry in cat.entries %}
 {%- assign linked_url = "" -%}
@@ -41,14 +40,12 @@ classes: wide
 {%- if linked_trip -%}{%- assign linked_url = linked_trip.url | relative_url -%}{%- endif -%}
 {%- endif -%}
 {%- assign medal = "" -%}{%- assign medal_class = "" -%}{%- assign medal_title = "" -%}
-{%- if show_ranks -%}
-  {%- case forloop.index -%}
-    {%- when 1 -%}{%- assign medal = "🥇" -%}{%- assign medal_class = "gold" -%}{%- assign medal_title = "Gold" -%}
-    {%- when 2 -%}{%- assign medal = "🥈" -%}{%- assign medal_class = "silver" -%}{%- assign medal_title = "Silver" -%}
-    {%- when 3 -%}{%- assign medal = "🥉" -%}{%- assign medal_class = "bronze" -%}{%- assign medal_title = "Bronze" -%}
-    {%- else -%}{%- assign medal = "⭐" -%}{%- assign medal_class = "honorable" -%}{%- assign medal_title = "Honorable mention" -%}
-  {%- endcase -%}
-{%- endif -%}
+{%- case entry.rank -%}
+  {%- when "gold" -%}{%- assign medal = "🥇" -%}{%- assign medal_class = "gold" -%}{%- assign medal_title = "Gold" -%}
+  {%- when "silver" -%}{%- assign medal = "🥈" -%}{%- assign medal_class = "silver" -%}{%- assign medal_title = "Silver" -%}
+  {%- when "bronze" -%}{%- assign medal = "🥉" -%}{%- assign medal_class = "bronze" -%}{%- assign medal_title = "Bronze" -%}
+  {%- when "honorable" -%}{%- assign medal = "⭐" -%}{%- assign medal_class = "honorable" -%}{%- assign medal_title = "Honorable mention" -%}
+{%- endcase -%}
 {% if linked_url != "" %}
 <a href="{{ linked_url }}" class="favorite-card">
 {% else %}
@@ -57,14 +54,12 @@ classes: wide
 {% if entry.cover and entry.cover != "" %}
 <div class="favorite-card-image">
   <img src="{{ entry.cover }}" alt="{{ entry.country }}" style="object-position: {{ entry.cover_focal_x | default: 50 }}% {{ entry.cover_focal_y | default: 50 }}%;" onerror="this.parentNode.style.display='none'">
-  {% if medal != "" %}<span class="favorite-medal medal-{{ medal_class }}" title="{{ medal_title }}"><span class="medal-icon">{{ medal }}</span></span>{% endif %}
 </div>
 {% endif %}
-<div class="favorite-card-body">
-<h3>
-  {% if medal != "" and entry.cover == blank %}<span class="favorite-medal-inline" title="{{ medal_title }}">{{ medal }}</span> {% endif %}{{ entry.country }}
-</h3>
+<div class="favorite-card-body{% if medal != "" %} has-medal{% endif %}">
+<h3>{{ entry.country }}</h3>
 {% if entry.blurb and entry.blurb != "" %}<p>{{ entry.blurb }}</p>{% endif %}
+{% if medal != "" %}<span class="favorite-medal medal-{{ medal_class }}" title="{{ medal_title }}">{{ medal }}</span>{% endif %}
 </div>
 {% if linked_url != "" %}
 </a>
