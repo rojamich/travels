@@ -94,23 +94,23 @@ categories:
     icon: 🗼
     description: Sights that blew our minds!
     entries:
-      - country: Peru
-        trip_slug: peruvian-passage
-        cover_focal_x: 50
-        cover_focal_y: 22
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522919/20250905_104042_woqmqg.jpg
       - country: Italy
         trip_slug: european-excursion
         cover_focal_x: 50
         cover_focal_y: 7
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522976/20220220_144310_ecmp9t.jpg
+      - country: Peru
+        trip_slug: peruvian-passage
+        cover_focal_x: 50
+        cover_focal_y: 22
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522919/20250905_104042_woqmqg.jpg
+      - cover_focal_x: 50
+        cover_focal_y: 50
+        country: Greece
+        trip_slug: european-exploration
+        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785572453/20230804_084900_wucvat.jpg
       - country: Germany
         trip_slug: european-excursion
         cover_focal_x: 50
         cover_focal_y: 13
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522982/20220304_135515_mq9tyq.jpg
-      - cover_focal_x: 50
-        cover_focal_y: 26
-        country: Japan
-        trip_slug: bamboo-bulgogi
-        cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785572143/20241221_084528_fc0hj2.jpg
