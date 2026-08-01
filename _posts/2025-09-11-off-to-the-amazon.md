@@ -3,7 +3,7 @@ title: Off to the Amazon!
 date: 2025-09-06
 categories:
   - peruvian-passage
-order: 10
+order: 12
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785607464/20250906_201148_dfe49z.jpg
   overlay_filter: 0
