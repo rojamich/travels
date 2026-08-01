@@ -7,23 +7,19 @@ cover_focal_x: 50
 cover_focal_y: 28
 start_date: 2023-07-16
 end_date: 2023-08-13
-location: Germany
-lat: 50.1109
-lng: 8.6821
+location: Bad homburg, germany
+lat: 50.22715
+lng: 8.61606
 countries:
   - name: Croatia
-    lat: 45.1
-    lng: 15.2
+    lat: 43.50695
+    lng: 16.442381
   - name: Greece
-    lat: 39.0742
-    lng: 21.8243
+    lat: 37.98381
+    lng: 23.727539
   - name: Italy
-    # Milan, not Rome. This trip's Italy stops were Milan, Lake Como,
-    # Venice and Brindisi — Rome belongs to European Excursion (2022).
-    # Both trips previously carried Rome's coords, which is why Rome
-    # appeared as a twice-visited place on the map.
-    lat: 45.4642
-    lng: 9.19
+    lat: 45.903149
+    lng: 9.1821
 country_code: de
 tags:
   - Europe
