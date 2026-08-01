@@ -1,3 +1,41 @@
 entries:
   - name: California
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/960px-Flag_of_California.svg.png
+  - name: Oregon
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Oregon.svg/330px-Flag_of_Oregon.svg.png
+  - name: Arizona
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arizona.svg/330px-Flag_of_Arizona.svg.png
+  - name: Alaska
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Alaska.svg/330px-Flag_of_Alaska.svg.png
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Flag_of_Colorado.svg/330px-Flag_of_Colorado.svg.png
+    name: Colorado
+  - name: Florida
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Florida.svg/330px-Flag_of_Florida.svg.png
+  - name: Georgia
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_the_State_of_Georgia.svg/330px-Flag_of_the_State_of_Georgia.svg.png
+  - name: Hawaii
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/500px-Flag_of_Hawaii.svg.png
+  - name: Idaho
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_Idaho.svg/330px-Flag_of_Idaho.svg.png
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Massachusetts.svg/500px-Flag_of_Massachusetts.svg.png
+    name: Massachusetts
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_Montana.svg/330px-Flag_of_Montana.svg.png
+    name: Montana
+  - name: Nevada
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flag_of_Nevada.svg/330px-Flag_of_Nevada.svg.png
+  - name: New Jersey
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_New_Jersey.svg/500px-Flag_of_New_Jersey.svg.png
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_New_York.svg/500px-Flag_of_New_York.svg.png
+    name: New York
+  - name: South Carolina
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Flag_of_South_Carolina.svg/330px-Flag_of_South_Carolina.svg.png
+  - name: Texas
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Flag_of_South_Carolina.svg/330px-Flag_of_South_Carolina.svg.png
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Utah.svg/500px-Flag_of_Utah.svg.png
+    name: Utah
+  - name: Virginia
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Virginia.svg/330px-Flag_of_Virginia.svg.png
+  - name: Washinton
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Washington.svg/330px-Flag_of_Washington.svg.png
+  - name: Pennsylvania
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Pennsylvania.svg/330px-Flag_of_Pennsylvania.svg.png
