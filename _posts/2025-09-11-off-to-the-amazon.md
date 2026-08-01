@@ -1,13 +1,24 @@
 ---
-title: "Off to the Amazon!"
-date: 2025-09-11
+title: Off to the Amazon!
+date: 2025-09-06
 categories:
   - peruvian-passage
 order: 10
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785607464/20250906_201148_dfe49z.jpg
+  overlay_filter: 0
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785607533/20250907_114047_atlb5i.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 38
+  overlay_focal_x: 50
+  overlay_focal_y: 33
 tags:
   - Peru
+  - Food
+  - Transportation
+  - Nature
 location:
-  name: "Amazon Rainforest, Peru"
+  name: Amazon Rainforest, Peru
   lat: -3.7437
   lng: -73.2516
 ---
