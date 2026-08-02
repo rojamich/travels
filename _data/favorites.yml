@@ -52,18 +52,26 @@ categories:
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782741924/IMG_9962_bpvjpq.jpg
         rank: silver
         blurb: We've never felt as small as we did looking down from Pulpit Rock 🪨
+          Being able to hike on mountain tops, rock climb the GOAT, and kayak by
+          a glacier is a privilege we won't forget.
       - country: United States of America
         trip_slug: party-in-the-usa
         cover_focal_x: 50
         cover_focal_y: 32
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521019/IMG_0208_aeboqo.jpg
         rank: bronze
+        blurb: Camping, Hiking, Diving, Paddling, Kayaking, and Swimming in nature, what
+          more can you ask for from a country in the top ten worlds most
+          national parks?!
       - country: Vietnam
         trip_slug: vietnam
         cover_focal_x: 50
         cover_focal_y: 48
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521017/IMG_9637_tby65s.jpg
         rank: honorable
+        blurb: We didn't expect the level of nature from Vietnam. The Ha Giang Loop is
+          an unreal experience filled with mountains and terraces and we enjoyed
+          it all on the back of a motorbike!
   - name: Best City Life
     icon: 🏙️
     description: Our absolute favorite cities we plan to keep coming back to!
@@ -74,6 +82,9 @@ categories:
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522304/20240824_095500_fq9o1x.jpg
         rank: gold
         trip_slug: party-in-the-usa
+        blurb: Five trips to NYC and we feel we have barely scratched the surface of
+          this phenomenal city. Endless adventures like escape rooms, ice
+          skating, central park chess, and trapeze lessons to name a few!
       - cover_focal_x: 50
         cover_focal_y: 42
         country: Ho Chi Minh City, Vietnam
