@@ -176,7 +176,7 @@ Here you can see her telling me not to take photos even though you're allowed an
 
 Back in the van, we set out for the Svetitskhoveli Cathedral in Mtskheta. It is the second largest church in Georgia!
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785696821%2F20260730_154328_o9cszz.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785696817%2F20260730_154128_s3dzva.jpg%22%5D%2C%22caption%22%3A%22Can%20you%20see%20where%20the%20stone%20changes%20color%3F%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785696821%2F20260730_154328_o9cszz.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785696817%2F20260730_154128_s3dzva.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785697655%2FIMG_0003_vx2cop.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785697676%2FIMG_0009_tnkaog.jpg%22%5D%2C%22caption%22%3A%22Can%20you%20see%20where%20the%20stone%20changes%20color%3F%22%7D %}
 
 There were several brides outside and many weddings in different stages!
 
@@ -186,10 +186,32 @@ As we approached the entrance, I added a headscarf and a priest cut through the 
 
 We noticed there are no seats here and that attending church means standing for the whole thing!
 
+They protected their church here too.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785697661/IMG_0007_niwaxr.jpg)
+
 Back outside, we were greeted by beautiful signage indicating wine ice cream and coffee were being served, HOORAY! I chose a wine flavored one (tasted like grape juice) and it was really good ***and*** the normal price of 5GEL!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785697335/20260730_160502_xg6zsp.jpg)
 
-the Jvari Monastery while listening to our books!
+We walked around some of the market and each stall.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785697816/20260730_161025_zbbuwm.jpg)
+
+Then headed back for our last stop of the day -the Jvari Monastery.
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785697911%2FIMG_0026_vdsrna.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785697905%2F20260730_171023_h3hewi.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
 
 The name "Jvari Monastery" is translated as the "Monastery of the Cross." and is a UNESCO world heritage site!
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785697961%2F20260730_170055_agajk6.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785697959%2F20260730_170052_yzguvq.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+
+From atop the hill, you can see where two, distinctly different colored rivers meet! 
+
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785698036%2FIMG_0022_lftln8.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785698042%2FIMG_0014_nj5gvp.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785698065%2FIMG_0013_z23ii2.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785698172%2FRivers_meeting_dh65ru.jpg%22%5D%2C%22caption%22%3A%22See%20the%20Mtkvar(dark%20grey%2Fgreen%2Fbrown)%20i%20and%20Aragvi%20(blue%2Fclear)%20rivers%3F%22%7D %}
+
+We have a short drive back to own but Mike & I both finish our audiobooks! Me (the [Midnight Train by Matt Haig](https://www.goodreads.com/en/book/show/242380266-the-midnight-train)) and Mike ([Timeline by Michael Crichton](https://www.goodreads.com/book/show/7669.Timeline)).
+
+To our deep surprise, we are back early, have energy to walk home, and even cook a delicious dinner!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785698403/20260730_201027_emzdni.jpg)
