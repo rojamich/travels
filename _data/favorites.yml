@@ -164,24 +164,33 @@ categories:
         rank: gold
         trip_slug: european-excursion
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614965/20220215_163656_l5rm7w.jpg
+        blurb: Every building felt like a work of art. Sculptures, the louvre, the
+          church (above) and the catacombs - lets not forget the Eiffel Tower
+          sparkling at night!
       - cover_focal_x: 50
         cover_focal_y: 71
         country: Japan
         rank: silver
         trip_slug: bamboo-bulgogi
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785615104/20241223_062840_h5ingb.jpg
+        blurb: Japan was like nothing we have ever seen before. New religions and
+          colors, even the castles were amazing and different!
       - cover_focal_x: 50
         cover_focal_y: 30
         country: United States of America
         rank: bronze
         trip_slug: party-in-the-usa
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785615285/20240824_100117_zxwcdl.jpg
+        blurb: Going inside the statue of Liberty was a once-in-a-lifetime event for us!
+          I genuinely thought it was only something people did in movies!
       - country: Italy
         trip_slug: european-excursion
         cover_focal_x: 50
         cover_focal_y: 7
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522976/20220220_144310_ecmp9t.jpg
         rank: honorable
+        blurb: Home to many works of art by Davinci, the colosseum, Pisa, and Venice
+          alone felt like a wonder to behold!
   - ranked: true
     name: Best Wildlife
     icon: 🐋
@@ -193,12 +202,17 @@ categories:
         rank: gold
         trip_slug: peruvian-passage
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785604038/20250908_161036_pdcmaz.jpg
+        blurb: The Amazon Rainforest was a menagerie of wildlife that ranged from
+          piranha, tarantulas, and crocodiles to macaws and our first capybara
+          sighting!
       - cover_focal_x: 50
         cover_focal_y: 16
         country: South Africa
         rank: silver
         trip_slug: african-safari
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614255/20240909_104540_q5ujsg.jpg
+        blurb: The first time we saw elephants we thought, "Holy Sh❗t! Those are wayyy
+          bigger than I thought!
       - cover_focal_x: 50
         cover_focal_y: 71
         rank: bronze
