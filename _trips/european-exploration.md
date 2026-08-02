@@ -27,6 +27,7 @@ tags:
   - Nature
   - PetSitting
   - Food
+  - Roadtrip
 ---
 
 <!-- Optional intro text appears here on the trip page; leave blank to skip. -->
