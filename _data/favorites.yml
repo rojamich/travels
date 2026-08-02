@@ -124,6 +124,7 @@ categories:
         blurb: "The Netherlands did not sound impressive before we departed. Luckily, we
           were incredibly incorrect and enjoyed the food (our first Indonesian
           meals!), History, architecture, and biking made easy 🚲 "
+        rank: gold
       - cover_focal_x: 50
         cover_focal_y: 50
         country: South Africa
@@ -211,20 +212,31 @@ categories:
         rank: silver
         trip_slug: african-safari
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614255/20240909_104540_q5ujsg.jpg
-        blurb: The first time we saw elephants we thought, "Holy Sh❗t! Those are wayyy
-          bigger than I thought!
+        blurb: "The first time we saw elephants we thought, \"Holy Sh❗t! Those are wayyy
+          bigger than I thought! We were stunned by zebras, giraffes, hyenas,
+          warthogs, and more impala than imaginable. Is it just me or are
+          hippos' ears the cutest things ever? "
       - cover_focal_x: 50
         cover_focal_y: 71
         rank: bronze
         country: Botswana
         trip_slug: african-safari
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614231/20240909_110309_wxad5f.jpg
+        blurb: Seeing a lioness devouring a kill is part horrifying, part amazing. While
+          we watched the blood drip from her lips, I thought, perhaps we shall
+          take our leave? We also saw monitor lizards (my childhood nightmare)
+          and I try not to think about how close we got to the crocodiles.
       - cover_focal_x: 50
         cover_focal_y: 83
         country: United States of America
         trip_slug: party-in-the-usa
         rank: honorable
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614445/20220525_082644_megssq.jpg
+        blurb: Glacier National Park stopped us in our tracks because of its beauty but
+          we remember it first for our bear sightings! Just foraging on the side
+          of the road like it wasn't changing our lives! Seeing a moose in
+          Alaska really struck my bucket list hard and diving with manta rays in
+          Maui? Remarkable!
   - name: Kindest Locals
     icon: 🤗
     entries:
@@ -234,21 +246,39 @@ categories:
         trip_slug: bamboo-bulgogi
         rank: gold
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785615659/IMG-20241214-WA0013_k2hakz.jpg
+        blurb: "We could write a book about how kind everyone was but some prime
+          examples were: our friends from Botswana taking time to meet up with
+          us, a man missing his train to give us directions, and a train
+          employee running with us to ensure we caught our train 🤯"
       - cover_focal_x: 50
         cover_focal_y: 28
         country: Vietnam
         rank: silver
         trip_slug: vietnam
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783626842/20251219_164500_ten6vx.jpg
+        blurb: From our Vietnamese tutor meeting us with gifts to the hotel staff
+          surprising Mike for his birthday, we were so grateful to every
+          interaction there. We loved that locals patiently helped us with our
+          Vietnamese too!
       - cover_focal_x: 50
         cover_focal_y: 95
         country: Norway
         rank: bronze
         trip_slug: fjords-forever
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782925729/20260630_185300_sycwxx.jpg
+        blurb: Ruth (my sweet friend from the flight), Marie (the kindest hotel employee
+          on earth), and our huge group of friends at the Norway match really
+          took this amazing trip to a new level!
       - cover_focal_x: 50
         cover_focal_y: 100
         country: United States of America
         rank: honorable
         trip_slug: party-in-the-usa
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785616026/20260417_210356_ysfcll.jpg
+        blurb: Living here most of our lives gives us a lifetime of examples. The ones
+          that stand out the most are 1) after totaling our car in Georgia,
+          locals stopped to make sure we were ok and let us use their phone to
+          call a tow truck (waiting with us in the rain!). 2) Mike and I were
+          chased by a man with a knife until a car filled with old ladies
+          stopped in the middle of the road to let us in their car!
+    description: These interactions elevated our experiences and made us feel so welcomed!
