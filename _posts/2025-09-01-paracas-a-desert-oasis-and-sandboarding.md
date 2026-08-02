@@ -1,13 +1,21 @@
 ---
-title: "Paracas, a Desert Oasis, and Sandboarding!"
-date: 2025-09-01
+title: Paracas, a Desert Oasis, and Sandboarding!
+date: 2025-08-29
 categories:
   - peruvian-passage
 order: 4
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785652802/Screenshot_20250829_182332_Gallery_icrmsm.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785652794/20250829_173657_ctbo5m.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 46
+  overlay_focal_x: 50
+  overlay_focal_y: 48
 tags:
   - Peru
 location:
-  name: "Paracas, Peru"
+  name: Paracas, Peru
   lat: -13.835
   lng: -76.2486
 ---
