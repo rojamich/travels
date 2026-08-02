@@ -79,6 +79,47 @@ def stable_id(url):
     return hashlib.sha1(url.encode("utf-8")).hexdigest()[:20]
 
 
+def fetch_with_retry(session_holder, url, retries, base_delay, verbose=True):
+    """Download a Blogger image, retrying through transient disconnects.
+
+    Blogger throttles bursts of sequential requests by closing the connection
+    outright — surfaced as RemoteDisconnected / ConnectionError rather than an
+    HTTP status. It is transient: backing off and retrying almost always
+    succeeds.
+
+    A dropped connection can also poison the pooled keep-alive socket, so we
+    rebuild the session before each retry rather than reusing a broken one.
+    session_holder is a one-item list so the replacement is visible to the
+    caller.
+    """
+    import requests
+
+    last = None
+    for attempt in range(retries + 1):
+        try:
+            resp = session_holder[0].get(url, timeout=60)
+            resp.raise_for_status()
+            return resp.content
+        except Exception as exc:  # noqa: BLE001 - retry any transport failure
+            last = exc
+            if attempt == retries:
+                break
+            wait = base_delay * (2 ** attempt)
+            if verbose:
+                print(f"      retry {attempt + 1}/{retries} in {wait:.0f}s "
+                      f"({type(exc).__name__})")
+            time.sleep(wait)
+            session_holder[0] = new_session()
+    raise last
+
+
+def new_session():
+    import requests
+    sess = requests.Session()
+    sess.headers["User-Agent"] = "Mozilla/5.0 (travel-blog image migration)"
+    return sess
+
+
 def load_mapping():
     if os.path.exists(MAPPING_FILE):
         with io.open(MAPPING_FILE, encoding="utf-8") as fh:
@@ -113,7 +154,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="plan only, write nothing")
     ap.add_argument("--limit", type=int, default=0, help="stop after N files (0 = all)")
-    ap.add_argument("--delay", type=float, default=0.25, help="seconds between uploads")
+    ap.add_argument("--delay", type=float, default=0.4,
+                    help="seconds between uploads (raise if Blogger keeps dropping)")
+    ap.add_argument("--retries", type=int, default=4,
+                    help="retry attempts per image on a dropped connection")
     args = ap.parse_args()
 
     found = collect()
@@ -150,8 +194,7 @@ def main():
         return 1
     cloudinary.config(secure=True)
 
-    session = requests.Session()
-    session.headers["User-Agent"] = "Mozilla/5.0 (travel-blog image migration)"
+    session_holder = [new_session()]
 
     processed = 0
     for path, urls in found.items():
@@ -167,11 +210,11 @@ def main():
                 continue
 
             try:
-                resp = session.get(upsize(url), timeout=60)
-                resp.raise_for_status()
+                content = fetch_with_retry(session_holder, upsize(url),
+                                           args.retries, base_delay=2.0)
 
                 result = cloudinary.uploader.upload(
-                    resp.content,
+                    content,
                     folder=CLOUD_FOLDER,
                     # Same URL twice always resolves to the same asset, so a
                     # re-run can't create duplicates even if the mapping file
