@@ -1,9 +1,9 @@
 ---
 title: An Adventure to Peru
-date: 2025-08-29
+date: 2025-08-26
 categories:
   - peruvian-passage
-order: 2
+order: 1
 header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785590466/20250827_184702_jrtxdh.jpg
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785590607/20250827_184659_paf1gl.jpg
@@ -12,6 +12,10 @@ header:
   overlay_focal_x: 50
   overlay_focal_y: 50
   overlay_filter: 0
+tags:
+  - Flights
+  - Delays
+  - Food
 location:
   name: Lima, Peru
   lat: -12.0464
