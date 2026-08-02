@@ -41,7 +41,7 @@ categories:
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782741924/IMG_9962_bpvjpq.jpg
         rank: silver
       - country: United States of America
-        trip_slug: "'Party in the USA'"
+        trip_slug: party-in-the-usa
         cover_focal_x: 50
         cover_focal_y: 32
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521019/IMG_0208_aeboqo.jpg
@@ -65,7 +65,7 @@ categories:
       - cover_focal_x: 50
         cover_focal_y: 42
         country: Ho Chi Minh City, Vietnam
-        trip_slug: Vietnam
+        trip_slug: vietnam
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522184/20251211_074831_x5hkss.jpg
         rank: silver
       - country: Tokyo, Japan
