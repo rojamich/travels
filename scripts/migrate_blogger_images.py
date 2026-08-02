@@ -47,6 +47,7 @@ USAGE
 
 import argparse
 import glob
+import hashlib
 import io
 import json
 import os
@@ -66,6 +67,16 @@ SIZE_DIRECTIVE_RE = re.compile(r"/(?:[swh]\d+(?:-[swh]\d+)*|w\d+-h\d+-[a-z-]+)/"
 
 def upsize(url):
     return SIZE_DIRECTIVE_RE.sub("/s0/", url)
+
+
+def stable_id(url):
+    """Deterministic Cloudinary public_id for a source URL.
+
+    Must NOT use Python's built-in hash(): it is salted per process, so the
+    same URL would produce a different id on every run and a resumed or
+    repeated migration would silently upload duplicates.
+    """
+    return hashlib.sha1(url.encode("utf-8")).hexdigest()[:20]
 
 
 def load_mapping():
@@ -165,9 +176,15 @@ def main():
                     # Same URL twice always resolves to the same asset, so a
                     # re-run can't create duplicates even if the mapping file
                     # is lost.
-                    public_id=str(abs(hash(url)) % (10 ** 16)),
+                    public_id=stable_id(url),
                     overwrite=False,
                     resource_type="image",
+                    # Incoming transformation: resize BEFORE storing, so 6,000
+                    # images don't consume the storage quota at full size. We
+                    # only ever deliver at 1200px wide, so a 2400px cap is
+                    # invisible on the site but roughly halves what's kept.
+                    transformation=[{"width": 2400, "crop": "limit",
+                                     "quality": "auto:good"}],
                 )
                 new_url = result["secure_url"]
                 mapping[url] = new_url
