@@ -1,9 +1,9 @@
 ---
 title: A Train Sojourn to Aguas Calientes
-date: 2025-09-05
+date: 2025-09-04
 categories:
   - peruvian-passage
-order: 11
+order: 10
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785613226/20250904_140139_thgjsy.jpg
   overlay_filter: 0
