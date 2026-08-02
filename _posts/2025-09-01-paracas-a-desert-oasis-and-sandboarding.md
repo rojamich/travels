@@ -1,6 +1,6 @@
 ---
 title: Paracas, a Desert Oasis, and Sandboarding!
-date: 2025-09-29
+date: 2025-08-29
 categories:
   - peruvian-passage
 order: 4
