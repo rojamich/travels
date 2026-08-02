@@ -7,7 +7,9 @@ categories:
       - country: Vietnam
         trip_slug: vietnam
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785508950/IMG-20251212-WA0015_uoianw.jpg
-        blurb: ""
+        blurb: Cơm Tấm, Bánh Mì, Rau Muống, and Bánh Cuốn are the meals that we can't
+          stop thinking about - the veggies alone are enough to make us come
+          back!
         cover_focal_x: 50
         cover_focal_y: 13
         rank: gold
@@ -17,12 +19,19 @@ categories:
         trip_slug: party-in-the-usa
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785525254/20240502_140523_cydbqu.jpg
         rank: silver
+        blurb: Having lived here for 30+ years gave us a lot of time to find amazing
+          food! Sushi, everything breakfast bagels, Tikka Masala, ok, I need to
+          stop because I'm getting hungry!
       - cover_focal_x: 50
         cover_focal_y: 36
         country: Germany
         trip_slug: european-excursion
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785587749/Mensa_tgf7qc.jpg
         rank: bronze
+        blurb: While German food is not good, they had great food from other country's!
+          Italian, khinkali, pretzels, and desserts are just a few examples. We
+          can't talk about Germany without mentioning the best Italian food of
+          our life at Mensa in Berlin.
   - name: Best Nature
     icon: 🏔️
     description: Landscapes that took our breath away.
@@ -30,7 +39,9 @@ categories:
       - country: New Zealand
         trip_slug: new-zealand
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785519074/20221120_123432_m4o4k8.jpg
-        blurb: ""
+        blurb: This country is pretty well-hyped but it simply isn't enough to reflect
+          the awe-inspiring beauty. Hiking, cruising, and road tripping via
+          campervan allowed us to see this country over 3 weeks!
         cover_focal_x: 50
         cover_focal_y: 40
         rank: gold
@@ -40,18 +51,27 @@ categories:
         trip_slug: fjords-forever
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782741924/IMG_9962_bpvjpq.jpg
         rank: silver
+        blurb: We've never felt as small as we did looking down from Pulpit Rock 🪨
+          Being able to hike on mountain tops, rock climb the GOAT, and kayak by
+          a glacier is a privilege we won't forget.
       - country: United States of America
         trip_slug: party-in-the-usa
         cover_focal_x: 50
         cover_focal_y: 32
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521019/IMG_0208_aeboqo.jpg
         rank: bronze
+        blurb: Camping, Hiking, Diving, Paddling, Kayaking, and Swimming in nature, what
+          more can you ask for from a country in the top ten worlds most
+          national parks?!
       - country: Vietnam
         trip_slug: vietnam
         cover_focal_x: 50
         cover_focal_y: 48
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785521017/IMG_9637_tby65s.jpg
         rank: honorable
+        blurb: We didn't expect the level of nature from Vietnam. The Ha Giang Loop is
+          an unreal experience filled with mountains and terraces and we enjoyed
+          it all on the back of a motorbike!
   - name: Best City Life
     icon: 🏙️
     description: Our absolute favorite cities we plan to keep coming back to!
@@ -62,24 +82,36 @@ categories:
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522304/20240824_095500_fq9o1x.jpg
         rank: gold
         trip_slug: party-in-the-usa
+        blurb: Five trips to NYC and we feel we have barely scratched the surface of
+          this phenomenal city. Endless adventures like escape rooms, ice
+          skating, central park chess, and trapeze lessons to name a few!
       - cover_focal_x: 50
         cover_focal_y: 42
         country: Ho Chi Minh City, Vietnam
         trip_slug: vietnam
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522184/20251211_074831_x5hkss.jpg
         rank: silver
+        blurb: The food alone is enough to bring us back, the kindness of the locals,
+          the language, outdoor gyms in abundance - what's not to love??
       - country: Tokyo, Japan
         trip_slug: bamboo-bulgogi
         cover_focal_x: 50
         cover_focal_y: 35
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522179/20241216_173952_ahkcbf.jpg
         rank: bronze
+        blurb: Might be one of the cleanest cities we have ever seen. It's coupled with
+          the efficient transportation, neck-breaking sights, and patience of
+          those around us!
       - country: Berlin, Germany
         trip_slug: european-excursion
         cover_focal_x: 50
         cover_focal_y: 4
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522181/20220311_140300_odv5jd.jpg
         rank: honorable
+        blurb: We knew we loved Berlin pretty much from the first day and have spent
+          every vacation since, trying to route stops through it! Food, people,
+          language, weather, and things to do could probably keep us busy for a
+          lifetime of stopovers!
   - name: Most Underrated
     icon: ✨
     description: Places we didn't expect to love.
@@ -89,23 +121,40 @@ categories:
         cover_focal_x: 50
         cover_focal_y: 18
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522893/20220315_105300_xpehr2.jpg
+        blurb: "The Netherlands did not sound impressive before we departed. Luckily, we
+          were incredibly incorrect and enjoyed the food (our first Indonesian
+          meals!), History, architecture, and biking made easy 🚲 "
+        rank: gold
       - cover_focal_x: 50
         cover_focal_y: 50
         country: South Africa
         trip_slug: african-safari
         rank: silver
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614715/20240829_080848_hqq96p.jpg
+        blurb: Africa was always depicted as the most dangerous place you could ever
+          visit. Thankfully, outside of baboons 🐒 terrifying us, we were
+          extremely safe and have wanted to return ever since. Jenna has not
+          stopped reading novels about Africa (having to order them regularly
+          since they aren't in any libraries)!
       - country: Vietnam
         trip_slug: vietnam
         cover_focal_x: 50
         cover_focal_y: 95
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522916/20251213_103717_khrodv.jpg
         rank: bronze
+        blurb: What even is there to do there? Um, I would go here for the food and
+          coffee alone. Outside of that you will be blown away by the unique
+          architecture, the tours you hope will never end, and views that'll
+          make you move abroad 🗺️
       - cover_focal_x: 50
         cover_focal_y: 2
         country: Mexico
         rank: honorable
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614799/20250504_101609_krkg8a.jpg
+        blurb: "The media tells us that you'll most definitely be kidnapped by the
+          cartel if you're outside of Cabo - happy to ignore the ignorance, we
+          \"risked our lives\" for the tacos. Totally worth the gamble for one
+          of our most memorable weekends! "
   - name: Best Wonders
     icon: 🗼
     description: Sights that blew our minds!
@@ -116,24 +165,33 @@ categories:
         rank: gold
         trip_slug: european-excursion
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614965/20220215_163656_l5rm7w.jpg
+        blurb: Every building felt like a work of art. Sculptures, the louvre, the
+          church (above) and the catacombs - lets not forget the Eiffel Tower
+          sparkling at night!
       - cover_focal_x: 50
         cover_focal_y: 71
         country: Japan
         rank: silver
         trip_slug: bamboo-bulgogi
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785615104/20241223_062840_h5ingb.jpg
+        blurb: Japan was like nothing we have ever seen before. New religions and
+          colors, even the castles were amazing and different!
       - cover_focal_x: 50
         cover_focal_y: 30
         country: United States of America
         rank: bronze
         trip_slug: party-in-the-usa
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785615285/20240824_100117_zxwcdl.jpg
+        blurb: Going inside the statue of Liberty was a once-in-a-lifetime event for us!
+          I genuinely thought it was only something people did in movies!
       - country: Italy
         trip_slug: european-excursion
         cover_focal_x: 50
         cover_focal_y: 7
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522976/20220220_144310_ecmp9t.jpg
         rank: honorable
+        blurb: Home to many works of art by Davinci, the colosseum, Pisa, and Venice
+          alone felt like a wonder to behold!
   - ranked: true
     name: Best Wildlife
     icon: 🐋
@@ -145,24 +203,40 @@ categories:
         rank: gold
         trip_slug: peruvian-passage
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785604038/20250908_161036_pdcmaz.jpg
+        blurb: The Amazon Rainforest was a menagerie of wildlife that ranged from
+          piranha, tarantulas, and crocodiles to macaws and our first capybara
+          sighting!
       - cover_focal_x: 50
         cover_focal_y: 16
         country: South Africa
         rank: silver
         trip_slug: african-safari
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614255/20240909_104540_q5ujsg.jpg
+        blurb: "The first time we saw elephants we thought, \"Holy Sh❗t! Those are wayyy
+          bigger than I thought! We were stunned by zebras, giraffes, hyenas,
+          warthogs, and more impala than imaginable. Is it just me or are
+          hippos' ears the cutest things ever? "
       - cover_focal_x: 50
         cover_focal_y: 71
         rank: bronze
         country: Botswana
         trip_slug: african-safari
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614231/20240909_110309_wxad5f.jpg
+        blurb: Seeing a lioness devouring a kill is part horrifying, part amazing. While
+          we watched the blood drip from her lips, I thought, perhaps we shall
+          take our leave? We also saw monitor lizards (my childhood nightmare)
+          and I try not to think about how close we got to the crocodiles.
       - cover_focal_x: 50
         cover_focal_y: 83
         country: United States of America
         trip_slug: party-in-the-usa
         rank: honorable
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614445/20220525_082644_megssq.jpg
+        blurb: Glacier National Park stopped us in our tracks because of its beauty but
+          we remember it first for our bear sightings! Just foraging on the side
+          of the road like it wasn't changing our lives! Seeing a moose in
+          Alaska really struck my bucket list hard and diving with manta rays in
+          Maui? Remarkable!
   - name: Kindest Locals
     icon: 🤗
     entries:
@@ -172,21 +246,39 @@ categories:
         trip_slug: bamboo-bulgogi
         rank: gold
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785615659/IMG-20241214-WA0013_k2hakz.jpg
+        blurb: "We could write a book about how kind everyone was but some prime
+          examples were: our friends from Botswana taking time to meet up with
+          us, a man missing his train to give us directions, and a train
+          employee running with us to ensure we caught our train 🤯"
       - cover_focal_x: 50
         cover_focal_y: 28
         country: Vietnam
         rank: silver
         trip_slug: vietnam
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783626842/20251219_164500_ten6vx.jpg
+        blurb: From our Vietnamese tutor meeting us with gifts to the hotel staff
+          surprising Mike for his birthday, we were so grateful to every
+          interaction there. We loved that locals patiently helped us with our
+          Vietnamese too!
       - cover_focal_x: 50
         cover_focal_y: 95
         country: Norway
         rank: bronze
         trip_slug: fjords-forever
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782925729/20260630_185300_sycwxx.jpg
+        blurb: Ruth (my sweet friend from the flight), Marie (the kindest hotel employee
+          on earth), and our huge group of friends at the Norway match really
+          took this amazing trip to a new level!
       - cover_focal_x: 50
         cover_focal_y: 100
         country: United States of America
         rank: honorable
         trip_slug: party-in-the-usa
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785616026/20260417_210356_ysfcll.jpg
+        blurb: Living here most of our lives gives us a lifetime of examples. The ones
+          that stand out the most are 1) after totaling our car in Georgia,
+          locals stopped to make sure we were ok and let us use their phone to
+          call a tow truck (waiting with us in the rain!). 2) Mike and I were
+          chased by a man with a knife until a car filled with old ladies
+          stopped in the middle of the road to let us in their car!
+    description: These interactions elevated our experiences and made us feel so welcomed!
