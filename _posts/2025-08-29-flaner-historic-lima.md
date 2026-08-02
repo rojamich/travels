@@ -1,6 +1,6 @@
 ---
 title: Flaner Historic Lima
-date: 2025-08-29
+date: 2025-08-28
 categories:
   - peruvian-passage
 order: 3
