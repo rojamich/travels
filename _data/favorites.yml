@@ -91,18 +91,27 @@ categories:
         trip_slug: vietnam
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522184/20251211_074831_x5hkss.jpg
         rank: silver
+        blurb: The food alone is enough to bring us back, the kindness of the locals,
+          the language, outdoor gyms in abundance - what's not to love??
       - country: Tokyo, Japan
         trip_slug: bamboo-bulgogi
         cover_focal_x: 50
         cover_focal_y: 35
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522179/20241216_173952_ahkcbf.jpg
         rank: bronze
+        blurb: Might be one of the cleanest cities we have ever seen. It's coupled with
+          the efficient transportation, neck-breaking sights, and patience of
+          those around us!
       - country: Berlin, Germany
         trip_slug: european-excursion
         cover_focal_x: 50
         cover_focal_y: 4
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522181/20220311_140300_odv5jd.jpg
         rank: honorable
+        blurb: We knew we loved Berlin pretty much from the first day and have spent
+          every vacation since, trying to route stops through it! Food, people,
+          language, weather, and things to do could probably keep us busy for a
+          lifetime of stopovers!
   - name: Most Underrated
     icon: ✨
     description: Places we didn't expect to love.
@@ -112,23 +121,39 @@ categories:
         cover_focal_x: 50
         cover_focal_y: 18
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522893/20220315_105300_xpehr2.jpg
+        blurb: "The Netherlands did not sound impressive before we departed. Luckily, we
+          were incredibly incorrect and enjoyed the food (our first Indonesian
+          meals!), History, architecture, and biking made easy 🚲 "
       - cover_focal_x: 50
         cover_focal_y: 50
         country: South Africa
         trip_slug: african-safari
         rank: silver
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614715/20240829_080848_hqq96p.jpg
+        blurb: Africa was always depicted as the most dangerous place you could ever
+          visit. Thankfully, outside of baboons 🐒 terrifying us, we were
+          extremely safe and have wanted to return ever since. Jenna has not
+          stopped reading novels about Africa (having to order them regularly
+          since they aren't in any libraries)!
       - country: Vietnam
         trip_slug: vietnam
         cover_focal_x: 50
         cover_focal_y: 95
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785522916/20251213_103717_khrodv.jpg
         rank: bronze
+        blurb: What even is there to do there? Um, I would go here for the food and
+          coffee alone. Outside of that you will be blown away by the unique
+          architecture, the tours you hope will never end, and views that'll
+          make you move abroad 🗺️
       - cover_focal_x: 50
         cover_focal_y: 2
         country: Mexico
         rank: honorable
         cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785614799/20250504_101609_krkg8a.jpg
+        blurb: "The media tells us that you'll most definitely be kidnapped by the
+          cartel if you're outside of Cabo - happy to ignore the ignorance, we
+          \"risked our lives\" for the tacos. Totally worth the gamble for one
+          of our most memorable weekends! "
   - name: Best Wonders
     icon: 🗼
     description: Sights that blew our minds!
