@@ -7,7 +7,7 @@ cover_focal_x: 50
 cover_focal_y: 28
 start_date: 2023-07-16
 end_date: 2023-08-13
-location: Bad homburg, germany
+location: Bad homburg, Germany
 lat: 50.22715
 lng: 8.61606
 countries:
