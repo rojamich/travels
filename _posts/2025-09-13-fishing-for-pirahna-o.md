@@ -18,9 +18,9 @@ tags:
   - Wildlife
   - Adventure
 location:
-  name: Amazon Rainforest, Peru
-  lat: 3.749
-  lng: 73.254
+  name: ""
+  lat: ""
+  lng: ""
 ---
 
 After lunch, a refreshing nap, and listening to our audiobook while the rain poured down, it was time to go back out on the boat. 
