@@ -16,6 +16,10 @@ tags:
   - RockClimbing
   - Hiking
 toc: false
+location:
+  name: Svolvaer, Lofoten
+  lat: 68.234
+  lng: 14.5686
 ---
 The weather held out for us! It's a beautiful morning for a rock climbing lesson 🥳 We made breakfast 🍳 and headed out to meet our guide. 
 

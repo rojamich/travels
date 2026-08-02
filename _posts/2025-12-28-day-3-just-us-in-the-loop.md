@@ -10,6 +10,10 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780881360/20251228_095346_ktymow.jpg
 tags: []
 toc: false
+location:
+  name: Ha Giang, Vietnam
+  lat: 22.8233
+  lng: 104.9784
 ---
 After a full night's rest, I woke up early to get a run in down the streets of the small town - after sitting so much each day, it felt good to stretch my legs :) We thought riding each day would be more taxing but the guides ensured we stopped frequently which made it enjoyable rather than physically depleting! 
 

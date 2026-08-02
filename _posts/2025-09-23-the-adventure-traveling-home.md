@@ -14,6 +14,10 @@ header:
   overlay_filter: 0
 tags:
   - Peru
+location:
+  name: Iquitos, Peru
+  lat: -3.7437
+  lng: -73.2516
 ---
 
 The lodge boarded us up on the riverboat to bring us back to Iquitos. We were all loaded up and about halfway down the river when a girl realized she had forgotten a bag. We turned around, and thankfully, a lodge employee met us with the bag, so we didn't have to go all the way back!

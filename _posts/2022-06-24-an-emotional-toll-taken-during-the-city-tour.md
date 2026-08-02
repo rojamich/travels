@@ -6,6 +6,10 @@ categories:
 order: 81
 tags:
   - Germany
+location:
+  name: Berlin, Germany
+  lat: 52.5139
+  lng: 13.3778
 ---
 
 We continued walking to the Memorial to the Murdered Jews of Europe. Here stand 2,711 coffin-shaped figures that represent the six million Jews that were killed by the Nazis. The title was intentionally straight-forward as Germany wanted to show they were taking accountability for their actions in this time period. The memorial is both humbling and heart-breaking. The stones vary in height. Some are quite small while others dwarf you.

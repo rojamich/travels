@@ -6,6 +6,10 @@ categories:
 order: 23
 tags:
   - France
+location:
+  name: Paris, France
+  lat: 48.8566
+  lng: 2.3522
 ---
 
 Since we began planning the trip, I had been dying for a French beret! Everywhere we went on the trip, Mike and I pointed out, French hat! French hat! But I swore I would wait and get a French hat, in France! So, naturally, the moment we arrived in France, the hunt began. Who knows how many stores we wandered through in search of this perfect beret! We found a mall and my heart was just about ready to give up when we found a store with a stall tucked away with multiple berets! All sorts of colors and two different kinds. The sweet girl working there helped me learn how to place the hat correctly on my head! How nice?! It was truly love! 

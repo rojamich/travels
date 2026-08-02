@@ -6,6 +6,10 @@ categories:
 order: 7
 tags:
   - South Africa
+location:
+  name: Lion's Head, Cape Town
+  lat: -33.9353
+  lng: 18.3897
 ---
 
 Last night we fell asleep to the sound of rhythmic drumming coming from down the street. It was soothing and there was no question we were in Africa now. This morning, we woke to the Adhan, or the Muslim call to prayer. We initially thought Cape Town must have a high number of Muslims residing here but upon further research, we found out there is only a 6.6% Muslim population. However, we are staying in Bo-Kaap which is a 56.6% Muslim population! That explains the prayer rooms and this found on the ceiling:

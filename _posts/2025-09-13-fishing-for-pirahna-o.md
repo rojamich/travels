@@ -18,9 +18,9 @@ tags:
   - Wildlife
   - Adventure
 location:
-  name: ""
-  lat: ""
-  lng: ""
+  name: Amazon River, near Iquitos
+  lat: -3.7437
+  lng: -73.2516
 ---
 
 After lunch, a refreshing nap, and listening to our audiobook while the rain poured down, it was time to go back out on the boat. 

@@ -6,6 +6,10 @@ categories:
 order: 3
 tags:
   - London
+location:
+  name: Whitechapel, London
+  lat: 51.5194
+  lng: -0.0611
 ---
 
 Our first stop in London!

@@ -6,6 +6,10 @@ categories:
 order: 22
 tags:
   - France
+location:
+  name: Paris, France
+  lat: 48.8566
+  lng: 2.3522
 ---
 
 Our train from Belgium to France was cancelled so the only alternative in our price range was a bus. After a miserable four-hour bus ride from Belgium to France, we finally made it! Watching the French countryside pass by was relaxing at least. 

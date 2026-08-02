@@ -6,6 +6,10 @@ categories:
 order: 8
 tags:
   - Germany
+location:
+  name: Bad Homburg, Germany
+  lat: 50.2271
+  lng: 8.6161
 ---
 
 I woke up this morning to the residents of the apartment completely irate that I slept in past 5am! I don’t even feed them until 730Am! Nevertheless, Rosine let me have it!

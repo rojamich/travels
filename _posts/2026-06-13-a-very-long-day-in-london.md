@@ -10,6 +10,10 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781554579/20260614_122949_eoao8p.jpg
 tags: []
 toc: false
+location:
+  name: London, England
+  lat: 51.5074
+  lng: -0.1278
 ---
 We were enthusiastic going into this flight! We had wide, comfy seats with legroom, a kindle full of books, a bag full of snacks, and hearts filled with excitement!
 

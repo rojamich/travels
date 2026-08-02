@@ -15,6 +15,10 @@ header:
 tags:
   - Architecture
 toc: false
+location:
+  name: Old Town, Tbilisi
+  lat: 41.6938
+  lng: 44.8015
 ---
 Today's menu: sightseeing! This is truly a land of churches with the dominant religion being Eastern Orthodoxy and we have quite a few religious sites to see today! 
 

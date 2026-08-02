@@ -10,7 +10,9 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781756786/20251231_111524_vu9wa1.jpg
 tags: []
 location:
-  name: Hanoi
+  name: Hanoi Train Street
+  lat: 21.0245
+  lng: 105.8412
 toc: false
 ---
 Today I was highly looking forward to Mike's appointment at [Barbaard ](https://barbaard.com/)- a Dutch-style barber experience!

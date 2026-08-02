@@ -10,6 +10,10 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782065085/20260620_205220_hxhfeo.jpg
 tags: []
 toc: false
+location:
+  name: Oslo, Norway
+  lat: 59.9139
+  lng: 10.7522
 ---
 What a day of relaxation! We took today off, there was supposed to be a big rainstorm! So it felt fitting to call it a down day. 10 hours of sleep later, a ton of reading (steam deck playing for Mike) and a walk for gelato – there was never a rainstorm lol!
 

@@ -6,6 +6,10 @@ categories:
 order: 5
 tags:
   - South Africa
+location:
+  name: Cape Town, South Africa
+  lat: -33.9249
+  lng: 18.4241
 ---
 
 You may not know that when I met Mike (almost exactly 13 years ago!) I had zero interest in travel. He originally talked about places he would like to see in his life and I said I had no motivation to ever leave Sacramento. It was an easy comfort zone and what more could the world have to offer than California?

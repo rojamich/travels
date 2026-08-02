@@ -18,6 +18,10 @@ tags:
   - Sight-Seeing
   - Food
 toc: false
+location:
+  name: Tbilisi, Georgia
+  lat: 41.7151
+  lng: 44.8271
 ---
 A storm brewed up last night - pouring rain, thunder and lightning filled the sky. I can't believe we get summer storms while we are here! This is the fourth one (including flying in!) It's also so considerate that it waits til we aren't out and about in it ⛈️🤣
 

@@ -11,6 +11,10 @@ header:
 tags:
   - TravelDay
 toc: false
+location:
+  name: New York City
+  lat: 40.7128
+  lng: -74.006
 ---
 Holy Moly, I was sore in all new places from that trapeze class! Definitely thought I would workout or run this morning but rest was much needed.
 

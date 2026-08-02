@@ -10,6 +10,10 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781888384/20260619_152031_t3xgap.jpg
 tags: []
 toc: false
+location:
+  name: Oslo, Norway
+  lat: 59.9139
+  lng: 10.7522
 ---
 Another early wake up with the sun high in the sky at 5am! I woke up at 3am to pouring rain which lulled me back to sleep, how perfect :)
 

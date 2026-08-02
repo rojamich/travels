@@ -10,6 +10,10 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781554534/IMG_9769_ebhdmc.jpg
 tags: []
 toc: false
+location:
+  name: Westminster, London
+  lat: 51.4995
+  lng: -0.1248
 ---
 Finally a good evening's rest and we woke up feeling fabulous! An easy workout later and we are packed for the long day ahead! 
 

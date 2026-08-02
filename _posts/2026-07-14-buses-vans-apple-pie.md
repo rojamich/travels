@@ -16,6 +16,10 @@ tags:
   - Food
   - ""
 toc: false
+location:
+  name: Tbilisi, Georgia
+  lat: 41.7151
+  lng: 44.8271
 ---
 We (surprisingly) quickly adapted to the lifestyle in Georgia and woke up around 10am this morning! I thought we would be done with eye covers now that we left the summer sun area of Norway but this new lifestyle makes them necessary! 
 

@@ -6,6 +6,10 @@ categories:
 order: 64
 tags:
   - Germany
+location:
+  name: Munich, Germany
+  lat: 48.1351
+  lng: 11.582
 ---
 
 This led us to the funniest part of our effing tour!! We walked into a beerhall that was the “world’s most famous” according to our audiotour! Didn’t seem like much to us but we were willing to give it a try! The mashed potatoes with bacon were fantastic and I really liked my potato soup! Mike is having his first German Bratwurst!

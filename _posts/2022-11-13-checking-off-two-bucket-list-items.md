@@ -6,6 +6,10 @@ categories:
 order: 93
 tags:
   - The Netherlands
+location:
+  name: Amsterdam, Netherlands
+  lat: 52.3676
+  lng: 4.9041
 ---
 
 The next item we were both very excited to see! We didn’t think there was a windmill near enough to us to see but our BnB host told us there was one in biking distance that was actually a pub as well! Biking adventure it was! We had to navigate the directions while avoiding the crazy pedestrians/other bikes/and cars everywhere!

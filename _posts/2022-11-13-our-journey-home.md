@@ -6,6 +6,10 @@ categories:
 order: 95
 tags:
   - The Netherlands
+location:
+  name: Amsterdam, Netherlands
+  lat: 52.3676
+  lng: 4.9041
 ---
 
 We had to head back to the train station for our train back to London but on the way, I got some more chocolate and a bracelet that has the Italian flag on it! I love Amsterdam!

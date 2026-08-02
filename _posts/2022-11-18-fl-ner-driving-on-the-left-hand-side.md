@@ -6,6 +6,10 @@ categories:
 order: 4
 tags:
   - North Island
+location:
+  name: Auckland, New Zealand
+  lat: -36.8485
+  lng: 174.7633
 ---
 
 We got a precious tiny rental car which was great for these narrow lanes they have here! Mike has done really well about staying to the left and it was weird at first!

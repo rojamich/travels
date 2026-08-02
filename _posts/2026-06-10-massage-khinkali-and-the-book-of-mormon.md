@@ -12,7 +12,9 @@ tags:
   - Food
   - Entertainment
 location:
-  name: ""
+  name: New York City
+  lat: 40.7128
+  lng: -74.006
 toc: false
 ---
 After a very late bed time, we awoke early to hustle to a massage appointment! What a nice way to start off NYC :) We rushed downtown via subway and made it to a blissfully airconditioned building. It was in the 90s here which was a harsh change from the 50s in Newport, OR!

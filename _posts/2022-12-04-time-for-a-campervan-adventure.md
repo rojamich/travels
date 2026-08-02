@@ -6,6 +6,10 @@ categories:
 order: 22
 tags:
   - South Island
+location:
+  name: Queenstown, New Zealand
+  lat: -45.0312
+  lng: 168.6626
 ---
 
 Day 15 and December is already here! I got one last run in down by the lake of Queenstown and soaked up the scenery.

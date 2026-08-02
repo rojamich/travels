@@ -10,6 +10,10 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782065647/20260621_174017_zt9xod.jpg
 tags: []
 toc: false
+location:
+  name: Oslo, Norway
+  lat: 59.9139
+  lng: 10.7522
 ---
 My feet hurt so bad XD Three museums in one day should be illegal. IDC how cool they are. We started the day in the park with a workout (remember the gym equipment I showed you the other day? We had a nap after that and boy howdy, Norway has been good for resting so far! 
 

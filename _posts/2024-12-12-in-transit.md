@@ -6,6 +6,10 @@ categories:
 order: 2
 tags:
   - Taiwan
+location:
+  name: Taipei, Taiwan
+  lat: 25.033
+  lng: 121.5654
 ---
 
 Happy Thursday everyone! Yes, it is Wednesday 12/11 for you, but Thursday 12/12 here in Taipei, Taiwan! We are two flights down and one to go for the first leg of this journey. 

@@ -14,6 +14,10 @@ header:
   overlay_focal_y: 100
 tags: []
 toc: false
+location:
+  name: Longyearbyen, Svalbard
+  lat: 78.2232
+  lng: 15.6267
 ---
 We had an easy morning before setting off for our kayaking tour today! Still no flavored coffee in Norway so I'm really kicking the habit here lol. Thanks Norway!
 

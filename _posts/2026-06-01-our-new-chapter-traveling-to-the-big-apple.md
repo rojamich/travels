@@ -13,6 +13,10 @@ tags:
   - Cityscapes
   - ""
 toc: false
+location:
+  name: Newport, Oregon
+  lat: 44.6368
+  lng: -124.0534
 ---
 About a year ago, Mike and I decided we would take the leap and travel abroad while working remotely! 
 

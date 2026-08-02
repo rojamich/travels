@@ -6,6 +6,10 @@ categories:
 order: 75
 tags:
   - Germany
+location:
+  name: Nuremberg, Germany
+  lat: 49.4521
+  lng: 11.0767
 ---
 
 As we toured Nuremburg, we noticed a lot of similarities in the structures. Take these two cathedrals. They are a short distance from each other and with the top looking so similar it had us wondering if we had walked in a circle! Ha!

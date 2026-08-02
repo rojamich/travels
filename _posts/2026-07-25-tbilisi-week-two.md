@@ -17,6 +17,10 @@ tags:
   - Food
   - Books
 toc: false
+location:
+  name: Tbilisi, Georgia
+  lat: 41.7151
+  lng: 44.8271
 ---
 Another fun week in Tbilisi as we have been exploring and simultaneously productive! Jenna finished all her fall prep for classes next term (what a relief!) Mike scheduled out all our day trips and the upcoming trip to Stepantsminda - the mountains of Georgia! 
 

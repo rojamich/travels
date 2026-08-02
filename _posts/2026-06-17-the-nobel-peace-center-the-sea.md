@@ -10,6 +10,10 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781807960/20260618_175816_mm1ugt.jpg
 tags: []
 toc: false
+location:
+  name: Oslo, Norway
+  lat: 59.9139
+  lng: 10.7522
 ---
 The sky was bright when I woke up this morning, asking Mike, "Did it ever get dark here?" Summer solstice is 3 days away so sunset is at 1030pm here! Sunrise is at 330am! Holy moly! We will be using the shades tonight!
 

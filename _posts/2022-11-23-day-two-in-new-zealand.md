@@ -6,6 +6,10 @@ categories:
 order: 10
 tags:
   - North Island
+location:
+  name: Matamata (Hobbiton), New Zealand
+  lat: -37.8721
+  lng: 175.6829
 ---
 
 Yes, we did the beach trip and Hobbiton in one day, talk about exhaustion!

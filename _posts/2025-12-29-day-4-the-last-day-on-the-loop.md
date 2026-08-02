@@ -10,6 +10,10 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780936247/20251229_142124_unkwgc.jpg
 tags: []
 toc: false
+location:
+  name: Ha Giang, Vietnam
+  lat: 22.8233
+  lng: 104.9784
 ---
 This morning we woke up exhausted! I'd had a persistent cough that had kept us up half the night. Hopefully the rest of the hostel couldn't hear me :/
 

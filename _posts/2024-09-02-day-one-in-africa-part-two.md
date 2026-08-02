@@ -6,6 +6,10 @@ categories:
 order: 6
 tags:
   - South Africa
+location:
+  name: Boulders Beach, Simon's Town
+  lat: -34.1975
+  lng: 18.4519
 ---
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKsM2Ngf5xDYlu-eaBCuLasls4q3g_EYgYVUF_bnN1C53frJtdAbaHGChyMv8EHhT06peBSRCuEE11YD1-yXcVh7_hXQ8eTOTLJARXdKLGhCTer7GdQbHsqJpW0bzNC2s9qeuM4WA4nl-mqFORU1-5BxNKIsex_i0CkyLErgkzHzjeIODYk0vYvyxh01I/s320/20240829_134311.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKsM2Ngf5xDYlu-eaBCuLasls4q3g_EYgYVUF_bnN1C53frJtdAbaHGChyMv8EHhT06peBSRCuEE11YD1-yXcVh7_hXQ8eTOTLJARXdKLGhCTer7GdQbHsqJpW0bzNC2s9qeuM4WA4nl-mqFORU1-5BxNKIsex_i0CkyLErgkzHzjeIODYk0vYvyxh01I/s4000/20240829_134311.jpg)

@@ -4,6 +4,10 @@ date: 2022-12-13
 categories:
   - new-zealand
 order: 30
+location:
+  name: Queenstown, New Zealand
+  lat: -45.0312
+  lng: 168.6626
 ---
 
 We dropped the van off after 5 fun-filled days of traveling around the south island and began the journey home. We flew from Queenstown to Auckland and the next morning, flew back to Oregon. 

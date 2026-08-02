@@ -14,6 +14,10 @@ header:
   overlay_focal_y: 56
 tags:
   - Vietnam
+location:
+  name: Hoi An, Vietnam
+  lat: 15.8801
+  lng: 108.338
 ---
 
 We were feeling pretty tired the next day, so we called it a down day! It was pouring rain, so we hit the gym first thing. Not a huge impressive gym, but it did have benches! We found an awesome coffee shop near us and tried their salted coffee - SO GOOD and so tiny.

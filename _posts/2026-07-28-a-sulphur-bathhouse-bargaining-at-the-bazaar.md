@@ -17,6 +17,10 @@ tags:
   - Sunrise
   - Bazaar
 toc: false
+location:
+  name: Abanotubani, Tbilisi
+  lat: 41.6893
+  lng: 44.809
 ---
 Thank you and welcome back to another episode of "What the Heck are Mike & Jenna Up to Now?" 🤣🤣
 

@@ -13,6 +13,10 @@ tags:
   - Food
   - Friends
 toc: false
+location:
+  name: Central Park, New York City
+  lat: 40.7829
+  lng: -73.9654
 ---
 I hit the park bright and early for a run - who can resist a run through Central Park?! Contrary to Law & Order SVU, I did not get murdered. I did see a person on the ground, unmoving, being helped by EMTS who had raced through the park and up running trails to get to her!
 

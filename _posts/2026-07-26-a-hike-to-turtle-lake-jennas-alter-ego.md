@@ -16,6 +16,10 @@ tags:
   - Hiking
   - Nature
 toc: false
+location:
+  name: Turtle Lake, Tbilisi
+  lat: 41.7093
+  lng: 44.7564
 ---
 A bright and early morning today for the Rojas family and we are EXCITED to be hiking today! The path starts right up the hill from us and we get started right away. We picked today as it's the lowest temp for the week! (70s in the morning and high 80s by afternoon.)
 

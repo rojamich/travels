@@ -6,6 +6,10 @@ categories:
 order: 37
 tags:
   - Italy
+location:
+  name: Florence, Italy
+  lat: 43.7696
+  lng: 11.2558
 ---
 
 We were fortunate enough to have Gino’s bakery around the corner from our Airbnb. His pastries were perfect and Mike fell in love with his cannoli and coffee! . Mike liked the cannoli with Nutella cream (Invented in Florence) and I liked the regular – very surprising! Here is Mike telling me how amazing the cannoli is lol.

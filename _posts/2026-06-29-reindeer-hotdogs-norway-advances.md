@@ -15,6 +15,10 @@ header:
 tags:
   - Cityscape
 toc: false
+location:
+  name: Bergen, Norway
+  lat: 60.3913
+  lng: 5.3221
 ---
 A brisk and beautiful morning greeted us in Bergen! We woke up and promptly fell back to sleep, giving us 9 hours of sleep, yay!
 

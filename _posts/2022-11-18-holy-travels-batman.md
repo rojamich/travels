@@ -4,6 +4,10 @@ date: 2022-11-18
 categories:
   - new-zealand
 order: 2
+location:
+  name: Eugene, Oregon
+  lat: 44.0521
+  lng: -123.0868
 ---
 
 Whew! A busy and tiring "3 days" of travel! Check-in and security were a breeze at our tiny Eugene airport and we had a 4 hour flight to Dallas. Flying inland just to fly west again makes less sense but I guess that's American Airlines International Hub. 

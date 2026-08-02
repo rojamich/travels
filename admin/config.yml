@@ -50,11 +50,42 @@ media_library:
   config:
     cloud_name: dgw35sldo
     api_key: '353435959467269'
-    # Auto-optimization on every uploaded image:
+
+    # ------------------------------------------------------------------
+    # STORAGE: shrink originals as they arrive.
+    # ------------------------------------------------------------------
+    # Point uploads at an upload preset that carries an INCOMING
+    # transformation, so Cloudinary resizes the file before storing it
+    # rather than keeping the full-size phone original forever. A modern
+    # phone photo is 4-12MB; capped at 2400px it lands around 1-2MB, and
+    # we only ever DELIVER at 1200px wide, so nothing visible is lost.
+    #
+    # This preset must be created once in the Cloudinary dashboard —
+    # it can't be defined from here:
+    #   Settings -> Upload -> Upload presets -> Add upload preset
+    #     Preset name:   travel_blog_upload
+    #     Signing mode:  Unsigned
+    #     Incoming transformation:  c_limit,w_2400,q_auto:good
+    #
+    # Until that preset exists, leave this line commented out — pointing
+    # at a preset that isn't there will make uploads fail outright.
+    #
+    # Worth being clear about what this does and doesn't fix: it reduces
+    # STORED bytes, which is what protects the 25GB quota. It does NOT
+    # make uploads faster, because the full-size file still has to travel
+    # from the phone/laptop to Cloudinary first. Upload speed is bounded
+    # by the connection — on hotel and mobile networks that's the real
+    # constraint. To genuinely speed uploads up, shrink photos on the
+    # device before adding them.
+    #
+    # upload_preset: travel_blog_upload
+
+    # ------------------------------------------------------------------
+    # DELIVERY: what visitors actually download.
+    # ------------------------------------------------------------------
     #   - fetch_format: auto      → serve WebP/AVIF where supported, JPEG otherwise
     #   - quality: auto           → Cloudinary picks the smallest size with no visible loss
     #   - width: 1200, crop: limit → cap displayed width at 1200px (no upscaling)
-    # Originals stay full-size in Cloudinary; only the delivered URL is shrunk.
     default_transformations:
       - - fetch_format: auto
           quality: auto

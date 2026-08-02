@@ -15,6 +15,10 @@ header:
 tags:
   - Food
 toc: false
+location:
+  name: Leknes, Lofoten
+  lat: 68.1475
+  lng: 13.6118
 ---
 It was a gorgeous morning as the sun streamed through the windows. To be fair, the sun doesn't necessarily leave at all. It's just mostly covered by clouds up this far north. But not this morning!
 

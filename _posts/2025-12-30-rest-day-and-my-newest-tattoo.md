@@ -10,6 +10,10 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780944055/20251230_125439_wsic9s.jpg
 tags: []
 toc: false
+location:
+  name: Hanoi, Vietnam
+  lat: 21.0285
+  lng: 105.8542
 ---
 It was the perfect day for a rest and recovery day! Thank goodness we scheduled it out that way because we were tuckered! 
 

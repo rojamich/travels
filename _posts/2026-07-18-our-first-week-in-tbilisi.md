@@ -16,6 +16,10 @@ tags:
   - Food
   - Workout
 toc: false
+location:
+  name: Tbilisi, Georgia
+  lat: 41.7151
+  lng: 44.8271
 ---
 Over the last five days we have gotten into a good rhythm / schedule living here! This is a vastly different trip than our usual of sightseeing and, instead, we are living here and working remotely! Jenna is writing the blogs and prepping for fall term! Mike is also working remotely 💻One morning, our place didn't have gas so we didn't have hot water or gas to cook. We decided this was the perfect day to try the French bakery two blocks away!
 

@@ -10,6 +10,10 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781660708/IMG_9801_zu2m3f.jpg
 tags: []
 toc: false
+location:
+  name: London, England
+  lat: 51.5074
+  lng: -0.1278
 ---
 Well we got a heck of a late start this morning when *someone* woke up at 10am... it was me lol. We stayed up til 1am writing blog posts so it was a bit irresponsible!
 

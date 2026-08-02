@@ -31,3 +31,6 @@ scripts/venv/
 *.xml
 !_data/*.xml
 .claude/
+
+# Local audit / migration working files
+.audit/

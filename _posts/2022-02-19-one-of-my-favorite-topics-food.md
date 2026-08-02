@@ -6,6 +6,10 @@ categories:
 order: 29
 tags:
   - France
+location:
+  name: Paris, France
+  lat: 48.8566
+  lng: 2.3522
 ---
 
 There was a restaurant next door to the cafe, called, “La Bucherie” which had the nicest employees you will ever find! They also had the best paprika French fries lol. 

@@ -14,6 +14,10 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783282130/20260704_100440_wuafg8.jpg
 tags: []
 toc: false
+location:
+  name: Kjeragbolten, Lysefjord
+  lat: 59.0344
+  lng: 6.5936
 ---
 We woke up ahead of our alarm out of anticipation and excitement! But, also, because we had to pee. The restroom was in another building! I think the floor creaking may have woken up other people... to be fair... I was woken up by someone else heading out to the restroom lol.
 
