@@ -1,11 +1,19 @@
 ---
-title: "Flaner Cusco & Museo Casa Concha"
-date: 2025-09-04
+title: Flaner Cusco & Museo Casa Concha
+date: 2025-09-01
 categories:
   - peruvian-passage
-order: 6
+order: 7
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785653389/20250901_130615_xrzuuc.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785653351/20250901_122737_xmvpeq.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 37
+  overlay_focal_x: 50
+  overlay_focal_y: 38
 location:
-  name: "Cusco, Peru"
+  name: Cusco, Peru
   lat: -13.517
   lng: -71.9785
 ---
