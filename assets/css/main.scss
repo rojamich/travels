@@ -313,6 +313,134 @@ a {
   }
 }
 
+// -----------------------------------------------------------------------------
+// MEDAL TABLE — Olympic-style standings at the top of /favorites/
+// -----------------------------------------------------------------------------
+.medal-table {
+  margin: 1.5em 0 2.5em;
+  padding: 1.4em 1.6em 1.6em;
+  background: linear-gradient(135deg, #fbf7ef 0%, #f2f6f4 100%);
+  border: 1px solid $border-color;
+  border-radius: 14px;
+
+  h2 { margin: 0 0 0.15em; }
+}
+
+.medal-table-sub {
+  margin: 0 0 1.4em;
+  color: #666;
+  font-size: 0.92em;
+}
+
+// Podium. Order in the markup is 2nd, 1st, 3rd so first place sits centre;
+// align-items:end lets the taller winner card rise above its neighbours.
+.podium {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: end;
+  gap: 0.7em;
+  margin-bottom: 1.6em;
+}
+
+.podium-slot {
+  background: #fff;
+  border: 1px solid $border-color;
+  border-radius: 12px;
+  padding: 0.9em 0.7em;
+  text-align: center;
+  min-width: 0;
+
+  // Tier tints, matching the card badges.
+  &.place-1 {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    background: #fdf6dc;
+    border-color: #d4af37;
+    box-shadow: 0 2px 10px rgba(212, 175, 55, 0.25);
+  }
+  &.place-2 { background: #f4f6f8; border-color: #9aa3ac; }
+  &.place-3 { background: #fbf0e4; border-color: #b0763a; }
+}
+
+.podium-rank {
+  font-size: 0.85em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #555;
+  margin-bottom: 0.35em;
+}
+
+.podium-name {
+  font-weight: bold;
+  color: $primary-color;
+  line-height: 1.25;
+  // Long names like "United States of America" must wrap, not overflow.
+  overflow-wrap: anywhere;
+}
+
+.podium-score {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: $primary-color;
+  line-height: 1.1;
+  margin-top: 0.25em;
+
+  span {
+    font-size: 0.45em;
+    font-weight: normal;
+    color: #777;
+    margin-left: 2px;
+  }
+}
+
+.podium-medals {
+  margin-top: 0.4em;
+  font-size: 0.85em;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.45em;
+}
+
+// Full standings table.
+.standings {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95em;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+
+  th {
+    background: #eef3f7;
+    color: $primary-color;
+    text-align: left;
+    padding: 0.6em 0.7em;
+    font-weight: bold;
+    border-bottom: 2px solid $border-color;
+  }
+
+  td {
+    padding: 0.55em 0.7em;
+    border-bottom: 1px solid #eee;
+  }
+
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr.is-podium { background: #fcfaf3; }
+
+  .col-pos { width: 2.5em; color: #999; font-variant-numeric: tabular-nums; }
+  .col-num { text-align: right; font-variant-numeric: tabular-nums; width: 3em; }
+  .standings-name { font-weight: bold; color: $primary-color; }
+  .standings-score { font-weight: bold; }
+}
+
+@media (max-width: 560px) {
+  .podium { grid-template-columns: 1fr; align-items: stretch; }
+  .podium-slot.place-1 { padding-top: 0.9em; padding-bottom: 0.9em; order: -1; }
+}
+
 // Medal badge for the Favorites ranking, awarded explicitly per entry.
 // Sits in the lower-right of the name area rather than over the photo, so
 // it never covers the subject and reads consistently whether or not an

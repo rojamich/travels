@@ -12,6 +12,141 @@ classes: wide
 <p style="font-size:1.1em;">{{ data.intro }}</p>
 {% endif %}
 
+{%- comment -%}
+  ===========================================================================
+  MEDAL TABLE — Olympic-style standings across every category
+  ===========================================================================
+  Tally each place's medals, score them by weight, and rank. Scoring is
+  weighted rather than a plain count so a gold can't be matched by a pile
+  of honorable mentions:
+
+      gold 5   silver 3   bronze 2   honorable 1
+
+  Ties break the way Olympic tables do — most golds first, then silvers,
+  then bronzes — rather than leaving equal scores in arbitrary order.
+  Liquid has no sort-by-multiple-keys, so we build a zero-padded sort key
+  per place and sort that as a string.
+  ===========================================================================
+{%- endcomment -%}
+{%- assign W_GOLD = 5 -%}{%- assign W_SILVER = 3 -%}
+{%- assign W_BRONZE = 2 -%}{%- assign W_HON = 1 -%}
+
+{%- assign medal_names = "" | split: "" -%}
+{%- for cat in data.categories -%}
+  {%- for e in cat.entries -%}
+    {%- if e.rank and e.rank != "" and e.country and e.country != "" -%}
+      {%- assign nm = e.country | strip -%}
+      {%- unless medal_names contains nm -%}
+        {%- assign medal_names = medal_names | push: nm -%}
+      {%- endunless -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+{%- comment -%} Build "sortkey|name|g|s|b|h|score" rows so one sort orders everything. {%- endcomment -%}
+{%- assign rows = "" | split: "" -%}
+{%- for nm in medal_names -%}
+  {%- assign g = 0 -%}{%- assign s = 0 -%}{%- assign b = 0 -%}{%- assign h = 0 -%}
+  {%- for cat in data.categories -%}
+    {%- for e in cat.entries -%}
+      {%- assign en = e.country | strip -%}
+      {%- if en == nm -%}
+        {%- case e.rank -%}
+          {%- when "gold" -%}{%- assign g = g | plus: 1 -%}
+          {%- when "silver" -%}{%- assign s = s | plus: 1 -%}
+          {%- when "bronze" -%}{%- assign b = b | plus: 1 -%}
+          {%- when "honorable" -%}{%- assign h = h | plus: 1 -%}
+        {%- endcase -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+  {%- comment -%}
+    Each product is computed on its own line. Liquid filter chains apply
+    left to right with no precedence, so `g | times: 5 | plus: s | times: 3`
+    would multiply the running total by 3 rather than just the silvers.
+  {%- endcomment -%}
+  {%- assign gp = g | times: W_GOLD -%}
+  {%- assign sp = s | times: W_SILVER -%}
+  {%- assign bp = b | times: W_BRONZE -%}
+  {%- assign hp = h | times: W_HON -%}
+  {%- assign score = gp | plus: sp | plus: bp | plus: hp -%}
+  {%- comment -%} Pad to 3 digits so string sort behaves like numeric sort. {%- endcomment -%}
+  {%- assign k_score = score | prepend: "00" | slice: -3, 3 -%}
+  {%- assign k_g = g | prepend: "00" | slice: -3, 3 -%}
+  {%- assign k_s = s | prepend: "00" | slice: -3, 3 -%}
+  {%- assign k_b = b | prepend: "00" | slice: -3, 3 -%}
+  {%- assign row = k_score | append: k_g | append: k_s | append: k_b
+        | append: "|" | append: nm | append: "|" | append: g | append: "|"
+        | append: s | append: "|" | append: b | append: "|" | append: h
+        | append: "|" | append: score -%}
+  {%- assign rows = rows | push: row -%}
+{%- endfor -%}
+{%- assign rows = rows | sort | reverse -%}
+
+{% if rows.size > 0 %}
+<section class="medal-table">
+  <h2>🏅 Medal Table</h2>
+  <p class="medal-table-sub">
+    Every medal across all categories, scored Olympic-style —
+    gold {{ W_GOLD }}, silver {{ W_SILVER }}, bronze {{ W_BRONZE }}, honorable mention {{ W_HON }}.
+  </p>
+
+  {%- comment -%} Podium: top three, centred with 1st tallest. {%- endcomment -%}
+  <div class="podium">
+    {%- assign order = "1,0,2" | split: "," -%}
+    {% for idx_s in order %}
+      {%- assign i = idx_s | plus: 0 -%}
+      {% if rows[i] %}
+        {%- assign p = rows[i] | split: "|" -%}
+        {%- assign place = i | plus: 1 -%}
+        <div class="podium-slot place-{{ place }}">
+          <div class="podium-rank">
+            {% if place == 1 %}🥇 1st{% elsif place == 2 %}🥈 2nd{% else %}🥉 3rd{% endif %}
+          </div>
+          <div class="podium-name">{{ p[1] }}</div>
+          <div class="podium-score">{{ p[6] }}<span>pts</span></div>
+          <div class="podium-medals">
+            {% if p[2] != "0" %}<span title="Gold">🥇{{ p[2] }}</span>{% endif %}
+            {% if p[3] != "0" %}<span title="Silver">🥈{{ p[3] }}</span>{% endif %}
+            {% if p[4] != "0" %}<span title="Bronze">🥉{{ p[4] }}</span>{% endif %}
+            {% if p[5] != "0" %}<span title="Honorable mention">⭐{{ p[5] }}</span>{% endif %}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {%- comment -%} Full standings. {%- endcomment -%}
+  <table class="standings">
+    <thead>
+      <tr>
+        <th class="col-pos">#</th>
+        <th>Place</th>
+        <th class="col-num">🥇</th>
+        <th class="col-num">🥈</th>
+        <th class="col-num">🥉</th>
+        <th class="col-num">⭐</th>
+        <th class="col-num">Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in rows %}
+        {%- assign r = row | split: "|" -%}
+        <tr{% if forloop.index <= 3 %} class="is-podium"{% endif %}>
+          <td class="col-pos">{{ forloop.index }}</td>
+          <td class="standings-name">{{ r[1] }}</td>
+          <td class="col-num">{% if r[2] != "0" %}{{ r[2] }}{% endif %}</td>
+          <td class="col-num">{% if r[3] != "0" %}{{ r[3] }}{% endif %}</td>
+          <td class="col-num">{% if r[4] != "0" %}{{ r[4] }}{% endif %}</td>
+          <td class="col-num">{% if r[5] != "0" %}{{ r[5] }}{% endif %}</td>
+          <td class="col-num standings-score">{{ r[6] }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endif %}
+
 {% if data.categories and data.categories.size > 0 %}
 {% for cat in data.categories %}
 {% if cat.entries and cat.entries.size > 0 %}
