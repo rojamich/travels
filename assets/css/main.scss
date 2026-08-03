@@ -256,34 +256,79 @@ a {
 // -----------------------------------------------------------------------------
 // FAVORITES PAGE — "what made each trip special" by category
 // -----------------------------------------------------------------------------
+// Accordion section. <details>/<summary>, so open/close, keyboard access
+// and screen-reader semantics come from the browser rather than JS.
 .favorite-category {
-  margin: 2.5em 0 3em;
+  margin: 1.2em 0;
+  border: 1px solid $border-color;
+  border-radius: 12px;
+  background: #fff;
+  overflow: hidden;
 }
 
 .favorite-category-title {
   display: flex;
   align-items: center;
   gap: 0.5em;
-  padding-bottom: 0.4em;
-  border-bottom: 2px solid $seaglass;
+  padding: 0.8em 1em;
   color: $navy-deep;
-  margin-bottom: 0.4em;
+  font-family: $serif;
+  font-size: 1.15em;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;           // hide the default triangle (most browsers)
+  user-select: none;
+  transition: background 0.15s ease;
 
-  .favorite-icon {
-    font-size: 1.2em;
+  &::-webkit-details-marker { display: none; }   // and in Safari
+
+  &:hover { background: $sand-light; }
+
+  .favorite-icon { font-size: 1.2em; }
+  .favorite-category-name { flex: 1; }
+
+  // Entry count, so a collapsed section still says how much is inside.
+  .favorite-category-count {
+    font-size: 0.72em;
+    font-weight: 600;
+    color: $muted;
+    background: $sand-medium;
+    border-radius: 999px;
+    padding: 0.15em 0.6em;
   }
+
+  // Our own chevron, rotated by the browser's open state.
+  &::after {
+    content: "⌄";
+    font-size: 1.1em;
+    line-height: 1;
+    color: $muted;
+    transition: transform 0.2s ease;
+  }
+}
+
+.favorite-category[open] > .favorite-category-title {
+  border-bottom: 2px solid $seaglass;
+
+  &::after { transform: rotate(180deg); }
 }
 
 .favorite-category-desc {
   color: $muted;
   font-style: italic;
-  margin: 0 0 1em;
+  margin: 0;
+  padding: 0.8em 1em 0;
 }
 
 .favorite-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 1em;
+  padding: 1em;
+
+  // Equal-height cards: stretch every card to the tallest in its row, and
+  // let the body flex so the read-more control sits at the bottom.
+  align-items: stretch;
 }
 
 .favorite-card {
@@ -363,10 +408,12 @@ a {
 // the shorter cards aligned to the top rather than stretching to match.
 .podium {
   display: grid;
-  grid-template-columns: 1.35fr 1fr 0.85fr;
+  // Equal widths — placing is conveyed by height and type size instead,
+  // so the three cards line up cleanly.
+  grid-template-columns: repeat(3, 1fr);
   align-items: start;
-  gap: 0.7em;
-  margin-top: 1.1em;
+  gap: 0.6em;
+  margin-top: 1em;
 }
 
 .podium-slot {
@@ -378,23 +425,29 @@ a {
   min-width: 0;
 
   // Tier tints, matching the card badges.
+  // Vertical padding steps down evenly: 1.15 -> 0.85 -> 0.55em, so the
+  // gold-to-silver drop matches the silver-to-bronze drop.
   &.place-1 {
-    padding: 1.6em 0.9em;
+    padding: 1.15em 0.7em;
     background: #fdf6dc;
     border-color: #d4af37;
     border-width: 2px;
-    box-shadow: 0 3px 14px rgba(212, 175, 55, 0.3);
+    box-shadow: 0 3px 12px rgba(212, 175, 55, 0.28);
   }
   &.place-2 {
-    padding: 1.15em 0.8em;
+    padding: 0.85em 0.7em;
     background: #f4f6f8;
     border-color: #9aa3ac;
   }
-  &.place-3 { background: #fbf0e4; border-color: #b0763a; }
+  &.place-3 {
+    padding: 0.55em 0.7em;
+    background: #fbf0e4;
+    border-color: #b0763a;
+  }
 }
 
 .podium-rank {
-  font-size: 0.85em;
+  font-size: 0.78em;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -411,7 +464,7 @@ a {
 }
 
 .podium-score {
-  font-size: 1.7em;
+  font-size: 1.4em;
   font-weight: bold;
   color: $primary-color;
   line-height: 1.1;
@@ -438,13 +491,13 @@ a {
 // Type scales with placing too, so the hierarchy reads from the numbers
 // and not only from the box sizes.
 .place-1 {
-  .podium-name  { font-size: 1.15em; }
-  .podium-score { font-size: 2.1em; }
+  .podium-name  { font-size: 1.02em; }
+  .podium-score { font-size: 1.7em; }
 }
 
 .place-3 {
-  .podium-name  { font-size: 0.95em; }
-  .podium-score { font-size: 1.45em; }
+  .podium-name  { font-size: 0.9em; }
+  .podium-score { font-size: 1.2em; }
 }
 
 
@@ -500,6 +553,51 @@ a {
   &.has-medal {
     padding-right: 52px;
   }
+}
+
+// Equal-height cards with a clamped blurb and a "Read more" that only
+// appears when the text is actually being cut off (added by JS).
+.favorite-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.favorite-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.favorite-blurb {
+  // Three lines, then ellipsis. Every card ends up the same height without
+  // hard-coding one, which would clip short blurbs oddly.
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 0.3em 0 0;
+  transition: none;
+}
+
+.favorite-card.is-expanded .favorite-blurb {
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+
+.favorite-more {
+  align-self: flex-start;
+  margin-top: 0.4em;
+  padding: 0;
+  border: none;
+  background: none;
+  color: $navy-mid;
+  font-size: 0.78em;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+
+  &:hover { color: $seaglass; }
 }
 
 .favorite-card-image {

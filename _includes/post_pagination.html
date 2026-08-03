@@ -16,6 +16,24 @@ but defensive against weirdness.
 =============================================================================
 {%- endcomment -%}
 
+{%- comment -%}
+  Only ever paginate real blog posts.
+
+  `_pages` is declared as a collection in _config.yml, which means Jekyll
+  hands every standalone page a page.previous / page.next that walks that
+  collection alphabetically. The fallback branch below then happily used
+  them, so /lessons/ offered "Previous → /favorites/" and "Next → /login/"
+  — sending readers to the editor sign-in screen.
+
+  Section pages aren't a sequence and shouldn't have prev/next at all, so
+  bail out unless we're rendering something from the posts collection.
+{%- endcomment -%}
+{%- if page.collection != "posts" -%}
+  {%- assign skip_pagination = true -%}
+{%- endif -%}
+
+{%- unless skip_pagination -%}
+
 {%- assign trip_slug = page.categories | first -%}
 
 {%- if trip_slug and site.categories[trip_slug] -%}
@@ -73,3 +91,5 @@ but defensive against weirdness.
   {%- endif -%}
 </nav>
 {%- endif -%}
+
+{%- endunless -%}

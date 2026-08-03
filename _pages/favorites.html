@@ -132,11 +132,18 @@ classes: wide
 {% if data.categories and data.categories.size > 0 %}
 {% for cat in data.categories %}
 {% if cat.entries and cat.entries.size > 0 %}
-<section class="favorite-category">
-<h2 class="favorite-category-title">
+{%- comment -%}
+  Native <details>/<summary> rather than a JS accordion: keyboard and
+  screen-reader accessible for free, works with JS disabled, and the browser
+  handles the open/close state. `open` on the first category so the page
+  doesn't look empty on arrival.
+{%- endcomment -%}
+<details class="favorite-category" {% if forloop.first %}open{% endif %}>
+<summary class="favorite-category-title">
 {% if cat.icon and cat.icon != "" %}<span class="favorite-icon">{{ cat.icon }}</span>{% endif %}
-{{ cat.name }}
-</h2>
+<span class="favorite-category-name">{{ cat.name }}</span>
+<span class="favorite-category-count">{{ cat.entries | size }}</span>
+</summary>
 {% if cat.description and cat.description != "" %}
 <p class="favorite-category-desc">{{ cat.description }}</p>
 {% endif %}
@@ -175,7 +182,10 @@ classes: wide
 {% endif %}
 <div class="favorite-card-body{% if medal != "" %} has-medal{% endif %}">
 <h3>{{ entry.country }}</h3>
-{% if entry.blurb and entry.blurb != "" %}<p>{{ entry.blurb }}</p>{% endif %}
+{% if entry.blurb and entry.blurb != "" %}
+<p class="favorite-blurb">{{ entry.blurb }}</p>
+<button type="button" class="favorite-more" hidden>Read more</button>
+{% endif %}
 {% if medal != "" %}<span class="favorite-medal medal-{{ medal_class }}" title="{{ medal_title }}">{{ medal }}</span>{% endif %}
 </div>
 {% if linked_url != "" %}
@@ -185,9 +195,47 @@ classes: wide
 {% endif %}
 {% endfor %}
 </div>
-</section>
+</details>
 {% endif %}
 {% endfor %}
 {% else %}
 <p><em>No categories yet — start adding them in /admin/ → Site Settings → Favorites page.</em></p>
 {% endif %}
+
+<script>
+  // Reveal "Read more" only where the blurb is genuinely clipped, so short
+  // entries don't get a control that does nothing. Runs after layout, and
+  // again when a collapsed accordion opens (elements inside a closed
+  // <details> have no measurable height).
+  (function () {
+    function sync(scope) {
+      (scope || document).querySelectorAll(".favorite-card").forEach(function (card) {
+        var blurb = card.querySelector(".favorite-blurb");
+        var btn = card.querySelector(".favorite-more");
+        if (!blurb || !btn) return;
+        if (card.classList.contains("is-expanded")) return;
+        // scrollHeight exceeds clientHeight only when the clamp is biting.
+        btn.hidden = blurb.scrollHeight <= blurb.clientHeight + 1;
+      });
+    }
+
+    document.addEventListener("click", function (e) {
+      var btn = e.target.closest(".favorite-more");
+      if (!btn) return;
+      // The card is an <a> on linked entries — don't follow the link.
+      e.preventDefault();
+      e.stopPropagation();
+      var card = btn.closest(".favorite-card");
+      var expanded = card.classList.toggle("is-expanded");
+      btn.textContent = expanded ? "Show less" : "Read more";
+    });
+
+    document.querySelectorAll("details.favorite-category").forEach(function (d) {
+      d.addEventListener("toggle", function () { if (d.open) sync(d); });
+    });
+
+    window.addEventListener("load", function () { sync(); });
+    window.addEventListener("resize", function () { sync(); });
+    sync();
+  })();
+</script>

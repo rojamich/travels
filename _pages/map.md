@@ -15,7 +15,7 @@ classes: wide
 ---
 
 {% include page-quote.html
-   text="no place to go, and all the time in the world to get there"
+   text="…no place to go, and all the time in the world to get there."
    author="Lee Child, Jack Reacher" %}
 
 <p>Click on any pin to see the route from that country's trip!</p>
