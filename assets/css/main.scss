@@ -417,30 +417,38 @@ a {
 }
 
 .podium-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background: #fff;
   border: 1px solid $border-color;
   border-radius: 12px;
-  padding: 0.9em 0.7em;
+  padding: 0.7em;
   text-align: center;
   min-width: 0;
 
   // Tier tints, matching the card badges.
-  // Vertical padding steps down evenly: 1.15 -> 0.85 -> 0.55em, so the
-  // gold-to-silver drop matches the silver-to-bronze drop.
+  // Heights are set explicitly rather than left to padding, because
+  // padding steps get swallowed by content: "United States of America"
+  // wraps onto a second line, which previously made silver exactly as tall
+  // as gold. Fixed min-heights step down 30px each — 170 / 140 / 110 — so
+  // the gold-to-silver drop always matches silver-to-bronze no matter how
+  // long a country name happens to be.
   &.place-1 {
-    padding: 1.15em 0.7em;
+    min-height: 170px;
     background: #fdf6dc;
     border-color: #d4af37;
     border-width: 2px;
     box-shadow: 0 3px 12px rgba(212, 175, 55, 0.28);
   }
   &.place-2 {
-    padding: 0.85em 0.7em;
+    min-height: 140px;
     background: #f4f6f8;
     border-color: #9aa3ac;
   }
   &.place-3 {
-    padding: 0.55em 0.7em;
+    min-height: 110px;
     background: #fbf0e4;
     border-color: #b0763a;
   }
@@ -464,7 +472,7 @@ a {
 }
 
 .podium-score {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: bold;
   color: $primary-color;
   line-height: 1.1;
@@ -479,8 +487,8 @@ a {
 }
 
 .podium-medals {
-  margin-top: 0.4em;
-  font-size: 0.85em;
+  margin-top: 0.35em;
+  font-size: 0.78em;
   color: #555;
   display: flex;
   justify-content: center;
@@ -490,20 +498,34 @@ a {
 
 // Type scales with placing too, so the hierarchy reads from the numbers
 // and not only from the box sizes.
+// Every place gets an explicit size. place-2 used to have none, so it
+// inherited 1em and sat within 2% of gold — indistinguishable, and it read
+// as LARGER whenever its name wrapped to two lines.
 .place-1 {
-  .podium-name  { font-size: 1.02em; }
-  .podium-score { font-size: 1.7em; }
+  .podium-name  { font-size: 1.0em; }
+  .podium-score { font-size: 1.55em; }
+  .podium-rank  { font-size: 0.76em; }
+}
+
+.place-2 {
+  .podium-name  { font-size: 0.88em; }
+  .podium-score { font-size: 1.28em; }
+  .podium-rank  { font-size: 0.7em; }
 }
 
 .place-3 {
-  .podium-name  { font-size: 0.9em; }
-  .podium-score { font-size: 1.2em; }
+  .podium-name  { font-size: 0.8em; }
+  .podium-score { font-size: 1.08em; }
+  .podium-rank  { font-size: 0.66em; }
 }
 
 
 @media (max-width: 560px) {
+  // Stack on phones. Heights are equalised here because a vertical stack
+  // conveys ranking by order alone — a shrinking column would just look
+  // like inconsistent cards.
   .podium { grid-template-columns: 1fr; align-items: stretch; }
-  .podium-slot.place-1 { padding-top: 0.9em; padding-bottom: 0.9em; order: -1; }
+  .podium-slot { min-height: 0 !important; padding: 0.8em; }
 }
 
 // Medal badge for the Favorites ranking, awarded explicitly per entry.
