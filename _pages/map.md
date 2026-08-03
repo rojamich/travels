@@ -14,7 +14,11 @@ author_profile: false
 classes: wide
 ---
 
-<p>Click any pin to see the trip's route. Click a day pin to read that post.</p>
+{% include page-quote.html
+   text="no place to go, and all the time in the world to get there"
+   author="Lee Child, Jack Reacher" %}
+
+<p>Click on any pin to see the route from that country's trip!</p>
 
 <!-- Map container — Leaflet attaches the map to this div. -->
 <div id="world-map" style="height: 600px; border-radius: 14px; overflow: hidden; border: 1px solid #ddd;"></div>

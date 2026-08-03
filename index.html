@@ -18,30 +18,10 @@ classes: wide
     Welcome to the Rojas Travel Page! Select a trip below to start exploring 🚂🥾🏔️🍜
   </p>
 
-  <blockquote class="home-quote">
-    <p>
-      "If I'm an advocate for anything, it's to move. As far as you can, as much as you can.
-      Across the ocean, or simply across the river. The extent to which you can walk in
-      someone else's shoes or at least eat their food, it's a plus for everybody.
-      Open your mind, get up off the couch, move."
-    </p>
-    <span class="home-quote-cite">― Anthony Bourdain</span>
-  </blockquote>
+  {% include page-quote.html
+     text="If I'm an advocate for anything, it's to move. As far as you can, as much as you can. Across the ocean, or simply across the river. The extent to which you can walk in someone else's shoes or at least eat their food, it's a plus for everybody. Open your mind, get up off the couch, move."
+     author="Anthony Bourdain" %}
 </div>
-
-<style>
-  .home-quote {
-    border-left: 4px solid #5a8770;
-    padding: 1em 1.2em;
-    margin: 1.5em 0 0.5em;
-    background: #f7f9f7;
-    border-radius: 0 8px 8px 0;
-    font-style: italic;
-    color: #2a4d69;
-  }
-  .home-quote p { margin: 0 0 0.4em 0; font-size: 1em; }
-  .home-quote-cite { color: #666; font-size: 0.9em; font-style: normal; }
-</style>
 
 {%- comment -%}
   ── On this day widget ─────────────────────────────────────────────────
@@ -108,7 +88,7 @@ classes: wide
   {%- if max_delta_shown == 0 -%}
   <p class="on-this-day-sub">Posts from {{ site.time | date: "%B %-d" }} in previous years.</p>
   {%- else -%}
-  <p class="on-this-day-sub">The closest post from each previous year — up to {{ max_delta_shown }} day{% if max_delta_shown != 1 %}s{% endif %} off today's date.</p>
+  <p class="on-this-day-sub">What in the world were Jenna &amp; Mike up to, at this time, in previous years?!</p>
   {%- endif -%}
   <div class="on-this-day-list">
     {%- assign sorted_otd = on_this_day | sort: "date" | reverse -%}

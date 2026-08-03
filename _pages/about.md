@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: /about/
-layout: single
+layout: about
 author_profile: false
 ---
 Hi! We're Jenna and Michael Rojas, a couple who decided that life was too short to wonder, "what if?!" And too long to spend it in one place📍

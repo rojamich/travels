@@ -1,0 +1,19 @@
+---
+# =============================================================================
+# about layout — wraps Minimal Mistakes' "single" layout to put the epigraph
+# above the About text.
+# =============================================================================
+# The About body is edited from /admin/ → Site Settings → About page. Putting
+# the quote here rather than in the body means she sees only her own prose in
+# the editor, and can't accidentally delete the quote while rewording things.
+#
+# Inheritance chain:  about.md  →  about.html  →  single.html (theme)
+# =============================================================================
+layout: single
+---
+
+{% include page-quote.html
+   text="Look at this sunset, it's beautiful, neh? This sunset exists. Tomorrow does not exist. There is only now. Please look. It is so beautiful and it will never happen ever again, never, not this sunset, never in all infinity."
+   author="James Clavell, Shōgun" %}
+
+{{ content }}

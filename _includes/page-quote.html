@@ -1,0 +1,20 @@
+{%- comment -%}
+  ===========================================================================
+  page-quote.html — the epigraph that sits at the top of a section page
+  ===========================================================================
+  Usage:
+
+      { % include page-quote.html
+           text="Some quotation."
+           author="Author Name, Source" % }
+
+  One include so all eight pages stay visually identical and a styling
+  change lands everywhere at once. Styles live in main.scss under
+  .page-quote (shared with the homepage and lessons quotes, which were
+  written before this include existed).
+  ===========================================================================
+{%- endcomment -%}
+<blockquote class="page-quote">
+  <p>“{{ include.text }}”</p>
+  <span class="page-quote-cite">— {{ include.author }}</span>
+</blockquote>

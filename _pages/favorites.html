@@ -8,6 +8,10 @@ classes: wide
 
 {%- assign data = site.data.favorites -%}
 
+{% include page-quote.html
+   text="Many wonders. Perfect beauties. Great seas set aflame by sunsets."
+   author="Travis Baldree, Bookshops &amp; Bonedust" %}
+
 {% if data.intro and data.intro != "" %}
 <p style="font-size:1.1em;">{{ data.intro }}</p>
 {% endif %}

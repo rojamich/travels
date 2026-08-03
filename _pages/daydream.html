@@ -8,9 +8,15 @@ classes: wide
 
 {%- assign data = site.data.daydream -%}
 
-{% if data.intro and data.intro != "" %}
-<p style="font-size:1.1em;">{{ data.intro }}</p>
-{% endif %}
+{% include page-quote.html
+   text="In Africa I feel free of the shackles of the rat race."
+   author="Tony Park" %}
+
+{%- comment -%}
+  data.intro is intentionally not rendered — the quote stands alone at the
+  top of this page. The field stays in _data/daydream.yml so nothing she
+  has written is thrown away.
+{%- endcomment -%}
 
 {% if data.upcoming and data.upcoming.size > 0 %}
 <h2 style="margin-top:1em;">✈️ Upcoming</h2>

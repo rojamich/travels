@@ -145,7 +145,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "hidden", default: "About" }
           - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/" }
-          - { label: "Layout", name: "layout", widget: "hidden", default: "single" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "about" }
           - { label: "Author profile", name: "author_profile", widget: "hidden", default: false }
           - label: "Body"
             name: "body"
@@ -310,9 +310,9 @@ collections:
                   hint: "Shown as a colored badge on the card. 'evolved' is the default for reflections; the others are useful for goals." }
               - { label: "Before we left",
                   name: "before",
-                  widget: "text",
+                  widget: "markdown",
                   required: false,
-                  hint: "What we thought / expected before this experience." }
+                  hint: "What we thought / expected before this experience. Full editor — drag in photos, add links, use the 😊 emoji button." }
               - label: "Updates along the way"
                 name: "updates"
                 widget: "list"
@@ -321,12 +321,12 @@ collections:
                 hint: "Dated thoughts as our view shifts. Add one whenever we notice our thinking changed."
                 fields:
                   - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false, date_format: "YYYY-MM-DD" }
-                  - { label: "Thought", name: "thought", widget: "text" }
+                  - { label: "Thought", name: "thought", widget: "markdown", hint: "Full editor — photos, links and emojis all work here." }
               - { label: "Where we've landed (current view)",
                   name: "current",
-                  widget: "text",
+                  widget: "markdown",
                   required: false,
-                  hint: "The distilled current take, shown in a highlighted box at the bottom of the card." }
+                  hint: "The distilled current take, shown in a highlighted box at the bottom of the card. Full editor — photos, links and emojis all work." }
 
   # -------------------------------------------------------------------------
   # Trips collection — one entry per vacation.

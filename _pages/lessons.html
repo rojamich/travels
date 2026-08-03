@@ -37,7 +37,7 @@ classes: wide
       {% if entry.before and entry.before != "" %}
       <section class="lesson-before">
         <h4>Before we left</h4>
-        <p>{{ entry.before | newline_to_br }}</p>
+        <div class="lesson-prose">{{ entry.before | markdownify }}</div>
       </section>
       {% endif %}
 
@@ -49,7 +49,7 @@ classes: wide
           {% for u in sorted_updates %}
           <li class="lesson-update">
             <time datetime="{{ u.date | date: '%Y-%m-%d' }}">{{ u.date | date: "%b %-d, %Y" }}</time>
-            <p>{{ u.thought | newline_to_br }}</p>
+            <div class="lesson-prose">{{ u.thought | markdownify }}</div>
           </li>
           {% endfor %}
         </ol>
@@ -59,7 +59,7 @@ classes: wide
       {% if entry.current and entry.current != "" %}
       <section class="lesson-current">
         <h4>Where we've landed</h4>
-        <p>{{ entry.current | newline_to_br }}</p>
+        <div class="lesson-prose">{{ entry.current | markdownify }}</div>
       </section>
       {% endif %}
     </article>
@@ -142,8 +142,21 @@ classes: wide
   }
   .lesson-card section p { margin: 0.3em 0; line-height: 1.6; }
 
-  .lesson-before p { color: #666; font-style: italic; }
-  .lesson-current p {
+  /* Markdown output: photos, links and lists now allowed in these fields. */
+  .lesson-prose :first-child { margin-top: 0; }
+  .lesson-prose :last-child  { margin-bottom: 0; }
+  .lesson-prose img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 0.6em 0;
+    display: block;
+  }
+  .lesson-prose a { text-decoration: underline; }
+  .lesson-prose ul, .lesson-prose ol { margin: 0.4em 0 0.4em 1.2em; }
+
+  .lesson-before .lesson-prose { color: #666; font-style: italic; }
+  .lesson-current .lesson-prose {
     background: #f0f6f0;
     padding: 0.8em 1em;
     border-radius: 8px;
@@ -181,5 +194,5 @@ classes: wide
     font-weight: bold;
     margin-bottom: 0.15em;
   }
-  .lesson-update p { margin: 0; }
+  .lesson-update .lesson-prose p { margin: 0.2em 0; }
 </style>

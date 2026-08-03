@@ -314,6 +314,38 @@ a {
 }
 
 // -----------------------------------------------------------------------------
+// PAGE EPIGRAPH — the quotation at the top of each section page
+// -----------------------------------------------------------------------------
+// Rendered by _includes/page-quote.html. The homepage and lessons pages carry
+// their own near-identical rules from before this include existed; they're
+// listed alongside so all three stay in step.
+.page-quote,
+.home-quote,
+.lessons-quote {
+  border-left: 4px solid $seaglass;
+  padding: 1em 1.2em;
+  margin: 1.2em 0 1.6em;
+  background: rgba($seaglass, 0.08);
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: $primary-color;
+
+  p {
+    margin: 0 0 0.4em 0;
+    font-size: 1.02em;
+    line-height: 1.55;
+  }
+}
+
+.page-quote-cite,
+.home-quote-cite,
+.lessons-cite {
+  color: #666;
+  font-size: 0.9em;
+  font-style: normal;
+}
+
+// -----------------------------------------------------------------------------
 // MEDAL TABLE — Olympic-style standings at the top of /favorites/
 // -----------------------------------------------------------------------------
 .medal-table {
