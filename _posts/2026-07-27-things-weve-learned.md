@@ -20,13 +20,7 @@ toc: false
 ---
 
 
-2. You might've grown up in the land of delicious produce but the best cantaloupe of your life might still be ahead.
-
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785261897/20260725_143625_mqtofh.jpg)
-
-I will still probably be chasing the high of this cantaloupe for years to come!
-
-3. People who never leave their country will be the ones telling you other countries are unsafe. 
+2. People who never leave their country will be the ones telling you other countries are unsafe. 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785262524/20240829_155212_mw5bgr.jpg)
 
