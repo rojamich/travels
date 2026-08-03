@@ -17,49 +17,14 @@ classes: wide
 {%- assign total_trips = site.trips | size -%}
 
 {%- comment -%}
-  Total distinct countries: gather trip.location + trip.countries[].name,
-  then dedupe by ISO code (via country_codes.yml) — NOT by name — so
-  "England" + "United Kingdom" both mapping to GBR count as one country.
-  Names without a known code fall back to name-based dedup.
+  Countries come from ONE place: _includes/country-data.html, which derives
+  them from trip front matter (location + countries[]) and normalises names
+  through _data/country_aliases.yml. Every surface that shows a country count
+  includes the same file, so the numbers cannot drift apart. To change what is
+  counted, edit the trip — not this page.
 {%- endcomment -%}
-{%- assign country_names = "" | split: "" -%}
-{%- for t in site.trips -%}
-  {%- if t.location and t.location != "" -%}
-    {%- assign first_country = t.location | split: "," | last | strip -%}
-    {%- assign is_valid = true -%}
-    {%- if first_country contains "&" or first_country contains "→" or first_country contains "(" -%}
-      {%- assign is_valid = false -%}
-    {%- endif -%}
-    {%- if is_valid -%}
-      {%- assign country_names = country_names | push: first_country -%}
-    {%- endif -%}
-  {%- endif -%}
-  {%- if t.countries -%}
-    {%- for c in t.countries -%}
-      {%- if c.name and c.name != "" -%}
-        {%- assign cn = c.name | split: "," | last | strip -%}
-        {%- assign country_names = country_names | push: cn -%}
-      {%- endif -%}
-    {%- endfor -%}
-  {%- endif -%}
-{%- endfor -%}
-
-{%- comment -%} Dedupe by ISO code (GBR wins over England/UK duplicates). {%- endcomment -%}
-{%- assign seen_codes = "" | split: "" -%}
-{%- assign uniq_countries = "" | split: "" -%}
-{%- for name in country_names -%}
-  {%- assign code = site.data.country_codes[name] -%}
-  {%- if code and code != "" -%}
-    {%- unless seen_codes contains code -%}
-      {%- assign seen_codes = seen_codes | push: code -%}
-      {%- assign uniq_countries = uniq_countries | push: name -%}
-    {%- endunless -%}
-  {%- else -%}
-    {%- unless uniq_countries contains name -%}
-      {%- assign uniq_countries = uniq_countries | push: name -%}
-    {%- endunless -%}
-  {%- endif -%}
-{%- endfor -%}
+{% include country-data.html %}
+{%- assign uniq_countries = visited_countries -%}
 {%- assign total_countries = uniq_countries | size -%}
 
 {%- comment -%} Distinct continents visited (via _data/continents.yml lookup). {%- endcomment -%}

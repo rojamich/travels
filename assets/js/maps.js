@@ -79,11 +79,24 @@ window.TravelMap = (function () {
   // Helpers
   // ---------------------------------------------------------------------------
   function tileLayer() {
-    // OpenStreetMap standard tiles. Free, no key. Attribution required.
-    return L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-      maxZoom: 18
-    });
+    // CARTO Voyager instead of standard OpenStreetMap tiles.
+    //
+    // OSM's default style renders every label in the local language and
+    // script, so Georgia showed up as თბილისი, Japan as 東京 and so on —
+    // unreadable unless you read the script. CARTO builds from the same OSM
+    // data but prefers the English name where one exists, which keeps the
+    // map legible worldwide.
+    //
+    // Still free and key-free. Attribution covers both OSM (the data) and
+    // CARTO (the rendering), as their terms require.
+    return L.tileLayer(
+      "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> ' +
+          '&copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: "abcd",
+        maxZoom: 20
+      });
   }
 
   function tripPopupHtml(trip) {

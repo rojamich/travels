@@ -1,0 +1,107 @@
+{%- comment -%}
+  ===========================================================================
+  country-data.html — THE single source of truth for "countries visited"
+  ===========================================================================
+  Include this anywhere a country list or count is needed. Written with the
+  braces spaced out so nothing in this comment looks like a real tag:
+
+      { % include country-data.html % }
+      { { visited_countries | size } }      <- the count
+      { % for c in visited_countries % }    <- the list, sorted
+
+  It also exposes, for diagnostics:
+      country_audit   — "Trip Title||resolved,countries||raw location" rows
+      skipped_trips   — trips excluded, with the reason
+
+  ---------------------------------------------------------------------------
+  THE RULE
+  ---------------------------------------------------------------------------
+  A country counts if, and only if, it appears in a trip's front matter —
+  either as the trailing part of `location:` or as an entry in `countries:`.
+  Nothing else feeds it. Favourites, lessons prose and post bodies are all
+  ignored, because those describe opinions and stories rather than the record
+  of where we actually went.
+
+  Every name is normalised the same way everywhere:
+    1. take the text after the last comma   ("Tbilisi, Georgia" -> Georgia)
+    2. run it through _data/country_aliases.yml  (England -> United Kingdom)
+    3. de-duplicate
+
+  So to fix a wrong count, fix the trip. There is no second place to check.
+
+  ---------------------------------------------------------------------------
+  EXCLUSIONS
+  ---------------------------------------------------------------------------
+  - Trips whose title starts with 📝 are templates/reference material, not
+    real journeys. The Iceland template was silently adding a country.
+  - A `location:` still holding a multi-country string ("A & B", "X → Y",
+    "Europe (…)") is skipped rather than counted as one nonsense country.
+    Those should be split into `countries:` entries instead; the audit
+    below flags them so they're easy to find.
+  ===========================================================================
+{%- endcomment -%}
+
+{%- assign visited_countries = "" | split: "" -%}
+{%- assign country_audit = "" | split: "" -%}
+{%- assign skipped_trips = "" | split: "" -%}
+
+{%- for trip in site.trips -%}
+  {%- assign t_title = trip.title | default: "(untitled)" -%}
+
+  {%- comment -%} Skip template/reference trips. {%- endcomment -%}
+  {%- assign is_template = false -%}
+  {%- if t_title contains "📝" -%}{%- assign is_template = true -%}{%- endif -%}
+  {%- if trip.template == true -%}{%- assign is_template = true -%}{%- endif -%}
+
+  {%- if is_template -%}
+    {%- assign skipped_trips = skipped_trips | push: t_title | append: "||template" -%}
+  {%- else -%}
+    {%- assign resolved = "" | split: "" -%}
+
+    {%- comment -%} 1. Primary country from `location:`. {%- endcomment -%}
+    {%- if trip.location and trip.location != "" -%}
+      {%- assign raw = trip.location | split: "," | last | strip -%}
+      {%- assign is_multi = false -%}
+      {%- if raw contains "&" or raw contains "→" or raw contains "(" -%}
+        {%- assign is_multi = true -%}
+      {%- endif -%}
+      {%- if is_multi -%}
+        {%- assign skipped_trips = skipped_trips | push: t_title | append: "||multi-country location: " | append: trip.location -%}
+      {%- else -%}
+        {%- assign alias = site.data.country_aliases[raw] -%}
+        {%- if alias and alias != "" -%}{%- assign raw = alias -%}{%- endif -%}
+        {%- unless resolved contains raw -%}
+          {%- assign resolved = resolved | push: raw -%}
+        {%- endunless -%}
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- comment -%} 2. Additional countries. {%- endcomment -%}
+    {%- if trip.countries -%}
+      {%- for c in trip.countries -%}
+        {%- if c.name and c.name != "" -%}
+          {%- assign cn = c.name | split: "," | last | strip -%}
+          {%- assign c_alias = site.data.country_aliases[cn] -%}
+          {%- if c_alias and c_alias != "" -%}{%- assign cn = c_alias -%}{%- endif -%}
+          {%- unless resolved contains cn -%}
+            {%- assign resolved = resolved | push: cn -%}
+          {%- endunless -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+
+    {%- comment -%} 3. Merge into the global list + record the audit row. {%- endcomment -%}
+    {%- for c in resolved -%}
+      {%- unless visited_countries contains c -%}
+        {%- assign visited_countries = visited_countries | push: c -%}
+      {%- endunless -%}
+    {%- endfor -%}
+
+    {%- assign joined = resolved | join: ", " -%}
+    {%- assign audit_row = t_title | append: "||" | append: joined | append: "||" | append: trip.location -%}
+    {%- assign country_audit = country_audit | push: audit_row -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign visited_countries = visited_countries | sort -%}
+{%- assign country_audit = country_audit | sort -%}

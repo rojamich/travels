@@ -23,6 +23,75 @@ sitemap: false
   Live view + heart counts for every post. Click a column header to sort.
 </p>
 
+{%- comment -%}
+  ---------------------------------------------------------------------------
+  COUNTRY AUDIT
+  ---------------------------------------------------------------------------
+  Shows exactly what every trip resolves to, so a wrong total on /stats/ can
+  be traced to the trip that caused it instead of being guessed at. Same
+  include the public pages use, so what's shown here IS what's counted.
+  ---------------------------------------------------------------------------
+{%- endcomment -%}
+{% include country-data.html %}
+
+<section class="country-audit">
+  <h2>🌍 Country audit</h2>
+  <p>
+    <strong>{{ visited_countries | size }}</strong> countries counted, from
+    <strong>{{ country_audit | size }}</strong> trips. This is the only source
+    the site uses — <code>/stats/</code>, the world map and the medal table all
+    read it. To change a number, edit the trip.
+  </p>
+
+  <table class="audit-table">
+    <thead>
+      <tr><th>Trip</th><th>Counts as</th><th>Raw <code>location:</code></th></tr>
+    </thead>
+    <tbody>
+      {% for row in country_audit %}
+        {%- assign r = row | split: "||" -%}
+        <tr{% if r[1] == "" %} class="row-warn"{% endif %}>
+          <td>{{ r[0] }}</td>
+          <td>{% if r[1] == "" %}<em>nothing — check this trip</em>{% else %}{{ r[1] }}{% endif %}</td>
+          <td class="raw">{{ r[2] }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  {% if skipped_trips.size > 0 %}
+  <h3>Excluded</h3>
+  <ul class="audit-skipped">
+    {% for row in skipped_trips %}
+      {%- assign s = row | split: "||" -%}
+      <li><strong>{{ s[0] }}</strong> — {{ s[1] }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  <h3>The {{ visited_countries | size }} counted</h3>
+  <p class="audit-list">{{ visited_countries | join: " · " }}</p>
+</section>
+
+<style>
+  .country-audit { margin: 1.5em 0 2.5em; }
+  .country-audit h2 { margin-bottom: 0.2em; }
+  .country-audit h3 { margin: 1.2em 0 0.4em; font-size: 1em; }
+  .audit-table { width: 100%; border-collapse: collapse; font-size: 0.9em; margin: 0.8em 0; }
+  .audit-table th {
+    text-align: left; padding: 0.5em 0.6em; background: #eef3f7;
+    color: #2a4d69; border-bottom: 2px solid #d4dde4;
+  }
+  .audit-table td { padding: 0.45em 0.6em; border-bottom: 1px solid #eee; vertical-align: top; }
+  .audit-table .raw { color: #888; font-size: 0.9em; }
+  .audit-table tr.row-warn { background: #fff5f5; }
+  .audit-table tr.row-warn td { color: #a33; }
+  .audit-skipped { font-size: 0.9em; color: #666; margin: 0.4em 0 0 1.2em; }
+  .audit-list { font-size: 0.9em; color: #444; line-height: 1.9; }
+</style>
+
+<hr style="margin:2em 0;">
+
 <div class="ranking-controls">
   <input id="ranking-search" type="search" placeholder="Filter by title…"
          autocomplete="off"
