@@ -54,7 +54,14 @@
   {%- if trip.template == true -%}{%- assign is_template = true -%}{%- endif -%}
 
   {%- if is_template -%}
-    {%- assign skipped_trips = skipped_trips | push: t_title | append: "||template" -%}
+    {%- comment -%}
+      Build the row in its own variable before pushing. Writing
+      `push: t_title | append: "..."` chains left to right, so the append
+      lands on the ARRAY rather than the title — collapsing skipped_trips
+      into a string and stopping the Excluded list from ever rendering.
+    {%- endcomment -%}
+    {%- assign skip_row = t_title | append: "||template" -%}
+    {%- assign skipped_trips = skipped_trips | push: skip_row -%}
   {%- else -%}
     {%- assign resolved = "" | split: "" -%}
 
@@ -66,7 +73,8 @@
         {%- assign is_multi = true -%}
       {%- endif -%}
       {%- if is_multi -%}
-        {%- assign skipped_trips = skipped_trips | push: t_title | append: "||multi-country location: " | append: trip.location -%}
+        {%- assign skip_row = t_title | append: "||multi-country location: " | append: trip.location -%}
+        {%- assign skipped_trips = skipped_trips | push: skip_row -%}
       {%- else -%}
         {%- assign alias = site.data.country_aliases[raw] -%}
         {%- if alias and alias != "" -%}{%- assign raw = alias -%}{%- endif -%}
