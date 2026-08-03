@@ -1,0 +1,38 @@
+# =============================================================================
+# country_aliases.yml — fold alternate names into one canonical country
+# =============================================================================
+# Used by the medal table on /favorites/ so a place isn't split across several
+# rows just because it was typed differently in different categories.
+#
+# The template first takes the text AFTER the last comma, so city entries
+# collapse on their own:
+#     "Tokyo, Japan"              -> Japan
+#     "Berlin, Germany"           -> Germany
+#     "Ho Chi Minh City, Vietnam" -> Vietnam
+#
+# This file handles what's left: the same country written more than one way.
+# Keys are matched exactly (after trimming), so add a line for each spelling
+# that shows up in _data/favorites.yml.
+#
+#   <as typed>: <canonical name>
+# =============================================================================
+
+USA: United States of America
+US: United States of America
+United States: United States of America
+America: United States of America
+
+UK: United Kingdom
+England: United Kingdom
+Scotland: United Kingdom
+Wales: United Kingdom
+Great Britain: United Kingdom
+
+The Netherlands: Netherlands
+Holland: Netherlands
+
+South Korea: South Korea
+Korea: South Korea
+
+Czechia: Czech Republic
+UAE: United Arab Emirates

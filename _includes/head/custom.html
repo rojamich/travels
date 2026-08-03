@@ -81,36 +81,89 @@
   window.addEventListener("DOMContentLoaded", function () {
     if (typeof GLightbox === "undefined") return;
 
-    // GLightbox auto-detects slide type from URL extension. Some image hosts
-    // (Cloudinary's transformed paths, picsum, etc.) don't end in .jpg, so
-    // GLightbox falls back to iframe mode and the photo loads at native
-    // size with scrollbars. Pre-tag every gallery link as type:image to
-    // skip the auto-detection.
-    var GALLERY_SELECTOR =
-      ".page__content figure a, .page__content .gallery a, .page__content a.image-popup, .page__content .inline-gallery-link";
-    document.querySelectorAll(GALLERY_SELECTOR).forEach(function (a) {
+    // ---------------------------------------------------------------------
+    // One lightbox, one group per cluster of photos.
+    // ---------------------------------------------------------------------
+    // Every link we want in the viewer gets BOTH:
+    //   data-glightbox="type: image"  — skip GLightbox's extension sniffing,
+    //     which otherwise falls back to iframe mode for Cloudinary URLs that
+    //     don't end in .jpg and loads them at native size with scrollbars.
+    //   data-gallery="<group>"        — decides what you can arrow between.
+    //
+    // Grouping rules:
+    //   - inline gallery block  -> all its photos share the block's id
+    //     (assigned by _plugins/gallery_block.rb)
+    //   - <figure>              -> that figure's photos
+    //   - anything else         -> its OWN unique group, so a standalone
+    //     photo opens alone instead of dragging the whole post in with it
+    //
+    // That last rule is what fixes the Blogger-imported posts: those wrap
+    // each photo in a bare <a> with no class or attribute, so previously
+    // they either weren't picked up at all or fell into one giant unnamed
+    // group spanning the entire page.
+    var CONTENT = ".page__content";
+
+    function isImageHref(href) {
+      if (!href) return false;
+      if (/\.(jpe?g|png|gif|webp|avif|bmp|svg)(\?|#|$)/i.test(href)) return true;
+      // Cloudinary/Blogger delivery URLs often carry no extension.
+      return /res\.cloudinary\.com|blogger\.googleusercontent\.com/.test(href);
+    }
+
+    var links = [];
+    document.querySelectorAll(CONTENT + " a").forEach(function (a) {
+      // Only links that actually wrap an image and point at an image.
+      if (!a.querySelector("img")) return;
+      if (!isImageHref(a.getAttribute("href"))) return;
+      links.push(a);
+    });
+
+    var autoGroup = 0;
+    links.forEach(function (a) {
       if (!a.dataset.glightbox) a.dataset.glightbox = "type: image";
+      if (a.dataset.gallery) return;               // plugin already grouped it
+
+      var fig = a.closest("figure, .inline-gallery, .gallery");
+      if (fig) {
+        if (!fig.dataset.lbGroup) fig.dataset.lbGroup = "grp" + (autoGroup++);
+        a.dataset.gallery = fig.dataset.lbGroup;
+      } else {
+        // Standalone photo — a group of exactly one.
+        a.dataset.gallery = "solo" + (autoGroup++);
+      }
+      a.classList.add("js-lightbox");
     });
 
-    // Per-gallery scope: assign each <figure>'s links a unique data-gallery
-    // so the lightbox cycles only within that figure's photos, not across
-    // every gallery on the page. Our inline-gallery blocks already get
-    // their own data-gallery via the Ruby plugin.
-    document.querySelectorAll(".page__content figure").forEach(function (fig, i) {
-      var groupId = "fig" + i;
-      fig.querySelectorAll("a").forEach(function (a) {
-        if (!a.dataset.gallery) a.dataset.gallery = groupId;
-      });
-    });
+    // Mark the plugin-generated links too so one selector covers everything.
+    links.forEach(function (a) { a.classList.add("js-lightbox"); });
 
-    GLightbox({
-      selector: GALLERY_SELECTOR,
+    // A single instance. Creating more than one over overlapping selectors is
+    // what caused a second, ungrouped lightbox to appear after closing the
+    // first — the same click was being handled twice.
+    if (window.__travelLightbox) window.__travelLightbox.destroy();
+    window.__travelLightbox = GLightbox({
+      selector: ".js-lightbox",
       loop: true,
       touchNavigation: true,
-      // Disable click-to-zoom so the photo fits the viewport instead of
-      // showing native-size with scrollbars.
+      // Click the dimmed area to dismiss, rather than hunting for the X.
+      closeOnOutsideClick: true,
+      // Keep the photo fitted to the viewport instead of native-size
+      // with scrollbars.
       zoomable: false,
       draggable: false
+    });
+
+    // Older GLightbox builds ignore closeOnOutsideClick, so back it up with
+    // an explicit handler on the container: a click that isn't on the image
+    // itself or the arrows closes the viewer.
+    window.__travelLightbox.on("open", function () {
+      var el = document.querySelector(".goverlay, .glightbox-container");
+      if (!el || el.dataset.outsideBound) return;
+      el.dataset.outsideBound = "1";
+      el.addEventListener("click", function (ev) {
+        if (ev.target.closest(".gslide-media, .gnext, .gprev, .gclose")) return;
+        window.__travelLightbox.close();
+      });
     });
   });
 </script>
