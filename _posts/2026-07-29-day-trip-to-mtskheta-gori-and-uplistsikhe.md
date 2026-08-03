@@ -210,6 +210,10 @@ From atop the hill, you can see where two, distinctly different colored rivers m
 
 {% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785698036%2FIMG_0022_lftln8.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785698042%2FIMG_0014_nj5gvp.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785698065%2FIMG_0013_z23ii2.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785698172%2FRivers_meeting_dh65ru.jpg%22%5D%2C%22caption%22%3A%22See%20the%20Mtkvari%20(dark%20grey%2Fgreen%2Fbrown)%20and%20Aragvi%20(blue%2Fclear)%20rivers%3F%22%7D %}
 
+Here is a photo I took on my previous trip that may help you see the contrasting colors better!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785761975/20210615_105752_gjvtse.jpg)
+
 We have a short drive back to town but Mike & I both finish our audiobooks! Me (the [Midnight Train by Matt Haig](https://www.goodreads.com/en/book/show/242380266-the-midnight-train)) and Mike ([Timeline by Michael Crichton](https://www.goodreads.com/book/show/7669.Timeline)).
 
 To our deep surprise, we are back early, have energy to walk home, and even cook a delicious dinner!
