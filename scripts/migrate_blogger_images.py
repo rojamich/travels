@@ -59,14 +59,25 @@ MAPPING_FILE = ".audit/blogger_to_cloudinary.json"
 CLOUD_FOLDER = "blogger-import"
 BLOGGER_RE = re.compile(r"https://blogger\.googleusercontent\.com/[^\s\"'<>)\]]+")
 
-# Blogger URLs often carry a size directive like /w161-h189/ or /s320/ which
-# serves a thumbnail. Strip it so we archive the largest version available —
-# we only get one shot at pulling these down.
+# Blogger URLs carry a size directive like /w161-h189/ or /s320/ that decides
+# which rendition is served. Many posts embed thumbnails, so we rewrite the
+# directive to pull a larger version.
 SIZE_DIRECTIVE_RE = re.compile(r"/(?:[swh]\d+(?:-[swh]\d+)*|w\d+-h\d+-[a-z-]+)/")
 
+# Sizes to try, largest first. NOT /s0/ (the unbounded original): those run
+# 10-14MB and Cloudinary's free tier rejects anything over 10MB outright.
+# 2400px is also exactly what the incoming transformation caps at, so pulling
+# the original would just mean downloading 5-14MB to store the same result —
+# slower, and it trips the upload limit for nothing.
+FETCH_SIZES = ["s2400", "s1600", "s1200"]
+MAX_UPLOAD_BYTES = 10 * 1024 * 1024
 
-def upsize(url):
-    return SIZE_DIRECTIVE_RE.sub("/s0/", url)
+
+def sized(url, size):
+    """Rewrite the Blogger size directive, e.g. /s320/ -> /s2400/."""
+    if SIZE_DIRECTIVE_RE.search(url):
+        return SIZE_DIRECTIVE_RE.sub(f"/{size}/", url)
+    return url
 
 
 def stable_id(url):
@@ -210,8 +221,21 @@ def main():
                 continue
 
             try:
-                content = fetch_with_retry(session_holder, upsize(url),
-                                           args.retries, base_delay=2.0)
+                # Step down through the size ladder until we get bytes that
+                # Cloudinary will actually accept. A handful of Blogger
+                # originals exceed the 10MB free-tier upload cap.
+                content = None
+                for size in FETCH_SIZES:
+                    candidate = fetch_with_retry(session_holder,
+                                                 sized(url, size),
+                                                 args.retries, base_delay=2.0)
+                    if len(candidate) <= MAX_UPLOAD_BYTES:
+                        content = candidate
+                        break
+                    print(f"      {size} is {len(candidate) / 1048576:.1f}MB "
+                          f"(over the 10MB cap) — trying smaller")
+                if content is None:
+                    raise RuntimeError("still over 10MB at the smallest size")
 
                 result = cloudinary.uploader.upload(
                     content,
