@@ -14,7 +14,7 @@ location:
 
 Naturally, our trip would not be complete without finding a St. Michael’s church! This church holds the tomb of King Ludwig II. We will later visit his castle in Füssen! Private citizens still lay flowers at his tomb to this day.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEiNIyOhtqJUpJa-Jq6rVLBaWHm_hRKLtU04Hz0WpVjdZ8ZY6nicejCA8BkLUNve7BRHGPARJUohLlYGu1DPqx5PZAmwWrTBrudmWwbxj7krCf_GfyQJuDKoBafenkMeCvu6tnSvBo8CvNMSbM3hTmtNyiopcP79ln9oRI5_B3mqCy5jpXzxul6Kjd6L=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEiNIyOhtqJUpJa-Jq6rVLBaWHm_hRKLtU04Hz0WpVjdZ8ZY6nicejCA8BkLUNve7BRHGPARJUohLlYGu1DPqx5PZAmwWrTBrudmWwbxj7krCf_GfyQJuDKoBafenkMeCvu6tnSvBo8CvNMSbM3hTmtNyiopcP79ln9oRI5_B3mqCy5jpXzxul6Kjd6L=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677383/blogger-import/8ade1cf32d9fe0cf4b6f.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677387/blogger-import/017b83abc3689f7f1674.jpg)
 
   
 
@@ -24,19 +24,19 @@ We walked past the hunting and fishing shop which holds two statues outside: the
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjaSxdccH7lGOemoI7SDCuRhhilEr7Bl-CE-o5QmWnMqlDGH5tefa1ej7H49dxl5B5BYO20XCqU-SYU9dC11WuYODSVkbkuO9ZEWAroPR46g4_bEUO3SmmKHveC98wONHyIvg561-vUq4gZMHs2WzsaJpGsv_SDizBmBlm8CvyZBprrIsDedp6rU40W=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEjaSxdccH7lGOemoI7SDCuRhhilEr7Bl-CE-o5QmWnMqlDGH5tefa1ej7H49dxl5B5BYO20XCqU-SYU9dC11WuYODSVkbkuO9ZEWAroPR46g4_bEUO3SmmKHveC98wONHyIvg561-vUq4gZMHs2WzsaJpGsv_SDizBmBlm8CvyZBprrIsDedp6rU40W=s4032)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgjtVEAxvEssTtXPTzobK74mmaJonsew3AGHZoJ5qnk0jtKtBDvBsoCp5XtLLsNbXV0xB1pDaTZ-IuJMjm3UUyzf-YH79zjsdYepEah9HLJJ5Nvtc5nEI-FYOCDqnGF_mCF1IvGhkdJFejoic-rAplJMhrjsMSYeU0gz0aUuPb8rgKAF6A7reViGAfK=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEgjtVEAxvEssTtXPTzobK74mmaJonsew3AGHZoJ5qnk0jtKtBDvBsoCp5XtLLsNbXV0xB1pDaTZ-IuJMjm3UUyzf-YH79zjsdYepEah9HLJJ5Nvtc5nEI-FYOCDqnGF_mCF1IvGhkdJFejoic-rAplJMhrjsMSYeU0gz0aUuPb8rgKAF6A7reViGAfK=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677390/blogger-import/b0e92eb1249479998650.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677394/blogger-import/b1dbb5e8427488738da5.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677403/blogger-import/986193cafe8ca9d6718d.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677407/blogger-import/80b16ecf77b901aebc7e.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEj3Al6Wxujm71y6H8Qz9B4VHJXUXrIbJufLraLpo3MparQ9Q-t744bUHXL9_qHB445NnuYfh0CsnKI7WNCz8aHExC9lYGTypnNrSHgVN8mtTltu4JR3QytAl7Bw_jUbkTrMf7jawte7igjrc75mQsfJxllh6-54-oPigQ-2iwfj99Uva0BU4-J91FOs=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEj3Al6Wxujm71y6H8Qz9B4VHJXUXrIbJufLraLpo3MparQ9Q-t744bUHXL9_qHB445NnuYfh0CsnKI7WNCz8aHExC9lYGTypnNrSHgVN8mtTltu4JR3QytAl7Bw_jUbkTrMf7jawte7igjrc75mQsfJxllh6-54-oPigQ-2iwfj99Uva0BU4-J91FOs=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677410/blogger-import/e4bfd1d3d285fd4b701a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677415/blogger-import/9cce964441f0c9c5e1e9.jpg)
 
   
 
 
 We moved onto what is one of the coolest views here: The Frauenkirche, a cathedral. I just really liked the onion-styled domes! Something interesting about this cathedral was that in WWII, the window panes at the back of the church were all removed (one by one) and packed away safely to avoid destruction. Much of the church (Like everything in München) was destroyed during the war.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEioIUtGq5xI4GVzsGj3z2Hc4gRXSMpmpNzYT6UONaFH1XdQ7eMgBuJixgOhhWOKjFJKhlo7SL5UtuIfdJbPvn7I63zzOoKxThVX7tPn_zR-cDK6e3Uo2MTB7EP_rsSZk5aMO2BCTPkuL7zgQEKQhpFezj0WxjetvxsTpzuiIkc5qIWcRgGT9TgfjJ5r=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEioIUtGq5xI4GVzsGj3z2Hc4gRXSMpmpNzYT6UONaFH1XdQ7eMgBuJixgOhhWOKjFJKhlo7SL5UtuIfdJbPvn7I63zzOoKxThVX7tPn_zR-cDK6e3Uo2MTB7EP_rsSZk5aMO2BCTPkuL7zgQEKQhpFezj0WxjetvxsTpzuiIkc5qIWcRgGT9TgfjJ5r=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677422/blogger-import/01de1e46c2815b062e8e.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677427/blogger-import/951cc3956b2902643cc9.jpg)
 
   
 
@@ -46,4 +46,4 @@ We walked down a few alleyways when getting turned around (Mike is so patient, i
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEgPyLP2HlZyxiFx9zBblS-YQ8wTSzAHaG95TjLI60SqZRiGFjZyDNexaspnW3t25l-xHKplrtK63Q_Lv8Hzfo2Z6_TFSAGMAku3mcZkXfAhVvSueqPlRM8Om2hz_2HJ7LAR6UJYBbYG5IrNdeRn503AJVZ6_eDHHgbzwaKPxKEmIEu-MNgrNr88ePMV=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEgPyLP2HlZyxiFx9zBblS-YQ8wTSzAHaG95TjLI60SqZRiGFjZyDNexaspnW3t25l-xHKplrtK63Q_Lv8Hzfo2Z6_TFSAGMAku3mcZkXfAhVvSueqPlRM8Om2hz_2HJ7LAR6UJYBbYG5IrNdeRn503AJVZ6_eDHHgbzwaKPxKEmIEu-MNgrNr88ePMV=s3648)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677429/blogger-import/e944889290db6e4481a3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677433/blogger-import/5dc650031ad8e981ff91.jpg)

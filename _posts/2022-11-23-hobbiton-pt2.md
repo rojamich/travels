@@ -17,7 +17,7 @@ They gave us enough time to see each of the hobbit holes and take photos thankfu
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNNBFP7IBwx60wN6awNHJbcFhKXNwyRaA0FtkAPAhiFIl3l30aw6Q2-cgrj3QTzoQAwY0woIbddwQg85UptMqrCp7fbklccXj7qW-DQqDls-BhoTeNMIO23U3yX3tymW8qcWu8qt7v1sqzXsxRLBOb-jwg3dT8N_X3tOrQsZenG9OpWDXbxRjcXsx5og/s320/20221117_183237.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNNBFP7IBwx60wN6awNHJbcFhKXNwyRaA0FtkAPAhiFIl3l30aw6Q2-cgrj3QTzoQAwY0woIbddwQg85UptMqrCp7fbklccXj7qW-DQqDls-BhoTeNMIO23U3yX3tymW8qcWu8qt7v1sqzXsxRLBOb-jwg3dT8N_X3tOrQsZenG9OpWDXbxRjcXsx5og/s2082/20221117_183237.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679786/blogger-import/82851629adf77a3838b1.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679795/blogger-import/85005b75cf8812c25b86.jpg)
 
   
 
@@ -30,7 +30,7 @@ Sam's and Bilbo's were of course the coolest!
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNTo3Ft7GQ3Ya0PwqH6ICTJ_8BGLgk0RuJWZ2o-ouMgahF65_DYqHIsZJS-FW21WSVhTh0YNYG88Yy_UBDRBMBjoA6MwMnJdfoapbx0k8rr0TsNBm30kqhZXg3c8EtDRrf-0j-mYX9CXaJfgKcbWEiiXyCu26RnFK07zUILvI0Famh4HHANcgftjj7Uw/s320/20221117_185919.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNTo3Ft7GQ3Ya0PwqH6ICTJ_8BGLgk0RuJWZ2o-ouMgahF65_DYqHIsZJS-FW21WSVhTh0YNYG88Yy_UBDRBMBjoA6MwMnJdfoapbx0k8rr0TsNBm30kqhZXg3c8EtDRrf-0j-mYX9CXaJfgKcbWEiiXyCu26RnFK07zUILvI0Famh4HHANcgftjj7Uw/s3648/20221117_185919.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679805/blogger-import/c4d4a69fd122846431be.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679824/blogger-import/8ba14e249098cbd87f5f.jpg)
 
   
 
@@ -38,11 +38,11 @@ Sam's and Bilbo's were of course the coolest!
 I hadn't realized just how wealthy Bilbo must have been. The higher your house sat on the hill, the more wealthy you were. And the more windows you had, the wealthier you were. Most Hobbit holes had 2-4 windows but he had 13!  
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzOoxdMWgOY4YHs7C1yajmWjvYxU_W3hCj6i983y2Ai7koAR5Pojrz4ZGLnMcnxiaf3M3PDBiC9weRdVGQyc7Eawzmd7py1T4ymn9Vqknc1CbYbDV6O5urHmopmKePF8AGoF08kc_v74XzrfDYFCcR5G6sPSnb2Z2OVBL2zsz8VcwDyS5u9sa4jOM9Jw/s320/20221117_183509.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzOoxdMWgOY4YHs7C1yajmWjvYxU_W3hCj6i983y2Ai7koAR5Pojrz4ZGLnMcnxiaf3M3PDBiC9weRdVGQyc7Eawzmd7py1T4ymn9Vqknc1CbYbDV6O5urHmopmKePF8AGoF08kc_v74XzrfDYFCcR5G6sPSnb2Z2OVBL2zsz8VcwDyS5u9sa4jOM9Jw/s3648/20221117_183509.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679833/blogger-import/513c98b10a82a319c661.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679842/blogger-import/8e6b7cfe3fc4b6020630.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0UOyFkvKKeD71ZBefmGqDCx3SSPOzXlCu27ZbfN66Fnxxu8aBwVvtEZ4RFJI_AgFCyKBZHrpCGg3K2onBwsuvLsJOVj-rvrqu48OdhAkOY1Ue2-d10kTmWqmnZu2FkyR7JYRdkPk6pnqqK6y-GXLCDvDW6EuSWMk1XUWjBeArqMwnvBPextDhawNa_g/s320/20221117_183444.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0UOyFkvKKeD71ZBefmGqDCx3SSPOzXlCu27ZbfN66Fnxxu8aBwVvtEZ4RFJI_AgFCyKBZHrpCGg3K2onBwsuvLsJOVj-rvrqu48OdhAkOY1Ue2-d10kTmWqmnZu2FkyR7JYRdkPk6pnqqK6y-GXLCDvDW6EuSWMk1XUWjBeArqMwnvBPextDhawNa_g/s4032/20221117_183444.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679846/blogger-import/eee4c770c9fa305c79c4.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679851/blogger-import/675661bf05ba8eaea443.jpg)
 
 I loved hearing the fun facts about filming, the set, finding the location, and auditioning locals for the parts of hobbits! It was SO funny to hear the casting call was only for those 5'3" and under!

@@ -14,7 +14,7 @@ location:
 
 This was a day I'd been so excited for and it was just that more magical that it fell on Christmas day. There is a deer park in Nara, Japan where you can go and feed deer by hand, Disney princess status!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGqZIjGhQ6losIokFhCRRKAWg2DPQhBOF3zvA5b-wmmxUiRkDnPzWNviWg5hcjHafKk6FHxQdHLjbhKqWGpSnom1XGZN0OmVIoM7sUU8DkMGBkl-wyIUx11a097vejSjLOzmaZGSwgpoXV4KDjqFaJHC5Yu24ke6xj9Up2a5KgHbWrH3tFCx_8bX_mawiL/s320/Nara.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGqZIjGhQ6losIokFhCRRKAWg2DPQhBOF3zvA5b-wmmxUiRkDnPzWNviWg5hcjHafKk6FHxQdHLjbhKqWGpSnom1XGZN0OmVIoM7sUU8DkMGBkl-wyIUx11a097vejSjLOzmaZGSwgpoXV4KDjqFaJHC5Yu24ke6xj9Up2a5KgHbWrH3tFCx_8bX_mawiL/s1066/Nara.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785705857/blogger-import/471f704fc8464423c5a6.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785705860/blogger-import/31ab246a9c066548a2fe.jpg)
 
   
 
@@ -23,13 +23,13 @@ After enjoying the hotel breakfast, we made the day trip to Nara early this morn
 
 If I haven't emphasized this enough, the train rides were a dream here. I would commute an hour every day if it could be on a train. I ended up finishing nine books on this trip (yay kindle) thanks to plane and train travel!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdMG6UgIgJs3MIfUDm626C5LwkhCxnYjKuOr08Bmm2KGbTboNaCDsdNNRFH2COm_rIVJdZu8ghjqM7b4Jq_wgY6z2S5O5l0iBWTbLWe2BD5WvQ-wnAGNd50b3bYuSRHjxwZDtgYBabRMS9VGSoIipyKKNWLwWvB2-_WYcqEXjSGRytt1n_0PzZXU-N1ZTF/s320/20241225_090750.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdMG6UgIgJs3MIfUDm626C5LwkhCxnYjKuOr08Bmm2KGbTboNaCDsdNNRFH2COm_rIVJdZu8ghjqM7b4Jq_wgY6z2S5O5l0iBWTbLWe2BD5WvQ-wnAGNd50b3bYuSRHjxwZDtgYBabRMS9VGSoIipyKKNWLwWvB2-_WYcqEXjSGRytt1n_0PzZXU-N1ZTF/s4000/20241225_090750.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVPbyDzw-UoVkyRvegBxV2FYSREoWwCWVin24Q8efV9NYmVk__-Swnnv3peJx9UXC23wWPnmupauCWh9Q71oWfDM-RbRMHkG7lhUxyOW4hzCr1i8WClmDMQu7-KB3NRaI4FgRCjWg1mX0P1pJT5vMasWCJ4Wm0zJJ-JP60TBfHhDBoEQjusxKofW3-SZwT/s320/20241225_090731.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVPbyDzw-UoVkyRvegBxV2FYSREoWwCWVin24Q8efV9NYmVk__-Swnnv3peJx9UXC23wWPnmupauCWh9Q71oWfDM-RbRMHkG7lhUxyOW4hzCr1i8WClmDMQu7-KB3NRaI4FgRCjWg1mX0P1pJT5vMasWCJ4Wm0zJJ-JP60TBfHhDBoEQjusxKofW3-SZwT/s4000/20241225_090731.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785705864/blogger-import/5962953f84a4fcac155b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785705869/blogger-import/a6afb2c540609aec3464.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785705873/blogger-import/4d94e70512bf9d593874.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785705877/blogger-import/90bd7b1ddf469cfef73e.jpg)
 
 After a tight transfer, we made it to the beautiful and quiet city of Nara. It had not filled up yet and we made the short walk up to Nara deer park. We stopped short to eat a couple snacks and the deer started converging on us as they could smell our food! Run awayyyyy! It is improper to eat while walking here or on commuter trains (bullet trains are fine) so we avoided doing so. Although, it was hard as you know I get hangry. 
 
 We finished the snack in time to show them our empty hands and bought some deer crackers at a nearby stand. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX6w1Ir3RWvAozaluj1yT82UmN-cQfhppNYagAQwldgc2O6T4IpM6w9qdc9Oi-FrAxFoSaDN8ynwY4o5hcQXww8IJC42YUINIg7qYFfl4UPD0M4Z4pkubVpCOyCl2Ig0WfJyKcJEc3Rsg5rLbnzDYKahG8jGgFi6SXokQZXarJdGBZBOaWmAcW5XDGci9p/s320/20241225_091418.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX6w1Ir3RWvAozaluj1yT82UmN-cQfhppNYagAQwldgc2O6T4IpM6w9qdc9Oi-FrAxFoSaDN8ynwY4o5hcQXww8IJC42YUINIg7qYFfl4UPD0M4Z4pkubVpCOyCl2Ig0WfJyKcJEc3Rsg5rLbnzDYKahG8jGgFi6SXokQZXarJdGBZBOaWmAcW5XDGci9p/s4000/20241225_091418.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785705883/blogger-import/aaca86dac48dd8fb5aa3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785705893/blogger-import/47075d4cc7947aee5c61.jpg)
 
   
 
@@ -39,9 +39,9 @@ You can see how curious this little fella was about the crackers I was hoarding 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT7OPYPzMEu_m5yi09lon2vniTeHbajJ70pUvsiw8SEFR7qmB31vuiNIsC44EA3l9QzXEbWwurLBxzbS-_zu2AZ0eRkc0T-Nu-TlWcSZoHEk1fneOdsUfZn0vJ48QvcmmPx8dSgHLPSHTuwT9dZdftNFr8lJS32jtZFe6xkrTbqfBujWI5ex4m4xojvXY5/s320/20241225_091537.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT7OPYPzMEu_m5yi09lon2vniTeHbajJ70pUvsiw8SEFR7qmB31vuiNIsC44EA3l9QzXEbWwurLBxzbS-_zu2AZ0eRkc0T-Nu-TlWcSZoHEk1fneOdsUfZn0vJ48QvcmmPx8dSgHLPSHTuwT9dZdftNFr8lJS32jtZFe6xkrTbqfBujWI5ex4m4xojvXY5/s4000/20241225_091537.jpg) 
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785705901/blogger-import/d7ed4633582a005520a8.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785705909/blogger-import/d01a6aa1e947a3a5561e.jpg) 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA0gps0DpbaE2Hn7xN5mQyb9j5UPClv7G7V7BJJieIbyVAF9Ak8U5ypJk5zAs6anUElCAKzydFN0pqdEnS-uvYCD8jmZKTOUsogMol-oBAVH0qo1khCSuRrU80Gp-MwN9sHpUl6UIrGD2nPflh4S0FKLDwT9TuyQ3oeKR3GZym6cD-4xwSbYGGoGNiD_Z3/s320/20241225_091524.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA0gps0DpbaE2Hn7xN5mQyb9j5UPClv7G7V7BJJieIbyVAF9Ak8U5ypJk5zAs6anUElCAKzydFN0pqdEnS-uvYCD8jmZKTOUsogMol-oBAVH0qo1khCSuRrU80Gp-MwN9sHpUl6UIrGD2nPflh4S0FKLDwT9TuyQ3oeKR3GZym6cD-4xwSbYGGoGNiD_Z3/s4000/20241225_091524.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785705926/blogger-import/c9bf9ff9225bc3fdeef3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785705953/blogger-import/963e9c0b77eeeee1dfee.jpg)
 
   
 
@@ -51,12 +51,12 @@ This one pulls a Gandalf and says "YOU SHALL NOT PASS...without giving me a crac
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOsvOQwOplRSNsC-60mny937_ZUL_52wVOQoaw8hTFBzzQ5doyyJo2vfkE1OyIcYw34zE49Iz0WE8cGZTfJdFW65s-wauatmo8m5RO6p-xeC6ugKohuG9UBP62rpUzpyPp3sQG9-fKyVqR9-VsnNLWJNW5RRTq2NmYy1AcVGJqh_34BxlItP0IfTPrCs5Y/s320/20241225_091722.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOsvOQwOplRSNsC-60mny937_ZUL_52wVOQoaw8hTFBzzQ5doyyJo2vfkE1OyIcYw34zE49Iz0WE8cGZTfJdFW65s-wauatmo8m5RO6p-xeC6ugKohuG9UBP62rpUzpyPp3sQG9-fKyVqR9-VsnNLWJNW5RRTq2NmYy1AcVGJqh_34BxlItP0IfTPrCs5Y/s4000/20241225_091722.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX7WWEo3M7tRhwm_c_OrrYQeQnTRu1J9GkonvGcf8OUyrg4RLhUeYTFmcOEX7hLRKlXydyhSZ33CGAg8lqLcuRjzIf7j2scmoclX8jSEt4TXUMm2c-pyL92tHorcJRrKMGgDMma4vk5ze9YhDl9DBmAvhQ82nNOKqTj6Kz8h9sw60AIeIHHwEoA7t0FGW_/s320/20241225_091910.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX7WWEo3M7tRhwm_c_OrrYQeQnTRu1J9GkonvGcf8OUyrg4RLhUeYTFmcOEX7hLRKlXydyhSZ33CGAg8lqLcuRjzIf7j2scmoclX8jSEt4TXUMm2c-pyL92tHorcJRrKMGgDMma4vk5ze9YhDl9DBmAvhQ82nNOKqTj6Kz8h9sw60AIeIHHwEoA7t0FGW_/s4000/20241225_091910.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785705962/blogger-import/ed67fda5b502f15b205a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785705972/blogger-import/50fbc723f03a5764a94f.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785705982/blogger-import/a3c415b0874e5bea7320.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785705992/blogger-import/b637f7e74a65e002145d.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixj41rbM2btNP2wwpGBRCwEAftpCIyl5K4unaBCGOgKGrbgkOYYavKtu-xJ1odXnaaxJtEXzPQ6XB3iMkBeO5Y_xeanUA3HyZbXWcQ1KoFcAk3EJCK-eo44p2yzbX6MdhAEU4Ds0GHwGGg0FB2CxL8Uan1PMSuiirOWuMnpOqTnT2fEyL34vqjNO37Wjx1/s320/20241225_092027.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixj41rbM2btNP2wwpGBRCwEAftpCIyl5K4unaBCGOgKGrbgkOYYavKtu-xJ1odXnaaxJtEXzPQ6XB3iMkBeO5Y_xeanUA3HyZbXWcQ1KoFcAk3EJCK-eo44p2yzbX6MdhAEU4Ds0GHwGGg0FB2CxL8Uan1PMSuiirOWuMnpOqTnT2fEyL34vqjNO37Wjx1/s4000/20241225_092027.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706001/blogger-import/949da8bab621439e8e35.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706011/blogger-import/58c03c4ecc1aa570f89f.jpg)
 
   
 
@@ -71,7 +71,7 @@ Did I mention these guys will nip your clothes if you don't give out the cracker
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSaLJP-8Qr_7mwBlNTEHOTqNg9RNjDPIXPbSfQmgv-buZhMK3HDKlZwQ4lE9nifvVoOkmuNBPqxObBsE3MhHRg0PDObmXlAg30SJCyIGGnoUuSbtcHhLF-itv6_iJbGuFYeOYbFWHdErgXQAs-1vLRgYBXGh2QJAClrqkyct7JhTD5UWm8rV7EDMFamb1H/s320/20241225_092217.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSaLJP-8Qr_7mwBlNTEHOTqNg9RNjDPIXPbSfQmgv-buZhMK3HDKlZwQ4lE9nifvVoOkmuNBPqxObBsE3MhHRg0PDObmXlAg30SJCyIGGnoUuSbtcHhLF-itv6_iJbGuFYeOYbFWHdErgXQAs-1vLRgYBXGh2QJAClrqkyct7JhTD5UWm8rV7EDMFamb1H/s3392/20241225_092217.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706020/blogger-import/f313a60e834b30180f2b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706031/blogger-import/bc19c08d8c65826220dd.jpg)
 
   
 
@@ -81,12 +81,12 @@ We had finished giving out our crackers and were walking to our next stop but th
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijd0PJ7bWSviTxdGSjDIHEx0aZOxRm2arY2eOY_dlYUGVdsSVaE7jHjP5nEsOolsqiG0GPQaNL18JtWYKhKDOAYACQO5fwvpRPyn8osjkB6FJPRhWBKhyE1y8BSSrRFz806ZnerhpIhhgnz5dvBjAOeHNfC4sTRJJA7XsZ_imtGZI-lL7oiU1WcqowX4HT/s320/20241225_092735.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijd0PJ7bWSviTxdGSjDIHEx0aZOxRm2arY2eOY_dlYUGVdsSVaE7jHjP5nEsOolsqiG0GPQaNL18JtWYKhKDOAYACQO5fwvpRPyn8osjkB6FJPRhWBKhyE1y8BSSrRFz806ZnerhpIhhgnz5dvBjAOeHNfC4sTRJJA7XsZ_imtGZI-lL7oiU1WcqowX4HT/s4000/20241225_092735.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706041/blogger-import/bc6d04015d8375aa059c.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706050/blogger-import/bae15ae715a8f0cb4e37.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjX5EAh0ysiU5AnxUIkAcitTHbQbnpULRuZCxccg1gz3qoHzhs0XB0CIc1IO_D1mfcv9NrxTkSgHGPBJl9QmspSq9xsqS4Q6m9Mu2PwvPUotMk4dxygKKBc2JduHnAy_714l_XgW_aZOV7VIQe36xZgJtyEAN-fidoz9Lgnte9kwWGK-q7YwKrcizsyH1pV/s320/20241225_092842.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjX5EAh0ysiU5AnxUIkAcitTHbQbnpULRuZCxccg1gz3qoHzhs0XB0CIc1IO_D1mfcv9NrxTkSgHGPBJl9QmspSq9xsqS4Q6m9Mu2PwvPUotMk4dxygKKBc2JduHnAy_714l_XgW_aZOV7VIQe36xZgJtyEAN-fidoz9Lgnte9kwWGK-q7YwKrcizsyH1pV/s4000/20241225_092842.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706059/blogger-import/6a970c1ce5949b75aaf4.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706069/blogger-import/f7a861eec816e0538aa7.jpg)
 
   
 
@@ -98,12 +98,12 @@ Notice the gold on top? Those symbols are said to help ward off fires. I'm not s
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimSHjwwe0vw_P99cBNhH6MyVO_SgcJLfQp073I9yE7XxNHPbeuUxBRCdxR-uzq61-PFkBUfjTLlHtRNFZWP_DDAyi1puaLhSFGtG3JPjIk5TXAlBjsudGlNW9UlxRhMgD51k-xtT-UYWlWl8z68MtSkbfbn4VlC8RdmmVeVCpPzHBtWtOYPEb2NJmoYukq/s320/20241225_095106.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimSHjwwe0vw_P99cBNhH6MyVO_SgcJLfQp073I9yE7XxNHPbeuUxBRCdxR-uzq61-PFkBUfjTLlHtRNFZWP_DDAyi1puaLhSFGtG3JPjIk5TXAlBjsudGlNW9UlxRhMgD51k-xtT-UYWlWl8z68MtSkbfbn4VlC8RdmmVeVCpPzHBtWtOYPEb2NJmoYukq/s4000/20241225_095106.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkXq65eyfntbsfHRMdbsCZUm0mWfUdWocLH4rTp2SIXQuVONl0mudnmDD-tK7QwExZi9FRbhTjAVp9QfRehPy_iVe4Vb4yxlP0kXqROb3JgYCIaStb7H48_o4M-Ao5_P-VG_b8q2W2TWuqGJl-hQNiAkzqOVXG-B5W4BPIRJScuXb1E7ozxVIE3NIcl2vT/s320/20241225_094321.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkXq65eyfntbsfHRMdbsCZUm0mWfUdWocLH4rTp2SIXQuVONl0mudnmDD-tK7QwExZi9FRbhTjAVp9QfRehPy_iVe4Vb4yxlP0kXqROb3JgYCIaStb7H48_o4M-Ao5_P-VG_b8q2W2TWuqGJl-hQNiAkzqOVXG-B5W4BPIRJScuXb1E7ozxVIE3NIcl2vT/s4000/20241225_094321.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706076/blogger-import/a566bb2b8bd976ee727b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706086/blogger-import/52dbbedc727eefa52074.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706106/blogger-import/37c5508c37997e87699b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706115/blogger-import/d8307a5d956163f7bcf5.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2WhOzV-CYlG8AVqyhiCxuUPjhgfWTTSvCiI3EopKnWAkcwUh9AK5ezlw5VhZ6ug8WQWqz1ZC3-wesCWoDHZ_3grjCX8zV2RAGA40M6TWeIp7L8dhLuhCNkD6btAWnVcsHtaWzP2qU7jsvKOWodPtBFnr5K3eT4jjDZCL8IMTz_l2YV_zOXB5KYPpTWlBG/s320/20241225_094714.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2WhOzV-CYlG8AVqyhiCxuUPjhgfWTTSvCiI3EopKnWAkcwUh9AK5ezlw5VhZ6ug8WQWqz1ZC3-wesCWoDHZ_3grjCX8zV2RAGA40M6TWeIp7L8dhLuhCNkD6btAWnVcsHtaWzP2qU7jsvKOWodPtBFnr5K3eT4jjDZCL8IMTz_l2YV_zOXB5KYPpTWlBG/s4000/20241225_094714.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706126/blogger-import/65785a9bd90d521a1a07.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706135/blogger-import/6080be4d6806192fef6a.jpg)
 
   
 
@@ -113,7 +113,7 @@ This complex was very close together, and we enjoyed taking in the intricate arc
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1bH56YS-CXjTADw-IfWQ3PNI6vLtdCpo_gS80yvVZJT-jqZayYQRp6oQ73RK6uRxKjI1Nm_Xk3OtWzT-bCfwYe5CYrOVYZd62It5r506yGBeHGkmauYPhIT_QlowlFJgpGcE2fZ2BULNwAfmgNPAbKDi__bTD3ZJlHxj0198qwSGrSbPxZS1gzOGjh3ne/s320/download.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1bH56YS-CXjTADw-IfWQ3PNI6vLtdCpo_gS80yvVZJT-jqZayYQRp6oQ73RK6uRxKjI1Nm_Xk3OtWzT-bCfwYe5CYrOVYZd62It5r506yGBeHGkmauYPhIT_QlowlFJgpGcE2fZ2BULNwAfmgNPAbKDi__bTD3ZJlHxj0198qwSGrSbPxZS1gzOGjh3ne/s1920/download.jpeg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706142/blogger-import/70e06a04e09f861f1630.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706145/blogger-import/7fb23115bfa86def09cc.jpg)
 
   
 
@@ -123,7 +123,7 @@ The five-story pagoda was under a 10-year construction while we were here and th
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPouW6pPu4kAlKRiXQ9oEx_Jdr01sayNhBAc-tBC8NDjHDJL_4XJxr-CxPdltD4CRdR-3bYa2EUWO7PHD6h63PrJUAu1VK7hZDZYVDqbLKuzLF3xmz8x7x9BVwp7pElvXk75hidn7XPYMYsaK4Ot7-bXopQNVqDTIPA7SNg91hndkMQvzmQVE-NFO13trW/s320/20241225_104908.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPouW6pPu4kAlKRiXQ9oEx_Jdr01sayNhBAc-tBC8NDjHDJL_4XJxr-CxPdltD4CRdR-3bYa2EUWO7PHD6h63PrJUAu1VK7hZDZYVDqbLKuzLF3xmz8x7x9BVwp7pElvXk75hidn7XPYMYsaK4Ot7-bXopQNVqDTIPA7SNg91hndkMQvzmQVE-NFO13trW/s4000/20241225_104908.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706150/blogger-import/8479f5195fb82a7df9cc.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706154/blogger-import/4abacc05e2af5d4be1c2.jpg)
 
   
 
@@ -133,12 +133,12 @@ I was chilly and wanted a coffee and we found this scenic view at a nearby Starb
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnNOMrWkzf3krs6MKfzfQ-pC7cY_vDG1biYbK9DoeUDsZx36Ld-TO0vzfFTtn0sA5dh2FzQqy4Y_bOUl7edIof86L5OwXxfVFc1ncUPaMqmiH42QBX5zsxEbUtwwWKsjqakR0VP9AvxVJXpOgS2xtT1nzUDM5V_E8VHp-P-srhF4i8vq9LKUfhQVjQ74yj/s320/20241225_105815.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnNOMrWkzf3krs6MKfzfQ-pC7cY_vDG1biYbK9DoeUDsZx36Ld-TO0vzfFTtn0sA5dh2FzQqy4Y_bOUl7edIof86L5OwXxfVFc1ncUPaMqmiH42QBX5zsxEbUtwwWKsjqakR0VP9AvxVJXpOgS2xtT1nzUDM5V_E8VHp-P-srhF4i8vq9LKUfhQVjQ74yj/s4000/20241225_105815.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo_1A8geJ7MceJ2ssG7UIe7sAdrH1RtUhUTmruUqVDo_6Y9QDQZX8F3o0j7Uk0oYAOL41oitxC7QJ7Q0RucKlYLMKYvkbxRJ8R8UI0CLsxKsL-dhIkz9Qj7Cl_W3KHwehn-b8Egz7izJ1tOR9hGxR9rtVMNGtiKuscTYdJYCvLq9FYXMYeY_nYuDyUgQjc/s320/20241225_105819.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo_1A8geJ7MceJ2ssG7UIe7sAdrH1RtUhUTmruUqVDo_6Y9QDQZX8F3o0j7Uk0oYAOL41oitxC7QJ7Q0RucKlYLMKYvkbxRJ8R8UI0CLsxKsL-dhIkz9Qj7Cl_W3KHwehn-b8Egz7izJ1tOR9hGxR9rtVMNGtiKuscTYdJYCvLq9FYXMYeY_nYuDyUgQjc/s4000/20241225_105819.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706166/blogger-import/1934c73069ec6d893dc8.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706174/blogger-import/3a466ef14e6e3e83bb7c.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706182/blogger-import/f41c664338719c310adf.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706192/blogger-import/bd9878fd43ab41a1d6da.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO55AcIcc_E4c0wCP5_KkcAYonCx4aB0RIuyyJbTBskKsOCWvzTuCJb8uRW-i_-L9Yvu-b4LT0XYX9II_EZlYo5z7FcykpmpkJHkQ2_Rlnia5WhDFP5tlL8ETcssaDEU_4VE8TpBYToCCToWY5dSIlrxh8-GNouXYtQDuqM9MmQyXsaBUGprEhHW_J_Fb1/s320/20241225_110123.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO55AcIcc_E4c0wCP5_KkcAYonCx4aB0RIuyyJbTBskKsOCWvzTuCJb8uRW-i_-L9Yvu-b4LT0XYX9II_EZlYo5z7FcykpmpkJHkQ2_Rlnia5WhDFP5tlL8ETcssaDEU_4VE8TpBYToCCToWY5dSIlrxh8-GNouXYtQDuqM9MmQyXsaBUGprEhHW_J_Fb1/s4000/20241225_110123.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706205/blogger-import/6ce956531853505ad148.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706215/blogger-import/817864b221b52790059a.jpg)
 
   
 
@@ -148,7 +148,7 @@ Mike's route took us through the sprawling park where we saw more deer, tori gat
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCsWfUukLfkdic4bgtpuE65pN56azuHZ8cYmLGYx3IdaNiTOYkcWiC6spkk8R3M9Uo_1LSg_vvkIaWT_0nBmknkZ_hpjJC_XwEyyydspvuonzBK41Ny2Gv48B-t1BCPn9khSBB8H54Ei6eA8oFFGZjOlrHFq9suWoxkMNaHxDrb4JN7islNe9KEDp9LsUM/s320/20241225_111753.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCsWfUukLfkdic4bgtpuE65pN56azuHZ8cYmLGYx3IdaNiTOYkcWiC6spkk8R3M9Uo_1LSg_vvkIaWT_0nBmknkZ_hpjJC_XwEyyydspvuonzBK41Ny2Gv48B-t1BCPn9khSBB8H54Ei6eA8oFFGZjOlrHFq9suWoxkMNaHxDrb4JN7islNe9KEDp9LsUM/s4000/20241225_111753.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706224/blogger-import/d9aeb8e45addaebf4fa9.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706231/blogger-import/392a5465fbed4e86110e.jpg)
 
   
 
@@ -158,12 +158,12 @@ Apparently, we need to be careful with our tickets! I can't imagine how many tim
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVOE9sKwGW7IDh9-6GCUipHPZvLwXR5Hmv1OCaVqbKSCl6_mwgi4GtWJIayJ7ww4dt83jrzfC5HPZ9lGVDur1so-XQIwzUAb7X03E6DibqCOCFzFNH5ylz964a8Mgw0yUoJEq9csna04PcQWyXiwAWI5ONYlwpkzE6BUcO9Ky_kudwVvnqU0TIWTawf7HU/s320/20241225_110903.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVOE9sKwGW7IDh9-6GCUipHPZvLwXR5Hmv1OCaVqbKSCl6_mwgi4GtWJIayJ7ww4dt83jrzfC5HPZ9lGVDur1so-XQIwzUAb7X03E6DibqCOCFzFNH5ylz964a8Mgw0yUoJEq9csna04PcQWyXiwAWI5ONYlwpkzE6BUcO9Ky_kudwVvnqU0TIWTawf7HU/s4000/20241225_110903.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTuS_dVBsr2RZzbOtAf2wZx1pS6CL5NYRfdtdc9jqzMIV-oHJr0ERlvGqU_bYQyJM82OYbm1rt2LmprXKL-lGUVSKvlhqjq8i9KIp5lZA_WXgCdZbyV0zdp1Yb5psu0Lp91LEN2KiRXIoC-U5qO0j5tuILzI4304Pankt7eJN6DIiL6Lcaojgo0tYMRqlR/s320/20241225_110952.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTuS_dVBsr2RZzbOtAf2wZx1pS6CL5NYRfdtdc9jqzMIV-oHJr0ERlvGqU_bYQyJM82OYbm1rt2LmprXKL-lGUVSKvlhqjq8i9KIp5lZA_WXgCdZbyV0zdp1Yb5psu0Lp91LEN2KiRXIoC-U5qO0j5tuILzI4304Pankt7eJN6DIiL6Lcaojgo0tYMRqlR/s4000/20241225_110952.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706241/blogger-import/2701cfe1a68f10e7306e.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706252/blogger-import/9bff0b27cc1b9a4a994e.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706263/blogger-import/1b32f20f29acdd0da140.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706280/blogger-import/b0fff27890431ec2518a.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgNXWqojLSx82avXr6XGI-BXPXoefSJL72q6MmhIZyRnuev-Ul5NGHd9kB8wiUzLIspiCHyikQrdKBne1s0CzdWffA9Bv9dRnk0wPzhFihMqr53riUaQ_spd55N9VJA8_RbAjxy09HPPGJDbD8KYoNH_ddJotX_kfsXkmuh0SMSrtbK_HC-Ge43R_ej6UB/s320/20241225_110955.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgNXWqojLSx82avXr6XGI-BXPXoefSJL72q6MmhIZyRnuev-Ul5NGHd9kB8wiUzLIspiCHyikQrdKBne1s0CzdWffA9Bv9dRnk0wPzhFihMqr53riUaQ_spd55N9VJA8_RbAjxy09HPPGJDbD8KYoNH_ddJotX_kfsXkmuh0SMSrtbK_HC-Ge43R_ej6UB/s3883/20241225_110955.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706289/blogger-import/26b3566ae0e4bfea9467.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706296/blogger-import/9112df0ac908097c80e0.jpg)
 
   
 
@@ -173,14 +173,14 @@ As we approached, the entrace loomed imposingly above us and we stood in awe. Th
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLYxIvLx1hbgdEM6REKJ3xQIJGUu7esT4q_dnZurY6OPkIMiUZa_g6nZHZ6e9EdbIWS6PwjX5LLfRkhxMfAzp_96IADQFoKQAKDOOkVHUu02ZtRhfdjIrFRVXYfwl-keFqxMeSC6f3cgEI3GTIHtNpfQ4aSKRPRgpicsoS6jhmo8_-LSpUJtoM56-7ArOp/s320/20241225_111310.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLYxIvLx1hbgdEM6REKJ3xQIJGUu7esT4q_dnZurY6OPkIMiUZa_g6nZHZ6e9EdbIWS6PwjX5LLfRkhxMfAzp_96IADQFoKQAKDOOkVHUu02ZtRhfdjIrFRVXYfwl-keFqxMeSC6f3cgEI3GTIHtNpfQ4aSKRPRgpicsoS6jhmo8_-LSpUJtoM56-7ArOp/s4000/20241225_111310.jpg) 
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706306/blogger-import/c6dca242973122198a58.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706312/blogger-import/9cfdef444b454a5ed1de.jpg) 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl-N117hAkkBVnXTnkE_J-mLtP29Q-MDWMvUSk38M9ggvBDwoF2bd84JKR0k1Rz7MFyLNttwbqY2oQg4xLgDcHegD92UKg86bSzxPJxVWvUYYdtLE_Xz1ZU-ARSNo3hdQVZNi8D88nbEotBWQO3MQTZwkpeRsdUOBINEMujdGD0BC_OBJSrpIcYSxeaFPg/s320/20241225_112704.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl-N117hAkkBVnXTnkE_J-mLtP29Q-MDWMvUSk38M9ggvBDwoF2bd84JKR0k1Rz7MFyLNttwbqY2oQg4xLgDcHegD92UKg86bSzxPJxVWvUYYdtLE_Xz1ZU-ARSNo3hdQVZNi8D88nbEotBWQO3MQTZwkpeRsdUOBINEMujdGD0BC_OBJSrpIcYSxeaFPg/s4000/20241225_112704.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQHjB1LOtM-O_bsv1w7naH8lERJbiJWIkffRGI7gWNgG3JpO4pP9lIbOG8zrImHCuTAWtjH7JZf0Xatv5wjWTMaCCjkruceZv8DznKef2Yf0x8ICZDaGn8VkDT87RoGU_4sqkM3hM_WP9rwZe2xQdG7YZgJuPKBuuUDlBxdMnIwR7C3ggIgsXMjXLDir-h/s320/20241225_112244.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQHjB1LOtM-O_bsv1w7naH8lERJbiJWIkffRGI7gWNgG3JpO4pP9lIbOG8zrImHCuTAWtjH7JZf0Xatv5wjWTMaCCjkruceZv8DznKef2Yf0x8ICZDaGn8VkDT87RoGU_4sqkM3hM_WP9rwZe2xQdG7YZgJuPKBuuUDlBxdMnIwR7C3ggIgsXMjXLDir-h/s4000/20241225_112244.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706323/blogger-import/a66ba31421465c1dab4f.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706331/blogger-import/e310029895e7b6c6b902.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706338/blogger-import/f1f5d6ecddb4ce1c1923.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706350/blogger-import/932ee1ddb5faf0e1fe78.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjaAaE8Q2QQ2EKHvNYEtwsm4zeevM73TvFzxcu5o66TIOx-Ij4usp-hANvcuxg6U8bqL5RIfYWad0rywhygR5XkONhvnDG-9xL6c8IDz9JnbAwZDC_RXNq8IN2_gCI4OsvFNiqtvJXyR5UBKij-LgA7NazsQ0ovbJMgj3PyQoP7tVFuQXSLiKKoEH4pdaL/s320/20241225_111906.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjaAaE8Q2QQ2EKHvNYEtwsm4zeevM73TvFzxcu5o66TIOx-Ij4usp-hANvcuxg6U8bqL5RIfYWad0rywhygR5XkONhvnDG-9xL6c8IDz9JnbAwZDC_RXNq8IN2_gCI4OsvFNiqtvJXyR5UBKij-LgA7NazsQ0ovbJMgj3PyQoP7tVFuQXSLiKKoEH4pdaL/s4000/20241225_111906.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_k-c3zH5S-mQPtNoQpSwvcuyLSA2T0W7t7IdWu0yq1M-pl4_Igp7nlYtkArFlS5S31V4sMhNZH0doWf8TSqdoxnJNQRnH0E-3tOuYUJVAUY6vVh41HP80fk7_zZ3eFjKoldR4DvDnAl6KBVp-K27hzCmXqqw72vW7jyC2WwSu5LIyg25-5lICQvTCEJX-/s320/20241225_112907.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_k-c3zH5S-mQPtNoQpSwvcuyLSA2T0W7t7IdWu0yq1M-pl4_Igp7nlYtkArFlS5S31V4sMhNZH0doWf8TSqdoxnJNQRnH0E-3tOuYUJVAUY6vVh41HP80fk7_zZ3eFjKoldR4DvDnAl6KBVp-K27hzCmXqqw72vW7jyC2WwSu5LIyg25-5lICQvTCEJX-/s4000/20241225_112907.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706359/blogger-import/eb5a16e48d582ae4c78a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706369/blogger-import/b02ce47f94a3c9d144f0.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706379/blogger-import/aa809f8e4a17629b56fa.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706388/blogger-import/3692dab20744543ba8ec.jpg)
 
   
 
@@ -195,7 +195,7 @@ It was time to go explore the downtown area, but first! Another mention of bathr
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjz7DECbVbba0bkKsbIO3vzDp9RGantqbPsOJZfQcY_zFNFwjwmDgG2yibCEvldfGsxqUG-jX9UzufXzncX-k98oeyNBK_0hcpzZnTxGaGkgdH_pbB3R_P_r7Y7IlvnbMTgqVclY4BmFIsnJbaFVlyoUxxfGqszQSX3358Yr0MDfArobAdSSretomdRyWC/s320/20241225_115650.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjz7DECbVbba0bkKsbIO3vzDp9RGantqbPsOJZfQcY_zFNFwjwmDgG2yibCEvldfGsxqUG-jX9UzufXzncX-k98oeyNBK_0hcpzZnTxGaGkgdH_pbB3R_P_r7Y7IlvnbMTgqVclY4BmFIsnJbaFVlyoUxxfGqszQSX3358Yr0MDfArobAdSSretomdRyWC/s4000/20241225_115650.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706408/blogger-import/266217193d3d38e3e4df.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706417/blogger-import/de83a0074f0f57aa84cd.jpg)
 
   
 
@@ -205,7 +205,7 @@ I was getting a few mixed signals here on what I need to do to complete my task.
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpvpMb7QrfgRDiFSfYx4iYPvPqWOWYyzQWMQB5bSrM51AqNYdwzdU1DqiEU52_YWv8IVLKXuHbp1Oloop0SeENx0nKyIyQvWkgMBTNRrlqmcTMB9zSpEPN00-cLGxmdt5bTUeJ7UtEjfF9eUWFENTU0ypI1cLz2SpQoj-4n1yTQ55M-SKSPs9-TljF7eCr/s320/20241225_115726.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpvpMb7QrfgRDiFSfYx4iYPvPqWOWYyzQWMQB5bSrM51AqNYdwzdU1DqiEU52_YWv8IVLKXuHbp1Oloop0SeENx0nKyIyQvWkgMBTNRrlqmcTMB9zSpEPN00-cLGxmdt5bTUeJ7UtEjfF9eUWFENTU0ypI1cLz2SpQoj-4n1yTQ55M-SKSPs9-TljF7eCr/s4000/20241225_115726.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDmhTlcIZJozmrmEeYfd9JoP1-7xFQ6pAQ5vSn2cpJhJiBbhhZB4S3IFEVIQEl5SAw0c3l9J-eu86BIktda7bbGVZS8z90G-dHDR94WqVMz6DDOsWf6wTOv0AnlZuOi9Phb9as1sRHCHJlNMpjvYiKMXuncYWYrY9otL0qka7ZmXyBZr78c9mA3HfZ_Abe/s320/20241225_115736.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDmhTlcIZJozmrmEeYfd9JoP1-7xFQ6pAQ5vSn2cpJhJiBbhhZB4S3IFEVIQEl5SAw0c3l9J-eu86BIktda7bbGVZS8z90G-dHDR94WqVMz6DDOsWf6wTOv0AnlZuOi9Phb9as1sRHCHJlNMpjvYiKMXuncYWYrY9otL0qka7ZmXyBZr78c9mA3HfZ_Abe/s4000/20241225_115736.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706426/blogger-import/1869c978566d735ce924.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706430/blogger-import/ddcbc4dba54730c2e4c5.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706433/blogger-import/fc0005ee668e6dcab58d.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706437/blogger-import/7d4253df3e3f41d0544d.jpg)
 
   
 
@@ -215,7 +215,7 @@ Be sure to enter the right stall, otherwise, you'll be faced with this! I just f
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR8NvQs0oA1diI1y1G4aaYXkADC5GFY7Kc7g1FYtGHeXCfVMRG0xGmtxgzzzg0xY6EtVv9wWh4eGnD-qyaZ-iLkCcVBrkBOCMxyL_NH3UyXAw-5BnCq881BRVW6ugrb4LlLsHVQrC6hzTd5FtwJXLm9e6ebokY33NipL4M6fBEbmB9JzGK7TTGZ5EUklIR/s320/20241225_120754.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR8NvQs0oA1diI1y1G4aaYXkADC5GFY7Kc7g1FYtGHeXCfVMRG0xGmtxgzzzg0xY6EtVv9wWh4eGnD-qyaZ-iLkCcVBrkBOCMxyL_NH3UyXAw-5BnCq881BRVW6ugrb4LlLsHVQrC6hzTd5FtwJXLm9e6ebokY33NipL4M6fBEbmB9JzGK7TTGZ5EUklIR/s4000/20241225_120754.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706441/blogger-import/cf9e5ac5da66f325a1c4.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706445/blogger-import/0e4d79921d9948587e9d.jpg)
 
   
 
@@ -225,7 +225,7 @@ Naturally, it was time for another snack and I'd been DYING to find a blueberry-
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRYiAO50W5EHEdV8hgXBv0_xttIOFH5toBOsRYuTIc11IFc1As3cZflLuqYWzVBV4beFXkAT_y_eYDTfTWsVLkreahfYPUe7kmaFekX10A_XMRw3yNn4kuZ3JvJPz50N0sEoFsj_xip3k6Cc6UPcXvWhKo0rAj2gvQwv-utrYHBZgnry_o3VCQ3ROeRddR/s320/20241225_123031.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRYiAO50W5EHEdV8hgXBv0_xttIOFH5toBOsRYuTIc11IFc1As3cZflLuqYWzVBV4beFXkAT_y_eYDTfTWsVLkreahfYPUe7kmaFekX10A_XMRw3yNn4kuZ3JvJPz50N0sEoFsj_xip3k6Cc6UPcXvWhKo0rAj2gvQwv-utrYHBZgnry_o3VCQ3ROeRddR/s4000/20241225_123031.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgIT7zurYfkVdN91Qhk8cPEAZJMqFrWGIv1mLK-BsowDDV-Za-mOweTw__2CMaBnxIRCs0Iig7a8LHM53JOz_rg2dPnAYa2CAkgkkaeojTiFa49jF5vXqdsU-GWZheAImmXB9VxbQpIneDErVNGBjjzM0mf_1L1zu_rAYuR7SeE15HqFs2E4MkBRvIi7RR/s320/20241225_123110.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgIT7zurYfkVdN91Qhk8cPEAZJMqFrWGIv1mLK-BsowDDV-Za-mOweTw__2CMaBnxIRCs0Iig7a8LHM53JOz_rg2dPnAYa2CAkgkkaeojTiFa49jF5vXqdsU-GWZheAImmXB9VxbQpIneDErVNGBjjzM0mf_1L1zu_rAYuR7SeE15HqFs2E4MkBRvIi7RR/s3197/20241225_123110.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706449/blogger-import/c7d3f3801f368cf81c20.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706453/blogger-import/ce2e2988e94fd7e8d59a.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706458/blogger-import/768aa3989d30383c5770.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706472/blogger-import/2f46712817e4002b6325.jpg)
 
   
 
@@ -235,12 +235,12 @@ I managed to drag myself away from the ice cream truck long enough to stroll the
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbDboV8dy-qAUde73AgELqPiQamXVtdsYXp8maLIhUHrL4-11_azlQ8vFy5NBhPLGj8S1yWlCQn-P2kTeOqvUArgu5898UZuzvrbZ4lfC7g14i1KHM1PHdCsJ60zahfbGXCqGwxJKHlZ-e0PVm70GOOQ88Tuzknwfqf0kAOqq9XMpiSoC7mTA1WXQRd7If/s320/20241225_123107.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbDboV8dy-qAUde73AgELqPiQamXVtdsYXp8maLIhUHrL4-11_azlQ8vFy5NBhPLGj8S1yWlCQn-P2kTeOqvUArgu5898UZuzvrbZ4lfC7g14i1KHM1PHdCsJ60zahfbGXCqGwxJKHlZ-e0PVm70GOOQ88Tuzknwfqf0kAOqq9XMpiSoC7mTA1WXQRd7If/s2334/20241225_123107.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706482/blogger-import/a7586160b4eb5a2dc53b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706493/blogger-import/122c4e8aa584f72b0daf.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdv6XPtPaowFIbd_jcrLj7oeMmkKfzWG9Fm-Z-6ISc4U3kJGZJZYEggT249_OQB5kQ_KXIWYgQEebNKccXhC-cxi6kNPfAeqmptvJ_yys205Pmj7RzIYOOxXnyKzDy0-T_tLYhF0vWs9VlhIsTznABcJ7-Uh6cRlqe1lxe_CNG40q4QgXE_m1g1mBlxjXo/s320/20241225_144534.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdv6XPtPaowFIbd_jcrLj7oeMmkKfzWG9Fm-Z-6ISc4U3kJGZJZYEggT249_OQB5kQ_KXIWYgQEebNKccXhC-cxi6kNPfAeqmptvJ_yys205Pmj7RzIYOOxXnyKzDy0-T_tLYhF0vWs9VlhIsTznABcJ7-Uh6cRlqe1lxe_CNG40q4QgXE_m1g1mBlxjXo/s4000/20241225_144534.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706500/blogger-import/3761ff2a3b980fa87eb6.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785706510/blogger-import/c6f0ce477df66f22c1da.jpg)
 
   
 

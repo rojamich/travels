@@ -14,7 +14,7 @@ location:
 
 Another amazing train ride. While it was more jerky, and less nice of a train, the actual scenery was brilliant! We went along the coast of Italy from Pisa, to Rome! The water is so turquoise and beautiful, I really hope we return to dive in the summer, some day. Towards the end of the ride, it began pouring and we had a lightening and thunderstorm streaking across our windows! It was really beautiful and inspiring to write to. I was able to finish documenting our whole trip to Florence on the train and relive its majesty. 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEihiUvWXWAwZkqiAaJFIqExDzsUkMRXzdFIKqsnEdLSvwFgAXUaTmv1bSnGlhCd-_blCn4e8sG5C28L9sFDJe0JiKEFNYVYcpdI5OIKonx29NsJxUMvwSte1jm3JIO21H9ID7O9FDukyG_VV1cFHmDoFvXDCWNQd20fuU6nrziFf8uZ3imZfOZSsfWD=w282-h170)](https://blogger.googleusercontent.com/img/a/AVvXsEihiUvWXWAwZkqiAaJFIqExDzsUkMRXzdFIKqsnEdLSvwFgAXUaTmv1bSnGlhCd-_blCn4e8sG5C28L9sFDJe0JiKEFNYVYcpdI5OIKonx29NsJxUMvwSte1jm3JIO21H9ID7O9FDukyG_VV1cFHmDoFvXDCWNQd20fuU6nrziFf8uZ3imZfOZSsfWD=s3392)[![](https://blogger.googleusercontent.com/img/a/AVvXsEiwf0sEFuWd7IfhkBcw47gwEY4CWh54USavBYJcrEnNCfXsSho5-bbW76Hd6WHZP_37ZGsMl0LxhsGiYzHZIiXa9Ksl-nbVMUpDCqkLlYLovYUCbVjrSMI3LySHwKH5_RGiALOdtpw6__tiyUVEzOgHwx27i9dxmUDW7Vt38om7RiudXzE0t7URIwvs=w290-h218)](https://blogger.googleusercontent.com/img/a/AVvXsEiwf0sEFuWd7IfhkBcw47gwEY4CWh54USavBYJcrEnNCfXsSho5-bbW76Hd6WHZP_37ZGsMl0LxhsGiYzHZIiXa9Ksl-nbVMUpDCqkLlYLovYUCbVjrSMI3LySHwKH5_RGiALOdtpw6__tiyUVEzOgHwx27i9dxmUDW7Vt38om7RiudXzE0t7URIwvs=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675114/blogger-import/de7a5b2150af727dee30.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675124/blogger-import/e5ec6ef3731325f5d143.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675129/blogger-import/5ce2e6a959477ae5533b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675148/blogger-import/f8970c842369218dd904.jpg)
 
   
 
@@ -29,4 +29,4 @@ After settling in, we went in search for some good pasta and ended up at That’
 
     We both really enjoyed our dishes and. I ate it so quickly I forgot to take a before photo😆
 
-                ![](https://blogger.googleusercontent.com/img/a/AVvXsEgN2BleZ5_8zKdFEOB9bGBfu4B9flrRpR_7_M3ueBHAjtNHxZxbJMaIQluuTh6Lc7GsyHn4jkjigv5WTSmhkjRZwFdVLUdOIDHGUk_Rkdk9K8RIYpDIF2ebtMVeW1mpJ490uX4-dOXvCkiVOexQsNaJresPWZRWwZ4BSI99gozD-yJgnRefG-7DTPYR=s320)
+                ![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675153/blogger-import/99739fa08d645f257df7.jpg)

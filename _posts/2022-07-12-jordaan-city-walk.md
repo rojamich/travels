@@ -12,25 +12,25 @@ location:
   lng: 4.9041
 ---
 
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5F8gufo44btzXZrvaSCJvM8H_qQvIQNAJNSgbxRjwrJBNWb0yPCNl9v8ecimEMIlsy0PzHH8WFgoB3KxCmpP3C4AuDeTsaLQaAOxAyq7Je_wmpXLXSQ_o3m6fJC1KIRZQ2p1Z2b9zhWvnOutHqvuGoGVmm1YzV2beX_kZH0sScJv4dBL97cw98EJ1/s320/20220315_145243.jpg) 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679132/blogger-import/68c77997315cd6d06759.jpg) 
 
 Mike ended up finding the public urinal, lucky guys! Its right off the canal which is how we realized people probably keep drowning…  
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIdZ-hOw8Kuh1l_50CI3b7uh-1S9WhNlagCrAtKF-drEejWVpPrstB5TXIaH9js9oRgxzAGOcL9y6T-FBGssifZj3WPseCrpqU9775r8LPzUe1ONbZ20NVoMPp3dp2zs0UH1pfSD8ln6IXUsEXKgJGA4cQ7Ca91AIbelDWz1SqW39tlFVfgSMsHViN/w298-h224/20220315_151837.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIdZ-hOw8Kuh1l_50CI3b7uh-1S9WhNlagCrAtKF-drEejWVpPrstB5TXIaH9js9oRgxzAGOcL9y6T-FBGssifZj3WPseCrpqU9775r8LPzUe1ONbZ20NVoMPp3dp2zs0UH1pfSD8ln6IXUsEXKgJGA4cQ7Ca91AIbelDWz1SqW39tlFVfgSMsHViN/s3648/20220315_151837.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdoxXtwa9GwiVCIIuFeIQf9wlQ4Xpp0HNVvYGAfv75HRghUV5TtgxX3pkgFwjhXMWdc7nsXow8EhLLY3gYtwX_ubwBTXHLoP_yqGB6j9cw0ZDAlGxFBdEfeK8lxnKwNsmBUIqUWChQjuo2je4h2NLLkbmt41NOhxRoKVaJuoWlwF6WPUK2-5qqaic1/w296-h222/20220315_151353.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdoxXtwa9GwiVCIIuFeIQf9wlQ4Xpp0HNVvYGAfv75HRghUV5TtgxX3pkgFwjhXMWdc7nsXow8EhLLY3gYtwX_ubwBTXHLoP_yqGB6j9cw0ZDAlGxFBdEfeK8lxnKwNsmBUIqUWChQjuo2je4h2NLLkbmt41NOhxRoKVaJuoWlwF6WPUK2-5qqaic1/s4032/20220315_151353.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679141/blogger-import/9a5d2a34956b1328f035.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679151/blogger-import/0f3cd1d707ede93c18c6.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679162/blogger-import/f0dd44b3555a6d0d314b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679171/blogger-import/e55819d5e4b08bbc4f52.jpg)
 
 Here is the pie we were told was famous and usually has 3-hour long lines! It wasn’t bad but it was no Julian Pie Company. 
 
   
 
 
-[](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5F8gufo44btzXZrvaSCJvM8H_qQvIQNAJNSgbxRjwrJBNWb0yPCNl9v8ecimEMIlsy0PzHH8WFgoB3KxCmpP3C4AuDeTsaLQaAOxAyq7Je_wmpXLXSQ_o3m6fJC1KIRZQ2p1Z2b9zhWvnOutHqvuGoGVmm1YzV2beX_kZH0sScJv4dBL97cw98EJ1/s4032/20220315_145243.jpg)
+[](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679184/blogger-import/616738366ae24634ae5a.jpg)
 
-[](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5F8gufo44btzXZrvaSCJvM8H_qQvIQNAJNSgbxRjwrJBNWb0yPCNl9v8ecimEMIlsy0PzHH8WFgoB3KxCmpP3C4AuDeTsaLQaAOxAyq7Je_wmpXLXSQ_o3m6fJC1KIRZQ2p1Z2b9zhWvnOutHqvuGoGVmm1YzV2beX_kZH0sScJv4dBL97cw98EJ1/s4032/20220315_145243.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIu-MJmpt6mzwsvEwSYwAo9PqD_-rFwLz76w6RNfTAOw_kCWTXnW-a6iO4haSfuhAp0xLqt9PvlXyPF2RAiGi9maHMWZBUuq24aVrc0AYLtHp7iR-WZfn2X3oZ9n4XzSza3mYHcAP3uMnS1vpz-LIyOHkKzp3KrHN9ZcMdfsRzN1KnnQJrmo40Lrti/s320/20220315_153838.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIu-MJmpt6mzwsvEwSYwAo9PqD_-rFwLz76w6RNfTAOw_kCWTXnW-a6iO4haSfuhAp0xLqt9PvlXyPF2RAiGi9maHMWZBUuq24aVrc0AYLtHp7iR-WZfn2X3oZ9n4XzSza3mYHcAP3uMnS1vpz-LIyOHkKzp3KrHN9ZcMdfsRzN1KnnQJrmo40Lrti/s4032/20220315_153838.jpg)
+[](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679184/blogger-import/616738366ae24634ae5a.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679193/blogger-import/bc5cdbf637522c7defb3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679204/blogger-import/011a20ad0e7ea77fdbef.jpg)
 
 The Jordaan neighborhood was really pretty! Very quiet as well! Here is Michael demonstrating what they call, the ball-busters around town. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQ_gT8shgZtFo1qllEkGYOOPTm8yXFhy3ehPFdpI5JeYhkWx5AfBfajB1xI6CfmfNN_zoa_iCe3MzrogYcnTcq57V_4cIc-hPzrgnvvo2dqL34vRUN1lc6HVouRd9NiDGB6xTPaoJFeRlk-ojpCF13F1-HDRAcPS_mudB1ryK0Di6SZ5s5QsR7sNAU/s320/20220315_173930.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQ_gT8shgZtFo1qllEkGYOOPTm8yXFhy3ehPFdpI5JeYhkWx5AfBfajB1xI6CfmfNN_zoa_iCe3MzrogYcnTcq57V_4cIc-hPzrgnvvo2dqL34vRUN1lc6HVouRd9NiDGB6xTPaoJFeRlk-ojpCF13F1-HDRAcPS_mudB1ryK0Di6SZ5s5QsR7sNAU/s4032/20220315_173930.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679211/blogger-import/de82dd4feb8aa66c8c17.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679220/blogger-import/d9e8daba9d93dd0a71c6.jpg)
 
   
   

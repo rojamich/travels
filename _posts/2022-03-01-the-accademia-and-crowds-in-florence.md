@@ -14,7 +14,7 @@ location:
 
 This afternoon we were prepared to fight the rumored lines to see the statue of David in the Accademia Gallery! It was magnificent. Mike wanted _just_ the right shot, which impressed me!
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEiDQw7uKDyGh-mwAj-1GxTbkPP-i718zgvQ0x00uTKtnXX1bZXijxaIlPEsl0KF_jsQKdYcrf_X9fFY8P0PGEUjh4RtFYFR2Z12oScbP9L-W6_CCVurRyx5jLGLgBmgYuS6wF3bpcLl9QfnWtb_bel2I1tSAnMtLpUuzUIUf5M8fBs--2iGrQnqwM_D=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEiDQw7uKDyGh-mwAj-1GxTbkPP-i718zgvQ0x00uTKtnXX1bZXijxaIlPEsl0KF_jsQKdYcrf_X9fFY8P0PGEUjh4RtFYFR2Z12oScbP9L-W6_CCVurRyx5jLGLgBmgYuS6wF3bpcLl9QfnWtb_bel2I1tSAnMtLpUuzUIUf5M8fBs--2iGrQnqwM_D=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675156/blogger-import/e2cb3ff92b5dc98e3c0a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675174/blogger-import/a8c7b3b95622da2e1b5b.jpg)
 
 Of course, we had a Rick Steve’s audio tour, which helped us understand just what we were looking at and some interpretations of Michelangelo’s creations. This statue depicts David, of the story of David and Goliath. The sling over his shoulder and his tensed expression can be interpreted as him preparing to slay the giant. 
 
@@ -23,18 +23,18 @@ What struck me most was seeing unfinished works of Michelangelo. It showed how f
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEifg4IgVYBXkbXDn0YL9A61I9Zl08x78zH5PMo-txQgyLXCNfh2GDR_VUhBD3Pg5nPxCl1gTS6aPVJJqd-mq1CIlN9-i8PiA4x3_dIzJY25LaopQ3Y4WYBycoA_APNmjy1Ij6bsnye1ONIOrK9ypxV7ecqwrolJLODer2zh385X4N2mydeMP59uHSH_=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEifg4IgVYBXkbXDn0YL9A61I9Zl08x78zH5PMo-txQgyLXCNfh2GDR_VUhBD3Pg5nPxCl1gTS6aPVJJqd-mq1CIlN9-i8PiA4x3_dIzJY25LaopQ3Y4WYBycoA_APNmjy1Ij6bsnye1ONIOrK9ypxV7ecqwrolJLODer2zh385X4N2mydeMP59uHSH_=s4032)[![](https://blogger.googleusercontent.com/img/a/AVvXsEiK0mKD2tiZkzgK6JUpaBbEGBZknUgVUZTCu6NFhdtpN0sx2Z8fzIrUwqq-r7zYvqbxVkKtqw04I10qzThovWnpa67BU9KDg03s5SMfCH-1fSadQJXKjFsODIN1kaiq-Ht5FCfBpTMIhXQRctyWv53fojtKm2buZxrIgOmCv4wS3_5B32WJDMHSODJI=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEiK0mKD2tiZkzgK6JUpaBbEGBZknUgVUZTCu6NFhdtpN0sx2Z8fzIrUwqq-r7zYvqbxVkKtqw04I10qzThovWnpa67BU9KDg03s5SMfCH-1fSadQJXKjFsODIN1kaiq-Ht5FCfBpTMIhXQRctyWv53fojtKm2buZxrIgOmCv4wS3_5B32WJDMHSODJI=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675178/blogger-import/7dd0decb9933aec2a993.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675196/blogger-import/e52547dfbc75c5b9df84.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675200/blogger-import/b01d2eb4eb347ea525e3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675215/blogger-import/3753cdacbcecedddfa70.jpg)
 
 The Accademia is where we also saw something unexpected and wonderfully amazing! This is said to be the first upright piano! Piano forte means soft and loud in Italian which is how they described how you could hit the strings!
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEj5t6ebeXmbhrJ5r0jAGsBpQ0BuhaxWMLYbAt1iBOuCVTCQ96jkcc1P11dhb0J8ezyyhOpkUbwM192Vcl0WTpNgOelPx9lIgcLh6FKnAeT6dwhLECG1PaAlqD0qOIg5ZSR60Az_KxQOEBJbvtTqW_vZqxxZmQzHLvoYStRBcnTN8HzRBuf_G6_LkqU4=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEj5t6ebeXmbhrJ5r0jAGsBpQ0BuhaxWMLYbAt1iBOuCVTCQ96jkcc1P11dhb0J8ezyyhOpkUbwM192Vcl0WTpNgOelPx9lIgcLh6FKnAeT6dwhLECG1PaAlqD0qOIg5ZSR60Az_KxQOEBJbvtTqW_vZqxxZmQzHLvoYStRBcnTN8HzRBuf_G6_LkqU4=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675218/blogger-import/699f6faf8d8413060c82.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675235/blogger-import/b7d0abf94df84f9bf420.jpg)
 
 We really got a kick out of seeing how full the city got later in the day so we made sure to get a photo at 8am and a photo at 4pm.
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEi-BiJp7lvZ8LnZ2q2PKM8TEmC-zt9BxDEv2hBV0vlYungvv9d2Zp6jI1fwTK_jX7ZyULKFu58ivyfzuQQSAtZwn03HU08vHgZ8TuNZ2GkC-9gP1GPdFfv_uMEDjI5fz2Ntsy0iTXqEY2uC41gXFPg89RdNB36OgjLyaJXPLlD3sVL6ZoziZAPn48Gw=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEi-BiJp7lvZ8LnZ2q2PKM8TEmC-zt9BxDEv2hBV0vlYungvv9d2Zp6jI1fwTK_jX7ZyULKFu58ivyfzuQQSAtZwn03HU08vHgZ8TuNZ2GkC-9gP1GPdFfv_uMEDjI5fz2Ntsy0iTXqEY2uC41gXFPg89RdNB36OgjLyaJXPLlD3sVL6ZoziZAPn48Gw=s4032)[![](https://blogger.googleusercontent.com/img/a/AVvXsEivfT2yyRElZhvUslfgEp6bdl0FaI80U-vKIoNNV1hxPV7Awdzfwruxjz0hstLS3zYVPUs_i2rwwtzg8GTUz5e0R-DRjUwya3iPCmKDgVhFdghGqYJBuqfjE1LLzvjTof-V-d2TWJLGBt84RrZtuddyzF4giZVNWUg82MpY5o6AS54WsH0kI-RU2JQd=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEivfT2yyRElZhvUslfgEp6bdl0FaI80U-vKIoNNV1hxPV7Awdzfwruxjz0hstLS3zYVPUs_i2rwwtzg8GTUz5e0R-DRjUwya3iPCmKDgVhFdghGqYJBuqfjE1LLzvjTof-V-d2TWJLGBt84RrZtuddyzF4giZVNWUg82MpY5o6AS54WsH0kI-RU2JQd=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675239/blogger-import/1d384d196058423b8a05.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675256/blogger-import/f5d944e86fe0cdb21f7c.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675261/blogger-import/2a7fa6faab2142236db7.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675276/blogger-import/b64dfe3e7db3f44765a2.jpg)

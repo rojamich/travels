@@ -24,24 +24,24 @@ We stopped for coffee along the way and the traffic was bad so it probably took 
 
 We found a cute little town at the trailhead which overlooked a lake and began our climb upwards!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh84TwVBBnxK_6fHs_gnMK663uXlFyoVsoN-K_QnhqqufRbcmxioB2Jt0B6hHs3IKCkRIWglG-Q0_J-g5nzf1JM6FBTvLoIJNssGr1TGOPPDaymO3wE7-WbBs9i4JgCRJdYV5bwrxo0Cs5LyZ7MnDGHXhxmttdOG9BnSCFkBdoWq5sb3rUr1X0rCVs9L1M/w150-h200/IMG_20230725_205509_975.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh84TwVBBnxK_6fHs_gnMK663uXlFyoVsoN-K_QnhqqufRbcmxioB2Jt0B6hHs3IKCkRIWglG-Q0_J-g5nzf1JM6FBTvLoIJNssGr1TGOPPDaymO3wE7-WbBs9i4JgCRJdYV5bwrxo0Cs5LyZ7MnDGHXhxmttdOG9BnSCFkBdoWq5sb3rUr1X0rCVs9L1M/s4000/IMG_20230725_205509_975.jpg) [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNuZihoNs-FNOudhJgBXYrbi56XOosXmxvxfKxsKQs9ONMKAVJ078HJsScVozsh4QMJnq9bRbw1PS_99coWarIf4eKW5DBmgO5x4s4GmVbWomsIXmy_3o49B37aLMSxTyt33KvZMnXSVYgZxNqLuN21g84IOapi6vv9lOyRd_wNBT7Fo0efH3GGwOHkq4/w150-h200/IMG_20230725_205509_974.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNuZihoNs-FNOudhJgBXYrbi56XOosXmxvxfKxsKQs9ONMKAVJ078HJsScVozsh4QMJnq9bRbw1PS_99coWarIf4eKW5DBmgO5x4s4GmVbWomsIXmy_3o49B37aLMSxTyt33KvZMnXSVYgZxNqLuN21g84IOapi6vv9lOyRd_wNBT7Fo0efH3GGwOHkq4/s4000/IMG_20230725_205509_974.jpg)  
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682372/blogger-import/9ddba49cbb54ef612eea.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682380/blogger-import/c1950717868f7421532d.jpg) [![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682387/blogger-import/90392af6728559bfe571.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682396/blogger-import/fcb831c2a22b09ff629d.jpg)  
   
 
 
 The journey was filled with different scenery! It went from stoney groundwork to grassy hills with sheep and goats. The treelined trail opened up to a view overlooking the lake and nearby forested mountains. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi05CX5FQQe7UzN3uw2itMRIyL823xh66pXjDSMXpSm7X-lDR_NrrcMscxAO3xSZVKoywdPY1H_LALpzfOIe24YvsCH9_xF5dylXFmTfElSwRsPFvUdbljsLA9_2diwoKiwRu3q7sXOVPbK-w7X9qSR2Og_Nr7aq00Cd6MBgWoFCaLCxzkR0yQg2qINWjM/s320/20230722_124031.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi05CX5FQQe7UzN3uw2itMRIyL823xh66pXjDSMXpSm7X-lDR_NrrcMscxAO3xSZVKoywdPY1H_LALpzfOIe24YvsCH9_xF5dylXFmTfElSwRsPFvUdbljsLA9_2diwoKiwRu3q7sXOVPbK-w7X9qSR2Og_Nr7aq00Cd6MBgWoFCaLCxzkR0yQg2qINWjM/s3978/20230722_124031.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682405/blogger-import/b5df17b8fcdd9784d399.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682409/blogger-import/92491f7d29bce42f08b5.jpg)
 
   
 
 
 We continued walking and went through a field of lavendar. We returned to our car and headed back down the mountain into the city of baden baden. A ritzy town filled with shops, a neat lookint church, and a casino. As we rode down the mountain, we noticed a TON of bicyclists and motorcyclists. EVERY motorcyclist had on all gear. Ultra protected. We loved to see it!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfjpbc0sL0AO4NOpciSnvpE98pFitM6VkdNppK7jl6OBK-HZ9A3_Vtng6y_Od1ppYvBmwAxSp5GOYGuABiDgIe9xXeqFzN8ootiBBuLTct79vtB1r66kHjpKmPAs5YW8GNuv-EJYJBkq-4rjTvZXdbzp9ezhbGwI14SH5wWnZ7baA7XYDvFtx-Jl4ysGY/w150-h200/IMG_20230725_205509_973.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfjpbc0sL0AO4NOpciSnvpE98pFitM6VkdNppK7jl6OBK-HZ9A3_Vtng6y_Od1ppYvBmwAxSp5GOYGuABiDgIe9xXeqFzN8ootiBBuLTct79vtB1r66kHjpKmPAs5YW8GNuv-EJYJBkq-4rjTvZXdbzp9ezhbGwI14SH5wWnZ7baA7XYDvFtx-Jl4ysGY/s4000/IMG_20230725_205509_973.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682414/blogger-import/4d4ca41a19b595c53d98.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682423/blogger-import/b577702828842d725061.jpg)
 
 Our goal today was to try the black forest cake! From the black forest no less! We went to a fancy schmancy place and ordered. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEht_eKDRzH0a8hV3qdDMkCOjJvqLSF3E0OWEd3brwshXfFMhkP0pOl01yEVXvoWKQBS7Vf4zKzWXToLMPvxORc4El83VI99namF-H8cEYPdaaGrmd_LhJr-4ysLlrNjAWwlkCi83yBNePUybgSK1L7siShMeSmNZa7cVp2bi3X-BxYOOc4vIhqm9VUropw/w200-h150/20230722_141749.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEht_eKDRzH0a8hV3qdDMkCOjJvqLSF3E0OWEd3brwshXfFMhkP0pOl01yEVXvoWKQBS7Vf4zKzWXToLMPvxORc4El83VI99namF-H8cEYPdaaGrmd_LhJr-4ysLlrNjAWwlkCi83yBNePUybgSK1L7siShMeSmNZa7cVp2bi3X-BxYOOc4vIhqm9VUropw/s4000/20230722_141749.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYgi5GD14MMpIDe_Ksnx-wx_cMU_1pWhyseJK8R2-piJKBHctlR9HPxFq2ooqfQfzMPWWr2ElpDOQ6uP8JtTzF5u3-1xylXyH85Vzkh-a19nNSrMXLt2x2MRXnb196WGtyJMn1RsCVuzFDvJRAXcRGGVp-pp79ObIlAAASjVGern0UXQFLToMZNVx0XoA/w200-h150/20230722_143609.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYgi5GD14MMpIDe_Ksnx-wx_cMU_1pWhyseJK8R2-piJKBHctlR9HPxFq2ooqfQfzMPWWr2ElpDOQ6uP8JtTzF5u3-1xylXyH85Vzkh-a19nNSrMXLt2x2MRXnb196WGtyJMn1RsCVuzFDvJRAXcRGGVp-pp79ObIlAAASjVGern0UXQFLToMZNVx0XoA/s4000/20230722_143609.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682434/blogger-import/4637aa58398403e07425.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682443/blogger-import/47bd29531833644b1e7b.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682453/blogger-import/df07fa54364029cc61b4.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682462/blogger-import/4402600a0272a949bfd2.jpg)
 
   
 
@@ -51,27 +51,27 @@ Our goal today was to try the black forest cake! From the black forest no less! 
 
 We excitedly waited in the little outdoor garden for our cake. Mike really liked it, I thought it was decent! We got a few truffles to go and headed to lunch at an asian restaurant a few doors down. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKQU1b42KJdYErCR-lGlWS4YMYcToH2q4IJ-TT4hn7ZaWCutbksxzo-ikOy4ESfa0wz7ZwWuVQ5Kj8jEKpZP-m_YVfLl3ba-x3sUGRZ171ABUDgseXAc52i55d6Itu09-1YZ8wVowypsimEIPyqm4iNwUVWjROROlngl8lPHYYoTm_eAiAbrTLXVl70ws/w150-h200/20230722_151817.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKQU1b42KJdYErCR-lGlWS4YMYcToH2q4IJ-TT4hn7ZaWCutbksxzo-ikOy4ESfa0wz7ZwWuVQ5Kj8jEKpZP-m_YVfLl3ba-x3sUGRZ171ABUDgseXAc52i55d6Itu09-1YZ8wVowypsimEIPyqm4iNwUVWjROROlngl8lPHYYoTm_eAiAbrTLXVl70ws/s4000/20230722_151817.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682472/blogger-import/0774692c270ee41b5e5a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682480/blogger-import/5a85cb2eadba1bff5ede.jpg)
 
 Again, Mike really enjoyed it! But mine was SUPER fried and hard to eat!
 
 We wandered around the town and I looked down to see how much Roseline had loved on me that morning 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvtCZIv4ETaYELCMAGxLY0kn8TgjUmqa8An9kv-hr6bQOAK3Y8xJpqRIMLEbrWYX5H9sZOhyOAmZc6KP71Js53H-VvqVsGZv6QeUmngrnCteKtVQWTBYUSEpmcdSyKIbLEawpKKcbD11tpjWefe52d-VZwI-njDZ1giQL_SiZDjN7eUxeZ40GbnKvOTDE/w150-h200/20230722_155503.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvtCZIv4ETaYELCMAGxLY0kn8TgjUmqa8An9kv-hr6bQOAK3Y8xJpqRIMLEbrWYX5H9sZOhyOAmZc6KP71Js53H-VvqVsGZv6QeUmngrnCteKtVQWTBYUSEpmcdSyKIbLEawpKKcbD11tpjWefe52d-VZwI-njDZ1giQL_SiZDjN7eUxeZ40GbnKvOTDE/s4000/20230722_155503.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682491/blogger-import/8b5b0d8c8d4c513c5c17.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682500/blogger-import/1f7d2270e9a750d6b6e7.jpg)
 
   
 
 
 We found a park near the church and walked by an ongoing wedding reception with a live band! The park also held a giant chess set! It was currently being used but we admired it from afar!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibkXnEgoVKvLiyJf9HkQsezRLgyvdKdiNdoYVe-i4N-udW2ShmIJg3UqUPdh0BSRh9vgbgh263hCZn5m__xfhi_ML56DJ0PMg096k5IYPNDq5_o1IYnfnKlv7U-fqyMHX6tYr89n6U4WZq9rtbZ4OY8WP7Zx8xTIL7enBzLccyBZrK_MPVyQM5pOCuzvk/w150-h200/20230722_150020.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibkXnEgoVKvLiyJf9HkQsezRLgyvdKdiNdoYVe-i4N-udW2ShmIJg3UqUPdh0BSRh9vgbgh263hCZn5m__xfhi_ML56DJ0PMg096k5IYPNDq5_o1IYnfnKlv7U-fqyMHX6tYr89n6U4WZq9rtbZ4OY8WP7Zx8xTIL7enBzLccyBZrK_MPVyQM5pOCuzvk/s4000/20230722_150020.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwrpynV-Eh0DWfCj_pE7tEEUIBzo4HmprNiQ12vbEuaRFRylYOES814qutkTRT-53po2kkel4zjC47csqLDv5sV5YPBNXN_RSWU2oyidLticTLkUuL9-u_qN2_-qsCttTy0gQwQlOL6rGK2zxseOMFk1AC3YBpiJRf173tvxRhepX_pyHXI6eZr7Zqc6c/w150-h200/20230722_160321.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwrpynV-Eh0DWfCj_pE7tEEUIBzo4HmprNiQ12vbEuaRFRylYOES814qutkTRT-53po2kkel4zjC47csqLDv5sV5YPBNXN_RSWU2oyidLticTLkUuL9-u_qN2_-qsCttTy0gQwQlOL6rGK2zxseOMFk1AC3YBpiJRf173tvxRhepX_pyHXI6eZr7Zqc6c/s4000/20230722_160321.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682509/blogger-import/b8e4c624f0c98f50a153.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682519/blogger-import/864e2e31a96d205f8f7b.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682529/blogger-import/7c244d7d04a6e50f0179.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682545/blogger-import/bd7015670a54dc9fb1de.jpg)
 
   
 
 
 The park also had a massive volcano fountain, shops, and the casino at the end of it!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjxos6V-05niePvoC5f-ePA1TH30FQNmDpFUcsvILZCNLYGCTJndkkE4qowMPX4TAUviXWRrSp6Ls2SYceWv8iE0wTrBGXW6VC7QGRkvdWsB3adQ0iWtVfx6gputucLuYCBsWSmmd0A8RWLeyxnWyPa8lVxmWpRXWVD_fH6Fz_ji44jgfbGjChxuxONUY/w150-h200/20230722_160515.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjxos6V-05niePvoC5f-ePA1TH30FQNmDpFUcsvILZCNLYGCTJndkkE4qowMPX4TAUviXWRrSp6Ls2SYceWv8iE0wTrBGXW6VC7QGRkvdWsB3adQ0iWtVfx6gputucLuYCBsWSmmd0A8RWLeyxnWyPa8lVxmWpRXWVD_fH6Fz_ji44jgfbGjChxuxONUY/s4000/20230722_160515.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682554/blogger-import/52542c770cc129ec9857.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682563/blogger-import/032ec8333e766698f07a.jpg)
 
   
 
@@ -86,19 +86,19 @@ We were also delighted to hear that instead of Tschüss, they say "bye bye" all 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi05CtQDpsXAipYd-3i7tpBPfysxZeIF7dv2ktFJOKXcKyRNNxajZPAI1K2zyzOBIMeU-9SiWlUByOcDuzOShwZIu_c3J5GEeLpj1mMRMlQHKoIKQ4Hz6dwDqSvktFKViGxWxlBAB35Vh24guDFHvKmDZVrlIn3Kpn0Kf784ihBeMiAitcqrVy4o_EqVzM/w150-h200/20230722_163053.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi05CtQDpsXAipYd-3i7tpBPfysxZeIF7dv2ktFJOKXcKyRNNxajZPAI1K2zyzOBIMeU-9SiWlUByOcDuzOShwZIu_c3J5GEeLpj1mMRMlQHKoIKQ4Hz6dwDqSvktFKViGxWxlBAB35Vh24guDFHvKmDZVrlIn3Kpn0Kf784ihBeMiAitcqrVy4o_EqVzM/s4000/20230722_163053.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682573/blogger-import/9067cd0fe8e0761f6bc0.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682583/blogger-import/d1f38535826c3c209995.jpg)
 
   
 We walked back through the city and found an alley full of artwork. Including an installation piece in progress!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuP3-kuCWBgj8kEEZRLoumRDsb4Ns40jjdMgjgUIZfGi4fmvlQsCkDQ_TVGerL4IbYh0dk_03ArK_F91iN1n-g2LvRTadfhZdlhbrA3l5LwDDUw29yH5BlRt6i6Otdt5kMgYutXhNL34wVbetn-r0_OD1HowpKbRyNgAwSP2LF1MEm5re7HzJdxLsOXJs/w200-h150/20230722_162455.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuP3-kuCWBgj8kEEZRLoumRDsb4Ns40jjdMgjgUIZfGi4fmvlQsCkDQ_TVGerL4IbYh0dk_03ArK_F91iN1n-g2LvRTadfhZdlhbrA3l5LwDDUw29yH5BlRt6i6Otdt5kMgYutXhNL34wVbetn-r0_OD1HowpKbRyNgAwSP2LF1MEm5re7HzJdxLsOXJs/s4000/20230722_162455.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682594/blogger-import/2aed12b944a6a281ce98.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682602/blogger-import/f39616cd55778020858f.jpg)
 
   
 
 
 We finally headed back home where I annoyed Rosine a bit and she allowed it!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCWv6uQr3oxGftWNyE5vQdoi5SFo-Pv0yZlpUNN1H46Bhxa6_yimrCxT49iyOH6S76SCL3FcQCJLTBsRArn-riUlbjdKdJiRZ7Jh1ZF9l38MKupuiL4cfcabgoC9cPxVoB7HsT4R8ZEdGh-WfvnCL_k3Q7xHiCw0-JzsfbZM-0G-i4O7-nOQ9UUBJq140/w150-h200/20230722_182632.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCWv6uQr3oxGftWNyE5vQdoi5SFo-Pv0yZlpUNN1H46Bhxa6_yimrCxT49iyOH6S76SCL3FcQCJLTBsRArn-riUlbjdKdJiRZ7Jh1ZF9l38MKupuiL4cfcabgoC9cPxVoB7HsT4R8ZEdGh-WfvnCL_k3Q7xHiCw0-JzsfbZM-0G-i4O7-nOQ9UUBJq140/s3392/20230722_182632.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682609/blogger-import/c1a9a59d172286aa451c.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682618/blogger-import/74bdf26996599e2bb9c5.jpg)
 
   
 

@@ -24,12 +24,12 @@ After grabbing coffee and a light breakfast, we headed to our first flight to SF
 
 San Francisco was a total win! We had a pass to the Admiral club and were able to kickback and spread out. Not to mention the snacks! We had avocado toast with eggs, prosciutto, and salmon (well, Mike had the meats lol). Yogurt, coffee, tea, crackers, and fruit filled us up nicely while we read and charged our devices for our upcoming, long flight.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEghAmAJolrzs76H5SPcj4yjNEUbuhDIvR9Xvp4OEu-uH17JVGOKfBPHUvd8H8XB0rp5i9FhYqWl1qZ7jB-gPg3I5aHC1aIczwykoOdFypz_AoKR4-HJQLvEsZWSN5TejH6fCjw6JnYYGrHs4gpSOsKRoKJTS1OdxM72gu6sOTMt0Xzw1eKwkClers2KI0Bq)](https://blogger.googleusercontent.com/img/a/AVvXsEghAmAJolrzs76H5SPcj4yjNEUbuhDIvR9Xvp4OEu-uH17JVGOKfBPHUvd8H8XB0rp5i9FhYqWl1qZ7jB-gPg3I5aHC1aIczwykoOdFypz_AoKR4-HJQLvEsZWSN5TejH6fCjw6JnYYGrHs4gpSOsKRoKJTS1OdxM72gu6sOTMt0Xzw1eKwkClers2KI0Bq)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715831/blogger-import/1aadb08d3622bed05069.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715831/blogger-import/1aadb08d3622bed05069.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjlZ9X7XiCuUSKfUmpFR2nGyx45-BW9Y54962RPata7If9rHM4O3DbtX8E55BmyxDFBca3AB8MYMHTMabgn8-ej0mjSGiBVjTL7X2uvRbf867uVHiRE7UoDvKL8okBdQvgrvAddlWNCUIlKPV4z_FSXEYOzgFH1BZWywv8quwej6bpdyZjmd65tmLB6wDpC)](https://blogger.googleusercontent.com/img/a/AVvXsEjlZ9X7XiCuUSKfUmpFR2nGyx45-BW9Y54962RPata7If9rHM4O3DbtX8E55BmyxDFBca3AB8MYMHTMabgn8-ej0mjSGiBVjTL7X2uvRbf867uVHiRE7UoDvKL8okBdQvgrvAddlWNCUIlKPV4z_FSXEYOzgFH1BZWywv8quwej6bpdyZjmd65tmLB6wDpC)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715834/blogger-import/4a2b87af873b3aa5d48b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715834/blogger-import/4a2b87af873b3aa5d48b.jpg)
 
   
 
@@ -48,7 +48,7 @@ This was our 13-hour flight - we were supposed to sleep a lot to stave off the j
 
 This flight had some solid food!
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEgJWXFIR35WPfKM1_h8yfJTSTQU4P6kB1OsA_5wJxLor45KGWQTE3pwjPgFAz1HHhyh17ZzgVQOcdKMU2fLalttEanJVSNS_IjUWP11fo6tLoX3Lkqo_iBGns8CKhe_nkJnN6plTkHuWgxICg6Uy26lStOHrt5QLGXVYW3VVGjEm6ehvBXulWsEW1WfD7gx)](https://blogger.googleusercontent.com/img/a/AVvXsEgJWXFIR35WPfKM1_h8yfJTSTQU4P6kB1OsA_5wJxLor45KGWQTE3pwjPgFAz1HHhyh17ZzgVQOcdKMU2fLalttEanJVSNS_IjUWP11fo6tLoX3Lkqo_iBGns8CKhe_nkJnN6plTkHuWgxICg6Uy26lStOHrt5QLGXVYW3VVGjEm6ehvBXulWsEW1WfD7gx)[![](https://blogger.googleusercontent.com/img/a/AVvXsEj8m-RRG8XTuiZE4bx1NJQnMoF0CbK2k74Dm98T-pLq_YUO8ecE6-TxL9FrjmpVWaWyb-tQgR52teTJUdye8ynTyjoWm1iPNtuu1UvcriUkeAedYatwAIPRnYczS64iTXIMZu8itbT6s5SUwnkNYK0gP6MTHoc8VSdHa9VT0oi7-jThthTcFkQlAfSIceJO)](https://blogger.googleusercontent.com/img/a/AVvXsEj8m-RRG8XTuiZE4bx1NJQnMoF0CbK2k74Dm98T-pLq_YUO8ecE6-TxL9FrjmpVWaWyb-tQgR52teTJUdye8ynTyjoWm1iPNtuu1UvcriUkeAedYatwAIPRnYczS64iTXIMZu8itbT6s5SUwnkNYK0gP6MTHoc8VSdHa9VT0oi7-jThthTcFkQlAfSIceJO)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715837/blogger-import/0c6f40df9dbeb0601e66.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715837/blogger-import/0c6f40df9dbeb0601e66.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715841/blogger-import/0be6606522b18462bea0.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715841/blogger-import/0be6606522b18462bea0.jpg)
 
   
 
@@ -68,7 +68,7 @@ We made it to Seoul and over to our connecting flight with enough time to grab s
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEigieDnfkhb93_d4mRiv6UB0sQa81ZqifvqRQS6gLIUEHpw_6E7zaUlWsst9Xv5C3jkRK-5FpuE3uZftemL7IxObtTfvSmBfA_FjQGiM5uWI2ri90jA8nI2GO3GZwMGLSWOVTDCFAf-Gm4eyc4CuE0eOAT7QrlRx5J8xeBbexTAPblmAogECtYMuKVSOZ-Z)](https://blogger.googleusercontent.com/img/a/AVvXsEigieDnfkhb93_d4mRiv6UB0sQa81ZqifvqRQS6gLIUEHpw_6E7zaUlWsst9Xv5C3jkRK-5FpuE3uZftemL7IxObtTfvSmBfA_FjQGiM5uWI2ri90jA8nI2GO3GZwMGLSWOVTDCFAf-Gm4eyc4CuE0eOAT7QrlRx5J8xeBbexTAPblmAogECtYMuKVSOZ-Z)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715844/blogger-import/f0bc19574710d764ee97.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715844/blogger-import/f0bc19574710d764ee97.jpg)
 
   
 
@@ -78,7 +78,7 @@ This 5-hour flight was a good one from Seoul to Ho Chi Minh City (HCMC)! We had 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEgEy1TOAAQm33OfWavVSNOQyehsctjJEOXMyczY5mqUp6fgcYvL2QS7rWSKBrLp5XDq7pEsBtFNCohI2dAbbXPCe2VxAdMM_hnpNNsQ5JYoyllToOzDCXn2o6vOWqZjLuYasXylyjfYemNtIvS-tmBOsXYtqz6BbNB65tYOk8z7lkO5hkCAtuEkg-rZCC_t)](https://blogger.googleusercontent.com/img/a/AVvXsEgEy1TOAAQm33OfWavVSNOQyehsctjJEOXMyczY5mqUp6fgcYvL2QS7rWSKBrLp5XDq7pEsBtFNCohI2dAbbXPCe2VxAdMM_hnpNNsQ5JYoyllToOzDCXn2o6vOWqZjLuYasXylyjfYemNtIvS-tmBOsXYtqz6BbNB65tYOk8z7lkO5hkCAtuEkg-rZCC_t)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715847/blogger-import/6207a1b65b9ee0553d74.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715847/blogger-import/6207a1b65b9ee0553d74.jpg)
 
   
 

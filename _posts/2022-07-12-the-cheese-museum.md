@@ -12,7 +12,7 @@ location:
   lng: 4.9041
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHZvY6NKzzl5lU2qauYyLRRNkrN3UKRSoQwZqqDr6rxPsCT-maVKr6tssDkprFQw4KDBbTAu10uILQlz2AOIuUBbs265_LAn5D-kcvtqb-cLLf6qt2-WtANiJvMR8HBfT7ejI8Yp7zFdOiOMhnFmPuhZrcwy67hCnne6b_OKqeHijvyoK56sYeuWip/s320/20220315_083906.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHZvY6NKzzl5lU2qauYyLRRNkrN3UKRSoQwZqqDr6rxPsCT-maVKr6tssDkprFQw4KDBbTAu10uILQlz2AOIuUBbs265_LAn5D-kcvtqb-cLLf6qt2-WtANiJvMR8HBfT7ejI8Yp7zFdOiOMhnFmPuhZrcwy67hCnne6b_OKqeHijvyoK56sYeuWip/s4032/20220315_083906.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679231/blogger-import/13e0a5d40d22e9257697.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679241/blogger-import/6ee43de6c3f96e972ab3.jpg)
 
   
 
@@ -22,7 +22,7 @@ I went for a run the next morning and it was pretty busy with construction worke
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYGf1gwRMB3uL52JfiiJW2qLkEzgtgOQvpBHw-aPFnNHd01dFV-trh7B2v1oG0XiwoUelkegbA3qFtzZaZdXgxd_rW-BdqT2GfnnYHZ-mQz96zzpmSmOdUjT4OHnKVJ1vKyIE8d9Vk0w76rkJr-jLGzgeAg2LsUMNMAiAVfJxC9q2QnKQXsc0VVgzz/s320/20220315_091758.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYGf1gwRMB3uL52JfiiJW2qLkEzgtgOQvpBHw-aPFnNHd01dFV-trh7B2v1oG0XiwoUelkegbA3qFtzZaZdXgxd_rW-BdqT2GfnnYHZ-mQz96zzpmSmOdUjT4OHnKVJ1vKyIE8d9Vk0w76rkJr-jLGzgeAg2LsUMNMAiAVfJxC9q2QnKQXsc0VVgzz/s4032/20220315_091758.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679251/blogger-import/3d476c0e74d1b0c56f9d.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679258/blogger-import/d5b6910d8d9f7edd3546.jpg)
 
 Our BnB provided us breakfast vouchers for this bakery every morning!
 
@@ -30,7 +30,7 @@ We were hoping to see the Anne Frank house this day but all the tickets were sol
 
  We had a cheese/riverboat tour scheduled but when we walked up, they said it was delayed and offered to take us on the earlier boat that had no cheese but unlimited drinks and we could have our money back. We said no thank you, we would wait an hour and a half for our delayed tour. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAap-uBkCqkyPPFSZsLhX625UkE70Zco-4c19Gpq775RydmANJ8fJ2HmipOan8_I3njhsIdtxX-bwGZH_dEVUP52QWvIegbWEeauzFbBFbDJwpBEhsPeoENe6vOvnbG8L7SxNhVAMg86HUYP7vCIRl4HW_MoOQV8W-0FYc1F0ep5Ne3yMM-x0enbTD/s320/20220315_102258.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAap-uBkCqkyPPFSZsLhX625UkE70Zco-4c19Gpq775RydmANJ8fJ2HmipOan8_I3njhsIdtxX-bwGZH_dEVUP52QWvIegbWEeauzFbBFbDJwpBEhsPeoENe6vOvnbG8L7SxNhVAMg86HUYP7vCIRl4HW_MoOQV8W-0FYc1F0ep5Ne3yMM-x0enbTD/s4032/20220315_102258.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679281/blogger-import/2ef851f9f13e8f0c82ce.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679296/blogger-import/cbf1d36256d581ac53a1.jpg)
 
   
 
@@ -40,14 +40,14 @@ This was the no-cheese boat tour. While we waited for our tour, we headed to th
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqQjNZneitEccYVLgkbjYsvLJYOMWUi-z7x1V_KHrSHhR96WanBLABCNUQ6CUR_CahkoIPv4lwPD221n_K8xNkh9y-agpiFudQTtvllXmoAzo2hFTN0ISc5JNpo1_KugzQIaO_QdHd-1VuJI-9nRFwsw5TzbYlcXs21eDgopIbKDMFEEzH8Kc7nOtc/s320/20220315_103401.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqQjNZneitEccYVLgkbjYsvLJYOMWUi-z7x1V_KHrSHhR96WanBLABCNUQ6CUR_CahkoIPv4lwPD221n_K8xNkh9y-agpiFudQTtvllXmoAzo2hFTN0ISc5JNpo1_KugzQIaO_QdHd-1VuJI-9nRFwsw5TzbYlcXs21eDgopIbKDMFEEzH8Kc7nOtc/s3648/20220315_103401.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1rVpHaEOndqUYG3HMIJESt-Q6mRi1OZ9n0PFQcygWDUMkpESbHBp_NEbinNCAT7I0tqgS4yJk5wZyaxQiBzw2lPZJ3B7rRV70dF0oLgfS-7oNVGDeiGF3kuHa06cy4pbMuDBCb7XZZsLQDnhH13OzDKK_xys9AtJ3-3WwTALsFC8212ZLRkRo18nL/s320/20220315_103517.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1rVpHaEOndqUYG3HMIJESt-Q6mRi1OZ9n0PFQcygWDUMkpESbHBp_NEbinNCAT7I0tqgS4yJk5wZyaxQiBzw2lPZJ3B7rRV70dF0oLgfS-7oNVGDeiGF3kuHa06cy4pbMuDBCb7XZZsLQDnhH13OzDKK_xys9AtJ3-3WwTALsFC8212ZLRkRo18nL/s3648/20220315_103517.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679317/blogger-import/60aa180168522174038a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679323/blogger-import/315d2ff8831cc32d4dcf.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679327/blogger-import/d70ac1b75644e5b6a3cb.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679330/blogger-import/9a5d7c3fb0b35cdcab9d.jpg)
 
 Then we headed downstairs to learn about the process of making cheese. They had some really cute traditional outfits for us to pose with.
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhNqHvHosV_4DxNnnCBt6X9R3faBKEnZ-pVMQDRdwGNeAenDTYwlg_e6CHsgtNUFVkJIllwbjjSjFHCYyv2yRdxSwH33kYYF5ZCBgzGMwiUFBSNcg1FrOGYDkQ8RO0Ldn_7SP9J7pOlCSN2PpN3zyu1UuHu6e-tbRnMlPdTRb7xk8gUTaRnbX1pCXA/w291-h219/20220315_105300.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhNqHvHosV_4DxNnnCBt6X9R3faBKEnZ-pVMQDRdwGNeAenDTYwlg_e6CHsgtNUFVkJIllwbjjSjFHCYyv2yRdxSwH33kYYF5ZCBgzGMwiUFBSNcg1FrOGYDkQ8RO0Ldn_7SP9J7pOlCSN2PpN3zyu1UuHu6e-tbRnMlPdTRb7xk8gUTaRnbX1pCXA/s3648/20220315_105300.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNDFls7NtyIt2KZYoaarcm4SIpBjsy_kKIYIkousV-9lsQQowK9vRqcyKk0iOududxRE29mfSV36IrCLMdn3rL_vAmiQTqXzOPE41UuiR6oJkVPN4GAKLi0z6aYvwDzkCeopf1Yte_l2QL9DvDPtXxvVoJn6k0wJlbibboAsY78p076Ei2oIIaB9NT/w294-h221/20220315_105333.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNDFls7NtyIt2KZYoaarcm4SIpBjsy_kKIYIkousV-9lsQQowK9vRqcyKk0iOududxRE29mfSV36IrCLMdn3rL_vAmiQTqXzOPE41UuiR6oJkVPN4GAKLi0z6aYvwDzkCeopf1Yte_l2QL9DvDPtXxvVoJn6k0wJlbibboAsY78p076Ei2oIIaB9NT/s3648/20220315_105333.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679333/blogger-import/d4930dbac9b7ef85d759.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679336/blogger-import/b40f208aa86f432d4b25.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679340/blogger-import/d58542703dfae11e594f.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679343/blogger-import/b352b7940c4d5ae3db00.jpg)
 
   
 

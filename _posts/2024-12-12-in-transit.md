@@ -16,7 +16,7 @@ Happy Thursday everyone! Yes, it is Wednesday 12/11 for you, but Thursday 12/12 
 
 We drove up to Portland, enjoyed strolling around Powell's bookstore, and had In-n-Out burger on the way up :)
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2zuqX-mHrOvQMuxAY-D3q4CseTmWN4vIagZXEqH25xOxVCq52Gpv0vV_waNjc8aHxJsIfnYZISt2cUx1KAVvZsfx7xKDYr7OTO9fi7VCZdAk8ConlEpi6CvnrOqLmdXxtVkj7TDT1GN62jfuHhFB9iHqwfqpdIyHkcFKMkEAnDH5TqcBrdOGLMyH4x7El/s320/20241210_185311.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2zuqX-mHrOvQMuxAY-D3q4CseTmWN4vIagZXEqH25xOxVCq52Gpv0vV_waNjc8aHxJsIfnYZISt2cUx1KAVvZsfx7xKDYr7OTO9fi7VCZdAk8ConlEpi6CvnrOqLmdXxtVkj7TDT1GN62jfuHhFB9iHqwfqpdIyHkcFKMkEAnDH5TqcBrdOGLMyH4x7El/s4000/20241210_185311.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696992/blogger-import/74808151450c40573fc4.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696996/blogger-import/a735ee252444f3a85b16.jpg)
 
   
 
@@ -29,7 +29,7 @@ It was an easy 1.5hr flight from Portland to Vancouver, Canada in this cute plan
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaojiGt6HufeCSWd0LFZZinUv_CALyBhs5KlbLenwamDu7Yoq2cdxgM1qbCEGJu5ynzuz1Hf64KyckSa9Jp-6MES6j3_2uOgUWjWE9H0eMVlDKCjz3mNVdawG3lSPQ0ySDfXJ4ZlNG79bl9f422eXYmG0gZQuSXNz6h3q5ddeIbjwb1ZX-3b6LosHPg-zr/s320/20241210_213417.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaojiGt6HufeCSWd0LFZZinUv_CALyBhs5KlbLenwamDu7Yoq2cdxgM1qbCEGJu5ynzuz1Hf64KyckSa9Jp-6MES6j3_2uOgUWjWE9H0eMVlDKCjz3mNVdawG3lSPQ0ySDfXJ4ZlNG79bl9f422eXYmG0gZQuSXNz6h3q5ddeIbjwb1ZX-3b6LosHPg-zr/s4000/20241210_213417.jpg) [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgK4vXJlGvezHv9sc3NEecdyRQNb2PH0mpbVGfnQfTgkBEl80IRD5XhyHnwed6i2r1ynBsKdE-bXQ3w05_IqV5IW5CfQyBCo1rRnslkPIZOUuMQ1SbwIqWR9w4pa5MLHWc4Kn6owGh0UZuZP8GwfPZ7jgGnwT7RfLBO7qAtYJ3p2NuaxU9FL1uxi3UUn3pk/s320/20241210_215003.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgK4vXJlGvezHv9sc3NEecdyRQNb2PH0mpbVGfnQfTgkBEl80IRD5XhyHnwed6i2r1ynBsKdE-bXQ3w05_IqV5IW5CfQyBCo1rRnslkPIZOUuMQ1SbwIqWR9w4pa5MLHWc4Kn6owGh0UZuZP8GwfPZ7jgGnwT7RfLBO7qAtYJ3p2NuaxU9FL1uxi3UUn3pk/s4000/20241210_215003.jpg)  
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697003/blogger-import/fdc2eb1367fbd96ce164.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697012/blogger-import/bc073e9794c13391af80.jpg) [![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697018/blogger-import/ca5ddea61e5edfad7052.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697021/blogger-import/ff879be7bf29c9fc4303.jpg)  
   
 
 
@@ -40,7 +40,7 @@ We landed in Canada at about 830pm and waited for our 1230am flight from Canada 
 
 We were over the moon for our next flight - our first lie-flat experience!!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2e4pQCKloqeFFs85ug0U9FmT3TCTiV7uQtehY17YIoYcGcs7jy9sVZhWL6XOzIODEgCKaeJE0T3NDkMXq3WGh-Yo1mzjAxVYLr9kloZREczq1mzjkMXHCM_0PvZ7b3Dcbo5XHOo1VtXU8B4f9SUsbPS435sU_ZX-o1iClNQCfaiUlfmMDnySbkYvXYnFJ/s320/20241210_234157.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2e4pQCKloqeFFs85ug0U9FmT3TCTiV7uQtehY17YIoYcGcs7jy9sVZhWL6XOzIODEgCKaeJE0T3NDkMXq3WGh-Yo1mzjAxVYLr9kloZREczq1mzjkMXHCM_0PvZ7b3Dcbo5XHOo1VtXU8B4f9SUsbPS435sU_ZX-o1iClNQCfaiUlfmMDnySbkYvXYnFJ/s4000/20241210_234157.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEik8hjfSi3OfXGzOqpVftqutkYhX3WXFpPA1hJLUcfeEICuTa3XDyPE2ii5oSVpxE8m4v7IM7criA9oUCpTBvkHlQHttfN-cDowL7A3pTRNe8mmpqsHAh57y8E2vCt0LERE2HXAxIMRHd4KoK0SBulV8km6y0rWb7jfhM-PLZeg_yUHJ7er48kZzwgo54ft/s320/20241210_235616.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEik8hjfSi3OfXGzOqpVftqutkYhX3WXFpPA1hJLUcfeEICuTa3XDyPE2ii5oSVpxE8m4v7IM7criA9oUCpTBvkHlQHttfN-cDowL7A3pTRNe8mmpqsHAh57y8E2vCt0LERE2HXAxIMRHd4KoK0SBulV8km6y0rWb7jfhM-PLZeg_yUHJ7er48kZzwgo54ft/s4000/20241210_235616.jpg)  
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697025/blogger-import/f4f177af561f1932f69c.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697028/blogger-import/54683f1625bdfbc2e9b3.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697033/blogger-import/000d3339d7d37e26bf87.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697042/blogger-import/79f6cf646fde17011277.jpg)  
 
 
 They look like miniature offices with extended chairs, pillows, mattress toppers, blankets, and hygiene kits - the lotion smells divine!
@@ -69,17 +69,17 @@ We were served dinner (at 1am our time, which was odd but if you know me, I love
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_MVAwVxLIB84hInlvPnzoWAkMQjjPHpatGv8zKh3_erPfafzEV_ssscXSYKQ_5Nl-s2ylsxSFnEZUuRgmzWEFPt8l29NjdSKdCJvo_kMS6nXvWrdyLfVgdkHGLlKCUcw0dUEL42kdIu3xachYZkwJ9dKPKf8jWElwuCeEdUrL3SfzizuYLcGquLbLadik/s320/20241211_011112.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_MVAwVxLIB84hInlvPnzoWAkMQjjPHpatGv8zKh3_erPfafzEV_ssscXSYKQ_5Nl-s2ylsxSFnEZUuRgmzWEFPt8l29NjdSKdCJvo_kMS6nXvWrdyLfVgdkHGLlKCUcw0dUEL42kdIu3xachYZkwJ9dKPKf8jWElwuCeEdUrL3SfzizuYLcGquLbLadik/s4000/20241211_011112.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697050/blogger-import/173d20f53010bee293cd.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697059/blogger-import/61b7d8f5943ebd238f44.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizKzVgSJmu0x9r7UQYRWOrwxxyLdBVbO2ilDYr5GFFbVjc73JKDl-ORyjsb08ienyjTJ0S2kD6Pri_noxKFzhf3VAxO3mzHd5M4E5znqQOpR3zdUpx5B79nBvyF6WGMBw5-c6eTkz3D65fDOyCTPOpSpWqwXgquepQXiXuHt5J9LOly7cWzhFD-vU62xcF/s320/20241211_013028.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizKzVgSJmu0x9r7UQYRWOrwxxyLdBVbO2ilDYr5GFFbVjc73JKDl-ORyjsb08ienyjTJ0S2kD6Pri_noxKFzhf3VAxO3mzHd5M4E5znqQOpR3zdUpx5B79nBvyF6WGMBw5-c6eTkz3D65fDOyCTPOpSpWqwXgquepQXiXuHt5J9LOly7cWzhFD-vU62xcF/s4000/20241211_013028.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697068/blogger-import/bf9be960f6614c1662d2.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697075/blogger-import/90f8ab268ce24a68907e.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh55eSs4C9JkpsSJnwg690uxU5Tk7FEWl6Cp12BndRsGVrGlY3tIWmWWs0DG9jlnaOY5ko2qyAr1vqRkXFgdhyphenhyphenMrIXJ2R6mAPQQJ_oP1be6-eCazYLBi7cVNXb7bYmvleLPFzK4EYc7MLUxHuZA1rODYRJP4hcxDcj9Bb76-PVofkzrd6crtB8MQ0_7h7ee/s320/20241211_013342.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh55eSs4C9JkpsSJnwg690uxU5Tk7FEWl6Cp12BndRsGVrGlY3tIWmWWs0DG9jlnaOY5ko2qyAr1vqRkXFgdhyphenhyphenMrIXJ2R6mAPQQJ_oP1be6-eCazYLBi7cVNXb7bYmvleLPFzK4EYc7MLUxHuZA1rODYRJP4hcxDcj9Bb76-PVofkzrd6crtB8MQ0_7h7ee/s4000/20241211_013342.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697085/blogger-import/84f50d5e99cd401d8a29.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697093/blogger-import/a8cf45002c0cd6f01631.jpg)
 
   
 
@@ -109,7 +109,7 @@ _Reconfirmed_ my love of bread and distaste for most seafood. 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg9UJt0hfDoawmZmbUGn5vMMARMyHc3zGloYFtCFAPqOYgpxzAYv1y8Nh9eql9dsiF7yRL0hIgt6dzC0lbAWbS5JNIDu9R4bm8fvtv3WFcTCpdszIB2pv0cGpHx7FIxcaoUMhQFpi0nLpLhoeBKiO0roE5TwZaqWqdRjgy4H5PiDrhkhOxCb0pzfwCIAUq/s320/20241210_235917.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg9UJt0hfDoawmZmbUGn5vMMARMyHc3zGloYFtCFAPqOYgpxzAYv1y8Nh9eql9dsiF7yRL0hIgt6dzC0lbAWbS5JNIDu9R4bm8fvtv3WFcTCpdszIB2pv0cGpHx7FIxcaoUMhQFpi0nLpLhoeBKiO0roE5TwZaqWqdRjgy4H5PiDrhkhOxCb0pzfwCIAUq/s4000/20241210_235917.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697101/blogger-import/cb601d40cee8c8e1bdc5.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697110/blogger-import/16c0ffcced479a463b23.jpg)
 
   
 
@@ -124,19 +124,19 @@ I woke up and read a bit more with some tea before breakfast was served. I look 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi21rf4SnDzwpOCf8RB1uoW8TjY_ZAEApUzYsw19udMF10eURyzu1c-7ogrCsjZAGVFi2dFzMTNfBJkGnh7DtX3aPC2NkUnIhtyKPRC6cufKDPodmSR3Lc9-RF0_6NiAwcTltHTBdEnYuzCdc4CSHIANS3h3YHgHYA8Og9esdaNLesdS9FbVnnW__cBEOH6/s320/20241212_041423.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi21rf4SnDzwpOCf8RB1uoW8TjY_ZAEApUzYsw19udMF10eURyzu1c-7ogrCsjZAGVFi2dFzMTNfBJkGnh7DtX3aPC2NkUnIhtyKPRC6cufKDPodmSR3Lc9-RF0_6NiAwcTltHTBdEnYuzCdc4CSHIANS3h3YHgHYA8Og9esdaNLesdS9FbVnnW__cBEOH6/s4000/20241212_041423.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697118/blogger-import/29741cb80c5d0fbb130a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697121/blogger-import/9076a5ce0f0fcc4c4e12.jpg)
 
   
 
 
 He passed me his egg and I handed him over my shrimp (not a fan of the taste or texture) and we both snuck peeks at our neighbors to figure out how to properly eat everything.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9Eme-20sZkVAqiTdayA780D_9EaCQxcE2iEoV1GfIZgpNkpQpg6TeWMyBFre6jyrwKCSxpgwi9VERLzmeku2cuBZDiDpZhihnsR0-TwueKG4U0mtuIiJN4a6LWt7d-EaOm_FT4WmUKX6uXOzkxm1j3X2g9wGDypXwAM-w-0yz3Cvldn_qKYMSdmJbEA4T/s320/20241212_041432.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9Eme-20sZkVAqiTdayA780D_9EaCQxcE2iEoV1GfIZgpNkpQpg6TeWMyBFre6jyrwKCSxpgwi9VERLzmeku2cuBZDiDpZhihnsR0-TwueKG4U0mtuIiJN4a6LWt7d-EaOm_FT4WmUKX6uXOzkxm1j3X2g9wGDypXwAM-w-0yz3Cvldn_qKYMSdmJbEA4T/s4000/20241212_041432.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697125/blogger-import/04a2a4f1ccf3fd611a30.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697129/blogger-import/f0f052f5f559c87d95af.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL1G5vQX17iocijiP52uvWNqMRiiep77gk6HLQVoj_gSmozsuTxfvZ8OL__IFSWdyysSwDryLerO1AK-AbcVCWtUgg1Adg_oOiDC7bCH5LAFvuMqdYK72gI8D6ccabM6GM_eLsNxgParhQ59chHnD0k51BkANmpuEAmCpIA3z82cECobnnJNTO5C1qeRXT/s320/20241212_041531.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL1G5vQX17iocijiP52uvWNqMRiiep77gk6HLQVoj_gSmozsuTxfvZ8OL__IFSWdyysSwDryLerO1AK-AbcVCWtUgg1Adg_oOiDC7bCH5LAFvuMqdYK72gI8D6ccabM6GM_eLsNxgParhQ59chHnD0k51BkANmpuEAmCpIA3z82cECobnnJNTO5C1qeRXT/s4000/20241212_041531.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697133/blogger-import/6d4b5f03c6f6bf12348d.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697137/blogger-import/afc2d4789fd0517b65fe.jpg)
 
   
 

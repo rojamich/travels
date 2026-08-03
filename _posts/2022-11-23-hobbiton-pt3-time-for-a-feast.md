@@ -20,7 +20,7 @@ It was really cool to watch the doors of the Green Dragon swing open to greet us
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg44l9V10spxNCq6shmKhO1A-5Fs5-RPQ3HE4f9kCKv9YMjWuYnTdDiOrWfmiSuJg9BhqbDYm6JOmimTsFGR6DJyHYRdBqXZ1moZijhn6BkSx8z0LaLBDU2llqDNPHHs0WCw8oAa84B7S8T741baIDTxAlC9jEycnqW8sIPaXWsRJcwsinQHSKQ8ekldg/s320/20221117_190227.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg44l9V10spxNCq6shmKhO1A-5Fs5-RPQ3HE4f9kCKv9YMjWuYnTdDiOrWfmiSuJg9BhqbDYm6JOmimTsFGR6DJyHYRdBqXZ1moZijhn6BkSx8z0LaLBDU2llqDNPHHs0WCw8oAa84B7S8T741baIDTxAlC9jEycnqW8sIPaXWsRJcwsinQHSKQ8ekldg/s4032/20221117_190227.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI7VEPaAfuM9t50fJITjkiT5MLwvwTzyVhFUuKR2NSvJkepmepnQB6vieGziU91Sc3Ac8Bxh2qtGFiLV4aUd4lrCCNSyd1-4DhV_3S2TvYvPxUpUADIma0NB7aewcjMztoMp5-CiI8JMOrBqkCDeHPmBeX3aiGhZMQW1NkCtHhVXOSpB0U3VRao6gOAA/s320/20221117_201550.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI7VEPaAfuM9t50fJITjkiT5MLwvwTzyVhFUuKR2NSvJkepmepnQB6vieGziU91Sc3Ac8Bxh2qtGFiLV4aUd4lrCCNSyd1-4DhV_3S2TvYvPxUpUADIma0NB7aewcjMztoMp5-CiI8JMOrBqkCDeHPmBeX3aiGhZMQW1NkCtHhVXOSpB0U3VRao6gOAA/s4032/20221117_201550.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679855/blogger-import/b5c9e37b3b66e86e289f.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679859/blogger-import/9be0520e1e4bd4ff0c5e.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679862/blogger-import/a4bf618a7df109d0220a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679865/blogger-import/ac9d1f5c2c7c4a724109.jpg)
 
   
 
@@ -33,12 +33,12 @@ They opened the curtains to the big reveal! Enough food for a hill full of hobbi
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJeyUpWL-WVDEEfmK-lDYM7-4_bQTNtbQMd7MDhfxbQ9YrT96tBXcdkFTnoi5t1ViqdGKWIpmaJPIce7o6465Sk5OCnMpj3qVT_kg71_Hn0tD9i9y3-5UeZIHB3xJ1e7ZSrfFaAlxEncbVxn5Xj8llDa524TthVpNpJ1DMaMz7N8RDidCwFlEcTcyqFw/s320/20221117_193238.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJeyUpWL-WVDEEfmK-lDYM7-4_bQTNtbQMd7MDhfxbQ9YrT96tBXcdkFTnoi5t1ViqdGKWIpmaJPIce7o6465Sk5OCnMpj3qVT_kg71_Hn0tD9i9y3-5UeZIHB3xJ1e7ZSrfFaAlxEncbVxn5Xj8llDa524TthVpNpJ1DMaMz7N8RDidCwFlEcTcyqFw/s4032/20221117_193238.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679870/blogger-import/34aa2d36a79039984fe8.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679880/blogger-import/2324e53f2633a5e9a9cc.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn0a0F95Ir5x6riEva1iSjXmn3sO1e0YEmlufDpdGtbGGISmfcmWud4CzLi8yCF6AOYHud4qehqSLIKwPCreHh-wdj0-ro2evzLNFPYtHL0-Say9JJLOb_keaR29Lfkue6G5Jk_JHoOs3ZUWF4GQcDT9N_3opdS6Wpy18PzyWE2hmgODe32Lj5xfQXGA/s320/20221117_193357.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn0a0F95Ir5x6riEva1iSjXmn3sO1e0YEmlufDpdGtbGGISmfcmWud4CzLi8yCF6AOYHud4qehqSLIKwPCreHh-wdj0-ro2evzLNFPYtHL0-Say9JJLOb_keaR29Lfkue6G5Jk_JHoOs3ZUWF4GQcDT9N_3opdS6Wpy18PzyWE2hmgODe32Lj5xfQXGA/s4032/20221117_193357.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679888/blogger-import/505bc4b2dd61e563af35.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679897/blogger-import/b9586163b8519eb20ff1.jpg)
 
   
 
@@ -48,6 +48,6 @@ We ate to our hearts content and then they served dessert along with coffee and 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieAcY_rtQ7hKqtxQEtjIdNwagkpw-yK5D8Dig-QY8Hv0homwDbOtgDqT8FachYJkCG6LPSd9OzhCQPlO97CGtu7JxQ9qx4I-PAEtSIvbouIarSRBx9GSUHVEx7hV73z1_esM8A7KYpH9_0Reh2Ex0D-jCaU8OgyH5kNbeEkunsTfi1wD7VwMhgkdrpbQ/s320/20221117_203533.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieAcY_rtQ7hKqtxQEtjIdNwagkpw-yK5D8Dig-QY8Hv0homwDbOtgDqT8FachYJkCG6LPSd9OzhCQPlO97CGtu7JxQ9qx4I-PAEtSIvbouIarSRBx9GSUHVEx7hV73z1_esM8A7KYpH9_0Reh2Ex0D-jCaU8OgyH5kNbeEkunsTfi1wD7VwMhgkdrpbQ/s4032/20221117_203533.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679906/blogger-import/a6279b423de2103430ff.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679915/blogger-import/6a5166abd11a07e11004.jpg)
 
 We enjoyed it throughly while listening to the sound of rainfall and the crackling fireplace.

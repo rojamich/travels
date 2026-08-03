@@ -10,7 +10,7 @@ tags:
 
 Hello and Welcome Back for our next adventure! Thanks so much for traveling with us 💜
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibiDR1gF7TKBBIQkGD2XI9ph-CqTTuJuOUo8Du9lwtPU_T56jWzmhM5gahZ6MUz_G4JrAwUcJjuRCRNH-VEHEhp47vIQl1K-XS3SMfjZWEn8GagXsC-uzQXk07dCfOIcih4Y0wX7qJJrBTQemwBLV9sZHwWQ842D8bNxOKHLKNoD7UuGBLZi3QjGfYXG0/w259-h259/background-is-mountains-foreground-says-i-do-belie-c4OEFgFOQ8ySY3HMjh79sg-Mw8edMRnRFezd6y-eq4RIQ.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibiDR1gF7TKBBIQkGD2XI9ph-CqTTuJuOUo8Du9lwtPU_T56jWzmhM5gahZ6MUz_G4JrAwUcJjuRCRNH-VEHEhp47vIQl1K-XS3SMfjZWEn8GagXsC-uzQXk07dCfOIcih4Y0wX7qJJrBTQemwBLV9sZHwWQ842D8bNxOKHLKNoD7UuGBLZi3QjGfYXG0/s1024/background-is-mountains-foreground-says-i-do-belie-c4OEFgFOQ8ySY3HMjh79sg-Mw8edMRnRFezd6y-eq4RIQ.jpeg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785689381/blogger-import/d7a6d7b026a804fcdce9.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785689383/blogger-import/45eebd1aff6f43234175.jpg)
 
   
 

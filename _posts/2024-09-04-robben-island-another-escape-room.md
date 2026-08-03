@@ -12,7 +12,7 @@ location:
   lng: 18.3661
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmrIdZkuqCMiBj0m_EMgk1xER1NODMAw11g3456xssBOdI83xqGgLKEzbdSRCTLlWVSuUrGAx-HleaDovUjt-rkI_Me9CDvlJ-kwpEu4uF0diay0YsFXVE7iiSj6JnlJX5xt4gFj3PdpxPp0uKS0haAvPJGuUf41tu6tiLn15sMVBUKDisw3bq8doMGcM/s320/20240901_072427.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmrIdZkuqCMiBj0m_EMgk1xER1NODMAw11g3456xssBOdI83xqGgLKEzbdSRCTLlWVSuUrGAx-HleaDovUjt-rkI_Me9CDvlJ-kwpEu4uF0diay0YsFXVE7iiSj6JnlJX5xt4gFj3PdpxPp0uKS0haAvPJGuUf41tu6tiLn15sMVBUKDisw3bq8doMGcM/s4000/20240901_072427.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsqk2YX2mbSqYzy8-Zo7mVaYjFoPMTU2Kn0jb0HXa3gs9Gz_KQEZyHQslGNmPJhFYjYIWcZBxKQXd1k0Py6K5e-DxZSIx4mlmZprOCaGObZhJOKrunSq14ZRs0lRdnzBninqT6Z7Dgsg2tlIAHRIBP5Rke8RS-rmZ8K5WIDXywPbPTIt_166LxXSDGkvw/s320/20240901_072423.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsqk2YX2mbSqYzy8-Zo7mVaYjFoPMTU2Kn0jb0HXa3gs9Gz_KQEZyHQslGNmPJhFYjYIWcZBxKQXd1k0Py6K5e-DxZSIx4mlmZprOCaGObZhJOKrunSq14ZRs0lRdnzBninqT6Z7Dgsg2tlIAHRIBP5Rke8RS-rmZ8K5WIDXywPbPTIt_166LxXSDGkvw/s4000/20240901_072423.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691100/blogger-import/68fc99670c525ccfc14b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691109/blogger-import/7c70bb3d54ec6c09fa9e.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691118/blogger-import/0408596702b286e81886.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691127/blogger-import/a9d3474a2374a0dc280b.jpg)
 
 After a great gym session we were up and headed to breakfast before our 9am tour to Robben Island! We walked over to breakfast and enjoyed seeing more of Capetown along the way. 
 
@@ -26,19 +26,19 @@ Here you can see a town square that reminded us of europe, a christian church.
 
  
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHwtaZpEw60qOVZvBLUjJSAuwEdMEOowXdV0ug5zvW6AR9nimXr1DqIHkG8y6-jCK0o9Pj7SN7h4DVHonOCwFNfoXX0HLOGwHh85FVahPJ9mt6iI3PDu8LFIVAC2sobd3dbhMq6DQyXXxs8NUZAFM635Bjn3iGmSzAM2vIoy5m2oNMGrtDyQ2x1vQTwr4/s320/20240901_072938.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHwtaZpEw60qOVZvBLUjJSAuwEdMEOowXdV0ug5zvW6AR9nimXr1DqIHkG8y6-jCK0o9Pj7SN7h4DVHonOCwFNfoXX0HLOGwHh85FVahPJ9mt6iI3PDu8LFIVAC2sobd3dbhMq6DQyXXxs8NUZAFM635Bjn3iGmSzAM2vIoy5m2oNMGrtDyQ2x1vQTwr4/s4000/20240901_072938.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691138/blogger-import/f3486b86b3236e865092.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691145/blogger-import/30081089ca67f023c258.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNXaBkTHHUKa1tInVTyfRd9ZRRd88RrcejSqkub5dHL1tzpUUY4w8Qp84AcUuCWEuZawfsrJ0IiohZP22ATVwAil6Z4gxPfbGKOh-cLd7iLpGRr-HDketh17olJasCR2s6h_glT3vLKUiJA0FjvKYh5sVofHsyQ9IHDnxN1dKGUg4OHSUV1pmUvOWGtrE/s320/20240901_072547.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNXaBkTHHUKa1tInVTyfRd9ZRRd88RrcejSqkub5dHL1tzpUUY4w8Qp84AcUuCWEuZawfsrJ0IiohZP22ATVwAil6Z4gxPfbGKOh-cLd7iLpGRr-HDketh17olJasCR2s6h_glT3vLKUiJA0FjvKYh5sVofHsyQ9IHDnxN1dKGUg4OHSUV1pmUvOWGtrE/s4000/20240901_072547.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirovjrXY5luiFYr9WCWyhvQZVq9QycOnU1kEmLhpPptZgOerwa62bZEu-sExuVIuYWywMk8_OwCjoNjkCM7xjWW1SB0SY4pVLxv22QfHVf1YrKyKX9Imqh7Mc37ekO3XM3vJ9nRB939GnFLha_SvdZ2FirTXf6oc7gBMX1gHTm8o0HOh2gL9vm9xQr97E/s320/20240901_074524.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirovjrXY5luiFYr9WCWyhvQZVq9QycOnU1kEmLhpPptZgOerwa62bZEu-sExuVIuYWywMk8_OwCjoNjkCM7xjWW1SB0SY4pVLxv22QfHVf1YrKyKX9Imqh7Mc37ekO3XM3vJ9nRB939GnFLha_SvdZ2FirTXf6oc7gBMX1gHTm8o0HOh2gL9vm9xQr97E/s4000/20240901_074524.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691153/blogger-import/a140b20e5957f3a1105e.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691161/blogger-import/c9ee8972492cab4cd05d.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691170/blogger-import/47637ad17392a2e417f4.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691178/blogger-import/045187836b8d503e25a2.jpg)
 
 If you can believe it, we found a New York bagel place and devoured a couple of sandwiches (our appetites ferocious after diving the previous day).
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLJ9lNSoKf75qeOcMrnZ4_ovwp79rcxdxtyFREBL_LUpGrOV6sBLp0FBkM_B5A0vRXlsTT936hvomltAEfOtYCsUnL7ZV2pUF-3IlXkq5tLFcSbFyRWUnqUtlbSWEDLpTq5U9NqXvfJZUXjATsCn5JZFFI9fKyfTeR9fuVaZiqBrJqOpNG1sGUhYGr-7s/s320/20240901_082549.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLJ9lNSoKf75qeOcMrnZ4_ovwp79rcxdxtyFREBL_LUpGrOV6sBLp0FBkM_B5A0vRXlsTT936hvomltAEfOtYCsUnL7ZV2pUF-3IlXkq5tLFcSbFyRWUnqUtlbSWEDLpTq5U9NqXvfJZUXjATsCn5JZFFI9fKyfTeR9fuVaZiqBrJqOpNG1sGUhYGr-7s/s4000/20240901_082549.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691183/blogger-import/5cc61f0b1eed9fdab9e1.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691197/blogger-import/6f4d41059003c3727bb6.jpg)
 
   
 
@@ -54,26 +54,26 @@ After a 30 minute ferry ride to Robben Island, we hopped on a bus with a guide w
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiniSQA1bPbPyo0XTGGWPFvZ3TaxlMy4aq1HNKWBIT4DGWslKQCGZHEmF5gEZ-FjfbPJ82ON_KizZ_0c15giEhSWERvp68Qt_HKgeivLy8GK5k8tjUSKlgpIOb7EG6JelbDkVJPHXh78d6V1CTD6G0xPZsT_QHbQOrBP6UQn0nBZnRF789B1mu5lVJOlzo/s320/20240901_100530.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiniSQA1bPbPyo0XTGGWPFvZ3TaxlMy4aq1HNKWBIT4DGWslKQCGZHEmF5gEZ-FjfbPJ82ON_KizZ_0c15giEhSWERvp68Qt_HKgeivLy8GK5k8tjUSKlgpIOb7EG6JelbDkVJPHXh78d6V1CTD6G0xPZsT_QHbQOrBP6UQn0nBZnRF789B1mu5lVJOlzo/s2798/20240901_100530.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691206/blogger-import/c63ededdf2b3fcc17fbd.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691215/blogger-import/f5058e2659e8e502b433.jpg)
 
 Here is the graveyard for those afflicted by leprosy. We were able to see residential housing for those who still reside on Robben Island for work now that the prison is a tourist destination and piece of history.
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpybwqFA3-_lPJDhsqm2BDKomKE_GhEpJwuFCwoaB-MjohCDYfN5ZrPu13i7_fWObF4Sg3SlU9FlH0ihtOlDwTZyOrEZnFymw0_F_8uiMdj-UM1F8H2XoHwPXt6TcTgEOgjdOobxw3G6uokEUBLQ7dPdftXdujPEJxRi3gorldyaRKB8_WZsWaCd2GGUw/s320/20240901_102736.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpybwqFA3-_lPJDhsqm2BDKomKE_GhEpJwuFCwoaB-MjohCDYfN5ZrPu13i7_fWObF4Sg3SlU9FlH0ihtOlDwTZyOrEZnFymw0_F_8uiMdj-UM1F8H2XoHwPXt6TcTgEOgjdOobxw3G6uokEUBLQ7dPdftXdujPEJxRi3gorldyaRKB8_WZsWaCd2GGUw/s4000/20240901_102736.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691220/blogger-import/452f76578b2281fd3964.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691229/blogger-import/97d0db8c91ec0b366889.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBw69UlQithDIX-9ZPeC9dFXdb3M0KZ3VNOWNsJP5VluzZ9-cnlBADQvOiOAri8rxzba6XG0rCck9BwHVCbzuJURaKVK5r4LZLimnJw2e7qHSfq6uYkFmWg81bWYWK5jQp6XILroiN6JysaRjViParunRSMuvK6mh54KoFuuq6K_2d8ofsa3Y2j_mxtTg/s320/20240901_102848.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBw69UlQithDIX-9ZPeC9dFXdb3M0KZ3VNOWNsJP5VluzZ9-cnlBADQvOiOAri8rxzba6XG0rCck9BwHVCbzuJURaKVK5r4LZLimnJw2e7qHSfq6uYkFmWg81bWYWK5jQp6XILroiN6JysaRjViParunRSMuvK6mh54KoFuuq6K_2d8ofsa3Y2j_mxtTg/s2037/20240901_102848.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691239/blogger-import/8176c8c06d740a6cece2.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691246/blogger-import/2091e98057b4206dc737.jpg)
 
 We made a stop here for the view and spotted a turtle crossing the road! We were always impressed with the way Table Mountain looms over us everywhere we go!
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfA9DP66gwBlVvotjtVE81yVxFtgAesVPdhblimemu8tbpL4iGiqRKpAHabyTC8xbRNJr92cD9m9rtUH2AQOMImHW6oOg8X_jD2f79r1Q7UnPJ_0c3qd3eb062YNZxW4zr_efQAMXFsI36FKsOG1QEEkeERwp7zpB8xiONHQ-UCvRx0EL7BF2MN8daWxw/s320/20240901_110057.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfA9DP66gwBlVvotjtVE81yVxFtgAesVPdhblimemu8tbpL4iGiqRKpAHabyTC8xbRNJr92cD9m9rtUH2AQOMImHW6oOg8X_jD2f79r1Q7UnPJ_0c3qd3eb062YNZxW4zr_efQAMXFsI36FKsOG1QEEkeERwp7zpB8xiONHQ-UCvRx0EL7BF2MN8daWxw/s4000/20240901_110057.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqVb0h5QlAd58I2N11_nM_pYS5CUqc-FEkfbGTwWjtHJP47ZmvL3xweQU5l2b6RaUdNuZBbVVhYwC3-GkamSSKIQxHTSKm1kdHxqqNkq3eInwCwakZ15perYuDyQ3MKEtbJxd8NqEZzyShpIQp1razBMSZvYwL0igbG9oX7yocrnEssmXb0gpg-YFG-Wg/s320/20240901_110329.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqVb0h5QlAd58I2N11_nM_pYS5CUqc-FEkfbGTwWjtHJP47ZmvL3xweQU5l2b6RaUdNuZBbVVhYwC3-GkamSSKIQxHTSKm1kdHxqqNkq3eInwCwakZ15perYuDyQ3MKEtbJxd8NqEZzyShpIQp1razBMSZvYwL0igbG9oX7yocrnEssmXb0gpg-YFG-Wg/s4000/20240901_110329.jpg)  
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691254/blogger-import/71557f77ec2f402e971a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691262/blogger-import/f445564ef344d9b7f7bf.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691270/blogger-import/415583a2945124418d2d.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691279/blogger-import/e1c44e2023601dd4db38.jpg)  
   
 
 
@@ -86,14 +86,14 @@ We learned about the separate meals offered to prisoners depending on race, thei
 
  
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8zwHVTaUG4DKW_W22D9IQ1trCecvF3EZhOKqOWiDtBRKyvtZm77aYKai660mAfk9rk9G6Cgw8SoZwt-Q8NozXWp2OxEDypcTfuEYtrBiA4lVDZlw9meHu5eTXLUptgQcRov3kn_B60bH3FWR1nrrlRJtj3KVq8UC3A-16FNpjovDZnEOzSpv3w-z1SsA/s320/20240901_114018.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8zwHVTaUG4DKW_W22D9IQ1trCecvF3EZhOKqOWiDtBRKyvtZm77aYKai660mAfk9rk9G6Cgw8SoZwt-Q8NozXWp2OxEDypcTfuEYtrBiA4lVDZlw9meHu5eTXLUptgQcRov3kn_B60bH3FWR1nrrlRJtj3KVq8UC3A-16FNpjovDZnEOzSpv3w-z1SsA/s4000/20240901_114018.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691289/blogger-import/18bc1ade98ec9745206f.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691298/blogger-import/9d9b19b454a1d3b2d1de.jpg)
 
 Here is the cell where Nelson Mandela was held during his time. We returned to the ferry a bit more humbled than before our arrival.
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGaMTQUB-GlV3ziNZeTU-zF6529GeO7uTCKk6exs39JNb4zUfW5ohcou3j78_GgmSbVc5YvShvrCIgi_grg-Js6BuFL4ufm1jRD2HjRLfnUTprbC4dl2uXLJVmtiq_YbXqnjnlsZ5AiWCK1f5qamzyViivgNLW-YSoeyAZFCEFomgbxanPE1OML4jYfy0/s320/20240901_130054.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGaMTQUB-GlV3ziNZeTU-zF6529GeO7uTCKk6exs39JNb4zUfW5ohcou3j78_GgmSbVc5YvShvrCIgi_grg-Js6BuFL4ufm1jRD2HjRLfnUTprbC4dl2uXLJVmtiq_YbXqnjnlsZ5AiWCK1f5qamzyViivgNLW-YSoeyAZFCEFomgbxanPE1OML4jYfy0/s3091/20240901_130054.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691308/blogger-import/24a8a9f1a994e4b31031.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691317/blogger-import/3532be0216092349cc12.jpg)
 
 Once back on land, we saw this cute fellow that was constructed as a reminder to not litter and the impact it has on the marine life.
 
@@ -102,7 +102,7 @@ Once back on land, we saw this cute fellow that was constructed as a reminder to
 
  
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_zCe6xxsxpEpcc5FuLJjcYiQGVWjdYe9n9x2IjqisvJeBJvM_tzQDibC1OHEXMCSkG2DoMMM2suP7OxO0r8QRWX8e1KDdNPta-csIMeC5eI2sJ2aV3SVqNzulECYYfnbkvmOLMH4m66Et1NtanegHToJLWRznCGdV-jgYdVMyB0RCO-PPoAOu9DAzhV8/s320/20240901_130149.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_zCe6xxsxpEpcc5FuLJjcYiQGVWjdYe9n9x2IjqisvJeBJvM_tzQDibC1OHEXMCSkG2DoMMM2suP7OxO0r8QRWX8e1KDdNPta-csIMeC5eI2sJ2aV3SVqNzulECYYfnbkvmOLMH4m66Et1NtanegHToJLWRznCGdV-jgYdVMyB0RCO-PPoAOu9DAzhV8/s4000/20240901_130149.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691329/blogger-import/bfcb1e7dff9376d04637.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691338/blogger-import/d1c2cbb74c213b866c85.jpg)
 
 I'm a sucker for these signs, I love seeing where we are in the world and day dreaming of where we might go next. Fascinatingly enough, we are closer to Antartica than we were to San Fransisco. Which might be obvious to you but never seemed possible for me.
 
@@ -111,14 +111,14 @@ I'm a sucker for these signs, I love seeing where we are in the world and day dr
 
  
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6ntWiUcQ7OVUxa1m9CGW64C7JeM4T0aS3X3XtgMlcOQf9357NlDcmBtP70Q2Pn2jdx1ViYlOdfguchDdJvXSJHtdmazxR8K1s-AlJFNurOgCJd7TJ9dVxCDL6WG6kZ1z06Ufj-d2VqpL7kEp0MToxqtcxytxGoZtQyTom0971X5qZCIT7bhIJzc995cs/s320/20240901_130603.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6ntWiUcQ7OVUxa1m9CGW64C7JeM4T0aS3X3XtgMlcOQf9357NlDcmBtP70Q2Pn2jdx1ViYlOdfguchDdJvXSJHtdmazxR8K1s-AlJFNurOgCJd7TJ9dVxCDL6WG6kZ1z06Ufj-d2VqpL7kEp0MToxqtcxytxGoZtQyTom0971X5qZCIT7bhIJzc995cs/s4000/20240901_130603.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691348/blogger-import/9b919dfdb61e60105138.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691356/blogger-import/1c358c614944e95fd160.jpg)
 
 We walked around the waterfront area in search for food and came across a dog adoption company where all the dogs were napping and I wondered how much it would cost to fly them all to Corvallis. We ate (not even worth mentioning the food) and headed to our second escape room! We immediately signed up for another after our previous one :)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ8Y0fTVJ5HJKEBVNpyDbLXu59GruAAQ_88XvN2yIv3eM7nVguuMbDkTJHsWAgHLbij05aLm1NfADa9GtXHj6rDMhztsRErdvUs48otBBATcB5OmYnshKjJjcSa08AjSRmqC61X_Bvx84Kxkv__NmxhNLX4WHU3BNstPeRH1N5BY_mHOuCFDb_vGpU0Os/s320/20240901_152819.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ8Y0fTVJ5HJKEBVNpyDbLXu59GruAAQ_88XvN2yIv3eM7nVguuMbDkTJHsWAgHLbij05aLm1NfADa9GtXHj6rDMhztsRErdvUs48otBBATcB5OmYnshKjJjcSa08AjSRmqC61X_Bvx84Kxkv__NmxhNLX4WHU3BNstPeRH1N5BY_mHOuCFDb_vGpU0Os/s4000/20240901_152819.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691362/blogger-import/2c683d31374549633cfa.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691371/blogger-import/92d794a883bd838707ee.jpg)
 
 This one was an old hotel theme and we had fun hunting for clues! It was much more suited to two players and we managed to escape with 10 minutes to spare.
 
@@ -127,7 +127,7 @@ This one was an old hotel theme and we had fun hunting for clues! It was much mo
 
  
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiE4sipCJSzyvcQT4nttdgl1OCDIDcuK-SOgmpuN4knnIIjBfC7AQlfmR1PxMbZH4-cD6d7ebUvJocz76ZdIYJZNsO-C9t6RR3Oq96OqaFE49DAroKxLjqa81LMjNoyAMCoQ1G-mGo-oCYs0bDbTBh1qxCqnpyLadL2cnc5sZXkQyA0ds5CVeB5hZoYM_E/s320/20240901_181600.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiE4sipCJSzyvcQT4nttdgl1OCDIDcuK-SOgmpuN4knnIIjBfC7AQlfmR1PxMbZH4-cD6d7ebUvJocz76ZdIYJZNsO-C9t6RR3Oq96OqaFE49DAroKxLjqa81LMjNoyAMCoQ1G-mGo-oCYs0bDbTBh1qxCqnpyLadL2cnc5sZXkQyA0ds5CVeB5hZoYM_E/s4000/20240901_181600.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691376/blogger-import/48c685cfe0686fcb29cd.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691386/blogger-import/0f759d52b1d4d5e2d134.jpg)
 
 Naturally, we scrounged up some gelato next! Mine was quite flavorful and I would rate it higher on the spectrum of gelato I've had. Mike says it was fine lol. I had milk tart and pancake flavors! Both new for me! Mike had toblerone and coffee.
 
@@ -136,6 +136,6 @@ Naturally, we scrounged up some gelato next! Mine was quite flavorful and I woul
 
  
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtwDNSc3-G22TWXeiQ-J9q7ucL5itKcqhpRDfOvxjNj5CHNyV9ZYC1fvn6b60Rxsb9lDxvfs_DGbNoxU3mEOP8eOcu6l_p7-YtisfSbwqFo_qpWDdF5QVO1a63aidozCEAs3-goCm2HA2ujS2ofVN3upA32DOONJFEM8OZei8sfZ8YWQVV11MiXDhn5E4/s320/20240901_194011.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtwDNSc3-G22TWXeiQ-J9q7ucL5itKcqhpRDfOvxjNj5CHNyV9ZYC1fvn6b60Rxsb9lDxvfs_DGbNoxU3mEOP8eOcu6l_p7-YtisfSbwqFo_qpWDdF5QVO1a63aidozCEAs3-goCm2HA2ujS2ofVN3upA32DOONJFEM8OZei8sfZ8YWQVV11MiXDhn5E4/s4000/20240901_194011.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691395/blogger-import/dad3e9fe0eb586ffbe88.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691404/blogger-import/c86c54fb45c071efbae5.jpg)
 
 Later that evening we enjoyed sushi, edamame, and beef noodles before the steam room and sauna again!

@@ -14,7 +14,7 @@ location:
 
 This morning we woke to the sound of pouring rain on our skylight windows! Absolutely loved this! The roll-back overings are made of metal so the rain melody was so pleasant. As we got ready for the day, this little stealth machine strutted towards me for morning pets. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju4LyDsht65_csrs3uUmQ8QA7J5R817n9eKbL5aibfPO1gl7KWWzY2PEKxAahRQbqbciZ19-1ed1f06dfOVrj_wWOuIg6YUM6syGCAybX0XSkQ95cmKAEqTZ9S3F00Wa5TYeS4HnsOOuHcx-nzcS1HOfUKu43lb0LlRP4MSLG4WUyqmwLFjYtF6lTDeBc/w150-h200/20230720_053817.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju4LyDsht65_csrs3uUmQ8QA7J5R817n9eKbL5aibfPO1gl7KWWzY2PEKxAahRQbqbciZ19-1ed1f06dfOVrj_wWOuIg6YUM6syGCAybX0XSkQ95cmKAEqTZ9S3F00Wa5TYeS4HnsOOuHcx-nzcS1HOfUKu43lb0LlRP4MSLG4WUyqmwLFjYtF6lTDeBc/s4000/20230720_053817.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682114/blogger-import/4c8d817628eaf3b662be.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682118/blogger-import/6719f4bde3977b861fae.jpg)
 
   
 
@@ -23,7 +23,7 @@ Heading out for the day, we learned that driving here can initially be very stre
 
 There is also something called the "Rettungsgasse" here which is their version of an emergency lane. The shoulders on the road are for broken down cars. So when the traffic slows, the law is that the very left lane gets as far to the left as they can and the second to left lane gets as far to the right as they can. This creates a middle space for any incoming emergency traffic. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwvtPS8tzFXa3tTEb3wwQzy1jUVt7aFoYa6yLSzeDeJ627ck5c9wjW8kH-mVlgtqCcI5-fuN5YdEjlNHI5MkYQBNxlOI883hOg3dq8LXUHyD0GiOWtlJBvaYnkkMdvayE1DNZoLmRzizpYMT9pBOQNqXWf5S3pKfvmv8nKXiLNe05xQnf-Sx2cJebl8js/w200-h150/20230721_155350-1.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwvtPS8tzFXa3tTEb3wwQzy1jUVt7aFoYa6yLSzeDeJ627ck5c9wjW8kH-mVlgtqCcI5-fuN5YdEjlNHI5MkYQBNxlOI883hOg3dq8LXUHyD0GiOWtlJBvaYnkkMdvayE1DNZoLmRzizpYMT9pBOQNqXWf5S3pKfvmv8nKXiLNe05xQnf-Sx2cJebl8js/s4000/20230721_155350-1.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682122/blogger-import/e4df6480c072556b424b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682132/blogger-import/daad6604987089b91977.jpg)
 
   
 
@@ -38,7 +38,7 @@ Other times there is odd structuring where it goes from 120km to 80 to 100 in th
 
 After a long drive, we made it into Stuttgart and began exploring the town. We started by spotting the Stiftskirche (a historic church with stained glass windows) and admired it as we strolled to the marketplace. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqenqgQ5qYcrOH4RiAoa8jHOqfFZ6N7xJpIksvJOiKvPOjFYBnVoUosF_g2RWqqK3tQFdyDVYd-dcw-c2UaDLxo2lli43zmwAPKDrSuzabeogXlFqethYeRWFYWAYUcBmMSDSxXzfrAixowxZA_aQ_BqwtnT0KaHOyqadnQit3_ktW_93ITNWwIOYP6bM/w150-h200/20230721_113040.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqenqgQ5qYcrOH4RiAoa8jHOqfFZ6N7xJpIksvJOiKvPOjFYBnVoUosF_g2RWqqK3tQFdyDVYd-dcw-c2UaDLxo2lli43zmwAPKDrSuzabeogXlFqethYeRWFYWAYUcBmMSDSxXzfrAixowxZA_aQ_BqwtnT0KaHOyqadnQit3_ktW_93ITNWwIOYP6bM/s4000/20230721_113040.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682141/blogger-import/8e55f45e7f7745888061.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682150/blogger-import/37f00eb03f29ec6c9350.jpg)
 
   
 
@@ -47,7 +47,7 @@ It was a beautiful day and there were lots of shops open. Parking was relatively
 
 We found the marketplace which is held in what looks like an old train station! It had the biggest loaf of bread we have ever seen!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqTRrPCjEdDzFb6iZ5T4rSBRmjj8JZm_h-QpRmOcy-gEhemDAMfciZhxIbVPT0rpWUz1H-38Vw6o14Ho_COa77aK8JQJlfRT0SKSMpysd-bn60C6HOQxk7kpiCBIBa6117s0dpQ_pIro7wkBVSmg-v4wTO6oiME5SoMLiwSX0aoiSkndUOjXhmlOj1zus/w150-h200/20230721_114131.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqTRrPCjEdDzFb6iZ5T4rSBRmjj8JZm_h-QpRmOcy-gEhemDAMfciZhxIbVPT0rpWUz1H-38Vw6o14Ho_COa77aK8JQJlfRT0SKSMpysd-bn60C6HOQxk7kpiCBIBa6117s0dpQ_pIro7wkBVSmg-v4wTO6oiME5SoMLiwSX0aoiSkndUOjXhmlOj1zus/s3952/20230721_114131.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilbh2zTIr5ibfIeMEYH5sMsVCY2KMZL8L5OWdFAmNAP8O03MP_DhiIv-Zshks-YZToOfWMkzdB7NyLNUGXw_jf3LdsXR1gXEd8QGiaszD9x39Bvt8WxiS_JSdv7BkFWHs9hoRIQ45tr7M8qkpQ8uRIdQMNcD0dqqfgQkDDnaUGRx4iwTINGBi90C3vcao/w200-h150/20230721_114410.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilbh2zTIr5ibfIeMEYH5sMsVCY2KMZL8L5OWdFAmNAP8O03MP_DhiIv-Zshks-YZToOfWMkzdB7NyLNUGXw_jf3LdsXR1gXEd8QGiaszD9x39Bvt8WxiS_JSdv7BkFWHs9hoRIQ45tr7M8qkpQ8uRIdQMNcD0dqqfgQkDDnaUGRx4iwTINGBi90C3vcao/s4000/20230721_114410.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682159/blogger-import/b2dfb6e8174672210b4f.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682168/blogger-import/fdfff4b2b0a343f7cf18.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682178/blogger-import/0eb1f625b3dcd77c455b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682186/blogger-import/0138cd365c179aca9cdf.jpg)
 
   
 
@@ -61,21 +61,21 @@ It was time to try a doner! Mike was eagerly waiting to try this so we can compa
 
 We found a bench and ate our doners and admired the view in this huge city park!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNd8wE6iMexZvCjxHgK7PJYYqG65NpNSOUNVEHu5zfXT5bPbvztYZ4Nxb0oDvbIFvbdVbWtw68cXKYWubWeUIF9rKrBNNLBbSuRZ2sks9jdNPGqJL8HUiERg5SeKLljrc1mY5-PplAQ5KTsL9jr94Is11TZ9T5e-cDntOdBvn6mXKNBLN-9vCPV2xhq9s/w200-h150/20230721_133942.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNd8wE6iMexZvCjxHgK7PJYYqG65NpNSOUNVEHu5zfXT5bPbvztYZ4Nxb0oDvbIFvbdVbWtw68cXKYWubWeUIF9rKrBNNLBbSuRZ2sks9jdNPGqJL8HUiERg5SeKLljrc1mY5-PplAQ5KTsL9jr94Is11TZ9T5e-cDntOdBvn6mXKNBLN-9vCPV2xhq9s/s4000/20230721_133942.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVZRP_87bQuzCfc2JmP8cVASZPMPI2zW8DUrrmq-kfNEwXL6cGbE8NouB4o4o51aYrW5t1dLlexYO5LuPl8wGnM7_akDQPtIR9IXm5tVxokRyILdf2QcP6IabmlTSFmTVNC8oPPg20e2knY4BDURlcqIObx23DsB5Qi7Fwa9ZQ1nhQYcvGswHooIhPcAQ/w200-h150/20230721_134111.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVZRP_87bQuzCfc2JmP8cVASZPMPI2zW8DUrrmq-kfNEwXL6cGbE8NouB4o4o51aYrW5t1dLlexYO5LuPl8wGnM7_akDQPtIR9IXm5tVxokRyILdf2QcP6IabmlTSFmTVNC8oPPg20e2knY4BDURlcqIObx23DsB5Qi7Fwa9ZQ1nhQYcvGswHooIhPcAQ/s3392/20230721_134111.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682193/blogger-import/9d4654900aee063994a2.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682200/blogger-import/275b07280d0b6b4416f3.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682211/blogger-import/5ef591a8f43a1ba8ab43.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682221/blogger-import/d5ab7337da1d571c3354.jpg)
 
   
 
 
 The food was really good! I could do with smaller pieces of veggies but beggers can't be choosers haha. It was a nice way to take a break because we were really tired! We had to get moving because it looked like a storm was rolling in!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih9r6TqnFfMTnB6IV5dkuurHPxfz6-L06Oev8iQCxeoJLFHWJzS7g909jyZN6cYOlV_PqrbxEFQ6ZCH5SjxP2BDGuY7vAWjqgHK0ulqA19ZaAFg4WFneJ3YCjb57dfrazGAW0ELUVAjUrMu6DHlg0QsqdliowGuhqKXrBoCDjhwmiUToFSeHXCJD3G8Po/w150-h200/20230721_135348.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih9r6TqnFfMTnB6IV5dkuurHPxfz6-L06Oev8iQCxeoJLFHWJzS7g909jyZN6cYOlV_PqrbxEFQ6ZCH5SjxP2BDGuY7vAWjqgHK0ulqA19ZaAFg4WFneJ3YCjb57dfrazGAW0ELUVAjUrMu6DHlg0QsqdliowGuhqKXrBoCDjhwmiUToFSeHXCJD3G8Po/s4000/20230721_135348.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682230/blogger-import/180ae93754ca33b2d0fb.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682239/blogger-import/3ac3a25766dd28acdaa9.jpg)
 
   
 
 
 We ended our day in Stuttgart by driving to the Birkenkopf which is a trailhead that leads to a hill stacked with rubble from WWII. The city was in ruins and the residents stacked all the rubble at the top of this hill.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4BX6DLHNCMpwdn7KQar0pXzJflVeqJJEDlJShSu24yhGbLC780VpbCLB71KR82_j3k4A8ZUEO7_3wwjn_ATH0Q-JANWIwyu4cFf7oHldFhme5ti67RYWM95T_qDZKK8vdDgz35lJWHz_PFZ1qND6y8dThQIrsqUOUB1wXmnGMimPIZsoFWWacWiE2jm4/w150-h200/20230721_142259.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4BX6DLHNCMpwdn7KQar0pXzJflVeqJJEDlJShSu24yhGbLC780VpbCLB71KR82_j3k4A8ZUEO7_3wwjn_ATH0Q-JANWIwyu4cFf7oHldFhme5ti67RYWM95T_qDZKK8vdDgz35lJWHz_PFZ1qND6y8dThQIrsqUOUB1wXmnGMimPIZsoFWWacWiE2jm4/s4000/20230721_142259.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiR0oWR-Juq2oap6zXT_afzbXvUUE-VTywvHSFpElfnB0kNMcWZGubOqMT6RgiS04YMCFvVzZAIeGd7hu0jVuyTI3eonu4N1BADBwn7QkJt3JEsdyRt5Ykahlcd_HqxC2BYkNDL3vvUmSKKE6XG6ZxR-SJaH3ggkXEuJ3wzjmQ_DLBnoqrsi9_7cquifNo/w200-h150/20230721_143500.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiR0oWR-Juq2oap6zXT_afzbXvUUE-VTywvHSFpElfnB0kNMcWZGubOqMT6RgiS04YMCFvVzZAIeGd7hu0jVuyTI3eonu4N1BADBwn7QkJt3JEsdyRt5Ykahlcd_HqxC2BYkNDL3vvUmSKKE6XG6ZxR-SJaH3ggkXEuJ3wzjmQ_DLBnoqrsi9_7cquifNo/s4000/20230721_143500.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpXBbPnvkpoG9ERfmQxNoNUZeXmFUgf8Ln4UQlXftAxm6pwUvCzVURKY6O89OzR_XiNtArkidwfZbIdiYjVuD0Xk5gkXgl_aFzlYyywTqvrOO9KZ5HpxHfVgza_T9PKiFI87ClwD2NLnyJqV6W8ZHarMHbYcF--KUHWAYpLb8k1hgSimcKzTAdN10Y3eI/w150-h200/20230721_143642.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpXBbPnvkpoG9ERfmQxNoNUZeXmFUgf8Ln4UQlXftAxm6pwUvCzVURKY6O89OzR_XiNtArkidwfZbIdiYjVuD0Xk5gkXgl_aFzlYyywTqvrOO9KZ5HpxHfVgza_T9PKiFI87ClwD2NLnyJqV6W8ZHarMHbYcF--KUHWAYpLb8k1hgSimcKzTAdN10Y3eI/s4000/20230721_143642.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682260/blogger-import/f298af214c6cbbb2aca8.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682270/blogger-import/f795c8b22132aa10d018.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682277/blogger-import/472dc0fba9e750e7a7a2.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682284/blogger-import/588edc7d5b46f27b10bb.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682291/blogger-import/cf798e78e69ac6d5c3c7.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682301/blogger-import/4f26f72cb42c56f77583.jpg)
 
   
 
@@ -98,7 +98,7 @@ We made it back in time to watch the storm while we ate on the balcony, shielded
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcjPZGbrDKQdE_FeQ5PH-G-cDj6GwqA9z8ljeN0L_uJbCRiTyPZyrc5DtrECAO0sPWZP5790q6gs5JIYUUeWApRWqm_KnGHYiWfHTvF3SLmo-YL1cIJT2CdzVBSN0p8qwgWaGyeVZSiNauNpcN4jGyI2rjwDSTFbO4mcItX6CwceLPL2a4sthqY1sZiFw/w200-h150/20230721_194611.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcjPZGbrDKQdE_FeQ5PH-G-cDj6GwqA9z8ljeN0L_uJbCRiTyPZyrc5DtrECAO0sPWZP5790q6gs5JIYUUeWApRWqm_KnGHYiWfHTvF3SLmo-YL1cIJT2CdzVBSN0p8qwgWaGyeVZSiNauNpcN4jGyI2rjwDSTFbO4mcItX6CwceLPL2a4sthqY1sZiFw/s4000/20230721_194611.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682320/blogger-import/2c7bfaf83ed53c28f1c1.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682329/blogger-import/b5388dd7e17bd47efc3d.jpg)
 
   
 
@@ -108,7 +108,7 @@ Others, not so much. 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmmrPx9stIu0DMAQXyAyq8CSahQgkqaxqnVALE3EU009JJDGfGa-4-FXX_HikQMasRy4IvHkB6OMMGlYmQ7xSc9qj9UP2luO7XeMoLrLkHH-RNYgNnNSuKHnS9hbhCeKTg5TuS00yIKuib2VcxsKDxu4DrX-YlQ4bifFoRD6kT88WPTwOjH-vQp4g2tG4/w150-h200/20230721_194920.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmmrPx9stIu0DMAQXyAyq8CSahQgkqaxqnVALE3EU009JJDGfGa-4-FXX_HikQMasRy4IvHkB6OMMGlYmQ7xSc9qj9UP2luO7XeMoLrLkHH-RNYgNnNSuKHnS9hbhCeKTg5TuS00yIKuib2VcxsKDxu4DrX-YlQ4bifFoRD6kT88WPTwOjH-vQp4g2tG4/s4000/20230721_194920.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682338/blogger-import/e02fa7c9adacf8d82831.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682347/blogger-import/ea5f0f38d3142d7ae837.jpg)
 
   
 
@@ -117,7 +117,7 @@ Overall, a very good day in Stuttgart! I got to experience those crazy storms I 
 
 Also saw something interesting at the reststop, this restroom is for urinals only!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipzpy-ZltjZRUvJ95sHkJEAi74s5FNwz_slIcuYKT_FN2-Rgs_gMTMYLV1h2O0pa1DuA4eIR7fTRVFgL60rtKvLh8aYrZHlnoQ7ZomJLZCOSRhlNkSPwcktHADhEhmHAQOWurzboFZFQHQGUGuqjRsajtct0TiYzzuTzZZbug1iy0O2HhSMErRHi_AglQ/w200-h150/20230721_151722.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipzpy-ZltjZRUvJ95sHkJEAi74s5FNwz_slIcuYKT_FN2-Rgs_gMTMYLV1h2O0pa1DuA4eIR7fTRVFgL60rtKvLh8aYrZHlnoQ7ZomJLZCOSRhlNkSPwcktHADhEhmHAQOWurzboFZFQHQGUGuqjRsajtct0TiYzzuTzZZbug1iy0O2HhSMErRHi_AglQ/s4000/20230721_151722.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682351/blogger-import/88c8a7562c571ee71ac3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785682356/blogger-import/b5de00c4241f5b406c08.jpg)
 
   
 

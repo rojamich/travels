@@ -14,7 +14,7 @@ location:
 
 After exploring the colosseum we headed across the street in search of the Roman Forum and Palatine Hill. Mike was so intrigued we went towards the Temple of Venus and Roma, first. However, we learned it was actually part of the Roman Forum. This turned out to be ENORMOUS! Thankfully Rick Steve had a tour because we would have had no idea what we were looking at. The signs there were fairly vague and not easily found. We sat by the entrance arch looking out over the forum, listening to its history, before embarking onto the stops it led us to.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEhbQnTCYNwUHpWrHnojNNi4fG-E08Ys4gHcd6vC4sqvlJ1ROal4IJKxaK3yDHbbXBn4E7SKoCT1p-9MjxDkYUq4GNjAkaBoniZ-2ckIcZnIr7HVY4NJemp8hc35H1BZONYQ-iIgJ9_SA5vzG1-FosT_6BHWczGfk3wlaHNTA1X-L8b-qZK7q_HQ_QiA=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEhbQnTCYNwUHpWrHnojNNi4fG-E08Ys4gHcd6vC4sqvlJ1ROal4IJKxaK3yDHbbXBn4E7SKoCT1p-9MjxDkYUq4GNjAkaBoniZ-2ckIcZnIr7HVY4NJemp8hc35H1BZONYQ-iIgJ9_SA5vzG1-FosT_6BHWczGfk3wlaHNTA1X-L8b-qZK7q_HQ_QiA=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675748/blogger-import/5aa69bc286193e4b8ca8.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675764/blogger-import/796e9bbb17b32436d9ea.jpg)
 
   
 
@@ -31,4 +31,4 @@ I was dead on my feet afterwards but grateful we hadn’t gone to lunch and come
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEh2Nbhfx2oRewfQkKXZm7srtTjc4JY-V_8cpBMFepngBeynDigiWagD6vKLI2fwvYOEDIUc7-gb1oHIhg8tEb3_wYCx6FsSNh-zYyg8gTVrXePXeUZAKPFTSaTd8WuMZIoz5NYG9HzVnevi82GADk0Ad0_2gZsplI39gmBshZ7pdd2LnxpNW8XaY-35=w288-h216)](https://blogger.googleusercontent.com/img/a/AVvXsEh2Nbhfx2oRewfQkKXZm7srtTjc4JY-V_8cpBMFepngBeynDigiWagD6vKLI2fwvYOEDIUc7-gb1oHIhg8tEb3_wYCx6FsSNh-zYyg8gTVrXePXeUZAKPFTSaTd8WuMZIoz5NYG9HzVnevi82GADk0Ad0_2gZsplI39gmBshZ7pdd2LnxpNW8XaY-35=s4032)[![](https://blogger.googleusercontent.com/img/a/AVvXsEj0AY2ymnoVreWFeSgfNkPwTzynDXpmrgNQtI6YXPXw3oRqTiniaCPsfykerp3A_FHbwvD6skIzA4R2kfOEAC9Ve72e3s_6IbhA8JzvNZUuvq4w1ucxG9BIvbw3eA-W2_BbKiQ0nB2p98rippSUWU-wmnLzNFK2OYcXwbUjeSLVD9uZ5aT-eKbj4rfI=w300-h225)](https://blogger.googleusercontent.com/img/a/AVvXsEj0AY2ymnoVreWFeSgfNkPwTzynDXpmrgNQtI6YXPXw3oRqTiniaCPsfykerp3A_FHbwvD6skIzA4R2kfOEAC9Ve72e3s_6IbhA8JzvNZUuvq4w1ucxG9BIvbw3eA-W2_BbKiQ0nB2p98rippSUWU-wmnLzNFK2OYcXwbUjeSLVD9uZ5aT-eKbj4rfI=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675769/blogger-import/c0fd0c9c92f1062ccfa4.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675803/blogger-import/ea99ac8010a8de6e28ab.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675807/blogger-import/e6e35d75d7b4cb8ffc6a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675840/blogger-import/34ddba801bd3d4a8d700.jpg)

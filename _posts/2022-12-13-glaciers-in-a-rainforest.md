@@ -14,14 +14,14 @@ location:
 
 We made the drive up to Fox Glacier which was a scenic easy three miles to get the privilege of seeing a glacier lodged in the mountain covered by rainforests!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj6Az9G8ZzUXC649v0VuDa0MFnsbZD9IXWxdazApm3Y30w6ejIYyeq9PcIyjcc2YF5SL8UkjxuWnZp4U_oARcH3yWFE1FhfFefAf11nXOu5lpL_yKzFhQMeZtzqyA5pJQEAp2o-dJBlEMA-yD-15epDImY-GdVQhXrYtE6eXHA6hhWNDErkCWjC_HQ4A/s320/20221205_085846.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj6Az9G8ZzUXC649v0VuDa0MFnsbZD9IXWxdazApm3Y30w6ejIYyeq9PcIyjcc2YF5SL8UkjxuWnZp4U_oARcH3yWFE1FhfFefAf11nXOu5lpL_yKzFhQMeZtzqyA5pJQEAp2o-dJBlEMA-yD-15epDImY-GdVQhXrYtE6eXHA6hhWNDErkCWjC_HQ4A/s4032/20221205_085846.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680955/blogger-import/bd0e90a5ddc152128767.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680971/blogger-import/d5ce106995bf8c890cb1.jpg)
 
   
 
 
 It was a quiet trail so early in the morning and we could see the parking lot filling up on our way past it later that afternoon. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilasHHV_bEt48zUmoR03sDKFHPJ4ngQUyLh6gvB2ECcCQXMGvL-jvBSIzM5bcuqTGcY32Vt3Zcq6ITTjNnQ9NRfzgNq_MCF8EHBONO8H0At5IBKKvxOporQfJX37g9PwPfUuaYdGffTLL_fMhxqvqRr5CbuLl8bB7j7Nc8hhZj84zMEtu1Rc6-3Fesjw/s320/20221205_092113.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilasHHV_bEt48zUmoR03sDKFHPJ4ngQUyLh6gvB2ECcCQXMGvL-jvBSIzM5bcuqTGcY32Vt3Zcq6ITTjNnQ9NRfzgNq_MCF8EHBONO8H0At5IBKKvxOporQfJX37g9PwPfUuaYdGffTLL_fMhxqvqRr5CbuLl8bB7j7Nc8hhZj84zMEtu1Rc6-3Fesjw/s4032/20221205_092113.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEAEytL9tmyzOqmkUdf0rHZTqKGqAX7v1a3QU7Y1L2he7SueU-ff22DWr9POXFzKmEOSVi0zx16HBNt4Ts6atQKFU5FQCI2XlZbGTlcc7Blb6PpUCP7-bxO0VM3e9ja6thVocE6sK63d0DZrdYnpNo7z8G1mkPL-AeFCOph_khOOpdHmEvOC52Z8NDMQ/s320/Screenshot_20221206-075602_Gallery.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEAEytL9tmyzOqmkUdf0rHZTqKGqAX7v1a3QU7Y1L2he7SueU-ff22DWr9POXFzKmEOSVi0zx16HBNt4Ts6atQKFU5FQCI2XlZbGTlcc7Blb6PpUCP7-bxO0VM3e9ja6thVocE6sK63d0DZrdYnpNo7z8G1mkPL-AeFCOph_khOOpdHmEvOC52Z8NDMQ/s1400/Screenshot_20221206-075602_Gallery.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680980/blogger-import/2693d520e335e533c334.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680989/blogger-import/f9b534c24c58ea5bdae5.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680995/blogger-import/fe5d2d6bfe98d4f3305c.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680999/blogger-import/4b8f5d760762a5925577.jpg)
 
   
 

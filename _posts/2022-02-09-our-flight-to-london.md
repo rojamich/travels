@@ -17,7 +17,7 @@ Our flight was roughly ten hours and painless! I was anticipating boredom and de
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEgp1D-90LnTQQCfWx1uUoZSONwxMUKWkk-qmvkFJVo0sq3XTx_CfIdjDeccPlC8YiaFFsNUOfRGSrdXfY9mgdMjQIITrcsNb6vFe1VrOC4lK0lqFmZPQqFhcMdN71tpuj6tGg9shsoNY2aReqpmnPCRz2pyFO8vb1KeyoFjTDW045A1ou9stIrBO1BE=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEgp1D-90LnTQQCfWx1uUoZSONwxMUKWkk-qmvkFJVo0sq3XTx_CfIdjDeccPlC8YiaFFsNUOfRGSrdXfY9mgdMjQIITrcsNb6vFe1VrOC4lK0lqFmZPQqFhcMdN71tpuj6tGg9shsoNY2aReqpmnPCRz2pyFO8vb1KeyoFjTDW045A1ou9stIrBO1BE=s3648)[![](https://blogger.googleusercontent.com/img/a/AVvXsEinIO51QqFmn9_Hp6-G6QbgvVBKFhUpmMno942Zw8Dt9O6MRS1OLVnV__6qgVGK2TBRQ1jOXFQZ1VtSOSQsCGeoA6pG17yMQpJtG5CXBXiVS3w1-bxgJYxDPs9plEicqiZjOjm6KaArCDiGKcA44wQpBacveFrI4CLK4IGRt-Eqh7PZ7nS0yQCSOaWi=w309-h232)](https://blogger.googleusercontent.com/img/a/AVvXsEinIO51QqFmn9_Hp6-G6QbgvVBKFhUpmMno942Zw8Dt9O6MRS1OLVnV__6qgVGK2TBRQ1jOXFQZ1VtSOSQsCGeoA6pG17yMQpJtG5CXBXiVS3w1-bxgJYxDPs9plEicqiZjOjm6KaArCDiGKcA44wQpBacveFrI4CLK4IGRt-Eqh7PZ7nS0yQCSOaWi=s3648)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785669883/blogger-import/c2b054fb0ef572785180.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785669892/blogger-import/b6a31b5b9f047ef7430b.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785669896/blogger-import/ad2d6d9315cb1cd814dc.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785669903/blogger-import/18ff98ae99f829c741fc.jpg)
 
   
   

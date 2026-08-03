@@ -20,12 +20,12 @@ Normally, long amounts of driving isn't my favorite but the scenery was rewardin
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-ZXvm47YhjCMOsQBZGTGvm383gRzf3DDVBWHcLEoCP9oqC84IhQdFhU8TsTTCj1skpAkSfuF9GOf8eBBCIGdv80qNRqmVxLj5ULzykTs0Rej5rP78UUk9OOHMCTnm4XL7ZMf0NmhKZ3iWbGNW9AqfadoW5DLCXbmhv98YX0VO6uNb1cEB4h_84g7lUg/s320/20221205_201311.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-ZXvm47YhjCMOsQBZGTGvm383gRzf3DDVBWHcLEoCP9oqC84IhQdFhU8TsTTCj1skpAkSfuF9GOf8eBBCIGdv80qNRqmVxLj5ULzykTs0Rej5rP78UUk9OOHMCTnm4XL7ZMf0NmhKZ3iWbGNW9AqfadoW5DLCXbmhv98YX0VO6uNb1cEB4h_84g7lUg/s3716/20221205_201311.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiloUTH6xRHPjRj88bPTNBGcLSjsMMWVe56h1oppZ4kXGD68LoYYxv8Pshnv1eTJvnsPl7fL9oxVTdIfpJjH5Iqi18pq3rSO61h6_UhcnxHQTwjwBmZg5FdWeIUW3-a3_-tyssCVdui8uFIYWH29hf7iD_oHsuv9UjPJQ1ZKLY3Vvmi6csYqsg9vDOM2w/s320/received_543619613956133.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiloUTH6xRHPjRj88bPTNBGcLSjsMMWVe56h1oppZ4kXGD68LoYYxv8Pshnv1eTJvnsPl7fL9oxVTdIfpJjH5Iqi18pq3rSO61h6_UhcnxHQTwjwBmZg5FdWeIUW3-a3_-tyssCVdui8uFIYWH29hf7iD_oHsuv9UjPJQ1ZKLY3Vvmi6csYqsg9vDOM2w/s2048/received_543619613956133.jpeg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785681034/blogger-import/8e30290d04e694ef6b2b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785681047/blogger-import/542ac954f6414090dfc7.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785681050/blogger-import/1f0c4041e7a904bd1eef.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785681053/blogger-import/4a7e37be527c042c045d.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkMRXQYxMVdlvWznufp3VdjOJEA9OXtgPgGgdrZW-d3XPBXmdk55M4CHfDkoUDRFzvRL7ltzgMxRCQO7nhMUraNBz_XZt0Aaq7KwbvZTu1xpmJfb73ZWtsm7UxKOBAibHlMsRo0nBOkOZTMdIXJeDc2yB2LcCvNtwZ_C1Aa3EPvkVV-ac9wuJuIRU_vw/s320/received_3487432288153056.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkMRXQYxMVdlvWznufp3VdjOJEA9OXtgPgGgdrZW-d3XPBXmdk55M4CHfDkoUDRFzvRL7ltzgMxRCQO7nhMUraNBz_XZt0Aaq7KwbvZTu1xpmJfb73ZWtsm7UxKOBAibHlMsRo0nBOkOZTMdIXJeDc2yB2LcCvNtwZ_C1Aa3EPvkVV-ac9wuJuIRU_vw/s2048/received_3487432288153056.jpeg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785681055/blogger-import/10b91b4a80f2ff46d0f1.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785681058/blogger-import/b89a88a1630ad858eefc.jpg)
 
   
 

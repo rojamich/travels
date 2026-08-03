@@ -18,9 +18,9 @@ When we arrived at the escape room I was in a pretty bad mood. I am grateful we 
 
 The décor of the actual rooms was beautiful though!
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEgRWlG6YEaLKnxNpobgr8PhyXHnt5Vvk9pJHIAFxoP6Hy5ImyN3Lq6Pn5pVW4HKKEoY-5wSy-wC8T3powzZEnoKMPox1Pf2UdwQ1sS0_k-JuQ_0Cqw_y2NDBeA0d4ec-vnYbcVNRqwqEmLxN4wNqI5Furlt9l3jFHOPDmOvO2LGIijSf3KCbmbMOOh0=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEgRWlG6YEaLKnxNpobgr8PhyXHnt5Vvk9pJHIAFxoP6Hy5ImyN3Lq6Pn5pVW4HKKEoY-5wSy-wC8T3powzZEnoKMPox1Pf2UdwQ1sS0_k-JuQ_0Cqw_y2NDBeA0d4ec-vnYbcVNRqwqEmLxN4wNqI5Furlt9l3jFHOPDmOvO2LGIijSf3KCbmbMOOh0=s4032)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgSnvl-8Kwvo3qLUAvwAf-CqaSWRtmBHqTXsmct-YLHWgmQC9OzGg1PC4BAxHS-U94iQD5IOPC_XMLrEb7cqbp-awUkqkQPyqlGLCreZOILWTh8I5czyVaVR41kh4dLfomKQDBlkHoAuoNcXxDWX0ved88kculdysX7vxVYRVngqrNXZ3_hUs9SaGj1=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEgSnvl-8Kwvo3qLUAvwAf-CqaSWRtmBHqTXsmct-YLHWgmQC9OzGg1PC4BAxHS-U94iQD5IOPC_XMLrEb7cqbp-awUkqkQPyqlGLCreZOILWTh8I5czyVaVR41kh4dLfomKQDBlkHoAuoNcXxDWX0ved88kculdysX7vxVYRVngqrNXZ3_hUs9SaGj1=s2016)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677157/blogger-import/b145a37c13a2c1bc3958.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677162/blogger-import/01bab0fd65cbea8740d5.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677179/blogger-import/2767c0d443d72db40574.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677182/blogger-import/6b4446896b5638b70ca6.jpg)
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEhx1QgKmpUlBSLIYXnpERbJduXmp64x6_GytXMKVJKb9AtWWsLGY_9g9vUCDy_3zrh86r3sfTxgiXjSo21C55buiqxM5TG05rk344ql8yAjzlkx0D9njUGD3QIVO2svwyOwMy9R6yzhETd-0HNC2G6aRmX-JVLrtGcXUNVXfPjnj52KgIE1UHWQqs7s=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEhx1QgKmpUlBSLIYXnpERbJduXmp64x6_GytXMKVJKb9AtWWsLGY_9g9vUCDy_3zrh86r3sfTxgiXjSo21C55buiqxM5TG05rk344ql8yAjzlkx0D9njUGD3QIVO2svwyOwMy9R6yzhETd-0HNC2G6aRmX-JVLrtGcXUNVXfPjnj52KgIE1UHWQqs7s=s2016)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677184/blogger-import/f6eeb1a0c87ab0c23c45.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677187/blogger-import/e5ab0d2c319abcc3f6f1.jpg)
 
   
 
@@ -30,7 +30,7 @@ We tried to rectify the day by having delicious pasta at That’s Amore! That ri
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEgsljme4qNPW8UxX94XoRh2R-LGiKnj_toFsU96O_rbpAiBPx86FUOvTEzUpFUR_tuKB4rnGba5J2ZhfqLvxu98ElH3dESOykeb8FWRn1JSJw_G1Mu9MZqvX72Ae3Z7KvW9rMe0FXULID9_UmY5G9JkJS83vBDNVXIlN9PvzLAlVGvxi6HDmJAXKR5W=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEgsljme4qNPW8UxX94XoRh2R-LGiKnj_toFsU96O_rbpAiBPx86FUOvTEzUpFUR_tuKB4rnGba5J2ZhfqLvxu98ElH3dESOykeb8FWRn1JSJw_G1Mu9MZqvX72Ae3Z7KvW9rMe0FXULID9_UmY5G9JkJS83vBDNVXIlN9PvzLAlVGvxi6HDmJAXKR5W=s2016)[![](https://blogger.googleusercontent.com/img/a/AVvXsEjgh7NT-xjWPBrX4WGbAlrRdGjXA87gtUSE1IOot4lnHGnjOlUCUTP1XC9OL8Ksr_ORzzdCyu_M84pE8PAqkgnBjR3r-o2GUpYa1jzsj1VbXsWxAHeWbZFhJQ-9CWG-b3pSIIf-Z-mYxq28yAWSGURFaeUKqQmlodYyVnvU27IZntDtxQXlIOJA4114=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEjgh7NT-xjWPBrX4WGbAlrRdGjXA87gtUSE1IOot4lnHGnjOlUCUTP1XC9OL8Ksr_ORzzdCyu_M84pE8PAqkgnBjR3r-o2GUpYa1jzsj1VbXsWxAHeWbZFhJQ-9CWG-b3pSIIf-Z-mYxq28yAWSGURFaeUKqQmlodYyVnvU27IZntDtxQXlIOJA4114=s4032)  
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677189/blogger-import/a6822ca7f5abee1e9c9b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677192/blogger-import/1644f66ef846b6bb7011.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677195/blogger-import/899db52d5898b4fd3434.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677198/blogger-import/cc7222279eec52bc5d47.jpg)  
   
 
 
@@ -39,7 +39,7 @@ We woke up the next morning and had some delicious pastries and Mike made me a t
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjKjODGAdYl6rxnTvjymh45Vq3_BYhHYyAAeoksQIzkknLwIy3Vc4gExwDiWIxgQ_0_5j461wwCMzD0ErjlgGcuaOXNElsx-y3PvPNRkGZHN_4gtUrI9ymIqyMvb01heUUK-09QCO0sZqmtwWwQmAkrrdAv5e52I4ZC27J_ukwEt5Cu1JLiYkOtiA5l=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEjKjODGAdYl6rxnTvjymh45Vq3_BYhHYyAAeoksQIzkknLwIy3Vc4gExwDiWIxgQ_0_5j461wwCMzD0ErjlgGcuaOXNElsx-y3PvPNRkGZHN_4gtUrI9ymIqyMvb01heUUK-09QCO0sZqmtwWwQmAkrrdAv5e52I4ZC27J_ukwEt5Cu1JLiYkOtiA5l=s2305)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677201/blogger-import/cbc0089d4da9de47cbea.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677205/blogger-import/fa8861d20765a2451ace.jpg)
 
   
 

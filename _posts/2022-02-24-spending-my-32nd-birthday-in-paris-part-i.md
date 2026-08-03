@@ -14,7 +14,7 @@ location:
 
 We slept in (Hallelujah) as our bodies were begging for some recovery after all the walking we have done thus far! Here I am eating the biggest Macaron I have ever seen in my life! Its raspberry                  flavored! Paris has made me fall in love with Raspberries and Hazelnuts!
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjVinRrT7X2HgX5eXDKFBq8CAUQBZQdlmQy_DoekWPmS049228YIUhW6dps4Bh5nF6pXwV4eiJ0ITF5OLWfocxNYDq-7bNvlXUbrUsZkUCzubR38gH4CIBbrMdZLH5M5lCBDC9AHVpczBu9LAKazNImmgUHtyhVgKw5b3byDD-QwjmtpPUbcBZId8OQ=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEjVinRrT7X2HgX5eXDKFBq8CAUQBZQdlmQy_DoekWPmS049228YIUhW6dps4Bh5nF6pXwV4eiJ0ITF5OLWfocxNYDq-7bNvlXUbrUsZkUCzubR38gH4CIBbrMdZLH5M5lCBDC9AHVpczBu9LAKazNImmgUHtyhVgKw5b3byDD-QwjmtpPUbcBZId8OQ=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785672543/blogger-import/0665f0731ab775bd5938.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785672559/blogger-import/b71bc23d4dca519c9461.jpg)
 
   
   
@@ -22,11 +22,11 @@ We slept in (Hallelujah) as our bodies were begging for some recovery after all 
 
 Our first scheduled appointment was 10am at Lock Academy Escape Room. That was the single most convincing escape room employee we have ever met! She was so into it (Even starting the game with a fake emergency phone call) and involved that we just had a blast! Our room was Mission Impossible style and truly the perfect room. I think it might be my favorite!
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjc74DMmRcOLs06wLDJ-KJIlVbfelKJEsmcE_NNsVpMrXM9KmDRB2dEJ5GpUyeTx21XPahtWLyIvg1p2bC9lMTGTMN_rdIOt3b3mErFnXYcEaiLjXmy218fGQA5JLy2p1EX_i10ONXkip7hG3ay6x9EwYr2_JMOcpivYJ7BCakbXRkRR1T8u6eEw5UB=w294-h220)](https://blogger.googleusercontent.com/img/a/AVvXsEjc74DMmRcOLs06wLDJ-KJIlVbfelKJEsmcE_NNsVpMrXM9KmDRB2dEJ5GpUyeTx21XPahtWLyIvg1p2bC9lMTGTMN_rdIOt3b3mErFnXYcEaiLjXmy218fGQA5JLy2p1EX_i10ONXkip7hG3ay6x9EwYr2_JMOcpivYJ7BCakbXRkRR1T8u6eEw5UB=s3648)[![](https://blogger.googleusercontent.com/img/a/AVvXsEiowCwGah4fEL67kDcaGv7hRIO6_BqW6BEDjx3KP4I9nBm-hYBZtylkcSuUKcJND1EwXFo2rgGXLmeT6Hs89VLu9gh2EJaL1gRgPL4xhXm2XTvoN4pQUwxGU0TpwMrwoqcV-5OoE2vMlZ7iiBS6PIMC1NKfb0Fq8FsC4v17ZbDJ8X9Qwc2CBx3Ae80j=w301-h226)](https://blogger.googleusercontent.com/img/a/AVvXsEiowCwGah4fEL67kDcaGv7hRIO6_BqW6BEDjx3KP4I9nBm-hYBZtylkcSuUKcJND1EwXFo2rgGXLmeT6Hs89VLu9gh2EJaL1gRgPL4xhXm2XTvoN4pQUwxGU0TpwMrwoqcV-5OoE2vMlZ7iiBS6PIMC1NKfb0Fq8FsC4v17ZbDJ8X9Qwc2CBx3Ae80j=s4000)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785672564/blogger-import/f9c36b5439c40ebf5091.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785672576/blogger-import/ab434fa05d2fca14434a.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785672584/blogger-import/7faaa902e5c1bcfbcf30.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674950/blogger-import/0e2926cf0dae11e9e0ec.jpg)
 
 We had lunch at an Italian place where Mike alleges to have had the best pasta of his life. I feel the same. The Ravioli was out of control good with the perfect toasted cheese!
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEgNoK7p9Kj7AnzBWB1lrdIFuPz75M4JRjyNg__qDMm9Zc6EHsy4o6w-UDgF4kLrWsmesFkk9AXkauyUgh3QYE2XTlQcpqtOM2nDUdnZ4I9qMssYIQooz1UFKwddRj8eVWfAyP1UWSf6uoOTD6Ya0x74BR6ToXlO55b10pJFhcX1VjUVkUVG2vcxDVNJ=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEgNoK7p9Kj7AnzBWB1lrdIFuPz75M4JRjyNg__qDMm9Zc6EHsy4o6w-UDgF4kLrWsmesFkk9AXkauyUgh3QYE2XTlQcpqtOM2nDUdnZ4I9qMssYIQooz1UFKwddRj8eVWfAyP1UWSf6uoOTD6Ya0x74BR6ToXlO55b10pJFhcX1VjUVkUVG2vcxDVNJ=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674955/blogger-import/2ae5a1865679b0f6a7e0.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674966/blogger-import/bd4df2d1dbb15326369f.jpg)
 
   
 
@@ -36,9 +36,9 @@ We had lunch at an Italian place where Mike alleges to have had the best pasta o
 
 That afternoon, we took a trip to the Catacombs of Paris where we learned about the mass grave that lay beneath the city. It was like the setting of a movie scene! Yep, those are all actual human bones with no protective layer or any barrier to stop people from touching them (Besides a sign asking to please not touch).
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjuaxSNDc6G9TXaN9v6WZ0Tsqoa76DbytUy9U045L5bc9n9uysDCvfRiq-sx0c6GxmN6vEvIvy73FwRYD6OnyrPMrMh2WLas3ftfelqTZy1VMDl0hrNz8U6-41JAb2fNLwOwcC0Kn6m5oLfPucub1T-fXuEFYSV4UjNgvJ_sKVW7CLe7LLPCPA6lamF=w224-h299)](https://blogger.googleusercontent.com/img/a/AVvXsEjuaxSNDc6G9TXaN9v6WZ0Tsqoa76DbytUy9U045L5bc9n9uysDCvfRiq-sx0c6GxmN6vEvIvy73FwRYD6OnyrPMrMh2WLas3ftfelqTZy1VMDl0hrNz8U6-41JAb2fNLwOwcC0Kn6m5oLfPucub1T-fXuEFYSV4UjNgvJ_sKVW7CLe7LLPCPA6lamF=s4032)[![](https://blogger.googleusercontent.com/img/a/AVvXsEjooijRet-UipPtlT1V4JTEDIQiA4ql9d5xjknOh7MK42wGp55J_4A7B0Nhhhj0HTjVgKV_NLM-mOL3hx7J-LE77qsFNGTR0ZNu9gNBHBsim_IVnT5eEA0jM1GlAwjScy59FCdW3d3YuZTb1ifmfaX4h__126zIYY_lDpz74feJrT0pJzv4O8tIyszz=w222-h296)](https://blogger.googleusercontent.com/img/a/AVvXsEjooijRet-UipPtlT1V4JTEDIQiA4ql9d5xjknOh7MK42wGp55J_4A7B0Nhhhj0HTjVgKV_NLM-mOL3hx7J-LE77qsFNGTR0ZNu9gNBHBsim_IVnT5eEA0jM1GlAwjScy59FCdW3d3YuZTb1ifmfaX4h__126zIYY_lDpz74feJrT0pJzv4O8tIyszz=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674970/blogger-import/20a4ccd3bbbb0d8b0f72.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674982/blogger-import/30d3313ea1deb51f1cf3.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674986/blogger-import/ec6ebdbb578f48d52717.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674997/blogger-import/b74b8a4f1f18a2e97782.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjCn_Q_nsnC_TsJnZt5a9003PXpEHATnj8ko3P9ZqgRs7jF7xsqsMxEcFp6wEPi5fJwUT_7X5RpOIlcmMbXEh2oZKMVZdEJok8il6xnTEeu5CeU1PewLpT9L7PqSGwBcOSDoQl0VhlhpKtC6oyuoROeSy8dHGPjARssVnmedoOyw1ett3zNAeDrjmIW=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEjCn_Q_nsnC_TsJnZt5a9003PXpEHATnj8ko3P9ZqgRs7jF7xsqsMxEcFp6wEPi5fJwUT_7X5RpOIlcmMbXEh2oZKMVZdEJok8il6xnTEeu5CeU1PewLpT9L7PqSGwBcOSDoQl0VhlhpKtC6oyuoROeSy8dHGPjARssVnmedoOyw1ett3zNAeDrjmIW=s2311)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675002/blogger-import/72859cdc05665b664019.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675013/blogger-import/01025f32828b223c262c.jpg)

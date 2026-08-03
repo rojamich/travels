@@ -14,39 +14,39 @@ location:
 
 The next morning we woke bright and early for our 6am pickup by the scuba staff at our hotel to head to dive near Simonstown! We were stoked to dive in another country and compare to our other experiences.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnM3md7gnYmlzUyt32ZUjSTfJU-np5ksRq8xIX69IDWRD3jka_vVWr0ac2y10vDZ-XuACkW9uxWsYSTavfjOc0xzVjXXk2GxXAtRXgkKmbVb4D20W46Ga92GL4USNYFJGPCIHWZFdBpAEftxhSeh8vNzohiMT-s3PmubG6JGsV8ZzTpbvIIRZHNY7nrKs/s320/20240831_071903.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnM3md7gnYmlzUyt32ZUjSTfJU-np5ksRq8xIX69IDWRD3jka_vVWr0ac2y10vDZ-XuACkW9uxWsYSTavfjOc0xzVjXXk2GxXAtRXgkKmbVb4D20W46Ga92GL4USNYFJGPCIHWZFdBpAEftxhSeh8vNzohiMT-s3PmubG6JGsV8ZzTpbvIIRZHNY7nrKs/s4000/20240831_071903.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691408/blogger-import/804d3a13c23f3f6e1bf4.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691413/blogger-import/aa4ffaf07f7033c3110c.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEie1ASKin1D1gUf5HprWVc9lZ10bTQTNk3iZpgifszvXN-u3gETlOS8IJ_-TOQ7MGnYuVeSSXqhnIwu03GMKNXviBzUo-0XsnoeQunUILSz8VYsuQAeRZpfOw7jlf-g5_h1nqQmn4M_OZBg8ZAJ8CvwQMRhWqtsnok4GedMfLCEU4w0ABpaAjoMqVNpa2M/s320/20240831_071943.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEie1ASKin1D1gUf5HprWVc9lZ10bTQTNk3iZpgifszvXN-u3gETlOS8IJ_-TOQ7MGnYuVeSSXqhnIwu03GMKNXviBzUo-0XsnoeQunUILSz8VYsuQAeRZpfOw7jlf-g5_h1nqQmn4M_OZBg8ZAJ8CvwQMRhWqtsnok4GedMfLCEU4w0ABpaAjoMqVNpa2M/s4000/20240831_071943.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691418/blogger-import/df184b1456568c03c15a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691428/blogger-import/ed0fe94467d7941ef0d3.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1xMr7zre4YTflYZBzhnKLXAWwLYQKZ3ipYMGo3J4HxtWOmrOZt3NejpNR_NOk3to2FT3dBKX_aEI5QZnVblrQOW18c3YUfuqCgHZ20EW59rM9gOF0N8SKFgWr7XpBkHiq1BwPbZSoBkOKWFIPvBLJIJ7PodpWlvnwRErLbNIo8Z4Atv7wcRZNuVj3gAI/s320/20240831_071950\(0\).jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1xMr7zre4YTflYZBzhnKLXAWwLYQKZ3ipYMGo3J4HxtWOmrOZt3NejpNR_NOk3to2FT3dBKX_aEI5QZnVblrQOW18c3YUfuqCgHZ20EW59rM9gOF0N8SKFgWr7XpBkHiq1BwPbZSoBkOKWFIPvBLJIJ7PodpWlvnwRErLbNIo8Z4Atv7wcRZNuVj3gAI/s4000/20240831_071950\(0\).jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691435/blogger-import/f9f1872dd16a56aa6186.jpg).jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691444/blogger-import/1c3bc1b39c4b568eca05.jpg).jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLA56lMfAF9Q8mu0z7sVW7Klx8mLMLdjColNPBVOUbevDQAYyNhmioIqVyKq8f7vQwWH_LOe65jrAhCbW_WMvWAJwz6RvnjxtfMzFrFg8MMBstSyxMR7jf2i2iS67JEZPu3G4tCVbb1g54uGpWf2W-LzgdnTQb9a_dWJ8rDvnkNTaKnagzl9VZ8UUTLUg/s320/20240831_071953.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLA56lMfAF9Q8mu0z7sVW7Klx8mLMLdjColNPBVOUbevDQAYyNhmioIqVyKq8f7vQwWH_LOe65jrAhCbW_WMvWAJwz6RvnjxtfMzFrFg8MMBstSyxMR7jf2i2iS67JEZPu3G4tCVbb1g54uGpWf2W-LzgdnTQb9a_dWJ8rDvnkNTaKnagzl9VZ8UUTLUg/s4000/20240831_071953.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691454/blogger-import/16d60c1a15c79635d2fc.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691463/blogger-import/1a777c37b7df3a9e6905.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH5lRuGfHn-MP6l2P2N31OE_ZWnnaZPlyhZGMW-KaEh9T5ikhE87zfqrcVfPsExfDWrF8rBHhyoWiLQYOunpBFccBL-wWtWOVjz_OvEz_P-XKNQh9HuU0fS1Y1ytqG4heBv8FXbIOlbJDGSl68rBcLXAAHkDiqxVXrThiFlMah3Z5nojWm9e0wC_0uEeI/s320/20240831_071859.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH5lRuGfHn-MP6l2P2N31OE_ZWnnaZPlyhZGMW-KaEh9T5ikhE87zfqrcVfPsExfDWrF8rBHhyoWiLQYOunpBFccBL-wWtWOVjz_OvEz_P-XKNQh9HuU0fS1Y1ytqG4heBv8FXbIOlbJDGSl68rBcLXAAHkDiqxVXrThiFlMah3Z5nojWm9e0wC_0uEeI/s4000/20240831_071859.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691471/blogger-import/d3cb45d306278f51daab.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691481/blogger-import/ae0a33b238f1d40e92b2.jpg)
 
 On our way into town, we were shocked to see the very baboons we had been warned about! Just walking down the street like an every day raccoon occurrence! Sitting on top of buildings, curiously peeking into cars, and watching the sunrise on the walls, it was certainly a sight to see.
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL4WGg8s-bsF3BCfro0K3foNapkDNLhrQc6BdafNb3Uku5PedKn0uXuPYA6z1L_f7Tv7YDEMB0wUXKhEZjhBXkgbcBII7nB91WvPB95BvGcYSlm2sftX4IOKeDfzkqkrxjM-JV4GMgKupsjf1ON6S9iaJGpRFn7IfIujGo52cKEjLuhHqarP7kkCX1wDY/s320/20240831_080440.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL4WGg8s-bsF3BCfro0K3foNapkDNLhrQc6BdafNb3Uku5PedKn0uXuPYA6z1L_f7Tv7YDEMB0wUXKhEZjhBXkgbcBII7nB91WvPB95BvGcYSlm2sftX4IOKeDfzkqkrxjM-JV4GMgKupsjf1ON6S9iaJGpRFn7IfIujGo52cKEjLuhHqarP7kkCX1wDY/s4000/20240831_080440.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691489/blogger-import/8d3417f4bf9a37608156.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691499/blogger-import/34e7c02d5e62feeb022f.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjN8wf7aigTnadOzBjTATLmldYRHys0B80mA6mAl65eC1h_grflH5uSBesn2uRU3JdeGJfonbLZ9xJPLGmZgMs32tf7ZOYA4zxPzaafrGPladzRmyBglkSkOb0sCtsMB0RMw7o3Pu4rgXcOYI8R9vlGr6QQLjBZuYZQSQZfTyNFLZWfausAErClMzHdUU0/s320/20240831_081218.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjN8wf7aigTnadOzBjTATLmldYRHys0B80mA6mAl65eC1h_grflH5uSBesn2uRU3JdeGJfonbLZ9xJPLGmZgMs32tf7ZOYA4zxPzaafrGPladzRmyBglkSkOb0sCtsMB0RMw7o3Pu4rgXcOYI8R9vlGr6QQLjBZuYZQSQZfTyNFLZWfausAErClMzHdUU0/s4000/20240831_081218.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEHcida-Nt6Kf25p959PfKb2yl9rs0l4pupIIeb1G3re4Mbj2TGD8uH1n0l5HoRINpkI4Q8Ciol6yoeEm3ZPPeOt2omiHNVS4bngQDj2xmTDajuHmm-y7xlNa3fvnUAJI_3EbcXjGVYfPfrOpXSOt7vW6lsPIoXRwYWeXxyqFTavxvjGO0HhUqHlyYMWo/s320/20240831_090522.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEHcida-Nt6Kf25p959PfKb2yl9rs0l4pupIIeb1G3re4Mbj2TGD8uH1n0l5HoRINpkI4Q8Ciol6yoeEm3ZPPeOt2omiHNVS4bngQDj2xmTDajuHmm-y7xlNa3fvnUAJI_3EbcXjGVYfPfrOpXSOt7vW6lsPIoXRwYWeXxyqFTavxvjGO0HhUqHlyYMWo/s4000/20240831_090522.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691508/blogger-import/6727cfa81c9d2c7b5d84.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691517/blogger-import/13400c71b9808b41bf45.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691531/blogger-import/8069ff601120d499a28c.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691551/blogger-import/1e3b72e062d4512af087.jpg)
 
 We were scheduled to do a refresher dive to go over some skills before diving again. The recommended dive requires a max of six months since you last dove and we had dove just over that in Costa Rica so we were grateful for the opportunity to get familiar with the gear again. 
 
@@ -68,7 +68,7 @@ Our group of 8 headed out on a tiny boat on what appeared to be calm water. As w
 
 We got to know our dive master Robyn on the journey out to sea and she was so much fun as well! Her and Taryn were a fabulous combo and eaisly my favorite dive guides thus far. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKKSKK4Lo42h-rL5OWoOS770Dyx5CaZqibLTpgc0v4o_2I588D433wepbnQhmqSFFIk14UwHpdt_j-ffmPjoA7ftZ-ieIof82pMZiEZwmB66wCtj3_5BQALz8KVO_J1zqqceaCxPQGVrkJcJZKAggxL5zl1wXHBTvz-_R10Q2mNvF1y4v5W69UNQkfn6Y/s320/20240831_150319.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKKSKK4Lo42h-rL5OWoOS770Dyx5CaZqibLTpgc0v4o_2I588D433wepbnQhmqSFFIk14UwHpdt_j-ffmPjoA7ftZ-ieIof82pMZiEZwmB66wCtj3_5BQALz8KVO_J1zqqceaCxPQGVrkJcJZKAggxL5zl1wXHBTvz-_R10Q2mNvF1y4v5W69UNQkfn6Y/s4000/20240831_150319.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691562/blogger-import/7600973203e7c3cf6eaa.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691570/blogger-import/3017a7d92fff60ef1c1c.jpg)
 
   
 
@@ -85,7 +85,7 @@ Robyn and Taryn chose a divesite closer to shore that offered more protection fr
 After stomach settling and warming up on land, we headed out to our second dive spot: Castle Rock. The current had worsened now in the afternoon and we, once again, descended as quickly as possible into a kelp forest - a first for Mike and I! I didn't expect much other than seeing some kelp but it was actually really magical looking (here is what a kelp forest looks [like](https://www.news.uct.ac.za/article/-2017-03-15-kelps-in-southern-africa-are-thriving-but-some-key-inhabitants-of-kelp-forests-are-not)). The current was so strong that we were immediately separated from the rest of the group (3 of us and the secondary dive master) and were tossed about. It was the most challenging dive we have ever experienced (roughly 25 dives prior to this). I had never been seasick underwater before, it was so rough. As we finally ascended, a seal circled us curiously and playfully and we were grateful to be rewarded that way!  
 More divers were seasick at the top and we were whisked back to land.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAiBTXpcA-JyidmgIDS-3zYIeur1Y3r-ikhxY4uxmncoYZigpRLgD9tL5G16iFATk6wMov_s90az21Vf1y8vSik6sIreXu679PyaEMoO-kKkNKvW7fjjtYOxvBnCW1_pC9cINahwxbLSoGjeH5u5miXIsQoaUWbymC9GVfhjN3XWf8dJCF99g0TFr94NI/s320/20240831_145949.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAiBTXpcA-JyidmgIDS-3zYIeur1Y3r-ikhxY4uxmncoYZigpRLgD9tL5G16iFATk6wMov_s90az21Vf1y8vSik6sIreXu679PyaEMoO-kKkNKvW7fjjtYOxvBnCW1_pC9cINahwxbLSoGjeH5u5miXIsQoaUWbymC9GVfhjN3XWf8dJCF99g0TFr94NI/s3888/20240831_145949.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691577/blogger-import/71bdd5b9148574dc61ca.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691586/blogger-import/388621429868b4c0eb74.jpg)
 
   
   

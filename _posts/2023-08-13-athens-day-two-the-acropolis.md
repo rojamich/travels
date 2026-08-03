@@ -20,7 +20,7 @@ We made it to the Acropolis entrance at about 730 Am and it opens at 8. We were 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtOAwr6OjS9Ioe5pjMKaMJNTylSCywwzCWXjVUM5mhqLrf688ucdX79hz4bxMwYNE3L09E1emN0FMOi0n3DaylASLFRn2_g_8LO21Lds_gqHhjmKeBxneICu4kB-VJkoQATUk2XdhJiL9ukZtFIehDge_RgVTwOxL2tQdkFeTbzov27KMrkjZgOWsd4ds/w150-h200/20230804_073012.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtOAwr6OjS9Ioe5pjMKaMJNTylSCywwzCWXjVUM5mhqLrf688ucdX79hz4bxMwYNE3L09E1emN0FMOi0n3DaylASLFRn2_g_8LO21Lds_gqHhjmKeBxneICu4kB-VJkoQATUk2XdhJiL9ukZtFIehDge_RgVTwOxL2tQdkFeTbzov27KMrkjZgOWsd4ds/s4000/20230804_073012.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfe10Ou5wGEnDR4RTRLDVoPBYGtTKSCFaK5ejdZJ-hhb0mgwYJyqvcQhdv8KtZpbRak2-u6YbAr5zUAQwdLWLFTlk2Tr7iQH2zcncW99pP2buOl0HE4xRmQwJhiu-eKikSMhTJdLxnzxdA1RbChcrH7n0z9ijZhlAxjySmmeyQqOblIBSneK0ZCpMdJlE/w200-h150/20230804_073557.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfe10Ou5wGEnDR4RTRLDVoPBYGtTKSCFaK5ejdZJ-hhb0mgwYJyqvcQhdv8KtZpbRak2-u6YbAr5zUAQwdLWLFTlk2Tr7iQH2zcncW99pP2buOl0HE4xRmQwJhiu-eKikSMhTJdLxnzxdA1RbChcrH7n0z9ijZhlAxjySmmeyQqOblIBSneK0ZCpMdJlE/s4000/20230804_073557.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686378/blogger-import/081457794d05dbff51a6.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686386/blogger-import/4e576f9e1a2cdf619f57.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686390/blogger-import/ede14978ae332c701861.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686394/blogger-import/9151f9e6f46fc1e43984.jpg)
 
   
 
@@ -30,14 +30,14 @@ We were puzzled by those who stood in line for tickets. You could get them onlin
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHfky4o5_Df_aZ6DBSrCKGtqqzB0okQNI6id_2NcYvaxa3ay1GEp5KVcLzPQ0W6IPxmASU1nSvah5dfQukLjhU0XBLzBN_OESgBuD2abNicz8VqxZpQaKv-5p4BFdXDgPYV0LSGenwouWMdBxtBa2p3M38NbBV6xLCfMQLUsPTscJdJXnPg8K8PKXCZGo/w150-h200/20230804_075625.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHfky4o5_Df_aZ6DBSrCKGtqqzB0okQNI6id_2NcYvaxa3ay1GEp5KVcLzPQ0W6IPxmASU1nSvah5dfQukLjhU0XBLzBN_OESgBuD2abNicz8VqxZpQaKv-5p4BFdXDgPYV0LSGenwouWMdBxtBa2p3M38NbBV6xLCfMQLUsPTscJdJXnPg8K8PKXCZGo/s4000/20230804_075625.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686399/blogger-import/b94fa651beabb625db38.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686403/blogger-import/5e70f28c5f03dc8c0f7c.jpg)
 
   
 
 
 It was finally time to enter and we started up our Rick Steve's tour.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijt4mTKAEr_Njm8BKkDQISSTDXpo9vOrJs-HztUAbZ0kece3irBIN5pqfP0bV3-eW4kUmV-_2X2QlfxrKoqzLANfaM-gMM82zMUpQrC_X7lvHcp96vlNMv38pMuA-tk41iloLLc7TNyRcGfe7-dNlqroYaWJLpHVJaPhGxJGzJv3xOE-RcMyRvTy6_25U/w200-h150/20230804_080219.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijt4mTKAEr_Njm8BKkDQISSTDXpo9vOrJs-HztUAbZ0kece3irBIN5pqfP0bV3-eW4kUmV-_2X2QlfxrKoqzLANfaM-gMM82zMUpQrC_X7lvHcp96vlNMv38pMuA-tk41iloLLc7TNyRcGfe7-dNlqroYaWJLpHVJaPhGxJGzJv3xOE-RcMyRvTy6_25U/s4000/20230804_080219.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686408/blogger-import/7af1725d3e6d071422b3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686413/blogger-import/fd3c80655d122e4e6d2b.jpg)
 
   
 
@@ -55,7 +55,7 @@ The Acropolis has been the "heart of Athens" since 7000BC! Filled with temples, 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihdvKueC7yvb4l3yeGtvK5hLXdVv-HMR2Bt7lMlJOviq7PV4jXUALTunqIBUyBs7QerK7Dw_QmP5kJLCyL8A58xeibKtNHLsd80QuKo04HZVayQd3bkQzJ7tSOB-QANjp_En4g4XirrJ9OZOq_Za3cHyOZ03AJaTX-pTZa8r0zYySpy-T0wHJ6_r5ym1U/w200-h150/20230804_090446.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihdvKueC7yvb4l3yeGtvK5hLXdVv-HMR2Bt7lMlJOviq7PV4jXUALTunqIBUyBs7QerK7Dw_QmP5kJLCyL8A58xeibKtNHLsd80QuKo04HZVayQd3bkQzJ7tSOB-QANjp_En4g4XirrJ9OZOq_Za3cHyOZ03AJaTX-pTZa8r0zYySpy-T0wHJ6_r5ym1U/s4000/20230804_090446.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686423/blogger-import/43704b89266df83f0f4f.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686431/blogger-import/e5e73ba7c2bf75b82f61.jpg)
 
   
 
@@ -64,7 +64,7 @@ The Propylaea is the entrance way to the Acropolis
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjArpEglgBw72XXtjDhzwy8R3SJG-TYXSh28lzaTfL8r3YHoTagMlR5k0GR1guNd1YVKoPmehMnZJWeTvDVcsXeWr0lNw9sKyU4R0f0gfKdgCdRIlvWkv5A2l9NpUbuAwI7xnFqQFBX7iMggs94Xv1DQqp6lTgkok_tY-LQ4aoJY44HWxWfU_Vzi30QBlU/w150-h200/20230804_081527.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjArpEglgBw72XXtjDhzwy8R3SJG-TYXSh28lzaTfL8r3YHoTagMlR5k0GR1guNd1YVKoPmehMnZJWeTvDVcsXeWr0lNw9sKyU4R0f0gfKdgCdRIlvWkv5A2l9NpUbuAwI7xnFqQFBX7iMggs94Xv1DQqp6lTgkok_tY-LQ4aoJY44HWxWfU_Vzi30QBlU/s4000/20230804_081527.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686438/blogger-import/ed38123d8e062abd6e5d.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686448/blogger-import/67dba3d30dd502092c21.jpg)
 
   
 
@@ -76,14 +76,14 @@ On the right of the entrance is a temple built to honor Athena Nike, worshipped 
 
  
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs4NEm-W834yIzd1xacxGAnQBDg-xJfBRwFTs339aHnNOqurjmlHGZGkw0soxuOh0wJW2z--EBCcSvxWeqRsYX7NsHXqG9Z64WVP5UOXrU1ZQzDxbwHCp1aLwld0K8Zph5QivqjwKDcYX2juI-NBkzIfHgdWJZ7wsVxSNAL8qD6Hk9rgzlSyLKg55UZUA/w200-h150/20230804_091327.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs4NEm-W834yIzd1xacxGAnQBDg-xJfBRwFTs339aHnNOqurjmlHGZGkw0soxuOh0wJW2z--EBCcSvxWeqRsYX7NsHXqG9Z64WVP5UOXrU1ZQzDxbwHCp1aLwld0K8Zph5QivqjwKDcYX2juI-NBkzIfHgdWJZ7wsVxSNAL8qD6Hk9rgzlSyLKg55UZUA/s4000/20230804_091327.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686452/blogger-import/7210d0ea9510fba5fcc5.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686457/blogger-import/96992c1f3b04b55cfbd7.jpg)
 
   
 
 
 Most of the statues originally seen on Acropolis are now safely housed in museums across the world to protect them after years of degredation. On the left of the entrance is the Monument of Agrippa. An empty pedestal. Each victor over Athens has placed their statue here. Marc Antony, General Agrippa, and Eumenes II / Attalus II.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE9m_QwVG1sjX-yYjfdaPUDtmny55cLnf1aNrz43PiCqm1IeSQ-OjK-Q6NZxnmxPzSfZo7zPxDOaMN01aQDrPD1HWN9ZpdE6Yk_RUTRlJAqA6neiX27veVShTI17piJyV7ojHmheDviMAPZDPt-F9hP__t49x-nQD_KqNjgQ08Nns0gn4F4IycRktN-bI/w150-h200/20230804_091337.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE9m_QwVG1sjX-yYjfdaPUDtmny55cLnf1aNrz43PiCqm1IeSQ-OjK-Q6NZxnmxPzSfZo7zPxDOaMN01aQDrPD1HWN9ZpdE6Yk_RUTRlJAqA6neiX27veVShTI17piJyV7ojHmheDviMAPZDPt-F9hP__t49x-nQD_KqNjgQ08Nns0gn4F4IycRktN-bI/s4000/20230804_091337.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686467/blogger-import/e12a1c0954bc9a907994.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686476/blogger-import/14cb4b8c833b478514a7.jpg)
 
   
 
@@ -97,7 +97,7 @@ In this field of rubble is where the 30 foot Athena statue once stood. Directly 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGbAViiCeUBYKK5gvi8r8129J-sg0qaERPAlhx_sNwGYoDPmuEhP-wqr6gYiM7Dwds4gMog6IUzA6YUrJpiIuj7lrTnYcas5cxrP2vp2z_VSO8T8Q1vE8H3Ll7GbfZJf0Hsx1j3_QdQqj86vnTOp_1J7KHwiVsK6ptlulEeIloBmvIpBxUfkBxtIAsXBI/w200-h150/20230804_082527.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGbAViiCeUBYKK5gvi8r8129J-sg0qaERPAlhx_sNwGYoDPmuEhP-wqr6gYiM7Dwds4gMog6IUzA6YUrJpiIuj7lrTnYcas5cxrP2vp2z_VSO8T8Q1vE8H3Ll7GbfZJf0Hsx1j3_QdQqj86vnTOp_1J7KHwiVsK6ptlulEeIloBmvIpBxUfkBxtIAsXBI/s4000/20230804_082527.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686486/blogger-import/a98317b87c9b433efb28.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686495/blogger-import/37d207a26aa3b073e6a8.jpg)
 
   
 
@@ -107,9 +107,9 @@ We took in the Parthenon from every side. It served as a place of worship to Ath
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoyp1XIho13miu3nyRoMcO4W9yNuHoH32raQAzN0rJd0Xs7nJOf3mOHw_FWwX_IObkj7e8lYce8zxGmPygZ70iqb9vebuTNJUkSkdZH3hCuUO_Lqcwgym1qTTqeyAHDf3R5JQ5UQrt1bJfUDb4dF9njprzVyhA9EJN_1UukblbKBXnppMjG4NkXVzj6tY/w200-h150/20230804_082448.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoyp1XIho13miu3nyRoMcO4W9yNuHoH32raQAzN0rJd0Xs7nJOf3mOHw_FWwX_IObkj7e8lYce8zxGmPygZ70iqb9vebuTNJUkSkdZH3hCuUO_Lqcwgym1qTTqeyAHDf3R5JQ5UQrt1bJfUDb4dF9njprzVyhA9EJN_1UukblbKBXnppMjG4NkXVzj6tY/s4000/20230804_082448.jpg) 
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686504/blogger-import/cbe54b3665e830c95d20.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686513/blogger-import/c7c25aabf95f64823b47.jpg) 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8-5zCJu236oYJF6jm5kCxInkbL8w-oRxY9JfyXQlL_WtFLxZgexWrePEVHBu1odjwxFkCC-5waMea3ylJG9fvLCJbOldzX6YuxVJ-teqLWmcG0QtIioyNZx30j_z0B9z6gd3B046LLhPhRQaVoyXqVxTSffvBmUqiQBD9lo_sZ_S_9Oyq2vyWPD0ztPo/w200-h150/20230804_090502.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8-5zCJu236oYJF6jm5kCxInkbL8w-oRxY9JfyXQlL_WtFLxZgexWrePEVHBu1odjwxFkCC-5waMea3ylJG9fvLCJbOldzX6YuxVJ-teqLWmcG0QtIioyNZx30j_z0B9z6gd3B046LLhPhRQaVoyXqVxTSffvBmUqiQBD9lo_sZ_S_9Oyq2vyWPD0ztPo/s4000/20230804_090502.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686522/blogger-import/403892c5031bdd659651.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686532/blogger-import/2e1b2794f671a7447af9.jpg)
 
   
 
@@ -123,7 +123,7 @@ You can see it best in this photo how the restoration process is going with brig
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO5QZIE7r1KQBzhBTzd556S6NTrUhdta8S_hYG3L_sP4wuc8Yi6FHtAQ6w8bn8qbDhi0ESJten6i7WXho4smkZGXaz4SDes2W8tWSibC7LK1WVzLXsm5rzDJViuVq7LT1EJs0-mNZi3IKd4Ozd73-sJI9bXtt5YuxjHr-VFosjmgwYOyW7FiRnYHwVFLo/w200-h150/20230804_083903.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO5QZIE7r1KQBzhBTzd556S6NTrUhdta8S_hYG3L_sP4wuc8Yi6FHtAQ6w8bn8qbDhi0ESJten6i7WXho4smkZGXaz4SDes2W8tWSibC7LK1WVzLXsm5rzDJViuVq7LT1EJs0-mNZi3IKd4Ozd73-sJI9bXtt5YuxjHr-VFosjmgwYOyW7FiRnYHwVFLo/s4000/20230804_083903.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686541/blogger-import/6c8bf9b3a0d9ee880e49.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686551/blogger-import/cdae0610300555313f57.jpg)
 
   
 
@@ -135,7 +135,7 @@ Our next audiotour spot took us to the Erechtheion which was the place where Ath
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4cU8UKOnyeqTWbvCpaRooNEBljLWLc8ZnqIsA9cmZA2hxl4eQckrIo4uX3PBvCVYq7tkF6BSZvPq87pCKaGVpfOSPYOJuh96iWjc5n-_WwjQAs7PKrsIphLmlKzP41V8Za6CQ-BfhvbQHBMRickUxJU8Yz36rr7FgjXXp1yvuEyyokofPxJdxkRgXVfM/w200-h150/20230804_084900.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4cU8UKOnyeqTWbvCpaRooNEBljLWLc8ZnqIsA9cmZA2hxl4eQckrIo4uX3PBvCVYq7tkF6BSZvPq87pCKaGVpfOSPYOJuh96iWjc5n-_WwjQAs7PKrsIphLmlKzP41V8Za6CQ-BfhvbQHBMRickUxJU8Yz36rr7FgjXXp1yvuEyyokofPxJdxkRgXVfM/s4000/20230804_084900.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686559/blogger-import/8a45fe37caa74b5fe2ba.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686568/blogger-import/40ab03ff5ffa9c46dd95.jpg)
 
   
 
@@ -152,7 +152,7 @@ Apparently, when Nazis occupied Athens, they confronted a Greek soldier and dema
   
 One month later, two teens scaled the wall here, removed the Nazi flag, and rehung the Greek flag, this plaque was constructed in their honor.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiz9c9lF-F3eitUtHPMIi1UJWLEHuah7BHRjFmT1RgrsaHmoVbJEOYMtGp2hXLvZup4UsIRPgE4Tuw3e3VDlnYyO8fU5_01mmXiFHEgZc_AjgXKcCaGqJYF9xcs3k668FZw1f2z-sVBOYnNnFKxvMHdrzWD93EnWEQC-ZrdNJMcD7r4AE_HKBdOkL03hNE/w200-h150/20230804_085642.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiz9c9lF-F3eitUtHPMIi1UJWLEHuah7BHRjFmT1RgrsaHmoVbJEOYMtGp2hXLvZup4UsIRPgE4Tuw3e3VDlnYyO8fU5_01mmXiFHEgZc_AjgXKcCaGqJYF9xcs3k668FZw1f2z-sVBOYnNnFKxvMHdrzWD93EnWEQC-ZrdNJMcD7r4AE_HKBdOkL03hNE/s4000/20230804_085642.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686577/blogger-import/b62cfff6224711cf9eaf.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686588/blogger-import/a7d6fa0242b111841904.jpg)
 
   
 That mountain in the distance marks the highest point in Athens. No, we didn't climb it!
@@ -160,24 +160,24 @@ That mountain in the distance marks the highest point in Athens. No, we didn't c
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1XyZvRAg4U0nDk5IeILCB_TQP0iu6AzrAfVzZeT9JnJnOfbjzEGzL5sBmuO3fDIR6xOXKrSy5o4VFunNLPcB3KLJB7Gmdp-veYAYrrjdVLBlroveNq6jP7lUKFy3cg0o9hHAy2j2_P9eYIUOhedXg9Ld1tIuErsbWr0rzo2bd8Zsa-t76r5r8NkdbImI/w200-h150/20230804_085558.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1XyZvRAg4U0nDk5IeILCB_TQP0iu6AzrAfVzZeT9JnJnOfbjzEGzL5sBmuO3fDIR6xOXKrSy5o4VFunNLPcB3KLJB7Gmdp-veYAYrrjdVLBlroveNq6jP7lUKFy3cg0o9hHAy2j2_P9eYIUOhedXg9Ld1tIuErsbWr0rzo2bd8Zsa-t76r5r8NkdbImI/s4000/20230804_085558.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686606/blogger-import/350a7f5ffbf90f490b0c.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686615/blogger-import/3c498a68d11675403ff2.jpg)
 
   
 
 
 The Acropolis museum across the street was constructed to be at eyelevel with the Acropolis and looks to me like a misshapen cake! Its the dark glass building in the middle of the photo. Our next stop took us there. The Acropolis was relatively packed but the museum was positively empty! And well airconditioned. We were able to see replicas, escavation, and the story of the birth of Athena.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzI4J8fZ0JmzH6m2y_zBFjzkBmTjvQVoxhV4rEs2McFe9SFe3Bo_ggoYlZs5F1IT7AfiArNVp5ihW_BLsvzqnDLsCZRX25c-Uum2Za-Kdcaqa9K2Prjuam2UWYJl4T7Ky_hjjiRKJaNgU67h-4k-I-bimgH6IdLVfVHUb3pMW52hyHlch3oinCdzMh-kw/w150-h200/20230804_092625.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzI4J8fZ0JmzH6m2y_zBFjzkBmTjvQVoxhV4rEs2McFe9SFe3Bo_ggoYlZs5F1IT7AfiArNVp5ihW_BLsvzqnDLsCZRX25c-Uum2Za-Kdcaqa9K2Prjuam2UWYJl4T7Ky_hjjiRKJaNgU67h-4k-I-bimgH6IdLVfVHUb3pMW52hyHlch3oinCdzMh-kw/s4000/20230804_092625.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpUr9oMHpa2dPP2H-mqBYOX8tPpFmLEFsDXG50lrzAfG9kVcd6Iysm93cBxhyRptN6-9Ty4QSweUrZPD26H0RCWQrsKlrMX_nJAZ8tbB6Tj-deT7fQQr8fvcd1_gx0ETfmBe1J5Z2qaOEJv67zzNCIQIjnH1F4Sg272QIHmmstn6oRY_LNSzLTRvtkgBo/w150-h200/20230804_092637.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpUr9oMHpa2dPP2H-mqBYOX8tPpFmLEFsDXG50lrzAfG9kVcd6Iysm93cBxhyRptN6-9Ty4QSweUrZPD26H0RCWQrsKlrMX_nJAZ8tbB6Tj-deT7fQQr8fvcd1_gx0ETfmBe1J5Z2qaOEJv67zzNCIQIjnH1F4Sg272QIHmmstn6oRY_LNSzLTRvtkgBo/s4000/20230804_092637.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686625/blogger-import/b2facc308c5e885f17aa.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686635/blogger-import/68232d98302b782c9b58.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686644/blogger-import/389c60c5233c2c5fe63c.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686654/blogger-import/b8dd478ca83a67a854af.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvqNajTrF889WQxF4OAEczMIPxYo8zXl7lODQaId47nTFpWru5hc0tkwlpFEBzvpJwpK69Jee6pLjD11wJPxiutkrQEDNP4oGOqRjJLD3fUkGk5S8OdIVBhMLdBnUo4KV4dXWYoPJGSIeeO2mSwKpKAVDqyvvkbMlNC57_DeF9uBBQQdpEso8q32G6jO4/w200-h150/20230804_094555.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvqNajTrF889WQxF4OAEczMIPxYo8zXl7lODQaId47nTFpWru5hc0tkwlpFEBzvpJwpK69Jee6pLjD11wJPxiutkrQEDNP4oGOqRjJLD3fUkGk5S8OdIVBhMLdBnUo4KV4dXWYoPJGSIeeO2mSwKpKAVDqyvvkbMlNC57_DeF9uBBQQdpEso8q32G6jO4/s3777/20230804_094555.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhRzDJhwWU9iPLSJnLobeSaPnmTFB77SwmKjTarsr-DMA5P8LHRtEYJILF5GOf2F6EMXpcjYe2oaY9bN3dsARlL_7Jfb7hxwhBY1qb7bHnqncFFdVKwMQCa2HqKeKXZ2-MA3_udZVT-U1oMAUdHk6ni5OePekdBcXxFSy4lyB6td-kY4iRTyK4sbevVd8/w200-h150/20230804_094600.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhRzDJhwWU9iPLSJnLobeSaPnmTFB77SwmKjTarsr-DMA5P8LHRtEYJILF5GOf2F6EMXpcjYe2oaY9bN3dsARlL_7Jfb7hxwhBY1qb7bHnqncFFdVKwMQCa2HqKeKXZ2-MA3_udZVT-U1oMAUdHk6ni5OePekdBcXxFSy4lyB6td-kY4iRTyK4sbevVd8/s4000/20230804_094600.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686663/blogger-import/955dcd3d36c81ed9b8aa.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686672/blogger-import/c7f57622377020fcd3cf.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686681/blogger-import/3e9011b35b0cc51bfcce.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686691/blogger-import/6705c92bb17ecb35c4d8.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyfmDbI-cjFfbZGhgxiPCOYWyQ1Y6NfIOOzGkEUG3OR0PjduobjTgCMXx82zRbXz5xb4CURkURv8pC9Fx0ZqSKKEhte2CLKo4b8rOIU8zPZFdw_9Gap1KVRgalRrTdYXHKCIa8fE0CJvH-pVXEvGuUozWoE-LyjdHflhy-mcz0hjYHNePzOU2lQcB19bE/s320/20230804_094837.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyfmDbI-cjFfbZGhgxiPCOYWyQ1Y6NfIOOzGkEUG3OR0PjduobjTgCMXx82zRbXz5xb4CURkURv8pC9Fx0ZqSKKEhte2CLKo4b8rOIU8zPZFdw_9Gap1KVRgalRrTdYXHKCIa8fE0CJvH-pVXEvGuUozWoE-LyjdHflhy-mcz0hjYHNePzOU2lQcB19bE/s4000/20230804_094837.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1SUMn-WjOjXMS0eXsOsjcn-565ZKxEtLxVJZpKjj1j0oiS1z8pfLHttW1jsZT1xrJeaFNxjNF9DcH6YzMOrmHIOpMP1S0tAEa4Le671LPeI6iP73pnZ8D8PZG3ZcFETRr-u1q7pa612fsXR7vISprYwphyNla9K8AquWREdWxc5DIl635R5tgKvrkWgI/w200-h150/20230804_171136.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1SUMn-WjOjXMS0eXsOsjcn-565ZKxEtLxVJZpKjj1j0oiS1z8pfLHttW1jsZT1xrJeaFNxjNF9DcH6YzMOrmHIOpMP1S0tAEa4Le671LPeI6iP73pnZ8D8PZG3ZcFETRr-u1q7pa612fsXR7vISprYwphyNla9K8AquWREdWxc5DIl635R5tgKvrkWgI/s4000/20230804_171136.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686700/blogger-import/cc4d91303b6106540a97.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686703/blogger-import/03ccaa7d993c2f382e1d.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686708/blogger-import/b53a837f47b1777492ca.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686719/blogger-import/e165a8f50a4a2fab4a12.jpg)
 
   
   
@@ -200,7 +200,7 @@ We FINALLY found an Athena statue here. Apparently, Athena loved snakes as they 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSUU1nz0ZhLeKZeQJ2pFyoX3eKusqh1hdl_Lv2XARgdY9AFGpHIMm0k7LR_NPDtk0XWI1DPk3ZYTshnzd8M0RtYZmOMI1tXP9k5iDI_-C6UAb1jtsepKp8ryZkfuJGHt1ml3W-BInhiQGkYt2dXeFn1yH_s8OgO9IKsKTgeOGK28nT6Y9WoggadRqypiI/w150-h200/20230804_174033.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSUU1nz0ZhLeKZeQJ2pFyoX3eKusqh1hdl_Lv2XARgdY9AFGpHIMm0k7LR_NPDtk0XWI1DPk3ZYTshnzd8M0RtYZmOMI1tXP9k5iDI_-C6UAb1jtsepKp8ryZkfuJGHt1ml3W-BInhiQGkYt2dXeFn1yH_s8OgO9IKsKTgeOGK28nT6Y9WoggadRqypiI/s4000/20230804_174033.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686725/blogger-import/43513e95b0c4bd270730.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686728/blogger-import/b8c3e798ffad6cde76a0.jpg)
 
   
 
@@ -210,7 +210,7 @@ After we admired the museum art and finished our audio tour, it was finally time
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcQoZg_ppNgBcjC0jVqFNj1H5jcEZaF8UrWNfdaQ97q4leahh-7qrvbICn4HEkRw44Ps66Oa4kh_kfw9vbY_Ii5ltd_YF5XqbskrZ4Mt5Lft3iU70ugMi6cqIN9OnIQPi1gYZeVHU_CY4zrPa8SrtOY6PbpisJBY_MydqexOd8VkBMbEMs6K9KfGB7feg/w200-h150/20230804_181952.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcQoZg_ppNgBcjC0jVqFNj1H5jcEZaF8UrWNfdaQ97q4leahh-7qrvbICn4HEkRw44Ps66Oa4kh_kfw9vbY_Ii5ltd_YF5XqbskrZ4Mt5Lft3iU70ugMi6cqIN9OnIQPi1gYZeVHU_CY4zrPa8SrtOY6PbpisJBY_MydqexOd8VkBMbEMs6K9KfGB7feg/s4000/20230804_181952.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686733/blogger-import/41ebfd2abfab39c8c1ba.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686742/blogger-import/bd7c05003249d52fd5b4.jpg)
 
   
 We headed back to the gyro spot near our hotel and were warmly greeted by the host and employees. When the host seated us, I used our newly learned Greek and he excitedly reacted all over again. He looked over at Mike as he walked away and said, "She was Greek, in another life!" I was honored!   

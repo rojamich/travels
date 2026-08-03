@@ -14,7 +14,7 @@ location:
 
 We were determined to see a Kiwi here so we stopped for the local zoo! It was huge! 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBeDC7ljN0IPLvt-rzsX7yBb3iidAa40RgSKEXrxf-91iEGLj7c0aq8zWsx3LWh4KeiPOzCz2NIN9f6HtYXPTglG8JwDSNvbE5b9yjAK5SDTlGe35CESiGa7vIqaUfvTtIDqsAIJqFSj1wXm_798TIxMClG9cV4jPhdj5UGhNEB-n0cq_Ey4Nal_lKzw/s320/20221119_123028.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBeDC7ljN0IPLvt-rzsX7yBb3iidAa40RgSKEXrxf-91iEGLj7c0aq8zWsx3LWh4KeiPOzCz2NIN9f6HtYXPTglG8JwDSNvbE5b9yjAK5SDTlGe35CESiGa7vIqaUfvTtIDqsAIJqFSj1wXm_798TIxMClG9cV4jPhdj5UGhNEB-n0cq_Ey4Nal_lKzw/s3321/20221119_123028.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679919/blogger-import/3136428b963868f3cf21.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679923/blogger-import/f741d7ae74be283cf927.jpg)
 
   
 
@@ -24,12 +24,12 @@ It was awesome that the animal enclosures were really open and big!
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHvP9E9IzRswnAIDNXSQC4_sTsM4aHTkCpxe602J2xIxb-Zqa0q5A59WKc_U8AuZ3J0Z3ab9f1fvz5Mu0McMyo2AASDysetU5CusewAqr7dpHFhoEOEuznC3ep3MvL353vzJGUGgwWQNySFHwPNPLpZDkI9m9r56vmbQrW13eRbKNFY6Or1Oqvs7E7kA/s320/20221119_123649.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHvP9E9IzRswnAIDNXSQC4_sTsM4aHTkCpxe602J2xIxb-Zqa0q5A59WKc_U8AuZ3J0Z3ab9f1fvz5Mu0McMyo2AASDysetU5CusewAqr7dpHFhoEOEuznC3ep3MvL353vzJGUGgwWQNySFHwPNPLpZDkI9m9r56vmbQrW13eRbKNFY6Or1Oqvs7E7kA/s4032/20221119_123649.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679928/blogger-import/ec8746c681074c8aec23.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679938/blogger-import/dae54dbb7c0ef429dff1.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfUpuZLYc5lIbhkZACizKLEwIrpq4HHaLI-0z7iANmooN9b__Dwr0FuMv-4xFu94lIaYLeDphn67pbcryeCcSB6OaMd3k-36NsmwsuwvcFf5UJdmoH8EnUpzpthgUGHtV8CnA_xvI9_4d-fZPJm6j-66YWFeBkGPNRCNSNi80AXOJS6brZRZBJeoncHg/s320/20221119_124734.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfUpuZLYc5lIbhkZACizKLEwIrpq4HHaLI-0z7iANmooN9b__Dwr0FuMv-4xFu94lIaYLeDphn67pbcryeCcSB6OaMd3k-36NsmwsuwvcFf5UJdmoH8EnUpzpthgUGHtV8CnA_xvI9_4d-fZPJm6j-66YWFeBkGPNRCNSNi80AXOJS6brZRZBJeoncHg/s1058/20221119_124734.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679948/blogger-import/757f4be47c9c4d4d6284.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679957/blogger-import/c609884da6323c45285a.jpg)
 
   
 
@@ -40,7 +40,7 @@ The kiwi exhibit was nocturnal so you had to let your eyes adjust when you walke
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYMpj2zwd_ofuUF6iHWTZKomgkQPFAl_PKb7qC0eCWgr4kjIxJvS40HfjmOZGE7gbMPysrPK8_hHuNK-QBacjY7O1BotKfyPOPgcXCnEZpGk5VwV0-9aZ0P8GK7YEWLgtNrzYX_OdM6j0kXDgwJ2frv7c-_-6-TBgQtvdjBZ137pqd4gQjguxIeBkH8A/s320/20221119_132335.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYMpj2zwd_ofuUF6iHWTZKomgkQPFAl_PKb7qC0eCWgr4kjIxJvS40HfjmOZGE7gbMPysrPK8_hHuNK-QBacjY7O1BotKfyPOPgcXCnEZpGk5VwV0-9aZ0P8GK7YEWLgtNrzYX_OdM6j0kXDgwJ2frv7c-_-6-TBgQtvdjBZ137pqd4gQjguxIeBkH8A/s3024/20221119_132335.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679961/blogger-import/5e9b08a89f9ee165b2b3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679965/blogger-import/903d408243836e511411.jpg)
 
   
 
@@ -51,4 +51,4 @@ Other highlights were the water dragons, otters, emus, and tortoises which were 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiF_VFGt7WNT6xgqv1VN1YY0Xuu9ZUDK7t_ACRmDVkRkWTM92tka1Hvbb9pJnMb8zXmb-pdrgsh2LnRfVXFIZqz80BJVeuxlsx-dWDqt3LN_Fvtq0UiZs8u4QOdUZtvIsf_mDYptXJDtwoxoNRi0DNHO-A-HTGP5JLniYQNMHkWJ8U_Ei8PbiBPyykFtw/s320/20221119_140908.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiF_VFGt7WNT6xgqv1VN1YY0Xuu9ZUDK7t_ACRmDVkRkWTM92tka1Hvbb9pJnMb8zXmb-pdrgsh2LnRfVXFIZqz80BJVeuxlsx-dWDqt3LN_Fvtq0UiZs8u4QOdUZtvIsf_mDYptXJDtwoxoNRi0DNHO-A-HTGP5JLniYQNMHkWJ8U_Ei8PbiBPyykFtw/s3227/20221119_140908.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679970/blogger-import/05cacc045071429c8593.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679979/blogger-import/4cfc127436961df0613d.jpg)

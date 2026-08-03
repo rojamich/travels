@@ -19,24 +19,24 @@ We got a precious tiny rental car which was great for these narrow lanes they ha
 
 I tried it one day and was thoroughly amused especially when changing gears with my left hand!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhr_t2jowP2wmCz-rfjqbc_MljvEVzBeFk1PZa2Bc4rZCN1Z6N9kqt24O7HXJx1H5XYHtu9QNZW9Unl2zKAU7xOWD333BPQRW8tmVRO1cUcySlXNtjnBdJRHlOwDEwpEeDaYkKx1-v_qE1RSUrOez9CoZWf-3i-4cLsDB0_aIKuWQNsHc75_gPy5Ib44A/s320/20221117_115700.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhr_t2jowP2wmCz-rfjqbc_MljvEVzBeFk1PZa2Bc4rZCN1Z6N9kqt24O7HXJx1H5XYHtu9QNZW9Unl2zKAU7xOWD333BPQRW8tmVRO1cUcySlXNtjnBdJRHlOwDEwpEeDaYkKx1-v_qE1RSUrOez9CoZWf-3i-4cLsDB0_aIKuWQNsHc75_gPy5Ib44A/s2944/20221117_115700.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679609/blogger-import/84919cfe479bcb5ac1f6.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679612/blogger-import/8b6d1189dd6576b4cb73.jpg)
 
   
 
 
 We explored a coastal, downtown area and headed to One Tree Hill which no longer has a tree. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiATWDsv3tjVEpvD69-oxi6d3GAYj-hiR0JrEV9CAasYEo4mS7Fow65omtIglA0SHR3AwwIbgY62HwbLs-MUp_RT-yEWiSTbprxf9CfHO8ctOVDG6uTIrJ1f4Sba7rRBPrmXT_qwjB8HqLXJEL50Y4dzWjLO73DIvcLB2oY5omp95LNU8KFqb54PJlRrw/s320/20221116_161105.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiATWDsv3tjVEpvD69-oxi6d3GAYj-hiR0JrEV9CAasYEo4mS7Fow65omtIglA0SHR3AwwIbgY62HwbLs-MUp_RT-yEWiSTbprxf9CfHO8ctOVDG6uTIrJ1f4Sba7rRBPrmXT_qwjB8HqLXJEL50Y4dzWjLO73DIvcLB2oY5omp95LNU8KFqb54PJlRrw/s4032/20221116_161105.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679617/blogger-import/f4ec43f9626843f389c0.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679621/blogger-import/46727b8497cf0c3842ff.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGCMuwRdmIrAzXt21u-NnF_cJbTrieGTetNteoHxWU0qtGmZIA4Pz7pI0aEG5E1DKca0QiFAMB23vHgQUJ1qf1xdLwexmlnoocQhYnZmFMJ0TKKZgQbaOT-41QHqMlmDqD9e2Z__-ITIDXZKjXfkuvz1dzGrkxJHUW0Li61xioc1_KUgLjuY5tPufwKQ/s320/20221116_161555.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGCMuwRdmIrAzXt21u-NnF_cJbTrieGTetNteoHxWU0qtGmZIA4Pz7pI0aEG5E1DKca0QiFAMB23vHgQUJ1qf1xdLwexmlnoocQhYnZmFMJ0TKKZgQbaOT-41QHqMlmDqD9e2Z__-ITIDXZKjXfkuvz1dzGrkxJHUW0Li61xioc1_KUgLjuY5tPufwKQ/s4032/20221116_161555.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679626/blogger-import/6c713f81fcfb754a718b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679631/blogger-import/2febbada3507f768f2f7.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9G79k6ajSezlux3k6jnT4cT-4E46s8M8F5V5BkIDXy2DgRTNG7JREkj9XJm33BecSJikvf9PG4-wkhb4u4TNnyg8ApAtoxxj5luZl7NP0vOrpXjbPR0mUzrK_Hrz48z-w6vMjh3CMyrPD-zwZlvy1yQhGAlIgR0zLTiyvurOIgR7GaMfdSNeR3sjjEQ/s320/20221116_161831.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9G79k6ajSezlux3k6jnT4cT-4E46s8M8F5V5BkIDXy2DgRTNG7JREkj9XJm33BecSJikvf9PG4-wkhb4u4TNnyg8ApAtoxxj5luZl7NP0vOrpXjbPR0mUzrK_Hrz48z-w6vMjh3CMyrPD-zwZlvy1yQhGAlIgR0zLTiyvurOIgR7GaMfdSNeR3sjjEQ/s4032/20221116_161831.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679636/blogger-import/2f1bd433a39aa623deb6.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679646/blogger-import/acde3c6a208575dce511.jpg)
 
   
 

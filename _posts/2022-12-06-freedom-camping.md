@@ -19,7 +19,7 @@ There are over 500 responsible freedom camping locations in New Zealand and free
 
 The nicest view we had for a campsite came from a free camping spot! 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5vCslqulIHzhMB6bPjPiQeRMOOf_wwmzD0RAUTCkDu05i-iF3eOqb7xE_OiXm9vAYjI0ri4vQD0-hWIYJCRa5XzJQxJ0LGb48g2bhtq7VqJz42q4JxKGh3ucPaAcoxPccxOlDQSjzoTTE9CwCQrhfUa02vT58uHxP5TpOYHDF8PNVvpn5IHMyuLMu6Q/s320/20221203_175925.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5vCslqulIHzhMB6bPjPiQeRMOOf_wwmzD0RAUTCkDu05i-iF3eOqb7xE_OiXm9vAYjI0ri4vQD0-hWIYJCRa5XzJQxJ0LGb48g2bhtq7VqJz42q4JxKGh3ucPaAcoxPccxOlDQSjzoTTE9CwCQrhfUa02vT58uHxP5TpOYHDF8PNVvpn5IHMyuLMu6Q/s4032/20221203_175925.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680888/blogger-import/afd8f672d9dbdfe085f2.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680895/blogger-import/467e2f9642196c83e409.jpg)
 
   
 

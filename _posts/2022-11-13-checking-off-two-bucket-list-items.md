@@ -18,14 +18,14 @@ We were able to see an Amsterdam Windmill ✅
 
 And a bike tour around Amsterdam ✅
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNA6IrmebnLBsdomG3XSRpORfEgltPmpgt58ghq7ENlFAMO2_htZvyDSBqC8O-Zp1AxaSuXTPSagD64xtaX8CqzUtWvmuuz7w7VrIWrpJI3maWZDEAk6y3tpSCLcH3CXZCIFDwrTb5TUvD7V_XomkQdfM-YpPqpZ5r_S04lQNX8wNTPsQHWeqPWgvG/s320/20220316_133728.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNA6IrmebnLBsdomG3XSRpORfEgltPmpgt58ghq7ENlFAMO2_htZvyDSBqC8O-Zp1AxaSuXTPSagD64xtaX8CqzUtWvmuuz7w7VrIWrpJI3maWZDEAk6y3tpSCLcH3CXZCIFDwrTb5TUvD7V_XomkQdfM-YpPqpZ5r_S04lQNX8wNTPsQHWeqPWgvG/s3648/20220316_133728.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqjWQha0d5DOGtWINzhwNyrVDmlKI7TZtCCy3HTr-f9zIAHlwyaC2IPx7sr6ckPHxb_CLNiCf5ulb5FUD7O4txiAj8Gs8IVA6U5PRbarn9FQqDcVo6_bxtbx1q7ioDZ6W1IsJ8CX2ppwXJJj5HL3CwieWmSmAAAcih2V5hK5zBX1CAipVvGKphBpm_/s320/20220316_135924.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqjWQha0d5DOGtWINzhwNyrVDmlKI7TZtCCy3HTr-f9zIAHlwyaC2IPx7sr6ckPHxb_CLNiCf5ulb5FUD7O4txiAj8Gs8IVA6U5PRbarn9FQqDcVo6_bxtbx1q7ioDZ6W1IsJ8CX2ppwXJJj5HL3CwieWmSmAAAcih2V5hK5zBX1CAipVvGKphBpm_/s4032/20220316_135924.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679474/blogger-import/6755024f7653e87198f6.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679477/blogger-import/17a12fac3d075c53dbdc.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679481/blogger-import/bb5ad65fabecc686cd48.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679486/blogger-import/c33459a8b6a5fd68721d.jpg)
 
 This is a 300-year-old windmill!
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRTidMXQsNp4mf0sGHAFszM-B63Msa6WdQHIbigu5-irHuODLszIhT7g0jHBD8gBtNZ5AaqXYLfvcGv_4X192Zh46KkmhzP_8fbIu-Tex3Y7Wx55-So4KgcYBjV9TiFnIkydRXgYx9CTi4ukVCd0n4gj4OVE0NDJpEZEkvzfFakr2mYyADDizHQd-3/s320/20220316_140245.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRTidMXQsNp4mf0sGHAFszM-B63Msa6WdQHIbigu5-irHuODLszIhT7g0jHBD8gBtNZ5AaqXYLfvcGv_4X192Zh46KkmhzP_8fbIu-Tex3Y7Wx55-So4KgcYBjV9TiFnIkydRXgYx9CTi4ukVCd0n4gj4OVE0NDJpEZEkvzfFakr2mYyADDizHQd-3/s3648/20220316_140245.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679490/blogger-import/a0983070eee1ca0c2ff1.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679494/blogger-import/52ebe74ec1096bf943c9.jpg)
 
   
 
@@ -35,4 +35,4 @@ We ended the day at the Body works museum where we were able to see actual parts
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhA3UYYF0OXeljCzUmVEECTF8I_ZLKGdBM4O7R6ro1zDqOwCFNrLrOzFvgnoLwm_9_3Lm6j4ePZVsCfGSuTjb9R1UL-XgSCXcCqpPGhprOOtmVnrb0ukR43d2IuxvyHq0PU7EMhuimgEhxlNTE0KameJGQF3mxhnpLaKKT--Byeu541766vmvu6GXm/s320/20220316_174959.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhA3UYYF0OXeljCzUmVEECTF8I_ZLKGdBM4O7R6ro1zDqOwCFNrLrOzFvgnoLwm_9_3Lm6j4ePZVsCfGSuTjb9R1UL-XgSCXcCqpPGhprOOtmVnrb0ukR43d2IuxvyHq0PU7EMhuimgEhxlNTE0KameJGQF3mxhnpLaKKT--Byeu541766vmvu6GXm/s4032/20220316_174959.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm49-87rcDCyyedvcuwNNMcYvwemc_iO5_vwu1mVgTqyQxE_Lu7KtjuqQGkBvn56BAgzj3-uLUmc978zM0wLzoEei-q7l7qWgBjpg9_KXYhCBoJUO_BWwZ_a2MA6ydlqoBQknXz_PsndLn2JJSp9JS6XHpXCrlzMISIO5-HDn55Sxgcxyq4xm1PcO_/s320/20220316_183629%20\(2\).jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm49-87rcDCyyedvcuwNNMcYvwemc_iO5_vwu1mVgTqyQxE_Lu7KtjuqQGkBvn56BAgzj3-uLUmc978zM0wLzoEei-q7l7qWgBjpg9_KXYhCBoJUO_BWwZ_a2MA6ydlqoBQknXz_PsndLn2JJSp9JS6XHpXCrlzMISIO5-HDn55Sxgcxyq4xm1PcO_/s3725/20220316_183629%20\(2\).jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679497/blogger-import/2b16af1d634e92e51f2b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679500/blogger-import/b1308a6a9b31ea52387c.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679503/blogger-import/ead347360d61ce19b45e.jpg).jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679506/blogger-import/9a7556897c3f3c347db1.jpg).jpg)

@@ -19,7 +19,7 @@ We found a chocolate place while walking around (I was still searching for a pas
 
 We ended a wonderful day of sightseeing with a lovely view of the lit-up castle from our AirBnB and doing some laundry. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOCjrLUuttsd9J56wkcJekHOaoAvVoU4UJZFlxzZZrZZZfC8qlKQVus6ZEgv6D37HfgIn9NghGv0nfjDQRTidwUJGIL1APt3FKF-DUGlbf-B8oLjzmEEDzTWeAo6fimjg1pggLMDB1RLyNSGVLVNveygPfqf100a34Fdood6_rcKeyqLDzJh1r5qpa/w307-h230/20220308_184001.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOCjrLUuttsd9J56wkcJekHOaoAvVoU4UJZFlxzZZrZZZfC8qlKQVus6ZEgv6D37HfgIn9NghGv0nfjDQRTidwUJGIL1APt3FKF-DUGlbf-B8oLjzmEEDzTWeAo6fimjg1pggLMDB1RLyNSGVLVNveygPfqf100a34Fdood6_rcKeyqLDzJh1r5qpa/s4032/20220308_184001.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsYVDIn6PrqG5471CphoY40ipMvuAGqllI2E0XhEgtlGY8e40uvgxoFQy8371Gji8-f-eP_-Et7TY-jyoUomhqZU7ZrwHn0eL46G_41lC9ZZdf8uKonclh4wMAiw71DCB5oAre5Kxy_PHS8S8aTqhy864V9u5El2QEtlvr1V_NwLgdQ3vgv2aAA1jE/w307-h230/20220308_184006.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsYVDIn6PrqG5471CphoY40ipMvuAGqllI2E0XhEgtlGY8e40uvgxoFQy8371Gji8-f-eP_-Et7TY-jyoUomhqZU7ZrwHn0eL46G_41lC9ZZdf8uKonclh4wMAiw71DCB5oAre5Kxy_PHS8S8aTqhy864V9u5El2QEtlvr1V_NwLgdQ3vgv2aAA1jE/s4032/20220308_184006.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785678996/blogger-import/959c8bbef146c6e09750.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679001/blogger-import/bd6eccdb8912c21b3372.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679015/blogger-import/5eee7127143f8f7ba512.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679025/blogger-import/74791d5d78124d531ea0.jpg)
 
   
 
@@ -34,4 +34,4 @@ Our first stop the next chilly morning was the Palace of Justice in Nuremburg. T
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicqKy9H6oRs6bPBVAtgaXnCSsFnAFMqfxCJhxh_XoJUElhX-w_4QQtZQXWhe5DzTo9RVDIEQkgCcuhGxxxTjPWafmAJJDH44EOxliMfJHB17p7YFfOc6-qf3y4hpP3ZQEgx4Muv_V5kbw3VCYN7MskwQaPGrW5AnAfJC8fP9S80Sa0uCrr-kXas_I7/w353-h265/20220309_104026.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicqKy9H6oRs6bPBVAtgaXnCSsFnAFMqfxCJhxh_XoJUElhX-w_4QQtZQXWhe5DzTo9RVDIEQkgCcuhGxxxTjPWafmAJJDH44EOxliMfJHB17p7YFfOc6-qf3y4hpP3ZQEgx4Muv_V5kbw3VCYN7MskwQaPGrW5AnAfJC8fP9S80Sa0uCrr-kXas_I7/s4032/20220309_104026.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679034/blogger-import/3f6e16c4c7b353015673.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679045/blogger-import/7d8a748381d12a6ef591.jpg)

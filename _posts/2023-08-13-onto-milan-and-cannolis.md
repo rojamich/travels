@@ -17,7 +17,7 @@ We were not necessarily excited for Milan but we were eager to see what it was a
   
 We woke naturally and I hit the gym it was another great workout and felt good to hit more muscles than just legs for the last week. Again, loved the artwork.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPDBsAlonnp7W0enjYDu_6pzgVqxD2ie381xBRCJhWCZ7Zys4EgkGlFozF3Ya8SSO68AKkdCnEkcF4DA-bHcfdUKVzqDqtEFGJSofuArPTitLAH1JBzNbTZoPdp6kAFHlVq0mTs5tQIO5fAJXSGIs1cu4www3f67X9xm8PO7EDhpaCkfSQ5JV5QBEMcWI/w150-h200/20230806_062940.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPDBsAlonnp7W0enjYDu_6pzgVqxD2ie381xBRCJhWCZ7Zys4EgkGlFozF3Ya8SSO68AKkdCnEkcF4DA-bHcfdUKVzqDqtEFGJSofuArPTitLAH1JBzNbTZoPdp6kAFHlVq0mTs5tQIO5fAJXSGIs1cu4www3f67X9xm8PO7EDhpaCkfSQ5JV5QBEMcWI/s4000/20230806_062940.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686754/blogger-import/771b0d1b4e9459f7e0cf.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686763/blogger-import/fca88e991fd1878c1734.jpg)
 
   
 
@@ -30,7 +30,7 @@ Breakfast was the typical delicious and we headed to the train station to get to
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKb4zU8ug15iG_DAueh9LnB2Klu6_hyPAZV6TKvB2hd_iuqzwN63hePSG8nwInCwhMwt8Ph73mFzcb4nKV0z57t7-qYq0niUHiqcmCPd7ysNyNfabd7UmasVoIy-Vt0QsI518yhq3xZ0RKjxLbwivkSF1AfdbiSolKb-J8udJgnjY0gbsad0j5QrdmITQ/w200-h150/20230806_080007.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKb4zU8ug15iG_DAueh9LnB2Klu6_hyPAZV6TKvB2hd_iuqzwN63hePSG8nwInCwhMwt8Ph73mFzcb4nKV0z57t7-qYq0niUHiqcmCPd7ysNyNfabd7UmasVoIy-Vt0QsI518yhq3xZ0RKjxLbwivkSF1AfdbiSolKb-J8udJgnjY0gbsad0j5QrdmITQ/s4000/20230806_080007.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686774/blogger-import/57ba1d1a41196f0e8291.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686783/blogger-import/97436269a4828b91023c.jpg)
 
   
   
@@ -41,7 +41,7 @@ We also got to try the last Greek food we needed before leaving, Loukoumades! I
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI6jnusff9ue2Iu1qsPQMiEVpTy-g6FSf0f23d70elYeqxPhFQXmFLn0wMVzFYqNXontxtd2NJPC9fInREpskROA1YFKgiO4RMKcwEo7vVaHEWM5Wf0dNZV6mK0_J8RTEDMznqvjW1mI4NxbxfJwDUr2Y0JQ7rXvKmdDVBxMSlsWv7UJaO1TNOpVZ1gQc/w200-h150/20230806_080212.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI6jnusff9ue2Iu1qsPQMiEVpTy-g6FSf0f23d70elYeqxPhFQXmFLn0wMVzFYqNXontxtd2NJPC9fInREpskROA1YFKgiO4RMKcwEo7vVaHEWM5Wf0dNZV6mK0_J8RTEDMznqvjW1mI4NxbxfJwDUr2Y0JQ7rXvKmdDVBxMSlsWv7UJaO1TNOpVZ1gQc/s4000/20230806_080212.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686790/blogger-import/166b15b92b7e779c9ea1.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686798/blogger-import/477b23b82ffdd1d7ca2c.jpg)
 
   
 
@@ -49,7 +49,7 @@ We also got to try the last Greek food we needed before leaving, Loukoumades! I
 Mike strategically maneuvered us into a position to get a seat on the crowded metro and we relaxed.   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3STmn5XyFXbaEXtb7aPtivHKqd6P__8lWzPv6D2tx0EhfhTyvp5OLmmbLtckwWijXJ4jH_Fw_EG48ejJLDVCmK5S7CHh2QAP03uFJEn0C6qAkVDx6mtq2MwK760jGAgTmy2XMOV8ABqC6z2ZJIQc--2H_b9GmXGOC3pa5NqXNMVMymrFUHrC9XjQPgbE/w150-h200/20230806_083758.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3STmn5XyFXbaEXtb7aPtivHKqd6P__8lWzPv6D2tx0EhfhTyvp5OLmmbLtckwWijXJ4jH_Fw_EG48ejJLDVCmK5S7CHh2QAP03uFJEn0C6qAkVDx6mtq2MwK760jGAgTmy2XMOV8ABqC6z2ZJIQc--2H_b9GmXGOC3pa5NqXNMVMymrFUHrC9XjQPgbE/s4000/20230806_083758.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686805/blogger-import/d508347d78ef163f0c1a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686814/blogger-import/33ca6feea8426868135b.jpg)
 
   
 
@@ -65,7 +65,7 @@ The views from the flight were amazing
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhE3lwbVWmRfe3MQsNj4sSPd0QZ4xhq7GZLVAbYEAmGVf2G4uLfL_QQ0bFrlWnZqweFscTtDccKOfeZTrklDXl9YhKyoYi08qGKx4qcmdBLkDtQxG_wDslxZeRsMT96fDeZ5Z1nvgZYf-eGntdkmKHf7MpI67I_azXKc1pJCshmxte8mrnfr43bh192heE/w150-h200/20230806_130637.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhE3lwbVWmRfe3MQsNj4sSPd0QZ4xhq7GZLVAbYEAmGVf2G4uLfL_QQ0bFrlWnZqweFscTtDccKOfeZTrklDXl9YhKyoYi08qGKx4qcmdBLkDtQxG_wDslxZeRsMT96fDeZ5Z1nvgZYf-eGntdkmKHf7MpI67I_azXKc1pJCshmxte8mrnfr43bh192heE/s3987/20230806_130637.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686817/blogger-import/d4559caea9c75f4e5ad2.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686821/blogger-import/8168b1d99d157719b444.jpg)
 
   
 
@@ -87,7 +87,7 @@ I had no way to contact him to let him know how close we were to the apartment s
   
  
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhK5CZPINuhAkdJqThBlvxwqtatzmiyPoSYokH85pcTaAAYb62pycrl7ORCd74ArvLzh-todftpUx0n4Tx1kHi5MRTzzy3VCG4-SBQ3DO3H_juG19nmuwb2f7bKixPqOxYwIjei3MN8wY5RRkOenXZNyy4QC7LW1bol8HBxxuXwNQl6i5rBeeYggTnyP0s/w168-h200/20230806_153148.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhK5CZPINuhAkdJqThBlvxwqtatzmiyPoSYokH85pcTaAAYb62pycrl7ORCd74ArvLzh-todftpUx0n4Tx1kHi5MRTzzy3VCG4-SBQ3DO3H_juG19nmuwb2f7bKixPqOxYwIjei3MN8wY5RRkOenXZNyy4QC7LW1bol8HBxxuXwNQl6i5rBeeYggTnyP0s/s2481/20230806_153148.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686825/blogger-import/1d0686ba881dce655751.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686828/blogger-import/602f76ff20b380bf6105.jpg)
 
   
 
@@ -97,7 +97,7 @@ We took the elevator (this is very uncommon in older Italian buildings) and I wa
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsgWz1ngn-a3I1ErWdkUJYdpz0t8MC3iAnUFwAj7pcOZUQ3Tym4KB-Pzds1T_fJTCWatO5k82WJIrWZSSBr6lmbFnrIiF1bdi4DsVY4-UZll1zlZ5qS4PmcK79ekY0YknSeaSBq3803CmJuqpWR0e_QPTpuCm7ScBnrw9nsQjRiiCd8YmzPPRHSqRTHCc/w150-h200/20230806_162152.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsgWz1ngn-a3I1ErWdkUJYdpz0t8MC3iAnUFwAj7pcOZUQ3Tym4KB-Pzds1T_fJTCWatO5k82WJIrWZSSBr6lmbFnrIiF1bdi4DsVY4-UZll1zlZ5qS4PmcK79ekY0YknSeaSBq3803CmJuqpWR0e_QPTpuCm7ScBnrw9nsQjRiiCd8YmzPPRHSqRTHCc/s4000/20230806_162152.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686833/blogger-import/d6b22d0e5b3e53ad049c.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686837/blogger-import/365559bc663bedf5a89a.jpg)
 
   
 
@@ -113,7 +113,7 @@ On the way to dinner, we saw these apartment buildings listed on Atlas Obscura
 
  
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0aVltC9iOiNW9vc38qKBE4EOS1SVBKElueuqkwuhNy6n3NLJYgFtLVCaxKUPbyh3-WFb52k3BEX28Tg4fsgS74kePgEDOZtLndB1ji-1-HgYvoWeSJjmq8Q4q8RIyWe6GgKv97RhnVm2nzB7ARL4fVPOwaptKW-c73GJt5LbhYBR3Fy7C-AUokslG5yU/w177-h200/20230806_163049.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0aVltC9iOiNW9vc38qKBE4EOS1SVBKElueuqkwuhNy6n3NLJYgFtLVCaxKUPbyh3-WFb52k3BEX28Tg4fsgS74kePgEDOZtLndB1ji-1-HgYvoWeSJjmq8Q4q8RIyWe6GgKv97RhnVm2nzB7ARL4fVPOwaptKW-c73GJt5LbhYBR3Fy7C-AUokslG5yU/s3398/20230806_163049.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686840/blogger-import/76d79afc61e97fdf0017.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686844/blogger-import/0516211e8b95fe366523.jpg)
 
   
 
@@ -126,7 +126,7 @@ These are a few more sights on our walk to dinner.
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSb0CmbsTIYzThjyqHJllkSuU-d1OjXEbcLeFJbw-wdlA0tzn4HFmLi46uLN2hResJJ2CTUssk0Nvl6CSw-27ZwI4pcUzU9z7VBgMNMB4Ki2LknK9vNgiU6XEyEwttGSTRPRilvHdAc6r1VHpJ1fvsmu5gQ6qYK7vUJ2l7l4LpnQ4x-vHn7E8MGzLozFw/w191-h200/20230806_163033.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSb0CmbsTIYzThjyqHJllkSuU-d1OjXEbcLeFJbw-wdlA0tzn4HFmLi46uLN2hResJJ2CTUssk0Nvl6CSw-27ZwI4pcUzU9z7VBgMNMB4Ki2LknK9vNgiU6XEyEwttGSTRPRilvHdAc6r1VHpJ1fvsmu5gQ6qYK7vUJ2l7l4LpnQ4x-vHn7E8MGzLozFw/s3144/20230806_163033.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiddcpnSNHvkHMLE-bPvQ6LaaUHTGGlA1g3tmjxJIee5T4oRNTGznvz6pOWozJXimIkvqbiAJr9UkGunYKR68163GNwHs3WEimPgMrzbNuQKfI5PRtZEIb_wGaUamhi9FxhX5ciqFmdG7pytx4t1QDfVSU6qdl5s49lsyAX0MOqeRE3nZ7l7CppdIx9eZk/w200-h150/20230806_175929.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiddcpnSNHvkHMLE-bPvQ6LaaUHTGGlA1g3tmjxJIee5T4oRNTGznvz6pOWozJXimIkvqbiAJr9UkGunYKR68163GNwHs3WEimPgMrzbNuQKfI5PRtZEIb_wGaUamhi9FxhX5ciqFmdG7pytx4t1QDfVSU6qdl5s49lsyAX0MOqeRE3nZ7l7CppdIx9eZk/s4000/20230806_175929.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_N8A6DVVg63BGhgIjRwFiQta-YYnTB6jEc91uV0Gk5mwg8pUA9cqePSHPHB0Llt3DujMtlftcSqfG1ooTNWluzMoJJZ8zjt5iL937cL5wkKWkL7KyM33KoLs9BXupwtPlFI9nJNwHaL4d5Cq9S4b360Ys3a9olOq4d2ldtO88rogkY5tSb5LIMmWO9VU/w200-h150/20230807_075107.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_N8A6DVVg63BGhgIjRwFiQta-YYnTB6jEc91uV0Gk5mwg8pUA9cqePSHPHB0Llt3DujMtlftcSqfG1ooTNWluzMoJJZ8zjt5iL937cL5wkKWkL7KyM33KoLs9BXupwtPlFI9nJNwHaL4d5Cq9S4b360Ys3a9olOq4d2ldtO88rogkY5tSb5LIMmWO9VU/s4000/20230807_075107.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686848/blogger-import/3fd6423c83e460d93cc1.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686852/blogger-import/317e118ecdbe13763663.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686856/blogger-import/dc1e4d7c07450f1bc56d.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686861/blogger-import/ba72134c5cdbbfa1e723.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686865/blogger-import/4fabb7984ed19a49c85a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686870/blogger-import/6920c1408e969f72a939.jpg)
 
   
 
@@ -136,7 +136,7 @@ This one is my favorite because it's a stark contrast to Germany with its mostly
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkpato5sG7pgWycruQu_Xxof3bvDN9d3iEtLLRXB5AQTPIMJCE_JInhufFsi2gvon_V_I5oSZnPA8ZqE6DZAUkHopPwjyuzIQ-rqJ3XADXgWd0iU80pKVmy6n3FnDOipNe72cROPypbyqVyPf1DSQBdqzx4vP_qZg0x3aHAdjIyGxZdGD70dBBaysP0OA/w150-h200/20230806_174344.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkpato5sG7pgWycruQu_Xxof3bvDN9d3iEtLLRXB5AQTPIMJCE_JInhufFsi2gvon_V_I5oSZnPA8ZqE6DZAUkHopPwjyuzIQ-rqJ3XADXgWd0iU80pKVmy6n3FnDOipNe72cROPypbyqVyPf1DSQBdqzx4vP_qZg0x3aHAdjIyGxZdGD70dBBaysP0OA/s4000/20230806_174344.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686874/blogger-import/046331ce51439a57692b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686877/blogger-import/9e7114c1dc26dad8ab04.jpg)
 
   
 
@@ -148,7 +148,7 @@ We found an insanely fresh pasta place and sat beside some interesting Americans
 We enjoyed our pasta and if anyone asks why I love Italy so much, here are a few signs to explain  
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYSCeHontp_H60CiABuJuZPCkwNTG9lC359SdYspYutk_NLphfKlIjZjhcriOz--AVxpA2lLY8l0X6SQHL3-k9VPyqZ-gQ5FcmKIRuIxG_izFyjeUFXVDTuAu2-QPloiZW5Jt2WJio81Ld0mzhoW8tanG56KuYWleQ2_ATR9-0fn_M1VR9D0INV06PMHs/s320/20230807_111505.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYSCeHontp_H60CiABuJuZPCkwNTG9lC359SdYspYutk_NLphfKlIjZjhcriOz--AVxpA2lLY8l0X6SQHL3-k9VPyqZ-gQ5FcmKIRuIxG_izFyjeUFXVDTuAu2-QPloiZW5Jt2WJio81Ld0mzhoW8tanG56KuYWleQ2_ATR9-0fn_M1VR9D0INV06PMHs/s4000/20230807_111505.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtGfuo6EZEs9QezGQNxPAsNbk_3s4kDExIfRCzEMcYOrHzbdC92TdmaPH8T9K_tN0B_avrE_RPHDqniDci9VAa3OyrSgp9RgIKqh2DWi-RwUgmdKaZm-xyJqL5CYFDwZ6cM2nLQvo9-Y5hxRMRFygMgNKiPrchNPUTgUW_gmDbF2HfrPeidIqIGlUhKAo/w200-h148/20230807_140837.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtGfuo6EZEs9QezGQNxPAsNbk_3s4kDExIfRCzEMcYOrHzbdC92TdmaPH8T9K_tN0B_avrE_RPHDqniDci9VAa3OyrSgp9RgIKqh2DWi-RwUgmdKaZm-xyJqL5CYFDwZ6cM2nLQvo9-Y5hxRMRFygMgNKiPrchNPUTgUW_gmDbF2HfrPeidIqIGlUhKAo/s2813/20230807_140837.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686882/blogger-import/c9e4f3f5a4be23973a17.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686885/blogger-import/29f5a2f72abda62c080d.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686888/blogger-import/9dbe95a28e8d2c989461.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686892/blogger-import/5cfc0cb073856c9a99c5.jpg)
 
   
 
@@ -161,7 +161,7 @@ This one means "eat whatever you like"
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbExbwMHrEPZD5qPYUPDT915Sa8X72XKS7uDUZNDhRkTzk0uDk-AjCNZkYkFXN_mYHxrfS_QtvP0n4fsAloACPTkxR3iKbiVKR0I1wrcGUxUE1zCPbjTTG3XdHCVuXYaWy1tS3V4gRJOABI-kjK3V8OZp8PBULIlKytOuRF1ZFiUEmBM6maTDdPx2c-3M/s320/20230806_174013.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbExbwMHrEPZD5qPYUPDT915Sa8X72XKS7uDUZNDhRkTzk0uDk-AjCNZkYkFXN_mYHxrfS_QtvP0n4fsAloACPTkxR3iKbiVKR0I1wrcGUxUE1zCPbjTTG3XdHCVuXYaWy1tS3V4gRJOABI-kjK3V8OZp8PBULIlKytOuRF1ZFiUEmBM6maTDdPx2c-3M/s4000/20230806_174013.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686897/blogger-import/375123c60acfd383ca8e.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686907/blogger-import/2f3705df2edfc7edd329.jpg)
 
   
 

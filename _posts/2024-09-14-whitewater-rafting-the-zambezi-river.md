@@ -12,7 +12,7 @@ location:
   lng: 25.8367
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTWmUlWse8UNrJjE9EP8PFG1NBX6B30V1lUM7FJSPmehmz1mvhEzGy-gDGD4cvxVZCjZdYXSQJHZ6tZsbjz3H2C9ryeTUitFA8odrXtlPwzEwTNoRy7R6lAqoYcHMNQ4CXzesYkbrAkXaOkwfVLEpm1NE0kEDOfA-Rpko3hxtFRPbcdXwgLufoZU9dpL8/s320/20240910_060039.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTWmUlWse8UNrJjE9EP8PFG1NBX6B30V1lUM7FJSPmehmz1mvhEzGy-gDGD4cvxVZCjZdYXSQJHZ6tZsbjz3H2C9ryeTUitFA8odrXtlPwzEwTNoRy7R6lAqoYcHMNQ4CXzesYkbrAkXaOkwfVLEpm1NE0kEDOfA-Rpko3hxtFRPbcdXwgLufoZU9dpL8/s4000/20240910_060039.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696673/blogger-import/9e4f012a4a3538899095.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696676/blogger-import/5501d9d6e13a9b4167c3.jpg)
 
 We woke up and enjoyed this lovely view from our room before jumping into the day! We had another early morning pick up but this time it was to whitewater raft the Zambezi river (where Victoria flows into).
 

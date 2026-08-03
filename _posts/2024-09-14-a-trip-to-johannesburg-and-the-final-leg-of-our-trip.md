@@ -13,7 +13,7 @@ location:
   lng: 28.0473
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI6-dDm21OfnOIIsTmSRv62RjDWcHsrI3Ro1qPrWP1vh6SRo5XXmcjZdnjvs0235RVubdGMWkwTMxLrcidaoHEO8KP6ujRV1t9uef-GrsF1z_Rd95MxRXZH9zKMw3oVoiVBLpIECYEzAF1M2pUyaAS1-2A8i8G2rS3oMMlDy2JtPUCYcPxFa0rZH7MhyM/s320/20240911_064100.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI6-dDm21OfnOIIsTmSRv62RjDWcHsrI3Ro1qPrWP1vh6SRo5XXmcjZdnjvs0235RVubdGMWkwTMxLrcidaoHEO8KP6ujRV1t9uef-GrsF1z_Rd95MxRXZH9zKMw3oVoiVBLpIECYEzAF1M2pUyaAS1-2A8i8G2rS3oMMlDy2JtPUCYcPxFa0rZH7MhyM/s4000/20240911_064100.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696356/blogger-import/102e6650fe164c9338b2.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696364/blogger-import/e5fd78dbfd71b9f5ad0a.jpg)
 
 We woke up in high spirits this day, ready to see what Johannesburg had in store for us! We were also ready for more various food options and a shower that worked properly. The shower head did not work so we had to use the handle to rinse ourselves which felt like bird baths lol
 
@@ -25,7 +25,7 @@ I went out to a corner of the hotel grounds (looking out for wild life) and prac
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibmDTAX_iElGhyphenhyphengjhUZIOdKgC7bmqnXcZGeBgfmPlzOgUgMOESzhmJGQ6Myen5TdM4ZKexqaRwY8f5S1Od7T8ZcKCzdyH6_LMf-jA0evhGh43JryipUjjgfxLcllNBZ_nPeXUnUEOG_6tWKYyqnG9b1z2Si7cQMuVnJbKGptXpkzrmrBWRaW6H0OzXpoo/s320/20240911_091426.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibmDTAX_iElGhyphenhyphengjhUZIOdKgC7bmqnXcZGeBgfmPlzOgUgMOESzhmJGQ6Myen5TdM4ZKexqaRwY8f5S1Od7T8ZcKCzdyH6_LMf-jA0evhGh43JryipUjjgfxLcllNBZ_nPeXUnUEOG_6tWKYyqnG9b1z2Si7cQMuVnJbKGptXpkzrmrBWRaW6H0OzXpoo/s4000/20240911_091426.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696372/blogger-import/7ad21432f6c6ca967e07.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696381/blogger-import/385a23d12179d5667c22.jpg)
 
 After our breakfast in the hotel room we went out to see the markets of Zimbabwe where we walked past an open bakery that had previously been closed every time we walked by! I tried this chocolate tart while Mike had the lemon donut. They were ok :( 
 
@@ -34,7 +34,7 @@ We enjoyed walking around the markets in Zimbabwe and actually saw someone stain
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5IDPEgRHE2jCGc2lU8zpbrPVzKDREd-We83kgPBHifCtsA0itfhZGJIv5P5OCSEnsGYJ3mO4Cbz2mlpaJMUtYlUlcDIvVxdJM8JdBXIj-ppQBbeOtrcBQUOgh6KIbkXyr_Paky_o_2YErMRwmPdCNUEe7GG28Xz3LXCdJ7tX65qN5lpusK0kBihqHFQE/s320/20240911_151312.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5IDPEgRHE2jCGc2lU8zpbrPVzKDREd-We83kgPBHifCtsA0itfhZGJIv5P5OCSEnsGYJ3mO4Cbz2mlpaJMUtYlUlcDIvVxdJM8JdBXIj-ppQBbeOtrcBQUOgh6KIbkXyr_Paky_o_2YErMRwmPdCNUEe7GG28Xz3LXCdJ7tX65qN5lpusK0kBihqHFQE/s4000/20240911_151312.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696390/blogger-import/c9d1f2da6636344cb1e5.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696399/blogger-import/b18ebbf769bc98119329.jpg)
 
 We had arranged for a taxi to the airport and made it early to the airport for our flight to Johannesburg. We arrived just as a massive group of pensioners (what they call seniors here) were unloading from a bus with several large suitcases each :o! We hurried through security and over to our gate as to not be delayed since we only had backpacks and didn't want to miss out on overhead compartment space. 
 
@@ -61,18 +61,18 @@ Now you may or may not be familiar with Johannesburg but we were cautioned of th
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc3oiRfUTvHXcAJeH9DFGYK0jp3ncM83Rg7-Cfb0Rkr2o5os05QgydeztqIgq7HrrxRJyqV-EUjS0junLgUjRvMUnQ62s3KcIrsxTQMJPMaN8904fQXq9q0lXfALojca5XibvTvbzcN4eUOsohik-0QNOoXPkWyzBdsWK25IdIwyp6FaZO43ppkmVO410/s320/20240911_172222.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc3oiRfUTvHXcAJeH9DFGYK0jp3ncM83Rg7-Cfb0Rkr2o5os05QgydeztqIgq7HrrxRJyqV-EUjS0junLgUjRvMUnQ62s3KcIrsxTQMJPMaN8904fQXq9q0lXfALojca5XibvTvbzcN4eUOsohik-0QNOoXPkWyzBdsWK25IdIwyp6FaZO43ppkmVO410/s4000/20240911_172222.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI35YKCY8j17TePenCNWDDptLkuxhHuRFPOWBQXUCdBe9scmFLTecsgxfCYl-_S1j7grmRPdRsdq_e1tf-FkSnNRY2T4np5wQ4UxH7x4wj1_MSgX5lNbf8HzOFd1mF-DECxfvTPgXQNEh1e1nDiKXuwOMOFVwodKcif9Vg8T_VcvaPmjRlFwye-qqkvmI/s320/20240911_172239.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI35YKCY8j17TePenCNWDDptLkuxhHuRFPOWBQXUCdBe9scmFLTecsgxfCYl-_S1j7grmRPdRsdq_e1tf-FkSnNRY2T4np5wQ4UxH7x4wj1_MSgX5lNbf8HzOFd1mF-DECxfvTPgXQNEh1e1nDiKXuwOMOFVwodKcif9Vg8T_VcvaPmjRlFwye-qqkvmI/s4000/20240911_172239.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696412/blogger-import/5c7ee51d81ffb63ba8ff.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696416/blogger-import/e12a92807fb61da42987.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696421/blogger-import/c51e9b7b4410e3a670d3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696425/blogger-import/f0a422f2d93081e94be9.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl88lgS5C5VQBbVZXBwxj_i_mzg_PHvMvP0-YTvggDnYBbzK4yoo3ROeIEwnrmrKSZM7-gxg7Rcnvmygc8gcWimfob68noqt0xxDsKqGw0J9e1U_sNef8Y-GvMap81V_826HrHiiLZaSERk0-aT4u2yHkYPZtJkM9yEYiyM6S5xNQPKh7v1NFbfReBRcg/s320/20240911_172245.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl88lgS5C5VQBbVZXBwxj_i_mzg_PHvMvP0-YTvggDnYBbzK4yoo3ROeIEwnrmrKSZM7-gxg7Rcnvmygc8gcWimfob68noqt0xxDsKqGw0J9e1U_sNef8Y-GvMap81V_826HrHiiLZaSERk0-aT4u2yHkYPZtJkM9yEYiyM6S5xNQPKh7v1NFbfReBRcg/s4000/20240911_172245.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696429/blogger-import/bd2b52de117513d8ec24.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696433/blogger-import/35903e45bdd70b5edfbc.jpg)
 
 Here are our accomodations in Jburg! We were so excited for the food that we instantly ordered from the hotel menu. 
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf9Pm4WdW7VYdinw9_lcYoeknGIC8gsKLn79gRq8mkE0IboBqid3X0LsVTj2FSRH2X6L0yOAKENDf5YfLkexPU0e-k8PFpLW6GY1refWXtFtjle0MOTB08LRoj4GMBX88shNok4GRoLvLcKMKXQT0GSMDEV6k8KrYP7cwfc_PUINqo67NzRR49L4SonBk/s320/20240911_181913.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf9Pm4WdW7VYdinw9_lcYoeknGIC8gsKLn79gRq8mkE0IboBqid3X0LsVTj2FSRH2X6L0yOAKENDf5YfLkexPU0e-k8PFpLW6GY1refWXtFtjle0MOTB08LRoj4GMBX88shNok4GRoLvLcKMKXQT0GSMDEV6k8KrYP7cwfc_PUINqo67NzRR49L4SonBk/s4000/20240911_181913.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696438/blogger-import/950e99cfe7342d970da4.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696443/blogger-import/0d6699ad3959ba41356b.jpg)
 
 Mike got the minced beef pizza and I ordered chicken butter masala with garlic naan and rice. It tasted like the first good meal we had had in several weeks - even if that wasn't the case. What can I say, I'm a sucker for a good meal. That night we fell asleep early and had some really good rest thanks to the hearty air conditioning.

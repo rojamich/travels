@@ -26,7 +26,7 @@ After an hour boat ride, we were bused back to Iquitos, which took about 1.5 hou
 
 A massive thunderstorm rolled through while we waited, and it was absolutely delightful!! I loved watching it and was surrounded by the relaxing nature of it. Each time the sliding doors open, we watched the rain pour in sideways and saw the travelers rush in, drenched, with rain-soaked luggage.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEhq8DJk-3PKzBxeRC9X4U8lQRCIiiUyR0EdFvUcYZWMCozl1xN2yhcxi_MMcyjlFxO7an_CAhjKGNUcceAJWZJDuThzGP4PTgVO6KWw6uZWurCM10VoPHFfQOPjbJ1Qinf56xfDuHomoqXApxgs1l2N8eVR4DIUhWlYeU83JYliaf4LINsSaWc26ddHiGc)](https://blogger.googleusercontent.com/img/a/AVvXsEhq8DJk-3PKzBxeRC9X4U8lQRCIiiUyR0EdFvUcYZWMCozl1xN2yhcxi_MMcyjlFxO7an_CAhjKGNUcceAJWZJDuThzGP4PTgVO6KWw6uZWurCM10VoPHFfQOPjbJ1Qinf56xfDuHomoqXApxgs1l2N8eVR4DIUhWlYeU83JYliaf4LINsSaWc26ddHiGc)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715820/blogger-import/7c8c079a085f2b65477a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715820/blogger-import/7c8c079a085f2b65477a.jpg)
 
 At the Lima airport, I found us these snacks! They taste like strawberries, and I got a chocolate one as well. So good!
 

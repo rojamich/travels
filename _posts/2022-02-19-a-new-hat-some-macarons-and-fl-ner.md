@@ -18,7 +18,7 @@ We jumped in line (which was short at the time) for the Laduree Macaron shop! Th
 
 Here I can be seen happily strolling with my new hat and macarons. 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEiRDIVHwFNt0gqKyaNYrsy4j6cIody6TptMhnnLTir7LOJxHCT6cBuB5frT9BC_LK3qCX-jtr8TsJVb5MboBsTizt1-yWnA9HKTTRyYhqexxLUROoky0YcipVmW0z_lYf8r6l75ta8bzsAFXAMbrQPYORFjXegEPolc-cz4Tesvaj776Ql_HwlovHUU=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEiRDIVHwFNt0gqKyaNYrsy4j6cIody6TptMhnnLTir7LOJxHCT6cBuB5frT9BC_LK3qCX-jtr8TsJVb5MboBsTizt1-yWnA9HKTTRyYhqexxLUROoky0YcipVmW0z_lYf8r6l75ta8bzsAFXAMbrQPYORFjXegEPolc-cz4Tesvaj776Ql_HwlovHUU=s3194)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgrAVd5A6MekVOpxeSqWj_RjTvNdX-hXNK11Kq1nmykpw2y5e8QN-FRdYk_-lTwN6OXMHAplWVEZYc6ZzsHdDTAwZBRFSbhVUqiJDQs1N0yRBHc2BLN4-mV1tUmhlyuaMQooIk86Bvtall11XlyzMMahTh6t8Qjb9tNSSkBFp2Z-7eAxDqUMs0Hbqso=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEgrAVd5A6MekVOpxeSqWj_RjTvNdX-hXNK11Kq1nmykpw2y5e8QN-FRdYk_-lTwN6OXMHAplWVEZYc6ZzsHdDTAwZBRFSbhVUqiJDQs1N0yRBHc2BLN4-mV1tUmhlyuaMQooIk86Bvtall11XlyzMMahTh6t8Qjb9tNSSkBFp2Z-7eAxDqUMs0Hbqso=s3085)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674739/blogger-import/6766d5a3682d07b22f90.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674756/blogger-import/fd110fcb74b5763d3af0.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674761/blogger-import/b9441c1a6585d3df2cf9.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674775/blogger-import/e566d405414c7f39e845.jpg)
 
   
 

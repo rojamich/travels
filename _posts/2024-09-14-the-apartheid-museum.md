@@ -14,13 +14,13 @@ location:
 
 The next morning we woke feeling rested and ready for the day! The hotel gym was literally across the hall and we got a good workout in right way. It felt fabulous to exercise again.
 
-> [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhF-W7uraV_Q3QSVEfIUMOUuqdP1-NIY_t9lQOvnKVJqswg2cZdo8bl-RJAglDN3aWfmZ6cN1IRTeaHOnrQpeSRBtB_0yfj9kd-foidqycIuxCpsTVOIgxHMF2ZwCLtMQ3ObWEdkEKPahZYjIhrZY16SCc7kQrksg_ulEEH4tiaoSXTgzQC1uChaKfZcGQ/s320/Screenshot_20240914_154219_Maps.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhF-W7uraV_Q3QSVEfIUMOUuqdP1-NIY_t9lQOvnKVJqswg2cZdo8bl-RJAglDN3aWfmZ6cN1IRTeaHOnrQpeSRBtB_0yfj9kd-foidqycIuxCpsTVOIgxHMF2ZwCLtMQ3ObWEdkEKPahZYjIhrZY16SCc7kQrksg_ulEEH4tiaoSXTgzQC1uChaKfZcGQ/s2316/Screenshot_20240914_154219_Maps.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfNPjCZ9VzViEob3Z0XBjcT8ejEjJppB1Y-oNlR-7BE47_TgjjCZwieImIWWXQ6bau3BJsxeQZJ3RJgLkgYShgG7epQXGY5IvbMklHhxTg-FSAzhDzdr2xpqLdatP9SBZMgJ9rlPRQQBtj7mvjUYP6k3wb6A_im7mVKN3k9Nz84EfnZmd01h7iEgFS5fs/s320/20240912_101224.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfNPjCZ9VzViEob3Z0XBjcT8ejEjJppB1Y-oNlR-7BE47_TgjjCZwieImIWWXQ6bau3BJsxeQZJ3RJgLkgYShgG7epQXGY5IvbMklHhxTg-FSAzhDzdr2xpqLdatP9SBZMgJ9rlPRQQBtj7mvjUYP6k3wb6A_im7mVKN3k9Nz84EfnZmd01h7iEgFS5fs/s4000/20240912_101224.jpg)  
+> [![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696446/blogger-import/7ace0bafe59d51f9deb2.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696449/blogger-import/a444ae616db233e53091.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696455/blogger-import/aef507a8937394adc7ab.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696466/blogger-import/79ec8efa2af6d8f2a623.jpg)  
 >   
 > 
 
  After a halfway decent hotel breakfast we set out to see the populated area near us on the map that looks like this. When you see this on googlemaps it means its a highly visited area. With Mike's research, we discovered this area should be safe to visit and we decided to walk the three blocks there.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjuf0JV1u64-bu69S8Gs9riVy9coG3uKe5wLLkPh7aRFGgK7H8g4q8Z5SP0yxnShfxDAHz0IRcH8WTktq5NwfEcmGDQZk1sGOAu13jC0iKnfo7aMP58kHY0TA6DxMjVYC_d1TGPC8ljvzR6lhAn5cnq_9Km065oB9pWcJISJ5slRPc1djIeIUFEShWU1Q/s320/20240912_115249.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjuf0JV1u64-bu69S8Gs9riVy9coG3uKe5wLLkPh7aRFGgK7H8g4q8Z5SP0yxnShfxDAHz0IRcH8WTktq5NwfEcmGDQZk1sGOAu13jC0iKnfo7aMP58kHY0TA6DxMjVYC_d1TGPC8ljvzR6lhAn5cnq_9Km065oB9pWcJISJ5slRPc1djIeIUFEShWU1Q/s4000/20240912_115249.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696473/blogger-import/477835d0eef34990a8a1.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696482/blogger-import/5c1e5b78df0d5d9db83a.jpg)
 
 It was a sprawling, three-story, outdoor mall! We have fun walking around malls in other countries to see the differences, store names, what is popular in other countries, and it sortof feels like a contemporary museum - representative of the area.
 
@@ -29,50 +29,50 @@ It was a sprawling, three-story, outdoor mall! We have fun walking around malls 
 
  
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFXlrmUxUozuISwAgVYVQlUNKRfWAf2NAMRKJDKa2K4I_Hn0pSK1286HbsElbm98aR7HuLp2N57ueLK-fHLiYDjrhEpNHgf6krpxExbHnrnwI7z9Q6HXB_NWHUNV2LordRuJTE8zREPdYwV_kpeRL-CcZZn53lw_-q0_IEmMWNZIS884XXqDV2Tt2254Q/s320/20240912_110833.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFXlrmUxUozuISwAgVYVQlUNKRfWAf2NAMRKJDKa2K4I_Hn0pSK1286HbsElbm98aR7HuLp2N57ueLK-fHLiYDjrhEpNHgf6krpxExbHnrnwI7z9Q6HXB_NWHUNV2LordRuJTE8zREPdYwV_kpeRL-CcZZn53lw_-q0_IEmMWNZIS884XXqDV2Tt2254Q/s4000/20240912_110833.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4IeHVHJciY-fwcZaA2DqSyhJz3sV6fKKttRIw7TwT1Jw-Bf-0c3o36PhiuEAnjbQRLMZ5zFhHVunldy8VIxUDIt2cci02fzmXivQgJyUSE8uKfrb0qJZejd4zqFcEh5dEiYtu9zJpW-aadfl0JAmrMyaYjaHbGcs6To35Oofl5E-S7saVKSY3yBXo56k/s320/20240912_115916.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4IeHVHJciY-fwcZaA2DqSyhJz3sV6fKKttRIw7TwT1Jw-Bf-0c3o36PhiuEAnjbQRLMZ5zFhHVunldy8VIxUDIt2cci02fzmXivQgJyUSE8uKfrb0qJZejd4zqFcEh5dEiYtu9zJpW-aadfl0JAmrMyaYjaHbGcs6To35Oofl5E-S7saVKSY3yBXo56k/s4000/20240912_115916.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696493/blogger-import/59ac033992ba09fccfaf.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696502/blogger-import/bd47502bdf15be2f3dab.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696511/blogger-import/2ffff33ac12277563694.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696520/blogger-import/cd705f33d9ecd3ebddd6.jpg)
 
 I found this entertaining advertisement and toilet sanitizer at this mall which was interesting!
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-SPyy1_aBkAqloc_uQ2APPLrKY_nVxIhBeBXR_LOA142VV10p10Grlr_eB54gGD0z_WFeSaJGnaFa-2TN2TQFMZGjIxFKcLfU9O4_KH-p-gGPH977gTi57R3j7w7K6821cIx31ZY_KLPYScXwAoSLhekThJWo9ZpDiTi1ieHAnmDcITfsOqK4THZSqjI/s320/20240912_104057.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-SPyy1_aBkAqloc_uQ2APPLrKY_nVxIhBeBXR_LOA142VV10p10Grlr_eB54gGD0z_WFeSaJGnaFa-2TN2TQFMZGjIxFKcLfU9O4_KH-p-gGPH977gTi57R3j7w7K6821cIx31ZY_KLPYScXwAoSLhekThJWo9ZpDiTi1ieHAnmDcITfsOqK4THZSqjI/s3392/20240912_104057.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696524/blogger-import/44ac4f960f1f576a3dc6.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696528/blogger-import/5f058116460ea6be3456.jpg)
 
 We happened upon this bookstore and Mike found me a starbucks coffee (made the way I like it!) We browsed and Mike talked me into getting a book - [The Protector.](https://www.barnesandnoble.com/w/the-protector-tony-park/1145522597) What a way to start the day - food, coffee, gym, and a new book?!
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixmzGbzjXLtAwNSLTYFlIG15n3kxmXqewdFFVac37aDY4ZrKC8vV2rNidOxWFgJwtO6fczGI1LZ62U_Q4qNsckAnGPoctefnNSGZrw2-jbpZE0WwA7OgfFfOO1eSg5IVwgrfCLqMjRE9XvyDq1kTFLxJtBpX3FvXX-AmzpbnOuNhp5B3Z8p-zQ03OVZ7U/s320/20240912_123353.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixmzGbzjXLtAwNSLTYFlIG15n3kxmXqewdFFVac37aDY4ZrKC8vV2rNidOxWFgJwtO6fczGI1LZ62U_Q4qNsckAnGPoctefnNSGZrw2-jbpZE0WwA7OgfFfOO1eSg5IVwgrfCLqMjRE9XvyDq1kTFLxJtBpX3FvXX-AmzpbnOuNhp5B3Z8p-zQ03OVZ7U/s4000/20240912_123353.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696532/blogger-import/a9ba8a83c46f9cf63311.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696536/blogger-import/09d5f244894ea4e693f4.jpg)
 
 Mike enjoyed pad thai and I had ramen at this asian fusion restaurant. We also shared this semi-spicy edamame!
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjSNiGThtEeiI5XoJ2lQnrLYRJsWMLNJgOgYokiD2xLtPi8xBbro0Ihli8MhQYErFAdS_3BFBW2QT-ixSWdY_wEUZqXi-7jfwNppOGtGmsvQDhqWSEBgAaCT0XWDt2rTvG94L-U1PlHax8r7_9VWa7UZHtiWu3McqLLxZEd66Q2vYkCf_bIZp0xC1YsQg/s320/20240912_135201.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjSNiGThtEeiI5XoJ2lQnrLYRJsWMLNJgOgYokiD2xLtPi8xBbro0Ihli8MhQYErFAdS_3BFBW2QT-ixSWdY_wEUZqXi-7jfwNppOGtGmsvQDhqWSEBgAaCT0XWDt2rTvG94L-U1PlHax8r7_9VWa7UZHtiWu3McqLLxZEd66Q2vYkCf_bIZp0xC1YsQg/s4000/20240912_135201.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696541/blogger-import/2f35f09a647be396a942.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696552/blogger-import/b2287d99030fe7f1e93a.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKnYEVyLPxiozJBT9VsoObKcBxrUcw6vtJZFldpe5ll8jH58Z6R3kL1GkfxzBuvAJ6_TkwJxUc2lhKW7RGXyHij-OTN1bRgbCrv47yJ2bdZ97Ks5lYwvRVveL2k7x2pAnPnbfQqq6_uGLXerKdujel7FR_Iupq7Q4A04BNCYknAGLZKFI6RWGPDh0co2w/s320/20240912_134946.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKnYEVyLPxiozJBT9VsoObKcBxrUcw6vtJZFldpe5ll8jH58Z6R3kL1GkfxzBuvAJ6_TkwJxUc2lhKW7RGXyHij-OTN1bRgbCrv47yJ2bdZ97Ks5lYwvRVveL2k7x2pAnPnbfQqq6_uGLXerKdujel7FR_Iupq7Q4A04BNCYknAGLZKFI6RWGPDh0co2w/s4000/20240912_134946.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696560/blogger-import/6358d47ddcfb2185e631.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696569/blogger-import/87135c80f94bfa425ab4.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTn952LGqimtd7GHJOyfGHU4L839tEbF7515rDI7LChzbkatVCwKimLnry3e9H-b9Fz-rVIngcSVfa33X6e5mJWRihFqLGxNF7SZBrGfM7VC7U5nCt6s2sr4invS_tKUE62znZhsmPfpb1iSsBT0-h-qUI2F9X_5Zn3dv43UPUg-wcfVWgYKuLkwxjOmg/s320/20240912_134745.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTn952LGqimtd7GHJOyfGHU4L839tEbF7515rDI7LChzbkatVCwKimLnry3e9H-b9Fz-rVIngcSVfa33X6e5mJWRihFqLGxNF7SZBrGfM7VC7U5nCt6s2sr4invS_tKUE62znZhsmPfpb1iSsBT0-h-qUI2F9X_5Zn3dv43UPUg-wcfVWgYKuLkwxjOmg/s4000/20240912_134745.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696577/blogger-import/aa8d7f4445476678fd91.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696585/blogger-import/0942bfeee1faa02fc8e5.jpg)
 
 Our next stop in Jburg was the Apartheid museum which showcased the struggle of South Africans to achieve equality across all races. The movement had many leaders and one was Nelson Mandela.
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0g029eZacW0omN_USvtbL1DfgBAAPm7gO_j0_HPcaPCAL7WEPvuQV2ACG_ifY_1V27_QHuIEXu6ZD5gv6531KXSWl4lCkuFunYh0YaQQG4FasonrDMsBiklQVaqauCUgF0JX3yNNEzsDPQLolMwEAyJAwSY0MpBuf_cSNliMrsTXkyJ-Y-rk3DjuKsvk/s320/20240912_135359.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0g029eZacW0omN_USvtbL1DfgBAAPm7gO_j0_HPcaPCAL7WEPvuQV2ACG_ifY_1V27_QHuIEXu6ZD5gv6531KXSWl4lCkuFunYh0YaQQG4FasonrDMsBiklQVaqauCUgF0JX3yNNEzsDPQLolMwEAyJAwSY0MpBuf_cSNliMrsTXkyJ-Y-rk3DjuKsvk/s3587/20240912_135359.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696592/blogger-import/c03e97ecaf1a72ee3a32.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696602/blogger-import/bdb88b0ca9ea7456b94e.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxPRVNOK5Dzb3nlqZUsvrOXwMtZdcrFXYhBW9w8k-zzOlKoqNJmTFfvgTtutAea2BThvyPnn4O03i5Un4SGJY6TMEyAC8BuOGGXAGZCN58fMGzbvSHAoSP-DsiXq7qLzUu5rhV6f8xw1JWYWlFgcOpufEwu8mtKEXLuKjRk4q0b01UwvU-Wjqkp0cQWBQ/s320/20240912_135420.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxPRVNOK5Dzb3nlqZUsvrOXwMtZdcrFXYhBW9w8k-zzOlKoqNJmTFfvgTtutAea2BThvyPnn4O03i5Un4SGJY6TMEyAC8BuOGGXAGZCN58fMGzbvSHAoSP-DsiXq7qLzUu5rhV6f8xw1JWYWlFgcOpufEwu8mtKEXLuKjRk4q0b01UwvU-Wjqkp0cQWBQ/s4000/20240912_135420.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgHQd-zSSIPSeml7WTofNQxiiZSEXfh3jTmR_k3EzM7LvftTUZTtWUS21WTp2y1iXGAfNNtxFeuJQMb5c3X5xCvLtK0D1jr_0FWw-61HyvoKzhvmNJdIGq7dxp63LEHTmBcO_ZZxQAFdAPWgaXoBLePO9eu29dJx1BBPrwyVpRl_XQcoe33vKiiF24gCg/s320/20240912_135811.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgHQd-zSSIPSeml7WTofNQxiiZSEXfh3jTmR_k3EzM7LvftTUZTtWUS21WTp2y1iXGAfNNtxFeuJQMb5c3X5xCvLtK0D1jr_0FWw-61HyvoKzhvmNJdIGq7dxp63LEHTmBcO_ZZxQAFdAPWgaXoBLePO9eu29dJx1BBPrwyVpRl_XQcoe33vKiiF24gCg/s4000/20240912_135811.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696612/blogger-import/ea00c122302bcda0a34a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696622/blogger-import/402c1b7b6cb225498896.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696632/blogger-import/72cae876be6d36ceb4e4.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696642/blogger-import/2e3673f520cff49af0f5.jpg)
 
 When you purchase tickets to the museum, you'll receive a white entrance ticket or a non-white entrance ticket to show how the separation of the races were treated during apartheid times (and, how African Americans woud've been treated during Jim Crow times). Mike said he should (as a biracial man) enter the non-white side and I should enter from the white side and we would confer about the differences. After reading these signs, it was even more eye-opening. The museum offered a free audio tour which we took advantage of during our 3-hour visit here. There was so much information to take in and multiple areas did not allow photography. There were also many videos available to preview in the museum that highlighted different parts of the struggle.
 
@@ -81,7 +81,7 @@ When you purchase tickets to the museum, you'll receive a white entrance ticket 
 
  
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4YRgg6XMaU0XBxTst96zWTRFZNWrCJKnVJSuvU41o5AE9jRtizL5Fh3PXO4ONrKMw4MiJpeZeb6DWjTw6_72iQLPJMhCFUjKf91oY7uavdOeM_rcBYirxsvOMd3g4NJSbqxZ2WczCh0FGhEPZiMqntq40Mdz-WZCsYrAuhuqL4M8Rug0wVs6P_Fh2DGE/s320/20240912_164634.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4YRgg6XMaU0XBxTst96zWTRFZNWrCJKnVJSuvU41o5AE9jRtizL5Fh3PXO4ONrKMw4MiJpeZeb6DWjTw6_72iQLPJMhCFUjKf91oY7uavdOeM_rcBYirxsvOMd3g4NJSbqxZ2WczCh0FGhEPZiMqntq40Mdz-WZCsYrAuhuqL4M8Rug0wVs6P_Fh2DGE/s3883/20240912_164634.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696652/blogger-import/94239799111712ab0270.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696661/blogger-import/6332e4ed92427245cfd5.jpg)
 
 At the end of the tour  you're invited to move one stone from the pile on the left of this photo to the pile of stones on the right of the photo, a symbol of the fight against racism and prejudice. If you're interested, [here](https://www.southafrica.net/gl/en/travel/article/an-enduring-symbol-of-unity-and-overcoming-adversity-as-a-nation) is some background of the South African flag itself!
 
@@ -94,7 +94,7 @@ We headed back to the mall and enjoyed dinner at McDonalds! A traveling traditio
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtkwkXxFaDnI0A00IFGFTCUv_TPQsBCrIc-X73rQlqwrclltFt0dlw-iC1OvS9UFJVd71nvHrHmLzTMDgifrQvo0phDIOZN6w_yKFPwyhgyKaGc7gAwUSx4qbszLSWh9HBjZc-t1pFR3IXX1DPRDCbzGCqUZSd5-eoOVfeniavepsVjx0KVKP5qBwYsF4/s320/20240912_174417.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtkwkXxFaDnI0A00IFGFTCUv_TPQsBCrIc-X73rQlqwrclltFt0dlw-iC1OvS9UFJVd71nvHrHmLzTMDgifrQvo0phDIOZN6w_yKFPwyhgyKaGc7gAwUSx4qbszLSWh9HBjZc-t1pFR3IXX1DPRDCbzGCqUZSd5-eoOVfeniavepsVjx0KVKP5qBwYsF4/s3392/20240912_174417.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696664/blogger-import/902f59f1e7933c037ee0.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696668/blogger-import/13fe8fc8aa465fbbd45d.jpg)
 
 This was followed by pancake flavored gelto for me on the walk back to the hotel!   
   

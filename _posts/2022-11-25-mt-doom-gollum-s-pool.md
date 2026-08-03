@@ -16,7 +16,7 @@ Doom and Gloom indeed! It poured all night and into the morning as we made the t
 
 We arrived at Tongariro National Park and it was still storming, we watched another couple approach the hike entrance and turn back (probably a good idea) but we were overly stubborn and continued through the marsh-like, fog-covered land.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9k2QObnPxrBAdJ_MFgkySsGdecOaQESgGXO31WRJCa--qAy5n2SAeyk6ED2iQMVORbUlm0RHcIA-Eit_b2V0Eam7GtNBsMv7FpAU9ndRITPzrsYsabBtCaVbIW0jO1Y0aBtnm3uaSYevGcdithbtAqjQdj6_BCd-T4sNK9kh2SaZBeJVTw0hJN_TVFg/s320/20221121_105519.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9k2QObnPxrBAdJ_MFgkySsGdecOaQESgGXO31WRJCa--qAy5n2SAeyk6ED2iQMVORbUlm0RHcIA-Eit_b2V0Eam7GtNBsMv7FpAU9ndRITPzrsYsabBtCaVbIW0jO1Y0aBtnm3uaSYevGcdithbtAqjQdj6_BCd-T4sNK9kh2SaZBeJVTw0hJN_TVFg/s4032/20221121_105519.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUb_z9LMUlRxeDKhiOMm2mruzkxqNW2G2EU_v1Ak7rDHNcxg-YZ3YzBQ-aPfvJ1d9gENA2-QGnowuomcmQK2NoF5RjY1XNdfZ0xrwebLrNu7NVDxRzk4gz7Zxzf76gbwbX_mnR2vMJWBjMauPMvjb0DIpVj0vqfIan3z8Ov2knVQFQ8bOzjYKkPBU9ww/s320/20221121_112122.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUb_z9LMUlRxeDKhiOMm2mruzkxqNW2G2EU_v1Ak7rDHNcxg-YZ3YzBQ-aPfvJ1d9gENA2-QGnowuomcmQK2NoF5RjY1XNdfZ0xrwebLrNu7NVDxRzk4gz7Zxzf76gbwbX_mnR2vMJWBjMauPMvjb0DIpVj0vqfIan3z8Ov2knVQFQ8bOzjYKkPBU9ww/s3648/20221121_112122.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680102/blogger-import/60b1a90cdeb23797f18b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680111/blogger-import/633843d9ddcf44a9bb0a.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680119/blogger-import/a628153d39aefdef48a5.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680122/blogger-import/5bd59bb7b6dd796c796b.jpg)
 
   
 
@@ -26,7 +26,7 @@ We arrived at Tongariro National Park and it was still storming, we watched anot
 
 The higher we climbed, the worse the weather. We passed Mt Doom (unbeknownst to us) and nearly summited Red Crater before realizing it was further than we intended to climb. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijew3LN8g2wd7VArmCnky8MgvUJwXFG_QOeqdPC8MV-cpgeDzdLJTwQmhUK4HVbN1J4_rQLiNjI83rbwhlqxWHMi2BQRzSgW8hqGDeNSANXG9nrrKCvTm-Z0vl61oTAVJEDkjYfxRlxyAxBntFPX3oaRAQsxYZ57QWECnRfFbFbSUMzAZglZmZF6rfKg/s320/20221121_115849.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijew3LN8g2wd7VArmCnky8MgvUJwXFG_QOeqdPC8MV-cpgeDzdLJTwQmhUK4HVbN1J4_rQLiNjI83rbwhlqxWHMi2BQRzSgW8hqGDeNSANXG9nrrKCvTm-Z0vl61oTAVJEDkjYfxRlxyAxBntFPX3oaRAQsxYZ57QWECnRfFbFbSUMzAZglZmZF6rfKg/s4032/20221121_115849.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMYjdVOnCoCUmhndrNhYa9MUNhss7XO9z5PSJBsrdYKimmDFDi-I92uRZIe4RsQqeKfhQRqr9o9GHVqRp6WUs7FZ5dPIRoj_6UDmINavOjKEMl_RmQeluryVTvCwHMc7QBEoFHkW_r_lukacY-kjC09LZXOxGhUO4Pc4FD2KDDR-tGhzOHgK7fP7Zqmg/s320/20221121_123123.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMYjdVOnCoCUmhndrNhYa9MUNhss7XO9z5PSJBsrdYKimmDFDi-I92uRZIe4RsQqeKfhQRqr9o9GHVqRp6WUs7FZ5dPIRoj_6UDmINavOjKEMl_RmQeluryVTvCwHMc7QBEoFHkW_r_lukacY-kjC09LZXOxGhUO4Pc4FD2KDDR-tGhzOHgK7fP7Zqmg/s4032/20221121_123123.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680126/blogger-import/ddb1c1df104731125f33.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680131/blogger-import/6bd342ef8caed4ff07c3.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680145/blogger-import/9656e828ce6e6d8de282.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680154/blogger-import/82f998d0017acab34799.jpg)
 
   
 
@@ -40,7 +40,7 @@ We blasted that car heater as we drove up to Gollum's pool.
 
 Still not completely thawed out, we made the short hike down to the falls that flowed into Gollum's pool.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOtvRNOz2FovS5fh2mAARznKGJRmJRsf_LliIclIQpk_3gnucLIA8c0kv0tURPILoHQCUVtz5i2w31c5YdYGMR1sxJqg5z6VYe4-QjVdUyIk2ZSBD-jLA9lXMmCn2bNLy479E9jv4z-g5W-PbeDb1YbP_NhTMy8Rpes4TGo6SSYks11IVSGk99o0aY-Q/s320/20221121_151714.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOtvRNOz2FovS5fh2mAARznKGJRmJRsf_LliIclIQpk_3gnucLIA8c0kv0tURPILoHQCUVtz5i2w31c5YdYGMR1sxJqg5z6VYe4-QjVdUyIk2ZSBD-jLA9lXMmCn2bNLy479E9jv4z-g5W-PbeDb1YbP_NhTMy8Rpes4TGo6SSYks11IVSGk99o0aY-Q/s3984/20221121_151714.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680158/blogger-import/4cc38cb7da4a21b1c641.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680162/blogger-import/3ddbf4cc642628c6afe2.jpg)
 
   
 
@@ -50,7 +50,7 @@ Still not completely thawed out, we made the short hike down to the falls that f
 
 Mike enjoyed imitating Gollum lol!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO9QWqtMvMnXpDILsfrqh1xDqu9lJkb3C5-UHJhBrEmSMAxxiQyz4qO6CYGsIDaAjs5Ggl6T0_iIPniw6pSM1j_JVcz0p-1GfD9x9CELEsndY_gZDj26syEUuNhhkyRfYJogw6IjUKIsB9a5A8PIxId5jHXauigBGi79FCoJuvpcOOn0TGBWBJmL-bGA/s320/20221121_151647.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO9QWqtMvMnXpDILsfrqh1xDqu9lJkb3C5-UHJhBrEmSMAxxiQyz4qO6CYGsIDaAjs5Ggl6T0_iIPniw6pSM1j_JVcz0p-1GfD9x9CELEsndY_gZDj26syEUuNhhkyRfYJogw6IjUKIsB9a5A8PIxId5jHXauigBGi79FCoJuvpcOOn0TGBWBJmL-bGA/s4032/20221121_151647.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680167/blogger-import/489752540a97dd2980dc.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680179/blogger-import/02426e68e5be0f76acd4.jpg)
 
   
 
@@ -60,7 +60,7 @@ Mike enjoyed imitating Gollum lol!
 
 My feet slipped out from under me climbing these rocks and I came down hard on my hands. I slid down the rocks and was only stopped by the bush growing between the boulders! We both thought I was going in the water!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHljhsctx7jmUd_KKwg0bM1SAiH-8_9dTbxko0m-jWv9h-3M7XMefJu07R2guHs0Rup7AuNiaYv5CyIbGSIXv-xK8R6LfeEx-ZWSTJBxV3MaueC8kLeqZYBsZot-Iakqkk4NoXZZRDqK6LcEf8IkeRSpw4GXnZnWL75qVcFHY2aPDPTCNIO9ir6Z0KUA/s320/received_664021172047488.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHljhsctx7jmUd_KKwg0bM1SAiH-8_9dTbxko0m-jWv9h-3M7XMefJu07R2guHs0Rup7AuNiaYv5CyIbGSIXv-xK8R6LfeEx-ZWSTJBxV3MaueC8kLeqZYBsZot-Iakqkk4NoXZZRDqK6LcEf8IkeRSpw4GXnZnWL75qVcFHY2aPDPTCNIO9ir6Z0KUA/s2048/received_664021172047488.jpeg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680185/blogger-import/ff56e8c3d2a030b518ee.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680188/blogger-import/74753c418b4ddcbcf916.jpg)
 
   
 

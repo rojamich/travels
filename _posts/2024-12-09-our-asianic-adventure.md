@@ -15,7 +15,7 @@ Welcome back for another edition of Mike & Jenna Adventures, thank you for joini
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEhlvGQL5ikHGh2_PkGxfvghEo6q_lhVmgG_twNrysCildYESNw9_QvUU0A3sf8BwZ7taGyvtW1DJd4DtRNrpgfWSo4ZZ2TY-3PM_Gekao1cy_brbkTu3ZyVq7j28c06DGgAcINBD9RTeCsnozeKRpRg_WZZNvbq4NJVohAyms9Tz3UEBNQ6xq1w93MyuV1Q)](https://blogger.googleusercontent.com/img/a/AVvXsEhlvGQL5ikHGh2_PkGxfvghEo6q_lhVmgG_twNrysCildYESNw9_QvUU0A3sf8BwZ7taGyvtW1DJd4DtRNrpgfWSo4ZZ2TY-3PM_Gekao1cy_brbkTu3ZyVq7j28c06DGgAcINBD9RTeCsnozeKRpRg_WZZNvbq4NJVohAyms9Tz3UEBNQ6xq1w93MyuV1Q)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696989/blogger-import/0d718c9186d47e076357.png)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696989/blogger-import/0d718c9186d47e076357.png)
 
   
 

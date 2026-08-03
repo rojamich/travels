@@ -32,7 +32,7 @@ We discussed our choices with the instructor who was wary of me trying to make M
 
 Next, we moved to a sander and started to form the shape of our design in the rock. Making the rock circular was the most challenging part for me. No sharp edges and it had to stay big enough to fit his finger. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg02UbbLmVR2nVYEcjcZQOVPPKzszA_GM36VJ_Y1F7iTN9Z9F8u-bhdhIO0K0kDoAm_njb6MIgg1veP1dDcsgSqAGO8TOdwoWWK46MkmkEfqM48R3YaCzkTV3wsXl9xV0G4XxPuEPnveYdPj6HHzujB_VD86nQuXmxkt0cDVZzVuUyMa8_qY_gq3uZCtQ/s320/20221205_134830.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg02UbbLmVR2nVYEcjcZQOVPPKzszA_GM36VJ_Y1F7iTN9Z9F8u-bhdhIO0K0kDoAm_njb6MIgg1veP1dDcsgSqAGO8TOdwoWWK46MkmkEfqM48R3YaCzkTV3wsXl9xV0G4XxPuEPnveYdPj6HHzujB_VD86nQuXmxkt0cDVZzVuUyMa8_qY_gq3uZCtQ/s4032/20221205_134830.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785681003/blogger-import/eff54843a2938880d195.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785681007/blogger-import/75920776c98c704f29eb.jpg)
 
   
 
@@ -49,14 +49,14 @@ After about 15 minutes we had to continue our projects while I stewed in my mist
 
 Next, we moved onto the smoothing process. Mike sat down with sandpaper to get an even finer surface while I was directed to the tool that allowed me to drill the hole for his finger. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivN-8IfwX3KYp4HSuQx1ObIC_ylzYm3TyO-Lxk5lXXoIdGpG7P9HVTTpjBos8WwWD61CxlYkyQSQVaZUleWGQI5g_6j46sfV5jpqllQ4IZfvERuFKAX4v0QWMRSfmM_Q09JRn2cPHGQco4-S2rTkT7WTYn12xSnqsh0UU3Ci58SfGrKIvMRQayKyumUw/s320/received_1201724830379223.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivN-8IfwX3KYp4HSuQx1ObIC_ylzYm3TyO-Lxk5lXXoIdGpG7P9HVTTpjBos8WwWD61CxlYkyQSQVaZUleWGQI5g_6j46sfV5jpqllQ4IZfvERuFKAX4v0QWMRSfmM_Q09JRn2cPHGQco4-S2rTkT7WTYn12xSnqsh0UU3Ci58SfGrKIvMRQayKyumUw/s2048/received_1201724830379223.jpeg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785681010/blogger-import/6cec3613c771580697fd.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785681013/blogger-import/4706d7586fe10d5c5b5b.jpg)
 
   
 
 
 It took a lot of focus to make sure the hole was the exact right size and all the interior edges were smooth, even, set in the middle and circular! It was fun to be creative and also make him something that was meaningful. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGSd1xfS9DW0GywzAGWu6PQrwAirxuVo2-4UQVuXFqP3IdSGsO6yHV7EudIE5RpTxYTxRKsrBjwP00WlDQR67EF-mEu53jW4gRPKMQ7h8qz3ibggmU1g_0vCnPReuadOV0BgW7EKLRgS4wTo5Kos-GU_q_WcSh9U5bMqdcwYhnDXxqw2ph8Fz3R2WWDg/s320/received_399320299011102.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGSd1xfS9DW0GywzAGWu6PQrwAirxuVo2-4UQVuXFqP3IdSGsO6yHV7EudIE5RpTxYTxRKsrBjwP00WlDQR67EF-mEu53jW4gRPKMQ7h8qz3ibggmU1g_0vCnPReuadOV0BgW7EKLRgS4wTo5Kos-GU_q_WcSh9U5bMqdcwYhnDXxqw2ph8Fz3R2WWDg/s2048/received_399320299011102.jpeg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785681016/blogger-import/f210f5e7f025c574def6.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785681018/blogger-import/c96782b6482ffcb13657.jpg)
 
   
 
@@ -66,7 +66,7 @@ It took a lot of focus to make sure the hole was the exact right size and all th
 
 I sat down to sand it down further while Mike was moved onto polishing. We skipped Mike's ring on to ensure sizing. After polishing, two holes were drilled in each end of mine to create a bracelet!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoUgSbI0qlyHJtdQweG1CCWcPO7PZcM_pz11KmimUMAiolH9FPz8Rjix19qA_DayA81lJwu2n5rBAjaL-fC33vEGYeDwycMJK39_urnsYzL_sj5OBLK9JV0HyKldUC9bGoCW8Xf4V2kyWyGJVNBVQeqQElo4PhE_70ISLAKl3tOL3QDA3XWs3r1Gw0Tw/s320/20221206_095249.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoUgSbI0qlyHJtdQweG1CCWcPO7PZcM_pz11KmimUMAiolH9FPz8Rjix19qA_DayA81lJwu2n5rBAjaL-fC33vEGYeDwycMJK39_urnsYzL_sj5OBLK9JV0HyKldUC9bGoCW8Xf4V2kyWyGJVNBVQeqQElo4PhE_70ISLAKl3tOL3QDA3XWs3r1Gw0Tw/s4032/20221206_095249.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsnFwcJfsvD9jKXnG6A_x_wqzgFGkML12H9QcyzwGyFU92b5DpY4MvoIcMO7fTbVMsCJMYFpjLdHG4KuM0Duzc22FAn1-NKqqYtxgPp4MCdJqj9WBi9EsucyameYyF4KtdxP4V7RrKWT2p6kQtiO_KL2WvmgNdHZesmlSd91G_pWpc5gokBAkypeffgQ/s320/received_676905567447840.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsnFwcJfsvD9jKXnG6A_x_wqzgFGkML12H9QcyzwGyFU92b5DpY4MvoIcMO7fTbVMsCJMYFpjLdHG4KuM0Duzc22FAn1-NKqqYtxgPp4MCdJqj9WBi9EsucyameYyF4KtdxP4V7RrKWT2p6kQtiO_KL2WvmgNdHZesmlSd91G_pWpc5gokBAkypeffgQ/s2048/received_676905567447840.jpeg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785681022/blogger-import/5df6a09bf8c1ae70cce4.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785681025/blogger-import/eb3445f19139c14d3307.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785681028/blogger-import/05373292bd18b63cb909.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785681031/blogger-import/9bba9cb1fa66ee4c5b5d.jpg)
 
   
 

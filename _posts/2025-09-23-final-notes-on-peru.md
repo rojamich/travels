@@ -56,4 +56,4 @@ Thanks so much for coming on this journey with us :) 
 
 See you in December for Vietnam!
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEgrWawPc6bDU5fP5u4NQVI15pP0J1fpduVaazm4ntr2DvA82yBiSVbhYroEDtAmA05GO3VfOpYyi_gwqwVId8QKg_bRBHe4dX437QLWhLQ87DMd-OyKpocfJLydziQbKeiFO01fAnRkKO7G9vENdyud80nwSDxNEyWKjF3S1IsPZaKhvxqbAh2v64LTOqA)](https://blogger.googleusercontent.com/img/a/AVvXsEgrWawPc6bDU5fP5u4NQVI15pP0J1fpduVaazm4ntr2DvA82yBiSVbhYroEDtAmA05GO3VfOpYyi_gwqwVId8QKg_bRBHe4dX437QLWhLQ87DMd-OyKpocfJLydziQbKeiFO01fAnRkKO7G9vENdyud80nwSDxNEyWKjF3S1IsPZaKhvxqbAh2v64LTOqA)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715754/blogger-import/04eb02f252712ccde9c3.png)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715754/blogger-import/04eb02f252712ccde9c3.png)

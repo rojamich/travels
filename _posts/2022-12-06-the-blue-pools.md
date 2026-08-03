@@ -17,7 +17,7 @@ After an early morning start, we enjoyed Nutella crepes by the lake in Wānaka a
   
 It was another beautiful and sunny day and we soaked it up!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmufbsGTpduSNtnGyzSg5ME4zV7zQJ8G0M3P3ue9iyF15cyU5TAPgDUmwZ9Lk3JFXIs_eNH60JxeU0NHKiJndEn2sH14lzBL-I7n-OC7mENqKX3r1v9aY8A4waesqqCdwr9aYJCK8PMVqC1Pb_iykV32y-bAlxajAgpI77Yds-4CieiP1O19_U0oWU7Q/s320/20221204_113657.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmufbsGTpduSNtnGyzSg5ME4zV7zQJ8G0M3P3ue9iyF15cyU5TAPgDUmwZ9Lk3JFXIs_eNH60JxeU0NHKiJndEn2sH14lzBL-I7n-OC7mENqKX3r1v9aY8A4waesqqCdwr9aYJCK8PMVqC1Pb_iykV32y-bAlxajAgpI77Yds-4CieiP1O19_U0oWU7Q/s3902/20221204_113657.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680902/blogger-import/886d11592bba50917695.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680911/blogger-import/1d2880f92986989fde49.jpg)
 
   
 
@@ -27,7 +27,7 @@ We drove up to the Haast Blue Pools and took the two mile hike (total) up to the
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3rYGKyPfPXSG_LEiLTQUfl9wylyXLfDKbknJQ5S3D_qdL58L-MNOqnm591FtDTBsLgDpmNeCuHQWt0_MPpcs3oAf_ElBxziNZTOO2n__MF3wFSGdKmmnK3gxoZJGiGoUN1BVLkdfQ1vB7JXcciuiDgXRLZ7sGtQ6n39EhhotCDm0XGiCyySYzPN422Q/s320/20221204_151758.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3rYGKyPfPXSG_LEiLTQUfl9wylyXLfDKbknJQ5S3D_qdL58L-MNOqnm591FtDTBsLgDpmNeCuHQWt0_MPpcs3oAf_ElBxziNZTOO2n__MF3wFSGdKmmnK3gxoZJGiGoUN1BVLkdfQ1vB7JXcciuiDgXRLZ7sGtQ6n39EhhotCDm0XGiCyySYzPN422Q/s4032/20221204_151758.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680920/blogger-import/77e456f5487a7d3f2643.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680928/blogger-import/ef74c92cdceb1950ad36.jpg)
 
   
 We were the first into our campsite this evening and got a good spot near the lake!
@@ -35,4 +35,4 @@ We were the first into our campsite this evening and got a good spot near the la
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW4iC0CfD4VsrnALcRluz56ygoNRZAM5ROjTWwL8aZh4UHwW9SS8KqBlHN3xT5DhdjgTq89lvuBObkZFqiLgw6ahe2uJtYLxxO6rO9R6AHxslhdJpv10MbnpXnJsy7PhZSneIfLnO0VZa6afxpkhCJdQNghROK4eJxwwH0kERiLyYgorwTURVp0zEvvg/s320/20221204_185556.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW4iC0CfD4VsrnALcRluz56ygoNRZAM5ROjTWwL8aZh4UHwW9SS8KqBlHN3xT5DhdjgTq89lvuBObkZFqiLgw6ahe2uJtYLxxO6rO9R6AHxslhdJpv10MbnpXnJsy7PhZSneIfLnO0VZa6afxpkhCJdQNghROK4eJxwwH0kERiLyYgorwTURVp0zEvvg/s3718/20221204_185556.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680936/blogger-import/5686a522317d63b484b3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680945/blogger-import/fa854b4ff8dbeeae2109.jpg)

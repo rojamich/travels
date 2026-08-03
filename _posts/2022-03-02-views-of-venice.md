@@ -16,20 +16,20 @@ There are no cars in Venice but a lot of pedestrian bridges. So, there were no u
 
     We went over bridge after bridge which left us wondering…how many bridges are there here?? The answer is over 300! Wow! That is astonishing to me!
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjBpFsi8mn0OQMnOmf4ATmHwi7EpK4AVdpWIzD-jfm0zhEA7SLmCHj9ojLMj75aoSYXppyZ3yBCO1oKQWNP9WLuNGG0-llHowI2421qvFy2QOJ0dDdzYgp5JgITpxHtw1eKToIsTFGwZywiPnrODWHAW6dYVGweOuLrrnJ9cMkVjlMsWyG0x0oUCmbM=w298-h223)](https://blogger.googleusercontent.com/img/a/AVvXsEjBpFsi8mn0OQMnOmf4ATmHwi7EpK4AVdpWIzD-jfm0zhEA7SLmCHj9ojLMj75aoSYXppyZ3yBCO1oKQWNP9WLuNGG0-llHowI2421qvFy2QOJ0dDdzYgp5JgITpxHtw1eKToIsTFGwZywiPnrODWHAW6dYVGweOuLrrnJ9cMkVjlMsWyG0x0oUCmbM=s4032)[![](https://blogger.googleusercontent.com/img/a/AVvXsEimT_pN_0pn4418VCMk3LWXFHQ3ez07xz7bH35wIl62G4L4qhkY3vUL8Pn8PheP0Skwx11VL2q-bTogjSdeUw7yhTxqZaHHXhD4pAzZ9VfN6Pld1qDzsGVvA6KmeAjs7kWkVECFC-19vk8GIf1dE_IOt1HdBQbW2hhmPG2eXsHr1BHCizGNv2Rq7Jjh=w294-h220)](https://blogger.googleusercontent.com/img/a/AVvXsEimT_pN_0pn4418VCMk3LWXFHQ3ez07xz7bH35wIl62G4L4qhkY3vUL8Pn8PheP0Skwx11VL2q-bTogjSdeUw7yhTxqZaHHXhD4pAzZ9VfN6Pld1qDzsGVvA6KmeAjs7kWkVECFC-19vk8GIf1dE_IOt1HdBQbW2hhmPG2eXsHr1BHCizGNv2Rq7Jjh=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785676997/blogger-import/9b4d6c7449f7b777d89c.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677014/blogger-import/02c025d7c319aac6a09e.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677019/blogger-import/645b6826de856af4ccdf.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677042/blogger-import/5eadccf4edc12a022bc1.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEh7wYh_hZxsuynm31d21H1ZfsBolZms5fRxE0yClP-uVv1XlOzt1cYisRlu4eXWfuhqtf5g-_SS89huLjNBhPAbYcYZpYNuwmV8grBIZO5Ds9-V8-ezSXNIxmmHfMI_726_EHZfc63JpXlMMcKGwLat1U85qkYmGsALDgyHrLTe3d72-_WqNkiQo2l0=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEh7wYh_hZxsuynm31d21H1ZfsBolZms5fRxE0yClP-uVv1XlOzt1cYisRlu4eXWfuhqtf5g-_SS89huLjNBhPAbYcYZpYNuwmV8grBIZO5Ds9-V8-ezSXNIxmmHfMI_726_EHZfc63JpXlMMcKGwLat1U85qkYmGsALDgyHrLTe3d72-_WqNkiQo2l0=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677047/blogger-import/a7bba1a533beb9d231b6.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677082/blogger-import/a4f0b878fa515aa6d402.jpg)
 
 Here is the view from atop the Devil’s Bridge in Venice. My favorite view of the city.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEigfqd9iNprw0-AVNDRvlxYVUaAqS9qimSPnOuuzIAIgf4LTcKYXE-bWuBgu4fC6j9gW9-lGEOtr04L1kF8vYLJOkv-P9ud7aPEG-Jf1TKlhoEuU3ujrFhgMuFHOiRqhIO9-t5nd7KxYD4BhzrROWYq1E2FCnM1pn3YbGz5PWpm3fhV3BRaHQTsZemL=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEigfqd9iNprw0-AVNDRvlxYVUaAqS9qimSPnOuuzIAIgf4LTcKYXE-bWuBgu4fC6j9gW9-lGEOtr04L1kF8vYLJOkv-P9ud7aPEG-Jf1TKlhoEuU3ujrFhgMuFHOiRqhIO9-t5nd7KxYD4BhzrROWYq1E2FCnM1pn3YbGz5PWpm3fhV3BRaHQTsZemL=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677086/blogger-import/7d184b844b9f08a214ac.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677116/blogger-import/87c57c3cbcc0ca3ff424.jpg)
 
 Here is a beautiful preview of a city street in Venice, one of the wider ones there! It was so colorful and lovely there. 
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEhwprnAXKf8aDbXmOZ_Y4WVGzpboOcVHdmEap02sqAGBh7LXuh93MNUqQeDW_whmwwqWmRom81EHU0FvNaEY0ekjuxU4bGBIZ8VYhRtYX1B5DYoJyVseBnzJ0AaqmyhUOFDh62CWE2uF0xlUd3Zjr_szBmA3GBZpgtJZJhMsb7pufXd3cnhV99gMfhi=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEhwprnAXKf8aDbXmOZ_Y4WVGzpboOcVHdmEap02sqAGBh7LXuh93MNUqQeDW_whmwwqWmRom81EHU0FvNaEY0ekjuxU4bGBIZ8VYhRtYX1B5DYoJyVseBnzJ0AaqmyhUOFDh62CWE2uF0xlUd3Zjr_szBmA3GBZpgtJZJhMsb7pufXd3cnhV99gMfhi=s4032)[![](https://blogger.googleusercontent.com/img/a/AVvXsEiDorJQeLANk_ol3Q0HbtSbzEPQIEV_pQkoyGSpqwW7shNGKwCYPWlsrYkz0VnoptUoPktZ_a9epWjhsatKBcTyUHgSGjWowe_uQziB6nC7CmA2PSmNavy3M-tDQr7qX0uaAkKn4SlSbVGfdJgPhQThjxdxOS8QIvZR9A_vmG-GSdhYof0I9x5iXQUF=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEiDorJQeLANk_ol3Q0HbtSbzEPQIEV_pQkoyGSpqwW7shNGKwCYPWlsrYkz0VnoptUoPktZ_a9epWjhsatKBcTyUHgSGjWowe_uQziB6nC7CmA2PSmNavy3M-tDQr7qX0uaAkKn4SlSbVGfdJgPhQThjxdxOS8QIvZR9A_vmG-GSdhYof0I9x5iXQUF=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677121/blogger-import/ca75bcae0a63243deb11.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677140/blogger-import/1d855046cb61c372174c.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677144/blogger-import/2b765e94971f9563df78.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677153/blogger-import/daf27ba67f63431c47f5.jpg)

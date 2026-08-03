@@ -14,7 +14,7 @@ location:
 
 Our first stop in London!
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEgF8wTKrwNwYiwNY5xAQRKwF8BAaCDGHS5w_4v5jwQCRQLuiKD9zkJ4LzsuEeQwcMrZTKGFRc1xu8K4NP4Y4UsMVT0gMWQsNW5GyZUiLxB5LWw7-zF-gBjjOliUz9GGQJVI7oX6jd8SyXwkEi4lkSbsFwrWv3DNe2LoSqjV7d9fRUChs5WU78wh3Qj2=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEgF8wTKrwNwYiwNY5xAQRKwF8BAaCDGHS5w_4v5jwQCRQLuiKD9zkJ4LzsuEeQwcMrZTKGFRc1xu8K4NP4Y4UsMVT0gMWQsNW5GyZUiLxB5LWw7-zF-gBjjOliUz9GGQJVI7oX6jd8SyXwkEi4lkSbsFwrWv3DNe2LoSqjV7d9fRUChs5WU78wh3Qj2=s4032)[![](https://blogger.googleusercontent.com/img/a/AVvXsEjHVNhf52WZclICzpNeuJQi8oWbHpGvbnaGsDcBatn-JYI7HF_tSTLe0xNDryQybZ3dXKHGbLvqmlYAS4kAANdx6w-wPXpSHHvilO2aKoiEDLapwn83Vc6gVsuOAyxpdjwqKOmRMhf1CVtkjNvM7MLe4BFis1RQxf_Lu8o6wW3XiQ_6d0dWsNYPCKEc=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEjHVNhf52WZclICzpNeuJQi8oWbHpGvbnaGsDcBatn-JYI7HF_tSTLe0xNDryQybZ3dXKHGbLvqmlYAS4kAANdx6w-wPXpSHHvilO2aKoiEDLapwn83Vc6gVsuOAyxpdjwqKOmRMhf1CVtkjNvM7MLe4BFis1RQxf_Lu8o6wW3XiQ_6d0dWsNYPCKEc=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785669755/blogger-import/eea3ab15bfffc2ec0cce.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785669765/blogger-import/5bdc5eae3d35120e6047.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785669769/blogger-import/e008798db5f2ae0846d2.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785669785/blogger-import/638d22ed3a32aac8f067.jpg)
 
 Michael enjoyed fish and chips from a local pub (Fishcotheque) to start the trip off right! The weather was in the 50s and overcast which was wonderful. We took the tube to the Whitechapel area and began our free audio/walking/gps tour of the Jack the Ripper case. This led us all around the White Chapel area and described the horrific murders that took place here. Ultimately, we walked about 10 miles this day. 
 
@@ -23,9 +23,9 @@ Then we tried the Crust bros pizza near our Airbnb and no one else had ordered b
   
 
 
-[](https://blogger.googleusercontent.com/img/a/AVvXsEjHRORVmxrE7Zrh2Zoadtxfo7z6NvP-vRe3QrybOISSMeP9wHOEoSkznoBZnw4Y88BkeZ1eya37MB8V2UvJRwVKocFY_fUhFHYSkpz8Q-EQT_zoBu7AhbHfUsDS5jhYbeJG-M_wymdZooxM9ej3JuWXkUOkWkPHr_hVfd8eCThzqskuN_1svS2Gjmja=s3648)
+[](https://res.cloudinary.com/dgw35sldo/image/upload/v1785669797/blogger-import/8bb0005260cbbb3caf2b.jpg)
 
-[](https://blogger.googleusercontent.com/img/a/AVvXsEjHRORVmxrE7Zrh2Zoadtxfo7z6NvP-vRe3QrybOISSMeP9wHOEoSkznoBZnw4Y88BkeZ1eya37MB8V2UvJRwVKocFY_fUhFHYSkpz8Q-EQT_zoBu7AhbHfUsDS5jhYbeJG-M_wymdZooxM9ej3JuWXkUOkWkPHr_hVfd8eCThzqskuN_1svS2Gjmja=s3648)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgc7x7L7q5c_sq1-ku-_yLb5QbZdqYetMw0DMMQxjho9QrV3izEtp7rScBEQE5spzTFAffVwtfwfYr2Jrm8zbzlBhZ3Gosj5bvWW5iC3zIOYOqB7TWsP5v-u0wRo1wV6Uyx_aLSlFDCba6_4KUrWGV5Iap4FWSzezJPTi9SuNkXzwgJXK9k4kqs_4Ie=w293-h220)](https://blogger.googleusercontent.com/img/a/AVvXsEgc7x7L7q5c_sq1-ku-_yLb5QbZdqYetMw0DMMQxjho9QrV3izEtp7rScBEQE5spzTFAffVwtfwfYr2Jrm8zbzlBhZ3Gosj5bvWW5iC3zIOYOqB7TWsP5v-u0wRo1wV6Uyx_aLSlFDCba6_4KUrWGV5Iap4FWSzezJPTi9SuNkXzwgJXK9k4kqs_4Ie=s4032)[![](https://blogger.googleusercontent.com/img/a/AVvXsEjHRORVmxrE7Zrh2Zoadtxfo7z6NvP-vRe3QrybOISSMeP9wHOEoSkznoBZnw4Y88BkeZ1eya37MB8V2UvJRwVKocFY_fUhFHYSkpz8Q-EQT_zoBu7AhbHfUsDS5jhYbeJG-M_wymdZooxM9ej3JuWXkUOkWkPHr_hVfd8eCThzqskuN_1svS2Gjmja=w299-h224)](https://blogger.googleusercontent.com/img/a/AVvXsEjHRORVmxrE7Zrh2Zoadtxfo7z6NvP-vRe3QrybOISSMeP9wHOEoSkznoBZnw4Y88BkeZ1eya37MB8V2UvJRwVKocFY_fUhFHYSkpz8Q-EQT_zoBu7AhbHfUsDS5jhYbeJG-M_wymdZooxM9ej3JuWXkUOkWkPHr_hVfd8eCThzqskuN_1svS2Gjmja=s3648)
+[](https://res.cloudinary.com/dgw35sldo/image/upload/v1785669797/blogger-import/8bb0005260cbbb3caf2b.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785669802/blogger-import/64cfd6473fc087e7cf2e.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785669826/blogger-import/deae1c216db2dec8bfcc.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785669831/blogger-import/a03a310a57277f180196.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785669797/blogger-import/8bb0005260cbbb3caf2b.jpg)
 
   
 

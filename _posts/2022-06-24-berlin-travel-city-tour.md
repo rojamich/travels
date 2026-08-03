@@ -18,11 +18,11 @@ The train ride there was pretty crowded though. Thankfully the ride wasn’t bru
 
 We caught a metro to our next AirBnB and on the way, we spotted this hilarious restaurant sign! It means the potato house! Just like my sign in Bruges, the Potato house but in Italian, the Casa Patata!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVgPFN1nLXOAqvPUPfx1eHoTDeE59td1D3WIk0s8anKVzq6_sbEC1g11XeinSQjaoVKsy0_XwiT1yUlCtI-pKnUIWPcHarsgtPA5hvtZaVjz_qyruHLD4C0gebK09IQoM-SdwPnahl_UA9T2ZjTbCW5sPrVqVrwWhdtBV_TG1RGjCcndWFuDioUAIv/s320/20220310_145244.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVgPFN1nLXOAqvPUPfx1eHoTDeE59td1D3WIk0s8anKVzq6_sbEC1g11XeinSQjaoVKsy0_XwiT1yUlCtI-pKnUIWPcHarsgtPA5hvtZaVjz_qyruHLD4C0gebK09IQoM-SdwPnahl_UA9T2ZjTbCW5sPrVqVrwWhdtBV_TG1RGjCcndWFuDioUAIv/s4032/20220310_145244.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785678687/blogger-import/c6751c4e6ad6a4ce784f.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785678697/blogger-import/de3597575c3425ba7fd1.jpg)
 
   
 
 
 The next morning, we had scheduled our Rick Steve’s walking tour of Berlin! It was a chilly morning and we clamored to stay in the sunshine. This walking tour was set to be our longest yet! Rightfully so, with how much history fills the city. Our first stop was the Reichstag building . The Reichstag building is usually not in use when there is a major player in power who is not a general representative of the people. Ie The first emperor, Hitler and the time of the cold war. The wording on the front of the building says, “To the German People”. Which I think is appropriate because when the building is in use, the people running the country FOR the people, are in there. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFWcoCkaKvP1Yv5UqHXfDqZVzX8ex6nskwzgsnSlhMyhlWmbiolQ814zrvz8lmVVDVeVjvWdAJWdzejBbewo_K-aIOHfwE8Sr17yghr4lHgwPIF-vZDFMwSAGhAdoB1SHjKb5Df61QlVO4QkkvmoITMRq5KA7GL4-4IwE8xd_sC0XC00m06OD1XY3X/s320/20220311_101549%20\(2\).jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFWcoCkaKvP1Yv5UqHXfDqZVzX8ex6nskwzgsnSlhMyhlWmbiolQ814zrvz8lmVVDVeVjvWdAJWdzejBbewo_K-aIOHfwE8Sr17yghr4lHgwPIF-vZDFMwSAGhAdoB1SHjKb5Df61QlVO4QkkvmoITMRq5KA7GL4-4IwE8xd_sC0XC00m06OD1XY3X/s3423/20220311_101549%20\(2\).jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785678707/blogger-import/6e2915fb877412bb2673.jpg).jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785678716/blogger-import/b045bd7e355bd3698da9.jpg).jpg)

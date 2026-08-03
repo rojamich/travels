@@ -30,7 +30,7 @@ We had an easy flight from Portland to Houston, managed to grab coffee and food 
 
 But we made our connection and boarded the plane. We had epic seats! We each had the spot in the corner of the exit row where we had no seats in front of us so we had ultimate leg room!!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw-IeHQ64yV2GxrMJux4gcr9kBqH6tjQn5l7vLn6tsT1Ad_cZ1-KN5l_mB_n0R86W7W2uLPIOvU7ihp1EJvnLTh1HquSBcHkDVc1ThIb5Cg7sAa7FQK4aA6XGWtNqfxKgw9Rsei1IE-sfrtLHkWsFZzJDeLL3cD6FGvVKbDXgDBu6qDsTwemZDluQuQkM/s320/1000043195.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw-IeHQ64yV2GxrMJux4gcr9kBqH6tjQn5l7vLn6tsT1Ad_cZ1-KN5l_mB_n0R86W7W2uLPIOvU7ihp1EJvnLTh1HquSBcHkDVc1ThIb5Cg7sAa7FQK4aA6XGWtNqfxKgw9Rsei1IE-sfrtLHkWsFZzJDeLL3cD6FGvVKbDXgDBu6qDsTwemZDluQuQkM/s4000/1000043195.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785708834/blogger-import/f750f66f90ecbfdb01db.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785708844/blogger-import/d18a445bf701b2362982.jpg)
 
   
 
@@ -52,7 +52,7 @@ When we land, thankfully they have rebooked us on the next morning's flight, the
 
 After a near full night's sleep, we get back to the airport around 530am, grab breakfast and coffee so we can do this all over again :o
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHuR3AKyTLfhjsSTJdorhVrqnGOjtBDUGcmYuZhClqGh0D_BzV1_nLjt12d7GakkqUlfKkbAcchbBvwhFC13KEvaEboK0lGc4PbY31vwAx45sn4M1WMY07RsybPH07xzvzB3udqr_QNTLTzmmkHuCmD5SjGOP2sw7F0iWn366F7XTLmxoJfTzmj2blpWU/s320/1000043309.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHuR3AKyTLfhjsSTJdorhVrqnGOjtBDUGcmYuZhClqGh0D_BzV1_nLjt12d7GakkqUlfKkbAcchbBvwhFC13KEvaEboK0lGc4PbY31vwAx45sn4M1WMY07RsybPH07xzvzB3udqr_QNTLTzmmkHuCmD5SjGOP2sw7F0iWn366F7XTLmxoJfTzmj2blpWU/s4000/1000043309.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785708853/blogger-import/0f700d2b9d42c352cb3b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785708862/blogger-import/0888e26215475f888f6c.jpg)
 
   
 
@@ -72,17 +72,17 @@ We caught a taxi at the airport (here its the cheapest way to get to our area of
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgU-N4as9Eknxi5BUqgnJsokFImEh8qlPpPSvCueFRUUm0Vzw9aImzS2rT0Hx986NtzviSgRRe8hVBZ40XXTtyAOZuiGq6uabdcoA-Z4PuQ88_80N69JA27NA7wahoBjErkogMMQQwrxqPII8S4dQKALhA2FtkmG3z2UFtG3Suh17EZ3qb0qhaUR6YBO3k/s320/1000043312.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgU-N4as9Eknxi5BUqgnJsokFImEh8qlPpPSvCueFRUUm0Vzw9aImzS2rT0Hx986NtzviSgRRe8hVBZ40XXTtyAOZuiGq6uabdcoA-Z4PuQ88_80N69JA27NA7wahoBjErkogMMQQwrxqPII8S4dQKALhA2FtkmG3z2UFtG3Suh17EZ3qb0qhaUR6YBO3k/s4000/1000043312.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgarLQefmeUoNWlb_DXirow1f2CJsU4zLaiE7afxqM1od7C7vll_In_XI29kR-idglq1Ojvp6OEu6-nd_3GmiFYOHiYt_gEaAGBLGRoX7nS4KwfC1El-0PKZB2qT0HRkz9tBUGh6gVzWx0l-DszbgMFIC43RyDupy-vjpa5TQha-hpWHLs7au9pjtG8DPI/s320/1000043313.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgarLQefmeUoNWlb_DXirow1f2CJsU4zLaiE7afxqM1od7C7vll_In_XI29kR-idglq1Ojvp6OEu6-nd_3GmiFYOHiYt_gEaAGBLGRoX7nS4KwfC1El-0PKZB2qT0HRkz9tBUGh6gVzWx0l-DszbgMFIC43RyDupy-vjpa5TQha-hpWHLs7au9pjtG8DPI/s4000/1000043313.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785708871/blogger-import/110fb8ded368f3d0447e.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785708881/blogger-import/3d40fa5579e0e5f703bc.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785708891/blogger-import/1f6af181453a4d3cbcb8.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785708901/blogger-import/0e2a0b46c4183a891fa3.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjO3TFjFXdLzFAvxHE97vgj85527ssygz13WvA7XhoobABnr2y7PTIli0zxxcCfppncaU2bIImXesYqHdo77JRSix7yldWqRE21c1aTJ_-B_eEirlttfc3h6IDXYzpqjwY2H_Omi2KJra_dXG3Ar4HabQ2sSK6k-GdNNk_8qrgwQnR9zT5qkB-8RaB5lfs/s320/1000043314.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjO3TFjFXdLzFAvxHE97vgj85527ssygz13WvA7XhoobABnr2y7PTIli0zxxcCfppncaU2bIImXesYqHdo77JRSix7yldWqRE21c1aTJ_-B_eEirlttfc3h6IDXYzpqjwY2H_Omi2KJra_dXG3Ar4HabQ2sSK6k-GdNNk_8qrgwQnR9zT5qkB-8RaB5lfs/s4000/1000043314.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785708912/blogger-import/1c84985153c4a4640d6a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785708922/blogger-import/a2ebb729bc3af36a2d5b.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh68ojBXAH1_Bk00BrgSP0ZIOJoDDZV6vy0_b7p8_xkrnG8KXuzPn_VOzqoJG603xsZSK2_1zdGs5bhTRg9aMzj2zcNw2J5OpPSMxlf7RdVJ8T4ZIufKUHl9YPtzudTk8A0EjtAKU6G-2bfmp1FnL6o5Sp14xBRroTFUCYgsQuiYV58w6dXzmKBmIAcxP8/s320/1000043315.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh68ojBXAH1_Bk00BrgSP0ZIOJoDDZV6vy0_b7p8_xkrnG8KXuzPn_VOzqoJG603xsZSK2_1zdGs5bhTRg9aMzj2zcNw2J5OpPSMxlf7RdVJ8T4ZIufKUHl9YPtzudTk8A0EjtAKU6G-2bfmp1FnL6o5Sp14xBRroTFUCYgsQuiYV58w6dXzmKBmIAcxP8/s4000/1000043315.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785708937/blogger-import/75552aa19097031c59b7.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785708950/blogger-import/4197954694fa9bff9099.jpg)
 
   
 

@@ -20,7 +20,7 @@ Our first true stop here had to be a chocolate shop which, essentially, has now 
 
 Michael popped his first piece into his mouth and said, “This is what heaven tastes like”!!! A high compliment I will NEVER forget! It was a milk chocolate Belgian truffle with cocoa powder coating.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEhmMg_Ts8Zuj1jBCDnp4kNYEDMfrba-ga6mHehzIz8OFakHyvzGD9NYXu_hvjWggYEKN3IfkG2BtBojjXaRQoQrKFUhd40uKichok3pKlz3DIta7PZtnWBZXFdGvm0mG7l_8MNRdI9VuGVxctrF9AIHlKudBgSTsam5pbCIgmABaY3ptV9LkSInJCA-=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEhmMg_Ts8Zuj1jBCDnp4kNYEDMfrba-ga6mHehzIz8OFakHyvzGD9NYXu_hvjWggYEKN3IfkG2BtBojjXaRQoQrKFUhd40uKichok3pKlz3DIta7PZtnWBZXFdGvm0mG7l_8MNRdI9VuGVxctrF9AIHlKudBgSTsam5pbCIgmABaY3ptV9LkSInJCA-=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785670988/blogger-import/3e08a654656863a81ac9.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785671015/blogger-import/a82ede86f2ed85050644.jpg)
 
   
 
@@ -29,7 +29,7 @@ As you walk down the streets of Brussels, the wafting smell of waffles surrounds
 
 The first statue on our list was the dog peeing, aka Het Zinneke, it was so cute! 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjMPudp3zlnzGEFv5nZJBLsOMZaFQSd1I7XitsOZi4BURUlqLf0kIrRvJNbJp58Gxb5C6Xe2iYjebW7UbZjIN4leln227H57PvssMrqwqyXmL549A0CzcjuFxu7JrjLGQ8E_NL2PNFarusVazv8YByCXy_47nvzN0AqaIyUfL-AyAyHOFspIsfPFWUK=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEjMPudp3zlnzGEFv5nZJBLsOMZaFQSd1I7XitsOZi4BURUlqLf0kIrRvJNbJp58Gxb5C6Xe2iYjebW7UbZjIN4leln227H57PvssMrqwqyXmL549A0CzcjuFxu7JrjLGQ8E_NL2PNFarusVazv8YByCXy_47nvzN0AqaIyUfL-AyAyHOFspIsfPFWUK=s4032)[![](https://blogger.googleusercontent.com/img/a/AVvXsEgnCewZqUNShOc3WAFiSvR1SQE0jt3KuTFsEqh88CxSqNM0RwfyWi75up0BsKVOXd81GWNgglUm1nUrF9hKogCEBzYdfMQHKcxe0YbUr82WYc3MPusATwd7QYh8yeKGJv3VjcpLkS38x5sUm9yild3_n_Pzny1l-rydVOrNqOeTd_358w5t41h4Ulo6=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEgnCewZqUNShOc3WAFiSvR1SQE0jt3KuTFsEqh88CxSqNM0RwfyWi75up0BsKVOXd81GWNgglUm1nUrF9hKogCEBzYdfMQHKcxe0YbUr82WYc3MPusATwd7QYh8yeKGJv3VjcpLkS38x5sUm9yild3_n_Pzny1l-rydVOrNqOeTd_358w5t41h4Ulo6=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785671020/blogger-import/ce6cf26529c7bb34f4d7.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785671051/blogger-import/fa0a2dff58e9cfde3756.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785671056/blogger-import/6a5b330c51ecc313beac.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785671077/blogger-import/40d60e7bb0d4f5b19736.jpg)
 
   
 

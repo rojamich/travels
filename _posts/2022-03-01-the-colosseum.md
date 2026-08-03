@@ -14,12 +14,12 @@ location:
 
 The next morning, we woke early to beat the rush to the Colosseum and saw some cool sights along the way! The first is the view from our apartment. The second is our breakfast for the day. The third is Trajan’s Market. It was supposed to rain this day but we were blessed with a beautiful time!
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEi_XjMdEJ0p33v1sKfFelMRxd-4sWYDAhAjEiUosf807IoHp9vBCP7yugYBxNKFAOm8JCK52Yv8GmW4UnEbZmCTOIYV5ljFz5gkUaLreii_eNsd_pRt02ZplLMIx4U2AbO1nBADaz7CTd57lQ4pItCFvpWHpN50wSGCBd9JCHfyiY1V0wUitWwFR7C7=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEi_XjMdEJ0p33v1sKfFelMRxd-4sWYDAhAjEiUosf807IoHp9vBCP7yugYBxNKFAOm8JCK52Yv8GmW4UnEbZmCTOIYV5ljFz5gkUaLreii_eNsd_pRt02ZplLMIx4U2AbO1nBADaz7CTd57lQ4pItCFvpWHpN50wSGCBd9JCHfyiY1V0wUitWwFR7C7=s3648)[![](https://blogger.googleusercontent.com/img/a/AVvXsEjJ0S0ywjfWoMNXTbP2FarQFnPBXDWQVqSp-Y1UikF2iGcI95jumFBvamzwL8b5QyDdvVXj2NIJU2x2W5GEv5dpDbqwSWQ45gQqqVyMY3ehcxl7v8pXiwWVSbuRY8iNAoGPZ0tXHvAovWsBw4qz8Qket8ZevsKrKoxLihFgi6OtBRFqK-64-FltRIQ2=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEjJ0S0ywjfWoMNXTbP2FarQFnPBXDWQVqSp-Y1UikF2iGcI95jumFBvamzwL8b5QyDdvVXj2NIJU2x2W5GEv5dpDbqwSWQ45gQqqVyMY3ehcxl7v8pXiwWVSbuRY8iNAoGPZ0tXHvAovWsBw4qz8Qket8ZevsKrKoxLihFgi6OtBRFqK-64-FltRIQ2=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675577/blogger-import/9ebfe00f879508a319db.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675590/blogger-import/4d1654cfb0fdbd7c6c44.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675594/blogger-import/55ae1eca7d6429f5d17c.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675608/blogger-import/8d77a0f33a8f6d617356.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEhHdGVW2jSIWFC9LBGGt4TKDr7mmjtjw1HK7XjCVETYyZe-WV1yOs2c8Ko7TApXvWdaafD2Ki9PM88_ubtAqnN-VA2IkLnXp8Kz8agrTciduyX3LVpYqZELjZLbPe3iYxggqUJWp7OBC1wBVZJPWGlp0-vjm-87QQbnPZ6AxfPWQNcBev5S4ANz2b3r=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEhHdGVW2jSIWFC9LBGGt4TKDr7mmjtjw1HK7XjCVETYyZe-WV1yOs2c8Ko7TApXvWdaafD2Ki9PM88_ubtAqnN-VA2IkLnXp8Kz8agrTciduyX3LVpYqZELjZLbPe3iYxggqUJWp7OBC1wBVZJPWGlp0-vjm-87QQbnPZ6AxfPWQNcBev5S4ANz2b3r=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675612/blogger-import/c671c0ec33191f3d1633.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675625/blogger-import/f86cfc04a4fb9e831de1.jpg)
 
   
 
@@ -28,9 +28,9 @@ They do breakfast entirely different here. People line the counters like they’
 
 We had a nice walk over to the Colosseum until we got about 10 minutes away and realized I had forgotten the headphones. The best part about these sights have been Rick Steve gently explaining the history behind everything. It was really important that we get there before the crowd to take some good photos so we kept going.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEhVe1U9UihBfNEKyiM8SQw6QUsnT_qVRHXdbSmZ6tP8eutuHcOrUmaYZTvp2X-FspQEcer9663RRLBv_-H5J_Vc3DUaK2OVcW2llH4NL_9WwXa9goMPVHk-hdM6_iAc_LidD6WrsCQ3PafDOo5m-0vBUSrDb7ct_nau1rPgCb2nGfboE9IMJCbeucf_=w278-h209)](https://blogger.googleusercontent.com/img/a/AVvXsEhVe1U9UihBfNEKyiM8SQw6QUsnT_qVRHXdbSmZ6tP8eutuHcOrUmaYZTvp2X-FspQEcer9663RRLBv_-H5J_Vc3DUaK2OVcW2llH4NL_9WwXa9goMPVHk-hdM6_iAc_LidD6WrsCQ3PafDOo5m-0vBUSrDb7ct_nau1rPgCb2nGfboE9IMJCbeucf_=s4032)[![](https://blogger.googleusercontent.com/img/a/AVvXsEhNUAjmqsnaKfYzprXk7kSi8BmJNw_zGxlqp0wkZSImn3MwrB6kAuz1DwDZQRg2dOMXHTHLOvk6HMWy-Ypz0mExgIqWSwxr-FOQm8rlFny_-GQf0ShS6CMEmdRuMEqSpKxmhzh6kzJgmmr8BFkUOd941_PM7sgS7JPMpCqeh0NTo4-QjBwnEcOQQzCF=w271-h203)](https://blogger.googleusercontent.com/img/a/AVvXsEhNUAjmqsnaKfYzprXk7kSi8BmJNw_zGxlqp0wkZSImn3MwrB6kAuz1DwDZQRg2dOMXHTHLOvk6HMWy-Ypz0mExgIqWSwxr-FOQm8rlFny_-GQf0ShS6CMEmdRuMEqSpKxmhzh6kzJgmmr8BFkUOd941_PM7sgS7JPMpCqeh0NTo4-QjBwnEcOQQzCF=s3483)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675629/blogger-import/221a771b29acc7f71178.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675649/blogger-import/66e5dbcb954bf80e5b46.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675654/blogger-import/63e21899f266b2b287d6.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675664/blogger-import/76b10f370810f0c9cd90.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEiCGHRvdNBZWTFCenA8vmh5LWftKSf5C6jUqLo2MdxoMLCLUbhFHhX9TuzR5U0dKBsxzWuPN47DhyUFFsv79WQ6KVVo1Tqn3JLfLE4BnctervPRin2-_PHp1Nvl76HVa_HqID5UYTvEZeE37PmFtOF_oCfU4cctbYuS4X4nQVXwJWP3swuFlZfTlaUe=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEiCGHRvdNBZWTFCenA8vmh5LWftKSf5C6jUqLo2MdxoMLCLUbhFHhX9TuzR5U0dKBsxzWuPN47DhyUFFsv79WQ6KVVo1Tqn3JLfLE4BnctervPRin2-_PHp1Nvl76HVa_HqID5UYTvEZeE37PmFtOF_oCfU4cctbYuS4X4nQVXwJWP3swuFlZfTlaUe=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675668/blogger-import/363e2bb8974c93856df2.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675689/blogger-import/7d5732a2caa89d60a833.jpg)

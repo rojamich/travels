@@ -22,7 +22,7 @@ Despite that, we found a beautiful beach hike in Milford and set off!
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT0X1OfYbe0yn74PgIQPcD-M9FNqlskyy-j64k8yp_GCRmyAllAKXU5y2LQJYkuSsPvEdTb1iU-EsbdXxn3x_v31E2TdG0Ke6IcKuwDtTyvpzKq-juZxNKszwC8BUJWnoGD82yEPD2QqR2KfRPveWBKMobtH9Lvm1cNU_QmaPRkl08KvNQopXLRLe8dg/s320/20221118_085454.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT0X1OfYbe0yn74PgIQPcD-M9FNqlskyy-j64k8yp_GCRmyAllAKXU5y2LQJYkuSsPvEdTb1iU-EsbdXxn3x_v31E2TdG0Ke6IcKuwDtTyvpzKq-juZxNKszwC8BUJWnoGD82yEPD2QqR2KfRPveWBKMobtH9Lvm1cNU_QmaPRkl08KvNQopXLRLe8dg/s3648/20221118_085454.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679690/blogger-import/223413787f862760fb57.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679699/blogger-import/d0437813bc8991c2eef7.jpg)
 
   
 
@@ -35,7 +35,7 @@ There were dogs everywhere and the views were incredible. Everything smelt of az
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlvZy5Q2kxlcv0_gALCJc7ANH8-mnwduZThdrPRPA0s8LVxX6pB9RBQNkp6WBZXmT1MWJYfymwgfp2KUacH7gNalgxmL44FbAUJpSusta3haqdqKBvS3URbsa-n8mMzD-Ng_ASQnyHOfdPsfaNjhrFS5gZuT3MowQ5KxS3N3FJO0qMRR2PH9c8mjKjjA/s320/20221118_085504.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlvZy5Q2kxlcv0_gALCJc7ANH8-mnwduZThdrPRPA0s8LVxX6pB9RBQNkp6WBZXmT1MWJYfymwgfp2KUacH7gNalgxmL44FbAUJpSusta3haqdqKBvS3URbsa-n8mMzD-Ng_ASQnyHOfdPsfaNjhrFS5gZuT3MowQ5KxS3N3FJO0qMRR2PH9c8mjKjjA/s4032/20221118_085504.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679704/blogger-import/4a90706f7f0eee22f007.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679713/blogger-import/e2098bfc4add9a605693.jpg)
 
   
 
@@ -45,7 +45,7 @@ We found a french pastry shop and couldn't resist!
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXYYKHscturQ5umAzXZtU65fEavaJhV3ORO3w6GQhJUtA5nLcE98Ms03AKV4PhaZANCnOm6yJX9hnQhUUUHYWFH_w6Rw9_jHbAxvCszTuQIwkWSWdoJvU_yUoCee-22OEPpkBER4u-ZcvIMKDB94yd4TfzdCzie5EuFOMyX2BpKUKMESxJyI-9cSvvMA/s320/20221118_103458.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXYYKHscturQ5umAzXZtU65fEavaJhV3ORO3w6GQhJUtA5nLcE98Ms03AKV4PhaZANCnOm6yJX9hnQhUUUHYWFH_w6Rw9_jHbAxvCszTuQIwkWSWdoJvU_yUoCee-22OEPpkBER4u-ZcvIMKDB94yd4TfzdCzie5EuFOMyX2BpKUKMESxJyI-9cSvvMA/s4032/20221118_103458.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679720/blogger-import/9f953014c695fba13d0e.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679727/blogger-import/ea522623f12ab470377d.jpg)
 
   
 
@@ -61,4 +61,4 @@ It was really neat seeing all the Christmas decorations but feeling warm weather
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDUD5naZXj7yfFMWg7lqbwQ_AJVHVIhSuTaGsUYhP-JCurttDcph9eD5R3kC-tM48wRx6KWJVcgYGWLe1hN0Mws2kdY6mpY26745TL1wF2DeQGIPQhIvK4jmjatPvgJ8uXn0ZCNgYvX5530p87PawRC1A9z58m40ntZGwcpzNMDU7w9z0k9cJqH4MQNg/s320/20221118_105706.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDUD5naZXj7yfFMWg7lqbwQ_AJVHVIhSuTaGsUYhP-JCurttDcph9eD5R3kC-tM48wRx6KWJVcgYGWLe1hN0Mws2kdY6mpY26745TL1wF2DeQGIPQhIvK4jmjatPvgJ8uXn0ZCNgYvX5530p87PawRC1A9z58m40ntZGwcpzNMDU7w9z0k9cJqH4MQNg/s1141/20221118_105706.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5sQowDUSKebjfM7fsN15vqqmQXVawyQm64rTdHAZdB5IgJSp_0d8MK4S8y_ZXVKQ7PT9SMWVKQVs9qYtSFZRwQg-C5P71iCkYjQV1xXHGkqMUiVooRV_KWZj107Gs3KyMtOF-qh3zhSrd_G5rNV_DD2oeno-cyTBKmhvcWmQzhJkkw5DJU4o74tqV2g/s320/20221118_105744.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5sQowDUSKebjfM7fsN15vqqmQXVawyQm64rTdHAZdB5IgJSp_0d8MK4S8y_ZXVKQ7PT9SMWVKQVs9qYtSFZRwQg-C5P71iCkYjQV1xXHGkqMUiVooRV_KWZj107Gs3KyMtOF-qh3zhSrd_G5rNV_DD2oeno-cyTBKmhvcWmQzhJkkw5DJU4o74tqV2g/s3439/20221118_105744.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679735/blogger-import/99763d88d5b8edf272e6.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679737/blogger-import/9e67fdb79ce900cb5ffc.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679741/blogger-import/2a22fb3b9728471ff7bd.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679745/blogger-import/dec3870f0a76d272d832.jpg)

@@ -14,25 +14,25 @@ location:
 
 After getting our caffeine fix, we returned to the tower and found out you can go to the very top of it and look out onto Pisa! That was our first stop! Something interesting I learned was that the original lean of the tower was 5.5 degrees. It is now 3.9 degrees of lean after some correction! We were impressed by how massive it was in person!
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEga57d1CO-WcGyTq63g6VpPsHNSp9XSrIb53XWvTdX3n_-udbVS3Vct90HehkWs0XCkewjDsfEHOsxXnpM4WIIeJDd-n8O79vYkKTEvS1MX6AWbtdrNZ1_kqMNQJt_5n_RJ3ys_XrABm4ZSHrvqOml6n36aNdeoFB_hHU0-uhcxiO76x99POB4I-Olp=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEga57d1CO-WcGyTq63g6VpPsHNSp9XSrIb53XWvTdX3n_-udbVS3Vct90HehkWs0XCkewjDsfEHOsxXnpM4WIIeJDd-n8O79vYkKTEvS1MX6AWbtdrNZ1_kqMNQJt_5n_RJ3ys_XrABm4ZSHrvqOml6n36aNdeoFB_hHU0-uhcxiO76x99POB4I-Olp=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675941/blogger-import/375a6d22201cf8959137.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675953/blogger-import/37a2e3dda741b9620389.jpg)
 
   
 
 
 We walked up the stairs which were pretty narrow when shared by those going up and those coming down. You can see where they have been worn down in the middle!
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEi1LTvBAE5r4inGjbEyQ5HWIFx0JWV9ZckAuxoO1jrftOOi-0AawDrwsdxM-qvxBKeqbIQ-BOJQmPicrIKRkZpZn3IgQ23BfLubJZJeg9BhwasLrr0ZvOPXh7yvQnFcMGTUW-ZHyGCMHH7EHrPMe6Cvu95P8hCIEnhyXZoFN009orOFC-bceV-XCeB6=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEi1LTvBAE5r4inGjbEyQ5HWIFx0JWV9ZckAuxoO1jrftOOi-0AawDrwsdxM-qvxBKeqbIQ-BOJQmPicrIKRkZpZn3IgQ23BfLubJZJeg9BhwasLrr0ZvOPXh7yvQnFcMGTUW-ZHyGCMHH7EHrPMe6Cvu95P8hCIEnhyXZoFN009orOFC-bceV-XCeB6=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675957/blogger-import/3c9bd352833da42ce095.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675977/blogger-import/275f849a22aa12d18fe3.jpg)
 
   
 
 
 Here is the view from the top! You can see the Mountains from one side and the coast from the other!
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjWCjis72KvxVjRyoomX4rckCHGKrO5XDz-owm5UXj04A063khW-R96r3upG56L2sqXIqneI0gibKkuuiDP9lrUbZHk-zMA8d44jQUHjD5mVdhpiFEwm7fCvaQA9-8gVUxWBO9ft2M5mzX95mpddv8k9gTrYq3NaTrWXZ1HkHjHzdk7YnQzsmoOgjdO=w300-h225)](https://blogger.googleusercontent.com/img/a/AVvXsEjWCjis72KvxVjRyoomX4rckCHGKrO5XDz-owm5UXj04A063khW-R96r3upG56L2sqXIqneI0gibKkuuiDP9lrUbZHk-zMA8d44jQUHjD5mVdhpiFEwm7fCvaQA9-8gVUxWBO9ft2M5mzX95mpddv8k9gTrYq3NaTrWXZ1HkHjHzdk7YnQzsmoOgjdO=s3648)[![](https://blogger.googleusercontent.com/img/a/AVvXsEixPcGDb27a188GXd57W_MqzcXjVBCG0nPJkfaQOmFFP7SJNULa1E056Xsz7zzGVtAmOYFuJHL71G0CPx3YLsbo-rxwvDiBXI9qKA9GoKVppAPeU2HFLt2KlsUH7Uw70vqWCYTtPlyz8QMs3UyUrCXrOOfovBWSxAbdDC2e98D_nRodPnT1snDeX_Mw=w298-h223)](https://blogger.googleusercontent.com/img/a/AVvXsEixPcGDb27a188GXd57W_MqzcXjVBCG0nPJkfaQOmFFP7SJNULa1E056Xsz7zzGVtAmOYFuJHL71G0CPx3YLsbo-rxwvDiBXI9qKA9GoKVppAPeU2HFLt2KlsUH7Uw70vqWCYTtPlyz8QMs3UyUrCXrOOfovBWSxAbdDC2e98D_nRodPnT1snDeX_Mw=s3648)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675981/blogger-import/ae04ebea3107feea015d.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675998/blogger-import/11445a4d62d3263b8eae.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785676003/blogger-import/0740d6afd4e7f4ea3639.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785676011/blogger-import/02b5c45415efa53ea8c7.jpg)
 
   
 
 
 There were several other sights to see on the grounds including a cathedral, baptistery, camposanto, and two museums.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEis-okFXjxs6C6Cp3kcvquuSKaiyF8fiFMvPinjgi3wgb2Oz1pR9cmn3KGSKSrShrn9fJuls-Tt4OMSYPcxp1T19bfax6HKEsa2pI5LYUYNDk48UU6z-_94snAKqo7aFrBk51gTIYrbu4oDejh73qg6ZPqF1hJ7bI664wd0VDuNkBwTL70gA4VpQc0M=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEis-okFXjxs6C6Cp3kcvquuSKaiyF8fiFMvPinjgi3wgb2Oz1pR9cmn3KGSKSrShrn9fJuls-Tt4OMSYPcxp1T19bfax6HKEsa2pI5LYUYNDk48UU6z-_94snAKqo7aFrBk51gTIYrbu4oDejh73qg6ZPqF1hJ7bI664wd0VDuNkBwTL70gA4VpQc0M=s4032)[![](https://blogger.googleusercontent.com/img/a/AVvXsEg5GXiFjDwk6-tu99iavN-u_6h7XmxmgurisO9WZHX0zXnM70B8ht56hW5NHMuXcSA1YYyOGGCigQv6vA9sdYnJKMYwScxsRYIcrBQjlCgH4luDAvbLURfmucsWjNolQrbgDsQ2sMRos5QvHXLY6OJzMhpZ88PbLMVpM175wJdutYWKcLOVHgT4HHTI=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEg5GXiFjDwk6-tu99iavN-u_6h7XmxmgurisO9WZHX0zXnM70B8ht56hW5NHMuXcSA1YYyOGGCigQv6vA9sdYnJKMYwScxsRYIcrBQjlCgH4luDAvbLURfmucsWjNolQrbgDsQ2sMRos5QvHXLY6OJzMhpZ88PbLMVpM175wJdutYWKcLOVHgT4HHTI=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785676016/blogger-import/a3f0329bd23f6073968d.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785676029/blogger-import/db006c8e75d9e9cd742c.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785676032/blogger-import/2ac62085a8c651121fe3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785676047/blogger-import/d15d4198f0c3ac539bbd.jpg)

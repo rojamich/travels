@@ -18,18 +18,18 @@ I was pretty eager to see the English Garden because we had seen it on the tv sh
 
 We strolled along through the park and enjoyed the scenery. The water was partially frozen over at some spots! 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEh5iDJScBlA5vq4qJG10Ztdfw_7U1MfxQEipqHMHNXFKrHZhgcOWN2I7aGFxdGIt0r-H_uRhnPcE84MMoN91BUpYKFVhsXIjH--J9YOcTgeo2I2RhQPj9f88Tj8BhDMPE-mtd2RjDfFkMA4Vu3jOBAKdcoew4oWxxhf7hLpGqLJZIO497bmwvRFTtBv=w296-h222)](https://blogger.googleusercontent.com/img/a/AVvXsEh5iDJScBlA5vq4qJG10Ztdfw_7U1MfxQEipqHMHNXFKrHZhgcOWN2I7aGFxdGIt0r-H_uRhnPcE84MMoN91BUpYKFVhsXIjH--J9YOcTgeo2I2RhQPj9f88Tj8BhDMPE-mtd2RjDfFkMA4Vu3jOBAKdcoew4oWxxhf7hLpGqLJZIO497bmwvRFTtBv=s4032)[![](https://blogger.googleusercontent.com/img/a/AVvXsEhShb8JcJ0AN-jQGynYZ6bstAHFTWLrIKFJ0qscfPH6encemZveUk5ZhQVYcSdReDcZFrFb2unat_xcUh6SXbZ_g-BBXGZ0DjQa8FRP5vHbb7jQMvXodonJ3u66I50rKuzGxkNWnIwFvS-fTkeTGC2gmNxsb-OCkPeh5lZUaNIJLyXe9SdxQX933cqr=w300-h225)](https://blogger.googleusercontent.com/img/a/AVvXsEhShb8JcJ0AN-jQGynYZ6bstAHFTWLrIKFJ0qscfPH6encemZveUk5ZhQVYcSdReDcZFrFb2unat_xcUh6SXbZ_g-BBXGZ0DjQa8FRP5vHbb7jQMvXodonJ3u66I50rKuzGxkNWnIwFvS-fTkeTGC2gmNxsb-OCkPeh5lZUaNIJLyXe9SdxQX933cqr=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677436/blogger-import/cce08ef304b9ed5ad1e3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677440/blogger-import/860b09235019df432105.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677448/blogger-import/04af5dba559a582144b3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677455/blogger-import/695b73b497690aa12b54.jpg)
 
 We even found a gorgeous waterfall, right in the middle of the park!
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEidgj_4i9SAG_FenYldFjIdg5OewlEfHjRBFUOy_tehDWgNLkOCtm4F0-dLUBSjUd1p6moNhoCj1LWUm4lfdTXI5YzlpqRUriaHaYLBd_NTeR_WQc4zTO-LOrvcqrzMEBTJuGKNcAzIJSWfnlm1bpmw_6pOdEdaQOXusWY6H6_4sYbj04ByFZ-VnlqV=w299-h225)](https://blogger.googleusercontent.com/img/a/AVvXsEidgj_4i9SAG_FenYldFjIdg5OewlEfHjRBFUOy_tehDWgNLkOCtm4F0-dLUBSjUd1p6moNhoCj1LWUm4lfdTXI5YzlpqRUriaHaYLBd_NTeR_WQc4zTO-LOrvcqrzMEBTJuGKNcAzIJSWfnlm1bpmw_6pOdEdaQOXusWY6H6_4sYbj04ByFZ-VnlqV=s3648)[![](https://blogger.googleusercontent.com/img/a/AVvXsEiso89WS8lhTlRJnjNimL5wXdBVPlDvX12lwJoSQanOjjyz5qG-SMo9_auIhIP2f0FBHE4NuBXA6UAk5-oRhIZLBHeqmMpexCk_fPfavhMeaCBsyzPFH6NfSdHYdw-swZLj_wGiPq9cem0frrGDlScVnb1LDtyC523duqBhrzM07FCIaTwcM7-ox2ry=w292-h219)](https://blogger.googleusercontent.com/img/a/AVvXsEiso89WS8lhTlRJnjNimL5wXdBVPlDvX12lwJoSQanOjjyz5qG-SMo9_auIhIP2f0FBHE4NuBXA6UAk5-oRhIZLBHeqmMpexCk_fPfavhMeaCBsyzPFH6NfSdHYdw-swZLj_wGiPq9cem0frrGDlScVnb1LDtyC523duqBhrzM07FCIaTwcM7-ox2ry=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677461/blogger-import/4cb96c8e242e8559e5a6.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677465/blogger-import/8aeccb71fc09db653aef.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677473/blogger-import/7b9b8bf38f1345a50ff6.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677479/blogger-import/5bb2e43d2ec44a9b2e62.jpg)
 
 There’s a big area for surfing the river – right in the park! Even in the freezing temperatures, people are surfing there! They have full wetsuits on and some of them wear helmets. They were fantastic! Idk how they could do that with it being so cold. I could barely handle the cold air!
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEiaOUaGsUCShPFeWX4XkxMzOXhQAt0_juZml6CD4H39-H-SstOKPHjHTDjDcPGBFUbwqrTZkJp-Yau4vcQmN9zWGCm9GNqFwl8ZDy0qNqF1ARVrL8H9hmpPT92blHcQoZZEM1IUfy-SilJNB_xcSj9JZHJ5cQa6XFav9r8Xd2Z0NYCo3xedze0wbzy2=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEiaOUaGsUCShPFeWX4XkxMzOXhQAt0_juZml6CD4H39-H-SstOKPHjHTDjDcPGBFUbwqrTZkJp-Yau4vcQmN9zWGCm9GNqFwl8ZDy0qNqF1ARVrL8H9hmpPT92blHcQoZZEM1IUfy-SilJNB_xcSj9JZHJ5cQa6XFav9r8Xd2Z0NYCo3xedze0wbzy2=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677485/blogger-import/e9c1256100f819ddd3c2.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785677492/blogger-import/ad55fb5797287e68f141.jpg)

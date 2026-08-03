@@ -20,7 +20,7 @@ Rather than take a free bus to the port (we had sat a lot that day) we walked 40
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTpmfGcG6CF41GjWZlyIKomGf_JBtuQK8KDpSubMneEjsyhF7_FZh_0cHhN-vVE5qpVXGk0uoVZTaGzphpxREC37ha4puvMujSrh0SYqYlF6tu8KI7V_d1rCWajIh7bbSol3aa_opSTt0fuXto12jVUBahM8O9X2WdBTnvt3OqHsg9OUlSGTCiOlOyNmA/w200-h165/20230727_114452.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTpmfGcG6CF41GjWZlyIKomGf_JBtuQK8KDpSubMneEjsyhF7_FZh_0cHhN-vVE5qpVXGk0uoVZTaGzphpxREC37ha4puvMujSrh0SYqYlF6tu8KI7V_d1rCWajIh7bbSol3aa_opSTt0fuXto12jVUBahM8O9X2WdBTnvt3OqHsg9OUlSGTCiOlOyNmA/s2958/20230727_114452.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD8maG6EzoEI3sdSPmZGQ_KhFhXAvC4S_PaoQ4LThIBU_3vU-s71jQ_LVWSLwM-zTkh4XVKsnnNwHn_Sgz-VZ2O9tF7GoCWMbugrCSRzLxMzgcc9JC6Bc20XqiVlA0zaIM9ErAVFiTFMMjjeJ80ywHSZlK3ubV2qox3axigvJtAJz6pQ6uxJNmPW3FGUw/w150-h200/20230727_114651.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD8maG6EzoEI3sdSPmZGQ_KhFhXAvC4S_PaoQ4LThIBU_3vU-s71jQ_LVWSLwM-zTkh4XVKsnnNwHn_Sgz-VZ2O9tF7GoCWMbugrCSRzLxMzgcc9JC6Bc20XqiVlA0zaIM9ErAVFiTFMMjjeJ80ywHSZlK3ubV2qox3axigvJtAJz6pQ6uxJNmPW3FGUw/s4000/20230727_114651.jpg)  
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785684215/blogger-import/7e9041f6085907939879.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785684224/blogger-import/336aa4bbb652b796dd32.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785684238/blogger-import/a7a8fd95a65ca5708380.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785684247/blogger-import/ce0b9c5ac3e3372d77cd.jpg)  
   
 
 
@@ -33,7 +33,7 @@ After eating, we explored the boat with Mario
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi980wRV1KjgV50Y7TKpUgEM0FmF5oeMQOHczLi7ukFGXE5XWg5q_PuxzxGjarDO_Utrz9aiwGSbZRE_oPF1R8Kc0YcFFvyJvxDJoHGfjCwzXI-iEiye7oMj3zIuCxr539oGprQg2BoLWFY7ow7z989rQD88C0hs945-eflwawkt5YbJ2xN8jIGWMvugnw/w200-h150/20230727_131442.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi980wRV1KjgV50Y7TKpUgEM0FmF5oeMQOHczLi7ukFGXE5XWg5q_PuxzxGjarDO_Utrz9aiwGSbZRE_oPF1R8Kc0YcFFvyJvxDJoHGfjCwzXI-iEiye7oMj3zIuCxr539oGprQg2BoLWFY7ow7z989rQD88C0hs945-eflwawkt5YbJ2xN8jIGWMvugnw/s4000/20230727_131442.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ4QGQPvaWK6hEe2OGsa_cVmt8OjhgTH2k1I-fzVZz3lWRBa5uCRFT3-rbzxZom2ldSEk1Cg8a4rTw8BfIJn87T3oxtJtm2HG1ihn1ZeM9NCHz3b5TpIXTda1Uy3axNY4MEND_kRsFcWJFXYAvEP4gMMvfIeGCK4Vr0zbuxhCBoIkQVhCbhvrrJhV3cUs/w200-h150/20230727_132056.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ4QGQPvaWK6hEe2OGsa_cVmt8OjhgTH2k1I-fzVZz3lWRBa5uCRFT3-rbzxZom2ldSEk1Cg8a4rTw8BfIJn87T3oxtJtm2HG1ihn1ZeM9NCHz3b5TpIXTda1Uy3axNY4MEND_kRsFcWJFXYAvEP4gMMvfIeGCK4Vr0zbuxhCBoIkQVhCbhvrrJhV3cUs/s4000/20230727_132056.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785684256/blogger-import/071f7e16cefb6bbc8e1c.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785684265/blogger-import/3e8f4208504d27b0773a.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785684275/blogger-import/6bea31b0d8db4d246013.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785684285/blogger-import/87c3ca7f21f9fa5fe5df.jpg)
 
   
  We scooped up some gelato along the way!
@@ -41,7 +41,7 @@ After eating, we explored the boat with Mario
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT2anf3LGgsaxCSanY2YqkVEtWkcYBI35Q9OMNvqjPGfr0hFI8tZzsN5nnA21OOGczrvm2D5ahzUK7NIgnQV2iw-kwELZ4C6WrQM1s9GUVZmJ88tMu1fDKhJHL2JRpVEfqtdJGYOLTs8YEJ7325vh6LHhIlSG9bp6ZwfzTTR59XMyLbUutaMKEXgYHHoY/s320/20230727_134013.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT2anf3LGgsaxCSanY2YqkVEtWkcYBI35Q9OMNvqjPGfr0hFI8tZzsN5nnA21OOGczrvm2D5ahzUK7NIgnQV2iw-kwELZ4C6WrQM1s9GUVZmJ88tMu1fDKhJHL2JRpVEfqtdJGYOLTs8YEJ7325vh6LHhIlSG9bp6ZwfzTTR59XMyLbUutaMKEXgYHHoY/s4000/20230727_134013.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785684294/blogger-import/67146d55b9e52e538645.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785684297/blogger-import/21b8bd9880f5265c6905.jpg)
 
   
 

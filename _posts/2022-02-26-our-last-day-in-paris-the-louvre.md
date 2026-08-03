@@ -16,18 +16,18 @@ We had just enough time to have one last breakfast Nutella crepe from Café De T
 
 Here we are before getting in line. Approximately 830am and already 50th in line! Before the doors opened at 9am, there were easily hundreds of people in line! 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEg1kXHe__wFijobKe4lB90KTDO_CxcqpIDN_2mOLWc6LyKGF17D4HjeLdeJdlDmLKvkPRJ0_YpyoI1psLLDbOX4A_IlwYpEPTtiRIPRn8jxD3lLd0h-byy023QL9ybuP4cKenZlXBfSo8EnfPOW9URUXIRv7WK-KClT1jGy9MHcehDdBeBDvPnzfFwd=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEg1kXHe__wFijobKe4lB90KTDO_CxcqpIDN_2mOLWc6LyKGF17D4HjeLdeJdlDmLKvkPRJ0_YpyoI1psLLDbOX4A_IlwYpEPTtiRIPRn8jxD3lLd0h-byy023QL9ybuP4cKenZlXBfSo8EnfPOW9URUXIRv7WK-KClT1jGy9MHcehDdBeBDvPnzfFwd=s3648)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785672760/blogger-import/cbea016eeea998940f61.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675036/blogger-import/d446cab9e9aa6af4e287.jpg)
 
 We intended to follow our Rick Steves Tour app but when it didn’t immediately take us to the Mona Lisa, we diverted.
 
 We navigated our way through a maze of hallways and finally found her! We were the first people to look upon her this day! According to the app, it took three years to paint the Mona Lisa.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEj-6i2JiSm5Mswemg9tSC6v9MnpxFjBRRFpSNhr-JzfRByJjRF15oQkkTPOZf4NZjtBldH6lyPwvNqAlugvnRZOG1xYdTBrjMEHMV2xRyTGpkTRYXheONwBb4SeKhS6_SKXAO4xQ0qId_TymZIJqqF6c9ToST97H6BPTHMMm7dRvVJfBkFi9wOg3DeX=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEj-6i2JiSm5Mswemg9tSC6v9MnpxFjBRRFpSNhr-JzfRByJjRF15oQkkTPOZf4NZjtBldH6lyPwvNqAlugvnRZOG1xYdTBrjMEHMV2xRyTGpkTRYXheONwBb4SeKhS6_SKXAO4xQ0qId_TymZIJqqF6c9ToST97H6BPTHMMm7dRvVJfBkFi9wOg3DeX=s4032)[![](https://blogger.googleusercontent.com/img/a/AVvXsEilwZ1hZeUF6E14foXMp5cIL5shNqR-dgv1fdjoa5b2_aUspCD3hKVZSb6eSjDItIfXiwU-lzbyDAQI8Z8Jasb539teTVvbH3fgNfXDqxn6tYxNdVC3oxrW3i_ZGVBpUnWPpOMuAOrVMxlFPoIHd4QlU_3QKLoJjn60WKOJgEoMHaJ397PlCTOGCepw=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEilwZ1hZeUF6E14foXMp5cIL5shNqR-dgv1fdjoa5b2_aUspCD3hKVZSb6eSjDItIfXiwU-lzbyDAQI8Z8Jasb539teTVvbH3fgNfXDqxn6tYxNdVC3oxrW3i_ZGVBpUnWPpOMuAOrVMxlFPoIHd4QlU_3QKLoJjn60WKOJgEoMHaJ397PlCTOGCepw=s3648)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675040/blogger-import/f52cdffe5a983eb3aad8.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675057/blogger-import/eaa2edf781a78c56f464.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675061/blogger-import/c85ced82e9812750f028.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675071/blogger-import/b829f1b48a5098c10a80.jpg)
 
 We restarted the museum (allegedly, the largest in the world!) and listened to the fabulous Rick Steve’s Tour that walked us through everything from ancient pottery to Renaissance paintings to Greek Statues. Here you will see Michael very excited about the Hercules pottery lol.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEhq48lV8rW9hppSqvGbSdWAboVd82yZpZoTFYKK1wFyNRssn5fPS3_VNVy-_u4ddm5Ex1j2Qg56T_EXj4WoflV6RqIzrkyK_Pw1G6fjLodNUnH3zZwbu83t-T5QkOPCDNLSWE0NT8A8wjfMFMAPg0gCo-zNLGIqK-L343HlL8Cm7vnX_T0CrgzUhBpt=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEhq48lV8rW9hppSqvGbSdWAboVd82yZpZoTFYKK1wFyNRssn5fPS3_VNVy-_u4ddm5Ex1j2Qg56T_EXj4WoflV6RqIzrkyK_Pw1G6fjLodNUnH3zZwbu83t-T5QkOPCDNLSWE0NT8A8wjfMFMAPg0gCo-zNLGIqK-L343HlL8Cm7vnX_T0CrgzUhBpt=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675075/blogger-import/b1a2516800da7bebda3b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675092/blogger-import/211b47e81d2c6d0b08f9.jpg)
 
 Here is the line for the Mona Lisa only an hour later (You cant see here, but the line snakes from wall to wall from the entrance to the room).
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEiE74Ee4qIYyW7Akrn4Y_vdXD_v69bNqLUf-CWuu9jreOziE-vAwpwtzn0VKMmqihTH_UvmLKIqrGh8R9-nRIb_XTb4k_QklmTipImUjixNIzBwz3trOmNU63z29A8MXRq_dVgW-aPo5k6ucIaAnP7zot8uUaGeTajvMgWbo-mtMtqZTREfoG-JPFxu=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEiE74Ee4qIYyW7Akrn4Y_vdXD_v69bNqLUf-CWuu9jreOziE-vAwpwtzn0VKMmqihTH_UvmLKIqrGh8R9-nRIb_XTb4k_QklmTipImUjixNIzBwz3trOmNU63z29A8MXRq_dVgW-aPo5k6ucIaAnP7zot8uUaGeTajvMgWbo-mtMtqZTREfoG-JPFxu=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675097/blogger-import/cfd3c7fe2cbd4b5b724f.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675110/blogger-import/09846d7f7d934c6eac52.jpg)

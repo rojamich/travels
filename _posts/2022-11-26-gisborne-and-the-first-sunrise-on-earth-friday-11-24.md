@@ -16,7 +16,7 @@ We spontaneously decided to make the drive to Gisborne on Thursday night rather 
 
 The view from our cabin was awesome and it was really cute and cozy there!
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiwzdx6Xc2FfSTbMPX3KvVSmnQtVUTI2anNFGDq9c7qAFUyAbpweH7iGh7lwsF9NXIBWy_cR8EEYRw5a7zdqRbEoaGByQpDJY7ERCPOWR-tIZWDd8ihDUDrOedAHeRPkmptZ-s2I36UlBHbkgfWeJ03hb9UY4jsvZXShdFnczbt5vGxbgXIv611QGNfw/s320/20221124_150953.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiwzdx6Xc2FfSTbMPX3KvVSmnQtVUTI2anNFGDq9c7qAFUyAbpweH7iGh7lwsF9NXIBWy_cR8EEYRw5a7zdqRbEoaGByQpDJY7ERCPOWR-tIZWDd8ihDUDrOedAHeRPkmptZ-s2I36UlBHbkgfWeJ03hb9UY4jsvZXShdFnczbt5vGxbgXIv611QGNfw/s4032/20221124_150953.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKbdrg06284bLP4UeHII_6lyg7L4v022FVelmdDXm83ZaQ7WHBRizEBFuXhBsfJzIKpCyAa6N2VF5lVWVSMwyxP9b2X44kDPObnbuC916FtoRc_8xBg5r7jKhhzzfhKu10rtB49vnLZ-eQ_3zqcgCdtP6KftVO0KH8dUefE1oESlGsGMVAQfhQjrmLGA/s320/20221124_152446.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKbdrg06284bLP4UeHII_6lyg7L4v022FVelmdDXm83ZaQ7WHBRizEBFuXhBsfJzIKpCyAa6N2VF5lVWVSMwyxP9b2X44kDPObnbuC916FtoRc_8xBg5r7jKhhzzfhKu10rtB49vnLZ-eQ_3zqcgCdtP6KftVO0KH8dUefE1oESlGsGMVAQfhQjrmLGA/s3954/20221124_152446.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680224/blogger-import/62dcb6c7ecec3166cb4a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680231/blogger-import/a960f5025604eb09e64e.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680243/blogger-import/3f6613d4f3aaa86b69a2.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680252/blogger-import/6cb7601356d616c582ed.jpg)
 
   
 
@@ -26,7 +26,7 @@ The view from our cabin was awesome and it was really cute and cozy there!
 
 We flânered around town a bit 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEBcN_0CfuK8VPr3nCTj-RvBhJqhyOlKRqGecozxCAdbzy_buTYpJ2-jB6Wq-nR3FusGOlUC7rg8-vzKGdy_H_PIekzY0ttEJ_YPI_5is8NclmMcs_A1KFAcfk0kDL1HQnY7bFyydUeEAWFVSW7h7Ky7BAHP7W9qVlPkSUlA_J5qji0U9fOEcuvkzKdw/s320/20221124_155712.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEBcN_0CfuK8VPr3nCTj-RvBhJqhyOlKRqGecozxCAdbzy_buTYpJ2-jB6Wq-nR3FusGOlUC7rg8-vzKGdy_H_PIekzY0ttEJ_YPI_5is8NclmMcs_A1KFAcfk0kDL1HQnY7bFyydUeEAWFVSW7h7Ky7BAHP7W9qVlPkSUlA_J5qji0U9fOEcuvkzKdw/s4032/20221124_155712.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZ_8YXhVTM4sikh8o9q_k0o14tRqCPC8zbnYz1YP5hNJBnNoA2AYlI8jGjjjrHXHqBP69orwWLfmhQ1FNEKeVg2w57EL5GIw66znXstvNbzPtwdD5LPxGehBUjmHKbQVLGfZcH6t7eJ1AFgWvvT4j9DqBJW7ZYJHzfoUlWkAPNqwkCwVbpyd-3JG-skA/s320/20221124_165104.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZ_8YXhVTM4sikh8o9q_k0o14tRqCPC8zbnYz1YP5hNJBnNoA2AYlI8jGjjjrHXHqBP69orwWLfmhQ1FNEKeVg2w57EL5GIw66znXstvNbzPtwdD5LPxGehBUjmHKbQVLGfZcH6t7eJ1AFgWvvT4j9DqBJW7ZYJHzfoUlWkAPNqwkCwVbpyd-3JG-skA/s4032/20221124_165104.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680261/blogger-import/2c09e1f826184d2478d0.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680270/blogger-import/ca276c8ab3805a0b04b2.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680273/blogger-import/608d950f5894a18eb293.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680277/blogger-import/68837da34b07593f8fd0.jpg)
 
   
 
@@ -40,7 +40,7 @@ We woke up at 445, made some tea/coffee and went down to the beach to set up and
 
 It finally didn't rain and we got to see a beautiful view from the coast.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrBdGZwKcQYCDHy0vficEkJbaZ-EPnzgnxSm8bkZTWfCypFmiNV9hp2iUgyRxvfivTFbSEksWGZczM8dWsj7ccrtUMkUm7XDbniMRqO5aNJe2B42yRz9lJrPK_vxgfotFZSusGTqoRswuuhXEkTQeYB--nVsc6-V3FyCARYx3x_PvxpQO_dLV1gZxjXg/s320/20221125_055253.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrBdGZwKcQYCDHy0vficEkJbaZ-EPnzgnxSm8bkZTWfCypFmiNV9hp2iUgyRxvfivTFbSEksWGZczM8dWsj7ccrtUMkUm7XDbniMRqO5aNJe2B42yRz9lJrPK_vxgfotFZSusGTqoRswuuhXEkTQeYB--nVsc6-V3FyCARYx3x_PvxpQO_dLV1gZxjXg/s4032/20221125_055253.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680282/blogger-import/5725eeb8c946aa8b9c00.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680292/blogger-import/b4aaf6b45a80a1857326.jpg)
 
   
 
@@ -50,7 +50,7 @@ It finally didn't rain and we got to see a beautiful view from the coast.
 
 I went for a run along the beach and it was challenging but rewarding. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilh-MFwWhqxN5M0xZkHurfYJQkgwPwFqmn93rZbv-_V__6VMn4byhzIMUX6kvN21TqPLUOINY6SHa0xpqW7ik1nYS30aCzkS5TctlnzcxkHEG9HmrGQ_fdtuk6wPFQsdvs5XVSUmZkWH4hNXYFetMHzDaOESKplYuD3EDvhcz9DqL257Rh2pi4BCwi-w/w200-h150/received_5568025299989855.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilh-MFwWhqxN5M0xZkHurfYJQkgwPwFqmn93rZbv-_V__6VMn4byhzIMUX6kvN21TqPLUOINY6SHa0xpqW7ik1nYS30aCzkS5TctlnzcxkHEG9HmrGQ_fdtuk6wPFQsdvs5XVSUmZkWH4hNXYFetMHzDaOESKplYuD3EDvhcz9DqL257Rh2pi4BCwi-w/s2048/received_5568025299989855.jpeg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFQkpGUb1-o5R0VGe3rrUi3VM0cQCb-KbAXGBKHIhK7Lf8PiVbAn-exu3m1l46raCotwWmz_2Qe5MjehPBz-Wp_Jj_3SdXE50huDq2UWFlZWz6rKkWxIzcIMhMJ5HlF0tKNMMiholhSibaBi6yXzIWk3Xl39N04x9WywOgI12OLA-TpbeC5OheS4385w/w200-h150/received_6020287451328632.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFQkpGUb1-o5R0VGe3rrUi3VM0cQCb-KbAXGBKHIhK7Lf8PiVbAn-exu3m1l46raCotwWmz_2Qe5MjehPBz-Wp_Jj_3SdXE50huDq2UWFlZWz6rKkWxIzcIMhMJ5HlF0tKNMMiholhSibaBi6yXzIWk3Xl39N04x9WywOgI12OLA-TpbeC5OheS4385w/s2048/received_6020287451328632.jpeg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680300/blogger-import/69ece08e96f5f103bb96.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680302/blogger-import/d30510ebdcd9dfa058c1.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680305/blogger-import/113a0130437d96f7b9d7.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680307/blogger-import/032a8c552ce4d2aad0f9.jpg)
 
   
 

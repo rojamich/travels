@@ -16,18 +16,18 @@ We caught an early morning train out of Florence to Pisa, Italy. It was hard to 
 
     The train station storage locker was manned by a sketchy guy who said it would be 5€ per bag. Despite the sign saying it was 5€ per person. It was also unsecured so we noped right out of there and headed for a storage locker about 8 minutes away from the station. It was secured and cheaper! We felt pretty good about that decision and headed off in search of the leaning tower! Mike opted for his rain jacket that covers his eyes and I opted for my umbrella lol. How cute is that pretend upset face??
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEiunk8wNoRoiTeEkIO9PuKq-HSDtx4QcJe_IK4VMEmzDzeZdhUIfbSdSLN5addolwa3lZYH87zZk1IIH8GfUwlbYGGTVK9aAczVXuaCTtNg2Xn5guLblpC7eZFjMhMof9vx9wZ2vC7kUhQPWJ_4v40sv5xkr2_3vF2gUrzQH8gQeNlGz_ew6V1Yfr8O=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEiunk8wNoRoiTeEkIO9PuKq-HSDtx4QcJe_IK4VMEmzDzeZdhUIfbSdSLN5addolwa3lZYH87zZk1IIH8GfUwlbYGGTVK9aAczVXuaCTtNg2Xn5guLblpC7eZFjMhMof9vx9wZ2vC7kUhQPWJ_4v40sv5xkr2_3vF2gUrzQH8gQeNlGz_ew6V1Yfr8O=s3648)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675693/blogger-import/b3fcc2b48f86ba7d3a7e.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675703/blogger-import/bba7045dc7a6bda837bf.jpg)
 
   
 
 
 We made it to the tower before most of the other tourists could flood the area and we figured out how to take the cheesy leaning tower photos! These two are my favorites.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEiqrWiIZNsMnifJawNbX8d_V5Rcx44VogQm7MhWHF-KSJt0C-2zZEC7X2o1cdtmRgmhzM0kZ_5j8wZFzroM_etBoMM5G0CHqwz6Dmd2YhBPC5atH7IFXa9yp6ShQMpVGyCcY4seOY3jbNklZ7Z8CpbpE0zs5QRLr8qYWFteyVDONSCFWh8u_QUlhBz6=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEiqrWiIZNsMnifJawNbX8d_V5Rcx44VogQm7MhWHF-KSJt0C-2zZEC7X2o1cdtmRgmhzM0kZ_5j8wZFzroM_etBoMM5G0CHqwz6Dmd2YhBPC5atH7IFXa9yp6ShQMpVGyCcY4seOY3jbNklZ7Z8CpbpE0zs5QRLr8qYWFteyVDONSCFWh8u_QUlhBz6=s3596)[![](https://blogger.googleusercontent.com/img/a/AVvXsEiQa-4hP_A37-GbfmfZpBqCCTug4thkiHhB58QOS73mt6ZdSbGxSVqLtvjvWcUM2tH22TXTcHPZQbC_qAksoTo6zQZgOT6jUQ7_BleicFJUhTOVlGyGHNftCKEMHtAaYpa-o2Lf0TKNVXNKho4pRkD8rgh655VsoWnpQJngc7Jw4sdDvimtUhaMtLaQ=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEiQa-4hP_A37-GbfmfZpBqCCTug4thkiHhB58QOS73mt6ZdSbGxSVqLtvjvWcUM2tH22TXTcHPZQbC_qAksoTo6zQZgOT6jUQ7_BleicFJUhTOVlGyGHNftCKEMHtAaYpa-o2Lf0TKNVXNKho4pRkD8rgh655VsoWnpQJngc7Jw4sdDvimtUhaMtLaQ=s4001)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675707/blogger-import/a58f781c8c49d4deef8b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675720/blogger-import/aec97c174d143b12ab8a.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675725/blogger-import/38d7d94e50ce644a43c4.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675733/blogger-import/3723b8aae49305d8ed3b.jpg)
 
   
 
 
 Since we nailed the photos before it was time to enter the various sights at the leaning tower, we set off for some coffee! This is where I found my only true caramel latte in all of UK and Europe. Aka more caramel than coffee. It was spectacular!
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjRTsl7VmTxIII7q8EKh7AxINya-0n6w09i3m1B__yJpBe9X7loS18U1qZOlKdz7Rfs9Kmm7nVjMHvNVbi93D7kS35chcuWpNSZOsg1F3Hd-mGGSwgQzLIROACMleRnaUHw6zPHQ1NdM4P-_NV-GHhkKDveHCUV58LWn7JCAvBEwjgAujx3-fq2f3EZ=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEjRTsl7VmTxIII7q8EKh7AxINya-0n6w09i3m1B__yJpBe9X7loS18U1qZOlKdz7Rfs9Kmm7nVjMHvNVbi93D7kS35chcuWpNSZOsg1F3Hd-mGGSwgQzLIROACMleRnaUHw6zPHQ1NdM4P-_NV-GHhkKDveHCUV58LWn7JCAvBEwjgAujx3-fq2f3EZ=s2944)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675738/blogger-import/046394bcb678c1e643df.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785675743/blogger-import/c7bbeae78d5eea5ed2ae.jpg)

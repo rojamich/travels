@@ -22,7 +22,7 @@ When we arrived at the station, we had to take a metro to the main train station
 
 We hopped off the train and rushed to the main section of the terminal. Out of the corner of my eye, I was looking at the pastry shops for gingerbread cookies. It was the only thing we hadn’t accomplished in London before we left for Belgium and we didn’t have any time to go into the city to find some this time. Against all odds, I SAW ONE!!!! HOW???? It wasn't even Christmas time!?
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvrieMZfpGGE2IJ4LNX_Pg1qWfvue1ZQGX5-qx8d8H9M9HSw49Q8e1MKlC3YSHPqWYkHfgbLBmbzkMVo9KKDW8jIwpm7BcDoh0VaEhbYq1_OU99VOYI_nZxTiGMTTzi0yP3rAqiJaRPdXGKPXwpvMo8QsUkoE4B1q-yyIRgEofWDQJ6A0w6vrRgnTp/s320/20220317_174614.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvrieMZfpGGE2IJ4LNX_Pg1qWfvue1ZQGX5-qx8d8H9M9HSw49Q8e1MKlC3YSHPqWYkHfgbLBmbzkMVo9KKDW8jIwpm7BcDoh0VaEhbYq1_OU99VOYI_nZxTiGMTTzi0yP3rAqiJaRPdXGKPXwpvMo8QsUkoE4B1q-yyIRgEofWDQJ6A0w6vrRgnTp/s3648/20220317_174614.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679511/blogger-import/0b6acaa7e205d99f8519.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785679514/blogger-import/3cecb4328892d4bf4462.jpg)
 
   
 

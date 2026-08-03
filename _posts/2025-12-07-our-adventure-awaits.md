@@ -16,7 +16,7 @@ tags:
   - Vietnam
   - Flights
 ---
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB3XCYyonVKg5FSF580CB8lWrG19o5Ym5N1nxE5dJl2LFBFQN85savyI53QYHEfMkGwXoxkKvJ7PK6zCAJ0bnkdgh9yMkQZC3vv09qKoMwHbC5pPTpRUsr_ID_ev8meqpxnUyRkCbfuWZEFq2WIgvpIkkanbKqfJ31-OFGKy2U_FxDhXEJMBCBXB6NGnXX/s320/20251206_224155.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB3XCYyonVKg5FSF580CB8lWrG19o5Ym5N1nxE5dJl2LFBFQN85savyI53QYHEfMkGwXoxkKvJ7PK6zCAJ0bnkdgh9yMkQZC3vv09qKoMwHbC5pPTpRUsr_ID_ev8meqpxnUyRkCbfuWZEFq2WIgvpIkkanbKqfJ31-OFGKy2U_FxDhXEJMBCBXB6NGnXX/s4000/20251206_224155.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715824/blogger-import/4ca6900c5358c99dde41.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785715828/blogger-import/972ccce2690216a6db64.jpg)
 
  Xin chào! (That means Hello in Vietnamese!) Mike and I have been taking Vietnamese lessons to prepare for our trip!
 

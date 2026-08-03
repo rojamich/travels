@@ -14,19 +14,19 @@ location:
 
 We woke up bright-eyed and bushy-tailed Wednesday morning to start exploring the touristy areas of London! The best meal we enjoyed so far was had at Sista’s Café, near our Airbnb. The caramel was so smooth in my latte and the breakfast sandwiches were indescribably delicious! We took our food to go and ate underneath the London Eye, in front of the Thames River.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEi3PchyhEODcKdqBG44vGAd0g5fQwFdgrYYr4gTZbxE3bUwwFpMvGZ6eUIVVg3gz7Ai3BY-ZPNZisJ3Mb-RokMY3UgwT0KcwW-icYjWQy_6Ze5T_UN8xi5wija34ERttdSmCMLmND0wrWKbHAGUrDiZqrVfBgaC9-R7xckPjKaopKLRdCNYI0auzOQv=w293-h220)](https://blogger.googleusercontent.com/img/a/AVvXsEi3PchyhEODcKdqBG44vGAd0g5fQwFdgrYYr4gTZbxE3bUwwFpMvGZ6eUIVVg3gz7Ai3BY-ZPNZisJ3Mb-RokMY3UgwT0KcwW-icYjWQy_6Ze5T_UN8xi5wija34ERttdSmCMLmND0wrWKbHAGUrDiZqrVfBgaC9-R7xckPjKaopKLRdCNYI0auzOQv=s4032)[![](https://blogger.googleusercontent.com/img/a/AVvXsEjP8LKFEpnH1z5fjVPSN2ONFITh9GHlvq3FPZQracKYH_2lKHE3A4fRsJpKeLbOxSq5Lm3KwmFXm7Om80iGbLVo2K_dzscn4eraQdimstfOb184YckK858g6c5uqbUHhpwwSCzq6QZQYGloKNxBE2gVNgvsbEUw6Lb4OQGmOnYbs8UzbzeGBSlKSBt-=w293-h220)](https://blogger.googleusercontent.com/img/a/AVvXsEjP8LKFEpnH1z5fjVPSN2ONFITh9GHlvq3FPZQracKYH_2lKHE3A4fRsJpKeLbOxSq5Lm3KwmFXm7Om80iGbLVo2K_dzscn4eraQdimstfOb184YckK858g6c5uqbUHhpwwSCzq6QZQYGloKNxBE2gVNgvsbEUw6Lb4OQGmOnYbs8UzbzeGBSlKSBt-=s4032)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785669987/blogger-import/3c5a44f02973c901f292.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785670020/blogger-import/39493218e6cc88be0cbe.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785670025/blogger-import/95b52980bc2a3eb66185.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674388/blogger-import/609e4dac76c2a9ec5672.jpg)
 
   
 
 
 On our way to watch the changing of the guard, we walked past Big Ben, Westminster Abbey, Parliament and through St. James Park.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjBzGmAHDD9krZ5RFikHzE9CzE5MJpc6FewkzLMt46RnOQ8n7pNSSTz_9iXSnW9TW2E960k5SpBJXRygsqAjd-1jIJ9hxLl6OrRH3qjx9BSWv_iIIab9UHin78nKKquZvmPcOXRBRl7SFojBHM5ltJdQokuylQPfHuwN9oZAVy3ugvpr71LT0_Y_OV-=w320-h274)](https://blogger.googleusercontent.com/img/a/AVvXsEjBzGmAHDD9krZ5RFikHzE9CzE5MJpc6FewkzLMt46RnOQ8n7pNSSTz_9iXSnW9TW2E960k5SpBJXRygsqAjd-1jIJ9hxLl6OrRH3qjx9BSWv_iIIab9UHin78nKKquZvmPcOXRBRl7SFojBHM5ltJdQokuylQPfHuwN9oZAVy3ugvpr71LT0_Y_OV-=s2817)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674393/blogger-import/6a1ff47ca5552ed1f4d2.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674427/blogger-import/2de8dc54ae9a760c9b97.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEgoOhc_EwwEeYe32zp-AKXTF25ODuOftJKx0kLXEyjATK-oVUyO-OtwrHGfi7o10f4mxZho7wdur1lmmRaDi7ZMG68vh1NG5U4nQIEqOpOwibssyxYDjJ1ifl8MgdaATt5J3YnMXBMobSrdRg7qctlFSHstJGckSYQXK78kWaXeyt15CXijw4g5Q2An=w260-h173)](https://blogger.googleusercontent.com/img/a/AVvXsEgoOhc_EwwEeYe32zp-AKXTF25ODuOftJKx0kLXEyjATK-oVUyO-OtwrHGfi7o10f4mxZho7wdur1lmmRaDi7ZMG68vh1NG5U4nQIEqOpOwibssyxYDjJ1ifl8MgdaATt5J3YnMXBMobSrdRg7qctlFSHstJGckSYQXK78kWaXeyt15CXijw4g5Q2An=s4288)[![](https://blogger.googleusercontent.com/img/a/AVvXsEhRZSo_-w46g_ChJO2bqcfHIk838XbCUun2MH2fpXNiRkIwFPeY5s4jhVRUIURgc5lWTEgqU2p24NBLQhA6cGxsuPkhCBBuzCbQUErdB7I7aQGYI1f6uDTXRtcglrJmTaE0HRf-zTsowbu8M4tmmboGh29uMFJF2sey07AePF83kqea8ahJ_paSHGQR=w267-h178)](https://blogger.googleusercontent.com/img/a/AVvXsEhRZSo_-w46g_ChJO2bqcfHIk838XbCUun2MH2fpXNiRkIwFPeY5s4jhVRUIURgc5lWTEgqU2p24NBLQhA6cGxsuPkhCBBuzCbQUErdB7I7aQGYI1f6uDTXRtcglrJmTaE0HRf-zTsowbu8M4tmmboGh29uMFJF2sey07AePF83kqea8ahJ_paSHGQR=s4288)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674431/blogger-import/fd82f628a8df8dbc24f6.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674510/blogger-import/2ae83910b0ba8b0022d2.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674514/blogger-import/31834297f6381ab64bdc.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674563/blogger-import/3e6e08c2a2a2a8eb94f3.jpg)
 
   
 

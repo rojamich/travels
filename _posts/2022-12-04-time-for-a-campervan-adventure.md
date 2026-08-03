@@ -14,7 +14,7 @@ location:
 
 Day 15 and December is already here! I got one last run in down by the lake of Queenstown and soaked up the scenery.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFnZleLpSBQpaXK7MSSbrxDEfqdtV9OawQQzFOWrXbKc2fKWb_z5GIrRgALX-JKYz9eLYYA5S2Tl79Ek7_-N5PCmDbeL4S0zVHag9bIg6SKkrH9iX5hVLQm99sm0wQf6Ow5DoHQpK9QUVZ3hdnt6ff73iPRLlkeeM2Pvj0CHcWk7cPWTQMHE3QLnTj7Q/s320/20221201_072131.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFnZleLpSBQpaXK7MSSbrxDEfqdtV9OawQQzFOWrXbKc2fKWb_z5GIrRgALX-JKYz9eLYYA5S2Tl79Ek7_-N5PCmDbeL4S0zVHag9bIg6SKkrH9iX5hVLQm99sm0wQf6Ow5DoHQpK9QUVZ3hdnt6ff73iPRLlkeeM2Pvj0CHcWk7cPWTQMHE3QLnTj7Q/s4032/20221201_072131.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibYihqg94FQVHHwnRQT_Loj4cvU02h7JgOvRlN0BXzQgjGVq0nWBhQ72oTFARt8KA_L0Li7pzvg_YQfD2Z_WpQdC_V3gTCSp8LhrAOm5vr8vot3IgNZPdhyl20hosK7rnppMWsmDHy66JJVlhkAVzTtYj03iFOlpf6G5oVyjeHfj6MuJ4sv_Qq2VRiSA/s320/20221201_072611.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibYihqg94FQVHHwnRQT_Loj4cvU02h7JgOvRlN0BXzQgjGVq0nWBhQ72oTFARt8KA_L0Li7pzvg_YQfD2Z_WpQdC_V3gTCSp8LhrAOm5vr8vot3IgNZPdhyl20hosK7rnppMWsmDHy66JJVlhkAVzTtYj03iFOlpf6G5oVyjeHfj6MuJ4sv_Qq2VRiSA/s4032/20221201_072611.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680666/blogger-import/e197186dd555d7216c40.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680670/blogger-import/b57115058c8e4f3e9339.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680676/blogger-import/7b7e32553a0a6fb56fce.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680690/blogger-import/e4749f77d01c0ac6108c.jpg)
 
   
 
@@ -24,14 +24,14 @@ After a good breakfast we were on our way to pick up our home for the next five 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKNKvI2wC62ANJCTqIUzBETIiC5V9wDxp1vcsDCaipjQSunIWOG-aCFo11L4-luo4HsxRttSl8dNqZ5N4WINPqQt8DCZkDk0vaGV1DBpV0Hsv6L7F0OIYwkT88u9uwZ8-LhRhSVyFCylhutiKKGualFchL3mP6ZIr5oGdhPt_8d2aU_p8ckkdZYKLb-A/s320/20221201_104351.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKNKvI2wC62ANJCTqIUzBETIiC5V9wDxp1vcsDCaipjQSunIWOG-aCFo11L4-luo4HsxRttSl8dNqZ5N4WINPqQt8DCZkDk0vaGV1DBpV0Hsv6L7F0OIYwkT88u9uwZ8-LhRhSVyFCylhutiKKGualFchL3mP6ZIr5oGdhPt_8d2aU_p8ckkdZYKLb-A/s2972/20221201_104351.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680698/blogger-import/2122f340af43583ed79b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680707/blogger-import/734f74c40a982b58d815.jpg)
 
   
 Here are a couple of cool things I saw at the grocery store here! A juicer, a pineapple cutter, and a potato chart. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj96m9644pdFAK7_A1Z4fIgS2X-rEvUeKCeVt9B-x-3YAgZg_VMbzwkcoWBuOOg47zsmB8p8Wl0c27zlMcs1RgSNhMpOgDwkOfzf9Wm7pUrNh1b-lOpfVJ9r5JutZ65TWHJFcNSXG36aEalrQqQaaBQWHAFUu-nKPLztOMHP3iWYi7XmTwS6fdgYDU0Pg/s320/20221129_121334.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj96m9644pdFAK7_A1Z4fIgS2X-rEvUeKCeVt9B-x-3YAgZg_VMbzwkcoWBuOOg47zsmB8p8Wl0c27zlMcs1RgSNhMpOgDwkOfzf9Wm7pUrNh1b-lOpfVJ9r5JutZ65TWHJFcNSXG36aEalrQqQaaBQWHAFUu-nKPLztOMHP3iWYi7XmTwS6fdgYDU0Pg/s4032/20221129_121334.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQmNlQEB-HhGFT-vmHGSrayiUfIi7mxY_ewWSaC28-jqC3blDwp_BerJb2IFAyajrCwxvPPF8QsNRx6D7_IUfdT7YZY-RMfe8fJEhE6FnCrMmwGQHUF9z32UodUxMPzyrwR-Nsd11MRUL18y2ItgDZDGHnbfXurKCSGEBJd4jRI2PUzpqhoKz1MX6PlQ/s320/20221201_105711.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQmNlQEB-HhGFT-vmHGSrayiUfIi7mxY_ewWSaC28-jqC3blDwp_BerJb2IFAyajrCwxvPPF8QsNRx6D7_IUfdT7YZY-RMfe8fJEhE6FnCrMmwGQHUF9z32UodUxMPzyrwR-Nsd11MRUL18y2ItgDZDGHnbfXurKCSGEBJd4jRI2PUzpqhoKz1MX6PlQ/s4032/20221201_105711.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680720/blogger-import/b12b0a2dd0638294d63b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680723/blogger-import/81c6fe01150e1929c173.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680727/blogger-import/971378762d73d3fad858.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680731/blogger-import/bda6040eddac2aeec4c0.jpg)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWEOzAOfTuJnfDKZbVFU3j1LerSEgh8HDzwpI6SRxFlOyzr33Q6ALD5YCDldFvkJxfP-opxVPEEOSEb7EaHUDcH0B8LjAd2ocYSgktUhV9hlyNK_P_NIgYb7GfrkXZR9QjPLyNALgMeZBKJm0El7L02cNSOENh9oTLOdyHwpuuCF7CoMb1J1ilS69XqQ/s320/20221204_080130.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWEOzAOfTuJnfDKZbVFU3j1LerSEgh8HDzwpI6SRxFlOyzr33Q6ALD5YCDldFvkJxfP-opxVPEEOSEb7EaHUDcH0B8LjAd2ocYSgktUhV9hlyNK_P_NIgYb7GfrkXZR9QjPLyNALgMeZBKJm0El7L02cNSOENh9oTLOdyHwpuuCF7CoMb1J1ilS69XqQ/s2646/20221204_080130.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680734/blogger-import/38e4a3da754437bc802c.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785680737/blogger-import/0e0a5dff5c7763463d47.jpg)

@@ -14,7 +14,7 @@ location:
 
 Sadly, the Notre Dame is still closed due to repairs from the 2019 fire so we were unable to enter it. The outside was surprisingly intact though!
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEh5iASBClok-qMBK8FbWgD4I8U6Mfm-u-7SlWjYFbrusiMtqF4FL0a47_nVBfM6mtNJ8fi3mgcY0ZSfwcm0y3V5TADFiqyYM14QJmN_UP2pxGNSd4rJglLym_cZyHLrDZEN1PfzRIDDxMvLr2D-evZb5GKHecMnaK8NJLbcSUTtjv8YQqx-fYdHid0_=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEh5iASBClok-qMBK8FbWgD4I8U6Mfm-u-7SlWjYFbrusiMtqF4FL0a47_nVBfM6mtNJ8fi3mgcY0ZSfwcm0y3V5TADFiqyYM14QJmN_UP2pxGNSd4rJglLym_cZyHLrDZEN1PfzRIDDxMvLr2D-evZb5GKHecMnaK8NJLbcSUTtjv8YQqx-fYdHid0_=s1976)[![](https://blogger.googleusercontent.com/img/a/AVvXsEjYZ_y6C39cZzg1pSffbE1gvRoavuyPMhTT7WM6mA3GXH3Vza3S_vqC9Aeam9ujr1W_LSuJNvVCxhje4y67x9cMK9eWL_l9z9zRbK_Ht5MpwHE9EcfymwJ2uPrEth9_djhO5qmswxtUREeCdZ6reBduAW0nKIMZCjhG4k8j6ua4y8X3cu58v5bJ1Dqe=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEjYZ_y6C39cZzg1pSffbE1gvRoavuyPMhTT7WM6mA3GXH3Vza3S_vqC9Aeam9ujr1W_LSuJNvVCxhje4y67x9cMK9eWL_l9z9zRbK_Ht5MpwHE9EcfymwJ2uPrEth9_djhO5qmswxtUREeCdZ6reBduAW0nKIMZCjhG4k8j6ua4y8X3cu58v5bJ1Dqe=s3648)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785672155/blogger-import/ba175c20980d26f237d8.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785672163/blogger-import/f9e5b2f309d6c02705f2.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785672168/blogger-import/3739a5354703a134efd3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785672183/blogger-import/b06e3be98ad4bf85f9e3.jpg)
 
   
 
@@ -27,7 +27,7 @@ Course 1
 
 Chicken Liver Mousse with Bread – Holy crap this was amazing!!!  I _never_ thought I would like liver???
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEgqmwgu4LnG-bgR-_nPvEtnGeu-QJN4rtOwgA_WHR0VAuaNNVe4tjW0aVl4xxLH8Lc7rUEZED_6SdECKPkzV_PCmkT9NMjeOzZ7LYszXJ42FyjzO7Zyb2I9d4aTqVJqhRkR-jzRRrbVycGAtqBBsKFpjcWEd6bCRbL-030Muw7wfM7vYg-3Z9cGcnBh=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEgqmwgu4LnG-bgR-_nPvEtnGeu-QJN4rtOwgA_WHR0VAuaNNVe4tjW0aVl4xxLH8Lc7rUEZED_6SdECKPkzV_PCmkT9NMjeOzZ7LYszXJ42FyjzO7Zyb2I9d4aTqVJqhRkR-jzRRrbVycGAtqBBsKFpjcWEd6bCRbL-030Muw7wfM7vYg-3Z9cGcnBh=s1600)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785672187/blogger-import/fccd58253cd2da8ebf41.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785672192/blogger-import/7c0b0f55540f83581f20.jpg)
 
 Chestnut Veloute, Onions Cream Soup
 
@@ -36,7 +36,7 @@ This soup was unlike any other soup. It was brilliant. Here is a photo of me bei
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjJW_xMgHaz3_ALhNMoYx76cyDcpvwQycax8Hlm9RiuhgqqZFo8PnypgvVlb5b45E_svq01kTV5m312KOzv1ZH1STDfgmxrXXrBi3N2Nzacw-dZjnfpBhSX302KmH06lweBv6oHRJi3Au8cHEgdxMgj6zaOWKHQ-Cvcd9XhYuoJjENBw9fi65d5fqla=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEjJW_xMgHaz3_ALhNMoYx76cyDcpvwQycax8Hlm9RiuhgqqZFo8PnypgvVlb5b45E_svq01kTV5m312KOzv1ZH1STDfgmxrXXrBi3N2Nzacw-dZjnfpBhSX302KmH06lweBv6oHRJi3Au8cHEgdxMgj6zaOWKHQ-Cvcd9XhYuoJjENBw9fi65d5fqla=s1600)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674864/blogger-import/58e853949e0fe52d01a7.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674868/blogger-import/ef41aa8e07eaa1a1e675.jpg)
 
 Course 3
 
@@ -47,7 +47,7 @@ I was really nervous about trying this dish so I pre-livered some bread to get r
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEjoRHE5EZoToiC4kekAhDW3owVnQIwtfCWdXqe7-rDuu8GE11zQujz05bFnrmu5jJY7io5YuhVZ_oz-O9gMovnehiBycWWlTqQfAeivyqITrp0RLIdKhlIWAg-yp_e_gyv0mQgI-EKUk9AT4bIdCRYYSuJ3HCGzfxBBd4WaTeNIIT99q8kHb3rAOTqU=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEjoRHE5EZoToiC4kekAhDW3owVnQIwtfCWdXqe7-rDuu8GE11zQujz05bFnrmu5jJY7io5YuhVZ_oz-O9gMovnehiBycWWlTqQfAeivyqITrp0RLIdKhlIWAg-yp_e_gyv0mQgI-EKUk9AT4bIdCRYYSuJ3HCGzfxBBd4WaTeNIIT99q8kHb3rAOTqU=s1600)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674878/blogger-import/ffe4db47c61ae8627bf4.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674882/blogger-import/0858bd93aa9eec6a6ebd.jpg)
 
   
 
@@ -58,7 +58,7 @@ Duckling Filet with Roasted Foie Gras, Mushrooms and Carrots
 
 This was _very_ fancy and very good! Michael loved it! Unsurprisingly, the potatoes were my favorite part of this dish lol.
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEila1bKw5mLaKiXkj1WKhwoGgLvcgTHYZ0aAGN4EGJ7QFGVJgh5F9c1a7atuqyp61Tiv4b8Ut69f2zLleUjjWbQrDvvLG9nlwGM9FSEqAd-nGVhS2UhFB5epvfaKZbP4WtND6EiCi0uUh3XyWtmMf8db2x8jZL7u5MpC98lWHmIdlIxk1M_tGWr8Up0=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEila1bKw5mLaKiXkj1WKhwoGgLvcgTHYZ0aAGN4EGJ7QFGVJgh5F9c1a7atuqyp61Tiv4b8Ut69f2zLleUjjWbQrDvvLG9nlwGM9FSEqAd-nGVhS2UhFB5epvfaKZbP4WtND6EiCi0uUh3XyWtmMf8db2x8jZL7u5MpC98lWHmIdlIxk1M_tGWr8Up0=s1600)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674885/blogger-import/38eeeb47505b8b03384a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674888/blogger-import/2bf719a85e6906209199.jpg)
 
   
 
@@ -78,7 +78,7 @@ Coffee shops with syrups are VERY hard to find in Paris! Apparently, people like
   
 
 
-![](https://blogger.googleusercontent.com/img/a/AVvXsEhvB-PVPhYlRwL0NJn4kD5jk4TTYJtEEmlEUfxNIP6DqivWuJ9CglAaGURe7WtCu84FXZ2nOzmkFFo_LFY7_S-RaFk0eDDTxMj5KdP5MdvdQo0_HA-Ddzfh7w-7mhkJ6fDRaP6qimbENaS91TNcoksf07eXReEQEDwT-bII3hG7zzJNUNqfMq-unOt8=s320)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674891/blogger-import/8ab2becd5323eb0fc81a.jpg)
 
   
 
@@ -90,4 +90,4 @@ We ended the day with a beautiful view of the Eiffel Tower 💓 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEg1JYQpEIUSpstt4X47kUJO6O9GU6R5fd1hs-nm_8jKf62X1RquKFTH_Szk4OLOyjUC0ho-Yd7BknumCS3GbLhZPZTGNrk4RXrYHOoS6Vs2Tw541rcXSFluRB6iHdFqW0vIpcNz6MRQOUbuzm8tKd_aojkmr9SaqVNAfZunsJB2D17pTrsiL69SbCO5=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEg1JYQpEIUSpstt4X47kUJO6O9GU6R5fd1hs-nm_8jKf62X1RquKFTH_Szk4OLOyjUC0ho-Yd7BknumCS3GbLhZPZTGNrk4RXrYHOoS6Vs2Tw541rcXSFluRB6iHdFqW0vIpcNz6MRQOUbuzm8tKd_aojkmr9SaqVNAfZunsJB2D17pTrsiL69SbCO5=s1600)[![](https://blogger.googleusercontent.com/img/a/AVvXsEhxvE8qMJIeS0NcB8PRv0lnp_fjO_oVldHDkfBMKVrTvU2PoXkcChMknZCD3JUN5X-qG1uQLpieK-LYksup8i1kAKZhasx3MDDnZzuCIficfqNyTGnCnB6wGvrjrSEgKfZyw2q6GFBAxhZndPjOt2cKRPKIMm9KpqpwG6ypJ_jA0TF2H-x5b2NUYPC9=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEhxvE8qMJIeS0NcB8PRv0lnp_fjO_oVldHDkfBMKVrTvU2PoXkcChMknZCD3JUN5X-qG1uQLpieK-LYksup8i1kAKZhasx3MDDnZzuCIficfqNyTGnCnB6wGvrjrSEgKfZyw2q6GFBAxhZndPjOt2cKRPKIMm9KpqpwG6ypJ_jA0TF2H-x5b2NUYPC9=s1600)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674893/blogger-import/c458e47a2f3f8ffe1c58.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674897/blogger-import/ef9430822269a3d4556d.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674899/blogger-import/df5041df9e50b0564a20.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785674902/blogger-import/8792b80da5391063165f.jpg)

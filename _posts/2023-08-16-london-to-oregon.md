@@ -20,13 +20,13 @@ What the heck? The bus we needed passed us by without even stopping?? The next b
 
 Not great. It was the wrong bus. At least they're super cheap! We hopped off at the stop nearest OUR terminal and planned to walk. Nope. Our tunnel was under renovation! We found the other bus stop and hopped on for the correct terminal. Look how cute this restaurant is! So English lol
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIAJY-f1Z2Th-HQwmtpH_D6ZrER58vun_EoF7_d_iiDVxF1FD6ojRAuQJo3BVHXyTDJ3F9L9E5zq4wum_mk9vQ2AHcYx4AsLvZ9JAPmeTLhYwmd1eQMUH8InjdM-vZ-lzTU6bbq7-kOV_DbrS9Dyiro1jaghcJnVWkyXCgqioIWQgtX1EN3lKnyGPTxzA/w150-h200/20230813_082408.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIAJY-f1Z2Th-HQwmtpH_D6ZrER58vun_EoF7_d_iiDVxF1FD6ojRAuQJo3BVHXyTDJ3F9L9E5zq4wum_mk9vQ2AHcYx4AsLvZ9JAPmeTLhYwmd1eQMUH8InjdM-vZ-lzTU6bbq7-kOV_DbrS9Dyiro1jaghcJnVWkyXCgqioIWQgtX1EN3lKnyGPTxzA/s4000/20230813_082408.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785689092/blogger-import/c124deea0542af6faef1.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785689100/blogger-import/6b27c686a49fc5c0288b.jpg)
 
 We wove our way through the crowds at the airport and had to get me checked in at the counter because we were unable to online. The woman at the desk informed me I'd been randomly selected for extra checks. Yay me lol Mike was selected when we returned from NZ. 
 
 We had made it to the airport early to find breakfast. While we went through security, I was chosen for a full patdown which I thought was my random security check. My pants have zipper pockets which was the main offender flagging me. Spoiler, I am not in an English jail. I was pleasantly surprised by how good the food was at breakfast! The Asian restaurant was so cool and the ramen/edamame was good! 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXRue84Tqxcizx_Yx-8Yi77uQpRXsZd-ybDYNpjNd81o5cLqnnL_uNS0CamRo1OveEi5GBoVv-nfHygqXuD-s1UblW0RImogO2RfXgXR8ykxDV-74QSOjrB4Y-4-sTXI8bJN0iNH5koYFiFqpx7gHEvvqEf_1BSL-LfpIRtfPZdJ3rSnMoe-cji05J7Bo/w150-h200/20230813_090327.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXRue84Tqxcizx_Yx-8Yi77uQpRXsZd-ybDYNpjNd81o5cLqnnL_uNS0CamRo1OveEi5GBoVv-nfHygqXuD-s1UblW0RImogO2RfXgXR8ykxDV-74QSOjrB4Y-4-sTXI8bJN0iNH5koYFiFqpx7gHEvvqEf_1BSL-LfpIRtfPZdJ3rSnMoe-cji05J7Bo/s4000/20230813_090327.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785689104/blogger-import/5fe329bbbdbbe0d4c511.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785689109/blogger-import/0329104f2af329767b88.jpg)
 
 We checked out the lounges but they were fully booked. So we found some REALLY good coffee at Cafe Nero and settled in to wait. We didn't have to wait long so I grabbed some food to go (avoiding airsickness with good food) and we headed to our gate. 
 
@@ -40,7 +40,7 @@ The security officer wiped my palms and bag contents with a cloth (at least 8 ot
 
 We sprung for premium this time as we had the points and I AM SO grateful. So much more comfortable. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheNM_G9ulh7svuA_uV6vOSFuSMyafQ8sBLJsSqCZnRFRUkkxkAXBR1CQAui_Fib88J5VAld53Uj7nRJlt7FBDFlNICgSUVqgy8Og5SjHmQYeLYfNrBYZrQhkmPWq1LmGCI49vnhv0ZA49CmNUNioAmAIc43X75fUoh-WjNFRPuK_qzmadm4-qF234zKNU/w200-h150/20230813_123220.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheNM_G9ulh7svuA_uV6vOSFuSMyafQ8sBLJsSqCZnRFRUkkxkAXBR1CQAui_Fib88J5VAld53Uj7nRJlt7FBDFlNICgSUVqgy8Og5SjHmQYeLYfNrBYZrQhkmPWq1LmGCI49vnhv0ZA49CmNUNioAmAIc43X75fUoh-WjNFRPuK_qzmadm4-qF234zKNU/s4000/20230813_123220.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785689112/blogger-import/f9ffcaa00c642950165e.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785689116/blogger-import/d602e2617d4c42f38a6e.jpg)
 
 However, the security check delay meant we didn't line up in time for take-off which meant another delay. They came on the speaker to announce it may be another hour of waiting. We were already 40 min delayed! Thankfully,  we have a 3-hour layover in Seattle so it wouldn't hurt us too much but yikes! 
 
@@ -54,7 +54,7 @@ There was a MASS of people! Lines of people so thick you couldn't see. Security 
 
 We found a food stop and got coffee afterward and waited for our flight from Seattle to PDX (only 50 minutes thankfully).
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir088c1U-4J1aK_TWTQA-_zIe8EwfELDWW1PZK8BImZJONUDtL9DKeVRYhnzR7VmfovTu6GliYDZZyvtffIJ-ly1lh14l1p2tKW_vuqxLULZX64MZzLnr6hHCcSIWwdtPAKEXyrwbxOiEj5G6IopBlekLnf9uV5H4LSydXR9bhVlk5GZPFrat7GBZkzxw/w150-h200/20230813_215007.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir088c1U-4J1aK_TWTQA-_zIe8EwfELDWW1PZK8BImZJONUDtL9DKeVRYhnzR7VmfovTu6GliYDZZyvtffIJ-ly1lh14l1p2tKW_vuqxLULZX64MZzLnr6hHCcSIWwdtPAKEXyrwbxOiEj5G6IopBlekLnf9uV5H4LSydXR9bhVlk5GZPFrat7GBZkzxw/s4000/20230813_215007.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785689119/blogger-import/096dd8eb607b47e8190f.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785689122/blogger-import/ecf9010df78431b5d771.jpg)
 
   
 
@@ -66,7 +66,7 @@ After our experience coming from Portland (lord, it was so sketchy downtown) we 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8ExEgkn6SwDXXy84fzGFe205Zqi_hAQy2HS4QMkbAQ7foLsbwNO-KDjxRtwqrMKsn5J3PAesa3Mi7sqMgqmiaHqsWEZa3pxJxSioHnDGKRmII7atm4nhFHOWp39xFVkeJT0aUiyhbUPaMcxTh31MzTOdkbYVH2Ifrcqaex_GA81v7eAkooIpMXeyhkqg/w200-h150/20230813_201445.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8ExEgkn6SwDXXy84fzGFe205Zqi_hAQy2HS4QMkbAQ7foLsbwNO-KDjxRtwqrMKsn5J3PAesa3Mi7sqMgqmiaHqsWEZa3pxJxSioHnDGKRmII7atm4nhFHOWp39xFVkeJT0aUiyhbUPaMcxTh31MzTOdkbYVH2Ifrcqaex_GA81v7eAkooIpMXeyhkqg/s4000/20230813_201445.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785689126/blogger-import/9906d277c9066e49fe05.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785689130/blogger-import/f13829b497cf71ff5755.jpg)
 
   
 

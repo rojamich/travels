@@ -18,7 +18,7 @@ The breakfast was as wonderful as ever and I will miss the spread with so many o
 
 Here we are enjoying our balloons one more time and the cool sign indicating which way to our hotel. 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnB8-UT3hbh8BEaWTstBjrcjr2T0vJL-w1Dpo-CklAuvMHUHmEBhutHHH_BvYRkQKSWSC-YZan6JUgx8LJ68q8AuFiNh9zWNkE7iRs0mgz32rMMl-bB8NaxubMN5l_LjxEl4lSkKxPlOzFwOd3zVHAa95c5aisyD6qGRInj-4SOZYQ2TrzIX2dwSkM/s320/20220308_075250.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnB8-UT3hbh8BEaWTstBjrcjr2T0vJL-w1Dpo-CklAuvMHUHmEBhutHHH_BvYRkQKSWSC-YZan6JUgx8LJ68q8AuFiNh9zWNkE7iRs0mgz32rMMl-bB8NaxubMN5l_LjxEl4lSkKxPlOzFwOd3zVHAa95c5aisyD6qGRInj-4SOZYQ2TrzIX2dwSkM/s3648/20220308_075250.jpg)[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgv48oiTeWhWL6JXlWzIfrS-qLGXZdQzCt2-kP4hxMG8w1soSw6n4vBZaTMAuD_JnEPmZ4CeGJc8d3TYioZWZ11nSZ1nEQ6v02q1K6ihVnfVsk_w8t_nrQiOGjsTe8TJ1Ox1EeTlAhZPdzPcFRzSYH_tP0jfSo3v9qw2E-SHGMrxMcqtfoABah6hAtl/s320/20220308_084308.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgv48oiTeWhWL6JXlWzIfrS-qLGXZdQzCt2-kP4hxMG8w1soSw6n4vBZaTMAuD_JnEPmZ4CeGJc8d3TYioZWZ11nSZ1nEQ6v02q1K6ihVnfVsk_w8t_nrQiOGjsTe8TJ1Ox1EeTlAhZPdzPcFRzSYH_tP0jfSo3v9qw2E-SHGMrxMcqtfoABah6hAtl/s4032/20220308_084308.jpg)
+[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785678011/blogger-import/fae6d4444760ff12914b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785678014/blogger-import/2689a5dbee179d24e8e9.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785678020/blogger-import/348e8e9218b7c27dba6b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785678029/blogger-import/afe82202daa48c621320.jpg)
 
   
 
