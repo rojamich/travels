@@ -16,5 +16,4 @@ tags:
   - Diving
   - Food
   - Architecture
-  - ""
 ---
