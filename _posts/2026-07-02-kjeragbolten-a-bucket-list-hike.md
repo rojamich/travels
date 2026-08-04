@@ -1,9 +1,9 @@
 ---
 title: "Kjeragbolten: A Bucket list Hike!"
-date: 2026-07-05
+date: 2026-07-04
 categories:
   - fjords-forever
-order: 19
+order: 18
 header:
   teaser_focal_x: 50
   teaser_focal_y: 50
