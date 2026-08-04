@@ -3,7 +3,7 @@ title: Learning to Drive + Coffee 🍵
 date: 2026-07-09
 categories:
   - fjords-forever
-order: 21
+order: 23
 header:
   teaser_focal_x: 50
   teaser_focal_y: 50
