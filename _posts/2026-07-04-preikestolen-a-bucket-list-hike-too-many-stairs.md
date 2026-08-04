@@ -3,7 +3,7 @@ title: "Preikestolen: A bucket list hike & too many stairs!"
 date: 2026-07-05
 categories:
   - fjords-forever
-order: 17
+order: 19
 header:
   teaser_focal_x: 50
   teaser_focal_y: 4
