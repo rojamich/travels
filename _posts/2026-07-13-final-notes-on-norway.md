@@ -3,7 +3,7 @@ title: Final Notes on Norway
 date: 2026-07-14
 categories:
   - fjords-forever
-order: 26
+order: 27
 header:
   teaser_focal_x: 50
   teaser_focal_y: 50
