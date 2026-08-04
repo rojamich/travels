@@ -51,3 +51,33 @@ entries:
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/250px-Flag_of_Switzerland.svg.png
   - name: Singapore
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/330px-Flag_of_Singapore.svg.png
+  - name: Armenia
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/500px-Flag_of_Armenia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+  - name: Turkey
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/330px-Flag_of_Turkey.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+  - name: Argentina
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/330px-Flag_of_Argentina.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+  - name: Antarctica
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_the_British_Antarctic_Territory.svg/500px-Flag_of_the_British_Antarctic_Territory.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+  - name: Spain
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/330px-Flag_of_Spain.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+  - name: Morocco
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/330px-Flag_of_Morocco.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/330px-Flag_of_Tanzania.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+    name: Tanzania
+  - name: Kenya
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/330px-Flag_of_Kenya.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+  - name: Rwanda
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Rwanda.svg/330px-Flag_of_Rwanda.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+  - name: Malaysia
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/500px-Flag_of_Malaysia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+  - name: Taiwan
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/330px-Flag_of_the_Republic_of_China.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+  - name: China
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/330px-Flag_of_the_People%27s_Republic_of_China.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+  - name: Portugal
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/330px-Flag_of_Portugal.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+  - name: Chile
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/330px-Flag_of_Chile.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+  - name: Ecuador
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/330px-Flag_of_Ecuador.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
