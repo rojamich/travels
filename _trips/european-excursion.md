@@ -9,7 +9,7 @@ start_date: 2022-02-06
 end_date: 2022-03-18
 location: United Kingdom
 lat: 51.507351
-lng: 0.127758
+lng: -0.127758
 countries:
   - name: England
     lat: 55.3781
