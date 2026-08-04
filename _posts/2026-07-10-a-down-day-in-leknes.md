@@ -3,7 +3,7 @@ title: A Down Day in Leknes
 date: 2026-07-11
 categories:
   - fjords-forever
-order: 22
+order: 25
 header:
   teaser_focal_x: 50
   teaser_focal_y: 100
@@ -14,11 +14,11 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783802612/20260711_085300_dt2pyi.jpg
 tags:
   - Food
-toc: false
 location:
   name: Leknes, Lofoten
   lat: 68.1475
   lng: 13.6118
+toc: false
 ---
 It was a gorgeous morning as the sun streamed through the windows. To be fair, the sun doesn't necessarily leave at all. It's just mostly covered by clouds up this far north. But not this morning!
 
