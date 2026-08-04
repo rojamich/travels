@@ -993,6 +993,12 @@
         return "";
       }
 
+      // Finds the focal input that belongs to a given label.
+      //
+      // Accepts text inputs as well as number ones: the gallery's focal fields
+      // are string widgets (see the gallery editor component for why), which
+      // Decap renders as <input type="text">. Cover/teaser/banner are still
+      // number widgets. Matching both keeps one code path for all four.
       function findNumberInputWithin(scope, labelText) {
         var labels = scope.querySelectorAll("label, span[class*='label']");
         for (var i = 0; i < labels.length; i++) {
@@ -1000,7 +1006,8 @@
           if (t !== labelText && t.indexOf(labelText) !== 0) continue;
           var parent = labels[i].parentElement;
           for (var d = 0; d < 5 && parent; d++) {
-            var input = parent.querySelector("input[type='number']");
+            var input = parent.querySelector(
+              "input[type='number'], input[type='text'], input:not([type])");
             if (input) return input;
             parent = parent.parentElement;
           }
@@ -1538,26 +1545,33 @@
               widget: "image",
               hint: "Click here, then upload or pick a photo. Repeat 'Add' to add more."
             },
+            // These are STRING widgets, not number widgets, and deliberately so.
+            //
+            // Decap's `number` widget does not work inside a
+            // registerEditorComponent modal when nested in a list's `fields`:
+            // the input renders but is never wired to the form's onChange, so
+            // it rejects typing and ignores programmatic writes alike. That is
+            // why "Save positions" appeared to do nothing here while working
+            // fine for cover/teaser/banner, which are ordinary entry fields.
+            //
+            // A string widget is plainly wired and behaves. The Ruby side
+            // (clamp_pct in _plugins/gallery_block.rb) parses with Float() and
+            // falls back to 50, so "50", 50 and junk all land safely — no
+            // migration needed for galleries already saved with numbers.
             {
               name: "x",
               label: "Focal X (0–100)",
-              widget: "number",
+              widget: "string",
               required: false,
-              value_type: "int",
-              default: 50,
-              min: 0,
-              max: 100,
+              default: "50",
               hint: "Only matters if the photo is being cropped in its tile. 50 = centred, 0 = keep the left edge, 100 = keep the right."
             },
             {
               name: "y",
               label: "Focal Y (0–100)",
-              widget: "number",
+              widget: "string",
               required: false,
-              value_type: "int",
-              default: 50,
-              min: 0,
-              max: 100,
+              default: "50",
               hint: "0 = keep the top of the photo, 100 = keep the bottom. Useful for landscape shots where the subject sits high or low."
             }
           ],

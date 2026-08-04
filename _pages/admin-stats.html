@@ -71,12 +71,78 @@ sitemap: false
 
   <h3>The {{ visited_countries | size }} counted</h3>
   <p class="audit-list">{{ visited_countries | join: " · " }}</p>
+
+  {%- comment -%}
+    ------------------------------------------------------------------------
+    Reference-data health check
+    ------------------------------------------------------------------------
+    Everything above answers "which countries did the trips claim?". This
+    answers "does the reference file actually know about them?" — the gap
+    that let Costa Rica count toward the tile while being invisible on the
+    map, and made two numbers on /stats/ disagree.
+
+    Two independent checks:
+      1. Countries we counted that _data/countries.yml has no record for.
+         These display fine and shade nothing. Fix: add a record.
+      2. Problems the build found inside countries.yml itself — a missing
+         ISO code, a missing or misspelled continent, a duplicate, an alias
+         claimed by two countries. Collected by _plugins/country_data.rb.
+
+    Both are shown here rather than only in the build log, because a warning
+    nobody reads is not a check.
+  {%- endcomment -%}
+
+  {%- assign unknown_countries = "" | split: "" -%}
+  {%- for c in visited_countries -%}
+    {%- unless site.data.country_codes[c] -%}
+      {%- assign unknown_countries = unknown_countries | push: c -%}
+    {%- endunless -%}
+  {%- endfor -%}
+
+  <h3>Reference data</h3>
+  {% if unknown_countries.size == 0 and site.data.country_problems.size == 0 %}
+    <p class="audit-ok">✓ All {{ visited_countries | size }} counted countries have a
+    record in <code>_data/countries.yml</code>, and that file has no problems.
+    The Countries tile, the continent tally and the world map are all reading
+    the same data.</p>
+  {% else %}
+    {% if unknown_countries.size > 0 %}
+    <p class="audit-bad"><strong>{{ unknown_countries | size }} counted
+    {% if unknown_countries.size == 1 %}country has{% else %}countries have{% endif %}
+    no record in <code>_data/countries.yml</code>:</strong></p>
+    <ul class="audit-skipped">
+      {% for c in unknown_countries %}
+      <li><strong>{{ c }}</strong> — counts toward the total but won’t shade on
+      the map or count toward continents. Either add a record for it, or add it
+      as an alias of an existing country if it’s another spelling.</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if site.data.country_problems.size > 0 %}
+    <p class="audit-bad"><strong>Problems inside
+    <code>_data/countries.yml</code>:</strong></p>
+    <ul class="audit-skipped">
+      {% for p in site.data.country_problems %}<li>{{ p }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  {% endif %}
+
+  <p class="audit-note">
+    <code>_data/countries.yml</code> is the only country reference file. The
+    name→code, name→continent and alias→name tables are all derived from it at
+    build time by <code>_plugins/country_data.rb</code>, so they cannot drift
+    apart. To add a country, add one record there — nothing else to touch.
+  </p>
 </section>
 
 <style>
   .country-audit { margin: 1.5em 0 2.5em; }
   .country-audit h2 { margin-bottom: 0.2em; }
   .country-audit h3 { margin: 1.2em 0 0.4em; font-size: 1em; }
+  .audit-ok   { color: #1c6b3a; background: #eaf6ee; padding: 0.6em 0.8em; border-radius: 6px; }
+  .audit-bad  { color: #8a1c12; margin-bottom: 0.3em; }
+  .audit-note { color: #666; font-size: 0.85em; line-height: 1.5; margin-top: 1.2em; }
   .audit-table { width: 100%; border-collapse: collapse; font-size: 0.9em; margin: 0.8em 0; }
   .audit-table th {
     text-align: left; padding: 0.5em 0.6em; background: #eef3f7;

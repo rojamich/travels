@@ -8,9 +8,14 @@ classes: wide
 
 {%- comment -%}
   Auto-computed travel stats. Nothing here is edited manually — everything
-  reads from site.posts, site.trips, site.data.continents (country→continent
-  lookup), site.data.country_codes (country→ISO alpha-3), site.data.records
-  (leaderboard entries), and site.data.status.nomad_start_date (running clock).
+  reads from site.posts, site.trips, site.data.records (leaderboard entries),
+  and site.data.status.nomad_start_date (running clock).
+
+  Country reference data — site.data.continents (country→continent) and
+  site.data.country_codes (country→ISO alpha-3) — is NOT hand-maintained.
+  Both are derived at build time from the single file _data/countries.yml by
+  _plugins/country_data.rb, so they cannot disagree with each other or with
+  the alias table. Add a country there and it shows up everywhere at once.
 {%- endcomment -%}
 
 {%- assign total_posts = site.posts | size -%}
@@ -19,7 +24,7 @@ classes: wide
 {%- comment -%}
   Countries come from ONE place: _includes/country-data.html, which derives
   them from trip front matter (location + countries[]) and normalises names
-  through _data/country_aliases.yml. Every surface that shows a country count
+  through the alias table. Every surface that shows a country count
   includes the same file, so the numbers cannot drift apart. To change what is
   counted, edit the trip — not this page.
 {%- endcomment -%}
@@ -27,7 +32,7 @@ classes: wide
 {%- assign uniq_countries = visited_countries -%}
 {%- assign total_countries = uniq_countries | size -%}
 
-{%- comment -%} Distinct continents visited (via _data/continents.yml lookup). {%- endcomment -%}
+{%- comment -%} Distinct continents visited (via the country→continent lookup). {%- endcomment -%}
 {%- assign continents_visited = "" | split: "" -%}
 {%- for c in uniq_countries -%}
   {%- assign cont = site.data.continents[c] -%}
@@ -52,7 +57,7 @@ classes: wide
 {%- assign world_total = 195 -%}
 {%- comment -%}
   Count from the canonical country list, NOT from visited_codes. Those two
-  drifted apart: a country with no entry in country_codes.yml still counts as
+  drifted apart: a country with no ISO code still counts as
   visited but has no shape to shade, so the map headline read 21 while the
   Countries tile read 23. Codes now decide shading only.
 {%- endcomment -%}

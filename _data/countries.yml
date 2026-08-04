@@ -1,0 +1,330 @@
+# =============================================================================
+# countries.yml — THE single source of truth for country reference data
+# =============================================================================
+# One record per country. This is the ONLY file to edit when adding a country.
+#
+# At build time _plugins/country_data.rb derives three lookup tables from it:
+#
+#     site.data.country_codes      name  -> ISO 3166-1 alpha-3   (map shading)
+#     site.data.continents         name  -> continent            (continent count)
+#     site.data.country_aliases    alias -> canonical name       (normalising)
+#
+# Those three used to be hand-maintained files. Keeping them in step was the
+# job nobody remembered to do: Costa Rica had a continent but no ISO code, so
+# it counted toward the Countries tile and vanished from the world map, and
+# the two numbers on /stats/ disagreed for months. Deriving them from one
+# record makes that class of drift impossible — a country cannot have a
+# continent but no code, because both live on the same line.
+#
+# FIELDS
+#   name       canonical spelling. This is what gets displayed, and what trip
+#              front matter should ideally use.
+#   code       ISO 3166-1 alpha-3. Must match the world GeoJSON feature ids,
+#              or the country won't shade on the map.
+#   continent  one of: North America, South America, Europe, Asia, Africa,
+#              Oceania, Antarctica.
+#   aliases    every other spelling that might show up in a trip's location,
+#              a countries[] entry, or _data/favorites.yml. Matched exactly
+#              after trimming, so add each variant you actually type.
+#
+# TO ADD A COUNTRY: add one record here. Nothing else to touch.
+# TO CHECK IT WORKED: /admin-stats/ lists any country that resolves to no
+# record, and the build log warns about incomplete records.
+# =============================================================================
+
+# North America
+# ---------------
+- name: Aruba
+  code: ABW
+  continent: North America
+- name: Belize
+  code: BLZ
+  continent: North America
+- name: Bermuda
+  code: BMU
+  continent: North America
+- name: British Virgin Islands
+  code: VGB
+  continent: North America
+- name: Canada
+  code: CAN
+  continent: North America
+- name: Cayman Islands
+  code: CYM
+  continent: North America
+- name: Costa Rica
+  code: CRI
+  continent: North America
+- name: Curaçao
+  code: CUW
+  continent: North America
+- name: Greenland
+  code: GRL
+  continent: North America
+- name: Guatemala
+  code: GTM
+  continent: North America
+- name: Mexico
+  code: MEX
+  continent: North America
+- name: Panama
+  code: PAN
+  continent: North America
+- name: Puerto Rico
+  code: PRI
+  continent: North America
+- name: U.S. Virgin Islands
+  code: VIR
+  continent: North America
+- name: United States of America
+  code: USA
+  continent: North America
+  aliases: [America, US, USA, United States]
+
+# South America
+# ---------------
+- name: Argentina
+  code: ARG
+  continent: South America
+- name: Bolivia
+  code: BOL
+  continent: South America
+- name: Brazil
+  code: BRA
+  continent: South America
+- name: Chile
+  code: CHL
+  continent: South America
+- name: Colombia
+  code: COL
+  continent: South America
+- name: Ecuador
+  code: ECU
+  continent: South America
+- name: Peru
+  code: PER
+  continent: South America
+
+# Europe
+# --------
+- name: Austria
+  code: AUT
+  continent: Europe
+- name: Belgium
+  code: BEL
+  continent: Europe
+- name: Croatia
+  code: HRV
+  continent: Europe
+- name: Czech Republic
+  code: CZE
+  continent: Europe
+  aliases: [Czechia]
+- name: Denmark
+  code: DNK
+  continent: Europe
+- name: Faroe Islands
+  code: FRO
+  continent: Europe
+- name: Finland
+  code: FIN
+  continent: Europe
+- name: France
+  code: FRA
+  continent: Europe
+- name: Georgia
+  code: GEO
+  continent: Europe
+- name: Germany
+  code: DEU
+  continent: Europe
+- name: Gibraltar
+  code: GIB
+  continent: Europe
+- name: Greece
+  code: GRC
+  continent: Europe
+- name: Hungary
+  code: HUN
+  continent: Europe
+- name: Iceland
+  code: ISL
+  continent: Europe
+- name: Ireland
+  code: IRL
+  continent: Europe
+- name: Isle of Man
+  code: IMN
+  continent: Europe
+- name: Italy
+  code: ITA
+  continent: Europe
+- name: Kosovo
+  code: XKX
+  continent: Europe
+- name: Netherlands
+  code: NLD
+  continent: Europe
+  aliases: [Holland, The Netherlands]
+- name: Norway
+  code: NOR
+  continent: Europe
+- name: Poland
+  code: POL
+  continent: Europe
+- name: Portugal
+  code: PRT
+  continent: Europe
+- name: Spain
+  code: ESP
+  continent: Europe
+- name: Sweden
+  code: SWE
+  continent: Europe
+- name: Switzerland
+  code: CHE
+  continent: Europe
+- name: United Kingdom
+  code: GBR
+  continent: Europe
+  aliases: [England, Great Britain, Scotland, UK, Wales]
+
+# Asia
+# ------
+- name: Cambodia
+  code: KHM
+  continent: Asia
+- name: China
+  code: CHN
+  continent: Asia
+- name: Hong Kong
+  code: HKG
+  continent: Asia
+- name: India
+  code: IND
+  continent: Asia
+- name: Indonesia
+  code: IDN
+  continent: Asia
+- name: Israel
+  code: ISR
+  continent: Asia
+- name: Japan
+  code: JPN
+  continent: Asia
+- name: Jordan
+  code: JOR
+  continent: Asia
+- name: Laos
+  code: LAO
+  continent: Asia
+- name: Macau
+  code: MAC
+  continent: Asia
+- name: Malaysia
+  code: MYS
+  continent: Asia
+- name: Nepal
+  code: NPL
+  continent: Asia
+- name: Palestine
+  code: PSE
+  continent: Asia
+- name: Philippines
+  code: PHL
+  continent: Asia
+- name: Singapore
+  code: SGP
+  continent: Asia
+- name: South Korea
+  code: KOR
+  continent: Asia
+  aliases: [Korea]
+- name: Sri Lanka
+  code: LKA
+  continent: Asia
+- name: Taiwan
+  code: TWN
+  continent: Asia
+- name: Thailand
+  code: THA
+  continent: Asia
+- name: Turkey
+  code: TUR
+  continent: Asia
+- name: United Arab Emirates
+  code: ARE
+  continent: Asia
+  aliases: [UAE]
+- name: Vietnam
+  code: VNM
+  continent: Asia
+
+# Africa
+# --------
+- name: Botswana
+  code: BWA
+  continent: Africa
+- name: Egypt
+  code: EGY
+  continent: Africa
+- name: Ethiopia
+  code: ETH
+  continent: Africa
+- name: Kenya
+  code: KEN
+  continent: Africa
+- name: Morocco
+  code: MAR
+  continent: Africa
+- name: Namibia
+  code: NAM
+  continent: Africa
+- name: Rwanda
+  code: RWA
+  continent: Africa
+- name: South Africa
+  code: ZAF
+  continent: Africa
+- name: Tanzania
+  code: TZA
+  continent: Africa
+- name: Uganda
+  code: UGA
+  continent: Africa
+- name: Zambia
+  code: ZMB
+  continent: Africa
+- name: Zimbabwe
+  code: ZWE
+  continent: Africa
+
+# Oceania
+# ---------
+- name: Australia
+  code: AUS
+  continent: Oceania
+- name: Cook Islands
+  code: COK
+  continent: Oceania
+- name: Fiji
+  code: FJI
+  continent: Oceania
+- name: French Polynesia
+  code: PYF
+  continent: Oceania
+- name: Guam
+  code: GUM
+  continent: Oceania
+- name: New Caledonia
+  code: NCL
+  continent: Oceania
+- name: New Zealand
+  code: NZL
+  continent: Oceania
+
+# Antarctica
+# ------------
+- name: Antarctica
+  code: ATA
+  continent: Antarctica

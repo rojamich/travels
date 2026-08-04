@@ -40,20 +40,29 @@ classes: wide
   across rows. Two steps, and both are needed:
     1. Take the text after the last comma, so "Tokyo, Japan" counts as Japan
        while the card itself still displays the city.
-    2. Run that through _data/country_aliases.yml, which catches the same
-       country written differently ("USA" vs "United States of America").
+    2. Fold aliases together, so the same country written differently
+       ("USA" vs "United States of America") lands on one row.
   Nothing extra to fill in per entry — it works off what's already typed.
+
+  Both steps are _includes/canon-country.html, shared with the Stats page and
+  the trip country count, so all three agree by construction.
+
+  This pass also records each medal as "canonical|rank" in medal_pairs, so the
+  tally below can read them straight off instead of normalising every entry
+  again inside a nested loop. Same numbers, one pass instead of N passes.
 {%- endcomment -%}
 {%- assign medal_names = "" | split: "" -%}
+{%- assign medal_pairs = "" | split: "" -%}
 {%- for cat in data.categories -%}
   {%- for e in cat.entries -%}
     {%- if e.rank and e.rank != "" and e.country and e.country != "" -%}
-      {%- assign nm = e.country | split: "," | last | strip -%}
-      {%- assign alias = site.data.country_aliases[nm] -%}
-      {%- if alias and alias != "" -%}{%- assign nm = alias -%}{%- endif -%}
+      {%- include canon-country.html raw=e.country -%}
+      {%- assign nm = canon_country -%}
       {%- unless medal_names contains nm -%}
         {%- assign medal_names = medal_names | push: nm -%}
       {%- endunless -%}
+      {%- assign pair = nm | append: "|" | append: e.rank -%}
+      {%- assign medal_pairs = medal_pairs | push: pair -%}
     {%- endif -%}
   {%- endfor -%}
 {%- endfor -%}
@@ -62,20 +71,16 @@ classes: wide
 {%- assign rows = "" | split: "" -%}
 {%- for nm in medal_names -%}
   {%- assign g = 0 -%}{%- assign s = 0 -%}{%- assign b = 0 -%}{%- assign h = 0 -%}
-  {%- for cat in data.categories -%}
-    {%- for e in cat.entries -%}
-      {%- assign en = e.country | split: "," | last | strip -%}
-      {%- assign en_alias = site.data.country_aliases[en] -%}
-      {%- if en_alias and en_alias != "" -%}{%- assign en = en_alias -%}{%- endif -%}
-      {%- if en == nm -%}
-        {%- case e.rank -%}
-          {%- when "gold" -%}{%- assign g = g | plus: 1 -%}
-          {%- when "silver" -%}{%- assign s = s | plus: 1 -%}
-          {%- when "bronze" -%}{%- assign b = b | plus: 1 -%}
-          {%- when "honorable" -%}{%- assign h = h | plus: 1 -%}
-        {%- endcase -%}
-      {%- endif -%}
-    {%- endfor -%}
+  {%- for pair in medal_pairs -%}
+    {%- assign bits = pair | split: "|" -%}
+    {%- if bits[0] == nm -%}
+      {%- case bits[1] -%}
+        {%- when "gold" -%}{%- assign g = g | plus: 1 -%}
+        {%- when "silver" -%}{%- assign s = s | plus: 1 -%}
+        {%- when "bronze" -%}{%- assign b = b | plus: 1 -%}
+        {%- when "honorable" -%}{%- assign h = h | plus: 1 -%}
+      {%- endcase -%}
+    {%- endif -%}
   {%- endfor -%}
   {%- comment -%}
     Each product is computed on its own line. Liquid filter chains apply

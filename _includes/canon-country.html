@@ -1,0 +1,32 @@
+{%- comment -%}
+  ===========================================================================
+  canon-country.html — turn any typed place string into a canonical country
+  ===========================================================================
+  The one implementation of the normalisation rule. Written with the braces
+  spaced out so nothing here looks like a real tag:
+
+      { % include canon-country.html raw=trip.location % }
+      { { canon_country } }        <- the canonical name, or "" if raw was blank
+
+  Two steps, both needed:
+    1. Take the text after the last comma, so "Tokyo, Japan" resolves to
+       Japan while the card itself still displays the city.
+    2. Look the result up in site.data.country_aliases, which folds together
+       the same country written different ways ("USA", "US", "America" and
+       "United States" all resolve to "United States of America").
+
+  That alias table is derived at build time from _data/countries.yml by
+  _plugins/country_data.rb, so this include and the map shading and the
+  continent tally all agree by construction — there is no second table that
+  can fall out of step.
+
+  This used to be copied inline in four places (twice in country-data.html,
+  twice in favorites.html). Copies drift: fix the rule here and every count
+  on the site moves together.
+  ===========================================================================
+{%- endcomment -%}
+{%- assign canon_country = include.raw | default: "" | split: "," | last | strip -%}
+{%- assign canon_alias = site.data.country_aliases[canon_country] -%}
+{%- if canon_alias and canon_alias != "" -%}
+  {%- assign canon_country = canon_alias -%}
+{%- endif -%}

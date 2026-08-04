@@ -24,8 +24,12 @@
 
   Every name is normalised the same way everywhere:
     1. take the text after the last comma   ("Tbilisi, Georgia" -> Georgia)
-    2. run it through _data/country_aliases.yml  (England -> United Kingdom)
+    2. fold aliases together                (England -> United Kingdom)
     3. de-duplicate
+
+  Steps 1 and 2 live in _includes/canon-country.html, which every other page
+  uses too, and the alias table it consults is derived from the one country
+  file, _data/countries.yml.
 
   So to fix a wrong count, fix the trip. There is no second place to check.
 
@@ -76,8 +80,8 @@
         {%- assign skip_row = t_title | append: "||multi-country location: " | append: trip.location -%}
         {%- assign skipped_trips = skipped_trips | push: skip_row -%}
       {%- else -%}
-        {%- assign alias = site.data.country_aliases[raw] -%}
-        {%- if alias and alias != "" -%}{%- assign raw = alias -%}{%- endif -%}
+        {%- include canon-country.html raw=trip.location -%}
+        {%- assign raw = canon_country -%}
         {%- unless resolved contains raw -%}
           {%- assign resolved = resolved | push: raw -%}
         {%- endunless -%}
@@ -88,9 +92,8 @@
     {%- if trip.countries -%}
       {%- for c in trip.countries -%}
         {%- if c.name and c.name != "" -%}
-          {%- assign cn = c.name | split: "," | last | strip -%}
-          {%- assign c_alias = site.data.country_aliases[cn] -%}
-          {%- if c_alias and c_alias != "" -%}{%- assign cn = c_alias -%}{%- endif -%}
+          {%- include canon-country.html raw=c.name -%}
+          {%- assign cn = canon_country -%}
           {%- unless resolved contains cn -%}
             {%- assign resolved = resolved | push: cn -%}
           {%- endunless -%}
