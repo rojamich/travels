@@ -20,7 +20,6 @@ countries:
   - name: Italy
     lat: 45.903149
     lng: 9.1821
-country_code: de
 tags:
   - Europe
   - City

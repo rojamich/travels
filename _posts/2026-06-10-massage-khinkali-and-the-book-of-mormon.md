@@ -27,15 +27,15 @@ Khinkali was on the menu next - literally! We hit the Georgian restaurant: Chama
 
 The beef/pork dumplings were flavorful and so juicy! On our way back uptown, we witnessed a startling being floating in the middle of times square!
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781431812%2F20260611_161205_zcnlwq.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781268341%2F20260611_161237_y5prvk.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781431812%2F20260611_161205_zcnlwq.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781268341%2F20260611_161237_y5prvk.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 After much needed showers and rest, we headed out for dinner before the Broadway play we booked! The restaurant was next to the theater and we saw the ropes going up and actors entering a side door - one was on the phone being followed by someone demanding photos! To our astonishment, it was [Josh Gad](https://www.instagram.com/p/DZjfXVntzcu/)! We loved him in Frozen and Beauty & the Beast! Mike then overheard people excitedly talking about how tonight would be the original cast - we had NO idea! What a crazy surprise!
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781268354%2F20260611_175815_rxrwow.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781268354%2F20260611_175931_srtoga.jpg%22%5D%2C%22caption%22%3A%22I%20tried%20something%20new%20at%20dinner!%20Heart-shaped%2C%20lobster%20ravioli!%20It%20was%20actually%20good!%20YAY!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781268354%2F20260611_175815_rxrwow.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781268354%2F20260611_175931_srtoga.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22I%20tried%20something%20new%20at%20dinner!%20Heart-shaped%2C%20lobster%20ravioli!%20It%20was%20actually%20good!%20YAY!%22%7D %}
 
 We excitedly got in line for the play - it was already really long at 45 minutes til the start!
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781268345%2F20260611_181714_yfkry9.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781268345%2F20260611_181714_yfkry9.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We were seated and toasty - the AC was not flowing much! However, the play was ***really*** entertaining and it was enjoyable to see the veteran cast vs. current cast go back and forth during the play! What an experience!
 

@@ -31,7 +31,7 @@ Mike asked if they served Jim Beam there (Harry’s signature drink) and he look
 
 The entrance had photos of the filming set, Harry’s favorite table had a label, and even the bathroom had a newspaper clipping in it! 
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782065169%2F20260620_190752_vzlgre.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782065178%2F20260620_203454_hh66da.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782065170%2F20260620_204053_tcdofs.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782065169%2F20260620_190752_vzlgre.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782065178%2F20260620_203454_hh66da.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782065170%2F20260620_204053_tcdofs.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 I played it safe by ordering the steak, the maître d looked at me expectantly and asked medium rare? To Mike’s shame, I asked for medium well. Mike got the pork dish! 
 
@@ -39,7 +39,7 @@ I played it safe by ordering the steak, the maître d looked at me expectantly a
 
 Apparently, this is medium well.. Mike, thankfully, switched with me because his bacon looked fantastic and my steak was made to his liking. How did I get so lucky??
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782065167%2F20260620_195314_oxjrx5.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782065180%2F20260620_200111_memy3j.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782065163%2F20260620_200116_bogsnu.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782065167%2F20260620_195314_oxjrx5.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782065180%2F20260620_200111_memy3j.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782065163%2F20260620_200116_bogsnu.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 After dinner, we walked to Harry Hole’s apartment complex to see where he lived! 
 

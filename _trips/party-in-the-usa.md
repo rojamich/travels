@@ -11,7 +11,6 @@ location: Washington DC, United States of America
 lat: 38.892059
 lng: -77.019913
 collection: true
-country_code: US
 states:
   - California
   - Oregon

@@ -57,7 +57,7 @@ Well ok then 🤣🤣 There isn't even tipping here!
 
 Feeling fortified, it was finally time for my first manual driving lesson. 
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783798531%2F20260709_132153_qpre7c.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783799587%2F20260709_132133_fnz2r3.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783798531%2F20260709_132153_qpre7c.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783799587%2F20260709_132133_fnz2r3.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 It went really well and I didn't stall once! I could get into second and made it back and forth a big parking lot multiple times. I finally felt comfortable to circle around the neighborhood! One problem. Every street has a big hill. Not San Fran big but big enough. Nope, nope, nope. Slapped the Ebrake and climbed out. A little girl lept off her porch chair to ask if something was wrong lol. Thankfully, Mike bailed me out and got us up the hill. Lesson one complete.
 
@@ -75,7 +75,7 @@ The comforter was equally fluffy and our sore bodies were ever-so-grateful. Read
 
 We donned some waterproof clothing and made the 15 min walk to a nearby restaurant for dinner. 
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783800188%2F20260709_173457_kjs8g0.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783800191%2F20260709_192441_jla5c2.jpg%22%5D%2C%22caption%22%3A%22The%20views%20of%20the%20town%20around%20us.%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783800188%2F20260709_173457_kjs8g0.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783800191%2F20260709_192441_jla5c2.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22The%20views%20of%20the%20town%20around%20us.%22%7D %}
 
 The place got really packed really quickly! 
 

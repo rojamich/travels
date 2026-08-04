@@ -17,7 +17,6 @@ countries:
   - name: Zimbabwe
     lat: -19.0154
     lng: 29.1549
-country_code: za
 tags:
   - Africa
   - Safari

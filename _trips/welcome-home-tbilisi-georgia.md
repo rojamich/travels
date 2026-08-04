@@ -11,7 +11,6 @@ end_date: 2026-08-15
 location: Tbilisi, Georgia
 lat: 41.69363
 lng: 44.80162
-country_code: GE
 tags:
   - Hiking
   - Food

@@ -35,7 +35,7 @@ However, once we boarded, it was a struggle to fit our bags in the overhead comp
 
 The first flight was an easy one - an hour and a half to Bodø was spent re-reading [Book Lovers](https://www.goodreads.com/en/book/show/58690308-book-lovers) by Emily Henry (I finished the book by Tony Park, another banger!). The views were immaculate!
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783622460%2F20260707_110049_xptta9.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783622471%2F20260707_111503_kgek66.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783622460%2F20260707_110049_xptta9.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783622471%2F20260707_111503_kgek66.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We were delayed on the tarmac before take off and I had been anxious the whole flight about missing our connection. Our delay got us in 5 minutes after we were supposed to take off but each connection was made aware we were coming in late! Thankfully, the airport was so small and the flights so few, they waited for us! 
 
@@ -67,17 +67,17 @@ It was really good! We also had a waiter who spoke at least four languages which
 
 We are currently in the Lofoten Islands which are an archipelago with around 80 islands! Our Airbnb is in Svolvær, the largest town and capital on Austvågøya, the largest island. It has around 4700 permanent residents!
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783623939%2F20260707_152447_uavnzu.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783623940%2F20260707_191949_uy8wse.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783623939%2F20260707_152447_uavnzu.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783623940%2F20260707_191949_uy8wse.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We got a nap in and hung up our (tons) of laundry. Don't forget that much of Europe has washers but no dryers so line laundry is where it's at.
 
 Dinner was at a much fancier place than we anticipated and, once again, we were stared at with distain by the snooty batooties.
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783624043%2F20260707_194446_jfw4jt.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783624053%2F20260707_194442_swvkzp.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783624043%2F20260707_194446_jfw4jt.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783624053%2F20260707_194442_swvkzp.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 Our waitress told us that we could order a small portion of the fish soup to try rather than the main portion and it was really good and creamy! Just like clam chowder and not fishy at all, thankfully. I also got fish and chips and a strawberry mocktail and Mike got the Halibut. 
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783625947%2F20260707_194825_dmufub.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783624047%2F20260707_200904_paghi2.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783625947%2F20260707_194825_dmufub.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783624047%2F20260707_200904_paghi2.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 It was all really good! Whew! A day of two fish meals and all tasty, who am I?? 
 

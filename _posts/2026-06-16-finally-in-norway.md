@@ -21,7 +21,7 @@ I told Mike a couple of years ago I wanted to see Norway before 40. This was act
 
 The security lines weren't open yet this morning when we arrived! I didn't even know they close down! We got in line and moved through seamlessly. Thankfully, the line was short for the lounge and we scored comfortable seats in a quiet room. The breakfast was fairly English style and we ate up. 
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720013%2F20260617_051109_rosyqk.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720015%2F20260617_051104_mzuur8.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720013%2F20260617_051109_rosyqk.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720015%2F20260617_051104_mzuur8.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 I grabbed an airport coffee and confirmed, I still hate Nero coffee. On a brighter note, the night before, I snagged a new flavor of chips to try and they were really good!
 
@@ -33,7 +33,7 @@ We had a fun interaction with border patrol at passport control :) The agent was
 
 One train ride and one tram ride later, we were in the middle of Oslo - I CAN'T BELIEVE WE ARE HERE - I LOVE IT! Everything is green, the weather is cool, flowers are in bloom!
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720021%2F20260617_115043_qfzykv.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720018%2F20260617_121520_oisgiq.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720021%2F20260617_115043_qfzykv.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720018%2F20260617_121520_oisgiq.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 This was a great spot for people-watching and soaking up the sun :)
 
@@ -41,7 +41,7 @@ Speaking of.. we headed towards a local park - such a beautiful day and we had a
 
 Naturally, we stopped for a coffee, this is where I find out this shop doesn't offer flavored coffee... did I have my last flavored coffee for a long time?? Oh boy...
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720026%2F20260617_130413_eozyvm.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720024%2F20260617_130808_parrmb.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720026%2F20260617_130413_eozyvm.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720024%2F20260617_130808_parrmb.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 The park was gorgeous and filled with silent people! So many people in the middle of the day on a Wednesday! This is due to them receiving 5 weeks a year of paid time off (on top of federal holidays - woah!)
 
@@ -49,7 +49,7 @@ So much reading later (I finished my book today: [Summer Share by Jenn McKinley]
 
 Tonight we tried a Korean restaurant bulgogi for me and bibimbap for Mike! Really delicious! We got to eat back in the park and it was really a lovely first day in Norway!!
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720025%2F20260617_190342_sid26m.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720043%2F20260617_190043_tttcfe.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720036%2F20260617_190346_m8mwib.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720025%2F20260617_190342_sid26m.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720043%2F20260617_190043_tttcfe.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781720036%2F20260617_190346_m8mwib.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 OH! Our Airbnb host got us some chocolate to try - it tastes like a thick crunch bar, YUM!
 

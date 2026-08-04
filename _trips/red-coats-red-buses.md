@@ -8,7 +8,6 @@ end_date: 2026-06-17
 location: London, England
 lat: 51.5007
 lng: -0.1246
-country_code: EN
 tags:
   - Cityscapes
   - Tours

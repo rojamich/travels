@@ -23,7 +23,6 @@ lat: 64.96
 lng: -19.02
 
 # Two-letter ISO country code. Used for future country-fill feature.
-country_code: is
 
 # Tags shown as filter chips on the homepage and /trips/.
 # Keep lowercase + dashes. Use for region (europe, asia), style (road-trip,

@@ -8,7 +8,6 @@ end_date: 2026-06-13
 location: United States of America
 lat: 40.7601
 lng: -73.9845
-country_code: US
 tags:
   - Food
   - Cityscapes

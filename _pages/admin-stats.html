@@ -140,17 +140,28 @@ sitemap: false
     The plugin checks all of them on every build and lists what didn't
     resolve. It never guesses at a fix; the rows below say what to change.
   {%- endcomment -%}
-  {%- assign xref = site.data.content_problems -%}
+  {%- comment -%}
+    Place problems come from _plugins/places.rb and take the same
+    "where||what" shape, so both checks share one table. `default` guards
+    against a plugin not having run — concat on nil would blow up the page,
+    and this page failing is the last thing that should happen when
+    something else is already broken.
+  {%- endcomment -%}
+  {%- assign no_rows = "" | split: "," -%}
+  {%- assign xref = site.data.content_problems | default: no_rows -%}
+  {%- assign place_rows = site.data.place_problems | default: no_rows -%}
+  {%- assign xref = xref | concat: place_rows -%}
 
-  <h3>Cross-references</h3>
+  <h3>Cross-references &amp; map pins</h3>
   {% if xref == nil %}
     <p class="audit-bad">The cross-reference check didn’t run —
     <code>_plugins/content_audit.rb</code> is missing or errored. Check the
     build log.</p>
   {% elsif xref.size == 0 %}
     <p class="audit-ok">✓ Every post points at a trip that exists, every
-    <code>order:</code> is unique within its trip, and every country named in
-    Favourites, Daydreaming or a flag image has a record.</p>
+    <code>order:</code> is unique within its trip, every country named in
+    Favourites, Daydreaming or a flag image has a record, and every map pin
+    matches the remembered position for its place.</p>
   {% else %}
     <p class="audit-bad"><strong>{{ xref | size }}
     {% if xref.size == 1 %}reference doesn’t{% else %}references don’t{% endif %}

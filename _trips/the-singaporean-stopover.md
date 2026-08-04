@@ -10,7 +10,6 @@ end_date: 2026-01-05
 location: Singapore, Singapore
 lat: 1.352083
 lng: 103.819839
-country_code: SG
 tags:
   - Food
   - Cityscapes

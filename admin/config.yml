@@ -652,12 +652,6 @@ collections:
           required: false,
           hint: "Turn ON for an entry that gathers lots of separate visits under one heading rather than being a single journey — e.g. 'Party in the USA' spanning 2011-2026. Duration stats skip these, so they can't win 'longest single trip' or inflate the days-on-the-road total. Countries and map pins still count normally." }
 
-      - { label: "Country code (2 letters)",
-          name: "country_code",
-          widget: "string",
-          required: false,
-          hint: "e.g. 'is' for Iceland, 'jp' for Japan. Optional — used for a future country-fill feature on the map." }
-
       - label: "US states visited (if this trip is in the USA)"
         name: "states"
         widget: "list"
@@ -773,9 +767,10 @@ collections:
       - { label: "Day order in trip",
           name: "order",
           widget: "number",
-          value_type: "int",
+          value_type: "float",
           min: 0,
-          hint: "1 = day 1, 2 = day 2. Controls sort order on the trip page." }
+          step: 0.1,
+          hint: "The post's place in the trip. 1 = day 1, 2 = day 2. For two or more posts from the SAME day, use decimals: 15.1, 15.2, 15.3. They all still show as Day 15, but they stay in the order you chose instead of shuffling. Every post in a trip needs its own number — /admin-stats/ lists any that clash." }
 
       - label: "Cover & banner"
         name: "header"

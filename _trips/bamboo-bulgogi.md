@@ -10,7 +10,6 @@ end_date: 2025-01-03
 location: Japan
 lat: 35.6762
 lng: 139.6503
-country_code: jp
 countries:
   - name: South Korea
     lat: 35.9078

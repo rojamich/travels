@@ -1,0 +1,187 @@
+# =============================================================================
+# places.yml — remembered coordinates for places we have already pinned
+# =============================================================================
+# A place name typed once keeps its coordinates. When a trip or a post names
+# a place in this file but leaves lat/lng blank, _plugins/places.rb fills
+# them in at build time. Nothing has to be looked up twice.
+#
+# It is a CACHE, not the truth. Coordinates written directly on a trip or a
+# post always win — this only fills gaps. So an entry here can never silently
+# move a pin that was set by hand.
+#
+# HOW ENTRIES GET HERE
+#   Seeded from every place already pinned on the site. To add one, either
+#   pin it once on a trip/post as usual, or add a line here directly.
+#
+# WHAT IS DELIBERATELY MISSING
+#   Names that were used for genuinely different spots are left out, because
+#   guessing between them would put a pin in the wrong country:
+#     - Peru
+#     - United States of America
+#   And "United Kingdom", which was pinned at Paris on European Excursion
+#   — caching that would hand the wrong country to the next UK trip.
+#
+#   Those still need coordinates typed on the trip or post itself.
+#
+# CHECKING IT
+#   /admin-stats/ lists any place named without coordinates that this file
+#   does not know, and flags a pin that has drifted more than 25km from the
+#   remembered position for the same name.
+# =============================================================================
+
+"Abanotubani, Tbilisi": { lat: 41.6893, lng: 44.809 }
+"Acropolis, Athens": { lat: 37.9715, lng: 23.7257 }
+"Aguas Calientes, Peru": { lat: -13.1538, lng: -72.5252 }
+"Amazon Rainforest, Peru": { lat: -3.7437, lng: -73.2516 }
+"Amazon River, near Iquitos": { lat: -3.7437, lng: -73.2516 }
+"Amsterdam, Netherlands": { lat: 52.3676, lng: 4.9041 }
+"Ancient Agora, Athens": { lat: 37.9748, lng: 23.7233 }
+"Anne Frank House, Amsterdam": { lat: 52.3752, lng: 4.884 }
+"Apartheid Museum, Johannesburg": { lat: -26.236, lng: 28.0107 }
+"Arashiyama, Kyoto": { lat: 35.0094, lng: 135.6717 }
+"Athens, Greece": { lat: 37.9838, lng: 23.7275 }
+"Auckland Zoo, NZ": { lat: -36.8629, lng: 174.7196 }
+"Auckland, New Zealand": { lat: -36.8485, lng: 174.7633 }
+"Auckland, NZ": { lat: -36.8485, lng: 174.7633 }
+"Ba Na Hills, Vietnam": { lat: 15.9988, lng: 107.9988 }
+"Bad homburg, Germany": { lat: 50.22715, lng: 8.61606 }
+"Bad Homburg, Germany": { lat: 50.2274, lng: 8.6177 }
+"Baden-Baden, Germany": { lat: 48.7611, lng: 8.2397 }
+"Ban Gioc Waterfall, Vietnam": { lat: 22.853, lng: 106.7233 }
+"Bergen, Norway": { lat: 60.391262, lng: 5.322054 }
+"Berlin, Germany": { lat: 52.52, lng: 13.405 }
+"Blue Pools, Haast, NZ": { lat: -44.0813, lng: 169.0432 }
+"Bodø, Norway": { lat: 67.280357, lng: 14.404916 }
+"Boulders Beach, Simon's Town": { lat: -34.1975, lng: 18.4519 }
+"Brindisi, Italy": { lat: 40.632, lng: 17.9362 }
+"British Museum, London": { lat: 51.5194, lng: -0.127 }
+"Bruges, Belgium": { lat: 51.2093, lng: 3.2247 }
+"Brussels, Belgium": { lat: 50.8503, lng: 4.3517 }
+"Buckingham Palace, London": { lat: 51.5014, lng: -0.1419 }
+"Cape Town, South Africa": { lat: -33.9249, lng: 18.4241 }
+"Central Park, New York City": { lat: 40.7829, lng: -73.9654 }
+"Chobe National Park, Botswana": { lat: -17.8167, lng: 25.0917 }
+"Cologne, Germany": { lat: 50.9375, lng: 6.9603 }
+"Colosseum, Rome": { lat: 41.8902, lng: 12.4922 }
+"Cu Chi Tunnels, Vietnam": { lat: 11.1421, lng: 106.4636 }
+"Cusco, Peru": { lat: -13.517, lng: -71.9785 }
+"Da Nang, Vietnam": { lat: 16.0544, lng: 108.2022 }
+"Dachau Memorial, Germany": { lat: 48.2683, lng: 11.4348 }
+"Delos, Greece": { lat: 37.3938, lng: 25.2715 }
+"DMZ, Korea": { lat: 37.9568, lng: 126.6776 }
+"Doubtful Sound, NZ": { lat: -45.4506, lng: 167.0394 }
+"Dusseldorf, Germany": { lat: 51.2277, lng: 6.7735 }
+"Eugene, Oregon": { lat: 44.0521, lng: -123.0868 }
+"Fairbanks, Alaska, United States": { lat: 64.8378, lng: -147.7164 }
+"Florence, Italy": { lat: 43.7696, lng: 11.2558 }
+"Flåm": { lat: 60.852451, lng: 7.11361 }
+"Frankfurt, Germany": { lat: 50.1109, lng: 8.6821 }
+"Franz Josef Glacier, NZ": { lat: -43.3776, lng: 170.1819 }
+"Fushimi Inari, Kyoto": { lat: 34.9671, lng: 135.7727 }
+"Fussen, Germany": { lat: 47.5712, lng: 10.7498 }
+"Gisborne, NZ": { lat: -38.6624, lng: 178.0177 }
+"Gori, Georia": { lat: 41.97818, lng: 44.110001 }
+"Gyeongbokgung Palace, Seoul": { lat: 37.5796, lng: 126.977 }
+"Ha Giang, Vietnam": { lat: 22.8233, lng: 104.9784 }
+"Ha Long Bay, Vietnam": { lat: 21.03096, lng: 105.920731 }
+"Hanoi Train Street": { lat: 21.0245, lng: 105.8412 }
+"Hanoi, Vietnam": { lat: 21.0285, lng: 105.8542 }
+"Heidelberg, Germany": { lat: 49.3988, lng: 8.6724 }
+"Henningsvær, Norway": { lat: 68.154572, lng: 14.20261 }
+"Hiroshima, Japan": { lat: 34.3853, lng: 132.4553 }
+"Ho Chi Minh City": { lat: 10.8231, lng: 106.6297 }
+"Hobbiton, New Zealand": { lat: -37.8721, lng: 175.6831 }
+"Hoi An, Vietnam": { lat: 15.8801, lng: 108.338 }
+"Hokitika, NZ": { lat: -42.7176, lng: 170.9683 }
+"Hot Water Beach, Coromandel": { lat: -36.8886, lng: 175.8206 }
+"Hue, Vietnam": { lat: 16.4637, lng: 107.5909 }
+"Huka Falls, NZ": { lat: -38.6406, lng: 176.0884 }
+"Imperial City, Hue": { lat: 16.4708, lng: 107.5827 }
+"Imperial Palace, Tokyo": { lat: 35.6852, lng: 139.7528 }
+"Iquitos, Peru": { lat: -3.7437, lng: -73.2516 }
+"Itaewon, Seoul": { lat: 37.5345, lng: 126.9938 }
+"Japan": { lat: 35.6762, lng: 139.6503 }
+"Johannesburg, South Africa": { lat: -26.2041, lng: 28.0473 }
+"Kjeragbolten, Lysefjord": { lat: 59.0344, lng: 6.5936 }
+"Kobe, Japan": { lat: 34.6901, lng: 135.1955 }
+"Koblenz, Germany": { lat: 50.3569, lng: 7.589 }
+"Kruger National Park, South Africa": { lat: -23.9884, lng: 31.5547 }
+"Kyoto, Japan": { lat: 35.0116, lng: 135.7681 }
+"Lake Como, Italy": { lat: 45.9594, lng: 9.2895 }
+"Lake Kawaguchi, Japan": { lat: 35.5158, lng: 138.7625 }
+"Leknes, Lofoten": { lat: 68.1475, lng: 13.6118 }
+"Leknes, Norway": { lat: 68.1475, lng: 13.6004 }
+"Lima, Peru": { lat: -12.0464, lng: -77.0428 }
+"Lion's Head, Cape Town": { lat: -33.9353, lng: 18.3897 }
+"London Chinatown": { lat: 51.5114, lng: -0.1316 }
+"London, England": { lat: 51.5074, lng: -0.1278 }
+"London, UK": { lat: 51.5074, lng: -0.1278 }
+"Longyearbyen, Svalbard": { lat: 78.2232, lng: 15.6267 }
+"Louvre, Paris": { lat: 48.8606, lng: 2.3376 }
+"Lugano, Switzerland": { lat: 46.0037, lng: 8.951 }
+"Lysebotn, Norway": { lat: 59.054459, lng: 6.64727 }
+"Machu Picchu, Peru": { lat: -13.1631, lng: -72.545 }
+"Mainz, Germany": { lat: 49.9929, lng: 8.2473 }
+"Matamata (Hobbiton), New Zealand": { lat: -37.8721, lng: 175.6829 }
+"Mexico City, Mexico": { lat: 19.0, lng: -100.0 }
+"Milan, Italy": { lat: 45.4642, lng: 9.19 }
+"Milford Sound, NZ": { lat: -44.6712, lng: 167.9192 }
+"Mt Cook (Aoraki), NZ": { lat: -43.5985, lng: 170.1421 }
+"Mt Fuji, Japan": { lat: 35.3606, lng: 138.7274 }
+"Munich, Germany": { lat: 48.1351, lng: 11.582 }
+"Muyana Lodge, Amazon": { lat: -3.7437, lng: -73.2516 }
+"Nara Deer Park, Japan": { lat: 34.6851, lng: 135.8048 }
+"New York City": { lat: 40.7128, lng: -74.006 }
+"New Zealand": { lat: -45.0312, lng: 168.6626 }
+"Newport, Oregon": { lat: 44.6368, lng: -124.0534 }
+"Nuremberg, Germany": { lat: 49.4521, lng: 11.0767 }
+"Old Town, Tbilisi": { lat: 41.6938, lng: 44.8015 }
+"Oslo, Norway": { lat: 59.913868, lng: 10.752245 }
+"Pantheon, Paris": { lat: 48.8462, lng: 2.3464 }
+"Paracas, Peru": { lat: -13.835, lng: -76.2486 }
+"Paris, France": { lat: 48.8566, lng: 2.3522 }
+"Paris, France (layover)": { lat: 48.8566, lng: 2.3522 }
+"Pisa, Italy": { lat: 43.7228, lng: 10.4017 }
+"Preikestolen, Norway": { lat: 58.99049, lng: 6.13814 }
+"Queenstown, New Zealand": { lat: -45.0312, lng: 168.6626 }
+"Queenstown, NZ": { lat: -45.0312, lng: 168.6626 }
+"Robben Island, Cape Town": { lat: -33.8067, lng: 18.3661 }
+"Roman Forum, Rome": { lat: 41.8924, lng: 12.4853 }
+"Rome, Italy": { lat: 41.9028, lng: 12.4964 }
+"Rotorua Redwoods, NZ": { lat: -38.1368, lng: 176.2497 }
+"Sacred Valley, Peru": { lat: -13.3447, lng: -72.07 }
+"Sainte-Chappelle, Paris": { lat: 48.8554, lng: 2.345 }
+"Sankt Goar, Germany": { lat: 50.15, lng: 7.7167 }
+"Senso-ji Temple, Tokyo": { lat: 35.7148, lng: 139.7967 }
+"Seoul, South Korea": { lat: 37.5665, lng: 126.978 }
+"Shibuya, Tokyo": { lat: 35.658, lng: 139.7016 }
+"Shinjuku, Tokyo": { lat: 35.6938, lng: 139.7036 }
+"Singapore, Singapore": { lat: 1.352083, lng: 103.819839 }
+"South Africa": { lat: -33.9249, lng: 18.4241 }
+"South Island, NZ": { lat: -45.0312, lng: 168.6626 }
+"Split, Croatia": { lat: 43.5081, lng: 16.4402 }
+"St Peters Basilica, Vatican": { lat: 41.9022, lng: 12.4574 }
+"Stavanger, Norway": { lat: 58.964432, lng: 5.72625 }
+"Stonehenge, UK": { lat: 51.1789, lng: -1.8262 }
+"Stuttgart, Germany": { lat: 48.7758, lng: 9.1829 }
+"Svalbard": { lat: 78.2232, lng: 15.6267 }
+"Svalbard, Norway": { lat: 78.2232, lng: 15.6267 }
+"Svolvaer, Lofoten": { lat: 68.234, lng: 14.5686 }
+"Svolvær, Lofoten Norway": { lat: 68.23571, lng: 14.56695 }
+"Taipei, Taiwan": { lat: 25.033, lng: 121.5654 }
+"Tamarindo, Costa Rica": { lat: 10.29913, lng: -85.84107 }
+"Tbilisi, Georgia": { lat: 41.7151, lng: 44.8271 }
+"Tokyo, Japan": { lat: 35.6762, lng: 139.6503 }
+"Tongariro National Park, NZ": { lat: -39.1576, lng: 175.6362 }
+"TurtleLake, Tbilisi": { lat: 41.7093, lng: 44.7564 }
+"Vatican City": { lat: 41.9029, lng: 12.4534 }
+"Venice, Italy": { lat: 45.4408, lng: 12.3155 }
+"Versailles, France": { lat: 48.8048, lng: 2.1203 }
+"Victoria Falls, Zimbabwe": { lat: -17.9243, lng: 25.8572 }
+"Vietnam": { lat: 10.823099, lng: 106.629662 }
+"Waitomo Caves, NZ": { lat: -38.2611, lng: 175.1043 }
+"Wanaka, NZ": { lat: -44.6986, lng: 169.1486 }
+"Washington DC, United States of America": { lat: 38.892059, lng: -77.019913 }
+"Westminster, London": { lat: 51.4995, lng: -0.1248 }
+"Whitechapel, London": { lat: 51.5194, lng: -0.0611 }
+"Zambezi River, Zimbabwe": { lat: -17.9244, lng: 25.8367 }

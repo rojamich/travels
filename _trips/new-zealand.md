@@ -10,7 +10,6 @@ end_date: 2022-12-17
 location: New Zealand
 lat: -45.0312
 lng: 168.6626
-country_code: nz
 tags:
   - Oceania
   - Road-trip

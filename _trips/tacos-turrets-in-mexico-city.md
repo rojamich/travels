@@ -10,7 +10,6 @@ end_date: 2025-05-05
 location: Mexico City, Mexico
 lat: 19
 lng: -100
-country_code: MX
 states: []
 tags:
   - Diving

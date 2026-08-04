@@ -30,7 +30,7 @@ I set out on a run and chose a spot on google maps that had a camera on it. This
 
 This morning took me winding through neighborhoods and up to a well-visited paved path to a lake.
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783802612%2F20260711_085300_dt2pyi.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783803012%2F20260711_085207_bl6gjn.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783803015%2F20260711_085415_txqtsz.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783802612%2F20260711_085300_dt2pyi.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783803012%2F20260711_085207_bl6gjn.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783803015%2F20260711_085415_txqtsz.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 The bugs were rampant here but not landing on me thankfully. Still, I don't appreciate them touching me...
 
@@ -42,7 +42,7 @@ Our walk took us past these beautiful wildflowers!
 
 This cafe did **NOT** disappoint in pastries! 
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783803173%2F20260711_111718_cfylv1.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783803176%2F20260711_111948_sujgks.jpg%22%5D%2C%22caption%22%3A%22Don't%20ask%20me%20how%20my%20latte%20was.%20I%20haven't%20emotionally%20recovered.%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783803173%2F20260711_111718_cfylv1.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783803176%2F20260711_111948_sujgks.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22Don't%20ask%20me%20how%20my%20latte%20was.%20I%20haven't%20emotionally%20recovered.%22%7D %}
 
 We both got different versions of cinnamon rolls and only liked our own! Mine was coated with white chocolate and brown sugar on top - delicious! We played NYT games and laughed together. It was nice to have this relaxing day together 😍
 
@@ -50,6 +50,6 @@ I got a cheese/salami sandwich for lunch to heat in the oven at our place later 
 
 Naps, reading, and computer work later, we were headed to our reservation at sushi (not to be a menace like last time!) We walked in the door and the host immediately apologized for our wait yesterday! No, seriously sir, we were just happy to eat lol! They insisted on giving us free edamame.
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783803416%2F20260711_181715_neuha1.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783803420%2F20260711_181708_s8jbme.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783803416%2F20260711_181715_neuha1.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1783803420%2F20260711_181708_s8jbme.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We had to go for another walk after dinner or risk feeling like beach balls all night! More blog work and computer work before the Norway game vs. England. Wish Norway luck!

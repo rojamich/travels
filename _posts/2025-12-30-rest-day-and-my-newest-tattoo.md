@@ -17,7 +17,7 @@ location:
 ---
 It was the perfect day for a rest and recovery day! Thank goodness we scheduled it out that way because we were tuckered! 
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780943852%2F20251230_080903_ybbx0d.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780943855%2F20251230_082400_utqb7c.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780945934%2F20251230_081439_zgtpkg.jpg%22%5D%2C%22caption%22%3A%22The%20view%20from%20our%20hotel%20rooftop%20at%20breakfast%20and%20...a%20salad%20with%20breakfast%3F%20Weird%20but%20ok!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780943852%2F20251230_080903_ybbx0d.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780943855%2F20251230_082400_utqb7c.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780945934%2F20251230_081439_zgtpkg.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22The%20view%20from%20our%20hotel%20rooftop%20at%20breakfast%20and%20...a%20salad%20with%20breakfast%3F%20Weird%20but%20ok!%22%7D %}
 
 Breakfast had an array of choices along with a chef who made eggs by request - yay more eggs (seriously, I eat them every day at home!)
 
@@ -39,7 +39,7 @@ The walk over was peaceful and quiet. The roadways are filled with pedestrians a
 
 I settled in after they said it would likely be an all-day job! Here is the outline before the ink :)
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944099%2F20251230_111527_cfty8y.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944166%2F20251230_111706_dkgoci.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944138%2F20251230_111704_po1fr4.jpg%22%5D%2C%22caption%22%3A%22Each%20image%20is%20a%20different%20book%20in%20my%20list%20of%20absolute%20favorites%20%3C3%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944099%2F20251230_111527_cfty8y.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944166%2F20251230_111706_dkgoci.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944138%2F20251230_111704_po1fr4.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22Each%20image%20is%20a%20different%20book%20in%20my%20list%20of%20absolute%20favorites%20%3C3%22%7D %}
 
 We got the outline down before it was time for a lunch break - Mike came and the shop bought us lunch from the utterly amazing Bahn Mi that was two doors down! I got the spicy Saigon and Mike got the Hanoi style ones. Straight up mouth-watering. And now I'm hungry writing this. Great. Just great. 
 
@@ -47,11 +47,11 @@ We got the outline down before it was time for a lunch break - Mike came and the
 
 It was right back to work after the appointment and I finished reading yet another [Jenn Mckinlay](https://jennmckinlay.com/) novel! Of course, one of her series is featured in this tattoo!
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944055%2F20251230_125439_wsic9s.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944055%2F20251230_125439_wsic9s.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 After eight hours of work, the tattoo was ready!
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780943838%2F20251230_190418_zjvxza.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780943790%2FScreenshot_2026-01-15_103236_uc73ds.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780943786%2FIMG-20251231-WA0023_zemopq.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780943787%2FIMG-20251231-WA0021_ctazzg.jpg%22%5D%2C%22caption%22%3A%22I'm%20so%20in%20love%20with%20how%20this%20turned%20out!%20Check%20out%20the%20tiny%20little%20details%20and%20how%20she%20even%20made%20each%20key%20on%20the%20typewriter%20jump%20out!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780943838%2F20251230_190418_zjvxza.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780943790%2FScreenshot_2026-01-15_103236_uc73ds.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780943786%2FIMG-20251231-WA0023_zemopq.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780943787%2FIMG-20251231-WA0021_ctazzg.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22I'm%20so%20in%20love%20with%20how%20this%20turned%20out!%20Check%20out%20the%20tiny%20little%20details%20and%20how%20she%20even%20made%20each%20key%20on%20the%20typewriter%20jump%20out!%22%7D %}
 
 They had a professional photographer and studio set up for the final product and featured the work on their instagram!
 
@@ -74,16 +74,16 @@ I named the piece "Spinebound Secrets" here is the list of novels included in my
 15. [Lincoln Rhyme Series](https://www.goodreads.com/series/40606-lincoln-rhyme) by Jeffrey Deaver
 16. [The Protector](https://www.goodreads.com/book/show/212351400-the-protector?ref=nav_sb_ss_1_18) by Tony Park
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780943780%2FIMG_20251231_110844_475_eimuzv.webp%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944240%2F20251230_191600_w8ppdk.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780943780%2FIMG_20251231_110844_475_eimuzv.webp%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944240%2F20251230_191600_w8ppdk.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 While I had the last half of my tattoo worked on, Mike found a perfect spot at an outdoor pub nearby to read and people watch! He ended up making friends with an English couple and was having a ball! 
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944229%2F20251230_175837_fa79st.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944229%2F20251230_175837_fa79st.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We sat and talked for another hour before we decided we should probably get dinner and pick up our laundry
 
 On the way back to our hotel, we spotted a gorgeous, lit up cathedral and this Starbucks bear!
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944270%2F20251230_210307_d7vmk9.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944247%2F20251230_212310_xcjg30.jpg%22%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944270%2F20251230_210307_d7vmk9.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780944247%2F20251230_212310_xcjg30.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 What a fantastic day :)

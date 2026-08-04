@@ -34,7 +34,13 @@ layout: single
   <a href="{{ trip.url | relative_url }}">{{ trip.title }}</a>
   <span class="breadcrumb-sep">›</span>
   <span class="breadcrumb-current">
-    {%- if page.order -%}Day {{ page.order }}
+    {%- comment -%}
+  Show the whole-number part only: 15.1 and 15.2 are two posts from day 15,
+  not days "15.1" and "15.2". The decimal exists to order them, not to be
+  read. `| floor` also turns the float back into an integer, so a plain 3
+  doesn't render as "3.0".
+{%- endcomment -%}
+    {%- if page.order -%}Day {{ page.order | floor }}
     {%- else -%}{{ page.title | truncate: 40 }}
     {%- endif -%}
   </span>

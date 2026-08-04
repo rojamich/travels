@@ -10,7 +10,6 @@ end_date: 2025-07-26
 location: United States of America
 lat: 38.7331
 lng: -109
-country_code: US
 states:
   - Utah
   - Nevada

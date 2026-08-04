@@ -22,7 +22,7 @@ About a year ago, Mike and I decided we would take the leap and travel abroad wh
 
 We scheduled our lease to expire May 31st and rented out a spot right on the beach in Newport, Oregon to finish out my term at Western Oregon University :)
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781268471%2F20260606_203631_vs3sjh.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781268470%2F20260601_205829_eqamob.jpg%22%5D%2C%22caption%22%3A%22We%20enjoyed%20views%20like%20this%20plus%20crazy%20pouring%20rain%20during%20our%20time%20in%20Newport!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781268471%2F20260606_203631_vs3sjh.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781268470%2F20260601_205829_eqamob.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22We%20enjoyed%20views%20like%20this%20plus%20crazy%20pouring%20rain%20during%20our%20time%20in%20Newport!%22%7D %}
 
 I had my final week at school, graded papers, while Mike worked on moving prep for the majority of our stay in Newport.
 

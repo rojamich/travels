@@ -71,7 +71,7 @@ but defensive against weirdness.
        class="pagination--pager"
        title="{{ prev_post.title | escape }}">
       &larr;
-      {%- if prev_post.order -%} Day {{ prev_post.order }}
+      {%- if prev_post.order -%} Day {{ prev_post.order | floor }}
       {%- else -%} Previous{%- endif -%}
     </a>
   {%- else -%}
@@ -82,7 +82,7 @@ but defensive against weirdness.
     <a href="{{ next_post.url | relative_url }}"
        class="pagination--pager"
        title="{{ next_post.title | escape }}">
-      {%- if next_post.order -%}Day {{ next_post.order }}
+      {%- if next_post.order -%}Day {{ next_post.order | floor }}
       {%- else -%}Next{%- endif -%}
       &rarr;
     </a>

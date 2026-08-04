@@ -14,7 +14,6 @@ countries:
   - name: Svalbard, Norway
     lat: 78.223175
     lng: 15.626723
-country_code: NO
 tags:
   - Nature
   - Hiking

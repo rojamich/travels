@@ -8,7 +8,6 @@ end_date: 2025-09-11
 location: Peru
 lat: -13.517
 lng: -71.9785
-country_code: pe
 tags:
   - South-America
   - Nature

@@ -29,7 +29,6 @@ countries:
   - name: Netherlands
     lat: 52.1326
     lng: 5.2913
-country_code: ""
 tags:
   - Europe
   - City

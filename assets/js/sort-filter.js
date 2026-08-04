@@ -159,8 +159,11 @@
       sorted.sort(function (a, b) {
         switch (mode) {
           case "order":
-            return (parseInt(a.dataset.order || 999, 10) -
-                    parseInt(b.dataset.order || 999, 10));
+            // parseFloat, not parseInt: posts from the same day are numbered
+            // 15.1 / 15.2, and parseInt would flatten both to 15 and leave
+            // their order to chance.
+            return (parseFloat(a.dataset.order || 999) -
+                    parseFloat(b.dataset.order || 999));
           case "oldest":
             return cmpDate(a, b);
           case "location":
