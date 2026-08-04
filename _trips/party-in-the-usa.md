@@ -5,15 +5,12 @@ description: From Alaska to Florida we have explored the US, admired landmarks,
 cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785504485/20250720_062335_jqddwm.jpg
 cover_focal_x: 50
 cover_focal_y: 50
-# Spans 2011-2026 because it collects every US visit rather than being one
-# journey. Duration-based stats skip it — otherwise it wins "longest single
-# trip" with 5,389 days and swamps the days-on-the-road total.
-collection: true
 start_date: 2011-08-30
 end_date: 2026-05-31
 location: Washington DC, United States of America
 lat: 38.892059
 lng: -77.019913
+collection: true
 country_code: US
 states:
   - California
@@ -41,7 +38,7 @@ tags:
   - Hiking
   - DogSledding
   - Landmarks
-  - WildLife
+  - Wildlife
   - Nature
 ---
 Mike & I grew up in California - roughly 45 minutes from each other! Jenna's family moved to Sacramento for college (Clark, Kathy, and Jenna were all attending colleges in the Sacramento area). We selected Natomas for our move and ended up about 6 blocks from Mike's family! 
