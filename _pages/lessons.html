@@ -37,7 +37,7 @@ classes: wide
       {% if entry.before and entry.before != "" %}
       <section class="lesson-before">
         <h4>Before we left</h4>
-        <div class="lesson-prose">{{ entry.before | markdownify }}</div>
+        <div class="lesson-prose">{{ entry.before | liquify | markdownify }}</div>
       </section>
       {% endif %}
 
@@ -49,7 +49,7 @@ classes: wide
           {% for u in sorted_updates %}
           <li class="lesson-update">
             <time datetime="{{ u.date | date: '%Y-%m-%d' }}">{{ u.date | date: "%b %-d, %Y" }}</time>
-            <div class="lesson-prose">{{ u.thought | markdownify }}</div>
+            <div class="lesson-prose">{{ u.thought | liquify | markdownify }}</div>
           </li>
           {% endfor %}
         </ol>
@@ -59,7 +59,7 @@ classes: wide
       {% if entry.current and entry.current != "" %}
       <section class="lesson-current">
         <h4>Where we've landed</h4>
-        <div class="lesson-prose">{{ entry.current | markdownify }}</div>
+        <div class="lesson-prose">{{ entry.current | liquify | markdownify }}</div>
       </section>
       {% endif %}
     </article>
