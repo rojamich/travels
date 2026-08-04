@@ -128,6 +128,44 @@ sitemap: false
     {% endif %}
   {% endif %}
 
+  {%- comment -%}
+    ------------------------------------------------------------------------
+    Cross-reference check — _plugins/content_audit.rb
+    ------------------------------------------------------------------------
+    Everything on this site points at something else by name: a post names
+    its trip, a favourite names a trip, a flag image names a country. None
+    of those names are enforced anywhere, and a typo doesn't crash — it
+    silently drops the item and leaves the count quietly wrong.
+
+    The plugin checks all of them on every build and lists what didn't
+    resolve. It never guesses at a fix; the rows below say what to change.
+  {%- endcomment -%}
+  {%- assign xref = site.data.content_problems -%}
+
+  <h3>Cross-references</h3>
+  {% if xref == nil %}
+    <p class="audit-bad">The cross-reference check didn’t run —
+    <code>_plugins/content_audit.rb</code> is missing or errored. Check the
+    build log.</p>
+  {% elsif xref.size == 0 %}
+    <p class="audit-ok">✓ Every post points at a trip that exists, every
+    <code>order:</code> is unique within its trip, and every country named in
+    Favourites, Daydreaming or a flag image has a record.</p>
+  {% else %}
+    <p class="audit-bad"><strong>{{ xref | size }}
+    {% if xref.size == 1 %}reference doesn’t{% else %}references don’t{% endif %}
+    resolve:</strong></p>
+    <table class="audit-table">
+      <thead><tr><th>Where</th><th>Problem</th></tr></thead>
+      <tbody>
+        {% for row in xref %}
+          {%- assign x = row | split: "||" -%}
+          <tr class="row-warn"><td>{{ x[0] }}</td><td>{{ x[1] }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endif %}
+
   <p class="audit-note">
     <code>_data/countries.yml</code> is the only country reference file. The
     name→code, name→continent and alias→name tables are all derived from it at

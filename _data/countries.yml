@@ -107,6 +107,9 @@
 
 # Europe
 # --------
+- name: Armenia
+  code: ARM
+  continent: Europe
 - name: Austria
   code: AUT
   continent: Europe
@@ -184,6 +187,10 @@
 - name: Switzerland
   code: CHE
   continent: Europe
+- name: Vatican City
+  code: VAT
+  continent: Europe
+  aliases: [Holy See]
 - name: United Kingdom
   code: GBR
   continent: Europe
