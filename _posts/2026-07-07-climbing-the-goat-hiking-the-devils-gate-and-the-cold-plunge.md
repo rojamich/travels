@@ -3,7 +3,7 @@ title: Climbing the GOAT, Hiking the Devil's Gate, and the Cold Plunge
 date: 2026-07-08
 categories:
   - fjords-forever
-order: 20
+order: 22
 header:
   teaser_focal_x: 50
   teaser_focal_y: 58
@@ -15,11 +15,11 @@ header:
 tags:
   - RockClimbing
   - Hiking
-toc: false
 location:
   name: Svolvaer, Lofoten
   lat: 68.234
   lng: 14.5686
+toc: false
 ---
 The weather held out for us! It's a beautiful morning for a rock climbing lesson 🥳 We made breakfast 🍳 and headed out to meet our guide. 
 
