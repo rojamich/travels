@@ -3,7 +3,7 @@ title: Lofoten ➡️ Bodø ➡️ Oslo
 date: 2026-07-12
 categories:
   - fjords-forever
-order: 25
+order: 26
 header:
   teaser_focal_x: 50
   teaser_focal_y: 7
