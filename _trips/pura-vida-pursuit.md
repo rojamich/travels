@@ -20,5 +20,5 @@ tags:
   - Wildlife
   - Tattoo
   - Beach
-  - ""
+  - CentralAmerica
 ---
