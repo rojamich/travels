@@ -29,6 +29,9 @@ countries:
   - name: Netherlands
     lat: 52.1326
     lng: 5.2913
+  - name: Vatican City
+    lat: 41.902916
+    lng: 12.453389
 tags:
   - Europe
   - City
