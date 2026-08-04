@@ -1459,13 +1459,44 @@
           label: "Photos",
           widget: "list",
           summary: "{{fields.image}}",
-          field: {
-            name: "image",
-            label: "Image",
-            widget: "image",
-            hint: "Click here, then upload or pick a photo. Repeat 'Add' to add more."
-          },
-          hint: "Add as many photos as you want — they'll render in a grid."
+          // A `fields` array rather than a single `field`, so each photo can
+          // carry its own focal point alongside the URL. Tiles are a fixed
+          // shape, so a photo whose aspect ratio differs gets cropped — these
+          // decide which part survives, letting a wide shot keep its subject
+          // without changing the tile size. Both default to 50 (centre),
+          // which is exactly what galleries rendered before, so existing
+          // ones are unaffected and need no re-saving.
+          fields: [
+            {
+              name: "image",
+              label: "Image",
+              widget: "image",
+              hint: "Click here, then upload or pick a photo. Repeat 'Add' to add more."
+            },
+            {
+              name: "x",
+              label: "Focal X (0–100)",
+              widget: "number",
+              required: false,
+              value_type: "int",
+              default: 50,
+              min: 0,
+              max: 100,
+              hint: "Only matters if the photo is being cropped in its tile. 50 = centred, 0 = keep the left edge, 100 = keep the right."
+            },
+            {
+              name: "y",
+              label: "Focal Y (0–100)",
+              widget: "number",
+              required: false,
+              value_type: "int",
+              default: 50,
+              min: 0,
+              max: 100,
+              hint: "0 = keep the top of the photo, 100 = keep the bottom. Useful for landscape shots where the subject sits high or low."
+            }
+          ],
+          hint: "Add as many photos as you want — they'll render in a grid. Leave the focal numbers alone unless a photo is cropping badly."
         },
         {
           name: "caption",

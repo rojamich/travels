@@ -842,7 +842,15 @@ a {
 .page__content .trip-card-image img,
 .page__content .day-card-image img,
 .page__content .otd-thumb img,
-.page__content .year-trip-cover img {
+.page__content .year-trip-cover img,
+// Gallery tiles belong here too. `.inline-gallery-link img` already sets
+// cover and currently wins, but only because it happens to sit later in
+// this file than `.page__content img` — both are 0-1-1, so source order is
+// all that separates them. That's the same fragility that silently turned
+// the Favorites thumbnails into letterboxed images. Listing it at 0-2-1
+// makes it win on merit instead, which also guarantees the per-photo
+// object-position has an actual crop to move within.
+.page__content .inline-gallery-link img {
   width: 100%;
   height: 100%;
   max-height: none;

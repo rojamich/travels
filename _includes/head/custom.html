@@ -137,6 +137,36 @@
     // Mark the plugin-generated links too so one selector covers everything.
     links.forEach(function (a) { a.classList.add("js-lightbox"); });
 
+    // ---------------------------------------------------------------------
+    // Stand down the theme's own lightbox.
+    // ---------------------------------------------------------------------
+    // Minimal Mistakes bundles Magnific Popup in main.min.js and wires it up
+    // itself:
+    //
+    //   $("a[href$='.jpg'], …").has("> img").addClass("image-popup"),
+    //   $(".image-popup").magnificPopup({ gallery: { enabled: true } })
+    //
+    // Our Cloudinary URLs end in .jpg and every gallery tile is an <a> around
+    // an <img>, so every one of them gets picked up. The result was two
+    // lightboxes bound to the same click: ours (correctly scoped to the
+    // block) and the theme's (one gallery spanning the whole page). Closing
+    // the first revealed the second.
+    //
+    // Unbind Magnific's handler and drop the class so it can't re-attach.
+    // Run it repeatedly because the theme binds on jQuery's ready event and
+    // we can't rely on winning that race.
+    function standDownThemeLightbox() {
+      if (!window.jQuery) return;
+      var $ = window.jQuery;
+      var $items = $(CONTENT + " a.image-popup");
+      if (!$items.length) return;
+      $items.off("click.magnificPopup").removeClass("image-popup");
+    }
+    standDownThemeLightbox();
+    window.addEventListener("load", standDownThemeLightbox);
+    setTimeout(standDownThemeLightbox, 300);
+    setTimeout(standDownThemeLightbox, 1200);
+
     // A single instance. Creating more than one over overlapping selectors is
     // what caused a second, ungrouped lightbox to appear after closing the
     // first — the same click was being handled twice.
