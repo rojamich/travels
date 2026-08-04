@@ -3,7 +3,7 @@ title: The Viking Museum
 date: 2026-07-10
 categories:
   - fjords-forever
-order: 22
+order: 24
 header:
   teaser_focal_x: 50
   teaser_focal_y: 21
