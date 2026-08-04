@@ -820,7 +820,24 @@
           focalXLabel: "Banner — focal X (0–100)",
           focalYLabel: "Banner — focal Y (0–100)",
           box: { w: 480, h: 160 },
-          desc: "The wide banner at the top of the post page (3:1)." }
+          desc: "The wide banner at the top of the post page (3:1)." },
+        // Photos inside a 📷 Photo Gallery block. These live in the editor
+        // component's own modal rather than on the entry form, but
+        // groupedTargets() scans the whole document, so they're found as soon
+        // as that modal is open — and because the gallery is a list, each
+        // photo becomes its own tab.
+        //
+        // Works anywhere a gallery block is used: travel posts, Lessons
+        // entries, anywhere else the editor component is available.
+        //
+        // Tiles are square (aspect-ratio 1/1 in main.scss), which is exactly
+        // why wide photos lose their top and bottom — so the preview is
+        // square too.
+        { key: "gallery", tab: "Gallery photo",    labelMatch: "Image",
+          focalXLabel: "Focal X (0–100)",
+          focalYLabel: "Focal Y (0–100)",
+          box: { w: 240, h: 240 },
+          desc: "A photo inside a gallery block. Tiles are square, so wide shots get cropped top and bottom — drag to choose what stays." }
       ];
 
       // ----- Preview box sizing -----
