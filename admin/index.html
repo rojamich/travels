@@ -1027,15 +1027,37 @@
         }
         return "";
       }
-      // React-controlled inputs ignore plain `input.value = x`. We have to call
-      // the prototype's native setter and dispatch an input event so React's
-      // synthetic onChange picks it up and updates state.
+      // React-controlled inputs ignore plain `input.value = x`. React replaces
+      // the `value` property ON THE INSTANCE with a tracked setter, so we call
+      // the PROTOTYPE's native setter to get underneath it, then dispatch the
+      // events React listens for.
+      //
+      // The extra `_valueTracker` reset matters for the gallery: those focal
+      // inputs live inside Decap's editor-component modal, a separate React
+      // form from the main entry. If the tracker still holds the value we're
+      // writing, React treats the change as a no-op and the modal never goes
+      // dirty — which is exactly the "Save positions does nothing" symptom.
+      // Clearing the tracker first forces the change to be seen.
+      //
+      // Returns true only if the value actually landed, so the caller can tell
+      // the difference between "saved" and "silently did nothing".
       function setReactValue(input, value) {
-        if (!input) return;
+        if (!input) return false;
+        var str = String(value);
+        try {
+          if (input._valueTracker && typeof input._valueTracker.setValue === "function") {
+            input._valueTracker.setValue("__unset__");  // never a legal number
+          }
+        } catch (e) { /* tracker is a React internal; absence is fine */ }
+
         var setter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, "value").set;
-        setter.call(input, String(value));
-        input.dispatchEvent(new Event("input", { bubbles: true }));
+        setter.call(input, str);
+        input.dispatchEvent(new Event("input",  { bubbles: true }));
         input.dispatchEvent(new Event("change", { bubbles: true }));
+        // Some Decap widgets only commit on blur rather than on every keystroke.
+        input.dispatchEvent(new Event("blur",   { bubbles: true }));
+
+        return input.value === str;
       }
       function readFocalValue(input, fallback) {
         if (!input) return fallback;
@@ -1279,11 +1301,37 @@
           });
           modalBody.querySelector("#photo-pos-cancel").addEventListener("click", closeModal);
           modalBody.querySelector("#photo-pos-save").addEventListener("click", function () {
-            // Write every entry's pending values back into its Decap inputs.
+            // Write every entry's pending values back into its Decap inputs,
+            // then CHECK the write landed. This used to close unconditionally,
+            // so a failed write looked identical to a successful one — the
+            // gallery bug hid here for exactly that reason. Now a failure
+            // keeps the modal open and says which photo didn't take, so the
+            // position she just dragged isn't lost along with the evidence.
+            var failed = [];
             available.forEach(function (e) {
-              setReactValue(e.fxInput, Math.round(e.pending.x));
-              setReactValue(e.fyInput, Math.round(e.pending.y));
+              var okX = setReactValue(e.fxInput, Math.round(e.pending.x));
+              var okY = setReactValue(e.fyInput, Math.round(e.pending.y));
+              if (!okX || !okY) failed.push(e.tab || e.key || "photo");
             });
+
+            if (failed.length) {
+              var warn = modalBody.querySelector("#photo-pos-warn");
+              if (!warn) {
+                warn = document.createElement("p");
+                warn.id = "photo-pos-warn";
+                warn.style.cssText =
+                  "margin:0.6em 0 0;padding:0.6em 0.8em;border-radius:6px;" +
+                  "background:#fdecea;color:#8a1c12;font-size:0.85em;line-height:1.45;";
+                modalBody.appendChild(warn);
+              }
+              warn.textContent =
+                "Couldn't write the position for: " + failed.join(", ") +
+                ". Nothing was lost — close this and set the Focal X / Focal Y " +
+                "numbers by hand on that photo (" + Math.round(entry.pending.x) +
+                " and " + Math.round(entry.pending.y) + " for the one on screen).";
+              return;   // stay open
+            }
+
             closeModal();
           });
 

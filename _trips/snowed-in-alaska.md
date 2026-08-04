@@ -7,7 +7,7 @@ cover_focal_x: 50
 cover_focal_y: 50
 start_date: 2026-03-16
 end_date: 2026-03-22
-location: Fairbanks, Alaska
+location: Fairbanks, Alaska, United States
 lat: 64.8378
 lng: -147.7164
 country_code: US

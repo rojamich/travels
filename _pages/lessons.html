@@ -27,12 +27,22 @@ classes: wide
 {% if live_entries.size > 0 %}
 <div class="lessons-list">
   {% for entry in live_entries %}
-    <article class="lesson-card" data-status="{{ entry.status | default: 'evolved' }}">
-      <header class="lesson-head">
+    {%- comment -%}
+      Accordion, same as the Favorites page: native <details>/<summary> so the
+      open/close behaviour, keyboard access and screen-reader semantics come
+      from the browser instead of JS. The first lesson starts open so the page
+      never looks like a bare list of headings.
+
+      The summary has to stand on its own — topic, category and status — since
+      that is all a collapsed card shows.
+    {%- endcomment -%}
+    <details class="lesson-card" data-status="{{ entry.status | default: 'evolved' }}" {% if forloop.first %}open{% endif %}>
+      <summary class="lesson-head">
         {% if entry.category %}<span class="lesson-cat">{{ entry.category }}</span>{% endif %}
         <h2 class="lesson-topic">{{ entry.topic }}</h2>
         {% if entry.status %}<span class="lesson-status status-{{ entry.status }}">{{ entry.status | replace: '_', ' ' }}</span>{% endif %}
-      </header>
+      </summary>
+      <div class="lesson-body">
 
       {% if entry.before and entry.before != "" %}
       <section class="lesson-before">
@@ -62,7 +72,8 @@ classes: wide
         <div class="lesson-prose">{{ entry.current | liquify | markdownify }}</div>
       </section>
       {% endif %}
-    </article>
+      </div>
+    </details>
   {% endfor %}
 </div>
 
@@ -89,19 +100,40 @@ classes: wide
   .lesson-card {
     border: 1px solid #ddd;
     border-radius: 14px;
-    padding: 1.4em 1.6em;
     background: #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    overflow: hidden;
   }
+
+  /* The clickable header. The list-style/marker rules hide the browser's
+     default triangle so our own chevron is the only affordance. */
   .lesson-head {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
     gap: 0.6em;
-    margin-bottom: 0.8em;
-    padding-bottom: 0.6em;
-    border-bottom: 1px dashed #eee;
+    padding: 1.1em 1.4em;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    transition: background 0.15s ease;
   }
+  .lesson-head::-webkit-details-marker { display: none; }
+  .lesson-head:hover { background: #f7f9f7; }
+
+  /* Chevron, rotated by the browser's own open state — no JS needed. */
+  .lesson-head::after {
+    content: "4";
+    font-size: 1.2em;
+    line-height: 1;
+    color: #999;
+    align-self: center;
+    transition: transform 0.2s ease;
+  }
+  .lesson-card[open] > .lesson-head { border-bottom: 1px dashed #eee; }
+  .lesson-card[open] > .lesson-head::after { transform: rotate(180deg); }
+
+  .lesson-body { padding: 0.2em 1.4em 1.3em; }
   .lesson-topic {
     margin: 0;
     font-size: 1.3em;

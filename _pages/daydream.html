@@ -34,40 +34,119 @@ classes: wide
     {%- if e.name == entry.country -%}{%- assign flag_url = e.url -%}{%- endif -%}
   {%- endfor -%}
 {%- endif -%}
-<li class="daydream-item">
-<div class="daydream-rank daydream-rank--flag">
+{%- comment -%}
+  Collapsed by default: the flag and the country name are the whole point of
+  a glance down this list, so they stay visible; the photo, the why and the
+  date sit behind a click. Native <details>/<summary> means open/close,
+  keyboard access and screen-reader semantics come from the browser.
+
+  The flag gets a much wider box here than the numbered wish-list badge, and
+  uses object-fit: contain rather than cover — a cropped flag is a worse
+  flag, and several of these (Nepal, Switzerland) aren't the usual 3:2.
+{%- endcomment -%}
+<li>
+<details class="daydream-item daydream-item--fold">
+<summary class="daydream-fold-head">
+  <span class="daydream-flag">
   {% if flag_url != "" %}
-    <img src="{{ flag_url }}" alt="{{ entry.country }} flag" onerror="this.replaceWith(Object.assign(document.createElement('span'), {textContent: '🗺️'}))">
+    <img src="{{ flag_url }}" alt="{{ entry.country }} flag" onerror="this.replaceWith(Object.assign(document.createElement('span'), {textContent: '🗺️', className: 'daydream-rank-emoji'}))">
   {% else %}
     <span class="daydream-rank-emoji">🗺️</span>
   {% endif %}
-</div>
+  </span>
+  <span class="daydream-fold-name">{{ entry.country }}</span>
+</summary>
+<div class="daydream-fold-body">
 {% if entry.cover and entry.cover != "" %}
-<div class="daydream-cover"><img src="{{ entry.cover }}" alt="{{ entry.country }}" style="object-position: {{ entry.cover_focal_x | default: 50 }}% {{ entry.cover_focal_y | default: 50 }}%;" onerror="this.parentNode.style.display='none'"></div>
+<div class="daydream-cover daydream-cover--fold"><img src="{{ entry.cover }}" alt="{{ entry.country }}" style="object-position: {{ entry.cover_focal_x | default: 50 }}% {{ entry.cover_focal_y | default: 50 }}%;" onerror="this.parentNode.style.display='none'"></div>
 {% endif %}
 <div class="daydream-body">
-<h3>{{ entry.country }}</h3>
 {% if entry.why and entry.why != "" %}<p class="daydream-why">{{ entry.why }}</p>{% endif %}
 {% if entry.when and entry.when != "" %}<p class="daydream-when">📅 {{ entry.when }}</p>{% endif %}
+{% if entry.why == nil or entry.why == "" %}{% if entry.when == nil or entry.when == "" %}{% if entry.cover == nil or entry.cover == "" %}
+<p class="daydream-why"><em>No details yet — just the daydream.</em></p>
+{% endif %}{% endif %}{% endif %}
 </div>
+</div>
+</details>
 </li>
 {% endfor %}
 </ol>
 
 <style>
-  .daydream-rank--flag {
+  /* Collapsible upcoming card. .daydream-item is a horizontal flex row for
+     the numbered wish list below; the fold variant stacks instead, because a
+     <details> has to put its summary above its content. */
+  .daydream-item--fold { display: block; }
+
+  .daydream-fold-head {
+    display: flex;
+    align-items: center;
+    gap: 0.9em;
+    padding: 0.7em 1em;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    transition: background 0.15s ease;
+  }
+  .daydream-fold-head::-webkit-details-marker { display: none; }
+  .daydream-fold-head:hover { background: #f7f9f7; }
+
+  /* Chevron; the browser's open state rotates it, so there is no JS here. */
+  .daydream-fold-head::after {
+    content: "4";
+    margin-left: auto;
+    font-size: 1.3em;
+    line-height: 1;
+    color: #999;
+    transition: transform 0.2s ease;
+  }
+  .daydream-item--fold[open] > .daydream-fold-head { border-bottom: 1px solid #eee; }
+  .daydream-item--fold[open] > .daydream-fold-head::after { transform: rotate(180deg); }
+
+  .daydream-flag {
+    flex: 0 0 96px;
+    height: 64px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #f4f6f8;
+    border: 1px solid #e3e7ea;
+    border-radius: 8px;
     overflow: hidden;
   }
-  .daydream-rank--flag img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
+  .daydream-flag img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
   }
-  .daydream-rank-emoji { font-size: 1.3em; }
+  .daydream-rank-emoji { font-size: 1.6em; }
+
+  .daydream-fold-name {
+    font-family: Georgia, serif;
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #2a4d69;
+  }
+
+  .daydream-cover--fold {
+    flex: none;
+    width: 100%;
+    height: 220px;
+  }
+  .daydream-cover--fold img { width: 100%; height: 100%; object-fit: cover; }
+
+  /* The row hover lift belongs to the whole card in the wish list, but here
+     it would jump the page every time she moved the mouse over an open card. */
+  .daydream-item--fold:hover { transform: none; box-shadow: none; }
+
+  @media (max-width: 480px) {
+    .daydream-flag { flex-basis: 72px; height: 48px; }
+    .daydream-fold-name { font-size: 1.05em; }
+    .daydream-cover--fold { height: 170px; }
+  }
 </style>
 {% endif %}
 

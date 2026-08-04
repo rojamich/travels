@@ -645,6 +645,13 @@ collections:
           - { label: "Latitude", name: "lat", widget: "number", value_type: "float" }
           - { label: "Longitude", name: "lng", widget: "number", value_type: "float" }
 
+      - { label: "Collection trip (groups many separate visits)",
+          name: "collection",
+          widget: "boolean",
+          default: false,
+          required: false,
+          hint: "Turn ON for an entry that gathers lots of separate visits under one heading rather than being a single journey — e.g. 'Party in the USA' spanning 2011-2026. Duration stats skip these, so they can't win 'longest single trip' or inflate the days-on-the-road total. Countries and map pins still count normally." }
+
       - { label: "Country code (2 letters)",
           name: "country_code",
           widget: "string",

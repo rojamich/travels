@@ -50,7 +50,13 @@ classes: wide
   {%- endif -%}
 {%- endfor -%}
 {%- assign world_total = 195 -%}
-{%- assign world_pct = visited_codes.size | times: 100 | divided_by: world_total -%}
+{%- comment -%}
+  Count from the canonical country list, NOT from visited_codes. Those two
+  drifted apart: a country with no entry in country_codes.yml still counts as
+  visited but has no shape to shade, so the map headline read 21 while the
+  Countries tile read 23. Codes now decide shading only.
+{%- endcomment -%}
+{%- assign world_pct = total_countries | times: 100 | divided_by: world_total -%}
 
 {%- comment -%} US states visited: collected from trip.states[] arrays. {%- endcomment -%}
 {%- assign us_states = "" | split: "" -%}
@@ -70,9 +76,15 @@ classes: wide
 {%- assign us_pct = us_states.size | times: 100 | divided_by: us_total -%}
 
 {%- comment -%} Total days on the road across all trips with dates. {%- endcomment -%}
+{%- comment -%}
+  Duration stats skip trips flagged `collection: true`. Those group many
+  separate visits under one entry — "Party in the USA" spans 2011-2026 — so
+  counting their span would put 5,389 days into the totals and hand them the
+  longest-trip record.
+{%- endcomment -%}
 {%- assign total_days = 0 -%}
 {%- for t in site.trips -%}
-  {%- if t.start_date and t.end_date -%}
+  {%- if t.start_date and t.end_date and t.collection != true -%}
     {%- assign start_s = t.start_date | date: "%s" | plus: 0 -%}
     {%- assign end_s = t.end_date | date: "%s" | plus: 0 -%}
     {%- assign secs = end_s | minus: start_s -%}
@@ -86,7 +98,7 @@ classes: wide
 {%- assign longest_trip_name = "" -%}
 {%- assign longest_trip_url = "" -%}
 {%- for t in site.trips -%}
-  {%- if t.start_date and t.end_date -%}
+  {%- if t.start_date and t.end_date and t.collection != true -%}
     {%- assign s_s = t.start_date | date: "%s" | plus: 0 -%}
     {%- assign e_s = t.end_date | date: "%s" | plus: 0 -%}
     {%- assign trip_len = e_s | minus: s_s | divided_by: 86400 | plus: 1 -%}
@@ -307,7 +319,7 @@ classes: wide
 
 <h2 style="margin-top:2em;">🌍 World coverage</h2>
 <p style="color:#666;margin:0 0 0.6em;">
-  <strong>{{ visited_codes.size }}</strong> of ~{{ world_total }} countries visited — <strong>{{ world_pct }}%</strong> of the world.
+  <strong>{{ total_countries }}</strong> of ~{{ world_total }} countries visited — <strong>{{ world_pct }}%</strong> of the world.
   Shaded countries are places we've been.
 </p>
 
