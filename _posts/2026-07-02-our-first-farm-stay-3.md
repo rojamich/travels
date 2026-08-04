@@ -1,6 +1,6 @@
 ---
 title: Our First Farm Stay <3
-date: 2026-07-03
+date: 2026-07-02
 categories:
   - fjords-forever
 order: 16
