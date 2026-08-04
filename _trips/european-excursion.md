@@ -8,8 +8,8 @@ cover_focal_y: 0
 start_date: 2022-02-06
 end_date: 2022-03-18
 location: United Kingdom
-lat: 48.8566
-lng: 2.3522
+lat: 51.507351
+lng: -0.127758
 countries:
   - name: England
     lat: 55.3781
@@ -29,6 +29,9 @@ countries:
   - name: Netherlands
     lat: 52.1326
     lng: 5.2913
+  - name: Vatican City
+    lat: 41.902916
+    lng: 12.453389
 tags:
   - Europe
   - City
