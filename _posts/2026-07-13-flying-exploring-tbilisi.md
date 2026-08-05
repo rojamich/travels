@@ -6,11 +6,11 @@ categories:
 order: 1
 header:
   teaser_focal_x: 50
-  teaser_focal_y: 50
+  teaser_focal_y: 20
   overlay_focal_x: 50
   overlay_focal_y: 50
   overlay_filter: 0.4
-  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784459293/20260714_140310_z05tea.jpg
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785960219/20260714_204520_qtts3q.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784459295/20260714_200001_gippzb.jpg
 tags:
   - Food
