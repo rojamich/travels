@@ -1,5 +1,5 @@
 ---
-title: Sushi, Sunsets, & Salguni
+title: Sushi, Sunsets, & Suluguni
 date: 2026-08-03
 categories:
   - welcome-home-tbilisi-georgia
@@ -58,7 +58,7 @@ Grocery shopping had a new experience for us...
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785956823/20260802_202155_xyjgn2.jpg "We have never bought this amount of cheese before in our lives...")
 
-Salguni is *the* cheese here in Tbilisi and is close in taste to mozzarella! 
+Suluguni is *the* cheese here in Tbilisi and is close in taste to mozzarella! 
 
 A really fun experience happened to us! After using the public transportation weekly, the passenger monitoring inspectors finally stopped us! That doesn't sound great so let me explain.
 
