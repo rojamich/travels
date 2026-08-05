@@ -1,5 +1,5 @@
 ---
-title: Our First Cruise 🚢🥽⚓🪼
+title: Our First Cruise 🚢🥽⚓🐠
 description: Our first cruise took us to Cozumel and the Cayman Islands, where
   we dove in crystal-clear water, ate the best guacamole of our lives, and
   danced the night away at a silent disco.
