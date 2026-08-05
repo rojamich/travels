@@ -70,4 +70,4 @@ I did feel like a pirate this week though...
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785957125/20260803_184933_yviwsn.jpg "Drinking Tarragon lemonade straight from the bottle, knife in hand!")
 
-Here's to soaking up our last week in Tbilisi!
+Here's to soaking up our last week in Tbilisi💃🏻🕺🏻!
