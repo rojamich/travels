@@ -6,9 +6,9 @@ cover_focal_x: 50
 cover_focal_y: 50
 start_date: 2024-07-02
 end_date: 2024-07-08
-location: Toronto, Canada
-lat: 43.65
-lng: 79.38
+location: Banff, Canada
+lat: 51.1784
+lng: 115.5708
 collection: true
 states: []
 tags:
