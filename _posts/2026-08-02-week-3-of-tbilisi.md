@@ -58,9 +58,13 @@ Grocery shopping had a new experience for us...
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785956823/20260802_202155_xyjgn2.jpg "We have never bought this amount of cheese before in our lives...")
 
+Salguni is the cheese here in Tbilisi and is close in taste to mozzarella! 
+
 A really fun experience happened to us! After using the public transportation weekly, the passenger monitoring inspectors finally stopped us! That doesn't sound great so let me explain.
 
 These inspectors wait at bus stops, and we have seen them frequently, and randomly stop passengers to ensure they're paying the fare. But they had never chosen us before! Of course, we always pay the fare, so it was more fun than scary 😱
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785956984/20260803_153923_usvtpb.jpg)
 
 I did feel like a pirate this week though...
 
