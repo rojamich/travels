@@ -39,6 +39,7 @@ module TravelBlog
       check_post_order(site, trips)
       check_trip_slugs(site, trips)
       check_country_names(site, known)
+      check_shadowed_keys(site)
 
       site.data["content_problems"] = @problems
 
@@ -166,6 +167,34 @@ module TravelBlog
                     "_data/countries.yml — it won't shade on the map or count " \
                     "toward continents. Add a record, or add it as an alias " \
                     "of an existing country if it's another spelling.")
+      end
+    end
+
+    # ---- front matter that Jekyll quietly ignores -----------------------------
+    # Jekyll renders a document through a Drop, and the Drop answers for any
+    # key it defines a method for BEFORE it looks at front matter. So a page
+    # asking for `trip.collection` gets the collection's label, "trips", and
+    # never the `collection: true` someone wrote in the file.
+    #
+    # This is nastier than a typo. The field looks right, the CMS saves it,
+    # git shows it, and every template reading it silently gets something
+    # else. It cost a whole deploy: the flag meant to keep a 15-year
+    # collection entry out of the duration stats did nothing at all, and the
+    # days-on-the-road figure stayed wrong with no sign anything had failed.
+    #
+    # `excerpt` is deliberately absent from this list — Jekyll honours a
+    # front matter excerpt, so setting it is correct and common.
+    SHADOWED = %w[
+      collection content id next output path previous relative_path url
+    ].freeze
+
+    def check_shadowed_keys(site)
+      docs = (site.collections["trips"]&.docs || []) + site.posts.docs
+      docs.each do |doc|
+        (doc.data.keys & SHADOWED).each do |key|
+          flag(doc.data["title"] || doc.basename,
+               "sets #{key}: in its front matter, but Jekyll's document drop "                "defines its own #{key} — templates reading it get Jekyll's "                "value, never this one. Rename the field (e.g. #{key}_trip).")
+        end
       end
     end
 

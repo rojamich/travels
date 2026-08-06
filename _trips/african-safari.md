@@ -5,7 +5,7 @@ description: Three weeks across South Africa, Zimbabwe, and Botswana — Cape
 cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785572568/20240905_165216_djons0.jpg
 cover_focal_x: 50
 cover_focal_y: 39
-start_date: 2024-08-23
+start_date: 2024-08-22
 end_date: 2024-09-14
 location: South Africa
 lat: -33.9249

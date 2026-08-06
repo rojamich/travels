@@ -82,14 +82,22 @@ classes: wide
 
 {%- comment -%} Total days on the road across all trips with dates. {%- endcomment -%}
 {%- comment -%}
-  Duration stats skip trips flagged `collection: true`. Those group many
+  Duration stats skip trips flagged `collection_trip: true`. Those group many
   separate visits under one entry — "Party in the USA" spans 2011-2026 — so
   counting their span would put 5,389 days into the totals and hand them the
   longest-trip record.
+
+  The field is NOT called `collection:`. It was, and the guard silently did
+  nothing for a whole deploy: Jekyll's document drop defines its own
+  `collection` method returning the collection's label, so `t.collection`
+  evaluated to the string "trips" and never to her front matter value.
+  "trips" != true is always true, so every trip passed the test. Any front
+  matter key that collides with a drop method is shadowed the same way —
+  content_audit.rb now warns about the whole family of them.
 {%- endcomment -%}
 {%- assign total_days = 0 -%}
 {%- for t in site.trips -%}
-  {%- if t.start_date and t.end_date and t.collection != true -%}
+  {%- if t.start_date and t.end_date and t.collection_trip != true -%}
     {%- assign start_s = t.start_date | date: "%s" | plus: 0 -%}
     {%- assign end_s = t.end_date | date: "%s" | plus: 0 -%}
     {%- assign secs = end_s | minus: start_s -%}
@@ -103,7 +111,7 @@ classes: wide
 {%- assign longest_trip_name = "" -%}
 {%- assign longest_trip_url = "" -%}
 {%- for t in site.trips -%}
-  {%- if t.start_date and t.end_date and t.collection != true -%}
+  {%- if t.start_date and t.end_date and t.collection_trip != true -%}
     {%- assign s_s = t.start_date | date: "%s" | plus: 0 -%}
     {%- assign e_s = t.end_date | date: "%s" | plus: 0 -%}
     {%- assign trip_len = e_s | minus: s_s | divided_by: 86400 | plus: 1 -%}

@@ -646,7 +646,7 @@ collections:
           - { label: "Longitude", name: "lng", widget: "number", value_type: "float" }
 
       - { label: "Collection trip (groups many separate visits)",
-          name: "collection",
+          name: "collection_trip",
           widget: "boolean",
           default: false,
           required: false,

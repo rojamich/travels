@@ -10,7 +10,7 @@ end_date: 2026-05-31
 location: Washington DC, United States of America
 lat: 38.892059
 lng: -77.019913
-collection: true
+collection_trip: true
 states:
   - California
   - Oregon
