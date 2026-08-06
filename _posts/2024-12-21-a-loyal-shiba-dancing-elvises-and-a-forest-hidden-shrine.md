@@ -1,6 +1,6 @@
 ---
 title: "A loyal shiba, dancing Elvises, and a forest-hidden shrine."
-date: 2024-12-21
+date: 2024-12-15
 categories:
   - bamboo-bulgogi
 order: 6

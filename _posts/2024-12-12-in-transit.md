@@ -1,6 +1,6 @@
 ---
 title: "In Transit!"
-date: 2024-12-12
+date: 2024-12-11
 categories:
   - bamboo-bulgogi
 order: 2

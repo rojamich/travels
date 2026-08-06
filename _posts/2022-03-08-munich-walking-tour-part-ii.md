@@ -1,6 +1,6 @@
 ---
 title: "Munich Walking Tour - Part II"
-date: 2022-03-08
+date: 2022-03-03
 categories:
   - european-excursion
 order: 62

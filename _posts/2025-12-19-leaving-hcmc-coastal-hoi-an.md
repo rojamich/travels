@@ -1,6 +1,6 @@
 ---
 title: Leaving HCMC ----> Coastal Hoi An
-date: 2025-12-19
+date: 2025-12-14
 categories:
   - vietnam
 order: 7

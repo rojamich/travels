@@ -1,6 +1,6 @@
 ---
 title: "Amsterdam, the Venice of the North"
-date: 2022-06-24
+date: 2022-03-14
 categories:
   - european-excursion
 order: 87

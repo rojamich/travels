@@ -1,6 +1,6 @@
 ---
 title: Relaxation, tailor trip, and my new haircut!
-date: 2025-12-24
+date: 2025-12-16
 categories:
   - vietnam
 order: 9

@@ -1,6 +1,6 @@
 ---
 title: "A Final Note on Amsterdam"
-date: 2022-11-13
+date: 2022-03-18
 categories:
   - european-excursion
 order: 96

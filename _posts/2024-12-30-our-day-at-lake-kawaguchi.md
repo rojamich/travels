@@ -1,6 +1,6 @@
 ---
 title: "Our day at Lake Kawaguchi"
-date: 2024-12-30
+date: 2024-12-20
 categories:
   - bamboo-bulgogi
 order: 11

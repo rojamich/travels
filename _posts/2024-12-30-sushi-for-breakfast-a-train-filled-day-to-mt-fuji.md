@@ -1,6 +1,6 @@
 ---
 title: "Sushi for breakfast & a train-filled day to Mt. Fuji"
-date: 2024-12-30
+date: 2024-12-19
 categories:
   - bamboo-bulgogi
 order: 10

@@ -1,6 +1,6 @@
 ---
 title: "A Bus Ride, a Gorgeous Hotel Room, and FRENCH fries."
-date: 2022-02-19
+date: 2022-02-14
 categories:
   - european-excursion
 order: 22

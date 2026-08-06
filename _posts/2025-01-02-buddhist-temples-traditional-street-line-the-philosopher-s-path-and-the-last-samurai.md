@@ -1,6 +1,6 @@
 ---
 title: "Buddhist temples, traditional street line, the Philosopher's Path, and the Last Samurai."
-date: 2025-01-02
+date: 2024-12-22
 categories:
   - bamboo-bulgogi
 order: 13

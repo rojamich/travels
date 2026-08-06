@@ -1,6 +1,6 @@
 ---
 title: "Flâner Munich"
-date: 2022-03-08
+date: 2022-03-02
 categories:
   - european-excursion
 order: 60

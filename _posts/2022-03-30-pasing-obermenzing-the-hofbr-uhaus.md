@@ -1,6 +1,6 @@
 ---
 title: "Pasing-Obermenzing & the Hofbräuhaus"
-date: 2022-03-30
+date: 2022-03-05
 categories:
   - european-excursion
 order: 66

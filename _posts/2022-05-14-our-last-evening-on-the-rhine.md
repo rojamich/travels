@@ -1,6 +1,6 @@
 ---
 title: "Our Last Evening on the Rhine"
-date: 2022-05-14
+date: 2022-03-08
 categories:
   - european-excursion
 order: 73

@@ -1,6 +1,6 @@
 ---
 title: "Belgium Architecture"
-date: 2022-02-18
+date: 2022-02-11
 categories:
   - european-excursion
 order: 15

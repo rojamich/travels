@@ -1,6 +1,6 @@
 ---
 title: "A day in Hiroshima, the Himeji Castle, and Pontocho."
-date: 2025-01-12
+date: 2024-12-27
 categories:
   - bamboo-bulgogi
 order: 18

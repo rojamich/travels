@@ -1,6 +1,6 @@
 ---
 title: "Spending my 32nd birthday in Paris! (Part I)"
-date: 2022-02-24
+date: 2022-02-18
 categories:
   - european-excursion
 order: 30

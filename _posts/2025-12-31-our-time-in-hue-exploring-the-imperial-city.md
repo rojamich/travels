@@ -1,6 +1,6 @@
 ---
 title: "Our time in Hue: Exploring the Imperial City"
-date: 2025-12-31
+date: 2025-12-19
 categories:
   - vietnam
 order: 12

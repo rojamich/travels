@@ -1,6 +1,6 @@
 ---
 title: "A Final Note on France"
-date: 2022-02-26
+date: 2022-02-19
 categories:
   - european-excursion
 order: 34

@@ -1,6 +1,6 @@
 ---
 title: "A Suspension Bridge and the DMZ!!"
-date: 2025-08-25
+date: 2024-12-31
 categories:
   - bamboo-bulgogi
 order: 22

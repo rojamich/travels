@@ -1,6 +1,6 @@
 ---
 title: "We Love Bruges!"
-date: 2022-02-18
+date: 2022-02-12
 categories:
   - european-excursion
 order: 17

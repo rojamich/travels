@@ -1,6 +1,6 @@
 ---
 title: "A Comedy Night & Checkpoint Charlie"
-date: 2022-06-24
+date: 2022-03-12
 categories:
   - european-excursion
 order: 83

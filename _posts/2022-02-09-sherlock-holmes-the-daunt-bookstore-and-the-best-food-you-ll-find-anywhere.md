@@ -1,6 +1,6 @@
 ---
 title: "Sherlock Holmes, the Daunt Bookstore, and the Best Food You'll Find Anywhere!"
-date: 2022-02-09
+date: 2022-02-07
 categories:
   - european-excursion
 order: 5

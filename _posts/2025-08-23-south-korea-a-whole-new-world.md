@@ -1,6 +1,6 @@
 ---
 title: "South Korea: a Whole New World!"
-date: 2025-08-23
+date: 2024-12-29
 categories:
   - bamboo-bulgogi
 order: 20

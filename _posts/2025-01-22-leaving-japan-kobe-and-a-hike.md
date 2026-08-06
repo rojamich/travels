@@ -1,6 +1,6 @@
 ---
 title: "Leaving Japan: Kobe and a Hike"
-date: 2025-01-22
+date: 2024-12-28
 categories:
   - bamboo-bulgogi
 order: 19

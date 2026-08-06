@@ -1,6 +1,6 @@
 ---
 title: A busy day in Hanoi!
-date: 2026-01-04
+date: 2025-12-23
 categories:
   - vietnam
 order: 16

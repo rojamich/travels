@@ -1,6 +1,6 @@
 ---
 title: "A poop museum, winding alleys, Godzilla, and a surprise sunset with lightshow!"
-date: 2024-12-21
+date: 2024-12-16
 categories:
   - bamboo-bulgogi
 order: 7

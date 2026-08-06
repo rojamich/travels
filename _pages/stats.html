@@ -222,28 +222,16 @@ classes: wide
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
-{%- assign best_year = "" -%}
-{%- assign best_year_count = 0 -%}
-{%- assign years_seen = "" | split: "" -%}
-{%- for pair in year_country_pairs -%}
-  {%- assign py = pair | split: "|" | first -%}
-  {%- unless years_seen contains py -%}
-    {%- assign years_seen = years_seen | push: py -%}
-  {%- endunless -%}
-{%- endfor -%}
-{%- for y in years_seen -%}
-  {%- assign yc = 0 -%}
-  {%- for pair in year_country_pairs -%}
-    {%- if pair contains y -%}
-      {%- assign py = pair | split: "|" | first -%}
-      {%- if py == y -%}{%- assign yc = yc | plus: 1 -%}{%- endif -%}
-    {%- endif -%}
-  {%- endfor -%}
-  {%- if yc > best_year_count -%}
-    {%- assign best_year_count = yc -%}
-    {%- assign best_year = y -%}
-  {%- endif -%}
-{%- endfor -%}
+{%- comment -%}
+  best_year / best_count / best_countries are worked out further down, from
+  _includes/trips-in-year.html — the same include /year/YYYY/ uses.
+
+  There used to be a second derivation right here, counting the ISO codes in
+  year_country_pairs above. It disagreed with the year pages in two ways: it
+  filed a trip under its START year only, so a trip over New Year vanished
+  from the later year, and it counted codes rather than countries, so a
+  country with no ISO code didn't count at all. One source now.
+{%- endcomment -%}
 
 {% include page-quote.html
    text="It's the very fact that it's finite that makes traveling special."
@@ -386,57 +374,6 @@ classes: wide
     {%- endif -%}
   {%- endfor -%}
 {%- endif -%}
-
-{% if best_count > 0 %}
-<h2 style="margin-top:2em;">🗓️ Most countries in one year</h2>
-<div class="best-year">
-  <div class="best-year-head">
-    <a class="best-year-num" href="{{ '/year/' | append: best_year | append: '/' | relative_url }}">{{ best_year }}</a>
-    <div class="best-year-meta">
-      <strong>{{ best_count }}</strong> countr{% if best_count == 1 %}y{% else %}ies{% endif %}
-      across <strong>{{ best_trips }}</strong> trip{% if best_trips != 1 %}s{% endif %}
-    </div>
-  </div>
-  <div class="best-year-countries">
-    {% for c in best_countries %}<span class="country-chip">{{ c }}</span>{% endfor %}
-  </div>
-</div>
-
-<style>
-  .best-year {
-    border: 1px solid #d4dde4;
-    border-radius: 14px;
-    padding: 1.2em 1.4em;
-    background: #f7fafc;
-    margin: 0.8em 0 0;
-  }
-  .best-year-head {
-    display: flex;
-    align-items: baseline;
-    gap: 0.7em;
-    flex-wrap: wrap;
-    margin-bottom: 0.8em;
-  }
-  .best-year-num {
-    font-size: 2.1em;
-    font-weight: bold;
-    color: #2a4d69;
-    line-height: 1;
-    text-decoration: none;
-  }
-  .best-year-num:hover { text-decoration: underline; }
-  .best-year-meta { color: #555; }
-  .best-year-countries { display: flex; flex-wrap: wrap; gap: 0.4em; }
-  .best-year-countries .country-chip {
-    background: #f0f6f0;
-    color: #2c5c3f;
-    padding: 0.3em 0.9em;
-    border-radius: 999px;
-    font-size: 0.9em;
-    border: 1px solid #d0e0d5;
-  }
-</style>
-{% endif %}
 
 <h2 style="margin-top:2em;">🌍 World coverage</h2>
 <p style="color:#666;margin:0 0 0.6em;">
@@ -591,15 +528,20 @@ classes: wide
 <p style="color:#666;">{{ site.data.records.intro }}</p>
 {% endif %}
 <div class="leaderboard">
-  {% if best_year != "" %}
-  <div class="record-card record-auto">
+  {% if best_count > 0 %}
+  <a href="{{ '/year/' | append: best_year | append: '/' | relative_url }}" class="record-card record-auto">
     <div class="record-icon">🌍</div>
     <div class="record-body">
       <div class="record-title">Most countries in one year</div>
-      <div class="record-value">{{ best_year_count }} <span class="record-unit">countries</span></div>
-      <div class="record-meta">{{ best_year }}</div>
+      <div class="record-value">{{ best_count }} <span class="record-unit">countries</span></div>
+      <div class="record-meta">{{ best_year }} · {{ best_trips }} trip{% if best_trips != 1 %}s{% endif %}</div>
+      {%- comment -%}
+        The countries themselves, so the number can be checked at a glance
+        rather than taken on trust.
+      {%- endcomment -%}
+      <div class="record-note record-countries">{{ best_countries | join: " · " }}</div>
     </div>
-  </div>
+  </a>
   {% endif %}
 
   {% if longest_trip_days > 0 %}
@@ -636,6 +578,18 @@ classes: wide
     {% endif %}
   {% endfor %}
 </div>
+
+<style>
+  /* The record cards are a fixed-height grid; the country list is the one
+     thing in them that wraps to several lines, so it gets its own spacing
+     rather than inheriting the single-line .record-note treatment. */
+  .record-countries {
+    margin-top: 0.45em;
+    line-height: 1.5;
+    font-size: 0.82em;
+    color: #5a6b7a;
+  }
+</style>
 
 <h2 style="margin-top:2em;">By trip</h2>
 <div class="stats-trip-list">

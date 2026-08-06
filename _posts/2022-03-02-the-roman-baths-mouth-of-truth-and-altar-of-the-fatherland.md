@@ -1,6 +1,6 @@
 ---
 title: "The Roman Baths, Mouth of Truth and Altar of the Fatherland"
-date: 2022-03-02
+date: 2022-02-28
 categories:
   - european-excursion
 order: 54

@@ -1,6 +1,6 @@
 ---
 title: "Berlin Escape Room, the Berlin Wall, and the DDR Museum"
-date: 2022-06-24
+date: 2022-03-13
 categories:
   - european-excursion
 order: 84

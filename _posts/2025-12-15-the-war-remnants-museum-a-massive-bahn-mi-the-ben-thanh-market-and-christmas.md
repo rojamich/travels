@@ -1,7 +1,7 @@
 ---
 title: The War Remnants Museum, a Massive Bahn Mi, the Ben Thanh Market and...
   Christmas?
-date: 2025-12-15
+date: 2025-12-11
 categories:
   - vietnam
 order: 4

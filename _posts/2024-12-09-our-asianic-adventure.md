@@ -1,6 +1,6 @@
 ---
 title: "Our Asianic Adventure!"
-date: 2024-12-09
+date: 2024-12-10
 categories:
   - bamboo-bulgogi
 order: 1

@@ -1,6 +1,6 @@
 ---
 title: "A Sky Building, Hedgehogs, and weird foods."
-date: 2025-01-06
+date: 2024-12-26
 categories:
   - bamboo-bulgogi
 order: 17

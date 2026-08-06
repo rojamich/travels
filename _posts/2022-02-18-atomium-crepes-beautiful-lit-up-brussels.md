@@ -1,6 +1,6 @@
 ---
 title: "Atomium, crepes, & beautiful, lit up Brussels"
-date: 2022-02-18
+date: 2022-02-14
 categories:
   - european-excursion
 order: 20

@@ -1,6 +1,6 @@
 ---
 title: Final Notes on Vietnam
-date: 2026-01-02
+date: 2026-01-01
 categories:
   - vietnam
 order: 25

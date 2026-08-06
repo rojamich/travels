@@ -1,6 +1,6 @@
 ---
 title: "A Traditional Buddhist Temple, Lotte World Tower, Massive Malls, a hike and Itaewon-dong."
-date: 2025-08-25
+date: 2025-01-01
 categories:
   - bamboo-bulgogi
 order: 23

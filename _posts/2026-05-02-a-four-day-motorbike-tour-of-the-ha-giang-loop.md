@@ -1,6 +1,6 @@
 ---
 title: A Four-Day Motorbike Tour of the  Ha Giang Loop!
-date: 2026-05-02
+date: 2025-12-24
 categories:
   - vietnam
 order: 17

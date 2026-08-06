@@ -1,6 +1,6 @@
 ---
 title: "An Emotional Toll Taken During the City Tour"
-date: 2022-06-24
+date: 2022-03-11
 categories:
   - european-excursion
 order: 81

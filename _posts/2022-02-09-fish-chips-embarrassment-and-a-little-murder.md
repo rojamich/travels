@@ -1,6 +1,6 @@
 ---
 title: "Fish & Chips, Embarrassment, and a Little Murder."
-date: 2022-02-09
+date: 2022-02-06
 categories:
   - european-excursion
 order: 3

@@ -1,6 +1,6 @@
 ---
 title: "Tokyo's oldest temple, a sushi-making class, and meeting up with friends!"
-date: 2024-12-19
+date: 2024-12-14
 categories:
   - bamboo-bulgogi
 order: 5

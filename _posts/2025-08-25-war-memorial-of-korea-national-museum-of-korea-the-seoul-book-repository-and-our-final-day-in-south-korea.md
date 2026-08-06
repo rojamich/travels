@@ -1,6 +1,6 @@
 ---
 title: "War Memorial of Korea, National Museum of Korea, the Seoul Book Repository and our Final Day in South Korea!"
-date: 2025-08-25
+date: 2025-01-02
 categories:
   - bamboo-bulgogi
 order: 24

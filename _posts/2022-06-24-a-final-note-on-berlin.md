@@ -1,6 +1,6 @@
 ---
 title: "A Final Note on Berlin"
-date: 2022-06-24
+date: 2022-03-13
 categories:
   - european-excursion
 order: 86

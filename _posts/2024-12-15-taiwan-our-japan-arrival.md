@@ -1,6 +1,6 @@
 ---
 title: "Taiwan & Our Japan Arrival"
-date: 2024-12-15
+date: 2024-12-12
 categories:
   - bamboo-bulgogi
 order: 3

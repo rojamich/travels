@@ -1,6 +1,6 @@
 ---
 title: "Tori Gates, the Nijō Castle, Nijō Castle Ninomaru Goten Palace, and ramen!"
-date: 2025-01-03
+date: 2024-12-23
 categories:
   - bamboo-bulgogi
 order: 14

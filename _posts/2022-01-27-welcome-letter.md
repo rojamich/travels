@@ -1,6 +1,6 @@
 ---
 title: Welcome Letter!
-date: 2022-01-27
+date: 2022-02-06
 categories:
   - european-excursion
 order: 1

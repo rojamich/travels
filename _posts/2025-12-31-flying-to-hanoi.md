@@ -1,6 +1,6 @@
 ---
 title: Flying to Hanoi!
-date: 2025-12-31
+date: 2025-12-20
 categories:
   - vietnam
 order: 13

@@ -1,6 +1,6 @@
 ---
 title: Ba Na Hills, the Golden Bridge, and the Marble Mountains
-date: 2025-12-24
+date: 2025-12-15
 categories:
   - vietnam
 order: 8

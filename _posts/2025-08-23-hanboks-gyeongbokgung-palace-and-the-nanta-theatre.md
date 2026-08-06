@@ -1,6 +1,6 @@
 ---
 title: "Hanboks, Gyeongbokgung Palace, and the NANTA theatre!"
-date: 2025-08-23
+date: 2024-12-30
 categories:
   - bamboo-bulgogi
 order: 21

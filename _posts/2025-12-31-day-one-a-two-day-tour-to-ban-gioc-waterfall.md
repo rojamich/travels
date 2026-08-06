@@ -1,6 +1,6 @@
 ---
 title: Day One - A Two Day Tour to Ban Gioc Waterfall
-date: 2025-12-31
+date: 2025-12-21
 categories:
   - vietnam
 order: 14

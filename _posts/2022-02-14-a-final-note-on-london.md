@@ -1,6 +1,6 @@
 ---
 title: "A Final Note on London"
-date: 2022-02-14
+date: 2022-02-10
 categories:
   - european-excursion
 order: 12

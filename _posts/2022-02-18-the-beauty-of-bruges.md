@@ -1,6 +1,6 @@
 ---
 title: "The Beauty of Bruges"
-date: 2022-02-18
+date: 2022-02-13
 categories:
   - european-excursion
 order: 18

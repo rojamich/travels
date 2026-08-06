@@ -1,6 +1,6 @@
 ---
 title: "A Final Note on Belgium"
-date: 2022-02-18
+date: 2022-02-14
 categories:
   - european-excursion
 order: 21

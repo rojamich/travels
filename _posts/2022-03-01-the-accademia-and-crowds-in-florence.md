@@ -1,6 +1,6 @@
 ---
 title: "The Accademia and Crowds in Florence"
-date: 2022-03-01
+date: 2022-02-22
 categories:
   - european-excursion
 order: 41

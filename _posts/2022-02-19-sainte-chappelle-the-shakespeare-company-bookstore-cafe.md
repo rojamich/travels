@@ -1,6 +1,6 @@
 ---
 title: "Sainte-Chappelle & The Shakespeare Company Bookstore/Cafe"
-date: 2022-02-19
+date: 2022-02-17
 categories:
   - european-excursion
 order: 28

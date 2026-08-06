@@ -1,6 +1,6 @@
 ---
 title: "The Final Leg of Our Berlin City Tour"
-date: 2022-06-24
+date: 2022-03-12
 categories:
   - european-excursion
 order: 82

@@ -1,6 +1,6 @@
 ---
 title: "A Train Ride to Sankt Goar"
-date: 2022-03-30
+date: 2022-03-07
 categories:
   - european-excursion
 order: 70

@@ -1,6 +1,6 @@
 ---
 title: "Versailles"
-date: 2022-02-19
+date: 2022-02-16
 categories:
   - european-excursion
 order: 27

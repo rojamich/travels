@@ -1,6 +1,6 @@
 ---
 title: Day 2 of the Ha Giang Loop!
-date: 2025-12-27
+date: 2025-12-25
 categories:
   - vietnam
 order: 18

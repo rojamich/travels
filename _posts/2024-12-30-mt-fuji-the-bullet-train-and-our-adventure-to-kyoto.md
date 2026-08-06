@@ -1,6 +1,6 @@
 ---
 title: "Mt. Fuji, the Bullet Train, and our adventure to Kyoto"
-date: 2024-12-30
+date: 2024-12-21
 categories:
   - bamboo-bulgogi
 order: 12

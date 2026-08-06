@@ -1,6 +1,6 @@
 ---
 title: "A bamboo grove, the Tenryu-ji Temple, and a Monkey park!!"
-date: 2025-01-03
+date: 2024-12-24
 categories:
   - bamboo-bulgogi
 order: 15

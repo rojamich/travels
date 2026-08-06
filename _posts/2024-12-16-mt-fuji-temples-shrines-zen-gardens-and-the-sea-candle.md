@@ -1,6 +1,6 @@
 ---
 title: "Mt Fuji, temples, shrines, Zen gardens, and the sea candle."
-date: 2024-12-16
+date: 2024-12-13
 categories:
   - bamboo-bulgogi
 order: 4

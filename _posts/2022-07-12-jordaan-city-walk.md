@@ -1,6 +1,6 @@
 ---
 title: "Jordaan City Walk"
-date: 2022-07-12
+date: 2022-03-15
 categories:
   - european-excursion
 order: 90

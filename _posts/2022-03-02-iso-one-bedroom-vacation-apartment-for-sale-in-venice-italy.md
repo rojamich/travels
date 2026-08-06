@@ -1,6 +1,6 @@
 ---
 title: "ISO one bedroom vacation apartment for sale in Venice, Italy."
-date: 2022-03-02
+date: 2022-03-01
 categories:
   - european-excursion
 order: 57

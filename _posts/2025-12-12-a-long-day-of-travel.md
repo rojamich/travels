@@ -1,6 +1,6 @@
 ---
 title: A Long Day of Travel!
-date: 2025-12-12
+date: 2025-12-09
 categories:
   - vietnam
 order: 2

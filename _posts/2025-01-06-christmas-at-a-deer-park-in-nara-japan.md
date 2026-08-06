@@ -1,6 +1,6 @@
 ---
 title: "Christmas at a Deer Park in Nara, Japan!"
-date: 2025-01-06
+date: 2024-12-25
 categories:
   - bamboo-bulgogi
 order: 16

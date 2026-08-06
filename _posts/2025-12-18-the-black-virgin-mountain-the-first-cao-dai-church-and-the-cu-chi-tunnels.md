@@ -1,6 +1,6 @@
 ---
 title: The Black Virgin Mountain, the first Cao Dai church, and the Cu Chi Tunnels!
-date: 2025-12-18
+date: 2025-12-13
 categories:
   - vietnam
 order: 6

@@ -1,6 +1,6 @@
 ---
 title: Day 4 - The Last Day on the Loop
-date: 2025-12-29
+date: 2025-12-27
 categories:
   - vietnam
 order: 20

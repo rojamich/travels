@@ -1,6 +1,6 @@
 ---
 title: Day 3 - Just Us in the Loop
-date: 2025-12-28
+date: 2025-12-26
 categories:
   - vietnam
 order: 19
