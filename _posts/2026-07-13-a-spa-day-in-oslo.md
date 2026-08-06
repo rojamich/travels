@@ -3,7 +3,7 @@ title: A Spa Day in Oslo
 date: 2026-07-13
 categories:
   - fjords-forever
-order: 26
+order: 27
 header:
   teaser_focal_x: 50
   teaser_focal_y: 23

@@ -20,6 +20,9 @@ countries:
   - name: Italy
     lat: 45.903149
     lng: 9.1821
+  - name: Switzerland
+    lat: 45.9833
+    lng: 8.9667
 tags:
   - Europe
   - City

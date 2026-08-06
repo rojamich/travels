@@ -3,7 +3,7 @@ title: Swimming in the Amazon!
 date: 2025-09-09
 categories:
   - peruvian-passage
-order: 15
+order: 15.25
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785606502/20250908_074411_i6j0fg.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785606474/20250908_092829_x1ea3f.jpg
