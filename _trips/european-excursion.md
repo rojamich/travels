@@ -1,7 +1,11 @@
 ---
 title: European Excursion
-description: A months-long European tour — England, Belgium, France, Italy,
-  Germany, and Netherlands.
+description: Our first trip overseas swept through six countries! Shakespeare
+  and Stonehenge in England, Paris's glittering landmarks 🗼, Belgium's truffles
+  and Bruges' dreamy canals, the Colosseum and ancient ruins of Italy, WWII
+  history and fairytale castles across Germany, and Amsterdam's windmills and
+  canals by bike and by boat. A whirlwind of castles 🏰, cuisine 🍝, and
+  unforgettable firsts!
 cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782417771/20220222_124738_j9mlmq.jpg
 cover_focal_x: 50
 cover_focal_y: 0
