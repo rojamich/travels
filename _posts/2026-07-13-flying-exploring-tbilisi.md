@@ -71,9 +71,27 @@ We circled Freedom Square and searched for a good lunch spot. Breakfast typicall
 
 There was a fancy gym nearby so we decided to check it out. It was $250 a month PER PERSON! That would be an insane price for the US much less Georgia! 
 
-"Mike got confused with the conversion (first day here) and said it looks great and was ready to pay (thinking it was right on budget), luckily he looked at my shocked face and said we'll talk about it and come back. Whew. 😅" *This was written from Mike's perspective.
+"Mike got confused with the conversion (first day here) and said it looks great and was ready to pay (thinking it was right on budget), luckily he looked at my shocked face and said we'll talk about it and come back. Whew. 😅" *\*This was written from Mike's perspective.*
 
-\*Back to Jenna\*
+*\*Back to Jenna\**
+
+As we walk by the large, six-story mall here, Mike is slightly ahead of me as we weave through the crowd. There is a group of police officers and two turns towards Mike and stop him.
+
+> Officer: "Do you have guns or drugs?
+>
+> Mike (befuddled both by the question and by the heavy accent), "No."
+>
+> Officer: "You cannot have guns or drugs here."
+
+At this point, I've caught up and am next to them, greeting them with a Garmajoba and confused/surprised smile.
+
+The questioning takes on a slightly lighter tone now that Mike (tall, tan, bearded) is not alone.
+
+> Officer: "Where are you from?"
+>
+> Mike: "The U.S."
+
+He decides that's enough investigating for one day and we are sent on our way lol.
 
 We found a good looking Khinkali spot (the food Jenna dreams of ever since visiting here 6 years ago) and found a spot inside. It was decorated with Spanish! 
 
