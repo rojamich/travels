@@ -9,7 +9,7 @@ end_date: 2024-07-08
 location: Banff, Canada
 lat: 51.1784
 lng: 115.5708
-collection: true
+collection_trip: false
 states: []
 tags:
   - Food

@@ -11,7 +11,7 @@ end_date: 2025-04-29
 location: Maui, Hawaii, United States of America
 lat: 20.7984
 lng: 156.3319
-collection: true
+collection_trip: false
 states: []
 tags:
   - Food

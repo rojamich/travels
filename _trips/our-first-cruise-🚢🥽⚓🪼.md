@@ -15,7 +15,7 @@ countries:
   - name: Mexico
     lat: 20.5
     lng: 86.94
-collection: false
+collection_trip: false
 states:
   - Florida
 tags:
