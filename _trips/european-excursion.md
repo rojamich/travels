@@ -1,7 +1,11 @@
 ---
 title: European Excursion
-description: A months-long European tour — England, Belgium, France, Italy,
-  Germany, and Netherlands.
+description: Our first trip overseas swept through six countries! Shakespeare
+  and Stonehenge in England, Paris's glittering landmarks 🗼, Belgium's truffles
+  and Bruges' dreamy canals, the Colosseum and ancient ruins of Italy, WWII
+  history and fairytale castles across Germany, and Amsterdam's windmills and
+  canals by bike and by boat. A whirlwind of castles 🏰, cuisine 🍝, and
+  unforgettable firsts!
 cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782417771/20220222_124738_j9mlmq.jpg
 cover_focal_x: 50
 cover_focal_y: 0
@@ -36,6 +40,15 @@ tags:
   - Europe
   - City
   - Food
+  - Museums
+  - Winter
+  - Castles
+  - Bridges
+  - Towers
+  - EscapeRooms
+  - History
+  - Architecture
 ---
+Our first trip overseas took us through six countries and a lifetime of memories: Shakespeare at the Globe and the ancient stones of Stonehenge in England, glittering nights beneath the Eiffel Tower and wandering the Louvre and Versailles in France, the best truffles of our lives (and an unsettling torture museum) in Belgium, dreamlike days in Bruges, gelato and cannoli through Italy's historic streets, escape rooms and unforgettable food in Berlin, and cheese, windmills, canals, and the Anne Frank House by bike in the Netherlands.
 
-<!-- Optional intro text appears here on the trip page; leave blank to skip. -->
+A true trip of a lifetime that sparked a love for travel, adventure, and a lot of wanderlust!
