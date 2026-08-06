@@ -40,6 +40,7 @@ module TravelBlog
       check_trip_slugs(site, trips)
       check_country_names(site, known)
       check_shadowed_keys(site)
+      check_post_dates(site, trips)
 
       site.data["content_problems"] = @problems
 
@@ -168,6 +169,72 @@ module TravelBlog
                     "toward continents. Add a record, or add it as an alias " \
                     "of an existing country if it's another spelling.")
       end
+    end
+
+    # ---- a post's date should be when it HAPPENED -----------------------------
+    # A post's date is the single source for where it lands on the "On this
+    # day" widget, its year page, and the archive. Everything treats it as the
+    # day being written about.
+    #
+    # Several were entered as the day the post was PUBLISHED instead, which is
+    # sometimes months later: "South Korea: a Whole New World!" carries an
+    # August 2025 date for a trip that ended in January. Nothing looks broken
+    # — the post renders, the trip page lists it in the right order because
+    # `order:` decides that — but the post surfaces on the wrong day of the
+    # year and lands in the wrong year's review.
+    #
+    # Only a date outside the trip's OWN range is reported. Being a day either
+    # side is normal for a flight home written up the next morning, so a small
+    # grace period keeps this signal worth reading.
+    GRACE_DAYS = 2
+
+    def check_post_dates(site, trips)
+      # Grouped by trip on purpose. Reporting each post separately produced 55
+      # rows, which buries every other finding on the page. One row per trip,
+      # naming the worst offenders, is the same information at a size someone
+      # will actually read.
+      drift_by_trip = Hash.new { |h, k| h[k] = [] }
+
+      site.posts.docs.each do |post|
+        next unless post.date
+
+        Array(post.data["categories"]).each do |slug|
+          trip = trips[slug]
+          next unless trip
+
+          start_on = as_date(trip.data["start_date"])
+          end_on   = as_date(trip.data["end_date"])
+          next if start_on.nil? || end_on.nil?
+
+          on = post.date.to_date
+          drift =
+            if on < start_on then (start_on - on).to_i
+            elsif on > end_on then (on - end_on).to_i
+            else 0
+            end
+          next if drift <= GRACE_DAYS
+
+          drift_by_trip[slug] << [drift, post.data["title"] || post.basename, on]
+        end
+      end
+
+      drift_by_trip.each do |slug, entries|
+        trip  = trips[slug]
+        worst = entries.sort_by { |d, _, _| -d }
+        names = worst.first(3).map { |d, title, on| "#{title.inspect} (#{on}, #{d}d)" }
+        more  = entries.size > 3 ? ", and #{entries.size - 3} more" : ""
+
+        flag(trip.data["title"] || slug,
+             "#{entries.size} post#{"s" unless entries.size == 1} dated outside "              "the trip's own range (#{as_date(trip.data['start_date'])} to "              "#{as_date(trip.data['end_date'])}): #{names.join(', ')}#{more}. "              "If those are publish dates rather than the day each thing "              "happened, the posts show up on the wrong day in 'On this day' "              "and can land in the wrong year's review.")
+      end
+    end
+
+    def as_date(value)
+      return nil if value.nil?
+      return value.to_date if value.respond_to?(:to_date)
+      Date.parse(value.to_s)
+    rescue StandardError
+      nil
     end
 
     # ---- front matter that Jekyll quietly ignores -----------------------------

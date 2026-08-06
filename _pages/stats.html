@@ -187,7 +187,14 @@ classes: wide
   {%- if t.start_date -%}
     {%- assign ty = t.start_date | date: "%Y" -%}
     {%- if t.location and t.location != "" -%}
-      {%- assign cn = t.location | split: "," | last | strip -%}
+      {%- comment -%}
+        Normalise through canon-country.html rather than folding the name
+        here, so this timeline shades exactly the countries the Countries
+        tile counts. This block used to do its own split-and-strip with no
+        alias lookup at all.
+      {%- endcomment -%}
+      {%- include canon-country.html raw=t.location -%}
+      {%- assign cn = canon_country -%}
       {%- assign is_valid = true -%}
       {%- if cn contains "&" or cn contains "→" or cn contains "(" -%}
         {%- assign is_valid = false -%}
@@ -203,7 +210,8 @@ classes: wide
     {%- if t.countries -%}
       {%- for c in t.countries -%}
         {%- if c.name and c.name != "" -%}
-          {%- assign cn2 = c.name | split: "," | last | strip -%}
+          {%- include canon-country.html raw=c.name -%}
+          {%- assign cn2 = canon_country -%}
           {%- assign code2 = site.data.country_codes[cn2] | default: cn2 -%}
           {%- assign pair2 = ty | append: "|" | append: code2 -%}
           {%- unless year_country_pairs contains pair2 -%}
@@ -328,6 +336,106 @@ classes: wide
     tick(); setInterval(tick, 1000);
   })();
 </script>
+{% endif %}
+
+{%- comment -%}
+  =========================================================================
+  Best year for countries
+  =========================================================================
+  Which single year covered the most countries, and which ones they were.
+
+  Both the year list and the per-year countries come from
+  _includes/trips-in-year.html — the same include /year/YYYY/ uses — so this
+  headline and that page can never disagree. It works off each trip's own
+  date range, not off post dates, because post dates are publication dates:
+  64 posts currently sit outside their own trip's range, some by months.
+
+  Collection trips are excluded (the include drops them), so "Party in the
+  USA" doesn't hand every year from 2011 onward a free United States.
+  =========================================================================
+{%- endcomment -%}
+{%- assign min_year = 9999 -%}
+{%- assign max_year = 0 -%}
+{%- for t in site.trips -%}
+  {%- if t.collection_trip != true and t.start_date and t.end_date -%}
+    {%- assign sy = t.start_date | date: "%Y" | plus: 0 -%}
+    {%- assign ey = t.end_date | date: "%Y" | plus: 0 -%}
+    {%- if sy < min_year -%}{%- assign min_year = sy -%}{%- endif -%}
+    {%- if ey > max_year -%}{%- assign max_year = ey -%}{%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign best_year = "" -%}
+{%- assign best_count = 0 -%}
+{%- assign best_countries = "" | split: "" -%}
+{%- assign best_trips = 0 -%}
+{%- if max_year >= min_year -%}
+  {%- for y in (min_year..max_year) -%}
+    {%- assign y_str = y | append: "" -%}
+    {%- include trips-in-year.html year=y_str -%}
+    {%- assign n = year_countries | size -%}
+    {%- comment -%}
+      Strictly greater, so a tie keeps the EARLIEST year rather than
+      silently promoting the most recent one every time a new year matches.
+    {%- endcomment -%}
+    {%- if n > best_count -%}
+      {%- assign best_count = n -%}
+      {%- assign best_year = y_str -%}
+      {%- assign best_countries = year_countries -%}
+      {%- assign best_trips = year_trips | size -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{% if best_count > 0 %}
+<h2 style="margin-top:2em;">🗓️ Most countries in one year</h2>
+<div class="best-year">
+  <div class="best-year-head">
+    <a class="best-year-num" href="{{ '/year/' | append: best_year | append: '/' | relative_url }}">{{ best_year }}</a>
+    <div class="best-year-meta">
+      <strong>{{ best_count }}</strong> countr{% if best_count == 1 %}y{% else %}ies{% endif %}
+      across <strong>{{ best_trips }}</strong> trip{% if best_trips != 1 %}s{% endif %}
+    </div>
+  </div>
+  <div class="best-year-countries">
+    {% for c in best_countries %}<span class="country-chip">{{ c }}</span>{% endfor %}
+  </div>
+</div>
+
+<style>
+  .best-year {
+    border: 1px solid #d4dde4;
+    border-radius: 14px;
+    padding: 1.2em 1.4em;
+    background: #f7fafc;
+    margin: 0.8em 0 0;
+  }
+  .best-year-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.7em;
+    flex-wrap: wrap;
+    margin-bottom: 0.8em;
+  }
+  .best-year-num {
+    font-size: 2.1em;
+    font-weight: bold;
+    color: #2a4d69;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .best-year-num:hover { text-decoration: underline; }
+  .best-year-meta { color: #555; }
+  .best-year-countries { display: flex; flex-wrap: wrap; gap: 0.4em; }
+  .best-year-countries .country-chip {
+    background: #f0f6f0;
+    color: #2c5c3f;
+    padding: 0.3em 0.9em;
+    border-radius: 999px;
+    font-size: 0.9em;
+    border: 1px solid #d0e0d5;
+  }
+</style>
 {% endif %}
 
 <h2 style="margin-top:2em;">🌍 World coverage</h2>

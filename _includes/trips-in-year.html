@@ -1,0 +1,68 @@
+{%- comment -%}
+  ===========================================================================
+  trips-in-year.html — which trips and countries belong to a given year
+  ===========================================================================
+  Braces spaced out below so nothing in this comment looks like a real tag:
+
+      { % include trips-in-year.html year="2026" % }
+      { { year_trips | size } }        <- trips that touched that year
+      { { year_countries | size } }    <- distinct countries, canonical names
+
+  THE RULE
+  A trip belongs to a year if its own date range touches that year. Nothing
+  else decides it. A trip spanning New Year appears in both years, which is
+  true and is what the trip page itself says.
+
+  WHY NOT COUNT FROM POSTS
+  The year page used to work out its trips from post.categories, so a trip
+  with no posts written yet simply did not exist: The Singaporean Stopover is
+  dated January 2026 and was missing from /year/2026/ entirely. Post dates
+  are also publication dates rather than travel dates — 64 posts currently
+  sit outside their own trip's range, some by months — so they are the wrong
+  thing to date a trip by.
+
+  Countries come from _includes/canon-country.html, the same normalisation
+  the Stats page and the trip country count use, so all three agree. The
+  year layout used to fold names inline WITHOUT consulting the alias table,
+  which meant "USA" and "United States of America" counted as two countries
+  on a year page and one everywhere else.
+
+  Collection trips (collection_trip: true) are left out. "Party in the USA"
+  spans 2011-2026, so including it would list it on fifteen consecutive year
+  pages and swamp each one's country list.
+  ===========================================================================
+{%- endcomment -%}
+
+{%- assign year_trips = "" | split: "" -%}
+{%- assign year_countries = "" | split: "" -%}
+
+{%- for t in site.trips -%}
+  {%- if t.collection_trip != true and t.start_date and t.end_date -%}
+    {%- assign t_start = t.start_date | date: "%Y" -%}
+    {%- assign t_end = t.end_date | date: "%Y" -%}
+    {%- if t_start <= include.year and t_end >= include.year -%}
+      {%- assign year_trips = year_trips | push: t -%}
+
+      {%- if t.location and t.location != "" -%}
+        {%- include canon-country.html raw=t.location -%}
+        {%- unless year_countries contains canon_country -%}
+          {%- assign year_countries = year_countries | push: canon_country -%}
+        {%- endunless -%}
+      {%- endif -%}
+
+      {%- if t.countries -%}
+        {%- for c in t.countries -%}
+          {%- if c.name and c.name != "" -%}
+            {%- include canon-country.html raw=c.name -%}
+            {%- unless year_countries contains canon_country -%}
+              {%- assign year_countries = year_countries | push: canon_country -%}
+            {%- endunless -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign year_trips = year_trips | sort: "start_date" -%}
+{%- assign year_countries = year_countries | sort -%}

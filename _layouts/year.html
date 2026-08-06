@@ -18,39 +18,21 @@ layout: single
 {%- endfor -%}
 {%- assign year_posts = year_posts | sort: "date" -%}
 
-{%- comment -%} Distinct trips that year (from post.categories first slug). {%- endcomment -%}
-{%- assign trip_slugs = "" | split: "" -%}
-{%- for p in year_posts -%}
-  {%- assign slug = p.categories | first -%}
-  {%- if slug and slug != "" -%}
-    {%- unless trip_slugs contains slug -%}
-      {%- assign trip_slugs = trip_slugs | push: slug -%}
-    {%- endunless -%}
-  {%- endif -%}
-{%- endfor -%}
+{%- comment -%}
+  Trips and countries for this year come from _includes/trips-in-year.html,
+  which decides purely from each trip's own date range.
 
-{%- comment -%} Distinct countries via each trip's location + countries[]. {%- endcomment -%}
-{%- assign year_countries = "" | split: "" -%}
-{%- for slug in trip_slugs -%}
-  {%- assign t = site.trips | where: "slug", slug | first -%}
-  {%- if t -%}
-    {%- if t.location and t.location != "" -%}
-      {%- assign cn = t.location | split: "," | last | strip -%}
-      {%- unless year_countries contains cn -%}
-        {%- assign year_countries = year_countries | push: cn -%}
-      {%- endunless -%}
-    {%- endif -%}
-    {%- if t.countries -%}
-      {%- for c in t.countries -%}
-        {%- if c.name and c.name != "" -%}
-          {%- assign cn2 = c.name | split: "," | last | strip -%}
-          {%- unless year_countries contains cn2 -%}
-            {%- assign year_countries = year_countries | push: cn2 -%}
-          {%- endunless -%}
-        {%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
-  {%- endif -%}
+  This block used to derive trips from post.categories, so a trip with no
+  posts yet had no year at all — The Singaporean Stopover is dated January
+  2026 and was missing from this page entirely. It also folded country names
+  inline WITHOUT the alias table, so "USA" and "United States of America"
+  counted as two countries here and one everywhere else.
+{%- endcomment -%}
+{%- include trips-in-year.html year=yr -%}
+
+{%- assign trip_slugs = "" | split: "" -%}
+{%- for t in year_trips -%}
+  {%- assign trip_slugs = trip_slugs | push: t.slug -%}
 {%- endfor -%}
 
 <p style="font-size:1.05em;color:#444;">
