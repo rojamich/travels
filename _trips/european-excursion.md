@@ -40,6 +40,15 @@ tags:
   - Europe
   - City
   - Food
+  - Museums
+  - Winter
+  - Castles
+  - Bridges
+  - Towers
+  - EscapeRooms
+  - History
+  - Architecture
 ---
+Our first trip overseas took us through six countries and a lifetime of memories: Shakespeare at the Globe and the ancient stones of Stonehenge in England, glittering nights beneath the Eiffel Tower and wandering the Louvre and Versailles in France, the best truffles of our lives (and an unsettling torture museum) in Belgium, dreamlike days in Bruges, gelato and cannoli through Italy's historic streets, escape rooms and unforgettable food in Berlin, and cheese, windmills, canals, and the Anne Frank House by bike in the Netherlands.
 
-<!-- Optional intro text appears here on the trip page; leave blank to skip. -->
+A true trip of a lifetime that sparked a love for travel, adventure, and a lot of wanderlust!
