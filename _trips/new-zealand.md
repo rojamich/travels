@@ -1,7 +1,11 @@
 ---
 title: Nomadic New Zealand Adventure 2022
-description: A month-long road trip across New Zealand's North and South Islands
-  — Hobbiton, fiords, glaciers, bungee jumping.
+description: Never would we have dreamed of renting a campervan to cross New
+  Zealand 🚐, weaving past fiords and glaciers 🏔️, wandering among ancient
+  redwoods 🌲, and bungee jumping in the country that invented it. Along the way
+  hand-carving a ring for Mike and a bracelet for me, each shaped from stone by
+  the other's hands 💍, feasting in Hobbiton 🍗, and standing in Gisborne to
+  watch the very first sunrise of the day on Earth 🌍🌅!
 cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785517761/JMR_2339x_x0ekub.jpg
 cover_focal_x: 100
 cover_focal_y: 28
