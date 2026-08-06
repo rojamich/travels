@@ -1,7 +1,11 @@
 ---
 title: European Exploration
-description: A return to Europe — German road trip, Mediterranean cruise
-  (Croatia, Greece, Italy), and Lake Como.
+description: This trip began with pet-sitting and road-tripping across Germany,
+  it took us scuba diving off the coast of Croatia 🥽, through Greece's ancient
+  wonders. We hiked Delos 🥾, island-hopped to Mykonos, and soaked up Athens'
+  history and architecture. All of this before wrapping up in Italy with a Milan
+  city walk and the best days ever paddleboarding, devouring gelato 🍦, and
+  ferrying/riding trains across/along Lake Como.
 cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785573551/20230804_090411_tetqqf.jpg
 cover_focal_x: 50
 cover_focal_y: 28
