@@ -3,7 +3,7 @@ title: Freedom Camping!
 date: 2022-12-03
 categories:
   - new-zealand
-order: 20
+order: 20.5
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786086680/20221203_180138_bwihjb.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786086672/20221203_180113_ejrlgz.jpg
