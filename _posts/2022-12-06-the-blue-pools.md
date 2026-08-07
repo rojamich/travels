@@ -14,6 +14,9 @@ header:
   overlay_focal_y: 47
 tags:
   - South Island
+  - Hiking
+  - Campervan
+  - Roadtrip
 location:
   name: Blue Pools, Haast, NZ
   lat: -44.0813
