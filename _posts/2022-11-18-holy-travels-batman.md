@@ -1,9 +1,19 @@
 ---
-title: "Holy Travels, Batman!"
-date: 2022-11-18
+title: Holy Travels, Batman!
+date: 2022-11-15
 categories:
   - new-zealand
 order: 2
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786083399/20221114_200603_dpbjlc.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786083399/20221114_200603_dpbjlc.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 99
+  overlay_focal_x: 50
+  overlay_focal_y: 30
+  overlay_filter: 0
+tags:
+  - Flights
 location:
   name: Eugene, Oregon
   lat: 44.0521
