@@ -1,11 +1,25 @@
 ---
-title: "Freedom Camping!"
-date: 2022-12-06
+title: Freedom Camping!
+date: 2022-12-03
 categories:
   - new-zealand
-order: 26
+order: 20
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786086680/20221203_180138_bwihjb.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786086672/20221203_180113_ejrlgz.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 0
+  overlay_focal_x: 50
+  overlay_focal_y: 37
 tags:
   - South Island
+  - Campervan
+  - Roadtrip
+location:
+  name: Lake Ruataniwha, Twizel, New Zealand
+  lat: -44.2797
+  lng: 170.0628
 ---
 
 Freedom Camping:
