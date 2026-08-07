@@ -1,9 +1,20 @@
 ---
-title: "Traveling Home"
-date: 2022-12-13
+title: Traveling Home
+date: 2022-12-07
 categories:
   - new-zealand
-order: 30
+order: 24
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786083791/20221203_175925_vur8hu.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786083771/received_606988984515832_oyh5f5.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 0
+  overlay_focal_x: 50
+  overlay_focal_y: 51
+tags:
+  - Flights
+  - Road-trip
 location:
   name: Queenstown, New Zealand
   lat: -45.0312
