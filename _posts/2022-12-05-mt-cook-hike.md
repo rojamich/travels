@@ -1,13 +1,26 @@
 ---
-title: "Mt Cook Hike!"
-date: 2022-12-05
+title: Mt Cook Hike!
+date: 2022-12-03
 categories:
   - new-zealand
-order: 25
+order: 20
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786086987/20221203_130933_sxqeov.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786086964/20221203_120627_bz9tdq.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 28
 tags:
   - South Island
+  - Hiking
+  - Campervan
+  - Roadtrip
+  - Nature
+  - Wildlife
 location:
-  name: "Mt Cook (Aoraki), NZ"
+  name: Mt Cook (Aoraki), NZ
   lat: -43.5985
   lng: 170.1421
 ---
