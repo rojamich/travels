@@ -1,13 +1,24 @@
 ---
-title: "Glaciers in a Rainforest!"
-date: 2022-12-13
+title: Glaciers in a Rainforest!
+date: 2022-12-05
 categories:
   - new-zealand
-order: 28
+order: 22
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786084943/20221205_092109_tzrsno.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786084940/20221205_085846_p2sec1.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 42
+  overlay_focal_x: 50
+  overlay_focal_y: 47
 tags:
   - South Island
+  - Hiking
+  - Glacier
+  - Rainforest
 location:
-  name: "Franz Josef Glacier, NZ"
+  name: Franz Josef Glacier, NZ
   lat: -43.3776
   lng: 170.1819
 ---
