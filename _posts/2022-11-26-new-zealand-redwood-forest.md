@@ -1,13 +1,23 @@
 ---
-title: "New Zealand Redwood Forest"
-date: 2022-11-26
+title: New Zealand Redwood Forest
+date: 2022-11-25
 categories:
   - new-zealand
-order: 17
+order: 12
+header:
+  overlay_filter: 0
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785680360/blogger-import/9ab15345af0a97cc1dd2.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786113845/20221125_143031_qwulg4.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 100
+  overlay_focal_x: 50
+  overlay_focal_y: 30
 tags:
   - North Island
+  - Hiking
+  - Redwoods
 location:
-  name: "Rotorua Redwoods, NZ"
+  name: Rotorua Redwoods, NZ
   lat: -38.1368
   lng: 176.2497
 ---
