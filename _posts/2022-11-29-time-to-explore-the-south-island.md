@@ -1,13 +1,21 @@
 ---
-title: "Time to Explore the South Island!"
-date: 2022-11-29
+title: Time to Explore the South Island!
+date: 2022-11-27
 categories:
   - new-zealand
-order: 18
+order: 14
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786114032/20221127_101034_qvtn6f.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786114040/20221127_102414_gqv0hd.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 34
+  overlay_focal_x: 50
+  overlay_focal_y: 51
+  overlay_filter: 0
 tags:
   - South Island
 location:
-  name: "South Island, NZ"
+  name: South Island, NZ
   lat: -45.0312
   lng: 168.6626
 ---
