@@ -1,6 +1,6 @@
 ---
 title: Holy Travels, Batman!
-date: 2022-11-18
+date: 2022-11-15
 categories:
   - new-zealand
 order: 2
