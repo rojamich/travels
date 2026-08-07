@@ -3,7 +3,7 @@ title: Jade Jewelry and the Missing Ring
 date: 2022-12-05
 categories:
   - new-zealand
-order: 22
+order: 22.5
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786084410/20221206_095249_wjncy7.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786084420/20221205_134830_qkx2gy.jpg
