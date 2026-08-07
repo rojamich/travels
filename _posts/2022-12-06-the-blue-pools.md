@@ -1,13 +1,24 @@
 ---
-title: "The Blue Pools"
-date: 2022-12-06
+title: The Blue Pools
+date: 2022-12-04
 categories:
   - new-zealand
-order: 27
+order: 21
+header:
+  overlay_filter: 0
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786086422/20221204_151751_sjwfmj.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786086424/20221204_150533_vrchfh.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 46
+  overlay_focal_x: 50
+  overlay_focal_y: 47
 tags:
   - South Island
+  - Hiking
+  - Campervan
+  - Roadtrip
 location:
-  name: "Blue Pools, Haast, NZ"
+  name: Blue Pools, Haast, NZ
   lat: -44.0813
   lng: 169.0432
 ---
