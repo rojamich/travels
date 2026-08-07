@@ -1,13 +1,21 @@
 ---
-title: "The Auckland Zoo"
-date: 2022-11-23
+title: The Auckland Zoo
+date: 2022-11-19
 categories:
   - new-zealand
-order: 11
+order: 6
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785679965/blogger-import/903d408243836e511411.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785679938/blogger-import/dae54dbb7c0ef429dff1.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 100
+  overlay_focal_x: 50
+  overlay_focal_y: 55
+  overlay_filter: 0
 tags:
   - North Island
 location:
-  name: "Auckland Zoo, NZ"
+  name: Auckland Zoo, NZ
   lat: -36.8629
   lng: 174.7196
 ---
