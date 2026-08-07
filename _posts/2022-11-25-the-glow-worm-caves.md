@@ -8,6 +8,10 @@ header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785680203/blogger-import/7806a381b44422936575.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785680206/blogger-import/80c1570f5ba46772ed6f.jpg
   overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 38
+  overlay_focal_x: 50
+  overlay_focal_y: 71
 tags:
   - North Island
   - GlowwormCaves
