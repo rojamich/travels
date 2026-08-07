@@ -1,13 +1,20 @@
 ---
-title: "Hobbiton Pt2"
-date: 2022-11-23
+title: Hobbiton Pt2
+date: 2022-11-17
 categories:
   - new-zealand
-order: 8
+order: 4.5
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786090229/20221117_183232_lcsxrh.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786090348/JMR_2285x_nhadhy.jpg
+  overlay_filter: 0
 tags:
   - North Island
+  - Hobbits
+  - Hobbiton
+  - LOTR
 location:
-  name: "Hobbiton, New Zealand"
+  name: Hobbiton, New Zealand
   lat: -37.8721
   lng: 175.6831
 ---
