@@ -17,6 +17,8 @@ tags:
   - Hiking
   - Campervan
   - Roadtrip
+  - Nature
+  - Wildlife
 location:
   name: Mt Cook (Aoraki), NZ
   lat: -43.5985
