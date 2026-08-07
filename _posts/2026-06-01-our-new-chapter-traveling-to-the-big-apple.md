@@ -1,6 +1,6 @@
 ---
 title: Our New Chapter - Traveling to the Big Apple
-date: 2026-06-01
+date: 2026-06-10
 categories:
   - life-in-the-big-city
 order: 1
@@ -12,11 +12,11 @@ tags:
   - Beach
   - Cityscapes
   - ""
-toc: false
 location:
   name: Newport, Oregon
   lat: 44.6368
   lng: -124.0534
+toc: false
 ---
 About a year ago, Mike and I decided we would take the leap and travel abroad while working remotely! 
 
