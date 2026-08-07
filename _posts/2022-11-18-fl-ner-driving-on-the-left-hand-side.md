@@ -1,9 +1,17 @@
 ---
-title: "Flâner & Driving on the Left-hand Side"
-date: 2022-11-18
+title: Flâner & Driving on the Left-hand Side
+date: 2022-11-17
 categories:
   - new-zealand
 order: 4
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786088230/20221116_161105_u3asut.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786088239/20221116_161831_kj5xqm.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 48
 tags:
   - North Island
 location:
