@@ -1,13 +1,24 @@
 ---
-title: "The Long Anticipated Doubtful Sound!"
-date: 2022-12-04
+title: The Long Anticipated Doubtful Sound!
+date: 2022-12-02
 categories:
   - new-zealand
-order: 24
+order: 19
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786087697/20221202_120740_vkwyl2.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786087687/20221202_121130_uwktay.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 0
+  overlay_focal_x: 50
+  overlay_focal_y: 39
 tags:
   - South Island
+  - Sound
+  - Cruise
+  - Nature
 location:
-  name: "Doubtful Sound, NZ"
+  name: Doubtful Sound, NZ
   lat: -45.4506
   lng: 167.0394
 ---
