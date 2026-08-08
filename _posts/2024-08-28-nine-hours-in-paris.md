@@ -1,13 +1,24 @@
 ---
-title: "Nine Hours in Paris"
-date: 2024-08-28
+title: Nine Hours in Paris
+date: 2024-08-27
 categories:
   - african-safari
-order: 3
+order: 6
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785689802/blogger-import/841ce92d6e308fbaf80f.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785689793/blogger-import/49c20edc31310d70fc14.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 66
+  overlay_focal_x: 50
+  overlay_focal_y: 18
 tags:
   - France
+  - Paris
+  - Food
+  - Flight
 location:
-  name: "Paris, France (layover)"
+  name: Paris, France (layover)
   lat: 48.8566
   lng: 2.3522
 ---
