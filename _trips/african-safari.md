@@ -10,8 +10,8 @@ cover_focal_y: 39
 start_date: 2024-08-22
 end_date: 2024-09-14
 location: South Africa
-lat: -33.9249
-lng: 18.4241
+lat: -33.9258
+lng: 18.4232
 countries:
   - name: Botswana
     lat: -22.3285
