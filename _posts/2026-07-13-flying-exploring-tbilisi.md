@@ -73,7 +73,7 @@ There was a fancy gym nearby so we decided to check it out. It was $250 a month 
 
 "Mike got confused with the conversion (first day here) and said it looks great and was ready to pay (thinking it was right on budget), luckily he looked at my shocked face and said we'll talk about it and come back. Whew. 😅" *\*This was written from Mike's perspective.*
 
-*\*Back to Jenna\**
+\*\*Back to Jenna\*\*
 
 As we walk by the large, six-story mall here, Mike is slightly ahead of me as we weave through the crowd. There is a group of police officers and two turns towards Mike and stop him.
 
@@ -97,7 +97,7 @@ We found a good looking Khinkali spot (the food Jenna dreams of ever since visit
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784462688/20260714_140243_og0oou.jpg)
 
-We order our Khinkali (beef and pork dumpling with tons of herbs!), Mike tries a local beer, and we split a tarragon lemonade.
+We order our Khinkali (beef and pork dumpling with tons of herbs!), Mike tries a local beer, and we split a tarragon lemonade. She said if we like our food spicy, we could try adding black pepper to the khinkali...
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784462759%2F20260714_140310_jryzdc.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784462762%2F20260714_143104_r2337x.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1784462762%2F20260714_140301_tz6ekk.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%2210%2F10%20-%20loved%20it.%20Perfect%20juices%20and%20excellent%20lemonade!%22%7D %}
 
