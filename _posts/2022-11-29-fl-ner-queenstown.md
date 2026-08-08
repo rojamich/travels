@@ -1,13 +1,25 @@
 ---
-title: "Flâner Queenstown"
-date: 2022-11-29
+title: Flâner Queenstown
+date: 2022-11-27
 categories:
   - new-zealand
-order: 19
+order: 14
+header:
+  overlay_filter: 0
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785680381/blogger-import/34cd98193a46c00e461c.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785680390/blogger-import/c558747bcf1c438ac33b.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 10
+  overlay_focal_x: 50
+  overlay_focal_y: 67
 tags:
   - South Island
+  - Queenstown
+  - Views
+  - Lake
+  - Food
 location:
-  name: "Queenstown, NZ"
+  name: Queenstown, NZ
   lat: -45.0312
   lng: 168.6626
 ---
