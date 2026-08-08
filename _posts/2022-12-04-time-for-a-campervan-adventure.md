@@ -1,11 +1,23 @@
 ---
-title: "Time for a Campervan Adventure!"
-date: 2022-12-04
+title: Time for a Campervan Adventure!
+date: 2022-12-01
 categories:
   - new-zealand
-order: 22
+order: 18
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785680676/blogger-import/7b7e32553a0a6fb56fce.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785680698/blogger-import/2122f340af43583ed79b.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 38
+  overlay_focal_x: 50
+  overlay_focal_y: 53
 tags:
   - South Island
+  - Queenstown
+  - Running
+  - Campervan
+  - Roadtrip
 location:
   name: Queenstown, New Zealand
   lat: -45.0312
