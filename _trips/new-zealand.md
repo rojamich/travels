@@ -1,7 +1,7 @@
 ---
 title: Nomadic New Zealand Adventure 2022
 description: Never would we have dreamed of renting a campervan to cross New
-  Zealand 🚐, weaving past fiords and glaciers 🏔️, wandering among ancient
+  Zealand 🚐, weaving past fiords and glaciers 🏔️, wandering among massive
   redwoods 🌲, and bungee jumping in the country that invented it. Along the way
   hand-carving a ring for Mike and a bracelet for me, each shaped from stone by
   the other's hands 💍, feasting in Hobbiton 🍗, and standing in Gisborne to
