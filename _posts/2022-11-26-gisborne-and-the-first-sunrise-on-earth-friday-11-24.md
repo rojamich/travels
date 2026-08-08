@@ -1,5 +1,5 @@
 ---
-title: Gisborne and the First Sunrise on Earth Friday, 11/24!
+title: Gisborne and the First Sunrise on Earth Friday, 11/25!
 date: 2022-11-25
 categories:
   - new-zealand
