@@ -1,13 +1,23 @@
 ---
-title: "Arriving in Capetown"
+title: Arriving in Capetown
 date: 2024-08-28
 categories:
   - african-safari
-order: 4
+order: 7
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785689693/blogger-import/b1a112e39ab273102b5d.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785689705/blogger-import/7cb741b16ea5d917331b.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 0
+  overlay_focal_x: 50
+  overlay_focal_y: 72
+  overlay_filter: 0
 tags:
-  - South Africa
+  - SouthAfrica
+  - Flight
+  - Food
 location:
-  name: "Cape Town, South Africa"
+  name: Cape Town, South Africa
   lat: -33.9249
   lng: 18.4241
 ---
