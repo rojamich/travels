@@ -1,13 +1,23 @@
 ---
-title: "A Journey to the Milford Sound"
-date: 2022-12-04
+title: A Journey to the Milford Sound
+date: 2022-12-01
 categories:
   - new-zealand
-order: 23
+order: 18
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785680538/blogger-import/13a14483917943603e72.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785680507/blogger-import/a6a2116a3ed1d8dbeb97.jpg
+  overlay_filter: 0
 tags:
   - South Island
+  - Sound
+  - Campervan
+  - Roadtrip
+  - River
+  - Nature
+  - Wildlife
 location:
-  name: "Milford Sound, NZ"
+  name: Milford Sound, NZ
   lat: -44.6712
   lng: 167.9192
 ---
