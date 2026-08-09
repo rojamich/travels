@@ -18,7 +18,7 @@ tags:
   - Food
   - Flight
 location:
-  name: Paris, France (layover)
+  name: Paris, France
   lat: 48.8566
   lng: 2.3522
 ---
