@@ -28,13 +28,13 @@ On my way back from working out, I made two more friends!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1786280687%2F20260805_100449_xbtkyl.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2246%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1786280690%2F20260805_100539_nwbgoc.jpg%22%7D%5D%2C%22caption%22%3A%22Meet%20Phoebe%20and%20Pataa!%22%7D %}
 
-Pataa works security next door to our Airbnb and Mike and I say "Garjoba!" to the group of gentlemen who are always out front. They're always kind and friendly 😊
+Pataa works security next door to our Airbnb and Mike and I say "Gamarjoba!" to the group of gentlemen who are always out front. They're always kind and friendly 😊
 
 The Georgian National Museum is about a five minute walk so we headed down there to learn about the history of Georgia! We were able to get an English Audio Guide and there was information about every.single.part. of the museum. Unfortunately, I found it very dry to listen to, but Mike thought it was interesting!
 
 The guide started with the entrance walking us through the early ages of Georgia:
 
-*  Hominid remains dated to 1.8 million years ago were discovered roughly 85 km south of Tbilisi, marking some of the oldest human ancestor evidence outside Africa!
+* Hominid remains dated to 1.8 million years ago were discovered roughly 85 km south of Tbilisi, marking some of the oldest human ancestor evidence outside Africa!
 
 The next stop was the treasury which held some incredible pieces!
 
@@ -80,7 +80,7 @@ In 1921, the Red Army invaded Georgia. The next seven decades resulted in tens o
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1786282137%2F20260805_135121_f3ihyo.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2233%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1786282140%2F20260805_135159_ytbhjn.jpg%22%7D%2C%7B%22x%22%3A%2296%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1786282140%2F20260805_134832_mb4zkl.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-This explains why there have been 619 days of protests in a row (as of today) here in Tbilisi. Citizens want to join the EU and the government have postponed discussion of joining (due to fear of Russia). 
+This explains why there have been 619 days of protests in a row (as of today) here in Tbilisi. Citizens want to join the EU and the government have postponed discussion of joining (due to fear of Russia). Citizens also believe that the government is corrupt and Russian-friendly.
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786282656/20260808_213053_ffgyx9.jpg)
 
@@ -93,6 +93,12 @@ We have spent more time working out, working online, and getting some good walks
 We were told off by a local here recently for innocently walking by his house!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2260%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1786282851%2F20260808_193540_f7hsuy.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2234%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1786282854%2F20260808_193545_fzsusa.jpg%22%7D%5D%2C%22caption%22%3A%22He's%20pretty%20cute%20though...%22%7D %}
+
+There was more live entertainment at dinner that was actually really enjoyable!
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FrNImQJzN5a0%22%7D %}
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2F5uru3vota1c%22%7D %}
 
 Soaking up the last few days here before heading up to Stepantsminda tomorrow!
 
