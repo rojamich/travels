@@ -1,6 +1,4 @@
-current_location: Tbilisi, Georgia
+current_location: Stepantsminda, Georgia
 current_timezone: Asia/Tbilisi
-next_destination: Stepantsminda, Georgia
-# Date the nomadic chapter started — powers the running "days on the road"
-# clock on /stats/. Leave blank to hide the clock.
+next_destination: Yerevan, Armenia
 nomad_start_date: 2026-06-01
