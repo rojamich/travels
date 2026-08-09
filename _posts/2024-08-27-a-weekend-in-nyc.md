@@ -13,13 +13,13 @@ header:
   overlay_focal_x: 50
   overlay_focal_y: 75
 tags:
-  - New York
+  - NewYork
   - NYC
   - StatueofLiberty
   - Food
   - CentralPark
 location:
-  name: New York City
+  name: New York City, United States of America
   lat: 40.7128
   lng: 74.006
 ---
