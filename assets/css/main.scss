@@ -161,11 +161,23 @@ a {
   cursor: pointer;
 }
 
-.tag-filter {
+// Sort and Filter are the same kind of control and must read as one row.
+// The sort wrapper used to be an unstyled div, so its label stacked above the
+// select while Filter's label sat beside its button — the two baselines were
+// about 30px apart.
+.sort-filter, .tag-filter {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4em;
   align-items: center;
+}
+
+// Kill the vertical wobble between the two groups: everything in the bar sits
+// on one line, and the bar centres them against each other.
+.controls {
+  align-items: center;
+
+  label { margin-bottom: 0; }
 }
 
 // -----------------------------------------------------------------------------

@@ -39,6 +39,7 @@ module TravelBlog
       @filled   = []
       @unknown  = []
       @drifted  = []
+      @invalid  = []
 
       return if @places.empty?
 
@@ -92,6 +93,8 @@ module TravelBlog
         else
           @unknown << [doc.data["title"] || doc.basename, name]
         end
+      elsif !valid?(lat, lng)
+        @invalid << [doc.data["title"] || doc.basename, name, lat, lng]
       elsif known && distance_km([lat, lng], known) > DRIFT_KM
         @drifted << [doc.data["title"] || doc.basename, name, [lat, lng], known]
       end
@@ -115,9 +118,20 @@ module TravelBlog
         else
           @unknown << [doc.data["title"] || doc.basename, name]
         end
+      elsif !valid?(lat, lng)
+        @invalid << [doc.data["title"] || doc.basename, name, lat, lng]
       elsif known && distance_km([lat, lng], known) > DRIFT_KM
         @drifted << [doc.data["title"] || doc.basename, name, [lat, lng], known]
       end
+    end
+
+    # Latitude runs -90..90 and longitude -180..180. Anything outside that is
+    # not a place, it is a typo — and Leaflet doesn't reject it, it just draws
+    # the track off to infinity and back, which is what put a line straight
+    # across the Africa map. That one was `lng: 182704`, a dropped decimal
+    # point in 18.2704.
+    def valid?(lat, lng)
+      lat.between?(-90, 90) && lng.between?(-180, 180)
     end
 
     # Equirectangular approximation. Accurate to well under a kilometre at
@@ -132,6 +146,13 @@ module TravelBlog
     # Same "where||what" shape /admin-stats/ already renders for the other checks.
     def build_report
       rows = []
+      @invalid.each do |where, name, lat, lng|
+        rows << "#{where}||is pinned at #{lat}, #{lng}, which is not a real " \
+                "coordinate (latitude is -90..90, longitude -180..180). The " \
+                "map draws a line straight across the world to reach it. " \
+                "Check for a missing decimal point or minus sign in " \
+                "#{name.inspect}."
+      end
       @unknown.each do |where, name|
         rows << "#{where}||names #{name.inspect} but has no coordinates, and " \
                 "_data/places.yml doesn't know that place yet. It won't appear " \

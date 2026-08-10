@@ -62,6 +62,10 @@
     }).join("");
 
     var sortWrap = document.createElement("div");
+    // Same flex-row treatment as .tag-filter. Without it this div is a plain
+    // block, so its label sat ABOVE the select while "Filter:" sat beside its
+    // button, and the two controls read as different shapes.
+    sortWrap.className = "sort-filter";
     sortWrap.innerHTML =
       '<label for="sort-select">Sort:</label>' +
       '<select id="sort-select">' + optionsHtml + "</select>";
@@ -301,13 +305,20 @@
 
     // ---------------------------------------------------------------------------
     // FILTER LOGIC — show/hide cards based on activeTags.
-    // OR semantics: a card matches if it has ANY of the active tags.
-    // No active tags = show all.
-    // Also reveals an empty-state message when nothing matches.
+    //
+    // AND semantics: a card must carry EVERY active tag, not just one of them.
+    // Picking Food and Hiking asks for trips that were both, which is the
+    // question worth asking; OR just returned the union and adding a second
+    // tag made the list longer, which is the opposite of filtering.
+    //
+    // No active tags = show all. An empty state appears when nothing matches,
+    // which matters more with AND — narrow combinations legitimately return
+    // nothing, and silence would look like a broken page.
     // ---------------------------------------------------------------------------
     var emptyMsg = document.createElement("p");
     emptyMsg.className = "empty-state";
-    emptyMsg.textContent = "No trips match the selected filter.";
+    emptyMsg.textContent = "Nothing matches all of those tags together \u2014 " +
+      "try removing one.";
     emptyMsg.style.display = "none";
     list.parentNode.insertBefore(emptyMsg, list.nextSibling);
 
@@ -316,7 +327,9 @@
       cards.forEach(function (card) {
         var cardTags = (card.dataset.tags || "").split(/\s+/);
         var match = activeTags.size === 0 ||
-          cardTags.some(function (t) { return activeTags.has(t); });
+          Array.from(activeTags).every(function (t) {
+            return cardTags.indexOf(t) !== -1;
+          });
         card.style.display = match ? "" : "none";
         if (match) visibleCount++;
       });

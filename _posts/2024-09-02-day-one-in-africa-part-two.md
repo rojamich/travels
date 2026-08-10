@@ -23,7 +23,7 @@ tags:
 location:
   name: Cape of Good Hope, South Africa
   lat: -34.3342
-  lng: 182704
+  lng: 18.2704
 ---
 [![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785690157/blogger-import/e29b59f725521edb0515.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785690168/blogger-import/00e9e81833dd02cb6430.jpg)
 
