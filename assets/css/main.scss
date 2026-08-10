@@ -168,6 +168,194 @@ a {
   align-items: center;
 }
 
+// -----------------------------------------------------------------------------
+// TAG DROPDOWN
+// -----------------------------------------------------------------------------
+// Replaces a row of one-chip-per-tag. With 54 tags on the trips and 100 on the
+// posts, that row wrapped to five or six lines and pushed the sort control out
+// of sight. The dropdown stays one line tall no matter how many tags exist;
+// only the tags actually chosen get shown, as chips that can be dismissed.
+.tag-dd {
+  position: relative;
+  display: inline-block;
+}
+
+.tag-dd-toggle {
+  padding: 0.4em 0.8em;
+  border-radius: 8px;
+  border: 1px solid $border-color;
+  background: #fff;
+  color: $ink;
+  font-size: 0.95em;
+  cursor: pointer;
+  line-height: 1.3;
+
+  // Chevron, so it reads as a menu rather than a plain button.
+  &::after {
+    content: "\25be";
+    margin-left: 0.45em;
+    color: $muted;
+  }
+
+  &:hover { border-color: $seaglass; }
+
+  &.has-active {
+    border-color: $seaglass;
+    background: $sand-light;
+    font-weight: 600;
+    color: $navy-deep;
+  }
+}
+
+.tag-dd-panel {
+  position: absolute;
+  z-index: 40;
+  top: calc(100% + 0.4em);
+  left: 0;
+  width: 260px;
+  max-width: 78vw;
+  background: #fff;
+  border: 1px solid $border-color;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba($navy-deep, 0.16);
+  overflow: hidden;
+
+  &[hidden] { display: none; }
+}
+
+.tag-dd-search {
+  padding: 0.6em 0.7em;
+  border-bottom: 1px solid $border-color;
+
+  input {
+    width: 100%;
+    padding: 0.4em 0.6em;
+    border: 1px solid $border-color;
+    border-radius: 7px;
+    font-size: 0.9em;
+    color: $ink;
+  }
+}
+
+// The scroll lives here, so a long tag list never runs off the screen.
+.tag-dd-list {
+  max-height: 260px;
+  overflow-y: auto;
+  padding: 0.3em 0;
+}
+
+.tag-dd-row {
+  display: flex;
+  align-items: center;
+  gap: 0.55em;
+  padding: 0.38em 0.8em;
+  cursor: pointer;
+  font-size: 0.9em;
+  color: $ink;
+  margin: 0;
+
+  &:hover { background: $sand-light; }
+  &[hidden] { display: none; }
+
+  input { margin: 0; cursor: pointer; flex: 0 0 auto; }
+}
+
+.tag-dd-name {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// How many cards carry the tag — turns "which of these is worth picking?"
+// into something answerable without trying each one.
+.tag-dd-count {
+  flex: 0 0 auto;
+  font-size: 0.8em;
+  color: $muted;
+  background: $sand-medium;
+  border-radius: 999px;
+  padding: 0.05em 0.5em;
+}
+
+.tag-dd-none {
+  margin: 0;
+  padding: 0.8em;
+  font-size: 0.88em;
+  color: $muted;
+  text-align: center;
+}
+
+.tag-dd-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5em;
+  padding: 0.6em 0.7em;
+  border-top: 1px solid $border-color;
+  background: $sand-light;
+
+  button {
+    padding: 0.4em 0.9em;
+    border-radius: 8px;
+    font-size: 0.88em;
+    cursor: pointer;
+    border: 1px solid $border-color;
+  }
+}
+
+.tag-dd-clear {
+  background: #fff;
+  color: $muted;
+
+  &:hover { color: $ink; border-color: $seaglass; }
+}
+
+.tag-dd-apply {
+  background: $navy-deep;
+  border-color: $navy-deep;
+  color: #fff;
+  font-weight: 600;
+
+  &:hover { opacity: 0.9; }
+}
+
+.tag-selected {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  align-items: center;
+}
+
+// The x on an applied chip. Measured at 11x16px when it was just a glyph with
+// padding, which is far under the ~24px a thumb needs — so it gets an explicit
+// square hit area instead of relying on the font size.
+.tag-chip-x {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  flex: 0 0 24px;
+  margin: -0.35em -0.55em -0.35em 0.2em;   // absorb the box into the chip
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 1.15em;
+  line-height: 1;
+  padding: 0;
+  opacity: 0.75;
+
+  &:hover { opacity: 1; background: rgba($navy-deep, 0.10); }
+  &:focus-visible { outline: 2px solid $seaglass; outline-offset: 1px; }
+}
+
+.tag-chip.is-active {
+  display: inline-flex;
+  align-items: center;
+}
+
 .tag-chip {
   display: inline-block;
   padding: 0.3em 0.85em;

@@ -67,56 +67,236 @@
       '<select id="sort-select">' + optionsHtml + "</select>";
     controls.appendChild(sortWrap);
 
-    // ----- TAG CHIPS -----
-    // Collect every unique tag across all cards.
+    // ----- TAG FILTER -----
+    // A dropdown rather than a row of chips. There are 54 distinct tags across
+    // the trips and 100 across the posts, so one chip each filled the whole
+    // control bar and buried the sort dropdown. A dropdown keeps the bar one
+    // line high however many tags exist.
+    //
+    //   [ Tags v ]  <- opens a scrolling checkbox list with a search box
+    //   selections appear beside it as chips, each with its own x
+    //
+    // Ticking boxes does NOT filter as you go; the panel has a Filter button.
+    // Choosing four tags one at a time would otherwise re-filter four times
+    // and make the list jump under the cursor. Removing a chip DOES apply
+    // immediately, because that is one deliberate action with an obvious result.
     var allTags = new Set();
+    var tagCounts = {};
     cards.forEach(function (card) {
       (card.dataset.tags || "").split(/\s+/).forEach(function (t) {
-        if (t) allTags.add(t);
+        if (!t) return;
+        allTags.add(t);
+        tagCounts[t] = (tagCounts[t] || 0) + 1;
       });
     });
 
+    // Most-used first, alphabetical within a count. The tags worth filtering
+    // by are the ones on many cards; 58 of the post tags are on exactly one.
+    var sortedTags = Array.from(allTags).sort(function (a, b) {
+      var d = tagCounts[b] - tagCounts[a];
+      return d !== 0 ? d : a.localeCompare(b);
+    });
+
+    var activeTags = new Set();   // applied
+    var draftTags = new Set();    // ticked in the panel, not yet applied
+
     var tagWrap = document.createElement("div");
     tagWrap.className = "tag-filter";
+
     var tagLabel = document.createElement("label");
     tagLabel.textContent = "Filter:";
     tagWrap.appendChild(tagLabel);
 
-    var activeTags = new Set();   // currently selected tag filters
+    var dd = document.createElement("div");
+    dd.className = "tag-dd";
 
-    Array.from(allTags).sort().forEach(function (tag) {
-      var chip = document.createElement("span");
-      chip.className = "tag-chip";
-      chip.textContent = tag;
-      chip.dataset.tag = tag;
-      chip.addEventListener("click", function () {
-        if (activeTags.has(tag)) {
+    var toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "tag-dd-toggle";
+    toggle.setAttribute("aria-expanded", "false");
+    dd.appendChild(toggle);
+
+    var panel = document.createElement("div");
+    panel.className = "tag-dd-panel";
+    panel.hidden = true;
+    panel.innerHTML =
+      '<div class="tag-dd-search">' +
+      '<input type="search" placeholder="Search tags..." aria-label="Search tags">' +
+      "</div>" +
+      '<div class="tag-dd-list" role="group" aria-label="Tags"></div>' +
+      '<div class="tag-dd-actions">' +
+      '<button type="button" class="tag-dd-clear">Clear</button>' +
+      '<button type="button" class="tag-dd-apply">Filter</button>' +
+      "</div>";
+    dd.appendChild(panel);
+    tagWrap.appendChild(dd);
+
+    var listEl = panel.querySelector(".tag-dd-list");
+    var searchEl = panel.querySelector(".tag-dd-search input");
+    var applyBtn = panel.querySelector(".tag-dd-apply");
+    var panelClear = panel.querySelector(".tag-dd-clear");
+
+    var rows = {};
+    sortedTags.forEach(function (tag) {
+      var row = document.createElement("label");
+      row.className = "tag-dd-row";
+
+      var cb = document.createElement("input");
+      cb.type = "checkbox";
+      cb.value = tag;
+      cb.addEventListener("change", function () {
+        if (cb.checked) { draftTags.add(tag); } else { draftTags.delete(tag); }
+        syncApplyLabel();
+      });
+
+      var name = document.createElement("span");
+      name.className = "tag-dd-name";
+      name.textContent = tag;
+
+      var count = document.createElement("span");
+      count.className = "tag-dd-count";
+      count.textContent = tagCounts[tag];
+
+      row.appendChild(cb);
+      row.appendChild(name);
+      row.appendChild(count);
+      listEl.appendChild(row);
+      rows[tag] = { row: row, cb: cb };
+    });
+
+    var noMatch = document.createElement("p");
+    noMatch.className = "tag-dd-none";
+    noMatch.textContent = "No tags match.";
+    noMatch.hidden = true;
+    listEl.appendChild(noMatch);
+
+    searchEl.addEventListener("input", function () {
+      var q = searchEl.value.trim().toLowerCase();
+      var shown = 0;
+      sortedTags.forEach(function (tag) {
+        var hit = !q || tag.toLowerCase().indexOf(q) !== -1;
+        rows[tag].row.hidden = !hit;
+        if (hit) { shown++; }
+      });
+      noMatch.hidden = shown > 0;
+    });
+
+    function syncApplyLabel() {
+      applyBtn.textContent =
+        draftTags.size > 0 ? "Filter (" + draftTags.size + ")" : "Filter";
+    }
+
+    // ----- applied filters, shown as removable chips -----
+    var chipsWrap = document.createElement("div");
+    chipsWrap.className = "tag-selected";
+    tagWrap.appendChild(chipsWrap);
+
+    function renderChips() {
+      chipsWrap.innerHTML = "";
+      if (activeTags.size === 0) { return; }
+
+      Array.from(activeTags).sort().forEach(function (tag) {
+        var chip = document.createElement("span");
+        chip.className = "tag-chip is-active";
+
+        var text = document.createElement("span");
+        text.textContent = tag;
+        chip.appendChild(text);
+
+        var x = document.createElement("button");
+        x.type = "button";
+        x.className = "tag-chip-x";
+        x.setAttribute("aria-label", "Remove " + tag + " filter");
+        x.innerHTML = "&times;";
+        x.addEventListener("click", function () {
           activeTags.delete(tag);
-          chip.classList.remove("is-active");
-        } else {
-          activeTags.add(tag);
-          chip.classList.add("is-active");
-        }
-        applyFilter();
+          draftTags.delete(tag);
+          if (rows[tag]) { rows[tag].cb.checked = false; }
+          syncApplyLabel();
+          syncToggle();
+          renderChips();
+          applyFilter();
+        });
+        chip.appendChild(x);
+        chipsWrap.appendChild(chip);
       });
-      tagWrap.appendChild(chip);
+
+      if (activeTags.size > 1) {
+        var all = document.createElement("button");
+        all.type = "button";
+        all.className = "tag-clear";
+        all.textContent = "Clear all";
+        all.addEventListener("click", function () {
+          activeTags.clear();
+          draftTags.clear();
+          Object.keys(rows).forEach(function (t) { rows[t].cb.checked = false; });
+          syncApplyLabel();
+          syncToggle();
+          renderChips();
+          applyFilter();
+        });
+        chipsWrap.appendChild(all);
+      }
+    }
+
+    function syncToggle() {
+      toggle.textContent =
+        activeTags.size > 0 ? "Tags (" + activeTags.size + ")" : "Tags";
+      toggle.classList.toggle("has-active", activeTags.size > 0);
+    }
+
+    // The panel always opens showing what is currently applied, so it reflects
+    // reality rather than whatever was last ticked and then abandoned.
+    function openPanel() {
+      draftTags = new Set(activeTags);
+      Object.keys(rows).forEach(function (t) {
+        rows[t].cb.checked = draftTags.has(t);
+      });
+      syncApplyLabel();
+      panel.hidden = false;
+      toggle.setAttribute("aria-expanded", "true");
+      searchEl.focus();
+    }
+
+    function closePanel() {
+      panel.hidden = true;
+      toggle.setAttribute("aria-expanded", "false");
+    }
+
+    toggle.addEventListener("click", function () {
+      if (panel.hidden) { openPanel(); } else { closePanel(); }
     });
 
-    // "Clear" button — only shows when something is active.
-    var clearBtn = document.createElement("button");
-    clearBtn.type = "button";
-    clearBtn.className = "tag-clear";
-    clearBtn.textContent = "Clear";
-    clearBtn.style.display = "none";
-    clearBtn.addEventListener("click", function () {
-      activeTags.clear();
-      tagWrap.querySelectorAll(".tag-chip.is-active").forEach(function (c) {
-        c.classList.remove("is-active");
-      });
+    applyBtn.addEventListener("click", function () {
+      activeTags = new Set(draftTags);
+      syncToggle();
+      renderChips();
       applyFilter();
+      closePanel();
+      toggle.focus();
     });
-    tagWrap.appendChild(clearBtn);
 
+    panelClear.addEventListener("click", function () {
+      draftTags.clear();
+      Object.keys(rows).forEach(function (t) { rows[t].cb.checked = false; });
+      searchEl.value = "";
+      searchEl.dispatchEvent(new Event("input"));
+      syncApplyLabel();
+    });
+
+    // Clicking away closes without applying — which is what a half-finished
+    // selection deserves. Escape does the same and hands focus back.
+    document.addEventListener("click", function (ev) {
+      if (!panel.hidden && !dd.contains(ev.target)) { closePanel(); }
+    });
+    dd.addEventListener("keydown", function (ev) {
+      if (ev.key === "Escape" && !panel.hidden) {
+        closePanel();
+        toggle.focus();
+      }
+    });
+
+    syncToggle();
     controls.appendChild(tagWrap);
 
     // ---------------------------------------------------------------------------
@@ -141,7 +321,6 @@
         if (match) visibleCount++;
       });
       emptyMsg.style.display = visibleCount === 0 ? "" : "none";
-      clearBtn.style.display = activeTags.size > 0 ? "" : "none";
     }
 
     // ---------------------------------------------------------------------------
