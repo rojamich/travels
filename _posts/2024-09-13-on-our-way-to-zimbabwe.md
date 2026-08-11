@@ -12,9 +12,7 @@ location:
   lng: 25.8572
 ---
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785695080/blogger-import/b3820de4b6dc91c6ca6f.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785695090/blogger-import/c449a5d1bd340c149739.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785695099/blogger-import/4af15c3e3275daf409fb.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785695109/blogger-import/a6145e57cd62c578cb8a.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fv1785695080%2Fblogger-import%2Fb3820de4b6dc91c6ca6f.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fv1785695099%2Fblogger-import%2F4af15c3e3275daf409fb.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We woke up to our alarm this morning to ensure we had time to exercise, eat, and catch our transfer back to the airport! The hotel had a conference room that we noticed our first day and I made a mental note of how much space I'd have to dance if it was unoccupied! So that morning I walked over there and they had actually removed all the tables and chairs that were there earlier! I had this whole floor to myself! Well, I did have to share with the largest hornets and ants I'd ever seen :o. You probably can't tell the size of it from that photo but take my word for it that it was as big as my thumbprint!
 

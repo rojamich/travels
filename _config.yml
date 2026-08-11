@@ -150,6 +150,10 @@ collections:
 include:
   - _pages
   - _trips
+  # Netlify reads this at the site root. It starts with an underscore, so
+  # Jekyll would skip it without this line and the cache rules would never
+  # reach the deployed site.
+  - _headers
 
 exclude:
   - README.md

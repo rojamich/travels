@@ -1,0 +1,33 @@
+# =============================================================================
+# _headers — Netlify response headers
+# =============================================================================
+# Purpose: the installed app must always show the latest published version.
+#
+# There is no service worker, so nothing caches pages on the device. What CAN
+# still serve something stale is the browser's own HTTP cache: without an
+# explicit instruction a browser is free to reuse a page it fetched earlier,
+# which is how an app icon can open yesterday's version of the site.
+#
+# `max-age=0, must-revalidate` says: you may keep a copy, but ask before you
+# use it. Netlify answers that question with an ETag, so an unchanged page
+# comes back as an empty 304 rather than a full download. Opening the app
+# stays fast and is guaranteed current.
+#
+# This is deliberately applied to EVERYTHING rather than just HTML. The CSS
+# and JS filenames here don't carry content hashes — main.css is always
+# main.css — so caching them aggressively would mean a design change silently
+# not arriving. Revalidation costs one small request each.
+#
+# NOTE: this file starts with an underscore, so Jekyll ignores it by default.
+# It is listed under `include:` in _config.yml to get copied into the build.
+# =============================================================================
+
+/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+# The manifest decides the app's name, icon and colours. A phone re-reads it
+# when the app is installed and occasionally after; stale is harmless but
+# pointless, so it follows the same rule.
+/manifest.json
+  Cache-Control: public, max-age=0, must-revalidate
+  Content-Type: application/manifest+json

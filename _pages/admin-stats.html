@@ -177,6 +177,53 @@ sitemap: false
     </table>
   {% endif %}
 
+  {%- comment -%}
+    ------------------------------------------------------------------------
+    Tag sheet
+    ------------------------------------------------------------------------
+    Every tag on the master list, with how many trips and posts use it. The
+    editor offers these as a dropdown, but a dropdown only ever shows what
+    you have typed towards — this is the whole list in one place, which is
+    what you want when deciding whether a tag already exists.
+
+    Counting is done here rather than stored, so it can never be out of date.
+    A tag showing 0 is on the list but unused: safe to delete, or a sign a
+    rename left its posts behind.
+  {%- endcomment -%}
+  {%- assign tag_list = site.data.tags.tags -%}
+
+  {% if tag_list and tag_list.size > 0 %}
+  <h3>Tags ({{ tag_list | size }})</h3>
+  <p class="audit-note" style="margin-top:0;">
+    Edit this list at <strong>Site Settings → Tags</strong> in the editor.
+    Renaming one here does <em>not</em> rewrite posts already using the old
+    name — they’ll show up as unresolved in Cross-references above.
+  </p>
+
+  {%- assign unused_count = 0 -%}
+  <div class="tag-sheet">
+    {%- for t in tag_list -%}
+      {%- assign n = 0 -%}
+      {%- for trip in site.trips -%}
+        {%- if trip.tags contains t.name -%}{%- assign n = n | plus: 1 -%}{%- endif -%}
+      {%- endfor -%}
+      {%- for post in site.posts -%}
+        {%- if post.tags contains t.name -%}{%- assign n = n | plus: 1 -%}{%- endif -%}
+      {%- endfor -%}
+      {%- if n == 0 -%}{%- assign unused_count = unused_count | plus: 1 -%}{%- endif -%}
+      <span class="tag-sheet-item{% if n == 0 %} is-unused{% endif %}">
+        {{ t.name }}<span class="tag-sheet-n">{{ n }}</span>
+      </span>
+    {%- endfor -%}
+  </div>
+  {% if unused_count > 0 %}
+  <p class="audit-note" style="margin-top:0.6em;">
+    <strong>{{ unused_count }}</strong> tag{% if unused_count != 1 %}s are{% else %} is{% endif %}
+    on the list but used nowhere (greyed out above).
+  </p>
+  {% endif %}
+  {% endif %}
+
   <p class="audit-note">
     <code>_data/countries.yml</code> is the only country reference file. The
     name→code, name→continent and alias→name tables are all derived from it at
@@ -192,6 +239,33 @@ sitemap: false
   .audit-ok   { color: #1c6b3a; background: #eaf6ee; padding: 0.6em 0.8em; border-radius: 6px; }
   .audit-bad  { color: #8a1c12; margin-bottom: 0.3em; }
   .audit-note { color: #666; font-size: 0.85em; line-height: 1.5; margin-top: 1.2em; }
+
+  .tag-sheet { display: flex; flex-wrap: wrap; gap: 0.4em; margin: 0.8em 0; }
+  .tag-sheet-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45em;
+    background: #f0f6f0;
+    color: #2c5c3f;
+    border: 1px solid #d0e0d5;
+    border-radius: 999px;
+    padding: 0.25em 0.5em 0.25em 0.85em;
+    font-size: 0.88em;
+  }
+  .tag-sheet-n {
+    background: #fff;
+    border-radius: 999px;
+    padding: 0 0.5em;
+    font-size: 0.85em;
+    color: #567;
+  }
+  /* On the list, used nowhere — either safe to delete or evidence that a
+     rename left its posts behind. */
+  .tag-sheet-item.is-unused {
+    background: #f4f4f5;
+    color: #999;
+    border-color: #e2e2e5;
+  }
   .audit-table { width: 100%; border-collapse: collapse; font-size: 0.9em; margin: 0.8em 0; }
   .audit-table th {
     text-align: left; padding: 0.5em 0.6em; background: #eef3f7;

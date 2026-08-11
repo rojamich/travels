@@ -12,12 +12,7 @@ location:
   lng: 31.5547
 ---
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785693992/blogger-import/3138dc156dc89be40e79.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785694003/blogger-import/56ca2b829df9fdba4c8d.jpg)
-
-  
-
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785694013/blogger-import/356f687b674176ce7d8f.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785694021/blogger-import/3b983a9299c842f5ffa6.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fv1785693992%2Fblogger-import%2F3138dc156dc89be40e79.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fv1785694013%2Fblogger-import%2F356f687b674176ce7d8f.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 The next morning we woke about 3am to the sound of wild dogs barking, who knows what they were barking at. We were promised there wouldn't be big wild life inside the campsite but who can really promise that! I was terrified to go to the bathroom but I did survive. After a nap, we woke up to instant coffee prepared and jumped in the truck for our next adventure! 
 

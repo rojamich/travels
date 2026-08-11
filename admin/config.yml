@@ -691,7 +691,12 @@ collections:
         multiple: true
         required: false
         default: []
-        hint: "Start typing and pick from the list. To add a tag that isn't there yet: Site Settings -> Tags."
+        # Decap shows `options_length` suggestions and defaults to 20. With 128
+        # tags that hides most of the list, which reads as "it won't show me all
+        # the tags". High enough here that everything is reachable by scrolling
+        # as well as by typing.
+        options_length: 200
+        hint: "Click the box to browse all tags, or type to narrow. To add one that isn't there: Site Settings -> Tags (the master list)."
 
       - { label: "Optional intro text",
           name: "body",
@@ -784,6 +789,7 @@ collections:
         multiple: true
         min: 1
         max: 1
+        options_length: 100
         hint: "Pick which trip this post belongs to. New trips you create show up here automatically."
 
       - { label: "Day order in trip",
@@ -860,7 +866,8 @@ collections:
         multiple: true
         required: false
         default: []
-        hint: "Start typing and pick from the list \u2014 picking rather than typing is what stops 'Food' and 'food' becoming two filters. To add a new tag: Site Settings -> Tags."
+        options_length: 200
+        hint: "Click the box to browse all tags, or type to narrow. Picking rather than typing is what stops 'Food' and 'food' becoming two filters. To add one that isn't there: Site Settings -> Tags (the master list)."
 
       - label: "Map pin location"
         name: "location"

@@ -12,12 +12,7 @@ location:
   lng: 135.7681
 ---
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785701548/blogger-import/477c02a6e57ccc24d55e.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785701555/blogger-import/dcb1ee86e898aa9ccce4.jpg)
-
-  
-
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785701565/blogger-import/d5d8a4d10afdb04b8b32.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785701584/blogger-import/1565cfa8f966a349a947.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fv1785701548%2Fblogger-import%2F477c02a6e57ccc24d55e.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fv1785701565%2Fblogger-import%2Fd5d8a4d10afdb04b8b32.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We woke up early and were resistant to leave this relaxing stay. As excited as we were for Kyoto, Lake Kawaguchi had been so good to us. We soaked in the onsen one last time and did some refreshing yoga before breakfast. 
 

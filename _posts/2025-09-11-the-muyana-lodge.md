@@ -20,22 +20,7 @@ location:
   lng: -73.2516
 ---
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785714616/blogger-import/1b7eb6aa98b49bc089d1.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785714660/blogger-import/74f20c328b6842017f7e.jpg)
-
-  
-
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785714846/blogger-import/a34c6c1d9a8e908c3fb0.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785714857/blogger-import/fa2695648184d1ca7cb5.jpg)
-
-  
-
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785714867/blogger-import/6f35bc80266ac6b9e7f0.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785714879/blogger-import/8a174bdcad93b6129f38.jpg)
-
-  
-
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785714894/blogger-import/0af8c49d7bf1799ad39d.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785714894/blogger-import/0af8c49d7bf1799ad39d.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fv1785714616%2Fblogger-import%2F1b7eb6aa98b49bc089d1.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fv1785714846%2Fblogger-import%2Fa34c6c1d9a8e908c3fb0.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fv1785714867%2Fblogger-import%2F6f35bc80266ac6b9e7f0.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fv1785714894%2Fblogger-import%2F0af8c49d7bf1799ad39d.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 The lodge sprawled along the Amazon riverbank and had kayaks, paddleboards, canoes, and transport boats available along the ramp. We had a briefing from our guide, Moises, and were shown to our rooms before breaking for lunch. It was spacious and had two hammocks! It all runs on solar power, so you need to conserve energy when you can, so the fans will still work while you sleep. After lunch, we enjoyed some hammock time before our first excursion through the woods. 
 
