@@ -1,9 +1,9 @@
 ---
 title: New Zealand Redwood Forest
-date: 2022-11-25
+date: 2022-11-24
 categories:
   - new-zealand
-order: 12
+order: 11
 header:
   overlay_filter: 0
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785680360/blogger-import/9ab15345af0a97cc1dd2.jpg
