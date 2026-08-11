@@ -3,7 +3,7 @@ title: "An Overnight Adventure in the Bush!"
 date: 2024-09-12
 categories:
   - african-safari
-order: 13
+order: 22
 tags:
   - South Africa
 location:

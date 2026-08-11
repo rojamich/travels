@@ -3,7 +3,7 @@ title: "The South African National Museum of Military History & Our Journey Home
 date: 2024-09-18
 categories:
   - african-safari
-order: 20
+order: 28
 tags:
   - USA
   - South Africa

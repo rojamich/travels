@@ -3,7 +3,7 @@ title: "A Final Note on London"
 date: 2022-02-10
 categories:
   - european-excursion
-order: 12
+order: 5.1
 tags:
   - London
 location:

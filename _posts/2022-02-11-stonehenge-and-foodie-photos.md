@@ -3,7 +3,7 @@ title: "Stonehenge and Foodie Photos"
 date: 2022-02-08
 categories:
   - european-excursion
-order: 8
+order: 3.2
 tags:
   - London
 location:

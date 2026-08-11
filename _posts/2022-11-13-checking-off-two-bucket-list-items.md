@@ -3,7 +3,7 @@ title: "Checking Off Two Bucket List Items!"
 date: 2022-03-16
 categories:
   - european-excursion
-order: 93
+order: 39.2
 tags:
   - The Netherlands
 location:

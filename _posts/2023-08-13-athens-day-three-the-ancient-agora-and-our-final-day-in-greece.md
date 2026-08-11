@@ -3,7 +3,7 @@ title: "Athens Day Three: The Ancient Agora and Our Final Day in Greece"
 date: 2023-08-13
 categories:
   - european-exploration
-order: 19
+order: 29.1
 tags:
   - Greece
 location:

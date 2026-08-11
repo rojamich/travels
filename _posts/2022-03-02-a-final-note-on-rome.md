@@ -3,7 +3,7 @@ title: "A Final Note on Rome"
 date: 2022-03-01
 categories:
   - european-excursion
-order: 56
+order: 24
 tags:
   - Italy
 location:

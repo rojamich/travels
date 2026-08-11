@@ -3,7 +3,7 @@ title: "OH MY GOD ITS VALENTINE’S DAY IN PARIS! (Part 1)"
 date: 2022-02-15
 categories:
   - european-excursion
-order: 24
+order: 10.1
 tags:
   - France
 location:

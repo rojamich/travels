@@ -3,7 +3,7 @@ title: "The Torture Museum & My First Croque Monsieur"
 date: 2022-02-13
 categories:
   - european-excursion
-order: 19
+order: 8.1
 tags:
   - Belgium
 location:

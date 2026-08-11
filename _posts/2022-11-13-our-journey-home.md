@@ -3,7 +3,7 @@ title: "Our Journey Home"
 date: 2022-03-17
 categories:
   - european-excursion
-order: 95
+order: 40.1
 tags:
   - The Netherlands
 location:

@@ -3,7 +3,7 @@ title: "Our Last Day in Cape Town"
 date: 2024-09-08
 categories:
   - african-safari
-order: 11
+order: 18
 tags:
   - South Africa
 location:

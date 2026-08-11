@@ -3,7 +3,7 @@ title: "An Emotional Toll Taken During the City Tour"
 date: 2022-03-11
 categories:
   - european-excursion
-order: 81
+order: 34.1
 tags:
   - Germany
 location:

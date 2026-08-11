@@ -3,7 +3,7 @@ title: "More Embarrassment & the British Museum!"
 date: 2022-02-07
 categories:
   - european-excursion
-order: 4
+order: 2
 tags:
   - London
 location:

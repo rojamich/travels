@@ -3,7 +3,7 @@ title: "The Dachau Concentration Camp Memorial Site"
 date: 2022-03-05
 categories:
   - european-excursion
-order: 67
+order: 28.2
 tags:
   - Germany
 location:

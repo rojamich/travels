@@ -3,7 +3,7 @@ title: "Versailles"
 date: 2022-02-16
 categories:
   - european-excursion
-order: 27
+order: 11.2
 tags:
   - France
 location:

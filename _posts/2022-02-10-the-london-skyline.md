@@ -3,7 +3,7 @@ title: "The London Skyline"
 date: 2022-02-08
 categories:
   - european-excursion
-order: 6
+order: 3
 tags:
   - London
 location:

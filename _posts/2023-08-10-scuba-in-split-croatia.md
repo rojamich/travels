@@ -3,7 +3,7 @@ title: "Scuba in Split, Croatia"
 date: 2023-08-10
 categories:
   - european-exploration
-order: 13
+order: 26
 tags:
   - Croatia
 location:

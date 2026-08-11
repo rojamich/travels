@@ -3,7 +3,7 @@ title: "Oh Florence, I Miss You Already..."
 date: 2022-02-20
 categories:
   - european-excursion
-order: 36
+order: 15.1
 tags:
   - Italy
 location:

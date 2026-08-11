@@ -3,7 +3,7 @@ title: "Breakfast and Rest"
 date: 2022-03-07
 categories:
   - european-excursion
-order: 71
+order: 30.1
 tags:
   - Germany
 ---

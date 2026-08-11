@@ -3,7 +3,7 @@ title: "Our flight to London"
 date: 2022-02-06
 categories:
   - european-excursion
-order: 2
+order: 1.1
 tags:
   - London
 location:

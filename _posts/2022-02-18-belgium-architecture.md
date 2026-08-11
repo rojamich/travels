@@ -3,7 +3,7 @@ title: "Belgium Architecture"
 date: 2022-02-11
 categories:
   - european-excursion
-order: 15
+order: 6.2
 tags:
   - Belgium
 location:

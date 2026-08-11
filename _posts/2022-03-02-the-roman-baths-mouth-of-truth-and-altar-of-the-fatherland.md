@@ -3,7 +3,7 @@ title: "The Roman Baths, Mouth of Truth and Altar of the Fatherland"
 date: 2022-02-28
 categories:
   - european-excursion
-order: 54
+order: 23
 tags:
   - Italy
 location:

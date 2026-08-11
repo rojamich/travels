@@ -3,7 +3,7 @@ title: "The Accademia and Crowds in Florence"
 date: 2022-02-22
 categories:
   - european-excursion
-order: 41
+order: 17.2
 tags:
   - Italy
 location:

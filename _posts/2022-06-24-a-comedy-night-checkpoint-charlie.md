@@ -3,7 +3,7 @@ title: "A Comedy Night & Checkpoint Charlie"
 date: 2022-03-12
 categories:
   - european-excursion
-order: 83
+order: 35.1
 tags:
   - Germany
 location:

@@ -3,7 +3,7 @@ title: "Onto Milan and Cannolis!"
 date: 2023-08-13
 categories:
   - european-exploration
-order: 20
+order: 29.2
 tags:
   - Italy
 location:

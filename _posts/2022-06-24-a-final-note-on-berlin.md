@@ -3,7 +3,7 @@ title: "A Final Note on Berlin"
 date: 2022-03-13
 categories:
   - european-excursion
-order: 86
+order: 36.2
 tags:
   - Germany
 location:

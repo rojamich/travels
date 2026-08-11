@@ -3,7 +3,7 @@ title: "The Palace of Justice"
 date: 2022-03-09
 categories:
   - european-excursion
-order: 76
+order: 32.1
 tags:
   - Germany
 location:

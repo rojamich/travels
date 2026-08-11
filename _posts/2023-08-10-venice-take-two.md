@@ -3,7 +3,7 @@ title: "Venice, Take Two!"
 date: 2023-08-10
 categories:
   - european-exploration
-order: 14
+order: 26.1
 tags:
   - Italy
 location:

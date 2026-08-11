@@ -3,7 +3,7 @@ title: "Vatican City"
 date: 2022-02-27
 categories:
   - european-excursion
-order: 52
+order: 22.1
 tags:
   - Italy
 location:

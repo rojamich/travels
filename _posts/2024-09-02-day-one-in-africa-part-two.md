@@ -3,7 +3,7 @@ title: Day One in Africa! - Part Two
 date: 2024-08-29
 categories:
   - african-safari
-order: 8.5
+order: 8.1
 header:
   overlay_filter: 0.5
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785690275/blogger-import/b5ec1cc1442630602be7.jpg

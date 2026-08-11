@@ -3,7 +3,7 @@ title: Huka Falls
 date: 2022-11-20
 categories:
   - new-zealand
-order: 7.5
+order: 7.1
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785680083/blogger-import/ec5e5663e1c4b82db658.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785680083/blogger-import/ec5e5663e1c4b82db658.jpg

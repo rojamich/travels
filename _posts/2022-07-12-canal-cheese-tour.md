@@ -3,7 +3,7 @@ title: "Canal Cheese Tour!"
 date: 2022-03-15
 categories:
   - european-excursion
-order: 89
+order: 38
 tags:
   - The Netherlands
 location:

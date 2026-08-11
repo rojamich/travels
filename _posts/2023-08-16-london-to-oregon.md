@@ -3,7 +3,7 @@ title: "London to Oregon"
 date: 2023-08-16
 categories:
   - european-exploration
-order: 27
+order: 32.6
 tags:
   - England
 location:

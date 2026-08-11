@@ -3,7 +3,7 @@ title: "The Leaning Tower of Pisa!"
 date: 2022-02-23
 categories:
   - european-excursion
-order: 43
+order: 18.1
 tags:
   - Italy
 location:

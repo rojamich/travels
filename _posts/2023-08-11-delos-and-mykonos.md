@@ -3,7 +3,7 @@ title: "Delos and Mykonos"
 date: 2023-08-11
 categories:
   - european-exploration
-order: 16
+order: 27.1
 tags:
   - Greece
 location:

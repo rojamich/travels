@@ -3,7 +3,7 @@ title: "The Cheese Museum!"
 date: 2022-03-14
 categories:
   - european-excursion
-order: 88
+order: 37.1
 tags:
   - The Netherlands
 location:

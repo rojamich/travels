@@ -3,7 +3,7 @@ title: "Lake Como: Day One!"
 date: 2023-08-16
 categories:
   - european-exploration
-order: 22
+order: 32.1
 tags:
   - Italy
 location:

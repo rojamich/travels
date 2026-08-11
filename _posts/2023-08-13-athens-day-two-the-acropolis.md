@@ -3,7 +3,7 @@ title: "Athens Day Two: The Acropolis!"
 date: 2023-08-13
 categories:
   - european-exploration
-order: 18
+order: 29
 tags:
   - Greece
 location:

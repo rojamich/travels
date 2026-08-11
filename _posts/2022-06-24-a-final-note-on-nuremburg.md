@@ -3,7 +3,7 @@ title: "A Final Note on Nuremburg"
 date: 2022-03-10
 categories:
   - european-excursion
-order: 78
+order: 33.1
 tags:
   - Germany
 location:

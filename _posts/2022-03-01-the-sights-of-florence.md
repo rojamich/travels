@@ -3,7 +3,7 @@ title: "The Sights of Florence"
 date: 2022-02-22
 categories:
   - european-excursion
-order: 39
+order: 17
 tags:
   - Italy
 location:

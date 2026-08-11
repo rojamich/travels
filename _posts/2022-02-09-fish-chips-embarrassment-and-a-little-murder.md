@@ -3,7 +3,7 @@ title: "Fish & Chips, Embarrassment, and a Little Murder."
 date: 2022-02-06
 categories:
   - european-excursion
-order: 3
+order: 1.2
 tags:
   - London
 location:

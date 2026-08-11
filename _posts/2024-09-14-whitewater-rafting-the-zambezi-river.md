@@ -3,7 +3,7 @@ title: "Whitewater Rafting the Zambezi River!"
 date: 2024-09-14
 categories:
   - african-safari
-order: 17
+order: 24.1
 tags:
   - Zimbabwe
 location:

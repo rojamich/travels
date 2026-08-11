@@ -3,7 +3,7 @@ title: "Getting Here (Bad Homburg)"
 date: 2023-07-18
 categories:
   - european-exploration
-order: 1
+order: 3
 location:
   name: "Bad Homburg, Germany"
   lat: 50.2274

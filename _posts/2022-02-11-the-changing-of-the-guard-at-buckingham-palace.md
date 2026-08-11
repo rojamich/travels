@@ -3,7 +3,7 @@ title: "The Changing of the Guard at Buckingham Palace"
 date: 2022-02-08
 categories:
   - european-excursion
-order: 7
+order: 3.1
 tags:
   - London
 location:

@@ -3,7 +3,7 @@ title: Hobbiton Pt3- Time for a feast!
 date: 2022-11-17
 categories:
   - new-zealand
-order: 4.75
+order: 4.3
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786104174/JMR_2280x_reqt65.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786104170/JMR_2273x_abqknq.jpg

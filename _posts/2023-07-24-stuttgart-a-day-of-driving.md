@@ -3,7 +3,7 @@ title: "Stuttgart, a Day of Driving!"
 date: 2023-07-24
 categories:
   - european-exploration
-order: 6
+order: 9
 tags:
   - Germany
 location:

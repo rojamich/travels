@@ -3,7 +3,7 @@ title: "A Final Note on Munich"
 date: 2022-03-06
 categories:
   - european-excursion
-order: 69
+order: 29.1
 tags:
   - Germany
 location:

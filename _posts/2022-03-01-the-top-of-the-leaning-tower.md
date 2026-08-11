@@ -3,7 +3,7 @@ title: "The Top of the Leaning Tower"
 date: 2022-02-24
 categories:
   - european-excursion
-order: 44
+order: 19
 tags:
   - Italy
 location:

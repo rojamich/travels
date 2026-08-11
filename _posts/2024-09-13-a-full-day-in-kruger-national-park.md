@@ -3,7 +3,7 @@ title: "A Full Day in Kruger National Park!"
 date: 2024-09-13
 categories:
   - african-safari
-order: 14
+order: 23
 tags:
   - South Africa
 location:

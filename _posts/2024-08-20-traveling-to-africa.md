@@ -3,7 +3,7 @@ title: Traveling to Africa
 date: 2024-08-23
 categories:
   - african-safari
-order: 1
+order: 2
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785689381/blogger-import/d7a6d7b026a804fcdce9.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785691145/blogger-import/30081089ca67f023c258.jpg

@@ -3,7 +3,7 @@ title: "A Day Trip to Mainz"
 date: 2023-07-20
 categories:
   - european-exploration
-order: 2
+order: 5
 tags:
   - Germany
 location:

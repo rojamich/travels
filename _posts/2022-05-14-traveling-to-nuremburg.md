@@ -3,7 +3,7 @@ title: "Traveling to Nuremburg"
 date: 2022-03-08
 categories:
   - european-excursion
-order: 74
+order: 31.2
 tags:
   - Germany
 location:

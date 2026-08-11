@@ -3,7 +3,7 @@ title: "Athens Day One"
 date: 2023-08-11
 categories:
   - european-exploration
-order: 17
+order: 27.2
 tags:
   - Greece
 location:

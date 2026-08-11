@@ -3,7 +3,7 @@ title: "A Train Ride to Munich!"
 date: 2022-03-02
 categories:
   - european-excursion
-order: 59
+order: 25.1
 tags:
   - Germany
 location:

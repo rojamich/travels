@@ -3,7 +3,7 @@ title: "A Day Trip to Botswana"
 date: 2024-09-14
 categories:
   - african-safari
-order: 16
+order: 24
 tags:
   - Botswana
   - Zimbabwe

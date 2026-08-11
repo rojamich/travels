@@ -3,7 +3,7 @@ title: "The Imperial Castle & Our Last Day in Nuremburg"
 date: 2022-03-10
 categories:
   - european-excursion
-order: 77
+order: 33
 tags:
   - Germany
 location:

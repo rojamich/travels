@@ -3,7 +3,7 @@ title: "A Lake Como Hiking Day"
 date: 2023-08-16
 categories:
   - european-exploration
-order: 24
+order: 32.3
 tags:
   - Italy
 location:

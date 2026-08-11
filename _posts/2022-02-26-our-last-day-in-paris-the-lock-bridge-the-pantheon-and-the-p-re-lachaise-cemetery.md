@@ -3,7 +3,7 @@ title: "Our Last Day in Paris - The Lock Bridge, The Pantheon, and the Père Lac
 date: 2022-02-19
 categories:
   - european-excursion
-order: 33
+order: 14.1
 tags:
   - France
 location:

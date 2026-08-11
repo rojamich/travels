@@ -3,7 +3,7 @@ title: "Amsterdam City Walk"
 date: 2022-03-16
 categories:
   - european-excursion
-order: 92
+order: 39.1
 tags:
   - The Netherlands
 location:

@@ -3,7 +3,7 @@ title: "A New Hat , Some Macarons, and Flâner"
 date: 2022-02-15
 categories:
   - european-excursion
-order: 23
+order: 10
 tags:
   - France
 location:

@@ -3,7 +3,7 @@ title: "Frankfurt, a True Delight!"
 date: 2023-07-20
 categories:
   - european-exploration
-order: 4
+order: 5.2
 tags:
   - Germany
 location:

@@ -3,7 +3,7 @@ title: "Chocolate in Cologne"
 date: 2023-08-05
 categories:
   - european-exploration
-order: 10
+order: 21
 tags:
   - Germany
 location:

@@ -3,7 +3,7 @@ title: "The Magic of Füssen"
 date: 2022-03-06
 categories:
   - european-excursion
-order: 68
+order: 29
 tags:
   - Germany
 location:

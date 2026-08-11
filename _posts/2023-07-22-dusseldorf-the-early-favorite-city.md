@@ -3,7 +3,7 @@ title: "Dusseldorf, the Early Favorite City!"
 date: 2023-07-22
 categories:
   - european-exploration
-order: 5
+order: 7
 tags:
   - Germany
 location:

@@ -3,7 +3,7 @@ title: "Brindisi Pastries, Sign Us Up!"
 date: 2023-08-11
 categories:
   - european-exploration
-order: 15
+order: 27
 tags:
   - Italy
 location:

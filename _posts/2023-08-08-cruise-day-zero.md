@@ -3,7 +3,7 @@ title: "Cruise Day Zero"
 date: 2023-08-08
 categories:
   - european-exploration
-order: 12
+order: 24
 tags:
   - Greece
 ---

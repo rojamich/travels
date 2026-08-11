@@ -3,7 +3,7 @@ title: "'Lazy' Sunday"
 date: 2023-08-03
 categories:
   - european-exploration
-order: 8
+order: 19.1
 tags:
   - Germany
 location:

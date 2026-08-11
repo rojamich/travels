@@ -3,7 +3,7 @@ title: "Milan: A City Walk and the World's 3rd Largest Cathedral"
 date: 2023-08-16
 categories:
   - european-exploration
-order: 21
+order: 32
 tags:
   - Italy
 location:

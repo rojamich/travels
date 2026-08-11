@@ -3,7 +3,7 @@ title: "Berlin City Tour Continues"
 date: 2022-03-11
 categories:
   - european-excursion
-order: 80
+order: 34
 tags:
   - Germany
 location:

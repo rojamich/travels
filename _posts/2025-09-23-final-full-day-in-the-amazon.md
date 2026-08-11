@@ -3,7 +3,7 @@ title: Final Full Day in the Amazon
 date: 2025-09-09
 categories:
   - peruvian-passage
-order: 15.75
+order: 15.2
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785597741/20250909_155946_axtdp5.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785597809/20250909_091531_gsvj1h.jpg

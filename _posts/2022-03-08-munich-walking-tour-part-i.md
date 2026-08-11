@@ -3,7 +3,7 @@ title: "Munich Walking Tour - Part I"
 date: 2022-03-03
 categories:
   - european-excursion
-order: 61
+order: 26
 tags:
   - Germany
 location:

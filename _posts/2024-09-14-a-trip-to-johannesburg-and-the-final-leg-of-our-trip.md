@@ -3,7 +3,7 @@ title: "A Trip to Johannesburg and the Final Leg of Our Trip"
 date: 2024-09-14
 categories:
   - african-safari
-order: 18
+order: 24.2
 tags:
   - Zimbabwe
   - South Africa

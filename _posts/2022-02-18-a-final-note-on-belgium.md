@@ -3,7 +3,7 @@ title: "A Final Note on Belgium"
 date: 2022-02-14
 categories:
   - european-excursion
-order: 21
+order: 9.1
 tags:
   - Belgium
 location:

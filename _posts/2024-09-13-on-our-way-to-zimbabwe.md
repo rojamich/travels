@@ -3,7 +3,7 @@ title: "On Our Way to Zimbabwe!"
 date: 2024-09-13
 categories:
   - african-safari
-order: 15
+order: 23.1
 tags:
   - Zimbabwe
 location:

@@ -3,7 +3,7 @@ title: "Crazy for Koblenz"
 date: 2023-08-03
 categories:
   - european-exploration
-order: 9
+order: 19.2
 tags:
   - Germany
 location:

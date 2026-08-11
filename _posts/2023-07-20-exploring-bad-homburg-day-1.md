@@ -3,7 +3,7 @@ title: "Exploring Bad Homburg - Day 1!"
 date: 2023-07-20
 categories:
   - european-exploration
-order: 3
+order: 5.1
 tags:
   - Germany
 location:

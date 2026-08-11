@@ -3,7 +3,7 @@ title: "Jordaan City Walk"
 date: 2022-03-15
 categories:
   - european-excursion
-order: 90
+order: 38.1
 tags:
   - The Netherlands
 location:

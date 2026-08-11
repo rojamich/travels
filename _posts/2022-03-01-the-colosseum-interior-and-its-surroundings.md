@@ -3,7 +3,7 @@ title: "The Colosseum Interior and its Surroundings"
 date: 2022-02-25
 categories:
   - european-excursion
-order: 48
+order: 20.2
 tags:
   - Italy
 location:

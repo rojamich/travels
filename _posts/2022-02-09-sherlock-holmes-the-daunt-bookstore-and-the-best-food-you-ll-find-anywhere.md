@@ -3,7 +3,7 @@ title: "Sherlock Holmes, the Daunt Bookstore, and the Best Food You'll Find Anyw
 date: 2022-02-07
 categories:
   - european-excursion
-order: 5
+order: 2.1
 tags:
   - London
 location:

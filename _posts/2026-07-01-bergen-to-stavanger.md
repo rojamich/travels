@@ -3,7 +3,7 @@ title: Bergen to Stavanger
 date: 2026-07-02
 categories:
   - fjords-forever
-order: 15
+order: 16
 header:
   teaser_focal_x: 50
   teaser_focal_y: 60

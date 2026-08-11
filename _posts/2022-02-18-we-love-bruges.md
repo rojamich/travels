@@ -3,7 +3,7 @@ title: "We Love Bruges!"
 date: 2022-02-12
 categories:
   - european-excursion
-order: 17
+order: 7.1
 tags:
   - Belgium
 location:

@@ -3,7 +3,7 @@ title: "The Berliner & Finally Petting a Dog"
 date: 2022-03-13
 categories:
   - european-excursion
-order: 85
+order: 36.1
 tags:
   - Germany
 location:

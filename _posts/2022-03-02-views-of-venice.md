@@ -3,7 +3,7 @@ title: "Views of Venice!"
 date: 2022-03-02
 categories:
   - european-excursion
-order: 58
+order: 25
 tags:
   - Italy
 location:

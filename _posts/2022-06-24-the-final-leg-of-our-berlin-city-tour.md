@@ -3,7 +3,7 @@ title: "The Final Leg of Our Berlin City Tour"
 date: 2022-03-12
 categories:
   - european-excursion
-order: 82
+order: 35
 tags:
   - Germany
 location:

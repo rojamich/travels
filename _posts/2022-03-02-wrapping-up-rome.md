@@ -3,7 +3,7 @@ title: "Wrapping Up Rome"
 date: 2022-02-28
 categories:
   - european-excursion
-order: 55
+order: 23.1
 tags:
   - Italy
 location:

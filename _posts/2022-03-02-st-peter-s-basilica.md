@@ -3,7 +3,7 @@ title: "St Peter's Basilica"
 date: 2022-02-27
 categories:
   - european-excursion
-order: 53
+order: 22.2
 tags:
   - Italy
 location:

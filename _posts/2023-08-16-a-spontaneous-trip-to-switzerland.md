@@ -3,7 +3,7 @@ title: "A Spontaneous Trip to Switzerland!"
 date: 2023-08-16
 categories:
   - european-exploration
-order: 23
+order: 32.2
 tags:
   - Switzerland
 location:

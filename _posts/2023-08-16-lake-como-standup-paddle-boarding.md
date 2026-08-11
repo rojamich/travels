@@ -3,7 +3,7 @@ title: "Lake Como Standup Paddle boarding"
 date: 2023-08-16
 categories:
   - european-exploration
-order: 25
+order: 32.4
 tags:
   - Italy
 location:

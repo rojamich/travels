@@ -3,7 +3,7 @@ title: "Belgian Chocolate is Life."
 date: 2022-02-11
 categories:
   - european-excursion
-order: 13
+order: 6
 tags:
   - Belgium
 location:

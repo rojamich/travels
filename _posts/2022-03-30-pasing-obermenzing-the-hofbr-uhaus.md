@@ -3,7 +3,7 @@ title: "Pasing-Obermenzing & the Hofbräuhaus"
 date: 2022-03-05
 categories:
   - european-excursion
-order: 66
+order: 28.1
 tags:
   - Germany
 location:

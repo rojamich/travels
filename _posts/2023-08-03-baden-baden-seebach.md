@@ -3,7 +3,7 @@ title: "Baden-Baden & Seebach"
 date: 2023-08-03
 categories:
   - european-exploration
-order: 7
+order: 19
 tags:
   - Germany
 location:

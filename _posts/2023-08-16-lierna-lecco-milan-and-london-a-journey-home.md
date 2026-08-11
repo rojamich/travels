@@ -3,7 +3,7 @@ title: "Lierna, Lecco, Milan, and London A journey home"
 date: 2023-08-16
 categories:
   - european-exploration
-order: 26
+order: 32.5
 tags:
   - England
   - Italy

@@ -3,7 +3,7 @@ title: "Our Next Adventure"
 date: 2022-03-18
 categories:
   - european-excursion
-order: 97
+order: 41.1
 ---
 
 Our next adventure is in New Zealand!

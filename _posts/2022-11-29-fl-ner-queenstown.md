@@ -3,7 +3,7 @@ title: Flâner Queenstown
 date: 2022-11-27
 categories:
   - new-zealand
-order: 14.5
+order: 14.1
 header:
   overlay_filter: 0
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785680381/blogger-import/34cd98193a46c00e461c.jpg

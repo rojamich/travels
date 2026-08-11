@@ -3,7 +3,7 @@ title: "Just Waffles (love)"
 date: 2022-02-12
 categories:
   - european-excursion
-order: 16
+order: 7
 tags:
   - Belgium
 location:

@@ -3,7 +3,7 @@ title: "The Apartheid Museum"
 date: 2024-09-14
 categories:
   - african-safari
-order: 19
+order: 24.3
 tags:
   - South Africa
 location:

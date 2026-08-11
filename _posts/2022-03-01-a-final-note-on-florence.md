@@ -3,7 +3,7 @@ title: "A Final Note on Florence."
 date: 2022-02-23
 categories:
   - european-excursion
-order: 42
+order: 18
 tags:
   - Italy
 location:

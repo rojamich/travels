@@ -3,7 +3,7 @@ title: "The Manneken-Pis Parade!"
 date: 2022-02-11
 categories:
   - european-excursion
-order: 14
+order: 6.1
 tags:
   - Belgium
 location:

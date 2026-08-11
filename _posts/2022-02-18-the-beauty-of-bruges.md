@@ -3,7 +3,7 @@ title: "The Beauty of Bruges"
 date: 2022-02-13
 categories:
   - european-excursion
-order: 18
+order: 8
 tags:
   - Belgium
 location:

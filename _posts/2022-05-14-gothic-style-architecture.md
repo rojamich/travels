@@ -3,7 +3,7 @@ title: "Gothic Style Architecture"
 date: 2022-03-09
 categories:
   - european-excursion
-order: 75
+order: 32
 tags:
   - Germany
 location:

@@ -3,7 +3,7 @@ title: "Heaven in Heidelberg and Our Final Day in Germany!"
 date: 2023-08-07
 categories:
   - european-exploration
-order: 11
+order: 23
 tags:
   - Germany
 location:

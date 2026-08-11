@@ -3,7 +3,7 @@ title: "A Final Note on Amsterdam"
 date: 2022-03-18
 categories:
   - european-excursion
-order: 96
+order: 41
 tags:
   - The Netherlands
 location:

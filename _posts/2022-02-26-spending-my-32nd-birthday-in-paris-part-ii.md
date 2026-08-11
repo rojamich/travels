@@ -3,7 +3,7 @@ title: "Spending my 32nd Birthday in Paris! (Part II)"
 date: 2022-02-18
 categories:
   - european-excursion
-order: 31
+order: 13.1
 tags:
   - France
 location:
