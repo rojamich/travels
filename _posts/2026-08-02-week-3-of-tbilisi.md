@@ -16,6 +16,10 @@ tags:
   - Food
   - Running
   - Garden
+location:
+  name: Tbilisi, Georgia
+  lat: 41.69363
+  lng: 44.80162
 toc: false
 ---
 It's been another fun week here in Tbilisi - wow time is really flying by! Thankfully, I'm still enjoying the toasty runs but it's really challenging!
