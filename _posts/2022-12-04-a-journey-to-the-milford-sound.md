@@ -3,7 +3,7 @@ title: A Journey to the Milford Sound
 date: 2022-12-01
 categories:
   - new-zealand
-order: 18
+order: 18.5
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785680538/blogger-import/13a14483917943603e72.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785680507/blogger-import/a6a2116a3ed1d8dbeb97.jpg
