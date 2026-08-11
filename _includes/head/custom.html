@@ -21,6 +21,35 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%E2%9C%88%EF%B8%8F</text></svg>">
 
 <!--
+  =============================================================================
+  INSTALLABLE APP (PWA)
+  =============================================================================
+  These four lines are what let the site be added to a phone's home screen as
+  an app rather than a browser bookmark: its own icon, its own entry in the
+  app switcher, and no browser address bar.
+
+  Nothing about the site's appearance changes. It is the same HTML and CSS —
+  the only difference is the window it opens in. Colours, fonts, maps,
+  galleries and the status bar all behave exactly as they do now.
+
+  There is deliberately NO service worker. That is what would add offline
+  support, and it does it by caching pages on the device — which means a post
+  published today can keep showing yesterday's version until the cache is
+  invalidated. For a site that changes most days, silently stale content is a
+  worse problem than needing a connection.
+
+  theme-color tints the phone's own status bar to match the site header.
+  =============================================================================
+-->
+<link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
+<meta name="theme-color" content="#1f4858">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Travels">
+<link rel="apple-touch-icon"
+      href="https://res.cloudinary.com/dgw35sldo/image/upload/c_fill,g_auto,w_180,h_180,f_png,q_auto/v1783872572/20210615_145029_sobd0b.png">
+
+<!--
   GLightbox — click any photo (gallery or inline) to open a fullscreen viewer
   with prev/next arrows, ESC-to-close, and click-background-to-close. Free,
   vanilla JS, no jQuery.

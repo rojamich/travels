@@ -16,7 +16,7 @@ tags:
   - France
   - Paris
   - Food
-  - Flight
+  - Flights
 location:
   name: Paris, France
   lat: 48.8566

@@ -17,7 +17,7 @@ tags:
   - Paris
   - Flights
   - Africa
-  - SouthAfrica
+  - South Africa
 ---
 Hello and Welcome Back for our next adventure! Thanks so much for traveling with us 💜
 

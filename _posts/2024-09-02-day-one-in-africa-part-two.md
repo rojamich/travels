@@ -13,12 +13,12 @@ header:
   overlay_focal_x: 50
   overlay_focal_y: 28
 tags:
-  - SouthAfrica
+  - South Africa
   - Food
   - Nature
   - Wildlife
   - Ocean
-  - Tour
+  - Tours
   - Stairs
 location:
   name: Cape of Good Hope, South Africa

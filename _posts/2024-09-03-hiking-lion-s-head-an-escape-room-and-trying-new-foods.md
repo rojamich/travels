@@ -13,7 +13,7 @@ header:
   overlay_focal_x: 50
   overlay_focal_y: 56
 tags:
-  - SouthAfrica
+  - South Africa
   - Hiking
   - EscapeRooms
   - Food

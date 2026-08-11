@@ -13,7 +13,7 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782921748/20260630_142346_oay9nf.jpg
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782924554/20260630_210706_a9e4l4.jpg
 tags:
-  - Cityscape
+  - Cityscapes
 toc: false
 location:
   name: Bergen, Norway

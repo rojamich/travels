@@ -13,8 +13,8 @@ header:
   overlay_focal_y: 72
   overlay_filter: 0
 tags:
-  - SouthAfrica
-  - Flight
+  - South Africa
+  - Flights
   - Food
 location:
   name: Cape Town, South Africa

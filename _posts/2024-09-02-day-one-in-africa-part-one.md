@@ -13,8 +13,8 @@ header:
   overlay_focal_x: 50
   overlay_focal_y: 39
 tags:
-  - SouthAfrica
-  - Tour
+  - South Africa
+  - Tours
   - Nature
 location:
   name: Cape Town, South Africa

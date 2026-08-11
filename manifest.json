@@ -1,0 +1,43 @@
+---
+# This front matter block is intentionally almost empty. Its presence is what
+# tells Jekyll to run the file through Liquid, so site.title and site.description
+# below come from _config.yml rather than being duplicated here. No layout —
+# the output must be raw JSON.
+permalink: /manifest.json
+---
+{
+  "name": "{{ site.title }}",
+  "short_name": "Travels",
+  "description": {{ site.description | jsonify }},
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#faf6f0",
+  "theme_color": "#1f4858",
+  "icons": [
+    {
+      "src": "https://res.cloudinary.com/dgw35sldo/image/upload/c_fill,g_auto,w_192,h_192,f_png,q_auto/v1783872572/20210615_145029_sobd0b.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://res.cloudinary.com/dgw35sldo/image/upload/c_fill,g_auto,w_512,h_512,f_png,q_auto/v1783872572/20210615_145029_sobd0b.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://res.cloudinary.com/dgw35sldo/image/upload/c_fill,g_auto,w_512,h_512,f_png,q_auto/v1783872572/20210615_145029_sobd0b.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    { "name": "Map",   "url": "/map/" },
+    { "name": "Trips", "url": "/trips/" },
+    { "name": "Stats", "url": "/stats/" }
+  ]
+}

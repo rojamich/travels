@@ -16,7 +16,7 @@ lat: -45.0312
 lng: 168.6626
 tags:
   - Oceania
-  - Road-trip
+  - Roadtrip
   - Nature
   - Hiking
 ---

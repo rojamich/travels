@@ -13,7 +13,7 @@ header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783800686/20260710_125429_vkx5rv.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783800683/20260710_133044_pdts6o.jpg
 tags:
-  - Museum
+  - Museums
 location:
   lat: 68.1475
   lng: 13.6004

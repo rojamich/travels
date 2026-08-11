@@ -14,7 +14,7 @@ header:
   overlay_focal_y: 51
 tags:
   - Flights
-  - Road-trip
+  - Roadtrip
 location:
   name: Queenstown, New Zealand
   lat: -45.0312

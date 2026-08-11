@@ -1,0 +1,154 @@
+# =============================================================================
+# tags.yml — the canonical list of tags
+# =============================================================================
+# Every tag that may be used on a trip or a post. The editor reads this list
+# and offers it as a dropdown, so a tag can be PICKED rather than typed and
+# there is no way to produce a near-miss by accident.
+#
+# It exists because free-text tagging drifted badly: the site had "Food" and
+# "food", "Roadtrip" and "Road-trip", "South Africa" and "SouthAfrica",
+# "Museum" and "Museums" — each pair splitting one filter into two, each
+# looking correct in the editor. Ten such pairs were merged when this file
+# was created.
+#
+# TO ADD A TAG
+#   /admin/ -> Site Settings -> Tags -> Add, then pick it on the post. New
+#   tags are meant to be added here first; that is the whole point.
+#
+# TO RENAME OR MERGE ONE
+#   Changing a name here does NOT rewrite the posts already using the old
+#   one. Update the posts too, or /admin-stats/ will list the tag as unknown.
+#
+# Alphabetical. The count in the comment is how many trips and posts used it
+# when the list was generated — a rough guide to which are load-bearing.
+# =============================================================================
+
+tags:
+  - name: Adventure                # 3
+  - name: Africa                   # 2
+  - name: Architecture             # 3
+  - name: Asia                     # 3
+  - name: Bathhouse                # 1
+  - name: Bazaar                   # 1
+  - name: Beach                    # 5
+  - name: Belgium                  # 9
+  - name: Birds                    # 1
+  - name: Books                    # 1
+  - name: Botswana                 # 1
+  - name: Bridges                  # 1
+  - name: Bucketlist               # 1
+  - name: BungeeJumping            # 1
+  - name: Campervan                # 5
+  - name: Carving                  # 1
+  - name: Castles                  # 1
+  - name: CentralAmerica           # 1
+  - name: CentralPark              # 1
+  - name: Christmas                # 1
+  - name: City                     # 4
+  - name: Cityscapes               # 5
+  - name: Coffee                   # 2
+  - name: Croatia                  # 1
+  - name: Cruise                   # 1
+  - name: Dancing                  # 1
+  - name: DayTrip                  # 1
+  - name: Delays                   # 1
+  - name: Dentistry                # 1
+  - name: Dessert                  # 2
+  - name: Diving                   # 4
+  - name: DMZ                      # 1
+  - name: Dogs                     # 1
+  - name: DogSledding              # 2
+  - name: England                  # 2
+  - name: Entertainment            # 1
+  - name: EscapeRooms              # 4
+  - name: Europe                   # 3
+  - name: Ferry                    # 1
+  - name: Fireplace                # 1
+  - name: Fishing                  # 1
+  - name: Fjords                   # 1
+  - name: Flights                  # 11
+  - name: Food                     # 39
+  - name: France                   # 15
+  - name: Friends                  # 4
+  - name: Garden                   # 1
+  - name: Germany                  # 38
+  - name: Glacier                  # 1
+  - name: GlowwormCaves            # 1
+  - name: Godzilla                 # 1
+  - name: GollumsPool              # 1
+  - name: Greece                   # 5
+  - name: Hiking                   # 22
+  - name: History                  # 1
+  - name: Hobbiton                 # 3
+  - name: Hobbits                  # 3
+  - name: IceCream                 # 1
+  - name: Island                   # 1
+  - name: Italy                    # 32
+  - name: Japan                    # 18
+  - name: "Jewelry-Making"         # 1
+  - name: Kayaking                 # 1
+  - name: Lake                     # 1
+  - name: Landmarks                # 1
+  - name: Libraries                # 1
+  - name: London                   # 11
+  - name: LOTR                     # 4
+  - name: MotorcycleTrip           # 1
+  - name: Mountains                # 2
+  - name: Movies                   # 1
+  - name: MtDoom                   # 1
+  - name: Museums                  # 5
+  - name: Nature                   # 22
+  - name: New York                 # 2
+  - name: North Island             # 15
+  - name: NorthernLights           # 1
+  - name: NYC                      # 1
+  - name: Ocean                    # 3
+  - name: Oceania                  # 1
+  - name: Paris                    # 2
+  - name: Peru                     # 16
+  - name: PetSitting               # 2
+  - name: Queenstown               # 3
+  - name: Rainforest               # 3
+  - name: Reading                  # 2
+  - name: Redwoods                 # 1
+  - name: River                    # 1
+  - name: Roadtrip                 # 9
+  - name: RobbenIsland             # 1
+  - name: RockClimbing             # 2
+  - name: Running                  # 4
+  - name: Safari                   # 1
+  - name: "Sight-Seeing"           # 1
+  - name: SnowMobiling             # 1
+  - name: Snowshoeing              # 1
+  - name: Sound                    # 2
+  - name: South Africa             # 15
+  - name: South Island             # 11
+  - name: South Korea              # 6
+  - name: SouthAmerica             # 1
+  - name: Spa                      # 1
+  - name: Stairs                   # 1
+  - name: StatueofLiberty          # 1
+  - name: StephenKing              # 1
+  - name: Sunrise                  # 2
+  - name: Surfing                  # 1
+  - name: Swimming                 # 1
+  - name: Switzerland              # 1
+  - name: Taiwan                   # 2
+  - name: Tattoo                   # 1
+  - name: TeKoha                   # 1
+  - name: The Netherlands          # 10
+  - name: Tours                    # 3
+  - name: Towers                   # 1
+  - name: Trains                   # 1
+  - name: Transportation           # 1
+  - name: TravelDay                # 1
+  - name: USA                      # 1
+  - name: VendingMachines          # 1
+  - name: Vietnam                  # 17
+  - name: Views                    # 1
+  - name: Waterfalls               # 2
+  - name: Wildlife                 # 13
+  - name: Winter                   # 1
+  - name: Workout                  # 1
+  - name: Wānaka                   # 1
+  - name: Zimbabwe                 # 4

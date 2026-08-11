@@ -139,6 +139,22 @@ collections:
               date_format: "YYYY-MM-DD",
               hint: "The day the nomadic chapter began. Powers the live 'days on the road' clock on the Stats page. Leave blank to hide the clock." }
 
+      - file: "_data/tags.yml"
+        label: "Tags (the master list)"
+        name: "tags"
+        description: "Every tag that can be picked on a trip or a post. Add one here first, then choose it on the post."
+        fields:
+          - label: "Tags"
+            name: "tags"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Tag",
+                  name: "name",
+                  widget: "string",
+                  hint: "Exactly as it should appear. Check the list first \u2014 'Museums' and 'Museum' would be two separate filters." }
+            hint: "Keep it alphabetical if you can. Renaming a tag here does NOT rewrite posts already using the old name; update those too, or /admin-stats/ will flag it."
+
       - file: "_pages/about.md"
         label: "About page (text)"
         name: "about"
@@ -664,12 +680,18 @@ collections:
           label: "State"
           widget: string
 
-      - { label: "Tags",
-          name: "tags",
-          widget: "list",
-          required: false,
-          default: [],
-          hint: "Filter chips on the homepage. Use region (europe, asia), style (road-trip, beach), or theme (food, hiking). Lowercase + dashes." }
+      - label: "Tags"
+        name: "tags"
+        widget: "relation"
+        collection: "site-config"
+        file: "tags"
+        search_fields: ["tags.*.name"]
+        value_field: "tags.*.name"
+        display_fields: ["tags.*.name"]
+        multiple: true
+        required: false
+        default: []
+        hint: "Start typing and pick from the list. To add a tag that isn't there yet: Site Settings -> Tags."
 
       - { label: "Optional intro text",
           name: "body",
@@ -829,10 +851,16 @@ collections:
 
       - label: "Tags"
         name: "tags"
-        widget: "list"
+        widget: "relation"
+        collection: "site-config"
+        file: "tags"
+        search_fields: ["tags.*.name"]
+        value_field: "tags.*.name"
+        display_fields: ["tags.*.name"]
+        multiple: true
         required: false
         default: []
-        hint: "Optional keywords (e.g. food, hiking). Leave empty if you don't care."
+        hint: "Start typing and pick from the list \u2014 picking rather than typing is what stops 'Food' and 'food' becoming two filters. To add a new tag: Site Settings -> Tags."
 
       - label: "Map pin location"
         name: "location"

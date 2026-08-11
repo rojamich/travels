@@ -15,9 +15,9 @@ header:
 tags:
   - IceCream
   - DayTrip
-  - Museum
+  - Museums
 location:
-  name: Gori, Georia
+  name: Gori, Georgia
   lat: 41.97818
   lng: 44.110001
 toc: false

@@ -14,8 +14,8 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782408128/IMG_9913_cm50wy.jpg
 tags:
   - Nature
-  - hiking
-  - food
+  - Hiking
+  - Food
 toc: false
 location:
   name: Svalbard, Norway

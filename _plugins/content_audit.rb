@@ -41,6 +41,7 @@ module TravelBlog
       check_country_names(site, known)
       check_shadowed_keys(site)
       check_post_dates(site, trips)
+      check_tags(site)
 
       site.data["content_problems"] = @problems
 
@@ -225,7 +226,12 @@ module TravelBlog
         more  = entries.size > 3 ? ", and #{entries.size - 3} more" : ""
 
         flag(trip.data["title"] || slug,
-             "#{entries.size} post#{"s" unless entries.size == 1} dated outside "              "the trip's own range (#{as_date(trip.data['start_date'])} to "              "#{as_date(trip.data['end_date'])}): #{names.join(', ')}#{more}. "              "If those are publish dates rather than the day each thing "              "happened, the posts show up on the wrong day in 'On this day' "              "and can land in the wrong year's review.")
+             "#{entries.size} post#{"s" unless entries.size == 1} dated outside " \
+             "the trip's own range (#{as_date(trip.data['start_date'])} to " \
+             "#{as_date(trip.data['end_date'])}): #{names.join(', ')}#{more}. " \
+             "If those are publish dates rather than the day each thing " \
+             "happened, the posts show up on the wrong day in 'On this day' " \
+             "and can land in the wrong year's review.")
       end
     end
 
@@ -235,6 +241,46 @@ module TravelBlog
       Date.parse(value.to_s)
     rescue StandardError
       nil
+    end
+
+    # ---- every tag used is on the canonical list ------------------------------
+    # The editor offers tags as a pick-list from _data/tags.yml, so new typos
+    # shouldn't appear. This catches the two ways one still can: a post edited
+    # outside the CMS, and a tag renamed in tags.yml without updating the posts
+    # that already used the old name.
+    #
+    # A stray tag is invisible rather than broken — it shows up as its own
+    # entry in the filter dropdown, matching one post, next to the real tag it
+    # was meant to be. That is exactly how "Food"/"food" and "Museum"/"Museums"
+    # went unnoticed long enough to need a bulk merge.
+    def check_tags(site)
+      known = {}
+      Array(site.data.dig("tags", "tags")).each do |rec|
+        name = rec.is_a?(Hash) ? rec["name"].to_s.strip : rec.to_s.strip
+        known[name] = true unless name.empty?
+      end
+      return if known.empty?   # no list yet: nothing to check against
+
+      stray = Hash.new { |h, k| h[k] = [] }
+      docs = (site.collections["trips"]&.docs || []) + site.posts.docs
+      docs.each do |doc|
+        Array(doc.data["tags"]).each do |tag|
+          t = tag.to_s.strip
+          next if t.empty? || known.key?(t)
+          stray[t] << (doc.data["title"] || doc.basename)
+        end
+      end
+
+      stray.each do |tag, users|
+        shown = users.first(3).map(&:inspect).join(", ")
+        more = users.size > 3 ? ", and #{users.size - 3} more" : ""
+        flag("tags.yml",
+             "#{tag.inspect} is used by #{users.size} " \
+             "#{users.size == 1 ? 'entry' : 'entries'} (#{shown}#{more}) but is " \
+             "not on the list in _data/tags.yml. It still works, but it appears " \
+             "as its own filter option next to whatever it was meant to be. " \
+             "Add it under Site Settings -> Tags, or correct the entries.")
+      end
     end
 
     # ---- front matter that Jekyll quietly ignores -----------------------------
@@ -260,7 +306,9 @@ module TravelBlog
       docs.each do |doc|
         (doc.data.keys & SHADOWED).each do |key|
           flag(doc.data["title"] || doc.basename,
-               "sets #{key}: in its front matter, but Jekyll's document drop "                "defines its own #{key} — templates reading it get Jekyll's "                "value, never this one. Rename the field (e.g. #{key}_trip).")
+               "sets #{key}: in its front matter, but Jekyll's document drop " \
+               "defines its own #{key} — templates reading it get Jekyll's " \
+               "value, never this one. Rename the field (e.g. #{key}_trip).")
         end
       end
     end

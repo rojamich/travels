@@ -14,7 +14,7 @@ header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783873601/20260712_123407_v3xorm.jpg
 tags:
   - Ferry
-  - Flight
+  - Flights
 location:
   name: Bodø, Norway
   lat: 67.280357

@@ -19,5 +19,5 @@ tags:
   - Hiking
   - Snowshoeing
   - MotorcycleTrip
-  - Waterfall
+  - Waterfalls
 ---

@@ -80,7 +80,7 @@
 "Fushimi Inari, Kyoto": { lat: 34.9671, lng: 135.7727 }
 "Fussen, Germany": { lat: 47.5712, lng: 10.7498 }
 "Gisborne, NZ": { lat: -38.6624, lng: 178.0177 }
-"Gori, Georia": { lat: 41.97818, lng: 44.110001 }
+"Gori, Georgia": { lat: 41.97818, lng: 44.110001 }
 "Gyeongbokgung Palace, Seoul": { lat: 37.5796, lng: 126.977 }
 "Ha Giang, Vietnam": { lat: 22.8233, lng: 104.9784 }
 "Ha Long Bay, Vietnam": { lat: 21.03096, lng: 105.920731 }
@@ -162,6 +162,7 @@
 "Split, Croatia": { lat: 43.5081, lng: 16.4402 }
 "St Peters Basilica, Vatican": { lat: 41.9022, lng: 12.4574 }
 "Stavanger, Norway": { lat: 58.964432, lng: 5.72625 }
+"Stepantsminda, Georgia": { lat: 42.6572, lng: 44.6431 }
 "Stonehenge, UK": { lat: 51.1789, lng: -1.8262 }
 "Stuttgart, Germany": { lat: 48.7758, lng: 9.1829 }
 "Svalbard": { lat: 78.2232, lng: 15.6267 }
