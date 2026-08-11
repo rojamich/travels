@@ -49,9 +49,7 @@ The hike seemed to go in phases. You saw the first mile of nice incline through 
 
 The next phase you're looking at is called ladders lol. Check these guys out! A little wobbly but we survived them! It felt really cool to have so many different challenges in one hike!
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691854/blogger-import/ffc509a9515e51c61dfd.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691862/blogger-import/6279f24a202ab2182044.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691869/blogger-import/e38a213a530a6ef5a755.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691879/blogger-import/11f6b5e2583cf4518d50.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691888/blogger-import/aff0f949ba8d7b53ac43.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691897/blogger-import/e85a83d6a22d91b2f342.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785691854%2Fblogger-import%2Fffc509a9515e51c61dfd.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785691879%2Fblogger-import%2F11f6b5e2583cf4518d50.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785691888%2Fblogger-import%2Faff0f949ba8d7b53ac43.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 The next two phases were a rock scramble and more stairs! But a different kind lol. 
 
@@ -67,11 +65,7 @@ We were once again at another section of the hike and encountered more stone ste
 
 We completed the skeleton gorge section of the hike and were beginning the climb to the summit of Table Mountain!
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691946/blogger-import/4a23a770564e83c0786e.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691955/blogger-import/a34e528288c8dee0dcb2.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691963/blogger-import/a4ba5c90b92cf8cb0f24.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691973/blogger-import/7ab67c59682ece24cc84.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691984/blogger-import/4f5cd4eec67b2787b894.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785691992/blogger-import/38047ee22ad9cf82ea3c.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692000/blogger-import/a011cf43bc01022a0885.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692010/blogger-import/32d2269bea3eed3faf07.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692015/blogger-import/efd5ce051b9479a48a95.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692025/blogger-import/ba2f90b009d097f4f9b2.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785691955%2Fblogger-import%2Fa34e528288c8dee0dcb2.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785691973%2Fblogger-import%2F7ab67c59682ece24cc84.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785691992%2Fblogger-import%2F38047ee22ad9cf82ea3c.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785692010%2Fblogger-import%2F32d2269bea3eed3faf07.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785692015%2Fblogger-import%2Fefd5ce051b9479a48a95.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 After this rock scramble it is actually really flat up top, just like it looks from the bottom! I'm not sure what I expected but it felt weird to walk 1.5 miles on a flat/rocky surface!
 
@@ -79,13 +73,7 @@ After this rock scramble it is actually really flat up top, just like it looks f
 
 The next part of the hike was all grassy with some unpleasant prickly bushes.
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692051/blogger-import/776e7f6f5cbd70680233.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692062/blogger-import/f7a1a8528225df52909d.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692071/blogger-import/ab7822743e7d196244dd.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692080/blogger-import/e93363821f2dccab46f9.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692088/blogger-import/a47641199dc2ec6f2cb7.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692097/blogger-import/8e82b360e803060d89e4.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692106/blogger-import/97d5e0c08ff566df31af.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692115/blogger-import/9e985b6278f9ec330b98.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692125/blogger-import/ab06c1eccf3f9d695d53.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692144/blogger-import/adbc9e041446ee9398b4.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785692144%2Fblogger-import%2Fadbc9e041446ee9398b4.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785692097%2Fblogger-import%2F8e82b360e803060d89e4.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785692115%2Fblogger-import%2F9e985b6278f9ec330b98.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785692062%2Fblogger-import%2Ff7a1a8528225df52909d.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785692080%2Fblogger-import%2Fe93363821f2dccab46f9.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 It gets so windy at the top! The trail gets narrow and omg that drop off felt way more exaggerated when you're passing in the wind!    
 
@@ -108,10 +96,8 @@ Mike found one he loved at a local stand (photo to come).
 
 [![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692235/blogger-import/42da7fcfa062d48dcca6.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692238/blogger-import/257831d7af14d6a746a8.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692242/blogger-import/d9b89bc62e5cd5b22674.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692246/blogger-import/f7e74134333fa58bdfda.jpg)
 
-By then we were starving and followed a local's recommendation to try Zuney burgers which were delicious! We came back to our hotel to relax, Mike practiced his languages and I typed up a few of these blog entries! Later we would take advantage of the spa and sauna and our garden tub as we only had one more day here in Cape Town :(
+By then we were starving and followed a local's recommendation to try Zuney burgers which were delicious! We came back to our hotel to relax, Mike practiced his languages and I typed up a few of these blog entries! Later we would take advantage of the spa and sauna and our garden tub as we only had one more day here in Cape Town 😥
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692250/blogger-import/1ef42dead43232cd1512.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692255/blogger-import/0a55307f66bdaac21e26.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692259/blogger-import/9269ca0f115a4423eae3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692263/blogger-import/2b682c43b0584911c1a0.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692266/blogger-import/ca5dac5f3b740700c3a7.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785692269/blogger-import/a86cd0b18a4f1fd15d52.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785692250%2Fblogger-import%2F1ef42dead43232cd1512.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785692266%2Fblogger-import%2Fca5dac5f3b740700c3a7.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785692263%2Fblogger-import%2F2b682c43b0584911c1a0.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We were starving again later and ordered from the hotel restaurant. Mike enjoyed the Macon Pasta and I had a fabulous Milk Tart!
