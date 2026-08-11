@@ -3,7 +3,7 @@ title: Hobbiton Pt1
 date: 2022-11-17
 categories:
   - new-zealand
-order: 4.1
+order: 4.15
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786089445/20221117_171618_exhcpq.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786089458/20221117_174807_rydlzp.jpg
