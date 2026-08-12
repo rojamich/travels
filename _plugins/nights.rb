@@ -13,6 +13,20 @@
 # countries splits its nights between them instead of crediting all three with
 # the whole trip — which is what a naive "trip visited X" count would do.
 #
+# Carrying forward is what makes this cheap to maintain: you only need a post
+# on the day you ARRIVE somewhere. Stay four nights and write one post, and
+# all four nights land in the right country.
+#
+# A post marked `transit: true` is ignored here — see below.
+#
+# TRANSIT
+# `transit: true` on a post means "we were here, we did not sleep here": an
+# airport layover, an overnight flight that crossed a date line. The post
+# still appears on the map with its own pin; it simply doesn't claim the
+# night, which carries forward from wherever they last actually stayed.
+# Without it a nine-hour stop in Paris takes a night off the country they
+# woke up in and gives it to France.
+#
 # ONE SOURCE
 # Country names are resolved exactly as everywhere else on the site: take the
 # text after the last comma, then fold it through the alias table. That table
@@ -125,8 +139,15 @@ module TravelBlog
       return if nights <= 0
 
       # First post of each day wins; later posts that day don't move them.
+      #
+      # Posts marked `transit: true` are skipped entirely. A nine-hour layover
+      # in Paris or an overnight flight through Taipei is a place you were,
+      # not a place you slept — without this the layover steals that night from
+      # wherever you actually woke up, and hands a country a night it never
+      # had. The pin still shows on the map; only the night is withheld.
       by_date = {}
       Array(posts).each do |post|
+        next if post.data["transit"] == true
         c = canon(post.data.dig("location", "name"))
         next unless c
         d = post.date.to_date

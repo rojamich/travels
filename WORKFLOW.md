@@ -53,6 +53,54 @@ The **Workflow** tab in the left navigation shows all your unpublished drafts as
 
 ---
 
+## Getting the stats right
+
+Every number on `/stats/` — countries, continents, days, nights, the world map
+— is worked out from the trip and post fields below. Nothing is typed in
+twice, so getting these right is the whole job.
+
+### The trip
+
+**Start and end dates** are the whole trip, door to door. They decide how many
+days and how many **nights** it counts for: out on the 1st and back on the 8th
+is 8 days but 7 nights.
+
+**Location** is the main place, ending in the country: `Oslo, Norway`. The
+text after the last comma is what counts as the country.
+
+**Countries** lists every *other* country the trip reached. A country has to
+appear in one of these two places to count on the Countries tile and shade on
+the world map — a post mentioning it is not enough.
+
+### The posts
+
+**Date** is the day the thing happened, not the day you wrote it up.
+
+**Location** is where you were that day, ending in the country. You only need
+a post on the day you *arrive* somewhere: nights carry forward until the next
+post with a location, so four nights in one city needs one post, not four.
+
+**Just passing through** — tick this for an airport layover, a stopover, or an
+overnight flight. The pin still shows on the map, but the night goes to
+wherever you actually slept instead. Without it, nine hours in Paris takes a
+night off the country you woke up in and gives it to France.
+
+**Day order in trip** is the day number. Two posts from the same day share the
+number and use decimals — `4`, `4.1`, `4.2` — because they are all Day 4.
+
+### If a number looks wrong
+
+Open `/admin-stats/`. It lists, on every build: posts filed under a trip that
+doesn't exist, duplicate day numbers, dates outside their trip, map pins that
+can't be right, tags not on the master list, and nights credited to a country
+the trip never declared. That last one is usually a layover that needs the
+passing-through tick, or a country genuinely missing from the trip.
+
+A country can quite legitimately show under Countries but not under Nights —
+Botswana, Switzerland, Vatican City and Zimbabwe were all day trips. `/stats/`
+says so under the country list rather than leaving the two counts looking like
+they disagree.
+
 ## Editing or deleting an existing post
 
 1. Same admin page, click any post in the list to open it.

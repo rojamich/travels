@@ -13,6 +13,9 @@ location: South Africa
 lat: -33.9258
 lng: 18.4232
 countries:
+  - name: United States of America
+    lat: 40.7128
+    lng: -74.006
   - name: Botswana
     lat: -22.3285
     lng: 24.6849

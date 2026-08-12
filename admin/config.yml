@@ -892,6 +892,13 @@ collections:
               required: false,
               value_type: "float" }
 
+      - { label: "Just passing through (no night spent here)",
+          name: "transit",
+          widget: "boolean",
+          default: false,
+          required: false,
+          hint: "Turn ON for an airport layover, a stopover, or an overnight flight — anywhere you were but didn't sleep. The pin still shows on the map, but the night is credited to wherever you actually stayed instead. Leave OFF for a normal day." }
+
       - label: "Photo gallery"
         name: "gallery"
         widget: "list"

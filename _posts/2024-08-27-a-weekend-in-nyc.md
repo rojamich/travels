@@ -1,9 +1,9 @@
 ---
 title: A Weekend in NYC!
-date: 2024-08-26
+date: 2024-08-25
 categories:
   - african-safari
-order: 5
+order: 4
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785689466/blogger-import/7b958c94cf249a03410c.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785689500/blogger-import/1c35ab3d679c6137ba1d.jpg
