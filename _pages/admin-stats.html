@@ -152,6 +152,26 @@ sitemap: false
   {%- assign place_rows = site.data.place_problems | default: no_rows -%}
   {%- assign xref = xref | concat: place_rows -%}
 
+  {%- comment -%}
+    Nights credited to a country the trip never declares. The nights are real
+    and are counted, but the Countries tile works from the trip's `location:`
+    and `countries:`, so that country won't show up there — two figures
+    quietly disagreeing, which is the exact thing this page exists to catch.
+
+    Usually a layover: a night in Taipei on the way to Japan. Either add the
+    country to the trip, or correct the post's location.
+  {%- endcomment -%}
+  {%- assign night_rows = "" | split: "," -%}
+  {%- if site.data.nights and site.data.nights.undeclared -%}
+    {%- for u in site.data.nights.undeclared -%}
+      {%- capture row -%}
+{{ u.trip }}||spends {{ u.nights }} night{% if u.nights != 1 %}s{% endif %} in {{ u.country }}, which the trip itself doesn't list in its location or countries. The nights count, but {{ u.country }} won't appear in the Countries tile. Add it to the trip, or fix the post's location if it was only passed through.
+      {%- endcapture -%}
+      {%- assign night_rows = night_rows | push: row -%}
+    {%- endfor -%}
+  {%- endif -%}
+  {%- assign xref = xref | concat: night_rows -%}
+
   <h3>Cross-references &amp; map pins</h3>
   {% if xref == nil %}
     <p class="audit-bad">The cross-reference check didn’t run —
@@ -160,8 +180,9 @@ sitemap: false
   {% elsif xref.size == 0 %}
     <p class="audit-ok">✓ Every post points at a trip that exists, every
     <code>order:</code> is unique within its trip, every country named in
-    Favourites, Daydreaming or a flag image has a record, and every map pin
-    matches the remembered position for its place.</p>
+    Favourites, Daydreaming or a flag image has a record, every map pin
+    matches the remembered position for its place, and every night counted
+    belongs to a country its trip declares.</p>
   {% else %}
     <p class="audit-bad"><strong>{{ xref | size }}
     {% if xref.size == 1 %}reference doesn’t{% else %}references don’t{% endif %}

@@ -375,6 +375,151 @@ classes: wide
   {%- endfor -%}
 {%- endif -%}
 
+{%- comment -%}
+  =========================================================================
+  Nights per continent and country
+  =========================================================================
+  Computed by _plugins/nights.rb. Nothing is typed in: a trip of start..end
+  is (end - start) nights, and each night is credited to wherever that day's
+  post says they were, carrying forward across days with no post.
+
+  Country names resolve through the same alias table the Countries tile and
+  the world map use, so these can't disagree with them.
+
+  NIGHTS, not days, on purpose: a trip out on the 1st and back on the 8th is
+  8 days but 7 nights, and the two travel days are shared with somewhere
+  else. Nights is the figure that adds up across trips without
+  double-counting — and it does: the total here is exactly "days on trips"
+  minus one per trip.
+{%- endcomment -%}
+{%- assign nights = site.data.nights -%}
+{% if nights and nights.total > 0 %}
+
+<h2 style="margin-top:2em;">🌙 Nights away</h2>
+<p style="color:#666;margin:0 0 0.8em;">
+  <strong>{{ nights.total }}</strong> nights across
+  <strong>{{ nights.countries | size }}</strong> countries and
+  <strong>{{ nights.continents | size }}</strong> continents.
+</p>
+
+{%- assign top_continent = nights.continents | first -%}
+<h3 class="nights-sub">By continent</h3>
+<div class="nights-bars">
+  {%- for c in nights.continents -%}
+    {%- comment -%}
+      Bar width is relative to the biggest, not to the total: with six
+      continents and one of them holding 40%, scaling to the total leaves
+      every other bar too short to compare.
+    {%- endcomment -%}
+    {%- assign pct = c.nights | times: 100 | divided_by: top_continent.nights -%}
+    {%- assign share = c.nights | times: 100 | divided_by: nights.total -%}
+    <div class="nights-row">
+      <div class="nights-label">{{ c.name }}</div>
+      <div class="nights-track"><div class="nights-fill" style="width:{{ pct }}%"></div></div>
+      <div class="nights-value">{{ c.nights }}<span class="nights-pct">{{ share }}%</span></div>
+    </div>
+  {%- endfor -%}
+</div>
+
+{%- assign top_country = nights.countries | first -%}
+<h3 class="nights-sub">By country</h3>
+<div class="nights-bars">
+  {%- for c in nights.countries -%}
+    {%- assign pct = c.nights | times: 100 | divided_by: top_country.nights -%}
+    <div class="nights-row">
+      <div class="nights-label">{{ c.name }}</div>
+      <div class="nights-track"><div class="nights-fill nights-fill--country" style="width:{{ pct }}%"></div></div>
+      <div class="nights-value">{{ c.nights }}</div>
+    </div>
+  {%- endfor -%}
+</div>
+
+{%- comment -%}
+  Countries visited without ever sleeping there — day trips. Naming them
+  matters: the Countries tile says 26 and this list has 23, and without an
+  explanation that reads as two numbers disagreeing, which is the one thing
+  this site has repeatedly got wrong. They are both right; a day trip to
+  Botswana is a country visited and zero nights slept.
+{%- endcomment -%}
+{%- assign night_names = "" | split: "" -%}
+{%- for c in nights.countries -%}
+  {%- assign night_names = night_names | push: c.name -%}
+{%- endfor -%}
+{%- assign day_only = "" | split: "" -%}
+{%- for c in visited_countries -%}
+  {%- unless night_names contains c -%}
+    {%- assign day_only = day_only | push: c -%}
+  {%- endunless -%}
+{%- endfor -%}
+
+{% if day_only.size > 0 %}
+<p class="nights-daytrip">
+  <strong>{{ day_only | size }}</strong> more
+  countr{% if day_only.size == 1 %}y was{% else %}ies were{% endif %} visited
+  without staying the night — {{ day_only | join: ", " }}. That is why the
+  Countries tile counts {{ total_countries }} and this list has
+  {{ nights.countries | size }}.
+</p>
+{% endif %}
+
+<style>
+  .nights-daytrip {
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin: 0.9em 0 0;
+    padding: 0.7em 0.9em;
+    background: #f7f9f7;
+    border-left: 3px solid #5a8770;
+    border-radius: 0 8px 8px 0;
+  }
+  .nights-sub {
+    margin: 1.4em 0 0.5em;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #888;
+  }
+  .nights-bars { display: flex; flex-direction: column; gap: 0.35em; }
+  .nights-row {
+    display: grid;
+    /* Fixed label and value columns so every bar starts and ends on the same
+       line — ragged bars are impossible to compare by eye. */
+    grid-template-columns: 11em 1fr 4.5em;
+    align-items: center;
+    gap: 0.7em;
+  }
+  .nights-label {
+    font-size: 0.9em;
+    color: #2a4d69;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .nights-track {
+    background: #eef1f4;
+    border-radius: 999px;
+    height: 14px;
+    overflow: hidden;
+  }
+  .nights-fill {
+    height: 100%;
+    background: #2a4d69;
+    border-radius: 999px;
+    min-width: 3px;
+  }
+  .nights-fill--country { background: #5a8770; }
+  .nights-value { font-size: 0.9em; color: #444; font-variant-numeric: tabular-nums; }
+  .nights-pct { color: #999; font-size: 0.85em; margin-left: 0.4em; }
+
+  @media (max-width: 560px) {
+    .nights-row { grid-template-columns: 8em 1fr 3.6em; gap: 0.5em; }
+    .nights-label { font-size: 0.85em; }
+    .nights-pct { display: none; }
+  }
+</style>
+{% endif %}
+
 <h2 style="margin-top:2em;">🌍 World coverage</h2>
 <p style="color:#666;margin:0 0 0.6em;">
   <strong>{{ total_countries }}</strong> of ~{{ world_total }} countries visited — <strong>{{ world_pct }}%</strong> of the world.
