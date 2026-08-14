@@ -21,3 +21,7 @@ toc: false
 Instead of seeing a cityscape lit up on our flight in, it was ships in the sea!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1786721592%2F20260102_215207_dlsktx.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1786721595%2F20260102_215231_sy7vxz.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Singapore was already hitting us with the unexpected and we hadn't even landed yet!
+
+It was HUMID when we arrived
