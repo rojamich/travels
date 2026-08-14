@@ -26,7 +26,7 @@ Mike and I used the eSIM app here, which worked well! Wifi was available in some
 
 We utilized metros, buses, lots of walking, and bolt! 
 
- Miles walked in:
+Number of miles walked in:
 
 Tbilisi > 147.22 miles
 
@@ -46,4 +46,4 @@ San Diego, CA to Palm Springs, CA!
 
 Almost *exactly* the same as Norway!!
 
-Thanks so much for joining us on this grand adventure! We can't wait to see you as we travel to Armenia!
+Thanks so much for joining us on this grand adventure! We can't wait to see you as we travel to Armenia! Find us on the next blog: [Between Mountains & Monasteries](https://where-in-the-world-are-mike-and-jen.netlify.app/between-mountains-monasteries-%EF%B8%8F/)!
