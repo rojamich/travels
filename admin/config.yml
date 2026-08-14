@@ -105,6 +105,34 @@ public_folder: "/assets/images/uploads"
 collections:
 
   # -------------------------------------------------------------------------
+  # Tags — deliberately its own collection, not a file inside Site Settings
+  # -------------------------------------------------------------------------
+  # A relation widget loads the entire collection its target sits in. While
+  # this lived in site-config, picking a tag meant fetching all nine of those
+  # files through Git Gateway — nine GitHub round-trips for a 6KB list, which
+  # is why the tag box took so long to become usable. Alone, it is one fetch.
+  - name: "tags"
+    label: "Tags"
+    description: "The master list of tags. Everything a trip or post can be tagged with."
+    files:
+      - file: "_data/tags.yml"
+        label: "Tags (the master list)"
+        name: "tags"
+        description: "Add a tag here and it becomes available on every trip and post. You can also type a brand-new tag straight onto a post — it gets listed here on the next check."
+        fields:
+          - label: "Tags"
+            name: "tags"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Tag",
+                  name: "name",
+                  widget: "string",
+                  hint: "Exactly as it should appear. Check the list first \u2014 'Museums' and 'Museum' would be two separate filters." }
+            hint: "Keep it alphabetical if you can. Renaming a tag here does NOT rewrite posts already using the old name; update those too, or /admin-stats/ will flag it."
+
+
+  # -------------------------------------------------------------------------
   # Site configuration — single-file edits for site-wide settings
   # -------------------------------------------------------------------------
   - name: "site-config"
@@ -138,22 +166,6 @@ collections:
               time_format: false,
               date_format: "YYYY-MM-DD",
               hint: "The day the nomadic chapter began. Powers the live 'days on the road' clock on the Stats page. Leave blank to hide the clock." }
-
-      - file: "_data/tags.yml"
-        label: "Tags (the master list)"
-        name: "tags"
-        description: "Every tag that can be picked on a trip or a post. Add one here first, then choose it on the post."
-        fields:
-          - label: "Tags"
-            name: "tags"
-            widget: "list"
-            summary: "{{fields.name}}"
-            fields:
-              - { label: "Tag",
-                  name: "name",
-                  widget: "string",
-                  hint: "Exactly as it should appear. Check the list first \u2014 'Museums' and 'Museum' would be two separate filters." }
-            hint: "Keep it alphabetical if you can. Renaming a tag here does NOT rewrite posts already using the old name; update those too, or /admin-stats/ will flag it."
 
       - file: "_pages/about.md"
         label: "About page (text)"
@@ -315,7 +327,7 @@ collections:
                   name: "category",
                   widget: "select",
                   required: false,
-                  options: ["Country", "City", "Life on the road", "Relationships", "Health & fitness", "Money", "Food", "Goal", "Other"],
+                  options: ["Country", "City", "Cultural norms", "Life on the road", "Relationships", "Health & fitness", "Money", "Food", "Goal", "Other"],
                   hint: "Broad grouping shown as a pill on the card." }
               - { label: "Status",
                   name: "status",
@@ -683,7 +695,7 @@ collections:
       - label: "Tags"
         name: "tags"
         widget: "relation"
-        collection: "site-config"
+        collection: "tags"
         file: "tags"
         search_fields: ["tags.*.name"]
         value_field: "tags.*.name"
@@ -697,6 +709,13 @@ collections:
         # as well as by typing.
         options_length: 200
         hint: "Click the box to browse all tags, or type to narrow. To add one that isn't there: Site Settings -> Tags (the master list)."
+
+      - { label: "New tag(s) \u2014 not on the list yet",
+          name: "new_tags",
+          widget: "list",
+          required: false,
+          default: [],
+          hint: "Type a tag that doesn't exist yet. It works immediately \u2014 filters, counts, everything. /admin-stats/ will remind you to add it to the master list under Tags so it appears in the dropdown next time. Check the dropdown first: re-typing one that already exists with different capitals makes a second, separate filter." }
 
       - { label: "Optional intro text",
           name: "body",
@@ -858,7 +877,7 @@ collections:
       - label: "Tags"
         name: "tags"
         widget: "relation"
-        collection: "site-config"
+        collection: "tags"
         file: "tags"
         search_fields: ["tags.*.name"]
         value_field: "tags.*.name"
@@ -868,6 +887,13 @@ collections:
         default: []
         options_length: 200
         hint: "Click the box to browse all tags, or type to narrow. Picking rather than typing is what stops 'Food' and 'food' becoming two filters. To add one that isn't there: Site Settings -> Tags (the master list)."
+
+      - { label: "New tag(s) \u2014 not on the list yet",
+          name: "new_tags",
+          widget: "list",
+          required: false,
+          default: [],
+          hint: "Type a tag that doesn't exist yet. It works immediately \u2014 filters, counts, everything. /admin-stats/ will remind you to add it to the master list under Tags so it appears in the dropdown next time. Check the dropdown first: re-typing one that already exists with different capitals makes a second, separate filter." }
 
       - label: "Map pin location"
         name: "location"

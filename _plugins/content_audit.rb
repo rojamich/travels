@@ -277,9 +277,12 @@ module TravelBlog
         flag("tags.yml",
              "#{tag.inspect} is used by #{users.size} " \
              "#{users.size == 1 ? 'entry' : 'entries'} (#{shown}#{more}) but is " \
-             "not on the list in _data/tags.yml. It still works, but it appears " \
-             "as its own filter option next to whatever it was meant to be. " \
-             "Add it under Site Settings -> Tags, or correct the entries.")
+             "not on the master list. It already works everywhere — filters, " \
+             "counts, the tag sheet — so this is only a reminder to add it " \
+             "under Tags, which is what puts it in the dropdown next time. " \
+             "Usually it came from the \"New tag(s)\" box on a post. " \
+             "If it was meant to be an existing tag, fix the post instead — left " \
+             "alone it stays a separate filter.")
       end
     end
 
