@@ -125,8 +125,19 @@ classes: wide
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: 0.9em;
   }
+  /* Image on top, text under it — the same shape as the Favorites cards, the
+     year-page trip cards and the trip grid. This was the only card on the site
+     laid out sideways, and the 80px thumbnail beside the text was too small to
+     be worth looking at.
+
+     A full-width square was the alternative. At a 240-280px column that would
+     be a 280px-tall photo on a ~430px card, which is far too much weight for a
+     glance-back widget, and travel photos are mostly landscape anyway — a
+     square crop throws away the sides of the view. 140px matches what every
+     other card here already uses. */
   .otd-card {
     display: flex;
+    flex-direction: column;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
@@ -136,21 +147,14 @@ classes: wide
     transition: transform 0.15s, box-shadow 0.15s;
   }
   .otd-card:hover { transform: translateY(-2px); box-shadow: 0 3px 10px rgba(0,0,0,0.08); }
-  /* A square thumbnail, and it has to be stated three ways to stay square.
-     `flex: 0 0 80px` only fixes the WIDTH; the height came from `height: auto`
-     on a flex item, which stretches to the tallest thing in the row. So a card
-     whose title wrapped to four lines pulled its 80px-wide photo into an
-     80x300 strip. Nothing in the CSS changed to cause that — the titles simply
-     got longer, and the bug had been waiting in the rule since it was written.
-
-     align-self stops the stretch, the explicit height sets the square, and
-     min-height defends it against any future align-items on the card. */
+  /* Fixed height plus object-fit: cover, so the frame never takes its shape
+     from the text beside it. That is what broke before: the height was left to
+     `auto` on a flex item, and a title wrapping to four lines stretched the
+     photo into a strip. A stated height cannot be pulled about by anything. */
   .otd-thumb {
-    flex: 0 0 80px;
-    width: 80px;
-    height: 80px;
-    min-height: 80px;
-    align-self: flex-start;
+    flex: 0 0 140px;
+    width: 100%;
+    height: 140px;
     background: #f0f0f0;
     overflow: hidden;
   }
@@ -160,7 +164,7 @@ classes: wide
     object-fit: cover;
     display: block;
   }
-  .otd-body { padding: 0.7em 0.9em; flex: 1; min-width: 0; }
+  .otd-body { padding: 0.8em 0.95em; flex: 1; min-width: 0; }
   .otd-year {
     display: inline-block;
     background: #2a4d69;
