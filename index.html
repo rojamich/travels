@@ -97,7 +97,16 @@ classes: wide
       {%- assign trip = site.trips | where: "slug", trip_slug | first -%}
       <a href="{{ p.url | relative_url }}" class="otd-card">
         {% if p.header.teaser %}
-          <div class="otd-thumb"><img src="{{ p.header.teaser }}" alt="{{ p.title }}" onerror="this.parentNode.style.display='none'"></div>
+          {%- comment -%}
+            Honour the teaser's focal point, same as the trip page day cards.
+            Without this the positioner appeared to do nothing here: she could
+            drag the photo, save it, and this card would still crop dead centre.
+            It matters more here than anywhere — this frame is the widest use
+            of a teaser on the site, so it throws away the most top and bottom.
+          {%- endcomment -%}
+          <div class="otd-thumb"><img src="{{ p.header.teaser }}" alt="{{ p.title }}"
+               style="object-position: {{ p.header.teaser_focal_x | default: 50 }}% {{ p.header.teaser_focal_y | default: 50 }}%;"
+               onerror="this.parentNode.style.display='none'"></div>
         {% endif %}
         <div class="otd-body">
           <span class="otd-year">{{ p.date | date: "%Y" }}</span>
