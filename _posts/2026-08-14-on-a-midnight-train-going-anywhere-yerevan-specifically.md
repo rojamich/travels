@@ -48,11 +48,11 @@ I immediately passed out, trying to get as much shut eye as possible before the 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786885266/20260815_015014_xgfktb.jpg)
 
-The first happened just before midnight. We all off-loaded the train and lined up for passport control. I was very smiley which made the border officer laugh and he had to ask me to stop smiling for the photo lol! He said, "oh, second time to Georgia!" and seemed to approve. Just wait til next year when we come back for a third trip! we got our exit stamps and re-boarded.
+The first happened just before midnight. We all off-loaded the train and lined up for passport control. I was very smiley which made the border officer laugh and he had to ask me to stop smiling for the photo lol! He said, "Oh, second time to Georgia!" and seemed to approve. Just wait til next year when we come back for a third trip! We got our exit stamps and re-boarded.
 
-The second border stop happened around 130am and Armenian border patrol boarded the train. They seemed disinterested in American tourists but happy with our "barev dzez" which is a polite hello 😊
+The second border stop happened around 130am and Armenian border patrol boarded the train. They seemed disinterested in American tourists but happy with our "Barev dzez" which is a polite hello 😊
 
-We fell right to sleep after that and slept until 8 when the attendant came to wake us (minus a brief wake up to see the sun rising!
+We fell right to sleep after that and slept until 8 when the attendant came to wake us (minus a brief wake up to see the sun rising!)
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786887307/20260815_063529_uiffvm.jpg)
 
