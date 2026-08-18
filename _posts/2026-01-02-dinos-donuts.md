@@ -1,17 +1,17 @@
 ---
-title: Dinos & Donuts
+title: "Donuts &  the Goddess and destroyer of evil. "
 date: 2026-01-03
 categories:
   - the-singaporean-stopover
 order: 2
 header:
   teaser_focal_x: 50
-  teaser_focal_y: 55
+  teaser_focal_y: 28
   overlay_focal_x: 50
-  overlay_focal_y: 70
+  overlay_focal_y: 61
   overlay_filter: 0.4
-  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787044877/20260103_131630_wugcpn.jpg
-  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786721304/20260103_184119_1_hl2nvy.jpg
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787048264/20260103_132313_jq1opk.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787044877/20260103_131630_wugcpn.jpg
 tags:
   - Food
   - Flights
