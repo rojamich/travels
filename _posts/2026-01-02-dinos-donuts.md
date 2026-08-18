@@ -28,7 +28,7 @@ Thankfully we had a short ride to our hotel because we were tired and it was TOA
 
 But first, food!
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787042864/20260103_105340_xdghzc.jpg "The donuts were... ok.")
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787042864/20260103_105340_xdghzc.jpg "The donuts were... ok. And SO expensive!")
 
 I was just hoping wherever we went next would have shade!
 
@@ -69,3 +69,19 @@ It was lunch time so we stopped for some Indian food - it was good but the mango
 We headed to the Muslim Quarter of Singapore! It was so cool to see how this area of the city state completely transformed in architecture, religious sites, street art, and even the rooves were different!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%22100%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787044881%2F20260103_131635_kkhjjn.jpg%22%7D%2C%7B%22x%22%3A%2244%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787044877%2F20260103_131630_wugcpn.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+On our way back to our hotel, we were able to walk past the Sultan Mosque, Muscat Street, and the colorful Jalan Klapa street!.
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787048261%2F20260103_132155_blgnmn.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787048264%2F20260103_132313_jq1opk.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787048271%2F20260103_132808_qr3zuy.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787048275%2F20260103_132821_utuohq.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787048279%2F20260103_132838_u8ri5x.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787048282%2F20260103_132903_om5b1k.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+It was a busy neighborhood!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787048319/20260103_132410_oumh3m.jpg)
+
+One more walk to get to our hotel and we enjoyed the greenery along the way!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787048337/20260103_133443_wxct9n.jpg)
+
+After a shower and some rest, we ventured out for some gyro!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787048570%2F20260103_170323_t0uood.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787048577%2F20260103_170542_1_rdozx3.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787048574%2F20260103_172012_ejqkv2.jpg%22%7D%5D%2C%22caption%22%3A%22It%20was%20also...fine.%20So%20far%20Singapore%20is%20striking%20out%20in%20the%20food%20department.%22%7D %}
