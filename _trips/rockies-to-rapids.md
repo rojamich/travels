@@ -10,8 +10,8 @@ cover_focal_y: 30
 start_date: 2024-07-02
 end_date: 2024-07-08
 location: Banff, Alberta, Canada
-lat: 51.1784
-lng: 115.5708
+lat: 51.178364
+lng: -115.57077
 collection_trip: false
 states: []
 tags:
