@@ -44,7 +44,7 @@ We made it to the Sri Veeramakaliamman Temple dedicated to the goddess and destr
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787043392/20260103_114057_npkebm.jpg)
 
-We removed our shoes at the entrance to show respect. It's be interesting to see the different ways to show respects in different religions! Some require skirts, others head coverings, some shoe removal and even shoulder-coverage! 
+We removed our shoes at the entrance to show respect. It's been interesting to see the different ways to show respects in different religions! Some require skirts, others head coverings, some shoe removal and even shoulder-coverage! 
 
 Check out how many distinctly different statues there are 🤯
 
