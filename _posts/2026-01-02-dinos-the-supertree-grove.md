@@ -77,7 +77,7 @@ We did see a depressing sign about mountain gorillas.
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787053406/20260103_185422_j2twau.jpg)
 
-On a positive note, their population has actually doubled in the last 50 years and there are an estimated Instead of 600 individuals, the global mountain gorilla population has steadily climbed and is now estimated **1**,063 to 1,100 individuals in the wild!
+On a positive note, their population has actually doubled in the last 50 years and there are an estimated 1,063 to 1,100 individuals in the wild!
 
 You gotta make time to stop and smell the roses!
 
@@ -85,7 +85,7 @@ You gotta make time to stop and smell the roses!
 
 They even had bushes shaped like dinos!
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2233%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787054497%2F20260103_191937_vt9u3j.jpg%22%7D%5D%2C%22caption%22%3A%22How%20are%20they%3F%3F%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2233%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787054497%2F20260103_191937_vt9u3j.jpg%22%7D%5D%2C%22caption%22%3A%22How%20cute%20are%20they%3F%3F%22%7D %}
 
 This part made me feel like we were in the movie while we walked through!
 
