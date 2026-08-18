@@ -85,3 +85,5 @@ One more walk to get to our hotel and we enjoyed the greenery along the way!
 After a shower and some rest, we ventured out for some gyro!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787048570%2F20260103_170323_t0uood.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787048577%2F20260103_170542_1_rdozx3.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787048574%2F20260103_172012_ejqkv2.jpg%22%7D%5D%2C%22caption%22%3A%22It%20was%20also...fine.%20So%20far%20Singapore%20is%20striking%20out%20in%20the%20food%20department.%22%7D %}
+
+This was a long day so check out the next post for that evening's activities!
