@@ -45,7 +45,7 @@ This is when I decided this giant leaf reminded me of the dino from yesterday so
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787057101%2F20260104_102344_yvb1yx.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787057082%2F20260104_102341_nviuqk.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787057091%2F20260104_102333_uspkvv.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787054562%2F20260103_190748_kaws4e.jpg%22%7D%5D%2C%22caption%22%3A%22What%20do%20you%20think%3F%20Pretty%20identical%20right%3F%3F%22%7D %}
 
-Ok lets get serious, we walked past a coffee shop and that sounded ideal with combine with a shady reading spot!
+Ok lets get serious, we walked past a coffee shop and that sounded like an ideal combination with a shady reading spot! 
 
 Plus we were thirsty as all get out!
 
@@ -63,7 +63,7 @@ My dessert was pretty good too! Wasn't expecting the tart to be actual fruit jam
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787057470/20260104_104644_moghkt.jpg)
 
-We sat and enjoyed our books while swinging on this neat park bench, ever-grateful for the shade 🌳📖 I was reading "L[ife's Too Short](https://www.goodreads.com/book/show/54377375-life-s-too-short)" by Abby Jimenez (another amazing book by her! 
+We sat and enjoyed our books while swinging on this neat park bench, ever-grateful for the shade 🌳📖 I was reading "[Life's Too Short](https://www.goodreads.com/book/show/54377375-life-s-too-short)" by Abby Jimenez (another amazing book by her!). Mike was reading "[Easy Go](https://www.goodreads.com/book/show/18310315-easy-go)" by John Lange aka Michael Crichton.
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787057431%2F20260104_105155_xdyepe.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787057478%2F20260104_104258_ay7mcj.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -109,4 +109,4 @@ I immediately had some entertainment on the flight when I saw platform crocs!!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787058767/20260104_203746_q5xsz0.jpg "Wow. Just wow.")
 
-I did start a new book on the flight! [The Skin Collector](https://www.goodreads.com/book/show/18453226-the-skin-collector) by Jeffery Deaver! If I haven't talked your ear off already about this series, its a quadriplegic forensic investigator (consultant) who solves crime! You may have seen the movie [The Bone Collector](https://www.youtube.com/watch?v=fI56162Lz0A) which was the first of this series!
+I did start a new book on the flight! [The Skin Collector](https://www.goodreads.com/book/show/18453226-the-skin-collector) by Jeffery Deaver! If I haven't talked your ear off already about this series, its about a quadriplegic forensic investigator (consultant) who solves crime! You may have seen the movie [The Bone Collector](https://www.youtube.com/watch?v=fI56162Lz0A) which was the first of this series!
