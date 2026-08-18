@@ -1,0 +1,91 @@
+# =============================================================================
+# Clean up CMS branches
+# =============================================================================
+# Why this exists
+# ---------------
+# Every draft saved in /admin/ lives on its own branch (cms/posts/<slug>)
+# with a pull request attached. Publish or delete the draft and Decap tidies
+# both away — usually. If that tidy-up half-fails (a dropped connection, an
+# expired login, a PR closed by hand on GitHub), the BRANCH is left behind
+# with no PR pointing at it.
+#
+# A leftover branch is not harmless. The draft has vanished from the editor's
+# Workflow tab, so the next time she writes that post the CMS thinks it's new,
+# tries to create the same branch again, and GitHub answers 422 — the save
+# fails, over and over, with no way to fix it from inside the editor.
+#
+# So: when a CMS pull request closes, delete its branch. And once a day, sweep
+# up any CMS branch that has no open pull request and hasn't been touched in
+# two days.
+# =============================================================================
+name: Clean up CMS branches
+
+on:
+  pull_request:
+    types: [closed]
+  schedule:
+    # 09:17 UTC daily — an odd minute, because on-the-hour crons queue longest.
+    - cron: '17 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  delete-closed-pr-branch:
+    if: github.event_name == 'pull_request' && startsWith(github.event.pull_request.head.ref, 'cms')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete the branch this PR was built on
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: ${{ github.event.pull_request.head.ref }}
+          REPO: ${{ github.repository }}
+        run: |
+          echo "PR closed — removing branch: $BRANCH"
+          # Decap usually deletes it first; a 404/422 here just means it beat us.
+          gh api -X DELETE "repos/$REPO/git/refs/heads/$BRANCH" \
+            && echo "deleted" \
+            || echo "already gone (or protected) — nothing to do"
+
+  sweep-orphans:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete CMS branches with no open PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          # Branches that still have a draft open in the editor — never touch these.
+          gh api --paginate "repos/$REPO/pulls?state=open&per_page=100" \
+            --jq '.[].head.ref' | sort -u > /tmp/protected.txt
+          echo "Branches with an open PR (protected):"
+          cat /tmp/protected.txt
+
+          cutoff=$(date -u -d '2 days ago' +%s)
+
+          gh api --paginate "repos/$REPO/branches?per_page=100" \
+            --jq '.[] | select(.name | startswith("cms")) | .name' \
+          | while read -r branch; do
+              if grep -Fxq "$branch" /tmp/protected.txt; then
+                echo "keep   $branch (open PR)"
+                continue
+              fi
+
+              # Leave very recent branches alone: Decap creates the branch a
+              # moment before it opens the PR, and a sweep landing in that gap
+              # would delete a draft she is in the middle of writing.
+              tip=$(gh api "repos/$REPO/commits/$branch" --jq '.commit.committer.date')
+              tip_epoch=$(date -u -d "$tip" +%s)
+              if [ "$tip_epoch" -gt "$cutoff" ]; then
+                echo "keep   $branch (last commit $tip — too recent)"
+                continue
+              fi
+
+              echo "delete $branch (no open PR, last commit $tip)"
+              gh api -X DELETE "repos/$REPO/git/refs/heads/$branch" || echo "  (already gone)"
+            done

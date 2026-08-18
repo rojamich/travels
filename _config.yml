@@ -158,6 +158,7 @@ include:
 exclude:
   - README.md
   - WORKFLOW.md
+  - EDITING.md
   - Gemfile
   - Gemfile.lock
   - vendor

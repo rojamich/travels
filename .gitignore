@@ -19,6 +19,10 @@ Thumbs.db
 *.swp
 *.swo
 .vscode/
+# ...except the shared editor settings, which stop VS Code from
+# red-squiggling the Jekyll templates that end in .json.
+!.vscode/
+!.vscode/settings.json
 .idea/
 
 # Python tooling for the import scripts

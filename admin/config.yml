@@ -742,16 +742,25 @@ collections:
       - label: "Trip"
         field: categories
 
-    # Quick one-click filters. Decap can't generate these dynamically, so
-    # they're enumerated. When you add a new trip, add a line here too —
-    # or just use "Group by → Trip" above, which never needs updating.
+    # Quick one-click filters. Decap can't build these dynamically, so the
+    # list has to be spelled out — but nobody has to maintain it by hand:
+    # scripts/sync_trip_filters.py regenerates everything between the markers
+    # from _trips/, and GitHub Actions runs it whenever a trip is added or
+    # renamed. Don't edit inside the markers; the next run overwrites it.
     view_filters:
+      # --- BEGIN generated trip filters (scripts/sync_trip_filters.py) ---
       - label: "African Safari Sojourn"
         field: categories
         pattern: "african-safari"
       - label: "Bamboo & Bulgogi Bliss"
         field: categories
         pattern: "bamboo-bulgogi"
+      - label: "Between Mountains & Monasteries ⛰️🏰"
+        field: categories
+        pattern: "between-mountains-monasteries-⛰️🏰"
+      - label: "Canyons & Cairns"
+        field: categories
+        pattern: "canyons-cairns"
       - label: "European Excursion"
         field: categories
         pattern: "european-excursion"
@@ -764,6 +773,9 @@ collections:
       - label: "Life in the Big City"
         field: categories
         pattern: "life-in-the-big-city"
+      - label: "Mantas, Guac, and Glow 🚢🥽⚓🐠"
+        field: categories
+        pattern: "our-first-cruise-🚢🥽⚓🪼"
       - label: "Nomadic New Zealand Adventure 2022"
         field: categories
         pattern: "new-zealand"
@@ -773,9 +785,24 @@ collections:
       - label: "Peruvian Passage"
         field: categories
         pattern: "peruvian-passage"
+      - label: "Pura Vida Pursuit"
+        field: categories
+        pattern: "pura-vida-pursuit"
       - label: "Red Coats & Red Buses"
         field: categories
         pattern: "red-coats-red-buses"
+      - label: "Rockies to Rapids"
+        field: categories
+        pattern: "rockies-to-rapids"
+      - label: "Sharks, Shaved Ice, and Summits"
+        field: categories
+        pattern: "sharks-shaved-ice-and-summits"
+      - label: "Snowed-In Alaska"
+        field: categories
+        pattern: "snowed-in-alaska"
+      - label: "Tacos & Turrets in Mexico City"
+        field: categories
+        pattern: "tacos-turrets-in-mexico-city"
       - label: "The Singaporean Stopover"
         field: categories
         pattern: "the-singaporean-stopover"
@@ -785,6 +812,7 @@ collections:
       - label: "Welcome Home: Tbilisi, Georgia"
         field: categories
         pattern: "welcome-home-tbilisi-georgia"
+      # --- END generated trip filters ---
     fields:
       - { label: "Title",
           name: "title",

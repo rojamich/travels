@@ -8,6 +8,8 @@ Live URL: **https://where-in-the-world-are-mike-and-jen.netlify.app**
 This README is for **you (the technical setup person).**
 For the day-to-day "how do I post a new entry" guide that you hand to your
 wife, see [WORKFLOW.md](WORKFLOW.md).
+For changing files yourself — commit, push, why a change hasn't appeared yet —
+see [EDITING.md](EDITING.md).
 
 ---
 

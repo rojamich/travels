@@ -1,0 +1,20 @@
+{
+  // ---------------------------------------------------------------------
+  // Why this file exists: the red squiggle on search-index.json
+  // ---------------------------------------------------------------------
+  // Two files in this repo end in .json but are not JSON — they are Jekyll
+  // templates that PRODUCE json when the site builds. They start with a
+  // front-matter block (---) followed by Liquid tags, and the finished JSON
+  // only exists in the built site.
+  //
+  // VS Code doesn't know that. It sees the extension, checks it as JSON, and
+  // reports "Expected a JSON object, array or literal" on line 1. The file is
+  // correct; the checker is looking at the wrong thing. Telling VS Code to
+  // treat these two as plain text makes the false error go away.
+  //
+  // Nothing here changes the site — it is purely an editor setting.
+  "files.associations": {
+    "**/assets/data/search-index.json": "plaintext",
+    "**/manifest.json": "plaintext"
+  }
+}

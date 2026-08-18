@@ -1556,6 +1556,11 @@
           label: "Photos",
           widget: "list",
           summary: "{{fields.image}}",
+          // Start a brand new gallery as an empty list rather than letting
+          // Decap seed the field with "". Without this the console logs
+          // "Expected List value to be an array but received ''" every time
+          // she opens the gallery button on a fresh block.
+          default: [],
           // A `fields` array rather than a single `field`, so each photo can
           // carry its own focal point alongside the URL. Tiles are a fixed
           // shape, so a photo whose aspect ratio differs gets cropped — these
