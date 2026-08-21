@@ -3,7 +3,7 @@ title: Getting Here (Bad Homburg)
 date: 2023-07-16
 categories:
   - european-exploration
-order: 3
+order: 1
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785681271/blogger-import/168aabed79ad544d3c25.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785681109/blogger-import/e52ad33aff0cf55b49e1.jpg
