@@ -1,9 +1,9 @@
 ---
 title: Dusseldorf, the Early Favorite City!
-date: 2023-07-22
+date: 2023-07-20
 categories:
   - european-exploration
-order: 7
+order: 5
 header:
   overlay_filter: 0
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785681954/blogger-import/2c45ab60afc0e4adb3bb.jpg
