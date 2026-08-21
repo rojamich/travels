@@ -1,13 +1,21 @@
 ---
-title: "Whitewater Rafting the Zambezi River!"
-date: 2024-09-14
+title: Whitewater Rafting the Zambezi River!
+date: 2024-09-10
 categories:
   - african-safari
-order: 24.1
+order: 20
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785696673/blogger-import/9e4f012a4a3538899095.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785696676/blogger-import/5501d9d6e13a9b4167c3.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 46
+  overlay_focal_x: 50
+  overlay_focal_y: 37
 tags:
   - Zimbabwe
 location:
-  name: "Zambezi River, Zimbabwe"
+  name: Zambezi River, Zimbabwe
   lat: -17.9244
   lng: 25.8367
 ---
