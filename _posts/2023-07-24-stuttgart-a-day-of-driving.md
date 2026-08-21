@@ -1,13 +1,24 @@
 ---
-title: "Stuttgart, a Day of Driving!"
-date: 2023-07-24
+title: Stuttgart, a Day of Driving!
+date: 2023-07-21
 categories:
   - european-exploration
-order: 9
+order: 6
+header:
+  overlay_filter: 0
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785682338/blogger-import/e02fa7c9adacf8d82831.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785682159/blogger-import/b2dfb6e8174672210b4f.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 59
+  overlay_focal_x: 50
+  overlay_focal_y: 83
 tags:
   - Germany
+  - Food
+  - Nature
+  - Hiking
 location:
-  name: "Stuttgart, Germany"
+  name: Stuttgart, Germany
   lat: 48.7758
   lng: 9.1829
 ---
