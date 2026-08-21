@@ -1,13 +1,24 @@
 ---
-title: "Dusseldorf, the Early Favorite City!"
+title: Dusseldorf, the Early Favorite City!
 date: 2023-07-22
 categories:
   - european-exploration
 order: 7
+header:
+  overlay_filter: 0
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785681954/blogger-import/2c45ab60afc0e4adb3bb.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785682049/blogger-import/4379877f59a20a760d3e.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 79
 tags:
   - Germany
+  - Architecture
+  - Food
+  - IceCream
 location:
-  name: "Dusseldorf, Germany"
+  name: Dusseldorf, Germany
   lat: 51.2277
   lng: 6.7735
 ---
