@@ -1,11 +1,21 @@
 ---
 title: "'Lazy' Sunday"
-date: 2023-08-03
+date: 2023-07-23
 categories:
   - european-exploration
-order: 19.1
+order: 8
+header:
+  overlay_filter: 0
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785683241/blogger-import/ab482a0654aeeaba9e1f.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785683267/blogger-import/310ded52680ff318fe4d.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 17
+  overlay_focal_x: 50
+  overlay_focal_y: 44
 tags:
   - Germany
+  - PetSitting
+  - Museums
 location:
   name: Bad Homburg, Germany
   lat: 50.2271
