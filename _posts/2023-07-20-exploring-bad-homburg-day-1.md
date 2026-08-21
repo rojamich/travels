@@ -1,13 +1,18 @@
 ---
-title: "Exploring Bad Homburg - Day 1!"
-date: 2023-07-20
+title: Exploring Bad Homburg - Day 1!
+date: 2023-07-17
 categories:
   - european-exploration
-order: 5.1
+order: 2
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785681544/blogger-import/cfc6dd539474296cd9c3.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785681456/blogger-import/e60ab8633236babefc27.jpg
+  overlay_filter: 0
 tags:
   - Germany
+  - Food
 location:
-  name: "Bad Homburg, Germany"
+  name: Bad Homburg, Germany
   lat: 50.2274
   lng: 8.6177
 ---
