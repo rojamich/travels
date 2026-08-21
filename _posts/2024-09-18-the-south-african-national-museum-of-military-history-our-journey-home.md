@@ -1,14 +1,27 @@
 ---
-title: "The South African National Museum of Military History & Our Journey Home"
-date: 2024-09-18
+title: The South African National Museum of Military History & Our Journey Home
+date: 2024-09-13
 categories:
   - african-safari
-order: 28
+order: 23
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785696777/blogger-import/da0dac6771116ff978ff.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785696915/blogger-import/1b1e0679e88d88213f02.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 50
+  overlay_filter: 0
 tags:
   - USA
   - South Africa
+  - Museums
+  - Flights
+  - Coffee
+  - Food
+  - Books
 location:
-  name: "Johannesburg, South Africa"
+  name: Johannesburg, South Africa
   lat: -26.2041
   lng: 28.0473
 ---
