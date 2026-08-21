@@ -8,6 +8,10 @@ header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785681544/blogger-import/cfc6dd539474296cd9c3.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785681456/blogger-import/e60ab8633236babefc27.jpg
   overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 28
+  overlay_focal_x: 50
+  overlay_focal_y: 44
 tags:
   - Germany
   - Food
