@@ -61,6 +61,7 @@ see [EDITING.md](EDITING.md).
 │
 └── scripts/
     ├── import_blogger.py   ← convert Blogger XML export to Jekyll posts
+    ├── audit_cloudinary_orphans.py  ← find/delete unused photos on Cloudinary
     └── requirements.txt
 ```
 
