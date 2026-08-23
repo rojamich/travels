@@ -24,25 +24,32 @@ COST -- READ THIS BEFORE A FULL RUN
     delivery bandwidth -- around 2.5GB, so another ~2.5 credits. Call it 9-10
     credits for the full job. That is a real dent in one month's quota, so:
 
-      - Run --limit 20 first and CHECK THE SITE (see VERIFY below).
-      - Run the bulk after the monthly window has room, in batches.
-      - Do not start a full run while already over the limit; Cloudinary
-        throttles transformations for accounts in overage.
+      - Run --limit 20 first and CHECK THE SITE (see below).
+      - Run the bulk in batches, so a problem costs one batch and not 7,000.
+
+    Being over the plan limit does not appear to block this: the first batch
+    ran clean at 100.5% of quota. An earlier draft of this file warned that
+    it would, which was a guess, and the guess was wrong.
 
     The storage saving is permanent and roughly 9GB, so it pays back within
     the first month and every month after.
 
-VERIFY BEFORE THE BULK RUN
+THE VERSION-NUMBER QUESTION, SETTLED
     Overwriting an asset gives it a NEW version number, while the URLs
     already written into _posts/ carry the OLD one, e.g. /v1785669755/.
-    Cloudinary treats the version as a cache hint rather than an address,
-    so those URLs are expected to keep working -- but "expected" is not
-    good enough across 8,000 photos on every post of the site.
+    That looked like the one thing capable of breaking every photo on the
+    site, so it was tested on 20 assets before any bulk run.
 
-    So: run --limit 20, then open the posts those photos appear in (the
-    script prints them) and confirm the images still load. If any 404, STOP
-    -- the job then also has to rewrite URLs in the markdown, which is a
-    different and much larger piece of work.
+    It holds: Cloudinary treats the version as a cache hint, not an address.
+    The old-version URLs return 200 and serve a derivative regenerated from
+    the new smaller original -- verified on 2026-08-23, when one asset went
+    10.5MB -> 352KB stored while the w_1200 copy visitors actually download
+    went 215,542 -> 200,757 bytes. Under 7% smaller delivered, so no visible
+    quality change, against a 30x saving in storage.
+
+    Nothing in _posts/ needs rewriting. The script still prints old-version
+    URLs after each run -- worth a glance, cheap insurance if Cloudinary ever
+    changes this behaviour.
 
 SAFETY
     - --dry-run shows the plan and writes nothing.
