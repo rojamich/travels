@@ -19,6 +19,7 @@ tags:
   - Hiking
   - Nature
   - Castles
+  - Rain
 location:
   name: Heidelberg, Germany
   lat: 49.3988
