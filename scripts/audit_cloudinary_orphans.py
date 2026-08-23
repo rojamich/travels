@@ -5,10 +5,14 @@ audit_cloudinary_orphans.py — find Cloudinary assets no page on the site uses.
 WHY THIS EXISTS
     Storage is the biggest line on the Cloudinary bill, and unlike bandwidth
     and transformations it never rolls off — every photo ever uploaded keeps
-    costing until it is deleted. As of the August 2026 audit Cloudinary held
-    ~12,160 assets while only ~7,800 were referenced anywhere on the site.
-    The rest are deleted posts, duplicate uploads and abandoned import runs:
-    storage rent for files no visitor can reach.
+    costing until it is deleted. The first real run (August 2026) found 8,315
+    stored assets totalling 13.30 GB, of which 449 (1.30 GB) were referenced
+    nowhere: deleted posts, duplicate uploads, abandoned import runs.
+
+    Note the dashboard's "Images & Videos" tile said 12.16 K at the time.
+    That figure counts derived (transformed) versions too, so it is NOT the
+    number this script compares against — 8,315 originals plus roughly 3,800
+    derivatives. Derivatives are only ~0.6 GB; the originals are the problem.
 
 WHAT IT DOES
     1. Scans the whole repo for Cloudinary URLs and works out which asset
@@ -58,6 +62,7 @@ import urllib.parse
 AUDIT_DIR = ".audit"
 ORPHAN_CSV = os.path.join(AUDIT_DIR, "orphans.csv")
 MISSING_CSV = os.path.join(AUDIT_DIR, "missing.csv")
+ASSET_CACHE = os.path.join(AUDIT_DIR, "cloudinary_assets.json")
 
 # Directories that never contain hand-written references: build output, VCS
 # internals, dependencies. Everything else in the repo is fair game, because
@@ -88,7 +93,11 @@ VERSION_RE = re.compile(r"^v\d+$")
 # A transformation segment is one or more "xx_value" params joined by commas,
 # e.g. c_limit,f_auto,q_auto,w_1200 - or a named transform, t_something.
 TRANSFORM_RE = re.compile(r"^[a-z]{1,3}_[^/,]+(?:,[a-z]{1,3}_[^/,]+)*$")
-MEDIA_EXT_RE = re.compile(r"\.(jpe?g|png|gif|webp|avif|svg|bmp|mp4|mov|pdf)$", re.I)
+MEDIA_EXT_RE = re.compile(
+    r"\.(jpe?g|png|gif|webp|avif|svg|bmp|tiff?|jfif|hei[cf]"
+    r"|mp4|mov|webm|m4v|avi|mkv|3gp|pdf)$",
+    re.I,
+)
 
 
 def public_id_from_path(path):
@@ -118,7 +127,16 @@ def public_id_from_path(path):
     if not segments:
         return None
     public_id = "/".join(segments)
-    return MEDIA_EXT_RE.sub("", public_id) or None
+    if not re.search(r"[A-Za-z0-9]", public_id):
+        return None  # e.g. a bare "..." from an ellipsis in the docs
+    # Return BOTH the path as written and the extension-stripped form. A
+    # Cloudinary public_id normally excludes the extension, but which
+    # extensions exist is not a list worth betting live photos on: an
+    # unanticipated one (.heic did this) makes the reference miss its stored
+    # asset, and the asset then looks unused. Recording both forms lets the
+    # comparison in main() match either way.
+    stripped = MEDIA_EXT_RE.sub("", public_id)
+    return {public_id, stripped} - {""}
 
 
 def scan_repo(root="."):
@@ -141,8 +159,7 @@ def scan_repo(root="."):
             # the union - missing these would flag ~2,000 live photos as junk.
             for blob in (text, urllib.parse.unquote(text)):
                 for match in URL_RE.findall(blob):
-                    public_id = public_id_from_path(match)
-                    if public_id:
+                    for public_id in public_id_from_path(match) or ():
                         found.setdefault(public_id, set()).add(
                             os.path.relpath(full, root).replace("\\", "/")
                         )
@@ -202,6 +219,9 @@ def main():
     parser.add_argument("--min-age-days", type=int, default=7,
                         help="never call an asset newer than this an orphan "
                              "(default 7, protects uploads not yet in a post)")
+    parser.add_argument("--refresh", action="store_true",
+                        help="re-fetch the asset list from Cloudinary instead "
+                             "of reusing the cached copy in .audit/")
     parser.add_argument("--delete", action="store_true",
                         help="permanently delete the orphans (asks first)")
     args = parser.parse_args()
@@ -210,16 +230,43 @@ def main():
     referenced = scan_repo(".")
     print(f"  {len(referenced):,} distinct assets referenced on the site\n")
 
-    print("Listing assets stored in Cloudinary...")
-    stored = fetch_stored()
+    # The asset listing is ~17 API calls and changes slowly, while the repo
+    # side changes every time the parser is corrected. Caching it makes
+    # re-running after a fix instant instead of another full crawl.
+    if os.path.exists(ASSET_CACHE) and not args.refresh:
+        import json
+        with open(ASSET_CACHE, encoding="utf-8") as handle:
+            stored = json.load(handle)
+        age = dt.datetime.now() - dt.datetime.fromtimestamp(os.path.getmtime(ASSET_CACHE))
+        print(f"Using cached asset list from {int(age.total_seconds() // 60)} min ago "
+              f"(--refresh to re-fetch)")
+    else:
+        print("Listing assets stored in Cloudinary...")
+        stored = fetch_stored()
+        import json
+        os.makedirs(AUDIT_DIR, exist_ok=True)
+        with open(ASSET_CACHE, "w", encoding="utf-8") as handle:
+            json.dump(stored, handle)
     print(f"  {len(stored):,} assets stored\n")
 
-    stored_ids = {a["public_id"] for a in stored}
+    # Both spellings of every stored asset: the bare public_id, and the
+    # public_id with its format appended, which is how URLs on the site
+    # usually write it. Comparing against both means an extension the
+    # parser doesn't recognise can't turn a live photo into an "orphan".
+    def spellings(asset):
+        public_id = asset["public_id"]
+        fmt = asset.get("format")
+        return {public_id, f"{public_id}.{fmt}"} if fmt else {public_id}
+
+    stored_ids = set()
+    for asset in stored:
+        stored_ids |= spellings(asset)
+
     cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=args.min_age_days)
 
     orphans, too_new = [], 0
     for asset in stored:
-        if asset["public_id"] in referenced:
+        if spellings(asset) & referenced.keys():
             continue
         created = asset.get("created_at", "")
         try:
