@@ -17,7 +17,6 @@ tags:
   - Food
   - Friends
   - Dogs
-  - ""
 toc: false
 ---
 I can't believe it's already our last day here in Tbilisi! Four weeks really flew by and we just finished packing up our bags for our pick-up tomorrow morning. Haven't packed in awhile so that felt weird!

@@ -14,7 +14,6 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1784533628/20260715_165037_tzuq8g.jpg
 tags:
   - Food
-  - ""
 toc: false
 location:
   name: Tbilisi, Georgia

@@ -29,7 +29,6 @@ tags:
   - Friends
   - Reading
   - VendingMachines
-  - ""
 ---
 
 <!-- Optional intro text appears here on the trip page; leave blank to skip. -->

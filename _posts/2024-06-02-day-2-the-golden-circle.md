@@ -12,9 +12,9 @@ header:
   overlay_image: https://picsum.photos/seed/iceland2/1600/600
   overlay_filter: 0.4
 tags:
-  - iceland
-  - golden-circle
-  - waterfalls
+  - Iceland
+  - "Golden Circle"
+  - Waterfalls
 location:
   name: "Gullfoss, Iceland"
   lat: 64.3275
