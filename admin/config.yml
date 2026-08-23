@@ -60,15 +60,26 @@ media_library:
     # phone photo is 4-12MB; capped at 2400px it lands around 1-2MB, and
     # we only ever DELIVER at 1200px wide, so nothing visible is lost.
     #
-    # This preset must be created once in the Cloudinary dashboard —
-    # it can't be defined from here:
+    # PREREQUISITE — the preset below must exist in the Cloudinary
+    # dashboard. It can't be defined from here, and pointing at a preset
+    # that isn't there makes uploads fail outright, so create it FIRST:
     #   Settings -> Upload -> Upload presets -> Add upload preset
-    #     Preset name:   travel_blog_upload
-    #     Signing mode:  Unsigned
-    #     Incoming transformation:  c_limit,w_2400,q_auto:good
+    #     General tab:
+    #       Preset name:   travel_blog_upload
+    #       Signing mode:  Signed
+    #       Generated public ID:  auto-generate (NOT "use the filename" —
+    #         two trips with an IMG_1234.jpg would collide and overwrite)
+    #     Transform tab:
+    #       Incoming transformation:  c_limit,w_2400,q_auto:good
     #
-    # Until that preset exists, leave this line commented out — pointing
-    # at a preset that isn't there will make uploads fail outright.
+    # Signed, not Unsigned, even though this is a browser upload: Decap talks
+    # to Cloudinary through the MEDIA LIBRARY widget, and Cloudinary only
+    # honours signed presets there. An unsigned preset is silently ignored —
+    # uploads still succeed, they just arrive full-size, which looks like the
+    # setting simply didn't work.
+    #
+    # If uploads ever start failing with a "preset not found" error, the
+    # preset was renamed or deleted — recreate it, or comment this back out.
     #
     # Worth being clear about what this does and doesn't fix: it reduces
     # STORED bytes, which is what protects the 25GB quota. It does NOT
@@ -78,7 +89,10 @@ media_library:
     # constraint. To genuinely speed uploads up, shrink photos on the
     # device before adding them.
     #
-    # upload_preset: travel_blog_upload
+    # Note this only affects photos uploaded from now on. Everything
+    # already stored at full size stays that way until it is either
+    # deleted or shrunk in place — see scripts/audit_cloudinary_orphans.py.
+    upload_preset: travel_blog_upload
 
     # ------------------------------------------------------------------
     # DELIVERY: what visitors actually download.
