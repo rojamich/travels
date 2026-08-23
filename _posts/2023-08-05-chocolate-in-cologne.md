@@ -14,6 +14,9 @@ header:
   overlay_focal_y: 0
 tags:
   - Germany
+  - Museums
+  - Food
+  - Dessert
 location:
   name: Cologne, Germany
   lat: 50.9375
