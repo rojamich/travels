@@ -24,10 +24,12 @@ COST -- READ THIS BEFORE A FULL RUN
     delivery bandwidth -- around 2.5GB, so another ~2.5 credits. Call it 9-10
     credits for the full job. That is a real dent in one month's quota, so:
 
-      - Run --limit 20 first and CHECK THE SITE (see VERIFY below).
-      - Run the bulk after the monthly window has room, in batches.
-      - Do not start a full run while already over the limit; Cloudinary
-        throttles transformations for accounts in overage.
+      - Run --limit 20 first and CHECK THE SITE (see below).
+      - Run the bulk in batches, so a problem costs one batch and not 7,000.
+
+    Being over the plan limit does not appear to block this: the first batch
+    ran clean at 100.5% of quota. An earlier draft of this file warned that
+    it would, which was a guess, and the guess was wrong.
 
     The storage saving is permanent and roughly 9GB, so it pays back within
     the first month and every month after.
