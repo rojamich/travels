@@ -2,6 +2,7 @@ tags:
   - name: Adventure
   - name: Africa
   - name: Architecture
+  - name: Art
   - name: Asia
   - name: Bathhouse
   - name: Bazaar
@@ -29,6 +30,7 @@ tags:
   - name: Delays
   - name: Dentistry
   - name: Dessert
+  - name: Dinosaurs
   - name: Diving
   - name: DMZ
   - name: Dogs
@@ -43,8 +45,11 @@ tags:
   - name: Fjords
   - name: Flights
   - name: Food
+  - name: Fort
   - name: France
   - name: Friends
+  - name: Fun
+  - name: Funicular
   - name: Garden
   - name: Germany
   - name: Glacier
@@ -52,6 +57,7 @@ tags:
   - name: Godzilla
   - name: GollumsPool
   - name: Greece
+  - name: Gym
   - name: Hiking
   - name: History
   - name: Hobbiton
@@ -83,6 +89,7 @@ tags:
   - name: Peru
   - name: PetSitting
   - name: Queenstown
+  - name: Rain
   - name: Rainforest
   - name: Reading
   - name: Redwoods
@@ -105,6 +112,7 @@ tags:
   - name: StatueofLiberty
   - name: StephenKing
   - name: Sunrise
+  - name: Sunset
   - name: Surfing
   - name: Swimming
   - name: Switzerland
@@ -121,17 +129,9 @@ tags:
   - name: VendingMachines
   - name: Vietnam
   - name: Views
+  - name: Wānaka
   - name: Waterfalls
   - name: Wildlife
   - name: Winter
   - name: Workout
-  - name: Wānaka
   - name: Zimbabwe
-  - name: Dinosaurs
-  - name: Art
-  - name: Gym
-  - name: Sunset
-  - name: Funicular
-  - name: Rain
-  - name: Fort
-  - name: Fun

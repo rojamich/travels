@@ -1,0 +1,49 @@
+# =============================================================================
+# Sort tags
+# =============================================================================
+# The tag picker on a post is a relation widget, and it lists tags in the
+# order they appear in _data/tags.yml. New tags get appended to the bottom by
+# both the CMS and hand edits, so without this the list drifts out of order
+# and a recently added tag sits at the end instead of under its own letter.
+#
+# This job re-sorts the file whenever it changes on main, so nobody has to
+# remember to. It only reorders and de-duplicates; it refuses to write if any
+# tag name would change or disappear.
+# =============================================================================
+name: Sort tags
+
+on:
+  push:
+    branches: [main]
+    paths: ['_data/tags.yml']
+  # Lets you run it by hand from the Actions tab if you ever need to.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sort:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install pyyaml
+
+      - run: python scripts/sort_tags.py
+
+      - name: Commit the sorted list (only if it changed)
+        run: |
+          if git diff --quiet -- _data/tags.yml; then
+            echo "Tags were already in order — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/tags.yml
+          git commit -m "Editor: sort the tag list alphabetically"
+          git push
