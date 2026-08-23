@@ -28,9 +28,9 @@ lng: -19.02
 # Keep lowercase + dashes. Use for region (europe, asia), style (road-trip,
 # beach), or theme (food, hiking, family).
 tags:
-  - europe
-  - road-trip
-  - nature
+  - Europe
+  - Roadtrip
+  - Nature
 
 # `permalink` is set automatically by the trips collection config in
 # _config.yml — this file lives at /iceland-2024/.

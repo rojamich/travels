@@ -11,7 +11,6 @@ header:
 tags:
   - Beach
   - Cityscapes
-  - ""
 location:
   name: Newport, Oregon
   lat: 44.6368

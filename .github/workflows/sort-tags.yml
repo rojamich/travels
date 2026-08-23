@@ -9,6 +9,11 @@
 # This job re-sorts the file whenever it changes on main, so nobody has to
 # remember to. It only reorders and de-duplicates; it refuses to write if any
 # tag name would change or disappear.
+#
+# It then copies the list into the tag pickers in admin/config.yml. Those are
+# select widgets rather than relation widgets, so their options have to be
+# written into the config -- which is the whole point, since a widget with
+# nothing to fetch cannot lose what you typed while it fetches.
 # =============================================================================
 name: Sort tags
 
@@ -36,14 +41,16 @@ jobs:
 
       - run: python scripts/sort_tags.py
 
+      - run: python scripts/sync_tag_options.py
+
       - name: Commit the sorted list (only if it changed)
         run: |
-          if git diff --quiet -- _data/tags.yml; then
-            echo "Tags were already in order — nothing to commit."
+          if git diff --quiet -- _data/tags.yml admin/config.yml; then
+            echo "Tags were already in order and the pickers matched — nothing to commit."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add _data/tags.yml
-          git commit -m "Editor: sort the tag list alphabetically"
+          git add _data/tags.yml admin/config.yml
+          git commit -m "Editor: sort the tag list and refresh the tag pickers"
           git push

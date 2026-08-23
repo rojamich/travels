@@ -17,7 +17,6 @@ tags:
   - Hobbits
   - Hobbiton
   - LOTR
-  - ""
 location:
   name: Hobbiton, New Zealand
   lat: -37.8721

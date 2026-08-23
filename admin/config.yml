@@ -121,10 +121,15 @@ collections:
   # -------------------------------------------------------------------------
   # Tags — deliberately its own collection, not a file inside Site Settings
   # -------------------------------------------------------------------------
-  # A relation widget loads the entire collection its target sits in. While
-  # this lived in site-config, picking a tag meant fetching all nine of those
-  # files through Git Gateway — nine GitHub round-trips for a 6KB list, which
-  # is why the tag box took so long to become usable. Alone, it is one fetch.
+  # Historically this mattered for speed: a relation widget loads the entire
+  # collection its target sits in, so while the tag list lived inside
+  # site-config, picking a tag meant fetching all nine of those files through
+  # Git Gateway. Splitting it out cut that to one fetch.
+  #
+  # The tag FIELDS no longer fetch anything — they are selects whose options
+  # are generated into this file (see scripts/sync_tag_options.py), because
+  # even one fetch was slow enough to lose the first thing you typed. This
+  # collection remains as the place the master list is edited.
   - name: "tags"
     label: "Tags"
     description: "The master list of tags. Everything a trip or post can be tagged with."
@@ -708,20 +713,159 @@ collections:
 
       - label: "Tags"
         name: "tags"
-        widget: "relation"
-        collection: "tags"
-        file: "tags"
-        search_fields: ["tags.*.name"]
-        value_field: "tags.*.name"
-        display_fields: ["tags.*.name"]
+        # A select, not a relation. A relation widget fetches its options when
+        # the field is focused, so typing before that fetch lands filters an
+        # empty list and the arriving response wipes the query — "type Baz,
+        # the list blanks, reloads, comes back at A". Options that ship inside
+        # this file have nothing to fetch and so nothing to race.
+        widget: "select"
         multiple: true
         required: false
         default: []
-        # Decap shows `options_length` suggestions and defaults to 20. With 128
-        # tags that hides most of the list, which reads as "it won't show me all
-        # the tags". High enough here that everything is reachable by scrolling
-        # as well as by typing.
-        options_length: 200
+        # Generated from _data/tags.yml by scripts/sync_tag_options.py. Do not
+        # edit by hand: add tags in the CMS under Tags, and the workflow
+        # rewrites this block on the next publish.
+        options:
+          # --- BEGIN generated tag options (scripts/sync_tag_options.py) ---
+          - Adventure
+          - Africa
+          - Architecture
+          - Art
+          - Asia
+          - Bathhouse
+          - Bazaar
+          - Beach
+          - Belgium
+          - Birds
+          - Books
+          - Botswana
+          - Bridges
+          - Bucketlist
+          - BungeeJumping
+          - Campervan
+          - Carving
+          - Castles
+          - CentralAmerica
+          - CentralPark
+          - Christmas
+          - City
+          - Cityscapes
+          - Coffee
+          - Croatia
+          - Cruise
+          - Dancing
+          - DayTrip
+          - Delays
+          - Dentistry
+          - Dessert
+          - Dinosaurs
+          - Diving
+          - DMZ
+          - Dogs
+          - DogSledding
+          - England
+          - Entertainment
+          - EscapeRooms
+          - Europe
+          - Ferry
+          - Fireplace
+          - Fishing
+          - Fjords
+          - Flights
+          - Food
+          - Fort
+          - France
+          - Friends
+          - Fun
+          - Funicular
+          - Garden
+          - Germany
+          - Glacier
+          - GlowwormCaves
+          - Godzilla
+          - Golden Circle
+          - GollumsPool
+          - Greece
+          - Gym
+          - Hiking
+          - History
+          - Hobbiton
+          - Hobbits
+          - IceCream
+          - Iceland
+          - Island
+          - Italy
+          - Japan
+          - Jewelry-Making
+          - Kayaking
+          - Lake
+          - Landmarks
+          - Libraries
+          - London
+          - LOTR
+          - MotorcycleTrip
+          - Mountains
+          - Movies
+          - MtDoom
+          - Museums
+          - Nature
+          - New York
+          - North Island
+          - NorthernLights
+          - NYC
+          - Ocean
+          - Oceania
+          - Paris
+          - Peru
+          - PetSitting
+          - Queenstown
+          - Rain
+          - Rainforest
+          - Reading
+          - Redwoods
+          - River
+          - Roadtrip
+          - RobbenIsland
+          - RockClimbing
+          - Running
+          - Safari
+          - Sight-Seeing
+          - SnowMobiling
+          - Snowshoeing
+          - Sound
+          - South Africa
+          - South Island
+          - South Korea
+          - SouthAmerica
+          - Spa
+          - Stairs
+          - StatueofLiberty
+          - StephenKing
+          - Sunrise
+          - Sunset
+          - Surfing
+          - Swimming
+          - Switzerland
+          - Taiwan
+          - Tattoo
+          - TeKoha
+          - The Netherlands
+          - Tours
+          - Towers
+          - Trains
+          - Transportation
+          - TravelDay
+          - USA
+          - VendingMachines
+          - Vietnam
+          - Views
+          - Wānaka
+          - Waterfalls
+          - Wildlife
+          - Winter
+          - Workout
+          - Zimbabwe
+          # --- END generated tag options ---
         hint: "Click the box to browse all tags, or type to narrow. To add one that isn't there: Site Settings -> Tags (the master list)."
 
       - { label: "New tag(s) \u2014 not on the list yet",
@@ -918,16 +1062,154 @@ collections:
 
       - label: "Tags"
         name: "tags"
-        widget: "relation"
-        collection: "tags"
-        file: "tags"
-        search_fields: ["tags.*.name"]
-        value_field: "tags.*.name"
-        display_fields: ["tags.*.name"]
+        # See the Tags field on the trips collection for why this is a select
+        # rather than a relation.
+        widget: "select"
         multiple: true
         required: false
         default: []
-        options_length: 200
+        # Generated from _data/tags.yml by scripts/sync_tag_options.py.
+        options:
+          # --- BEGIN generated tag options (scripts/sync_tag_options.py) ---
+          - Adventure
+          - Africa
+          - Architecture
+          - Art
+          - Asia
+          - Bathhouse
+          - Bazaar
+          - Beach
+          - Belgium
+          - Birds
+          - Books
+          - Botswana
+          - Bridges
+          - Bucketlist
+          - BungeeJumping
+          - Campervan
+          - Carving
+          - Castles
+          - CentralAmerica
+          - CentralPark
+          - Christmas
+          - City
+          - Cityscapes
+          - Coffee
+          - Croatia
+          - Cruise
+          - Dancing
+          - DayTrip
+          - Delays
+          - Dentistry
+          - Dessert
+          - Dinosaurs
+          - Diving
+          - DMZ
+          - Dogs
+          - DogSledding
+          - England
+          - Entertainment
+          - EscapeRooms
+          - Europe
+          - Ferry
+          - Fireplace
+          - Fishing
+          - Fjords
+          - Flights
+          - Food
+          - Fort
+          - France
+          - Friends
+          - Fun
+          - Funicular
+          - Garden
+          - Germany
+          - Glacier
+          - GlowwormCaves
+          - Godzilla
+          - Golden Circle
+          - GollumsPool
+          - Greece
+          - Gym
+          - Hiking
+          - History
+          - Hobbiton
+          - Hobbits
+          - IceCream
+          - Iceland
+          - Island
+          - Italy
+          - Japan
+          - Jewelry-Making
+          - Kayaking
+          - Lake
+          - Landmarks
+          - Libraries
+          - London
+          - LOTR
+          - MotorcycleTrip
+          - Mountains
+          - Movies
+          - MtDoom
+          - Museums
+          - Nature
+          - New York
+          - North Island
+          - NorthernLights
+          - NYC
+          - Ocean
+          - Oceania
+          - Paris
+          - Peru
+          - PetSitting
+          - Queenstown
+          - Rain
+          - Rainforest
+          - Reading
+          - Redwoods
+          - River
+          - Roadtrip
+          - RobbenIsland
+          - RockClimbing
+          - Running
+          - Safari
+          - Sight-Seeing
+          - SnowMobiling
+          - Snowshoeing
+          - Sound
+          - South Africa
+          - South Island
+          - South Korea
+          - SouthAmerica
+          - Spa
+          - Stairs
+          - StatueofLiberty
+          - StephenKing
+          - Sunrise
+          - Sunset
+          - Surfing
+          - Swimming
+          - Switzerland
+          - Taiwan
+          - Tattoo
+          - TeKoha
+          - The Netherlands
+          - Tours
+          - Towers
+          - Trains
+          - Transportation
+          - TravelDay
+          - USA
+          - VendingMachines
+          - Vietnam
+          - Views
+          - Wānaka
+          - Waterfalls
+          - Wildlife
+          - Winter
+          - Workout
+          - Zimbabwe
+          # --- END generated tag options ---
         hint: "Click the box to browse all tags, or type to narrow. Picking rather than typing is what stops 'Food' and 'food' becoming two filters. To add one that isn't there: Site Settings -> Tags (the master list)."
 
       - { label: "New tag(s) \u2014 not on the list yet",
