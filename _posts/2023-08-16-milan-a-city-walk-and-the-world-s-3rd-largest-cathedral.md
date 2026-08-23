@@ -1,13 +1,22 @@
 ---
 title: "Milan: A City Walk and the World's 3rd Largest Cathedral"
-date: 2023-08-16
+date: 2023-08-07
 categories:
   - european-exploration
-order: 32
+order: 23
+header:
+  overlay_filter: 0.6
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785689188/blogger-import/bde24a0762f8e5535eaa.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785689207/blogger-import/8182f6d87e8e2932f050.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 55
 tags:
   - Italy
+  - Food
 location:
-  name: "Milan, Italy"
+  name: Milan, Italy
   lat: 45.4642
   lng: 9.19
 ---
