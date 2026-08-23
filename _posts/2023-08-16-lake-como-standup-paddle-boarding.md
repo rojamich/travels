@@ -1,29 +1,36 @@
 ---
-title: "Lake Como Standup Paddle boarding"
-date: 2023-08-16
+title: Lake Como Standup Paddle boarding
+date: 2023-08-11
 categories:
   - european-exploration
-order: 32.4
+order: 27
+header:
+  overlay_filter: 0
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785688670/blogger-import/f5078ccc7ba806cd3133.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785733742/blogger-import/e5ed0312e1867698c674.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 65
 tags:
   - Italy
+  - Dessert
+  - Food
+  - Views
+  - Ferry
+  - Trains
 location:
-  name: "Lake Como, Italy"
+  name: Lake Como, Italy
   lat: 45.9594
   lng: 9.2895
 ---
-
 Disclaimer: I love paddleboarding. It's fun, it's a good workout, and I usually do it in some beautiful places. Mike does not like paddleboarding, he prefers kayaking. I tried to talk him into kayaking while I paddleboarded but he wanted to try paddleboarding with me. It was nothing short of entertaining!
 
 [![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785688553/blogger-import/283425cdcc4afc4c9039.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785688562/blogger-import/34a9d15e9efc960e7b1f.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785688569/blogger-import/f7cd24a2ef1134fcc4dc.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785688579/blogger-import/9d679e3f326fd233ce94.jpg)
 
 Our paddleboard trip was in the city of Vassena so Mike mapped out our route for the day and we set off. We caught the first ferry of the day (nearly empty) from Lierna to Vassena with one quick stop between. This landed us in Vassena an hour earlier than our appointment time for our paddleboarding but we thought, what the heck, let's see if we can go early.
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785688586/blogger-import/130ff649a15aaf538a3d.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785688596/blogger-import/b4e7c88777318c56c727.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785688605/blogger-import/f28fcd5b0d4e32c6e5c5.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785688614/blogger-import/938e3ee9ecad802fe645.jpg)
-
-  
-
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785688623/blogger-import/9195426df85aa64abef6.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785688632/blogger-import/74e074397286a5e048f9.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785688596%2Fblogger-import%2Fb4e7c88777318c56c727.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785688605%2Fblogger-import%2Ff28fcd5b0d4e32c6e5c5.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785688623%2Fblogger-import%2F9195426df85aa64abef6.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 It was a quiet morning in Vassena and the company had no problems letting us go early. They had a dry bag for us, water, and a place to store our backpacks and sandals. We even had our GoPro! The experience was so relaxing and beautiful.
 
@@ -63,7 +70,7 @@ And as always, the view is worth the hike.
 
 Mike had one last surprise this summer and led me to it. His sister, Julia got me to try a virgin Strawberry daiquiri on the cruise and it was delicious. Unfortunately, Italy is not totally familiar with this drink and I hadn't found one since. We approached this insanely fancy hotel on the coast and walked up to the entrance that had a man in hotel uniform checking those attempting to enter. Mike explained we were just there to partake in the bar. He seemed confused but we were allowed in. In true Michael and Jenna fashion, we felt terribly underdressed. 
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785733589/blogger-import/f0f948b0e573527b8da6.png).jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785733602/blogger-import/85d4c8480b97a91570ee.png).jpg)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787482011/blogger-import/f0f948b0e573527b8da6.png)
 
 Mike searched the internet for daiquiris in Lake Como and surprised me with this dazzling view of the coast and a delicious strawberry smoothie. No no, they don't use syrup. Only fresh ingredients. They also brought Mike a mojito and added chips, olives, and salted almonds! The salty chips really complimented the drinks. I needed to use the restroom and was allowed into the hotel to do so. A man in a hotel uniform led the way through a hotel that looked like it was modeled after the Beauty and the Beast castle. I think my mouth was open with awe. When I returned, I told Mike he should consider using the restroom lol. 
 
@@ -75,14 +82,11 @@ Our drinks drained and we were properly relaxed, we walked over to the ferry lin
 
 We had an easy ferry ride and walked the "Lover's Walk" for the last time. Gelato was, of course, a stop that had to be made. We took the last few photos we had missed on the first go-round and hiked uphill to our train. 
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785733694/blogger-import/5f16f188adcd183d0d99.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785733701/blogger-import/ad0d40ea2f8712911053.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785733708/blogger-import/b47515022fdb98849661.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785733717/blogger-import/e70e0d91d9bed9e219ad.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785733724/blogger-import/13355919f44a695cb490.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785733733/blogger-import/45f55cadd278beb8e64b.jpg)
-
-  
-
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785733694%2Fblogger-import%2F5f16f188adcd183d0d99.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785733708%2Fblogger-import%2Fb47515022fdb98849661.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785733724%2Fblogger-import%2F13355919f44a695cb490.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 Every train ride is just breathtaking.
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785733742/blogger-import/e5ed0312e1867698c674.jpg).jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785733751/blogger-import/a457ce73eaf87f1566dd.jpg).jpg)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785733742/blogger-import/e5ed0312e1867698c674.jpg)
 
 That night we ate pizza, sipped tea, and I had to sleep sitting up due to shortness of breath (swollen lymph nodes).
 
