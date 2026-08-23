@@ -87,6 +87,7 @@ tags:
   - name: NYC
   - name: Ocean
   - name: Oceania
+  - name: PaddleBoarding
   - name: Paris
   - name: Peru
   - name: PetSitting
@@ -101,6 +102,7 @@ tags:
   - name: RockClimbing
   - name: Running
   - name: Safari
+  - name: Scuba
   - name: Sight-Seeing
   - name: SnowMobiling
   - name: Snowshoeing
@@ -137,5 +139,3 @@ tags:
   - name: Winter
   - name: Workout
   - name: Zimbabwe
-  - name: Scuba
-  - name: PaddleBoarding
