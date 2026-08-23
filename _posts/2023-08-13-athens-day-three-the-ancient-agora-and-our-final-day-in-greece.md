@@ -7,7 +7,11 @@ order: 21
 header:
   overlay_filter: 0
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785686293/blogger-import/1621c48d53fe610423ba.jpg
-  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785686249/blogger-import/7a0c8fad5e7a6c6a92b3.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785686293/blogger-import/1621c48d53fe610423ba.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 17
+  overlay_focal_x: 50
+  overlay_focal_y: 63
 tags:
   - Greece
   - Museums
@@ -39,9 +43,7 @@ The agora was used for many events, shopping, business deals, performances, and 
 
 Our first stop was the Stoa of Attalos, an ancient shopping market. It is now a museum! Inside, we were able to see an ancient voting machine which is crazy to me! The pots were to time political speeches. When the last drop of water dripped from the bottom hole, you must end your speech. It was said to run 6 minutes. Lastly, there were the ancient coins!
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686192/blogger-import/d129060c0ae3a1b12a1a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686196/blogger-import/9e42f7c5da4834e19e96.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686209/blogger-import/384bfad7852855dcc19d.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686218/blogger-import/2fcdf530c9739094fe22.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686225/blogger-import/bc6b75d09f37fce4334e.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686234/blogger-import/ed2c5fe1720e24495174.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686249/blogger-import/7a0c8fad5e7a6c6a92b3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785686255/blogger-import/19f786e35962a706aa0e.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785686192%2Fblogger-import%2Fd129060c0ae3a1b12a1a.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2264%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785686209%2Fblogger-import%2F384bfad7852855dcc19d.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785686234%2Fblogger-import%2Fed2c5fe1720e24495174.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2218%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785686249%2Fblogger-import%2F7a0c8fad5e7a6c6a92b3.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 Here is Mike standing by one of the giant columns. You can see how the bottom portion of them is smooth, it's to encourage leaning on them!
 
