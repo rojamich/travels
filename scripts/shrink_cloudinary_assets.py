@@ -18,10 +18,11 @@ WHAT IT DOES
     The public_id never changes, so no URL in any post changes.
 
 COST -- READ THIS BEFORE A FULL RUN
-    Roughly one transformation per photo: ~7,900 transformations, about 7.9
-    credits of a 25-credit monthly allowance. Cloudinary also has to fetch
-    each resized copy from its own CDN, which may bill as bandwidth (a few
-    GB more). That is a real dent in one month's quota, so:
+    Roughly one transformation per photo: ~6,800 transformations, about 6.8
+    credits of a 25-credit monthly allowance. Each resized copy is also
+    downloaded through the CDN before being re-uploaded, which bills as
+    delivery bandwidth -- around 2.5GB, so another ~2.5 credits. Call it 9-10
+    credits for the full job. That is a real dent in one month's quota, so:
 
       - Run --limit 20 first and CHECK THE SITE (see VERIFY below).
       - Run the bulk after the monthly window has room, in batches.
@@ -70,10 +71,12 @@ USAGE
 
 import argparse
 import datetime as dt
+import io
 import json
 import os
 import sys
 import time
+import urllib.request
 
 AUDIT_DIR = ".audit"
 ASSET_CACHE = os.path.join(AUDIT_DIR, "cloudinary_assets.json")
@@ -144,6 +147,27 @@ def source_url(asset, width, quality):
         f"https://res.cloudinary.com/{CLOUD_NAME}/image/upload/"
         f"c_limit,w_{width},q_{quality}/v{asset['version']}/{asset['public_id']}.{fmt}"
     )
+
+
+def fetch_resized(url, attempts=3):
+    """Download the resized copy ourselves, and hand Cloudinary the bytes.
+
+    The upload API can fetch a remote URL directly, which would save a round
+    trip. Pointed at res.cloudinary.com it answers 420 for every asset --
+    it will not have its uploader pull from its own delivery domain. The very
+    same URLs return 200 to an ordinary client, so be an ordinary client.
+
+    Retries with backoff: one flaky download should not cost the batch.
+    """
+    request = urllib.request.Request(url, headers={"User-Agent": "travel-blog-shrink"})
+    for attempt in range(attempts):
+        try:
+            with urllib.request.urlopen(request, timeout=120) as response:
+                return response.read()
+        except Exception:  # noqa: BLE001 -- retry anything, re-raise at the end
+            if attempt == attempts - 1:
+                raise
+            time.sleep(2 ** attempt)
 
 
 def needs_shrinking(asset, width, min_bytes):
@@ -242,8 +266,16 @@ def main():
         public_id = asset["public_id"]
         before = asset.get("bytes", 0)
         try:
+            data = fetch_resized(source_url(asset, args.target_width, args.quality))
+            # Never make a file bigger. Re-encoding can inflate an already
+            # well-compressed photo, and overwriting it with a worse copy
+            # would spend a transformation to lose ground and quality.
+            if before and len(data) >= before:
+                progress["done"][public_id] = {"before": before, "after": before,
+                                               "skipped": "would not shrink"}
+                continue
             result = cloudinary.uploader.upload(
-                source_url(asset, args.target_width, args.quality),
+                io.BytesIO(data),
                 public_id=public_id,
                 overwrite=True,
                 invalidate=True,      # drop the old copy from the CDN edge
