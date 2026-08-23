@@ -1,17 +1,28 @@
 ---
-title: "London to Oregon"
-date: 2023-08-16
+title: London to Oregon
+date: 2023-08-13
 categories:
   - european-exploration
-order: 32.6
+order: 29
+header:
+  overlay_filter: 0
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785689119/blogger-import/096dd8eb607b47e8190f.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785689100/blogger-import/6b27c686a49fc5c0288b.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 57
+  overlay_focal_x: 50
+  overlay_focal_y: 63
 tags:
   - England
+  - Flights
+  - USA
+  - Food
+  - Coffee
 location:
-  name: "London, UK"
+  name: London, UK
   lat: 51.5074
   lng: -0.1278
 ---
-
 I woke up this morning bright-eyed and bushy-tailed. My throat still hurt but not as badly. I only had 6.5 hours of sleep but really wanted to get a workout in before the 9.5-hour flight. So I got my butt down to the actually nice gym (thanks Hilton!) And had myself a great workout and stretch session.  
 
 We packed up and divided what we would need first on the plane so we were all set. We headed down to the bus station to get to the airport. 
@@ -50,38 +61,23 @@ OH MY GOODNESS! It was insane in the Seattle airport! We rushed off the plane to
 
 There was a MASS of people! Lines of people so thick you couldn't see. Security officers were blocking the escalators to keep the downstairs from filling even more! So many people on our flight missed their connections thanks to this. 
 
- I searched the huge room and finally found a tiny flag labeled Global Entry. We had our faces scanned as there was no line here and promptly saw a security officer. He asked if we had souvenirs? I said...like salt shakers? He looked at me and said... over $800 lol. (I'm like well, say that the first time then lol) No. And boom. Through security. The non-global entry line was HOURS long. Oh my goodness, I'll never question getting that again! Saved us so much time! We were especially grateful because Mike had a migraine.
+I searched the huge room and finally found a tiny flag labeled Global Entry. We had our faces scanned as there was no line here and promptly saw a security officer. He asked if we had souvenirs? I said...like salt shakers? He looked at me and said... over $800 lol. (I'm like well, say that the first time then lol) No. And boom. Through security. The non-global entry line was HOURS long. Oh my goodness, I'll never question getting that again! Saved us so much time! We were especially grateful because Mike had a migraine.
 
 We found a food stop and got coffee afterward and waited for our flight from Seattle to PDX (only 50 minutes thankfully).
 
 [![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785689119/blogger-import/096dd8eb607b47e8190f.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785689122/blogger-import/ecf9010df78431b5d771.jpg)
 
-  
-
-
 My dad was sweet to come to pick us up from the airport. We had scheduled a bus that ran at around 1030 at night. This meant about 3.5 hours in Portland and then an Uber once we got to Corvallis. 
 
 After our experience coming from Portland (lord, it was so sketchy downtown) we were just wanting to get back. We had seen people openly using meth, crack, and riding bikes with syringes. Not to mention the violently mentally ill.
 
-  
-
-
 [![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785689126/blogger-import/9906d277c9066e49fe05.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785689130/blogger-import/f13829b497cf71ff5755.jpg)
-
-  
-
 
 I talked Dad's ear off all the way home and crashed for the evening. We were greeted by a 100-degree heat wave (how was it colder in every city in Europe?!) But we are happy to be home and gearing up for a great semester!
 
 Thank you everyone for reading along and being a part of our adventure! 
 
-  
-
-
 The total distance walked on this trip is 260.8 miles.
-
-  
-
 
 That's like walking from Los Angeles, CA to Las Vegas, NV! 
 
