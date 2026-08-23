@@ -5,10 +5,10 @@ categories:
   - european-exploration
 order: 20
 header:
-  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785686293/blogger-import/1621c48d53fe610423ba.jpg
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785686513/blogger-import/c7c25aabf95f64823b47.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785686559/blogger-import/8a45fe37caa74b5fe2ba.jpg
   teaser_focal_x: 50
-  teaser_focal_y: 59
+  teaser_focal_y: 61
   overlay_focal_x: 50
   overlay_focal_y: 39
   overlay_filter: 0
