@@ -228,7 +228,10 @@ def main():
 
     print("Scanning repo for Cloudinary references...")
     referenced = scan_repo(".")
-    print(f"  {len(referenced):,} distinct assets referenced on the site\n")
+    # referenced holds two spellings per asset (see public_id_from_path), so
+    # its raw length is about double the asset count. Collapse for reporting.
+    distinct = {MEDIA_EXT_RE.sub("", k) for k in referenced}
+    print(f"  {len(distinct):,} distinct assets referenced on the site\n")
 
     # The asset listing is ~17 API calls and changes slowly, while the repo
     # side changes every time the parser is corrected. Caching it makes
@@ -278,12 +281,17 @@ def main():
             continue
         orphans.append(asset)
 
-    missing = sorted(pid for pid in referenced if pid not in stored_ids)
+    # Only report an asset as missing when NO spelling of it is stored. A URL
+    # may legitimately request a different extension than the stored file --
+    # the app icon asks for .png from a stored .jpg, letting Cloudinary
+    # convert on delivery -- and that must not read as a broken image.
+    matched = {MEDIA_EXT_RE.sub("", k) for k in (referenced.keys() & stored_ids)}
+    missing = sorted(distinct - matched)
 
     # A parser that mangles public_ids produces two symptoms at once: a huge
     # "missing" list and an inflated "orphan" list. Missing is the honest
     # canary, because a real site rarely links thousands of dead images.
-    missing_ratio = len(missing) / max(len(referenced), 1)
+    missing_ratio = len(missing) / max(len(distinct), 1)
 
     orphan_bytes = sum(a.get("bytes", 0) for a in orphans)
     total_bytes = sum(a.get("bytes", 0) for a in stored)
