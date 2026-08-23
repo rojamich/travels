@@ -14,6 +14,8 @@ header:
   overlay_focal_y: 59
 tags:
   - Germany
+  - Funicular
+  - Rain
 location:
   name: Koblenz, Germany
   lat: 50.3569
