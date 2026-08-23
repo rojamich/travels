@@ -1,6 +1,6 @@
 ---
 title: A Spontaneous Trip to Switzerland!
-date: 2023-08-16
+date: 2023-08-09
 categories:
   - european-exploration
 order: 25
@@ -70,6 +70,10 @@ We found these oddly adorable statues and the cutest little guy with a hat!! My 
 We headed back up the hill to finish our day in Switzerland and decided to bus to another section of Lake Como - less than an hour bus ride. We found out the bus comes every 4 hours and only takes euros. We had an hour and a half before the next one so we trekked back down the hill and found a shady spot to lay and read and laugh about Shōgun. Now that we were both reading it.
 
 [![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785687550/blogger-import/e3665363d6fefa7b55d3.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785687558/blogger-import/6835978d2053bc60594e.jpg)
+
+We made time to get some photos together by the lake too!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787495577/20230809_120531_p1qrqv.jpg)
 
 After making it back up the hill, an express bus came by for our same route. It was about 40 euros more than ours and no stops- making it in half the time. We weighed the options and decided to stay with the 40-minute bus that was cheaper. Now we are glad we did! The roads are so narrow and our driver flew through them. Both of us get easily motion sick and were wearing motion-sick patches in anticipation for the ferry and still got nauseous! We can't imagine how bad it would've been if there were no stops! But the driver was excellent and seemed to be best friends with every driver on the road. Minus the motorcyclists who FLEW around cars and whipped around people with no regard for life or limb! We were glad we didn't rent motorcycles here.
 
