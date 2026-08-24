@@ -47,3 +47,7 @@ We entered through a stone archway and immediately walked to the first sight, Th
 Look how many languages the sign is translated into!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787593863/20260824_120150_prv0aw.jpg)
+
+The temple was really beautiful and well-kept! The grounds were beautiful as well.
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787594058%2F20260824_120509_psuk17.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787594056%2F20260824_120601_y7o2pa.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
