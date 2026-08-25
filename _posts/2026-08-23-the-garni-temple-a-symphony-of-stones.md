@@ -51,3 +51,45 @@ Look how many languages the sign is translated into!
 The temple was really beautiful and well-kept! The grounds were beautiful as well.
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787594058%2F20260824_120509_psuk17.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787594056%2F20260824_120601_y7o2pa.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+I personally think the outside was lovelier than the inside. 
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787635945%2F20260824_120647_tivsdz.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787635949%2F20260824_120701_wecvhl.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+This should give you an idea of what else used to be here!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787635988/20260824_120834_dso7pq.jpg)
+
+These lanterns led you around the walkway and they look similar to my tattoo!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787590220%2F20260824_121006_sumf6v.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787636028%2F20260824_120909_n4epnk.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We were disappointed to see others not following rules to help preserve the ruins.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787636088/20260824_121013_nppkbu.jpg)
+
+Writing that made me feel like this guy:
+
+[I Love Rules!!!](https://www.instagram.com/reel/DcPtAcrtwgO/?igsi=MWRmYXNoOWx2M29oaA==)
+
+The canyon below, was expansive and worth the sun exposure (its so hot 🥵🫠 - even though its 15 degrees cooler than Yerevan!)
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787636367%2F20260824_121123_dubxtn.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787636370%2F20260824_121510_ktjsip.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787636371%2F20260824_121119_ragkhu.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+On our way out we prepped the map for our next stop that was pretty close by!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787636455/20260824_122033_bjjvwr.jpg)
+
+The Symphony of Stones was absolutely worth the visit! We parked in the crowded parking lot and made the walk up down hills to see each unique rock formation!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787636766/20260824_123902_h4dpzz.jpg)
+
+At first, you look at this and think, wow this is really cool!
+
+Then you look at this photo:
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787636802/20260824_123905_ni2rul.jpg)
+
+And you're like holy sh¡t those are huge!!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787636802/20260824_123905_ni2rul.jpg)
