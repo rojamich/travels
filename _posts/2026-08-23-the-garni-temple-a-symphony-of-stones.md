@@ -19,8 +19,8 @@ tags:
 new_tags: []
 location:
   name: Garni, Yerevan
-  lat: 40.1776
-  lng: 44.5126
+  lat: 40.1194444
+  lng: 44.7230556
 transit: false
 toc: false
 ---
