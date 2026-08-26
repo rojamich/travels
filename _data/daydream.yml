@@ -1,9 +1,5 @@
 intro: Where we're hoping to wander next...
 upcoming:
-  - country: Armenia
-    why: More new foods than I can even list here, hiking, our first sleeper train,
-      monasteries, and staying in a hobbit hole!
-    when: August '26
   - country: Turkey
     why: Our first trip to Turkey and we can't wait to explore Istanbul - The Blue
       Mosque, Hagia Sophia, Turkish Baths and the home of the döner 😃
@@ -21,6 +17,10 @@ upcoming:
     why: Tapas, the Architecture, Historical Sites, Flamenco, and Kelli is coming to
       visit!!!
     when: November '26 - January '27
+  - cover_focal_x: 50
+    cover_focal_y: 50
+    country: Morocco
+    when: January '27 - February '27
 queue:
   - country: China
     why: The unreal landscapes, endless wonders, and amazing cities!
