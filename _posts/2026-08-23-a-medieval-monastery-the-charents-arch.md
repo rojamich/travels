@@ -83,7 +83,7 @@ There was such a cute bridge that went over a trickling stream, kitties, and blu
 
 I felt like a Disney princess!
 
-{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2ForN_b_-H0-c%22%7D %}
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FigN8dBvLM9E%22%7D %}
 
 It was a beautifully green drive to our last viewpoint:
 
