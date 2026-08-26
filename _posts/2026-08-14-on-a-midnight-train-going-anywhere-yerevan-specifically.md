@@ -18,9 +18,9 @@ tags:
   - Food
 new_tags: []
 location:
-  name: Sadakhlo, Armenia
-  lat: 40.173966
-  lng: 44.502747
+  name: Yerevan, Armenia
+  lat: 40.1772
+  lng: 44.50349
 transit: false
 toc: false
 ---
