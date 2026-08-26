@@ -120,6 +120,10 @@ People kept posing beneath the stones and there was a stack of them that had fal
 
 If you're curious, like I was, this was created by volcanic activity! There's a process called columnar jointing that happened here after an eruption in the Geghama Mountains that was compounded by the shrinking and contracting of the basalt and the river erosion due to the Azat River! Who knew!
 
+This video explains it far better than I can!
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FW-e7zJsSCI4%22%7D %}
+
 We turned around after we spotted the temple we had come from earlier!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787762326/20260824_125135_kxvmwo.jpg)
