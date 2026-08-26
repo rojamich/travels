@@ -9,8 +9,8 @@ cover_focal_y: 50
 start_date: 2026-08-15
 end_date: 2026-08-30
 location: Yerevan, Armenia
-lat: 40.173969
-lng: 44.50275
+lat: 40.1772
+lng: 44.50349
 collection_trip: false
 states: []
 tags:
