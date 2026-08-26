@@ -18,6 +18,10 @@ tags:
   - River
   - Dessert
 new_tags: []
+location:
+  lat: 40.1772
+  lng: 44.50349
+  name: Yerevan, Armenia
 transit: false
 toc: false
 ---
