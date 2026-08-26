@@ -25,7 +25,7 @@ location:
 transit: false
 toc: false
 ---
-It was an easy drive over to the Geghard medieval monastery which was partially carved into this mountainside 😲🤯
+It was an easy drive over to the Geghard medieval monastery which was partially carved into the mountainside 😲🤯
 
 The walk up the stone-laden path was filled with little shops with snacks and trinkets for sale 🍇🍈
 
