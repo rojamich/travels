@@ -80,7 +80,7 @@ On our way out we prepped the map for our next stop that was pretty close by!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787636455/20260824_122033_bjjvwr.jpg)
 
-The Symphony of Stones was absolutely worth the visit! We parked in the crowded parking lot and made the walk up down hills to see each unique rock formation!
+The Symphony of Stones was absolutely worth the visit! We parked in the crowded parking lot and made the walk up and down hills to see each unique rock formation!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787636766/20260824_123902_h4dpzz.jpg)
 
@@ -91,8 +91,6 @@ Then you look at this photo:
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787636802/20260824_123905_ni2rul.jpg)
 
 And you're like holy sh¡t those are huge!!
-
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787636802/20260824_123905_ni2rul.jpg)
 
 Here's another good angle to get an idea of how big these are!
 
@@ -121,6 +119,10 @@ These were my two favorite angles to see the formations:
 People kept posing beneath the stones and there was a stack of them that had fallen on the ground - so dangerous!!
 
 If you're curious, like I was, this was created by volcanic activity! There's a process called columnar jointing that happened here after an eruption in the Geghama Mountains that was compounded by the shrinking and contracting of the basalt and the river erosion due to the Azat River! Who knew!
+
+This video explains it far better than I can!
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FW-e7zJsSCI4%22%7D %}
 
 We turned around after we spotted the temple we had come from earlier!
 
