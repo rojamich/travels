@@ -109,10 +109,10 @@ We ordered muhamara, mutabel, lavash, and mante!
 
 It was ALL delicious! Here are our rankings and the descriptions of each food:
 
-1. Mante: meat dumpling soup
-2. Muhammara: dip made of walnuts, red bell peppers, pomegranate molasses, and breadcrumbs
-3. Lavash - flatbread, good but not as good as naan.
-4. Mutabel - tastes like garlic hummus!
+1. Mante: meat dumpling soup 🍲
+2. Muhammara: dip made of walnuts, red bell peppers, pomegranate molasses, and breadcrumbs 🥜
+3. Lavash - flatbread, good but not as good as naan. 🫓
+4. Mutabel - tastes like garlic hummus! 🧄
 
 There had to be some dessert and we both spotted a bakery on the way over that we were both waiting to mention to each other after eating 😂
 
