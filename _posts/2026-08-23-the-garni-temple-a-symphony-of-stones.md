@@ -92,8 +92,6 @@ Then you look at this photo:
 
 And you're like holy sh¡t those are huge!!
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787636802/20260824_123905_ni2rul.jpg)
-
 Here's another good angle to get an idea of how big these are!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%22100%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787759145%2F20260824_124426_o0jsaf.jpg%22%7D%2C%7B%22x%22%3A%220%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787759145%2F20260824_124424_nxcuhd.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
