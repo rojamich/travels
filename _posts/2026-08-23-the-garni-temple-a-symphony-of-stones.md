@@ -93,3 +93,53 @@ Then you look at this photo:
 And you're like holy sh¡t those are huge!!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787636802/20260824_123905_ni2rul.jpg)
+
+Here's another good angle to get an idea of how big these are!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787759145%2F20260824_124426_o0jsaf.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787759145%2F20260824_124424_nxcuhd.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+There was a beautiful river flowing through the canyon and we were so excited to finally see this amazing formation!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787759194%2F20260824_124010_mtjdyx.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787759195%2F20260824_124049_sgfgek.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Check out all the different coloring schemes in the stones 🪨
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787761326/20260824_124115_nj3f8u.jpg)
+
+Suddenly, we saw birds flitting out of the stones! You can see how the swallows built their nests right up against the walls!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787761437/20260824_124141_ijkmvs.jpg)
+
+There was even a cute little "train" you could take to get up and down the hill 🚂
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787761739/20260824_124332_iakntu.jpg)
+
+These were my two favorite angles to see the formations:
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787761915%2F20260824_124557_dfcb2d.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787761918%2F20260824_124819_vnux09.jpg%22%7D%5D%2C%22caption%22%3A%22The%20first%20reminds%20me%20of%20the%20cover%20of%20the%20Morning%20Star%20Red%20Rising%20novel%20cover.%20%22%7D %}
+
+People kept posing beneath the stones and there was a stack of them that had fallen on the ground - so dangerous!!
+
+If you're curious, like I was, this was created by volcanic activity! There's a process called columnar jointing that happened here after an eruption in the Geghama Mountains that was compounded by the shrinking and contracting of the basalt and the river erosion due to the Azat River! Who knew!
+
+We turned around after we spotted the temple we had come from earlier!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787762326/20260824_125135_kxvmwo.jpg)
+
+One more beautiful view of the river before we made it back to the car!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787762397/20260824_125541_qqj72l.jpg)
+
+On our way out, we prepared to pay for parking when 
+
+> the attendant said, "500֏". 
+>
+> I looked out my window at the sign that clearly read "200֏" and we said, "200֏".
+>
+> He shook his head and said, "500֏".
+>
+> So we pointed straight at the sign and he relented to "200֏". 
+>
+> Nice try, scammer!
+
+Onto the next site!
