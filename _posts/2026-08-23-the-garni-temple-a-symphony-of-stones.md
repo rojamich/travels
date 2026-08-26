@@ -80,7 +80,7 @@ On our way out we prepped the map for our next stop that was pretty close by!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787636455/20260824_122033_bjjvwr.jpg)
 
-The Symphony of Stones was absolutely worth the visit! We parked in the crowded parking lot and made the walk up down hills to see each unique rock formation!
+The Symphony of Stones was absolutely worth the visit! We parked in the crowded parking lot and made the walk up and down hills to see each unique rock formation!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787636766/20260824_123902_h4dpzz.jpg)
 
