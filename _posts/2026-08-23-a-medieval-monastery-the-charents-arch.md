@@ -25,7 +25,7 @@ location:
 transit: false
 toc: false
 ---
-It was an easy drive over to the Geghard medieval monastery which was partially carved into this mountainside 😲🤯
+It was an easy drive over to the Geghard medieval monastery which was partially carved into the mountainside 😲🤯
 
 The walk up the stone-laden path was filled with little shops with snacks and trinkets for sale 🍇🍈
 
@@ -55,7 +55,7 @@ It really set the ambiance well and immediately behind me was this huge beam of 
 
 Mike was stoked and quickly got in line to capture the light in his hands 😇
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2268%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787764204%2F20260824_133816_okpk8c.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787764206%2F20260824_133814_mf5nma.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787764208%2F20260824_133820_znogjw.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787764206%2F20260824_133814_mf5nma.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We followed the hallway into two adjacent rooms that featured these cool carvings with more impressive domes!
 
@@ -83,7 +83,7 @@ There was such a cute bridge that went over a trickling stream, kitties, and blu
 
 I felt like a Disney princess!
 
-{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2ForN_b_-H0-c%22%7D %}
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FigN8dBvLM9E%22%7D %}
 
 It was a beautifully green drive to our last viewpoint:
 
@@ -109,10 +109,10 @@ We ordered muhamara, mutabel, lavash, and mante!
 
 It was ALL delicious! Here are our rankings and the descriptions of each food:
 
-1. Mante: meat dumpling soup
-2. Muhammara: dip made of walnuts, red bell peppers, pomegranate molasses, and breadcrumbs
-3. Lavash - flatbread, good but not as good as naan.
-4. Mutabel - tastes like garlic hummus!
+1. Mante: meat dumpling soup 🍲
+2. Muhammara: dip made of walnuts, red bell peppers, pomegranate molasses, and breadcrumbs 🥜
+3. Lavash - flatbread, good but not as good as naan. 🫓
+4. Mutabel - tastes like garlic hummus! 🧄
 
 There had to be some dessert and we both spotted a bakery on the way over that we were both waiting to mention to each other after eating 😂
 
