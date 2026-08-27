@@ -31,9 +31,11 @@ STORAGE
     with an incoming transformation capping it there, the same way the original
     migration capped at 2400. Overwriting the same public_id replaces the file
     rather than adding one; the thumbnails are ~23 KB each and their
-    replacements average ~475 KB as fetched, so the full 233 pull down roughly
-    110 MB. What actually gets STORED is less: the incoming transformation
-    re-encodes at quality auto:good on the way in. Run the plan first — it
+    replacements average ~450 KB as fetched. A full plan run on 2026-08-27
+    measured 104 MB across all 233, and every one of them came back bigger from
+    Blogger — none of that set needs a manual re-upload. What actually gets
+    STORED is less: the incoming transformation re-encodes at quality auto:good
+    on the way in. Run the plan first — it
     prints the total before anything is uploaded — and check the headroom on
     the Cloudinary dashboard, because this account has little.
 
