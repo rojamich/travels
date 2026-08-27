@@ -1,8 +1,9 @@
 /* =============================================================================
    maps.js — world map (with trip pins + expandable routes) and trip mini-maps
    =============================================================================
-   Uses Leaflet (loaded from CDN by the page) and OpenStreetMap tiles.
-   No API key required.
+   Uses Leaflet, loaded by _includes/map-libs.html, which also passes in the
+   basemap settings from _config.yml (`map:` block). See PROVIDERS below for
+   which tile services are available and which of them need a key.
 
    PUBLIC API (called from page templates):
      TravelMap.initWorld("element-id", data)
@@ -22,14 +23,31 @@ window.TravelMap = (function () {
   "use strict";
 
   // ---------------------------------------------------------------------------
-  // Shared style constants — tuned to the coastal palette.
+  // Shared style constants — read from the site's palette.
   // ---------------------------------------------------------------------------
+  // These are the CSS custom properties main.scss publishes from
+  // _data/palette.yml. They used to be a second copy of the hex values here,
+  // which is how a colour changes everywhere except the map.
+  //
+  // The fallbacks are the same colours again, and exist only for the case
+  // where the stylesheet hasn't loaded — a pin drawn in roughly the right
+  // navy beats a pin drawn in browser-default black.
+  function paletteColor(prop, fallback) {
+    try {
+      var v = getComputedStyle(document.documentElement).getPropertyValue(prop);
+      v = (v || "").trim();
+      return v || fallback;
+    } catch (e) {
+      return fallback;
+    }
+  }
+
   var COLORS = {
-    navy:     "#1F4858",
-    navyMid:  "#2C5876",
-    seaglass: "#7FB3A2",
-    sand:     "#E8DCC4",
-    repeat:   "#C1783C"   // places visited on more than one trip
+    navy:     paletteColor("--navy-deep", "#1F4858"),
+    navyMid:  paletteColor("--navy-mid",  "#2C5876"),
+    seaglass: paletteColor("--seaglass",  "#7FB3A2"),
+    sand:     paletteColor("--sand-warm", "#E8DCC4"),
+    repeat:   paletteColor("--map-repeat", "#C1783C")  // visited on more than one trip
   };
 
   // Custom pin icons. We use Leaflet's divIcon with inline SVG so we don't
@@ -78,25 +96,92 @@ window.TravelMap = (function () {
   // ---------------------------------------------------------------------------
   // Helpers
   // ---------------------------------------------------------------------------
-  function tileLayer() {
-    // CARTO Voyager instead of standard OpenStreetMap tiles.
-    //
-    // OSM's default style renders every label in the local language and
-    // script, so Georgia showed up as თბილისი, Japan as 東京 and so on —
-    // unreadable unless you read the script. CARTO builds from the same OSM
-    // data but prefers the English name where one exists, which keeps the
-    // map legible worldwide.
-    //
-    // Still free and key-free. Attribution covers both OSM (the data) and
-    // CARTO (the rendering), as their terms require.
-    return L.tileLayer(
-      "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
+  // Basemap providers.
+  //
+  // The tiles under our pins come from somebody else's server, and that is
+  // the piece that changes without asking: CARTO served these key-free for
+  // years, then in 2026 began stamping "API KEY REQUIRED" across every tile
+  // of an unkeyed request. So the choice is a setting in _config.yml (`map:`)
+  // rather than a URL buried here, and switching is one line there.
+  //
+  // Whichever one is picked has to label places in English. OSM's own style
+  // renders every label in the local script — Georgia as თბილისი, Japan as
+  // 東京 — which is unreadable unless you read the script, and is the reason
+  // the plain OSM tiles are the last resort rather than the default.
+  var PROVIDERS = {
+    // Esri World Street Map. No key, no signup, English labels worldwide,
+    // and close enough to CARTO Voyager in feel that the maps look the same
+    // as they always have.
+    esri: {
+      url: "https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+      options: {
+        maxZoom: 19,
+        attribution:
+          'Tiles &copy; <a href="https://www.esri.com/">Esri</a> — Esri, HERE, Garmin, ' +
+          'USGS, Intermap, INCREMENT P, NRCan, Esri Japan, METI, Esri China (Hong Kong), ' +
+          '&copy; OpenStreetMap contributors, and the GIS User Community'
+      }
+    },
+
+    // CARTO Voyager. Needs a free key (carto.com/basemaps/apikey) — without
+    // one the tiles arrive watermarked rather than blocked, which is easy to
+    // miss on a small mini-map and impossible to miss on /map/.
+    carto: {
+      needsKey: true,
+      url: "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+      options: {
+        subdomains: "abcd",
+        maxZoom: 20,
         attribution:
           '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> ' +
-          '&copy; <a href="https://carto.com/attributions">CARTO</a>',
-        subdomains: "abcd",
-        maxZoom: 20
-      });
+          '&copy; <a href="https://carto.com/attributions">CARTO</a>'
+      }
+    },
+
+    // Plain OpenStreetMap. Free and dependable, but local-script labels.
+    osm: {
+      url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+      options: {
+        maxZoom: 19,
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }
+    }
+  };
+
+  var DEFAULT_PROVIDER = "esri";
+
+  function tileLayer() {
+    // _includes/map-libs.html puts this on the page from _config.yml. If it
+    // is missing — the include left out of a new page, say — fall back to the
+    // default rather than drawing a blank grey rectangle.
+    var cfg  = window.TRAVEL_MAP_CONFIG || {};
+    var name = cfg.provider || DEFAULT_PROVIDER;
+    var key  = cfg.cartoKey || "";
+
+    if (!PROVIDERS[name]) {
+      console.warn("TravelMap: unknown map provider '" + name +
+                   "' in _config.yml — using " + DEFAULT_PROVIDER + ".");
+      name = DEFAULT_PROVIDER;
+    }
+
+    // Asked for a keyed provider with no key. Watermarked tiles would still
+    // draw, so nothing would look broken from here — better to quietly use a
+    // provider that works and say why in the console.
+    if (PROVIDERS[name].needsKey && !key) {
+      console.warn("TravelMap: map.provider is '" + name + "' but map.carto_key " +
+                   "is blank in _config.yml, which serves watermarked tiles — " +
+                   "using " + DEFAULT_PROVIDER + " instead.");
+      name = DEFAULT_PROVIDER;
+      key  = "";
+    }
+
+    var provider = PROVIDERS[name];
+    var url      = provider.url;
+    if (provider.needsKey && key) {
+      url += "?key=" + encodeURIComponent(key);
+    }
+    return L.tileLayer(url, provider.options);
   }
 
   function tripPopupHtml(trip) {
@@ -313,7 +398,7 @@ window.TravelMap = (function () {
         div.innerHTML =
           '<a href="#" role="button" title="Back to world view" ' +
               'style="padding:0 0.6em; background:#fff; line-height:30px; ' +
-              'display:inline-block; font-size:0.85em; color:#1F4858;">' +
+              'display:inline-block; font-size:0.85em; color:' + COLORS.navy + ';">' +
               '&#x21ba; World view</a>';
         L.DomEvent.disableClickPropagation(div);
         L.DomEvent.on(div, "click", function (e) {
