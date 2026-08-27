@@ -14,6 +14,9 @@ header:
   overlay_focal_y: 32
 tags:
   - Croatia
+  - Scuba
+  - Food
+  - Ocean
 location:
   name: Split, Croatia
   lat: 43.5081
