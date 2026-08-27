@@ -19,6 +19,7 @@ tags:
   - Views
   - Ferry
   - Trains
+  - PaddleBoarding
 location:
   name: Lake Como, Italy
   lat: 45.9594
