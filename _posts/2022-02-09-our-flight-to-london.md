@@ -1,13 +1,25 @@
 ---
-title: "Our flight to London"
+title: Our flight to London
 date: 2022-02-06
 categories:
   - european-excursion
 order: 1.1
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785669883/blogger-import/c2b054fb0ef572785180.jpg
+  overlay_filter: 0
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787511709/blogger-import/18ff98ae99f829c741fc.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 43
+  overlay_focal_x: 50
+  overlay_focal_y: 26
 tags:
   - London
+  - Food
+  - Flights
+  - Europe
+  - England
 location:
-  name: "London, UK"
+  name: London, UK
   lat: 51.5074
   lng: -0.1278
 ---
