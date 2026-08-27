@@ -1,13 +1,24 @@
 ---
-title: "Sherlock Holmes, the Daunt Bookstore, and the Best Food You'll Find Anywhere!"
-date: 2022-02-07
+title: Sherlock Holmes, the Daunt Bookstore, and the Best Food You'll Find Anywhere!
+date: 2022-02-08
 categories:
   - european-excursion
 order: 2.1
+header:
+  overlay_filter: 0
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787502380/blogger-import/153b21af36d0b842999d.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785669907/blogger-import/e4627749f002741cf7d1.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 45
+  overlay_focal_x: 50
+  overlay_focal_y: 0
 tags:
   - London
+  - Books
+  - Food
+  - EscapeRooms
 location:
-  name: "London, UK"
+  name: London, UK
   lat: 51.5224
   lng: -0.1556
 ---
