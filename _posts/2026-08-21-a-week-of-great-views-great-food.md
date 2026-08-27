@@ -18,6 +18,7 @@ tags:
   - Architecture
   - City
   - Cityscapes
+  - Art
 new_tags: []
 transit: false
 toc: false
