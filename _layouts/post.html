@@ -15,7 +15,12 @@ layout: single
   background-position via a scoped style block so she can drag-position
   the banner from the 🎯 Position Photo tool in /admin/.
 {%- endcomment -%}
-{%- if page.header.overlay_image and (page.header.overlay_focal_x or page.header.overlay_focal_y) -%}
+{%- comment -%}
+  No parentheses: Liquid has no such thing, and every build logged a warning
+  about this line. It reads the same without them — Liquid evaluates `and`/`or`
+  right to left, so `A and B or C` already means "A and (B or C)".
+{%- endcomment -%}
+{%- if page.header.overlay_image and page.header.overlay_focal_x or page.header.overlay_focal_y -%}
 <style>
   .page__hero--overlay {
     background-position: {{ page.header.overlay_focal_x | default: 50 }}% {{ page.header.overlay_focal_y | default: 50 }}% !important;

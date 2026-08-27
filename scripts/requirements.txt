@@ -3,3 +3,7 @@
 
 html2text>=2024.2.26
 cloudinary>=1.40.0
+
+# check_liquid_templates.py — renders the fragile templates before a push,
+# so an empty trip can't take the whole build down again.
+python-liquid>=2.0

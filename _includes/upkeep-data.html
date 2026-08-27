@@ -139,7 +139,17 @@ The bar on every page still says <strong>{{ here }}</strong>{% if site.data.stat
 {%- endcomment -%}
 {%- assign no_loc_items = "" | split: "," -%}
 {%- for trip in site.trips -%}
-  {%- assign trip_posts = site.categories[trip.slug] | sort: "order" -%}
+  {%- comment -%}
+    A trip with no posts yet — one just created in the editor — has no entry in
+    site.categories at all, and Jekyll's `sort` raises on nil rather than
+    returning nothing. That took the whole build down the first time a new trip
+    was added, which is the same guard trip-map.html and _layouts/trip.html
+    already use for the same reason.
+  {%- endcomment -%}
+  {%- assign trip_posts = "" | split: "" -%}
+  {%- if site.categories[trip.slug] -%}
+    {%- assign trip_posts = site.categories[trip.slug] | sort: "order" -%}
+  {%- endif -%}
   {%- assign missing_here = "" | split: "," -%}
   {%- for post in trip_posts -%}
     {%- unless post.location.lat -%}
