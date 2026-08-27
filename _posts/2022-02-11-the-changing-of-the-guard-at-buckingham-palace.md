@@ -1,13 +1,23 @@
 ---
-title: "The Changing of the Guard at Buckingham Palace"
-date: 2022-02-08
+title: The Changing of the Guard at Buckingham Palace
+date: 2022-02-09
 categories:
   - european-excursion
-order: 3.1
+order: 4
+header:
+  overlay_filter: 0
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785670506/blogger-import/4fc6cb89e2b5eb5d90a4.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787511202/blogger-import/baba70fd45c242974745.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 64
 tags:
   - London
+  - Sight-Seeing
+  - Trains
 location:
-  name: "Buckingham Palace, London"
+  name: Buckingham Palace, London
   lat: 51.5014
   lng: -0.1419
 ---
