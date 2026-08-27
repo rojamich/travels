@@ -25,6 +25,13 @@ Thumbs.db
 !.vscode/settings.json
 .idea/
 
+# Credentials. The scripts read CLOUDINARY_URL (api key AND secret) from the
+# environment, and the easiest way to set that is a .env file — which must
+# never be committed. Nothing here today, and this is what keeps it that way.
+.env
+.env.*
+!.env.example
+
 # Python tooling for the import scripts
 scripts/__pycache__/
 scripts/*.pyc

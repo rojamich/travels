@@ -17,8 +17,21 @@ import { getStore } from "@netlify/blobs";
 
 export default async (req) => {
   const url = new URL(req.url);
+  // A slug names one of our own posts. Anything else is somebody poking at
+  // the endpoint: every POST creates a blob under whatever key it is given,
+  // so without a bound on shape and length the store fills with junk that
+  // nothing on the site will ever read. The dashboard only ever shows slugs
+  // that exist in the search index, so junk stays invisible — it still costs
+  // storage on an account whose free tier we are already close to.
+  //
+  // Jekyll permalinks here are /:categories/:title/, so a slug is lowercase
+  // words and dashes, sometimes with a slash. 120 characters is roughly twice
+  // the longest real one.
   const slug = url.searchParams.get("slug");
-  if (!slug || !/^[a-z0-9_\-\/.]+$/i.test(slug)) {
+  if (!slug ||
+      slug.length > 120 ||
+      slug.includes("..") ||
+      !/^[a-z0-9_\-\/.]+$/i.test(slug)) {
     return json({ error: "missing or invalid slug" }, 400);
   }
 
