@@ -1,5 +1,5 @@
 ---
-title: Second Breakfast in Dilijan — Unleashing Our Inner Hobbits
+title: Second Breakfast in Dilijan & Unleashing Our Inner Hobbits
 date: 2026-08-26
 categories:
   - between-mountains-monasteries-⛰️🏰
@@ -18,6 +18,10 @@ tags:
   - Lake
   - Food
   - Roadtrip
+  - Fun
+  - Hiking
+  - Books
+  - Nature
 new_tags: []
 location:
   name: Dilijan, Armenia
