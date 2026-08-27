@@ -19,6 +19,7 @@ tags:
   - Safari
   - Wildlife
   - Africa
+stay: day_trip
 location:
   name: Chobe National Park, Botswana
   lat: -17.8167

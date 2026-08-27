@@ -60,8 +60,37 @@ The bar on every page still says <strong>{{ here }}</strong>{% if site.data.stat
   {%- endif -%}
 {%- endfor -%}
 {%- if blank_records > 0 -%}
+  {%- assign blank_titles = "" | split: "," -%}
+  {%- for r in site.data.records.entries -%}
+    {%- assign v = r.value | default: "" -%}
+    {%- assign v = v | append: "" | strip -%}
+    {%- if r.title and r.title != "" and v == "" -%}
+      {%- assign blank_titles = blank_titles | push: r.title -%}
+    {%- endif -%}
+  {%- endfor -%}
   {%- capture row -%}
 <strong>{{ blank_records }}</strong> of {{ total_records }} personal bests still have no number, so they don't appear on /stats/ at all — the page only shows a record once it has both a title and a value. Fill one in or delete the row. <em>Editor → Site Settings → Leaderboard.</em>
+<span class="upkeep-where">{{ blank_titles | join: " · " }}</span>
+  {%- endcapture -%}
+  {%- assign upkeep = upkeep | push: row -%}
+{%- endif -%}
+
+{%- comment -%}
+  A day trip whose country the trip never declares. It claims no night by
+  design, and the Countries tile reads from the trip — so the visit lands
+  nowhere at all, while the post looks perfectly correct. nights.rb finds
+  these; naming the post and the trip is the whole point of saying it here.
+{%- endcomment -%}
+{%- if site.data.nights.stray_day_trips and site.data.nights.stray_day_trips.size > 0 -%}
+  {%- assign strays = site.data.nights.stray_day_trips -%}
+  {%- assign stray_items = "" | split: "," -%}
+  {%- for s in strays -%}
+    {%- capture item -%}<a href="{{ s.url | relative_url }}">{{ s.post }}</a> is a day trip to <strong>{{ s.country }}</strong>, but <strong>{{ s.trip }}</strong> doesn't list {{ s.country }}{%- endcapture -%}
+    {%- assign stray_items = stray_items | push: item -%}
+  {%- endfor -%}
+  {%- capture row -%}
+<strong>{{ strays.size }}</strong> day trip{% if strays.size != 1 %}s count{% else %} counts{% endif %} nowhere. A day trip doesn't take a night, on purpose — but the country only counts as visited if the trip itself lists it, so as things stand {% if strays.size == 1 %}this one is{% else %}these are{% endif %} invisible on /stats/. Add the country to the trip, or change the day to a Layover if it wasn't really a visit.
+<ul class="upkeep-where-list"><li>{{ stray_items | join: "</li><li>" }}</li></ul>
   {%- endcapture -%}
   {%- assign upkeep = upkeep | push: row -%}
 {%- endif -%}
@@ -103,14 +132,34 @@ The bar on every page still says <strong>{{ here }}</strong>{% if site.data.stat
   {%- assign upkeep = upkeep | push: row -%}
 {%- endif -%}
 
-{%- comment -%} Posts with no coordinates never appear on a map. {%- endcomment -%}
+{%- comment -%}
+  Posts with no coordinates never appear on a map. Listed by name and linked,
+  grouped under the trip they belong to, because "22 posts" tells you a number
+  and this tells you what to open.
+{%- endcomment -%}
+{%- assign no_loc_items = "" | split: "," -%}
+{%- for trip in site.trips -%}
+  {%- assign trip_posts = site.categories[trip.slug] | sort: "order" -%}
+  {%- assign missing_here = "" | split: "," -%}
+  {%- for post in trip_posts -%}
+    {%- unless post.location.lat -%}
+      {%- capture link -%}<a href="{{ post.url | relative_url }}">{{ post.title }}</a>{%- endcapture -%}
+      {%- assign missing_here = missing_here | push: link -%}
+    {%- endunless -%}
+  {%- endfor -%}
+  {%- if missing_here.size > 0 -%}
+    {%- capture item -%}<strong>{{ trip.title }}</strong> — {{ missing_here | join: ", " }}{%- endcapture -%}
+    {%- assign no_loc_items = no_loc_items | push: item -%}
+  {%- endif -%}
+{%- endfor -%}
 {%- assign no_location = 0 -%}
 {%- for post in site.posts -%}
   {%- unless post.location.lat -%}{%- assign no_location = no_location | plus: 1 -%}{%- endunless -%}
 {%- endfor -%}
 {%- if no_location > 0 -%}
   {%- capture row -%}
-<strong>{{ no_location }}</strong> of {{ site.posts | size }} posts have no location, so they don't appear on the trip route or the world map. Some of those are deliberate — a letter home doesn't need a pin — but this is where a forgotten one shows up.
+<strong>{{ no_location }}</strong> of {{ site.posts | size }} posts have no location, so they don't appear on the trip route or the world map. Some are deliberate — a letter home doesn't need a pin — but a forgotten one shows up here.
+{% if no_loc_items.size > 0 %}<ul class="upkeep-where-list"><li>{{ no_loc_items | join: "</li><li>" }}</li></ul>{% endif %}
   {%- endcapture -%}
   {%- assign upkeep = upkeep | push: row -%}
 {%- endif -%}

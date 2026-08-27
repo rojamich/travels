@@ -18,6 +18,7 @@ tags:
   - Trains
   - Dessert
   - Lake
+stay: day_trip
 location:
   name: Lugano, Switzerland
   lat: 46.0037

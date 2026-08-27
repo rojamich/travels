@@ -435,11 +435,16 @@ classes: wide
 </div>
 
 {%- comment -%}
-  Countries visited without ever sleeping there — day trips. Naming them
-  matters: the Countries tile says 26 and this list has 23, and without an
-  explanation that reads as two numbers disagreeing, which is the one thing
-  this site has repeatedly got wrong. They are both right; a day trip to
-  Botswana is a country visited and zero nights slept.
+  Countries visited without ever sleeping there — the days marked "Day trip"
+  in the editor. Naming them matters: the Countries tile counts more countries
+  than this list has, and without an explanation that reads as two numbers
+  disagreeing, which is the one thing this site has repeatedly got wrong. They
+  are both right; a day trip to Botswana is a country visited and zero nights
+  slept.
+
+  Derived, not stored: it is the visited countries minus the ones with nights.
+  So marking a day as a day trip moves a country into this sentence and out of
+  the bars above in the same build, and nothing has to be kept in step.
 {%- endcomment -%}
 {%- assign night_names = "" | split: "" -%}
 {%- for c in nights.countries -%}
@@ -454,11 +459,9 @@ classes: wide
 
 {% if day_only.size > 0 %}
 <p class="nights-daytrip">
-  <strong>{{ day_only | size }}</strong> more
+  <strong>{{ day_only | size }}</strong>
   countr{% if day_only.size == 1 %}y was{% else %}ies were{% endif %} visited
-  without staying the night — {{ day_only | join: ", " }}. That is why the
-  Countries tile counts {{ total_countries }} and this list has
-  {{ nights.countries | size }}.
+  without staying the night — {{ day_only | join: ", " }}.
 </p>
 {% endif %}
 

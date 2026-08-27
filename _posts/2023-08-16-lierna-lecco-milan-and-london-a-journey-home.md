@@ -18,7 +18,7 @@ tags:
   - Trains
   - Flights
   - Ferry
-layover: true
+stay: layover
 location:
   name: London, UK
   lat: 51.5074

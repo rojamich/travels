@@ -17,15 +17,37 @@
 # on the day you ARRIVE somewhere. Stay four nights and write one post, and
 # all four nights land in the right country.
 #
-# A post marked `transit: true` is ignored here — see below.
+# A post can say that no night belongs to it — see HOW A DAY COUNTS below.
 #
-# TRANSIT
-# `transit: true` on a post means "we were here, we did not sleep here": an
-# airport layover, an overnight flight that crossed a date line. The post
-# still appears on the map with its own pin; it simply doesn't claim the
-# night, which carries forward from wherever they last actually stayed.
-# Without it a nine-hour stop in Paris takes a night off the country they
-# woke up in and gives it to France.
+# HOW A DAY COUNTS
+# `stay:` on a post says what kind of day it was. Left off, it is an ordinary
+# one: they were there, they slept there, the night is credited to that
+# country. The two other kinds both withhold the night, which carries forward
+# from wherever they last actually stayed:
+#
+#   stay: day_trip   Went, saw it, slept somewhere else. A day trip to
+#                    Botswana from a camp in Namibia is a country visited and
+#                    zero nights slept. It counts as a visit.
+#
+#   stay: layover    Passed through. Nine hours in Paris between flights is
+#                    not a visit to France, and shouldn't add a night or a
+#                    country. The pin still shows on the map; nothing else
+#                    about the place is claimed.
+#
+# The difference between them is not about nights — neither claims one — it is
+# whether the place counts as visited. That is decided by the trip's own
+# `location:` and `countries:`, which is where the Countries tile reads from.
+# A day trip belongs in the trip's countries; a layover does not.
+# content_audit.rb checks the day-trip half of that, because a day trip the
+# trip never declares counts nowhere at all and looks fine while doing it.
+#
+# Both kinds land on /stats/ in the same sentence — "N countries were visited
+# without staying the night" — which is derived from the two lists rather than
+# stored, so it cannot disagree with either.
+#
+# `transit: true` and `layover: true` were the older spellings, before day
+# trips needed telling apart from passing through. Both are still read as
+# `stay: layover` so an old post keeps behaving the way it always has.
 #
 # ONE SOURCE
 # Country names are resolved exactly as everywhere else on the site: take the
@@ -44,6 +66,9 @@
 #   site.data.nights.total        nights placed
 #   site.data.nights.undeclared   nights credited to a country the trip does
 #                                 not list — see below
+#   site.data.nights.stray_day_trips
+#                                 day trips whose country the trip never
+#                                 declares, so the visit counts nowhere
 #
 # UNDECLARED COUNTRIES
 # A post can name a country the trip itself never declares: a layover in
@@ -88,6 +113,10 @@ module TravelBlog
       # Keyed by [trip title, country] so a fortnight in an undeclared country
       # is one finding rather than fourteen identical ones.
       @undeclared = Hash.new(0)
+      # Day trips whose country the trip never declares. Those count nowhere:
+      # no night, by design, and no entry in the Countries tile either, which
+      # reads from the trip. The post looks perfectly correct while doing it.
+      @stray_day_trips = []
 
       posts_by_trip = group_posts(site)
 
@@ -106,6 +135,7 @@ module TravelBlog
         "countries"  => sort_rows(by_country) { |name| { "continent" => @continents[name] } },
         "continents" => sort_rows(by_continent),
         "total"      => by_country.values.sum,
+        "stray_day_trips" => @stray_day_trips,
         "undeclared" => @undeclared.map { |(trip, country), n|
           { "trip" => trip, "country" => country, "nights" => n }
         }.sort_by { |r| -r["nights"] }
@@ -141,6 +171,22 @@ module TravelBlog
       @aliases[name]
     end
 
+    # What kind of day a post is claiming — :night, :day_trip or :layover.
+    # See HOW A DAY COUNTS at the top. Anything unrecognised is an ordinary
+    # night, because a typo in a flag should not silently delete a night.
+    def stay_kind(post)
+      case post.data["stay"].to_s.strip.downcase
+      when "day_trip", "day trip", "daytrip" then return :day_trip
+      when "layover" then return :layover
+      end
+
+      # Older spellings, still honoured.
+      return :layover if post.data["transit"] == true
+      return :layover if post.data["layover"] == true
+
+      :night
+    end
+
     def as_date(value)
       return nil if value.nil?
       return value.to_date if value.respond_to?(:to_date)
@@ -159,28 +205,39 @@ module TravelBlog
 
       # First post of each day wins; later posts that day don't move them.
       #
-      # Posts marked `transit: true` are skipped entirely. A nine-hour layover
-      # in Paris or an overnight flight through Taipei is a place you were,
-      # not a place you slept — without this the layover steals that night from
-      # wherever you actually woke up, and hands a country a night it never
-      # had. The pin still shows on the map; only the night is withheld.
-      by_date  = {}
-      # Countries a post has explicitly called a waypoint. Collected from the
-      # post that actually claims the day, so a `layover` flag on a post that
-      # loses the first-post-of-the-day tie doesn't quietly exempt a country.
-      layovers = []
+      # Days marked as a day trip or a layover are skipped entirely. A day in
+      # Chobe from a camp over the border, or nine hours in Paris between
+      # flights, is a place you were and not a place you slept — without this
+      # either one steals the night from wherever you actually woke up, and
+      # hands a country a night it never had. The pin still shows on the map;
+      # only the night is withheld.
+      by_date = {}
       Array(posts).each do |post|
-        next if post.data["transit"] == true
+        next unless stay_kind(post) == :night
         c = canon(post.data.dig("location", "name"))
         next unless c
         d = post.date.to_date
-        next if by_date.key?(d)
-        by_date[d] = c
-        layovers << c if post.data["layover"] == true
+        by_date[d] ||= c
       end
 
       fallback = canon(trip.data["location"])
       declared = declared_countries(trip)
+
+      # A day trip says "we went there" — so the trip has to say so too, or the
+      # visit lands nowhere. Checked here rather than in content_audit.rb so
+      # there is one implementation of what a country name resolves to.
+      Array(posts).each do |post|
+        next unless stay_kind(post) == :day_trip
+        c = canon(post.data.dig("location", "name"))
+        next unless c
+        next if declared.include?(c)
+        @stray_day_trips << {
+          "post"    => post.data["title"] || post.basename,
+          "url"     => post.url,
+          "trip"    => trip.data["title"] || trip_slug(trip),
+          "country" => c
+        }
+      end
 
       current = nil
       nights.times do |i|
@@ -190,8 +247,9 @@ module TravelBlog
         next unless country
         by_country[country] += 1
 
+        # Nothing to exempt here any more: a day that claims no night never
+        # reaches this line, so a layover cannot produce an undeclared country.
         next if declared.empty? || declared.include?(country)
-        next if layovers.include?(country)
         @undeclared[[trip.data["title"] || trip_slug(trip), country]] += 1
       end
     end

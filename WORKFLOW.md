@@ -80,10 +80,19 @@ the world map — a post mentioning it is not enough.
 a post on the day you *arrive* somewhere: nights carry forward until the next
 post with a location, so four nights in one city needs one post, not four.
 
-**Just passing through** — tick this for an airport layover, a stopover, or an
-overnight flight. The pin still shows on the map, but the night goes to
-wherever you actually slept instead. Without it, nine hours in Paris takes a
-night off the country you woke up in and gives it to France.
+**How this day counted** — leave it on *Stayed the night here* for an ordinary
+day. The other two both mean "no night belongs to this day", and the night
+goes to wherever you actually slept instead:
+
+- *Day trip — went there, slept somewhere else.* A day in Chobe from a camp
+  over the border in Zimbabwe. It still counts as visiting Botswana, so make
+  sure the trip lists Botswana in its countries; it just doesn't take a night
+  away from Zimbabwe. These show up on /stats/ as "N countries were visited
+  without staying the night".
+- *Layover — only passing through, not a visit.* Nine hours in an airport, or
+  an overnight flight. The pin still shows on the map and nothing else about
+  the place is claimed: no night, and no country added. Without it, nine hours
+  in Paris takes a night off the country you woke up in and gives it to France.
 
 **Day order in trip** is the day number. Two posts from the same day share the
 number and use decimals — `4`, `4.1`, `4.2` — because they are all Day 4.

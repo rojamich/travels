@@ -1278,19 +1278,16 @@ collections:
               required: false,
               value_type: "float" }
 
-      - { label: "Just passing through (no night spent here)",
-          name: "transit",
-          widget: "boolean",
-          default: false,
-          required: false,
-          hint: "Turn ON for an airport layover, a stopover, or an overnight flight — anywhere you were but didn't sleep. The pin still shows on the map, but the night is credited to wherever you actually stayed instead. Leave OFF for a normal day." }
-
-      - { label: "Layover — slept here, but it isn't one of the trip's countries",
-          name: "layover",
-          widget: "boolean",
-          default: false,
-          required: false,
-          hint: "Turn ON for a night spent somewhere on the way, like a stopover in London flying home from Italy. The night still counts for that country, and the audit page stops asking you to add the country to the trip. Use this instead of 'Just passing through' when you actually slept there." }
+      - label: "How this day counted"
+        name: "stay"
+        widget: "select"
+        default: "night"
+        required: false
+        options:
+          - { label: "Stayed the night here", value: "night" }
+          - { label: "Day trip — went there, slept somewhere else", value: "day_trip" }
+          - { label: "Layover — only passing through, not a visit", value: "layover" }
+        hint: "Leave on 'Stayed the night' for an ordinary day. Choose 'Day trip' when you spent the day somewhere and slept elsewhere — a day in Chobe from a camp over the border. That still counts as visiting the country (make sure the trip lists it), it just doesn't take a night away from where you actually slept. Choose 'Layover' for nine hours in an airport or an overnight flight: the pin still shows on the map, but nothing else about the place is claimed — no night, and it doesn't count as a country visited."
 
       - label: "Photo gallery"
         name: "gallery"
