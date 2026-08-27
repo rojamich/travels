@@ -1,9 +1,9 @@
 ---
 title: Fish & Chips, Embarrassment, and a Little Murder.
-date: 2022-02-06
+date: 2022-02-07
 categories:
   - european-excursion
-order: 1.2
+order: 2
 header:
   overlay_filter: 0.5
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787498211/blogger-import/5bdc5eae3d35120e6047.jpg
