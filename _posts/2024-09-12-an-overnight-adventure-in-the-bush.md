@@ -19,6 +19,7 @@ tags:
   - Tours
   - Africa
   - Food
+  - Sunset
 location:
   name: Kruger National Park, South Africa
   lat: -23.9884
