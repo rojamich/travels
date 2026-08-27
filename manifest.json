@@ -13,8 +13,8 @@ permalink: /manifest.json
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#faf6f0",
-  "theme_color": "#1f4858",
+  "background_color": "{{ site.data.palette.sand_light }}",
+  "theme_color": "{{ site.data.palette.navy_deep }}",
   "icons": [
     {
       "src": "https://res.cloudinary.com/dgw35sldo/image/upload/c_fill,g_auto,w_192,h_192,f_png,q_auto/v1783872572/20210615_145029_sobd0b.png",

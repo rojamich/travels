@@ -24,6 +24,52 @@
 
 /*
   Cache-Control: public, max-age=0, must-revalidate
+  # Don't let a browser second-guess the Content-Type we send. Without this,
+  # a file that sniffs like HTML can be treated as HTML no matter what it was
+  # served as — the classic way an uploaded image turns into a script.
+  X-Content-Type-Options: nosniff
+  # Send the full URL as referrer only within our own site; other sites see
+  # just the origin. Keeps draft or unlisted URLs out of other people's logs.
+  Referrer-Policy: strict-origin-when-cross-origin
+  # Nobody needs to frame the blog. /admin/ is separately set to DENY in
+  # netlify.toml, which is stricter and stays that way.
+  X-Frame-Options: SAMEORIGIN
+  # The site asks for none of these, so no page on it can quietly start.
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+
+# -----------------------------------------------------------------------------
+# Content Security Policy — written out, deliberately not switched on
+# -----------------------------------------------------------------------------
+# A CSP lists the only places a page may load code, styles, images and fonts
+# from. Anything else is blocked, which is what limits the damage when a third
+# party gets compromised — the CARTO watermark was a reminder that outside
+# services change without asking.
+#
+# It is commented out because a CSP that is even slightly wrong breaks the
+# site quietly: the page loads, and one feature (photos, comments, the map)
+# stops working with only a console message to say why. Turning it on is a
+# deliberate ten-minute job, not a change to make blind.
+#
+# The list below covers what the site actually used as of 2026-08-27:
+#   unpkg.com            Leaflet
+#   cdn.jsdelivr.net     GLightbox
+#   identity.netlify.com Netlify Identity (the /login/ page and /admin/)
+#   cusdis.com           comments
+#   follow.it            the subscribe button
+#   fonts.googleapis.com / fonts.gstatic.com   Lora
+#   res.cloudinary.com   every photo
+#   upload.wikimedia.org the country and US state flags on /stats/
+#   *.basemaps.cartocdn.com / services.arcgisonline.com   map tiles
+#   img.youtube.com, www.youtube.com   video thumbnails and embeds
+#
+# TO TURN IT ON: uncomment the four lines, deploy, then walk a post with
+# photos, /map/, /stats/, /search/, the comment box and /admin/ with the
+# browser console open. Anything blocked names the host it wanted; add that
+# host to the right list and deploy again. `unsafe-inline` is in there
+# because the pages carry inline <script> and style="" attributes — removing
+# that need is a much bigger change than this file.
+#
+#  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://identity.netlify.com https://cusdis.com https://follow.it https://www.youtube.com https://media-library.cloudinary.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https://res.cloudinary.com https://upload.wikimedia.org https://*.basemaps.cartocdn.com https://services.arcgisonline.com https://server.arcgisonline.com https://tile.openstreetmap.org https://img.youtube.com https://unpkg.com; connect-src 'self' https://api.cloudinary.com https://cusdis.com https://api.follow.it; frame-src https://cusdis.com https://www.youtube.com https://media-library.cloudinary.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self' https://api.follow.it
 
 # The manifest decides the app's name, icon and colours. A phone re-reads it
 # when the app is installed and occasionally after; stale is harmless but

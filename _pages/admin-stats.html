@@ -13,11 +13,17 @@ sitemap: false
   in one call via /.netlify/functions/counts, joins with the search
   index for post titles/URLs/dates, and renders a sortable table.
 
-  If you want to make this admin-only later: gate the render behind a
-  Netlify Identity check (window.netlifyIdentity.currentUser()) and
-  send anyone else to /. For now, security-through-obscurity is fine
-  since the underlying counts are already publicly readable per-post.
+  Gated behind the editor login — see _includes/admin-gate.html, which
+  spells out what that does (hides it from visitors and search engines)
+  and what it doesn't (the HTML is still served to anyone who requests
+  this URL directly, because checking a login before serving a static
+  file needs a Netlify Business plan).
+
+  So nothing secret goes on this page. What's here — view counts and
+  housekeeping notes — is either already public per-post or harmless.
 {%- endcomment -%}
+
+{% include admin-gate.html %}
 
 <p style="font-size:1.05em;color:#444;">
   Live view + heart counts for every post. Click a column header to sort.
@@ -33,6 +39,35 @@ sitemap: false
   ---------------------------------------------------------------------------
 {%- endcomment -%}
 {% include country-data.html %}
+
+{%- comment -%}
+  ---------------------------------------------------------------------------
+  NEEDS A HUMAN
+  ---------------------------------------------------------------------------
+  The one part of this page about things the site cannot work out for itself.
+  The checks live in _includes/upkeep-data.html because /admin-upkeep.json
+  reads the same list to put a banner in the editor — one source, so the two
+  can't disagree.
+  ---------------------------------------------------------------------------
+{%- endcomment -%}
+{% include upkeep-data.html %}
+
+<section class="upkeep">
+  <h2>🧭 Needs a human</h2>
+  {% if upkeep.size == 0 %}
+    <p class="audit-good">Nothing needs you right now. Everything else on this
+    page is computed from the posts and trips, and looks after itself.</p>
+  {% else %}
+    <p class="audit-note" style="margin-top:0;">
+      The rest of this site is computed and can't fall behind. These few things
+      are typed by hand, so this is the only place that will ever mention them.
+    </p>
+    <ul class="upkeep-list">
+      {% for row in upkeep %}<li>{{ row }}</li>{% endfor %}
+    </ul>
+  {% endif %}
+</section>
+
 
 <section class="country-audit">
   <h2>🌍 Country audit</h2>
@@ -165,7 +200,7 @@ sitemap: false
   {%- if site.data.nights and site.data.nights.undeclared -%}
     {%- for u in site.data.nights.undeclared -%}
       {%- capture row -%}
-{{ u.trip }}||spends {{ u.nights }} night{% if u.nights != 1 %}s{% endif %} in {{ u.country }}, which the trip itself doesn't list in its location or countries. The nights count, but {{ u.country }} won't appear in the Countries tile. Add it to the trip, or fix the post's location if it was only passed through.
+{{ u.trip }}||spends {{ u.nights }} night{% if u.nights != 1 %}s{% endif %} in {{ u.country }}, which the trip itself doesn't list in its location or countries. The nights count, but {{ u.country }} won't appear in the Countries tile. Add it to the trip, fix the post's location, or — if you did sleep there on the way somewhere else — tick <strong>Layover</strong> on that day's post and this stops asking.
       {%- endcapture -%}
       {%- assign night_rows = night_rows | push: row -%}
     {%- endfor -%}
@@ -259,6 +294,12 @@ sitemap: false
   .country-audit h3 { margin: 1.2em 0 0.4em; font-size: 1em; }
   .audit-ok   { color: #1c6b3a; background: #eaf6ee; padding: 0.6em 0.8em; border-radius: 6px; }
   .audit-bad  { color: #8a1c12; margin-bottom: 0.3em; }
+  .audit-good { color: #2f6b4f; margin-bottom: 0.3em; }
+  .upkeep { margin: 1.5em 0 2em; padding: 1em 1.2em; border-radius: 10px;
+            background: #fbf7ef; border: 1px solid #e7dcc7; }
+  .upkeep h2 { margin-top: 0; }
+  .upkeep-list { margin: 0.6em 0 0; padding-left: 1.2em; }
+  .upkeep-list li { margin-bottom: 0.7em; line-height: 1.55; }
   .audit-note { color: #666; font-size: 0.85em; line-height: 1.5; margin-top: 1.2em; }
 
   .tag-sheet { display: flex; flex-wrap: wrap; gap: 0.4em; margin: 0.8em 0; }

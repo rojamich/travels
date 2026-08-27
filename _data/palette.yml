@@ -1,0 +1,43 @@
+# =============================================================================
+# palette.yml — the site's colours, in one place
+# =============================================================================
+# These eight values were written out in four different files: the stylesheet,
+# the map JavaScript, manifest.json (the installed app's colours) and the
+# theme-color meta tag. Four copies of one decision, and they had already
+# started to disagree — the app's background was #faf6f0 while the site's was
+# #FAF7F2, close enough that nobody noticed and different enough to show as a
+# flash of the wrong colour when the app opened.
+#
+# Everything now reads from here:
+#
+#   assets/css/main.scss        Sass variables, and the CSS custom properties
+#                               (--navy-deep and friends) that the rest of the
+#                               site and the map JS read
+#   assets/js/maps.js           map pins, via those custom properties
+#   manifest.json               installed-app colours
+#   _includes/head/custom.html  the phone status bar tint
+#
+# CHANGING A COLOUR: edit it here. Everything above follows on the next build.
+# Hex values need the leading # and belong in quotes, or YAML reads them as a
+# comment and the value comes out empty.
+# =============================================================================
+
+# Sand — page and card backgrounds
+sand_light:  "#FAF7F2"    # page background
+sand_medium: "#EFE6D6"    # card backgrounds, footer
+sand_warm:   "#E8DCC4"    # accent / hover
+
+# Navy — headings, links, buttons
+navy_deep:   "#1F4858"    # primary
+navy_mid:    "#2C5876"    # secondary
+
+# Sea glass — highlights and tags
+seaglass:    "#7FB3A2"
+
+# Text
+ink:         "#1A2B33"    # body text
+muted:       "#6B7E85"    # metadata, dates
+
+# Map-only: a place reached on more than one trip. Amber so it reads as
+# distinct from the navy single-visit pins at a glance.
+map_repeat:  "#C1783C"

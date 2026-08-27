@@ -24,16 +24,11 @@ classes: wide
 <div id="world-map" style="height: 600px; border-radius: 14px; overflow: hidden; border: 1px solid #ddd;"></div>
 
 <!--
-  Leaflet stylesheet + script, loaded from a CDN. No npm/build step needed.
-  We use a pinned version so the page won't break if Leaflet changes their
-  default behavior in a later release.
+  Leaflet itself, plus the basemap settings from _config.yml. Both live in
+  _includes/map-libs.html so the version is pinned in exactly one place —
+  see the comments in that file.
 -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-      crossorigin="" />
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-        crossorigin=""></script>
+{% include map-libs.html %}
 
 <!--
   Build the trip + post data from Liquid and inject as JSON. The map JS reads

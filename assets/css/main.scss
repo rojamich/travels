@@ -19,16 +19,36 @@
 // COASTAL PALETTE
 // -----------------------------------------------------------------------------
 // Sand, navy, sea-glass green. Light and airy.
-$sand-light:   #FAF7F2;   // page background
-$sand-medium:  #EFE6D6;   // card backgrounds, footer
-$sand-warm:    #E8DCC4;   // accent / hover
+//
+// The values come from _data/palette.yml — this file used to hold its own
+// copy, as did the map JS, manifest.json and the theme-color meta tag, and
+// they had begun to disagree. Edit the colour there; everything follows.
+$sand-light:   {{ site.data.palette.sand_light }};   // page background
+$sand-medium:  {{ site.data.palette.sand_medium }};   // card backgrounds, footer
+$sand-warm:    {{ site.data.palette.sand_warm }};   // accent / hover
 
-$navy-deep:    #1F4858;   // primary — headings, links
-$navy-mid:     #2C5876;   // secondary — buttons
-$seaglass:     #7FB3A2;   // accent — highlights, tags
+$navy-deep:    {{ site.data.palette.navy_deep }};   // primary — headings, links
+$navy-mid:     {{ site.data.palette.navy_mid }};   // secondary — buttons
+$seaglass:     {{ site.data.palette.seaglass }};   // accent — highlights, tags
 
-$ink:          #1A2B33;   // body text
-$muted:        #6B7E85;   // metadata, dates
+$ink:          {{ site.data.palette.ink }};   // body text
+$muted:        {{ site.data.palette.muted }};   // metadata, dates
+$map-repeat:   {{ site.data.palette.map_repeat }};   // map: visited on more than one trip
+
+// The same colours as CSS custom properties. Sass variables vanish at build
+// time, so JavaScript can't see them — assets/js/maps.js reads these instead
+// of keeping the fifth copy of the palette it used to keep.
+:root {
+  --sand-light:  #{$sand-light};
+  --sand-medium: #{$sand-medium};
+  --sand-warm:   #{$sand-warm};
+  --navy-deep:   #{$navy-deep};
+  --navy-mid:    #{$navy-mid};
+  --seaglass:    #{$seaglass};
+  --ink:         #{$ink};
+  --muted:       #{$muted};
+  --map-repeat:  #{$map-repeat};
+}
 
 // -----------------------------------------------------------------------------
 // MINIMAL MISTAKES VARIABLE OVERRIDES
@@ -1071,7 +1091,9 @@ a {
 }
 
 // -----------------------------------------------------------------------------
-// INLINE AUDIO — rendered by the {% audio_block ... %} Liquid tag
+// INLINE AUDIO — rendered by the audio_block Liquid tag (_plugins/audio_block.rb).
+// Written without the tag braces on purpose: this file runs through Liquid, so a
+// tag named in a comment is a tag that executes on every build.
 // -----------------------------------------------------------------------------
 .inline-audio {
   margin: 1.5em auto;

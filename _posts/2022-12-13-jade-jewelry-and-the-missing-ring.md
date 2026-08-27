@@ -18,8 +18,8 @@ tags:
   - TeKoha
 location:
   name: Hokitika, NZ
-  lat: -43.363
-  lng: 170.134
+  lat: -42.7176
+  lng: 170.9683
 ---
 Carving our own jewelry was pretty high on the excitement list for this trip. It was fairly unique to this area and pretty cool we would have a natural but unique souvenir from our time here! We chose [Te Koha](https://www.tekoha.nz/carve-your-own) to learn from!
 

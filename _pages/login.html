@@ -72,11 +72,33 @@ classes: wide
       }
     }
 
+    // Where to go after logging in. /admin/ unless a gated page sent us here
+    // with ?next=, in which case we go back to it.
+    //
+    // Validated rather than trusted: an unchecked `next` is an open redirect —
+    // a link to our own login page that lands on someone else's site, wearing
+    // our domain in the address bar the whole way. Only a single-slash path is
+    // allowed, so "//evil.example.com" and "https://evil.example.com" both
+    // fall back to /admin/.
+    function safeNext() {
+      var raw;
+      try {
+        raw = new URLSearchParams(window.location.search).get("next");
+      } catch (e) {
+        return "/admin/";
+      }
+      if (!raw) return "/admin/";
+      if (raw.charAt(0) !== "/" || raw.charAt(1) === "/" || raw.charAt(1) === "\\") return "/admin/";
+      if (raw.indexOf("://") !== -1) return "/admin/";
+      return raw;
+    }
+    var destination = safeNext();
+
     waitForIdentity(function () {
-      // Auto-redirect to admin if already logged in.
+      // Auto-redirect if already logged in.
       var currentUser = netlifyIdentity.currentUser && netlifyIdentity.currentUser();
       if (currentUser) {
-        window.location.href = "/admin/";
+        window.location.href = destination;
         return;
       }
 
@@ -100,7 +122,7 @@ classes: wide
           .login(email, password, true)
           .then(function () {
             // GoTrue stored the JWT — Decap will pick it up.
-            window.location.href = "/admin/";
+            window.location.href = destination;
           })
           .catch(function (err) {
             submitBtn.disabled = false;

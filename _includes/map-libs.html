@@ -1,0 +1,41 @@
+{%- comment -%}
+=============================================================================
+map-libs.html — Leaflet, plus the basemap settings, in one place
+=============================================================================
+Every page that draws a map includes this instead of pasting the Leaflet CDN
+lines. Two reasons it lives here rather than in each page:
+
+  1. The Leaflet version and its two integrity hashes were written out three
+     times — /map/, /stats/ and the trip mini-map. Upgrading Leaflet meant
+     finding all three and getting six hashes right, and a missed one fails
+     silently (the browser refuses the script and the map just never draws).
+     Now the version lives on one line, in this file.
+
+  2. The basemap needs values from _config.yml: which tile provider to use,
+     and the CARTO key if there is one. assets/js/maps.js is a plain static
+     file with no front matter, so Liquid never runs inside it and it cannot
+     read _config.yml for itself. This include is the page-side half of that
+     — it hands the JS its settings.
+
+Including it twice on one page is harmless: the guard below only writes the
+tags the first time.
+=============================================================================
+{%- endcomment -%}
+{%- unless leaflet_loaded -%}
+  {%- assign leaflet_loaded = true -%}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+<script>
+  // Basemap settings from _config.yml -> the `map:` block. maps.js reads
+  // this; if it is missing entirely maps.js falls back to its own default,
+  // so a map still draws even if this include is ever left out.
+  window.TRAVEL_MAP_CONFIG = {
+    provider: {{ site.map.provider | default: "esri" | jsonify }},
+    cartoKey: {{ site.map.carto_key | default: "" | jsonify }}
+  };
+</script>
+{%- endunless -%}

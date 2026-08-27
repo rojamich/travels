@@ -526,12 +526,7 @@ classes: wide
   Shaded countries are places we've been.
 </p>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-      crossorigin="" />
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-        crossorigin=""></script>
+{% include map-libs.html %}
 
 <div id="coverage-map" style="height:420px;border-radius:14px;overflow:hidden;border:1px solid #ddd;background:#f5f8fa;"></div>
 <script>
@@ -552,7 +547,10 @@ classes: wide
     });
     // No tile layer — plain background so the polygons speak for themselves.
 
-    fetch("https://cdn.jsdelivr.net/gh/johan/world.geo.json/countries.geo.json")
+    // Shapes come from our own copy in assets/data/ — see the README there for
+    // where they were sourced. Fetching them from someone else's repo meant the
+    // map went blank the day that repo moved, without anything looking broken.
+    fetch("{{ '/assets/data/world-countries.geo.json' | relative_url }}")
       .then(function (r) { return r.json(); })
       .then(function (data) {
         L.geoJSON(data, {
@@ -604,7 +602,9 @@ classes: wide
         attributionControl: false,
         scrollWheelZoom: false
       });
-      fetch("https://cdn.jsdelivr.net/gh/PublicaMundi/MappingAPI@master/data/geojson/us-states.json")
+      // Local copy, as above. The version this replaced was pinned to a branch
+      // name (@master), so it could change under us without a version bump.
+      fetch("{{ '/assets/data/us-states.geo.json' | relative_url }}")
         .then(function (r) { return r.json(); })
         .then(function (data) {
           L.geoJSON(data, {

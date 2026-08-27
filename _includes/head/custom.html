@@ -42,7 +42,7 @@
   =============================================================================
 -->
 <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
-<meta name="theme-color" content="#1f4858">
+<meta name="theme-color" content="{{ site.data.palette.navy_deep }}">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Travels">
@@ -53,9 +53,25 @@
   GLightbox — click any photo (gallery or inline) to open a fullscreen viewer
   with prev/next arrows, ESC-to-close, and click-background-to-close. Free,
   vanilla JS, no jQuery.
+
+  Pinned to an exact version, with an integrity hash. Before, this asked the
+  CDN for "whatever glightbox is today", which meant every photo on the site
+  depended on a stranger's next release not breaking anything — and on the
+  file arriving unaltered. The hash is the browser's check: if the bytes do
+  not match, the file is refused rather than run.
+
+  To upgrade: bump both version numbers, then get the matching hashes from
+  https://www.srihash.org (paste the new URL in, copy the integrity value).
+  Both hashes must be updated together or the file is silently blocked.
 -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
-<script defer src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glightbox@3.3.1/dist/css/glightbox.min.css"
+      integrity="sha384-GPAzSuZc0kFvdIev6wm9zg8gnafE8tLso7rsAYQfc9hAdWCpOcpcNI5W9lWkYcsd"
+      crossorigin="anonymous">
+<script defer
+        src="https://cdn.jsdelivr.net/npm/glightbox@3.3.1/dist/js/glightbox.min.js"
+        integrity="sha384-MZZbZ6RXJudK43v1qY1zOWKOU2yfeBPatuFoKyHAaAgHTUZhwblRTc9CphTt4IGQ"
+        crossorigin="anonymous"></script>
 <script>
   // -------------------------------------------------------------------------
   // FIX MINIMAL MISTAKES' VIDEO WRAPPER

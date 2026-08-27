@@ -22,6 +22,26 @@
   [headers.values]
     # Prevent the admin page from being framed by another site.
     X-Frame-Options = "DENY"
+    # Never let the editor turn up in a search result.
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+# The dashboard and the count it feeds the editor. Both are gated by the same
+# Identity login as /admin/ (_includes/admin-gate.html), but that check runs in
+# the browser, after Netlify has already served the file — so the one thing
+# that can be enforced here is that neither is ever indexed. `sitemap: false`
+# in the page front matter keeps them out of sitemap.xml; this keeps them out
+# of the index even if someone links to one.
+[[headers]]
+  for = "/admin-stats/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+[[headers]]
+  for = "/admin-upkeep.json"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+    Cache-Control = "no-store"
 
 # Cache the search index for an hour in the browser. It's regenerated
 # on every build, so its content changes when we publish — but between

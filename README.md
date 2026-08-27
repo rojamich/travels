@@ -126,7 +126,7 @@ content. Turn it off so there's only one canonical site:
 
 **You** continue to use VS Code + GitHub for everything that's not a post:
 - Theme/CSS tweaks (`assets/css/main.scss`)
-- Trip metadata (`_data/trips.yml`)
+- Trip metadata (one file per trip in `_trips/`)
 - New trip pages (`_pages/<slug>.md`)
 - Site config (`_config.yml`)
 - The admin form schema if it ever needs new fields (`admin/config.yml`)
@@ -166,16 +166,30 @@ To temporarily disable comments: clear `cusdis_app_id` back to `""`.
 and reveal the day-by-day route for that trip. Each trip page also embeds
 a smaller map of just that trip.
 
-For trips: add `lat:` and `lng:` to the entry in `_data/trips.yml`.
+For trips: add `lat:` and `lng:` to the trip's file in `_trips/`.
 For per-day pins: when your wife adds a `Map pin location` in the admin
 form, that day shows up as a pin on the route. Get coordinates from
-[latlong.net](https://www.latlong.net/).
+[latlong.net](https://www.latlong.net/). A place that has been pinned once
+is remembered in `_data/places.yml` and filled in automatically the next
+time it is named.
 
-**Optional v2 upgrade:** fill visited countries with their flag (instead
-of just a pin). Adds ~2 hours of work — needs country boundary GeoJSON,
-flag images, and SVG pattern fills. The `country_code` field in
-`_data/trips.yml` is forward-compat for this — say the word when you
-want it.
+Country shading is on `/stats/`, drawn from a vendored copy of the world
+boundaries in `assets/data/` rather than a CDN.
+
+**Which map the pins sit on** is a setting, in `_config.yml` under `map:`:
+
+```yaml
+map:
+  provider: "carto"    # esri | carto | osm
+  carto_key: ""        # free key from https://carto.com/basemaps/apikey/
+```
+
+This exists because CARTO — free and key-free for years — began stamping
+`API KEY REQUIRED` across unkeyed tiles in 2026. A key is free and instant,
+and if `provider` is `carto` while `carto_key` is empty, the maps fall back
+to Esri rather than showing the watermark. `esri` needs no key at all and
+labels places in English worldwide; `osm` is the last resort, because it
+labels everything in the local script.
 
 ---
 
@@ -215,6 +229,76 @@ and `<!-- SUBSCRIBE-FORM END -->` markers, replacing the placeholder.
 | Country flag fill on world map | Mentioned in Maps section above. Ask Claude. |
 | Auto-resize photos beyond Cloudinary defaults | Cloudinary has powerful URL-based transformations. Can be set as defaults in the upload preset. |
 | Multi-user editor (e.g. you and wife both editing) | Netlify Identity → invite more users. Decap respects auth. |
+
+---
+
+## What needs a human
+
+Almost nothing on this site can quietly go out of date. The country counts,
+the nights, the continents, the maps, the leaderboard placings, the medal
+table, the search index, the editor's tag and country pickers — all computed
+from the posts and trips on every build. Get one wrong and it is wrong
+loudly, on `/admin-stats/`, with the trip that caused it named.
+
+A short list of things is typed by hand instead, and those are the ones that
+rot. They look no different when they are stale:
+
+| File | Feeds | How it goes wrong |
+| ---- | ----- | ----------------- |
+| `_data/status.yml` | the "where we are now" bar on every page, the days-on-the-road clock | you move and it still says the last place |
+| `_data/records.yml` | personal bests on `/stats/` | a row with no value never appears — 8 of 11 are blank today |
+| `_data/country_images.yml` | flags beside country names on `/stats/` | a new country has no flag; a typo'd name never matches |
+| `_data/us_state_images.yml` | the same for US states | as above |
+| `_data/favorites.yml`, `_data/lessons.yml` | `/favorites/`, `/lessons/` | nothing prompts you to add to them |
+| `_data/places.yml` | remembered coordinates | a place pinned wrong once is remembered wrong |
+
+**The reminder lives on [`/admin-stats/`](https://where-in-the-world-are-mike-and-jen.netlify.app/admin-stats/),
+in the "Needs a human" panel at the top**, and the editor shows the count as a
+small banner once per session so it reaches her without her going looking. It
+is worked out fresh on every build from the same data the site renders, so it
+cannot itself fall behind, and it stays quiet when there is nothing to say.
+The dates it quotes come from git (`_plugins/data_freshness.rb`) rather than
+the files' timestamps, because a build server clones the repo fresh and every
+file looks new.
+
+`/admin-stats/` asks for the same Netlify Identity login as `/admin/` — log
+into one and you are in both. Be clear-eyed about what that gate is: it runs
+in the browser, so it hides the page from visitors and search engines but
+does not stop someone who knows the URL from fetching the raw HTML. Netlify
+can only check a login *before* serving a file on a Business plan. So nothing
+secret goes on that page — view counts and housekeeping notes only. The
+count the editor reads (`/admin-upkeep.json`) is deliberately just a number
+for the same reason; the detail stays behind the login.
+
+If something genuinely private ever needs to live there, the fix that works
+on this plan is to stop building it into a static file: serve it from a
+Netlify Function that verifies the Identity token against
+`/.netlify/identity/user`, and have the page fetch it after login.
+
+To add a check: work it out in Liquid at the top of `_pages/admin-stats.html`,
+push a sentence onto `upkeep`, and it renders itself. Don't add one that
+needs its own copy of something the site already knows — a reminder that
+drifts is worse than no reminder.
+
+### The parts no build can check
+
+These need a person to look, once in a while. Nothing in the repo can see
+them:
+
+- **Cloudinary storage.** The free tier is effectively full. `python
+  scripts/audit_cloudinary_orphans.py` lists images no post references.
+- **The CARTO key** in `_config.yml`, if you're using CARTO — a revoked or
+  expired key brings the watermark back. The maps fall back to Esri if the
+  key is blank, but not if it is present and rejected.
+- **Netlify Identity registration.** It must stay *Invite only*; open
+  registration means anyone who signs up can edit the site through Git
+  Gateway. Netlify dashboard → Identity → Registration.
+- **Pinned front-end versions.** Leaflet and GLightbox are pinned with
+  integrity hashes (`_includes/map-libs.html`, `_includes/head/custom.html`).
+  They are safe as they are, and upgrading means changing the version and
+  the hash together — see the comments in those files.
+- **The flags on `/stats/`** are hotlinked from Wikimedia, which asks that
+  people not hotlink. They work today; if they ever stop, that is why.
 
 ---
 

@@ -13,7 +13,9 @@
 # -----------------------------------------------------------------------------
 title: "Our Travels"
 subtitle: "Adventures around the world"
-name: "Mike & [Wife's Name]"          # Used in copyright footer; replace with real name
+name: "Mike & Jen"                     # Read by some theme surfaces (the footer uses
+                                       # `title` above, not this). Was left as the
+                                       # "[Wife's Name]" placeholder until 2026-08-27.
 description: "A blog of our trips, photos, and stories."
 email: ""                              # Optional. Leave blank if you don't want it public.
 
@@ -38,6 +40,36 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 # out and customize fully later. Options: default, air, aqua, contrast, dark,
 # dirt, mint, neon, plum, sunrise.
 minimal_mistakes_skin: "air"
+
+
+# -----------------------------------------------------------------------------
+# MAP — which basemap the maps draw on
+# -----------------------------------------------------------------------------
+# The pins, routes and shading are ours. The map *underneath* them is tiles
+# borrowed from someone else's server, and that is the part that can change
+# without warning: CARTO used to serve theirs to anyone and in 2026 started
+# stamping "API KEY REQUIRED" across every tile of an unkeyed request.
+#
+# So the provider is a setting rather than a line buried in maps.js. If the
+# next one changes its terms, this is the only line that has to change.
+#
+#   provider: "esri"   Esri World Street Map. No key, no signup. Labels every
+#                      place in English — Yerevan, not Երևան; Tokyo, not 東京 —
+#                      which is why we are not on plain OpenStreetMap tiles.
+#             "carto"  CARTO Voyager, what the maps used before. Needs a free
+#                      key in `carto_key` below or the tiles come watermarked.
+#             "osm"    Plain OpenStreetMap. No key, but every label is in the
+#                      local language and script. Last resort.
+#
+# carto_key: only read when provider is "carto". Get one, free and instantly,
+# at https://carto.com/basemaps/apikey/ — no CARTO account needed. It covers
+# 5 million tiles a month, which this site will not come close to using.
+# It is not a secret: it ships in the page like any other basemap key, which
+# is what it is designed for. If provider is "carto" and this is blank, the
+# maps quietly draw with Esri instead so the watermark never comes back.
+map:
+  provider: "carto"
+  carto_key: "cb1_2adp_1_419221c4ee01df9bdecff008"        # <- paste the key from CARTO between these quotes
 
 
 # -----------------------------------------------------------------------------

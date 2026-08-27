@@ -447,7 +447,7 @@ see. The homepage and `/trips/` page now have:
 - A **Sort** dropdown (Most recent / Oldest / By location / By name)
 - **Tag filter chips** — clicking one shows only matching trips. Click
   multiple for an "any of these" view. The tags come from the `tags:`
-  field on each trip in `_data/trips.yml`.
+  field on each trip in `_trips/`.
 
 You manage the trip-level tags by editing that file. Pick whatever
 categorization is useful — region (Europe, Asia), style (road-trip,

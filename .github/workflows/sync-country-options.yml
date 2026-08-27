@@ -1,0 +1,54 @@
+# =============================================================================
+# Sync country options
+# =============================================================================
+# The country picker on a trip has to be spelled out in admin/config.yml —
+# Decap CMS can't fill a select widget from a data file. That list used to be
+# typed by hand, and it drifted: 125 of its 221 entries named countries that
+# _data/countries.yml had never heard of, and picking one of those meant no
+# ISO code, so no shading on the world map and no continent on /stats/. The
+# editor gave no hint anything was wrong.
+#
+# Now the picker is generated from _data/countries.yml. This job keeps it that
+# way: whenever that file changes on main, it re-runs the generator and commits
+# the result, so nobody has to remember to.
+#
+# It only ever rewrites the block between the BEGIN/END markers in
+# admin/config.yml, and it refuses to commit anything that isn't valid YAML.
+# =============================================================================
+name: Sync country options
+
+on:
+  push:
+    branches: [main]
+    paths: ['_data/countries.yml']
+  # Lets you run it by hand from the Actions tab if you ever need to.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install pyyaml
+
+      - run: python scripts/sync_country_options.py
+
+      - name: Commit the refreshed list (only if it changed)
+        run: |
+          if git diff --quiet -- admin/config.yml; then
+            echo "Country list already matched _data/countries.yml — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add admin/config.yml
+          git commit -m "Editor: refresh the country picker"
+          git push

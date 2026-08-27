@@ -1,7 +1,8 @@
 # =============================================================================
 # countries.yml — THE single source of truth for country reference data
 # =============================================================================
-# One record per country. This is the ONLY file to edit when adding a country.
+# One record per country. Every country, not just the visited ones: the list
+# below is the full ISO 3166-1 set.
 #
 # At build time _plugins/country_data.rb derives three lookup tables from it:
 #
@@ -16,26 +17,54 @@
 # record makes that class of drift impossible — a country cannot have a
 # continent but no code, because both live on the same line.
 #
+# WHY EVERY COUNTRY, NOT JUST OURS
+# The editor's country picker used to be its own hand-written list of 199
+# names in admin/config.yml. It had drifted both ways: 123 countries could be
+# picked that this file had never heard of — each one silently missing from
+# the world map and the continent tally — while 20 that were here, Puerto Rico
+# and Hong Kong among them, could not be picked at all.
+#
+# The picker is now generated from this file by scripts/sync_country_options.py,
+# so the two cannot disagree. That only works if everywhere she might go is
+# already here, which is why the list is complete rather than visited-only.
+# Nothing is counted as visited by being listed here; visits come from trips.
+#
 # FIELDS
 #   name       canonical spelling. This is what gets displayed, and what trip
 #              front matter should ideally use.
-#   code       ISO 3166-1 alpha-3. Must match the world GeoJSON feature ids,
-#              or the country won't shade on the map.
+#   code       ISO 3166-1 alpha-3. Must match the world GeoJSON feature ids in
+#              assets/data/world-countries.geo.json, or the country won't shade
+#              on the map. Some small territories have no shape in that file —
+#              they still count, they just have nothing to fill in.
 #   continent  one of: North America, South America, Europe, Asia, Africa,
 #              Oceania, Antarctica.
 #   aliases    every other spelling that might show up in a trip's location,
 #              a countries[] entry, or _data/favorites.yml. Matched exactly
-#              after trimming, so add each variant you actually type.
+#              after trimming, so add each variant you actually type. The
+#              official ISO name is already an alias wherever it differs from
+#              the friendly one, so "Viet Nam" and "Czechia" both resolve.
 #
-# TO ADD A COUNTRY: add one record here. Nothing else to touch.
+# TO CORRECT A COUNTRY: edit the record here, then run
+#     python scripts/sync_country_options.py
+# to push the change into the editor's picker (CI does this automatically on
+# push, so it is only needed if you want to see it locally).
 # TO CHECK IT WORKED: /admin-stats/ lists any country that resolves to no
 # record, and the build log warns about incomplete records.
 # =============================================================================
 
 # North America
 # ---------------
+- name: Anguilla
+  code: AIA
+  continent: North America
+- name: Antigua and Barbuda
+  code: ATG
+  continent: North America
 - name: Aruba
   code: ABW
+  continent: North America
+- name: Barbados
+  code: BRB
   continent: North America
 - name: Belize
   code: BLZ
@@ -46,26 +75,69 @@
 - name: British Virgin Islands
   code: VGB
   continent: North America
+  aliases:
+    - Virgin Islands (British)
 - name: Canada
   code: CAN
   continent: North America
+- name: Caribbean Netherlands
+  code: BES
+  continent: North America
+  aliases:
+    - Bonaire, Sint Eustatius and Saba
 - name: Cayman Islands
   code: CYM
   continent: North America
 - name: Costa Rica
   code: CRI
   continent: North America
+- name: Cuba
+  code: CUB
+  continent: North America
 - name: Curaçao
   code: CUW
+  continent: North America
+- name: Dominica
+  code: DMA
+  continent: North America
+- name: Dominican Republic
+  code: DOM
+  continent: North America
+- name: El Salvador
+  code: SLV
   continent: North America
 - name: Greenland
   code: GRL
   continent: North America
+- name: Grenada
+  code: GRD
+  continent: North America
+- name: Guadeloupe
+  code: GLP
+  continent: North America
 - name: Guatemala
   code: GTM
   continent: North America
+- name: Haiti
+  code: HTI
+  continent: North America
+- name: Honduras
+  code: HND
+  continent: North America
+- name: Jamaica
+  code: JAM
+  continent: North America
+- name: Martinique
+  code: MTQ
+  continent: North America
 - name: Mexico
   code: MEX
+  continent: North America
+- name: Montserrat
+  code: MSR
+  continent: North America
+- name: Nicaragua
+  code: NIC
   continent: North America
 - name: Panama
   code: PAN
@@ -73,13 +145,55 @@
 - name: Puerto Rico
   code: PRI
   continent: North America
+- name: Saint Barthélemy
+  code: BLM
+  continent: North America
+- name: Saint Kitts and Nevis
+  code: KNA
+  continent: North America
+- name: Saint Lucia
+  code: LCA
+  continent: North America
+- name: Saint Martin
+  code: MAF
+  continent: North America
+  aliases:
+    - Saint Martin (French part)
+- name: Saint Pierre and Miquelon
+  code: SPM
+  continent: North America
+- name: Saint Vincent and the Grenadines
+  code: VCT
+  continent: North America
+- name: Sint Maarten
+  code: SXM
+  continent: North America
+  aliases:
+    - Sint Maarten (Dutch part)
+- name: The Bahamas
+  code: BHS
+  continent: North America
+  aliases:
+    - Bahamas
+- name: Trinidad and Tobago
+  code: TTO
+  continent: North America
+- name: Turks and Caicos Islands
+  code: TCA
+  continent: North America
 - name: U.S. Virgin Islands
   code: VIR
   continent: North America
+  aliases:
+    - Virgin Islands (U.S.)
 - name: United States of America
   code: USA
   continent: North America
-  aliases: [America, US, USA, United States]
+  aliases:
+    - America
+    - US
+    - USA
+    - United States
 
 # South America
 # ---------------
@@ -88,6 +202,11 @@
   continent: South America
 - name: Bolivia
   code: BOL
+  continent: South America
+  aliases:
+    - Bolivia, Plurinational State of
+- name: Bouvet Island
+  code: BVT
   continent: South America
 - name: Brazil
   code: BRA
@@ -101,20 +220,63 @@
 - name: Ecuador
   code: ECU
   continent: South America
+- name: Falkland Islands
+  code: FLK
+  continent: South America
+  aliases:
+    - Falkland Islands (Malvinas)
+- name: French Guiana
+  code: GUF
+  continent: South America
+- name: Guyana
+  code: GUY
+  continent: South America
+- name: Paraguay
+  code: PRY
+  continent: South America
 - name: Peru
   code: PER
   continent: South America
+- name: South Georgia and the South Sandwich Islands
+  code: SGS
+  continent: South America
+- name: Suriname
+  code: SUR
+  continent: South America
+- name: Uruguay
+  code: URY
+  continent: South America
+- name: Venezuela
+  code: VEN
+  continent: South America
+  aliases:
+    - Venezuela, Bolivarian Republic of
 
 # Europe
 # --------
+- name: Albania
+  code: ALB
+  continent: Europe
+- name: Andorra
+  code: AND
+  continent: Europe
 - name: Armenia
   code: ARM
   continent: Europe
 - name: Austria
   code: AUT
   continent: Europe
+- name: Belarus
+  code: BLR
+  continent: Europe
 - name: Belgium
   code: BEL
+  continent: Europe
+- name: Bosnia and Herzegovina
+  code: BIH
+  continent: Europe
+- name: Bulgaria
+  code: BGR
   continent: Europe
 - name: Croatia
   code: HRV
@@ -122,9 +284,13 @@
 - name: Czech Republic
   code: CZE
   continent: Europe
-  aliases: [Czechia]
+  aliases:
+    - Czechia
 - name: Denmark
   code: DNK
+  continent: Europe
+- name: Estonia
+  code: EST
   continent: Europe
 - name: Faroe Islands
   code: FRO
@@ -147,6 +313,9 @@
 - name: Greece
   code: GRC
   continent: Europe
+- name: Guernsey
+  code: GGY
+  continent: Europe
 - name: Hungary
   code: HUN
   continent: Europe
@@ -162,13 +331,50 @@
 - name: Italy
   code: ITA
   continent: Europe
+- name: Jersey
+  code: JEY
+  continent: Europe
 - name: Kosovo
   code: XKX
+  continent: Europe
+- name: Latvia
+  code: LVA
+  continent: Europe
+- name: Liechtenstein
+  code: LIE
+  continent: Europe
+- name: Lithuania
+  code: LTU
+  continent: Europe
+- name: Luxembourg
+  code: LUX
+  continent: Europe
+- name: Malta
+  code: MLT
+  continent: Europe
+- name: Moldova
+  code: MDA
+  continent: Europe
+  aliases:
+    - Moldova, Republic of
+- name: Monaco
+  code: MCO
+  continent: Europe
+- name: Montenegro
+  code: MNE
   continent: Europe
 - name: Netherlands
   code: NLD
   continent: Europe
-  aliases: [Holland, The Netherlands]
+  aliases:
+    - Holland
+    - Netherlands, Kingdom of the
+    - The Netherlands
+- name: North Macedonia
+  code: MKD
+  continent: Europe
+  aliases:
+    - Macedonia
 - name: Norway
   code: NOR
   continent: Europe
@@ -178,8 +384,33 @@
 - name: Portugal
   code: PRT
   continent: Europe
+- name: Republic of Serbia
+  code: SRB
+  continent: Europe
+  aliases:
+    - Serbia
+- name: Romania
+  code: ROU
+  continent: Europe
+- name: Russia
+  code: RUS
+  continent: Europe
+  aliases:
+    - Russian Federation
+- name: San Marino
+  code: SMR
+  continent: Europe
+- name: Slovakia
+  code: SVK
+  continent: Europe
+- name: Slovenia
+  code: SVN
+  continent: Europe
 - name: Spain
   code: ESP
+  continent: Europe
+- name: Svalbard and Jan Mayen
+  code: SJM
   continent: Europe
 - name: Sweden
   code: SWE
@@ -187,23 +418,64 @@
 - name: Switzerland
   code: CHE
   continent: Europe
-- name: Vatican City
-  code: VAT
+- name: Ukraine
+  code: UKR
   continent: Europe
-  aliases: [Holy See]
 - name: United Kingdom
   code: GBR
   continent: Europe
-  aliases: [England, Great Britain, Scotland, UK, Wales]
+  aliases:
+    - England
+    - Great Britain
+    - Scotland
+    - UK
+    - United Kingdom of Great Britain and Northern Ireland
+    - Wales
+- name: Vatican City
+  code: VAT
+  continent: Europe
+  aliases:
+    - Holy See
+- name: Åland Islands
+  code: ALA
+  continent: Europe
 
 # Asia
 # ------
+- name: Afghanistan
+  code: AFG
+  continent: Asia
+- name: Azerbaijan
+  code: AZE
+  continent: Asia
+- name: Bahrain
+  code: BHR
+  continent: Asia
+- name: Bangladesh
+  code: BGD
+  continent: Asia
+- name: Bhutan
+  code: BTN
+  continent: Asia
+- name: Brunei
+  code: BRN
+  continent: Asia
+  aliases:
+    - Brunei Darussalam
 - name: Cambodia
   code: KHM
   continent: Asia
 - name: China
   code: CHN
   continent: Asia
+- name: Cyprus
+  code: CYP
+  continent: Asia
+- name: East Timor
+  code: TLS
+  continent: Asia
+  aliases:
+    - Timor-Leste
 - name: Hong Kong
   code: HKG
   continent: Asia
@@ -212,6 +484,14 @@
   continent: Asia
 - name: Indonesia
   code: IDN
+  continent: Asia
+- name: Iran
+  code: IRN
+  continent: Asia
+  aliases:
+    - Iran, Islamic Republic of
+- name: Iraq
+  code: IRQ
   continent: Asia
 - name: Israel
   code: ISR
@@ -222,23 +502,68 @@
 - name: Jordan
   code: JOR
   continent: Asia
+- name: Kazakhstan
+  code: KAZ
+  continent: Asia
+- name: Kuwait
+  code: KWT
+  continent: Asia
+- name: Kyrgyzstan
+  code: KGZ
+  continent: Asia
 - name: Laos
   code: LAO
+  continent: Asia
+  aliases:
+    - "Lao People's Democratic Republic"
+- name: Lebanon
+  code: LBN
   continent: Asia
 - name: Macau
   code: MAC
   continent: Asia
+  aliases:
+    - Macao
 - name: Malaysia
   code: MYS
+  continent: Asia
+- name: Maldives
+  code: MDV
+  continent: Asia
+- name: Mongolia
+  code: MNG
+  continent: Asia
+- name: Myanmar
+  code: MMR
   continent: Asia
 - name: Nepal
   code: NPL
   continent: Asia
+- name: North Korea
+  code: PRK
+  continent: Asia
+  aliases:
+    - "Korea, Democratic People's Republic of"
+- name: Oman
+  code: OMN
+  continent: Asia
+- name: Pakistan
+  code: PAK
+  continent: Asia
 - name: Palestine
   code: PSE
   continent: Asia
+  aliases:
+    - Palestine, State of
+    - West Bank
 - name: Philippines
   code: PHL
+  continent: Asia
+- name: Qatar
+  code: QAT
+  continent: Asia
+- name: Saudi Arabia
+  code: SAU
   continent: Asia
 - name: Singapore
   code: SGP
@@ -246,12 +571,24 @@
 - name: South Korea
   code: KOR
   continent: Asia
-  aliases: [Korea]
+  aliases:
+    - Korea
+    - Korea, Republic of
 - name: Sri Lanka
   code: LKA
   continent: Asia
+- name: Syria
+  code: SYR
+  continent: Asia
+  aliases:
+    - Syrian Arab Republic
 - name: Taiwan
   code: TWN
+  continent: Asia
+  aliases:
+    - Taiwan, Province of China
+- name: Tajikistan
+  code: TJK
   continent: Asia
 - name: Thailand
   code: THA
@@ -259,45 +596,222 @@
 - name: Turkey
   code: TUR
   continent: Asia
+  aliases:
+    - Türkiye
+- name: Turkmenistan
+  code: TKM
+  continent: Asia
 - name: United Arab Emirates
   code: ARE
   continent: Asia
-  aliases: [UAE]
+  aliases:
+    - UAE
+- name: Uzbekistan
+  code: UZB
+  continent: Asia
 - name: Vietnam
   code: VNM
+  continent: Asia
+  aliases:
+    - Viet Nam
+- name: Yemen
+  code: YEM
   continent: Asia
 
 # Africa
 # --------
+- name: Algeria
+  code: DZA
+  continent: Africa
+- name: Angola
+  code: AGO
+  continent: Africa
+- name: Benin
+  code: BEN
+  continent: Africa
 - name: Botswana
   code: BWA
+  continent: Africa
+- name: British Indian Ocean Territory
+  code: IOT
+  continent: Africa
+- name: Burkina Faso
+  code: BFA
+  continent: Africa
+- name: Burundi
+  code: BDI
+  continent: Africa
+- name: Cameroon
+  code: CMR
+  continent: Africa
+- name: Cape Verde
+  code: CPV
+  continent: Africa
+  aliases:
+    - Cabo Verde
+- name: Central African Republic
+  code: CAF
+  continent: Africa
+- name: Chad
+  code: TCD
+  continent: Africa
+- name: Comoros
+  code: COM
+  continent: Africa
+- name: Democratic Republic of the Congo
+  code: COD
+  continent: Africa
+  aliases:
+    - Congo, Democratic Republic of the
+- name: Djibouti
+  code: DJI
   continent: Africa
 - name: Egypt
   code: EGY
   continent: Africa
+- name: Equatorial Guinea
+  code: GNQ
+  continent: Africa
+- name: Eritrea
+  code: ERI
+  continent: Africa
+- name: Eswatini
+  code: SWZ
+  continent: Africa
+  aliases:
+    - Swaziland
 - name: Ethiopia
   code: ETH
   continent: Africa
+- name: French Southern and Antarctic Lands
+  code: ATF
+  continent: Africa
+  aliases:
+    - French Southern Territories
+- name: Gabon
+  code: GAB
+  continent: Africa
+- name: Gambia
+  code: GMB
+  continent: Africa
+- name: Ghana
+  code: GHA
+  continent: Africa
+- name: Guinea
+  code: GIN
+  continent: Africa
+- name: Guinea Bissau
+  code: GNB
+  continent: Africa
+  aliases:
+    - Guinea-Bissau
+- name: Ivory Coast
+  code: CIV
+  continent: Africa
+  aliases:
+    - "Côte d'Ivoire"
 - name: Kenya
   code: KEN
+  continent: Africa
+- name: Lesotho
+  code: LSO
+  continent: Africa
+- name: Liberia
+  code: LBR
+  continent: Africa
+- name: Libya
+  code: LBY
+  continent: Africa
+- name: Madagascar
+  code: MDG
+  continent: Africa
+- name: Malawi
+  code: MWI
+  continent: Africa
+- name: Mali
+  code: MLI
+  continent: Africa
+- name: Mauritania
+  code: MRT
+  continent: Africa
+- name: Mauritius
+  code: MUS
+  continent: Africa
+- name: Mayotte
+  code: MYT
   continent: Africa
 - name: Morocco
   code: MAR
   continent: Africa
+- name: Mozambique
+  code: MOZ
+  continent: Africa
 - name: Namibia
   code: NAM
   continent: Africa
+- name: Niger
+  code: NER
+  continent: Africa
+- name: Nigeria
+  code: NGA
+  continent: Africa
+- name: Republic of the Congo
+  code: COG
+  continent: Africa
+  aliases:
+    - Congo
 - name: Rwanda
   code: RWA
+  continent: Africa
+- name: Réunion
+  code: REU
+  continent: Africa
+- name: Saint Helena
+  code: SHN
+  continent: Africa
+  aliases:
+    - Saint Helena, Ascension and Tristan da Cunha
+- name: Sao Tome and Principe
+  code: STP
+  continent: Africa
+- name: Senegal
+  code: SEN
+  continent: Africa
+- name: Seychelles
+  code: SYC
+  continent: Africa
+- name: Sierra Leone
+  code: SLE
+  continent: Africa
+- name: Somalia
+  code: SOM
   continent: Africa
 - name: South Africa
   code: ZAF
   continent: Africa
+- name: South Sudan
+  code: SSD
+  continent: Africa
+- name: Sudan
+  code: SDN
+  continent: Africa
 - name: Tanzania
   code: TZA
   continent: Africa
+  aliases:
+    - Tanzania, United Republic of
+    - United Republic of Tanzania
+- name: Togo
+  code: TGO
+  continent: Africa
+- name: Tunisia
+  code: TUN
+  continent: Africa
 - name: Uganda
   code: UGA
+  continent: Africa
+- name: Western Sahara
+  code: ESH
   continent: Africa
 - name: Zambia
   code: ZMB
@@ -308,8 +822,17 @@
 
 # Oceania
 # ---------
+- name: American Samoa
+  code: ASM
+  continent: Oceania
 - name: Australia
   code: AUS
+  continent: Oceania
+- name: Christmas Island
+  code: CXR
+  continent: Oceania
+- name: Cocos (Keeling) Islands
+  code: CCK
   continent: Oceania
 - name: Cook Islands
   code: COK
@@ -323,11 +846,70 @@
 - name: Guam
   code: GUM
   continent: Oceania
+- name: Heard Island and McDonald Islands
+  code: HMD
+  continent: Oceania
+- name: Kiribati
+  code: KIR
+  continent: Oceania
+- name: Marshall Islands
+  code: MHL
+  continent: Oceania
+- name: Micronesia
+  code: FSM
+  continent: Oceania
+  aliases:
+    - Micronesia, Federated States of
+- name: Nauru
+  code: NRU
+  continent: Oceania
 - name: New Caledonia
   code: NCL
   continent: Oceania
 - name: New Zealand
   code: NZL
+  continent: Oceania
+- name: Niue
+  code: NIU
+  continent: Oceania
+- name: Norfolk Island
+  code: NFK
+  continent: Oceania
+- name: Northern Mariana Islands
+  code: MNP
+  continent: Oceania
+- name: Palau
+  code: PLW
+  continent: Oceania
+- name: Papua New Guinea
+  code: PNG
+  continent: Oceania
+- name: Pitcairn
+  code: PCN
+  continent: Oceania
+- name: Samoa
+  code: WSM
+  continent: Oceania
+- name: Solomon Islands
+  code: SLB
+  continent: Oceania
+- name: Tokelau
+  code: TKL
+  continent: Oceania
+- name: Tonga
+  code: TON
+  continent: Oceania
+- name: Tuvalu
+  code: TUV
+  continent: Oceania
+- name: United States Minor Outlying Islands
+  code: UMI
+  continent: Oceania
+- name: Vanuatu
+  code: VUT
+  continent: Oceania
+- name: Wallis and Futuna
+  code: WLF
   continent: Oceania
 
 # Antarctica
