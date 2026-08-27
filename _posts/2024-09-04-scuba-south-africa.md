@@ -14,6 +14,10 @@ header:
   overlay_filter: 0
 tags:
   - South Africa
+  - Scuba
+  - Wildlife
+  - Nature
+  - Food
 location:
   name: Whittle Rock, South Africa
   lat: -34.2474
