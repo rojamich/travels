@@ -29,10 +29,10 @@ entries:
     note: ""
     icon: ✈️
   - title: Hottest day
-    value: ""
-    unit: °F / °C
-    place: ""
-    date: null
+    value: "112"
+    unit: °F
+    place: Las Vegas, Nevada
+    date: 2025-07-15
     note: ""
     icon: 🥵
   - title: Coldest day
@@ -43,10 +43,10 @@ entries:
     note: ""
     icon: 🥶
   - title: Longest hike in one day
-    value: ""
-    unit: mi / km
-    place: ""
-    date: null
+    value: "20"
+    unit: mi
+    place: Mount San Jacinto
+    date: 2020-07-09
     note: ""
     icon: 🥾
   - title: Most expensive meal
