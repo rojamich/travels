@@ -226,6 +226,47 @@ def save_progress(progress):
         json.dump(progress, handle, indent=1, sort_keys=True)
 
 
+def mask(url):
+    """The CLOUDINARY_URL with the secret blanked, safe to print."""
+    return re.sub(r"://([^:]*):[^@]*@", lambda m: "://" + m.group(1) + ":***@", url)
+
+
+def credential_problem():
+    """None if Cloudinary accepts what is in the environment, else what to fix."""
+    import cloudinary
+    import cloudinary.api
+
+    url = os.environ.get("CLOUDINARY_URL", "")
+
+    # The commonest failure by a mile: the example from the header of this
+    # file pasted verbatim, angle brackets and all. Cloudinary then reports
+    # an invalid api_key of literally "<api_key>", which reads like a bug in
+    # the script rather than a placeholder that was never filled in.
+    if "<" in url or ">" in url:
+        return (
+            "CLOUDINARY_URL still has the placeholders in it:\n"
+            "    %s\n"
+            "Those angle brackets are meant to be replaced with the real\n"
+            "values, from the Cloudinary console: Settings -> API Keys. The\n"
+            "dashboard also shows the whole line ready to copy, labelled\n"
+            "'API environment variable'.\n\n"
+            "Nothing was uploaded." % mask(url)
+        )
+
+    try:
+        cloudinary.api.ping()
+    except Exception as exc:                          # noqa: BLE001
+        return (
+            "Cloudinary refused those credentials:\n"
+            "    %s\n"
+            "CLOUDINARY_URL is currently: %s\n"
+            "It should read cloudinary://KEY:SECRET@dgw35sldo with the real\n"
+            "key and secret from Settings -> API Keys.\n\n"
+            "Nothing was uploaded." % (exc, mask(url) or "not set at all")
+        )
+    return None
+
+
 # ---------------------------------------------------------------------------
 def main():
     parser = argparse.ArgumentParser(
@@ -264,12 +305,21 @@ def main():
     if args.apply:
         try:
             import cloudinary
+            import cloudinary.api
             import cloudinary.uploader
             cloudinary.config(secure=True)
             uploader = cloudinary.uploader
         except ImportError:
             print("The cloudinary package is missing: "
                   "pip install -r scripts/requirements.txt")
+            return 1
+
+        # Check the credentials once, before touching 233 images. Without this
+        # a bad CLOUDINARY_URL fails per-image, 233 times, with an API error
+        # that doesn't say what to do about it.
+        problem = credential_problem()
+        if problem:
+            print(problem)
             return 1
 
     progress = load_progress()
