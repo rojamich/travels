@@ -835,6 +835,7 @@ collections:
           - Libraries
           - London
           - LOTR
+          - Markets
           - MotorcycleTrip
           - Mountains
           - Movies
@@ -849,6 +850,7 @@ collections:
           - Oceania
           - PaddleBoarding
           - Paris
+          - Parks
           - Peru
           - PetSitting
           - Queenstown
@@ -953,6 +955,9 @@ collections:
       - label: "Canyons & Cairns"
         field: categories
         pattern: "canyons-cairns"
+      - label: "City of Empires"
+        field: categories
+        pattern: "city-of-empires"
       - label: "European Excursion"
         field: categories
         pattern: "european-excursion"
@@ -1181,6 +1186,7 @@ collections:
           - Libraries
           - London
           - LOTR
+          - Markets
           - MotorcycleTrip
           - Mountains
           - Movies
@@ -1195,6 +1201,7 @@ collections:
           - Oceania
           - PaddleBoarding
           - Paris
+          - Parks
           - Peru
           - PetSitting
           - Queenstown

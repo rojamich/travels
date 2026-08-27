@@ -75,6 +75,7 @@ tags:
   - name: Libraries
   - name: London
   - name: LOTR
+  - name: Markets
   - name: MotorcycleTrip
   - name: Mountains
   - name: Movies
@@ -89,6 +90,7 @@ tags:
   - name: Oceania
   - name: PaddleBoarding
   - name: Paris
+  - name: Parks
   - name: Peru
   - name: PetSitting
   - name: Queenstown
@@ -139,5 +141,3 @@ tags:
   - name: Winter
   - name: Workout
   - name: Zimbabwe
-  - name: Parks
-  - name: Markets
