@@ -1,13 +1,22 @@
 ---
-title: "More Embarrassment & the British Museum!"
+title: More Embarrassment & the British Museum!
 date: 2022-02-07
 categories:
   - european-excursion
 order: 2
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785669833/blogger-import/74eec2e3c8d1e8810bba.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785669847/blogger-import/5e77f489a930760a1ae5.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 9
+  overlay_filter: 0
 tags:
   - London
+  - Museums
 location:
-  name: "British Museum, London"
+  name: British Museum, London
   lat: 51.5194
   lng: -0.127
 ---
