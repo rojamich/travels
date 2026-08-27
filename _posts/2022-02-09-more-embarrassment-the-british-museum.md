@@ -1,6 +1,6 @@
 ---
 title: More Embarrassment & the British Museum!
-date: 2022-02-07
+date: 2022-02-08
 categories:
   - european-excursion
 order: 2
