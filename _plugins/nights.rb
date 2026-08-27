@@ -53,6 +53,25 @@
 # quietly disagree, the mismatch is reported on /admin-stats/ so the trip can
 # be corrected either way.
 #
+# LAYOVER — dismissing that report
+# Sometimes neither correction is right. A night in London on the way home
+# from Italy is a real night in a real country, but the United Kingdom was
+# never part of that trip and putting it in `countries:` would claim a visit
+# that didn't happen. `layover: true` on the post says exactly that: count
+# the night, and stop reporting the trip for not declaring the country.
+#
+# It is the flag to reach for when the report is right about the facts and
+# wrong about wanting them changed. Note how it differs from `transit`:
+#
+#   transit: true   we did NOT sleep here. The night is withheld and carries
+#                   forward to wherever they last actually stayed.
+#   layover: true   we DID sleep here, and this country is a waypoint rather
+#                   than a destination. The night is counted where it was
+#                   spent; only the audit report stands down.
+#
+# A layover marks the country for that trip, so a two-night stop needs the
+# flag only on the post that arrives there.
+#
 # Runs at :low, after country_data.rb has built the lookup tables.
 # =============================================================================
 module TravelBlog
@@ -145,13 +164,19 @@ module TravelBlog
       # not a place you slept — without this the layover steals that night from
       # wherever you actually woke up, and hands a country a night it never
       # had. The pin still shows on the map; only the night is withheld.
-      by_date = {}
+      by_date  = {}
+      # Countries a post has explicitly called a waypoint. Collected from the
+      # post that actually claims the day, so a `layover` flag on a post that
+      # loses the first-post-of-the-day tie doesn't quietly exempt a country.
+      layovers = []
       Array(posts).each do |post|
         next if post.data["transit"] == true
         c = canon(post.data.dig("location", "name"))
         next unless c
         d = post.date.to_date
-        by_date[d] ||= c
+        next if by_date.key?(d)
+        by_date[d] = c
+        layovers << c if post.data["layover"] == true
       end
 
       fallback = canon(trip.data["location"])
@@ -166,6 +191,7 @@ module TravelBlog
         by_country[country] += 1
 
         next if declared.empty? || declared.include?(country)
+        next if layovers.include?(country)
         @undeclared[[trip.data["title"] || trip_slug(trip), country]] += 1
       end
     end
