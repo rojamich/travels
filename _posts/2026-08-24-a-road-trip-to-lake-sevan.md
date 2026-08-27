@@ -16,13 +16,13 @@ tags:
   - Lake
   - Food
 new_tags: []
-location:
-  lat: 40.33
-  lng: 45.33
-  name: Lake Sevan, Armenia
-transit: false
-layover: false
 toc: false
+transit: false
+location:
+  lat: 40.5639
+  lng: 45.0108
+  name: Sevanavank, Armenia
+layover: false
 ---
 We woke up bright-eyed and bushy-tailed, ready to hit the gym before our road trip up to Lake Sevan! The lake isn't too far from us so it was nice to make time for a workout and to make breakfast!
 
