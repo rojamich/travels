@@ -3,7 +3,7 @@ title: More Embarrassment & the British Museum!
 date: 2022-02-08
 categories:
   - european-excursion
-order: 2
+order: 3
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785669833/blogger-import/74eec2e3c8d1e8810bba.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785669847/blogger-import/5e77f489a930760a1ae5.jpg
