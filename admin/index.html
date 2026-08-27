@@ -23,11 +23,24 @@
   <link rel="icon" href="data:," />
 </head>
 <body>
-  <!-- Decap CMS itself (the admin UI) -->
-  <script src="https://unpkg.com/decap-cms@^3.1.0/dist/decap-cms.js"></script>
+  <!--
+    Decap CMS itself (the admin UI), pinned to an exact version.
+
+    These used to ask for "^3.1.0", meaning whatever 3.x release existed at
+    the moment the page loaded. That is a stranger's release schedule wired
+    directly to the editor: a bad publish, and the next time she opens
+    /admin/ to write, it doesn't work — mid-trip, on hotel wifi, with no way
+    to tell what changed. The versions below are the ones the ranges resolved
+    to on 2026-08-27, so this pins today's behaviour rather than changing it.
+
+    To upgrade: bump the version, open /admin/, and check you can load a
+    post, upload a photo and save. Decap's release notes are at
+    https://github.com/decaporg/decap-cms/releases
+  -->
+  <script src="https://unpkg.com/decap-cms@3.15.1/dist/decap-cms.js"></script>
 
   <!-- Cloudinary media library plugin for Decap (drag-and-drop uploads) -->
-  <script src="https://unpkg.com/decap-cms-media-library-cloudinary@^3.0.0/dist/decap-cms-media-library-cloudinary.js"></script>
+  <script src="https://unpkg.com/decap-cms-media-library-cloudinary@3.1.0/dist/decap-cms-media-library-cloudinary.js"></script>
 
   <!-- Netlify Identity widget for login (handles invitation, password, sessions) -->
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -1652,6 +1665,79 @@
         );
       }
     });
+  </script>
+
+  <!--
+    =========================================================================
+    "NEEDS A HUMAN" NOTICE
+    =========================================================================
+    Almost everything on the site is computed from the posts and trips, so it
+    cannot quietly go out of date. A few files are typed by hand — the status
+    bar, the personal bests on /stats/, the country flags — and those rot
+    silently: a stale status bar looks exactly like a fresh one.
+
+    /admin-stats/ has always listed them, but only for someone who thinks to
+    open it. This brings the count to where she already is, once per editor
+    session, with a link to the detail.
+
+    The list comes from /admin-upkeep.json, which is generated at build time
+    from the same include /admin-stats/ renders, so the two can never
+    disagree. If the fetch fails — offline, or the file not built yet —
+    nothing is shown at all. A broken reminder should be invisible, not a
+    scary error in an editor she is trying to write in.
+    =========================================================================
+  -->
+  <script>
+    (function () {
+      // Once per session: seeing it on every save would train her to ignore it.
+      try {
+        if (sessionStorage.getItem("upkeep-notice-dismissed") === "1") return;
+      } catch (e) { /* private mode — just show it */ }
+
+      function show(count) {
+        var bar = document.createElement("div");
+        bar.style.cssText =
+          "position:fixed;bottom:0;left:0;right:0;padding:10px 16px;" +
+          "background:#fbf7ef;border-top:1px solid #e7dcc7;color:#3d3226;" +
+          "font:14px/1.45 system-ui,sans-serif;text-align:center;" +
+          "z-index:2147483646;box-shadow:0 -2px 8px rgba(0,0,0,0.08);";
+
+        var text = document.createElement("span");
+        text.textContent = count === 1
+          ? "1 thing on the site needs updating by hand. "
+          : count + " things on the site need updating by hand. ";
+        bar.appendChild(text);
+
+        var link = document.createElement("a");
+        link.href = "/admin-stats/";
+        link.target = "_blank";
+        link.rel = "noopener";
+        link.textContent = "See what";
+        link.style.cssText = "color:#1F4858;font-weight:600;";
+        bar.appendChild(link);
+
+        var close = document.createElement("button");
+        close.type = "button";
+        close.textContent = "Dismiss";
+        close.style.cssText =
+          "margin-left:14px;border:1px solid #d8cbb4;background:#fff;" +
+          "border-radius:6px;padding:3px 10px;cursor:pointer;color:#3d3226;";
+        close.addEventListener("click", function () {
+          try { sessionStorage.setItem("upkeep-notice-dismissed", "1"); } catch (e) {}
+          bar.remove();
+        });
+        bar.appendChild(close);
+
+        document.body.appendChild(bar);
+      }
+
+      fetch("/admin-upkeep.json", { cache: "no-store" })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (data) {
+          if (data && typeof data.count === "number" && data.count > 0) show(data.count);
+        })
+        .catch(function () { /* say nothing */ });
+    })();
   </script>
 </body>
 </html>

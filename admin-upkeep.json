@@ -1,0 +1,37 @@
+---
+# At the repo root, not in _pages/, because _config.yml gives everything in
+# _pages/ `layout: single` — which would wrap this in the site's HTML and it
+# would stop being JSON. manifest.json sits out here for the same reason.
+# `layout: null` says it again, in case the defaults ever change.
+layout: null
+permalink: /admin-upkeep.json
+sitemap: false
+---
+{%- comment -%}
+=============================================================================
+admin-upkeep.json — the "needs a human" list, for the editor to read
+=============================================================================
+/admin/ fetches this and shows a quiet banner when there is something to do,
+so the reminder reaches her where she already is instead of waiting on a page
+she has no reason to open.
+
+A COUNT, AND NOTHING ELSE
+This file carries the number and no detail, on purpose. Netlify serves static
+files to anyone who asks for the URL — a login can only be checked after the
+file has already been sent (see _includes/admin-gate.html) — so whatever is
+written here is public whether or not the page that reads it is gated. The
+number is worth nothing to a stranger. The sentences, which name what is
+half-finished about the site, stay on /admin-stats/ behind the login.
+
+The count is computed in _includes/upkeep-data.html, the same include
+/admin-stats/ renders, so the banner and the dashboard cannot disagree.
+
+No layout, and the front matter above is what makes Jekyll run Liquid here.
+=============================================================================
+{%- endcomment -%}
+{%- include country-data.html -%}
+{%- include upkeep-data.html -%}
+{
+  "generated": {{ site.time | date_to_xmlschema | jsonify }},
+  "count": {{ upkeep.size }}
+}

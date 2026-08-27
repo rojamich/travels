@@ -1,0 +1,86 @@
+{%- comment -%}
+=============================================================================
+admin-gate.html — require the editor login before showing an admin page
+=============================================================================
+Drop this in at the TOP of any page meant for the two of us:
+
+    {% raw %}{% include admin-gate.html %}{% endraw %}
+
+It hides the page, asks Netlify Identity who is here, and either reveals it
+or sends them to /login/ with a `next` so they land back here afterwards.
+Same login, same session, same Identity backend as /admin/ — logging into
+one logs you into the other.
+
+WHAT THIS DOES AND DOESN'T DO
+Read this before trusting it with anything that actually matters.
+
+It stops a visitor, a search engine or a shared link from showing the page.
+That is what it is for, and for view counts and housekeeping notes it is the
+right size of lock.
+
+It does NOT stop someone who knows the URL from reading the page's HTML
+directly — `curl https://…/admin-stats/` still returns it, because Netlify
+serves the file before any of this JavaScript runs. Checking a login BEFORE
+serving a page is Netlify's role-based access control, which needs a
+Business plan; on this one, a static file is public the moment it is built.
+
+So: nothing secret goes on a gated page. Not a key, not a password, not a
+reader's personal detail. The rule to hold to is that everything here is
+already public somewhere else, just gathered up and inconvenient to find —
+which is exactly what /admin-stats/ is.
+
+If that ever stops being true, the real fix is to stop building the content
+into a static file at all: serve it from a Netlify Function that verifies the
+Identity token against /.netlify/identity/user, and have the page fetch it
+after login. That works on any plan. It is a bigger change, and worth it only
+when there is something on the page worth protecting.
+
+FAILING CLOSED
+If the Identity widget doesn't load, this sends you to /login/ rather than
+showing the page — /login/ says so plainly in that case. Better a locked door
+you can knock on than one that opens when the lock breaks.
+=============================================================================
+{%- endcomment -%}
+
+<style>
+  /* Hidden up front, revealed only once Identity confirms a session. Inline
+     and before the content so nothing paints first — a page that flashes and
+     then redirects has already shown what it was hiding. */
+  body { visibility: hidden; }
+</style>
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  (function () {
+    function reveal() { document.body.style.visibility = "visible"; }
+
+    function toLogin() {
+      var here = window.location.pathname + window.location.search;
+      window.location.replace("/login/?next=" + encodeURIComponent(here));
+    }
+
+    // Same wait the /login/ page uses: the widget auto-initialises after it
+    // loads, and `gotrue` appearing is the signal that a stored session has
+    // been recovered and currentUser() can be trusted.
+    function waitForIdentity(tries) {
+      tries = tries || 0;
+      if (window.netlifyIdentity && netlifyIdentity.gotrue) {
+        var user = netlifyIdentity.currentUser && netlifyIdentity.currentUser();
+        if (user) { reveal(); } else { toLogin(); }
+      } else if (tries < 50) {
+        setTimeout(function () { waitForIdentity(tries + 1); }, 100);
+      } else {
+        toLogin();
+      }
+    }
+
+    waitForIdentity(0);
+
+    // Logging out in another tab shouldn't leave this one sitting open.
+    window.addEventListener("pageshow", function (e) {
+      if (!e.persisted) return;
+      var user = window.netlifyIdentity && netlifyIdentity.currentUser && netlifyIdentity.currentUser();
+      if (!user) { toLogin(); }
+    });
+  })();
+</script>

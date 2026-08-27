@@ -1,0 +1,117 @@
+{%- comment -%}
+=============================================================================
+upkeep-data.html — the short list of things nobody computes
+=============================================================================
+Sets `upkeep`: a list of sentences about hand-kept data that has gone stale
+or was never filled in. Empty list means there is nothing to say.
+
+Almost everything on this site is computed from the posts and trips on every
+build, so it can't quietly go wrong. A few files aren't — the status bar, the
+personal bests, the flags — and a stale one looks exactly like a fresh one.
+This is what notices.
+
+REQUIRES `visited_countries`, so include country-data.html first.
+
+Included by:
+  _pages/admin-stats.html   renders it as the "Needs a human" panel
+  admin-upkeep.json         the same list as JSON, which /admin/ fetches to
+                            put a quiet banner in the editor (repo root, so it
+                            escapes the layout every _pages/ file inherits)
+
+Both read this one file, so the editor's banner and the dashboard can never
+say different things.
+
+ADDING A CHECK: work it out here from data that already exists and push a
+sentence onto `upkeep`. Don't add a check that needs its own copy of
+something the site already knows — a reminder that drifts is worse than no
+reminder. Keep the markup to <strong> and <em>: the JSON version strips tags.
+=============================================================================
+{%- endcomment -%}
+{%- assign upkeep = "" | split: "," -%}
+
+{%- comment -%} The status bar: right until they move, then wrong and silent. {%- endcomment -%}
+{%- assign here = site.data.status.current_location | default: "" -%}
+{%- comment -%}
+  Nested rather than one `and` chain on purpose: Liquid evaluates `and`
+  right to left, so the comparison would run before the check that there is
+  anything to compare, and comparing nil to a number is an error rather than
+  a false. The plugin is skipped in safe mode and says nothing when git has
+  no answer, so nil here is a case that will happen.
+{%- endcomment -%}
+{%- if site.data.freshness.status -%}
+{%- if here != "" and site.data.freshness.status.days > 30 -%}
+  {%- capture row -%}
+The bar on every page still says <strong>{{ here }}</strong>{% if site.data.status.next_destination and site.data.status.next_destination != "" %}, next stop {{ site.data.status.next_destination }}{% endif %}. Last changed {{ site.data.freshness.status.days }} days ago, on {{ site.data.freshness.status.date }} — worth a look if you've moved since. <em>Editor → Site Settings → Status bar.</em>
+  {%- endcapture -%}
+  {%- assign upkeep = upkeep | push: row -%}
+{%- endif -%}
+{%- endif -%}
+
+{%- comment -%} Personal bests with no number yet — invisible on /stats/. {%- endcomment -%}
+{%- assign blank_records = 0 -%}
+{%- assign total_records = 0 -%}
+{%- for r in site.data.records.entries -%}
+  {%- assign has_title = r.title | default: "" | strip -%}
+  {%- if has_title != "" -%}
+    {%- assign total_records = total_records | plus: 1 -%}
+    {%- assign v = r.value | default: "" -%}
+    {%- assign v = v | append: "" | strip -%}
+    {%- if v == "" -%}{%- assign blank_records = blank_records | plus: 1 -%}{%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if blank_records > 0 -%}
+  {%- capture row -%}
+<strong>{{ blank_records }}</strong> of {{ total_records }} personal bests still have no number, so they don't appear on /stats/ at all — the page only shows a record once it has both a title and a value. Fill one in or delete the row. <em>Editor → Site Settings → Leaderboard.</em>
+  {%- endcapture -%}
+  {%- assign upkeep = upkeep | push: row -%}
+{%- endif -%}
+
+{%- comment -%} Countries counted, but with no flag beside the name. {%- endcomment -%}
+{%- assign no_flag = "" | split: "," -%}
+{%- for c in visited_countries -%}
+  {%- assign found = false -%}
+  {%- for e in site.data.country_images.entries -%}
+    {%- if e.name == c -%}
+      {%- assign u = e.url | default: "" | strip -%}
+      {%- if u != "" -%}{%- assign found = true -%}{%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- unless found -%}{%- assign no_flag = no_flag | push: c -%}{%- endunless -%}
+{%- endfor -%}
+{%- if no_flag.size > 0 -%}
+  {%- capture row -%}
+<strong>{{ no_flag.size }}</strong> visited {% if no_flag.size == 1 %}country has{% else %}countries have{% endif %} no flag on /stats/ — the chip just shows the name: {{ no_flag | join: ", " }}. <em>Editor → Site Settings → Country flag images.</em>
+  {%- endcapture -%}
+  {%- assign upkeep = upkeep | push: row -%}
+{%- endif -%}
+
+{%- comment -%}
+  A flag filed under a name no trip can produce. It will never match a chip,
+  so the entry is dead weight and the country stays flagless.
+{%- endcomment -%}
+{%- assign orphan_flag = "" | split: "," -%}
+{%- for e in site.data.country_images.entries -%}
+  {%- assign n = e.name | default: "" | strip -%}
+  {%- if n != "" and site.data.country_aliases[n] == nil -%}
+    {%- assign orphan_flag = orphan_flag | push: n -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if orphan_flag.size > 0 -%}
+  {%- capture row -%}
+{{ orphan_flag.size }} flag {% if orphan_flag.size == 1 %}image is{% else %}images are{% endif %} filed under a name no country resolves to, so {% if orphan_flag.size == 1 %}it{% else %}they{% endif %} can never show: {{ orphan_flag | join: ", " }}. Check the spelling against _data/countries.yml.
+  {%- endcapture -%}
+  {%- assign upkeep = upkeep | push: row -%}
+{%- endif -%}
+
+{%- comment -%} Posts with no coordinates never appear on a map. {%- endcomment -%}
+{%- assign no_location = 0 -%}
+{%- for post in site.posts -%}
+  {%- unless post.location.lat -%}{%- assign no_location = no_location | plus: 1 -%}{%- endunless -%}
+{%- endfor -%}
+{%- if no_location > 0 -%}
+  {%- capture row -%}
+<strong>{{ no_location }}</strong> of {{ site.posts | size }} posts have no location, so they don't appear on the trip route or the world map. Some of those are deliberate — a letter home doesn't need a pin — but this is where a forgotten one shows up.
+  {%- endcapture -%}
+  {%- assign upkeep = upkeep | push: row -%}
+{%- endif -%}
+
