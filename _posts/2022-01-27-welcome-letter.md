@@ -8,13 +8,16 @@ header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/v1780792557/20220207_184340a_2_rxmpdj.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780795142/20220209_084603_-_Copy_k2hagz.jpg
   overlay_filter: 0.1
+  teaser_focal_x: 50
+  teaser_focal_y: 41
+  overlay_focal_x: 50
+  overlay_focal_y: 53
 location:
   name: London, UK
   lat: 51.5074
   lng: -0.1278
 ---
-
-**  Welcome, Friends & Family!**
+**Welcome, Friends & Family!**
 
 Thanks for subscribing to our adventures in the UK and Europe! We will be leaving for London, first, in early February. 
 
