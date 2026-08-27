@@ -1,13 +1,24 @@
 ---
-title: "The London Skyline"
-date: 2022-02-08
+title: The London Skyline
+date: 2022-02-09
 categories:
   - european-excursion
-order: 3
+order: 4
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785670025/blogger-import/95b52980bc2a3eb66185.jpg
+  overlay_filter: 0
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785674393/blogger-import/6a1ff47ca5552ed1f4d2.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 35
+  overlay_focal_x: 50
+  overlay_focal_y: 60
 tags:
   - London
+  - Sight-Seeing
+  - City
+  - Cityscapes
 location:
-  name: "London, UK"
+  name: London, UK
   lat: 51.5074
   lng: -0.1278
 ---
