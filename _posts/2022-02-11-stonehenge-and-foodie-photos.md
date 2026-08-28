@@ -3,7 +3,7 @@ title: Stonehenge and Foodie Photos
 date: 2022-02-09
 categories:
   - european-excursion
-order: 4
+order: 4.5
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787508783/blogger-import/d09a071e348a594bb7f9.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787508783/blogger-import/d09a071e348a594bb7f9.jpg
