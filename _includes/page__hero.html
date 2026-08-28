@@ -27,7 +27,20 @@ changes its banner markup, re-copy the file from
 and re-apply the marked block. Everything else here is the theme's, untouched.
 =============================================================================
 {%- endcomment -%}
-{% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
+{%- comment -%}
+  ---- second change from the theme: ask for the banner at its real size ----
+  Every URL the editor writes carries w_1200, because that is the right size
+  for a photo in the post column. A banner is not in the column — it spans the
+  whole window, so on any screen wider than 1200px the browser is stretching a
+  1200px image, and it shows.
+
+  Cloudinary's c_limit never upscales, so asking for 2000 returns whatever the
+  stored photo actually has and nothing more: a 1600px photo comes back at
+  1600, and one that only exists at 900 comes back at 900, unharmed. Nothing
+  is re-uploaded and no post is edited — the request simply stops asking for
+  less than the photo has.
+{%- endcomment -%}
+{% capture overlay_img_path %}{{ page.header.overlay_image | replace: 'w_1200', 'w_2000' | relative_url }}{% endcapture %}
 
 {% if page.header.overlay_filter contains "gradient" %}
   {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
