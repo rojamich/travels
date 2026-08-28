@@ -1,17 +1,24 @@
 ---
-title: "A Final Note on London"
-date: 2022-02-10
+title: A Final Note on London
+date: 2022-02-11
 categories:
   - european-excursion
-order: 5.1
+order: 6
+header:
+  overlay_filter: 0
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787858873/blogger-import/e4627749f002741cf7d1.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787930585/blogger-import/67f9f5c44470750ab0c7.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 10
+  overlay_focal_x: 50
+  overlay_focal_y: 100
 tags:
   - London
 location:
-  name: "London, UK"
+  name: London, UK
   lat: 51.5074
   lng: -0.1278
 ---
-
 Some things we wish we had done/known for London.
 
 Two more days would have been ideal for London. Less rushing around and a more relaxed atmosphere would have helped us be more immersed in the vacation and absorb London better. A whole day trip to Stonehenge is really necessary if you want to grasp the entire journey the creators likely went through. I think I would have preferred to drive out there ourselves and also stay a night in Salisbury! That town was just dang cute!
@@ -32,10 +39,10 @@ The diversity of languages there was surprising! We thought most stores would ha
 
 In London, it took forever to remember everyone drives on the left side of the road! So, you also need to remember to go up and down stairs on the left side and walk on the left side of the sidewalks. 
 
-Days visited: February 7th\- 11th
+**Days visited**: February 7th- 11th
 
-Daily weather: High 40s in the morning and evenings, mid 50s in the middle of the day.
+**Daily weather**: High 40s in the morning and evenings, mid 50s in the middle of the day.
 
-Total distance walked: 42.2 miles
+**Total distance walked**: 42.2 miles
 
-Transportations used: metro, buses, train, uber, and walking.
+**Transportations used**: metro, buses, train, uber, and walking.
