@@ -4,9 +4,9 @@ reimport_lowres_blogger_images.py — replace the thumbnails the import brought 
 =============================================================================
 WHAT WENT WRONG
     Blogger embeds a resized copy of each photo in the post HTML, and the URL
-    says which size: it ends in `=s320`. migrate_blogger_images.py fetched the
-    URLs it found, so for 233 of the 6,052 images what landed in Cloudinary is
-    a 320px thumbnail rather than the photo.
+    says which size — either `=s320` or `=w222-h296`. migrate_blogger_images.py
+    fetched the URLs it found, so what landed in Cloudinary for several hundred
+    of the 6,052 images is a thumbnail rather than the photo.
 
     Nothing about that is visible until the image is asked to be big. A 320px
     file looks fine in the body of a post and falls apart stretched across a
@@ -105,7 +105,11 @@ GOOD_ENOUGH = 1000               # already this wide in Cloudinary: leave it alo
 USER_AGENT = "Mozilla/5.0 (travel-blog reimport script)"
 
 PUBLIC_ID_RE = re.compile(r"/(blogger-import/[A-Za-z0-9_-]+)\.[A-Za-z0-9]+")
-SIZE_SUFFIX_RE = re.compile(r"=s\d+(-[a-z0-9]+)*$")
+# Blogger writes the size two ways: "=s320" and "=w222-h296". The second
+# shape was missed on the first pass, which left ~100 body photos as
+# thumbnails after the =s320 ones were fixed.
+SIZE_SUFFIX_RE = re.compile(r"=(?:s\d+|w\d+-h\d+)(-[a-z0-9]+)*$")
+IMPORTED_SIZE_RE = re.compile(r"=(?:s(\d+)|w(\d+)-h\d+)")
 
 
 # ---------------------------------------------------------------------------
@@ -195,8 +199,11 @@ def candidates(mapping, thumb_max, only_used):
     used = assets_in_use() if only_used else None
     out = []
     for source_url, cloudinary_url in mapping.items():
-        size_match = re.search(r"=s(\d+)", source_url)
-        if not size_match or int(size_match.group(1)) > thumb_max:
+        size_match = IMPORTED_SIZE_RE.search(source_url)
+        if not size_match:
+            continue
+        imported_width = int(size_match.group(1) or size_match.group(2))
+        if imported_width > thumb_max:
             continue
         public_id = public_id_of(cloudinary_url)
         if not public_id:
@@ -205,7 +212,7 @@ def candidates(mapping, thumb_max, only_used):
             continue
         out.append({"public_id": public_id, "source": source_url,
                     "cloudinary": cloudinary_url,
-                    "imported_at": int(size_match.group(1))})
+                    "imported_at": imported_width})
     out.sort(key=lambda item: item["public_id"])
     return out
 
