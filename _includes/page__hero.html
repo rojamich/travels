@@ -1,0 +1,93 @@
+{%- comment -%}
+=============================================================================
+page__hero.html — Minimal Mistakes' banner, with one change
+=============================================================================
+A LOCAL COPY of the theme's include (4.26.2). Jekyll prefers _includes/ here
+over the remote theme's, so this file wins.
+
+WHY IT EXISTS
+The banner prints the post's excerpt under the title, and Jekyll's excerpt is
+simply the first block of the post. When a post opens with a photo, that first
+block IS the photo — so the theme rendered a full <img> inside the banner,
+sitting on top of the banner image. Two photos, overlapping, on the posts that
+lead with a picture.
+
+THE CHANGE
+One spot, marked below: the lead is stripped of HTML, so an image can never
+appear there. If stripping leaves nothing — an image-only first block — it
+falls back to the first text in the post rather than showing an empty line.
+Text still reads as text; images never make it into the banner.
+
+KEEPING IT IN STEP
+This is a copy, so a theme upgrade will not reach it. If minimal-mistakes
+changes its banner markup, re-copy the file from
+
+    https://raw.githubusercontent.com/mmistakes/minimal-mistakes/<version>/_includes/page__hero.html
+
+and re-apply the marked block. Everything else here is the theme's, untouched.
+=============================================================================
+{%- endcomment -%}
+{% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
+
+{% if page.header.overlay_filter contains "gradient" %}
+  {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
+{% elsif page.header.overlay_filter contains "rgba" %}
+  {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
+  {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+{% elsif page.header.overlay_filter %}
+  {% capture overlay_filter %}rgba(0, 0, 0, {{ page.header.overlay_filter }}){% endcapture %}
+  {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+{% endif %}
+
+{% if page.header.image_description %}
+  {% assign image_description = page.header.image_description %}
+{% else %}
+  {% assign image_description = page.title %}
+{% endif %}
+
+{% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
+
+<div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
+  style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}"
+>
+  {% if page.header.overlay_color or page.header.overlay_image %}
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        {% if paginator and site.paginate_show_page_num %}
+          {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
+        {% else %}
+          {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+        {% endif %}
+      </h1>
+      {%- comment -%} ---- the one change from the theme: text only ---- {%- endcomment -%}
+      {%- assign hero_lead = page.excerpt | markdownify | strip_html | normalize_whitespace | strip -%}
+      {%- if hero_lead == "" -%}
+        {%- comment -%}
+          The excerpt was nothing but a photo. Take the first text from the post
+          body instead, so a picture-led post still gets a sentence under its
+          title rather than a blank space.
+        {%- endcomment -%}
+        {%- assign hero_lead = page.content | markdownify | strip_html | normalize_whitespace | strip | truncate: 200 -%}
+      {%- endif -%}
+      {% if page.tagline %}
+        <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% elsif page.header.show_overlay_excerpt != false and hero_lead != "" %}
+        <p class="page__lead">{{ hero_lead }}</p>
+      {% endif %}
+      {%- comment -%} ---- end of the change ---- {%- endcomment -%}
+      {% include page__meta.html %}
+      {% if page.header.actions %}
+        <p>
+        {% for action in page.header.actions %}
+          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+        {% endfor %}
+        </p>
+      {% endif %}
+    </div>
+  {% else %}
+    <img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
+  {% endif %}
+  {% if page.header.caption %}
+    <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+  {% endif %}
+</div>
