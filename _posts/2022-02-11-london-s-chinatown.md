@@ -14,6 +14,9 @@ header:
   overlay_filter: 0
 tags:
   - London
+  - Dessert
+  - City
+  - Cityscapes
 location:
   name: London Chinatown
   lat: 51.5114
