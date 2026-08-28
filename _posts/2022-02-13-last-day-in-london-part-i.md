@@ -18,6 +18,7 @@ tags:
   - Food
   - Tours
   - Sunrise
+  - Towers
 location:
   name: London, UK
   lat: 51.5074
