@@ -17,6 +17,7 @@ tags:
   - Food
   - Dessert
   - Trains
+  - Sight-Seeing
 location:
   name: Stonehenge, UK
   lat: 51.1789
