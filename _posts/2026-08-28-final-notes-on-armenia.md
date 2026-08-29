@@ -6,7 +6,7 @@ categories:
 order: 15
 header:
   teaser_focal_x: 50
-  teaser_focal_y: 50
+  teaser_focal_y: 89
   overlay_focal_x: 50
   overlay_focal_y: 50
   overlay_filter: 0.4
@@ -17,42 +17,40 @@ new_tags: []
 stay: night
 toc: false
 ---
-Holy Smokes! Vietnam really knocked our socks off and I was not expecting that at all! I guess love really comes when you least expect it 😍
+We had no idea what to really expect from Armenia and were so pleasantly surprised by the food, art 🖼️, kindness of the locals, nature 🌳 and coffee ☕!
 
-The food and amount of veggies in every dish, how patient everyone was and kind about our attempts at Vietnamese. The green cities and the wind in our hair during the motorcycle rides made this a truly magical trip.
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787830058%2F20260826_103011_julocl.jpg%22%7D%2C%7B%22x%22%3A%2289%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787484205%2F20260815_144841_zxcedz.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2278%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788018911%2F20260818_115921_fxcrj5.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-We saw many sites we couldn’t even imagine and the beauty really took our breath away. Some areas were chaotic and others peaceful. Sometimes the food was so spicy my eyes teared up. Other times, I learned my hair can take 20 minutes to dry if you have two people with two blow dryers going at once 🤣
+I was admittedly nervous about trying the food — per the usual. I am not very adventurous in that venue yet. Thanks to Mike urging me out of my comfort zone, we discovered how many delicious dishes Armenia has to offer 🍲🫓🍛
 
-Mike and I used the eSIM app here, which worked well everywhere we went! Wifi was also available in most restaurants with the code almost always being the same series of numbers (everywhere!)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787766365/20260824_185242_gn24tx.jpg)
 
-We utilized planes, trains, buses, grab, walking, bicycles, motorbikes, and ferries for our modes of transportation here!
+Mike and I used the eSIM app: Redex here, which worked well everywhere we went! Wifi was also available in most restaurants and cafes. There were a lot of working cafes here where we could order coffee and set up our laptops with plenty of room. 
 
+We used the metro, gg (aka uber), walking, and a rental car for our modes of transportation here!
 
+Some things we wish we had done/known for Armenia.
 
-Some things we wish we had done/known for Amsterdam.
+We probably could’ve spent months enjoying and exploring this country! Right now we are in exploration mode where we determine places we would enjoy staying for longer periods of time. This is to ensure we aren't stuck somewhere we detest. We discovered that Yerevan offers a variety of food types (local and foreign) and so much history that we didn't even make it to! And we stumbled on so many works of art on random streets that it really made it fun to "get lost" and flâner here.
 
-I probably could’ve spent a week in Amsterdam. There were so many food choices, so much to explore and the tulips weren’t in season yet so I would love to see the fields there, next time!
+Walking and the metro were the most convenient ways to get around. Sometimes traffic could be quite a pain if you're in a car.
 
-The COVID regulations were laxed and no proof of vaccination or testing was necessary here. No masks was something we had to get used to but it was so nice!
+The water here in Yerevan is great from the tap but not up in Dilijan — we brought our own bottled water for the overnight. 
 
-Both the Labara and EE sim cards worked here.
+Days visited: August 15-30th, 2026.
 
-Walking here was the most convenient way to get around. Biking is great if you’re going further.
+Daily weather: High 80°Fs- low 90s (27°C to 34°C) during the day, mid-50s to 60s at night.
 
-The water here is great from the tap! The Dutch are very proud of their mineral water on tap. Bathrooms are hard to find minus the outdoor urinals for men!
+Total distance walked: 87.99
 
-Days visited: March 14th – 17th
-
-Daily weather: High 40s in the morning and evenings, mid-50s in the middle of the day.
-
-Total distance walked: 32.23 miles
-
-Transportations used walking and biking.
-
-Total trip mileage walked: 337.63 miles
-
-That’s like walking from Sacramento, CA to Grants Pass, Oregon!
+That's like walking from Sacramento, CA to San Francisco, CA! 🌉
 
 OR
 
-Savannah, Ga to Tampa, Florida
+Savannah, GA to Brunswick, GA! 
+
+OR 
+
+Portland, OR to Corvallis, OR! 🌲
+
+Please join us for our next new and exciting adventure to [Istanbul](https://where-in-the-world-are-mike-and-jen.netlify.app/city-of-empires/)!
