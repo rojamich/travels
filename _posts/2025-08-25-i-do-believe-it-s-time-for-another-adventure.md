@@ -6,7 +6,7 @@ categories:
 order: 0
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783871634/Globetrotting_duo_and_dreamy_landmarks_gvy1pp.png
-  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783871640/image_1_r7ulaw.png
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787933031/240_F_315460335_FoMo2AVXbEvgHH32wRHMbXgCRa9XId0N_ne3ohl.jpg
   teaser_focal_x: 50
   teaser_focal_y: 24
   overlay_focal_x: 50
