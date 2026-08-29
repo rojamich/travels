@@ -49,7 +49,7 @@ That's like walking from Sacramento, CA to San Francisco, CA! 🌉
 
 OR
 
-Savannah, GA to Brunswick, GA! 
+Savannah, GA to Brunswick, GA🐊! 
 
 OR 
 
