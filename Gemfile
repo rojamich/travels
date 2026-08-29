@@ -22,7 +22,6 @@ gem "sass-embedded", "< 1.100.0"
 # Plugins. These must also be listed in _config.yml under `plugins:`.
 group :jekyll_plugins do
   gem "jekyll-include-cache"
-  gem "jekyll-paginate"
   gem "jekyll-sitemap"
   gem "jekyll-feed"
   gem "jekyll-seo-tag"

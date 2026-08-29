@@ -78,7 +78,6 @@ map:
 # These must also be listed in the Gemfile.
 plugins:
   - jekyll-include-cache       # Required by Minimal Mistakes for performance
-  - jekyll-paginate            # For paginated post lists (older/newer)
   - jekyll-sitemap             # Auto-generates sitemap.xml for search engines
   - jekyll-feed                # Auto-generates RSS/Atom feed
   - jekyll-seo-tag             # Adds SEO meta tags automatically
@@ -109,9 +108,12 @@ cusdis_app_id: "7db99976-0c56-4488-bbbc-70579203ed05"               # PASTE YOUR
 # like /iceland-2024/day-1-reykjavik/
 permalink: /:categories/:title/
 
-# Show 10 posts per archive page. Older ones get paginated.
-paginate: 10
-paginate_path: /page:num/
+# NO PAGINATION. The home page is a hand-built landing page that lists trips
+# itself and never touches `paginator`, so this was doing nothing useful — but
+# jekyll-paginate still generated one page per ten posts (30 of them) and gave
+# them all index.html's `permalink: /`, so all 30 tried to write to the same
+# file. That is the other conflict in the build log, and why /page2/ was a 404
+# the whole time. Removed along with the plugin.
 
 # Use Markdown processor "kramdown" with GitHub-Flavored Markdown.
 markdown: kramdown
@@ -168,9 +170,18 @@ defaults:
 # (metadata in front matter, optional intro text in body). Replaces the old
 # _data/trips.yml — done this way so Decap CMS can edit trips visually.
 collections:
-  pages:
-    output: true
-    permalink: /:path/
+  # NOTE: there is deliberately no `pages` collection here. _pages is on the
+  # `include:` list below, which is all Jekyll needs to build those files as
+  # ordinary pages — each one carries its own `permalink:`. Declaring it as a
+  # collection as well built every page TWICE, both copies writing to the same
+  # file, which is what filled the build log with:
+  #
+  #     Conflict: The following destination is shared by multiple files.
+  #      - _pages/about.md
+  #      - /opt/build/repo/_pages/about.md
+  #
+  # Same content both times, so nothing was visibly wrong — just the same work
+  # done twice and a warning nobody could act on.
   trips:
     output: true
     permalink: /:name/
