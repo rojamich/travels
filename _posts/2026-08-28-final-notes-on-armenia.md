@@ -29,19 +29,21 @@ Mike and I used the eSIM app: Redex here, which worked well everywhere we went! 
 
 We used the metro, gg (aka uber), walking, and a rental car for our modes of transportation here!
 
-Some things we wish we had done/known for Armenia.
+Some things we wish we had done/known for Armenia:
 
-We probably could’ve spent months enjoying and exploring this country! Right now we are in exploration mode where we determine places we would enjoy staying for longer periods of time. This is to ensure we aren't stuck somewhere we detest. We discovered that Yerevan offers a variety of food types (local and foreign) and so much history that we didn't even make it to! And we stumbled on so many works of art on random streets that it really made it fun to "get lost" and flâner here.
+* We probably could’ve spent months enjoying and exploring this country! Right now we are in exploration mode where we determine places we would enjoy staying for longer periods of time. This is to ensure we aren't stuck somewhere we detest. 
+* We discovered that Yerevan offers a variety of food types (local and foreign) and so much history that we didn't even make it to! 
+* And we stumbled on so many works of art on random streets that it really made it fun to "get lost" and flâner here.
 
-Walking and the metro were the most convenient ways to get around. Sometimes traffic could be quite a pain if you're in a car.
+Walking and the metro were the most convenient ways to get around. Sometimes traffic could be quite a pain if you're in a car🚗.
 
-The water here in Yerevan is great from the tap but not up in Dilijan — we brought our own bottled water for the overnight. 
+The water here in Yerevan is great from the tap but not up in Dilijan — we brought our own bottled water for the overnight 🫗. 
 
-Days visited: August 15-30th, 2026.
+**Days visited**: August 15-30th, 2026.
 
-Daily weather: High 80°Fs- low 90s (27°C to 34°C) during the day, mid-50s to 60s at night.
+**Daily weather**: High 80°Fs- low 90s (27°C to 34°C) during the day, mid-50s to 60s (10°C to 15.6°C) at night.
 
-Total distance walked: 87.99
+**Total distance walked**: 87.99
 
 That's like walking from Sacramento, CA to San Francisco, CA! 🌉
 
