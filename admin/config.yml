@@ -891,6 +891,7 @@ collections:
           - Trains
           - Transportation
           - TravelDay
+          - TripSummary
           - USA
           - VendingMachines
           - Vietnam
@@ -1242,6 +1243,7 @@ collections:
           - Trains
           - Transportation
           - TravelDay
+          - TripSummary
           - USA
           - VendingMachines
           - Vietnam

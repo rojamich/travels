@@ -131,6 +131,7 @@ tags:
   - name: Trains
   - name: Transportation
   - name: TravelDay
+  - name: TripSummary
   - name: USA
   - name: VendingMachines
   - name: Vietnam
@@ -141,4 +142,3 @@ tags:
   - name: Winter
   - name: Workout
   - name: Zimbabwe
-  - name: TripSummary
