@@ -69,7 +69,9 @@ Here is our ranking for all the Armenian food we tried:
 4. Lavash - flatbread, good but not as good as naan 🫓. 
 5. Mutabel - tastes like garlic hummus🧄! 
 
-   112. Sarma - grape leaves wrapped around rice, fresh herbs, spices, and ground meat🍇
+...
+
+\    112 - Sarma - grape leaves wrapped around rice, fresh herbs, spices, and ground meat🍇
 
 On our final day in Yerevan, we walked past this incredible and creepy 🕷️🕸️ sculpture! 
 
