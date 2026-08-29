@@ -1,13 +1,23 @@
 ---
-title: "Belgian Chocolate is Life."
+title: Belgian Chocolate is Life.
 date: 2022-02-11
 categories:
   - european-excursion
-order: 6
+order: 6.5
+header:
+  overlay_filter: 0
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787503407/blogger-import/a82ede86f2ed85050644.jpg
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787858746/blogger-import/ce6cf26529c7bb34f4d7.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 44
+  overlay_focal_x: 50
+  overlay_focal_y: 50
 tags:
   - Belgium
+  - Dessert
+  - Sight-Seeing
 location:
-  name: "Brussels, Belgium"
+  name: Brussels, Belgium
   lat: 50.8503
   lng: 4.3517
 ---
