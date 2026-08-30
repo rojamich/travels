@@ -3,7 +3,7 @@ title: Belgium Architecture
 date: 2022-02-11
 categories:
   - european-excursion
-order: 6.2
+order: 6.9
 header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787930463/blogger-import/28aee0079f7a57ff4f3c.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787857961/blogger-import/44bafe0f168bce412cf4.jpg
