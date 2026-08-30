@@ -12,7 +12,14 @@ header:
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783282086/20260704_100113_yqjfkq.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783282130/20260704_100440_wuafg8.jpg
-tags: []
+tags:
+  - Hiking
+  - Nature
+  - Wildlife
+  - Ferry
+  - Stairs
+  - Dessert
+  - Fjords
 location:
   name: Kjeragbolten, Lysefjord
   lat: 59.0344
