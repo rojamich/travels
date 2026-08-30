@@ -12,7 +12,8 @@ header:
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783773232/20260708_130616_svmmi9.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783875880/20260629_101200_jupxnx.jpg
-tags: []
+tags:
+  - TripSummary
 toc: false
 ---
 Norway was a gorgeous and magical place. Each fjord, summit, and island took our breath away with more majesty than we thought existed on this Earth. The colors surprised us and the way we were physically challenged was so rewarding 💪🏼🥾
