@@ -16,6 +16,11 @@ tags:
   - Nature
   - Wildlife
   - Hiking
+  - Stairs
+  - Books
+  - Dogs
+  - Food
+  - Fjords
 location:
   name: Bergen, Norway
   lat: 60.391262
