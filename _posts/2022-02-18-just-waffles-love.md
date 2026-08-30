@@ -1,5 +1,5 @@
 ---
-title: Just Waffles (love)
+title: Just Waffles (love) 🧇💗
 date: 2022-02-11
 categories:
   - european-excursion
