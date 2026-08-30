@@ -18,6 +18,7 @@ tags:
   - Wildlife
   - Nature
   - Ferry
+  - Birds
 location:
   name: Longyearbyen, Svalbard
   lat: 78.2232
