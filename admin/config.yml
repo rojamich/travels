@@ -92,6 +92,25 @@ media_library:
     # Note this only affects photos uploaded from now on. Everything
     # already stored at full size stays that way until it is either
     # deleted or shrunk in place — see scripts/audit_cloudinary_orphans.py.
+    #
+    # MEASURED 2026-08-30: IT IS NOT WORKING. Twelve photos from the newest
+    # posts were checked, and every one is stored at 4000x3000, averaging
+    # 4.2MB — full phone originals. The preset exists and is signed (an
+    # unsigned upload against it is refused), so something between the widget
+    # and the preset is dropping the incoming transformation.
+    #
+    # The site never delivers more than 2000px wide, so this is roughly four
+    # times the pixels anyone downloads, and it is what fills the quota: about
+    # 50MB per post, 1.5GB a month at a post a day.
+    #
+    # To fix, in the Cloudinary console:
+    #   Settings -> Upload -> Upload presets -> travel_blog_upload
+    #     Transform tab -> Incoming transformation: c_limit,w_2400,q_auto:good
+    #       (this is the field that matters — NOT "Eager transformations")
+    #   Then the same on the ml_default preset, which is what the Media
+    #   Library widget falls back to and the likelier culprit here.
+    # Upload one photo afterwards and check its stored size; the audit script
+    # measures it:  python scripts/audit_image_quality.py
     upload_preset: travel_blog_upload
 
     # ------------------------------------------------------------------
