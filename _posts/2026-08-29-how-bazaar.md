@@ -71,3 +71,46 @@ We even saw fresh popcorn being made and there are corn stands everywhere here!
 We decided to take the long way back home to watch the sunset by the ocean 🌅
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788205107%2FIMG_0134_bx4evm.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788205141%2FIMG_0138_qciztx.jpg%22%7D%5D%2C%22caption%22%3A%22See%20all%20the%20cats%3F%3F%22%7D %}
+
+Wow, the city at golden hour was such a treat 🌆🏙️
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788205246%2F20260830_191938_gytnkz.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788205265%2FIMG_0070_ssjmg5.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+As we passed a tourism area, Mike has started asking, who made you the tourism police??
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788205319%2F20260830_182858_f2olkz.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+I didn't even know they light up at night! How did we not visit this city sooner?!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788205374%2F20260830_195407_kc8hfu.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788205377%2F20260830_195713_yxpwor.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+That evening, we decided it was going to be our time to try Turkish food. Nervous as always, I was ready this time!
+
+We ordered the 
+
+* Adana: spicy ground meat on skewers 🍢
+* Haydari: yogurt with garlic 🧄
+* Raki - a licorice tasting spirit
+
+The gentleman taking our order was SO kind and happy! When Mike ordered the raki, he said "No. Too much". He showed him the bottle which was just over the size of a normal glass beer bottle but the beverage is strong and meant to be diluted with water and sipped over time. How sweet of him! He suggested a local beer. As our food began coming out, he brought Mike a sample to try! 
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788205784%2F20260830_203216_rkjvzg.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788205766%2F20260830_202800_dmamhw.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788205744%2F20260830_202656_vejwai.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788205737%2F20260830_202612_zmmqul.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+The food was so.freaking.good! And flavorful! I'm so happy we tried it! The restaurant was beautiful and we could see the chef at work from where we sat!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788206039%2F20260830_202602_txz3es.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788206057%2F20260830_210818_qmbsle.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788206025%2FScreenshot_20260830_210851_Gallery_zhulev.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We ended the day by walking to a famous baklava shop and were NOT disappointed! OH my goodness we are being spoiled here. 
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788206166%2F20260830_180324_djxvat.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788206167%2F20260830_212408_hnve28.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788206164%2F20260830_215553_kqukkc.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We tried & my order of favorites:
+
+1. Walnut baklava
+2. Chocolate baklava
+3. Pistachio baklava
+4. Hazelnut baklava
+
+Mike's order of favorites:
+
+1. Pistachio baklava
