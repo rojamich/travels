@@ -8,7 +8,11 @@ header:
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781720021/20260617_115043_qfzykv.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1781720026/20260617_130413_eozyvm.jpg
-tags: []
+tags:
+  - Food
+  - Parks
+  - Books
+  - Flights
 location:
   name: Oslo, Norway
   lat: 59.913868
