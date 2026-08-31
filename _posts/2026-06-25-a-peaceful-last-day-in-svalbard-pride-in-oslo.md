@@ -12,7 +12,17 @@ header:
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782672598/20260626_090326_gzc9lq.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782672606/20260627_123655_em4y8k.jpg
-tags: []
+tags:
+  - Ferry
+  - Books
+  - Nature
+  - Glacier
+  - Wildlife
+  - Dessert
+  - Coffee
+  - Food
+  - Flights
+  - Parks
 location:
   lat: 59.913868
   lng: 10.752245
