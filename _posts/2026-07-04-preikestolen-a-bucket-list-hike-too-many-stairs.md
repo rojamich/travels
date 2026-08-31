@@ -12,7 +12,13 @@ header:
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783343864/20260704_220316_czte2b.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783343883/20260705_090648_ztdgk4.jpg
-tags: []
+tags:
+  - Hiking
+  - Nature
+  - Stairs
+  - Ferry
+  - Dessert
+  - Food
 location:
   name: Preikestolen, Norway
   lat: 58.99049
