@@ -12,7 +12,8 @@ header:
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783363437/20251213_103727_qol6se.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1783363448/20251216_094652_qycn5x.jpg
-tags: []
+tags:
+  - TripSummary
 toc: false
 ---
 Holy Smokes! Vietnam really knocked our socks off and I was not expecting that at all! I guess love really comes when you least expect it 😍
