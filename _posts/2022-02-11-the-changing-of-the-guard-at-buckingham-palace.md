@@ -3,7 +3,7 @@ title: The Changing of the Guard at Buckingham Palace
 date: 2022-02-09
 categories:
   - european-excursion
-order: 4
+order: 4.5
 header:
   overlay_filter: 0
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785670506/blogger-import/4fc6cb89e2b5eb5d90a4.jpg
