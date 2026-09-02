@@ -83,6 +83,8 @@ The prayer niche is seen in the lower left-hand corner of the photo –– sorry
 
 The large black circles are called calligraphic medallions and are over 24 feet across 🤯 They have the names of Allah, Muhammad, and Muhammad's grandsons. 
 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788351843/zkkz3cxrlhe9e7orethu.jpg "Woah, look at that stained glass!")
+
 We learned this urn wasn't your typical urn. It actually used to hold water and sometimes sherbet on special occasions! Imagine not knowing if this is your ashes urn or sherbet urn –– what a fun way to keep people on their toes! 
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2286%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788344432%2Ffbwg1hwrb63nq1hmgkk1.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788344389%2Ftzirhbpbnd1iw4psaevv.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
