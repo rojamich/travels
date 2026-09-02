@@ -19,7 +19,6 @@ tags:
   - Cityscapes
   - Sight-Seeing
   - Museums
-  - Dessert
   - Food
 new_tags: []
 stay: night
