@@ -111,11 +111,26 @@ media_library:
     # already stored at full size stays that way until it is either
     # deleted or shrunk in place — see scripts/audit_cloudinary_orphans.py.
     #
-    # MEASURED 2026-08-31: photos still arrive at 4000x3000, 2-9MB each. See
-    # the note above — the media library never read this setting. The site
-    # never delivers wider than 2000px, so every upload is about four times
-    # the pixels anyone downloads: roughly 50MB a post, 1.5GB a month at a
-    # post a day, against a free plan that allows 25GB-equivalent a month.
+    # FIXED 2026-09-02, by pointing the media library at this preset in the
+    # Cloudinary console. The preset now shows ML image/video/raw alongside the
+    # API badges, which is the sign it applies to editor uploads. Measured the
+    # same day: a landscape photo arrived 2400x1800 at 880KB, where the day
+    # before it would have been 4000x3000 at about 4MB.
+    #
+    # ONE THING STILL WORTH CHANGING: the transformation caps WIDTH only, so a
+    # portrait photo lands 2400x3200 — 7.7 megapixels and 1.6MB, nearly twice
+    # a landscape one. Adding a height cap evens that out:
+    #
+    #     c_limit,w_2400,h_2400,q_auto:good
+    #
+    # c_limit never enlarges and never crops; it only refuses to exceed either
+    # bound, so a landscape photo is unaffected and a portrait one comes down
+    # to 1800x2400. Roughly 11MB a post instead of 15MB.
+    #
+    # 2400 rather than 2000 is deliberate: the site delivers at most 2000px
+    # wide, and the spare pixels leave room to raise that later without
+    # re-uploading anything. Dropping to w_2000,h_2000 would save another
+    # third again if storage ever gets tight.
     upload_preset: travel_blog_upload
 
     # ------------------------------------------------------------------
