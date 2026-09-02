@@ -19,5 +19,12 @@ tags:
   - Bathhouse
   - Ferry
   - Bazaar
+  - Europe
+  - Asia
+  - Architecture
+  - Landmarks
+  - Dessert
+  - History
+  - Parks
 new_tags: []
 ---
