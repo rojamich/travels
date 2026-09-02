@@ -43,3 +43,23 @@ We tried the cheese and cheese/spinach pastries which Mike liked and I definitel
 I need to enjoy coffee and breakfast here many many more days than we have booked... perhaps for my fortieth birthday...
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788341020%2Foayuaqs65ixczlvyo4xp.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788341015%2Flvrcoij4ksfgehwyoakd.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Every historic site we have been to that requires a head covering offers free ones –– this was the exception! We had to buy a terrible one for 2€.
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788341846%2Fthxnrhr1f69gw2ngzxfb.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788341844%2Fwc6zjpz8zbgvwklzzzw4.jpg%22%7D%5D%2C%22caption%22%3A%22We%20did%20our%20best.%22%7D %}
+
+Mike watched a tutorial on how to put this on me so I looked the least weird. The head scarves are typically square or rectangular and much bigger for normal looking wear. See how much better it was in Tbilisi?
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787487007/20260810_110703_evkjhj.jpg)
+
+The Hagia Sophia (we have heard it pronounced with a hard g and with the g as an h) is under renovation, both inside and out but we were able to still get an idea of its impressive size and cultural significance! Luckily, we were able to scan a QR code inside and listen to an audio guide for each viewpoint 🔉🎧
+
+The walkway was interesting and would make for a bumpy wheelchair ride! It smelled like old stone and history (not a good description but it's the best I've got!). 
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788342783%2Fi1tv1n9rq3rdi4re0cga.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788342829%2Fuadzrwa4t26p517ms6o8.png%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+This opened up abruptly into a gigantic, domed hallway with intricate art hidden in each crevice!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788342904%2Fqxalurnj1gpj4omtdrsd.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788342914%2Fqqeadtnwcayxgfn6gby2.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788342917%2Ftjurtww5e1cysvwmkgcr.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Looking out over the lower prayer room area, we learned about the history of this site:
