@@ -126,7 +126,7 @@ The staff was exceptionally friendly and absolutely loved Mike! Who could resist
 
 We finished the meal with complimentary Turkish tea 🍵(its black tea and no thank you. However, it is better than earl grey.) It was served with chocolate-covered pineapple 🍍!
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788352627/a8kg2kn0aqgutmpdomed.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788352627%2Fa8kg2kn0aqgutmpdomed.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788375847%2Fqfbqgeyf4tz0fbo2yxyo.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 It was important for Mike to know how much I love him!
 
