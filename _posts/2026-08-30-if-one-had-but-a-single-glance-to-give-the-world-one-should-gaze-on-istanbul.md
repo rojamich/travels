@@ -22,6 +22,7 @@ tags:
   - Sight-Seeing
   - Architecture
   - Landmarks
+  - History
 new_tags: []
 stay: night
 toc: false
