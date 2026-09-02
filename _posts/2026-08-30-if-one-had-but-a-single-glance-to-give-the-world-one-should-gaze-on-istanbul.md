@@ -40,7 +40,7 @@ There are so many different stained-glass windows here! Everyone was very patien
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788350571%2Fwhn3vvv0volydefj0af9.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788350570%2Fxxujbux6fwsxpbuq16ik.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-There were separate areas for praying –– divided by gender.
+There were separate areas for praying — divided by gender.
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788350636/xi8c98sm7qfl4osemmzr.jpg)
 
@@ -55,6 +55,8 @@ Outside the Mosque, we happened upon the Hippodrome!
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788350992%2Fhx49wqfcitwbdbmhaieb.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788351001%2Fkva7ilvlqpabcbt5q98u.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 This area was used for chariot and horse races! Within it also sits the Obelisk of Theodosius which was, of course, stolen from Egypt when it was a province of the Roman Empire.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788370977/uc7gdmpe8mi0stutotrg.jpg)
 
 It was time for a lil pick me up so we found a cafe near by to indulge! It even has my favorite color in decor!
 
@@ -84,7 +86,7 @@ But the interior more closely resembled an indoor mall...
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788351770/tlkionjlxox02tzobxso.jpg)
 
-Mike was able to take a photo to show the depth of this mall–– it seemed to go on forever! However, he also ended up looking like he was giving this guy his own professional photoshoot. 
+Mike was able to take a photo to show the depth of this mall — it seemed to go on forever! However, he also ended up looking like he was giving this guy his own professional photoshoot. 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788352247/fkyltsopovtnakdld3re.jpg)
 
@@ -100,15 +102,19 @@ Heading back to grab lunch, Mike saw a couple struggling to carry their stroller
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788351997/st2bj1uqhzctzwdwemtg.jpg)
 
-We decided to try the local döner and the meat was juicy but we are quite used to having sauce on it! We asked for it to be spicy so they served it with pepperoncini! That's how we both discovered we like pepperoncini! 
+We decided to try the local döner and the meat was juicy but we are quite used to having sauce and more veggies on it! We asked for it to be spicy so they served it with pepperoncini! That's how we both discovered we like pepperoncini! 
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788352106%2Ffovqpiar8qwgpsrbsbk0.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788352106%2Frxu5gtgqspztj8vkijjg.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Compare that one to one we had in Germany:
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787497958/blogger-import/5ef591a8f43a1ba8ab43.jpg)
 
 We tried a local coffee spot and headed to work on our computers back at the hotel.
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788352153/xis4vcv8rw64ty77pvmc.jpg)
 
-That night we tried a spot called Chuck's Smash Burger –– oh my goodness this was freaking fantastic! It was so juicy and the sauce was perfect. I loved having fried onions on it too 🍔🧅
+That night we tried a spot called Chuck's Smash Burger — oh my goodness this was freaking fantastic! It was so juicy and the sauce was perfect. I loved having fried onions on it too 🍔🧅
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788352391%2Fydsna8of30pz3qbkskyk.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788352390%2Feb7guatfjt6alja19dw3.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -120,7 +126,7 @@ The staff was exceptionally friendly and absolutely loved Mike! Who could resist
 
 We finished the meal with complimentary Turkish tea 🍵(its black tea and no thank you. However, it is better than earl grey.) It was served with chocolate-covered pineapple 🍍!
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788352627/a8kg2kn0aqgutmpdomed.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788352627%2Fa8kg2kn0aqgutmpdomed.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788375847%2Fqfbqgeyf4tz0fbo2yxyo.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 It was important for Mike to know how much I love him!
 
