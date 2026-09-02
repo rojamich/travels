@@ -51,6 +51,8 @@ My favorite / a haunting detail from the museum was medusa.
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788371474%2Fw377bttuf84bhe713ck4.jpg%22%7D%2C%7B%22x%22%3A%2261%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788373593%2Fesmbezsz1dz7cxxvq4xx.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%22100%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788373551%2Fnocr7apctzkgiqsrivpy.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788373607%2Fdbul2pnblsx3yo7m3oqm.jpg%22%7D%2C%7B%22x%22%3A%2241%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788373589%2Fksy6n68h4p12xd0iqckp.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
+Apparently, they turned her upside down/sideways to neutralize her haunting gaze 👻
+
 Do you see the green-glowing column towards the back?
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788373843/zleld1tgjddk6uacmaxl.jpg)
