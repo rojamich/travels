@@ -72,11 +72,29 @@ media_library:
     #     Transform tab:
     #       Incoming transformation:  c_limit,w_2400,q_auto:good
     #
-    # Signed, not Unsigned, even though this is a browser upload: Decap talks
-    # to Cloudinary through the MEDIA LIBRARY widget, and Cloudinary only
-    # honours signed presets there. An unsigned preset is silently ignored —
-    # uploads still succeed, they just arrive full-size, which looks like the
-    # setting simply didn't work.
+    # !! THE LINE BELOW DOES NOTHING. Cloudinary's media library widget does
+    # not accept an upload preset from the page that embeds it — the key is
+    # read by nobody and silently ignored, so uploads have always arrived at
+    # full size no matter what this preset says. Confirmed by Cloudinary's own
+    # support, and by measurement: photos uploaded on 31 Aug 2026 are stored at
+    # 4000x3000, 2-9MB each, while this file has asked for a 2400px cap since
+    # the day it was written.
+    #
+    # The widget uses the MEDIA LIBRARY UPLOAD PRESET instead, which is an
+    # account setting and can only be chosen inside Cloudinary:
+    #
+    #   Cloudinary console -> Media Library -> Settings -> Upload
+    #     (the setting is at the bottom of that page)
+    #     Set the upload preset to: travel_blog_upload
+    #
+    # That preset already carries the incoming transformation, so pointing the
+    # media library at it is the whole fix. Afterwards, upload one photo and
+    # measure it — it should come back at 2400px rather than 4000:
+    #
+    #   python scripts/audit_image_quality.py
+    #
+    # The line is kept because it is harmless and it documents which preset the
+    # media library should be pointed at.
     #
     # If uploads ever start failing with a "preset not found" error, the
     # preset was renamed or deleted — recreate it, or comment this back out.
@@ -93,24 +111,11 @@ media_library:
     # already stored at full size stays that way until it is either
     # deleted or shrunk in place — see scripts/audit_cloudinary_orphans.py.
     #
-    # MEASURED 2026-08-30: IT IS NOT WORKING. Twelve photos from the newest
-    # posts were checked, and every one is stored at 4000x3000, averaging
-    # 4.2MB — full phone originals. The preset exists and is signed (an
-    # unsigned upload against it is refused), so something between the widget
-    # and the preset is dropping the incoming transformation.
-    #
-    # The site never delivers more than 2000px wide, so this is roughly four
-    # times the pixels anyone downloads, and it is what fills the quota: about
-    # 50MB per post, 1.5GB a month at a post a day.
-    #
-    # To fix, in the Cloudinary console:
-    #   Settings -> Upload -> Upload presets -> travel_blog_upload
-    #     Transform tab -> Incoming transformation: c_limit,w_2400,q_auto:good
-    #       (this is the field that matters — NOT "Eager transformations")
-    #   Then the same on the ml_default preset, which is what the Media
-    #   Library widget falls back to and the likelier culprit here.
-    # Upload one photo afterwards and check its stored size; the audit script
-    # measures it:  python scripts/audit_image_quality.py
+    # MEASURED 2026-08-31: photos still arrive at 4000x3000, 2-9MB each. See
+    # the note above — the media library never read this setting. The site
+    # never delivers wider than 2000px, so every upload is about four times
+    # the pixels anyone downloads: roughly 50MB a post, 1.5GB a month at a
+    # post a day, against a free plan that allows 25GB-equivalent a month.
     upload_preset: travel_blog_upload
 
     # ------------------------------------------------------------------
