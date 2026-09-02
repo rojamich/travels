@@ -21,6 +21,7 @@ tags:
   - Food
   - Sight-Seeing
   - Architecture
+  - Landmarks
 new_tags: []
 stay: night
 toc: false
