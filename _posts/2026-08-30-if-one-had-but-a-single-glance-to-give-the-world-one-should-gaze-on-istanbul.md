@@ -102,9 +102,13 @@ Heading back to grab lunch, Mike saw a couple struggling to carry their stroller
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788351997/st2bj1uqhzctzwdwemtg.jpg)
 
-We decided to try the local döner and the meat was juicy but we are quite used to having sauce on it! We asked for it to be spicy so they served it with pepperoncini! That's how we both discovered we like pepperoncini! 
+We decided to try the local döner and the meat was juicy but we are quite used to having sauce and more veggies on it! We asked for it to be spicy so they served it with pepperoncini! That's how we both discovered we like pepperoncini! 
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788352106%2Ffovqpiar8qwgpsrbsbk0.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788352106%2Frxu5gtgqspztj8vkijjg.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Compare that one to one we had in Germany:
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787497958/blogger-import/5ef591a8f43a1ba8ab43.jpg)
 
 We tried a local coffee spot and headed to work on our computers back at the hotel.
 
