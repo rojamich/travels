@@ -93,7 +93,12 @@ CLOUD_NAME = "dgw35sldo"
 # Delivery caps at 1200px wide. Storing at 1600 leaves headroom for a future
 # wider layout or a 2x display without re-uploading everything from Drive,
 # and costs little: 1600px is under half the pixels of 2400.
-DEFAULT_TARGET_WIDTH = 1600
+# 2400, matching the incoming transformation on the upload preset, so a photo
+# is stored at the same size whether it arrived through the editor or came
+# through here. It was 1600, which is fine for landscapes and cuts portraits to
+# 1200 wide — right at the point a banner starts looking soft, and half the
+# queue is portraits. The extra costs about 0.2GB across the whole library.
+DEFAULT_TARGET_WIDTH = 2400
 DEFAULT_QUALITY = "auto:good"
 
 
@@ -150,9 +155,15 @@ def source_url(asset, width, quality):
     format comes back exactly as stored and a .heic stays a .heic.
     """
     fmt = asset.get("format", "jpg")
+    # Both bounds, not just width. c_limit with w and h means "fit inside this
+    # box": it caps whichever side is longer and leaves the other alone. With
+    # only w_, a portrait photo kept its full height — a 3000x4000 came out
+    # 1600x2133, nearly twice the pixels of a landscape shrunk the same way,
+    # for a column that displays both at the same width. Five of the ten
+    # largest assets in the current queue are portraits.
     return (
         f"https://res.cloudinary.com/{CLOUD_NAME}/image/upload/"
-        f"c_limit,w_{width},q_{quality}/v{asset['version']}/{asset['public_id']}.{fmt}"
+        f"c_limit,w_{width},h_{width},q_{quality}/v{asset['version']}/{asset['public_id']}.{fmt}"
     )
 
 
@@ -178,7 +189,9 @@ def fetch_resized(url, attempts=3):
 
 
 def needs_shrinking(asset, width, min_bytes):
-    if asset.get("width", 0) > width:
+    # Longest side, for the same reason source_url caps both: a 2400x3200
+    # portrait is over the limit even though its width is not.
+    if max(asset.get("width", 0), asset.get("height", 0)) > width:
         return True
     # A photo already narrow enough can still be a needlessly heavy file --
     # an uncompressed 1200px export runs several MB. Re-encoding at q_auto
