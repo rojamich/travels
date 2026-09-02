@@ -83,3 +83,45 @@ The grand bazaar had a beautiful exterior!
 But the interior more closely resembled an indoor mall...
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788351770/tlkionjlxox02tzobxso.jpg)
+
+Mike was able to take a photo to show the depth of this mall–– it seemed to go on forever! However, he also ended up looking like he was giving this guy his own professional photoshoot. 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788352247/fkyltsopovtnakdld3re.jpg)
+
+This was pretty cool though!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788351894/cqaqpuuhkmt2ljk79jea.jpg)
+
+Outside resembled more how we imagined Turkey/Istanbul markets.
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788351938%2Fgirj0tsrosqkhlroeyhd.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788351943%2Ffzqelpvdsel4ytfmi8p8.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Heading back to grab lunch, Mike saw a couple struggling tocarry their stroller upstairs and jumped in to help 😍
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788351997/st2bj1uqhzctzwdwemtg.jpg)
+
+We decided to try the local döner and the meat was juicy but we are quite used to having sauce on it! We asked for it to be spicy so they served it with pepperoncini! That's how we both discovered we like pepperoncini! 
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788352106%2Ffovqpiar8qwgpsrbsbk0.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788352106%2Frxu5gtgqspztj8vkijjg.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We tried a local coffee spot and headed to work on ourcomputers back at the hotel.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788352153/xis4vcv8rw64ty77pvmc.jpg)
+
+That night we tried a spot called Chuck's Smash Burger –– oh my goodness this was freaking fantastic! It was so juicy and the sauce was perfect. I loved having fried onions on it too 🍔🧅
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788352391%2Fydsna8of30pz3qbkskyk.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788352390%2Feb7guatfjt6alja19dw3.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+They provided gloves to keep your hands clean too! A man nearby threw a fit because we got gloves and he didn't...
+
+The staff was exceptionally friendly and absolutely loved Mike! Who could resist??
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788352537%2Fda95skpfxe233jculbs9.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788352545%2Fw2cgtyqp5iyu19kedz6f.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We finished the meal with complimentary Turkish tea 🍵(its black tea and no thank you. However, it is better than earl grey.) It was served with chocolate-covered pineapple 🍍!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788352627/a8kg2kn0aqgutmpdomed.jpg)
+
+It was important for Mike to know how much I love him!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788352665/b8prdcik0e4cxqfrcebb.jpg)
