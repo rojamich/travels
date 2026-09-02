@@ -1,5 +1,5 @@
 ---
-title: If the Earth were a single state, Istanbul would be its capital... ~
+title: If the Earth were a single state, Istanbul would be its capital ~
   Napoleon Bonaparte
 date: 2026-08-31
 categories:
@@ -30,9 +30,9 @@ It was an earlyish morning for the Rojas family who wanted to hurry and get phot
 
 We were blessed with another beautiful blue sky and delighted to see this massive flag just ripe for the photographing!
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788338255%2Fjw2ikgliausfk3dou4ih.jpg%22%7D%2C%7B%22x%22%3A%2211%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788338259%2Fx4rnmewppr1cvdl4lngl.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788338264%2Fwdbm9nhbjzgvaxnypmuf.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788338277%2Fhx06qxulodqbum6xktgc.jpg%22%7D%5D%2C%22caption%22%3A%22A%20major%20bridge%20here%20is%20lined%20with%20fishermen%20%E2%80%93%E2%80%93%20night%20and%20day!%20%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788338255%2Fjw2ikgliausfk3dou4ih.jpg%22%7D%2C%7B%22x%22%3A%2211%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788338259%2Fx4rnmewppr1cvdl4lngl.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788338264%2Fwdbm9nhbjzgvaxnypmuf.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788338277%2Fhx06qxulodqbum6xktgc.jpg%22%7D%5D%2C%22caption%22%3A%22A%20major%20bridge%20here%20is%20lined%20with%20fishermen%20%E2%80%94%20night%20and%20day!%20%22%7D %}
 
-We stopped briefly to purchase coffee and pastries to munch on ahead of the entry times (Hagia Sophia at 9am) and I felt like I had all the time in the world to photograph here. Mike said, "Oh and the food will taste best hot", oops!
+We stopped briefly to purchase coffee and pastries to munch on ahead of the entry times (Hagia Sophia at 9am) and I felt like I had all the time in the world to photograph here. Mike said, "Oh and the food will taste best hot", *oops*!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788340184%2Fo4cmxx5z1u1kgvhguipm.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788340266%2Fdxolwfoxnytwuvtoqfuv.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788340277%2Fxlgo5rk1zxirgkal5ooa.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788340285%2Fodwbg5kbfy4zm7aqcnog.jpg%22%7D%2C%7B%22x%22%3A%2240%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788187754%2F20260831_083843_oza49r.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788340482%2Figldximroj5lu2pbdbm2.jpg%22%7D%5D%2C%22caption%22%3A%22It%20was%20highly%20worth%20getting%20up%20early%20for!%20%22%7D %}
 
@@ -40,7 +40,7 @@ We tried the cheese and cheese/spinach pastries which Mike liked and I definitel
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788340925%2Fggfmobn6efgpk1u1csfr.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788340920%2Fqsqcw9athq6adjr0ljkk.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-I need to enjoy coffee and breakfast here many many more days than we have booked... perhaps for my fortieth birthday...
+I need to enjoy coffee and breakfast here many many more days than we have booked... perhaps for my fortieth birthday 🎉🪅🎂...
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2257%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788341020%2Foayuaqs65ixczlvyo4xp.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2235%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788341015%2Flvrcoij4ksfgehwyoakd.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -56,7 +56,7 @@ The Hagia Sophia (we have heard it pronounced with a hard g and with the g as an
 
 The walkway was interesting and would make for a bumpy wheelchair ride! It smelled like old stone and history (not a good description but it's the best I've got!). 
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%220%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788342783%2Fi1tv1n9rq3rdi4re0cga.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788342829%2Fuadzrwa4t26p517ms6o8.png%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%220%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788342783%2Fi1tv1n9rq3rdi4re0cga.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788342829%2Fuadzrwa4t26p517ms6o8.png%22%7D%5D%2C%22caption%22%3A%22Doesn't%20it%20look%20like%20he's%20posing%20royally%3F%22%7D %}
 
 This opened up abruptly into a gigantic, domed hallway with intricate art hidden in each crevice!
 
@@ -76,7 +76,7 @@ The prayer niche is seen in the lower left-hand corner of the photo –– sorry
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2263%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788343518%2Fjbzysbctrtnxta6w7oob.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788343514%2Fzplmbjnloeo9t0cbptd4.jpg%22%7D%5D%2C%22caption%22%3A%22Out%20of%20the%20corner%20of%20our%20eye%2C%20we%20thought%20this%20protective%20sheet%20was%20a%20huge%20spiderweb!%22%7D %}
 
-The large black circles are called calligraphic medallions and are over 24 feet across 🤯 They have the names of Allah, Muhammad, and Muhammad's grandson's names. 
+The large black circles are called calligraphic medallions and are over 24 feet across 🤯 They have the names of Allah, Muhammad, and Muhammad's grandsons. 
 
 We learned this urn wasn't your typical urn. It actually used to hold water and sometimes sherbet on special occasions! Imagine not knowing if this is your ashes urn or sherbet urn –– what a fun way to keep people on their toes! 
 
@@ -92,7 +92,7 @@ This is the marble door aka the Gate to Heaven 😇& Hell 👿
 
 Beyond the door was typically saved for ceremonies and meetings with high-level officials in the church. 
 
-It was interesting to see Viking writing was preserved, etched in the stone. 
+It was interesting to see Viking graffiti was preserved, etched in the stone. 
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788344935%2Fkfalkvuq6qs3uvzczmy5.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2245%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788344929%2Flbdpqrwgyqd9jrv9rv1j.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
