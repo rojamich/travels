@@ -96,7 +96,7 @@ Outside resembled more how we imagined Turkey/Istanbul markets.
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788351938%2Fgirj0tsrosqkhlroeyhd.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788351943%2Ffzqelpvdsel4ytfmi8p8.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-Heading back to grab lunch, Mike saw a couple struggling tocarry their stroller upstairs and jumped in to help 😍
+Heading back to grab lunch, Mike saw a couple struggling to carry their stroller upstairs and jumped in to help 😍
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788351997/st2bj1uqhzctzwdwemtg.jpg)
 
@@ -104,7 +104,7 @@ We decided to try the local döner and the meat was juicy but we are quite used 
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788352106%2Ffovqpiar8qwgpsrbsbk0.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788352106%2Frxu5gtgqspztj8vkijjg.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-We tried a local coffee spot and headed to work on ourcomputers back at the hotel.
+We tried a local coffee spot and headed to work on our computers back at the hotel.
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788352153/xis4vcv8rw64ty77pvmc.jpg)
 
