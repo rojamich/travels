@@ -176,12 +176,49 @@
       var pageLoadedMs = Date.now();
       function safeToShowDeadModal() { return Date.now() - pageLoadedMs > 90 * 1000; }
 
+      // -----------------------------------------------------------------
+      // How much life the token has left, read from the token itself.
+      // -----------------------------------------------------------------
+      // Everything else here reacts to a refresh call FAILING. The failure
+      // that lost her work did not look like that: nothing failed, no banner
+      // appeared, and the save simply went out carrying a token the server
+      // had already stopped accepting. Waiting for a refresh to report a
+      // problem cannot catch that, so read the expiry directly.
+      //
+      // gotrue keeps expires_at on the token; the JWT carries exp as a
+      // backstop. Returns seconds remaining, or null when it cannot tell —
+      // and null means "do nothing extra", because blocking a save that
+      // would have worked is worse than the problem being solved.
+      function tokenSecondsLeft() {
+        try {
+          var u = window.netlifyIdentity && netlifyIdentity.currentUser && netlifyIdentity.currentUser();
+          if (!u || !u.token) return null;
+          var at = u.token.expires_at;
+          if (at) {
+            var ms = at > 1e12 ? at : at * 1000;   // gotrue has used both units
+            return Math.round((ms - Date.now()) / 1000);
+          }
+          var jwt = u.token.access_token;
+          if (!jwt || jwt.split(".").length !== 3) return null;
+          var body = JSON.parse(atob(jwt.split(".")[1].replace(/-/g, "+").replace(/_/g, "/")));
+          if (!body || !body.exp) return null;
+          return Math.round(body.exp - Date.now() / 1000);
+        } catch (e) {
+          return null;
+        }
+      }
+
       // Returns a promise so save-click code can await freshness.
       function refreshNow(reason) {
         var u = window.netlifyIdentity && netlifyIdentity.currentUser && netlifyIdentity.currentUser();
         if (!u || !u.jwt) return Promise.resolve(false);
-        // Dedupe: don't spam when visibility toggles or clicks are rapid.
-        if (Date.now() - lastRefreshMs < 60 * 1000) return Promise.resolve(true);
+        // Dedupe, but never while the token is near its end. The old rule
+        // answered "fresh, nothing to do" to ANY call within 60s of the last
+        // one — including the save click, which is precisely the call that
+        // needed to do the work. A token can expire inside that minute.
+        var secondsLeft = tokenSecondsLeft();
+        var plenty = (secondsLeft === null) || secondsLeft > 10 * 60;
+        if (plenty && Date.now() - lastRefreshMs < 60 * 1000) return Promise.resolve(true);
         return u.jwt(true)
           .then(function () {
             lastRefreshMs = Date.now();
@@ -444,6 +481,41 @@
         });
         window.addEventListener("focus", function () { refreshNow("focus"); });
 
+        // A short-lived message at the top. Distinct from showBanner(), which
+        // stays until the situation resolves; this one says what just happened
+        // and gets out of the way.
+        function showToast(text, colour) {
+          var old = document.getElementById("admin-toast");
+          if (old) old.remove();
+          var el = document.createElement("div");
+          el.id = "admin-toast";
+          el.textContent = text;
+          el.style.cssText =
+            "position:fixed;top:0;left:0;right:0;padding:11px 20px;" +
+            "background:" + colour + ";color:#fff;font-size:14px;font-weight:bold;" +
+            "text-align:center;z-index:2147483647;box-shadow:0 2px 8px rgba(0,0,0,0.3);";
+          document.body.appendChild(el);
+          setTimeout(function () { if (el.parentNode) el.remove(); }, 6000);
+        }
+
+        // Layer 4: watch the token's own clock, once a minute.
+        // ---------------------------------------------------------------
+        // The other layers all wait for something to fail. This one watches
+        // the expiry approach and renews ahead of it, which covers the case
+        // where the periodic timer never ran at all — a sleeping laptop or a
+        // frozen background tab does exactly that, and is how a token reaches
+        // its expiry with nothing having reported a problem.
+        setInterval(function () {
+          var left = tokenSecondsLeft();
+          if (left === null || left > 5 * 60) return;
+          refreshNow("expiry-watch").then(function (ok) {
+            var after = tokenSecondsLeft();
+            if (!ok && after !== null && after <= 0 && safeToShowDeadModal()) {
+              showDeadSessionModal("token-expired");
+            }
+          });
+        }, 60 * 1000);
+
         // Layer 3: refresh on every Save / Publish click.
         // ---------------------------------------------------------------
         // Save-click pointerdown triggers a JWT refresh a few ms BEFORE
@@ -468,6 +540,31 @@
                 e.preventDefault();
                 e.stopImmediatePropagation();
                 showDeadSessionModal("save-click-while-dead");
+                return;
+              }
+              // The comment above used to claim this blocked a stale save.
+              // It did not: refreshNow() is asynchronous and the click went
+              // straight through to Decap in the same tick, carrying whatever
+              // token was already there. That is the hole her lost post fell
+              // through — no refresh failed, so nothing warned her, and the
+              // save left with a token that had already expired.
+              //
+              // Now, when the token is nearly out of time, the click is held
+              // back until it is renewed. Blocking is the safe direction: her
+              // words stay in the editor either way, and a save that never
+              // fires cannot fail.
+              var left = tokenSecondsLeft();
+              if (left !== null && left < 120) {
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                showToast("Renewing your login before saving — one moment.", "#f0ad4e");
+                refreshNow("save-click-held").then(function (ok) {
+                  if (ok) {
+                    showToast("Login renewed. Click Save again.", "#5cb85c");
+                  } else if (safeToShowDeadModal()) {
+                    showDeadSessionModal("save-click-refresh-failed");
+                  }
+                });
                 return;
               }
               refreshNow("save-click");
