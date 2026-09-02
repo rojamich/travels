@@ -20,6 +20,9 @@ tags:
   - Sight-Seeing
   - Museums
   - Food
+  - Architecture
+  - Art
+  - Landmarks
 new_tags: []
 stay: night
 toc: false
