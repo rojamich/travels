@@ -23,6 +23,7 @@ tags:
   - Architecture
   - Art
   - Landmarks
+  - Carving
 new_tags: []
 stay: night
 toc: false
