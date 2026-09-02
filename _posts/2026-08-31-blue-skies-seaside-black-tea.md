@@ -24,6 +24,7 @@ tags:
   - Art
   - Landmarks
   - Carving
+  - History
 new_tags: []
 stay: night
 toc: false
