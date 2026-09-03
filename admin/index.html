@@ -178,6 +178,11 @@
     refresh, a long writing session ends with "unable to save" errors that
     can lose all pending edits.
 
+    The failure that actually costs her work is not a token quietly
+    expiring — it is gotrue-js calling clearSession() on any failed
+    refresh, including a transient network one. That logs her out locally
+    while the editor still looks fine. See sessionIsGone() below.
+
     Multi-layer refresh strategy:
       1. Every 20 minutes (down from 45), force-refresh the JWT.
       2. Whenever the tab regains focus after being backgrounded, refresh
@@ -302,6 +307,53 @@
       function safeToShowDeadModal() { return Date.now() - pageLoadedMs > 90 * 1000; }
 
       // -----------------------------------------------------------------
+      // Has gotrue thrown the session away behind our back?
+      // -----------------------------------------------------------------
+      // This is the one that kept costing her posts, and it is worth being
+      // precise about, because the behaviour is surprising. gotrue-js:
+      //
+      //     _refreshToken(t) {
+      //       return N[t] || (N[t] = request("/token", ...)
+      //         .then(...)
+      //         .catch(e => { delete N[t]; this.clearSession(); throw e; }))
+      //     }
+      //
+      // clearSession() on ANY rejection. Not just a rejected refresh token —
+      // a dropped wifi connection, a sleeping laptop, a five-second DNS
+      // stall. One of those and she is logged out, locally, silently, while
+      // the editor carries on looking completely normal. She keeps writing,
+      // presses Save twenty minutes later, and there is no token to send.
+      //
+      // The code here used to make it worse: it read the error message and
+      // decided that network errors "do not count" and deserved only a soft
+      // banner. That is exactly backwards. By the time we see that error the
+      // session is already gone, whatever the message says.
+      //
+      // So stop reading messages and look at the thing itself. If there was
+      // a user and now there is not, the session is gone -- immediately, on
+      // the first failure, no matter how it was worded.
+      var everHadUser = false;
+      function currentUserOrNull() {
+        try {
+          return (window.netlifyIdentity && netlifyIdentity.currentUser &&
+                  netlifyIdentity.currentUser()) || null;
+        } catch (e) {
+          return null;
+        }
+      }
+      function sessionIsGone() {
+        if (currentUserOrNull()) { everHadUser = true; return false; }
+        return everHadUser;
+      }
+      function handleLostSession(reason) {
+        if (sessionIsDead || !sessionIsGone() || !safeToShowDeadModal()) return false;
+        // Get her words to safety before anything else touches the page.
+        if (window.__FORCE_SNAPSHOT) window.__FORCE_SNAPSHOT("session-lost");
+        showDeadSessionModal(reason);
+        return true;
+      }
+
+      // -----------------------------------------------------------------
       // How much life the token has left, read from the token itself.
       // -----------------------------------------------------------------
       // Everything else here reacts to a refresh call FAILING. The failure
@@ -356,10 +408,12 @@
             consecutiveFailures++;
             var msg = err && err.message || String(err);
             console.warn("[admin] JWT refresh failed (" + reason + ", failure #" + consecutiveFailures + "):", msg);
-            // Only treat as a truly dead session when gotrue-js itself
-            // reports the refresh_token is invalid ("invalid_grant" or
-            // 400/401 responses). Generic network errors don't count —
-            // they get the warning banner but no blocking modal.
+            // First question, before anything about the message: is the
+            // session still there? gotrue clears it on any failed refresh,
+            // so this is usually already true.
+            if (handleLostSession("refresh-cleared-session:" + reason)) return false;
+            // Still logged in, so the refresh failed without taking the
+            // session with it. Warn, and escalate only if it keeps happening.
             var isAuthError = /invalid.?grant|invalid.?token|401|400|Unauthorized/i.test(msg);
             if (isAuthError && consecutiveFailures >= 3 && safeToShowDeadModal()) {
               showDeadSessionModal("refresh:" + reason);
@@ -683,6 +737,10 @@
           }
         };
 
+        // Called the moment a lost session is detected, so her words are
+        // on disk before any modal or re-login touches the page.
+        window.__FORCE_SNAPSHOT = function (reason) { snapshot(reason || "forced"); };
+
         // Recovery helpers exposed on window for console use.
         window.RECOVERY_LATEST = function () {
           Object.keys(localStorage)
@@ -954,6 +1012,16 @@
           }
         }, true);
 
+        // Layer 5: watch for the session simply vanishing.
+        // ---------------------------------------------------------------
+        // Not every refresh goes through refreshNow(). Decap asks gotrue for
+        // a token on its own schedule, and gotrue refreshes inside jwt()
+        // whenever the token is within a minute of expiry. Any of those can
+        // fail and clear the session without this page being told. Fifteen
+        // seconds is quick enough that she cannot get far into a paragraph
+        // before being stopped.
+        setInterval(function () { handleLostSession("watchdog"); }, 15 * 1000);
+
         // Layer 3: refresh on every Save / Publish click.
         // ---------------------------------------------------------------
         // Save-click pointerdown triggers a JWT refresh a few ms BEFORE
@@ -973,7 +1041,7 @@
           var el = e.target;
           for (var depth = 0; depth < 5 && el; depth++) {
             if (looksLikeSaveButton(el)) {
-              if (sessionIsDead) {
+              if (handleLostSession("save-click") || sessionIsDead) {
                 // Block the click outright and surface the modal.
                 e.preventDefault();
                 e.stopImmediatePropagation();

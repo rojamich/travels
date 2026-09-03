@@ -237,6 +237,27 @@ she wrote on her laptop, they are not on your phone.
 
 ---
 
+## Why the token errors happened at all
+
+The login library Netlify ships (`gotrue-js`) throws the whole session away
+whenever a token renewal fails — and it counts a dropped wifi connection or
+a sleeping laptop as a failure, not just a genuinely expired login. So she
+would be quietly signed out mid-sentence, with the editor still looking
+completely normal, and only find out twenty minutes later when Save had no
+token to send.
+
+The editor now checks whether the session is still there every 15 seconds,
+and on every save click. The moment it is gone she gets the **"Your session
+has expired"** box and a Sign in again button, with her draft snapshotted
+first and left untouched on screen. Signing back in and pressing Save picks
+up exactly where she was.
+
+If she sees that box often, it is worth checking her wifi rather than the
+editor — that message now means the connection dropped, not that she did
+anything wrong.
+
+---
+
 ## When Jen gets "failed to persist entry" in the editor
 
 Sometimes her work is still on GitHub even though the editor said the save

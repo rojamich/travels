@@ -19,6 +19,7 @@
  *     - whether the screen is ahead of GitHub, including the case where two
  *       writes land in the same millisecond
  *     - which buttons the publish guard stands in front of
+ *     - whether a session gotrue quietly cleared is noticed at once
  *
  *     The functions are pulled out of admin/index.html as it is on disk, so
  *     this cannot drift away from what actually ships.
@@ -112,8 +113,8 @@ async function hit(url, method, status, opts = {}) {
   // ------------------------------------------------------------- saveState
   console.log("\nsaveState — is the screen ahead of GitHub?");
 
-  const grab = (name) => {
-    const i = HTML.indexOf("        function " + name + "(");
+  const grab = (name, indent) => {
+    const i = HTML.indexOf((indent || "        ") + "function " + name + "(");
     if (i < 0) throw new Error("cannot find " + name);
     let depth = 0, j = HTML.indexOf("{", i);
     for (let k = j; k < HTML.length; k++) {
@@ -156,6 +157,87 @@ async function hit(url, method, status, opts = {}) {
   });
   check("a whole toolbar of text is not a button", ship(el("Publish " + "x".repeat(80))), false);
   check("a text node is not a button", ship({ nodeType: 3, textContent: "Publish" }), false);
+
+    // ------------------------------------------------- a session gotrue cleared
+  // gotrue-js calls clearSession() on ANY failed refresh, including a
+  // network one, so "logged out" arrives with no warning and no auth-shaped
+  // error message. These check that the page looks at the session itself
+  // rather than at how the failure was worded.
+  console.log("\nsessionIsGone / handleLostSession — the silent logout");
+
+  const sessionSrc =
+    "var everHadUser = false;\n" +
+    grab("currentUserOrNull", "      ") + "\n" +
+    grab("sessionIsGone", "      ") + "\n" +
+    grab("handleLostSession", "      ") + "\n";
+
+  function session(opts) {
+    const log = [];
+    const win = {
+      netlifyIdentity: { currentUser: opts.currentUser },
+      __FORCE_SNAPSHOT: (why) => log.push("snapshot:" + why)
+    };
+    // netlifyIdentity is passed separately because the page reads it as a
+    // bare global as well as through window -- the same binding in a
+    // browser, two different things inside new Function().
+    const api = new Function(
+      "window", "netlifyIdentity", "sessionIsDead", "safeToShowDeadModal",
+      "showDeadSessionModal",
+      sessionSrc +
+      "return { gone: sessionIsGone, handle: handleLostSession," +
+      "         seen: function () { return everHadUser; } };"
+    )(win, win.netlifyIdentity, !!opts.alreadyDead,
+      () => opts.pastStartup !== false,
+      (why) => log.push("modal:" + why));
+    return { api, log };
+  }
+
+  const user = () => ({ token: {} });
+  const none = () => null;
+
+  let s = session({ currentUser: none });
+  check("no session at startup is not a lost session", s.api.gone(), false);
+
+  s = session({ currentUser: user });
+  check("a live session is not lost", s.api.gone(), false);
+  check("and it is remembered", s.api.seen(), true);
+
+  // The one that matters: there was a user, and now there is not.
+  let live = true;
+  s = session({ currentUser: () => (live ? { token: {} } : null) });
+  s.api.gone();                       // first look: signed in
+  live = false;                       // gotrue clears the session
+  check("a session that vanished is lost", s.api.gone(), true);
+
+  live = true;
+  s = session({ currentUser: () => { if (live) return { token: {} }; throw new Error("boom"); } });
+  s.api.gone();
+  live = false;
+  check("currentUser() throwing counts as gone", s.api.gone(), true);
+
+  // handleLostSession: modal, snapshot, and the guards around them.
+  live = true;
+  s = session({ currentUser: () => (live ? { token: {} } : null) });
+  check("nothing happens while signed in", s.api.handle("test"), false);
+  check("and nothing was logged", s.log, []);
+
+  live = false;
+  check("a lost session is handled", s.api.handle("refresh-cleared-session:focus"), true);
+  check("her work is snapshotted before the modal",
+        s.log, ["snapshot:session-lost", "modal:refresh-cleared-session:focus"]);
+
+  live = true;
+  s = session({ currentUser: () => (live ? { token: {} } : null), pastStartup: false });
+  s.api.gone();
+  live = false;
+  check("the 90s startup window suppresses it", s.api.handle("startup"), false);
+  check("and nothing was logged then either", s.log, []);
+
+  live = true;
+  s = session({ currentUser: () => (live ? { token: {} } : null), alreadyDead: true });
+  s.api.gone();
+  live = false;
+  check("no second modal once one is already up", s.api.handle("again"), false);
 
   console.log(`\n${pass} passed, ${fail} failed`);
   process.exit(fail ? 1 : 0);
