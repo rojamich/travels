@@ -53,5 +53,37 @@
     Cache-Control = "public, max-age=3600"
 
 # -----------------------------------------------------------------------------
-# Redirects — none for now. If you ever buy a custom domain, add it here.
+# Redirects
 # -----------------------------------------------------------------------------
+# The editor names a post's file when the post is created and never renames
+# it afterwards, so retitling a post leaves the old words sitting in the URL
+# forever. When we fix one of those by renaming the file, the old address is
+# already out in the world — in the feed, in anything anyone saved or shared.
+# A permanent redirect keeps those working.
+#
+# Add a pair here whenever a post is renamed. They cost nothing to keep.
+
+# Retitled to the Napoleon quote; the file still said "blue skies, seaside,
+# black tea", which is now a different post entirely. (2026-09-03)
+[[redirects]]
+  from = "/city-of-empires/blue-skies-seaside-black-tea/"
+  to = "/city-of-empires/if-the-earth-were-a-single-state-istanbul-would-be-its-capital/"
+  status = 301
+
+# Published before it had a name, so the URL was literally /draft/. (2026-09-03)
+[[redirects]]
+  from = "/welcome-home-tbilisi-georgia/draft/"
+  to = "/welcome-home-tbilisi-georgia/the-ananuri-fortress-a-friendship-monument-and-giant-heads/"
+  status = 301
+
+# Started life as a week summary, ended up being about the food. (2026-09-03)
+[[redirects]]
+  from = "/welcome-home-tbilisi-georgia/week-3-of-tbilisi/"
+  to = "/welcome-home-tbilisi-georgia/sushi-sunsets-suluguni/"
+  status = 301
+
+# (2026-09-03)
+[[redirects]]
+  from = "/the-singaporean-stopover/dinos-donuts/"
+  to = "/the-singaporean-stopover/donuts-the-goddess-and-destroyer-of-evil/"
+  status = 301
