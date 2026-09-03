@@ -1,5 +1,5 @@
 ---
-title: From Bridges to Barbers
+title: From Bridges to Barbers💈
 date: 2026-09-01
 categories:
   - city-of-empires
