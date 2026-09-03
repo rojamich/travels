@@ -1,5 +1,5 @@
 ---
-title: From Bridges to Barbers
+title: From Bridges to Barbers💈
 date: 2026-09-01
 categories:
   - city-of-empires
@@ -21,7 +21,7 @@ new_tags: []
 stay: night
 toc: false
 ---
-We crossed over the bridge into the Asia side of Turkey — if you didn't know, Turkey is Eurasian and sits between the two continents! The last 2.5 days were spent on the European side. 
+We crossed over the bridge into the Asia side of Turkey — if you didn't know, Turkey is Eurasian and sits between the two continents! The previous 2.5 days were spent on the European side. 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788418084/llemp4wqthqmrywu0viq.jpg)
 
@@ -29,7 +29,7 @@ We were dropped off by our uber (taxi) and got into our toasty hotel room (pleas
 
 That's when we looked at our uber app and noticed our driver leave and let the meter keep running. We contacted him immediately, and he stopped/reverted the price back. Whether this was accidental or not, it's good to be aware of!
 
-Ramen was on the menu for lunch and we saw this mural on ourwalk over that looked like something out of a Stephen King novel!
+Ramen was on the menu for lunch and we saw this mural on our walk over that looked like something out of a Stephen King novel!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788418642/lruz8gad9vouuzlnq20t.jpg)
 
@@ -37,7 +37,7 @@ We ordered the spicy ramen and lamb gyoza 🍜🥟
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788418764%2Feyvlncdemt4cgpozed6a.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2273%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788418769%2Fy1mbfdutwwrt0ex10pl2.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2243%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788418791%2Fwtgek319chsbeo9o4ato.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-Mike loved his ramen and the gyoza was the juiciest I've ever had! The ramen was tasty but I'm not a huge fan of the light colored ramen, more red and spicy for me please!
+Mike loved his ramen and the gyoza was the juiciest I've ever had! The ramen was tasty but I'm not a huge fan of the creamy ramen, more red and spicy for me please!
 
 The walk was highlighted by views of the sea and the vine scrawling over the fences ⛵🌿🍃
 
@@ -47,7 +47,7 @@ Tired but excited for a new experience, Mike had decided to give a Turkish barbe
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2224%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788419293%2Fxic4hjrrucoyessnyqpm.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788419327%2Fjxymymv9v6g4azj7fjtd.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-I was stoked to see how it would turn out. The young man working there was very eager to help and offered us tea, coffee, water about 16times each, he was so sweet! He and a teen boy were learning from the barber and carefully watching his very snip!
+I was stoked to see how it would turn out. The young man working there was very eager to help and offered us tea, coffee, water about 16 times each, he was so sweet! He and a teen boy were learning from the barber and carefully watching his very snip!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788418037%2Fnhu8nhmoyrsfxzdolqxr.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788419434%2Fnnxtdlmvempwdyqbryjd.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -61,11 +61,11 @@ At this point it looked like Mike was being baptized. You probably don't know th
 
 So when he started washing Mike's head forwards rather than backwards, I was horrified both for him and for humans everywhere lol.
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788419645/i6ziaya32cqkytb1jnea.jpg)
-
 This appeared to be a totally local barber experience because, as we were there, about 5 different Turkish men came in for cuts and/or to shoot the breeze!
 
-The little boy asked if we liked futbol and we said yes but we really couldn't speak much on teams and such so I asked if he knew American Football. He indicated so-so so I showed him some highlight clips and he asked me about the ball. I showed him a photo and then my nails! He got excited and showed all the other men in the shop my nails 😂💅🏻 They all crowded around to gaze at the nails and I was very amused and pleased at their happiness because I love my nails too!
+The little boy asked if we liked futbol and we said yes but we really couldn't speak much on teams and such so I asked if he knew American Football. He indicated so-so, so I showed him some highlight clips and he asked me about the ball. I showed him a photo and then my nails! He got excited and showed all the other men in the shop my nails 😂💅🏻 They all crowded around to gaze at the nails and I was very amused and pleased at their happiness because I love my nails too!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788339460/20260828_133957_cg7pab.jpg "Here they are again if you missed them in the Armenia blog!")
 
  We love the outcome of the barber experience and are so happy he tried it!
 
