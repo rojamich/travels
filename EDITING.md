@@ -186,11 +186,62 @@ turned off so Jen's drafts don't burn build minutes.
 
 ---
 
+## Save and Publish are not the same thing
+
+This is the one thing worth knowing, because getting it wrong is how a
+finished post goes live as an old draft.
+
+- **Save** writes what is on screen to the post's branch on GitHub.
+- **Publish** merges that branch. **It does not save first.**
+
+So if a save fails and she presses Publish anyway, Publish works perfectly
+and ships *the previous version*. Nothing reports a problem, because from
+Publish's point of view nothing went wrong. That is what happened on
+2026-09-03: a save was refused, the branch kept the older draft, and the
+pull request that got merged was that older draft.
+
+The editor now guards against this on its own:
+
+- The pill at the bottom-left says whether GitHub actually has what is on
+  screen: **✓ On GitHub**, **✏️ Unsaved**, or a red **⛔ NOT on GitHub**.
+- A refused save puts a red bar across the top and leaves it there.
+- Clicking **Publish** or **Set status** while the screen is ahead of
+  GitHub is blocked, with an explanation. (There is a "Publish anyway"
+  button if it is ever wrong.)
+
+If she is unsure, the rule is: **press Save, wait for the pill to say
+✓ On GitHub, then publish.**
+
+---
+
+## Getting her work back if a save is lost
+
+The editor snapshots the whole form every few seconds into her browser's
+local storage — every field, not just the body. In the browser console on
+`/admin/` (F12 → Console):
+
+| Command | What it does |
+| --- | --- |
+| `RECOVERY_FORM()` | Prints every field of the most recent snapshot, labelled |
+| `RECOVERY_FORM(1)` | The snapshot before that (up to 12 are kept) |
+| `RECOVERY_FORM_COPY()` | Copies the whole form to the clipboard as labelled text |
+| `RECOVERY_HISTORY()` | Lists the older body-only snapshots with timestamps |
+| `RECOVERY_COPY(0)` | Copies the newest body-only snapshot |
+
+Use `RECOVERY_FORM_COPY()` first — the `RECOVERY_COPY` pair are the older
+commands and only ever captured the body text, which is why a recovery used
+to come back with the title, location, date, tags and photo URLs missing.
+
+Snapshots live in **that browser on that machine** and are kept 14 days. If
+she wrote on her laptop, they are not on your phone.
+
+---
+
 ## When Jen gets "failed to persist entry" in the editor
 
-Her work is usually **not** lost, even though the editor says the save failed.
-Each draft is pushed to GitHub as a branch with a pull request attached, and the
-text normally makes it there before the error appears.
+Sometimes her work is still on GitHub even though the editor said the save
+failed — the text can make it there before the error appears. Check first,
+before anything else:
 
 1. Look at <https://github.com/rojamich/travels/pulls>. A pull request named
    `Add post: <slug>` / `Edit post: <slug>` holds what she typed — click
@@ -205,6 +256,10 @@ text normally makes it there before the error appears.
    blocker — delete it there and the next save works.
    `.github/workflows/cms-branch-cleanup.yml` now clears those away
    automatically, so this should stop happening on its own.
+4. If the pull request exists but holds an **older** version than what she
+   wrote, GitHub never received the last save. Do not merge it. Get her
+   words back with `RECOVERY_FORM_COPY()` in her browser console (see
+   above), then paste them into the editor and save properly.
 
 ---
 

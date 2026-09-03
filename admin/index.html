@@ -24,6 +24,131 @@
 </head>
 <body>
   <!--
+    =========================================================================
+    SAVE WATCHER — ground truth about what GitHub actually received
+    =========================================================================
+    This must load BEFORE Decap, so that the fetch it captures is ours.
+
+    WHY IT EXISTS
+      Everything else in this page reasons about the token. That is one
+      step removed from the question that actually matters, which is: did
+      her words reach GitHub? A save can fail for reasons that have
+      nothing to do with a token, and Decap reports it in a toast that is
+      easy to miss and gone in seconds. Then "Publish" ships the branch —
+      NOT what is on screen — so the version that goes live is whatever
+      the last save that DID work left behind.
+
+      That is how a finished post gets published as an older draft while
+      nothing anywhere says a word about it.
+
+    WHAT IT DOES
+      Watches every write to Git Gateway and records whether it succeeded.
+      Nothing more. The UI code further down reads these timestamps to
+      tell her, honestly, whether the thing on her screen is on GitHub.
+
+    THE DISCIPLINE
+      seenAny stays false until a Git Gateway write is actually observed.
+      Until then every consumer must treat the answer as "cannot tell" and
+      do nothing — never as "unsaved". If Decap ever stops using fetch,
+      this goes quiet and the editor behaves exactly as it does today.
+    =========================================================================
+  -->
+  <script>
+    (function () {
+      // Which came last, the good write or the bad one, is the whole
+      // question — and Date.now() cannot always answer it. Two writes can
+      // land in the same millisecond, and then the timestamps tie and the
+      // answer depends on which way the comparison happens to lean. A
+      // counter that only ever goes up has no ties, so ordering uses that
+      // and the timestamps are left to do what they are good at: telling
+      // her what time her work last reached GitHub.
+      var order = 0;
+      var watch = {
+        seenAny: false,        // have we ever observed a Git Gateway write?
+        lastOkMs: 0,           // when the last good write landed (for display)
+        lastFailMs: 0,         // when the last lost save happened (for display)
+        lastOkSeq: 0,          // ordering, immune to same-millisecond ties
+        lastFailSeq: 0,
+        lastFailStatus: 0,
+        lastFailText: "",
+        listeners: []
+      };
+      window.__SAVE_WATCH = watch;
+
+      // >= not >: a good write and a failed one can land in the same
+      // millisecond, and when they do the good one is the later news.
+      // saveState() reads the tie the same way.
+      watch.healthy = function () { return watch.lastOkSeq >= watch.lastFailSeq; };
+      watch.onEvent = function (fn) { watch.listeners.push(fn); };
+      function emit(kind) {
+        watch.listeners.forEach(function (fn) {
+          try { fn(kind, watch); } catch (e) {}
+        });
+      }
+
+      // Git Gateway proxies GitHub at /.netlify/git/. A direct github
+      // backend would go to api.github.com; match both so this keeps
+      // working if the backend is ever switched.
+      // 401/403 mean the token is not accepted; 409 means the branch moved
+      // under us; 5xx means GitHub or the gateway broke. Each of those loses
+      // the save. Everything else is noise Decap handles itself.
+      function isFatal(status) {
+        return status === 401 || status === 403 || status === 409 || status >= 500;
+      }
+
+      function isGitWrite(url, method) {
+        if (!/^(POST|PUT|PATCH|DELETE)$/i.test(method || "GET")) return false;
+        return /\/\.netlify\/git\//.test(url) || /api\.github\.com/.test(url);
+      }
+
+      var nativeFetch = window.fetch;
+      if (typeof nativeFetch === "function") {
+        window.fetch = function (input, init) {
+          var url = (typeof input === "string") ? input : (input && input.url) || "";
+          var method = (init && init.method) ||
+                       (typeof input === "object" && input && input.method) || "GET";
+
+          if (!isGitWrite(url, method)) return nativeFetch.apply(this, arguments);
+
+          watch.seenAny = true;
+          return nativeFetch.apply(this, arguments).then(function (response) {
+            if (response.ok) {
+              watch.lastOkMs = Date.now();
+              watch.lastOkSeq = ++order;
+              emit("ok");
+            } else if (isFatal(response.status)) {
+              watch.lastFailMs = Date.now();
+              watch.lastFailSeq = ++order;
+              watch.lastFailStatus = response.status;
+              watch.lastFailText = response.status + " " + (response.statusText || "");
+              console.warn("[save-watch] GitHub REFUSED a write: " +
+                           watch.lastFailText + " — " + method + " " + url);
+              emit("fail");
+            } else {
+              // Not every non-2xx is a lost save. Decap probes and tidies up
+              // as it goes, and a 404 on a branch it is deleting or a 422 on
+              // one that already exists are both routine. Raising the alarm
+              // for those would teach her to ignore the alarm.
+              console.log("[save-watch] non-fatal " + response.status + " on " +
+                          method + " " + url);
+            }
+            return response;
+          }, function (err) {
+            // A rejected fetch is a save that never arrived at all.
+            watch.lastFailMs = Date.now();
+            watch.lastFailSeq = ++order;
+            watch.lastFailStatus = 0;
+            watch.lastFailText = (err && err.message) || "network error";
+            console.warn("[save-watch] a write never reached GitHub: " + watch.lastFailText);
+            emit("fail");
+            throw err;
+          });
+        };
+      }
+    })();
+  </script>
+
+  <!--
     Decap CMS itself (the admin UI), pinned to an exact version.
 
     These used to ask for "^3.1.0", meaning whatever 3.x release existed at
@@ -312,6 +437,8 @@
       //   RECOVERY_LATEST()        → prints newest snapshot per editor
       //   RECOVERY_HISTORY()       → prints all snapshots with timestamps
       //   RECOVERY_COPY(N)         → copies snapshot #N's content to clipboard
+      //   RECOVERY_FORM()          → every field of the form, newest first
+      //   RECOVERY_FORM_COPY()     → copies the whole form, labelled, to clipboard
       //
       // Snapshots older than 14 days are cleaned up on load. Max ~20
       // snapshots per editor key to keep localStorage size bounded.
@@ -388,6 +515,7 @@
               console.log("[safety-net] " + reason + " → snapshot " + totalLen +
                           " chars, changed: " + changedKeys.join(", "));
             }
+            snapshotForm(reason);
           } catch (e) {
             console.warn("[safety-net] snapshot failed:", e && e.message);
           }
@@ -409,6 +537,151 @@
 
         cleanOld();
         setInterval(function () { snapshot("interval"); }, 5 * 1000);   // was 30s
+
+        // -----------------------------------------------------------------
+        // Whole-form capture.
+        // -----------------------------------------------------------------
+        // The capture above keeps any editor holding more than 100
+        // characters, which in practice means the body of the post and
+        // nothing else. Everything shorter is skipped: the title, the
+        // location, the date, the tags, the trip, the excerpt, every photo
+        // URL. That is why a recovered draft comes back as a wall of prose
+        // with all its settings missing and has to be reassembled by hand.
+        //
+        // This keeps every field with anything in it, labelled, so a
+        // recovery reads like the form she was looking at.
+        //
+        // For the body it also keeps innerHTML alongside the plain text,
+        // because the rich-text editor renders bold, links and images as
+        // markup -- innerText silently flattens all of it.
+        var FORM_PREFIX = "editor-form:";
+        var MAX_FORM_HIST = 12;
+        var lastForm = {};
+
+        function formKey() {
+          var m = /#\/collections\/([^/]+)\/(?:entries\/)?([^/?]*)/.exec(location.hash);
+          return m ? (m[1] + ":" + (m[2] || "new")) : null;
+        }
+
+        function fieldLabel(el) {
+          var aria = el.getAttribute && el.getAttribute("aria-label");
+          if (aria) return aria;
+          if (el.id) {
+            try {
+              var escaped = (window.CSS && CSS.escape) ? CSS.escape(el.id) : el.id;
+              var forLabel = document.querySelector("label[for=\"" + escaped + "\"]");
+              if (forLabel && forLabel.textContent.trim()) return forLabel.textContent.trim();
+            } catch (e) {}
+          }
+          var node = el.parentElement;
+          for (var d = 0; d < 6 && node; d++) {
+            var label = node.querySelector && node.querySelector("label");
+            if (label && label.textContent.trim()) return label.textContent.trim();
+            node = node.parentElement;
+          }
+          return el.placeholder || el.name || el.tagName.toLowerCase();
+        }
+
+        function collectFields() {
+          var selector =
+            "input[type=\"text\"], input[type=\"url\"], input[type=\"number\"], " +
+            "input[type=\"date\"], input[type=\"datetime-local\"], input[type=\"time\"], " +
+            "input:not([type]), textarea, [contenteditable=\"true\"], [role=\"textbox\"]";
+          var fields = [];
+          Array.prototype.forEach.call(document.querySelectorAll(selector), function (el) {
+            if (el.type === "password" || el.type === "search") return;
+            if (el.closest && el.closest("#photo-pos-modal, #unsaved-modal, #dead-session-modal")) return;
+            var val = el.value;
+            if (val === undefined || val === null) val = el.innerText || "";
+            if (!val || !String(val).trim()) return;
+            var field = { label: fieldLabel(el), value: String(val) };
+            if (el.isContentEditable && el.innerHTML && el.innerHTML.length < 200000) {
+              field.html = el.innerHTML;
+            }
+            fields.push(field);
+          });
+          return fields;
+        }
+
+        function snapshotForm(reason) {
+          try {
+            var key = formKey();
+            if (!key) return;                       // not in an entry
+            var fields = collectFields();
+            if (!fields.length) return;
+            var signature = JSON.stringify(fields);
+            if (lastForm[key] === signature) return;
+            lastForm[key] = signature;
+
+            var storageKey = FORM_PREFIX + key;
+            var history;
+            try { history = JSON.parse(localStorage.getItem(storageKey)) || []; }
+            catch (e) { history = []; }
+            history.push({ ts: Date.now(), url: location.href, fields: fields });
+            if (history.length > MAX_FORM_HIST) history = history.slice(-MAX_FORM_HIST);
+            try {
+              localStorage.setItem(storageKey, JSON.stringify(history));
+            } catch (quotaErr) {
+              history = history.slice(-3);
+              try { localStorage.setItem(storageKey, JSON.stringify(history)); } catch (e2) {}
+            }
+            console.log("[safety-net] " + reason + " -> form snapshot, " +
+                        fields.length + " fields, " + signature.length + " chars (" + key + ")");
+          } catch (e) {
+            console.warn("[safety-net] form snapshot failed:", e && e.message);
+          }
+        }
+
+        function formHistories() {
+          return Object.keys(localStorage)
+            .filter(function (k) { return k.indexOf(FORM_PREFIX) === 0; })
+            .map(function (k) {
+              try { return { key: k, entries: JSON.parse(localStorage.getItem(k)) || [] }; }
+              catch (e) { return { key: k, entries: [] }; }
+            });
+        }
+
+        // RECOVERY_FORM()   -> what was on screen, newest first, field by field
+        // RECOVERY_FORM(2)  -> the state three snapshots back
+        window.RECOVERY_FORM = function (idxFromEnd) {
+          idxFromEnd = idxFromEnd || 0;
+          var any = false;
+          formHistories().forEach(function (h) {
+            var entry = h.entries[h.entries.length - 1 - idxFromEnd];
+            if (!entry) return;
+            any = true;
+            console.log("=== " + h.key.slice(FORM_PREFIX.length) + " — " +
+                        new Date(entry.ts).toLocaleString() + " (" +
+                        h.entries.length + " snapshots kept) ===");
+            entry.fields.forEach(function (f) {
+              console.log("--- " + f.label + " ---");
+              console.log(f.value);
+            });
+          });
+          if (!any) console.log("No form snapshot at index " + idxFromEnd + ".");
+        };
+
+        // Copies the whole form as labelled plain text, ready to paste
+        // somewhere safe while the editor is sorted out.
+        window.RECOVERY_FORM_COPY = function (idxFromEnd) {
+          idxFromEnd = idxFromEnd || 0;
+          var best = null;
+          formHistories().forEach(function (h) {
+            var entry = h.entries[h.entries.length - 1 - idxFromEnd];
+            if (entry && (!best || entry.ts > best.ts)) best = entry;
+          });
+          if (!best) { console.log("No form snapshot at index " + idxFromEnd + "."); return; }
+          var text = best.fields.map(function (f) {
+            return "## " + f.label + "\n" + f.value;
+          }).join("\n\n");
+          if (window.copy) {
+            window.copy(text);
+            console.log("Copied " + text.length + " chars from " +
+                        new Date(best.ts).toLocaleString() + " to the clipboard.");
+          } else {
+            console.log(text);
+          }
+        };
 
         // Recovery helpers exposed on window for console use.
         window.RECOVERY_LATEST = function () {
@@ -515,6 +788,171 @@
             }
           });
         }, 60 * 1000);
+
+        // -----------------------------------------------------------------
+        // Is what is on screen actually on GitHub?
+        // -----------------------------------------------------------------
+        // The question behind every lost post, and until now nothing in this
+        // page could answer it. Save and Publish are two different things:
+        //
+        //   Save     writes the editor content to the post's branch.
+        //   Publish  merges that branch. It does NOT save first.
+        //
+        // So a save that fails is not just a failed save. It quietly turns
+        // Publish into "ship the previous version", and Publish then reports
+        // success, because from its point of view the merge worked fine.
+        //
+        // __SAVE_WATCH (installed above, before Decap loads) records what
+        // Git Gateway actually did. Comparing that against when she last
+        // typed answers the question directly, with no guessing about
+        // Decap's internals.
+        var lastEditMs = 0;
+
+        function inEntryEditor() {
+          return /#\/collections\/[^/]+\/(entries|new)\//.test(location.hash);
+        }
+
+        document.addEventListener("input", function (e) {
+          var el = e.target;
+          if (!el || el.nodeType !== 1 || !inEntryEditor()) return;
+          if (el.tagName !== "TEXTAREA" && el.tagName !== "INPUT" && !el.isContentEditable) return;
+          lastEditMs = Date.now();
+        }, true);
+
+        // "saved" | "unsaved" | "failed", or null for "cannot tell".
+        //
+        // null is not a failure mode. It is the honest answer before any Git
+        // Gateway write has been seen, and every caller must treat it as "do
+        // nothing". Blocking a publish that would have worked is a worse bug
+        // than the one being fixed here.
+        function saveState() {
+          var w = window.__SAVE_WATCH;
+          if (!w || !w.seenAny) return null;
+          if (w.lastFailSeq > w.lastOkSeq) return "failed";
+          if (!lastEditMs) return "saved";
+          return lastEditMs > w.lastOkMs ? "unsaved" : "saved";
+        }
+
+        function lastSavedLabel() {
+          var w = window.__SAVE_WATCH;
+          if (!w || !w.lastOkMs) return "nothing from this session";
+          return "your " + new Date(w.lastOkMs).toLocaleTimeString([], {
+            hour: "numeric", minute: "2-digit"
+          }) + " version";
+        }
+
+        // A refused save, said out loud and left on screen until it is fixed.
+        // Decap's own message for this is small, grey and gone in a few
+        // seconds, which is how one got missed entirely.
+        function showSaveFailBar(detail) {
+          var bar = document.getElementById("save-fail-bar");
+          if (!bar) {
+            bar = document.createElement("div");
+            bar.id = "save-fail-bar";
+            bar.style.cssText =
+              "position:fixed;top:0;left:0;right:0;padding:14px 20px;" +
+              "background:#c0392b;color:#fff;font-size:14px;font-weight:bold;" +
+              "text-align:center;z-index:2147483647;box-shadow:0 2px 10px rgba(0,0,0,0.35);" +
+              "font-family:system-ui,sans-serif;line-height:1.45;";
+            document.body.appendChild(bar);
+          }
+          bar.innerHTML =
+            "⛔ Your last save did NOT reach GitHub (" + detail + ").<br>" +
+            "<span style=\"font-weight:normal;font-size:13px;\">" +
+            "Do not close this tab. Everything on screen is still here and backed up locally. " +
+            "Sign in again, then press Save. Publishing now would ship " +
+            lastSavedLabel() + " instead.</span>";
+        }
+        function hideSaveFailBar() {
+          var bar = document.getElementById("save-fail-bar");
+          if (bar) bar.remove();
+        }
+        if (window.__SAVE_WATCH) {
+          window.__SAVE_WATCH.onEvent(function (kind, w) {
+            if (kind === "fail") showSaveFailBar(w.lastFailText);
+            else hideSaveFailBar();
+          });
+        }
+
+        // -----------------------------------------------------------------
+        // Publish guard.
+        // -----------------------------------------------------------------
+        // Stops the exact sequence that published an old draft: unsaved (or
+        // unsuccessfully saved) work on screen, and a click on Publish or
+        // Set status. Both ship the branch, so both are blocked while the
+        // branch is behind the screen.
+        //
+        // There is a way past it, deliberately. If this is ever wrong she
+        // should not be stuck. She should be told, and then trusted.
+        var publishBypassUntilMs = 0;
+
+        function looksLikeShipButton(el) {
+          if (!el || el.nodeType !== 1) return false;
+          var text = (el.textContent || "").trim().toLowerCase();
+          if (!text || text.length > 60) return false;
+          return /^(publish|set status)/.test(text);
+        }
+
+        function showUnsavedModal(state) {
+          if (document.getElementById("unsaved-modal")) return;
+          var failed = (state === "failed");
+          var modal = document.createElement("div");
+          modal.id = "unsaved-modal";
+          modal.style.cssText =
+            "position:fixed;inset:0;background:rgba(0,0,0,0.65);display:flex;" +
+            "align-items:center;justify-content:center;z-index:2147483647;" +
+            "font-family:system-ui,sans-serif;";
+          modal.innerHTML =
+            "<div style=\"background:#fff;padding:28px 32px;border-radius:12px;max-width:520px;" +
+            "box-shadow:0 8px 40px rgba(0,0,0,0.35);text-align:left;\">" +
+            "<div style=\"font-size:38px;text-align:center;margin-bottom:10px;\">" +
+            (failed ? "⛔" : "✏️") + "</div>" +
+            "<h2 style=\"margin:0 0 12px 0;font-size:20px;color:#2a4d69;text-align:center;\">" +
+            (failed ? "Your last save was refused" : "Save this first") + "</h2>" +
+            "<p style=\"margin:0 0 10px 0;color:#333;font-size:14px;line-height:1.55;\">" +
+            "Publishing sends <b>the last version GitHub received</b>, not what is on your " +
+            "screen right now. GitHub currently has " + lastSavedLabel() + "." +
+            "</p>" +
+            "<p style=\"margin:0 0 20px 0;color:#333;font-size:14px;line-height:1.55;\">" +
+            (failed
+              ? "Sign out and back in, press <b>Save</b>, and wait for it to finish. Then publish."
+              : "Press <b>Save</b> and wait for it to finish, then publish.") +
+            "</p>" +
+            "<div style=\"display:flex;gap:10px;justify-content:center;\">" +
+            "<button id=\"unsaved-ok\" style=\"background:#2a4d69;color:#fff;border:none;" +
+            "padding:11px 22px;border-radius:6px;font-size:14px;font-weight:bold;cursor:pointer;\">" +
+            "Save it first</button>" +
+            "<button id=\"unsaved-anyway\" style=\"background:#fff;color:#888;border:1px solid #ccc;" +
+            "padding:11px 18px;border-radius:6px;font-size:13px;cursor:pointer;\">" +
+            "Publish anyway</button>" +
+            "</div></div>";
+          document.body.appendChild(modal);
+
+          document.getElementById("unsaved-ok").addEventListener("click", function () {
+            modal.remove();
+          });
+          document.getElementById("unsaved-anyway").addEventListener("click", function () {
+            publishBypassUntilMs = Date.now() + 30 * 1000;
+            modal.remove();
+          });
+        }
+
+        document.addEventListener("pointerdown", function (e) {
+          if (Date.now() < publishBypassUntilMs) return;
+          var state = saveState();
+          if (state !== "unsaved" && state !== "failed") return;
+          var el = e.target;
+          for (var depth = 0; depth < 5 && el; depth++) {
+            if (looksLikeShipButton(el)) {
+              e.preventDefault();
+              e.stopImmediatePropagation();
+              console.warn("[admin] publish blocked, editor is ahead of GitHub (" + state + ")");
+              showUnsavedModal(state);
+              return;
+            }
+            el = el.parentElement;
+          }
+        }, true);
 
         // Layer 3: refresh on every Save / Publish click.
         // ---------------------------------------------------------------
@@ -639,10 +1077,20 @@
             if (Date.now() - publishArmedAt > 15000) { publishArmed = false; return; }
             if (isInEntryDetail()) return;   // still on the entry, not done yet
             publishArmed = false;
-            armAutoNav();
+            // Only call it published if a Git Gateway write actually
+            // succeeded after the click. The old code inferred success from
+            // "a publish-shaped button was clicked, then the URL changed",
+            // which is also what merely opening the Publish menu and
+            // navigating away looks like -- so it cheerfully announced
+            // "Published!" for posts that had gone nowhere.
+            var w = window.__SAVE_WATCH;
+            if (w && w.lastFailMs > publishArmedAt) return;  // it failed; the red bar says so
+            // (times, not counters, here: the question is what happened
+            //  since the click, and the click is a wall-clock moment.)
+            armAutoNav(!!(w && w.lastOkMs > publishArmedAt));
           });
 
-          function armAutoNav() {
+          function armAutoNav(confirmed) {
             if (navBanner) return;
             var secondsLeft = 5;
             navBanner = document.createElement("div");
@@ -653,7 +1101,8 @@
               "box-shadow:0 4px 14px rgba(0,0,0,0.3);font-family:system-ui,sans-serif;" +
               "display:flex;align-items:center;gap:10px;max-width:340px;";
             navBanner.innerHTML =
-              "<span>✅ Published! Returning to workflow in <b class='sec'>5</b>s…</span>" +
+              "<span>" + (confirmed ? "✅ Published! " : "") +
+              "Returning to workflow in <b class='sec'>5</b>s…</span>" +
               "<button style='background:#fff;color:#2a4d69;border:none;border-radius:6px;" +
               "padding:5px 10px;font-size:12px;font-weight:bold;cursor:pointer;'>Cancel</button>";
             document.body.appendChild(navBanner);
@@ -699,41 +1148,70 @@
           }
         })();
 
-        // Layer 4: mint a persistent "backup indicator" that shows when the
-        // safety net last snapshotted her work. Peace of mind + easy check
-        // that snapshots are actually running.
+        // Layer 4: the status pill, bottom-left.
+        // ---------------------------------------------------------------
+        // It used to report only the local backup, which is the less
+        // important of the two facts and the one that is almost always
+        // fine. The fact that decides whether a post survives is whether
+        // GitHub has it, so that goes on the first line, and the backup
+        // stays underneath as the reassurance it always was.
         function updateBackupIndicator() {
           var ind = document.getElementById("backup-indicator");
           if (!ind) {
             ind = document.createElement("div");
             ind.id = "backup-indicator";
             ind.style.cssText =
-              "position:fixed;bottom:18px;left:18px;padding:6px 12px;" +
-              "background:rgba(42,77,105,0.9);color:#fff;font-size:11px;" +
-              "border-radius:6px;z-index:2147483645;pointer-events:none;" +
-              "font-family:system-ui,sans-serif;";
+              "position:fixed;bottom:18px;left:18px;padding:7px 12px;" +
+              "color:#fff;font-size:11px;border-radius:6px;z-index:2147483645;" +
+              "pointer-events:none;font-family:system-ui,sans-serif;line-height:1.5;" +
+              "max-width:280px;";
             document.body.appendChild(ind);
           }
           try {
-            var keys = Object.keys(localStorage).filter(function (k) {
-              return k.indexOf("editor-snapshot:") === 0;
-            });
-            if (keys.length === 0) {
-              ind.textContent = "💾 Backup: no draft yet";
-              return;
+            var state = saveState();
+            var background = "rgba(42,77,105,0.9)";
+            var line;
+            if (state === "failed") {
+              background = "rgba(192,57,43,0.95)";
+              line = "⛔ NOT on GitHub — last save refused";
+            } else if (state === "unsaved") {
+              background = "rgba(200,130,20,0.95)";
+              line = "✏️ Unsaved — GitHub has " + lastSavedLabel();
+            } else if (state === "saved" && window.__SAVE_WATCH.lastOkMs) {
+              var savedMins = Math.round((Date.now() - window.__SAVE_WATCH.lastOkMs) / 60000);
+              line = "✓ On GitHub — saved " +
+                     (savedMins < 1 ? "just now" : savedMins + "m ago");
+            } else {
+              line = "";                       // cannot tell yet: claim nothing
             }
-            var newest = 0;
-            keys.forEach(function (k) {
-              try {
-                var o = JSON.parse(localStorage.getItem(k));
-                if (o && o.ts && o.ts > newest) newest = o.ts;
-              } catch (e) {}
+            ind.style.background = background;
+
+            var keys = Object.keys(localStorage).filter(function (k) {
+              return k.indexOf("editor-snapshot:") === 0 ||
+                     k.indexOf("editor-form:") === 0;
             });
-            var mins = Math.round((Date.now() - newest) / 60000);
-            ind.textContent = "💾 Backup: " + (mins < 1 ? "just now" : mins + "m ago");
+            var backup;
+            if (keys.length === 0) {
+              backup = "💾 Backup: no draft yet";
+            } else {
+              var newest = 0;
+              keys.forEach(function (k) {
+                try {
+                  var raw = JSON.parse(localStorage.getItem(k));
+                  var stamp = Array.isArray(raw)
+                    ? (raw.length ? raw[raw.length - 1].ts : 0)
+                    : (raw && raw.ts) || 0;
+                  if (stamp > newest) newest = stamp;
+                } catch (e) {}
+              });
+              var mins = Math.round((Date.now() - newest) / 60000);
+              backup = "💾 Backup: " + (mins < 1 ? "just now" : mins + "m ago");
+            }
+
+            ind.innerHTML = (line ? "<b>" + line + "</b><br>" : "") + backup;
           } catch (e) {}
         }
-        setInterval(updateBackupIndicator, 15 * 1000);
+        setInterval(updateBackupIndicator, 5 * 1000);
         setTimeout(updateBackupIndicator, 2000);
       });
     })();
