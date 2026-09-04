@@ -97,3 +97,19 @@ Mike said, I know its the oldest bread but why does it have to be stale?
 They had actual chefs on staff that would make you food at any time of the flight!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788531050/m69godbd7tzuwlvkj0sk.jpg)
+
+Again, way too much food but I ordered the Homemade ricotta cappellacci and mike had the grilled spring lamb chops!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788531171/dbqzdxd7kch5suo4f4jx.jpg)
+
+Mine was not very good but Mike said his chops were good!
+
+I didn't know what to do for dessert, there were a lot to choose from and it smelled like a bakery!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788531238%2Fniwskkjayz2obxejnfmm.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788531243%2Fuob5cgkh6ho86dw6kzbr.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We decided on the "Potpourri of traditional Turkish desserts" which were homemade pear strudel with vanilla sauce and homemade eclairs. They were utterly fantastic!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788531347/sujfvww41tbccldyazcs.jpg)
+
+We both ended up taking
