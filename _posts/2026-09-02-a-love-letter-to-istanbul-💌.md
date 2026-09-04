@@ -20,6 +20,8 @@ tags:
   - Books
   - Dancing
   - Coffee
+  - Sunset
+  - Landmarks
 new_tags: []
 stay: night
 toc: false
@@ -112,4 +114,12 @@ We decided on the "Potpourri of traditional Turkish desserts" which were homemad
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788531347/sujfvww41tbccldyazcs.jpg)
 
-We both ended up taking
+We both ended up taking naps and were woken to the next meal being served — where did the time go?? Fastest flight ever!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788531436%2Fht7mklhctqg0w28jy3jx.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788531441%2Fp3wzcqbouohoshcfsamy.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+I had the chicken salad and Mike got the smoked salmon and prawn. Both were fine. We were grateful not to have to buy food or take time to eat dinner in Toronto, we needed to get some rest before our next morning's flight!
+
+We were rewarded with this awesome sunset as we came into Toronto and even a view of the CN tower on the way to our hotel!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788531575%2Fblkibftanmbrtmj5hi5d.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788531576%2Fm4xdlj8v3lnke7c11jhy.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
