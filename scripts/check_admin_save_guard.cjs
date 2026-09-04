@@ -20,6 +20,8 @@
  *       writes land in the same millisecond
  *     - which buttons the publish guard stands in front of
  *     - whether a session gotrue quietly cleared is noticed at once
+ *     - whether a dropped connection is told apart from a real logout,
+ *       so a wifi blip puts the session back instead of ending it
  *
  *     The functions are pulled out of admin/index.html as it is on disk, so
  *     this cannot drift away from what actually ships.
@@ -167,6 +169,7 @@ async function hit(url, method, status, opts = {}) {
 
   const sessionSrc =
     "var everHadUser = false;\n" +
+    "var dismissedUntilMs = arguments[5] || 0;\n" +
     grab("currentUserOrNull", "      ") + "\n" +
     grab("sessionIsGone", "      ") + "\n" +
     grab("handleLostSession", "      ") + "\n";
@@ -188,7 +191,8 @@ async function hit(url, method, status, opts = {}) {
       "         seen: function () { return everHadUser; } };"
     )(win, win.netlifyIdentity, !!opts.alreadyDead,
       () => opts.pastStartup !== false,
-      (why) => log.push("modal:" + why));
+      (why) => log.push("modal:" + why),
+      opts.dismissedUntilMs || 0);
     return { api, log };
   }
 
@@ -238,6 +242,98 @@ async function hit(url, method, status, opts = {}) {
   s.api.gone();
   live = false;
   check("no second modal once one is already up", s.api.handle("again"), false);
+
+  // Her log is a run of watchdog / save-click / watchdog: the modal being
+  // dismissed and put straight back fifteen seconds later. Dismiss now
+  // buys her the quiet it always claimed to.
+  live = true;
+  s = session({ currentUser: () => (live ? { token: {} } : null),
+                dismissedUntilMs: Date.now() + 5 * 60 * 1000 });
+  s.api.gone();
+  live = false;
+  check("a dismissed modal stays dismissed", s.api.handle("watchdog"), false);
+  check("and nothing is logged while it is dismissed", s.log, []);
+
+  live = true;
+  s = session({ currentUser: () => (live ? { token: {} } : null),
+                dismissedUntilMs: Date.now() - 1000 });
+  s.api.gone();
+  live = false;
+  check("once the quiet window lapses it speaks up again",
+        s.api.handle("watchdog"), true);
+
+    // ------------------------------------------ a blip must not cost the login
+  // gotrue deletes the stored session in its catch, whatever the catch was
+  // for. When the cause was the network the refresh token was never spent,
+  // so the session is still good and gets put back. When the cause was the
+  // login itself, it must not be -- that would paper over a real logout.
+  console.log("\nlooksLikeNetwork — the network failed, or the login did?");
+
+  const netCheck = new Function("return " + grab("looksLikeNetwork", "      "))();
+  [
+    ["Failed to fetch", true, "Chrome, connection dropped"],
+    ["NetworkError when attempting to fetch resource.", true, "Firefox"],
+    ["Load failed", true, "Safari"],
+    ["net::ERR_CONNECTION_CLOSED", true, "what her log showed"],
+    ["net::ERR_NETWORK_CHANGED", true, "wifi switched"],
+    ["The operation was aborted.", true, "request cancelled"],
+    ["invalid_grant", false, "refresh token genuinely rejected"],
+    ["401 Unauthorized", false, "server said no"],
+    ["403 Forbidden", false, "server said no"],
+    ["invalid_token", false, "token genuinely bad"],
+    ["Failed to fetch: 401 Unauthorized", false, "auth wins over the wording"],
+    ["", false, "nothing to go on"]
+  ].forEach(([msg, want, why]) => {
+    check(`${want ? "restore" : "do NOT restore"} on "${msg || "(empty)"}" — ${why}`,
+          netCheck(msg), want);
+  });
+
+  console.log("\nputSessionBack — only when there is a gap to fill");
+
+  function withStorage(initial) {
+    const store = Object.assign({}, initial);
+    const localStorage = {
+      getItem: (k) => (k in store ? store[k] : null),
+      setItem: (k, v) => { store[k] = String(v); },
+      removeItem: (k) => { delete store[k]; }
+    };
+    const fn = new Function("localStorage", "currentUserOrNull",
+      'var SESSION_KEY = "gotrue.user";\n' +
+      grab("storedSession", "      ") + "\n" +
+      grab("putSessionBack", "      ") + "\n" +
+      "return { stored: storedSession, put: putSessionBack };"
+    )(localStorage, () => (store["gotrue.user"] ? { token: {} } : null));
+    return { api: fn, store };
+  }
+
+  let st = withStorage({ "gotrue.user": '{"token":{"access_token":"abc"}}' });
+  const saved = st.api.stored();
+  check("the session is read before the refresh", saved, '{"token":{"access_token":"abc"}}');
+
+  // gotrue's catch has just run.
+  delete st.store["gotrue.user"];
+  check("it goes back after a network failure", st.api.put(saved), true);
+  check("and the stored value is byte-identical",
+        st.store["gotrue.user"], '{"token":{"access_token":"abc"}}');
+
+  // A live session must never be overwritten by a stale copy.
+  st = withStorage({ "gotrue.user": '{"token":{"access_token":"NEW"}}' });
+  check("a live session is left alone", st.api.put('{"token":{"access_token":"OLD"}}'), false);
+  check("and still holds the new token",
+        st.store["gotrue.user"], '{"token":{"access_token":"NEW"}}');
+
+  st = withStorage({});
+  check("nothing to restore is not a restore", st.api.put(null), false);
+  check("no session before the refresh means nothing to put back", st.api.stored(), null);
+
+  console.log("\nrefreshIsThrottled — which callers may be made to wait");
+  const throttled = new Function("return " + grab("refreshIsThrottled", "      "))();
+  [["save-click", false], ["save-click-held", false], ["expiry-watch", false],
+   ["focus", true], ["visibilitychange", true], ["periodic", true],
+   ["", true], [undefined, true]].forEach(([reason, want]) => {
+    check(`${JSON.stringify(reason)} ${want ? "waits" : "always goes"}`,
+          throttled(reason), want);
+  });
 
   console.log(`\n${pass} passed, ${fail} failed`);
   process.exit(fail ? 1 : 0);

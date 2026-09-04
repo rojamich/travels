@@ -270,6 +270,8 @@
           if (window.netlifyIdentity) {
             netlifyIdentity.open("login");
             netlifyIdentity.on("login", function () {
+              dismissedUntilMs = 0;
+              networkFailures = 0;
               hideDeadSessionModal();
               netlifyIdentity.close();
               // Do NOT reload — that re-runs any startup false-positive
@@ -290,6 +292,7 @@
         dismiss.style.cssText = "display:block;margin-top:14px;font-size:12px;color:#888;";
         dismiss.addEventListener("click", function (e) {
           e.preventDefault();
+          dismissedUntilMs = Date.now() + 5 * 60 * 1000;
           hideDeadSessionModal();
         });
         deadSessionModal.firstChild.appendChild(dismiss);
@@ -345,7 +348,18 @@
         if (currentUserOrNull()) { everHadUser = true; return false; }
         return everHadUser;
       }
+      // How long "Dismiss" actually buys her. Her log is a run of
+      //   session marked DEAD (watchdog)
+      //   session marked DEAD (save-click)
+      //   session marked DEAD (watchdog)
+      // which is the modal being dismissed and the watchdog putting it
+      // straight back fifteen seconds later. The detection was right every
+      // time; it was the dismiss button that was a lie. If she says she
+      // wants to carry on, she gets five minutes of quiet to do it in.
+      var dismissedUntilMs = 0;
+
       function handleLostSession(reason) {
+        if (Date.now() < dismissedUntilMs) return false;
         if (sessionIsDead || !sessionIsGone() || !safeToShowDeadModal()) return false;
         // Get her words to safety before anything else touches the page.
         if (window.__FORCE_SNAPSHOT) window.__FORCE_SNAPSHOT("session-lost");
@@ -386,20 +400,87 @@
       }
 
       // Returns a promise so save-click code can await freshness.
+      // -----------------------------------------------------------------
+      // Putting the session back when the network, not the login, failed.
+      // -----------------------------------------------------------------
+      // Her logs from 2026-09-04 are unambiguous. Her wifi changed
+      // (ERR_NETWORK_CHANGED on two unrelated scripts), then:
+      //
+      //   .netlify/identity/token  net::ERR_CONNECTION_CLOSED
+      //   [admin] JWT refresh failed (visibilitychange, #1): Failed to fetch
+      //   [admin] session marked DEAD (refresh-cleared-session:visibilitychange)
+      //
+      // The detection added yesterday did its job -- it caught the logout on
+      // the first failure instead of twenty minutes later. But catching it
+      // is not the same as avoiding it, and she still had to sign in again
+      // because a wifi hiccup lasting seconds had thrown her login away.
+      //
+      // That request never reached the server, so the refresh token it was
+      // carrying was never spent. Nothing about the login had expired. The
+      // only reason she was signed out is that gotrue deletes localStorage
+      // ["gotrue.user"] in its catch, whatever the catch was for.
+      //
+      // So take a copy first, and put it back when the failure was the
+      // network. currentUser() reads that key straight back through
+      // recoverSession(), and she never knows anything happened.
+      //
+      // If the request DID reach the server and only the reply was lost,
+      // the restored token is stale and the next attempt fails properly
+      // with invalid_grant -- which is a real dead session, and gets the
+      // modal. This defers that by one cycle at worst, and it is right
+      // every other time.
+      var SESSION_KEY = "gotrue.user";
+      function storedSession() {
+        try { return localStorage.getItem(SESSION_KEY); } catch (e) { return null; }
+      }
+      function putSessionBack(saved) {
+        if (!saved) return false;
+        try {
+          if (localStorage.getItem(SESSION_KEY)) return false;   // never clobber a live one
+          localStorage.setItem(SESSION_KEY, saved);
+          return !!currentUserOrNull();
+        } catch (e) {
+          return false;
+        }
+      }
+      // A rejected fetch, a dead connection, a DNS failure. What these have
+      // in common is that the server never saw the request.
+      function looksLikeNetwork(msg) {
+        return /failed to fetch|networkerror|network request failed|load failed|err_|connection|timeout|aborted/i.test(msg) &&
+               !/invalid.?grant|invalid.?token|unauthorized|forbidden|40[13]/i.test(msg);
+      }
+      var networkFailures = 0;
+
+      // save-click and expiry-watch are the two moments where being wrong
+      // costs her the post, so they are never held back. The rest are
+      // housekeeping and can wait.
+      function refreshIsThrottled(reason) {
+        return !/^(save-click|expiry-watch)/.test(reason || "");
+      }
+
       function refreshNow(reason) {
         var u = window.netlifyIdentity && netlifyIdentity.currentUser && netlifyIdentity.currentUser();
         if (!u || !u.jwt) return Promise.resolve(false);
-        // Dedupe, but never while the token is near its end. The old rule
-        // answered "fresh, nothing to do" to ANY call within 60s of the last
-        // one — including the save click, which is precisely the call that
-        // needed to do the work. A token can expire inside that minute.
+        // Dedupe. Two rules, because the callers are not equal:
+        //
+        //   save-click and expiry-watch always go through. Those are the
+        //   two moments where being wrong costs her the post.
+        //   focus, visibilitychange and periodic get a two-minute floor.
+        //   Her log shows seven "JWT refreshed (focus)" in one sitting;
+        //   every one of those spends a refresh token and gives a flaky
+        //   connection another chance to drop mid-flight, for a token that
+        //   had fifty minutes left on it.
         var secondsLeft = tokenSecondsLeft();
         var plenty = (secondsLeft === null) || secondsLeft > 10 * 60;
-        if (plenty && Date.now() - lastRefreshMs < 60 * 1000) return Promise.resolve(true);
+        if (refreshIsThrottled(reason) && plenty && Date.now() - lastRefreshMs < 2 * 60 * 1000) {
+          return Promise.resolve(true);
+        }
+        var sessionBefore = storedSession();
         return u.jwt(true)
           .then(function () {
             lastRefreshMs = Date.now();
             consecutiveFailures = 0;
+            networkFailures = 0;
             hideBanner();
             console.log("[admin] JWT refreshed (" + reason + ")");
             return true;
@@ -408,6 +489,20 @@
             consecutiveFailures++;
             var msg = err && err.message || String(err);
             console.warn("[admin] JWT refresh failed (" + reason + ", failure #" + consecutiveFailures + "):", msg);
+
+            // Was that the network rather than the login? If so the refresh
+            // token was never spent, and the session gotrue just deleted is
+            // still perfectly good. Put it back before anything else looks.
+            if (looksLikeNetwork(msg) && putSessionBack(sessionBefore)) {
+              networkFailures++;
+              console.log("[admin] the connection dropped mid-renewal (" + reason +
+                          ") — session restored, still signed in (" + networkFailures + ")");
+              // Quiet the first couple: a blip that cost her nothing is not
+              // worth a banner. A pattern of them is worth knowing about.
+              if (networkFailures >= 3) showBanner();
+              return false;
+            }
+
             // First question, before anything about the message: is the
             // session still there? gotrue clears it on any failed refresh,
             // so this is usually already true.
@@ -636,25 +731,64 @@
           return el.placeholder || el.name || el.tagName.toLowerCase();
         }
 
+        // Her log: "form snapshot, 62 fields, 173465 chars", every five
+        // seconds, for a post whose text is 9,849 characters. Seventeen
+        // times the size of the thing being saved.
+        //
+        // Two causes. Decap nests editable regions inside editable regions,
+        // so the same words were captured several times over; and every one
+        // of them contributed its innerHTML as well. Twelve snapshots of
+        // that is two megabytes against a five megabyte quota, which would
+        // eventually start throwing exactly when a snapshot mattered most.
+        //
+        // So: skip anything sitting inside something already captured, and
+        // keep the markup for the body alone, since that is the only field
+        // where bold and links are worth recovering.
+        var MAX_HTML = 60000;
+        var MAX_SNAPSHOT = 400000;
+
         function collectFields() {
           var selector =
-            "input[type=\"text\"], input[type=\"url\"], input[type=\"number\"], " +
-            "input[type=\"date\"], input[type=\"datetime-local\"], input[type=\"time\"], " +
-            "input:not([type]), textarea, [contenteditable=\"true\"], [role=\"textbox\"]";
+            'input[type="text"], input[type="url"], input[type="number"], ' +
+            'input[type="date"], input[type="datetime-local"], input[type="time"], ' +
+            'input:not([type]), textarea, [contenteditable="true"], [role="textbox"]';
+          var accepted = [];
           var fields = [];
+
           Array.prototype.forEach.call(document.querySelectorAll(selector), function (el) {
             if (el.type === "password" || el.type === "search") return;
             if (el.closest && el.closest("#photo-pos-modal, #unsaved-modal, #dead-session-modal")) return;
+
+            // querySelectorAll is in document order, so an ancestor is
+            // always seen before its descendants: if anything already kept
+            // contains this, its words are in the snapshot twice.
+            for (var i = 0; i < accepted.length; i++) {
+              if (accepted[i].contains && accepted[i].contains(el)) return;
+            }
+
             var val = el.value;
             if (val === undefined || val === null) val = el.innerText || "";
             if (!val || !String(val).trim()) return;
-            var field = { label: fieldLabel(el), value: String(val) };
-            if (el.isContentEditable && el.innerHTML && el.innerHTML.length < 200000) {
-              field.html = el.innerHTML;
-            }
-            fields.push(field);
+
+            accepted.push(el);
+            fields.push({ label: fieldLabel(el), value: String(val), el: el });
           });
-          return fields;
+
+          // Markup for the body only -- the longest editable region, which
+          // is the markdown editor in every layout Decap has.
+          var body = null;
+          fields.forEach(function (f) {
+            if (f.el.isContentEditable && (!body || f.value.length > body.value.length)) body = f;
+          });
+          if (body && body.el.innerHTML && body.el.innerHTML.length <= MAX_HTML) {
+            body.html = body.el.innerHTML;
+          }
+
+          return fields.map(function (f) {
+            var out = { label: f.label, value: f.value };
+            if (f.html) out.html = f.html;
+            return out;
+          });
         }
 
         function snapshotForm(reason) {
@@ -664,6 +798,13 @@
             var fields = collectFields();
             if (!fields.length) return;
             var signature = JSON.stringify(fields);
+            if (signature.length > MAX_SNAPSHOT) {
+              // Something unexpected is large. Her words matter more than
+              // the formatting, so drop the markup and keep the text.
+              fields = fields.map(function (f) { return { label: f.label, value: f.value }; });
+              signature = JSON.stringify(fields);
+              console.warn("[safety-net] snapshot was oversized; kept the text, dropped the markup");
+            }
             if (lastForm[key] === signature) return;
             lastForm[key] = signature;
 

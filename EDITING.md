@@ -246,15 +246,26 @@ would be quietly signed out mid-sentence, with the editor still looking
 completely normal, and only find out twenty minutes later when Save had no
 token to send.
 
-The editor now checks whether the session is still there every 15 seconds,
-and on every save click. The moment it is gone she gets the **"Your session
-has expired"** box and a Sign in again button, with her draft snapshotted
-first and left untouched on screen. Signing back in and pressing Save picks
-up exactly where she was.
+The editor now handles this in two stages.
 
-If she sees that box often, it is worth checking her wifi rather than the
-editor — that message now means the connection dropped, not that she did
-anything wrong.
+**First, it tries not to lose the session at all.** Before renewing, it
+keeps a copy of the login. If the renewal fails because the request never
+reached the server — dropped wifi, a laptop waking up, switching networks —
+the refresh token was never actually used, so the copy goes straight back
+and she never knows anything happened. Her logs from 4 September show
+exactly this case: her wifi changed, one request died with
+`ERR_CONNECTION_CLOSED`, and that alone signed her out.
+
+**Second, if the login genuinely is gone**, it says so within 15 seconds
+rather than twenty minutes later at Save: the **"Your session has expired"**
+box, with her draft snapshotted first and left untouched on screen. Signing
+back in and pressing Save picks up where she was. Dismissing that box now
+buys five minutes of quiet instead of having it reappear immediately.
+
+It also renews far less often. Renewals triggered by clicking back into the
+tab are capped at one every two minutes, since every renewal is another
+chance for a flaky connection to drop mid-request. Saving and genuine
+expiry are never held back.
 
 ---
 
