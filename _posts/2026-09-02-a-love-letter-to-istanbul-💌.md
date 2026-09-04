@@ -70,4 +70,30 @@ I got to work on the blog and Mike enjoyed the steam deck (finally, he's been dy
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788529967/byjbu98a0o000y5lcur4.jpg "These were so good, it definitely got me excited for the rest of the in-service flight food (you know how picky I am).")
 
-Mike liked the meatball the most and I like the fried cheese the most — go figure! Mike also got to try the raki again. He said it was very strong.
+Mike liked the meatball the most and I like the fried cheese the most — go figure! Mike also got to try the raki again. He said it was *very* strong. The waiter said, "Oh! You're having the traditional raki, it is the best kind! very strong though!"
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788530411/brahnuiqii6qxhmwax2w.jpg)
+
+Just a cozy girl with her lemonade, blog, and a piece of cookie pie!
+
+A short while later (too soon!) they served us soft bread, salad, soup (if that's the selection you made!) 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788530982/p0joknexm7yffgs9tqjf.jpg)
+
+Mike said he would have whatever the chef recommended and ended up with:
+
+* Octopus salad with citrus
+* Wild salmon tartare
+* Shrimp salad with zucchini!
+
+He's so adventurous its kindof wild sometimes to see how different we are!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788530964/nllus9vpfgg7in6vhpkn.jpg)
+
+Mike said, I know its the oldest bread but why does it have to be stale?
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788530975/gkbuyylwesaxlupzniqe.jpg)
+
+They had actual chefs on staff that would make you food at any time of the flight!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788531050/m69godbd7tzuwlvkj0sk.jpg)
