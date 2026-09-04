@@ -1163,6 +1163,47 @@
         // before being stopped.
         setInterval(function () { handleLostSession("watchdog"); }, 15 * 1000);
 
+        // -----------------------------------------------------------------
+        // A save that quietly went nowhere.
+        // -----------------------------------------------------------------
+        // The save watcher only inspects writes, and deliberately so: Decap
+        // reads constantly, and alarming on every failed read would teach
+        // her to ignore the alarm.
+        //
+        // But her log from 2026-09-02 shows the save dying on a READ:
+        //
+        //   .netlify/git/github/pulls?head=...final-notes-on-istanbul  ERR_CONNECTION_CLOSED
+        //   Editor.js:234 Uncaught (in promise) #<Object>
+        //
+        // Decap looks up the post's pull request before it writes anything,
+        // so when that lookup died the save stopped before a single write
+        // was attempted. No write, no failure to see, no red bar -- even
+        // though the save had certainly failed. Decap itself knew, and said
+        // so as an unhandled rejection nobody reads.
+        //
+        // So watch the outcome instead of the mechanism: she pressed Save,
+        // and some seconds later GitHub still has not been given anything.
+        // That is true however the save fell over.
+        //
+        // Two guards against crying wolf. The check runs well after any
+        // realistic save, and it only fires when the editor is still
+        // genuinely ahead of GitHub -- so a save with nothing to save, or
+        // one that merely took its time, says nothing.
+        var SAVE_GRACE_MS = 30 * 1000;
+
+        function watchThisSaveLands() {
+          var clickedAt = Date.now();
+          setTimeout(function () {
+            var w = window.__SAVE_WATCH;
+            if (!w || !w.seenAny) return;              // cannot tell; say nothing
+            if (w.lastOkMs > clickedAt) return;        // something landed. good
+            if (saveState() !== "unsaved") return;     // nothing was pending
+            console.warn("[admin] Save was pressed " + Math.round(SAVE_GRACE_MS / 1000) +
+                         "s ago and nothing has reached GitHub");
+            showSaveFailBar("it never completed");
+          }, SAVE_GRACE_MS);
+        }
+
         // Layer 3: refresh on every Save / Publish click.
         // ---------------------------------------------------------------
         // Save-click pointerdown triggers a JWT refresh a few ms BEFORE
@@ -1208,6 +1249,9 @@
                 refreshNow("save-click-held").then(function (ok) {
                   if (ok) {
                     showToast("Login renewed. Click Save again.", "#5cb85c");
+                    // Not armed here: the click was held, so nothing was
+                    // saved. She has to press Save again, and that press
+                    // arms it.
                   } else if (safeToShowDeadModal()) {
                     showDeadSessionModal("save-click-refresh-failed");
                   }
@@ -1215,6 +1259,7 @@
                 return;
               }
               refreshNow("save-click");
+              watchThisSaveLands();
               return;
             }
             el = el.parentElement;

@@ -19,6 +19,8 @@
  *     - whether the screen is ahead of GitHub, including the case where two
  *       writes land in the same millisecond
  *     - which buttons the publish guard stands in front of
+ *     - whether a save that died on a READ is still noticed, since no
+ *       write failed and there was nothing for the watcher to catch
  *     - whether a session gotrue quietly cleared is noticed at once
  *     - whether a dropped connection is told apart from a real logout,
  *       so a wifi blip puts the session back instead of ending it
@@ -334,6 +336,62 @@ async function hit(url, method, status, opts = {}) {
     check(`${JSON.stringify(reason)} ${want ? "waits" : "always goes"}`,
           throttled(reason), want);
   });
+
+    // ------------------------------------- a save that quietly went nowhere
+  // Her 2026-09-02 log has the save dying on a READ -- the pull-request
+  // lookup Decap does before it writes anything -- so the save never got as
+  // far as a write and there was no failed write to notice. This watches
+  // the outcome instead: Save was pressed, and GitHub still has nothing.
+  console.log("\nwatchThisSaveLands — Save was pressed and nothing arrived");
+
+  function saveWatch(opts) {
+    const log = [];
+    let fired = null;
+    const fakeSetTimeout = (fn, ms) => { fired = ms; fn(); };
+    new Function("window", "setTimeout", "console", "saveState", "showSaveFailBar", "Date",
+      "var SAVE_GRACE_MS = 30 * 1000;\n" +
+      grab("watchThisSaveLands") + "\n" +
+      "watchThisSaveLands();"
+    )({ __SAVE_WATCH: opts.watch },
+      fakeSetTimeout,
+      { warn: (m) => log.push("warn:" + m), log: () => {} },
+      () => opts.state,
+      (why) => log.push("bar:" + why),
+      { now: () => opts.now || 1000 });
+    return { log, delay: fired };
+  }
+
+  const CLICK = 1000;
+  const barred = (r) => r.log.some((l) => l.startsWith("bar:"));
+
+  check("it waits well past any real save",
+        saveWatch({ watch: { seenAny: true, lastOkMs: 0 }, state: "saved" }).delay, 30000);
+
+  check("says nothing when no write has ever been seen",
+        barred(saveWatch({ watch: { seenAny: false, lastOkMs: 0 }, state: "unsaved" })), false);
+
+  check("says nothing when __SAVE_WATCH is missing entirely",
+        barred(saveWatch({ watch: null, state: "unsaved" })), false);
+
+  check("says nothing when a write landed after the click",
+        barred(saveWatch({ watch: { seenAny: true, lastOkMs: CLICK + 500 },
+                           state: "saved", now: CLICK })), false);
+
+  check("says nothing when there was nothing to save",
+        barred(saveWatch({ watch: { seenAny: true, lastOkMs: CLICK - 5000 },
+                           state: "saved", now: CLICK })), false);
+
+  check("leaves a refused write to the bar that is already up",
+        barred(saveWatch({ watch: { seenAny: true, lastOkMs: CLICK - 5000 },
+                           state: "failed", now: CLICK })), false);
+
+  const caught = saveWatch({ watch: { seenAny: true, lastOkMs: CLICK - 5000 },
+                             state: "unsaved", now: CLICK });
+  check("speaks up when the save simply never arrived", barred(caught), true);
+  check("and says so in the bar", caught.log.filter((l) => l.startsWith("bar:")),
+        ["bar:it never completed"]);
+  check("and leaves a line in the console for you",
+        caught.log.some((l) => /nothing has reached GitHub/.test(l)), true);
 
   console.log(`\n${pass} passed, ${fail} failed`);
   process.exit(fail ? 1 : 0);
