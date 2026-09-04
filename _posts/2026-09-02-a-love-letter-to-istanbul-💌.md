@@ -45,3 +45,29 @@ We loaded up on mante because we were starving and ended up getting three bowls 
 Mike went out to explore all the perks (we are now signed up for shower reservations) and reported that they had baklava!! Am I dreaming 💭??
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788528192%2Fnrm9lcdbjxgwg5ofzrte.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1788528194%2Fpuhh2f1yero8xer9a9kv.jpg%22%7D%5D%2C%22caption%22%3A%22As%20per%20tradition%2C%20I%20loved%20the%20walnut%20baklava%20and%20Mike%20enjoyed%20the%20pistachio!%22%7D %}
+
+Lets talk about the Istanbul airport security for a minute. This was the first airport we have been through where you walk in the door and immediately go through security (super smart IMO). Then we were checked for passports. THEN we went through security again and passport control again! The agent asked where we were flying to and Mike said, "Istanbul". I was like, I wish! Just to Toronto. 
+
+After showering in their fancy bathrooms (feeling fresh as a daisy for our flight!) we headed to our gate where we were met with... another round of passport checks and bag checks! Holy cautiousness! I mean, we are safe and that's what's important but that's a lot of bag re-packing. How many people can say they packed their worldly possessions four times in one day? 
+
+Aboard the flight, we found our seats that extend into lie-flats 😍🛏️🧘🏻‍♀️
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788529757/uynhz6pzluk1mpepxveb.jpg)
+
+So happy and so obviously spoiled.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788529776/xon36diiuiydbut8ocks.jpg)
+
+They offered us different drink choices — I went with mint lemonade and Mike tried the strawberry, both so refreshing 🥬!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788529897/d670xtvqwmsfjpnwlgad.jpg)
+
+I got to work on the blog and Mike enjoyed the steam deck (finally, he's been dying to play!).
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788529901/yjl4aycyshqlsip0hhv5.jpg)
+
+ Immediately, they began serving so much food. I'm like oh boy, should not have eaten so much at the lounge!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788529967/byjbu98a0o000y5lcur4.jpg "These were so good, it definitely got me excited for the rest of the in-service flight food (you know how picky I am).")
+
+Mike liked the meatball the most and I like the fried cheese the most — go figure! Mike also got to try the raki again. He said it was very strong.
