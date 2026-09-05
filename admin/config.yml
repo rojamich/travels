@@ -992,6 +992,9 @@ collections:
       - label: "Between Mountains & Monasteries ⛰️🏰"
         field: categories
         pattern: "between-mountains-monasteries-⛰️🏰"
+      - label: "Cafes, Tango, & Time"
+        field: categories
+        pattern: "cafes-tango-time"
       - label: "Canyons & Cairns"
         field: categories
         pattern: "canyons-cairns"
