@@ -80,6 +80,28 @@ def significant(text):
     return [w for w in fold(text).split("-") if w and w not in SMALL]
 
 
+def jekyll_url_slug(slug):
+    """The slug Jekyll actually publishes, which is not always the filename.
+
+    permalink is /:categories/:title/ and :title is the filename slugified
+    again, so the two can differ. Jekyll keeps anything Unicode calls a
+    letter or a number and replaces the rest, which splits these two cases
+    apart in a way that is not obvious from looking at the file:
+
+        ...-a-love-letter-to-istanbul-<emoji>  ->  a-love-letter-to-istanbul
+        banh-cuon-ha-long-bay (with accents)   ->  kept, and percent-encoded
+                                                   in every link to it
+
+    Reporting the filename instead of this would send someone to a URL that
+    does not exist.
+    """
+    kept = []
+    for ch in slug:
+        category = unicodedata.category(ch)
+        kept.append(ch if category[0] in ("L", "N") or ch == "-" else "-")
+    return re.sub(r"-+", "-", "".join(kept)).strip("-").lower()
+
+
 def main():
     rows = []
     for path in sorted(glob.glob(os.path.join(ROOT, "_posts", "*.md"))):
@@ -117,7 +139,10 @@ def main():
         category = categories[0] if isinstance(categories, list) and categories \
             else (categories or "?")
         print("  %d%% of the title survives in the slug" % round(overlap * 100))
-        print("       url:   /%s/%s/" % (category, slug))
+        published = jekyll_url_slug(slug)
+        print("       url:   /%s/%s/" % (category, published))
+        if published != slug.lower():
+            print("       file:  %s (the URL is not the filename)" % slug)
         print("       title: %s" % " ".join(title.split()))
         print()
     print("%d of %d posts. See the header of this file before renaming one."
