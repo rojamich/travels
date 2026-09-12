@@ -17,8 +17,8 @@ import { getStore } from "@netlify/blobs";
 
 export default async (req) => {
   const url = new URL(req.url);
-  const slug = url.searchParams.get("slug");
-  if (invalidSlug(slug)) {
+  const slug = normaliseSlug(url.searchParams.get("slug"));
+  if (!slug) {
     return json({ error: "missing or invalid slug" }, 400);
   }
 
@@ -48,6 +48,35 @@ export default async (req) => {
 
   return json({ error: "method not allowed" }, 405);
 };
+
+// The slug arrives as Jekyll's page.id (comments) or page.slug (hearts,
+// views), and Jekyll percent-encodes anything outside ASCII. The Armenia
+// trip reaches us spelled
+//
+//     between-mountains-monasteries-%E2%9B%B0%EF%B8%8F%F0%9F%8F%B0/...
+//
+// which the query string encodes AGAIN on the way, so what arrives here after
+// one automatic decode still carries literal % characters. Blocking % (which
+// is what stops a double-encoded traversal) therefore blocked the very posts
+// this was meant to fix.
+//
+// So decode once more, and key the store on the decoded form. A post then has
+// ONE key however its name was spelled coming in — the percent-encoded
+// spelling the page sends and the plain one a hand-written request might use
+// both land on the same comments. Anything still holding a % after that is
+// someone encoding their encoding, and invalidSlug refuses it.
+function normaliseSlug(raw) {
+  if (typeof raw !== "string" || !raw) return null;
+  let slug = raw;
+  if (slug.includes("%")) {
+    try {
+      slug = decodeURIComponent(slug);
+    } catch (e) {
+      return null;   // malformed escape, e.g. "%zz"
+    }
+  }
+  return invalidSlug(slug) ? null : slug;
+}
 
 // -----------------------------------------------------------------------------
 // Is this one of our own post paths?
