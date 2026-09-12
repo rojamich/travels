@@ -45,9 +45,6 @@
 # party gets compromised — the CARTO watermark was a reminder that outside
 # services change without asking.
 #
-# Comments are same-origin now (our own function), so they need nothing here
-# beyond the `connect-src 'self'` that is already in the list.
-#
 # It is commented out because a CSP that is even slightly wrong breaks the
 # site quietly: the page loads, and one feature (photos, comments, the map)
 # stops working with only a console message to say why. Turning it on is a
@@ -63,6 +60,10 @@
 #   upload.wikimedia.org the country and US state flags on /stats/
 #   *.basemaps.cartocdn.com / services.arcgisonline.com   map tiles
 #   img.youtube.com, www.youtube.com   video thumbnails and embeds
+#
+# cusdis.com was on that list until the comment box became ours in September
+# 2026. Comments are same-origin now, so they need nothing here beyond the
+# `connect-src 'self'` already in the list.
 #
 # TO TURN IT ON: uncomment the four lines, deploy, then walk a post with
 # photos, /map/, /stats/, /search/, the comment box and /admin/ with the
