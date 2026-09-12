@@ -71,13 +71,8 @@ export default async (req) => {
   }
 
   // ----- public routes ------------------------------------------------
-  // Same slug rule as hearts.js and views.js: a slug names one of our own
-  // posts, and anything else is somebody poking at the endpoint.
   const slug = url.searchParams.get("slug");
-  if (!slug ||
-      slug.length > 120 ||
-      slug.includes("..") ||
-      !/^[a-z0-9_\-\/.]+$/i.test(slug)) {
+  if (invalidSlug(slug)) {
     return json({ error: "missing or invalid slug" }, 400);
   }
 
@@ -199,6 +194,46 @@ async function isEditor(req, url) {
 }
 
 // -----------------------------------------------------------------------------
+// Is this one of our own post paths?
+// -----------------------------------------------------------------------------
+// Kept identical to the check in hearts.js and views.js — the three endpoints
+// are handed the same kind of name and should agree on what one looks like.
+//
+// It used to be an allowlist of /^[a-z0-9_\-\/.]+$/i, on the assumption that
+// a Jekyll slug is lowercase words and dashes. It is not. Jekyll keeps what
+// the title and the trip name contain, and this site's contain plenty:
+//
+//     vietnam/bánh-cuốn-ha-long-bay                    Vietnamese diacritics
+//     fjords-forever/oslo-to-flåm-train-travel         å
+//     fjords-forever/lofoten-️-bodø-️-oslo              ø, and a stray U+FE0F
+//     between-mountains-monasteries-⛰️🏰/…              emoji in the TRIP name,
+//                                                      so all 8 of its posts
+//
+// Eleven posts were answered 400 by all three functions. A reader trying to
+// leave a note on the Armenia trip was told "missing or invalid slug", which
+// is how this came to light; the thread above the form failed to load for the
+// same reason. On the posts with accented titles the heart and view counters
+// had been showing a dash since the day each was written.
+//
+// So: a blocklist, not an allowlist. What matters for a blob key is that it
+// cannot climb out of its own namespace, cannot carry control characters or
+// whitespace, cannot be read as a second path or a query, and cannot be
+// unbounded. Letters and pictures are none of those things.
+//
+// The longest real slug today is 120 characters, which the old cap allowed by
+// a single character. 200 leaves actual room.
+function invalidSlug(slug) {
+  return !slug ||
+         slug.length > 200 ||
+         slug.includes("..") ||
+         slug.startsWith("/") ||
+         slug.endsWith("/") ||
+         // Control characters, whitespace, and the characters that would let a
+         // slug pose as a path, a query or an encoding of one.
+         /[\u0000-\u001F\u007F\\?#%\s]/.test(slug);
+}
+
+// -----------------------------------------------------------------------------
 // Helpers
 // -----------------------------------------------------------------------------
 async function read(store, slug) {
@@ -217,7 +252,7 @@ async function read(store, slug) {
 function clean(value, max) {
   if (typeof value !== "string") return "";
   return value
-    .replace(/[ --]/g, "")
+    .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, "")
     .trim()
     .slice(0, max);
 }
