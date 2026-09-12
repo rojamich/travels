@@ -25,24 +25,40 @@ classes: wide
 
 {%- comment -%}
   ── On this day widget ─────────────────────────────────────────────────
-  Two-pass approach: first find the SMALLEST day-of-year distance to any
-  post from a previous year, then show every post at that distance.
-
-  Delta 0 = exact today's date match → subtitle: "Posts from ... in
-  previous years." Otherwise → "Closest matches — from ~N days away."
+  Two passes: (1) enumerate every past year that has posts, (2) for EACH
+  year find that year's own closest-to-today post. Result: at most one
+  card per year, each the nearest date to today from that year, newest
+  year first. We keep the largest distance among the years shown so the
+  subtitle can say whether these are exact matches or only near ones —
+  every year on the nose → "Posts from 12 September in previous years",
+  otherwise the looser "at this time" wording.
 
   Handles the year wrap (e.g. Jan 2 vs Dec 31 is 2 days, not 363) by
-  taking the min of the raw distance and (366 - distance). site.time is
-  the build time, so this refreshes on every deploy.
+  taking the min of the raw distance and (365 - distance).
+
+  Distance is measured on a fixed 365-day calendar built from the month
+  and the day, NOT on strftime's %j. %j counts actual days elapsed, so a
+  leap year shifts every date after 29 Feb along by one: 12 Sep 2024 is
+  the 256th day but 12 Sep 2026 is the 255th, and comparing those two
+  numbers says the same calendar date is a day apart. It showed: on
+  12 Sep 2026 the 2024 row offered a post dated 11 Sep over the one
+  dated 12 Sep. Measuring month/day positions instead makes 12 Sep
+  equal 12 Sep in every year. (29 Feb lands on the same slot as 1 Mar,
+  which is as close as a 365-day calendar can get.)
+
+  This runs on site.time — the BUILD time — so see the client-side pass
+  further down, which redoes it against the reader's actual clock.
 {%- endcomment -%}
 {%- comment -%}
-  Two-pass: (1) enumerate every past year with posts, (2) for EACH year
-  find its own closest-to-today post. Result: at most one post per year,
-  each the nearest date to today from that year. Sorted newest year first.
-  We track the max delta across the years shown so the subtitle can
-  describe how far off "closest" ended up.
+  Days elapsed before the 1st of each month in a common (non-leap) year,
+  so month/day converts to a position with two additions. Used by the
+  Liquid below and mirrored by the client-side pass.
 {%- endcomment -%}
-{%- assign today_doy = site.time | date: "%j" | plus: 0 -%}
+{%- assign month_offsets = "0,31,59,90,120,151,181,212,243,273,304,334" | split: "," -%}
+{%- assign t_i = site.time | date: "%-m" | plus: 0 | minus: 1 -%}
+{%- assign t_base = month_offsets[t_i] | plus: 0 -%}
+{%- assign t_day = site.time | date: "%-d" | plus: 0 -%}
+{%- assign today_doy = t_base | plus: t_day -%}
 {%- assign this_year = site.time | date: "%Y" -%}
 
 {%- assign past_years = "" | split: "" -%}
@@ -64,10 +80,13 @@ classes: wide
   {%- for p in site.posts -%}
     {%- assign py = p.date | date: "%Y" -%}
     {%- if py == year -%}
-      {%- assign p_doy = p.date | date: "%j" | plus: 0 -%}
+      {%- assign p_i = p.date | date: "%-m" | plus: 0 | minus: 1 -%}
+      {%- assign p_base = month_offsets[p_i] | plus: 0 -%}
+      {%- assign p_day = p.date | date: "%-d" | plus: 0 -%}
+      {%- assign p_doy = p_base | plus: p_day -%}
       {%- assign d = p_doy | minus: today_doy -%}
       {%- if d < 0 -%}{%- assign d = 0 | minus: d -%}{%- endif -%}
-      {%- if d > 183 -%}{%- assign d = 366 | minus: d -%}{%- endif -%}
+      {%- if d > 182 -%}{%- assign d = 365 | minus: d -%}{%- endif -%}
       {%- if d < best_delta -%}
         {%- assign best_delta = d -%}
         {%- assign best_post = p -%}
@@ -117,6 +136,124 @@ classes: wide
       </a>
     {% endfor %}
   </div>
+
+  {%- comment -%}
+    ── Why there is a second, client-side pass ──────────────────────────
+    Everything above runs on `site.time`, which is the moment Netlify built
+    the site — NOT the moment somebody reads it. The build only happens when
+    we push, so between deploys "today" is frozen. On 12 Sep 2026 the widget
+    was still showing the Sep 5 matches, because Sep 5 was the last deploy.
+
+    So: ship every past-year post's date to the browser and redo the same
+    two-pass pick against the reader's own clock. The server-rendered cards
+    above stay as the no-JavaScript fallback and the first paint; this only
+    swaps them out when the real date picks something different.
+
+    The payload is one entry per (year, date) — if two posts share a date
+    only the first can ever win, exactly as in the Liquid loop, so the rest
+    are dead weight. That is ~170 entries rather than one per post.
+  {%- endcomment -%}
+  {%- assign otd_seen = "" | split: "" -%}
+  <script type="application/json" id="otd-candidates">[
+  {%- for p in site.posts -%}
+    {%- assign py = p.date | date: "%Y" -%}
+    {%- unless py == this_year -%}
+      {%- assign key = p.date | date: "%Y-%j" -%}
+      {%- unless otd_seen contains key -%}
+        {%- assign otd_seen = otd_seen | push: key -%}
+        {%- assign c_i = p.date | date: "%-m" | plus: 0 | minus: 1 -%}
+        {%- assign c_base = month_offsets[c_i] | plus: 0 -%}
+        {%- assign c_day = p.date | date: "%-d" | plus: 0 -%}
+        {%- assign c_doy = c_base | plus: c_day -%}
+        {%- assign c_slug = p.categories | first -%}
+        {%- assign c_trip = site.trips | where: "slug", c_slug | first -%}
+        {%- if otd_seen.size > 1 -%},{%- endif -%}
+{"y":{{ py }},"d":{{ c_doy }},"u":{{ p.url | relative_url | jsonify }},"t":{{ p.title | jsonify }},"r":{{ c_trip.title | default: "" | jsonify }},"l":{{ p.location.name | default: "" | jsonify }},"i":{{ p.header.teaser | default: "" | jsonify }},"fx":{{ p.header.teaser_focal_x | default: 50 }},"fy":{{ p.header.teaser_focal_y | default: 50 }}}
+      {%- endunless -%}
+    {%- endunless -%}
+  {%- endfor -%}
+  ]</script>
+
+  <script>
+    (function () {
+      var section = document.querySelector(".on-this-day");
+      var list    = section && section.querySelector(".on-this-day-list");
+      var sub     = section && section.querySelector(".on-this-day-sub");
+      var dataEl  = document.getElementById("otd-candidates");
+      if (!section || !list || !dataEl) return;
+
+      var posts;
+      try { posts = JSON.parse(dataEl.textContent); } catch (e) { return; }
+      if (!Array.isArray(posts) || !posts.length) return;
+
+      // Today's position on the same fixed 365-day calendar the Liquid
+      // uses — month offset plus day of the month. Deliberately not the
+      // real day of the year: see the note at the top of the widget for
+      // why a leap year makes that measure a day out.
+      var MONTH_OFFSETS = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334];
+      var now = new Date();
+      var todayDoy = MONTH_OFFSETS[now.getMonth()] + now.getDate();
+
+      // Distance in days, the short way round the year: 2 Jan and 31 Dec are
+      // 2 days apart, not 363.
+      function distance(doy) {
+        var d = Math.abs(doy - todayDoy);
+        return d > 182 ? 365 - d : d;
+      }
+
+      // One winner per year. `posts` arrives newest-first, and we only
+      // replace on a strictly smaller distance, so when two dates tie (11 Sep
+      // and 13 Sep either side of the 12th) the later one wins — same
+      // tie-break the Liquid loop makes.
+      var years = [], best = {};
+      posts.forEach(function (p) {
+        var d = distance(p.d);
+        if (!best[p.y]) { years.push(p.y); best[p.y] = { p: p, d: d }; }
+        else if (d < best[p.y].d) { best[p.y] = { p: p, d: d }; }
+      });
+
+      var chosen = years.map(function (y) { return best[y]; })
+                        .sort(function (a, b) { return b.p.y - a.p.y; });
+
+      // If the build guessed the same day we did, leave the rendered cards
+      // alone — no flicker, no re-laying-out the images.
+      var rendered = Array.prototype.map.call(
+        list.querySelectorAll("a.otd-card"), function (a) {
+          return a.getAttribute("href");
+        }).join("|");
+      if (rendered === chosen.map(function (c) { return c.p.u; }).join("|")) return;
+
+      function esc(s) {
+        return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
+                        .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+      }
+
+      list.innerHTML = chosen.map(function (c) {
+        var p = c.p;
+        return '<a href="' + esc(p.u) + '" class="otd-card">' +
+          (p.i
+            ? '<div class="otd-thumb"><img loading="lazy" decoding="async" src="' +
+              esc(p.i) + '" alt="' + esc(p.t) + '" style="object-position: ' +
+              p.fx + '% ' + p.fy + '%;" ' +
+              'onerror="this.parentNode.style.display=\'none\'"></div>'
+            : '') +
+          '<div class="otd-body">' +
+            '<span class="otd-year">' + esc(p.y) + '</span>' +
+            '<h3>' + esc(p.t) + '</h3>' +
+            (p.r ? '<p class="otd-trip">' + esc(p.r) + '</p>' : '') +
+            (p.l ? '<p class="otd-loc">' + esc(p.l) + '</p>' : '') +
+          '</div></a>';
+      }).join("");
+
+      if (sub) {
+        var worst = chosen.reduce(function (m, c) { return c.d > m ? c.d : m; }, 0);
+        sub.textContent = worst === 0
+          ? "Posts from " + now.toLocaleDateString(undefined,
+              { month: "long", day: "numeric" }) + " in previous years."
+          : "What in the world were Jenna & Mike up to, at this time, in previous years?!";
+      }
+    })();
+  </script>
 </section>
 
 <style>
