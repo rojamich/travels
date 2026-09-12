@@ -34,12 +34,20 @@
 <section class="comments-block" data-post="{{ page.id | remove_first: '/' }}">
   <h2>💬 Leave us a note</h2>
   <p class="comments-instructions">
-    No signup needed — just type your name and a message, then click <strong>Post</strong>.
-    We love hearing from family, friends, and fellow travelers.
+    We love hearing from friends, family and fellow travelers — drop us a note
+    so we can hear your thoughts 💭
   </p>
 
   <ol class="comment-thread" aria-live="polite"></ol>
-  <p class="comment-empty" hidden>No notes on this one yet — be the first.</p>
+
+  {%- comment -%}
+    Only ever holds a problem. A post with no comments yet says nothing at
+    all now — the form underneath is invitation enough, and announcing the
+    silence read as a nudge nobody asked for. It still has to exist, because
+    "we couldn't reach the comments" and "there aren't any" must never look
+    the same: that is what let the Cusdis outage pass for an empty thread.
+  {%- endcomment -%}
+  <p class="comment-notice" hidden></p>
 
   <form class="comment-form" novalidate>
     <label class="comment-field">
@@ -72,7 +80,7 @@
 
     var post    = section.getAttribute("data-post");
     var thread  = section.querySelector(".comment-thread");
-    var empty   = section.querySelector(".comment-empty");
+    var notice  = section.querySelector(".comment-notice");
     var form    = section.querySelector(".comment-form");
     var status  = section.querySelector(".comment-status");
     var button  = form.querySelector("button[type=submit]");
@@ -94,7 +102,7 @@
     // stranger's text, and it must never be able to become markup.
     function render(comments) {
       thread.innerHTML = "";
-      empty.hidden = comments.length > 0;
+      notice.hidden = true;
 
       comments.forEach(function (c) {
         var li = document.createElement("li");
@@ -137,12 +145,11 @@
         .catch(fail);
     }
 
-    // If the function is unreachable, say so rather than showing an empty
-    // thread — "no comments yet" is a lie that would have hidden the Cusdis
-    // outage for another week.
+    // If the function is unreachable, say so. A thread that simply comes up
+    // empty is how the Cusdis outage passed unnoticed for a week.
     function fail() {
-      empty.hidden = false;
-      empty.textContent = "Couldn't load the notes just now — please try again later.";
+      notice.textContent = "Couldn't load the notes just now — please try again later.";
+      notice.hidden = false;
     }
 
     load();

@@ -1733,7 +1733,8 @@ hr {
     line-height: 1.55;
   }
 
-  .comment-empty {
+  // Shown only when the thread could not be loaded.
+  .comment-notice {
     color: $ink;
     opacity: 0.8;
     font-style: italic;

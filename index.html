@@ -33,6 +33,13 @@ classes: wide
   every year on the nose → "Posts from 12 September in previous years",
   otherwise the looser "at this time" wording.
 
+  A year only earns a card if its nearest post falls within otd_window
+  days either side of today. Without that, a year we didn't travel in
+  September still had to offer something, and "on this day" ended up
+  showing a post from two months away. A year with nothing near today
+  now simply doesn't appear, and if no year does, the widget hides
+  itself rather than sitting there empty.
+
   Handles the year wrap (e.g. Jan 2 vs Dec 31 is 2 days, not 363) by
   taking the min of the raw distance and (365 - distance).
 
@@ -54,6 +61,12 @@ classes: wide
   so month/day converts to a position with two additions. Used by the
   Liquid below and mirrored by the client-side pass.
 {%- endcomment -%}
+{%- comment -%}
+  How near a post has to be, in days either side of today, to count as
+  "on this day". The section carries it as data-window so the client-side
+  pass reads the same number rather than keeping its own copy.
+{%- endcomment -%}
+{%- assign otd_window = 7 -%}
 {%- assign month_offsets = "0,31,59,90,120,151,181,212,243,273,304,334" | split: "," -%}
 {%- assign t_i = site.time | date: "%-m" | plus: 0 | minus: 1 -%}
 {%- assign t_base = month_offsets[t_i] | plus: 0 -%}
@@ -93,7 +106,7 @@ classes: wide
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
-  {%- if best_post -%}
+  {%- if best_post and best_delta <= otd_window -%}
     {%- assign on_this_day = on_this_day | push: best_post -%}
     {%- if best_delta > max_delta_shown -%}
       {%- assign max_delta_shown = best_delta -%}
@@ -101,8 +114,17 @@ classes: wide
   {%- endif -%}
 {%- endfor -%}
 
-{%- if on_this_day.size > 0 -%}
-<section class="on-this-day">
+{%- comment -%}
+  Rendered whenever there are past-year posts at all, NOT only when today
+  has a match — the client-side pass runs against a different date to this
+  one, and it needs the section and the payload to already be here in order
+  to fill them in. When the build date has nothing within the window the
+  section ships hidden, and the pass below unhides it if the reader's date
+  does better. With JavaScript off it simply stays hidden, which is the
+  right way round for a widget that has nothing to say.
+{%- endcomment -%}
+{%- if past_years.size > 0 -%}
+<section class="on-this-day" data-window="{{ otd_window }}"{% if on_this_day.size == 0 %} hidden{% endif %}>
   <h2>📅 On this day</h2>
   {%- if max_delta_shown == 0 -%}
   <p class="on-this-day-sub">Posts from {{ site.time | date: "%B %-d" }} in previous years.</p>
@@ -186,6 +208,11 @@ classes: wide
       try { posts = JSON.parse(dataEl.textContent); } catch (e) { return; }
       if (!Array.isArray(posts) || !posts.length) return;
 
+      // How near a post has to be to count. The Liquid puts its own value
+      // here, so the two passes cannot drift apart.
+      var WINDOW = parseInt(section.getAttribute("data-window"), 10);
+      if (isNaN(WINDOW)) WINDOW = 7;
+
       // Today's position on the same fixed 365-day calendar the Liquid
       // uses — month offset plus day of the month. Deliberately not the
       // real day of the year: see the note at the top of the widget for
@@ -213,15 +240,29 @@ classes: wide
       });
 
       var chosen = years.map(function (y) { return best[y]; })
+                        .filter(function (c) { return c.d <= WINDOW; })
                         .sort(function (a, b) { return b.p.y - a.p.y; });
 
+      // No year has anything near today. Take the widget off the page
+      // rather than leave a heading over an empty grid.
+      if (!chosen.length) {
+        section.hidden = true;
+        return;
+      }
+
       // If the build guessed the same day we did, leave the rendered cards
-      // alone — no flicker, no re-laying-out the images.
+      // alone — no flicker, no re-laying-out the images. The hidden check
+      // matters: the build may have found nothing and shipped the section
+      // hidden with no cards, which matches an empty list but still has to
+      // be revealed.
       var rendered = Array.prototype.map.call(
         list.querySelectorAll("a.otd-card"), function (a) {
           return a.getAttribute("href");
         }).join("|");
-      if (rendered === chosen.map(function (c) { return c.p.u; }).join("|")) return;
+      if (!section.hidden &&
+          rendered === chosen.map(function (c) { return c.p.u; }).join("|")) return;
+
+      section.hidden = false;
 
       function esc(s) {
         return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
@@ -257,6 +298,11 @@ classes: wide
 </section>
 
 <style>
+  /* `hidden` is only display:none in the UA stylesheet, which any author
+     rule setting display would beat. Nothing here sets one today, but the
+     widget is hidden on the days it has nothing to show, and that is not a
+     thing to leave resting on the absence of a rule. */
+  .on-this-day[hidden] { display: none; }
   .on-this-day {
     margin: 2em 0;
     padding: 1.4em 1.6em;
