@@ -174,6 +174,13 @@ Spam defences: a honeypot field bots fill and people never see, a limit of
 two links per comment, length caps, and a cap on how many unapproved
 comments one post will hold.
 
+The comment store is read with **strong consistency**. Netlify Blobs is
+eventually consistent by default — a write is only guaranteed visible
+everywhere within 60 seconds — and every write here rewrites a post's whole
+comment array, so a stale read would write stale data back over it. Hearts
+and views are left on the default, because a counter that is a few seconds
+behind costs nothing.
+
 To turn comments off everywhere: set `comments_enabled: false` in
 `_config.yml`.
 

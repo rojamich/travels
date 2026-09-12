@@ -57,7 +57,28 @@ const MAX_LINKS = 2;
 
 export default async (req) => {
   const url = new URL(req.url);
-  const store = getStore("post-comments");
+  // Strong consistency, not the default.
+  //
+  // Netlify Blobs reads are eventually consistent unless you ask otherwise:
+  // a write is guaranteed visible everywhere within 60 seconds, and may not
+  // be before that. For a view counter that is nothing. Here it is a way to
+  // lose what people wrote, because every write in this file is a
+  // read-modify-write of the WHOLE array for a post:
+  //
+  //   posting     reads the array, appends, writes it back
+  //   approving   reads the array, flips one flag, writes it back
+  //   deleting    reads the array, removes one, writes it back
+  //
+  // On a stale read each of those writes back a stale array. Approving a
+  // comment could resurrect one deleted a moment earlier; deleting one could
+  // undo an approval; a second comment arriving inside the window could erase
+  // the first. Moderating is also a read-then-decide loop, and it has to see
+  // the store as it actually is.
+  //
+  // The cost is slower reads. One call per post view, on a box that is now
+  // only fetched when it is nearly on screen — worth it to not drop a note
+  // from somebody's grandmother.
+  const store = getStore({ name: "post-comments", consistency: "strong" });
 
   // ----- admin routes -------------------------------------------------
   if (url.searchParams.get("admin") === "1") {
