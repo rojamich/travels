@@ -456,11 +456,20 @@ sitemap: false
       // Build slug → post metadata map, keeping only real posts (not trips).
       var byUrl = {};
       index.filter(function (i) { return i.type === "post"; }).forEach(function (p) {
-        // Slug used by the engagement widget is Jekyll's page.slug (last
-        // path segment without date prefix). We infer it from the URL.
-        var m = p.url.match(/([a-z0-9-]+)\/?$/i);
-        if (!m) return;
-        var slug = m[1];
+        // Slug used by the engagement widget is Jekyll's page.slug — the
+        // last path segment. Take it as the last segment and decode it,
+        // rather than matching a trailing run of [a-z0-9-]: post URLs are
+        // percent-encoded, so that pattern stopped at the first escape and
+        // produced a key from the middle of a word. "bánh-cuốn-ha-long-bay"
+        // arrives as b%C3%A1nh-cu%E1%BB%91n-ha-long-bay and was being read
+        // as "91n-ha-long-bay", which matched nothing in the counts, so
+        // three posts sat at zero views and hearts however often they were
+        // read. The widget sends the decoded form, so that is the key.
+        var u = p.url.replace(/\/+$/, "");
+        var last = u.slice(u.lastIndexOf("/") + 1);
+        if (!last) return;
+        var slug;
+        try { slug = decodeURIComponent(last); } catch (e) { slug = last; }
         byUrl[slug] = p;
       });
 
