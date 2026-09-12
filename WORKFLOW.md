@@ -454,8 +454,8 @@ The same page lists everything already published, so you can take something
 down later if you change your mind.
 
 Nothing emails you when a comment lands, so it's worth a look every week or
-so. A visitor who leaves a note is told it will appear once you've read it,
-so nobody is left wondering whether it went through.
+so. A visitor who leaves a note is told it has been sent for review and
+approval, so nobody is left wondering whether it went through.
 
 *This used to run on a service called Cusdis, which shut down in September
 2026. It's all on our own site now, which is why the moderation page moved.

@@ -135,8 +135,17 @@
       });
     }
 
-    function load() {
-      fetch(API, { method: "GET" })
+    // The thread costs a function call, and the comment box sits at the very
+    // bottom of a post — most readers never get that far. So don't fetch it
+    // until the box is nearly on screen. The form above works either way: a
+    // reader can leave a note on a thread that was never fetched.
+    var loaded = false;
+
+    function load(force) {
+      if (loaded && !force) return;
+      loaded = true;   // set first, so two triggers can't both fetch
+
+      fetch(API, { method: "GET", cache: "no-store" })
         .then(function (r) { return r.ok ? r.json() : null; })
         .then(function (data) {
           if (data && Array.isArray(data.comments)) render(data.comments);
@@ -145,14 +154,38 @@
         .catch(fail);
     }
 
+    if ("IntersectionObserver" in window) {
+      // 400px of warning, so the notes are in place by the time the box is
+      // read rather than appearing under the reader's eyes.
+      var io = new IntersectionObserver(function (entries) {
+        for (var i = 0; i < entries.length; i++) {
+          if (entries[i].isIntersecting) {
+            io.disconnect();
+            load();
+            return;
+          }
+        }
+      }, { rootMargin: "400px" });
+      io.observe(section);
+    } else {
+      load();
+    }
+
+    // Going back to a post restores it from the back/forward cache: the old
+    // DOM comes back untouched and nothing here re-runs, so a comment deleted
+    // in the meantime would still be sitting there. (It took a hard reload to
+    // clear one, which is what gave this away.) admin-gate.html watches the
+    // same event for the same reason.
+    window.addEventListener("pageshow", function (e) {
+      if (e.persisted && loaded) load(true);
+    });
+
     // If the function is unreachable, say so. A thread that simply comes up
     // empty is how the Cusdis outage passed unnoticed for a week.
     function fail() {
       notice.textContent = "Couldn't load the notes just now — please try again later.";
       notice.hidden = false;
     }
-
-    load();
 
     form.addEventListener("submit", function (e) {
       e.preventDefault();
@@ -184,7 +217,7 @@
           if (res.ok && res.data.ok) {
             form.reset();
             status.textContent =
-              "Thank you! Your note will appear here once Jenna or Mike has read it.";
+              "Thank you! Your note has been sent for review and approval.";
           } else {
             status.textContent =
               (res.data && res.data.error) || "Something went wrong — please try again.";
