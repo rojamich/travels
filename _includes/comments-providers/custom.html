@@ -100,39 +100,154 @@
 
     // Built with createElement and textContent throughout — a comment is a
     // stranger's text, and it must never be able to become markup.
+    function card(c, isReply) {
+      var li = document.createElement("li");
+      li.className = isReply ? "comment comment-reply" : "comment";
+
+      var head = document.createElement("p");
+      head.className = "comment-head";
+
+      var name = document.createElement("span");
+      name.className = "comment-name";
+      name.textContent = c.name;
+      head.appendChild(name);
+
+      // A reply from us is the one thing here a reader should be able to
+      // pick out at a glance — it is the blog answering, not another visitor.
+      if (c.author) {
+        var badge = document.createElement("span");
+        badge.className = "comment-badge";
+        badge.textContent = "Author";
+        head.appendChild(badge);
+      }
+
+      var date = document.createElement("time");
+      date.className = "comment-date";
+      date.setAttribute("datetime", c.at);
+      date.textContent = when(c.at);
+      head.appendChild(date);
+
+      var body = document.createElement("p");
+      body.className = "comment-body";
+      // textContent keeps the author's line breaks as characters; the CSS
+      // sets white-space: pre-wrap so they survive as line breaks on screen.
+      body.textContent = c.body;
+
+      li.appendChild(head);
+      li.appendChild(body);
+      return li;
+    }
+
+    // One level of nesting: comments that start a chain, each followed by the
+    // replies to it in the order they arrived. A reply whose parent isn't in
+    // the list has nowhere to hang, so it is left out rather than drawn as a
+    // stray top-level comment answering nothing.
     function render(comments) {
       thread.innerHTML = "";
       notice.hidden = true;
 
+      var replies = {};
       comments.forEach(function (c) {
-        var li = document.createElement("li");
-        li.className = "comment";
+        if (!c.parent) return;
+        (replies[c.parent] = replies[c.parent] || []).push(c);
+      });
 
-        var head = document.createElement("p");
-        head.className = "comment-head";
+      comments.forEach(function (c) {
+        if (c.parent) return;
+        var li = card(c, false);
 
-        var name = document.createElement("span");
-        name.className = "comment-name";
-        name.textContent = c.name;
+        (replies[c.id] || []).forEach(function (r) {
+          var sub = li.querySelector(".comment-replies");
+          if (!sub) {
+            sub = document.createElement("ol");
+            sub.className = "comment-replies";
+            li.appendChild(sub);
+          }
+          sub.appendChild(card(r, true));
+        });
 
-        var date = document.createElement("time");
-        date.className = "comment-date";
-        date.setAttribute("datetime", c.at);
-        date.textContent = when(c.at);
-
-        head.appendChild(name);
-        head.appendChild(date);
-
-        var body = document.createElement("p");
-        body.className = "comment-body";
-        // textContent keeps the author's line breaks as characters; the CSS
-        // sets white-space: pre-wrap so they survive as line breaks on screen.
-        body.textContent = c.body;
-
-        li.appendChild(head);
-        li.appendChild(body);
+        li.appendChild(replyToggle(c));
         thread.appendChild(li);
       });
+    }
+
+    // "Reply" under each chain. The form is built only when somebody asks
+    // for it — a post with twenty comments should not carry twenty hidden
+    // forms — and closing it puts the button back.
+    function replyToggle(parent) {
+      var wrap = document.createElement("div");
+      wrap.className = "comment-reply-wrap";
+
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "comment-reply-btn";
+      btn.textContent = "Reply";
+      btn.addEventListener("click", function () {
+        btn.hidden = true;
+        wrap.appendChild(replyForm(parent, function () {
+          btn.hidden = false;
+        }));
+      });
+
+      wrap.appendChild(btn);
+      return wrap;
+    }
+
+    function replyForm(parent, onClose) {
+      var form = document.createElement("form");
+      form.className = "comment-form comment-form-reply";
+      form.setAttribute("novalidate", "");
+
+      function field(labelText, tag, attrs) {
+        var label = document.createElement("label");
+        label.className = "comment-field";
+        var span = document.createElement("span");
+        span.textContent = labelText;
+        var input = document.createElement(tag);
+        Object.keys(attrs).forEach(function (k) { input.setAttribute(k, attrs[k]); });
+        label.appendChild(span);
+        label.appendChild(input);
+        form.appendChild(label);
+        return input;
+      }
+
+      field("Your name", "input", { type: "text", name: "name", maxlength: "60", autocomplete: "name" });
+      field("Your reply", "textarea", { name: "body", rows: "3", maxlength: "2000" });
+
+      // Same trap as the main form.
+      var hp = document.createElement("div");
+      hp.className = "comment-hp";
+      hp.setAttribute("aria-hidden", "true");
+      var hpInput = document.createElement("input");
+      hpInput.setAttribute("type", "text");
+      hpInput.setAttribute("name", "website");
+      hpInput.setAttribute("tabindex", "-1");
+      hpInput.setAttribute("autocomplete", "off");
+      hp.appendChild(hpInput);
+      form.appendChild(hp);
+
+      var post = document.createElement("button");
+      post.type = "submit";
+      post.textContent = "Post reply";
+      form.appendChild(post);
+
+      var cancel = document.createElement("button");
+      cancel.type = "button";
+      cancel.className = "comment-cancel";
+      cancel.textContent = "Cancel";
+      cancel.addEventListener("click", function () {
+        form.parentNode.removeChild(form);
+        onClose();
+      });
+      form.appendChild(cancel);
+
+      var msg = document.createElement("p");
+      msg.className = "comment-status";
+      msg.setAttribute("role", "status");
+      form.appendChild(msg);
+
+      wire(form, parent.id, msg, post);
+      return form;
     }
 
     // The thread costs a function call, and the comment box sits at the very
@@ -187,47 +302,56 @@
       notice.hidden = false;
     }
 
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      var name = form.elements.name.value.trim();
-      var body = form.elements.body.value.trim();
+    // One submit path for the box at the bottom and for every reply form.
+    // `parent` is the id of the chain being answered, or null to start one.
+    function wire(theForm, parent, statusEl, submitBtn) {
+      theForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var name = theForm.elements.name.value.trim();
+        var body = theForm.elements.body.value.trim();
 
-      if (!name || !body) {
-        status.textContent = "Please fill in both your name and a message.";
-        return;
-      }
+        if (!name || !body) {
+          statusEl.textContent = "Please fill in both your name and a message.";
+          return;
+        }
 
-      button.disabled = true;
-      status.textContent = "Sending…";
+        submitBtn.disabled = true;
+        statusEl.textContent = "Sending…";
 
-      fetch(API, {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({
+        var payload = {
           name: name,
           body: body,
-          website: form.elements.website.value
+          website: theForm.elements.website.value
+        };
+        if (parent) payload.parent = parent;
+
+        fetch(API, {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify(payload)
         })
-      })
-        .then(function (r) {
-          return r.json().then(function (data) { return { ok: r.ok, data: data }; });
-        })
-        .then(function (res) {
-          button.disabled = false;
-          if (res.ok && res.data.ok) {
-            form.reset();
-            status.textContent =
-              "Thank you! Your note has been sent for review and approval.";
-          } else {
-            status.textContent =
-              (res.data && res.data.error) || "Something went wrong — please try again.";
-          }
-        })
-        .catch(function () {
-          button.disabled = false;
-          status.textContent = "Couldn't send that — please check your connection and try again.";
-        });
-    });
+          .then(function (r) {
+            return r.json().then(function (data) { return { ok: r.ok, data: data }; });
+          })
+          .then(function (res) {
+            submitBtn.disabled = false;
+            if (res.ok && res.data.ok) {
+              theForm.reset();
+              statusEl.textContent =
+                "Thank you! Your note has been sent for review and approval.";
+            } else {
+              statusEl.textContent =
+                (res.data && res.data.error) || "Something went wrong — please try again.";
+            }
+          })
+          .catch(function () {
+            submitBtn.disabled = false;
+            statusEl.textContent = "Couldn't send that — please check your connection and try again.";
+          });
+      });
+    }
+
+    wire(form, null, status, button);
   })();
 </script>
 {% endif %}

@@ -105,6 +105,10 @@ comments:
 
 comments_enabled: true          # false takes the comment box off every post
 
+# The name on replies you post from /admin-comments/. Readers see it beside
+# an "Author" badge, so it wants to be a person rather than a title.
+comments_author_name: "Jenna"
+
 
 # -----------------------------------------------------------------------------
 # READING — how posts are loaded and shown

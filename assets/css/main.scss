@@ -1733,6 +1733,68 @@ hr {
     line-height: 1.55;
   }
 
+  // ----- replies -----
+  // One level deep, so a single indent is the whole story. The left border
+  // is what carries the relationship: on a narrow phone the indent has to
+  // stay small, and a rule down the side reads as "these belong to that"
+  // at any width.
+  .comment-replies {
+    list-style: none;
+    margin: 0.8em 0 0 0;
+    padding: 0 0 0 1em;
+    border-left: 3px solid $sand-warm;
+  }
+
+  .comment-reply {
+    background: $sand-light;
+    margin-bottom: 0.5em;
+
+    &:last-child { margin-bottom: 0; }
+  }
+
+  // "Author" beside the name. Our replies are the ones a reader most wants
+  // to spot, so this is the one piece of colour in the thread.
+  .comment-badge {
+    background: $navy-deep;
+    color: #fff;
+    border-radius: 999px;
+    padding: 0.05em 0.5em;
+    font-size: 0.68em;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .comment-reply-wrap { margin-top: 0.7em; }
+
+  .comment-reply-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: inherit;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: $navy-deep;
+    cursor: pointer;
+    text-decoration: underline;
+
+    &:hover { opacity: 0.75; }
+  }
+
+  .comment-form-reply {
+    margin-top: 0.8em;
+    padding: 0.9em 1em;
+    background: $sand-light;
+  }
+
+  .comment-cancel {
+    background: none !important;
+    color: $ink !important;
+    text-decoration: underline;
+    padding-left: 0.6em !important;
+    padding-right: 0.6em !important;
+  }
+
   // Shown only when the thread could not be loaded.
   .comment-notice {
     color: $ink;

@@ -453,6 +453,28 @@ don't need to sign up; they just type a name and a message and hit Post.
 The same page lists everything already published, so you can take something
 down later if you change your mind.
 
+### Replying
+
+Every published note has a **Reply** button. Write your answer, click **Post
+reply**, and it goes straight onto the post — no approval, because you are
+the one who would be approving it. It appears under the comment with an
+**Author** badge, so readers can tell it is you and not another visitor.
+
+Replies sign as **Jenna**. To change that, edit `comments_author_name` in
+`_config.yml`.
+
+Readers can reply too. Their replies wait for your approval like any other
+note, and the queue shows you which comment each one is answering so you
+know what you are saying yes to.
+
+Replies only go one level deep. Somebody answering a reply joins the same
+chain rather than starting a staircase of indents — and anyone who wants to
+raise something different just uses the box at the bottom, which starts a
+new chain.
+
+Deleting a note deletes the replies underneath it. The page warns you before
+it does.
+
 Nothing emails you when a comment lands, so it's worth a look every week or
 so. A visitor who leaves a note is told it has been sent for review and
 approval, so nobody is left wondering whether it went through.

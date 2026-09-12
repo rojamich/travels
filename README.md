@@ -160,7 +160,7 @@ since). Three pieces:
 |---|---|
 | The thread and the form on each post | `_includes/comments-providers/custom.html` |
 | The API | `netlify/functions/comments.js` |
-| Moderation | `/admin-comments/` (editor login) |
+| Moderation and replying | `/admin-comments/` (editor login) |
 
 Comments are stored in Netlify Blobs, in the same place as the view and
 heart counts. Visitors need no account — a name and a message is all.
@@ -173,6 +173,21 @@ so look in now and then.
 Spam defences: a honeypot field bots fill and people never see, a limit of
 two links per comment, length caps, and a cap on how many unapproved
 comments one post will hold.
+
+**Replies** are one level deep. A comment either starts a chain or answers
+one; answering a reply joins that reply's chain rather than nesting further,
+which the function enforces rather than trusting the page to. Stored as a
+`parent` field holding the id of the comment that starts the chain.
+
+Replies from `/admin-comments/` skip the queue — the caller has already
+proved they hold an Identity token, and there is nobody to approve them but
+themselves — and carry `author: true` so the page can badge them. The name
+comes from `comments_author_name` in `_config.yml`; the admin page reads it
+and sends it, because the function cannot see Jekyll's config.
+
+A reader can only reply to an **approved** comment, so an approved reply
+always has a parent that is on the page. Deleting a comment deletes its
+replies, so nothing is left stranded under a question that is gone.
 
 The comment store is read with **strong consistency**. Netlify Blobs is
 eventually consistent by default — a write is only guaranteed visible

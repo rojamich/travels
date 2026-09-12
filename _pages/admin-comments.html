@@ -49,6 +49,9 @@ sitemap: false
 <script>
   (function () {
     var API = "/.netlify/functions/comments";
+    // Jekyll renders this page, so it can read _config.yml; the function
+    // cannot. The name travels with the reply.
+    var AUTHOR = {{ site.comments_author_name | default: "The author" | jsonify }};
 
     // Every call carries a fresh Identity token. jwt() renews it if it is
     // close to expiring, so a tab left open all afternoon still works.
@@ -85,19 +88,40 @@ sitemap: false
       return n;
     }
 
-    function card(c) {
-      var box = el("article", "mod-comment");
+    // `nested` means this card is drawn inside its parent's card, in the
+    // published chain. A reply waiting in the queue is NOT nested — it stands
+    // on its own — so it still needs to say which post it is on and what it
+    // is answering, or you would be approving it blind.
+    function card(c, opts) {
+      opts = opts || {};
+      var nested = !!opts.nested;
+      var box = el("article", nested ? "mod-comment mod-comment-reply" : "mod-comment");
 
       var head = el("p", "mod-head");
       head.appendChild(el("span", "mod-name", c.name));
+      if (c.author) head.appendChild(el("span", "mod-badge", "you"));
+      if (!c.approved) head.appendChild(el("span", "mod-pending", "waiting"));
       head.appendChild(el("span", "mod-when", when(c.at)));
       box.appendChild(head);
 
-      var link = el("a", "mod-post", "/" + c.slug + "/");
-      link.href = "/" + c.slug + "/";
-      link.target = "_blank";
-      link.rel = "noopener";
-      box.appendChild(link);
+      // A card nested in its parent doesn't repeat the post — the comment
+      // above it already said so.
+      if (!nested) {
+        var link = el("a", "mod-post", "/" + c.slug + "/");
+        link.href = "/" + c.slug + "/";
+        link.target = "_blank";
+        link.rel = "noopener";
+        box.appendChild(link);
+
+        // Standing alone and answering something: say what.
+        if (c.parent) {
+          var up = (opts.all || []).filter(function (p) { return p.id === c.parent; })[0];
+          var quote = up
+            ? "↳ replying to " + up.name + ": “" + snippet(up.body) + "”"
+            : "↳ replying to a comment that is no longer here";
+          box.appendChild(el("p", "mod-context", quote));
+        }
+      }
 
       box.appendChild(el("p", "mod-body", c.body));
 
@@ -112,14 +136,97 @@ sitemap: false
 
       var no = el("button", "mod-delete", "Delete");
       no.addEventListener("click", function () {
-        if (!window.confirm("Delete this note from " + c.name + "? This can't be undone.")) return;
+        var warn = c.parent
+          ? "Delete this reply? This can't be undone."
+          : "Delete this note from " + c.name +
+            "? Any replies under it go too. This can't be undone.";
+        if (!window.confirm(warn)) return;
         act(no, q, "DELETE");
       });
       actions.appendChild(no);
 
+      // You can only answer something that is on the page — the same rule
+      // the function enforces — so no reply box until it is approved, and
+      // only on the comment that starts a chain.
+      if (c.approved && !c.parent) {
+        var replyBtn = el("button", "mod-reply", "Reply");
+        replyBtn.addEventListener("click", function () {
+          replyBtn.disabled = true;
+          box.appendChild(replyBox(c, replyBtn));
+        });
+        actions.appendChild(replyBtn);
+      }
+
       actions.appendChild(el("span", "mod-msg", ""));
       box.appendChild(actions);
       return box;
+    }
+
+    // Answering as ourselves. Straight onto the page, no queue — there is
+    // nobody to approve us but us.
+    function replyBox(c, replyBtn) {
+      var wrap = el("div", "mod-replybox");
+      wrap.appendChild(el("p", "mod-replyas", "Replying as " + AUTHOR));
+
+      var ta = document.createElement("textarea");
+      ta.rows = 3;
+      ta.maxLength = 2000;
+      ta.placeholder = "Write your reply…";
+      wrap.appendChild(ta);
+
+      var row = el("div", "mod-actions");
+      var send = el("button", "mod-approve", "Post reply");
+      var cancel = el("button", "mod-delete", "Cancel");
+      var msg = el("span", "mod-msg", "");
+      row.appendChild(send);
+      row.appendChild(cancel);
+      row.appendChild(msg);
+      wrap.appendChild(row);
+
+      cancel.addEventListener("click", function () {
+        wrap.parentNode.removeChild(wrap);
+        replyBtn.disabled = false;
+      });
+
+      send.addEventListener("click", function () {
+        var body = ta.value.trim();
+        if (!body) { msg.textContent = "Write something first."; return; }
+        send.disabled = true;
+        cancel.disabled = true;
+        msg.textContent = "Posting…";
+
+        token()
+          .then(function (t) {
+            return fetch(API + "?slug=" + encodeURIComponent(c.slug) +
+                         "&reply=" + encodeURIComponent(c.id), {
+              method: "POST",
+              headers: {
+                authorization: "Bearer " + t,
+                "content-type": "application/json"
+              },
+              body: JSON.stringify({ name: AUTHOR, body: body })
+            });
+          })
+          .then(function (r) {
+            if (!r.ok) throw new Error(r.status === 401 ? "not logged in" : "failed");
+            load();
+          })
+          .catch(function (e) {
+            send.disabled = false;
+            cancel.disabled = false;
+            msg.textContent = e.message === "not logged in"
+              ? "Your login expired — reload the page."
+              : "Didn't post — try again.";
+          });
+      });
+
+      return wrap;
+    }
+
+    // Enough of a comment to recognise it, without reprinting the thing.
+    function snippet(text) {
+      var one = String(text).replace(/\s+/g, " ").trim();
+      return one.length > 80 ? one.slice(0, 80) + "…" : one;
     }
 
     function act(button, q, method) {
@@ -141,13 +248,13 @@ sitemap: false
         });
     }
 
-    function fill(which, comments) {
+    function fill(which, items, all) {
       var list = document.querySelector('[data-list="' + which + '"]');
       var count = document.querySelector('[data-count="' + which + '"]');
       list.innerHTML = "";
-      count.textContent = comments.length ? "(" + comments.length + ")" : "";
+      count.textContent = items.length ? "(" + items.length + ")" : "";
 
-      if (!comments.length) {
+      if (!items.length) {
         list.appendChild(el("p", "mod-empty", which === "pending"
           ? "Nothing waiting. All caught up."
           : "Nothing published yet."));
@@ -155,8 +262,28 @@ sitemap: false
       }
       // Newest first once published — the backlog reads oldest first, but a
       // list you only scan is more useful with the recent things on top.
-      if (which === "approved") comments = comments.slice().reverse();
-      comments.forEach(function (c) { list.appendChild(card(c)); });
+      if (which === "approved") items = items.slice().reverse();
+
+      items.forEach(function (c) {
+        var box = card(c, { all: all });
+
+        // A published chain is shown whole, so you can see what you are
+        // answering. In the queue each waiting item stands alone: approving
+        // a reply is a decision about that reply and nothing else.
+        if (which === "approved" && !c.parent) {
+          var kids = all.filter(function (r) {
+            return r.parent === c.id && r.approved;
+          });
+          if (kids.length) {
+            var sub = el("div", "mod-replies");
+            kids.forEach(function (r) {
+              sub.appendChild(card(r, { nested: true, all: all }));
+            });
+            box.appendChild(sub);
+          }
+        }
+        list.appendChild(box);
+      });
     }
 
     function load() {
@@ -167,8 +294,12 @@ sitemap: false
         })
         .then(function (data) {
           var all = (data && data.comments) || [];
-          fill("pending", all.filter(function (c) { return !c.approved; }));
-          fill("approved", all.filter(function (c) { return c.approved; }));
+          fill("pending", all.filter(function (c) { return !c.approved; }), all);
+          // Replies are drawn inside their chain, so they are not listed
+          // again at the top level.
+          fill("approved", all.filter(function (c) {
+            return c.approved && !c.parent;
+          }), all);
         })
         .catch(function (e) {
           ["pending", "approved"].forEach(function (which) {
@@ -233,5 +364,58 @@ sitemap: false
   .mod-actions button:disabled { opacity: 0.55; cursor: default; }
   .mod-approve { background: #2e7d52; }
   .mod-delete  { background: #b03052; }
+  .mod-reply   { background: #2a4d69; }
   .mod-msg { font-size: 0.85em; color: #666; }
+
+  /* Replies, shown inside the chain they belong to. */
+  .mod-replies {
+    margin: 0.9em 0 0 0;
+    padding-left: 1em;
+    border-left: 3px solid #e2e8ee;
+  }
+  .mod-comment-reply {
+    background: #f7f9fc;
+    margin-bottom: 0.5em;
+  }
+  .mod-comment-reply:last-child { margin-bottom: 0; }
+
+  /* "you" on our own replies, "waiting" on anything not yet approved. */
+  .mod-badge, .mod-pending {
+    border-radius: 999px;
+    padding: 0.05em 0.55em;
+    font-size: 0.68em;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .mod-badge   { background: #2a4d69; }
+  .mod-pending { background: #b8860b; }
+
+  .mod-replybox {
+    margin-top: 0.9em;
+    padding-top: 0.9em;
+    border-top: 1px dashed #ddd;
+  }
+  .mod-replyas { margin: 0 0 0.4em 0; font-size: 0.82em; color: #888; }
+
+  /* What a reply waiting in the queue is answering. */
+  .mod-context {
+    margin: 0.35em 0 0 0;
+    font-size: 0.85em;
+    color: #777;
+    font-style: italic;
+  }
+  .mod-replybox textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.55em 0.7em;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1em;
+    line-height: 1.45;
+    resize: vertical;
+    margin-bottom: 0.6em;
+  }
 </style>

@@ -9,10 +9,14 @@
 //
 // PUBLIC
 //   GET  /.netlify/functions/comments?slug=<post-slug>
-//        → { comments: [ { id, name, body, at }, ... ] }   approved only,
-//          oldest first, so a thread reads top to bottom.
+//        → { comments: [ { id, name, body, at, parent, author }, ... ] }
+//          approved only, oldest first, so a thread reads top to bottom.
+//          `parent` is the id of the comment this one answers, absent on a
+//          comment that starts a chain. `author` marks one of ours.
 //   POST /.netlify/functions/comments?slug=<post-slug>
-//        body { name, body, website }  → { ok: true }
+//        body { name, body, website, parent }  → { ok: true }
+//        `parent` is optional: leave it out to start a new chain, or give
+//        the id of an approved comment to answer it.
 //        The comment is stored UNAPPROVED. Nothing a stranger writes appears
 //        on the site until one of us approves it from /admin-comments/.
 //        `website` is a honeypot: a real person never sees the field, so
@@ -24,7 +28,18 @@
 //          post, approved or not, each carrying its slug. /admin-comments/
 //          splits them into "waiting for you" and "published".
 //   PATCH  ?slug=<s>&id=<id>   → approve it (it appears on the post)
-//   DELETE ?slug=<s>&id=<id>   → delete it for good
+//   DELETE ?slug=<s>&id=<id>   → delete it, and any replies under it
+//   POST   ?slug=<s>&reply=<id>  body { name, body }
+//          → answer a comment as ourselves. Appears at once, no approval,
+//            and is marked `author` so the page can badge it. The name
+//            comes from the admin page, which reads it from _config.yml.
+//
+// REPLIES ARE ONE DEEP
+// A reply always hangs off a comment that starts a chain, never off another
+// reply — answering a reply adds to the same chain. Deeper nesting is a
+// staircase of indents nobody can read on a phone, and a travel blog has
+// never needed one. The server enforces it: give it the id of a reply and
+// it re-points at that reply's parent rather than refusing.
 //
 // The admin routes verify the caller's Identity token against
 // /.netlify/identity/user before doing anything — this is the approach
@@ -91,6 +106,11 @@ export default async (req) => {
     return moderate(req, url, store);
   }
 
+  if (req.method === "POST" && url.searchParams.has("reply")) {
+    if (!(await isEditor(req, url))) return json({ error: "not authorised" }, 401);
+    return authorReply(req, url, store);
+  }
+
   // ----- public routes ------------------------------------------------
   const slug = normaliseSlug(url.searchParams.get("slug"));
   if (!slug) {
@@ -102,7 +122,12 @@ export default async (req) => {
     return json({
       comments: all
         .filter((c) => c.approved)
-        .map(({ id, name, body, at }) => ({ id, name, body, at }))
+        .map(({ id, name, body, at, parent, author }) => {
+          const out = { id, name, body, at };
+          if (parent) out.parent = parent;
+          if (author) out.author = true;
+          return out;
+        })
     });
   }
 
@@ -133,13 +158,16 @@ export default async (req) => {
       return json({ error: "we're behind on reading these — try again in a day or two" }, 429);
     }
 
-    all.push({
-      id: newId(),
-      name,
-      body,
-      at: new Date().toISOString(),
-      approved: false
-    });
+    // Answering something? It has to be a comment that is actually on the
+    // page — approved, and on this post. You cannot reply to a comment that
+    // is still in the queue, because you cannot have read it.
+    let parent;
+    if (payload.parent) {
+      parent = chainRoot(all, payload.parent);
+      if (!parent) return json({ error: "that comment is no longer here" }, 400);
+    }
+
+    all.push(newComment({ name, body, parent }));
     await store.setJSON(slug, all);
 
     return json({ ok: true });
@@ -163,7 +191,14 @@ async function moderate(req, url, store) {
   if (req.method === "PATCH") {
     all[i].approved = true;
   } else {
-    all.splice(i, 1);
+    // Deleting a comment deletes the answers to it. Leaving them would
+    // strand replies under a question nobody can see any more, and the page
+    // only draws a reply beneath its parent, so they would simply vanish
+    // from view while still taking up the store.
+    const gone = all[i].id;
+    for (let n = all.length - 1; n >= 0; n--) {
+      if (all[n].id === gone || all[n].parent === gone) all.splice(n, 1);
+    }
   }
 
   // Don't leave an empty array sitting in the store once the last comment on
@@ -172,6 +207,71 @@ async function moderate(req, url, store) {
   else await store.setJSON(slug, all);
 
   return json({ ok: true });
+}
+
+// -----------------------------------------------------------------------------
+// Answering as ourselves
+// -----------------------------------------------------------------------------
+// No moderation queue: whoever is calling this has already proved they hold an
+// Identity token, and there is nobody to approve them but themselves. The
+// reply is marked `author` so the page can badge it, and the name comes from
+// the caller because _config.yml is Jekyll's, not ours — /admin-comments/ is
+// rendered by Jekyll, so it reads site.comments_author_name and sends it. Only
+// an authenticated caller reaches this, so a name arriving here is ours.
+async function authorReply(req, url, store) {
+  const slug = normaliseSlug(url.searchParams.get("slug"));
+  if (!slug) return json({ error: "missing or invalid slug" }, 400);
+
+  let payload;
+  try {
+    payload = await req.json();
+  } catch {
+    return json({ error: "expected JSON" }, 400);
+  }
+
+  const name = clean(payload.name, MAX_NAME) || "The author";
+  const body = clean(payload.body, MAX_BODY);
+  if (!body) return json({ error: "please write a reply" }, 400);
+
+  const all = await read(store, slug);
+  if (all.length >= MAX_PER_POST) {
+    return json({ error: "this post has all the comments it can hold" }, 429);
+  }
+
+  const parent = chainRoot(all, url.searchParams.get("reply"));
+  if (!parent) return json({ error: "no such comment" }, 404);
+
+  all.push(newComment({ name, body, parent, approved: true, author: true }));
+  await store.setJSON(slug, all);
+
+  return json({ ok: true });
+}
+
+// The id of the comment a reply should hang off. Given a comment that starts
+// a chain, that is the comment itself; given a reply, it is that reply's own
+// parent, which is how answering an answer joins the chain rather than
+// starting a second level. Anything unapproved or absent gets null: you
+// cannot answer what was never on the page.
+function chainRoot(all, id) {
+  if (!id) return null;
+  const target = all.find((c) => c.id === id);
+  if (!target || !target.approved) return null;
+  if (!target.parent) return target.id;
+  const root = all.find((c) => c.id === target.parent);
+  return root && root.approved ? root.id : null;
+}
+
+function newComment({ name, body, parent, approved = false, author = false }) {
+  const c = {
+    id: newId(),
+    name,
+    body,
+    at: new Date().toISOString(),
+    approved
+  };
+  if (parent) c.parent = parent;
+  if (author) c.author = true;
+  return c;
 }
 
 // Every comment on every post, each tagged with the post it belongs to.
