@@ -1,40 +1,193 @@
 <!--
   =============================================================================
-  CUSTOM COMMENTS PROVIDER — Cusdis
+  CUSTOM COMMENTS PROVIDER — our own, on Netlify Functions + Blobs
   =============================================================================
-  Minimal Mistakes lets us slot in any comment system here. We use Cusdis
-  because it requires no signup from your visitors — they just type a name
-  and a comment.
+  Minimal Mistakes lets us slot in any comment system here.
 
-  Activation is gated on `site.cusdis_app_id` being set in _config.yml.
-  Until you fill that in, this include renders nothing (post pages just
-  silently lack comments — no error, no broken UI).
+  This used to be Cusdis. Their repository was archived on 2026-07-17 and
+  cusdis.com now answers 521 to everything — the API, the iframe and the
+  dashboard alike — so the box sat on every post looking like an invitation
+  and doing nothing. The comments that were over there are not reachable
+  while the service is down.
 
-  See README.md for the one-time signup at cusdis.com.
+  What replaced it keeps the part that mattered: a reader types a name and a
+  message, and that is all. No signup, no account, no third party. The back
+  end is netlify/functions/comments.js, storing to the same Netlify Blobs the
+  hearts and views counters use.
+
+  New comments are held for approval and appear once one of us says so, at
+  /admin-comments/. That is how Cusdis worked too, and it is what makes a
+  public write endpoint safe to leave open.
+
+  The thread is keyed on page.id — `category/post-slug` — rather than on
+  page.slug, which is only the title part and so is not unique on its own
+  (there has been more than one post called "draft"). Renaming a post moves
+  its thread, exactly as it did with Cusdis; scripts/check_slug_drift.py
+  warns about that before you rename anything.
+
+  Set `comments_enabled: false` in _config.yml to take the whole section off
+  the site.
   =============================================================================
 -->
 
-{% if site.cusdis_app_id %}
-<section class="comments-block">
+{% if site.comments_enabled %}
+<section class="comments-block" data-post="{{ page.id | remove_first: '/' }}">
   <h2>💬 Leave us a note</h2>
   <p class="comments-instructions">
-    No signup needed — just type your name and a message, then click <strong>Submit</strong>.
+    No signup needed — just type your name and a message, then click <strong>Post</strong>.
     We love hearing from family, friends, and fellow travelers.
   </p>
 
-  <!--
-    Cusdis embed. The data-* attributes tell their script which post this is
-    (so threads stay attached to the right post even if URLs change later).
-    The min-height on the iframe is enforced via main.scss so the Submit
-    button is always visible without scrolling.
-  -->
-  <div id="cusdis_thread"
-    data-host="https://cusdis.com"
-    data-app-id="{{ site.cusdis_app_id }}"
-    data-page-id="{{ page.id }}"
-    data-page-url="{{ page.url | absolute_url }}"
-    data-page-title="{{ page.title | escape }}">
-  </div>
-  <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+  <ol class="comment-thread" aria-live="polite"></ol>
+  <p class="comment-empty" hidden>No notes on this one yet — be the first.</p>
+
+  <form class="comment-form" novalidate>
+    <label class="comment-field">
+      <span>Your name</span>
+      <input type="text" name="name" maxlength="60" autocomplete="name" required>
+    </label>
+    <label class="comment-field">
+      <span>Your message</span>
+      <textarea name="body" rows="4" maxlength="2000" required></textarea>
+    </label>
+
+    <!--
+      Honeypot. Hidden from people by CSS and from screen readers by
+      aria-hidden, so only an automated form-filler ever puts anything in it.
+      The function throws away any submission that does.
+    -->
+    <div class="comment-hp" aria-hidden="true">
+      <label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+    </div>
+
+    <button type="submit">Post</button>
+    <p class="comment-status" role="status"></p>
+  </form>
 </section>
+
+<script>
+  (function () {
+    var section = document.querySelector(".comments-block");
+    if (!section) return;
+
+    var post    = section.getAttribute("data-post");
+    var thread  = section.querySelector(".comment-thread");
+    var empty   = section.querySelector(".comment-empty");
+    var form    = section.querySelector(".comment-form");
+    var status  = section.querySelector(".comment-status");
+    var button  = form.querySelector("button[type=submit]");
+    var API     = "/.netlify/functions/comments?slug=" + encodeURIComponent(post);
+
+    // Dates as "12 September 2026". Intl is everywhere we care about, but a
+    // browser without it should still get a readable thread rather than an
+    // exception, so fall back to the ISO date's first ten characters.
+    function when(iso) {
+      try {
+        return new Date(iso).toLocaleDateString(undefined,
+          { year: "numeric", month: "long", day: "numeric" });
+      } catch (e) {
+        return String(iso).slice(0, 10);
+      }
+    }
+
+    // Built with createElement and textContent throughout — a comment is a
+    // stranger's text, and it must never be able to become markup.
+    function render(comments) {
+      thread.innerHTML = "";
+      empty.hidden = comments.length > 0;
+
+      comments.forEach(function (c) {
+        var li = document.createElement("li");
+        li.className = "comment";
+
+        var head = document.createElement("p");
+        head.className = "comment-head";
+
+        var name = document.createElement("span");
+        name.className = "comment-name";
+        name.textContent = c.name;
+
+        var date = document.createElement("time");
+        date.className = "comment-date";
+        date.setAttribute("datetime", c.at);
+        date.textContent = when(c.at);
+
+        head.appendChild(name);
+        head.appendChild(date);
+
+        var body = document.createElement("p");
+        body.className = "comment-body";
+        // textContent keeps the author's line breaks as characters; the CSS
+        // sets white-space: pre-wrap so they survive as line breaks on screen.
+        body.textContent = c.body;
+
+        li.appendChild(head);
+        li.appendChild(body);
+        thread.appendChild(li);
+      });
+    }
+
+    function load() {
+      fetch(API, { method: "GET" })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (data) {
+          if (data && Array.isArray(data.comments)) render(data.comments);
+          else fail();
+        })
+        .catch(fail);
+    }
+
+    // If the function is unreachable, say so rather than showing an empty
+    // thread — "no comments yet" is a lie that would have hidden the Cusdis
+    // outage for another week.
+    function fail() {
+      empty.hidden = false;
+      empty.textContent = "Couldn't load the notes just now — please try again later.";
+    }
+
+    load();
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var name = form.elements.name.value.trim();
+      var body = form.elements.body.value.trim();
+
+      if (!name || !body) {
+        status.textContent = "Please fill in both your name and a message.";
+        return;
+      }
+
+      button.disabled = true;
+      status.textContent = "Sending…";
+
+      fetch(API, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          name: name,
+          body: body,
+          website: form.elements.website.value
+        })
+      })
+        .then(function (r) {
+          return r.json().then(function (data) { return { ok: r.ok, data: data }; });
+        })
+        .then(function (res) {
+          button.disabled = false;
+          if (res.ok && res.data.ok) {
+            form.reset();
+            status.textContent =
+              "Thank you! Your note will appear here once Jenna or Mike has read it.";
+          } else {
+            status.textContent =
+              (res.data && res.data.error) || "Something went wrong — please try again.";
+          }
+        })
+        .catch(function () {
+          button.disabled = false;
+          status.textContent = "Couldn't send that — please check your connection and try again.";
+        });
+    });
+  })();
+</script>
 {% endif %}

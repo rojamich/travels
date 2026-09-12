@@ -86,18 +86,24 @@ plugins:
 
 
 # -----------------------------------------------------------------------------
-# COMMENTS — Cusdis (no signup required for visitors)
+# COMMENTS — our own (no signup required for visitors)
 # -----------------------------------------------------------------------------
-# Activation is a two-step process:
-#   1. Sign up at https://cusdis.com (free), add your site.
-#      They give you an "App ID" (looks like 8b3f...uuid).
-#   2. Paste the App ID into `cusdis_app_id` below, commit + push.
+# This was Cusdis until 2026-09-12. Their repository was archived on
+# 2026-07-17 and cusdis.com now answers 521 to every request, so the box on
+# each post had stopped working — and the comments left there are not
+# reachable while their service is down.
 #
-# Until you fill in `cusdis_app_id`, comment sections won't render.
+# It is now ours end to end: netlify/functions/comments.js storing to Netlify
+# Blobs, the form in _includes/comments-providers/custom.html, and moderation
+# at /admin-comments/. Nothing to sign up for and nothing to configure — the
+# switch below is the whole of it.
+#
+# New comments are held until one of us approves them, so nothing a stranger
+# writes reaches the site on its own.
 comments:
   provider: "custom"            # tells Minimal Mistakes to use _includes/comments-providers/custom.html
 
-cusdis_app_id: "7db99976-0c56-4488-bbbc-70579203ed05"               # PASTE YOUR CUSDIS APP ID HERE (between the quotes)
+comments_enabled: true          # false takes the comment box off every post
 
 
 # -----------------------------------------------------------------------------
@@ -136,7 +142,7 @@ defaults:
       layout: post                   # Custom wrapper that adds breadcrumb above the body
       author_profile: false          # Hide the sidebar author box
       read_time: true                # Show estimated read time
-      comments: true                 # Renders the Cusdis include if cusdis_app_id is set
+      comments: true                 # Renders the comment box if comments_enabled is true
       share: true                    # Show social share buttons
       related: true                  # Show "related posts" at the bottom
       show_date: true

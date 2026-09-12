@@ -1655,11 +1655,15 @@ hr {
 }
 
 // -----------------------------------------------------------------------------
-// COMMENTS BLOCK (Cusdis)
+// COMMENTS BLOCK
 // -----------------------------------------------------------------------------
 // Make the comments section visually prominent so casual visitors notice it
-// and aren't intimidated. Reserve enough vertical room that the Submit
-// button is visible without scrolling inside the iframe.
+// and aren't intimidated.
+//
+// This used to wrap an iframe from Cusdis, which meant guessing a min-height
+// tall enough that their Submit button wasn't hidden below a scrollbar we
+// couldn't see into. The thread and the form are ours now and live in the
+// page, so the box is simply as tall as its contents.
 .comments-block {
   margin: 3em 0 1em;
   padding: 1.75em;
@@ -1685,19 +1689,126 @@ hr {
     }
   }
 
-  // The Cusdis iframe inserts itself here. Force a tall min-height so the
-  // form (name field + message + Submit button) is visible without the
-  // iframe having to scroll.
-  #cusdis_thread {
-    min-height: 380px;
-    background: #fff;
-    border-radius: 8px;
-    padding: 0.5em;
+  // ----- the thread -----
+  .comment-thread {
+    list-style: none;
+    margin: 0 0 1.4em 0;
+    padding: 0;
   }
 
-  #cusdis_thread iframe {
-    width: 100% !important;
-    min-height: 360px !important;
+  .comment {
+    background: #fff;
+    border: 1px solid $border-color;
+    border-radius: 8px;
+    padding: 0.9em 1.1em;
+    margin-bottom: 0.7em;
+  }
+
+  .comment-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.7em;
+    flex-wrap: wrap;
+    margin: 0 0 0.35em 0;
+  }
+
+  .comment-name {
+    font-weight: bold;
+    color: $navy-deep;
+  }
+
+  .comment-date {
+    color: $ink;
+    opacity: 0.7;
+    font-size: 0.82em;
+  }
+
+  // A comment is stored as the characters the author typed, newlines and
+  // all, and is put on the page with textContent. pre-wrap is what turns
+  // those newlines back into line breaks without any of it being markup.
+  .comment-body {
+    margin: 0;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    line-height: 1.55;
+  }
+
+  .comment-empty {
+    color: $ink;
+    opacity: 0.8;
+    font-style: italic;
+    margin: 0 0 1.4em 0;
+  }
+
+  // ----- the form -----
+  .comment-form {
+    background: #fff;
+    border: 1px solid $border-color;
+    border-radius: 8px;
+    padding: 1.1em 1.2em;
+  }
+
+  .comment-field {
+    display: block;
+    margin-bottom: 0.9em;
+
+    span {
+      display: block;
+      font-weight: bold;
+      color: $navy-deep;
+      font-size: 0.9em;
+      margin-bottom: 0.3em;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 0.55em 0.7em;
+      border: 1px solid $border-color;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 1em;
+      line-height: 1.45;
+      // Phone browsers zoom into any field with text below 16px and then
+      // leave the page zoomed. Keeping these at 1em of a 16px root avoids it.
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 6em;
+    }
+  }
+
+  // The honeypot. Taken out of the layout entirely rather than hidden with
+  // `display: none`, which some form-fillers know to skip.
+  .comment-hp {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  .comment-form button {
+    background: $navy-deep;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.55em 1.5em;
+    font-size: 1em;
+    font-family: inherit;
+    cursor: pointer;
+
+    &:hover:not(:disabled) { opacity: 0.9; }
+    &:disabled { opacity: 0.55; cursor: default; }
+  }
+
+  .comment-status {
+    margin: 0.7em 0 0 0;
+    font-size: 0.9em;
+    color: $navy-deep;
+    min-height: 1.2em;
   }
 }
 

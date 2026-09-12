@@ -51,7 +51,7 @@ see [EDITING.md](EDITING.md).
 │   ├── subscribe.html      ← email subscription block
 │   ├── trip-map.html       ← embedded mini-map for trip pages
 │   └── comments-providers/
-│       └── custom.html     ← Cusdis comments embed
+│       └── custom.html     ← comment thread + form (our own)
 │
 ├── assets/
 │   ├── css/main.scss       ← coastal palette + custom styles
@@ -150,13 +150,35 @@ If you ever need to edit a trip directly (rare — for advanced things the form 
 
 ---
 
-## Comments — Cusdis
+## Comments
 
-Already set up. The Cusdis App ID is in `_config.yml` (`cusdis_app_id`).
-Visitors comment without an account; you moderate at
-[cusdis.com](https://cusdis.com/dashboard).
+Ours end to end, since Cusdis shut down in September 2026 (their repository
+was archived on 2026-07-17 and cusdis.com has answered 521 to everything
+since). Three pieces:
 
-To temporarily disable comments: clear `cusdis_app_id` back to `""`.
+| Piece | Where |
+|---|---|
+| The thread and the form on each post | `_includes/comments-providers/custom.html` |
+| The API | `netlify/functions/comments.js` |
+| Moderation | `/admin-comments/` (editor login) |
+
+Comments are stored in Netlify Blobs, in the same place as the view and
+heart counts. Visitors need no account — a name and a message is all.
+
+**Nothing appears on the site until you approve it.** New comments wait at
+[/admin-comments/](https://where-in-the-world-are-mike-and-jen.netlify.app/admin-comments/),
+where each one has an Approve and a Delete button. There is no email alert,
+so look in now and then.
+
+Spam defences: a honeypot field bots fill and people never see, a limit of
+two links per comment, length caps, and a cap on how many unapproved
+comments one post will hold.
+
+To turn comments off everywhere: set `comments_enabled: false` in
+`_config.yml`.
+
+**The comments left on Cusdis before the shutdown are not recoverable while
+their service is down.** They were only ever stored on cusdis.com.
 
 ---
 
@@ -323,8 +345,15 @@ errors are at the bottom.
 - If it does, check that the URL works in a fresh browser tab (rare network/CORS issue).
 
 **Comment section missing.**
-- `cusdis_app_id` is empty in `_config.yml`.
-- Or the Cusdis Site ID doesn't match what's configured.
+- `comments_enabled` is `false` in `_config.yml`.
+- Or the post's front matter has `comments: false`.
+
+**Comment box says it couldn't load the notes.**
+- The Netlify Function is failing. Check the function log in the Netlify
+  dashboard under Functions → comments.
+
+**Someone says they left a comment and it isn't there.**
+- That's the moderation queue working. Approve it at `/admin-comments/`.
 
 **Image broken on an old (pre-migration) post.**
 - These referenced `/travels/...` paths. Now baseurl is empty, so the

@@ -440,13 +440,26 @@ choose to sequence the days.
 
 ## Comments
 
-Each post automatically gets a comments section at the bottom — provided
-your husband has activated Cusdis (a one-time setup). Visitors don't need
-to sign up; they just type a name and a message and hit submit.
+Each post automatically gets a comments section at the bottom. Visitors
+don't need to sign up; they just type a name and a message and hit Post.
 
-To moderate (delete spam, hide rude messages), log in to your Cusdis
-dashboard at [cusdis.com](https://cusdis.com/). It also emails when a new
-comment lands.
+**A new comment does not go straight onto the site.** It waits for you at
+**[/admin-comments/](https://where-in-the-world-are-mike-and-jen.netlify.app/admin-comments/)**
+— the same login as the editor. Every note waiting has two buttons:
+
+- **Approve** — it appears on the post straight away.
+- **Delete** — it's gone for good.
+
+The same page lists everything already published, so you can take something
+down later if you change your mind.
+
+Nothing emails you when a comment lands, so it's worth a look every week or
+so. A visitor who leaves a note is told it will appear once you've read it,
+so nobody is left wondering whether it went through.
+
+*This used to run on a service called Cusdis, which shut down in September
+2026. It's all on our own site now, which is why the moderation page moved.
+The notes people left on the old system are not recoverable.*
 
 ## Filtering and sorting (for visitors)
 

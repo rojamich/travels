@@ -37,6 +37,17 @@
     X-Frame-Options = "DENY"
     X-Robots-Tag = "noindex, nofollow, noarchive"
 
+# The comment moderation page. Unapproved comments are the first thing on this
+# site that genuinely should not be public, so unlike /admin-stats/ the content
+# is NOT in the HTML — the page fetches it from the comments function, which
+# checks the Identity token itself. This header is still worth having: an
+# indexed empty shell is a signpost to a login nobody needs to find.
+[[headers]]
+  for = "/admin-comments/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
 [[headers]]
   for = "/admin-upkeep.json"
   [headers.values]

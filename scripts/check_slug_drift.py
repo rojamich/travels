@@ -27,11 +27,12 @@ HOW IT JUDGES
 
 FIXING ONE
     Renaming is safe, but it is a URL change, so:
-      1. Check the post has no comments. The Cusdis thread is keyed on the
-         old path and does not follow a rename:
-             curl -sG https://cusdis.com/api/open/comments \\
-               --data-urlencode "appId=<site.cusdis_app_id>" \\
-               --data-urlencode "pageId=/<category>/<old-slug>"
+      1. Check the post has no comments. A comment thread is keyed on the
+         old path and does not follow a rename. The approved ones:
+             curl -s "https://where-in-the-world-are-mike-and-jen.netlify.app/.netlify/functions/comments?slug=<category>/<old-slug>"
+         Anything still awaiting approval is visible at /admin-comments/.
+         If the post has comments, either leave the name alone or copy them
+         across by hand once it is renamed.
       2. git mv the file, keeping its date prefix.
       3. Add a [[redirects]] pair in netlify.toml so the old address keeps
          working. There are worked examples in there already.

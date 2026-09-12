@@ -1,0 +1,237 @@
+---
+title: "Comments"
+permalink: /admin-comments/
+layout: single
+author_profile: false
+classes: wide
+sitemap: false
+---
+
+{%- comment -%}
+  Moderation for the comment box on posts. Nothing a reader writes appears on
+  the site until it is approved here.
+
+  This replaced the Cusdis dashboard, which went away with the rest of Cusdis
+  in September 2026. Comments now live in our own Netlify Blobs store and are
+  read and changed through /.netlify/functions/comments.
+
+  Gated behind the editor login — see _includes/admin-gate.html, which spells
+  out what that does and doesn't do. Unlike /admin-stats/, the content of this
+  page is NOT baked into the HTML: it is fetched afterwards from the function,
+  which checks the Identity token for itself. So the page being served to
+  anyone who knows the URL doesn't hand them the comments — they get an empty
+  shell and a 401. That is the arrangement admin-gate.html describes as the
+  real lock, and unapproved comments are the first thing on this site worth
+  putting behind one.
+{%- endcomment -%}
+
+{% include admin-gate.html %}
+
+<p style="font-size:1.05em;color:#444;">
+  Notes people have left on posts. Nothing appears on the site until you
+  approve it.
+</p>
+
+<section class="mod-section">
+  <h2>📥 Waiting for you <span class="mod-count" data-count="pending"></span></h2>
+  <div class="mod-list" data-list="pending">
+    <p class="mod-loading">Loading…</p>
+  </div>
+</section>
+
+<section class="mod-section">
+  <h2>✅ Published <span class="mod-count" data-count="approved"></span></h2>
+  <div class="mod-list" data-list="approved">
+    <p class="mod-loading">Loading…</p>
+  </div>
+</section>
+
+<script>
+  (function () {
+    var API = "/.netlify/functions/comments";
+
+    // Every call carries a fresh Identity token. jwt() renews it if it is
+    // close to expiring, so a tab left open all afternoon still works.
+    function token() {
+      var user = window.netlifyIdentity && netlifyIdentity.currentUser && netlifyIdentity.currentUser();
+      if (!user) return Promise.reject(new Error("not logged in"));
+      return user.jwt();
+    }
+
+    function call(path, method) {
+      return token().then(function (t) {
+        return fetch(API + path, {
+          method: method || "GET",
+          headers: { authorization: "Bearer " + t }
+        });
+      });
+    }
+
+    function when(iso) {
+      try {
+        return new Date(iso).toLocaleString(undefined,
+          { dateStyle: "medium", timeStyle: "short" });
+      } catch (e) {
+        return String(iso).replace("T", " ").slice(0, 16);
+      }
+    }
+
+    function el(tag, className, text) {
+      var n = document.createElement(tag);
+      if (className) n.className = className;
+      // textContent everywhere: these are strangers' words, and this page is
+      // the one place we read them in full.
+      if (text !== undefined) n.textContent = text;
+      return n;
+    }
+
+    function card(c) {
+      var box = el("article", "mod-comment");
+
+      var head = el("p", "mod-head");
+      head.appendChild(el("span", "mod-name", c.name));
+      head.appendChild(el("span", "mod-when", when(c.at)));
+      box.appendChild(head);
+
+      var link = el("a", "mod-post", "/" + c.slug + "/");
+      link.href = "/" + c.slug + "/";
+      link.target = "_blank";
+      link.rel = "noopener";
+      box.appendChild(link);
+
+      box.appendChild(el("p", "mod-body", c.body));
+
+      var actions = el("div", "mod-actions");
+      var q = "?slug=" + encodeURIComponent(c.slug) + "&id=" + encodeURIComponent(c.id);
+
+      if (!c.approved) {
+        var ok = el("button", "mod-approve", "Approve");
+        ok.addEventListener("click", function () { act(ok, q, "PATCH"); });
+        actions.appendChild(ok);
+      }
+
+      var no = el("button", "mod-delete", "Delete");
+      no.addEventListener("click", function () {
+        if (!window.confirm("Delete this note from " + c.name + "? This can't be undone.")) return;
+        act(no, q, "DELETE");
+      });
+      actions.appendChild(no);
+
+      actions.appendChild(el("span", "mod-msg", ""));
+      box.appendChild(actions);
+      return box;
+    }
+
+    function act(button, q, method) {
+      var msg = button.parentNode.querySelector(".mod-msg");
+      var buttons = button.parentNode.querySelectorAll("button");
+      Array.prototype.forEach.call(buttons, function (b) { b.disabled = true; });
+      msg.textContent = "Saving…";
+
+      call(q, method)
+        .then(function (r) {
+          if (!r.ok) throw new Error(r.status === 401 ? "not logged in" : "failed");
+          load();
+        })
+        .catch(function (e) {
+          Array.prototype.forEach.call(buttons, function (b) { b.disabled = false; });
+          msg.textContent = e.message === "not logged in"
+            ? "Your login expired — reload the page."
+            : "Didn't save — try again.";
+        });
+    }
+
+    function fill(which, comments) {
+      var list = document.querySelector('[data-list="' + which + '"]');
+      var count = document.querySelector('[data-count="' + which + '"]');
+      list.innerHTML = "";
+      count.textContent = comments.length ? "(" + comments.length + ")" : "";
+
+      if (!comments.length) {
+        list.appendChild(el("p", "mod-empty", which === "pending"
+          ? "Nothing waiting. All caught up."
+          : "Nothing published yet."));
+        return;
+      }
+      // Newest first once published — the backlog reads oldest first, but a
+      // list you only scan is more useful with the recent things on top.
+      if (which === "approved") comments = comments.slice().reverse();
+      comments.forEach(function (c) { list.appendChild(card(c)); });
+    }
+
+    function load() {
+      call("?admin=1")
+        .then(function (r) {
+          if (!r.ok) throw new Error(r.status === 401 ? "not logged in" : "failed");
+          return r.json();
+        })
+        .then(function (data) {
+          var all = (data && data.comments) || [];
+          fill("pending", all.filter(function (c) { return !c.approved; }));
+          fill("approved", all.filter(function (c) { return c.approved; }));
+        })
+        .catch(function (e) {
+          ["pending", "approved"].forEach(function (which) {
+            var list = document.querySelector('[data-list="' + which + '"]');
+            list.innerHTML = "";
+            list.appendChild(el("p", "mod-empty", e.message === "not logged in"
+              ? "Your login expired — reload the page."
+              : "Couldn't load the comments. Try reloading."));
+          });
+        });
+    }
+
+    // admin-gate.html is still waiting on Identity when this runs, so wait
+    // for the same signal it does before asking for a token.
+    (function waitForIdentity(tries) {
+      if (window.netlifyIdentity && netlifyIdentity.gotrue) load();
+      else if (tries < 50) setTimeout(function () { waitForIdentity(tries + 1); }, 100);
+    })(0);
+  })();
+</script>
+
+<style>
+  .mod-section { margin: 2em 0; }
+  .mod-section h2 { color: #2a4d69; }
+  .mod-count { color: #888; font-weight: normal; font-size: 0.8em; }
+  .mod-loading, .mod-empty { color: #666; font-style: italic; }
+
+  .mod-comment {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1em 1.2em;
+    margin-bottom: 0.8em;
+    max-width: 48em;
+  }
+  .mod-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.8em;
+    flex-wrap: wrap;
+    margin: 0 0 0.2em 0;
+  }
+  .mod-name { font-weight: bold; color: #2a4d69; }
+  .mod-when { color: #888; font-size: 0.82em; }
+  .mod-post { font-size: 0.82em; color: #888; word-break: break-all; }
+  .mod-body {
+    margin: 0.6em 0 0.9em 0;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    line-height: 1.55;
+  }
+  .mod-actions { display: flex; align-items: center; gap: 0.6em; flex-wrap: wrap; }
+  .mod-actions button {
+    border: none;
+    border-radius: 6px;
+    padding: 0.4em 1.1em;
+    font-size: 0.92em;
+    font-family: inherit;
+    cursor: pointer;
+    color: #fff;
+  }
+  .mod-actions button:disabled { opacity: 0.55; cursor: default; }
+  .mod-approve { background: #2e7d52; }
+  .mod-delete  { background: #b03052; }
+  .mod-msg { font-size: 0.85em; color: #666; }
+</style>
