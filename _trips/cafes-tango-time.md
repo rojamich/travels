@@ -11,6 +11,10 @@ end_date: 2026-11-03
 location: Buenos Aires, Argentina
 lat: -34.6037
 lng: -58.3816
+countries:
+  - name: Canada
+    lat: 43.65
+    lng: -79.35
 collection_trip: false
 states: []
 tags:
