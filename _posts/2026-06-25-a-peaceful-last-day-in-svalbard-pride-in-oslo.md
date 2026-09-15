@@ -23,6 +23,7 @@ tags:
   - Food
   - Flights
   - Parks
+  - Birds
 location:
   lat: 59.913868
   lng: 10.752245
