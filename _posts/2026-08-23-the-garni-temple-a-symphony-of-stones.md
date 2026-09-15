@@ -16,13 +16,14 @@ tags:
   - Architecture
   - Views
   - History
+  - Birds
+toc: false
+transit: false
 new_tags: []
 location:
   name: Garni, Yerevan
   lat: 40.1194444
   lng: 44.7230556
-transit: false
-toc: false
 ---
 The night before our daytrip up to Garni, we got a message from Hertz rental reminding us of our reservation. Once we confirmed he said... one question... we waited anxiously. He said, are you already in the city (Yerevan)? We said yes and he offered for us to pick up our rental in downtown Yerevan! What a fantastic surprise! Otherwise, we would have to get a GG (uber) to the airport and drive all the way back and *then* to Garni! Its about 45 minutes to the airport alone!
 
