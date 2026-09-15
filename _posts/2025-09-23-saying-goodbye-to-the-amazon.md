@@ -14,6 +14,11 @@ header:
   overlay_focal_y: 50
 tags:
   - Peru
+  - Birds
+  - Nature
+  - Wildlife
+  - Adventure
+  - Sunrise
 location:
   name: Amazon Rainforest, Peru
   lat: -3.7437
