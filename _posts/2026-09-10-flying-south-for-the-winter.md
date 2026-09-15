@@ -25,7 +25,7 @@ location:
 stay: night
 toc: false
 ---
-Whew! There were multiple connections to get to Buenos Aires from Istanbul, (ps so glad we had global entry)! You've already seen the flight from Istanbul to Toronto — we slept great in our highly air-conditioned hotel room which had a great view of the sunrise and city!
+Whew! There were multiple connections to get to Buenos Aires from Istanbul, (PS so glad we had global entry. It makes re-entering the country so easy. There are usually long lines to get through passport control and the agents can take a long time to evaluate someone's entry. [Global entry](https://www.cbp.gov/travel/trusted-traveler-programs/global-entry) lets us do a face scan and come right in because we have been pre-evaluated)! You've already seen the flight from Istanbul to Toronto — we slept great in our highly air-conditioned hotel room which had a great view of the sunrise and city!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1789416355/jfi1xxelsxopchf0nnzu.jpg)
 
@@ -41,7 +41,7 @@ We were cracking up at check in though! The gentleman who checked us in was care
 >
 > ...
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1789421337/ho6pvjaatiqhr6k6dxy8.jpg)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1789485277/opgduxlvmjio2nvefhoi.png)
 
 We headed out to the train to head to the airport early so we could eat at the lounge and get some work in ahead of our flight! Fun fact, the lounge had a printer where I could print my fantasy football information! PLUS their Starbucks had Pumpkin Spice Lattes! SO HAPPY!! Our flight was delayed an hour so we had more time to enjoy the lounge before flying. We had an easy 2.5 hour flight where I got to work on my latest read: Th[e Love Haters](https://www.goodreads.com/book/show/217387810-the-love-haters) by Katherine Center — a super cute and fun love story!
 
@@ -53,7 +53,7 @@ Before we knew it, it was time to head back to the airport — not before I test
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1789419583/gkzfwmj8eyky9dqlvmdb.jpg "Top is the new camera lens and bottom is my phone, both are zoomed in!")
 
-Having clear was great here, it's been fun to try a new airport fastpass (pre-check lines are even getting long!)
+Having [clear ](https://www.clearme.com/)was great here, it's been fun to try a new airport fastpass (pre-check lines are even getting long!)
 
 We had a 1.5 hour flight to Miami which went entirely too fast, we were in the final boarding group which meant we had to check our bags 🙄 Probably one of my least favorite things to do. It's seriously up there with going to the dentist. I'm always so worried our bags won't make it. We condensed the most important stuff into our carry-ons and I was happy to have my camera and lens with me. 
 
