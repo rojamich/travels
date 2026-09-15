@@ -16,6 +16,7 @@ tags:
   - River
   - Nature
   - Wildlife
+  - Birds
 location:
   name: Milford Sound, NZ
   lat: -44.6712
