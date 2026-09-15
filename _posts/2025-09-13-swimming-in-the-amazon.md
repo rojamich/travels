@@ -17,6 +17,7 @@ tags:
   - Nature
   - Wildlife
   - Adventure
+  - Birds
 location:
   name: Amazon Rainforest, Peru
   lat: -3.7437
