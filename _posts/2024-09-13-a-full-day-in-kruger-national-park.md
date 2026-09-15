@@ -14,6 +14,12 @@ header:
   overlay_filter: 0
 tags:
   - South Africa
+  - Birds
+  - Wildlife
+  - Nature
+  - Adventure
+  - Safari
+  - Sunrise
 location:
   name: Kruger National Park, South Africa
   lat: -23.9884
