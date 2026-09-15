@@ -15,6 +15,11 @@ header:
 tags:
   - Peru
   - Birds
+  - Adventure
+  - Wildlife
+  - Nature
+  - Hiking
+  - PaddleBoarding
 location:
   name: Amazon Rainforest, Peru
   lat: -3.7437
