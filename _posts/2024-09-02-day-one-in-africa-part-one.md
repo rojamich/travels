@@ -16,6 +16,10 @@ tags:
   - South Africa
   - Tours
   - Nature
+  - Birds
+  - Wildlife
+  - Food
+  - Ocean
 location:
   name: Cape Town, South Africa
   lat: -33.9188
