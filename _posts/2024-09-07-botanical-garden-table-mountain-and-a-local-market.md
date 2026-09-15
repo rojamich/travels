@@ -14,6 +14,15 @@ header:
   overlay_focal_y: 19
 tags:
   - South Africa
+  - Birds
+  - Garden
+  - Hiking
+  - Adventure
+  - Nature
+  - Wildlife
+  - Coffee
+  - Food
+  - Sunset
 location:
   name: Cape Town, South Africa
   lat: -33.9249
