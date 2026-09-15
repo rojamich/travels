@@ -21,6 +21,7 @@ tags:
   - Cityscapes
   - Sunrise
   - Architecture
+  - Birds
 new_tags: []
 location:
   name: Istanbul, Turkey
