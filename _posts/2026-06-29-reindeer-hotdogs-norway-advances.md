@@ -14,11 +14,16 @@ header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782924554/20260630_210706_a9e4l4.jpg
 tags:
   - Cityscapes
-toc: false
+  - Birds
+  - Food
+  - Architecture
+  - Friends
+  - Coffee
 location:
   name: Bergen, Norway
   lat: 60.3913
   lng: 5.3221
+toc: false
 ---
 A brisk and beautiful morning greeted us in Bergen! We woke up and promptly fell back to sleep, giving us 9 hours of sleep, yay!
 
@@ -52,7 +57,7 @@ Right on the waterline, you can see the Rosenkrantz tower.
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782922623%2F20260630_142926_ggjbei.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782922624%2F20260630_142911_loge8y.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-Across the wharf, you can see this cool zigzag road! Reminds me of San Fransisco!
+Across the wharf, you can see this cool zigzag road! Reminds me of San Francisco!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782925788%2F20260630_142243_lmcf16.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782925784%2F20260630_142252_y0n7rr.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -116,7 +121,7 @@ The weather was awfully threatening too!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782923896%2F20260630_165054_ght6es.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1782923899%2F20260630_162930_maltxn.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-Around 6pm we started getting hungry so we decided to try some nachos, Norway style. They are made with doritos?? It was actually really good and was filled with chili at the bottom!
+Around 6pm we started getting hungry so we decided to try some nachos, Norway style. They are made with Doritos?? It was actually really good and was filled with chili at the bottom!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1782923983/20260630_174134_kq6dqp.jpg)
 
@@ -128,7 +133,7 @@ Can you feel the energy??
 
 {% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FSlAswUrtV54%22%7D %}
 
-The sun started coming out and our Norwegian friends became concerned, offering  us sunscreen. Norway has the fourth-highest rate of skin cancer in the world!
+The sun started coming out and our Norwegian friends became concerned, offering us sunscreen. Norway has the fourth-highest rate of skin cancer in the world!
 
 We applied sunscreen and then they re-applied my flag! They insisted the other groups was wrong, of course, it was Thailand, but the brush used only has a horizontal feature, so she finagled it to actually reflect the Norway Flag!
 
