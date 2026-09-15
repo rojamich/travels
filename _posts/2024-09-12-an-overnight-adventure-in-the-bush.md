@@ -20,6 +20,9 @@ tags:
   - Africa
   - Food
   - Sunset
+  - Safari
+  - Birds
+  - Waterfalls
 location:
   name: Kruger National Park, South Africa
   lat: -23.9884
