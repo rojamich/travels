@@ -19,11 +19,12 @@ tags:
   - Safari
   - Wildlife
   - Africa
-stay: day_trip
+  - Birds
 location:
   name: Chobe National Park, Botswana
   lat: -17.8167
   lng: 25.0917
+stay: day_trip
 ---
 Still not feeling super we didn't want to miss our last safari so we climbed aboard the transport van at 7am to Botswana! We were heading to Choebe National Park and some parts of the drive look like this:
 
@@ -91,7 +92,7 @@ Something fascinating is that this river separated Namibia and Botswana! The res
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%221%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785696019%2Fblogger-import%2F6ef7a3ebab9a897b9f75.jpg%22%7D%2C%7B%22x%22%3A%2280%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785696038%2Fblogger-import%2F31036f83fef87709daf7.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785696057%2Fblogger-import%2Fd3b5fb1857645a7a9407.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-Our first stop brought us to many bird specifies and the close up Cape Buffalo! I liked how brave this bird is just sitting on this massive animal. 
+Our first stop brought us to many bird species and the close up Cape Buffalo! I liked how brave this bird is just sitting on this massive animal. 
 
 [![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696075/blogger-import/bf4ac47f1698426f7e73.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785696083/blogger-import/a6679323b8c57252e397.jpg)
 
