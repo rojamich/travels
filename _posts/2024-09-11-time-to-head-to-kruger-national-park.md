@@ -18,6 +18,7 @@ tags:
   - Flights
   - Food
   - Wildlife
+  - Dessert
 location:
   name: Kruger National Park, South Africa
   lat: -23.9884
