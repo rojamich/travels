@@ -16,11 +16,13 @@ tags:
   - Nature
   - Hiking
   - Food
-toc: false
+  - Birds
+  - Waterfalls
 location:
   name: Svalbard, Norway
   lat: 78.2232
   lng: 15.6267
+toc: false
 ---
 Today was a relatively early wake-up for the Rojas family to prepare for our hike! So stoked to explore more of Svalbard. If you've read [The Midnight Library](https://www.goodreads.com/book/show/52578297-the-midnight-library) by Matt Haig, you will understand some of my excitement!
 
