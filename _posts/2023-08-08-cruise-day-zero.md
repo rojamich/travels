@@ -20,6 +20,10 @@ tags:
   - Gym
   - Workout
   - Dessert
+location:
+  name: Athens, Greece
+  lat: 37.9838
+  lng: 23.7275
 ---
 Arriving at the port with time to spare was very unexpected! We were prepared for flight delays, train delays, trouble returning the rental car, bus delays, etc but everything shockingly went smoothly!
 
