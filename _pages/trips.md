@@ -27,7 +27,7 @@ classes: wide
              data-name="{{ trip.title }}"
              data-location="{{ trip.location }}"
              data-start-date="{{ trip.start_date | date: '%Y-%m-%d' }}"
-             data-tags="{% if trip.tags %}{{ trip.tags | join: ' ' }}{% endif %}">
+             data-tags="{{ trip.filter_tags | join: '|' | escape }}">
       <h2 style="margin-bottom:0.2em;">
         <a href="{{ trip.url | relative_url }}">{{ trip.title }}</a>
       </h2>

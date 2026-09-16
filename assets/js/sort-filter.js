@@ -11,7 +11,7 @@
           data-name="Iceland 2024"           (string, for alphabetical sort)
           data-location="Iceland"            (string, for location sort)
           data-start-date="2024-06-01"       (ISO date, for date sort)
-          data-tags="europe road-trip nature" (space-separated, for filter)
+          data-tags="Europe|Road Trip|South Africa" (pipe-separated, for filter)
      3. A controls container with class `js-controls` where the script will
         inject the sort dropdown and tag chips.
 
@@ -72,10 +72,10 @@
     controls.appendChild(sortWrap);
 
     // ----- TAG FILTER -----
-    // A dropdown rather than a row of chips. There are 54 distinct tags across
-    // the trips and 100 across the posts, so one chip each filled the whole
-    // control bar and buried the sort dropdown. A dropdown keeps the bar one
-    // line high however many tags exist.
+    // A dropdown rather than a row of chips. There are around 140 distinct
+    // tags, so one chip each filled the whole control bar and buried the sort
+    // dropdown. A dropdown keeps the bar one line high however many tags
+    // exist.
     //
     //   [ Tags v ]  <- opens a scrolling checkbox list with a search box
     //   selections appear beside it as chips, each with its own x
@@ -84,18 +84,31 @@
     // Choosing four tags one at a time would otherwise re-filter four times
     // and make the list jump under the cursor. Removing a chip DOES apply
     // immediately, because that is one deliberate action with an obvious result.
+    //
+    // data-tags is PIPE-separated, not space-separated. Plenty of tags are two
+    // words — South Africa, North Island, New York — and so are the city names
+    // the day lists filter by. Splitting on whitespace tore each of those into
+    // halves that matched no card, and any half that happened to spell a real
+    // tag ("Africa" out of "South Africa") had its count inflated by cards
+    // that were never tagged with it.
+    function tagsOf(card) {
+      return (card.dataset.tags || "").split("|")
+        .map(function (t) { return t.trim(); })
+        .filter(function (t) { return t.length > 0; });
+    }
+
     var allTags = new Set();
     var tagCounts = {};
     cards.forEach(function (card) {
-      (card.dataset.tags || "").split(/\s+/).forEach(function (t) {
-        if (!t) return;
+      // Within one card a tag counts once, however many of its posts carry it.
+      new Set(tagsOf(card)).forEach(function (t) {
         allTags.add(t);
         tagCounts[t] = (tagCounts[t] || 0) + 1;
       });
     });
 
     // Most-used first, alphabetical within a count. The tags worth filtering
-    // by are the ones on many cards; 58 of the post tags are on exactly one.
+    // by are the ones on many cards; most of the long tail is on exactly one.
     var sortedTags = Array.from(allTags).sort(function (a, b) {
       var d = tagCounts[b] - tagCounts[a];
       return d !== 0 ? d : a.localeCompare(b);
@@ -325,7 +338,7 @@
     function applyFilter() {
       var visibleCount = 0;
       cards.forEach(function (card) {
-        var cardTags = (card.dataset.tags || "").split(/\s+/);
+        var cardTags = tagsOf(card);
         var match = activeTags.size === 0 ||
           Array.from(activeTags).every(function (t) {
             return cardTags.indexOf(t) !== -1;

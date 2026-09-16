@@ -388,6 +388,12 @@ classes: wide
   The trip grid. Each card carries data-* attributes used for sorting and
   filtering. Server-rendered order is "most recent first" but JS re-sorts
   on load so the result is deterministic either way.
+
+  data-tags is `filter_tags` — the trip's own tags PLUS every tag on its day
+  posts, built by _plugins/trip_filter_tags.rb. The chips printed on the card
+  stay the trip's own handful; the filter searches the whole set, so a tag that
+  only ever gets written on a day post (Birds, PaddleBoarding) still finds the
+  trip. Pipe-separated, because plenty of tags are two words.
 -->
 {% if site.trips and site.trips.size > 0 %}
   {% assign sorted_trips = site.trips | sort: "start_date" | reverse %}
@@ -402,7 +408,7 @@ classes: wide
        data-name="{{ trip.title }}"
        data-location="{{ trip.location }}"
        data-start-date="{{ trip.start_date | date: '%Y-%m-%d' }}"
-       data-tags="{% if trip.tags %}{{ trip.tags | join: ' ' }}{% endif %}">
+       data-tags="{{ trip.filter_tags | join: '|' | escape }}">
       <div class="trip-card-image">
         <img src="{{ trip.cover | relative_url }}"
              alt="{{ trip.title }}"
