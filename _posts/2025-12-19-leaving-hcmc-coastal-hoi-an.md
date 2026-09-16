@@ -14,6 +14,10 @@ header:
   overlay_focal_y: 82
 tags:
   - Vietnam
+location:
+  name: Hoi An, Vietnam
+  lat: 15.8794
+  lng: 108.335
 ---
 
 We were all packed up and ready for our journey over to Hoi An! Though emotionally, I didn't want to leave this city. It felt like the NYC of Vietnam to us - we love NYC! Today, I finally broke down and agreed to go to the pharmacy to deal with a cough that was annoying the life out of me. Going from 40-degree temps to 85-degree temps will do that to you. We also walked about 40 miles in 5 days here in Saigon!
