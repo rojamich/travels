@@ -1,13 +1,22 @@
 ---
-title: "A Final Note on Amsterdam"
+title: A Final Note on Amsterdam
 date: 2022-03-18
 categories:
   - european-excursion
 order: 41
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787502204/blogger-import/6ee18ef69a006a3e90e0.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787509821/blogger-import/37ad532bb93354a7b87a.jpg
+  overlay_filter: 0
+  teaser_focal_x: 50
+  teaser_focal_y: 36
+  overlay_focal_x: 50
+  overlay_focal_y: 54
 tags:
   - The Netherlands
+  - TripSummary
 location:
-  name: "Amsterdam, Netherlands"
+  name: Amsterdam, Netherlands
   lat: 52.3676
   lng: 4.9041
 ---
