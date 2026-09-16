@@ -1,13 +1,18 @@
 ---
-title: "A Final Note on Munich"
+title: A Final Note on Munich
 date: 2022-03-06
 categories:
   - european-excursion
 order: 29.1
+header:
+  overlay_filter: 0
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787858814/blogger-import/d709531ccbc710843917.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787930836/blogger-import/cce08ef304b9ed5ad1e3.jpg
 tags:
   - Germany
+  - TripSummary
 location:
-  name: "Munich, Germany"
+  name: Munich, Germany
   lat: 48.1351
   lng: 11.582
 ---
