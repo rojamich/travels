@@ -1,13 +1,18 @@
 ---
-title: "A Final Note on France"
+title: A Final Note on France
 date: 2022-02-19
 categories:
   - european-excursion
 order: 14.2
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787502980/blogger-import/fd110fcb74b5763d3af0.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787858185/blogger-import/7136d1d851faaaa74f13.jpg
+  overlay_filter: 0
 tags:
   - France
+  - TripSummary
 location:
-  name: "Paris, France"
+  name: Paris, France
   lat: 48.8566
   lng: 2.3522
 ---
