@@ -1,13 +1,22 @@
 ---
-title: "A Final Note on Berlin"
+title: A Final Note on Berlin
 date: 2022-03-13
 categories:
   - european-excursion
 order: 36.2
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787498443/blogger-import/479932afa6d9c748f4dc.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787503096/blogger-import/a3bb2f91b5d52afe67be.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 34
+  overlay_focal_x: 50
+  overlay_focal_y: 4
+  overlay_filter: 0
 tags:
   - Germany
+  - TripSummary
 location:
-  name: "Berlin, Germany"
+  name: Berlin, Germany
   lat: 52.52
   lng: 13.405
 ---
