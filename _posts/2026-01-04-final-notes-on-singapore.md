@@ -12,10 +12,11 @@ header:
   overlay_filter: 0.4
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787055447/20260103_200453_thfurw.jpg
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787044345/20260103_120523_dqu3ry.jpg
-tags: []
-new_tags: []
-transit: false
 toc: false
+transit: false
+tags:
+  - TripSummary
+new_tags: []
 ---
 This was a very short exploration of a country that's the same size as New York City! We fully expect to revisit it multiple times as it is a common layover stop across the world! We actually chose to visit Singapore because it was a free stopover from Vietnam to LAX - this means it wouldn't cost us an extra flight if we sandwiched a few days here between Vietnam and home 🤯 Who could pass up that deal??
 
