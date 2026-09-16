@@ -12,9 +12,10 @@ header:
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786440547/IMG_0029_nbldox.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1786522386/20260812_092849_gk0glr.jpg
-tags: []
-transit: false
 toc: false
+transit: false
+tags:
+  - TripSummary
 ---
 Georgia has held such a special place in my heart for many years now and I am ever-so-grateful that I finally got to share this awesome country with Michael! We climbed to the top of the mountain that the Gergeti Trinity Church sits upon 🏰, gazed at the Friendship Monument, crossed the Bridge of Peace🌉, and hiked to Mother Georgia. All things I fantasized of showing him one day 😍
 
