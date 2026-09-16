@@ -12,7 +12,8 @@ header:
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787830066/20260826_103634_y9moxy.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787991640/20260828_081052_oifb77.jpg
-tags: []
+tags:
+  - TripSummary
 new_tags: []
 stay: night
 toc: false
