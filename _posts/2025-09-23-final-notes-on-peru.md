@@ -14,6 +14,7 @@ header:
   overlay_filter: 0
 tags:
   - Peru
+  - TripSummary
 location:
   name: Peru
   lat: -12.0464
