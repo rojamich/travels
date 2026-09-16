@@ -1,13 +1,18 @@
 ---
-title: "A Final Note on Florence."
+title: A Final Note on Florence.
 date: 2022-02-23
 categories:
   - european-excursion
 order: 18
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787857882/blogger-import/378ea9a3a0487430ffc9.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787511321/blogger-import/41cb979c13a0cea4741a.jpg
+  overlay_filter: 0
 tags:
   - Italy
+  - TripSummary
 location:
-  name: "Florence, Italy"
+  name: Florence, Italy
   lat: 43.7696
   lng: 11.2558
 ---
