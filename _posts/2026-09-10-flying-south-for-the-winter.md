@@ -51,7 +51,7 @@ In ATL we were able to pick up my new camera lens, have a delicious meal, and ha
 
 Before we knew it, it was time to head back to the airport — not before I tested my camera lens against my phone's abilities! What do you think??
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1789419583/gkzfwmj8eyky9dqlvmdb.jpg "Top is the new camera lens and bottom is my phone, both are zoomed in!")
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1789419583/gkzfwmj8eyky9dqlvmdb.jpg "Top is the new camera lens and bottom is my phone, both are zoomed in and neither are edited!")
 
 Having [clear ](https://www.clearme.com/)was great here, it's been fun to try a new airport fastpass (pre-check lines are even getting long!)
 
