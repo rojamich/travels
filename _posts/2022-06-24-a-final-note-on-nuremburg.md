@@ -1,13 +1,18 @@
 ---
-title: "A Final Note on Nuremburg"
+title: A Final Note on Nuremburg
 date: 2022-03-10
 categories:
   - european-excursion
 order: 33.1
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787495290/blogger-import/e2cdf9822bb3a7d5cca0.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787505947/blogger-import/7d8a748381d12a6ef591.jpg
+  overlay_filter: 0
 tags:
   - Germany
+  - TripSummary
 location:
-  name: "Nuremberg, Germany"
+  name: Nuremberg, Germany
   lat: 49.4521
   lng: 11.0767
 ---
