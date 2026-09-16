@@ -1,13 +1,22 @@
 ---
-title: "A Final Note on Rome"
+title: A Final Note on Rome
 date: 2022-03-01
 categories:
   - european-excursion
 order: 24
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787500281/blogger-import/bd0cf88b2b5b8dd7c7c6.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787500736/blogger-import/11af3c7f21dac9ef336e.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 59
+  overlay_focal_x: 50
+  overlay_focal_y: 10
+  overlay_filter: 0
 tags:
   - Italy
+  - TripSummary
 location:
-  name: "Rome, Italy"
+  name: Rome, Italy
   lat: 41.9028
   lng: 12.4964
 ---
