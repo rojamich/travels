@@ -132,6 +132,89 @@ a {
 }
 
 // -----------------------------------------------------------------------------
+// MATCHED DAYS (under a trip card, while a tag filter is on)
+// -----------------------------------------------------------------------------
+// Filtering by Birds narrows the grid to six trips, but the tag itself may be
+// on one day post out of ninety-five, so the card alone still leaves her
+// hunting. sort-filter.js lists the days that matched here and links to them.
+//
+// These are siblings of the card's own link, not children of it: on the
+// homepage the card is a wrapper div with the photo-and-text anchor inside,
+// because an <a> cannot legally contain an <a> and the browser would close the
+// card link early and spill the list out of the card.
+.trip-card-matches {
+  border-top: 1px solid $border-color;
+  background: $sand-light;
+  padding: 0.7em 1em 0.8em;
+  font-size: 0.85em;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin: 0;
+    padding: 0.18em 0;
+    line-height: 1.35;
+
+    &[hidden] { display: none; }
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.trip-card-matches-head {
+  margin: 0 0 0.35em 0;
+  color: $muted;
+  text-transform: uppercase;
+  font-size: 0.82em;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+// Shown when the card matched on its own front-matter tags, or on a
+// combination no single day carries. Without it the panel is just empty.
+.trip-card-matches-note {
+  margin: 0;
+  color: $muted;
+  font-style: italic;
+}
+
+.trip-card-matches-date {
+  margin-left: 0.5em;
+  color: $muted;
+  font-size: 0.85em;
+  white-space: nowrap;
+}
+
+.trip-card-matches-more {
+  margin-top: 0.45em;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-weight: 600;
+  color: $navy-mid;
+  cursor: pointer;
+
+  &:hover { text-decoration: underline; }
+}
+
+// On /trips/ a card is one padded block rather than a wrapper around a photo,
+// so the strip reads better as an inset panel than as a card footer.
+.trip-list-row .trip-card-matches {
+  margin-top: 0.9em;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+}
+
+// -----------------------------------------------------------------------------
 // DAY CARDS (trip page)
 // -----------------------------------------------------------------------------
 .day-card {

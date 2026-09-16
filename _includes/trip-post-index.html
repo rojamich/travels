@@ -1,0 +1,23 @@
+{%- comment -%}
+  ── trip-post-index.html ────────────────────────────────────────────────
+  The day index the tag filter drills into. Once a filter narrows the trip
+  grid, sort-filter.js uses this to name the exact posts that carried the
+  tag and link straight to them.
+
+  One JSON block for the page rather than a data-posts attribute on each
+  card: the payload is ~45KB across 286 tagged posts, and one trip alone
+  has 95 of them, which would be an unreadable wall of escaped JSON inside
+  a single HTML attribute. Cards carry `data-slug` and look themselves up
+  here — the same shape as the "On this day" payload on the homepage.
+
+  Keyed and built by _plugins/trip_filter_tags.rb, so the slug a card is
+  stamped with and the slug it is filed under are the same string by
+  construction and cannot drift. Short keys (t/u/d/g) because this ships
+  to every reader; they are documented in that plugin.
+{%- endcomment -%}
+<script type="application/json" id="trip-posts">{
+{%- for trip in site.trips -%}
+{%- unless forloop.first %},{% endunless -%}
+{{ trip.trip_slug | jsonify }}:{{ trip.filter_posts | jsonify }}
+{%- endfor -%}
+}</script>

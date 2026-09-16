@@ -24,8 +24,9 @@ classes: wide
 <div class="js-trip-list">
   {% for trip in sorted_trips %}
     <article class="trip-card trip-list-row"
-             data-name="{{ trip.title }}"
-             data-location="{{ trip.location }}"
+             data-slug="{{ trip.trip_slug }}"
+             data-name="{{ trip.title | escape }}"
+             data-location="{{ trip.location | escape }}"
              data-start-date="{{ trip.start_date | date: '%Y-%m-%d' }}"
              data-tags="{{ trip.filter_tags | join: '|' | escape }}">
       <h2 style="margin-bottom:0.2em;">
@@ -47,6 +48,8 @@ classes: wide
     </article>
   {% endfor %}
 </div>
+
+{% include trip-post-index.html %}
 
 <style>
   .trip-list-row {

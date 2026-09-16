@@ -35,6 +35,36 @@
   });
 
   // ---------------------------------------------------------------------------
+  // THE DAY INDEX — which post inside each trip carries which tags.
+  //
+  // Rendered by _includes/trip-post-index.html and keyed by the same trip slug
+  // the cards are stamped with. Read once and kept: both lists on a page share
+  // the parse. Absent on pages that don't include it (the day list inside a
+  // trip), where the drill-down simply doesn't appear.
+  // ---------------------------------------------------------------------------
+  var dayIndexCache = null;
+  function dayIndex() {
+    if (dayIndexCache) { return dayIndexCache; }
+    dayIndexCache = {};
+    var el = document.getElementById("trip-posts");
+    if (el) {
+      try { dayIndexCache = JSON.parse(el.textContent) || {}; } catch (e) { /* leave empty */ }
+    }
+    return dayIndexCache;
+  }
+
+  // "2024-09-12" -> "12 Sep 2024". Split by hand rather than `new Date(iso)`:
+  // a bare ISO date parses as UTC, which renders the day before anywhere west
+  // of Greenwich — including every timezone this blog is read from.
+  var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function formatDay(iso) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || "");
+    if (!m) { return ""; }
+    return parseInt(m[3], 10) + " " + MONTHS[parseInt(m[2], 10) - 1] + " " + m[1];
+  }
+
+  // ---------------------------------------------------------------------------
   // Build the sort dropdown + tag chips inside `controls`, and wire them up
   // to filter/sort children of `list`.
   // ---------------------------------------------------------------------------
@@ -335,16 +365,113 @@
     emptyMsg.style.display = "none";
     list.parentNode.insertBefore(emptyMsg, list.nextSibling);
 
+    // ----- WHICH DAYS MATCHED -----
+    // A trip card can match on a tag that appears nowhere on the card, because
+    // the tag was written on one day post out of ninety-five. Saying "this trip
+    // has a bird post in it somewhere" and stopping there just moves the search
+    // rather than ending it, so each matching card names the days and links
+    // straight to them.
+    //
+    // Only while a filter is on: with nothing ticked there is no question to
+    // answer, and every card would carry a list of its entire contents.
+    //
+    // A card stops after this many days and offers the rest behind a click.
+    // Filtering by Food matches fifteen days of the European Exploration, and
+    // a card taller than the screen is worse than no list at all.
+    var MATCH_CAP = 6;
+
+    function renderMatches(card, active) {
+      var existing = card.querySelector(".trip-card-matches");
+      if (existing) { existing.parentNode.removeChild(existing); }
+      if (active.length === 0) { return; }
+
+      // A trip with no posts written yet has no days to point at and nothing
+      // to explain — the card is the whole answer, so leave it alone.
+      var posts = dayIndex()[card.dataset.slug] || [];
+      if (posts.length === 0) { return; }
+
+      // Same AND rule the cards themselves are filtered by, so the list can
+      // never claim a day that would not have matched on its own.
+      var hits = posts.filter(function (p) {
+        return active.every(function (t) { return p.g.indexOf(t) !== -1; });
+      });
+
+      var box = document.createElement("div");
+      box.className = "trip-card-matches";
+
+      // The card is here on the strength of its own front-matter tags, or on
+      // two tags that no single day carries between them. Say which, rather
+      // than leave an empty panel that reads like a bug.
+      if (hits.length === 0) {
+        var note = document.createElement("p");
+        note.className = "trip-card-matches-note";
+        note.textContent = active.length === 1
+          ? "Tagged on the trip itself, not on any one day."
+          : "No single day has all of these — the trip does.";
+        box.appendChild(note);
+        card.appendChild(box);
+        return;
+      }
+
+      var head = document.createElement("p");
+      head.className = "trip-card-matches-head";
+      head.textContent = hits.length + (hits.length === 1 ? " day" : " days") +
+        " tagged " + active.join(" + ");
+      box.appendChild(head);
+
+      var ul = document.createElement("ul");
+      hits.forEach(function (p, i) {
+        var li = document.createElement("li");
+        if (i >= MATCH_CAP) {
+          li.className = "is-overflow";
+          li.hidden = true;
+        }
+
+        var link = document.createElement("a");
+        link.href = p.u;
+        link.textContent = p.t;
+        li.appendChild(link);
+
+        var when = document.createElement("span");
+        when.className = "trip-card-matches-date";
+        when.textContent = formatDay(p.d);
+        li.appendChild(when);
+
+        ul.appendChild(li);
+      });
+      box.appendChild(ul);
+
+      if (hits.length > MATCH_CAP) {
+        var more = document.createElement("button");
+        more.type = "button";
+        more.className = "trip-card-matches-more";
+        more.textContent = "Show " + (hits.length - MATCH_CAP) + " more";
+        more.addEventListener("click", function () {
+          ul.querySelectorAll("li.is-overflow").forEach(function (li) {
+            li.hidden = false;
+          });
+          more.parentNode.removeChild(more);
+        });
+        box.appendChild(more);
+      }
+
+      card.appendChild(box);
+    }
+
     function applyFilter() {
+      var active = Array.from(activeTags);
       var visibleCount = 0;
       cards.forEach(function (card) {
         var cardTags = tagsOf(card);
-        var match = activeTags.size === 0 ||
-          Array.from(activeTags).every(function (t) {
+        var match = active.length === 0 ||
+          active.every(function (t) {
             return cardTags.indexOf(t) !== -1;
           });
         card.style.display = match ? "" : "none";
-        if (match) visibleCount++;
+        if (match) { visibleCount++; }
+        // Hidden cards get their list cleared, so a card coming back under a
+        // different filter never shows the previous filter's days.
+        renderMatches(card, match ? active : []);
       });
       emptyMsg.style.display = visibleCount === 0 ? "" : "none";
     }
