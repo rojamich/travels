@@ -32,6 +32,13 @@
 # it is how many cards you will be left with, which is the only number that
 # means anything next to a checkbox in that list.
 #
+# Every POST gets a `filter_tags` of its own, for the day list inside a trip
+# page. That control used to offer nothing but the city each day was in, which
+# on the New Zealand trip meant 22 cities and not one of the 40 tags actually
+# written across its posts — so you could ask "which day were we in Wanaka"
+# but not "which days did we hike". The city stays in the list, because asking
+# where is still worth doing; it is just no longer the only question allowed.
+#
 # A trip's identity is its `slug:` if it has one, else its filename — the same
 # rule content_audit.rb uses, and the thing a post's `categories:` entry has to
 # match. It is published as `trip_slug` so the templates key the day index by
@@ -50,7 +57,17 @@ module TravelBlog
       by_trip = Hash.new { |h, k| h[k] = [] }
 
       site.posts.docs.each do |post|
-        next if clean(post.data["tags"]).empty?
+        tags = clean(post.data["tags"])
+
+        # Set on every post, including untagged ones: those still have a city,
+        # and dropping them here would take away filtering the day list by
+        # where you were, which is what it could already do.
+        post.data["filter_tags"] =
+          (tags + [city_of(post)]).reject(&:empty?).uniq { |t| t.downcase }
+
+        # A post with no tags can never match a tag filter, so it is not worth
+        # shipping in the trip grid's day index.
+        next if tags.empty?
         Array(post.data["categories"]).each do |slug|
           by_trip[slug.to_s] << post
         end
@@ -85,6 +102,15 @@ module TravelBlog
     end
 
     private
+
+    # The city, not the whole "Queenstown, New Zealand". Every day of a trip
+    # tends to share a country, and a filter entry that matches every card
+    # filters nothing.
+    def city_of(post)
+      loc = post.data["location"]
+      return "" unless loc.is_a?(Hash)
+      loc["name"].to_s.split(",").first.to_s.strip
+    end
 
     # Same rule as the day list's sort: parseFloat, not integer — posts written
     # on the same day are numbered 15.1 / 15.2 and must not collapse together.

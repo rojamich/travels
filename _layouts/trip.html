@@ -56,17 +56,19 @@ layout: single
 
   <div class="day-list js-day-list">
     {% for post in trip_posts %}
-      {%- assign location_city = "" -%}
-      {%- if post.location.name -%}
-        {%- assign location_city = post.location.name | split: "," | first | strip -%}
-      {%- endif -%}
+      {%- comment -%}
+        data-tags is `filter_tags` from _plugins/trip_filter_tags.rb: the post's
+        own tags plus the city it was written in, pipe-separated so two-word
+        entries (North Island, Buenos Aires) survive as one tag each. The city
+        alone used to be the whole list, which let you ask where but never what.
+      {%- endcomment -%}
       <a href="{{ post.url | relative_url }}"
          class="day-card"
          data-order="{{ post.order | default: 999 }}"
          data-name="{{ post.title | escape }}"
          data-location="{{ post.location.name | default: '' | escape }}"
          data-start-date="{{ post.date | date: '%Y-%m-%d' }}"
-         data-tags="{{ location_city | escape }}">
+         data-tags="{{ post.filter_tags | join: '|' | escape }}">
         <div class="day-card-image">
           {% if post.header.teaser %}
             <img src="{{ post.header.teaser | relative_url }}"
