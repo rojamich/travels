@@ -51,6 +51,8 @@ neighborhood artwork
 
 Love how different each house is from the next, dancing in park, art, and a Vietnamese place??
 
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789592921%2Fi1mowyikqmdgxkuoz1fc.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789592920%2Fgzuqws9bxvdvb55pwxt3.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
 I get sick, Mike stuck in elevator. Pizza for dinner. 
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789592836%2Flqsennghdm6ysbrdq7wo.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789592834%2Fgscenxeq9vurecpl2c5f.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
