@@ -36,10 +36,10 @@ entries:
     note: ""
     icon: 🥵
   - title: Coldest day
-    value: ""
-    unit: °F / °C
-    place: ""
-    date: null
+    value: "-27"
+    unit: °F
+    place: Fairbanks, Alaska
+    date: 2026-03-17
     note: ""
     icon: 🥶
   - title: Longest hike in one day
