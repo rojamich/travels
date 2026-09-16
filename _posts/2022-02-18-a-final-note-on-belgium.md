@@ -1,13 +1,22 @@
 ---
-title: "A Final Note on Belgium"
+title: A Final Note on Belgium
 date: 2022-02-14
 categories:
   - european-excursion
 order: 9.1
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1788341576/blogger-import/b2d5b20e16d0d94ced63.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787930903/blogger-import/f18985e937ef54d7ba94.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 33
+  overlay_focal_x: 50
+  overlay_focal_y: 54
+  overlay_filter: 0
 tags:
   - Belgium
+  - TripSummary
 location:
-  name: "Brussels, Belgium"
+  name: Brussels, Belgium
   lat: 50.8503
   lng: 4.3517
 ---
