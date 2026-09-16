@@ -14,6 +14,7 @@ header:
   overlay_focal_y: 100
 tags:
   - London
+  - TripSummary
 location:
   name: London, UK
   lat: 51.5074
