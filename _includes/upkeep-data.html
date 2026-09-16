@@ -2,8 +2,14 @@
 =============================================================================
 upkeep-data.html — the short list of things nobody computes
 =============================================================================
-Sets `upkeep`: a list of sentences about hand-kept data that has gone stale
-or was never filled in. Empty list means there is nothing to say.
+Sets two lists, the same length and in the same order:
+
+  upkeep        one alert each: a sentence about hand-kept data that has gone
+                stale or was never filled in, and the rows it is about. An
+                empty list means there is nothing to say.
+  upkeep_keys   the keys of that alert's rows, space-separated. /admin-stats/
+                and the editor's banner both use them to tell which rows she
+                has looked at and set aside. See _plugins/upkeep_key.rb.
 
 Almost everything on this site is computed from the posts and trips on every
 build, so it can't quietly go wrong. A few files aren't — the status bar, the
@@ -21,13 +27,53 @@ Included by:
 Both read this one file, so the editor's banner and the dashboard can never
 say different things.
 
-ADDING A CHECK: work it out here from data that already exists and push a
-sentence onto `upkeep`. Don't add a check that needs its own copy of
-something the site already knows — a reminder that drifts is worse than no
-reminder. Keep the markup to <strong> and <em>: the JSON version strips tags.
+SET ASIDE, ONE ROW AT A TIME
+Most of these alerts are a sentence and a list: nine posts with no map pin,
+four countries with no flag. Some of those rows are answers rather than
+problems — a letter home has no pin and never will — so every row carries a
+key of its own and can be set aside on its own. That one goes quiet; the
+eight beside it keep asking, and a tenth that turns up next week arrives
+unread.
+
+Which makes the key the thing to get right. It has to name THAT ROW and
+nothing else: the post's url, the country, the title of the record. Build it
+from the length of the list the row sits in and setting one aside would
+silence the lot; build it from anything that moves on its own, like a number
+of days, and every morning would bring it back.
+
+WHAT /admin-stats/ LOOKS FOR
+Keep the prose to <strong> and <em> — the JSON version strips tags — and use
+these where they help:
+
+  <ul class="upkeep-rows">   the rows, each an <li data-upkeep-key="…">. The
+                             page hangs the set-aside button off that key, so
+                             nothing here draws a button itself.
+  data-upkeep-n              holds the number of rows still asking. The page
+                             keeps it right as she sets them aside.
+  data-upkeep-plural="a|b"   "a" when that number is 1, "b" when it isn't.
+                             Write the plural form as the tag's own text; it
+                             only shows before the page has had its say.
+  data-upkeep-group          a heading — a trip, say — that should disappear
+                             once every row underneath it has gone quiet.
+
+An alert that is one fact rather than a list, like the status bar, wraps its
+sentence in a <span data-upkeep-key="…"> and is set aside whole. There is no
+special case for it: it is a one-row alert.
+
+Prefer a sentence that reads the same whatever the number is. Every plural
+you spell out is a second copy of the sentence to keep in step, and the row
+list underneath already says which ones and how many.
+
+ADDING A CHECK: work it out here from data that already exists, push the
+sentence onto `upkeep`, and push its row keys, space-separated, onto
+`upkeep_keys`. The two lists are read by position, so a check that adds one
+and not the other leaves every alert below it answering to the wrong name.
+Don't add a check that needs its own copy of something the site already
+knows — a reminder that drifts is worse than no reminder.
 =============================================================================
 {%- endcomment -%}
 {%- assign upkeep = "" | split: "," -%}
+{%- assign upkeep_keys = "" | split: "," -%}
 
 {%- comment -%} The status bar: right until they move, then wrong and silent. {%- endcomment -%}
 {%- assign here = site.data.status.current_location | default: "" -%}
@@ -40,39 +86,57 @@ reminder. Keep the markup to <strong> and <em>: the JSON version strips tags.
 {%- endcomment -%}
 {%- if site.data.freshness.status -%}
 {%- if here != "" and site.data.freshness.status.days > 30 -%}
+  {%- comment -%}
+    No day count in the key, on purpose: it goes up every morning, and a key
+    built on it would bring the alert back every morning too. What she set
+    aside is "the bar says this, and was last touched on that day", which
+    stays true until she actually changes it.
+  {%- endcomment -%}
+  {%- capture upkeep_fp -%}status|{{ here }}|{{ site.data.status.next_destination }}|{{ site.data.freshness.status.date }}{%- endcapture -%}
+  {%- assign upkeep_k = upkeep_fp | upkeep_key -%}
   {%- capture row -%}
-The bar on every page still says <strong>{{ here }}</strong>{% if site.data.status.next_destination and site.data.status.next_destination != "" %}, next stop {{ site.data.status.next_destination }}{% endif %}. Last changed {{ site.data.freshness.status.days }} days ago, on {{ site.data.freshness.status.date }} — worth a look if you've moved since. <em>Editor → Site Settings → Status bar.</em>
+<span data-upkeep-key="{{ upkeep_k }}">The bar on every page still says <strong>{{ here }}</strong>{% if site.data.status.next_destination and site.data.status.next_destination != "" %}, next stop {{ site.data.status.next_destination }}{% endif %}. Last changed {{ site.data.freshness.status.days }} days ago, on {{ site.data.freshness.status.date }} — worth a look if you've moved since. <em>Editor → Site Settings → Status bar.</em></span>
   {%- endcapture -%}
   {%- assign upkeep = upkeep | push: row -%}
+  {%- assign upkeep_keys = upkeep_keys | push: upkeep_k -%}
 {%- endif -%}
 {%- endif -%}
 
-{%- comment -%} Personal bests with no number yet — invisible on /stats/. {%- endcomment -%}
-{%- assign blank_records = 0 -%}
-{%- assign total_records = 0 -%}
+{%- comment -%}
+  Personal bests with no number yet — invisible on /stats/. Keyed by title,
+  not by how many are blank: filling one in and leaving another leaves the
+  count at three while the list underneath names a different row.
+{%- endcomment -%}
+{%- assign blank_titles = "" | split: "," -%}
 {%- for r in site.data.records.entries -%}
-  {%- assign has_title = r.title | default: "" | strip -%}
-  {%- if has_title != "" -%}
-    {%- assign total_records = total_records | plus: 1 -%}
-    {%- assign v = r.value | default: "" -%}
-    {%- assign v = v | append: "" | strip -%}
-    {%- if v == "" -%}{%- assign blank_records = blank_records | plus: 1 -%}{%- endif -%}
+  {%- assign t = r.title | default: "" | strip -%}
+  {%- assign v = r.value | default: "" -%}
+  {%- assign v = v | append: "" | strip -%}
+  {%- if t != "" and v == "" -%}
+    {%- assign blank_titles = blank_titles | push: t -%}
   {%- endif -%}
 {%- endfor -%}
-{%- if blank_records > 0 -%}
-  {%- assign blank_titles = "" | split: "," -%}
-  {%- for r in site.data.records.entries -%}
-    {%- assign v = r.value | default: "" -%}
-    {%- assign v = v | append: "" | strip -%}
-    {%- if r.title and r.title != "" and v == "" -%}
-      {%- assign blank_titles = blank_titles | push: r.title -%}
-    {%- endif -%}
-  {%- endfor -%}
+{%- if blank_titles.size > 0 -%}
+  {%- assign row_keys = "" | split: "," -%}
+  {%- capture upkeep_rows -%}
+    {%- for t in blank_titles -%}
+      {%- capture upkeep_fp -%}record|{{ t }}{%- endcapture -%}
+      {%- assign upkeep_k = upkeep_fp | upkeep_key -%}
+      {%- assign row_keys = row_keys | push: upkeep_k -%}
+<li data-upkeep-key="{{ upkeep_k }}"><strong>{{ t }}</strong></li>
+    {%- endfor -%}
+  {%- endcapture -%}
   {%- capture row -%}
-<strong>{{ blank_records }}</strong> of {{ total_records }} personal bests still have no number, so they don't appear on /stats/ at all — the page only shows a record once it has both a title and a value. Fill one in or delete the row. <em>Editor → Site Settings → Leaderboard.</em>
-<span class="upkeep-where">{{ blank_titles | join: " · " }}</span>
+<strong data-upkeep-n>{{ row_keys.size }}</strong> <span data-upkeep-plural="personal best has|personal bests have">personal bests have</span> no number yet, and a record with no number doesn't appear on /stats/ at all — the page only shows one once it has both a title and a value. Fill it in, delete the row, or set it aside if it's waiting on something. <em>Editor → Site Settings → Leaderboard.</em>
+<ul class="upkeep-rows">{{ upkeep_rows }}</ul>
   {%- endcapture -%}
   {%- assign upkeep = upkeep | push: row -%}
+  {%- comment -%}
+    Joined first, into its own variable: `push: row_keys | join` would read as
+    "push the array, then join the whole of upkeep_keys", which is not it.
+  {%- endcomment -%}
+  {%- assign row_keys_joined = row_keys | join: " " -%}
+  {%- assign upkeep_keys = upkeep_keys | push: row_keys_joined -%}
 {%- endif -%}
 
 {%- comment -%}
@@ -82,17 +146,26 @@ The bar on every page still says <strong>{{ here }}</strong>{% if site.data.stat
   these; naming the post and the trip is the whole point of saying it here.
 {%- endcomment -%}
 {%- if site.data.nights.stray_day_trips and site.data.nights.stray_day_trips.size > 0 -%}
-  {%- assign strays = site.data.nights.stray_day_trips -%}
-  {%- assign stray_items = "" | split: "," -%}
-  {%- for s in strays -%}
-    {%- capture item -%}<a href="{{ s.url | relative_url }}">{{ s.post }}</a> is a day trip to <strong>{{ s.country }}</strong>, but <strong>{{ s.trip }}</strong> doesn't list {{ s.country }}{%- endcapture -%}
-    {%- assign stray_items = stray_items | push: item -%}
-  {%- endfor -%}
+  {%- assign row_keys = "" | split: "," -%}
+  {%- capture upkeep_rows -%}
+    {%- for s in site.data.nights.stray_day_trips -%}
+      {%- capture upkeep_fp -%}daytrip|{{ s.url }}|{{ s.country }}{%- endcapture -%}
+      {%- assign upkeep_k = upkeep_fp | upkeep_key -%}
+      {%- assign row_keys = row_keys | push: upkeep_k -%}
+<li data-upkeep-key="{{ upkeep_k }}"><a href="{{ s.url | relative_url }}">{{ s.post }}</a> is a day trip to <strong>{{ s.country }}</strong>, but <strong>{{ s.trip }}</strong> doesn't list {{ s.country }}</li>
+    {%- endfor -%}
+  {%- endcapture -%}
   {%- capture row -%}
-<strong>{{ strays.size }}</strong> day trip{% if strays.size != 1 %}s count{% else %} counts{% endif %} nowhere. A day trip doesn't take a night, on purpose — but the country only counts as visited if the trip itself lists it, so as things stand {% if strays.size == 1 %}this one is{% else %}these are{% endif %} invisible on /stats/. Add the country to the trip, or change the day to a Layover if it wasn't really a visit.
-<ul class="upkeep-where-list"><li>{{ stray_items | join: "</li><li>" }}</li></ul>
+<strong data-upkeep-n>{{ row_keys.size }}</strong> <span data-upkeep-plural="day trip counts|day trips count">day trips count</span> nowhere. A day trip doesn't take a night, on purpose — but a country only counts as visited if the trip itself lists it, so a day out to somewhere the trip never names is invisible on /stats/. Add the country to the trip, or change the day to a Layover if it wasn't really a visit.
+<ul class="upkeep-rows">{{ upkeep_rows }}</ul>
   {%- endcapture -%}
   {%- assign upkeep = upkeep | push: row -%}
+  {%- comment -%}
+    Joined first, into its own variable: `push: row_keys | join` would read as
+    "push the array, then join the whole of upkeep_keys", which is not it.
+  {%- endcomment -%}
+  {%- assign row_keys_joined = row_keys | join: " " -%}
+  {%- assign upkeep_keys = upkeep_keys | push: row_keys_joined -%}
 {%- endif -%}
 
 {%- comment -%} Countries counted, but with no flag beside the name. {%- endcomment -%}
@@ -108,10 +181,26 @@ The bar on every page still says <strong>{{ here }}</strong>{% if site.data.stat
   {%- unless found -%}{%- assign no_flag = no_flag | push: c -%}{%- endunless -%}
 {%- endfor -%}
 {%- if no_flag.size > 0 -%}
+  {%- assign row_keys = "" | split: "," -%}
+  {%- capture upkeep_rows -%}
+    {%- for c in no_flag -%}
+      {%- capture upkeep_fp -%}flag|{{ c }}{%- endcapture -%}
+      {%- assign upkeep_k = upkeep_fp | upkeep_key -%}
+      {%- assign row_keys = row_keys | push: upkeep_k -%}
+<li data-upkeep-key="{{ upkeep_k }}"><strong>{{ c }}</strong></li>
+    {%- endfor -%}
+  {%- endcapture -%}
   {%- capture row -%}
-<strong>{{ no_flag.size }}</strong> visited {% if no_flag.size == 1 %}country has{% else %}countries have{% endif %} no flag on /stats/ — the chip just shows the name: {{ no_flag | join: ", " }}. <em>Editor → Site Settings → Country flag images.</em>
+<strong data-upkeep-n>{{ row_keys.size }}</strong> visited <span data-upkeep-plural="country has|countries have">countries have</span> no flag on /stats/ — the chip just shows the name. <em>Editor → Site Settings → Country flag images.</em>
+<ul class="upkeep-rows">{{ upkeep_rows }}</ul>
   {%- endcapture -%}
   {%- assign upkeep = upkeep | push: row -%}
+  {%- comment -%}
+    Joined first, into its own variable: `push: row_keys | join` would read as
+    "push the array, then join the whole of upkeep_keys", which is not it.
+  {%- endcomment -%}
+  {%- assign row_keys_joined = row_keys | join: " " -%}
+  {%- assign upkeep_keys = upkeep_keys | push: row_keys_joined -%}
 {%- endif -%}
 
 {%- comment -%}
@@ -126,51 +215,102 @@ The bar on every page still says <strong>{{ here }}</strong>{% if site.data.stat
   {%- endif -%}
 {%- endfor -%}
 {%- if orphan_flag.size > 0 -%}
+  {%- assign row_keys = "" | split: "," -%}
+  {%- capture upkeep_rows -%}
+    {%- for n in orphan_flag -%}
+      {%- capture upkeep_fp -%}orphanflag|{{ n }}{%- endcapture -%}
+      {%- assign upkeep_k = upkeep_fp | upkeep_key -%}
+      {%- assign row_keys = row_keys | push: upkeep_k -%}
+<li data-upkeep-key="{{ upkeep_k }}"><strong>{{ n }}</strong></li>
+    {%- endfor -%}
+  {%- endcapture -%}
   {%- capture row -%}
-{{ orphan_flag.size }} flag {% if orphan_flag.size == 1 %}image is{% else %}images are{% endif %} filed under a name no country resolves to, so {% if orphan_flag.size == 1 %}it{% else %}they{% endif %} can never show: {{ orphan_flag | join: ", " }}. Check the spelling against _data/countries.yml.
+<strong data-upkeep-n>{{ row_keys.size }}</strong> flag <span data-upkeep-plural="image is|images are">images are</span> filed under a name no country resolves to, so <span data-upkeep-plural="it|they">they</span> can never show. Check the spelling against <code>_data/countries.yml</code>.
+<ul class="upkeep-rows">{{ upkeep_rows }}</ul>
   {%- endcapture -%}
   {%- assign upkeep = upkeep | push: row -%}
+  {%- comment -%}
+    Joined first, into its own variable: `push: row_keys | join` would read as
+    "push the array, then join the whole of upkeep_keys", which is not it.
+  {%- endcomment -%}
+  {%- assign row_keys_joined = row_keys | join: " " -%}
+  {%- assign upkeep_keys = upkeep_keys | push: row_keys_joined -%}
 {%- endif -%}
 
 {%- comment -%}
   Posts with no coordinates never appear on a map. Listed by name and linked,
   grouped under the trip they belong to, because "22 posts" tells you a number
-  and this tells you what to open.
+  and this tells you what to open. Keyed by url, one row each: most of this
+  list is deliberate — a letter home doesn't need a pin — and the point is to
+  let her put those to bed so a forgotten one is the only thing left asking.
 {%- endcomment -%}
-{%- assign no_loc_items = "" | split: "," -%}
-{%- for trip in site.trips -%}
-  {%- comment -%}
-    A trip with no posts yet — one just created in the editor — has no entry in
-    site.categories at all, and Jekyll's `sort` raises on nil rather than
-    returning nothing. That took the whole build down the first time a new trip
-    was added, which is the same guard trip-map.html and _layouts/trip.html
-    already use for the same reason.
-  {%- endcomment -%}
-  {%- assign trip_posts = "" | split: "" -%}
-  {%- if site.categories[trip.slug] -%}
-    {%- assign trip_posts = site.categories[trip.slug] | sort: "order" -%}
-  {%- endif -%}
-  {%- assign missing_here = "" | split: "," -%}
-  {%- for post in trip_posts -%}
-    {%- unless post.location.lat -%}
-      {%- capture link -%}<a href="{{ post.url | relative_url }}">{{ post.title }}</a>{%- endcapture -%}
-      {%- assign missing_here = missing_here | push: link -%}
-    {%- endunless -%}
+{%- assign row_keys = "" | split: "," -%}
+{%- assign no_loc_seen = "" | split: "," -%}
+{%- capture upkeep_rows -%}
+  {%- for trip in site.trips -%}
+    {%- comment -%}
+      A trip with no posts yet — one just created in the editor — has no entry
+      in site.categories at all, and Jekyll's `sort` raises on nil rather than
+      returning nothing. That took the whole build down the first time a new
+      trip was added, which is the same guard trip-map.html and
+      _layouts/trip.html already use for the same reason.
+    {%- endcomment -%}
+    {%- assign trip_posts = "" | split: "" -%}
+    {%- if site.categories[trip.slug] -%}
+      {%- assign trip_posts = site.categories[trip.slug] | sort: "order" -%}
+    {%- endif -%}
+    {%- assign here_n = 0 -%}
+    {%- capture here_rows -%}
+      {%- for post in trip_posts -%}
+        {%- unless post.location.lat -%}
+          {%- assign here_n = here_n | plus: 1 -%}
+          {%- capture upkeep_fp -%}location|{{ post.url }}{%- endcapture -%}
+          {%- assign upkeep_k = upkeep_fp | upkeep_key -%}
+          {%- assign row_keys = row_keys | push: upkeep_k -%}
+          {%- assign no_loc_seen = no_loc_seen | push: post.url -%}
+<li data-upkeep-key="{{ upkeep_k }}"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+        {%- endunless -%}
+      {%- endfor -%}
+    {%- endcapture -%}
+    {%- if here_n > 0 -%}
+<li data-upkeep-group><strong>{{ trip.title }}</strong><ul class="upkeep-rows">{{ here_rows }}</ul></li>
+    {%- endif -%}
   {%- endfor -%}
-  {%- if missing_here.size > 0 -%}
-    {%- capture item -%}<strong>{{ trip.title }}</strong> — {{ missing_here | join: ", " }}{%- endcapture -%}
-    {%- assign no_loc_items = no_loc_items | push: item -%}
+  {%- comment -%}
+    Anything the loop above never reached — a post whose category names no
+    trip in the collection. Rare, and the cross-reference check on
+    /admin-stats/ says so separately, but a post that is counted and has no
+    row is a row that can never be set aside: the alert would sit there
+    forever with nothing under it to act on.
+  {%- endcomment -%}
+  {%- assign orphan_n = 0 -%}
+  {%- capture orphan_rows -%}
+    {%- for post in site.posts -%}
+      {%- unless post.location.lat -%}
+        {%- unless no_loc_seen contains post.url -%}
+          {%- assign orphan_n = orphan_n | plus: 1 -%}
+          {%- capture upkeep_fp -%}location|{{ post.url }}{%- endcapture -%}
+          {%- assign upkeep_k = upkeep_fp | upkeep_key -%}
+          {%- assign row_keys = row_keys | push: upkeep_k -%}
+<li data-upkeep-key="{{ upkeep_k }}"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+        {%- endunless -%}
+      {%- endunless -%}
+    {%- endfor -%}
+  {%- endcapture -%}
+  {%- if orphan_n > 0 -%}
+<li data-upkeep-group><strong>Not in any trip</strong><ul class="upkeep-rows">{{ orphan_rows }}</ul></li>
   {%- endif -%}
-{%- endfor -%}
-{%- assign no_location = 0 -%}
-{%- for post in site.posts -%}
-  {%- unless post.location.lat -%}{%- assign no_location = no_location | plus: 1 -%}{%- endunless -%}
-{%- endfor -%}
-{%- if no_location > 0 -%}
+{%- endcapture -%}
+{%- if row_keys.size > 0 -%}
   {%- capture row -%}
-<strong>{{ no_location }}</strong> of {{ site.posts | size }} posts have no location, so they don't appear on the trip route or the world map. Some are deliberate — a letter home doesn't need a pin — but a forgotten one shows up here.
-{% if no_loc_items.size > 0 %}<ul class="upkeep-where-list"><li>{{ no_loc_items | join: "</li><li>" }}</li></ul>{% endif %}
+<strong data-upkeep-n>{{ row_keys.size }}</strong> <span data-upkeep-plural="post has|posts have">posts have</span> no location — nothing to pin to the trip route or the world map. Some of that is deliberate — a letter home doesn't need a pin — and those are the ones worth setting aside, so that a day you simply forgot is the only thing left on the list.
+<ul class="upkeep-rows">{{ upkeep_rows }}</ul>
   {%- endcapture -%}
   {%- assign upkeep = upkeep | push: row -%}
+  {%- comment -%}
+    Joined first, into its own variable: `push: row_keys | join` would read as
+    "push the array, then join the whole of upkeep_keys", which is not it.
+  {%- endcomment -%}
+  {%- assign row_keys_joined = row_keys | join: " " -%}
+  {%- assign upkeep_keys = upkeep_keys | push: row_keys_joined -%}
 {%- endif -%}
-

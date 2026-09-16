@@ -58,6 +58,30 @@ sitemap: false
   The checks live in _includes/upkeep-data.html because /admin-upkeep.json
   reads the same list to put a banner in the editor — one source, so the two
   can't disagree.
+
+  SET ASIDE
+  Some of these are answers, not problems. A letter home has no map pin and
+  never will; a personal best may be waiting on a photo. An alert that cannot
+  be acknowledged gets read once and skipped forever after, and takes the
+  ones that do matter down with it — so every row here has a button that
+  files it under "looked at, fine as it is".
+
+  Row, not alert. Nine posts with no pin is nine decisions, not one: put the
+  airport day to bed and the other eight go on asking, which is the only
+  version of this that stays useful. A row is keyed by what it IS — the
+  post's url, the country, the title of the record (see
+  _plugins/upkeep_key.rb) — so a tenth post with no pin next week arrives
+  unread, and the count in the sentence above the list counts what is left.
+
+  That decision lives in the browser (localStorage, key `upkeep-set-aside`),
+  not in the repo. It is a note about what she has read, not a fact about the
+  site, and a build has no business knowing it. The editor is served from the
+  same origin, so its banner reads the same store and stops counting alerts
+  she has nothing left to do about.
+
+  The markup the script below looks for — upkeep-rows, data-upkeep-key,
+  data-upkeep-n, data-upkeep-plural, data-upkeep-group — is written and
+  explained in _includes/upkeep-data.html.
   ---------------------------------------------------------------------------
 {%- endcomment -%}
 {% include upkeep-data.html %}
@@ -71,12 +95,185 @@ sitemap: false
     <p class="audit-note" style="margin-top:0;">
       The rest of this site is computed and can't fall behind. These few things
       are typed by hand, so this is the only place that will ever mention them.
+      Anything on a list here that is fine as it stands — the airport day that
+      wants no map pin — can be <strong>set aside</strong> on its own: that one
+      goes quiet, here and in the editor, and the rest keep asking.
     </p>
-    <ul class="upkeep-list">
+
+    <p class="audit-good" id="upkeep-all-clear" hidden>
+      Nothing here needs you. Every one of these has been looked at and set
+      aside as fine.
+    </p>
+
+    {%- comment -%}
+      One <li> per alert, exactly as before. Everything the set-aside needs
+      — the rows, their keys, the number to keep up to date — is inside the
+      sentence the include built, so this stays a plain loop.
+    {%- endcomment -%}
+    <ul class="upkeep-list" id="upkeep-list">
       {% for row in upkeep %}<li>{{ row }}</li>{% endfor %}
     </ul>
+
+    {%- comment -%}
+      Hidden until the first one is set aside, and it is the only way back:
+      without it, "set aside" would read as "delete" and she'd never dare
+      press it.
+    {%- endcomment -%}
+    <p class="upkeep-aside-line" id="upkeep-aside-line" hidden>
+      <span id="upkeep-aside-count"></span>
+      <button type="button" class="upkeep-linkbtn" id="upkeep-aside-toggle">Show</button>
+    </p>
   {% endif %}
 </section>
+
+<script>
+  /* --------------------------------------------------------------------
+     "Needs a human" — setting a row aside
+     --------------------------------------------------------------------
+     Reads and writes localStorage["upkeep-set-aside"], an object of
+     key → the date it was set aside. The editor's banner reads the same
+     store from the same origin, so a row dealt with here stops being
+     counted there.
+
+     Every row the build marked with data-upkeep-key gets a button hung off
+     it. Setting one aside hides that row, takes it off the count in the
+     sentence above the list, and folds away its trip heading, or the whole
+     alert, once there is nothing left underneath asking.
+
+     Keys name the row itself — a post's url, a country — so they survive a
+     rebuild unchanged. Anything in the store that is not on the page any
+     more is therefore spent: the post got its pin, the country got its
+     flag. This prunes those on the way in, so the store stays the size of
+     the list rather than growing forever.
+     -------------------------------------------------------------------- */
+  (function () {
+    var list = document.getElementById("upkeep-list");
+    if (!list) return;
+
+    var STORE = "upkeep-set-aside";
+    var line = document.getElementById("upkeep-aside-line");
+    var countEl = document.getElementById("upkeep-aside-count");
+    var toggle = document.getElementById("upkeep-aside-toggle");
+    var allClear = document.getElementById("upkeep-all-clear");
+
+    function all(root, sel) { return [].slice.call(root.querySelectorAll(sel)); }
+
+    // The button is drawn here rather than in the include, so that adding a
+    // check upstream is only ever a sentence, a list and a key.
+    function button(row) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "upkeep-set-aside";
+      row.appendChild(b);
+      return b;
+    }
+
+    var alerts = [].slice.call(list.children).map(function (el) {
+      return {
+        el: el,
+        rows: all(el, "[data-upkeep-key]").map(function (r) {
+          return { el: r, key: r.getAttribute("data-upkeep-key"), btn: button(r) };
+        }),
+        groups: all(el, "[data-upkeep-group]"),
+        counts: all(el, "[data-upkeep-n]"),
+        plurals: all(el, "[data-upkeep-plural]")
+      };
+    });
+
+    var rows = alerts.reduce(function (acc, a) { return acc.concat(a.rows); }, []);
+    if (rows.length === 0) return;
+
+    // Private browsing, or storage turned off: the buttons simply won't
+    // stick. Better a page that works and forgets than a page that breaks.
+    function read() {
+      try {
+        var obj = JSON.parse(localStorage.getItem(STORE) || "{}");
+        return (obj && typeof obj === "object") ? obj : {};
+      } catch (e) { return {}; }
+    }
+    function write(obj) {
+      try { localStorage.setItem(STORE, JSON.stringify(obj)); } catch (e) {}
+    }
+
+    var aside = read();
+
+    var live = {};
+    rows.forEach(function (r) { live[r.key] = true; });
+    var spent = Object.keys(aside).filter(function (k) { return !live[k]; });
+    if (spent.length) {
+      spent.forEach(function (k) { delete aside[k]; });
+      write(aside);
+    }
+
+    var revealed = false;
+
+    function anyVisible(el) {
+      var kids = el.querySelectorAll("[data-upkeep-key]");
+      for (var i = 0; i < kids.length; i++) {
+        if (!kids[i].hidden) return true;
+      }
+      return false;
+    }
+
+    function render() {
+      var asideCount = 0;
+      var quiet = 0;
+
+      alerts.forEach(function (a) {
+        var left = 0;
+
+        a.rows.forEach(function (r) {
+          var when = aside[r.key];
+          if (when) { asideCount++; } else { left++; }
+          r.el.classList.toggle("is-set-aside", !!when);
+          r.el.hidden = !!when && !revealed;
+          r.btn.textContent = when ? "bring back" : "set aside";
+          r.btn.title = when
+            ? "Set aside " + when + " — start showing this again"
+            : "Looked at it, it's fine — stop showing this one";
+        });
+
+        a.counts.forEach(function (el) { el.textContent = left; });
+        a.plurals.forEach(function (el) {
+          var forms = (el.getAttribute("data-upkeep-plural") || "|").split("|");
+          el.textContent = left === 1 ? forms[0] : forms[1];
+        });
+        // A trip heading with nothing left under it is just a word.
+        a.groups.forEach(function (g) { g.hidden = !anyVisible(g); });
+
+        a.el.hidden = left === 0 && !revealed;
+        if (left === 0) quiet++;
+      });
+
+      line.hidden = asideCount === 0;
+      countEl.textContent = (asideCount === 1 ? "1 thing" : asideCount + " things") +
+        " looked at and set aside. ";
+      toggle.textContent = revealed ? "Hide" : "Show";
+      allClear.hidden = !(quiet === alerts.length && !revealed);
+    }
+
+    rows.forEach(function (r) {
+      r.btn.addEventListener("click", function () {
+        if (aside[r.key]) {
+          delete aside[r.key];
+        } else {
+          // Date only — "set aside 2026-09-16" is the useful half, and it
+          // rides along in the button's tooltip rather than on the page.
+          aside[r.key] = new Date().toISOString().slice(0, 10);
+        }
+        write(aside);
+        render();
+      });
+    });
+
+    toggle.addEventListener("click", function () {
+      revealed = !revealed;
+      render();
+    });
+
+    render();
+  })();
+</script>
 
 
 <section class="country-audit">
@@ -311,6 +508,40 @@ sitemap: false
   .upkeep-list { margin: 0.6em 0 0; padding-left: 1.2em; }
   .upkeep-list li { margin-bottom: 0.7em; line-height: 1.55; }
   .upkeep-where { display: block; color: #6B7E85; font-size: 0.9em; margin-top: 0.15em; }
+  /* The theme gives these elements a `display` of their own, which beats
+     the plain [hidden] rule in the browser's own stylesheet — say it here
+     or a row set aside stays on the page. */
+  .upkeep [hidden] { display: none; }
+  .upkeep-rows { margin: 0.4em 0 0; padding-left: 1.1em; font-size: 0.92em; }
+  .upkeep-rows li { margin-bottom: 0.2em; line-height: 1.45; }
+  .upkeep-rows .upkeep-rows { margin-top: 0.15em; font-size: 1em; }
+  .upkeep .is-set-aside { opacity: 0.55; }
+  /* Quiet until you go looking for it: there is one of these on every row,
+     and twenty shouting buttons would bury the list they belong to. */
+  .upkeep-set-aside {
+    margin-left: 0.5em;
+    border: 1px solid transparent;
+    background: none;
+    border-radius: 5px;
+    padding: 0 0.4em;
+    font-size: 0.82em;
+    color: #a2937c;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .upkeep-set-aside:hover,
+  .upkeep-set-aside:focus { border-color: #d8cbb4; background: #fff; color: #3d3226; }
+  .upkeep-aside-line { margin: 0.9em 0 0; font-size: 0.88em; color: #6b5d4a; }
+  .upkeep-linkbtn {
+    border: 0;
+    background: none;
+    padding: 0;
+    font: inherit;
+    color: #1F4858;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+  }
   .upkeep-where-list { margin: 0.35em 0 0; padding-left: 1.1em; font-size: 0.92em; }
   .upkeep-where-list li { margin-bottom: 0.25em; line-height: 1.45; }
   .audit-note { color: #666; font-size: 0.85em; line-height: 1.5; margin-top: 1.2em; }

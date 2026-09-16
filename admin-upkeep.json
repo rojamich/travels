@@ -15,15 +15,25 @@ admin-upkeep.json — the "needs a human" list, for the editor to read
 so the reminder reaches her where she already is instead of waiting on a page
 she has no reason to open.
 
-A COUNT, AND NOTHING ELSE
-This file carries the number and no detail, on purpose. Netlify serves static
-files to anyone who asks for the URL — a login can only be checked after the
-file has already been sent (see _includes/admin-gate.html) — so whatever is
-written here is public whether or not the page that reads it is gated. The
-number is worth nothing to a stranger. The sentences, which name what is
-half-finished about the site, stay on /admin-stats/ behind the login.
+A COUNT AND A LIST OF NAMES, AND NOTHING ELSE
+This file carries no detail, on purpose. Netlify serves static files to anyone
+who asks for the URL — a login can only be checked after the file has already
+been sent (see _includes/admin-gate.html) — so whatever is written here is
+public whether or not the page that reads it is gated. The sentences, which
+name what is half-finished about the site, stay on /admin-stats/ behind the
+login.
 
-The count is computed in _includes/upkeep-data.html, the same include
+  count    how many things need a hand. Worth nothing to a stranger.
+  alerts   one array per thing, holding a short hash for each ROW of it — a
+           post with no map pin, a country with no flag — from
+           _plugins/upkeep_key.rb. On /admin-stats/ she can set any single row
+           aside as fine; that is remembered in the browser under the same
+           hash, and both pages share an origin, so the banner can skip an
+           alert she has nothing left to do about instead of nagging her about
+           it again. Hashed rather than readable precisely because this file
+           is public — the hash exists to be compared, never to be read.
+
+Both numbers come from _includes/upkeep-data.html, the same include
 /admin-stats/ renders, so the banner and the dashboard cannot disagree.
 
 No layout, and the front matter above is what makes Jekyll run Liquid here.
@@ -33,5 +43,6 @@ No layout, and the front matter above is what makes Jekyll run Liquid here.
 {%- include upkeep-data.html -%}
 {
   "generated": {{ site.time | date_to_xmlschema | jsonify }},
-  "count": {{ upkeep.size }}
+  "count": {{ upkeep.size }},
+  "alerts": [{% for keys in upkeep_keys %}{% unless forloop.first %},{% endunless %}{{ keys | split: " " | jsonify }}{% endfor %}]
 }

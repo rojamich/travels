@@ -2514,6 +2514,14 @@
     disagree. If the fetch fails — offline, or the file not built yet —
     nothing is shown at all. A broken reminder should be invisible, not a
     scary error in an editor she is trying to write in.
+
+    Not everything on that list is a problem. On /admin-stats/ she can set a
+    single row aside as fine — the airport day that wants no map pin — and
+    that is remembered in the browser, same origin as this page, so the same
+    store is readable here. So this counts the alerts she still has something
+    to do about: one whose every row she has already dealt with is not worth
+    interrupting her for. The hashes say nothing about what the alerts are;
+    see _plugins/upkeep_key.rb.
     =========================================================================
   -->
   <script>
@@ -2560,10 +2568,33 @@
         document.body.appendChild(bar);
       }
 
+      // What she has set aside on /admin-stats/, as { key: date }. Anything
+      // unreadable — private window, storage off, someone's hand-edit — comes
+      // back empty, and an empty store just means nothing has been set aside.
+      function setAside() {
+        try {
+          var obj = JSON.parse(localStorage.getItem("upkeep-set-aside") || "{}");
+          return (obj && typeof obj === "object") ? obj : {};
+        } catch (e) { return {}; }
+      }
+
       fetch("/admin-upkeep.json", { cache: "no-store" })
         .then(function (r) { return r.ok ? r.json() : null; })
         .then(function (data) {
-          if (data && typeof data.count === "number" && data.count > 0) show(data.count);
+          if (!data || typeof data.count !== "number") return;
+          var count = data.count;
+          // Older build still on the CDN, from before this was in the file:
+          // fall back to the raw count. Over-reporting for one deploy beats
+          // saying nothing. An alert that arrives with no rows at all is
+          // counted too — there is nothing to say she has dealt with it.
+          if (Array.isArray(data.alerts) && data.alerts.length > 0) {
+            var done = setAside();
+            count = data.alerts.filter(function (keys) {
+              if (!Array.isArray(keys) || keys.length === 0) return true;
+              return keys.some(function (k) { return !done[k]; });
+            }).length;
+          }
+          if (count > 0) show(count);
         })
         .catch(function () { /* say nothing */ });
     })();

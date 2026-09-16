@@ -305,6 +305,20 @@ The dates it quotes come from git (`_plugins/data_freshness.rb`) rather than
 the files' timestamps, because a build server clones the repo fresh and every
 file looks new.
 
+Not every line in that panel is a problem to fix. A letter home has no map pin
+and never will. So every **row** of every alert — each post, each country, each
+blank record — has its own **set aside** button. Press it and that row goes
+quiet, here and in the editor's banner; the rows beside it keep asking, and one
+that turns up next week arrives unread. The count in the sentence above each
+list counts what is left, and an alert with nothing left disappears.
+
+Rows are keyed by what they are — a post's url, a country's name — so they
+survive a rebuild, and a row that gets fixed drops out of the store on its own.
+What is set aside is remembered in the browser rather than in the repo
+(localStorage, key `upkeep-set-aside`; the editor is the same origin, so it
+reads the same store), because it is a note about what she has read, not a fact
+about the site. "Show" beside the count brings any of them back.
+
 `/admin-stats/` asks for the same Netlify Identity login as `/admin/` — log
 into one and you are in both. Be clear-eyed about what that gate is: it runs
 in the browser, so it hides the page from visitors and search engines but
@@ -312,17 +326,22 @@ does not stop someone who knows the URL from fetching the raw HTML. Netlify
 can only check a login *before* serving a file on a Business plan. So nothing
 secret goes on that page — view counts and housekeeping notes only. The
 count the editor reads (`/admin-upkeep.json`) is deliberately just a number
-for the same reason; the detail stays behind the login.
+for the same reason; the detail stays behind the login. It carries one hash per
+row alongside the number — enough for the banner to skip an alert she has
+nothing left to do about, and worth nothing to anyone else
+(`_plugins/upkeep_key.rb`).
 
 If something genuinely private ever needs to live there, the fix that works
 on this plan is to stop building it into a static file: serve it from a
 Netlify Function that verifies the Identity token against
 `/.netlify/identity/user`, and have the page fetch it after login.
 
-To add a check: work it out in Liquid at the top of `_pages/admin-stats.html`,
-push a sentence onto `upkeep`, and it renders itself. Don't add one that
-needs its own copy of something the site already knows — a reminder that
-drifts is worse than no reminder.
+To add a check: work it out in Liquid in `_includes/upkeep-data.html`, push a
+sentence and its list of rows onto `upkeep`, and push those rows' keys onto
+`upkeep_keys`, and it renders itself — the file says which markup the panel
+reads and how to key a row, which is what makes "set aside" silence one thing
+and not twenty. Don't add a check that needs its own copy of something the site
+already knows — a reminder that drifts is worse than no reminder.
 
 ### The parts no build can check
 
