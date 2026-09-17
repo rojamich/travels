@@ -1,5 +1,5 @@
 ---
-title: Streetart + Pastries + Dogs = Heaven
+title: Street Art + Pastries + Dogs = Heaven
 date: 2026-09-16
 categories:
   - cafes-tango-time
