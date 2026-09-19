@@ -6,7 +6,7 @@ categories:
 order: 3
 header:
   teaser_focal_x: 50
-  teaser_focal_y: 43
+  teaser_focal_y: 54
   overlay_focal_x: 50
   overlay_focal_y: 45
   overlay_filter: 0.4
@@ -40,7 +40,7 @@ We were allowed to pet them and get to see their different personalities! And di
 
 The crew covered who we would be sledding with and even taught us how to harness them up 🪢
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789832453%2Frnabvleoyhkmfjko4bga.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789832450%2Fuslhy25hpy6t7hkagrw4.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789832509%2Ftjtd1lcba42fwlnxegw3.jpg%22%7D%5D%2C%22caption%22%3A%22I'm%20so%20happy%20I'm%20jumping%20for%20joy!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789832453%2Frnabvleoyhkmfjko4bga.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789832450%2Fuslhy25hpy6t7hkagrw4.jpg%22%7D%2C%7B%22x%22%3A%2249%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789832509%2Ftjtd1lcba42fwlnxegw3.jpg%22%7D%5D%2C%22caption%22%3A%22I'm%20so%20happy%20I'm%20jumping%20for%20joy!%22%7D %}
 
 The ride was so freaking cool. 
 
@@ -48,7 +48,7 @@ The ride was so freaking cool.
 
 Our awesome instructor taught us every detail of turning, stopping, slowing, and how to avoid falling off (which is really common!)
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789832578%2Ft6puxxqsxcvhvse4mrcv.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789832582%2Fc8m0xq6mzrvhcd11hobe.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789832593%2Fng4axb7uqri7iv5ydezo.jpg%22%7D%5D%2C%22caption%22%3A%22Its%20so%20cold%20and%20I%20can't%20feel%20my%20fingers!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2249%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789832578%2Ft6puxxqsxcvhvse4mrcv.jpg%22%7D%2C%7B%22x%22%3A%22100%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789832582%2Fc8m0xq6mzrvhcd11hobe.jpg%22%7D%2C%7B%22x%22%3A%22100%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789832593%2Fng4axb7uqri7iv5ydezo.jpg%22%7D%5D%2C%22caption%22%3A%22Its%20so%20cold%20and%20I%20can't%20feel%20my%20fingers!%22%7D %}
 
 It wasn't as fast moving as I thought it would be! We also didn't see a moose yet which was good under these conditions. They have a crew member riding their snow mobile ahead to make sure there aren't any on the trail (apparently there was on the morning before!)
 
