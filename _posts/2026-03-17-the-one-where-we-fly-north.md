@@ -6,7 +6,7 @@ categories:
 order: 2
 header:
   teaser_focal_x: 50
-  teaser_focal_y: 50
+  teaser_focal_y: 7
   overlay_focal_x: 50
   overlay_focal_y: 50
   overlay_filter: 0.4
@@ -31,13 +31,13 @@ Naturally, we stopped at Powell's bookstore because, who could resist the book s
 
 The next morning, our flight was early (hence staying the night in Portland) so we grabbed coffee and a snack at the airport before our 1 hour flight to Seattle. We connected there to Fairbanks and arrived to a parking lot filled with snow-covered cars. 
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789766939%2Fpjfxtiy45ylbzib3xssg.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789830350%2Fn0tssoszupt0a1b5867i.jpg%22%7D%5D%2C%22caption%22%3A%22This%20is%20in%20short-term%20parking!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2265%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789766939%2Fpjfxtiy45ylbzib3xssg.jpg%22%7D%2C%7B%22x%22%3A%2220%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789830350%2Fn0tssoszupt0a1b5867i.jpg%22%7D%5D%2C%22caption%22%3A%22This%20is%20in%20short-term%20parking!%22%7D %}
 
 We got a 4Runner for the crazy driving we'd be doing here and I was stoked to be back in one. We almost bought one when we moved to Oregon but decided to go on several vacations rather than spend $40k+ on a 4Runner. 
 
 Pulling up to the Airbnb we were like...what have we got ourselves into??
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789831473%2Fei5kyvrn1lqrw1rzuppa.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789831473%2Fawemrquqizvpsnozsels.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789831473%2Fxhrwe3owehqjxr2irmi0.jpg%22%7D%5D%2C%22caption%22%3A%22The%20last%20photo%20is%20the%20front%20yard!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2229%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789831473%2Fei5kyvrn1lqrw1rzuppa.jpg%22%7D%2C%7B%22x%22%3A%22100%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789831473%2Fawemrquqizvpsnozsels.jpg%22%7D%2C%7B%22x%22%3A%2274%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1789831473%2Fxhrwe3owehqjxr2irmi0.jpg%22%7D%5D%2C%22caption%22%3A%22The%20last%20photo%20is%20the%20front%20yard!%22%7D %}
 
 This is easily the most snow we had ever seen!
 
