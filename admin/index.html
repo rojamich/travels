@@ -101,12 +101,54 @@
         return /\/\.netlify\/git\//.test(url) || /api\.github\.com/.test(url);
       }
 
+      // -----------------------------------------------------------------
+      // The notes lookup that Git Gateway will never answer
+      // -----------------------------------------------------------------
+      // decap-cms-core 3.17 added "notes": comments kept as GitHub issues
+      // under the label decap-cms-notes. It looks for one when an entry is
+      // opened, and again when the entry is published, to close it.
+      //
+      // Git Gateway proxies an allowlist of GitHub's API — contents, refs,
+      // trees, commits, pulls — and /search/ is not on it. So the lookup
+      // comes back
+      //
+      //   401  Access to endpoint not allowed: this part of GitHub's API
+      //        has been restricted
+      //
+      // every single time, and publishing prints a red "Failed to close
+      // notes issue on publish" that means nothing and fixes nothing.
+      //
+      // It cannot be made to work. The query Decap builds is
+      // `repo: label:decap-cms-notes "posts/…"` — with nothing after
+      // `repo:`, because that comes from the `repo` setting and a
+      // git-gateway config hasn't got one: the gateway knows the
+      // repository server-side. The feature is asking a question this
+      // backend has no way to be asked.
+      //
+      // So answer it here, truthfully: there are no notes. Decap reads an
+      // empty list, finds no issue to close, and says nothing. This is not
+      // hiding an error — it is giving a correct answer to a question that
+      // was getting a misleading one.
+      function isNotesSearch(url, method) {
+        if (!/^GET$/i.test(method || "GET")) return false;
+        return /\/\.netlify\/git\/[^/]+\/search\/issues/.test(url);
+      }
+
+      function noNotes() {
+        return Promise.resolve(new Response(
+          JSON.stringify({ total_count: 0, incomplete_results: false, items: [] }),
+          { status: 200, headers: { "Content-Type": "application/json" } }
+        ));
+      }
+
       var nativeFetch = window.fetch;
       if (typeof nativeFetch === "function") {
         window.fetch = function (input, init) {
           var url = (typeof input === "string") ? input : (input && input.url) || "";
           var method = (init && init.method) ||
                        (typeof input === "object" && input && input.method) || "GET";
+
+          if (isNotesSearch(url, method)) return noNotes();
 
           if (!isGitWrite(url, method)) return nativeFetch.apply(this, arguments);
 

@@ -24,6 +24,8 @@
  *     - whether a session gotrue quietly cleared is noticed at once
  *     - whether a dropped connection is told apart from a real logout,
  *       so a wifi blip puts the session back instead of ending it
+ *     - whether the notes lookup Git Gateway will never answer is answered
+ *       in the browser, and nothing else is
  *
  *     The functions are pulled out of admin/index.html as it is on disk, so
  *     this cannot drift away from what actually ships.
@@ -113,6 +115,27 @@ async function hit(url, method, status, opts = {}) {
   await hit("https://site/.netlify/git/github/git/refs/heads/main", "PATCH", 200);
   check("healthy again after a good write", W.healthy(), true);
   check("every call still reached the real fetch", calls.length, 8);
+
+  // ------------------------------------------------------- notes lookup
+  // Git Gateway proxies an allowlist of GitHub's API and /search/ is not on
+  // it, so decap-cms-core 3.17's notes lookup 401s every time and publishing
+  // prints a red error that means nothing. It is answered in the browser
+  // instead, with the truth: there are no notes. If that ever starts going
+  // out to the network again, the noise comes back.
+  const before = calls.length;
+  const notesUrl = "https://site/.netlify/git/github/search/issues" +
+    "?q=repo%3A%20label%3Adecap-cms-notes%20%22posts%2Fx%22%20in%3Abody%20state%3Aopen";
+  const notes = await win.fetch(notesUrl, { method: "GET" });
+  check("the notes lookup never leaves the browser", calls.length, before);
+  check("and is answered, not refused", notes.status, 200);
+  check("with no notes to close", (await notes.json()).items, []);
+
+  // Only that one endpoint. Everything else Decap reads must still go out,
+  // or this stops being a fix and starts being a hole.
+  await hit("https://site/.netlify/git/github/contents/_posts/a.md", "GET", 200);
+  check("an ordinary read still goes out", calls.length, before + 1);
+  await hit("https://site/.netlify/git/github/git/blobs", "POST", 201);
+  check("a save still goes out", calls.length, before + 2);
 
   // ------------------------------------------------------------- saveState
   console.log("\nsaveState — is the screen ahead of GitHub?");
