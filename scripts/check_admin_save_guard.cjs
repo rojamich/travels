@@ -371,7 +371,8 @@ async function hit(url, method, status, opts = {}) {
     const log = [];
     let fired = null;
     const fakeSetTimeout = (fn, ms) => { fired = ms; fn(); };
-    new Function("window", "setTimeout", "console", "saveState", "showSaveFailBar", "Date",
+    new Function("window", "setTimeout", "console", "saveState", "showSaveFailBar",
+                 "retryTheSave", "Date",
       "var SAVE_GRACE_MS = 30 * 1000;\n" +
       grab("watchThisSaveLands") + "\n" +
       "watchThisSaveLands();"
@@ -380,6 +381,7 @@ async function hit(url, method, status, opts = {}) {
       { warn: (m) => log.push("warn:" + m), log: () => {} },
       () => opts.state,
       (why) => log.push("bar:" + why),
+      (why) => { log.push("retry:" + why); return !!opts.retries; },
       { now: () => opts.now || 1000 });
     return { log, delay: fired };
   }
@@ -408,6 +410,15 @@ async function hit(url, method, status, opts = {}) {
         barred(saveWatch({ watch: { seenAny: true, lastOkMs: CLICK - 5000 },
                            state: "failed", now: CLICK })), false);
 
+  check("a save it can rescue is rescued, not reported",
+        barred(saveWatch({ watch: { seenAny: true, lastOkMs: CLICK - 5000 },
+                           state: "unsaved", now: CLICK, retries: true })), false);
+
+  check("and it is the retry that is reached for first",
+        saveWatch({ watch: { seenAny: true, lastOkMs: CLICK - 5000 },
+                    state: "unsaved", now: CLICK, retries: true }).log[0],
+        "retry:watchdog");
+
   const caught = saveWatch({ watch: { seenAny: true, lastOkMs: CLICK - 5000 },
                              state: "unsaved", now: CLICK });
   check("speaks up when the save simply never arrived", barred(caught), true);
@@ -416,6 +427,172 @@ async function hit(url, method, status, opts = {}) {
   check("and leaves a line in the console for you",
         caught.log.some((l) => /nothing has reached GitHub/.test(l)), true);
 
-  console.log(`\n${pass} passed, ${fail} failed`);
+    // --------------------------------------------------- saving again
+  // A save that died because the session had been cleared is worth one more
+  // attempt: nothing of it reached GitHub, her words never left the page,
+  // and the refresh token was never spent. Every one of these rules exists
+  // to keep that from becoming "press buttons and hope".
+  console.log("\nretrying a save the dropped session killed");
+
+  const tokenWasGone = new Function("return " + grab("tokenWasGone"))();
+  check("gotrue's own words are the signal",
+        tokenWasGone("Gotrue-js: failed getting jwt access token"), true);
+  check("a refresh that failed is a different problem", tokenWasGone("Failed to fetch"), false);
+  check("so is a rejected login", tokenWasGone("invalid_grant"), false);
+  check("and nothing at all is not a signal", tokenWasGone(""), false);
+  check("nor is undefined", tokenWasGone(undefined), false);
+
+  const reasonMessage = new Function("return " + grab("reasonMessage"))();
+  check("an Error is read for its message",
+        reasonMessage(new Error("Gotrue-js: failed getting jwt access token")),
+        "Gotrue-js: failed getting jwt access token");
+  check("a string is its own message", reasonMessage("boom"), "boom");
+  check("Decap's #<Object> is searched too",
+        tokenWasGone(reasonMessage({ err: "Gotrue-js: failed getting jwt access token" })), true);
+  check("nothing rejected, nothing to read", reasonMessage(null), "");
+
+  const shouldRetry = new Function(
+    "var RETRY_WINDOW_MS = 60 * 1000;\nreturn " + grab("shouldRetrySave"))();
+  const NOW = 500000;
+  const died = { clickedAt: NOW - 2000, isPublish: false, retried: false,
+                 lastOkMs: NOW - 90000, sessionBack: true };
+  const but = (o) => Object.assign({}, died, o);
+
+  check("a save that died with the session put back is retried",
+        shouldRetry(NOW, died), true);
+  check("Publish is never pressed again for her", shouldRetry(NOW, but({ isPublish: true })), false);
+  check("once is once", shouldRetry(NOW, but({ retried: true })), false);
+  check("a save nobody started is not retried", shouldRetry(NOW, but({ clickedAt: 0 })), false);
+  check("nor one from two minutes ago",
+        shouldRetry(NOW, but({ clickedAt: NOW - 120000 })), false);
+  check("a save that actually landed is left alone",
+        shouldRetry(NOW, but({ lastOkMs: NOW - 1000 })), false);
+  check("and without a session there is nothing to retry with",
+        shouldRetry(NOW, but({ sessionBack: false })), false);
+  check("no context at all is not a retry", shouldRetry(NOW, null), false);
+
+  // The button it presses. Publish must be unreachable from here however
+  // the toolbar is worded, because pressing it is the one thing in this
+  // editor that cannot be taken back.
+  const findSaveButton = new Function("document", "return " + grab("findSaveButton"))(
+    { querySelectorAll: () => [
+        { textContent: "Publish" }, { textContent: "Publish now" },
+        { textContent: "Set status: Ready" }, { textContent: "Delete unpublished entry" },
+        { textContent: " Save " }, { textContent: "Save and publish" }] });
+  check("it finds Save", (findSaveButton() || {}).textContent, " Save ");
+
+  const noSave = new Function("document", "return " + grab("findSaveButton"))(
+    { querySelectorAll: () => [{ textContent: "Publish" }, { textContent: "Save and publish" }] });
+  check("and finds nothing rather than something near enough", noSave(), null);
+
+  // ------------------------------------------- and pressing the button
+  // The rules above decide whether to retry. This is the part that actually
+  // presses Save in her editor, so it is worth watching it do it.
+  console.log("\nretryTheSave — what it actually does");
+
+  function retryRig(opts) {
+    const log = [];
+    const button = { textContent: "Save", click: () => log.push("CLICKED SAVE") };
+    const doc = { querySelectorAll: () => (opts.noButton ? [] : [button]) };
+    let restored = false;
+
+    const made = new Function(
+      "window", "document", "console", "Date",
+      "currentUserOrNull", "signedOutOnPurpose", "putSessionBack", "lastGoodSession",
+      "showToast", "tokenSecondsLeft", "refreshNow",
+      "safeToShowDeadModal", "showDeadSessionModal", "watchThisSaveLands", "seed",
+      "var RETRY_WINDOW_MS = 60 * 1000;\n" +
+      "var lastSaveClick = seed;\n" +
+      grab("shouldRetrySave") + "\n" +
+      grab("findSaveButton") + "\n" +
+      grab("reviveSession") + "\n" +
+      grab("retryTheSave") + "\n" +
+      "return { retry: retryTheSave, click: function () { return lastSaveClick; } };"
+    )(
+      { __SAVE_WATCH: opts.watch || { lastOkMs: 0 } },
+      doc,
+      { log: (m) => log.push("log:" + m), warn: (m) => log.push("warn:" + m) },
+      { now: () => opts.now },
+      () => (opts.alive ? { id: "u" } : null),
+      !!opts.signedOut,
+      () => { restored = !opts.cannotRestore; return restored; },
+      opts.cannotRestore ? null : "{\"a\":1}",
+      (t) => log.push("toast:" + t),
+      () => (opts.tokenLeft === undefined ? 900 : opts.tokenLeft),
+      (why) => { log.push("refresh:" + why); return Promise.resolve(!opts.refreshFails); },
+      () => true,
+      (why) => log.push("modal:" + why),
+      () => log.push("rewatch"),
+      opts.seed || { at: opts.now - 3000, isPublish: false, retried: false }
+    );
+    return { log, made, restored: () => restored };
+  }
+
+  const NOW2 = 900000;
+
+  // The whole point: the session was gone, it goes back, Save is pressed.
+  {
+    const r = retryRig({ now: NOW2, alive: false });
+    const took = r.made.retry("token-gone");
+    await Promise.resolve(); await Promise.resolve();
+    check("it takes the save on", took, true);
+    check("it puts the session back", r.restored(), true);
+    check("it tells her before doing it",
+          r.log.some((l) => l.startsWith("toast:")), true);
+    check("and it presses Save", r.log.includes("CLICKED SAVE"), true);
+    check("then keeps watching the second attempt too", r.log.includes("rewatch"), true);
+  }
+
+  // Twice through the door -- the rejection fires AND the watchdog fires --
+  // must still be one press. Two saves of the same post is not a disaster,
+  // but it is not something to leave to chance either.
+  {
+    const r = retryRig({ now: NOW2, alive: false });
+    r.made.retry("token-gone");
+    const second = r.made.retry("watchdog");
+    await Promise.resolve(); await Promise.resolve();
+    check("a second caller is turned away", second, false);
+    check("and Save is pressed exactly once",
+          r.log.filter((l) => l === "CLICKED SAVE").length, 1);
+  }
+
+  // A live token that was never the problem: no need to spend a refresh on
+  // a network that may still be down.
+  {
+    const r = retryRig({ now: NOW2, alive: true, tokenLeft: 900 });
+    r.made.retry("token-gone");
+    await Promise.resolve(); await Promise.resolve();
+    check("a healthy token is not renewed for nothing",
+          r.log.some((l) => l.startsWith("refresh:")), false);
+    check("it just saves", r.log.includes("CLICKED SAVE"), true);
+  }
+
+  // Nearly out of time: renew first, then save.
+  {
+    const r = retryRig({ now: NOW2, alive: true, tokenLeft: 30 });
+    r.made.retry("token-gone");
+    await Promise.resolve(); await Promise.resolve(); await Promise.resolve();
+    check("a token nearly out of time is renewed first",
+          r.log.indexOf("refresh:save-retry") < r.log.indexOf("CLICKED SAVE"), true);
+  }
+
+  // Nothing to put back, or she signed out on purpose. Either way, hands off.
+  {
+    const r = retryRig({ now: NOW2, alive: false, cannotRestore: true });
+    check("no session to restore, no retry", r.made.retry("token-gone"), false);
+    check("and Save is left alone", r.log.includes("CLICKED SAVE"), false);
+  }
+  {
+    const r = retryRig({ now: NOW2, alive: false, signedOut: true });
+    check("she signed out, so it stays out", r.made.retry("token-gone"), false);
+  }
+
+  // No Save button on screen -- she is somewhere else in the editor.
+  {
+    const r = retryRig({ now: NOW2, alive: true, noButton: true });
+    check("no button, no press", r.made.retry("token-gone"), false);
+  }
+
+console.log(`\n${pass} passed, ${fail} failed`);
   process.exit(fail ? 1 : 0);
 })();

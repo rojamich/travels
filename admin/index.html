@@ -485,6 +485,31 @@
           return false;
         }
       }
+      // -----------------------------------------------------------------
+      // The last session we know was good.
+      // -----------------------------------------------------------------
+      // putSessionBack() above can only put back what it took a copy of a
+      // moment earlier, which works when the refresh that failed was one of
+      // ours. It isn't always. Decap asks gotrue for a token on its own
+      // schedule, and gotrue refreshes inside jwt() whenever the token is
+      // within a minute of expiring — and clears localStorage in its catch
+      // whatever the catch was for. By the time this page notices, the copy
+      // is already gone.
+      //
+      // So keep one from whenever the session was last known good. It costs
+      // a string.
+      //
+      // Cleared on a deliberate sign-out, and never used after one: putting
+      // her back in because she pressed Sign out would be the worst kind of
+      // helpful.
+      var lastGoodSession = null;
+      var signedOutOnPurpose = false;
+      function rememberSession() {
+        if (signedOutOnPurpose) return;
+        var s = storedSession();
+        if (s) lastGoodSession = s;
+      }
+
       // A rejected fetch, a dead connection, a DNS failure. What these have
       // in common is that the server never saw the request.
       function looksLikeNetwork(msg) {
@@ -524,6 +549,7 @@
             consecutiveFailures = 0;
             networkFailures = 0;
             hideBanner();
+            rememberSession();
             console.log("[admin] JWT refreshed (" + reason + ")");
             return true;
           })
@@ -981,7 +1007,14 @@
             window.location.href = "/login/";
           } else {
             lastRefreshMs = Date.now();
+            rememberSession();
           }
+        });
+        netlifyIdentity.on("login", function () { signedOutOnPurpose = false; rememberSession(); });
+        // She meant it. Stop holding a copy, and never put one back.
+        netlifyIdentity.on("logout", function () {
+          signedOutOnPurpose = true;
+          lastGoodSession = null;
         });
 
         // Layer 1: periodic refresh (every 10 min — tightened from 20).
@@ -1240,11 +1273,150 @@
             if (!w || !w.seenAny) return;              // cannot tell; say nothing
             if (w.lastOkMs > clickedAt) return;        // something landed. good
             if (saveState() !== "unsaved") return;     // nothing was pending
+            // Last chance: if this is the token being gone, and it can be
+            // put back, save it rather than only complaining about it.
+            if (retryTheSave("watchdog")) return;
             console.warn("[admin] Save was pressed " + Math.round(SAVE_GRACE_MS / 1000) +
                          "s ago and nothing has reached GitHub");
             showSaveFailBar("it never completed");
           }, SAVE_GRACE_MS);
         }
+
+        // -----------------------------------------------------------------
+        // Saving again, once, when the login had dropped out from under it.
+        // -----------------------------------------------------------------
+        // What she saw was "there was an error getting token" on Save. That
+        // sentence is gotrue's, and it is worth knowing exactly when gotrue
+        // says it:
+        //
+        //   jwt(force) {
+        //     const details = this.tokenDetails();
+        //     if (details == null)
+        //       return Promise.reject(new Error(
+        //         "Gotrue-js: failed getting jwt access token"));
+        //
+        // It is not a fetch that failed. It is there being no token at all —
+        // the session had already been cleared, by some earlier refresh that
+        // died when the network went away (her log: .netlify/identity/token,
+        // net::ERR_NETWORK_IO_SUSPENDED, a laptop going to sleep). Decap
+        // asked for a token to save with, got nothing, and gave up.
+        //
+        // Every piece of that is recoverable. The refresh token was never
+        // spent, so the session in lastGoodSession is still good; her words
+        // never left the page; and the save had not begun, so nothing
+        // half-finished is sitting on GitHub. What was missing was anyone to
+        // put the session back and press the button again — which is what
+        // she did by hand, by reloading and saving a second time.
+        //
+        // So do that for her, under conditions narrow enough to be sure:
+        //
+        //   - a Save was clicked, recently, and has not been retried
+        //   - nothing of it reached GitHub, so there is nothing to undo
+        //   - it was Save and not Publish. Publishing is the one thing in
+        //     this editor that is hard to take back, and the publish guard
+        //     exists to stop exactly that happening by accident
+        //   - the session can actually be put back
+        //
+        // Once. If the second attempt fails too, this is not a blip and she
+        // needs to be told, which is what the bar and the modal are for.
+        var RETRY_WINDOW_MS = 60 * 1000;
+        var lastSaveClick = null;
+
+        // gotrue's own words, and only those. A token that failed to refresh
+        // says something else entirely and is somebody else's problem.
+        function tokenWasGone(msg) {
+          return /failed getting jwt access token/i.test(msg || "");
+        }
+
+        function reasonMessage(reason) {
+          if (!reason) return "";
+          if (typeof reason === "string") return reason;
+          if (reason.message) return reason.message;
+          try { return JSON.stringify(reason); } catch (e) { return String(reason); }
+        }
+
+        // Kept pure and apart from the DOM so it can be argued with in the
+        // test rather than in the editor at the worst possible moment.
+        function shouldRetrySave(now, ctx) {
+          if (!ctx || !ctx.clickedAt) return false;        // no save in flight
+          if (ctx.isPublish) return false;                 // never re-press Publish
+          if (ctx.retried) return false;                   // once, and once only
+          if (now - ctx.clickedAt > RETRY_WINDOW_MS) return false;
+          if (ctx.lastOkMs && ctx.lastOkMs > ctx.clickedAt) return false;  // it landed
+          if (!ctx.sessionBack) return false;              // nothing to retry with
+          return true;
+        }
+
+        // Exact text, so that Publish, "Publish now" and "Set status" cannot
+        // be caught by it however the toolbar is worded.
+        function findSaveButton() {
+          var els = document.querySelectorAll("button, [role='button']");
+          for (var i = 0; i < els.length; i++) {
+            if ((els[i].textContent || "").trim().toLowerCase() === "save") return els[i];
+          }
+          return null;
+        }
+
+        // Putting the session back is worth doing on its own account, before
+        // any question of retrying: gotrue only says what it said when the
+        // session is gone, and a session gone that way was never spent. If
+        // there turns out to be no save to retry, she is still signed in,
+        // which is the right outcome either way.
+        function reviveSession() {
+          if (currentUserOrNull()) return true;
+          if (signedOutOnPurpose) return false;
+          return putSessionBack(lastGoodSession);
+        }
+
+        function retryTheSave(why) {
+          var w = window.__SAVE_WATCH;
+          var alive = !!currentUserOrNull();
+          var back = reviveSession();
+          if (!shouldRetrySave(Date.now(), {
+                clickedAt: lastSaveClick && lastSaveClick.at,
+                isPublish: lastSaveClick && lastSaveClick.isPublish,
+                retried: lastSaveClick && lastSaveClick.retried,
+                lastOkMs: w && w.lastOkMs,
+                sessionBack: back
+              })) return false;
+
+          var btn = findSaveButton();
+          if (!btn) return false;
+
+          lastSaveClick.retried = true;
+          if (!alive) {
+            console.log("[admin] the session was gone at save time — put it back from " +
+                        "the last good copy (" + why + ")");
+          }
+          showToast("Your login had dropped. Saving again…", "#f0ad4e");
+
+          // Only renew if the restored token actually needs it. It was never
+          // spent, and asking a network that just went away for a new one is
+          // how this started.
+          var left = tokenSecondsLeft();
+          var ready = (left !== null && left > 120)
+            ? Promise.resolve(true)
+            : refreshNow("save-retry");
+
+          ready.then(function (ok) {
+            if (!ok && !currentUserOrNull()) {
+              if (safeToShowDeadModal()) showDeadSessionModal("save-retry-no-session");
+              return;
+            }
+            console.log("[admin] saving again after the login was restored (" + why + ")");
+            btn.click();
+            watchThisSaveLands();
+          });
+          return true;
+        }
+
+        // Decap reports this as an unhandled rejection and nothing else, so
+        // this is the only place it can be heard.
+        window.addEventListener("unhandledrejection", function (ev) {
+          if (!tokenWasGone(reasonMessage(ev && ev.reason))) return;
+          console.warn("[admin] a save asked for a token and there wasn't one");
+          retryTheSave("token-gone");
+        });
 
         // Layer 3: refresh on every Save / Publish click.
         // ---------------------------------------------------------------
@@ -1300,6 +1472,11 @@
                 });
                 return;
               }
+              lastSaveClick = {
+                at: Date.now(),
+                isPublish: looksLikeShipButton(el),
+                retried: false
+              };
               refreshNow("save-click");
               watchThisSaveLands();
               return;
