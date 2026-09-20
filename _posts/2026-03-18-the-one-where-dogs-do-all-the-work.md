@@ -16,6 +16,7 @@ tags:
   - Dogs
   - DogSledding
   - Adventure
+  - Bucketlist
 new_tags: []
 stay: night
 toc: false
