@@ -15,6 +15,40 @@
   RUBY_VERSION = "3.1.4"
 
 # -----------------------------------------------------------------------------
+# Deploy previews — the free copy of the site she checks her post on.
+# -----------------------------------------------------------------------------
+# Netlify bills a production deploy at 15 credits and a deploy preview at
+# nothing. That is the whole reason this exists.
+#
+# Editorial workflow opens a pull request for every post, so every Save gets
+# a preview build: the entire site, real layouts, real trip page, real
+# galleries, at its own URL. She can look at the post as it will actually
+# appear, fix what the editor's preview pane didn't show her, and look again,
+# as many times as it takes, without spending anything. Only the publish that
+# puts it in front of readers costs.
+#
+# This replaces an older arrangement where previews were turned OFF to save
+# build minutes. That was right when the plan was metered in minutes. Under
+# credits it is backwards: previews are the free one.
+#
+# Nothing here changes how the preview is built — same command, same
+# JEKYLL_ENV — because a preview that builds differently from production is
+# not a preview. The one difference is that search engines are told to keep
+# out. A deploy preview is a public URL serving a complete copy of the site,
+# and an unfinished post is not something to be indexed, nor is a second copy
+# of every finished one.
+# -----------------------------------------------------------------------------
+[[context.deploy-preview.headers]]
+  for = "/*"
+  [context.deploy-preview.headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+[[context.branch-deploy.headers]]
+  for = "/*"
+  [context.branch-deploy.headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+# -----------------------------------------------------------------------------
 # Headers — small UX/security tweaks for the admin route.
 # -----------------------------------------------------------------------------
 [[headers]]

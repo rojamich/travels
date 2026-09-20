@@ -22,15 +22,31 @@ backend:
     deleteMedia: 'Delete {{path}}'
 
 # -----------------------------------------------------------------------------
-# Editorial workflow — drafts don't trigger builds; only Publish does
+# Editorial workflow — saves are free, publishing is what costs
 # -----------------------------------------------------------------------------
 # When this is on, "Save" stores a draft on a separate branch (cms/...) and
-# does NOT trigger a Netlify build. Only when she clicks "Publish" (or drags
-# a card to "Ready") does the change merge to main and the site rebuild.
+# does NOT deploy the live site. Only when she clicks "Publish" (or drags a
+# card to "Ready") does the change merge to main and the site rebuild.
 #
-# IMPORTANT: in Netlify dashboard, Site configuration → Build & Deploy →
-# Deploy Previews → set to "Don't build deploy previews". Otherwise Netlify
-# builds every CMS branch and the credit savings vanish.
+# That is worth more than it used to be. Netlify bills a production deploy at
+# 15 credits and gives the free plan 300 a month — twenty deploys, shared with
+# bandwidth — so every publish is a real cost and every save must not be one.
+#
+# Each save DOES get a deploy preview, which is free and is the point: the
+# whole site built from her branch, at its own URL, so she can see the post as
+# it will really look and fix it before spending anything. Decap puts the link
+# on the workflow card.
+#
+# In the Netlify dashboard that is Site configuration → Build & deploy →
+# Branches and deploy contexts:
+#   Deploy Previews  → "Any pull request against your production branch"
+#   Branch deploys   → None. The pull request preview already covers every
+#                       cms/ branch; "All" would just build each one twice.
+#
+# An earlier version of this comment said to turn deploy previews OFF to
+# protect the build allowance. That was right while the plan was metered in
+# build minutes. It is wrong under credits, where previews are the free one —
+# don't turn them back off.
 publish_mode: editorial_workflow
 
 # Where the live site lives. Used by the "preview" feature.

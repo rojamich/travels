@@ -181,8 +181,17 @@ tells VS Code to treat that file (and `manifest.json`, same story) as plain text
 so the red squiggle is gone. If it ever comes back, that settings file is missing
 or the filename changed.
 
-**Netlify skips "deploy preview" builds.** Deliberate — deploy previews are
-turned off so Jen's drafts don't burn build minutes.
+**Every save builds a preview of the whole site, and it's free.** Netlify
+charges 15 credits for a production deploy and nothing for a deploy preview,
+so checking a post costs nothing and publishing it costs. The link appears on
+the post's card in the **Workflow** tab once the build finishes — a minute or
+so after saving. It is the real site, built the real way, so what it shows is
+what you'll get.
+
+This used to be turned off, back when the plan was billed in build minutes
+and previews spent them. Under credits that reasoning is backwards. If you
+ever find deploy previews disabled in the Netlify dashboard, that's a
+regression, not a saving.
 
 ---
 

@@ -16,8 +16,9 @@ You do **everything from a web browser**. No code editor, no terminal, no instal
 5. Drag photos into the **Cover**, **Banner**, and **Gallery** fields. They upload automatically (no compression needed — Cloudinary handles it).
 6. Write your post in the big **Body** box at the bottom.
 7. Click **Save** as often as you want while writing — your changes are saved as a draft and **don't go live yet**.
-8. When the post is finished and you want it visible to the world, click the **Status** dropdown → **Ready**, then click **Publish**.
-9. Within ~1 minute the post is live on the site.
+8. A minute after saving, the post's card in the **Workflow** tab gets a **preview link**. Open it: that's the whole site, built for real, with your post in it. Check it there, fix anything that looks wrong, save again. As many rounds as you like — previews are free.
+9. When it looks right, click the **Status** dropdown → **Ready**, then click **Publish**.
+10. Within ~1 minute the post is live on the site.
 
 That's it.
 
@@ -25,8 +26,13 @@ That's it.
 
 This is the most important thing to understand:
 
-- **Save** = saves a draft. Doesn't trigger a build. Doesn't go live. Free to do as often as you want — every paragraph, every photo, every spelling fix. Drafts persist between sessions, so you can save and come back tomorrow.
-- **Publish** = puts the post live on the website. Costs one "build credit" each time. Use this when the post is genuinely done.
+- **Save** = saves a draft. Doesn't go live. Free to do as often as you want — every paragraph, every photo, every spelling fix. Drafts persist between sessions, so you can save and come back tomorrow.
+- **Preview** = the link on the Workflow card, a minute after each save. The real site with your post in it, at its own address. **Also free**, however many times you look. This is where you catch the things the editor's little preview pane doesn't show properly — how the banner crops, how the gallery lays out, how it sits on the trip page.
+- **Publish** = puts the post in front of readers. **This is the one that costs** — 15 credits, out of 300 a month on the free plan, which is about twenty publishes if nothing else is using them. Use it when the post is genuinely done.
+
+The habit worth having: check the preview until you're happy, then publish once. Publishing to see how it looks and then publishing again to fix it costs twice, and there are only about twenty of those in a month.
+
+If you have several posts ready, publishing them close together costs less than spreading them out — changes that go out in the same push share one build.
 
 Same applies to edits on existing posts — you can save many revisions of an edit without each one triggering a rebuild. Only the final Publish click matters.
 
