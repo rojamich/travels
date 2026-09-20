@@ -204,6 +204,112 @@
     post, upload a photo and save. Decap's release notes are at
     https://github.com/decaporg/decap-cms/releases
   -->
+  <!--
+    =========================================================================
+    THE SHARED NEW-POST BACKUP SLOT, REMOVED
+    =========================================================================
+    On 2026-09-19 she opened a new post, was asked "A local backup was
+    recovered for this entry, would you like to use it?", said yes, and got
+    a different post's abandoned draft — a few hundred characters — in place
+    of the one she had been writing.
+
+    That is not a misfire. It is what the feature does. Decap names a
+    backup after the entry:
+
+      function getEntryBackupKey(collection, slug) {
+        const base = "backup";
+        return collection ? `${base}.${collection}${slug ? `.${slug}` : ""}` : base;
+      }
+
+    A post being written for the first time has no slug yet, so the name
+    comes out as "backup.posts" — for every new post there has ever been.
+    One slot, shared. And the prompt does not compare anything:
+
+      if (!prev.localBackup && this.props.localBackup &&
+          (window.confirm(t("editor.editor.confirmLoadBackup"))
+             ? this.props.loadLocalBackup()
+             : this.deleteBackup()))
+
+    No timestamp, no length. Whatever is in the slot is offered, and yes
+    replaces the editor with it however old it is. The slot is only cleared
+    by a save that works, by answering no, or by navigating away properly —
+    so a reload after a failed save leaves it sitting there for the next
+    new post to be offered.
+
+    So the slot is emptied here, at load, and the question never gets asked
+    for a new post. It could only ever have been answered wrong: a backup
+    belonging to a post that has no name yet cannot be shown to belong to
+    the post now being written.
+
+    Backups of SAVED posts — backup.posts.<slug> — are left exactly alone.
+    Those name one entry, they are what that feature is for, and they work.
+
+    Nothing is lost by this. The safety net below keeps far more than Decap
+    ever did, per field and many versions deep, and it only ever reads back
+    on request — it cannot overwrite what is on screen, which is the whole
+    problem with the thing being removed.
+
+    Runs at load, while she is still on the collection list. Decap does not
+    read the slot until an entry editor mounts, which is a click and some
+    seconds away, so this is finished long before anything asks.
+    =========================================================================
+  -->
+  <script>
+    (function () {
+      // localForage's defaults, which Decap does not override.
+      var DB = "localforage", STORE = "keyvaluepairs", PREFIX = "localforage/";
+
+      // "backup" and "backup.<collection>" are the shared ones. Anything
+      // with a slug on the end — "backup.posts.2026-03-17-flying-north" —
+      // names a single entry and stays.
+      function isSharedSlot(key) {
+        return /^backup(\.[^.]+)?$/.test(String(key));
+      }
+
+      // localForage falls back to localStorage when it has to, under its
+      // own prefix.
+      try {
+        Object.keys(localStorage).forEach(function (k) {
+          if (k.indexOf(PREFIX) !== 0) return;
+          if (isSharedSlot(k.slice(PREFIX.length))) localStorage.removeItem(k);
+        });
+      } catch (e) {}
+
+      // And IndexedDB, which is what it uses when it can.
+      try {
+        // Only touch a database that is already there. indexedDB.open() on a
+        // name that does not exist CREATES it, empty, at version 1 — and an
+        // empty v1 with no object store is exactly the state localForage
+        // cannot open later. Without databases() to check with, leave it be:
+        // the prompt is a nuisance, breaking her editor's storage is not.
+        if (!window.indexedDB || !indexedDB.databases) return;
+        indexedDB.databases().then(function (list) {
+          if (!(list || []).some(function (d) { return d && d.name === DB; })) return;
+          var open = indexedDB.open(DB);
+          open.onsuccess = function () {
+            var db = open.result;
+            try {
+              if (!db.objectStoreNames.contains(STORE)) { db.close(); return; }
+              var tx = db.transaction(STORE, "readwrite");
+              var store = tx.objectStore(STORE);
+              var keys = store.getAllKeys();
+              keys.onsuccess = function () {
+                (keys.result || []).forEach(function (k) {
+                  if (!isSharedSlot(k)) return;
+                  store.delete(k);
+                  console.log("[admin] dropped Decap's shared new-post backup (" + k + ")");
+                });
+              };
+              tx.oncomplete = function () { db.close(); };
+              tx.onerror = function () { db.close(); };
+            } catch (e) { try { db.close(); } catch (e2) {} }
+          };
+          open.onerror = function () {};
+        }).catch(function () {});
+      } catch (e) {}
+    })();
+  </script>
+
   <script src="https://unpkg.com/decap-cms@3.15.1/dist/decap-cms.js"></script>
 
   <!-- Cloudinary media library plugin for Decap (drag-and-drop uploads) -->
@@ -636,14 +742,12 @@
       }
 
       // -----------------------------------------------------------------
-      // Autosave-to-localStorage safety net (aggressive version).
+      // Autosave-to-localStorage safety net.
       // -----------------------------------------------------------------
-      // Independent of Decap's git-gateway save flow. Snapshots every
-      // editor's content to localStorage and — critically — keeps a
-      // rolling history of the last N snapshots per editor rather than
-      // overwriting a single key. That way, if a save fails and Decap
-      // resets the DOM to the last-known-good state, we still have the
-      // pre-error content history to recover from.
+      // Independent of Decap's git-gateway save flow. Keeps a rolling
+      // history of what was on screen rather than overwriting one slot, so
+      // that when a save fails and Decap puts the last-known-good state back
+      // in the DOM, the version she had actually written is still here.
       //
       // Snapshots trigger on:
       //   - every keystroke/paste (input event), debounced 1.5s
@@ -651,26 +755,52 @@
       //   - tab hide (visibilitychange) and page unload — final capture
       //
       // Recovery commands (console):
-      //   RECOVERY_LATEST()        → prints newest snapshot per editor
-      //   RECOVERY_HISTORY()       → prints all snapshots with timestamps
-      //   RECOVERY_COPY(N)         → copies snapshot #N's content to clipboard
-      //   RECOVERY_FORM()          → every field of the form, newest first
-      //   RECOVERY_FORM_COPY()     → copies the whole form, labelled, to clipboard
+      //   RECOVERY_LIST()          → every version kept, with age and size
+      //   RECOVERY_FORM(N)         → prints version N, field by field
+      //   RECOVERY_FORM_COPY(N)    → copies version N, labelled, to clipboard
       //
-      // Snapshots older than 14 days are cleaned up on load. Max ~20
-      // snapshots per editor key to keep localStorage size bounded.
+      // THERE USED TO BE TWO OF THESE. A second set of keys,
+      // editor-snapshot: and editor-history:, stored the raw text of every
+      // editable element on the page, with its own three RECOVERY_ commands.
+      // It was written before the form capture below existed and kept
+      // afterwards out of caution, but the form capture is strictly better
+      // at the same job — it knows which field is which, it keeps the body's
+      // markup, and it is what the recovery commands people actually reach
+      // for read from. Two copies of her post per snapshot, in a store with
+      // a five-megabyte ceiling, bought nothing.
+      //
+      // It is gone, and its keys are deleted on sight to give the space
+      // back. That space is why the history below is thirty versions deep
+      // now rather than twelve: when a draft was lost on 2026-09-19 the
+      // question was whether the good version was still in the ring buffer,
+      // and twelve is not many when a snapshot lands every few seconds.
+      //
+      // Versions older than 14 days are cleaned up on load.
       (function () {
-        var SNAP_PREFIX = "editor-snapshot:";      // legacy single-slot key
-        var HIST_PREFIX = "editor-history:";       // rolling history array
         var MAX_AGE_MS  = 14 * 24 * 60 * 60 * 1000;
-        var MAX_HIST    = 20;
-        var lastContent = {};                       // key → last stored content
+        // The two prefixes the removed second copy used to write under.
+        // Nothing writes them any more, so they age out and are gone — but
+        // they age out rather than being deleted on sight, and that is the
+        // point. Whatever is in them right now may be the only copy of a
+        // draft somebody is in the middle of recovering; the first thing
+        // this code would otherwise do on the first load after the upgrade
+        // is throw it away. Space taken by a fortnight-old snapshot is not
+        // worth a single lost post.
+        var DEAD_PREFIXES = ["editor-snapshot:", "editor-history:"];
+
+        function isOurs(k) {
+          if (k.indexOf(FORM_PREFIX) === 0) return true;
+          for (var i = 0; i < DEAD_PREFIXES.length; i++) {
+            if (k.indexOf(DEAD_PREFIXES[i]) === 0) return true;
+          }
+          return false;
+        }
 
         function cleanOld() {
           try {
             var now = Date.now();
             Object.keys(localStorage).forEach(function (k) {
-              if (k.indexOf(SNAP_PREFIX) !== 0 && k.indexOf(HIST_PREFIX) !== 0) return;
+              if (!isOurs(k)) return;
               try {
                 var raw = JSON.parse(localStorage.getItem(k));
                 var newest = 0;
@@ -679,6 +809,9 @@
                 } else if (raw && raw.ts) {
                   newest = raw.ts;
                 }
+                // Nothing datable in it is nothing worth keeping, but an
+                // unreadable key is not worth throwing her history away over
+                // either — only drop it when it is genuinely old.
                 if (newest && (now - newest) > MAX_AGE_MS) localStorage.removeItem(k);
               } catch (e) {
                 localStorage.removeItem(k);
@@ -687,73 +820,22 @@
           } catch (e) {}
         }
 
-        function collectEditors() {
-          return document.querySelectorAll(
-            'textarea, [contenteditable="true"], [role="textbox"]'
-          );
-        }
-
-        function snapshot(reason) {
-          try {
-            var editors = collectEditors();
-            var totalLen = 0;
-            var changedKeys = [];
-            editors.forEach(function (el, i) {
-              var val = el.value || el.innerText || "";
-              if (val.length < 100) return;
-              totalLen += val.length;
-              var key = (el.id || el.name || ("editor-" + i));
-              // Skip if content unchanged since last capture — avoids
-              // storing duplicate snapshots on the 5s interval.
-              if (lastContent[key] === val) return;
-              lastContent[key] = val;
-              changedKeys.push(key);
-
-              // 1) Legacy single-slot key (for backwards-compat).
-              localStorage.setItem(SNAP_PREFIX + key, JSON.stringify({
-                ts: Date.now(), url: location.href, len: val.length, content: val
-              }));
-              // 2) Rolling history — append + trim.
-              var histKey = HIST_PREFIX + key;
-              var hist;
-              try { hist = JSON.parse(localStorage.getItem(histKey)) || []; }
-              catch (e) { hist = []; }
-              hist.push({ ts: Date.now(), url: location.href, len: val.length, content: val });
-              if (hist.length > MAX_HIST) hist = hist.slice(-MAX_HIST);
-              try {
-                localStorage.setItem(histKey, JSON.stringify(hist));
-              } catch (quotaErr) {
-                // Quota exceeded — drop oldest half of history and retry.
-                hist = hist.slice(-Math.floor(MAX_HIST / 2));
-                try { localStorage.setItem(histKey, JSON.stringify(hist)); } catch (e2) {}
-              }
-            });
-            if (changedKeys.length > 0) {
-              console.log("[safety-net] " + reason + " → snapshot " + totalLen +
-                          " chars, changed: " + changedKeys.join(", "));
-            }
-            snapshotForm(reason);
-          } catch (e) {
-            console.warn("[safety-net] snapshot failed:", e && e.message);
-          }
-        }
-
         // Debounced input handler — catches every keystroke within 1.5s.
         var inputTimer = null;
         document.addEventListener("input", function () {
           if (inputTimer) clearTimeout(inputTimer);
-          inputTimer = setTimeout(function () { snapshot("input"); }, 1500);
+          inputTimer = setTimeout(function () { snapshotForm("input"); }, 1500);
         }, true);
 
         // Also fire on tab hide / page unload as a last-chance capture.
         document.addEventListener("visibilitychange", function () {
-          if (document.visibilityState === "hidden") snapshot("hide");
+          if (document.visibilityState === "hidden") snapshotForm("hide");
         });
-        window.addEventListener("pagehide", function () { snapshot("pagehide"); });
-        window.addEventListener("beforeunload", function () { snapshot("beforeunload"); });
+        window.addEventListener("pagehide", function () { snapshotForm("pagehide"); });
+        window.addEventListener("beforeunload", function () { snapshotForm("beforeunload"); });
 
         cleanOld();
-        setInterval(function () { snapshot("interval"); }, 5 * 1000);   // was 30s
+        setInterval(function () { snapshotForm("interval"); }, 5 * 1000);
 
         // -----------------------------------------------------------------
         // Whole-form capture.
@@ -772,7 +854,7 @@
         // because the rich-text editor renders bold, links and images as
         // markup -- innerText silently flattens all of it.
         var FORM_PREFIX = "editor-form:";
-        var MAX_FORM_HIST = 12;
+        var MAX_FORM_HIST = 30;   // was 12, before the second copy was deleted
         var lastForm = {};
 
         function formKey() {
@@ -948,56 +1030,36 @@
 
         // Called the moment a lost session is detected, so her words are
         // on disk before any modal or re-login touches the page.
-        window.__FORCE_SNAPSHOT = function (reason) { snapshot(reason || "forced"); };
+        window.__FORCE_SNAPSHOT = function (reason) { snapshotForm(reason || "forced"); };
 
-        // Recovery helpers exposed on window for console use.
-        window.RECOVERY_LATEST = function () {
-          Object.keys(localStorage)
-            .filter(function (k) { return k.indexOf(SNAP_PREFIX) === 0; })
-            .forEach(function (k) {
-              try {
-                var v = JSON.parse(localStorage.getItem(k));
-                console.log(k, "(" + new Date(v.ts).toLocaleString() + ", " + v.len + " chars)");
-                console.log(v.content);
-              } catch (e) {}
+        // RECOVERY_LIST() -> every version still kept, newest last, with
+        // its age and how much of it there is.
+        // -----------------------------------------------------------------
+        // The one command that was missing on 2026-09-19. When a draft is
+        // replaced by an older one, the question is not "what is the latest
+        // version" — the latest version is the damage. It is "which of
+        // these is the one I wrote", and the answer is legible at a glance
+        // from the sizes.
+        //
+        // The index it prints is the index RECOVERY_FORM and
+        // RECOVERY_FORM_COPY take, counting back from the newest, so the
+        // three read as one tool.
+        window.RECOVERY_LIST = function () {
+          var any = false;
+          formHistories().forEach(function (h) {
+            if (!h.entries.length) return;
+            any = true;
+            console.log("=== " + h.key.slice(FORM_PREFIX.length) +
+                        " — " + h.entries.length + " versions kept ===");
+            h.entries.forEach(function (e, i) {
+              var chars = (e.fields || []).reduce(function (n, f) {
+                return n + String(f.value || "").length;
+              }, 0);
+              console.log("  RECOVERY_FORM(" + (h.entries.length - 1 - i) + ")  " +
+                          new Date(e.ts).toLocaleString() + "  " + chars + " chars");
             });
-        };
-        window.RECOVERY_HISTORY = function () {
-          Object.keys(localStorage)
-            .filter(function (k) { return k.indexOf(HIST_PREFIX) === 0; })
-            .forEach(function (k) {
-              try {
-                var arr = JSON.parse(localStorage.getItem(k)) || [];
-                console.log("=== " + k + " (" + arr.length + " snapshots) ===");
-                arr.forEach(function (e, i) {
-                  console.log("  #" + i + " " + new Date(e.ts).toLocaleString() +
-                              " → " + e.len + " chars");
-                });
-              } catch (e) {}
-            });
-        };
-        window.RECOVERY_COPY = function (idxFromEnd) {
-          idxFromEnd = idxFromEnd || 0;   // 0 = newest
-          var found = null;
-          Object.keys(localStorage)
-            .filter(function (k) { return k.indexOf(HIST_PREFIX) === 0; })
-            .forEach(function (k) {
-              try {
-                var arr = JSON.parse(localStorage.getItem(k)) || [];
-                var entry = arr[arr.length - 1 - idxFromEnd];
-                if (entry && (!found || entry.ts > found.ts)) found = entry;
-              } catch (e) {}
-            });
-          if (found && window.copy) {
-            window.copy(found.content);
-            console.log("copied " + found.len + " chars from " +
-                        new Date(found.ts).toLocaleString() + " to clipboard");
-          } else if (found) {
-            console.log("copy() unavailable — content follows:");
-            console.log(found.content);
-          } else {
-            console.log("no snapshot found at index " + idxFromEnd);
-          }
+          });
+          if (!any) console.log("Nothing kept yet.");
         };
       })();
 

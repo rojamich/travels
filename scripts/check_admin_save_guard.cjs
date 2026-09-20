@@ -26,6 +26,10 @@
  *       so a wifi blip puts the session back instead of ending it
  *     - whether the notes lookup Git Gateway will never answer is answered
  *       in the browser, and nothing else is
+ *     - which of Decap's local backups get dropped, since the shared
+ *       new-post slot must go and the per-post ones must not
+ *     - that the version RECOVERY_LIST names is the version RECOVERY_FORM
+ *       hands back, which is the whole of getting a lost draft home
  *
  *     The functions are pulled out of admin/index.html as it is on disk, so
  *     this cannot drift away from what actually ships.
@@ -592,6 +596,124 @@ async function hit(url, method, status, opts = {}) {
     const r = retryRig({ now: NOW2, alive: true, noButton: true });
     check("no button, no press", r.made.retry("token-gone"), false);
   }
+
+  // ------------------------------------ Decap's shared new-post backup
+  // Decap names a new post's backup after its collection alone, because it
+  // has no slug yet -- so every new post shares one slot, and the prompt
+  // that offers it compares nothing. It gets emptied at load. The per-post
+  // backups name one entry each, work correctly, and must survive that.
+  console.log("\nwhich local backups get dropped");
+
+  const isSharedSlot = new Function("return " + grab("isSharedSlot", "      "))();
+  [["backup", true],
+   ["backup.posts", true],
+   ["backup.trips", true],
+   ["backup.site-config", true],
+   ["backup.posts.2026-03-17-the-one-where-we-fly-north", false],
+   ["backup.posts.a.b", false],
+   ["backupish", false],
+   ["notabackup", false],
+   ["", false]].forEach(([key, want]) => {
+    check(`${JSON.stringify(key)} ${want ? "is dropped" : "is kept"}`,
+          isSharedSlot(key), want);
+  });
+
+  // ------------------------------------------------- clearing up the old
+  // Nothing writes the second snapshot store any more, so it ages out and
+  // goes. It ages out rather than being deleted on sight on purpose: what
+  // is in it on the first load after the upgrade may be the only copy of a
+  // draft somebody is halfway through recovering.
+  console.log("\ncleanOld — what it sweeps up");
+
+  function storage(obj) {
+    const o = Object.assign({}, obj);
+    const def = (n, f) => Object.defineProperty(o, n, { value: f, enumerable: false });
+    def("getItem", (k) => (k in o ? o[k] : null));
+    def("setItem", (k, v) => { o[k] = String(v); });
+    def("removeItem", (k) => { delete o[k]; });
+    return o;
+  }
+
+  const DAY = 24 * 60 * 60 * 1000;
+  const fresh = JSON.stringify([{ ts: Date.now() - DAY, fields: [] }]);
+  const stale = JSON.stringify([{ ts: Date.now() - 30 * DAY, fields: [] }]);
+  const store = storage({
+    "editor-history:editor-0": fresh,          // the upgrade must not eat this
+    "editor-snapshot:editor-0": stale,
+    "editor-history:editor-9": stale,
+    "editor-form:posts:new": fresh,
+    "editor-form:posts:old-trip": stale,
+    "editor-form:posts:broken": "{not json",
+    "gotrue.user": "hers",
+    "upkeep-set-aside": "{}"
+  });
+
+  // Lifted off the page rather than retyped, so that changing what counts
+  // as dead, or how old is too old, changes this test along with it.
+  const sweepDecls = HTML.match(
+    /var MAX_AGE_MS\s*=[\s\S]*?var DEAD_PREFIXES\s*=[^;]*;/)[0];
+
+  new Function("localStorage", "FORM_PREFIX", "Date",
+    sweepDecls + "\n" + grab("isOurs") + "\n" + grab("cleanOld") + "\ncleanOld();"
+  )(store, "editor-form:", Date);
+
+  const left = Object.keys(store).sort();
+  check("a draft still sitting in the deleted store is NOT eaten by the upgrade",
+        left.includes("editor-history:editor-0"), true);
+  check("but an old one from it is swept up",
+        left.filter((k) => k === "editor-snapshot:editor-0" ||
+                           k === "editor-history:editor-9"), []);
+  check("a recent draft history is kept", left.includes("editor-form:posts:new"), true);
+  check("one from a month ago is not", left.includes("editor-form:posts:old-trip"), false);
+  check("an unreadable one is dropped rather than left to rot",
+        left.includes("editor-form:posts:broken"), false);
+  check("and nothing else is touched",
+        left.filter((k) => !k.startsWith("editor-")).sort(),
+        ["gotrue.user", "upkeep-set-aside"]);
+
+  // ------------------------------------------ finding the right version
+  // What was missing when a draft was replaced by an older one: the newest
+  // version is the damage, so the question is which of the kept ones she
+  // actually wrote. RECOVERY_LIST names them by size; the number it prints
+  // has to be the number RECOVERY_FORM answers to, or it is worse than
+  // useless at exactly the wrong moment.
+  console.log("\nRECOVERY_LIST and RECOVERY_FORM agree on which is which");
+
+  function grabAssigned(name) {
+    const i = HTML.indexOf("window." + name + " = function");
+    if (i < 0) throw new Error("cannot find window." + name);
+    let depth = 0;
+    for (let k = HTML.indexOf("{", i); k < HTML.length; k++) {
+      if (HTML[k] === "{") depth++;
+      else if (HTML[k] === "}" && --depth === 0) return HTML.slice(i, k + 1) + ";";
+    }
+    throw new Error("unbalanced " + name);
+  }
+
+  const versions = [
+    { ts: Date.parse("2026-09-19T10:00:00"), fields: [{ label: "Body", value: "x".repeat(300) }] },
+    { ts: Date.parse("2026-09-19T11:30:00"), fields: [{ label: "Body", value: "y".repeat(7400) }] },
+    { ts: Date.parse("2026-09-19T11:45:00"), fields: [{ label: "Body", value: "z".repeat(100) }] }
+  ];
+  const lines = [];
+  const recoveryWin = {};
+  new Function("localStorage", "console", "window", "FORM_PREFIX", "Date",
+    grab("formHistories") + "\n" + grabAssigned("RECOVERY_LIST") + "\n" +
+    grabAssigned("RECOVERY_FORM")
+  )(storage({ "editor-form:posts:new": JSON.stringify(versions) }),
+    { log: (m) => lines.push(String(m)) }, recoveryWin, "editor-form:", Date);
+
+  recoveryWin.RECOVERY_LIST();
+  const big = lines.find((l) => l.includes("7400 chars"));
+  check("the version she wrote is listed by its size", !!big, true);
+
+  const idx = Number(big.match(/RECOVERY_FORM\((\d+)\)/)[1]);
+  check("and it is not the newest one", idx > 0, true);
+
+  lines.length = 0;
+  recoveryWin.RECOVERY_FORM(idx);
+  check("asking for that number gives back that version",
+        lines.some((l) => l.length === 7400 && l[0] === "y"), true);
 
 console.log(`\n${pass} passed, ${fail} failed`);
   process.exit(fail ? 1 : 0);
