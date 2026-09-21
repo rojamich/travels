@@ -18,6 +18,10 @@ tags:
   - Nature
   - Wildlife
   - Bucketlist
+  - Books
+  - Coffee
+  - Food
+  - Fireplace
 new_tags: []
 stay: night
 toc: false
@@ -63,3 +67,35 @@ We followed the guide through the winding trails and eventually to a wide area w
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790011959%2Fsosa2xhj3pfw76fmvbyt.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790011026%2Fe0245zvgficcj3xcx2bt.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We came to this massive expanse of snow and took it all in. Including giant hoof prints!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790012035%2Ffwe7bvgacezwqkbzlaps.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790012035%2Fzqa9iswqdrsyvot6bpsy.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790012031%2Fkyu9t5gqu5varkj4onkr.jpg%22%7D%5D%2C%22caption%22%3A%22Jenna%20(sort%20of)%20for%20scale.%22%7D %}
+
+We also got to see the biggest Eagles' nest I've ever seen!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790012098%2Fda4snykst3kuxkxkobdu.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790012099%2Fytoqkk8l8djideslt57w.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We ended the trip back through the trails and half-pipe. WHAT an adrenaline rush 😮
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790012165/tfln8djlpcvmeisygmmp.jpg)
+
+Bucket List Status:
+
+✅Dog Sledding
+
+✅Northern Lights
+
+✅See a Moose
+
+✅Snow Mobile
+
+That's right, we did it all — with a day to spare!
+
+That afternoon we had some average soup but fantastic crab rangoons!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790012235/pgmwlgnbq00cbyhdppqn.jpg)
+
+Thankfully, the coffee, treats, fireplace, and books more than made up for it!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790012238/gd90memnxisqb75azul8.jpg)
+
+It's so cozy here!
