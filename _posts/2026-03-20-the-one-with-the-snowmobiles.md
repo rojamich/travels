@@ -6,9 +6,9 @@ categories:
 order: 5
 header:
   teaser_focal_x: 50
-  teaser_focal_y: 50
+  teaser_focal_y: 68
   overlay_focal_x: 50
-  overlay_focal_y: 50
+  overlay_focal_y: 34
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790011006/hzhkacxbe3zlbk2rs8on.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790011026/e0245zvgficcj3xcx2bt.jpg
@@ -42,7 +42,7 @@ This morning we were headed to snowmobile — that's right! As long as the weath
 
 We were heading along the freeway when I suddenly shouted MOOOOOOOOSE!!!!! Mike flipped a fast U-turn and the moose (in all its glory) was chomping away in the trees, just where Mike said it would be!
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790011447%2Ftahi2b9v1rlcyxgoewze.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790011457%2Fkzc6zdxoo3tbodnmgtxw.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790011006%2Fhzhkacxbe3zlbk2rs8on.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790011447%2Ftahi2b9v1rlcyxgoewze.jpg%22%7D%2C%7B%22x%22%3A%2254%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790011457%2Fkzc6zdxoo3tbodnmgtxw.jpg%22%7D%2C%7B%22x%22%3A%2239%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790011006%2Fhzhkacxbe3zlbk2rs8on.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 Wrap it up and call it a day, folks! Cuz it does NOT get better than this! We were pretty high the rest of the day after having spotted that moose. It was the second most difficult thing to accomplish on the list and I just can't believe we nailed it. Great job moose!
 
@@ -54,7 +54,7 @@ I used their beaver mitts (named for the fur) because I had gotten mild frostbit
 
 We headed out to get our bikes and he tried putting me behind Mike! Can you believe that? Like I wouldn't want to drive my own??
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790011738%2Ffd0ywv6ljaitx6gtchre.jpg%22%7D%5D%2C%22caption%22%3A%22SO%20excited!%20And%20yes%2C%20those%20are%20my%20motorcycle%20pants%20keeping%20me%20very%20warm%20lol.%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2259%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790011738%2Ffd0ywv6ljaitx6gtchre.jpg%22%7D%5D%2C%22caption%22%3A%22SO%20excited!%20And%20yes%2C%20those%20are%20my%20motorcycle%20pants%20keeping%20me%20very%20warm%20lol.%22%7D %}
 
 At the final hour, a couple of girls joined in on the adventure!
 
@@ -64,11 +64,11 @@ The five of us set out and were pulling out of the lot when a man and his son ar
 
 We followed the guide through the winding trails and eventually to a wide area with a slope where we could ride up and down it like a half-pipe or like 4-wheeling! It was so exhilarating.
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790011959%2Fsosa2xhj3pfw76fmvbyt.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790011026%2Fe0245zvgficcj3xcx2bt.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790011959%2Fsosa2xhj3pfw76fmvbyt.jpg%22%7D%2C%7B%22x%22%3A%2248%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790011026%2Fe0245zvgficcj3xcx2bt.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We came to this massive expanse of snow and took it all in. Including giant hoof prints!
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790012035%2Ffwe7bvgacezwqkbzlaps.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790012035%2Fzqa9iswqdrsyvot6bpsy.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790012031%2Fkyu9t5gqu5varkj4onkr.jpg%22%7D%5D%2C%22caption%22%3A%22Jenna%20(sort%20of)%20for%20scale.%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2241%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790012035%2Ffwe7bvgacezwqkbzlaps.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2215%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790012035%2Fzqa9iswqdrsyvot6bpsy.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790012031%2Fkyu9t5gqu5varkj4onkr.jpg%22%7D%5D%2C%22caption%22%3A%22Jenna%20(sort%20of)%20for%20scale.%22%7D %}
 
 We also got to see the biggest Eagles' nest I've ever seen!
 
