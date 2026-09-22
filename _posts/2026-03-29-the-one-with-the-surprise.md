@@ -32,4 +32,16 @@ Thankfully, they began to fade and we headed towards the airport.
 
 How freaking charming is this airport coffee shop??
 
-![]()
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790094196/dj5p4nc7uvnclkt52otu.jpg)
+
+We enjoyed one last sunrise before making our many flights home.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790094262/bdm5ymkjm8exzpihc8jr.jpg)
+
+Our first flight took us to Anchorage where we didn't have to wait long before flying out to Seattle.
+
+Seattle gave us just enough time to each lunch and then fly into Portland.
+
+Naturally, we had a delicious dinner at our favorite sushi spot and made the two hour drive home 😀
+
+A spectacular trip filled with firsts and bucket list checks! Thank you Alaska 🫎💗
