@@ -22,4 +22,14 @@ toc: false
 ---
 It was a REALLY early and REALLY cold morning for us dropping our rental car off by 5am! We tossed the bags in the car and headed out for the airport.
 
-You won't believe what we saw on the drive in!
+You won't believe what we saw on the drive in! Mike stopped the car and said OH WOW!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2288%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787487869%2F20260322_053423_ieszme.jpg%22%7D%2C%7B%22x%22%3A%2285%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790093994%2Fxk9egafzlzotsoikvs7t.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2229%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790093999%2Fdzfde762gbu3sjiyiawu.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+The lights emerged and fully-shaped before our very eyes! I'm so glad he was looking and able to see them right away! We were astounded and sat there admiring them for far too long 😍🤩😮
+
+Thankfully, they began to fade and we headed towards the airport.
+
+How freaking charming is this airport coffee shop??
+
+![]()
