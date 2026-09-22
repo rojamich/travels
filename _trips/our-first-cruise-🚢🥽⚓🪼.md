@@ -10,11 +10,11 @@ start_date: 2022-12-18
 end_date: 2022-12-23
 location: Cayman Islands
 lat: 19.3133
-lng: 81.2546
+lng: -81.2546
 countries:
   - name: Mexico
     lat: 20.5
-    lng: 86.94
+    lng: -86.94
 collection_trip: false
 states:
   - Florida
