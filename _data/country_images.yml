@@ -81,3 +81,5 @@ entries:
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/330px-Flag_of_Chile.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
   - name: Ecuador
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/330px-Flag_of_Ecuador.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+  - name: Uruguay
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/330px-Flag_of_Uruguay.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
