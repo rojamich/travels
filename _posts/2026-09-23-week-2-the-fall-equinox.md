@@ -75,7 +75,7 @@ The weather held up long enough for us to read out on the balcony too 😍
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790191519/ify4pd28xdzooujdmpir.jpg)
 
-I finished [Dolly All the Time](https://www.goodreads.com/en/book/show/240687665-dolly-all-the-time) by Annabel Monaghan and LOVED IT! Mike is reading Jurassic Park with me and also listening to [Nomad](https://www.goodreads.com/en/book/show/28954858-nomad) by James Swallow.
+I finished [Dolly All the Time](https://www.goodreads.com/en/book/show/240687665-dolly-all-the-time) by Annabel Monaghan and LOVED IT! Mike is reading [Jurassic Park](https://www.goodreads.com/series/71966-jurassic-park) by Michael Crichton with me and also listening to [Nomad](https://www.goodreads.com/en/book/show/28954858-nomad) by James Swallow.
 
 I really love how I can pick a park and safely run to it! I haven't felt unsafe at any time of day here and the routes are really beautiful. 
 
@@ -85,7 +85,7 @@ On Saturday, I ran towards a huge park and started seeing a TON of people runnin
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790191711/i795yd3ahxy4bqgeq3c7.jpg)
 
-Yesterday was the Fall Equinox and I've really been missing fall here (its Spring!) So Mike made me brown butter & chocolate chip cookies and I read my book all day: [Same Time Next Summer ](https://www.goodreads.com/en/book/show/62562931-same-time-next-summer)by Annabel Monaghan
+Yesterday was the Fall Equinox and I've really been missing fall here (its Spring!) So Mike made me brown butter & chocolate chunk cookies and I read my book all day: [Same Time Next Summer ](https://www.goodreads.com/en/book/show/62562931-same-time-next-summer)by Annabel Monaghan.
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790191918%2Fs3oajgnqjciuhaj0wbmo.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790191915%2Fcoc14twy8fgpxd6jo6uu.jpg%22%7D%5D%2C%22caption%22%3A%22I%20tried%20raisins%20again!%20Turns%20out%2C%20they're%20not%20bad%20when%20smothered%20in%20chocolate%20lol!%22%7D %}
 
