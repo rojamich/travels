@@ -15,6 +15,9 @@ countries:
   - name: Canada
     lat: 43.65
     lng: -79.35
+  - lat: -34.4626
+    lng: -57.8398
+    name: Uruguay
 collection_trip: false
 states: []
 tags:
