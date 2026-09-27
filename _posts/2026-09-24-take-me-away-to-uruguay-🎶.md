@@ -76,7 +76,7 @@ It was time for some coffee and brunch so we stopped at a super cute cafe with a
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2269%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790462433%2Fdfngberyvvtuae11txtc.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2254%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790462434%2Fc8d35w3io0vbrblbmqhk.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790462433%2Fjp1ypgxhshddg7ukw9xa.jpg%22%7D%5D%2C%22caption%22%3A%22We%20enjoyed%20the%20ham%20and%20cheese%20as%20well%20as%20Mike's%20delicious%20coffee%20(he%20says%20the%20best%20since%20we%20left%20OR!)%22%7D %}
 
-We wanted to read our books and soak up some sunshine so we walked to park and ended up going past this pastry shop... could we resist? No! Definitely a treat for reading time 🍪
+We wanted to read our books and soak up some sunshine so we walked to the park and ended up going past this pastry shop... could we resist? No! Definitely a treat for reading time 🍪
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790462504%2Fhtz22eqhcz4tsxbmtwtx.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790462506%2Fwwecfkhcoagt8yzug9yy.jpg%22%7D%2C%7B%22x%22%3A%2255%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790462508%2Fh3pfft3m8cbjcizkane2.jpg%22%7D%5D%2C%22caption%22%3A%22Might've%20gotten%20a%20little%20too%20much%20sun!%20But%20the%20reading%20time%20was%20so%20relaxing%20with%20the%20sound%20of%20the%20waves%20nearby.%22%7D %}
 
@@ -90,7 +90,7 @@ He also found lots of birds 🐥🐥🐥
 
 After a sunburn and nap, it was time for lunch and trying Uruguay's national dish: chivito! It's served in huge quantities, so we split it, but it's a steak sandwich with melted cheese and an egg on top — not too bad! But the fries were the best part 🍟
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790463495/riqnugmahdulzg5yvo3x.jpg)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790463495/riqnugmahdulzg5yvo3x.jpg "Mike loved the lemonade which was unsweetened 🤢But he is prone to love bitter things like black coffee and red wine...")
 
 We headed to pick up rental bikes to explore more of the city and saw gelato across the street...we might've overdosed on sugar this day 🍪🍦🥧
 
@@ -100,7 +100,7 @@ We found this awesome map that gives a good visual of the geography between Arge
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790462741/vzjhslagitm8wgxeowj3.jpg)
 
-We biked along the coast on our rental bikes that had no breaks or gear shifting (rough!!) 🚴🏻‍♀️🚴🏻
+We biked along the coast on our rental bikes that had no brakes or gear shifting (rough!!) 🚴🏻‍♀️🚴🏻
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2253%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790462747%2Fvb0x0tpmehmnepszstpc.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2248%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790462775%2Fdbkcyz0dhpzwgequ0rnf.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2271%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790462772%2Fs4dta3jvyridszbejolg.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790462777%2Fxsjdbakwevbmdfnrw562.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -130,7 +130,7 @@ It was such a peaceful spot we just enjoyed reading our books 📖 and ended it 
 
 It was time to head to our last stop — to watch the sunset 🌅
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790463202%2Fehrj2tixlzgyblpoxkf5.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790463201%2Fejnt1l68dewemiwnoymk.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790463200%2Fupu5uoieexk4i9smr66q.jpg%22%7D%5D%2C%22caption%22%3A%22There's%20BA!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790463202%2Fehrj2tixlzgyblpoxkf5.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790463201%2Fejnt1l68dewemiwnoymk.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790463200%2Fupu5uoieexk4i9smr66q.jpg%22%7D%5D%2C%22caption%22%3A%22There's%20Buenos%20Aires!%22%7D %}
 
 We quietly enjoyed watching the colors change and it was so relaxing listening to the waves break and an acoustic guitar nearby...🎵
 
@@ -160,8 +160,8 @@ It was ferry time, going through passport control twice and security easily agai
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790463489/tvykbfhvaqezstorveku.jpg)
 
-This ferry ride super fast (faster than before) — only an hour back! It was weird though with it being totally dark outside.
+This ferry ride was super fast (faster than before) — only an hour back! It was weird though with it being totally dark outside.
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790463700/snwsya8yo3mvyvnyrczh.jpg)
 
-We walked down the street from the ferry port to get an uber, and finally home! We were tired, sunburnt, but we got to watch the last of the football game and SO happy with our day 😍
+We walked down the street from the ferry port to get an uber, and finally home! We were tired, sunburnt, but we got to watch the last of the football game and were SO happy with our day 😍
