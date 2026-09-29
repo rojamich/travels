@@ -1,6 +1,6 @@
 ---
 title: The One Where We Snowshoe
-date: 2026-03-28
+date: 2026-03-21
 categories:
   - snowed-in-alaska
 order: 6
