@@ -40,11 +40,11 @@ Here is the view this morning from our VRBO!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790711578/l6vxtyun96ne3ohwpsf3.jpg)
 
-We headed back out to flâner the city — so many markets to check out!
+We headed back out to flâner the city — there are so many markets to check out!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790711253/nmsw6vq9d6ceobgsbuxl.jpg)
 
-It was time to soak up the beautiful beach here! We found a spot to enjoy guac, mocktail and beer on the beach and found out there were wild iguanas on the beach!
+We found a couple of cute souvenirs and it was time to soak up the beautiful beach here! We found a spot to enjoy guac 🥑, a mocktail and a beer 🍹on the beach and found out there were wild iguanas here 🦎!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790711250/oxpavuc0oschctjk0zme.jpg "They were HUGE!")
 
