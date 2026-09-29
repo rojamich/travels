@@ -53,7 +53,7 @@ We arrived to Tamarindo to warm weather at 9pm! This time of year its typically 
 
 We got into our VRBO and it was so nice and spacious and even came with a pet!
 
-![Tiny precious lizard!](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790710049/wsliaio8klkp7p08bji5.jpg)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790710049/wsliaio8klkp7p08bji5.jpg "Tiny precious lizard!")
 
 Our VRBO was an easy walk to the center of town so we headed out with our hopes high for food but very scared there wouldn't be any!
 
