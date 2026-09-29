@@ -52,6 +52,6 @@ We read books on the beach, I continued the Great Expectations while Mike was re
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790711647%2Fnjlg9wclq5bsdaikl9oj.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790711650%2Ftsjavxa4xoyxxzbwtuyd.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-We also spotted these beautiful these flowers near our place!
+We also spotted these beautiful flowers near our place!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790711654/e7bzzdgwige5rmp11jhn.jpg)
