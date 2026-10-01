@@ -21,6 +21,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Travel Blog · Editor</title>
   <link rel="icon" href="data:," />
+  <!--
+    The safety net below keeps a rolling history of her drafts in
+    localStorage. On 2026-10-01 it filled the quota, and a full quota means
+    gotrue cannot write the session, which means nobody can log in at all.
+    This bounds it in bytes and evicts across every post rather than only
+    the one being written. Loaded here, before any script that stores
+    anything. See assets/js/storage-guard.js.
+  -->
+  <script src="/assets/js/storage-guard.js"></script>
 </head>
 <body>
   <!--
@@ -854,7 +863,11 @@
         // because the rich-text editor renders bold, links and images as
         // markup -- innerText silently flattens all of it.
         var FORM_PREFIX = "editor-form:";
-        var MAX_FORM_HIST = 30;   // was 12, before the second copy was deleted
+        // A ceiling, not the real limit. Bytes are what the browser counts and
+        // what ran out on 2026-10-01, so assets/js/storage-guard.js governs by
+        // bytes and trims this back when space is short — taking it from the
+        // posts she is not in first. Thirty is what she gets when there is room.
+        var MAX_FORM_HIST = 30;
         var lastForm = {};
 
         function formKey() {
@@ -964,11 +977,34 @@
             catch (e) { history = []; }
             history.push({ ts: Date.now(), url: location.href, fields: fields });
             if (history.length > MAX_FORM_HIST) history = history.slice(-MAX_FORM_HIST);
+
+            // Make room before asking, not after being refused. The guard
+            // drops the oldest versions of the posts she is NOT in first,
+            // which is where the space actually is — the old code trimmed
+            // this post's history when this post's write failed, sacrificing
+            // the one history worth keeping.
+            var guard = window.__STORAGE_GUARD;
+            if (guard) guard.evict(storageKey);
+
             try {
               localStorage.setItem(storageKey, JSON.stringify(history));
             } catch (quotaErr) {
-              history = history.slice(-3);
-              try { localStorage.setItem(storageKey, JSON.stringify(history)); } catch (e2) {}
+              // Refused anyway: something outside the safety net is using
+              // the room. Give back everything we can and try once more.
+              var freed = guard ? guard.freeSpaceNow() : 0;
+              try {
+                localStorage.setItem(storageKey, JSON.stringify(history));
+                console.warn("[safety-net] storage was full; freed " +
+                             Math.round(freed / 1024) + " KB and saved the snapshot");
+              } catch (e2) {
+                // Say so out loud. A snapshot that silently did not happen
+                // is the safety net quietly not being there.
+                console.error("[safety-net] COULD NOT SNAPSHOT — browser storage is " +
+                              "full and could not be freed. Run STORAGE_REPORT() to see " +
+                              "what is using it.");
+                showToast("Can't back up your draft — browser storage is full. " +
+                          "Your post is still on screen; don't close this tab.", "#c0392b");
+              }
             }
             console.log("[safety-net] " + reason + " -> form snapshot, " +
                         fields.length + " fields, " + signature.length + " chars (" + key + ")");

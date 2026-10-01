@@ -37,6 +37,9 @@ classes: wide
   </p>
 </form>
 
+<!-- Lets this page clear a full localStorage when that is what is blocking
+     the login. See assets/js/storage-guard.js. -->
+<script src="{{ '/assets/js/storage-guard.js' | relative_url }}"></script>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>
   (function () {
@@ -102,6 +105,9 @@ classes: wide
         return;
       }
 
+      // Only worth trying once per page: see the catch below.
+      var triedFreeingSpace = false;
+
       form.addEventListener("submit", function (e) {
         e.preventDefault();
         clearError();
@@ -125,6 +131,35 @@ classes: wide
             window.location.href = destination;
           })
           .catch(function (err) {
+            // -------------------------------------------------------------
+            // "Setting the value of 'gotrue.user' exceeded the quota."
+            // -------------------------------------------------------------
+            // Her password was right. localStorage was full, so gotrue had
+            // nowhere to put the session, so there was no way in — and no
+            // way to reach the editor, which is where the thing filling it
+            // lives. It has to be cleared from here or not at all.
+            //
+            // Once. If freeing the space does not get her in, the problem is
+            // something else and the real message is the useful one.
+            var guard = window.__STORAGE_GUARD;
+            if (guard && guard.isQuotaError(err) && !triedFreeingSpace) {
+              triedFreeingSpace = true;
+              var freed = guard.freeSpaceNow();
+              console.warn("[login] storage was full; freed " +
+                           Math.round(freed / 1024) + " KB, trying again");
+              submitBtn.textContent = "Making room…";
+              netlifyIdentity.gotrue
+                .login(email, password, true)
+                .then(function () { window.location.href = destination; })
+                .catch(function (err2) {
+                  submitBtn.disabled = false;
+                  submitBtn.textContent = "Log in";
+                  showError((err2 && err2.message) ||
+                            "Login failed. Check your email and password.");
+                });
+              return;
+            }
+
             submitBtn.disabled = false;
             submitBtn.textContent = "Log in";
             var message = (err && err.message) || "Login failed. Check your email and password.";
