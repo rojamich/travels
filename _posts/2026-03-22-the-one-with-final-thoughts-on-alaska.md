@@ -20,7 +20,12 @@ new_tags: []
 stay: night
 toc: false
 ---
-What an incredible trip filled with adventure and bucket list fun! I can't believe we *finally* made our Alaskan dreams come true. This trip always felt so far and impossible. It's not easy to get to, many things close in opposite seasons, getting to different locations within Alaska can be difficult and it can be VERY expensive!
+What an incredible trip filled with adventure and bucket list fun! I can't believe we *finally* made our Alaskan dreams come true. This trip always felt so far and impossible because:
+
+1. It's not easy to get to
+2. Many things close in opposite seasons
+3. Getting to different locations within Alaska can be difficult
+4. It can be VERY expensive!
 
 Thankfully, we managed to get it on the books before leaving the US for several years. The adventures were epic, the Airbnb was literally perfect, and it really could not have gone better. 
 
