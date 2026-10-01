@@ -1,95 +1,53 @@
-{% comment %}
-  =============================================================================
-  SUBSCRIBE BLOCK — used on homepage and About page
-  =============================================================================
-  follow.it embed for email subscription. Visitors enter their email; they
-  get an email each time a new post is published. Managed at follow.it
-  dashboard.
-  =============================================================================
-{% endcomment %}
+{%- comment -%}
+=============================================================================
+subscribe.html — the email sign-up form, on every page that has one
+=============================================================================
+follow.it's embedded form. The reader types an address and subscribes
+without leaving the page; follow.it emails them when a post goes live, and
+the list is managed from the follow.it dashboard.
+
+Used by:
+  index.html            the homepage
+  _pages/about.md       the About page
+  _layouts/post.html    the foot of every post
+  _layouts/trip.html    the foot of every trip page
+
+The last two used to show a green button that opened follow.it's own page in
+a new tab. Same list at the other end, but it cost the reader two steps —
+click through, then type the address over there — and it took them off the
+post to do it. Here they type the address where they already are.
+
+WHY THE FORM HAS target="_blank"
+follow.it generates this form without one, and without one the browser
+navigates the whole page to follow.it's response. Which makes the form worse
+than the button it replaced: the button at least left the post open in the
+tab behind it. So the response opens in a new tab and the post she wrote
+stays exactly where the reader left it.
+
+That tab is not a throwaway, either — follow.it answers with "check your
+email to confirm", and a reader who never sees that sentence never finishes
+subscribing. It needs somewhere to be shown; it just does not need to be
+shown on top of the post.
+
+  prompt   optional line above the form. Posts and trips pass one, because
+           "Enjoyed this?" only means anything directly after something she
+           wrote. The homepage and About pass nothing and let follow.it's own
+           heading do the asking.
+
+The styling lives in assets/css/main.scss under SUBSCRIBE BLOCK, not here.
+It is 3.4KB of follow.it's generated CSS, and inlining that into all ~300
+post pages would be 3.4KB nobody's browser gets to cache. If follow.it ever
+hands you a new form, the markup below is the part to replace — check their
+CSS against what is in main.scss before pasting that too.
+=============================================================================
+{%- endcomment -%}
 
 <div class="subscribe-box">
-  <style>
-    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview {
-      display: flex !important;
-      flex-direction: column !important;
-      justify-content: center !important;
-      margin-top: 30px !important;
-      padding: clamp(17px, 5%, 40px) clamp(17px, 7%, 50px) !important;
-      max-width: none !important;
-      border-radius: 6px !important;
-      box-shadow: 0 5px 25px rgba(34, 60, 47, 0.25) !important;
-    }
-    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview,
-    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview * {
-      box-sizing: border-box !important;
-    }
-    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-heading {
-      width: 100% !important;
-    }
-    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-heading h5 {
-      margin-top: 0 !important;
-      margin-bottom: 0 !important;
-    }
-    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field {
-      margin-top: 20px !important;
-      width: 100% !important;
-    }
-    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input {
-      width: 100% !important;
-      height: 40px !important;
-      border-radius: 6px !important;
-      border: 2px solid #e9e8e8 !important;
-      background-color: #fff;
-      outline: none !important;
-      color: #000000 !important;
-      font-family: "Montserrat" !important;
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 20px;
-      text-align: center;
-    }
-    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input::placeholder {
-      color: #000000 !important;
-      opacity: 1 !important;
-    }
-    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button {
-      margin-top: 10px !important;
-      width: 100% !important;
-    }
-    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button button {
-      width: 100% !important;
-      height: 40px !important;
-      border: 0 !important;
-      border-radius: 6px !important;
-      line-height: 0px !important;
-    }
-    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button button:hover {
-      cursor: pointer !important;
-    }
-    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .powered-by-line {
-      color: #231f20 !important;
-      font-family: "Montserrat" !important;
-      font-size: 13px !important;
-      font-weight: 400 !important;
-      line-height: 25px !important;
-      text-align: center !important;
-      text-decoration: none !important;
-      display: flex !important;
-      width: 100% !important;
-      justify-content: center !important;
-      align-items: center !important;
-      margin-top: 10px !important;
-    }
-    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .powered-by-line img {
-      margin-left: 10px !important;
-      height: 1.13em !important;
-      max-height: 1.13em !important;
-    }
-  </style>
-
+  {%- if include.prompt %}
+  <p class="subscribe-prompt">{{ include.prompt }}</p>
+  {%- endif %}
   <div class="followit--follow-form-container" attr-a attr-b attr-c attr-d attr-e attr-f>
-    <form action="https://api.follow.it/subscription-form/aFZPMUs3YUw1VnlZeUtaQ2NrWUwyMGJhQXlNQ0g4N1pKQ3FKWGhLS1ZPWS9rbWNRRVdCL1BGaVpmMFJmZ3BRT2JuNFVGNGkwSGtMbEN1dFk3S0hDbUs0Ukk5elhMVVB6czhPU0I3MFFHOEhjSFZzSThBeDAzeDlBaWVtdVNsUER8NDJqMmF5RzRMU2h5Q2RlMHdjRlpkWk1YdjVFK1UxY2d4d0ltcnA2RFZEZz0=/8" method="post">
+    <form action="https://api.follow.it/subscription-form/aFZPMUs3YUw1VnlZeUtaQ2NrWUwyMGJhQXlNQ0g4N1pKQ3FKWGhLS1ZPWS9rbWNRRVdCL1BGaVpmMFJmZ3BRT2JuNFVGNGkwSGtMbEN1dFk3S0hDbUs0Ukk5elhMVVB6czhPU0I3MFFHOEhjSFZzSThBeDAzeDlBaWVtdVNsUER8NDJqMmF5RzRMU2h5Q2RlMHdjRlpkWk1YdjVFK1UxY2d4d0ltcnA2RFZEZz0=/8" method="post" target="_blank" rel="noopener">
       <div class="form-preview" style="background-color: rgb(255, 255, 255); border-style: solid; border-width: 1px; border-color: rgb(204, 204, 204); position: relative;">
         <div class="preview-heading">
           <h5 style="font-family: Arial; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; text-align: center; text-transform: none !important;">Get new posts by email:</h5>
