@@ -6,9 +6,9 @@ categories:
 order: 3
 header:
   teaser_focal_x: 50
-  teaser_focal_y: 50
+  teaser_focal_y: 36
   overlay_focal_x: 50
-  overlay_focal_y: 50
+  overlay_focal_y: 46
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790715360/niqyjatqqnatxpxthiya.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790715421/smra5fnnxknpnj50n81r.jpg
@@ -43,17 +43,17 @@ I'm glad we fortified because we would be spending hours with an instructor, lea
 
 Both our photographer and instructor were so kind and personable, it made me way less stressed about potentially being awful at surfing!
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790885868%2Fqtmlkkp7rjsisurtjq7z.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790885879%2Fkcd5dv2dungu4atwiyh0.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790885889%2Ffp4bqysetbju28yu3xsb.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%22100%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790885868%2Fqtmlkkp7rjsisurtjq7z.jpg%22%7D%2C%7B%22x%22%3A%2263%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790885879%2Fkcd5dv2dungu4atwiyh0.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790885889%2Ffp4bqysetbju28yu3xsb.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We got right to work on the warm sand, learning the proper way to stand up on the board from a lying position. 
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790886074%2Fru81w3vs3jp0mfuddyvo.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790886074%2Fo7nlhkzojryg53mdvlav.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790886072%2Ftxjtgek0ijztmjrhlghc.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790886074%2Fru81w3vs3jp0mfuddyvo.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2220%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790886074%2Fo7nlhkzojryg53mdvlav.jpg%22%7D%2C%7B%22x%22%3A%2236%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790886072%2Ftxjtgek0ijztmjrhlghc.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 I kept assuming you need to squat much lower than necessary 😂
 
 Our instructor felt we were ready to hit the water so we drug our boards out there, surfer style 🏄🏻🏄🏻‍♀️
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790886280%2Fndzshkuahqdizxuhdctv.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790886280%2Fqaubtuf4liz38wn0gpn1.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790886279%2Fav4hesca80y8q5ids9oz.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790886280%2Fndzshkuahqdizxuhdctv.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790886280%2Fqaubtuf4liz38wn0gpn1.jpg%22%7D%2C%7B%22x%22%3A%2239%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790886279%2Fav4hesca80y8q5ids9oz.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 He gave us more instructions in the water so we knew when to "catch" the wave. When to paddle, when to brace, and when to bound up. We also learned how to use our weight to stay upright.
 
@@ -61,7 +61,7 @@ He gave us more instructions in the water so we knew when to "catch" the wave. W
 
 Per the usual, Mike was an instant natural. If you can't tell, I completely envy how athletic he is!
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790886383%2Fure0sxopdijldwrdoqp4.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790886383%2Fr8zpv7chy1698ol2qnbl.jpg%22%7D%5D%2C%22caption%22%3A%22I'm%20still%20always%20his%20biggest%20cheerleader%20though!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2256%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790886383%2Fure0sxopdijldwrdoqp4.jpg%22%7D%2C%7B%22x%22%3A%2258%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790886383%2Fr8zpv7chy1698ol2qnbl.jpg%22%7D%5D%2C%22caption%22%3A%22I'm%20still%20always%20his%20biggest%20cheerleader%20though!%22%7D %}
 
 He blew me away by standing up on his very first try!
 
@@ -83,7 +83,7 @@ But had a serious blast the whole time. Even riding the waves all the way to the
 
 I'm still cracking up over the ones of just our feet flying up when we ended up in the water though 😂🦶🏻
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790887138%2Fby8vvdo628x509phjidi.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790887204%2Fvvl4uemfctoynorjjvfv.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2211%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790887138%2Fby8vvdo628x509phjidi.jpg%22%7D%2C%7B%22x%22%3A%2220%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790887204%2Fvvl4uemfctoynorjjvfv.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We'd worked up an appetite so we tried the sandwich place in town called Breaking Bread 😂 what a great name!
 
