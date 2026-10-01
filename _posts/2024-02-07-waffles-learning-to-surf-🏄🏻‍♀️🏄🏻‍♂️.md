@@ -35,7 +35,7 @@ We decided to go have waffles on the beach! What life is this???
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790884773/wr7biyl9cyrynjpapai1.jpg)
 
-Mine had apples and caramel on it 🤤while Mike had walnuts, powdered sugar and maple syrup! They were utterly delightful!
+Mine had apples and caramel on it 🤤while Mike had walnuts, powdered sugar and maple syrup! They were utterly delightful! Being able to wiggle my toes in the sand while I munched on an amazing breakfast is a literal heaven!
 
 I'm glad we fortified because we would be spending hours with an instructor, learning how to surf! We walked over to the surf school where we met our photographer that day who would capture this amazing experience 📸
 
