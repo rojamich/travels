@@ -6,9 +6,9 @@ categories:
 order: 7.5
 header:
   teaser_focal_x: 50
-  teaser_focal_y: 50
+  teaser_focal_y: 36
   overlay_focal_x: 50
-  overlay_focal_y: 50
+  overlay_focal_y: 68
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790896360/ujoe23nlckflpg3pw9f0.png
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1790093347/amuc4wiwbkek76cge7jq.jpg
