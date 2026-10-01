@@ -12,6 +12,6 @@ This blog is our way of bringing you along. Family, friends, and anyone who stum
 
 So fasten your seatbelts and sit back, relax, and enjoy the flight ✈️ 💗
 
-{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785526418%2F20220226_083536_2_qbcita.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785582558%2F20230713_154536_v043nv.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781264906%2F20260610_080946_y59oop.jpg%22%5D%2C%22caption%22%3A%22Us%20in%202022%2C%202024%2C%20and%202026!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785526418%2F20220226_083536_2_qbcita.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1785582558%2F20230713_154536_v043nv.jpg%22%2C%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1781264906%2F20260610_080946_y59oop.jpg%22%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1790897133%2Ftazfci1ojwmsmax0tes4.png%22%7D%5D%2C%22caption%22%3A%22Us%20in%202022%2C%202024%2C%202026%2C%20%26%20as%20digital%20caricatures!%22%7D %}
 
 {% include subscribe.html %}
