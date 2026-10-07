@@ -715,6 +715,109 @@ async function hit(url, method, status, opts = {}) {
   check("asking for that number gives back that version",
         lines.some((l) => l.length === 7400 && l[0] === "y"), true);
 
+  // ------------------------------------------ handing a version back
+  // 2026-10-07: every word of her post was in the backup, as 19,000
+  // characters of which most were the gallery forms' labels, and none of
+  // the photos. What she is handed has to be her post, not the editor's
+  // furniture -- and when Decap's own copy was kept, exactly that copy.
+  console.log("\na kept version comes back as her post");
+
+  const tidy = new Function("return " + grab("tidyScreenText"))();
+  const HINTS = "Click here, then upload or pick a photo. Repeat 'Add' to add more.\n\n" +
+    "FOCAL X (0–100) (OPTIONAL)\n\nOnly matters if the photo is being cropped in its tile.\n\n" +
+    "FOCAL Y (0–100) (OPTIONAL)\n\n0 = keep the top of the photo.\n\n";
+  const galleryTail = "Add as many photos as you want — they'll render in a grid.\n\n" +
+    "CAPTION (OPTIONAL) (OPTIONAL)\n\nShown below the gallery in italic.\n\n﻿\n\n";
+  const screen =
+    "We walked to the reserve.\n\n" +
+    "📷 PHOTO GALLERY\nPHOTOS\n2 photos\nAdd photos\n" +
+    "IMAGE\nChoose different image\nReplace with URL\nRemove image\n\n" + HINTS +
+    "IMAGE\nChoose different image\nReplace with URL\nRemove image\n\n" + HINTS + galleryTail +
+    "Then a single photo.\n\n" +
+    "IMAGE\nIMAGE\nChoose different image\nReplace with URL\nRemove image\nALT TEXT\nTITLE\n﻿\n\n" +
+    "And a video.\n\n" +
+    "🎬 YOUTUBE VIDEO\nYOUTUBE URL\n\nPaste the YouTube URL from your browser. Any format works " +
+    "(youtube.com/watch?v=..., youtu.be/..., or just the video ID).\n\n﻿\n\n" +
+    "📷 PHOTO GALLERY\nPHOTOS\n1 photos\nAdd photos\nhttps://res.cloudinary.com/x/image/upload/a.png\n\n" +
+    galleryTail + "The end.";
+  const tidied = tidy(screen);
+  check("her sentences all survive",
+        ["We walked to the reserve.", "Then a single photo.", "And a video.", "The end."]
+          .every((s) => tidied.includes(s)), true);
+  check("none of the gallery form does",
+        /FOCAL|Choose different image|CAPTION|Add photos|﻿/.test(tidied), false);
+  check("each gallery becomes one line saying how many photos",
+        (tidied.match(/👉 \[PHOTO GALLERY, 2 photos — re-add them\]/g) || []).length, 1);
+  check("a single image and a video are marked too",
+        [/👉 \[PHOTO — re-add it\]/.test(tidied), /👉 \[YOUTUBE VIDEO/.test(tidied)], [true, true]);
+  check("a photo link the screen did show is kept",
+        tidied.includes("👉 [PHOTO GALLERY, 1 photos: https://res.cloudinary.com/x/image/upload/a.png]"), true);
+
+  const asFile = new Function("FORM_PREFIX", "tidyScreenText",
+    grab("versionBody") + "\n" + grab("versionTitle") + "\n" + grab("versionAsFile") +
+    "\nreturn { versionBody: versionBody, versionAsFile: versionAsFile };"
+  )("editor-form:", tidy);
+  const ts = Date.parse("2026-10-07T14:30:05");
+  const exact = {
+    ts, fields: [{ label: "Title", value: "San Telmo" }, { label: "Body", value: screen }],
+    data: { title: "San Telmo: the market", date: "2026-10-04", trip: "cafes-tango-time",
+            gallery: ["https://res.cloudinary.com/x/a.png"],
+            body: "Intro.\n\n{% gallery_block %5B%5D %}\n\nThe end." }
+  };
+  check("Decap's own copy of the body wins when it was kept",
+        asFile.versionBody(exact), { text: exact.data.body, exact: true });
+  const f = asFile.versionAsFile(exact, "editor-form:posts:new");
+  check("and downloads as the post file itself, front matter and all",
+        f.text.split("\n").slice(0, 6),
+        ["---", 'title: "San Telmo: the market"', 'date: "2026-10-04"',
+         'trip: "cafes-tango-time"', 'gallery: ["https://res.cloudinary.com/x/a.png"]', "---"]);
+  check("with the body after it, untouched", f.text.endsWith(exact.data.body + "\n"), true);
+  check("named after the post and the minute it was kept",
+        f.name, "san-telmo-the-market-2026-10-07-1430.md");
+
+  const screenOnly = { ts, fields: exact.fields };
+  check("without it, the screen text is tidied rather than handed back raw",
+        asFile.versionBody(screenOnly).exact === false &&
+        asFile.versionBody(screenOnly).text === tidied, true);
+  const t = asFile.versionAsFile(screenOnly, "editor-form:posts:new");
+  check("and the file says plainly what is missing",
+        [t.name.endsWith(".txt"), /not in this copy/.test(t.text), t.text.includes("Title: San Telmo")],
+        [true, true, true]);
+
+  // ------------------------------------------ which entry Decap is holding
+  // Moving between posts, Decap's store can still hold the last one for a
+  // moment. Filing one post's words under another's name is the 2026-09-19
+  // disaster again, so the data is only taken when it is the entry the URL
+  // names.
+  console.log("\nDecap's copy is only taken for the post she is in");
+  const imm = (obj) => ({ get: (k) => obj[k], toJS: () => obj });
+  function entryFor(hash, entry) {
+    const store = { getState: () => ({ entryDraft: imm({ entry: entry && imm(entry) }) }) };
+    return new Function("location", "findDecapStore",
+      grab("entryData") + "\nreturn entryData();")({ hash }, () => store);
+  }
+  const body = imm({ title: "A", body: "words" });
+  check("a new post, while a new post is open",
+        entryFor("#/collections/posts/new", { collection: "posts", newRecord: true, data: body }),
+        { title: "A", body: "words" });
+  check("an existing post, by its slug — even an emoji one",
+        !!entryFor("#/collections/posts/entries/2024-02-07-surf-%F0%9F%8F%84",
+                   { collection: "posts", slug: "2024-02-07-surf-🏄", data: body }), true);
+  check("not the post she just left",
+        entryFor("#/collections/posts/entries/b", { collection: "posts", slug: "a", data: body }), null);
+  check("not a saved post while the URL says new",
+        entryFor("#/collections/posts/new", { collection: "posts", slug: "a", newRecord: false, data: body }), null);
+  check("not another collection's entry",
+        entryFor("#/collections/trips/entries/a", { collection: "posts", slug: "a", data: body }), null);
+  check("and nothing at all when there is no store",
+        new Function("location", "findDecapStore", grab("entryData") + "\nreturn entryData();")(
+          { hash: "#/collections/posts/new" }, () => null), null);
+
+  // ------------------------------------------ the names she remembers
+  check("RECOVERY_HISTORY and RECOVERY_COPY, the names the doc taught, still exist",
+        [/window\.RECOVERY_HISTORY = function/.test(HTML), /window\.RECOVERY_COPY = function/.test(HTML)],
+        [true, true]);
+
 console.log(`\n${pass} passed, ${fail} failed`);
   process.exit(fail ? 1 : 0);
 })();

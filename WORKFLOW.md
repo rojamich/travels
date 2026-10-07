@@ -38,6 +38,17 @@ Same applies to edits on existing posts — you can save many revisions of an ed
 
 The **Workflow** tab in the left navigation shows all your unpublished drafts as cards. Drag a card from "Draft" → "In Review" → "Ready" if you like to mark progress, or just go straight to Publish when ready.
 
+### If a save fails
+
+Your writing is still there, and the editor has been keeping copies of it every few seconds. Before anything else:
+
+1. **Don't reload yet.** Click in the body, press **Ctrl+A** then **Ctrl+C**, and paste it into Notepad. That's your own copy, whatever happens next.
+2. Sign in again if it asks, then press **Save**.
+3. If the words are ever gone, click **🛟 Recover a draft** at the bottom-left. It lists every version this browser kept, with times and sizes. Pick the ★ longest one from when you were writing and press **Copy body**. Then open the post, switch the Body box to **Markdown** (top right of the box), select everything and paste. Photos and videos come back with it.
+4. Don't start a brand-new post until you've got your words back. Unsaved new posts share one backup, so typing in a fresh one slowly pushes the old copies out.
+
+If something still looks wrong, press **Download everything** at the bottom of that panel and send the file to Mike.
+
 ---
 
 ## What each field on the form means
@@ -202,6 +213,11 @@ You don't compress, you don't resize, you don't upload to a folder. Just **drag 
 When you click an image field (Cover, Banner, Gallery rows) or drag a photo into one, the photo uploads to Cloudinary in the background. Cloudinary stores the original AND automatically generates an optimized smaller version that the website serves to visitors. Result: visitors see fast-loading photos without you doing any work.
 
 To put a photo inline in the post body (in the middle of your writing, not in a gallery), click the image button in the body editor's toolbar.
+
+**The one exception: photos over 10 MB.** Cloudinary's free plan refuses any single file over 10 MB ("File size exceeds maximum allowed"), and full-size photos from the Canon can be just over that. Phone photos are fine. For the Canon ones, make a smaller copy first; the original stays untouched:
+
+- Select the photos in File Explorer, right-click → **Resize with Image Resizer** → **Blog** → Resize. (That's Microsoft PowerToys, set up once with a "Blog" size of 2400 × 2400, Fit.)
+- Upload the copies ending in `(Blog)`. The site never shows photos bigger than that anyway, so nothing is lost.
 
 ### How many photos can I add?
 

@@ -200,6 +200,110 @@
   </script>
 
   <!--
+    =========================================================================
+    EDITOR LOG — what happened before the reload
+    =========================================================================
+    On 2026-10-07 a save failed with the token error, she reloaded, and then
+    sent the console. It began at the reload. Everything that would have
+    said why the token was missing had been wiped by the same reload that
+    was her only way forward — which is every time, because reloading is
+    what anyone does when a save fails.
+
+    So the warnings and errors, and this page's own [admin] / [save-watch]
+    lines, are also kept in localStorage: the last 300, at most ~60 KB,
+    oldest dropped first. ADMIN_LOG() prints them, and "Download everything"
+    in 🛟 Recover a draft includes them.
+
+    Small and bounded on purpose. Storage filling up is what stopped her
+    logging in on 2026-10-01, and a log is never worth that; if a write is
+    refused, the line is simply not kept.
+
+    Kept below the save watcher, never above it: the test in
+    scripts/check_admin_save_guard.cjs reads the page's first plain script
+    tag as the save watcher.
+    =========================================================================
+  -->
+  <script id="admin-log">
+    (function () {
+      var KEY = "admin-log", MAX_LINES = 300, MAX_CHARS = 60000, MAX_LINE = 600;
+      // The tags that are about saving. Plain console.log from anything
+      // else — Decap, the photo positioner's layout checks — is chatter.
+      var OURS = /^\[(admin|save-watch|safety-net)\]/;
+      // Every five seconds while she types; it says nothing a lost save needs.
+      var ROUTINE = /form snapshot, \d+ fields/;
+      var lines = null, timer = null;
+
+      function load() {
+        if (lines) return lines;
+        try { lines = JSON.parse(localStorage.getItem(KEY)) || []; } catch (e) { lines = []; }
+        if (!Array.isArray(lines)) lines = [];
+        return lines;
+      }
+      function flush() {
+        timer = null;
+        try {
+          var l = load();
+          if (l.length > MAX_LINES) l.splice(0, l.length - MAX_LINES);
+          var s = JSON.stringify(l);
+          while (s.length > MAX_CHARS && l.length > 10) {
+            l.splice(0, Math.ceil(l.length / 4));
+            s = JSON.stringify(l);
+          }
+          localStorage.setItem(KEY, s);
+        } catch (e) { /* full or blocked: lose the line, never the page */ }
+      }
+      function text(args) {
+        return Array.prototype.map.call(args, function (a) {
+          if (a && a.message) return a.message;
+          if (typeof a === "string") return a;
+          try { return JSON.stringify(a); } catch (e) { return String(a); }
+        }).join(" ").slice(0, MAX_LINE);
+      }
+      function record(level, msg) {
+        var l = load(), last = l[l.length - 1];
+        // The watchdog says the same thing every fifteen seconds; count it.
+        if (last && last.m === msg && last.l === level) { last.n = (last.n || 1) + 1; last.t = Date.now(); }
+        else l.push({ t: Date.now(), l: level, m: msg });
+        if (!timer) timer = setTimeout(flush, 1000);
+      }
+
+      ["log", "warn", "error"].forEach(function (level) {
+        var orig = console[level];
+        if (typeof orig !== "function") return;
+        console[level] = function () {
+          try {
+            var m = text(arguments);
+            if ((level !== "log" || OURS.test(m)) && !ROUTINE.test(m)) record(level, m);
+          } catch (e) {}
+          return orig.apply(console, arguments);
+        };
+      });
+      window.addEventListener("error", function (e) {
+        record("error", "uncaught: " + ((e && e.message) || "error") +
+               (e && e.filename ? " @ " + e.filename.split("/").pop() + ":" + e.lineno : ""));
+      });
+      window.addEventListener("unhandledrejection", function (e) {
+        var r = e && e.reason;
+        record("error", "unhandled rejection: " + text([r && r.message ? r.message : r]));
+      });
+      record("info", "— editor opened " + location.hash + " —");
+      window.addEventListener("pagehide", function () {
+        record("info", "— editor closed or reloaded —");
+        flush();
+      });
+
+      window.__ADMIN_LOG = { entries: function () { return load().slice(); } };
+      window.ADMIN_LOG = function () {
+        load().forEach(function (e) {
+          console.info(new Date(e.t).toLocaleString() + "  " + e.l.toUpperCase() + "  " + e.m +
+                       (e.n > 1 ? "  (×" + e.n + ")" : ""));
+        });
+        return load().length + " lines";
+      };
+    })();
+  </script>
+
+  <!--
     Decap CMS itself (the admin UI), pinned to an exact version.
 
     These used to ask for "^3.1.0", meaning whatever 3.x release existed at
@@ -411,7 +515,8 @@
           "</p>" +
           "<p style='margin:0 0 20px 0;color:#666;font-size:12px;line-height:1.4;'>" +
           "Your current draft content is safe — it stays in the editor and in your local backup. " +
-          "Nothing is lost by signing in again." +
+          "Nothing is lost by signing in again. If anything ever goes missing, " +
+          "🛟 Recover a draft (bottom-left) has every version this browser kept." +
           "</p>" +
           "<button id='dead-session-signin' style='background:#2a4d69;color:#fff;border:none;" +
           "padding:12px 28px;border-radius:6px;font-size:15px;font-weight:bold;cursor:pointer;'>" +
@@ -885,13 +990,85 @@
               if (forLabel && forLabel.textContent.trim()) return forLabel.textContent.trim();
             } catch (e) {}
           }
+          // Skip labels INSIDE the element. The body editor contains the
+          // gallery blocks, each with its own labels, so the first label
+          // found walking up from it was "📷 Photo Gallery" — which is what
+          // her post body was filed under on 2026-10-07.
           var node = el.parentElement;
           for (var d = 0; d < 6 && node; d++) {
-            var label = node.querySelector && node.querySelector("label");
-            if (label && label.textContent.trim()) return label.textContent.trim();
+            var labels = node.querySelectorAll ? node.querySelectorAll("label") : [];
+            for (var li = 0; li < labels.length; li++) {
+              if (el.contains(labels[li])) continue;
+              if (labels[li].textContent.trim()) return labels[li].textContent.trim();
+            }
             node = node.parentElement;
           }
           return el.placeholder || el.name || el.tagName.toLowerCase();
+        }
+
+        // -----------------------------------------------------------------
+        // The entry exactly as Decap holds it.
+        // -----------------------------------------------------------------
+        // Reading the screen loses everything that is not text. On
+        // 2026-10-07 a 19,000-character snapshot of her post came back with
+        // every word intact and not one photo: a gallery on screen is a form
+        // full of thumbnails, and innerText keeps the form's labels and
+        // drops the pictures. The YouTube link, the trip, the cover photo —
+        // all pickers, all gone.
+        //
+        // Decap already has the real thing: the entry's data, body as
+        // markdown with every {% gallery_block %} in it, in its redux store.
+        // The store isn't exported, but react-redux hands it to <Provider>
+        // as a prop, so it can be found by walking React's tree down from
+        // Decap's root element. Found once, then cached.
+        //
+        // If any of that stops being true in some later Decap, this returns
+        // null and the snapshot is exactly what it was before: the screen.
+        var decapStore = null;
+        function findDecapStore() {
+          if (decapStore) return decapStore;
+          try {
+            var root = document.getElementById("nc-root");
+            if (!root) return null;
+            var fiber = null;
+            Object.keys(root).forEach(function (k) {
+              if (k.indexOf("__reactContainer$") === 0) fiber = root[k];
+            });
+            var stack = fiber ? [fiber] : [];
+            for (var seen = 0; stack.length && seen < 5000; seen++) {
+              var f = stack.pop();
+              var p = f && f.memoizedProps;
+              if (p && p.store && typeof p.store.getState === "function" &&
+                  typeof p.store.subscribe === "function") {
+                decapStore = p.store;
+                return decapStore;
+              }
+              if (f && f.sibling) stack.push(f.sibling);
+              if (f && f.child) stack.push(f.child);
+            }
+          } catch (e) {}
+          return null;
+        }
+
+        // The entry's data, but only if it is the entry the URL says she is
+        // in. Moving between posts, the store can briefly still hold the last
+        // one, and filing post A's words under post B is its own disaster.
+        function entryData() {
+          try {
+            var store = findDecapStore();
+            if (!store) return null;
+            var draft = store.getState().entryDraft;
+            var entry = draft && draft.get && draft.get("entry");
+            if (!entry || !entry.get) return null;
+            var m = /#\/collections\/([^/]+)\/(?:entries\/)?([^/?]*)/.exec(location.hash);
+            if (!m || entry.get("collection") !== m[1]) return null;
+            var slug = decodeURIComponent(m[2] || "new");
+            if (slug === "new" ? !entry.get("newRecord") : entry.get("slug") !== slug) return null;
+            var data = entry.get("data");
+            return (data && data.toJS) ? data.toJS() : null;
+          } catch (e) {
+            return null;
+          }
         }
 
         // Her log: "form snapshot, 62 fields, 173465 chars", every five
@@ -920,7 +1097,7 @@
 
           Array.prototype.forEach.call(document.querySelectorAll(selector), function (el) {
             if (el.type === "password" || el.type === "search") return;
-            if (el.closest && el.closest("#photo-pos-modal, #unsaved-modal, #dead-session-modal")) return;
+            if (el.closest && el.closest("#photo-pos-modal, #unsaved-modal, #dead-session-modal, #recovery-panel")) return;
 
             // querySelectorAll is in document order, so an ancestor is
             // always seen before its descendants: if anything already kept
@@ -960,6 +1137,7 @@
             if (!key) return;                       // not in an entry
             var fields = collectFields();
             if (!fields.length) return;
+            var data = entryData();
             var signature = JSON.stringify(fields);
             if (signature.length > MAX_SNAPSHOT) {
               // Something unexpected is large. Her words matter more than
@@ -968,6 +1146,11 @@
               signature = JSON.stringify(fields);
               console.warn("[safety-net] snapshot was oversized; kept the text, dropped the markup");
             }
+            // A photo swapped or a trip picked changes the data and not the
+            // screen text, and is still a change worth keeping.
+            var dataSig = data ? JSON.stringify(data) : "";
+            if (dataSig.length > MAX_SNAPSHOT) { data = null; dataSig = ""; }
+            signature += dataSig;
             if (lastForm[key] === signature) return;
             lastForm[key] = signature;
 
@@ -975,7 +1158,9 @@
             var history;
             try { history = JSON.parse(localStorage.getItem(storageKey)) || []; }
             catch (e) { history = []; }
-            history.push({ ts: Date.now(), url: location.href, fields: fields });
+            var version = { ts: Date.now(), url: location.href, fields: fields };
+            if (data) version.data = data;
+            history.push(version);
             if (history.length > MAX_FORM_HIST) history = history.slice(-MAX_FORM_HIST);
 
             // Make room before asking, not after being refused. The guard
@@ -1040,21 +1225,22 @@
             });
           });
           if (!any) console.log("No form snapshot at index " + idxFromEnd + ".");
+          // Chrome shortens long messages, and copying the console out keeps
+          // the short version. That cut her post off mid-gallery on 2026-10-07.
+          else console.log("(Long fields are cut short here. RECOVERY() shows every version in full.)");
         };
 
-        // Copies the whole form as labelled plain text, ready to paste
-        // somewhere safe while the editor is sorted out.
+        // Copies the whole version, ready to paste somewhere safe while the
+        // editor is sorted out.
         window.RECOVERY_FORM_COPY = function (idxFromEnd) {
           idxFromEnd = idxFromEnd || 0;
-          var best = null;
+          var best = null, bestKey = null;
           formHistories().forEach(function (h) {
             var entry = h.entries[h.entries.length - 1 - idxFromEnd];
-            if (entry && (!best || entry.ts > best.ts)) best = entry;
+            if (entry && (!best || entry.ts > best.ts)) { best = entry; bestKey = h.key; }
           });
           if (!best) { console.log("No form snapshot at index " + idxFromEnd + "."); return; }
-          var text = best.fields.map(function (f) {
-            return "## " + f.label + "\n" + f.value;
-          }).join("\n\n");
+          var text = versionAsFile(best, bestKey).text;
           if (window.copy) {
             window.copy(text);
             console.log("Copied " + text.length + " chars from " +
@@ -1097,6 +1283,284 @@
           });
           if (!any) console.log("Nothing kept yet.");
         };
+
+        // The names EDITING.md was still teaching on 2026-10-07, two weeks
+        // after the commands behind them were removed. She typed them from
+        // the doc at the worst possible moment and got ReferenceErrors.
+        // Whatever she remembers should work.
+        window.RECOVERY_HISTORY = function () { return window.RECOVERY_LIST(); };
+        window.RECOVERY_COPY = function (n) { return window.RECOVERY_FORM_COPY(n); };
+
+        // -----------------------------------------------------------------
+        // Turning a kept version back into something she can paste.
+        // -----------------------------------------------------------------
+        // A version saved from the screen is the editor's innerText, and in
+        // a post with galleries most of that is the gallery FORM: "Choose
+        // different image", "FOCAL X (0–100)", the same hint paragraph per
+        // photo. Her 2,600 words came back as 19,000 characters. Fold each
+        // block back to one line saying what was there, keeping any photo
+        // links the text happens to show.
+        function tidyScreenText(text) {
+          function links(chunk) {
+            var urls = chunk.match(/https?:\/\/[^\s"']+/g);
+            return urls ? ": " + urls.join("  ") : "";
+          }
+          return String(text || "")
+            .replace(/\r\n?/g, "\n")
+            .replace(/📷 PHOTO GALLERY\nPHOTOS\n(\d+) photos?\nAdd photos\n[\s\S]*?Shown below the gallery in italic\.[^\n]*\n*﻿?/g,
+              function (m, n) {
+                var got = links(m);
+                return "👉 [PHOTO GALLERY, " + n + " photos" + (got || " — re-add them") + "]\n";
+              })
+            .replace(/IMAGE\nIMAGE\nChoose different image\nReplace with URL\nRemove image\n(?:ALT TEXT\n)?(?:TITLE\n)?\n*﻿?/g,
+              "👉 [PHOTO — re-add it]\n")
+            .replace(/🎬 YOUTUBE VIDEO\nYOUTUBE URL\n[\s\S]*?just the video ID\)\.\n*﻿?/g,
+              "👉 [YOUTUBE VIDEO — re-add the link]\n")
+            .replace(/﻿/g, "")
+            .replace(/\n{3,}/g, "\n\n")
+            .trim();
+        }
+
+        // Decap's own copy of the body if this version has one — markdown,
+        // galleries and all. Otherwise the longest thing on screen, tidied.
+        function versionBody(v) {
+          if (v && v.data && typeof v.data.body === "string") {
+            return { text: v.data.body, exact: true };
+          }
+          var longest = "";
+          ((v && v.fields) || []).forEach(function (f) {
+            var s = String(f.value || "");
+            if (s.length > longest.length) longest = s;
+          });
+          return { text: tidyScreenText(longest), exact: false };
+        }
+
+        function versionTitle(v) {
+          if (v && v.data && v.data.title) return String(v.data.title);
+          var t = ((v && v.fields) || []).filter(function (f) { return f.label === "Title"; })[0];
+          return t ? String(t.value || "") : "";
+        }
+
+        // A whole version as one file. With Decap's data it is the post
+        // itself — front matter and body, the same shape as the file in
+        // _posts/ — so it can be put back exactly. Without it, a labelled
+        // list of what was on screen, honest about what is missing.
+        function versionAsFile(v, key) {
+          var when = new Date(v.ts);
+          var stamp = when.getFullYear() + "-" + ("0" + (when.getMonth() + 1)).slice(-2) + "-" +
+                      ("0" + when.getDate()).slice(-2) + "-" + ("0" + when.getHours()).slice(-2) +
+                      ("0" + when.getMinutes()).slice(-2);
+          var name = (versionTitle(v) || String(key || "").slice(FORM_PREFIX.length) || "draft")
+            .toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 60) || "draft";
+          var text;
+          if (v.data && typeof v.data.body === "string") {
+            // JSON is valid YAML, which keeps every value — quotes, colons,
+            // lists of photos — readable back exactly as it went in.
+            var lines = ["---"];
+            Object.keys(v.data).forEach(function (k) {
+              var val = v.data[k];
+              if (k === "body" || val === undefined || val === null || val === "") return;
+              lines.push(k + ": " + JSON.stringify(val));
+            });
+            lines.push("---", "", v.data.body);
+            return { name: name + "-" + stamp + ".md", text: lines.join("\n") + "\n" };
+          }
+          var body = versionBody(v).text;
+          var longest = 0;
+          (v.fields || []).forEach(function (f) { longest = Math.max(longest, String(f.value || "").length); });
+          text = "Saved from the screen at " + when.toLocaleString() + ".\n" +
+                 "Photos, the trip and other pickers are not in this copy; every 👉 marks something to re-add.\n\n";
+          (v.fields || []).forEach(function (f) {
+            if (String(f.value || "").length === longest) return;   // the body, below
+            text += f.label + ": " + f.value + "\n";
+          });
+          text += "\n==================== BODY ====================\n\n" + body + "\n";
+          return { name: name + "-" + stamp + ".txt", text: text };
+        }
+
+        function copyText(text) {
+          function fallback() {
+            var ta = document.createElement("textarea");
+            ta.value = text;
+            ta.style.cssText = "position:fixed;left:-9999px;top:0;";
+            document.body.appendChild(ta);
+            ta.select();
+            var ok = false;
+            try { ok = document.execCommand("copy"); } catch (e) {}
+            ta.remove();
+            return ok;
+          }
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            return navigator.clipboard.writeText(text).then(function () { return true; }, fallback);
+          }
+          return Promise.resolve(fallback());
+        }
+
+        function downloadFile(name, text, type) {
+          var a = document.createElement("a");
+          a.href = URL.createObjectURL(new Blob([text], { type: type || "text/plain;charset=utf-8" }));
+          a.download = name;
+          document.body.appendChild(a);
+          a.click();
+          a.remove();
+          setTimeout(function () { URL.revokeObjectURL(a.href); }, 10000);
+        }
+
+        // -----------------------------------------------------------------
+        // 🛟 Recover a draft — the same history, without the console.
+        // -----------------------------------------------------------------
+        // On 2026-10-07 the backup had every word of her post and she still
+        // could not get at it: the commands she was taught no longer
+        // existed, and the ones that did printed into a console that cut the
+        // text short. A safety net that needs F12 and the right incantation
+        // is one only Mike can use.
+        //
+        // This only ever READS. Copy and Download hand her a version; it is
+        // never put into the editor for her. That is the mistake of
+        // 2026-09-19 — a backup applied to the wrong post — and a list she
+        // chooses from cannot make it.
+        //
+        // Wording on buttons and headings avoids starting with "new", "save"
+        // or "publish": the save guards further down watch for clicks on
+        // anything labelled that way.
+        function openRecoveryPanel() {
+          var old = document.getElementById("recovery-panel");
+          if (old) old.remove();
+
+          function make(tag, css, text) {
+            var n = document.createElement(tag);
+            if (css) n.style.cssText = css;
+            if (text !== undefined) n.textContent = text;
+            return n;
+          }
+          var BTN = "background:#2a4d69;color:#fff;border:none;border-radius:6px;" +
+                    "padding:5px 10px;font-size:12px;cursor:pointer;margin-left:6px;";
+          var fmt = { month: "short", day: "numeric", hour: "numeric", minute: "2-digit", second: "2-digit" };
+
+          var overlay = make("div",
+            "position:fixed;inset:0;background:rgba(0,0,0,0.6);display:flex;align-items:center;" +
+            "justify-content:center;z-index:2147483647;font-family:system-ui,sans-serif;");
+          overlay.id = "recovery-panel";
+          var card = make("div",
+            "background:#fff;border-radius:12px;padding:22px 24px;width:min(680px,92vw);" +
+            "max-height:86vh;overflow-y:auto;box-shadow:0 8px 40px rgba(0,0,0,0.35);color:#333;");
+          overlay.appendChild(card);
+          card.appendChild(make("h2", "margin:0 0 8px;font-size:20px;color:#2a4d69;", "🛟 Recover a draft"));
+          card.appendChild(make("p", "margin:0 0 8px;font-size:13px;line-height:1.5;",
+            "Every few seconds the editor keeps a copy of what you're writing, in this browser on " +
+            "this computer. Nothing here changes your post: pick a version, copy or download it, " +
+            "and put it back yourself."));
+          card.appendChild(make("p", "margin:0 0 14px;font-size:13px;line-height:1.5;color:#555;",
+            "To put a body back: open the post, switch the Body box to Markdown (top right of the " +
+            "box), select everything in it, and paste. Versions marked “text only” were saved from " +
+            "the screen: every word is there, but photos need re-adding wherever it says 👉."));
+
+          var hists = formHistories()
+            .filter(function (h) { return h.entries.length; })
+            .sort(function (a, b) {
+              return b.entries[b.entries.length - 1].ts - a.entries[a.entries.length - 1].ts;
+            });
+          if (!hists.length) card.appendChild(make("p", "font-size:14px;", "Nothing has been kept yet."));
+
+          hists.forEach(function (h, hi) {
+            var id = h.key.slice(FORM_PREFIX.length);
+            var title = "";
+            for (var t = h.entries.length - 1; t >= 0 && !title; t--) title = versionTitle(h.entries[t]);
+            var slug = decodeURIComponent(id.split(":")[1] || "");
+            var name = (slug === "new" ? "Unsaved post" : slug) + (title ? " — " + title : "");
+
+            var largest = 0;
+            h.entries.forEach(function (e) { largest = Math.max(largest, versionBody(e).text.length); });
+
+            var det = make("details", "border:1px solid #dde4ea;border-radius:8px;padding:8px 12px;margin-bottom:10px;");
+            if (hi === 0) det.open = true;
+            var sum = make("summary", "cursor:pointer;font-size:14px;font-weight:600;color:#2a4d69;", name);
+            sum.appendChild(make("span", "font-weight:normal;color:#777;font-size:12px;",
+              "  · " + h.entries.length + " versions · last kept " +
+              new Date(h.entries[h.entries.length - 1].ts).toLocaleString([], fmt)));
+            det.appendChild(sum);
+
+            for (var i = h.entries.length - 1; i >= 0; i--) {
+              (function (v) {
+                var b = versionBody(v);
+                var row = make("div",
+                  "display:flex;align-items:center;gap:8px;padding:6px 0;border-top:1px solid #f0f3f5;font-size:13px;");
+                row.appendChild(make("span", "min-width:150px;", new Date(v.ts).toLocaleString([], fmt)));
+                row.appendChild(make("span", "min-width:90px;color:#555;", b.text.length.toLocaleString() + " chars"));
+                var tags = make("span", "flex:1;font-size:11px;color:#888;",
+                  (b.exact ? "exact, with photos" : "text only") +
+                  (b.text.length === largest && largest > 0 ? "  ★ longest" : ""));
+                row.appendChild(tags);
+
+                var copyBtn = make("button", BTN, "Copy body");
+                copyBtn.type = "button";
+                copyBtn.addEventListener("click", function () {
+                  copyText(b.text).then(function (ok) {
+                    copyBtn.textContent = ok ? "Copied ✓" : "Couldn't copy";
+                    setTimeout(function () { copyBtn.textContent = "Copy body"; }, 2500);
+                  });
+                });
+                var dlBtn = make("button", BTN, "Download");
+                dlBtn.type = "button";
+                dlBtn.addEventListener("click", function () {
+                  var f = versionAsFile(v, h.key);
+                  downloadFile(f.name, f.text);
+                });
+                row.appendChild(copyBtn);
+                row.appendChild(dlBtn);
+                det.appendChild(row);
+              })(h.entries[i]);
+            }
+            card.appendChild(det);
+          });
+
+          var foot = make("div", "display:flex;justify-content:space-between;align-items:center;margin-top:14px;gap:10px;flex-wrap:wrap;");
+          var all = make("button",
+            "background:none;border:none;color:#2a4d69;text-decoration:underline;cursor:pointer;font-size:12px;padding:0;",
+            "Download everything (backups + editor log, for troubleshooting)");
+          all.type = "button";
+          all.addEventListener("click", function () {
+            var dump = { downloaded: new Date().toISOString(), forms: {}, log: null };
+            formHistories().forEach(function (h) { dump.forms[h.key] = h.entries; });
+            try { dump.log = window.__ADMIN_LOG ? window.__ADMIN_LOG.entries() : null; } catch (e) {}
+            downloadFile("editor-backups-" + Date.now() + ".json", JSON.stringify(dump, null, 1), "application/json");
+          });
+          var close = make("button", BTN + "padding:8px 18px;font-size:14px;", "Close");
+          close.type = "button";
+          close.addEventListener("click", function () { overlay.remove(); });
+          foot.appendChild(all);
+          foot.appendChild(close);
+          card.appendChild(foot);
+
+          overlay.addEventListener("click", function (e) { if (e.target === overlay) overlay.remove(); });
+          document.body.appendChild(overlay);
+        }
+        window.RECOVERY = openRecoveryPanel;
+
+        // Always there, bottom-left above the status pill. When she needs it
+        // she is already worried; it should not have to be found.
+        function buildRecoveryButton() {
+          if (document.getElementById("recovery-btn")) return;
+          if (!document.body) { setTimeout(buildRecoveryButton, 100); return; }
+          var btn = document.createElement("button");
+          btn.id = "recovery-btn";
+          btn.type = "button";
+          btn.textContent = "🛟 Recover a draft";
+          btn.title = "See and copy the versions of your posts this browser has kept";
+          btn.style.cssText =
+            "position:fixed;bottom:72px;left:18px;padding:6px 11px;background:#fff;" +
+            "color:#2a4d69;border:1px solid #2a4d69;border-radius:6px;font-size:12px;" +
+            "font-family:system-ui,sans-serif;cursor:pointer;z-index:2147483645;" +
+            "box-shadow:0 1px 6px rgba(0,0,0,0.15);";
+          btn.addEventListener("click", openRecoveryPanel);
+          document.body.appendChild(btn);
+        }
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", buildRecoveryButton);
+        } else {
+          buildRecoveryButton();
+        }
+        setTimeout(buildRecoveryButton, 3000);
       })();
 
       whenReady(function () {
@@ -1231,7 +1695,8 @@
           bar.innerHTML =
             "⛔ Your last save did NOT reach GitHub (" + detail + ").<br>" +
             "<span style=\"font-weight:normal;font-size:13px;\">" +
-            "Do not close this tab. Everything on screen is still here and backed up locally. " +
+            "Do not close this tab. Everything on screen is still here and backed up locally " +
+            "(🛟 Recover a draft, bottom-left, has every version). " +
             "Sign in again, then press Save. Publishing now would ship " +
             lastSavedLabel() + " instead.</span>";
         }

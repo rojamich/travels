@@ -225,24 +225,55 @@ If she is unsure, the rule is: **press Save, wait for the pill to say
 
 ## Getting her work back if a save is lost
 
-The editor snapshots the whole form every few seconds into her browser's
-local storage — every field, not just the body. In the browser console on
-`/admin/` (F12 → Console):
+The editor keeps a copy of the post every few seconds in her browser's local
+storage: up to 30 versions per post, at least 8 even when space is short.
+Since 2026-10-07 each version also holds the post **exactly as Decap had
+it**: every field, and the body as markdown with its galleries, photo links
+and YouTube links in it.
+
+**First: don't reload, and don't start a new post.** Every unsaved new post
+shares one history, so typing in a fresh one pushes old versions out. If a
+save has just failed, click in the body, Ctrl+A, Ctrl+C, and paste it into
+Notepad before doing anything else.
+
+**Then use 🛟 Recover a draft**, the button at the bottom-left of `/admin/`.
+It lists every post this browser has kept, with each version's time and size.
+The newest version is often the damage (a blank page after a reload), so look
+for the ★ longest one from around when she was writing.
+
+- **Copy body**: paste it back by opening the post, switching the Body box to
+  *Markdown* (top right of the box), selecting everything and pasting.
+- **Download**: the whole post as a `.md` file, front matter and all, the same
+  shape as the files in `_posts/`.
+- Versions marked **"text only"** are from before 2026-10-07 and were saved
+  from the screen: every word is there, but photos, the trip and the YouTube
+  link are not. Each 👉 line marks something to re-add.
+- **Download everything**, at the bottom, saves all the backups plus the
+  editor's log as one file. Send that one when something has gone wrong.
+
+The panel only reads. It never changes the post on screen.
+
+Console commands (F12 → Console), if the button is ever not there:
 
 | Command | What it does |
 | --- | --- |
-| `RECOVERY_FORM()` | Prints every field of the most recent snapshot, labelled |
-| `RECOVERY_FORM(1)` | The snapshot before that (up to 12 are kept) |
-| `RECOVERY_FORM_COPY()` | Copies the whole form to the clipboard as labelled text |
-| `RECOVERY_HISTORY()` | Lists the older body-only snapshots with timestamps |
-| `RECOVERY_COPY(0)` | Copies the newest body-only snapshot |
+| `RECOVERY()` | Opens the same panel |
+| `RECOVERY_LIST()` | Lists every version kept, with its time and size |
+| `RECOVERY_FORM(N)` | Prints version N field by field (Chrome cuts long text short, so use the panel for the full thing) |
+| `RECOVERY_FORM_COPY(N)` | Copies version N to the clipboard, in full |
+| `ADMIN_LOG()` | Prints the editor's log, which survives a reload |
 
-Use `RECOVERY_FORM_COPY()` first — the `RECOVERY_COPY` pair are the older
-commands and only ever captured the body text, which is why a recovery used
-to come back with the title, location, date, tags and photo URLs missing.
+`RECOVERY_HISTORY()` and `RECOVERY_COPY(N)` are old names. This file kept
+listing them after the commands themselves were removed, which is how she
+ended up with errors on 2026-10-07. They work again now, as aliases.
 
 Snapshots live in **that browser on that machine** and are kept 14 days. If
 she wrote on her laptop, they are not on your phone.
+
+**Why the token error happened** is in the editor log. The console clears
+when the page reloads, but the log doesn't: it keeps the last 300 warnings,
+errors and save events. Get it with `ADMIN_LOG()` or with **Download
+everything**.
 
 ---
 
@@ -299,8 +330,8 @@ before anything else:
    automatically, so this should stop happening on its own.
 4. If the pull request exists but holds an **older** version than what she
    wrote, GitHub never received the last save. Do not merge it. Get her
-   words back with `RECOVERY_FORM_COPY()` in her browser console (see
-   above), then paste them into the editor and save properly.
+   words back with **🛟 Recover a draft** (see above), then paste them into
+   the editor and save properly.
 
 ---
 
