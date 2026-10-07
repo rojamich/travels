@@ -89,4 +89,4 @@ I wanted to get so many souvenirs but nothing will fit in the backpack 🎒Admir
 
 We made it back in time to have lunch and watch football for the day 🏈 before the rain started again! ⛈️
 
- *\    UPDATE: All four of our teams won this week! Niners (Michael), Patriots (Jenna), and our fantasy teams!*
+  *   UPDATE: All four of our teams won this week! Niners (Michael), Patriots (Jenna), and our fantasy teams!*
