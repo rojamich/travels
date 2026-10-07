@@ -88,3 +88,5 @@ It was a bustling and beautiful marketplace with SO many things to examine 🔍 
 I wanted to get so many souvenirs but nothing will fit in the backpack 🎒Admiring will have to do!
 
 We made it back in time to have lunch and watch football for the day 🏈 before the rain started again! ⛈️
+
+ *\    UPDATE: All four of our teams won this week! Niners (Michael), Patriots (Jenna), and our fantasy teams!*
