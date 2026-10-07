@@ -22,10 +22,10 @@ entries:
     note: Door to door
     icon: 🧳
   - title: Longest single flight
-    value: ""
+    value: "15.5"
     unit: hours
-    place: ""
-    date: null
+    place: Auckland, New Zealand
+    date: 2022-11-16
     note: ""
     icon: ✈️
   - title: Hottest day
