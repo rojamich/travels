@@ -2628,6 +2628,82 @@
       console.error("[admin] Photo Positioner init failed:", err);
     }
 
+    // ----- "⬆ Back to top" -----
+    // Floating button (bottom-right, left of the emoji button) shown only on
+    // the post editor once she has scrolled down a long post. The editor form
+    // doesn't scroll the window — Decap scrolls its own inner pane — and which
+    // element that is isn't something Decap promises to keep stable, so we
+    // don't look it up. Scroll events don't bubble but they do pass through a
+    // capture listener on document, so whichever element last scrolled is the
+    // one to send back to the top.
+    try {
+    (function () {
+      var SHOW_AFTER = 600;   // px scrolled before the button appears
+      var scroller = null;
+      var btn = null;
+
+      function inEditor() {
+        return /#\/collections\/[^/]+\/(entries|new)/.test(location.hash);
+      }
+      function scrollTopOf(el) {
+        return el === document || el === window
+          ? (window.scrollY || document.documentElement.scrollTop)
+          : el.scrollTop;
+      }
+      function update() {
+        if (!btn) return;
+        var show = inEditor() && scroller && scroller.isConnected !== false &&
+                   scrollTopOf(scroller) > SHOW_AFTER;
+        btn.style.display = show ? "flex" : "none";
+      }
+
+      function build() {
+        if (document.getElementById("back-to-top-btn")) return;
+        if (!document.body) { setTimeout(build, 100); return; }
+        btn = document.createElement("button");
+        btn.id = "back-to-top-btn";
+        btn.type = "button";
+        btn.title = "Back to the top of the post";
+        btn.textContent = "⬆";
+        btn.style.cssText =
+          "position:fixed;bottom:18px;right:76px;width:46px;height:46px;" +
+          "border-radius:50%;border:none;background:#2a4d69;color:#fff;" +
+          "font-size:22px;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,0.25);" +
+          "z-index:9999;display:none;align-items:center;justify-content:center;";
+        btn.addEventListener("mouseenter", function () { btn.style.background = "#1f3a52"; });
+        btn.addEventListener("mouseleave", function () { btn.style.background = "#2a4d69"; });
+        btn.addEventListener("click", function () {
+          if (!scroller) return;
+          if (scroller === document || scroller === window) {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          } else {
+            scroller.scrollTo({ top: 0, behavior: "smooth" });
+          }
+        });
+        document.body.appendChild(btn);
+      }
+
+      document.addEventListener("scroll", function (e) {
+        var t = e.target;
+        // Ignore our own floating panels (the emoji grid scrolls too).
+        if (t && t.nodeType === 1 && t.closest && t.closest("#inline-emoji-panel,#photo-pos-modal")) return;
+        scroller = t;
+        update();
+      }, true);
+      window.addEventListener("hashchange", function () { scroller = null; update(); });
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", build);
+      } else {
+        build();
+      }
+      // Same defensive retry as the positioner, in case Decap remounts body.
+      setTimeout(build, 2000);
+    })();
+    } catch (err) {
+      console.error("[admin] Back-to-top init failed:", err);
+    }
+
     // ----- "🎬 YouTube Video" -----
     CMS.registerEditorComponent({
       id: "youtube",
