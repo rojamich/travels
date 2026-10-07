@@ -44,7 +44,7 @@ Your writing is still there, and the editor has been keeping copies of it every 
 
 1. **Don't reload yet.** Click in the body, press **Ctrl+A** then **Ctrl+C**, and paste it into Notepad. That's your own copy, whatever happens next.
 2. Sign in again if it asks, then press **Save**.
-3. If the words are ever gone, click **🛟 Recover a draft** at the bottom-left. It lists every version this browser kept, with times and sizes. Pick the ★ longest one from when you were writing and press **Copy body**. Then open the post, switch the Body box to **Markdown** (top right of the box), select everything and paste. Photos and videos come back with it.
+3. If the words are ever gone, open the post (or a new post, if it was never saved) and click **🛟 Recover a draft** at the bottom-left. It lists every version this browser kept, with times and sizes. Pick the ★ longest one from when you were writing and press **Put back**: everything comes back into the editor, including title, trip, photos and videos. Check it over and press **Save**. (If Put back ever says it didn't work, use **Copy body** instead: switch the Body box to **Markdown**, top right of the box, select everything and paste.)
 4. Don't start a brand-new post until you've got your words back. Unsaved new posts share one backup, so typing in a fresh one slowly pushes the old copies out.
 
 If something still looks wrong, press **Download everything** at the bottom of that panel and send the file to Mike.

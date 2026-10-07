@@ -241,6 +241,15 @@ It lists every post this browser has kept, with each version's time and size.
 The newest version is often the damage (a blank page after a reload), so look
 for the ★ longest one from around when she was writing.
 
+- **Put back**: loads the whole version into the editor (every field, photos,
+  galleries, video) in one go, then she presses Save. It only works with that
+  same post open, or an unsaved post for a version that was never saved. It
+  asks first and keeps what was on screen as a version, so it can be undone
+  from the same list. It uses Decap's own local-backup restore
+  (`DRAFT_LOCAL_BACKUP_RETRIEVED` then `DRAFT_CREATE_FROM_LOCAL_BACKUP`), and
+  checks afterwards that the editor really took it. If a Decap upgrade renames
+  those actions, it says "Didn't work, use Copy body" rather than doing
+  anything half-way. **Re-test it after bumping Decap's version.**
 - **Copy body**: paste it back by opening the post, switching the Body box to
   *Markdown* (top right of the box), selecting everything and pasting.
 - **Download**: the whole post as a `.md` file, front matter and all, the same
@@ -251,7 +260,8 @@ for the ★ longest one from around when she was writing.
 - **Download everything**, at the bottom, saves all the backups plus the
   editor's log as one file. Send that one when something has gone wrong.
 
-The panel only reads. It never changes the post on screen.
+Apart from Put back, the panel only reads. Nothing else in it changes the post
+on screen.
 
 Console commands (F12 → Console), if the button is ever not there:
 

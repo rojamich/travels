@@ -813,6 +813,45 @@ async function hit(url, method, status, opts = {}) {
         new Function("location", "findDecapStore", grab("entryData") + "\nreturn entryData();")(
           { hash: "#/collections/posts/new" }, () => null), null);
 
+  // ------------------------------------------ putting a version back
+  // The one thing in the recovery panel that writes to the editor. It must
+  // only ever load a version into the post it came from, keep what was on
+  // screen first, and say so when Decap did not take it.
+  console.log("\nPut back only loads a version into its own post");
+  function putBack({ here, version, key, decapObeys = true }) {
+    const log = [];
+    let current = { title: "on screen now", body: "newer words" };
+    const store = {
+      getState: () => ({ entryDraft: { get: () => ({ toJS: () =>
+        ({ collection: "posts", slug: "a", path: "_posts/a.md", data: current }) }) } }),
+      dispatch: (a) => {
+        log.push(a.type);
+        if (a.type === "DRAFT_LOCAL_BACKUP_RETRIEVED") log.push(a.payload.entry.path);
+        if (decapObeys && a.type === "DRAFT_CREATE_FROM_LOCAL_BACKUP") current = version.data;
+      }
+    };
+    const restore = new Function("FORM_PREFIX", "formKey", "entryData", "findDecapStore",
+      "snapshotForm", "console",
+      grab("canRestoreHere") + "\n" + grab("restoreVersion") + "\nreturn restoreVersion;"
+    )("editor-form:", () => here, () => (here ? current : null), () => store,
+      (why) => log.push("snapshot:" + why), { warn() {} });
+    return { ok: restore(version, key), log };
+  }
+  const old = { ts: 1, data: { title: "the one she wrote", body: "all of it" } };
+  const good = putBack({ here: "posts:a", version: old, key: "editor-form:posts:a" });
+  check("into the post it came from: what's on screen is kept first, then Decap loads it",
+        good, { ok: true, log: ["snapshot:before-restore", "DRAFT_LOCAL_BACKUP_RETRIEVED",
+                                "_posts/a.md", "DRAFT_CREATE_FROM_LOCAL_BACKUP"] });
+  check("never into a different post",
+        putBack({ here: "posts:b", version: old, key: "editor-form:posts:a" }), { ok: false, log: [] });
+  check("never from the list page, with no post open",
+        putBack({ here: null, version: old, key: "editor-form:posts:a" }), { ok: false, log: [] });
+  check("never a text-only version, which has no fields to load",
+        putBack({ here: "posts:a", version: { ts: 1, fields: [] }, key: "editor-form:posts:a" }),
+        { ok: false, log: [] });
+  check("and if Decap ignores it, it says it didn't work",
+        putBack({ here: "posts:a", version: old, key: "editor-form:posts:a", decapObeys: false }).ok, false);
+
   // ------------------------------------------ the names she remembers
   check("RECOVERY_HISTORY and RECOVERY_COPY, the names the doc taught, still exist",
         [/window\.RECOVERY_HISTORY = function/.test(HTML), /window\.RECOVERY_COPY = function/.test(HTML)],

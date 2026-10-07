@@ -314,7 +314,8 @@
     to on 2026-08-27, so this pins today's behaviour rather than changing it.
 
     To upgrade: bump the version, open /admin/, and check you can load a
-    post, upload a photo and save. Decap's release notes are at
+    post, upload a photo and save — and that 🛟 Recover a draft → Put back
+    still works, since it dispatches two of Decap's internal actions by name. Decap's release notes are at
     https://github.com/decaporg/decap-cms/releases
   -->
   <!--
@@ -1378,6 +1379,63 @@
           return { name: name + "-" + stamp + ".txt", text: text };
         }
 
+        // -----------------------------------------------------------------
+        // Putting a version back into the editor, in one go.
+        // -----------------------------------------------------------------
+        // Copy body still leaves her to redo the title, trip, cover and
+        // banner by hand. A version that holds Decap's data has all of that,
+        // and Decap already has a way to load a whole entry into the editor:
+        // the local-backup restore it offers on its own. Its prompt was taken
+        // away on 2026-09-20 because it loaded the WRONG post, never because
+        // loading was the problem. So use the same two steps Decap uses
+        // ("here is a backup", "load it"), dispatched together so its prompt
+        // never appears, under the conditions its prompt never checked:
+        //
+        //   - she asked, for this version, and confirmed
+        //   - it is a version of the post the editor has open (an unsaved
+        //     post only goes into an unsaved post)
+        //   - what is on screen is snapshotted first, so this is undoable
+        //     from the same list
+        //
+        // Then it checks that the editor really holds what was put back. If
+        // a future Decap renamed the actions, nothing happens, it says so,
+        // and Copy body is still there.
+        function canRestoreHere(v, key) {
+          return !!(v && v.data && formKey() && FORM_PREFIX + formKey() === key && entryData());
+        }
+
+        function restoreVersion(v, key) {
+          if (!canRestoreHere(v, key)) return false;
+          try {
+            var store = findDecapStore();
+            var entry = store.getState().entryDraft.get("entry").toJS();
+            snapshotForm("before-restore");
+            entry.data = JSON.parse(JSON.stringify(v.data));
+            // Decap 3.15.1's names, read from its bundle on 2026-10-07: the
+            // first stores the backup, the second loads it as the entry,
+            // marks it changed and gives the editor a new key so every
+            // widget remounts showing the restored values.
+            store.dispatch({ type: "DRAFT_LOCAL_BACKUP_RETRIEVED", payload: { entry: entry } });
+            store.dispatch({ type: "DRAFT_CREATE_FROM_LOCAL_BACKUP" });
+            var now = entryData();
+            return !!now && JSON.stringify(now) === JSON.stringify(v.data);
+          } catch (e) {
+            console.warn("[safety-net] put-back failed:", e && e.message);
+            return false;
+          }
+        }
+
+        function notice(text, colour) {
+          var el = document.createElement("div");
+          el.textContent = text;
+          el.style.cssText =
+            "position:fixed;top:0;left:0;right:0;padding:11px 20px;background:" + colour + ";" +
+            "color:#fff;font:bold 14px system-ui,sans-serif;text-align:center;" +
+            "z-index:2147483647;box-shadow:0 2px 8px rgba(0,0,0,0.3);";
+          document.body.appendChild(el);
+          setTimeout(function () { el.remove(); }, 7000);
+        }
+
         function copyText(text) {
           function fallback() {
             var ta = document.createElement("textarea");
@@ -1415,10 +1473,11 @@
         // text short. A safety net that needs F12 and the right incantation
         // is one only Mike can use.
         //
-        // This only ever READS. Copy and Download hand her a version; it is
-        // never put into the editor for her. That is the mistake of
-        // 2026-09-19 — a backup applied to the wrong post — and a list she
-        // chooses from cannot make it.
+        // Nothing is put into the editor unless she presses Put back on a
+        // version, confirms, and has that same post open (restoreVersion,
+        // above). The mistake of 2026-09-19 was a backup applied to the wrong
+        // post without anyone choosing it; a list she picks from, gated on
+        // the post being the right one, cannot make it.
         //
         // Wording on buttons and headings avoids starting with "new", "save"
         // or "publish": the save guards further down watch for clicks on
@@ -1448,12 +1507,14 @@
           card.appendChild(make("h2", "margin:0 0 8px;font-size:20px;color:#2a4d69;", "🛟 Recover a draft"));
           card.appendChild(make("p", "margin:0 0 8px;font-size:13px;line-height:1.5;",
             "Every few seconds the editor keeps a copy of what you're writing, in this browser on " +
-            "this computer. Nothing here changes your post: pick a version, copy or download it, " +
-            "and put it back yourself."));
+            "this computer. Find the version you want: usually the ★ longest one from when you " +
+            "were writing, since the newest can be a blank page after a reload."));
           card.appendChild(make("p", "margin:0 0 14px;font-size:13px;line-height:1.5;color:#555;",
-            "To put a body back: open the post, switch the Body box to Markdown (top right of the " +
-            "box), select everything in it, and paste. Versions marked “text only” were saved from " +
-            "the screen: every word is there, but photos need re-adding wherever it says 👉."));
+            "Put back: open that post first (or an unsaved post, for one that was never saved), " +
+            "then Put back loads everything into the editor: title, trip, photos, the lot. " +
+            "Check it and press Save. Copy body: for pasting by hand into the Body box in Markdown " +
+            "mode (top right of the box). Versions marked “text only” were saved from the screen: " +
+            "every word is there, but photos need re-adding wherever it says 👉."));
 
           var hists = formHistories()
             .filter(function (h) { return h.entries.length; })
@@ -1506,6 +1567,32 @@
                   var f = versionAsFile(v, h.key);
                   downloadFile(f.name, f.text);
                 });
+                if (b.exact) {
+                  var here = canRestoreHere(v, h.key);
+                  var putBtn = make("button", BTN + (here ? "" : "opacity:0.45;"), "Put back");
+                  putBtn.type = "button";
+                  putBtn.title = here
+                    ? "Load this whole version — every field, photos and all — into the editor"
+                    : (slug === "new" ? "Open an unsaved post first, then come back here"
+                                      : "Open this post first, then come back here");
+                  putBtn.addEventListener("click", function () {
+                    if (!canRestoreHere(v, h.key)) {
+                      putBtn.textContent = slug === "new" ? "Open an unsaved post first" : "Open this post first";
+                      setTimeout(function () { putBtn.textContent = "Put back"; }, 3000);
+                      return;
+                    }
+                    if (!window.confirm("Put the version from " + new Date(v.ts).toLocaleString([], fmt) +
+                        " back into the editor?\n\nIt replaces what's on screen now. What's on screen is " +
+                        "kept first, so you can switch back from this same list.")) return;
+                    if (restoreVersion(v, h.key)) {
+                      overlay.remove();
+                      notice("Put back ✓  Check it over, then press Save.", "#2e7d32");
+                    } else {
+                      putBtn.textContent = "Didn't work, use Copy body";
+                    }
+                  });
+                  row.appendChild(putBtn);
+                }
                 row.appendChild(copyBtn);
                 row.appendChild(dlBtn);
                 det.appendChild(row);
