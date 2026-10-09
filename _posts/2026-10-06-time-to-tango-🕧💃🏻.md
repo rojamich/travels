@@ -53,17 +53,17 @@ We were also cracking up about how different we are when we were reminded by wal
 
 Naturally, he was actually referring to the house next to it, covered in vines 🌿🥬🍃
 
-The evening finally arrived for our Tango show booking! We weren't really sure what to expect but we have been wanting to experience tango so we took a shot in booking this show! We arrived in front of Cafe Tortoni which was every bit impressive as we'd heard!
+The evening finally arrived for our Tango show booking! We weren't really sure what to expect but we have been wanting to experience tango so we took a shot in booking this show! We arrived in front of Cafe Tortoni which was every bit impressive as we'd read!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%220%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791541243%2Fx2ekf3ezmzhey9irmhpj.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791541242%2Fmppkm3trehf3qbinwiec.jpg%22%7D%2C%7B%22x%22%3A%224%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791541310%2Fztg0dznwqc98obv5vshb.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-As you can see, the cafe was established long before any of us were born! The dining hall was tastefully decorated and offered a grand cafe experience 🍵🥐
+As you can see, the cafe was established long before any of us were born! It is the oldest, continuously active cafe in all of South America! The dining hall was tastefully decorated and offered a grand cafe experience 🍵🥐we didn't partake in the cafe portion as it didn't have great food reviews. 
 
 We arrived 5 minutes before the show doors opened (we wanted great seats!) and were promptly led down a stairway.
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%220%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791541427%2Fp1e6xfiayeqiniubbgzn.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791541424%2Fkpksavmvp01usqochtkk.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-We were warmly greeted by two hosts who showed us to the best seats in the house — we were the first ones there!
+We were warmly greeted by two hosts who showed us to the best seats in the house — we were the first ones there! It was about 45 minutes until showtime 🎭
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791541553%2Feyiv3zzixfafivfpxqa4.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791541552%2Fjdpvlx7yfpu6lzidnt1d.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -107,16 +107,16 @@ Out came our milanesa Argentine sandwich: a super soft, slightly toasted local b
 
 It was really good and flavorful (!) but slightly dry. I would have it again and recommend!
 
-We took a beautiful stroll to our bus stop to try the local transportation 🚏🚌
+We took a beautiful stroll to our bus stop to try the local transportation 🚏🚌 We hadn't tried it earlier because there was typically a time constraint and uber/cabify has had cheap fares.
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1791542872/chqec9y8y5otzlu2vjda.jpg)
 
 We took a peek inside the bus and saw people were tapping their credit cards and hopping on, so we did the same. What we did not realize is the fare is based on the crosstreets you give the driver (we didn't say anything lol). We sweat it out the whole ride wondering if we would be overcharged, undercharged and in trouble or have a hard time getting off the bus!
 
-Luckily, we hopped off at our stop without issue and read online they charge you the minimum fare as a default when it's busy (it was a whopping .66¢ each 🪙😂
+Luckily, we stood to indicate a stop request but the driver began pulling off without opening the doors! We quickly pushed a button and hopped off at our stop 😅 We read online they charge you the minimum fare as a default when it's busy (it was a whopping .66¢ each 🪙😂)
 
 We walked to try a new ice cream shop where I got Nutella and Brownie and Mike tried the Nutella and dulce de leche. 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1791543193/z2kag0zyxwpgfvnel2u7.jpg)
 
-Dulce de leche is great IN desserts but, alone? Too overpowering. The brownie was fantastic and nutella flavors were really good! 🍦🍧
+Dulce de leche is great IN desserts but, alone? Too overpowering. The brownie was fantastic and nutella flavors were really good! 🍦🍧The advice for this trip was dulce de leche in EVERYTHING, so that's what we've tried to do 😋
