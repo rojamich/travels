@@ -46,7 +46,7 @@ On our way to the next stop, it began to rain. Not surprising for a *rain*forest
 
 We were inside the Tenorio Volcano National Park where we got to hike to another waterfall!
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791910917%2Fyypfaxmjpgkkydw1fjxa.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791910921%2Ftf8c8g1lmvzto5mqjdqy.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791910922%2Fufbsiptlg7yy1ckubare.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791910920%2Fripk5tsfugr8wkc9ms07.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791910917%2Ferco0phhyq3xfzftn8eo.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791910919%2Fehsyk0xgcld2rg27totb.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791910920%2Fqtr6xdxjfugmatoo8s12.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791910921%2Fbbuk38tqkqtazenkwna6.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791910917%2Fyypfaxmjpgkkydw1fjxa.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791910921%2Ftf8c8g1lmvzto5mqjdqy.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791910922%2Fufbsiptlg7yy1ckubare.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791910920%2Fripk5tsfugr8wkc9ms07.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791910917%2Ferco0phhyq3xfzftn8eo.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791910919%2Fehsyk0xgcld2rg27totb.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791910920%2Fqtr6xdxjfugmatoo8s12.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791910921%2Fbbuk38tqkqtazenkwna6.jpg%22%7D%5D%2C%22caption%22%3A%22The%20circular%20vines%20were%20called%20Monkey's%20tails!%22%7D %}
 
 After about 1.5 miles, we arrived at the trail leading us down to the water. The rain was so refreshing throughout our hike down 🌧️😄
 
@@ -76,11 +76,11 @@ It was properly pouring rain now and we took shelter under the tin roof of the r
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1791911406/bicr3rth1cdzda7pbtg5.jpg)
 
-Lunch was average and not flavorful - Costa Rican food isn't our favorite despite loving beans and rice. They also offered beef/chicken, plantains, and fruit.
+Lunch was average and not flavorful - Costa Rican food isn't our favorite despite loving beans and rice. They also offered beef/chicken, plantains, and a salad.
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1791912938/yn88tstub2oonvkub0st.jpg)
 
-Thankfully we hurried off to our last stop, the Sloth Sanctuary 🦥
+Thankfully, soon we were off to our last stop, the Sloth Sanctuary 🦥
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1791911901/cdkdi2saknxo0yklpqon.jpg)
 
@@ -98,11 +98,11 @@ He was very knowledgeable and cared enough to make sure each person had a chance
 
 Snakes were unexpected for us! I was happy to see they were up in the trees and not near my face at all. Our guide even held binoculars up for everyone to take a peek and never rushed anyone through viewing 👁️
 
-He suddenly stopped mid-trail and whispered hurriedly to everyone to look. We had two women who were more interested in chatting than veiwing and missed what he was showing us.
+He suddenly stopped mid-trail and whispered hurriedly to everyone to look. We had two women who were more interested in chatting than viewing and missed what he was showing us.
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791912386%2Fvravtjpgeo4p96otwnav.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791912385%2Ffrfcsjwzzfuvspwp4jut.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791912384%2Feo5ls0mchjhqx3bkwfv7.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-This is a Broad-billed Motmot and it quickly flew off. Our guide took the most serious stance and stared at them saying, "You. Just. Missed. It". Woah that is passion lol!
+This is a Broad-billed Motmot and it quickly flew off. Our guide took the most serious stance and stared at them saying, "You. Just. Missed it". Woah that is passion lol!
 
 If you're interested to know, Broad-billed Motmots are typically found in central America as well as Northern South America and reside in humid environments - away from sea level. 
 
@@ -114,13 +114,13 @@ We were able to stroll through the butterfly haven 🦋
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791912840%2Fjhossuzrzpqg9hgyyffo.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791912838%2Fttaxpctyujqefifmh55b.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791912854%2Fe30siz0nhtttjy6taywc.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1791912856%2Fg5ifyqjcdubq3n5gxcbz.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-Some of them were HUGE! And it was neat to see them in many colors. My only butterfly experience before this was at sixflags lol
+Some of them were HUGE! And it was neat to see them in many colors. My only butterfly experience before this was at six flags lol
 
 We even got to see bats during the day - I thought they only hid in caves when it was light out...
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1791912985/n6dxojkazee0fe5islxk.jpg)
 
-The start of the show were the sloths. The guides are able to keep tabs on them pretty easily because they move so slowly. Imagine our guides shock when one had moved and he didn't immediately see him in the tree he typically chills in! Our guide immediately got on the radio and, with a flurry of voices and hurried searching, found him in a tree nearby lol!
+The star of the show were the sloths. The guides are able to keep tabs on them pretty easily because they move so slowly. Imagine our guide's shock when one had moved and he didn't immediately see him in the tree he typically chills in! Our guide immediately got on the radio and, with a flurry of voices and hurried searching, found him in a tree nearby lol!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1791913004/zjxtq9ky31pqlsekdr79.jpg)
 
@@ -128,7 +128,7 @@ This adorable little fellow is a brown-throated three-toed sloth. They eat leave
 
 {% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2F_d-LsW8xthQ%22%7D %}
 
-Could you hear how excited our guide was?? This is the three toed (vs two toed) sloth and the difference is this guy is active during the day. Whereas, the two toed is active at night. The three toed is also the national symbol of Costa Rica Wildlife because it reflects the country philosophy (Pura Vida - aka gratitude, mindfulness, stress-free, relaxed approach to life).
+Could you hear how excited our guide was?? This is the three toed (vs two toed) sloth and the difference is this guy is active during the day. Whereas, the two toed is active at night. The three toed is also the national symbol of Costa Rica wildlife because it reflects the country philosophy (Pura Vida - aka gratitude, mindfulness, stress-free, relaxed approach to life).
 
 The trip to the sanctuary could've gone on for hours more but the tour time was up so we headed back to Tamarindo 🚐
 
