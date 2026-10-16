@@ -26,7 +26,7 @@ new_tags: []
 location:
   name: Catalina ISlands
   lat: 10.48
-  lng: 85.871
+  lng: -85.871
 stay: night
 toc: false
 ---
@@ -54,7 +54,7 @@ It was another early morning for us to meet at the scuba shop and head out for o
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1792165227%2Fzcfyktxz9a95grmpwqq2.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1792165212%2Fzl0nf64qckiidlegcbqh.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-Thankfully the water wasn't brutally cold and neither of us got sick on the boat! Sometimes, even if the water is fine to swim in, it can be painfully cold when you're submerged deep during scuba! I've had my teeth chattering before too!
+Thankfully the water wasn't brutally cold and neither of us got sick on the boat! That's a win in our book ✅ Sometimes, even if the water is fine to swim in, it can be painfully cold when you're submerged deep during scuba! I've had my teeth chattering before too!
 
 Our first stop was the Canal/the wall area (aka La Pared)
 
@@ -62,7 +62,7 @@ Our first stop was the Canal/the wall area (aka La Pared)
 
 Visibility was pretty low but we had a MASSIVE shadow pass over us and we looked up at a manta ray the size of a VW bug! WOW!
 
-Our next stop was Los Sombreros — look how cute "the hats" are!
+Our next stop was Los Sombreros — look how cute "the hats" are! 
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1792165780%2Fdqde23r5w1u5ku7avan8.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1792165786%2Forntyzusss4fenbuzj3c.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1792165783%2Frg8stagq7uhzxp4t0f98.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -94,7 +94,11 @@ I had so much fun trying out a new type of photography and am loving the perspec
 
 It was a beautiful and romantic walk back into town where we set out for dinner and dessert 🍝🍰
 
+Turns out, we had walked to the beach through a private entryway and couldn't find a way back out. 
+
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1792169479%2Flu4i6rbnsut2acyw43ma.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1792169594%2Fcqmaog4ysmhtpnvfcegb.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+There was even a guard who refused to let us through a beach exit so we ended up walking about 3 miles 😂 Thankfully, dinner wasn't too far!
 
 We found a good pasta place that served mocktails and cocktails 🍹!
 
