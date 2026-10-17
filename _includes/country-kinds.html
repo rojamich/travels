@@ -1,0 +1,31 @@
+{%- comment -%}
+  ===========================================================================
+  country-kinds.html — split a list of places into countries and territories
+  ===========================================================================
+  Braces spaced out so nothing in this comment looks like a real tag:
+
+      { % include country-kinds.html names=visited_countries % }
+      kind_countries     the ones that are among the 195 countries
+      kind_territories   the ones marked `territory: true` in
+                         _data/countries.yml — overseas territories,
+                         Antarctica, places of disputed recognition
+
+  Order is kept. A name with no record at all counts as a country, as it
+  always has; /admin-stats/ already lists those so they get a record.
+
+  Every page that shows a country count splits through this one file — the
+  stats tiles, the world map line, the continent cards, the nights figures,
+  the best-year record and the year pages — so "countries" means the same
+  thing on all of them, and the territories are counted beside them rather
+  than inside them.
+  ===========================================================================
+{%- endcomment -%}
+{%- assign kind_countries = "" | split: "" -%}
+{%- assign kind_territories = "" | split: "" -%}
+{%- for kind_n in include.names -%}
+  {%- if site.data.country_territories[kind_n] -%}
+    {%- assign kind_territories = kind_territories | push: kind_n -%}
+  {%- else -%}
+    {%- assign kind_countries = kind_countries | push: kind_n -%}
+  {%- endif -%}
+{%- endfor -%}

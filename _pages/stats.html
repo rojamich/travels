@@ -38,7 +38,21 @@ classes: wide
 {%- endcomment -%}
 {% include country-data.html %}
 {%- assign uniq_countries = visited_countries -%}
-{%- assign total_countries = uniq_countries | size -%}
+
+{%- comment -%}
+  Countries and territories are counted separately: "29 of 195 countries,
+  plus 1 territory". uniq_countries is still every place visited — the
+  continents, the map shading and the cards are about places — but the
+  Countries figure is only the ones among the 195, and territories get their
+  own. The split is _includes/country-kinds.html, which every page that
+  counts countries uses, from the `territory:` field in _data/countries.yml.
+{%- endcomment -%}
+{%- include country-kinds.html names=uniq_countries -%}
+{%- assign visited_sovereign = kind_countries -%}
+{%- assign visited_territories = kind_territories -%}
+{%- assign total_countries = visited_sovereign | size -%}
+{%- assign total_territories = visited_territories | size -%}
+{%- assign total_places = uniq_countries | size -%}
 
 {%- comment -%} Distinct continents visited (via the country→continent lookup). {%- endcomment -%}
 {%- assign continents_visited = "" | split: "" -%}
@@ -62,13 +76,18 @@ classes: wide
     {%- endunless -%}
   {%- endif -%}
 {%- endfor -%}
-{%- assign world_total = 195 -%}
 {%- comment -%}
+  The 195 is counted, not typed: _plugins/country_data.rb counts the records
+  in _data/countries.yml that aren't territories, and warns if that isn't
+  195. Both halves of the percentage now mean the same thing — countries —
+  where it used to be every place visited over the number of countries.
+
   Count from the canonical country list, NOT from visited_codes. Those two
   drifted apart: a country with no ISO code still counts as
   visited but has no shape to shade, so the map headline read 21 while the
   Countries tile read 23. Codes now decide shading only.
 {%- endcomment -%}
+{%- assign world_total = site.data.world_country_count | default: 195 -%}
 {%- assign world_pct = total_countries | times: 100 | divided_by: world_total -%}
 
 {%- comment -%}
@@ -230,6 +249,15 @@ classes: wide
       <div class="stat-label">Countries visited</div>
     </div>
   </div>
+  {% if total_territories > 0 %}
+  <div class="stat-tile">
+    <div class="stat-icon">🏝️</div>
+    <div class="stat-body">
+      <div class="stat-value">{{ total_territories }}</div>
+      <div class="stat-label">Territor{% if total_territories == 1 %}y{% else %}ies{% endif %}</div>
+    </div>
+  </div>
+  {% endif %}
   <div class="stat-tile">
     <div class="stat-icon">✈️</div>
     <div class="stat-body">
@@ -330,12 +358,19 @@ classes: wide
 {%- assign best_year = "" -%}
 {%- assign best_count = 0 -%}
 {%- assign best_countries = "" | split: "" -%}
+{%- assign best_territories = "" | split: "" -%}
 {%- assign best_trips = 0 -%}
 {%- if max_year >= min_year -%}
   {%- for y in (min_year..max_year) -%}
     {%- assign y_str = y | append: "" -%}
     {%- include trips-in-year.html year=y_str -%}
-    {%- assign n = year_countries | size -%}
+    {%- comment -%}
+      Countries, not territories — the same split the year page itself makes
+      (_includes/country-kinds.html), so the record and that page's Countries
+      figure are the same number. Territories are listed but not counted.
+    {%- endcomment -%}
+    {%- include country-kinds.html names=year_countries -%}
+    {%- assign n = kind_countries | size -%}
     {%- comment -%}
       Strictly greater, so a tie keeps the EARLIEST year rather than
       silently promoting the most recent one every time a new year matches.
@@ -343,7 +378,8 @@ classes: wide
     {%- if n > best_count -%}
       {%- assign best_count = n -%}
       {%- assign best_year = y_str -%}
-      {%- assign best_countries = year_countries -%}
+      {%- assign best_countries = kind_countries -%}
+      {%- assign best_territories = kind_territories -%}
       {%- assign best_trips = year_trips | size -%}
     {%- endif -%}
   {%- endfor -%}
@@ -369,10 +405,19 @@ classes: wide
 {%- assign nights = site.data.nights -%}
 {% if nights and nights.total > 0 %}
 
+{%- assign night_names = "" | split: "" -%}
+{%- for c in nights.countries -%}
+  {%- assign night_names = night_names | push: c.name -%}
+{%- endfor -%}
+{%- include country-kinds.html names=night_names -%}
+{%- assign night_country_n = kind_countries | size -%}
+{%- assign night_territory_n = kind_territories | size -%}
+
 <h2 style="margin-top:2em;">🌙 Nights away</h2>
 <p style="color:#666;margin:0 0 0.8em;">
   <strong>{{ nights.total }}</strong> nights across
-  <strong>{{ nights.countries | size }}</strong> countries and
+  <strong>{{ night_country_n }}</strong> countr{% if night_country_n == 1 %}y{% else %}ies{% endif %},
+  {% if night_territory_n > 0 %}<strong>{{ night_territory_n }}</strong> territor{% if night_territory_n == 1 %}y{% else %}ies{% endif %} and{% endif %}
   <strong>{{ nights.continents | size }}</strong> continents.
 </p>
 
@@ -396,7 +441,7 @@ classes: wide
 </div>
 
 {%- assign top_country = nights.countries | first -%}
-<h3 class="nights-sub">By country</h3>
+<h3 class="nights-sub">By country{% if night_territory_n > 0 %} and territory{% endif %}</h3>
 <div class="nights-bars">
   {%- for c in nights.countries -%}
     {%- assign pct = c.nights | times: 100 | divided_by: top_country.nights -%}
@@ -420,21 +465,22 @@ classes: wide
   So marking a day as a day trip moves a country into this sentence and out of
   the bars above in the same build, and nothing has to be kept in step.
 {%- endcomment -%}
-{%- assign night_names = "" | split: "" -%}
-{%- for c in nights.countries -%}
-  {%- assign night_names = night_names | push: c.name -%}
-{%- endfor -%}
 {%- assign day_only = "" | split: "" -%}
 {%- for c in visited_countries -%}
   {%- unless night_names contains c -%}
     {%- assign day_only = day_only | push: c -%}
   {%- endunless -%}
 {%- endfor -%}
+{%- include country-kinds.html names=day_only -%}
+{%- assign day_c = kind_countries | size -%}
+{%- assign day_t = kind_territories | size -%}
 
 {% if day_only.size > 0 %}
 <p class="nights-daytrip">
-  <strong>{{ day_only | size }}</strong>
-  countr{% if day_only.size == 1 %}y was{% else %}ies were{% endif %} visited
+  {% if day_c > 0 %}<strong>{{ day_c }}</strong> countr{% if day_c == 1 %}y{% else %}ies{% endif %}{% endif %}
+  {% if day_c > 0 and day_t > 0 %}and{% endif %}
+  {% if day_t > 0 %}<strong>{{ day_t }}</strong> territor{% if day_t == 1 %}y{% else %}ies{% endif %}{% endif %}
+  {% if day_only.size == 1 %}was{% else %}were{% endif %} visited
   without staying the night — {{ day_only | join: ", " }}.
 </p>
 {% endif %}
@@ -499,8 +545,9 @@ classes: wide
 
 <h2 style="margin-top:2em;">🌍 World coverage</h2>
 <p style="color:#666;margin:0 0 0.6em;">
-  <strong>{{ total_countries }}</strong> of ~{{ world_total }} countries visited — <strong>{{ world_pct }}%</strong> of the world.
-  Shaded countries are places we've been.
+  <strong>{{ total_countries }}</strong> of {{ world_total }} countries visited — <strong>{{ world_pct }}%</strong> of the world{% if total_territories > 0 %},
+  plus <strong>{{ total_territories }}</strong> territor{% if total_territories == 1 %}y{% else %}ies{% endif %} ({{ visited_territories | join: ", " }}){% endif %}.
+  Shaded places are where we've been.
 </p>
 
 {% include map-libs.html %}
@@ -661,7 +708,7 @@ classes: wide
         The countries themselves, so the number can be checked at a glance
         rather than taken on trust.
       {%- endcomment -%}
-      <div class="record-note record-countries">{{ best_countries | join: " · " }}</div>
+      <div class="record-note record-countries">{{ best_countries | join: " · " }}{% if best_territories.size > 0 %} — plus {{ best_territories | join: " · " }}{% endif %}</div>
     </div>
   </a>
   {% endif %}
@@ -746,19 +793,25 @@ classes: wide
   =========================================================================
   Countries by continent
   =========================================================================
-  The countries are visited_countries from country-data.html — the very list
-  the Countries tile counts — grouped by the continent _data/countries.yml
-  gives each one (site.data.continents, the lookup the Continents tile
-  counts). Nothing here is a second source, so the groups add up to the
-  Countries tile and there are as many groups as the Continents tile says.
+  The places are visited_countries from country-data.html — the very list
+  the Countries and Territories tiles split between them — grouped by the
+  continent _data/countries.yml gives each one (site.data.continents, the
+  lookup the Continents tile counts). Nothing here is a second source: the
+  badges add up to the Countries tile, the territory chips to the Territories
+  tile, and there are as many groups as the Continents tile says.
+
+  A card's badge counts its countries; territories sit in the same card,
+  tagged, with "+N territory" beside the badge. A continent visited only
+  through territories — Antarctica — has no badge, just that note.
 
   A country with no continent still gets a group, "Somewhere else", so a
   missing record shows up as itself instead of quietly dropping out of the
   total. /admin-stats/ names any such country.
 
-  Biggest group first, ties alphabetical: each row is keyed "NNN|Continent"
-  with NNN = 1000 - count, zero-padded, so a plain sort orders them. The
-  no-continent group is keyed "~", which sorts after every digit.
+  Most countries first, ties alphabetical: each row is keyed "NNN|Continent"
+  with NNN = 999 - countries, zero-padded, so a plain sort orders them and a
+  territory-only continent (0 countries, 999) comes last rather than first.
+  The no-continent group is keyed "~", which sorts after every digit.
 
   Flags come from country-flags.html, which resolves each flag's name through
   the alias table — the same lookup the upkeep check uses, so a country it
@@ -776,10 +829,10 @@ classes: wide
 {%- assign cont_rows = "" | split: "" -%}
 {%- for cont in continents_visited -%}
   {%- assign n = 0 -%}
-  {%- for c in uniq_countries -%}
+  {%- for c in visited_sovereign -%}
     {%- if site.data.continents[c] == cont -%}{%- assign n = n | plus: 1 -%}{%- endif -%}
   {%- endfor -%}
-  {%- assign cont_key = 1000 | minus: n | prepend: "00" | slice: -3, 3 -%}
+  {%- assign cont_key = 999 | minus: n | prepend: "00" | slice: -3, 3 -%}
   {%- assign cont_row = cont_key | append: "|" | append: cont -%}
   {%- assign cont_rows = cont_rows | push: cont_row -%}
 {%- endfor -%}
@@ -789,6 +842,7 @@ classes: wide
 <h2 id="countries-by-continent" style="margin-top:2em;">Countries by continent</h2>
 <p style="color:#666;margin:0 0 0.6em;">
   <strong>{{ total_countries }}</strong> countr{% if total_countries == 1 %}y{% else %}ies{% endif %}
+  {% if total_territories > 0 %}and <strong>{{ total_territories }}</strong> territor{% if total_territories == 1 %}y{% else %}ies{% endif %}{% endif %}
   across <strong>{{ total_continents }}</strong> continent{% if total_continents != 1 %}s{% endif %}.
 </p>
 <div class="cont-groups">
@@ -803,10 +857,16 @@ classes: wide
         {%- if site.data.continents[c] == cont -%}{%- assign members = members | push: c -%}{%- endif -%}
       {%- endfor -%}
     {%- endif -%}
+    {%- include country-kinds.html names=members -%}
+    {%- assign m_c = kind_countries | size -%}
+    {%- assign m_t = kind_territories | size -%}
   <section class="cont-group">
     <h3 class="cont-head">
       <span class="cont-name">{{ cont }}</span>
-      <span class="cont-count" title="{{ members.size }} countr{% if members.size == 1 %}y{% else %}ies{% endif %}">{{ members.size }}</span>
+      <span class="cont-tally">
+        {%- if m_t > 0 %}<span class="cont-terr">+{{ m_t }} territor{% if m_t == 1 %}y{% else %}ies{% endif %}</span>{% endif -%}
+        {%- if m_c > 0 %}<span class="cont-count" title="{{ m_c }} countr{% if m_c == 1 %}y{% else %}ies{% endif %}">{{ m_c }}</span>{% endif -%}
+      </span>
     </h3>
     <div class="stats-country-chips">
       {%- for c in members -%}
@@ -814,7 +874,11 @@ classes: wide
         {%- for fn in flag_names -%}
           {%- if fn == c -%}{%- assign img_url = flag_urls[forloop.index0] -%}{%- endif -%}
         {%- endfor %}
+      {%- if site.data.country_territories[c] %}
+      <span class="country-chip country-chip--territory">{% if img_url != "" %}<img class="chip-img" src="{{ img_url }}" alt="" onerror="this.style.display='none'">{% endif %}{{ c }}<span class="chip-tag">territory</span></span>
+      {%- else %}
       <span class="country-chip">{% if img_url != "" %}<img class="chip-img" src="{{ img_url }}" alt="" onerror="this.style.display='none'">{% endif %}{{ c }}</span>
+      {%- endif -%}
       {%- endfor %}
     </div>
   </section>
@@ -853,6 +917,16 @@ classes: wide
     font-variant-numeric: tabular-nums;
   }
   .cont-group .stats-country-chips { margin: 0.6em 0 0.4em; }
+  .cont-tally { display: inline-flex; align-items: center; gap: 0.5em; }
+  .cont-terr { font-size: 0.78em; font-weight: normal; color: #7a8a99; white-space: nowrap; }
+  .country-chip--territory { background: #f7f7f2; border-style: dashed; border-color: #cfd8cf; }
+  .chip-tag {
+    margin-left: 0.45em;
+    font-size: 0.72em;
+    color: #7a8a99;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
 </style>
 
 {% if us_states.size > 0 %}

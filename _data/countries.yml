@@ -38,6 +38,17 @@
 #              they still count, they just have nothing to fill in.
 #   continent  one of: North America, South America, Europe, Asia, Africa,
 #              Oceania, Antarctica.
+#   territory  true for anything that is not one of the 195 countries — the
+#              193 UN members plus the two observer states, Vatican City and
+#              Palestine. That is overseas territories and dependencies (Puerto
+#              Rico, Cayman Islands, Greenland, Hong Kong…), Antarctica, and
+#              the places whose recognition is disputed (Kosovo, Taiwan,
+#              Western Sahara). It is a counting convention, not a statement
+#              about any of them. /stats/ counts these separately — "29 of 195
+#              countries, plus 1 territory" — and works out the 195 by counting
+#              the records here without this flag, so it must stay at exactly
+#              195 of them. A territory still has a code and a continent, still
+#              shades on the map and still counts toward its continent.
 #   aliases    every other spelling that might show up in a trip's location,
 #              a countries[] entry, or _data/favorites.yml. Matched exactly
 #              after trimming, so add each variant you actually type. The
@@ -57,12 +68,14 @@
 - name: Anguilla
   code: AIA
   continent: North America
+  territory: true
 - name: Antigua and Barbuda
   code: ATG
   continent: North America
 - name: Aruba
   code: ABW
   continent: North America
+  territory: true
 - name: Barbados
   code: BRB
   continent: North America
@@ -72,9 +85,11 @@
 - name: Bermuda
   code: BMU
   continent: North America
+  territory: true
 - name: British Virgin Islands
   code: VGB
   continent: North America
+  territory: true
   aliases:
     - Virgin Islands (British)
 - name: Canada
@@ -83,11 +98,13 @@
 - name: Caribbean Netherlands
   code: BES
   continent: North America
+  territory: true
   aliases:
     - Bonaire, Sint Eustatius and Saba
 - name: Cayman Islands
   code: CYM
   continent: North America
+  territory: true
 - name: Costa Rica
   code: CRI
   continent: North America
@@ -97,6 +114,7 @@
 - name: Curaçao
   code: CUW
   continent: North America
+  territory: true
 - name: Dominica
   code: DMA
   continent: North America
@@ -109,12 +127,14 @@
 - name: Greenland
   code: GRL
   continent: North America
+  territory: true
 - name: Grenada
   code: GRD
   continent: North America
 - name: Guadeloupe
   code: GLP
   continent: North America
+  territory: true
 - name: Guatemala
   code: GTM
   continent: North America
@@ -130,12 +150,14 @@
 - name: Martinique
   code: MTQ
   continent: North America
+  territory: true
 - name: Mexico
   code: MEX
   continent: North America
 - name: Montserrat
   code: MSR
   continent: North America
+  territory: true
 - name: Nicaragua
   code: NIC
   continent: North America
@@ -145,9 +167,11 @@
 - name: Puerto Rico
   code: PRI
   continent: North America
+  territory: true
 - name: Saint Barthélemy
   code: BLM
   continent: North America
+  territory: true
 - name: Saint Kitts and Nevis
   code: KNA
   continent: North America
@@ -157,17 +181,20 @@
 - name: Saint Martin
   code: MAF
   continent: North America
+  territory: true
   aliases:
     - Saint Martin (French part)
 - name: Saint Pierre and Miquelon
   code: SPM
   continent: North America
+  territory: true
 - name: Saint Vincent and the Grenadines
   code: VCT
   continent: North America
 - name: Sint Maarten
   code: SXM
   continent: North America
+  territory: true
   aliases:
     - Sint Maarten (Dutch part)
 - name: The Bahamas
@@ -181,9 +208,11 @@
 - name: Turks and Caicos Islands
   code: TCA
   continent: North America
+  territory: true
 - name: U.S. Virgin Islands
   code: VIR
   continent: North America
+  territory: true
   aliases:
     - Virgin Islands (U.S.)
 - name: United States of America
@@ -208,6 +237,7 @@
 - name: Bouvet Island
   code: BVT
   continent: South America
+  territory: true
 - name: Brazil
   code: BRA
   continent: South America
@@ -223,11 +253,13 @@
 - name: Falkland Islands
   code: FLK
   continent: South America
+  territory: true
   aliases:
     - Falkland Islands (Malvinas)
 - name: French Guiana
   code: GUF
   continent: South America
+  territory: true
 - name: Guyana
   code: GUY
   continent: South America
@@ -240,6 +272,7 @@
 - name: South Georgia and the South Sandwich Islands
   code: SGS
   continent: South America
+  territory: true
 - name: Suriname
   code: SUR
   continent: South America
@@ -295,6 +328,7 @@
 - name: Faroe Islands
   code: FRO
   continent: Europe
+  territory: true
 - name: Finland
   code: FIN
   continent: Europe
@@ -310,12 +344,14 @@
 - name: Gibraltar
   code: GIB
   continent: Europe
+  territory: true
 - name: Greece
   code: GRC
   continent: Europe
 - name: Guernsey
   code: GGY
   continent: Europe
+  territory: true
 - name: Hungary
   code: HUN
   continent: Europe
@@ -328,15 +364,18 @@
 - name: Isle of Man
   code: IMN
   continent: Europe
+  territory: true
 - name: Italy
   code: ITA
   continent: Europe
 - name: Jersey
   code: JEY
   continent: Europe
+  territory: true
 - name: Kosovo
   code: XKX
   continent: Europe
+  territory: true
 - name: Latvia
   code: LVA
   continent: Europe
@@ -412,6 +451,7 @@
 - name: Svalbard and Jan Mayen
   code: SJM
   continent: Europe
+  territory: true
 - name: Sweden
   code: SWE
   continent: Europe
@@ -440,6 +480,7 @@
 - name: Åland Islands
   code: ALA
   continent: Europe
+  territory: true
 
 # Asia
 # ------
@@ -480,6 +521,7 @@
 - name: Hong Kong
   code: HKG
   continent: Asia
+  territory: true
 - name: India
   code: IND
   continent: Asia
@@ -523,6 +565,7 @@
 - name: Macau
   code: MAC
   continent: Asia
+  territory: true
   aliases:
     - Macao
 - name: Malaysia
@@ -586,6 +629,7 @@
 - name: Taiwan
   code: TWN
   continent: Asia
+  territory: true
   aliases:
     - Taiwan, Province of China
 - name: Tajikistan
@@ -636,6 +680,7 @@
 - name: British Indian Ocean Territory
   code: IOT
   continent: Africa
+  territory: true
 - name: Burkina Faso
   code: BFA
   continent: Africa
@@ -687,6 +732,7 @@
 - name: French Southern and Antarctic Lands
   code: ATF
   continent: Africa
+  territory: true
   aliases:
     - French Southern Territories
 - name: Gabon
@@ -741,6 +787,7 @@
 - name: Mayotte
   code: MYT
   continent: Africa
+  territory: true
 - name: Morocco
   code: MAR
   continent: Africa
@@ -767,9 +814,11 @@
 - name: Réunion
   code: REU
   continent: Africa
+  territory: true
 - name: Saint Helena
   code: SHN
   continent: Africa
+  territory: true
   aliases:
     - Saint Helena, Ascension and Tristan da Cunha
 - name: Sao Tome and Principe
@@ -814,6 +863,7 @@
 - name: Western Sahara
   code: ESH
   continent: Africa
+  territory: true
 - name: Zambia
   code: ZMB
   continent: Africa
@@ -826,30 +876,37 @@
 - name: American Samoa
   code: ASM
   continent: Oceania
+  territory: true
 - name: Australia
   code: AUS
   continent: Oceania
 - name: Christmas Island
   code: CXR
   continent: Oceania
+  territory: true
 - name: Cocos (Keeling) Islands
   code: CCK
   continent: Oceania
+  territory: true
 - name: Cook Islands
   code: COK
   continent: Oceania
+  territory: true
 - name: Fiji
   code: FJI
   continent: Oceania
 - name: French Polynesia
   code: PYF
   continent: Oceania
+  territory: true
 - name: Guam
   code: GUM
   continent: Oceania
+  territory: true
 - name: Heard Island and McDonald Islands
   code: HMD
   continent: Oceania
+  territory: true
 - name: Kiribati
   code: KIR
   continent: Oceania
@@ -867,6 +924,7 @@
 - name: New Caledonia
   code: NCL
   continent: Oceania
+  territory: true
 - name: New Zealand
   code: NZL
   continent: Oceania
@@ -875,12 +933,15 @@
 - name: Niue
   code: NIU
   continent: Oceania
+  territory: true
 - name: Norfolk Island
   code: NFK
   continent: Oceania
+  territory: true
 - name: Northern Mariana Islands
   code: MNP
   continent: Oceania
+  territory: true
 - name: Palau
   code: PLW
   continent: Oceania
@@ -890,6 +951,7 @@
 - name: Pitcairn
   code: PCN
   continent: Oceania
+  territory: true
 - name: Samoa
   code: WSM
   continent: Oceania
@@ -899,6 +961,7 @@
 - name: Tokelau
   code: TKL
   continent: Oceania
+  territory: true
 - name: Tonga
   code: TON
   continent: Oceania
@@ -908,15 +971,18 @@
 - name: United States Minor Outlying Islands
   code: UMI
   continent: Oceania
+  territory: true
 - name: Vanuatu
   code: VUT
   continent: Oceania
 - name: Wallis and Futuna
   code: WLF
   continent: Oceania
+  territory: true
 
 # Antarctica
 # ------------
 - name: Antarctica
   code: ATA
   continent: Antarctica
+  territory: true

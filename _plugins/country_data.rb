@@ -7,6 +7,8 @@
 #     site.data.country_codes      name  -> ISO 3166-1 alpha-3
 #     site.data.continents         name  -> continent
 #     site.data.country_aliases    alias -> canonical name
+#     site.data.country_territories  name -> true, for territories
+#     site.data.world_country_count  how many records are countries (195)
 #
 # Those were three hand-maintained YAML files. Nothing kept them in step, and
 # they drifted: Costa Rica had a continent but no ISO code, so it counted
@@ -43,11 +45,12 @@ module TravelBlog
               "on the site derives from it. Restore it before building."
       end
 
-      codes      = {}
-      continents = {}
-      aliases    = {}
-      problems   = []
-      seen_names = {}
+      codes       = {}
+      continents  = {}
+      aliases     = {}
+      territories = {}
+      problems    = []
+      seen_names  = {}
 
       records.each_with_index do |rec, i|
         unless rec.is_a?(Hash)
@@ -82,8 +85,17 @@ module TravelBlog
                       "#{VALID_CONTINENTS.join(', ')}"
         end
 
-        codes[name]      = code unless code.empty?
-        continents[name] = cont unless cont.empty?
+        # `territory: true` marks anything that is not one of the 195
+        # countries. Anything else written there is a typo that would quietly
+        # move a place between the two counts, so it is reported.
+        terr = rec["territory"]
+        unless terr.nil? || terr == true || terr == false
+          problems << "#{name} has territory #{terr.inspect}; use true, or leave it off"
+        end
+
+        codes[name]       = code unless code.empty?
+        continents[name]  = cont unless cont.empty?
+        territories[name] = true if terr == true
 
         # The canonical name maps to itself. Templates look a name up in the
         # alias table and keep it if there's no hit, so this is belt-and-braces
@@ -104,14 +116,28 @@ module TravelBlog
           # An alias needs the same lookups as its canonical name: trip front
           # matter may well say "England" or "USA", and those must still find
           # a code and a continent.
-          codes[a]      = code unless code.empty?
-          continents[a] = cont unless cont.empty?
+          codes[a]       = code unless code.empty?
+          continents[a]  = cont unless cont.empty?
+          territories[a] = true if terr == true
         end
       end
 
-      site.data["country_codes"]   = codes
-      site.data["continents"]      = continents
-      site.data["country_aliases"] = aliases
+      site.data["country_codes"]       = codes
+      site.data["continents"]          = continents
+      site.data["country_aliases"]     = aliases
+      # name/alias -> true, for the places counted as territories rather than
+      # countries (see the territory field in _data/countries.yml).
+      site.data["country_territories"] = territories
+      # The "of 195" on /stats/, counted rather than typed: every record that
+      # is not a territory. A territory flag added or dropped by mistake
+      # shows up as a number other than 195, instead of hiding.
+      world = records.count { |r| r.is_a?(Hash) && r["territory"] != true && !r["name"].to_s.strip.empty? }
+      site.data["world_country_count"] = world
+      unless world == 195
+        problems << "#{world} records are countries (not marked territory: true); the 195 " \
+                    "is 193 UN members plus Vatican City and Palestine, so a territory flag " \
+                    "is probably missing or misplaced"
+      end
 
       # Exposed so /admin-stats/ can show the same problems the build log
       # reports — she doesn't read build logs, and a warning nobody sees is

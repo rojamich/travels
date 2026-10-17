@@ -66,48 +66,65 @@ stats = get("/stats/")
 tiles = {text(l): text(v) for v, l in re.findall(
     r'class="stat-value">(.*?)</div>\s*<div class="stat-label">(.*?)</div>', stats, re.S)}
 countries = num(tiles.get("Countries visited", "0"))
+territories = num(next((v for k, v in tiles.items() if k.startswith("Territor")), "0"))
 continents = num(tiles.get("Continents", "0"))
 trips_tile = num(tiles.get("Trips taken", "0"))
 days_tile = num(tiles.get("Days on trips", "0"))
-print(f"/stats/ at {BASE}: {countries} countries, {continents} continents, "
+print(f"/stats/ at {BASE}: {countries} countries, {territories} territories, {continents} continents, "
       f"{trips_tile} trips, {days_tile} days")
 
 # ---------------------------------------------------------------- continents
 print("\ncountries by continent")
 cards = re.findall(r'<section class="cont-group">(.*?)</section>', stats, re.S)
-card_rows = []
+CHIP = r'<span class="country-chip">(?:<img[^>]*>)?(.*?)</span>'
+TERR_CHIP = r'<span class="country-chip country-chip--territory">(?:<img[^>]*>)?(.*?)<span class="chip-tag">'
+card_rows, terr_rows = [], []
 for c in cards:
     name = text(re.search(r'class="cont-name">(.*?)</span>', c, re.S).group(1))
-    n = num(re.search(r'class="cont-count"[^>]*>(.*?)</span>', c, re.S).group(1))
-    chips = [text(x) for x in re.findall(r'<span class="country-chip">(.*?)</span>', c, re.S)]
-    card_rows.append((name, n, chips))
+    badge = re.search(r'class="cont-count"[^>]*>(.*?)</span>', c, re.S)
+    plus = re.search(r'class="cont-terr">\+(\d+)', c)
+    chips = [text(x) for x in re.findall(CHIP, c, re.S)]
+    terrs = [text(x) for x in re.findall(TERR_CHIP, c, re.S)]
+    card_rows.append((name, num(badge.group(1)) if badge else 0, chips))
+    terr_rows.append((name, int(plus.group(1)) if plus else 0, terrs))
 real = [r for r in card_rows if r[0] != "Somewhere else"]
 check("one card per continent the Continents tile counts", len(real), continents)
-check("the cards add up to the Countries tile", sum(n for _, n, _ in card_rows), countries)
-check("each card's number is the countries listed in it",
+check("the badges add up to the Countries tile", sum(n for _, n, _ in card_rows), countries)
+check("each badge is the countries in its card",
       [n for _, n, _ in card_rows], [len(ch) for _, _, ch in card_rows])
-all_chips = [c for _, _, ch in card_rows for c in ch]
+check("the territory chips add up to the Territories tile",
+      sum(len(t) for _, _, t in terr_rows), territories)
+check("each card's '+N territory' is the territories in it",
+      [n for _, n, _ in terr_rows], [len(t) for _, _, t in terr_rows])
+all_chips = [c for _, _, ch in card_rows for c in ch] + [t for _, _, ts in terr_rows for t in ts]
 check("no country appears in two cards", len(all_chips), len(set(all_chips)))
-check("biggest card first", [n for _, n, _ in real], sorted((n for _, n, _ in real), reverse=True))
+check("most countries first", [n for _, n, _ in real], sorted((n for _, n, _ in real), reverse=True))
 check("nothing is filed under 'Somewhere else'", [r[2] for r in card_rows if r[0] == "Somewhere else"], [])
-cards_line = re.search(r'id="countries-by-continent".*?<strong>(\d+)</strong>.*?<strong>(\d+)</strong>', stats, re.S)
+line = re.search(r'id="countries-by-continent".*?</p>', stats, re.S)
+nums = [int(x) for x in re.findall(r"<strong>(\d+)</strong>", line.group(0))] if line else []
 check("the section's own sentence matches the tiles",
-      cards_line and (int(cards_line.group(1)), int(cards_line.group(2))), (countries, continents))
+      nums, [countries] + ([territories] if territories else []) + [continents])
 
 # ---------------------------------------------------------------- world map
 print("\nworld map")
-m = re.search(r"<strong>(\d+)</strong> of ~(\d+) countries visited", stats)
+m = re.search(r"<strong>(\d+)</strong> of ~?(\d+) countries visited", stats)
 check("the map headline says the same number as the tile", m and int(m.group(1)), countries)
+check("out of 195 countries, counted from _data/countries.yml", m and int(m.group(2)), 195)
+if territories:
+    t = re.search(r"of the world,\s*plus <strong>(\d+)</strong> territor", stats)
+    check("and names the territories separately", t and int(t.group(1)), territories)
 codes = re.search(r"var VISITED = (\[.*?\]);", stats, re.S)
 n_codes = len(re.findall(r'"[A-Z]{3}"', codes.group(1))) if codes else -1
-check("one shaded shape per country, at most", n_codes <= countries, True)
+check("one shaded shape per place, at most", n_codes <= countries + territories, True)
 
 # ---------------------------------------------------------------- nights
 print("\nnights")
-m = re.search(r"<strong>(\d+)</strong> nights across\s*<strong>(\d+)</strong> countries and\s*"
-              r"<strong>(\d+)</strong> continents", stats)
+m = re.search(r"<strong>(\d+)</strong> nights across\s*<strong>(\d+)</strong> countr(?:y|ies),\s*"
+              r"(?:<strong>(\d+)</strong> territor(?:y|ies) and\s*)?<strong>(\d+)</strong> continents", stats)
 if m:
-    nights_total, night_countries, night_conts = map(int, m.groups())
+    nights_total = int(m.group(1))
+    night_countries = int(m.group(2)) + int(m.group(3) or 0)
+    night_conts = int(m.group(4))
     blocks = re.split(r'<h3 class="nights-sub">', stats)
     def bars(title):
         for b in blocks:
@@ -118,13 +135,16 @@ if m:
     by_cont, by_country = bars("By continent"), bars("By country")
     check("the continent bars add up to the nights total", sum(v for _, v in by_cont), nights_total)
     check("the country bars add up to the nights total", sum(v for _, v in by_country), nights_total)
-    check("one bar per country the sentence counts", len(by_country), night_countries)
+    check("one bar per country and territory the sentence counts", len(by_country), night_countries)
     check("one bar per continent the sentence counts", len(by_cont), night_conts)
-    d = re.search(r'class="nights-daytrip">\s*<strong>(\d+)</strong>.*?—\s*(.*?)\.\s*</p>', stats, re.S)
+    d = re.search(r'class="nights-daytrip">(.*?)—\s*(.*?)\.\s*</p>', stats, re.S)
     day_only = [x.strip() for x in text(d.group(2)).split(",")] if d else []
+    check("the day-trip sentence counts the places it names",
+          sum(int(x) for x in re.findall(r"<strong>(\d+)</strong>", d.group(1))) if d else 0,
+          len(day_only))
     night_names = {n for n, _ in by_country}
-    check("countries with nights + countries without = the Countries tile",
-          night_countries + len(day_only), countries)
+    check("places with nights + places without = countries + territories",
+          night_countries + len(day_only), countries + territories)
     check("a country is never in both", sorted(night_names & set(day_only)), [])
     check("and together they are exactly the countries in the cards",
           sorted(night_names | set(day_only)), sorted(all_chips))
@@ -178,25 +198,31 @@ for y in years:
         check(f"/year/{y}/ exists", str(exc), "a page")
         continue
     stat = re.search(r'<div class="v">(\d+)</div><div class="l">Countries</div>', page)
-    chips = [text(x) for x in re.findall(r'<span class="country-chip">(.*?)</span>',
-                                        page.split('class="year-countries"')[-1].split("</div>")[0])]
+    tstat = re.search(r'<div class="v">(\d+)</div><div class="l">Territor', page)
+    block = page.split('class="year-countries"')[-1].split("</div>")[0]
+    chips = [text(x) for x in re.findall(r'<span class="country-chip">(.*?)</span>', block)]
+    terrs = [text(x) for x in re.findall(
+        r'<span class="country-chip country-chip--territory">(.*?)<span', block)]
     n = int(stat.group(1)) if stat else -1
     check(f"/year/{y}/ counts the countries it lists ({n})", n, len(chips))
-    check(f"/year/{y}/ lists only countries /stats/ counts", sorted(set(chips) - card_set), [])
+    check(f"/year/{y}/ counts the territories it lists", int(tstat.group(1)) if tstat else 0, len(terrs))
+    check(f"/year/{y}/ lists only places /stats/ counts", sorted(set(chips + terrs) - card_set), [])
     if n > top[0]:
         top = (n, y, chips)
 if best:
     check("'Most countries in one year' is the year page with the most",
           (int(best.group(1)), int(best.group(2))), (top[0], top[1]))
-    listed = [x.strip() for x in text(best.group(3)).split("·")]
+    listed = [x.strip() for x in text(best.group(3)).split("— plus")[0].split("·")]
     check("and names the same countries that page lists", sorted(listed), sorted(top[2]))
 
 # ---------------------------------------------------------------- admin
 print("\n/admin-stats/")
 try:
     admin = get("/admin-stats/")
-    m = re.search(r"<strong>(\d+)</strong> countries counted, from", admin)
-    check("the country audit counts the same countries", m and int(m.group(1)), countries)
+    m = re.search(r"<strong>(\d+)</strong> countries(?: and <strong>(\d+)</strong> "
+                  r"territor(?:y|ies))? counted, from", admin)
+    check("the country audit counts the same countries and territories",
+          m and (int(m.group(1)), int(m.group(2) or 0)), (countries, territories))
 except Exception as exc:                           # noqa: BLE001
     print(f"  (could not read it: {exc})")
 
