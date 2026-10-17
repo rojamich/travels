@@ -346,7 +346,65 @@ collections:
             summary: "{{fields.name}}"
             hint: "Add a US state name + image URL. Same shape as the country version above, but keyed by full state name (e.g. 'California', 'New York')."
             fields:
-              - { label: "State name", name: "name", widget: "string", hint: "e.g. 'California', 'New York'. Case-sensitive; must match your trip data exactly." }
+              # The same generated list as the trip's states picker, so a
+              # flag can only be filed under a name a trip can produce.
+              - label: "State name"
+                name: "name"
+                widget: "select"
+                hint: "Type to search."
+                options:
+                  # --- BEGIN generated state options (scripts/sync_state_options.py) ---
+                  - Alabama
+                  - Alaska
+                  - Arizona
+                  - Arkansas
+                  - California
+                  - Colorado
+                  - Connecticut
+                  - Delaware
+                  - Florida
+                  - Georgia
+                  - Hawaii
+                  - Idaho
+                  - Illinois
+                  - Indiana
+                  - Iowa
+                  - Kansas
+                  - Kentucky
+                  - Louisiana
+                  - Maine
+                  - Maryland
+                  - Massachusetts
+                  - Michigan
+                  - Minnesota
+                  - Mississippi
+                  - Missouri
+                  - Montana
+                  - Nebraska
+                  - Nevada
+                  - New Hampshire
+                  - New Jersey
+                  - New Mexico
+                  - New York
+                  - North Carolina
+                  - North Dakota
+                  - Ohio
+                  - Oklahoma
+                  - Oregon
+                  - Pennsylvania
+                  - Rhode Island
+                  - South Carolina
+                  - South Dakota
+                  - Tennessee
+                  - Texas
+                  - Utah
+                  - Vermont
+                  - Virginia
+                  - Washington
+                  - West Virginia
+                  - Wisconsin
+                  - Wyoming
+                  # --- END generated state options ---
               - { label: "Image URL", name: "url", widget: "string", hint: "Must be a DIRECT image link starting with https://upload.wikimedia.org/ — NOT a wikipedia.org/wiki/File: page link. Right-click the flag image itself and choose 'Copy image address'. Example: https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/960px-Flag_of_California.svg.png" }
 
       - file: "_data/records.yml"
@@ -786,17 +844,72 @@ collections:
           required: false,
           hint: "Turn ON for an entry that gathers lots of separate visits under one heading rather than being a single journey — e.g. 'Party in the USA' spanning 2011-2026. Duration stats skip these, so they can't win 'longest single trip' or inflate the days-on-the-road total. Countries and map pins still count normally." }
 
+      # A picker, not free text, since 2026-10-17. Typed names could drift
+      # from the US map's own spelling ("CA", "new york"), and a name the map
+      # doesn't know counts in the States tile but never shades. The options
+      # are the 50 state names in assets/data/us-states.geo.json, generated
+      # by scripts/sync_state_options.py, so anything pickable shades. Stored
+      # exactly as before — a list of names — so existing trips are unchanged.
       - label: "US states visited (if this trip is in the USA)"
         name: "states"
-        widget: "list"
+        widget: "select"
+        multiple: true
         required: false
         default: []
-        collapsed: true
-        hint: "Full state names as they appear on a US map, e.g. California, New York, Texas. Each state you list will get counted in the Stats page and shaded on the US coverage map. It's fine to make a placeholder trip with just states listed and no posts — you can add posts later."
-        field:
-          name: state
-          label: "State"
-          widget: string
+        hint: "Type to search, pick as many as you like. Each state you pick is counted on the Stats page and shaded on the US coverage map. It's fine to make a placeholder trip with just states and no posts — you can add posts later."
+        options:
+          # --- BEGIN generated state options (scripts/sync_state_options.py) ---
+          - Alabama
+          - Alaska
+          - Arizona
+          - Arkansas
+          - California
+          - Colorado
+          - Connecticut
+          - Delaware
+          - Florida
+          - Georgia
+          - Hawaii
+          - Idaho
+          - Illinois
+          - Indiana
+          - Iowa
+          - Kansas
+          - Kentucky
+          - Louisiana
+          - Maine
+          - Maryland
+          - Massachusetts
+          - Michigan
+          - Minnesota
+          - Mississippi
+          - Missouri
+          - Montana
+          - Nebraska
+          - Nevada
+          - New Hampshire
+          - New Jersey
+          - New Mexico
+          - New York
+          - North Carolina
+          - North Dakota
+          - Ohio
+          - Oklahoma
+          - Oregon
+          - Pennsylvania
+          - Rhode Island
+          - South Carolina
+          - South Dakota
+          - Tennessee
+          - Texas
+          - Utah
+          - Vermont
+          - Virginia
+          - Washington
+          - West Virginia
+          - Wisconsin
+          - Wyoming
+          # --- END generated state options ---
 
       - label: "Tags"
         name: "tags"
