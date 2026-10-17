@@ -436,6 +436,7 @@
   continent: Europe
   aliases:
     - Holy See
+    - Vatican
 - name: Åland Islands
   code: ALA
   continent: Europe
@@ -869,6 +870,8 @@
 - name: New Zealand
   code: NZL
   continent: Oceania
+  aliases:
+    - NZ
 - name: Niue
   code: NIU
   continent: Oceania

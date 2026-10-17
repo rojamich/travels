@@ -62,9 +62,20 @@ def jekyll_sort(value, key=None):
     return sorted(value)
 
 
+def upkeep_key(value=""):
+    """_plugins/upkeep_key.rb, so the dismiss keys come out the same."""
+    import hashlib
+    text = re.sub(r"\s+", " ", str(value)).strip()
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()[:12]
+
+
 def build_env():
     env = Environment()
     env.filters["sort"] = jekyll_sort
+    # The site's own filter. Missing here, every render failed with "unknown
+    # filter" from the day it was added, which made this check useless — it
+    # cried wolf on every template, so nobody could hear a real failure.
+    env.filters["upkeep_key"] = upkeep_key
     env.filters["push"] = lambda arr, item: list(arr) + [item]
     env.filters["relative_url"] = lambda v="", *a, **k: v
     env.filters["absolute_url"] = lambda v="", *a, **k: v

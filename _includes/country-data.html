@@ -29,7 +29,9 @@
 
   Steps 1 and 2 live in _includes/canon-country.html, which every other page
   uses too, and the alias table it consults is derived from the one country
-  file, _data/countries.yml.
+  file, _data/countries.yml. Which of a trip's fields count, and the
+  exclusions below, live in _includes/trip-countries.html, shared with the
+  year pages.
 
   So to fix a wrong count, fix the trip. There is no second place to check.
 
@@ -52,12 +54,14 @@
 {%- for trip in site.trips -%}
   {%- assign t_title = trip.title | default: "(untitled)" -%}
 
-  {%- comment -%} Skip template/reference trips. {%- endcomment -%}
-  {%- assign is_template = false -%}
-  {%- if t_title contains "📝" -%}{%- assign is_template = true -%}{%- endif -%}
-  {%- if trip.template == true -%}{%- assign is_template = true -%}{%- endif -%}
+  {%- comment -%}
+    Which countries this trip claims is decided in ONE place,
+    _includes/trip-countries.html, which the year pages use too. This file
+    only adds up the answers and keeps the audit trail for /admin-stats/.
+  {%- endcomment -%}
+  {%- include trip-countries.html trip=trip -%}
 
-  {%- if is_template -%}
+  {%- if trip_is_template -%}
     {%- comment -%}
       Build the row in its own variable before pushing. Writing
       `push: t_title | append: "..."` chains left to right, so the append
@@ -67,41 +71,13 @@
     {%- assign skip_row = t_title | append: "||template" -%}
     {%- assign skipped_trips = skipped_trips | push: skip_row -%}
   {%- else -%}
-    {%- assign resolved = "" | split: "" -%}
-
-    {%- comment -%} 1. Primary country from `location:`. {%- endcomment -%}
-    {%- if trip.location and trip.location != "" -%}
-      {%- assign raw = trip.location | split: "," | last | strip -%}
-      {%- assign is_multi = false -%}
-      {%- if raw contains "&" or raw contains "→" or raw contains "(" -%}
-        {%- assign is_multi = true -%}
-      {%- endif -%}
-      {%- if is_multi -%}
-        {%- assign skip_row = t_title | append: "||multi-country location: " | append: trip.location -%}
-        {%- assign skipped_trips = skipped_trips | push: skip_row -%}
-      {%- else -%}
-        {%- include canon-country.html raw=trip.location -%}
-        {%- assign raw = canon_country -%}
-        {%- unless resolved contains raw -%}
-          {%- assign resolved = resolved | push: raw -%}
-        {%- endunless -%}
-      {%- endif -%}
+    {%- if trip_multi_location != "" -%}
+      {%- assign skip_row = t_title | append: "||multi-country location: " | append: trip_multi_location -%}
+      {%- assign skipped_trips = skipped_trips | push: skip_row -%}
     {%- endif -%}
+    {%- assign resolved = trip_countries -%}
 
-    {%- comment -%} 2. Additional countries. {%- endcomment -%}
-    {%- if trip.countries -%}
-      {%- for c in trip.countries -%}
-        {%- if c.name and c.name != "" -%}
-          {%- include canon-country.html raw=c.name -%}
-          {%- assign cn = canon_country -%}
-          {%- unless resolved contains cn -%}
-            {%- assign resolved = resolved | push: cn -%}
-          {%- endunless -%}
-        {%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
-
-    {%- comment -%} 3. Merge into the global list + record the audit row. {%- endcomment -%}
+    {%- comment -%} Merge into the global list + record the audit row. {%- endcomment -%}
     {%- for c in resolved -%}
       {%- unless visited_countries contains c -%}
         {%- assign visited_countries = visited_countries | push: c -%}
