@@ -16,6 +16,14 @@ classes: wide
   Both are derived at build time from the single file _data/countries.yml by
   _plugins/country_data.rb, so they cannot disagree with each other or with
   the alias table. Add a country there and it shows up everywhere at once.
+
+  Most numbers on this page are said twice — a tile and a sentence, a total
+  and the rows under it, this page and the year pages. After changing how any
+  of them is worked out, run
+
+      python scripts/check_stats_consistency.py <deploy-preview-url>
+
+  which reads the built pages and checks every pair agrees.
 {%- endcomment -%}
 
 {%- assign total_posts = site.posts | size -%}
