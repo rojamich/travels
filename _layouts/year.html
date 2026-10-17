@@ -39,8 +39,17 @@ layout: single
   Everything we posted and everywhere we went in {{ yr }}.
 </p>
 
+{%- comment -%}
+  Countries and territories counted apart, by the same include /stats/ uses,
+  so this page's Countries figure is the number its "Most countries in one
+  year" record shows. The chips below still list every place.
+{%- endcomment -%}
+{%- include country-kinds.html names=year_countries -%}
+{%- assign yr_country_n = kind_countries | size -%}
+{%- assign yr_territory_n = kind_territories | size -%}
 <div class="year-stats">
-  <div class="year-stat"><div class="v">{{ year_countries | size }}</div><div class="l">Countries</div></div>
+  <div class="year-stat"><div class="v">{{ yr_country_n }}</div><div class="l">Countries</div></div>
+  {% if yr_territory_n > 0 %}<div class="year-stat"><div class="v">{{ yr_territory_n }}</div><div class="l">Territor{% if yr_territory_n == 1 %}y{% else %}ies{% endif %}</div></div>{% endif %}
   <div class="year-stat"><div class="v">{{ trip_slugs | size }}</div><div class="l">Trips</div></div>
   <div class="year-stat"><div class="v">{{ year_posts | size }}</div><div class="l">Posts</div></div>
 </div>
@@ -49,7 +58,7 @@ layout: single
 <h2>Where we went</h2>
 <div class="year-countries">
   {% assign sorted_c = year_countries | sort %}
-  {% for c in sorted_c %}<span class="country-chip">{{ c }}</span>{% endfor %}
+  {% for c in sorted_c %}{% if site.data.country_territories[c] %}<span class="country-chip country-chip--territory">{{ c }}<span class="chip-tag">territory</span></span>{% else %}<span class="country-chip">{{ c }}</span>{% endif %}{% endfor %}
 </div>
 {% endif %}
 
@@ -115,6 +124,11 @@ layout: single
     background: #f0f6f0; color: #2c5c3f;
     padding: 0.3em 0.9em; border-radius: 999px;
     font-size: 0.9em; border: 1px solid #d0e0d5;
+  }
+  .country-chip--territory { background: #f7f7f2; border-style: dashed; border-color: #cfd8cf; }
+  .chip-tag {
+    margin-left: 0.45em; font-size: 0.72em; color: #7a8a99;
+    text-transform: uppercase; letter-spacing: 0.04em;
   }
 
   .year-trip-list {

@@ -278,8 +278,11 @@ sitemap: false
 
 <section class="country-audit">
   <h2>🌍 Country audit</h2>
+  {%- comment -%} The same split /stats/ makes, from the same include. {%- endcomment -%}
+  {%- include country-kinds.html names=visited_countries -%}
   <p>
-    <strong>{{ visited_countries | size }}</strong> countries counted, from
+    <strong>{{ kind_countries | size }}</strong> countries
+    {%- if kind_territories.size > 0 %} and <strong>{{ kind_territories | size }}</strong> territor{% if kind_territories.size == 1 %}y{% else %}ies{% endif %}{% endif %} counted, from
     <strong>{{ country_audit | size }}</strong> trips. This is the only source
     the site uses — <code>/stats/</code>, the world map and the medal table all
     read it. To change a number, edit the trip.
@@ -311,8 +314,13 @@ sitemap: false
   </ul>
   {% endif %}
 
-  <h3>The {{ visited_countries | size }} counted</h3>
-  <p class="audit-list">{{ visited_countries | join: " · " }}</p>
+  <h3>The {{ kind_countries | size }} countries counted</h3>
+  <p class="audit-list">{{ kind_countries | join: " · " }}</p>
+  {% if kind_territories.size > 0 %}
+  <h3>And the {{ kind_territories | size }} territor{% if kind_territories.size == 1 %}y{% else %}ies{% endif %}</h3>
+  <p class="audit-list">{{ kind_territories | join: " · " }} — counted separately, as marked
+    <code>territory: true</code> in <code>_data/countries.yml</code>.</p>
+  {% endif %}
 
   {%- comment -%}
     ------------------------------------------------------------------------
