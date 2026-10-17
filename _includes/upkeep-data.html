@@ -168,17 +168,15 @@ knows — a reminder that drifts is worse than no reminder.
   {%- assign upkeep_keys = upkeep_keys | push: row_keys_joined -%}
 {%- endif -%}
 
-{%- comment -%} Countries counted, but with no flag beside the name. {%- endcomment -%}
+{%- comment -%}
+  Countries counted, but with no flag beside the name. Matched through
+  country-flags.html — the same lookup /stats/ draws the chips from — so this
+  list is exactly the chips that show no flag there.
+{%- endcomment -%}
+{%- include country-flags.html -%}
 {%- assign no_flag = "" | split: "," -%}
 {%- for c in visited_countries -%}
-  {%- assign found = false -%}
-  {%- for e in site.data.country_images.entries -%}
-    {%- if e.name == c -%}
-      {%- assign u = e.url | default: "" | strip -%}
-      {%- if u != "" -%}{%- assign found = true -%}{%- endif -%}
-    {%- endif -%}
-  {%- endfor -%}
-  {%- unless found -%}{%- assign no_flag = no_flag | push: c -%}{%- endunless -%}
+  {%- unless flag_names contains c -%}{%- assign no_flag = no_flag | push: c -%}{%- endunless -%}
 {%- endfor -%}
 {%- if no_flag.size > 0 -%}
   {%- assign row_keys = "" | split: "," -%}

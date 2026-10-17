@@ -1,0 +1,59 @@
+{%- comment -%}
+  ===========================================================================
+  trip-countries.html — the countries ONE trip claims, by the site's rule
+  ===========================================================================
+  Braces spaced out so nothing in this comment looks like a real tag:
+
+      { % include trip-countries.html trip=t % }
+      trip_is_template     true for 📝 / template: true trips — count nothing
+      trip_multi_location  the raw location if it was skipped as multi-country,
+                           else ""
+      trip_countries       canonical names, de-duplicated, location first
+
+  THE RULE
+    - A 📝 title or `template: true` makes the trip reference material. It
+      claims no countries.
+    - `location:` contributes the text after its last comma, folded through
+      the alias table (_includes/canon-country.html) — unless that text still
+      holds several countries ("A & B", "X → Y", "Europe (…)"), which is
+      skipped rather than counted as one nonsense country. Split those into
+      `countries:` entries instead.
+    - Every `countries:` entry contributes its name, the same way.
+
+  WHY ITS OWN FILE
+  country-data.html (the Countries tile, the world map, /admin-stats/) and
+  trips-in-year.html (the year pages, "Most countries in one year") each had
+  their own copy of this loop, and the copies had already parted: only the
+  first skipped templates and multi-country locations. Nothing tripped over
+  it yet, but the first trip that did would have put a country on its year
+  page that the Countries tile never counted. One rule now, used by both.
+  ===========================================================================
+{%- endcomment -%}
+{%- assign trip_countries = "" | split: "" -%}
+{%- assign trip_multi_location = "" -%}
+{%- assign trip_is_template = false -%}
+{%- assign tc_trip = include.trip -%}
+{%- assign tc_title = tc_trip.title | default: "" -%}
+{%- if tc_title contains "📝" or tc_trip.template == true -%}
+  {%- assign trip_is_template = true -%}
+{%- else -%}
+  {%- if tc_trip.location and tc_trip.location != "" -%}
+    {%- assign tc_raw = tc_trip.location | split: "," | last | strip -%}
+    {%- if tc_raw contains "&" or tc_raw contains "→" or tc_raw contains "(" -%}
+      {%- assign trip_multi_location = tc_trip.location -%}
+    {%- else -%}
+      {%- include canon-country.html raw=tc_trip.location -%}
+      {%- assign trip_countries = trip_countries | push: canon_country -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- if tc_trip.countries -%}
+    {%- for tc_c in tc_trip.countries -%}
+      {%- if tc_c.name and tc_c.name != "" -%}
+        {%- include canon-country.html raw=tc_c.name -%}
+        {%- unless trip_countries contains canon_country -%}
+          {%- assign trip_countries = trip_countries | push: canon_country -%}
+        {%- endunless -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endif -%}

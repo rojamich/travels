@@ -21,8 +21,9 @@
   sit outside their own trip's range, some by months — so they are the wrong
   thing to date a trip by.
 
-  Countries come from _includes/canon-country.html, the same normalisation
-  the Stats page and the trip country count use, so all three agree. The
+  Countries come from _includes/trip-countries.html — the same rule, and the
+  same _includes/canon-country.html normalisation, that the Countries tile
+  uses — so the two agree. The
   year layout used to fold names inline WITHOUT consulting the alias table,
   which meant "USA" and "United States of America" counted as two countries
   on a year page and one everywhere else.
@@ -41,25 +42,20 @@
     {%- assign t_start = t.start_date | date: "%Y" -%}
     {%- assign t_end = t.end_date | date: "%Y" -%}
     {%- if t_start <= include.year and t_end >= include.year -%}
-      {%- assign year_trips = year_trips | push: t -%}
-
-      {%- if t.location and t.location != "" -%}
-        {%- include canon-country.html raw=t.location -%}
-        {%- unless year_countries contains canon_country -%}
-          {%- assign year_countries = year_countries | push: canon_country -%}
-        {%- endunless -%}
-      {%- endif -%}
-
-      {%- if t.countries -%}
-        {%- for c in t.countries -%}
-          {%- if c.name and c.name != "" -%}
-            {%- include canon-country.html raw=c.name -%}
-            {%- unless year_countries contains canon_country -%}
-              {%- assign year_countries = year_countries | push: canon_country -%}
-            {%- endunless -%}
-          {%- endif -%}
+      {%- comment -%}
+        The trip's countries by the same rule the Countries tile uses —
+        _includes/trip-countries.html — so a template trip or a multi-country
+        location string is left out here exactly as it is there.
+      {%- endcomment -%}
+      {%- include trip-countries.html trip=t -%}
+      {%- unless trip_is_template -%}
+        {%- assign year_trips = year_trips | push: t -%}
+        {%- for c in trip_countries -%}
+          {%- unless year_countries contains c -%}
+            {%- assign year_countries = year_countries | push: c -%}
+          {%- endunless -%}
         {%- endfor -%}
-      {%- endif -%}
+      {%- endunless -%}
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}

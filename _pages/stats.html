@@ -63,14 +63,24 @@ classes: wide
 {%- endcomment -%}
 {%- assign world_pct = total_countries | times: 100 | divided_by: world_total -%}
 
-{%- comment -%} US states visited: collected from trip.states[] arrays. {%- endcomment -%}
+{%- comment -%}
+  US states visited: collected from trip.states[] arrays.
+
+  De-duplicated ignoring case, because the US map below shades by the
+  lower-cased name: "Oregon" on one trip and "oregon" on another is one
+  shaded state, and must be one in the count too, or the tile and the map
+  disagree. The first spelling seen is the one displayed.
+{%- endcomment -%}
 {%- assign us_states = "" | split: "" -%}
+{%- assign us_state_keys = "" | split: "" -%}
 {%- for t in site.trips -%}
   {%- if t.states -%}
     {%- for s in t.states -%}
       {%- assign sn = s | strip -%}
       {%- if sn and sn != "" -%}
-        {%- unless us_states contains sn -%}
+        {%- assign sk = sn | downcase -%}
+        {%- unless us_state_keys contains sk -%}
+          {%- assign us_state_keys = us_state_keys | push: sk -%}
           {%- assign us_states = us_states | push: sn -%}
         {%- endunless -%}
       {%- endif -%}
@@ -178,59 +188,15 @@ classes: wide
 {%- endfor -%}
 
 {%- comment -%}
-  Most countries in one year (auto-detected). Pairs are keyed by ISO
-  code where available so UK + England in the same year count once,
-  falling back to the raw name if no code is known.
-{%- endcomment -%}
-{%- assign year_country_pairs = "" | split: "" -%}
-{%- for t in site.trips -%}
-  {%- if t.start_date -%}
-    {%- assign ty = t.start_date | date: "%Y" -%}
-    {%- if t.location and t.location != "" -%}
-      {%- comment -%}
-        Normalise through canon-country.html rather than folding the name
-        here, so this timeline shades exactly the countries the Countries
-        tile counts. This block used to do its own split-and-strip with no
-        alias lookup at all.
-      {%- endcomment -%}
-      {%- include canon-country.html raw=t.location -%}
-      {%- assign cn = canon_country -%}
-      {%- assign is_valid = true -%}
-      {%- if cn contains "&" or cn contains "→" or cn contains "(" -%}
-        {%- assign is_valid = false -%}
-      {%- endif -%}
-      {%- if is_valid -%}
-        {%- assign code = site.data.country_codes[cn] | default: cn -%}
-        {%- assign pair = ty | append: "|" | append: code -%}
-        {%- unless year_country_pairs contains pair -%}
-          {%- assign year_country_pairs = year_country_pairs | push: pair -%}
-        {%- endunless -%}
-      {%- endif -%}
-    {%- endif -%}
-    {%- if t.countries -%}
-      {%- for c in t.countries -%}
-        {%- if c.name and c.name != "" -%}
-          {%- include canon-country.html raw=c.name -%}
-          {%- assign cn2 = canon_country -%}
-          {%- assign code2 = site.data.country_codes[cn2] | default: cn2 -%}
-          {%- assign pair2 = ty | append: "|" | append: code2 -%}
-          {%- unless year_country_pairs contains pair2 -%}
-            {%- assign year_country_pairs = year_country_pairs | push: pair2 -%}
-          {%- endunless -%}
-        {%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
-  {%- endif -%}
-{%- endfor -%}
-{%- comment -%}
   best_year / best_count / best_countries are worked out further down, from
   _includes/trips-in-year.html — the same include /year/YYYY/ uses.
 
-  There used to be a second derivation right here, counting the ISO codes in
-  year_country_pairs above. It disagreed with the year pages in two ways: it
-  filed a trip under its START year only, so a trip over New Year vanished
-  from the later year, and it counted codes rather than countries, so a
-  country with no ISO code didn't count at all. One source now.
+  A second derivation used to sit here as well, counting ISO codes by each
+  trip's start year. It disagreed with the year pages (a trip over New Year
+  vanished from the later year; a country with no code didn't count), and
+  once the headline moved to trips-in-year.html nothing read it any more,
+  though it still ran the country lookup for every trip on every build.
+  Removed 2026-10-17.
 {%- endcomment -%}
 
 {% include page-quote.html
@@ -751,54 +717,148 @@ classes: wide
       {%- assign e_s = t.end_date | date: "%s" | plus: 0 -%}
       {%- assign trip_days = e_s | minus: s_s | divided_by: 86400 | plus: 1 -%}
     {%- endif -%}
+    {%- comment -%}
+      A collection trip gathers separate visits over years, so its date span
+      is not a length: "Party in the USA" printed 5,389 days here while every
+      total on this page leaves it out. Show the years it covers instead.
+    {%- endcomment -%}
     <a href="{{ t.url | relative_url }}" class="stats-trip-row">
       <span class="stats-trip-name">{{ t.title }}</span>
       <span class="stats-trip-meta">
         {{ t.location }} &middot;
-        {% if trip_days > 0 %}{{ trip_days }} days &middot; {% endif %}
+        {% if t.collection_trip == true and trip_days > 0 %}{{ t.start_date | date: "%Y" }}–{{ t.end_date | date: "%Y" }} &middot;
+        {% elsif trip_days > 0 %}{{ trip_days }} days &middot; {% endif %}
         {{ trip_post_count }} post{% if trip_post_count != 1 %}s{% endif %}
       </span>
     </a>
   {% endfor %}
 </div>
 
-<h2 style="margin-top:2em;">Continents</h2>
-<div class="stats-country-chips">
-  {%- assign sorted_conts = continents_visited | sort -%}
-  {% for c in sorted_conts %}
-    <span class="country-chip country-chip--cont">{{ c }}</span>
-  {% endfor %}
-</div>
-
 {%- comment -%}
-  Country + state chips with optional image support. Image data lives in
-  _data/country_images.yml (list of {name, url}) — edit from /admin/
-  → Site Settings → "Country flag images". Same for us_state_images.yml.
-  Missing images just render nothing; the chip falls back to plain name.
+  =========================================================================
+  Countries by continent
+  =========================================================================
+  The countries are visited_countries from country-data.html — the very list
+  the Countries tile counts — grouped by the continent _data/countries.yml
+  gives each one (site.data.continents, the lookup the Continents tile
+  counts). Nothing here is a second source, so the groups add up to the
+  Countries tile and there are as many groups as the Continents tile says.
+
+  A country with no continent still gets a group, "Somewhere else", so a
+  missing record shows up as itself instead of quietly dropping out of the
+  total. /admin-stats/ names any such country.
+
+  Biggest group first, ties alphabetical: each row is keyed "NNN|Continent"
+  with NNN = 1000 - count, zero-padded, so a plain sort orders them. The
+  no-continent group is keyed "~", which sorts after every digit.
+
+  Flags come from country-flags.html, which resolves each flag's name through
+  the alias table — the same lookup the upkeep check uses, so a country it
+  says has a flag is a chip that shows one. Image data lives in
+  _data/country_images.yml; edit from /admin/ → Site Settings → "Country
+  flag images". A chip with no image just shows the name.
+  =========================================================================
 {%- endcomment -%}
-<h2 style="margin-top:1.5em;">Countries</h2>
-<div class="stats-country-chips">
-  {%- assign sorted_countries = uniq_countries | sort -%}
-  {% for c in sorted_countries %}
-    {%- assign img_url = "" -%}
-    {%- if site.data.country_images.entries -%}
-      {%- for e in site.data.country_images.entries -%}
-        {%- if e.name == c -%}{%- assign img_url = e.url -%}{%- endif -%}
+{% include country-flags.html %}
+{%- assign no_cont = "" | split: "" -%}
+{%- for c in uniq_countries -%}
+  {%- assign cc = site.data.continents[c] | default: "" -%}
+  {%- if cc == "" -%}{%- assign no_cont = no_cont | push: c -%}{%- endif -%}
+{%- endfor -%}
+{%- assign cont_rows = "" | split: "" -%}
+{%- for cont in continents_visited -%}
+  {%- assign n = 0 -%}
+  {%- for c in uniq_countries -%}
+    {%- if site.data.continents[c] == cont -%}{%- assign n = n | plus: 1 -%}{%- endif -%}
+  {%- endfor -%}
+  {%- assign cont_key = 1000 | minus: n | prepend: "00" | slice: -3, 3 -%}
+  {%- assign cont_row = cont_key | append: "|" | append: cont -%}
+  {%- assign cont_rows = cont_rows | push: cont_row -%}
+{%- endfor -%}
+{%- assign cont_rows = cont_rows | sort -%}
+{%- if no_cont.size > 0 -%}{%- assign cont_rows = cont_rows | push: "~|" -%}{%- endif -%}
+
+<h2 id="countries-by-continent" style="margin-top:2em;">Countries by continent</h2>
+<p style="color:#666;margin:0 0 0.6em;">
+  <strong>{{ total_countries }}</strong> countr{% if total_countries == 1 %}y{% else %}ies{% endif %}
+  across <strong>{{ total_continents }}</strong> continent{% if total_continents != 1 %}s{% endif %}.
+</p>
+<div class="cont-groups">
+  {%- for row in cont_rows -%}
+    {%- assign cont = row | split: "|" | last -%}
+    {%- assign members = "" | split: "" -%}
+    {%- if row == "~|" -%}
+      {%- assign members = no_cont -%}
+      {%- assign cont = "Somewhere else" -%}
+    {%- else -%}
+      {%- for c in uniq_countries -%}
+        {%- if site.data.continents[c] == cont -%}{%- assign members = members | push: c -%}{%- endif -%}
       {%- endfor -%}
     {%- endif -%}
-    <span class="country-chip">{% if img_url != "" %}<img class="chip-img" src="{{ img_url }}" alt="" onerror="this.style.display='none'">{% endif %}{{ c }}</span>
-  {% endfor %}
+  <section class="cont-group">
+    <h3 class="cont-head">
+      <span class="cont-name">{{ cont }}</span>
+      <span class="cont-count" title="{{ members.size }} countr{% if members.size == 1 %}y{% else %}ies{% endif %}">{{ members.size }}</span>
+    </h3>
+    <div class="stats-country-chips">
+      {%- for c in members -%}
+        {%- assign img_url = "" -%}
+        {%- for fn in flag_names -%}
+          {%- if fn == c -%}{%- assign img_url = flag_urls[forloop.index0] -%}{%- endif -%}
+        {%- endfor %}
+      <span class="country-chip">{% if img_url != "" %}<img class="chip-img" src="{{ img_url }}" alt="" onerror="this.style.display='none'">{% endif %}{{ c }}</span>
+      {%- endfor %}
+    </div>
+  </section>
+  {%- endfor %}
 </div>
+
+<style>
+  .cont-groups {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+    gap: 0.9em;
+    margin: 1em 0 1.5em;
+    align-items: start;
+  }
+  .cont-group {
+    border: 1px solid #e3e9ee;
+    border-radius: 12px;
+    padding: 0.8em 1em 0.5em;
+    background: #fff;
+  }
+  .cont-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6em;
+    margin: 0;
+    font-size: 1em;
+    color: #2a4d69;
+  }
+  .cont-count {
+    background: #2a4d69;
+    color: #fff;
+    border-radius: 999px;
+    padding: 0.1em 0.7em;
+    font-size: 0.85em;
+    font-variant-numeric: tabular-nums;
+  }
+  .cont-group .stats-country-chips { margin: 0.6em 0 0.4em; }
+</style>
 
 {% if us_states.size > 0 %}
 <h2 style="margin-top:1.5em;">US States</h2>
 <div class="stats-country-chips">
   {%- assign sorted_states = us_states | sort -%}
   {% for s in sorted_states %}
+    {%- comment -%} Case-insensitive, like the count and the map. {%- endcomment -%}
     {%- assign img_url = "" -%}
+    {%- assign sk = s | downcase -%}
     {%- if site.data.us_state_images.entries -%}
       {%- for e in site.data.us_state_images.entries -%}
-        {%- if e.name == s -%}{%- assign img_url = e.url -%}{%- endif -%}
+        {%- assign ek = e.name | default: "" | strip | downcase -%}
+        {%- if ek == sk -%}{%- assign img_url = e.url -%}{%- endif -%}
       {%- endfor -%}
     {%- endif -%}
     <span class="country-chip country-chip--state">{% if img_url != "" %}<img class="chip-img" src="{{ img_url }}" alt="" onerror="this.style.display='none'">{% endif %}{{ s }}</span>

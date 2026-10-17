@@ -1,0 +1,39 @@
+{%- comment -%}
+  ===========================================================================
+  country-flags.html — which flag image belongs to which canonical country
+  ===========================================================================
+  Braces spaced out so nothing in this comment looks like a real tag:
+
+      { % include country-flags.html % }
+      flag_names   canonical country names that have a flag
+      flag_urls    the matching image url, same position
+
+  Then, for a canonical country c:
+
+      { % for fn in flag_names % }{ % if fn == c % }
+        { { flag_urls[forloop.index0] } }
+      { % endif % }{ % endfor % }
+
+  WHY
+  /stats/ matched a flag to a chip by exact name, while the upkeep check that
+  hunts for orphaned flags resolved names through the alias table. So a flag
+  filed under "England" passed the check ("that's a real country") and never
+  appeared beside United Kingdom ("not the same string"). Two rules for one
+  question. Both now read this, which resolves every flag's name exactly the
+  way a trip's country is resolved — _includes/canon-country.html.
+
+  First flag wins if two names fold to the same country.
+  ===========================================================================
+{%- endcomment -%}
+{%- assign flag_names = "" | split: "" -%}
+{%- assign flag_urls = "" | split: "" -%}
+{%- for e in site.data.country_images.entries -%}
+  {%- assign flag_u = e.url | default: "" | strip -%}
+  {%- if flag_u != "" and e.name and e.name != "" -%}
+    {%- include canon-country.html raw=e.name -%}
+    {%- unless flag_names contains canon_country -%}
+      {%- assign flag_names = flag_names | push: canon_country -%}
+      {%- assign flag_urls = flag_urls | push: flag_u -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
