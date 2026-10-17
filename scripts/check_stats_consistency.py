@@ -111,7 +111,7 @@ m = re.search(r"<strong>(\d+)</strong> of ~?(\d+) countries visited", stats)
 check("the map headline says the same number as the tile", m and int(m.group(1)), countries)
 check("out of 195 countries, counted from _data/countries.yml", m and int(m.group(2)), 195)
 if territories:
-    t = re.search(r"of the world,\s*plus <strong>(\d+)</strong> territor", stats)
+    t = re.search(r"countries visited,\s*plus <strong>(\d+)</strong> territor", stats)
     check("and names the territories separately", t and int(t.group(1)), territories)
 codes = re.search(r"var VISITED = (\[.*?\]);", stats, re.S)
 n_codes = len(re.findall(r'"[A-Z]{3}"', codes.group(1))) if codes else -1

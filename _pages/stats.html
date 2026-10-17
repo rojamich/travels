@@ -545,8 +545,9 @@ classes: wide
 
 <h2 style="margin-top:2em;">🌍 World coverage</h2>
 <p style="color:#666;margin:0 0 0.6em;">
-  <strong>{{ total_countries }}</strong> of {{ world_total }} countries visited — <strong>{{ world_pct }}%</strong> of the world{% if total_territories > 0 %},
-  plus <strong>{{ total_territories }}</strong> territor{% if total_territories == 1 %}y{% else %}ies{% endif %} ({{ visited_territories | join: ", " }}){% endif %}.
+  <strong>{{ total_countries }}</strong> of {{ world_total }} countries visited{% if total_territories > 0 %},
+  plus <strong>{{ total_territories }}</strong> territor{% if total_territories == 1 %}y{% else %}ies{% endif %} ({{ visited_territories | join: ", " }}){% endif %}
+  — <strong>{{ world_pct }}%</strong> of the world.
   Shaded places are where we've been.
 </p>
 
