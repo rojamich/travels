@@ -8,7 +8,7 @@ header:
   teaser_focal_x: 50
   teaser_focal_y: 63
   overlay_focal_x: 50
-  overlay_focal_y: 44
+  overlay_focal_y: 37
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1792531001/wcgtf74ihv3tb9rlxp0w.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1792531015/rpwrr3jdo6d7xexfl8rv.jpg
@@ -31,7 +31,7 @@ Today was a beautiful down day in Tamarindo and our last full day in Costa Rica 
 
 It started with a sunrise run along the beach 🏃🏻‍♀️‍➡️
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1792531022%2Fiqkpsy08ihaptxq6lzcr.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1792531029%2Fodd0czolpinctmiq0kqu.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1792531022%2Fiqkpsy08ihaptxq6lzcr.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%225%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1792531029%2Fodd0czolpinctmiq0kqu.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 I found the cutest VW van that fit right in here 🩵
 
