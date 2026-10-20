@@ -22,8 +22,8 @@ tags:
 new_tags: []
 location:
   name: Tamarindo, Costa Rica
-  lat: 101757
-  lng: -855032
+  lat: 10.2984121
+  lng: -85.8399505
 stay: night
 toc: false
 ---
