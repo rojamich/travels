@@ -2,7 +2,7 @@
 title: A Rest Day & Flying Home ✈️
 date: 2024-02-12
 categories:
-  - peruvian-passage
+  - pura-vida-pursuit
 order: 8
 header:
   teaser_focal_x: 50
@@ -22,8 +22,8 @@ tags:
 new_tags: []
 location:
   name: Tamarindo, Costa Rica
-  lat: 101757
-  lng: -855032
+  lat: 10.2984121
+  lng: -85.8399505
 stay: night
 toc: false
 ---
