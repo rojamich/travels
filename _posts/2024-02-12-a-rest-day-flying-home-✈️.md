@@ -2,7 +2,7 @@
 title: A Rest Day & Flying Home ✈️
 date: 2024-02-12
 categories:
-  - peruvian-passage
+  - pura-vida-pursuit
 order: 8
 header:
   teaser_focal_x: 50
