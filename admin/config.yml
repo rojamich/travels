@@ -1172,6 +1172,9 @@ collections:
       - label: "Tacos & Turrets in Mexico City"
         field: categories
         pattern: "tacos-turrets-in-mexico-city"
+      - label: "The End of the World"
+        field: categories
+        pattern: "the-end-of-the-world"
       - label: "The Singaporean Stopover"
         field: categories
         pattern: "the-singaporean-stopover"
