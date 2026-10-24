@@ -85,7 +85,7 @@ Nothing else we could do but read/listen to our books and drink our coffee while
 
 Did you know only one end of the reserve has an opening? Us either, so we set out to walk 15 minutes to the other end 🤦🏻‍♀️🤦🏻‍♂️
 
-That's where we were greeted by a guard saying the park was closed for the day because it rained (it would degrade the habitat to walk in it.
+That's where we were greeted by a guard saying the park was closed for the day because it rained (it would degrade the habitat to walk in it).
 
 We settled for photography practice in the park nearby.
 
