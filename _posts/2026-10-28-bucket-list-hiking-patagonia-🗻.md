@@ -129,15 +129,17 @@ Mike explored the informational center there and learned more about the invasive
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310135%2Fxfooqu6ccmwrr0gvnkcm.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310131%2Fdnmefklvu8itaf4g30sw.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-We heard a lot of French this day which made us curious about who visits this area most! Turns out, there were two documentaries filmed: Ushuaïa, le magazine de l'extrême and Ushuaïa Nature. They created a massive legacy and mentality in French youth that are passionate nature preservationists who romanticize the outdoors! How cool that it had such a profound influence on a huge group of people — in such a positive way 🌳🦋🌼
+We heard a lot of French this day which made us curious about who visits this area most! Turns out, there were two documentaries filmed: Ushuaïa, le magazine de l'extrême and Ushuaïa Nature. They created a massive legacy and mentality in French youth that are passionate nature preservationists who romanticize the outdoors! 
+
+Because the documentary focused on Ushuaia, it cemented it as the cornerstone of adventure for French youth and became a massive bucket list item! How cool that it had such a profound influence on a huge group of people — in such a positive way 🌳🦋🌼
 
 It was time to head back, so we loaded onto the shuttle and one of us napped on the way back to downtown Ushuaia... (it was me).
 
 We dropped our bags and immediately walked to ice cream! Yes, it was a 30 minute walk (one way) after a 5 mile hike but so very worth it!
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310294%2Fpurddg32sqdngssu3wxl.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310287%2Fro2dclimcptzn5ydayzs.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310301%2Felqiziup4okxyhe8eb0h.jpg%22%7D%5D%2C%22caption%22%3A%22Mike%20questions%20if%20its%20worht%20it%20lol%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310294%2Fpurddg32sqdngssu3wxl.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310287%2Fro2dclimcptzn5ydayzs.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310301%2Felqiziup4okxyhe8eb0h.jpg%22%7D%5D%2C%22caption%22%3A%22Mike%20questions%20if%20its%20worth%20it%20lol%22%7D %}
 
-Mike had dubai pistachio and the same flavor I loved: Helado de Alfajor de Nuez. It wasdulce de leche, walnuts, and white chocolate! Absolutely divine and everything one could wish for after a hike!
+Mike had dubai pistachio and the same flavor I loved: Helado de Alfajor de Nuez. It was dulce de leche, walnuts, and white chocolate! Absolutely divine and everything one could wish for after a hike!
 
 The walk back (Mike found a good route) and the mountains were gorgeous, even on a random walk!
 
