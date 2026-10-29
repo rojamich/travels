@@ -29,4 +29,8 @@ location:
 stay: day_trip
 toc: false
 ---
-Draft
+It was an early wake up for the Rojas family today and we were grateful for this gorgeous view!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1793300913/tzllgxtjknwomadayeil.jpg)
+
+We cooked, dressed, packed, and walked to the shuttle spot down the street!
