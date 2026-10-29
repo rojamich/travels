@@ -51,4 +51,14 @@ It was a beautiful walk back to the shuttle and we were happy to get some sights
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301884%2Fv2yag6kdep1iet7fpwsb.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301942%2Fedyhbtv2emzqpvvu6wky.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301781%2Fiqyafh0byqfxfyvwygmp.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301892%2Fp0knact7bjcbktczbsej.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-The shuttle was quick and easy and we both listened to our audiobooks on the way over! I started a new one called:[ Isn't it Bromantic?](https://www.goodreads.com/en/book/show/55470802-isn-t-it-bromantic) by Lyssa Kay Adams which is the fourth in the series I started!
+The shuttle was quick and easy and we both listened to our audiobooks on the way over! I started a new one called:[ Isn't it Bromantic?](https://www.goodreads.com/en/book/show/55470802-isn-t-it-bromantic) by Lyssa Kay Adams which is the fourth in the series I began last year! It's pretty cheesy so I'm taking my time with it 😂
+
+Our shuttle stop was at Ensenada Zaratiegui and had fantastic views — a great omen for the hike!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793306802%2Fasik6ildgizrqasas571.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793307145%2Fnnbmvd2vu4w63vvcjpxa.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793306809%2Fpqvovihdzniudxrplrw3.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793306933%2Fsnkboy5q8sqg7ojb7k67.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We thought it would be crowded, starting later and in the famous Patagonia! But it was really quiet and pretty soon we had the trail mostly all to ourselves!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793306885%2Flv0iynjtxt19mcnlc7dk.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+The trail opened up to a beach head where we could admire another angle of the mountains 😍🗻
