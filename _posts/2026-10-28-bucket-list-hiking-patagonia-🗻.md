@@ -29,21 +29,21 @@ location:
 stay: day_trip
 toc: false
 ---
-It was an early wake up for the Rojas family today and we were grateful for this gorgeous view!
+It was an early wake up for the Rojas family today and we were grateful for this gorgeous view! The birds were chirping and it looked like it would be sunny and dry ☀️🌄
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1793300913/tzllgxtjknwomadayeil.jpg)
 
-We cooked, dressed, packed, and walked to the shuttle spot down the street 🚶🏻‍♀️‍➡️🚶🏻‍➡️
+We cooked, ate , dressed, packed, and walked to the shuttle spot down the street 🚶🏻‍♀️‍➡️🚶🏻‍➡️
 
 The first shuttle was scheduled for 10am so we grabbed tickets, photographed a few maps and strolled along the water of the Beagle Channel!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301146%2Frkhdtbd3v9brpygch0iy.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301169%2Fybtni0cwedfqervzracc.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301194%2Fc5xo5y8eovyrr7aue6hc.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-Our walk took us towards the Naval base where we could see a Patrol Vessel! We aren't going to speak about the mixed feelings on me beating Mike repeatedly in Battleship.
+Our walk took us towards the naval base where we could see a patrol vessel! We aren't going to speak about the mixed feelings on me beating Mike repeatedly in Battleship.
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793300581%2Fqytujijvjpds1nvsjsh2.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301534%2Fzcloq4slzsgvlmjjotbw.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301768%2Fshuihyww7ysfjjmg84zp.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-There is the Monumento con Guitarra next door to the naval base which is dedicated to Angelito "titi" Rodriguez, a singer-songwriter and musician from Tierra del Fuego.
+There is the Monumento con Guitarra next door to the naval base which is dedicated to Angelito "titi" Rodriguez, a musician from Tierra del Fuego.
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1793301776/hmm6woe9qvvb46qvazsy.jpg)
 
@@ -51,7 +51,7 @@ It was a beautiful walk back to the shuttle and we were happy to get some sights
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301884%2Fv2yag6kdep1iet7fpwsb.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301942%2Fedyhbtv2emzqpvvu6wky.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301781%2Fiqyafh0byqfxfyvwygmp.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301892%2Fp0knact7bjcbktczbsej.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-The shuttle was quick and easy and we both listened to our audiobooks on the way over! I started a new one called:[ Isn't it Bromantic?](https://www.goodreads.com/en/book/show/55470802-isn-t-it-bromantic) by Lyssa Kay Adams which is the fourth in the series I began last year! It's pretty cheesy so I'm taking my time with it 😂
+The shuttle was quick and easy and we both listened to our audiobooks on the way over! I started a new book called:[ Isn't it Bromantic?](https://www.goodreads.com/en/book/show/55470802-isn-t-it-bromantic) by Lyssa Kay Adams which is the fourth in the series I began last year! It's pretty cheesy so I'm taking my time with it 😂
 
 Our shuttle stop was at Ensenada Zaratiegui and had fantastic views — a great omen for the hike!
 
@@ -89,7 +89,7 @@ And two Silvery Grebes birds!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793309348%2Fw8xjhmu94hry2sttdmke.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-We walked through an open meadow and, in case you were worried, our first set of stairs 😂
+We walked through an open meadow and, in case you were worried, our first set of stairs 😂 What would a Mike & Jenna hike be without more stairs?!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1793309400/yvekwjowgiyayevgrno3.jpg)
 
@@ -115,7 +115,7 @@ After lunch we continued on and saw these odd bulbs on some of the trees:
 
 We discovered they are called Llao Llao and are a parasitic fungus! The trees swell and create galls which defends against the fungus. The orange are fruiting bodies of the fungus. 
 
-On a more appetizing note, I tried a new doritos flavor and it was really good!
+On a more appetizing note, I tried a new Doritos flavor and it was really good!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1793309948/twzqhn2pphqy52nhct7y.jpg "My mouth is watering thinking about these! Could be that it's almost dinner time and I'm hungry too 😂")
 
@@ -129,11 +129,13 @@ Mike explored the informational center there and learned more about the invasive
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310135%2Fxfooqu6ccmwrr0gvnkcm.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310131%2Fdnmefklvu8itaf4g30sw.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-One of us napped on the shuttle back to downtown Ushuaia... (it was me).
+We heard a lot of French this day which made us curious about who visits this area most! Turns out, there were two documentaries filmed: Ushuaïa, le magazine de l'extrême and Ushuaïa Nature. They created a massive legacy and mentality in French youth that are passionate nature preservationists who romanticize the outdoors! How cool that it had such a profound influence on a huge group of people — in such a positive way 🌳🦋🌼
 
-We dropped our bags and immediately walked to ice cream! Yes, it was a 30 minute walk after a 5 mile hike but so very worth it!
+It was time to head back, so we loaded onto the shuttle and one of us napped on the way back to downtown Ushuaia... (it was me).
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310294%2Fpurddg32sqdngssu3wxl.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310287%2Fro2dclimcptzn5ydayzs.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310301%2Felqiziup4okxyhe8eb0h.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+We dropped our bags and immediately walked to ice cream! Yes, it was a 30 minute walk (one way) after a 5 mile hike but so very worth it!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310294%2Fpurddg32sqdngssu3wxl.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310287%2Fro2dclimcptzn5ydayzs.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310301%2Felqiziup4okxyhe8eb0h.jpg%22%7D%5D%2C%22caption%22%3A%22Mike%20questions%20if%20its%20worht%20it%20lol%22%7D %}
 
 Mike had dubai pistachio and the same flavor I loved: Helado de Alfajor de Nuez. It wasdulce de leche, walnuts, and white chocolate! Absolutely divine and everything one could wish for after a hike!
 
