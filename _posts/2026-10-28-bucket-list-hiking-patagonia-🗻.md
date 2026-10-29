@@ -62,3 +62,83 @@ We thought it would be crowded, starting later and in the famous Patagonia! But 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793306885%2Flv0iynjtxt19mcnlc7dk.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 The trail opened up to a beach head where we could admire another angle of the mountains 😍🗻
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793307116%2Fran7jvszmd5h5n9atrot.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793307382%2Fpmtuiswb5wvmasnn9y6t.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+It was great to get in more practice with the different lenses. Mike was so patient and encouraging while I am learning how to work all these different moving pieces and settings!
+
+The trail was well cared for and muddy in a few spots. We tried not to get too muddy because our boots have to be clean before we sail for Antarctica!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793307849%2Flgudlx2nuxxqwlmhnarz.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793307844%2Fpmhdlcosnyln5zk4dqtx.jpg%22%7D%5D%2C%22caption%22%3A%22Mike%20spotted%20these%20beautiful%20orange%20flowers%20in%20the%20middle%20of%20a%20brown%2Fgreen%20trail.%20I%20hadn't%20even%20noticed%20them!%22%7D %}
+
+We had another opening in the trail where we found a couple of geese napping and snacking 🪿🪿
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793308483%2Fwjjpash16cpihpnimtyf.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793308499%2Fcudyiuuz8vnebjitpenp.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+It also gave us some of the most breath-taking views of our journey 🗻🗻🗻 
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793300556%2Fkmez5jfck6v0bp82pnrm.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793308616%2Fparzog6ueskupzqqf26l.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793308651%2Fv13z5vblsgg3o6efuk39.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793308679%2Fjyrwzc5phph2np1mpeze.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793308681%2Fqltbhw4xtpvmp51bhkvk.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793308684%2Fqrz9rubipbv2z0blgflv.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+It was the perfect opportunity to switch lenses and practice with different subjects!
+
+We were able to spot a Shag at the next beach head!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793309307%2Ff3nvjfuounbwrufdckks.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793309594%2Fudit12m0hfdaznozxk2a.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793309325%2Fhzdaoozklshjg8u3q5lt.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+And two Silvery Grebes birds!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793309348%2Fw8xjhmu94hry2sttdmke.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We walked through an open meadow and, in case you were worried, our first set of stairs 😂
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1793309400/yvekwjowgiyayevgrno3.jpg)
+
+A look back gave us a great view of the gorgeous water color! It's also really clear!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793309443%2Ffbb2k4bklvz7wdqzuoko.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+While weaving our way down the trail we saw this beautiful butterfly 🦋
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1793309449/l4bv253fi9inubxrfpjf.jpg)
+
+We packed sandwiches and enjoyed them while looking out over this beautiful landscape 🗻🐚
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793309555%2Fmknk5cw4uhn5jjihxurp.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793309628%2Faywwyaszkjfh9ytg4mjt.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793309618%2Fx8hk5i1xq7yhsr9vwlvu.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Mike also found parts of a bird skeleton!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1793309766/uo8rqhzbylpfpijwzhba.jpg)
+
+After lunch we continued on and saw these odd bulbs on some of the trees:
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793309608%2Fbcpsaezg0nkpn6iswc7a.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793309603%2Fmidpv0mngraumzi7715p.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We discovered they are called Llao Llao and are a parasitic fungus! The trees swell and create galls which defends against the fungus. The orange are fruiting bodies of the fungus. 
+
+On a more appetizing note, I tried a new doritos flavor and it was really good!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1793309948/twzqhn2pphqy52nhct7y.jpg "My mouth is watering thinking about these! Could be that it's almost dinner time and I'm hungry too 😂")
+
+Our hike led us to a dirt road and up the pathway towards the visitor center with beautiful surroundings!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310035%2Fwa3nfh4shfembnnqeom6.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310038%2Fdiu9dz6lc2jza9pfzb7a.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We admired as we strolled up and into the warmth of the building. Stopping to rest and snack while we waited on the return shuttle 🚐
+
+Mike explored the informational center there and learned more about the invasive beavers they have here in the park! We learned ahead of time that their dams aren't a success story, they're destroying the nature!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310135%2Fxfooqu6ccmwrr0gvnkcm.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310131%2Fdnmefklvu8itaf4g30sw.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+One of us napped on the shuttle back to downtown Ushuaia... (it was me).
+
+We dropped our bags and immediately walked to ice cream! Yes, it was a 30 minute walk after a 5 mile hike but so very worth it!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310294%2Fpurddg32sqdngssu3wxl.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310287%2Fro2dclimcptzn5ydayzs.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793310301%2Felqiziup4okxyhe8eb0h.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Mike had dubai pistachio and the same flavor I loved: Helado de Alfajor de Nuez. It wasdulce de leche, walnuts, and white chocolate! Absolutely divine and everything one could wish for after a hike!
+
+The walk back (Mike found a good route) and the mountains were gorgeous, even on a random walk!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1793310434/n61pikfwodmhkduxg0ri.jpg)
+
+Properly exhausted, we slept deeply this evening!
