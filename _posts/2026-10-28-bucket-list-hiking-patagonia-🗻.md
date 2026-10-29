@@ -33,4 +33,20 @@ It was an early wake up for the Rojas family today and we were grateful for this
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1793300913/tzllgxtjknwomadayeil.jpg)
 
-We cooked, dressed, packed, and walked to the shuttle spot down the street!
+We cooked, dressed, packed, and walked to the shuttle spot down the street 🚶🏻‍♀️‍➡️🚶🏻‍➡️
+
+The first shuttle was scheduled for 10am so we grabbed tickets, photographed a few maps and strolled along the water of the Beagle Channel!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301146%2Frkhdtbd3v9brpygch0iy.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301169%2Fybtni0cwedfqervzracc.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301194%2Fc5xo5y8eovyrr7aue6hc.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Our walk took us towards the Naval base where we could see a Patrol Vessel! We aren't going to speak about the mixed feelings on me beating Mike repeatedly in Battleship.
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793300581%2Fqytujijvjpds1nvsjsh2.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301534%2Fzcloq4slzsgvlmjjotbw.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301768%2Fshuihyww7ysfjjmg84zp.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+There is the Monumento con Guitarra next door to the naval base which is dedicated to Angelito "titi" Rodriguez, a singer-songwriter and musician from Tierra del Fuego.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1793301776/hmm6woe9qvvb46qvazsy.jpg)
+
+It was a beautiful walk back to the shuttle and we were happy to get some sights in before our hike!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301884%2Fv2yag6kdep1iet7fpwsb.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301888%2Fsrksloxvdghnvlw4rnwe.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301781%2Fiqyafh0byqfxfyvwygmp.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1793301892%2Fp0knact7bjcbktczbsej.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
