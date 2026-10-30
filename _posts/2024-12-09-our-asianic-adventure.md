@@ -1,11 +1,22 @@
 ---
-title: "Our Asianic Adventure!"
+title: Our Asianic Adventure!
 date: 2024-12-10
 categories:
   - bamboo-bulgogi
 order: 1
+header:
+  overlay_filter: 0
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785696989/blogger-import/0d718c9186d47e076357.png
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1785696989/blogger-import/0d718c9186d47e076357.png
+  teaser_focal_x: 50
+  teaser_focal_y: 44
+  overlay_focal_x: 50
+  overlay_focal_y: 2
 tags:
   - Japan
+  - Flights
+  - Adventure
+  - Asia
 ---
 
 Happy December everyone!
