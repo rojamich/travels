@@ -45,7 +45,7 @@ The cool thing here is they love their vending machines - they are everywhere an
 
 We navigated the metro system well thanks to Mike's research and passion for learning languages! Immediately we were greeted in Shibuya with so many signs vying for our attention and the smell of incredible food at every street corner. 
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787496389%2Fblogger-import%2Fb06b6d7be8dadb44a798.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787496389%2Fblogger-import%2Fb06b6d7be8dadb44a798.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787503152%2Fblogger-import%2F4b19718d6455dc619435.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787496389%2Fblogger-import%2Fb06b6d7be8dadb44a798.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 There is an elevated walkway above part of the city which helps mitigate the street traffic vs pedestrian traffic!
 
@@ -57,7 +57,7 @@ Our hotel was only about 10 minutes away and we were surprised by a beautiful su
 
 After freshening up, we headed out in search of food to prevent my hanger and were quickly swallowed by the crowds of this bustling city!
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787496323%2Fblogger-import%2F89aaa450dd391eb5463c.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787496323%2Fblogger-import%2F89aaa450dd391eb5463c.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787505312%2Fblogger-import%2F78e93a3249fbc2bbbd6f.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787496323%2Fblogger-import%2F89aaa450dd391eb5463c.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We found the best ramen we have ever eaten in our lives and wished they had bottomless bowls to keep refilling.
 
@@ -65,7 +65,7 @@ We found the best ramen we have ever eaten in our lives and wished they had bott
 
 We flanered about the city to admire their Christmas lights and take in the views. Oh, Christmas music was on every flight, throughout the airports, and in stores/restaurants.
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787492931%2Fblogger-import%2Ff7ead3949685c215415c.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787492931%2Fblogger-import%2Ff7ead3949685c215415c.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787492931%2Fblogger-import%2Ff7ead3949685c215415c.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We admire the love of rules here, much like Germany. There is an order to things and people generally stay within the cultural norms (minus some tourists).
 
