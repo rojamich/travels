@@ -13,10 +13,11 @@
   which triggers a Netlify rebuild.
 
   Until 2026-10-30 the login was Netlify Identity and saves went through
-  Netlify's Git Gateway. Much of the session-handling code below was
-  written for that and now has nothing to act on: with no Identity widget
-  on the page, every check of it finds no session and steps aside. It is
-  left in place, inert, in case the backend is ever switched back.
+  Netlify's Git Gateway. The code that kept that login alive -- token
+  renewal, the "session expired" box, putting a dropped session back,
+  re-pressing Save after one -- was removed once the switch had settled.
+  It is in git history (before PR "Remove the Netlify login workarounds")
+  if the backend ever goes back.
 
   No build step or front matter on this file — Jekyll passes it through
   to the published site as-is.
@@ -45,10 +46,8 @@
     This must load BEFORE Decap, so that the fetch it captures is ours.
 
     WHY IT EXISTS
-      Everything else in this page reasons about the token. That is one
-      step removed from the question that actually matters, which is: did
-      her words reach GitHub? A save can fail for reasons that have
-      nothing to do with a token, and Decap reports it in a toast that is
+      The question that actually matters is: did her words reach GitHub?
+      A save can fail for many reasons, and Decap reports it in a toast that is
       easy to miss and gone in seconds. Then "Publish" ships the branch —
       NOT what is on screen — so the version that goes live is whatever
       the last save that DID work left behind.
@@ -57,12 +56,12 @@
       nothing anywhere says a word about it.
 
     WHAT IT DOES
-      Watches every write to Git Gateway and records whether it succeeded.
+      Watches every write to GitHub and records whether it succeeded.
       Nothing more. The UI code further down reads these timestamps to
       tell her, honestly, whether the thing on her screen is on GitHub.
 
     THE DISCIPLINE
-      seenAny stays false until a Git Gateway write is actually observed.
+      seenAny stays false until a GitHub write is actually observed.
       Until then every consumer must treat the answer as "cannot tell" and
       do nothing — never as "unsaved". If Decap ever stops using fetch,
       this goes quiet and the editor behaves exactly as it does today.
@@ -79,7 +78,7 @@
       // her what time her work last reached GitHub.
       var order = 0;
       var watch = {
-        seenAny: false,        // have we ever observed a Git Gateway write?
+        seenAny: false,        // have we ever observed a GitHub write?
         lastOkMs: 0,           // when the last good write landed (for display)
         lastFailMs: 0,         // when the last lost save happened (for display)
         lastOkSeq: 0,          // ordering, immune to same-millisecond ties
@@ -101,59 +100,17 @@
         });
       }
 
-      // Git Gateway proxies GitHub at /.netlify/git/. A direct github
-      // backend would go to api.github.com; match both so this keeps
-      // working if the backend is ever switched.
-      // 401/403 mean the token is not accepted; 409 means the branch moved
-      // under us; 5xx means GitHub or the gateway broke. Each of those loses
-      // the save. Everything else is noise Decap handles itself.
+      // The github backend writes straight to api.github.com.
+      // 401/403 mean the login is not accepted; 409 means the branch moved
+      // under us; 5xx means GitHub broke. Each of those loses the save.
+      // Everything else is noise Decap handles itself.
       function isFatal(status) {
         return status === 401 || status === 403 || status === 409 || status >= 500;
       }
 
       function isGitWrite(url, method) {
         if (!/^(POST|PUT|PATCH|DELETE)$/i.test(method || "GET")) return false;
-        return /\/\.netlify\/git\//.test(url) || /api\.github\.com/.test(url);
-      }
-
-      // -----------------------------------------------------------------
-      // The notes lookup that Git Gateway will never answer
-      // -----------------------------------------------------------------
-      // decap-cms-core 3.17 added "notes": comments kept as GitHub issues
-      // under the label decap-cms-notes. It looks for one when an entry is
-      // opened, and again when the entry is published, to close it.
-      //
-      // Git Gateway proxies an allowlist of GitHub's API — contents, refs,
-      // trees, commits, pulls — and /search/ is not on it. So the lookup
-      // comes back
-      //
-      //   401  Access to endpoint not allowed: this part of GitHub's API
-      //        has been restricted
-      //
-      // every single time, and publishing prints a red "Failed to close
-      // notes issue on publish" that means nothing and fixes nothing.
-      //
-      // It cannot be made to work. The query Decap builds is
-      // `repo: label:decap-cms-notes "posts/…"` — with nothing after
-      // `repo:`, because that comes from the `repo` setting and a
-      // git-gateway config hasn't got one: the gateway knows the
-      // repository server-side. The feature is asking a question this
-      // backend has no way to be asked.
-      //
-      // So answer it here, truthfully: there are no notes. Decap reads an
-      // empty list, finds no issue to close, and says nothing. This is not
-      // hiding an error — it is giving a correct answer to a question that
-      // was getting a misleading one.
-      function isNotesSearch(url, method) {
-        if (!/^GET$/i.test(method || "GET")) return false;
-        return /\/\.netlify\/git\/[^/]+\/search\/issues/.test(url);
-      }
-
-      function noNotes() {
-        return Promise.resolve(new Response(
-          JSON.stringify({ total_count: 0, incomplete_results: false, items: [] }),
-          { status: 200, headers: { "Content-Type": "application/json" } }
-        ));
+        return /api\.github\.com/.test(url);
       }
 
       var nativeFetch = window.fetch;
@@ -162,8 +119,6 @@
           var url = (typeof input === "string") ? input : (input && input.url) || "";
           var method = (init && init.method) ||
                        (typeof input === "object" && input && input.method) || "GET";
-
-          if (isNotesSearch(url, method)) return noNotes();
 
           if (!isGitWrite(url, method)) return nativeFetch.apply(this, arguments);
 
@@ -443,437 +398,36 @@
 
   <!--
     =========================================================================
-    JWT AUTO-REFRESH + REDIRECT TO CUSTOM LOGIN
+    SAFETY NET, SAVE STATUS AND PUBLISH GUARD
     =========================================================================
-    Netlify Identity JWTs default to a 1-hour lifetime. Without explicit
-    refresh, a long writing session ends with "unable to save" errors that
-    can lose all pending edits.
-
-    The failure that actually costs her work is not a token quietly
-    expiring — it is gotrue-js calling clearSession() on any failed
-    refresh, including a transient network one. That logs her out locally
-    while the editor still looks fine. See sessionIsGone() below.
-
-    Multi-layer refresh strategy:
-      1. Every 20 minutes (down from 45), force-refresh the JWT.
-      2. Whenever the tab regains focus after being backgrounded, refresh
-         the JWT — this catches the common case of leaving the editor for
-         30+ minutes and coming back to a stale token.
-      3. Track consecutive refresh failures; if 3 in a row, show a red
-         banner asking her to log out and back in before her save fails.
-      4. If the user lands on /admin/ without a session, send them to
-         /login/ instead of Decap's iframe widget.
+    Keeps a rolling history of her drafts in this browser, tells her
+    whether what is on screen is on GitHub, and stops Publish from shipping
+    an older version than the one in front of her.
     =========================================================================
   -->
   <script>
     (function () {
-      var consecutiveFailures = 0;
-      var lastRefreshMs = 0;
-      var banner = null;
-      var deadSessionModal = null;
-      var sessionIsDead = false;
-
-      // Waits up to five seconds for the Identity widget, then carries on
-      // without it. It used to give up instead, which was harmless while the
-      // widget was always on the page; now that the editor signs in with
-      // GitHub it never arrives, and giving up would take the save watcher's
-      // red bar and the publish guard down with it.
-      function whenReady(cb, tries) {
-        tries = tries || 0;
-        if (window.netlifyIdentity || tries >= 50) cb();
-        else setTimeout(function () { whenReady(cb, tries + 1); }, 100);
-      }
-
-      function showBanner() {
-        if (banner) return;
-        banner = document.createElement("div");
-        banner.textContent = "⚠️ Your login may be expiring soon. Save what you have now, then log out (top-right) and log back in before writing more. Otherwise the next save can fail and lose your work.";
-        banner.style.cssText =
-          "position:fixed;top:0;left:0;right:0;padding:12px 20px;" +
-          "background:#d9534f;color:#fff;font-size:14px;font-weight:bold;" +
+      // A short-lived message at the top: says what just happened and gets
+      // out of the way. Up here, not inside the save-status block below,
+      // because the safety net calls it too.
+      function showToast(text, colour) {
+        var old = document.getElementById("admin-toast");
+        if (old) old.remove();
+        var el = document.createElement("div");
+        el.id = "admin-toast";
+        el.textContent = text;
+        el.style.cssText =
+          "position:fixed;top:0;left:0;right:0;padding:11px 20px;" +
+          "background:" + colour + ";color:#fff;font-size:14px;font-weight:bold;" +
           "text-align:center;z-index:2147483647;box-shadow:0 2px 8px rgba(0,0,0,0.3);";
-        document.body.appendChild(banner);
-      }
-      function hideBanner() {
-        if (banner) { banner.remove(); banner = null; }
-      }
-
-      // -----------------------------------------------------------------
-      // Dead-session modal — the real fix for the "meeting break" case.
-      // -----------------------------------------------------------------
-      // When she leaves the tab open through a long break, the JWT
-      // expires at 60 min and eventually the refresh_token itself becomes
-      // invalid (or gotrue-js loses it). The old behavior was silent —
-      // she'd come back, write for 20 minutes, hit save, and lose it.
-      //
-      // Now: as soon as we detect the session is dead (refresh failure OR
-      // health-check 401 OR save-click refresh fail), we show a blocking
-      // modal. She can't accidentally write more on a dead session. Her
-      // current editor content stays in the DOM (and in the safety-net
-      // localStorage snapshots). On successful re-login the modal
-      // dismisses and she picks up exactly where she left off.
-      function showDeadSessionModal(reason) {
-        if (deadSessionModal) return;
-        sessionIsDead = true;
-        console.warn("[admin] session marked DEAD (" + reason + ") — blocking further saves until re-login");
-
-        deadSessionModal = document.createElement("div");
-        deadSessionModal.id = "dead-session-modal";
-        deadSessionModal.innerHTML =
-          "<div style='background:#fff;padding:28px 32px;border-radius:12px;max-width:480px;" +
-          "box-shadow:0 8px 40px rgba(0,0,0,0.35);text-align:center;'>" +
-          "<div style='font-size:42px;margin-bottom:12px;'>🔒</div>" +
-          "<h2 style='margin:0 0 12px 0;font-size:20px;color:#2a4d69;'>Your session has expired</h2>" +
-          "<p style='margin:0 0 8px 0;color:#333;font-size:14px;line-height:1.5;'>" +
-          "Your login timed out (this happens after ~1 hour of inactivity or a long break). " +
-          "Please sign in again to save your work." +
-          "</p>" +
-          "<p style='margin:0 0 20px 0;color:#666;font-size:12px;line-height:1.4;'>" +
-          "Your current draft content is safe — it stays in the editor and in your local backup. " +
-          "Nothing is lost by signing in again. If anything ever goes missing, " +
-          "🛟 Recover a draft (bottom-left) has every version this browser kept." +
-          "</p>" +
-          "<button id='dead-session-signin' style='background:#2a4d69;color:#fff;border:none;" +
-          "padding:12px 28px;border-radius:6px;font-size:15px;font-weight:bold;cursor:pointer;'>" +
-          "Sign in again</button>" +
-          "</div>";
-        deadSessionModal.style.cssText =
-          "position:fixed;inset:0;background:rgba(0,0,0,0.65);display:flex;" +
-          "align-items:center;justify-content:center;z-index:2147483647;" +
-          "font-family:system-ui,sans-serif;";
-        document.body.appendChild(deadSessionModal);
-
-        document.getElementById("dead-session-signin").addEventListener("click", function () {
-          if (window.netlifyIdentity) {
-            netlifyIdentity.open("login");
-            netlifyIdentity.on("login", function () {
-              dismissedUntilMs = 0;
-              networkFailures = 0;
-              hideDeadSessionModal();
-              netlifyIdentity.close();
-              // Do NOT reload — that re-runs any startup false-positive
-              // detection and can re-trap her in the modal. Just dismiss
-              // and let her keep editing with the fresh token.
-            });
-          } else {
-            window.location.href = "/login/";
-          }
-        });
-
-        // Dismiss link — for when the modal is a false positive.
-        // She can bypass it and try to save; if the save actually fails,
-        // she'll know for sure and can re-open the modal.
-        var dismiss = document.createElement("a");
-        dismiss.href = "#";
-        dismiss.textContent = "Dismiss and try to save anyway";
-        dismiss.style.cssText = "display:block;margin-top:14px;font-size:12px;color:#888;";
-        dismiss.addEventListener("click", function (e) {
-          e.preventDefault();
-          dismissedUntilMs = Date.now() + 5 * 60 * 1000;
-          hideDeadSessionModal();
-        });
-        deadSessionModal.firstChild.appendChild(dismiss);
-      }
-      function hideDeadSessionModal() {
-        if (deadSessionModal) { deadSessionModal.remove(); deadSessionModal = null; }
-        sessionIsDead = false;
-      }
-
-      // Skip dead-session modal for the first 90s after load. Startup
-      // races (Decap firing user-verify calls before our token warms up,
-      // network hiccups on initial load) produce spurious refresh
-      // failures that DO NOT mean the session is dead.
-      var pageLoadedMs = Date.now();
-      function safeToShowDeadModal() { return Date.now() - pageLoadedMs > 90 * 1000; }
-
-      // -----------------------------------------------------------------
-      // Has gotrue thrown the session away behind our back?
-      // -----------------------------------------------------------------
-      // This is the one that kept costing her posts, and it is worth being
-      // precise about, because the behaviour is surprising. gotrue-js:
-      //
-      //     _refreshToken(t) {
-      //       return N[t] || (N[t] = request("/token", ...)
-      //         .then(...)
-      //         .catch(e => { delete N[t]; this.clearSession(); throw e; }))
-      //     }
-      //
-      // clearSession() on ANY rejection. Not just a rejected refresh token —
-      // a dropped wifi connection, a sleeping laptop, a five-second DNS
-      // stall. One of those and she is logged out, locally, silently, while
-      // the editor carries on looking completely normal. She keeps writing,
-      // presses Save twenty minutes later, and there is no token to send.
-      //
-      // The code here used to make it worse: it read the error message and
-      // decided that network errors "do not count" and deserved only a soft
-      // banner. That is exactly backwards. By the time we see that error the
-      // session is already gone, whatever the message says.
-      //
-      // So stop reading messages and look at the thing itself. If there was
-      // a user and now there is not, the session is gone -- immediately, on
-      // the first failure, no matter how it was worded.
-      var everHadUser = false;
-      function currentUserOrNull() {
-        try {
-          return (window.netlifyIdentity && netlifyIdentity.currentUser &&
-                  netlifyIdentity.currentUser()) || null;
-        } catch (e) {
-          return null;
-        }
-      }
-      function sessionIsGone() {
-        if (currentUserOrNull()) { everHadUser = true; return false; }
-        return everHadUser;
-      }
-      // How long "Dismiss" actually buys her. Her log is a run of
-      //   session marked DEAD (watchdog)
-      //   session marked DEAD (save-click)
-      //   session marked DEAD (watchdog)
-      // which is the modal being dismissed and the watchdog putting it
-      // straight back fifteen seconds later. The detection was right every
-      // time; it was the dismiss button that was a lie. If she says she
-      // wants to carry on, she gets five minutes of quiet to do it in.
-      var dismissedUntilMs = 0;
-
-      function handleLostSession(reason) {
-        if (Date.now() < dismissedUntilMs) return false;
-        if (sessionIsDead || !sessionIsGone() || !safeToShowDeadModal()) return false;
-        // Get her words to safety before anything else touches the page.
-        if (window.__FORCE_SNAPSHOT) window.__FORCE_SNAPSHOT("session-lost");
-        showDeadSessionModal(reason);
-        return true;
-      }
-
-      // -----------------------------------------------------------------
-      // How much life the token has left, read from the token itself.
-      // -----------------------------------------------------------------
-      // Everything else here reacts to a refresh call FAILING. The failure
-      // that lost her work did not look like that: nothing failed, no banner
-      // appeared, and the save simply went out carrying a token the server
-      // had already stopped accepting. Waiting for a refresh to report a
-      // problem cannot catch that, so read the expiry directly.
-      //
-      // gotrue keeps expires_at on the token; the JWT carries exp as a
-      // backstop. Returns seconds remaining, or null when it cannot tell —
-      // and null means "do nothing extra", because blocking a save that
-      // would have worked is worse than the problem being solved.
-      function tokenSecondsLeft() {
-        try {
-          var u = window.netlifyIdentity && netlifyIdentity.currentUser && netlifyIdentity.currentUser();
-          if (!u || !u.token) return null;
-          var at = u.token.expires_at;
-          if (at) {
-            var ms = at > 1e12 ? at : at * 1000;   // gotrue has used both units
-            return Math.round((ms - Date.now()) / 1000);
-          }
-          var jwt = u.token.access_token;
-          if (!jwt || jwt.split(".").length !== 3) return null;
-          var body = JSON.parse(atob(jwt.split(".")[1].replace(/-/g, "+").replace(/_/g, "/")));
-          if (!body || !body.exp) return null;
-          return Math.round(body.exp - Date.now() / 1000);
-        } catch (e) {
-          return null;
-        }
-      }
-
-      // Returns a promise so save-click code can await freshness.
-      // -----------------------------------------------------------------
-      // Putting the session back when the network, not the login, failed.
-      // -----------------------------------------------------------------
-      // Her logs from 2026-09-04 are unambiguous. Her wifi changed
-      // (ERR_NETWORK_CHANGED on two unrelated scripts), then:
-      //
-      //   .netlify/identity/token  net::ERR_CONNECTION_CLOSED
-      //   [admin] JWT refresh failed (visibilitychange, #1): Failed to fetch
-      //   [admin] session marked DEAD (refresh-cleared-session:visibilitychange)
-      //
-      // The detection added yesterday did its job -- it caught the logout on
-      // the first failure instead of twenty minutes later. But catching it
-      // is not the same as avoiding it, and she still had to sign in again
-      // because a wifi hiccup lasting seconds had thrown her login away.
-      //
-      // That request never reached the server, so the refresh token it was
-      // carrying was never spent. Nothing about the login had expired. The
-      // only reason she was signed out is that gotrue deletes localStorage
-      // ["gotrue.user"] in its catch, whatever the catch was for.
-      //
-      // So take a copy first, and put it back when the failure was the
-      // network. currentUser() reads that key straight back through
-      // recoverSession(), and she never knows anything happened.
-      //
-      // If the request DID reach the server and only the reply was lost,
-      // the restored token is stale and the next attempt fails properly
-      // with invalid_grant -- which is a real dead session, and gets the
-      // modal. This defers that by one cycle at worst, and it is right
-      // every other time.
-      var SESSION_KEY = "gotrue.user";
-      function storedSession() {
-        try { return localStorage.getItem(SESSION_KEY); } catch (e) { return null; }
-      }
-      function putSessionBack(saved) {
-        if (!saved) return false;
-        try {
-          if (localStorage.getItem(SESSION_KEY)) return false;   // never clobber a live one
-          localStorage.setItem(SESSION_KEY, saved);
-          return !!currentUserOrNull();
-        } catch (e) {
-          return false;
-        }
-      }
-      // -----------------------------------------------------------------
-      // The last session we know was good.
-      // -----------------------------------------------------------------
-      // putSessionBack() above can only put back what it took a copy of a
-      // moment earlier, which works when the refresh that failed was one of
-      // ours. It isn't always. Decap asks gotrue for a token on its own
-      // schedule, and gotrue refreshes inside jwt() whenever the token is
-      // within a minute of expiring — and clears localStorage in its catch
-      // whatever the catch was for. By the time this page notices, the copy
-      // is already gone.
-      //
-      // So keep one from whenever the session was last known good. It costs
-      // a string.
-      //
-      // Cleared on a deliberate sign-out, and never used after one: putting
-      // her back in because she pressed Sign out would be the worst kind of
-      // helpful.
-      var lastGoodSession = null;
-      var signedOutOnPurpose = false;
-      function rememberSession() {
-        if (signedOutOnPurpose) return;
-        var s = storedSession();
-        if (s) lastGoodSession = s;
-      }
-
-      // A rejected fetch, a dead connection, a DNS failure. What these have
-      // in common is that the server never saw the request.
-      function looksLikeNetwork(msg) {
-        return /failed to fetch|networkerror|network request failed|load failed|err_|connection|timeout|aborted/i.test(msg) &&
-               !/invalid.?grant|invalid.?token|unauthorized|forbidden|40[13]/i.test(msg);
-      }
-      var networkFailures = 0;
-
-      // save-click and expiry-watch are the two moments where being wrong
-      // costs her the post, so they are never held back. The rest are
-      // housekeeping and can wait.
-      function refreshIsThrottled(reason) {
-        return !/^(save-click|expiry-watch)/.test(reason || "");
-      }
-
-      function refreshNow(reason) {
-        var u = window.netlifyIdentity && netlifyIdentity.currentUser && netlifyIdentity.currentUser();
-        if (!u || !u.jwt) return Promise.resolve(false);
-        // Dedupe. Two rules, because the callers are not equal:
-        //
-        //   save-click and expiry-watch always go through. Those are the
-        //   two moments where being wrong costs her the post.
-        //   focus, visibilitychange and periodic get a two-minute floor.
-        //   Her log shows seven "JWT refreshed (focus)" in one sitting;
-        //   every one of those spends a refresh token and gives a flaky
-        //   connection another chance to drop mid-flight, for a token that
-        //   had fifty minutes left on it.
-        var secondsLeft = tokenSecondsLeft();
-        var plenty = (secondsLeft === null) || secondsLeft > 10 * 60;
-        if (refreshIsThrottled(reason) && plenty && Date.now() - lastRefreshMs < 2 * 60 * 1000) {
-          return Promise.resolve(true);
-        }
-        var sessionBefore = storedSession();
-        return u.jwt(true)
-          .then(function () {
-            lastRefreshMs = Date.now();
-            consecutiveFailures = 0;
-            networkFailures = 0;
-            hideBanner();
-            rememberSession();
-            console.log("[admin] JWT refreshed (" + reason + ")");
-            return true;
-          })
-          .catch(function (err) {
-            consecutiveFailures++;
-            var msg = err && err.message || String(err);
-            console.warn("[admin] JWT refresh failed (" + reason + ", failure #" + consecutiveFailures + "):", msg);
-
-            // Was that the network rather than the login? If so the refresh
-            // token was never spent, and the session gotrue just deleted is
-            // still perfectly good. Put it back before anything else looks.
-            if (looksLikeNetwork(msg) && putSessionBack(sessionBefore)) {
-              networkFailures++;
-              console.log("[admin] the connection dropped mid-renewal (" + reason +
-                          ") — session restored, still signed in (" + networkFailures + ")");
-              // Quiet the first couple: a blip that cost her nothing is not
-              // worth a banner. A pattern of them is worth knowing about.
-              if (networkFailures >= 3) showBanner();
-              return false;
-            }
-
-            // First question, before anything about the message: is the
-            // session still there? gotrue clears it on any failed refresh,
-            // so this is usually already true.
-            if (handleLostSession("refresh-cleared-session:" + reason)) return false;
-            // Still logged in, so the refresh failed without taking the
-            // session with it. Warn, and escalate only if it keeps happening.
-            var isAuthError = /invalid.?grant|invalid.?token|401|400|Unauthorized/i.test(msg);
-            if (isAuthError && consecutiveFailures >= 3 && safeToShowDeadModal()) {
-              showDeadSessionModal("refresh:" + reason);
-            } else {
-              showBanner();
-            }
-            return false;
-          });
-      }
-
-      // -----------------------------------------------------------------
-      // Multi-tab detector.
-      // -----------------------------------------------------------------
-      // gotrue-js stores tokens in localStorage. When Tab A refreshes the
-      // JWT, the old refresh_token is INVALIDATED on the server. Tab B is
-      // still holding that stale token — its next save fails with
-      // "ACCESS_TOKEN_ERROR: Failed getting access token". Any unsaved
-      // content in Tab B is then lost on refresh.
-      //
-      // We use the BroadcastChannel API to detect a sibling admin tab and
-      // show a red warning banner in whichever tab was second. She can
-      // still work in it — but the banner tells her the risk clearly.
-      (function () {
-        try {
-          var bc = new BroadcastChannel("travel-admin-tabs");
-          var iAmSecond = false;
-          bc.postMessage({ type: "hello", ts: Date.now() });
-          bc.onmessage = function (e) {
-            if (e.data && e.data.type === "hello" && !iAmSecond) {
-              // Another tab exists and it was here first (it responds).
-              iAmSecond = true;
-              showMultiTabBanner();
-              bc.postMessage({ type: "ack" });
-            } else if (e.data && e.data.type === "ack") {
-              // Someone else's hello — respond so THEY know we're first.
-              bc.postMessage({ type: "ack" });
-            }
-          };
-        } catch (e) {
-          // BroadcastChannel not supported — fall back silently.
-        }
-      })();
-
-      function showMultiTabBanner() {
-        if (document.getElementById("multi-tab-banner")) return;
-        var b = document.createElement("div");
-        b.id = "multi-tab-banner";
-        b.innerHTML =
-          "⚠️ <strong>Another editor tab is open.</strong> " +
-          "Multiple tabs cause save failures and can lose your work. " +
-          "Close the other tab before saving here.";
-        b.style.cssText =
-          "position:fixed;top:0;left:0;right:0;padding:10px 20px;" +
-          "background:#f0ad4e;color:#fff;font-size:14px;font-weight:bold;" +
-          "text-align:center;z-index:2147483646;box-shadow:0 2px 8px rgba(0,0,0,0.3);";
-        document.body.appendChild(b);
+        document.body.appendChild(el);
+        setTimeout(function () { if (el.parentNode) el.remove(); }, 6000);
       }
 
       // -----------------------------------------------------------------
       // Autosave-to-localStorage safety net.
       // -----------------------------------------------------------------
-      // Independent of Decap's git-gateway save flow. Keeps a rolling
+      // Independent of Decap's own save flow. Keeps a rolling
       // history of what was on screen rather than overwriting one slot, so
       // that when a save fails and Decap puts the last-known-good state back
       // in the DOM, the version she had actually written is still here.
@@ -1264,10 +818,6 @@
             console.log(text);
           }
         };
-
-        // Called the moment a lost session is detected, so her words are
-        // on disk before any modal or re-login touches the page.
-        window.__FORCE_SNAPSHOT = function (reason) { snapshotForm(reason || "forced"); };
 
         // RECOVERY_LIST() -> every version still kept, newest last, with
         // its age and how much of it there is.
@@ -1664,73 +1214,7 @@
         setTimeout(buildRecoveryButton, 3000);
       })();
 
-      whenReady(function () {
-        // Only when the Identity widget is on the page, i.e. the git-gateway
-        // backend. Signing in with GitHub, Decap shows its own login and
-        // there is no Identity session to follow.
-        if (window.netlifyIdentity) {
-          netlifyIdentity.on("init", function (user) {
-            if (!user) {
-              window.location.href = "/login/";
-            } else {
-              lastRefreshMs = Date.now();
-              rememberSession();
-            }
-          });
-          netlifyIdentity.on("login", function () { signedOutOnPurpose = false; rememberSession(); });
-          // She meant it. Stop holding a copy, and never put one back.
-          netlifyIdentity.on("logout", function () {
-            signedOutOnPurpose = true;
-            lastGoodSession = null;
-          });
-        }
-
-        // Layer 1: periodic refresh (every 10 min — tightened from 20).
-        setInterval(function () { refreshNow("periodic"); }, 10 * 60 * 1000);
-
-        // Layer 2: refresh when the tab regains focus. Most token errors
-        // happen when she comes back to /admin/ after being away for a
-        // while — refresh proactively before she clicks Save.
-        document.addEventListener("visibilitychange", function () {
-          if (document.visibilityState === "visible") refreshNow("visibilitychange");
-        });
-        window.addEventListener("focus", function () { refreshNow("focus"); });
-
-        // A short-lived message at the top. Distinct from showBanner(), which
-        // stays until the situation resolves; this one says what just happened
-        // and gets out of the way.
-        function showToast(text, colour) {
-          var old = document.getElementById("admin-toast");
-          if (old) old.remove();
-          var el = document.createElement("div");
-          el.id = "admin-toast";
-          el.textContent = text;
-          el.style.cssText =
-            "position:fixed;top:0;left:0;right:0;padding:11px 20px;" +
-            "background:" + colour + ";color:#fff;font-size:14px;font-weight:bold;" +
-            "text-align:center;z-index:2147483647;box-shadow:0 2px 8px rgba(0,0,0,0.3);";
-          document.body.appendChild(el);
-          setTimeout(function () { if (el.parentNode) el.remove(); }, 6000);
-        }
-
-        // Layer 4: watch the token's own clock, once a minute.
-        // ---------------------------------------------------------------
-        // The other layers all wait for something to fail. This one watches
-        // the expiry approach and renews ahead of it, which covers the case
-        // where the periodic timer never ran at all — a sleeping laptop or a
-        // frozen background tab does exactly that, and is how a token reaches
-        // its expiry with nothing having reported a problem.
-        setInterval(function () {
-          var left = tokenSecondsLeft();
-          if (left === null || left > 5 * 60) return;
-          refreshNow("expiry-watch").then(function (ok) {
-            var after = tokenSecondsLeft();
-            if (!ok && after !== null && after <= 0 && safeToShowDeadModal()) {
-              showDeadSessionModal("token-expired");
-            }
-          });
-        }, 60 * 1000);
-
+      (function () {
         // -----------------------------------------------------------------
         // Is what is on screen actually on GitHub?
         // -----------------------------------------------------------------
@@ -1745,7 +1229,7 @@
         // success, because from its point of view the merge worked fine.
         //
         // __SAVE_WATCH (installed above, before Decap loads) records what
-        // Git Gateway actually did. Comparing that against when she last
+        // GitHub actually did. Comparing that against when she last
         // typed answers the question directly, with no guessing about
         // Decap's internals.
         var lastEditMs = 0;
@@ -1897,16 +1381,6 @@
           }
         }, true);
 
-        // Layer 5: watch for the session simply vanishing.
-        // ---------------------------------------------------------------
-        // Not every refresh goes through refreshNow(). Decap asks gotrue for
-        // a token on its own schedule, and gotrue refreshes inside jwt()
-        // whenever the token is within a minute of expiry. Any of those can
-        // fail and clear the session without this page being told. Fifteen
-        // seconds is quick enough that she cannot get far into a paragraph
-        // before being stopped.
-        setInterval(function () { handleLostSession("watchdog"); }, 15 * 1000);
-
         // -----------------------------------------------------------------
         // A save that quietly went nowhere.
         // -----------------------------------------------------------------
@@ -1942,159 +1416,16 @@
             if (!w || !w.seenAny) return;              // cannot tell; say nothing
             if (w.lastOkMs > clickedAt) return;        // something landed. good
             if (saveState() !== "unsaved") return;     // nothing was pending
-            // Last chance: if this is the token being gone, and it can be
-            // put back, save it rather than only complaining about it.
-            if (retryTheSave("watchdog")) return;
             console.warn("[admin] Save was pressed " + Math.round(SAVE_GRACE_MS / 1000) +
                          "s ago and nothing has reached GitHub");
             showSaveFailBar("it never completed");
           }, SAVE_GRACE_MS);
         }
 
-        // -----------------------------------------------------------------
-        // Saving again, once, when the login had dropped out from under it.
-        // -----------------------------------------------------------------
-        // What she saw was "there was an error getting token" on Save. That
-        // sentence is gotrue's, and it is worth knowing exactly when gotrue
-        // says it:
-        //
-        //   jwt(force) {
-        //     const details = this.tokenDetails();
-        //     if (details == null)
-        //       return Promise.reject(new Error(
-        //         "Gotrue-js: failed getting jwt access token"));
-        //
-        // It is not a fetch that failed. It is there being no token at all —
-        // the session had already been cleared, by some earlier refresh that
-        // died when the network went away (her log: .netlify/identity/token,
-        // net::ERR_NETWORK_IO_SUSPENDED, a laptop going to sleep). Decap
-        // asked for a token to save with, got nothing, and gave up.
-        //
-        // Every piece of that is recoverable. The refresh token was never
-        // spent, so the session in lastGoodSession is still good; her words
-        // never left the page; and the save had not begun, so nothing
-        // half-finished is sitting on GitHub. What was missing was anyone to
-        // put the session back and press the button again — which is what
-        // she did by hand, by reloading and saving a second time.
-        //
-        // So do that for her, under conditions narrow enough to be sure:
-        //
-        //   - a Save was clicked, recently, and has not been retried
-        //   - nothing of it reached GitHub, so there is nothing to undo
-        //   - it was Save and not Publish. Publishing is the one thing in
-        //     this editor that is hard to take back, and the publish guard
-        //     exists to stop exactly that happening by accident
-        //   - the session can actually be put back
-        //
-        // Once. If the second attempt fails too, this is not a blip and she
-        // needs to be told, which is what the bar and the modal are for.
-        var RETRY_WINDOW_MS = 60 * 1000;
-        var lastSaveClick = null;
-
-        // gotrue's own words, and only those. A token that failed to refresh
-        // says something else entirely and is somebody else's problem.
-        function tokenWasGone(msg) {
-          return /failed getting jwt access token/i.test(msg || "");
-        }
-
-        function reasonMessage(reason) {
-          if (!reason) return "";
-          if (typeof reason === "string") return reason;
-          if (reason.message) return reason.message;
-          try { return JSON.stringify(reason); } catch (e) { return String(reason); }
-        }
-
-        // Kept pure and apart from the DOM so it can be argued with in the
-        // test rather than in the editor at the worst possible moment.
-        function shouldRetrySave(now, ctx) {
-          if (!ctx || !ctx.clickedAt) return false;        // no save in flight
-          if (ctx.isPublish) return false;                 // never re-press Publish
-          if (ctx.retried) return false;                   // once, and once only
-          if (now - ctx.clickedAt > RETRY_WINDOW_MS) return false;
-          if (ctx.lastOkMs && ctx.lastOkMs > ctx.clickedAt) return false;  // it landed
-          if (!ctx.sessionBack) return false;              // nothing to retry with
-          return true;
-        }
-
-        // Exact text, so that Publish, "Publish now" and "Set status" cannot
-        // be caught by it however the toolbar is worded.
-        function findSaveButton() {
-          var els = document.querySelectorAll("button, [role='button']");
-          for (var i = 0; i < els.length; i++) {
-            if ((els[i].textContent || "").trim().toLowerCase() === "save") return els[i];
-          }
-          return null;
-        }
-
-        // Putting the session back is worth doing on its own account, before
-        // any question of retrying: gotrue only says what it said when the
-        // session is gone, and a session gone that way was never spent. If
-        // there turns out to be no save to retry, she is still signed in,
-        // which is the right outcome either way.
-        function reviveSession() {
-          if (currentUserOrNull()) return true;
-          if (signedOutOnPurpose) return false;
-          return putSessionBack(lastGoodSession);
-        }
-
-        function retryTheSave(why) {
-          var w = window.__SAVE_WATCH;
-          var alive = !!currentUserOrNull();
-          var back = reviveSession();
-          if (!shouldRetrySave(Date.now(), {
-                clickedAt: lastSaveClick && lastSaveClick.at,
-                isPublish: lastSaveClick && lastSaveClick.isPublish,
-                retried: lastSaveClick && lastSaveClick.retried,
-                lastOkMs: w && w.lastOkMs,
-                sessionBack: back
-              })) return false;
-
-          var btn = findSaveButton();
-          if (!btn) return false;
-
-          lastSaveClick.retried = true;
-          if (!alive) {
-            console.log("[admin] the session was gone at save time — put it back from " +
-                        "the last good copy (" + why + ")");
-          }
-          showToast("Your login had dropped. Saving again…", "#f0ad4e");
-
-          // Only renew if the restored token actually needs it. It was never
-          // spent, and asking a network that just went away for a new one is
-          // how this started.
-          var left = tokenSecondsLeft();
-          var ready = (left !== null && left > 120)
-            ? Promise.resolve(true)
-            : refreshNow("save-retry");
-
-          ready.then(function (ok) {
-            if (!ok && !currentUserOrNull()) {
-              if (safeToShowDeadModal()) showDeadSessionModal("save-retry-no-session");
-              return;
-            }
-            console.log("[admin] saving again after the login was restored (" + why + ")");
-            btn.click();
-            watchThisSaveLands();
-          });
-          return true;
-        }
-
-        // Decap reports this as an unhandled rejection and nothing else, so
-        // this is the only place it can be heard.
-        window.addEventListener("unhandledrejection", function (ev) {
-          if (!tokenWasGone(reasonMessage(ev && ev.reason))) return;
-          console.warn("[admin] a save asked for a token and there wasn't one");
-          retryTheSave("token-gone");
-        });
-
-        // Layer 3: refresh on every Save / Publish click.
+        // Watch every Save / Publish click land.
         // ---------------------------------------------------------------
-        // Save-click pointerdown triggers a JWT refresh a few ms BEFORE
-        // the click reaches Decap's handler. If the refresh SUCCEEDS,
-        // gotrue-js has a fresh token by the time save runs. If it
-        // FAILS, refreshNow() surfaces the dead-session modal — and we
-        // additionally hard-block the save event here so a stale-token
-        // request never even fires.
+        // pointerdown, in the capture phase, so this sees the press before
+        // Decap's own handler and whatever it does with it.
         function looksLikeSaveButton(el) {
           if (!el || el.nodeType !== 1) return false;
           var text = (el.textContent || "").trim().toLowerCase();
@@ -2106,60 +1437,12 @@
           var el = e.target;
           for (var depth = 0; depth < 5 && el; depth++) {
             if (looksLikeSaveButton(el)) {
-              if (handleLostSession("save-click") || sessionIsDead) {
-                // Block the click outright and surface the modal.
-                e.preventDefault();
-                e.stopImmediatePropagation();
-                showDeadSessionModal("save-click-while-dead");
-                return;
-              }
-              // The comment above used to claim this blocked a stale save.
-              // It did not: refreshNow() is asynchronous and the click went
-              // straight through to Decap in the same tick, carrying whatever
-              // token was already there. That is the hole her lost post fell
-              // through — no refresh failed, so nothing warned her, and the
-              // save left with a token that had already expired.
-              //
-              // Now, when the token is nearly out of time, the click is held
-              // back until it is renewed. Blocking is the safe direction: her
-              // words stay in the editor either way, and a save that never
-              // fires cannot fail.
-              var left = tokenSecondsLeft();
-              if (left !== null && left < 120) {
-                e.preventDefault();
-                e.stopImmediatePropagation();
-                showToast("Renewing your login before saving — one moment.", "#f0ad4e");
-                refreshNow("save-click-held").then(function (ok) {
-                  if (ok) {
-                    showToast("Login renewed. Click Save again.", "#5cb85c");
-                    // Not armed here: the click was held, so nothing was
-                    // saved. She has to press Save again, and that press
-                    // arms it.
-                  } else if (safeToShowDeadModal()) {
-                    showDeadSessionModal("save-click-refresh-failed");
-                  }
-                });
-                return;
-              }
-              lastSaveClick = {
-                at: Date.now(),
-                isPublish: looksLikeShipButton(el),
-                retried: false
-              };
-              refreshNow("save-click");
               watchThisSaveLands();
               return;
             }
             el = el.parentElement;
           }
         }, true);
-
-        // (Removed: the health-check fetch ping. The endpoint we hit
-        // returned 401 under normal conditions in this git-gateway
-        // version, producing false positives that trapped her in the
-        // dead-session modal even after a fresh login. gotrue-js's own
-        // JWT refresh signal — surfaced via refreshNow() — is a more
-        // trustworthy indicator, and it's already wired to the modal.)
 
         // -----------------------------------------------------------------
         // Post-publish → workflow auto-navigate.
@@ -2219,7 +1502,7 @@
             if (Date.now() - publishArmedAt > 15000) { publishArmed = false; return; }
             if (isInEntryDetail()) return;   // still on the entry, not done yet
             publishArmed = false;
-            // Only call it published if a Git Gateway write actually
+            // Only call it published if a GitHub write actually
             // succeeded after the click. The old code inferred success from
             // "a publish-shaped button was clicked, then the URL changed",
             // which is also what merely opening the Publish menu and
@@ -2290,7 +1573,7 @@
           }
         })();
 
-        // Layer 4: the status pill, bottom-left.
+        // The status pill, bottom-left.
         // ---------------------------------------------------------------
         // It used to report only the local backup, which is the less
         // important of the two facts and the one that is almost always
@@ -2355,7 +1638,7 @@
         }
         setInterval(updateBackupIndicator, 5 * 1000);
         setTimeout(updateBackupIndicator, 2000);
-      });
+      })();
     })();
   </script>
 
