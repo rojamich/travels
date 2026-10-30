@@ -1,11 +1,21 @@
 ---
-title: "In Transit!"
+title: In Transit!
 date: 2024-12-11
 categories:
   - bamboo-bulgogi
 order: 2
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787507566/blogger-import/000d3339d7d37e26bf87.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787511918/blogger-import/74808151450c40573fc4.jpg
+  teaser_focal_x: 50
+  teaser_focal_y: 38
+  overlay_focal_x: 50
+  overlay_focal_y: 50
+  overlay_filter: 0
 tags:
   - Taiwan
+  - Flights
+  - Food
 location:
   name: Taipei, Taiwan
   lat: 25.033
