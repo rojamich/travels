@@ -19,8 +19,8 @@ tags:
 new_tags: []
 location:
   name: Santa Maria, California
-  lat: 40.741895
-  lng: -73.989308
+  lat: 34.94983673095703
+  lng: -120.43587493896484
 stay: night
 toc: false
 ---
