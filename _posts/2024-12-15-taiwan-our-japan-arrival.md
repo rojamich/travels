@@ -8,7 +8,7 @@ header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787493006/blogger-import/e7e31670e338d2cc478e.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787502024/blogger-import/846df754e9a7570b2e7f.jpg
   teaser_focal_x: 50
-  teaser_focal_y: 46
+  teaser_focal_y: 42
   overlay_focal_x: 50
   overlay_focal_y: 56
   overlay_filter: 0
@@ -27,7 +27,7 @@ stay: layover
 ---
 Well, now I want to go to Taiwan! We enjoyed our lovely flight and landed in Taipei, Taiwan. As we made our way to the China Airlines lounge, we took in the magnificence of their airport.
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787495868%2Fblogger-import%2Fe1ddeffdb83794fb35bf.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787493001%2Fblogger-import%2F7df65bf2f9ff28602590.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787497054%2Fblogger-import%2F1634770bf22b47f97e6d.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787499237%2Fblogger-import%2F5dc2f5f22c3094112ddd.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787502024%2Fblogger-import%2F846df754e9a7570b2e7f.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787510076%2Fblogger-import%2F3a42bdf61baedc0c2e4e.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787491292%2Fblogger-import%2F7e385f80c66748eefaeb.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787495868%2Fblogger-import%2Fe1ddeffdb83794fb35bf.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787493001%2Fblogger-import%2F7df65bf2f9ff28602590.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787497054%2Fblogger-import%2F1634770bf22b47f97e6d.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%22100%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787499237%2Fblogger-import%2F5dc2f5f22c3094112ddd.jpg%22%7D%2C%7B%22x%22%3A%228%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787502024%2Fblogger-import%2F846df754e9a7570b2e7f.jpg%22%7D%2C%7B%22x%22%3A%2226%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787510076%2Fblogger-import%2F3a42bdf61baedc0c2e4e.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2248%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787491292%2Fblogger-import%2F7e385f80c66748eefaeb.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 The sections highlighted many beautiful areas of the island that intrigued us and inspired us for future journeys. It blew me away. There was also a video game section where you could play Nintendo, race cars, and PlayStation. There was even a surfing area to test your skills (see the entirely blue photo with the surfboard on the ground and rails!)
 
@@ -70,8 +70,6 @@ Jasmine tea orange bread and soy sauce bread. 
 I rotated between the salad, penne, and bread to keep eating. But Mike thought it was good!
 
 Dessert:
-
-
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787504581%2Fblogger-import%2Fa3ef417c10a76c596f94.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787506908%2Fblogger-import%2Ffdeee6956e146b441768.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
