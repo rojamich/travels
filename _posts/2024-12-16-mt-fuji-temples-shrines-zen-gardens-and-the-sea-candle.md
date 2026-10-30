@@ -1,15 +1,24 @@
 ---
-title: "Mt Fuji, temples, shrines, Zen gardens, and the sea candle."
+title: Mt Fuji, temples, shrines, Zen gardens, and the sea candle.
 date: 2024-12-13
 categories:
   - bamboo-bulgogi
 order: 4
+header:
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787503577/blogger-import/8b9db4a123bd8045620a.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1787510870/blogger-import/d43bfe80de4eaf52f8dc.jpg
+  overlay_filter: 0
 tags:
   - Japan
+  - Adventure
+  - Ocean
+  - Food
+  - Dessert
+  - Mountains
 location:
-  name: "Mt Fuji, Japan"
-  lat: 35.3606
-  lng: 138.7274
+  name: Kamakura, Kanagawa Prefecture, Japan
+  lat: 35.3192808
+  lng: 139.5469627
 ---
 
 After a full night of sleep, we were bursting with excitement and ready to explore! Today's adventure would take us to Kamakura, Hasedera, and Enoshima. 
