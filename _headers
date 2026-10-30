@@ -53,7 +53,10 @@
 # The list below covers what the site actually used as of 2026-08-27:
 #   unpkg.com            Leaflet
 #   cdn.jsdelivr.net     GLightbox
-#   identity.netlify.com Netlify Identity (the /login/ page and /admin/)
+#   identity.netlify.com Netlify Identity (the /login/ page and the stats and
+#                        comments admin pages)
+#   api.github.com       /admin/ saves straight to GitHub since 2026-10-30
+#   avatars.githubusercontent.com   the avatar in the editor's top bar
 #   follow.it            the subscribe button
 #   fonts.googleapis.com / fonts.gstatic.com   Lora
 #   res.cloudinary.com   every photo
@@ -72,7 +75,7 @@
 # because the pages carry inline <script> and style="" attributes — removing
 # that need is a much bigger change than this file.
 #
-#  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://identity.netlify.com https://follow.it https://www.youtube.com https://media-library.cloudinary.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https://res.cloudinary.com https://upload.wikimedia.org https://*.basemaps.cartocdn.com https://services.arcgisonline.com https://server.arcgisonline.com https://tile.openstreetmap.org https://img.youtube.com https://unpkg.com; connect-src 'self' https://api.cloudinary.com https://api.follow.it; frame-src https://www.youtube.com https://media-library.cloudinary.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self' https://api.follow.it
+#  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://identity.netlify.com https://follow.it https://www.youtube.com https://media-library.cloudinary.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https://res.cloudinary.com https://avatars.githubusercontent.com https://upload.wikimedia.org https://*.basemaps.cartocdn.com https://services.arcgisonline.com https://server.arcgisonline.com https://tile.openstreetmap.org https://img.youtube.com https://unpkg.com; connect-src 'self' https://api.cloudinary.com https://api.follow.it https://api.github.com; frame-src https://www.youtube.com https://media-library.cloudinary.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self' https://api.follow.it
 
 # The manifest decides the app's name, icon and colours. A phone re-reads it
 # when the app is installed and occasionally after; stale is harmless but

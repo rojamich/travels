@@ -4,13 +4,19 @@
   =============================================================================
   /admin/index.html — entry point for the visual content editor
   =============================================================================
-  This page IS the editor. When your wife visits /admin/ she'll see a
-  Netlify Identity login prompt; once logged in, Decap CMS loads the posts
-  from the GitHub repo and presents them as a form-based editor.
+  This page IS the editor. When your wife visits /admin/ she'll see
+  Decap's "Login with GitHub" button; once logged in, Decap CMS loads the
+  posts from the GitHub repo and presents them as a form-based editor.
 
   Photos uploaded inside the editor go to Cloudinary (configured in
-  /admin/config.yml). Content saved goes back to the GitHub repo via
-  Netlify's Git Gateway, which triggers a Netlify rebuild.
+  /admin/config.yml). Content saved goes straight to the GitHub repo,
+  which triggers a Netlify rebuild.
+
+  Until 2026-10-30 the login was Netlify Identity and saves went through
+  Netlify's Git Gateway. Much of the session-handling code below was
+  written for that and now has nothing to act on: with no Identity widget
+  on the page, every check of it finds no session and steps aside. It is
+  left in place, inert, in case the backend is ever switched back.
 
   No build step or front matter on this file — Jekyll passes it through
   to the published site as-is.
@@ -429,8 +435,11 @@
   <!-- Cloudinary media library plugin for Decap (drag-and-drop uploads) -->
   <script src="https://unpkg.com/decap-cms-media-library-cloudinary@3.1.0/dist/decap-cms-media-library-cloudinary.js"></script>
 
-  <!-- Netlify Identity widget for login (handles invitation, password, sessions) -->
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <!--
+    No Netlify Identity widget here any more: the editor signs in with
+    GitHub (see backend in config.yml). Loading the widget would also bring
+    back its redirect to /login/, which is the Identity login, not this one.
+  -->
 
   <!--
     =========================================================================
@@ -464,10 +473,15 @@
       var deadSessionModal = null;
       var sessionIsDead = false;
 
+      // Waits up to five seconds for the Identity widget, then carries on
+      // without it. It used to give up instead, which was harmless while the
+      // widget was always on the page; now that the editor signs in with
+      // GitHub it never arrives, and giving up would take the save watcher's
+      // red bar and the publish guard down with it.
       function whenReady(cb, tries) {
         tries = tries || 0;
-        if (window.netlifyIdentity) cb();
-        else if (tries < 50) setTimeout(function () { whenReady(cb, tries + 1); }, 100);
+        if (window.netlifyIdentity || tries >= 50) cb();
+        else setTimeout(function () { whenReady(cb, tries + 1); }, 100);
       }
 
       function showBanner() {
@@ -1651,20 +1665,25 @@
       })();
 
       whenReady(function () {
-        netlifyIdentity.on("init", function (user) {
-          if (!user) {
-            window.location.href = "/login/";
-          } else {
-            lastRefreshMs = Date.now();
-            rememberSession();
-          }
-        });
-        netlifyIdentity.on("login", function () { signedOutOnPurpose = false; rememberSession(); });
-        // She meant it. Stop holding a copy, and never put one back.
-        netlifyIdentity.on("logout", function () {
-          signedOutOnPurpose = true;
-          lastGoodSession = null;
-        });
+        // Only when the Identity widget is on the page, i.e. the git-gateway
+        // backend. Signing in with GitHub, Decap shows its own login and
+        // there is no Identity session to follow.
+        if (window.netlifyIdentity) {
+          netlifyIdentity.on("init", function (user) {
+            if (!user) {
+              window.location.href = "/login/";
+            } else {
+              lastRefreshMs = Date.now();
+              rememberSession();
+            }
+          });
+          netlifyIdentity.on("login", function () { signedOutOnPurpose = false; rememberSession(); });
+          // She meant it. Stop holding a copy, and never put one back.
+          netlifyIdentity.on("logout", function () {
+            signedOutOnPurpose = true;
+            lastGoodSession = null;
+          });
+        }
 
         // Layer 1: periodic refresh (every 10 min — tightened from 20).
         setInterval(function () { refreshNow("periodic"); }, 10 * 60 * 1000);
