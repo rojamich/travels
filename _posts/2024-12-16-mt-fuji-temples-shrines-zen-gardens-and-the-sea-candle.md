@@ -76,9 +76,7 @@ We grabbed a quick snack on the way to the island that was recommended and the b
 
 We had some gorgeous views walking to the island and slowly took it all in. One of the coolest parts was being able to see Mt Fuji and the sea candle in one shot! Sea candle or.... lighthouse!
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697836/blogger-import/4bdb0348ef41b3e000df.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697850/blogger-import/d43bfe80de4eaf52f8dc.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697860/blogger-import/a242c44b85c83c28d442.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697869/blogger-import/7f57e062a878a45f1c2a.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787510874%2Fblogger-import%2F4bdb0348ef41b3e000df.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787508932%2Fblogger-import%2Fa242c44b85c83c28d442.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 If you aren't sure how to order or what a restaurant might serve, many of them offer these 3d menu options to make it easier! You can just point to what you want :)
 
@@ -104,33 +102,19 @@ We had a very sweet little old woman excitedly approach us on the stairs and ges
 
 Here are some of the beautiful views we had as we walked around the grounds. 
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697934/blogger-import/d68329d7b671187b0861.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697939/blogger-import/71a4a48ed5c34abbaddf.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697950/blogger-import/67d03b7b190c618e9246.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697958/blogger-import/3efa9efe93f076df2bbe.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697966/blogger-import/98c28d0fc99bba6cbd59.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697976/blogger-import/8367e6ac15ab52cca16a.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697985/blogger-import/ce631d5b7a25715cf65f.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785697994/blogger-import/04221442fe25cfcc00b1.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698001/blogger-import/8a1d2336c22428f78052.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698011/blogger-import/0f911b622545b6b80943.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698020/blogger-import/4492ec3dcf0ae71a282b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698028/blogger-import/4bcb43dcf3c8971bf8a3.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698033/blogger-import/e16021d1729126ed0414.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698036/blogger-import/8fad945fcbafdac35b2a.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787511835%2Fblogger-import%2F71a4a48ed5c34abbaddf.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787496113%2Fblogger-import%2F67d03b7b190c618e9246.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787489740%2Fblogger-import%2F8367e6ac15ab52cca16a.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787495749%2Fblogger-import%2Fce631d5b7a25715cf65f.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787491126%2Fblogger-import%2F8a1d2336c22428f78052.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787498435%2Fblogger-import%2F4492ec3dcf0ae71a282b.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787502213%2Fblogger-import%2Fe16021d1729126ed0414.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 What a sign! These hawks were circling overhead as we took in the beauty of the island. 
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698041/blogger-import/1f4638399f89a1bde7d9.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698045/blogger-import/3840f4a835fb2280577d.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698049/blogger-import/a5fa444e7a6e88827095.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698053/blogger-import/6ccc8ddf950c67d91f6a.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698058/blogger-import/773ebb8be7f2242321d0.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698062/blogger-import/28512966ae502ed255f5.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787491525%2Fblogger-import%2F3840f4a835fb2280577d.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787506631%2Fblogger-import%2Fa5fa444e7a6e88827095.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787497424%2Fblogger-import%2F28512966ae502ed255f5.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 It was time to enter the underground tunnels that were eroded by the sea. Legend has it that it tunnels all the way to Mt Fuji! We were given these candles to guide our way through. 
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698066/blogger-import/b283ca89936781f230fc.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698071/blogger-import/7e608c85ec9f16776917.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698075/blogger-import/41d1fe1ae401d6388e15.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698080/blogger-import/f5d5108ce65298e7f4d5.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698084/blogger-import/1535261652d656210c99.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698088/blogger-import/559c9468b904c54d8d5a.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698092/blogger-import/8b9db4a123bd8045620a.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698096/blogger-import/e957baea77336f6f367c.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698100/blogger-import/38eca44312a02d9590ec.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698104/blogger-import/80a035ccb8eb3e7ff66a.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698119/blogger-import/9f879812163287233508.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698128/blogger-import/261e189cb983233c67e0.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787504016%2Fblogger-import%2F7e608c85ec9f16776917.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787507990%2Fblogger-import%2F41d1fe1ae401d6388e15.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787493443%2Fblogger-import%2F559c9468b904c54d8d5a.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787503572%2Fblogger-import%2Fe957baea77336f6f367c.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787508552%2Fblogger-import%2F38eca44312a02d9590ec.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787491099%2Fblogger-import%2F261e189cb983233c67e0.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 At the end of the tunnel, you can read about the Legend of Enoshima and enjoy a bit of a show!
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698138/blogger-import/6cc32576e4f3bc1ad881.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698148/blogger-import/70fb1af4f73ac8942a82.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698158/blogger-import/bc8db0c603bbf55601eb.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698167/blogger-import/28bd7f09a68286d53527.jpg) 
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787491016%2Fblogger-import%2F6cc32576e4f3bc1ad881.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787504120%2Fblogger-import%2Fbc8db0c603bbf55601eb.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We emerged and set off in search of food while standing in awe of Japan. We got to see the sea candle again and noticed they have Christmas lights on it!
 
@@ -138,17 +122,9 @@ We emerged and set off in search of food while standing in awe of Japan. We got 
 
 We had a semi regrettable lunch but I enjoyed the spiciness of the sauce! 
 
-[](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698194/blogger-import/8b13d2fb0878e47dac19.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787497554%2Fblogger-import%2F8b13d2fb0878e47dac19.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787493413%2Fblogger-import%2F962e205dff59137ff0b6.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787511597%2Fblogger-import%2F052d5bb4349a1ed4f164.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787511873%2Fblogger-import%2F3b1a694542696783bfaf.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698204/blogger-import/9a0feb1474ddd56b542c.jpg)
-
-[](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698194/blogger-import/8b13d2fb0878e47dac19.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698208/blogger-import/0f0bdab5c9ba392baa05.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698212/blogger-import/962e205dff59137ff0b6.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698218/blogger-import/052d5bb4349a1ed4f164.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698228/blogger-import/d0e2b8f639dbd993999c.jpg)
-
-[](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698228/blogger-import/d0e2b8f639dbd993999c.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698236/blogger-import/3b1a694542696783bfaf.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698245/blogger-import/192c64d9c7e19f0e44d9.jpg)
-
-If you're curious, here is how fresh the seafood is here. 
+[](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698194/blogger-import/8b13d2fb0878e47dac19.jpg)If you're curious, here is how fresh the seafood is here. 
 
 [![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698252/blogger-import/17b38769a2ef08255f08.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698261/blogger-import/f5c97e457b74fb45ca62.jpg)
 
@@ -156,13 +132,7 @@ It was time to head back to Kamakura to see the temple and Buddha before they cl
 
 Thankfully, most people were very respectful of others and acknowledged the cultural norms. We were even able to get good shots of the enormous Buddha here! (Mike for scale). Here are his shoes! Fun fact, nothing in the city may be built taller than the Buddha. We were able to enter the Buddha for $1 total for both of us!
 
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698273/blogger-import/39e989f990cb0b7b1680.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698283/blogger-import/bb9017eeec23e7c15353.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698290/blogger-import/caf6583eeb391f624632.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698299/blogger-import/0804e94f6ec4d50c9cb5.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698310/blogger-import/236d432c8527db48ea5b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698319/blogger-import/8a9a6ca3cccdbd7f75c0.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698328/blogger-import/6581e0d5ff10d8ace800.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698337/blogger-import/8f99a3cb1afb6ebd30d0.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698371/blogger-import/aaf92eda82fd63480b4b.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698377/blogger-import/2b0729440f484a1cb466.jpg)
-
-[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698387/blogger-import/01d2fc5cde31e1d43ace.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698396/blogger-import/09fee89f1d28e91f92ce.jpg)[![](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698406/blogger-import/1febb8f1230de1a3065f.jpg)](https://res.cloudinary.com/dgw35sldo/image/upload/v1785698414/blogger-import/a5489549274e686f4d1c.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787489282%2Fblogger-import%2F39e989f990cb0b7b1680.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787497242%2Fblogger-import%2Fcaf6583eeb391f624632.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787494580%2Fblogger-import%2F236d432c8527db48ea5b.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787494387%2Fblogger-import%2F6581e0d5ff10d8ace800.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787496379%2Fblogger-import%2Faaf92eda82fd63480b4b.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787491428%2Fblogger-import%2F01d2fc5cde31e1d43ace.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1787505169%2Fblogger-import%2F1febb8f1230de1a3065f.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 The grounds were lovely and peaceful minus this massive spider that I did not enjoy, just above my head. 
 
