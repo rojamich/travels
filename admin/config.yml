@@ -8,12 +8,31 @@
 # =============================================================================
 
 # -----------------------------------------------------------------------------
-# Backend: Netlify Identity + Git Gateway
-# Saves go to GitHub via Netlify; we don't need to put any GitHub token here.
+# Backend: straight to GitHub, signed in with GitHub
 # -----------------------------------------------------------------------------
+# Saves go directly to GitHub's API. Signing in is "Login with GitHub", done
+# through Netlify's OAuth provider (Netlify → Project configuration → Access &
+# security → OAuth), which holds the GitHub OAuth app's client ID and secret.
+# No token lives in this file.
+#
+# This used to be git-gateway: Netlify Identity for the login, and Netlify's
+# Git Gateway passing every save on to GitHub. Netlify has deprecated Git
+# Gateway, and nearly every lost save traced back to that pair — Identity
+# tokens that expire hourly and get thrown away on a network blip, and the
+# gateway itself answering a plain write with a 500 (2026-10-30). A GitHub
+# OAuth token does not expire on a clock, and there is no middleman left to
+# fail.
+#
+# site_domain pins the OAuth lookup to the production site, so the login
+# also works on deploy previews, whose hostnames Netlify would not recognise.
+#
+# Netlify Identity is still used by the comments and stats admin pages
+# (_includes/admin-gate.html); only this editor moved.
 backend:
-  name: git-gateway
+  name: github
+  repo: rojamich/travels
   branch: main
+  site_domain: where-in-the-world-are-mike-and-jen.netlify.app
   commit_messages:
     create: 'Add post: {{slug}}'
     update: 'Edit post: {{slug}}'
