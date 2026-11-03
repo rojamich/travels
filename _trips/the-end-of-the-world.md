@@ -7,7 +7,7 @@ cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w
 cover_focal_x: 50
 cover_focal_y: 50
 start_date: 2026-11-02
-end_date: 2026-10-15
+end_date: 2026-11-15
 location: "Antarctica "
 lat: -64.833
 lng: -62.55
