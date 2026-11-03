@@ -27,7 +27,7 @@ Everyone was so kind and patient over our attempts at Spanish! Very few people w
 
 The food here was ... fine. We aren't huge steak people, but the empanadas were good! The pastries and sweets more than made up for it 🥮🍪🥧🍦and I will really miss those churros! The tap water here is clean and tastes good!
 
-Mike and I used the eSIM app: 4S esim here, which worked well everywhere we went! Wifi was not regularly provided anywhere. 
+Mike and I used the eSIM app: 4S esim here, which worked well everywhere we went! Wifi was intermittently available in restaurants/cafes but you usually had to ask for a password. 
 
 We mostly walked here and occasionally used uber, but also got to utilize their buses 🚌! They were really cheap and easy which was great for our long transports across the city. We even used a ferry to get over to Uruguay for the day 🚢
 
