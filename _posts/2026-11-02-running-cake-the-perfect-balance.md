@@ -56,7 +56,7 @@ We also notice these tickets on cars every day! We haven't seen any signs saying
 
 Mike tried a new chicken sandwich for lunch and proclaimed loudly, "Oh no! It's not even chicken!"
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1793662913/hhhxoxi8hkjuo5qo6vnc.jpg "I wonder what gave it away??")
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1793662913/hhhxoxi8hkjuo5qo6vnc.jpg "I wonder what gave it away?? He says it was still really good!")
 
 My running route this week was incredible. The views were just unbelievable and I'm just in disbelief we made it here. Patagonia felt like such a lifetime away for a bucket list item but we really made it!
 
