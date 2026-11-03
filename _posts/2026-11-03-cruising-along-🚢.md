@@ -43,7 +43,7 @@ There are many different experiences people often have with Drake’s Passage an
 
 **Drake Quake** is a very unfortunate experience where the furniture is flying and you are probably seasick. 
 
-*However*, most people will have something in between those two experiences and have waves of about 6 to 8 meters (aka 20 to 26 feet). 
+Which experience you have is completely unpredictable and not associated with certain times. *However*, most people will have something in between those two experiences and have waves of about 6 to 8 meters (aka 20 to 26 feet). 
 
 Being very easily seasick people… we are not thrilled to go through this *twice* on our journey. We have our scopolamine patches, ritz crackers, and will be grabbing ginger ale. We’ve also downloaded many audiobooks to help us through this 😧
 
