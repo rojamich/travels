@@ -1,10 +1,5 @@
 intro: Where we're hoping to wander next...
 upcoming:
-  - country: Antarctica
-    why: "Ummm can you say bucket list trip?! I can't believe we are really going
-      here. The polar plunge, so much wildlife, and hopefully surviving Drake's
-      Passage 🚢 "
-    when: November '26
   - country: Spain
     why: Tapas, the Architecture, Historical Sites, Flamenco, and Kelli is coming to
       visit!!!
@@ -24,6 +19,12 @@ upcoming:
     when: February '27 - July '27
     why: We are back in Tbilisi — this time we even have long enough to get in a
       rhythm. Gym, good food, and discovering Georgia's other seasons ❄️🌼☀️!
+  - cover_focal_x: 50
+    cover_focal_y: 50
+    country: Tanzania
+    why: The Great Migration! Fulfilling dreams to see Africa's wildest animals in
+      their natural habitat and watch them cross country lines 🤯
+    when: July '27
 queue:
   - country: China
     why: The unreal landscapes, endless wonders, and amazing cities!
