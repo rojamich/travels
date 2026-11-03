@@ -17,7 +17,11 @@ tags:
   - Cruise
   - Food
 new_tags: []
-stay: night
+location:
+  name: Ushuaia, Argentina
+  lat: -54.807306
+  lng: -68.3084133
+stay: layover
 toc: false
 ---
 Welcome in everyone! Thanks for accompanying us to our seventh continent: Antarctica! 
