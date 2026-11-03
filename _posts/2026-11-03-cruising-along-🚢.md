@@ -16,6 +16,7 @@ tags:
   - Adventure
   - Cruise
   - Food
+  - Bucketlist
 new_tags: []
 location:
   name: Ushuaia, Argentina
