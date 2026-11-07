@@ -45,9 +45,9 @@ We ate as much as we could bear that day and went straight back to bed.
 
 This is how wild the waves were:
 
-{% youtube_block %7B%22url%22%3A%22%22%7D %}
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2FvjGTdEC9xZw%3Ffeature%3Dshare%22%7D %}
 
-{% youtube_block %7B%22url%22%3A%22%22%7D %}
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2FvjGTdEC9xZw%3Ffeature%3Dshare%22%7D %}
 
 Dinner was plated this evening (as opposed to the buffet) and Mike had the venison while I went with the mushroom risotto. 
 
