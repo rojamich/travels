@@ -3,9 +3,9 @@ title: The End of the World
 description: "An unbelievable trip to the literal end of the Earth! We will be
   cruising down to Antarctica from Ushuaia, where we hope to encounter all types
   of wild life and hopefully partake in kayaking, camping, and snowshoeing! "
-cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1792882223/rmhh10koxw0i8zekghu2.png
+cover: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794073836/jpzp3kyr5yph2ka9xkmt.jpg
 cover_focal_x: 50
-cover_focal_y: 50
+cover_focal_y: 100
 start_date: 2026-11-02
 end_date: 2026-11-15
 location: "Antarctica "
