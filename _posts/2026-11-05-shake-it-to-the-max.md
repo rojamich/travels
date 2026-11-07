@@ -8,7 +8,7 @@ header:
   teaser_focal_x: 50
   teaser_focal_y: 55
   overlay_focal_x: 50
-  overlay_focal_y: 39
+  overlay_focal_y: 47
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794072727/zrpdy4kgxufylntqdz35.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794073017/z0zftllsgavwa2ir5hd9.jpg
