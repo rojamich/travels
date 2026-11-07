@@ -37,11 +37,11 @@ And are nervous to cross Drake’s Passage!
 
 {% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAoIiIvmRohM%C2%A0%22%7D %}
 
-There are many different experiences people often have with Drake’s Passage and two are aptly named: Drake Lake or Drake Quake. 
+There are many different experiences people often have with Drake’s Passage and two are aptly named: Drake Lake or Drake Shake. 
 
 **Drake Lake** is the calm version of Drake’s Passage where you wouldn’t endure huge swells.
 
-**Drake Quake** is a very unfortunate experience where the furniture is flying and you are probably seasick. 
+**Drake Shake** is a very unfortunate experience where the furniture is flying and you are probably seasick. 
 
 Which experience you have is completely unpredictable and not associated with certain times. *However*, most people will have something in between those two experiences and have waves of about 6 to 8 meters (aka 20 to 26 feet). 
 
