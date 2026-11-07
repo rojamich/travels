@@ -19,6 +19,10 @@ tags:
   - Dessert
   - Adventure
 new_tags: []
+location:
+  name: Beagle Channel
+  lat: -55.235
+  lng: -66.415
 stay: night
 toc: false
 ---
