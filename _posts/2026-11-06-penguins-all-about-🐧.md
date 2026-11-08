@@ -44,7 +44,7 @@ The second half of our day was a landing, which meant we would finally set foot 
 \*\*Sidenote, there is a wall of staff photos and each of them have fun backgrounds of adventurous places, except the Doctor’s photo. It’s just a headshot in front of a white wall. When I ended up next to him in the lunch line, I commented on it and he said, it does look a bit odd, right? I agreed and said it looked like a booking photo. I promised we would get him a new photo when we ended up on a landing if he went to shore.
 Here are the shots I took for him to choose from:
 
-[**photos to be added** when we have more wifi - it is very limited on the ship!]
+[**photos to be added**]
 
 \*\*Back to our regularly scheduled programming
 
@@ -56,3 +56,21 @@ This landing had SO many gentoo penguins! We were overwhelmed looking at the mas
 These little guys are so clumsy and uncoordinated — it's completely adorable!
 
 [**video to be added**]
+
+To our great surprise, there was an elephant seal pup hanging out here (apparently that's not very common!)
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794157955%2Fievbemiuari4uc1lkmuk.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We made our way around the bay and were able to see whale bones, remnants of a ship wreck, and two Weddell seals!
+
+[**photo to be added**]
+
+We stopped to take photos of Elizabeth 📷
+
+[**photo to be added**]
+
+How cute is that with the penguin in the background?!
+
+And she returned the favor 📷
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794157626%2Fc6fegzuo8xsiyoqe5ekm.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
