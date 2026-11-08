@@ -38,7 +38,7 @@ I went back out with my camera and got to see many birds (including penguins swi
 
 Thankfully, we felt only mildly sick because we were signed up for the very first activity! Kayaking in Cierva Cove!
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794151081/u0woknard8cihslzd1zo.jpg)
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794151081%2Fu0woknard8cihslzd1zo.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 After a quick breakfast, we headed to the meeting spot to grab gear. Wow! What a view!
 
@@ -64,7 +64,6 @@ This is a video a girl in our group took of a clear iceberg floating in the wate
 
 The guides helped us to carefully slide into our kayaks to avoid premature polar plunges 😂
 
-
 {% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FqkSsAwqw58g%22%7D %}
 
 And we were off, following our guide, Alexis. 
@@ -77,7 +76,6 @@ It was unbelievable experience to slide through ice to move the kayaks. Our padd
 
 We got to see many different icebergs with varying hues of blue! The more compressed, the deeper blue they look!
 
-
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794154324/sdxugoi2strgqrjraseq.jpg)
 
 We were visited by penguins, majestically swimming through the ice!
@@ -85,7 +83,6 @@ We were visited by penguins, majestically swimming through the ice!
 {% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2F5SEMjxpB398%22%7D %}
 
 And we even saw a Weddell seal hopping back into the frigid water!
-
 
 {% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2F4MYGURpUhBo%22%7D %}
 
