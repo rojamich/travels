@@ -89,4 +89,6 @@ And we even saw a Weddell seal hopping back into the frigid water!
 
 {% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2F4MYGURpUhBo%22%7D %}
 
-What an amazing start to this expedition!
+What an amazing start to this expedition! 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794155156/kjvgxxz38age0dz0vr2v.jpg)
