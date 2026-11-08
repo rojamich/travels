@@ -27,4 +27,32 @@ location:
 stay: night
 toc: false
 ---
-draft
+After lunch, we prepared for our next activity and admired how different every iceberg is!
+
+[**photos to be added** when we have more wifi - it is very limited on the ship!]
+
+This is the view from our port hole!
+
+[**photo to be added**]
+
+We weren’t sure if our activity would actually happen today because it’s been so snowy! 
+
+[**video to be added**]
+
+The second half of our day was a landing, which meant we would finally set foot on our seventh continent! We boarded the zodiacs and excitedly made our way towards shore! 
+
+\*\*Sidenote, there is a wall of staff photos and each of them have fun backgrounds of adventurous places, except the Doctor’s photo. It’s just a headshot in front of a white wall. When I ended up next to him in the lunch line, I commented on it and he said, it does look a bit odd, right? I agreed and said it looked like a booking photo. I promised we would get him a new photo when we ended up on a landing if he went to shore.
+Here are the shots I took for him to choose from:
+
+[**photos to be added** when we have more wifi - it is very limited on the ship!]
+
+\*\*Back to our regularly scheduled programming
+
+This landing had SO many gentoo penguins! We were overwhelmed looking at the massive colony 😮
+
+[**photo of colony to be added]**
+[**video to be added**]
+
+These little guys are so clumsy and uncoordinated — it's completely adorable!
+
+[**video to be added**]
