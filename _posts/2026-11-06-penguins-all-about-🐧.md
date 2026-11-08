@@ -74,3 +74,25 @@ How cute is that with the penguin in the background?!
 And she returned the favor 📷
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794157626%2Fc6fegzuo8xsiyoqe5ekm.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794158724%2Fh1nfsh7iaeispktxekks.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+There were SO many birds and I have enjoyed trying to photograph them as it's very difficult to get sharp images of them!
+
+[**photos to be added**]
+
+I loved the feeling of this photo of a naval refuge building: Refugio Naval Capitán Caillet-Bois
+
+[**photo to be added**]
+
+We took our time admiring the penguins and how they move and interact. It's SO adorable how the enter and exit the water!
+
+[**photos to be added**]
+
+[**Video to be added**]
+
+We were lucky to be able to capture them swimming as well 😍
+
+[**photos to be added**]
+
+Lastly, Mike didn't believe that he had freckles so I had to prove it. Look how beautiful he is! Ps. people on the ship have begun identifying us by our very colorful scarves. Mostly people wear muted colored ones! Elizabeth has referred to us as her Vietnamese friends because that's where we met 😂 The scarves are from Vietnam!
+
+[**photos to be added**]
