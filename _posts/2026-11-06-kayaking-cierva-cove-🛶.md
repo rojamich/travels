@@ -28,7 +28,7 @@ location:
 stay: night
 toc: false
 ---
-I woke up at 4am feeling great! (doesn’t get dark and portholes open). After no exercise the last two days, I was antsy. I headed to the top deck and admired the beauty! Then I found a spot that’s only mildly icy and danced. It began to softly snow <3
+I woke up at 4am feeling great! It doesn’t get dark here at this time of year because its time for the Midnight Sun! Our portholes were propped open so it's always light in here. Remind me to use my eye cover before bed! After no exercise the last two days, I was antsy. I headed to the top deck and admired the beauty! Then I found a spot that’s only mildly icy and danced. It began to softly snow <3
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794151022/ooalwxjpcetcwgoigbsc.jpg)
 
@@ -70,7 +70,7 @@ And we were off, following our guide, Alexis. 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794152390/qllm7vmhr6bpliwuj2rt.jpg)
 
-It was unbelievable experience to slide through ice to move the kayaks. Our paddles slipping into the water and maneuvering around blocks of ice. The sound was exquisite. Hearing nothing else but our kayaks moving through the freezing landscape was so peaceful. 
+It was an unbelievable experience to slide through ice to move the kayaks. Our paddles slipping into the water and maneuvering around blocks of ice. The sound was exquisite. Hearing nothing else but our kayaks moving through the freezing landscape was so peaceful. 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794152857/hf06lhfi0ruhjkpsy9of.jpg)
 
