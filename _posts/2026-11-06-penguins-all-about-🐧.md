@@ -81,7 +81,7 @@ There were SO many birds and I have enjoyed trying to photograph them as it's ve
 
 I loved the feeling of this photo of a naval refuge building: Refugio Naval Capitán Caillet-Bois. It has since been taken over by the penguins!
 
-[**photo to be added**]
+[**photo to be added**] 
 
 We took our time admiring the penguins and how they move and interact. It's SO adorable how the enter and exit the water!
 
