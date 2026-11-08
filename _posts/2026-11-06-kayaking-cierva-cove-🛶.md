@@ -8,10 +8,10 @@ header:
   teaser_focal_x: 50
   teaser_focal_y: 50
   overlay_focal_x: 50
-  overlay_focal_y: 50
+  overlay_focal_y: 46
   overlay_filter: 0.4
-  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794151038/klmtlp0gv8lbinhu8gkv.jpg
-  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794151692/niokk2ze4sexhta0txp1.jpg
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794152057/m6u5avylj3pxb6xvot0d.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794154324/sdxugoi2strgqrjraseq.jpg
 tags:
   - Kayaking
   - Adventure
@@ -34,7 +34,7 @@ I woke up at 4am feeling great! (doesn’t get dark and portholes open). After n
 
 I went back out with my camera and got to see many birds (including penguins swimming!)
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794150929%2Fjapo6bzb0sun2tdrxoxf.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794151968%2Fv6utp8evcaae3u4br7bw.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794150929%2Fjapo6bzb0sun2tdrxoxf.jpg%22%7D%2C%7B%22x%22%3A%2221%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794151968%2Fv6utp8evcaae3u4br7bw.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 Thankfully, we felt only mildly sick because we were signed up for the very first activity! Kayaking in Cierva Cove!
 
@@ -42,7 +42,7 @@ Thankfully, we felt only mildly sick because we were signed up for the very firs
 
 After a quick breakfast, we headed to the meeting spot to grab gear. Wow! What a view!
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794151038%2Fklmtlp0gv8lbinhu8gkv.jpg%22%7D%5D%2C%22caption%22%3A%22If%20you%E2%80%99re%20wondering%2C%20is%20that%20a%20helipad%3F%20Yes%2C%20it%20is!%20Woah!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2273%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794151038%2Fklmtlp0gv8lbinhu8gkv.jpg%22%7D%5D%2C%22caption%22%3A%22If%20you%E2%80%99re%20wondering%2C%20is%20that%20a%20helipad%3F%20Yes%2C%20it%20is!%20Woah!%22%7D %}
 
 We were given boots (similar to what we wear for scuba), a thick wetsuit, and matching jackets.
 
