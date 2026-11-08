@@ -50,8 +50,8 @@ Here are the shots I took for him to choose from:
 
 This landing had SO many gentoo penguins! We were overwhelmed looking at the massive colony 😮
 
-[**photo of colony to be added]**
-[**video to be added**]
+\[\*\*photo of colony to be added]
+**[**video to be added\*\*]
 
 These little guys are so clumsy and uncoordinated — it's completely adorable!
 
@@ -79,7 +79,7 @@ There were SO many birds and I have enjoyed trying to photograph them as it's ve
 
 [**photos to be added**]
 
-I loved the feeling of this photo of a naval refuge building: Refugio Naval Capitán Caillet-Bois
+I loved the feeling of this photo of a naval refuge building: Refugio Naval Capitán Caillet-Bois. It has since been taken over by the penguins!
 
 [**photo to be added**]
 
