@@ -36,14 +36,12 @@ While we were lined up, we were able to see another whale! It was incredible! 
 
 **\[photos/videos to be added asap!]**
 
-
 We pulled up to the rocky shoreline … where we were planning to do the polar plunge! Why am I doing this again?? A colony of swimming penguins greeted us as we arrived 🙂
 **\[photos to be added asap!]**
 
 The mountains were MASSIVE here! I’m not sure why I always pictured Antarctica as a flat ice mass 🤦🏻‍♀️
 
 **\[photo to be added asap!]**
-
 
 The gentoo penguins were so cute and clumsy, trying to get onto the icy land from the rocky beach!
 
@@ -53,21 +51,15 @@ It was a beautiful bay, and we were blown away by the icebergs and number of pen
 
 **\[photos to be added asap!]**
 
+We had a nice surprise today when we were visited by an Adélie penguin who absolutely runs the beach 😂
 
-
-We had a nice surprise today when we were visited by an Adeli penguin who absolutely runs the beach 😂
-
-\[photos to be added asap!]
-
-
+**\[photos to be added asap!]**
 
 It was time to line up for the polar plunge! Actually, we were lined up really early, ready to knock it out! We had all our warm gear ready and suits on under our clothes.
 
 That's when a leopard seal showed up…
 
 **\[photos/videos to be added asap!]**
-
-
 
 Unfortunately, her high curiosity kept us from actually completing the plunge this day :( The seals can get very aggressive, and it wasn’t a good risk to take!
 
