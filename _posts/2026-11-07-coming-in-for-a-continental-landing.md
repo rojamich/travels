@@ -11,7 +11,7 @@ header:
   overlay_focal_y: 64
   overlay_filter: 0.4
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794318357/y40up8mwequfpcq9lcwe.jpg
-  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794317582/sw4uwqjxcrb8ywldyfgo.jpg
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794319451/dr9mcqboaojzgfcvhht0.jpg
 tags:
   - Adventure
   - Birds
