@@ -88,8 +88,6 @@ We took our time admiring the penguins and how they move and interact. It's SO a
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794850627%2Fx7l4ywau0jpnscexh6kg.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794850632%2Fnl17vbooyhqx4pb0epwu.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-
-
 {% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FCZc-u_h7kHc%22%7D %}
 
 We were lucky to be able to capture them swimming as well 😍
@@ -101,3 +99,5 @@ We were lucky to be able to capture them swimming as well 😍
 Lastly, Mike didn't believe that he had freckles so I had to prove it. Look how beautiful he is! Ps. people on the ship have begun identifying us by our ***very*** colorful scarves. Mostly people wear muted colored ones! Elizabeth has referred to us as her Vietnamese friends because that's where we met 😂 The scarves are from Vietnam!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794850875%2Frgmeccsey03tykzssnuw.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794850881%2Fvikdfgdyyvwecwahfkul.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794850884%2Fvzmu4tqwao84ikmmva7e.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Elizabeth's family *loves* games and Mike was thrilled to find great friends to play with! They all spent many evenings playing spades, gin rummy, and any others they could think of. Thankfully, they brought a lot of games!
