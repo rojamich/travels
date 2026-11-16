@@ -9,11 +9,11 @@ header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780936164/20251229_140555_iak5ig.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780936247/20251229_142124_unkwgc.jpg
 tags: []
-toc: false
 location:
   name: Ha Giang, Vietnam
   lat: 22.8233
   lng: 104.9784
+toc: false
 ---
 This morning we woke up exhausted! I'd had a persistent cough that had kept us up half the night. Hopefully the rest of the hostel couldn't hear me :/
 
@@ -41,7 +41,7 @@ It was then that something unexpected happened!
 
 The bike we were riding on broke down! Here is my guide working to fix it. Mike's guide loaded up ***all three of us*** on his bike and took us to the nearest coffee stop :o. This is also about the time where the fantasy football championship was coming to an end. I was neck and neck with another team for the championship game and I was one pass away from taking the lead in the last five minutes of the game. My stress level was at an all time high! My competition was also the biggest crap-talker of the league. Losing would burn me good. 
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780938670%2F20251229_094932_sazznv.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780938731%2F20251229_094950_slrsp1.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22Here%20I%20am%20pretending%20I'm%20not%20stressing%20out%20and%20just%20trying%20to%20roll%20with%20the%20day!%20Though%20my%20butt%20did%20hurt%20from%20sitting%20on%20the%20rack%20instead%20of%20a%20seat!sitting%20on%20the%20%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780938670%2F20251229_094932_sazznv.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1780938731%2F20251229_094950_slrsp1.jpg%22%2C%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22Here%20I%20am%20pretending%20I'm%20not%20stressing%20out%20and%20just%20trying%20to%20roll%20with%20the%20day!%20Though%20my%20butt%20did%20hurt%20from%20sitting%20on%20the%20rack%20instead%20of%20a%20seat!%20Sitting%20on%20the%20luggage%20rack%20XD%22%7D %}
 
 Thankfully the coffee shop wasn't too far away and it was pretty nice! We ordered some tea to warm up and admired the view (while constantly refreshing the fantasy football app). 
 
@@ -50,6 +50,8 @@ Thankfully the coffee shop wasn't too far away and it was pretty nice! We ordere
 I needed to use the restroom and discovered there was one you could pay for or there was a free one. They were *vastly* different XD. I would rather use a less-awesome bathroom if it means saving the $ for a future coffee haha. (Of course, there are limitations). I had to take a rickety wooden ladder down to this "restroom". And it kindof looked like somewhere Pennywise the clown might inhabit. 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780938830/20251229_103559_pv3le0.jpg "If you haven't seen or read \"IT\" by Stephen King, you are missing out... on a brilliant story but also nightmares.")
+
+If you haven't seen or read [IT by Stephen King](https://www.goodreads.com/en/book/show/830502.It), you are missing out... on a brilliant story but also nightmares.
 
 To my surprise, I was not devoured by a fear-munching clown and scurried back upstairs to safety. To my utter heartbreak, I lost the fantasy championship by 0.04 of a point. One completed pass would have won me the season. While I am/was devastated, second for the second year in a row ain't bad. Here's to next season!!
 
