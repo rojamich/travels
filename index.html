@@ -28,10 +28,10 @@ classes: wide
   Two passes: (1) enumerate every past year that has posts, (2) for EACH
   year find that year's own closest-to-today post. Result: at most one
   card per year, each the nearest date to today from that year, newest
-  year first. We keep the largest distance among the years shown so the
-  subtitle can say whether these are exact matches or only near ones —
-  every year on the nose → "Posts from 12 September in previous years",
-  otherwise the looser "at this time" wording.
+  year first. The subtitle is always theirs — "What in the world were
+  Jenna & Mike up to, at this time, in previous years?!" — exact match or
+  not. There used to be a second, generic one for days when every card
+  was on today's exact date; it went on 2026-11-16 at their request.
 
   A year only earns a card if its nearest post falls within otd_window
   days either side of today. Without that, a year we didn't travel in
@@ -86,7 +86,6 @@ classes: wide
 {%- assign past_years = past_years | sort | reverse -%}
 
 {%- assign on_this_day = "" | split: "" -%}
-{%- assign max_delta_shown = 0 -%}
 {%- for year in past_years -%}
   {%- assign best_post = nil -%}
   {%- assign best_delta = 999 -%}
@@ -108,9 +107,6 @@ classes: wide
   {%- endfor -%}
   {%- if best_post and best_delta <= otd_window -%}
     {%- assign on_this_day = on_this_day | push: best_post -%}
-    {%- if best_delta > max_delta_shown -%}
-      {%- assign max_delta_shown = best_delta -%}
-    {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
 
@@ -126,11 +122,7 @@ classes: wide
 {%- if past_years.size > 0 -%}
 <section class="on-this-day" data-window="{{ otd_window }}"{% if on_this_day.size == 0 %} hidden{% endif %}>
   <h2>📅 On this day</h2>
-  {%- if max_delta_shown == 0 -%}
-  <p class="on-this-day-sub">Posts from {{ site.time | date: "%B %-d" }} in previous years.</p>
-  {%- else -%}
   <p class="on-this-day-sub">What in the world were Jenna &amp; Mike up to, at this time, in previous years?!</p>
-  {%- endif -%}
   <div class="on-this-day-list">
     {%- assign sorted_otd = on_this_day | sort: "date" | reverse -%}
     {% for p in sorted_otd %}
@@ -200,7 +192,6 @@ classes: wide
     (function () {
       var section = document.querySelector(".on-this-day");
       var list    = section && section.querySelector(".on-this-day-list");
-      var sub     = section && section.querySelector(".on-this-day-sub");
       var dataEl  = document.getElementById("otd-candidates");
       if (!section || !list || !dataEl) return;
 
@@ -285,14 +276,6 @@ classes: wide
             (p.l ? '<p class="otd-loc">' + esc(p.l) + '</p>' : '') +
           '</div></a>';
       }).join("");
-
-      if (sub) {
-        var worst = chosen.reduce(function (m, c) { return c.d > m ? c.d : m; }, 0);
-        sub.textContent = worst === 0
-          ? "Posts from " + now.toLocaleDateString(undefined,
-              { month: "long", day: "numeric" }) + " in previous years."
-          : "What in the world were Jenna & Mike up to, at this time, in previous years?!";
-      }
     })();
   </script>
 </section>
