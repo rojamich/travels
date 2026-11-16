@@ -30,7 +30,7 @@ Rounding the corner of a nearby coffee shop, we turned to open the door and we h
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794042854/i49znsseaf4dh4tql8t2.jpg)
 
-If you remember our trip to Vietnam, and how we explored the Ha Giang Loop, this person may be familiar to you!  We were in a motorcycle touring group together for three days! We could not believe she was standing before us on a completely different continent! She told us she's also going on a cruise... No... it couldn't be! OH YES!!! We are ON THE SAME CRUISE TOO!!! We have officially been to more countries/continents with her than anyone else 🫨😂 
+If you remember our trip to Vietnam, and how we explored the Ha Giang Loop, this person may be familiar to you!  We were in a motorcycle touring group together for three days! We could not believe Elizabeth was standing before us on a completely different continent! She told us she's also going on a cruise... No... it couldn't be! OH YES!!! We are ON THE SAME CRUISE TOO!!! We have officially been to more countries/continents with her than anyone else 🫨😂 
 
 She's cruising with her aunt and mom and we were excited that we would actually know someone on this voyage!
 
