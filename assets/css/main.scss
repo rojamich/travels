@@ -1064,9 +1064,14 @@ a {
 // -----------------------------------------------------------------------------
 // BACK-TO-TOP BUTTON (fixed bottom-right, fades in after scroll)
 // -----------------------------------------------------------------------------
+// It sits ABOVE the bottom-right corner, not in it. Netlify puts its own
+// "Powered by Netlify" pill there on the live site — an iframe
+// (#nl-badge-frame), 64px tall, flush to the bottom-right — and it covered
+// this button on phones and desktops alike. The pill isn't ours to move, so
+// the button clears it: 64px plus a gap.
 #back-to-top {
   position: fixed;
-  bottom: 1.4em;
+  bottom: 76px;
   right: 1.4em;
   width: 46px;
   height: 46px;
@@ -1103,7 +1108,7 @@ a {
   }
 
   @media (max-width: 600px) {
-    bottom: 1em;
+    bottom: 76px;
     right: 1em;
     width: 42px;
     height: 42px;
