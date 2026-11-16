@@ -29,33 +29,37 @@ toc: false
 ---
 After lunch, we prepared for our next activity and admired how different every iceberg is!
 
-[**photos to be added** when we have more wifi - it is very limited on the ship!]
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794847023%2Fplcedbzpjmnjv9s6wpng.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794846920%2Fgvmia3ug0xtoimkylzvf.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 This is the view from our port hole!
 
-[**photo to be added**]
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794847456/akw6kgylttq7zzkpiimn.jpg)
 
 We weren’t sure if our activity would actually happen today because it’s been so snowy! 
 
-[**video to be added**]
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FuovAd_1YOHs%22%7D %}
 
 The second half of our day was a landing, which meant we would finally set foot on our seventh continent! We boarded the zodiacs and excitedly made our way towards shore! 
 
 \*\*Sidenote, there is a wall of staff photos and each of them have fun backgrounds of adventurous places, except the Doctor’s photo. It’s just a headshot in front of a white wall. When I ended up next to him in the lunch line, I commented on it and he said, it does look a bit odd, right? I agreed and said it looked like a booking photo. I promised we would get him a new photo when we ended up on a landing if he went to shore.
 Here are the shots I took for him to choose from:
 
-[**photos to be added**]
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794849003%2Fdqv1eaymosf9ewttordq.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794849205%2Fq4agnkipydz99uxppiat.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 \*\*Back to our regularly scheduled programming
 
 This landing had SO many gentoo penguins! We were overwhelmed looking at the massive colony 😮
 
-\[\*\*photo of colony to be added]
-**[**video to be added\*\*]
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794849332/tjqyqvipudhu4wf56gcm.jpg)
+
+
+
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FGkb4RsU_F-I%22%7D %}
 
 These little guys are so clumsy and uncoordinated — it's completely adorable!
 
-[**video to be added**]
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FWjMbpHSWkuU%22%7D %}
 
 To our great surprise, there was an elephant seal pup hanging out here (apparently that's not very common!)
 
