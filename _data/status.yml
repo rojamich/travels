@@ -1,4 +1,4 @@
-current_location: Antarctica
-current_timezone: America/Argentina/Buenos_Aires
-next_destination: Madrid, Spain
+current_location: Madrid, Spain
+current_timezone: Europe/Madrid
+next_destination: Cordoba, Spain
 nomad_start_date: 2026-06-01
