@@ -44,6 +44,8 @@ After a quick breakfast, we headed to the meeting spot to grab gear. Wow! What a
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2273%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794151038%2Fklmtlp0gv8lbinhu8gkv.jpg%22%7D%5D%2C%22caption%22%3A%22If%20you%E2%80%99re%20wondering%2C%20is%20that%20a%20helipad%3F%20Yes%2C%20it%20is!%20Woah!%22%7D %}
 
+At breakfast, we got to get to know Elizabeth's family (her mom, Jeannette and Aunt Peggy) they were so sweet and we felt adopted! 
+
 We were given boots (similar to what we wear for scuba), a thick wetsuit, and matching jackets.
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794151041/uttcflnbi3egilj7kwe2.jpg "One of my favorite colors, how cute is this??")
