@@ -30,6 +30,8 @@ We weren’t booked for any excursions today (kayaking, mountaineering, or campi
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794997287%2Fwb2m9weousgolshqf8dc.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794317582%2Fsw4uwqjxcrb8ywldyfgo.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
+Properly adopted, we shared meals with Elizabeth's family, as well as our friends from Australia (Jin & Jenny) and our friends from New Zealand (Tim & Julia).
+
 After a hearty breakfast, we geared up and got in line to load into a zodiac that would take us to shore. The food has been good and plentiful! I’m relieved that it hasn’t been the average-to-bad normal cruise food. I have so many options for things I am willing to try!
 
 While we were lined up, we were able to see another whale! It was incredible! 
@@ -39,7 +41,6 @@ While we were lined up, we were able to see another whale! It was incredible! 
 {% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FYeW_Ru5v9tU%22%7D %}
 
 We pulled up to the rocky shoreline … where we were planning to do the polar plunge! Why am I doing this again?? A colony of swimming penguins greeted us as we arrived and it was near a beautiful, snowy landscape!
-
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794997629%2Fnc6tzakvcic2pxdbekva.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794997638%2Fg1pwcgiaktpgzclozifg.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -67,12 +68,18 @@ It was time to line up for the polar plunge! Actually, we were lined up really e
 
 That's when a leopard seal showed up…
 
-
-
 {% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2F9bIYJqIWYTs%22%7D %}
 
 Unfortunately, her high curiosity kept us from actually completing the plunge this day :( The seals can get very aggressive, and it wasn’t a good risk to take!
 
 Thankfully, it was still a great landing and we enjoyed all the views
 
-\[photo to be added asap!]
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794998652%2Fghqvepwyiwyxa8mjkm1j.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794998661%2Foyv9vqzaz03emg6hh92c.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794998672%2Fwprqvpisbrkciqbb7mut.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794998683%2Fgkrtjpogysb3l69som7j.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Look, it's me & Mike as penguins!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794998691/hrwxdgbssa1v4ru6vf75.jpg)
+
+It's here that I took my absolute favorite wildlife photo of the whole trip!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794073836/jpzp3kyr5yph2ka9xkmt.jpg)
