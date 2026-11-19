@@ -1287,6 +1287,17 @@ a {
 .inline-gallery--n2 { grid-template-columns: repeat(2, 1fr); }
 .inline-gallery--n3 { grid-template-columns: repeat(3, 1fr); }
 
+// Three across a phone is about 110px a tile — smaller than the grid gave
+// them before. There, the first spans the row and the other two share the
+// one below it.
+@media (max-width: 600px) {
+  .inline-gallery--n3 { grid-template-columns: repeat(2, 1fr); }
+  .inline-gallery--n3 > :first-child {
+    grid-column: 1 / -1;
+    aspect-ratio: 2 / 1;
+  }
+}
+
 // One: shown like any other photo in the post — whole, at its own shape,
 // centred, no taller than a body photo (60vh) — and still tappable.
 .inline-gallery--n1 {
