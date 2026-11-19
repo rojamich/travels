@@ -27,7 +27,7 @@ location:
 stay: night
 toc: false
 ---
-I woke up with a cold this morning and had to see the Dr. Apparently, he makes house calls and came straight to our room after breakfast! He was very kind and gave me a few things for my upper respiratory infection. The actual Dr visit didn’t cost us a dime 😮 but we paid about $40 for a bunch of meds he recommended.
+I woke up with a cold this morning and had to see the doctor. Apparently, he makes house calls and came straight to our room after breakfast! He was very kind and gave me a few things for my upper respiratory infection. The actual Dr visit didn’t cost us a dime 😮 but we paid about $40 for a bunch of meds he recommended.
 
 The weather held up nicely for us this morning and we were able to explore Petermann Island which held a colony of gentoo penguins and Adélie penguins! Living in harmony!
 
@@ -49,15 +49,17 @@ But we also got to see them resting and protected from the wind.
 
 The mountains were dramatic and looked incredible when you scale them against our ship!
 
-
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795122389%2Fajh0ulziscxh8vcnewpk.jpg%22%7D%2C%7B%22x%22%3A%2248%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795122341%2Fi76ido9yqos5lk4wdcjn.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795122352%2Fjngss2ccnwylly0pl4g2.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+The landscape was grand and took our breath away.
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795123964%2Fcr6jkevallxgfdifaqrl.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795124020%2Fne8gamrer0xj3zgz5xiz.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795123960%2Fytifx5ne3iaxd8xyox4a.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 I love seeing the little penguin prints across the snow — look how pristine these are! 
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795122489%2Fpgmrtovs7y1fjz9xgoql.jpg%22%7D%2C%7B%22x%22%3A%2248%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795122496%2Feubq5xnzstgkyo0bxe3s.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 I got to break out my new lens again today and capture some gorgeous nature! So exhilarating to try new challenges with photography 🙂
-
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2266%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795122540%2Fgj7sseoanhnmk5madxbx.jpg%22%7D%2C%7B%22x%22%3A%2253%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795122547%2Fggafflocsxkdrglqfpf8.jpg%22%7D%5D%2C%22caption%22%3A%22Have%20I%20mentioned%20how%20much%20I%20love%20snowshoeing%3F%3F%20Getting%20to%20do%20a%20lot%20of%20that%20here!%20Most%20landings%20have%20so%20much%20soft%20snow%20that%20we%20need%20to%20snowshoe%20everywhere.%22%7D %}
 
