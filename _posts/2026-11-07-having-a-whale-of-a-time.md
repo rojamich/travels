@@ -30,6 +30,14 @@ We weren’t booked for any excursions today (kayaking, mountaineering, or campi
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794997287%2Fwb2m9weousgolshqf8dc.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794317582%2Fsw4uwqjxcrb8ywldyfgo.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
+As well as multiple groups of penguins swimming!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795112780%2Flcg5qhcvduw3ylortxc9.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795112768%2Fsswvswdealztx6jlh8ok.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795112777%2Fkvj37ivfxogrmy3s1c4s.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795112777%2Flawxzjtybxv6i8x2d5uy.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+I was even able to spot a penguin swimming through crystal-clear water! 
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795112792%2Fnvdxjji9ikwowvdfifxc.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795112798%2Fgor4r4jcdiet0k6hzc1z.jpg%22%7D%5D%2C%22caption%22%3A%22The%20water%20looks%20like%20it%20should%20be%20dark%2C%20right%3F%22%7D %}
+
 Properly adopted, we shared meals with Elizabeth's family, as well as our friends from Australia (Jin & Jenny) and our friends from New Zealand (Tim & Julia).
 
 After a hearty breakfast, we geared up and got in line to load into a zodiac that would take us to shore. The food has been good and plentiful! I’m relieved that it hasn’t been the average-to-bad normal cruise food. I have so many options for things I am willing to try!
