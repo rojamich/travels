@@ -17,6 +17,10 @@ tags:
   - Snowshoeing
   - Nature
 new_tags: []
+location:
+  name: "Hovgaard Island, Antarctica "
+  lat: -65.133333
+  lng: -69
 stay: night
 toc: false
 ---
