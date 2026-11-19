@@ -91,6 +91,6 @@ They offered classes and dinner early but we were happy to have some downtime. W
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795116391/uaayrng3dra9ckhgxrjm.jpg "He says it looks much better 🙂")
 
-I finished my third audiobook and started a Kindle read now that I wasn’t seasick! Unfortunately, that would soon change. We anticipated rough seas this evening. I had to reapply a seasick patch and head straight to bed after dinner. My throat also began to hurt! Darn it! 
+I finished my third audiobook and started a Kindle read now that I wasn’t seasick! Unfortunately, that would soon change. We anticipated rough seas this evening — to change locations we had to go out into open water. I had to reapply a seasick patch and head straight to bed after dinner. My throat also began to hurt! Darn it! 
 
 On a positive note, I didn’t need a patch between the drake’s passage and this evening!
