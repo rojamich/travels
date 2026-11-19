@@ -30,7 +30,7 @@ We were handed harnesses and told to put it on over all our clothing... I run ve
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795125242/iswhsg3csvzlsvwxrhyu.jpg "Armed with our icepicks! ")
 
-Once on land, we stripped off our huge coats and were roped (through our harnesses) to our other mountaineering mates. At the beginning of the cruise, we were asked to rate our fitness level so we'd be sorted into groups that match fitness level and everyone gets the experience they should. Apparently (according to a guide), almost everyone puts intermediate (this is grossly inaccurate). The ranking system wasn't put to great use as we ranked ourselves a 7 and many of us were bored during the hike while we were placed in a group with the elderly who needed assistance in and out of the zodiacs. It's completely fine to need help, of course, but we were really hoping for a good challenge. 
+Once on land, we stripped off our huge coats and were roped (through our harnesses) to our other mountaineering mates. At the beginning of the cruise, we were asked to rate our fitness level so we'd be sorted into groups that match fitness level and everyone gets the experience they should. Apparently (according to a guide), almost everyone puts intermediate (making this scale useless). The ranking system wasn't put to great use as we ranked ourselves a 7 and many of us were bored during the hike while we were placed in a group with the elderly who needed assistance in and out of the zodiacs. It's completely fine to need help, of course, but we were really hoping for a good challenge. 
 
 Oddly, there was no other briefing about our hike or mention of what we'd be doing, how long it would be, where we were going...
 
