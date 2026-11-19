@@ -40,7 +40,6 @@ We were the second-to-last individuals to be photographed before they shut down 
 
 The snow really began to come down, and I used this time to taste Antarctic snowflakes ❄️
 
-
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795113210/ackdocxxplgnjkjpih2l.jpg)
 
 While we waited for the zodiac we saw another curious seal! How neat does he look moving through the water🦭🌊??
@@ -58,3 +57,7 @@ The zodiacs were struggling to get through the icy water, and it was crazy to wa
 We finally did make it to the ship and enjoyed a good dinner. The snow came down like crazy today!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795113670%2Fwn6jftubue5ee2ibneib.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795113682%2Flj1qxngtmrt9msro3m8z.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795113664%2Fyzaxq5qolbwcoictabn5.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We were grateful to feel good enough to start going to the evening debriefings where Pippa would give a run down of the day — what we did, where we went, what we saw, diversions and the plan for tomorrow. Ahead of the meeting, we got to hang out with our adopted family and they got some fun game time in!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795113999/dtl6htz0bjkrn3if7xpm.jpg)
