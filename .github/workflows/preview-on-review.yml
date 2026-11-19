@@ -13,6 +13,11 @@
 # Skipped when the branch's latest commit already has a preview built or
 # building — moving a reviewed card on to Ready needs no second copy.
 #
+# "Built" means a real preview, not a skipped one. Netlify reports a draft's
+# canceled build as state "success" too ("Deploy Preview canceled."), so the
+# state alone can't tell them apart; the link can. A real preview links to
+# its own deploy-preview-N--… address, a canceled one to Netlify's dashboard.
+#
 # A commit pushed with GITHUB_TOKEN doesn't start other workflows, so this
 # can't set itself off again.
 # =============================================================================
@@ -48,7 +53,9 @@ jobs:
 
           head=$(gh api "repos/$REPO/git/ref/heads/$ref" --jq '.object.sha')
           preview=$(gh api "repos/$REPO/commits/$head/status" \
-            --jq '[.statuses[] | select(.context | endswith("/deploy-preview")) | .state] | first // ""')
+            --jq '[.statuses[] | select(.context | endswith("/deploy-preview"))
+                   | if .state == "success" and ((.target_url // "") | test("//deploy-preview-") | not)
+                     then "canceled" else .state end] | first // ""')
           if [ "$preview" = "success" ] || [ "$preview" = "pending" ]; then
             echo "$BRANCH already has a preview ($preview) for $head — nothing to do."
             exit 0
