@@ -1,5 +1,5 @@
 ---
-title: It's the Cliiiiiiiiimb 🥾
+title: It's the Cliiiiiiiiimb 🎶🥾
 date: 2026-11-09
 categories:
   - the-end-of-the-world
@@ -26,11 +26,13 @@ toc: false
 ---
 That afternoon, our group was called to come to the lecture room to gear up for our mountaineering activity! We were really looking forward to a good workout and adventure! 
 
-We were handed harnesses and told to put it on over all our clothing... I run very toasty, especially while exercising. Mike also gets warm while exercising so we put the harnesses on over everything but the parkas. During the initial briefing at the beginning of the cruise, they said this was a good idea but today, the guides were like, uh this should be OVER your parkas. We weren't given time to explain ourselves before we were ushered out the door to board the zodiacs. 
+We were handed harnesses and told to put it on over all our clothing... I run very toasty, especially while exercising. Mike also gets warm while exercising so we put the harnesses on over everything but the parkas. During the initial briefing at the beginning of the cruise, they said this was a good idea. We confirmed as we geared up and a guide said this was fine because the zodiac ride would be cold (we needed a parka). A short while later, while waiting to board the zodiac the other guide was like, abruptly stopped in front of me and scolded me saying, "UH this should be OVER your parka." And then rushed off before I could explain myself. It seemed like it wasn't an issue because we boarded the zodiacs with no problems. 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795125242/iswhsg3csvzlsvwxrhyu.jpg "Armed with our icepicks! ")
 
-Once on land, we stripped off our huge coats and were roped (through our harnesses) to our other mountaineering mates. We were a little uneasy because, at the beginning of the cruise, we were asked to rate our fitness level so we'd be sorted into groups that match fitness level and everyone gets the experience they should. Apparently (according to a guide), almost everyone puts intermediate (this is grossly inaccurate). Ranking ourselves a 7, we were in a group with the elderly who needed assistance in and out of the zodiacs (completely fine, of course! But we were really hoping for a good challenge). 
+Once on land, we stripped off our huge coats and were roped (through our harnesses) to our other mountaineering mates. We were a little uneasy because, at the beginning of the cruise, we were asked to rate our fitness level so we'd be sorted into groups that match fitness level and everyone gets the experience they should. Apparently (according to a guide), almost everyone puts intermediate (this is grossly inaccurate). The ranking system wasn't put to great use as we ranked ourselves a 7 and many of us were bored during the hike while we were placed in a group with the elderly who needed assistance in and out of the zodiacs. It's completely fine to need help, of course, but we were really hoping for a good challenge. 
+
+Oddly, there was no other briefing about our hike or mention of what we'd be doing, how long it would be, where we were going...
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795123602%2Fih8g10umiresb9c096e0.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795125281%2Fbehqvgppuyjkbd6r1znn.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795125289%2Ffgze3dvgf0bmu9p8vgiv.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
