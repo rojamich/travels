@@ -79,6 +79,8 @@ Whales decided to visit us, and we got some great shots of them 🤯
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795122660%2Fhafvyom1d47wetcpc5lr.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795122664%2Fb03uyiau5fiphzvevvv7.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795122667%2Fo7whzfxjfzsukkkksscv.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22We%20didn't%20expect%20(but%20we%20really%20hoped)%20to%20see%20whales%20on%20this%20trip%2C%20and%20they%20did%20NOT%20disappoint!%22%7D %}
 
-After another great meal for lunch, we had some downtime to play games (Mike) and grade (me). I also had a lovely nap!
-
 After lunch, we had some downtime, so I graded papers and wrote the blog while Mike played games with Aunt Peggy, Jeannette, and Elizabeth. They had so much fun, and it was great watching them laugh together 😂
+
+We were scheduled for mountaineering this afternoon, and the weather complied! We were nervous because they kept saying we were scheduled for “the long trek”. How long? How fast? How difficult?? No information given lol. 
+
+Wish us luck!
