@@ -19,8 +19,8 @@ tags:
 new_tags: []
 location:
   name: "Hovgaard Island, Antarctica "
-  lat: -65.133333
-  lng: -69
+  lat: -65.12964
+  lng: -64.0939
 stay: night
 toc: false
 ---
