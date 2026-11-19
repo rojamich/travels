@@ -1287,15 +1287,16 @@ a {
 .inline-gallery--n2 { grid-template-columns: repeat(2, 1fr); }
 .inline-gallery--n3 { grid-template-columns: repeat(3, 1fr); }
 
-// Three across a phone is about 110px a tile — smaller than the grid gave
-// them before. There, the first spans the row and the other two share the
-// one below it.
+// Three across a phone is about 110px a tile, smaller than the grid gave
+// them before. So phones keep the old arrangement: two squares, then one.
+//
+// Every tile stays SQUARE on purpose. Position Photo sets where a photo
+// sits inside its crop, and that only means the same thing while the crop
+// keeps its shape. A wide strip here (tried 2026-11-19) cropped top and
+// bottom where she had framed side to side, and quietly undid her setting
+// on 43 photos.
 @media (max-width: 600px) {
   .inline-gallery--n3 { grid-template-columns: repeat(2, 1fr); }
-  .inline-gallery--n3 > :first-child {
-    grid-column: 1 / -1;
-    aspect-ratio: 2 / 1;
-  }
 }
 
 // One: shown like any other photo in the post — whole, at its own shape,
