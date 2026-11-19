@@ -181,6 +181,33 @@
       return /res\.cloudinary\.com|blogger\.googleusercontent\.com/.test(href);
     }
 
+    // ---------------------------------------------------------------------
+    // Photos added with the editor's "Add image" button.
+    // ---------------------------------------------------------------------
+    // Those come out as a bare <img> — Decap writes ![](url), not the
+    // [![](small)](large) the Blogger import wrote — so there is no link
+    // for the viewer to open and tapping one did nothing. Give each one the
+    // link the import would have: to its own address, which is already a
+    // 1200px Cloudinary delivery, plenty for the viewer.
+    //
+    // Posts only. Every other page's photos are thumbnails on cards that
+    // either link somewhere already or are sized by their card, and wrapping
+    // those would change their layout. Anything already inside a link is
+    // left alone, and so is anything not hosted where post photos live
+    // (the follow.it logo in the sign-up box, say).
+    if (document.body.classList.contains("layout--post")) {
+      document.querySelectorAll(CONTENT + " img").forEach(function (img) {
+        if (img.closest("a")) return;
+        var src = img.getAttribute("src");
+        if (!isImageHref(src)) return;
+        var a = document.createElement("a");
+        a.href = src;
+        a.className = "body-photo-link";
+        img.parentNode.insertBefore(a, img);
+        a.appendChild(img);
+      });
+    }
+
     var links = [];
     document.querySelectorAll(CONTENT + " a").forEach(function (a) {
       // Only links that actually wrap an image and point at an image.

@@ -1278,6 +1278,36 @@ a {
   margin: 0;
 }
 
+// Galleries of one to three photos (count class from gallery_block.rb).
+// The grid above is sized for a page of photos: 160px tiles, as many as fit.
+// Given only one or two, it still made 160px squares and left the rest of
+// the row empty, so a single photo came out as a small cropped tile.
+//
+// Two or three: one row, shared equally, still square tiles.
+.inline-gallery--n2 { grid-template-columns: repeat(2, 1fr); }
+.inline-gallery--n3 { grid-template-columns: repeat(3, 1fr); }
+
+// One: shown like any other photo in the post — whole, at its own shape,
+// centred, no taller than a body photo (60vh) — and still tappable.
+.inline-gallery--n1 {
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.page__content .inline-gallery--n1 .inline-gallery-link {
+  aspect-ratio: auto;
+  max-width: 100%;
+  background: none;
+  border: 0;
+
+  img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 60vh;
+    object-fit: contain;
+  }
+}
+
 // Renamed from <p> to <figcaption> — keeps the same visual style.
 .inline-gallery-caption {
   display: block;
