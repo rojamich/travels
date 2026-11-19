@@ -38,7 +38,7 @@ I was even able to spot a penguin swimming through crystal-clear water!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795112792%2Fnvdxjji9ikwowvdfifxc.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795112798%2Fgor4r4jcdiet0k6hzc1z.jpg%22%7D%5D%2C%22caption%22%3A%22The%20water%20looks%20like%20it%20should%20be%20dark%2C%20right%3F%22%7D %}
 
-Properly adopted, we shared meals with Elizabeth's family, as well as our friends from Australia (Jin & Jenny) and our friends from New Zealand (Tim & Julia).
+Properly adopted, we shared meals with Elizabeth's family, as well as our friends from Australia (Jin & Jenny) and our friends Tim & Julia, who are microbiologists!
 
 After a hearty breakfast, we geared up and got in line to load into a zodiac that would take us to shore. The food has been good and plentiful! I’m relieved that it hasn’t been the average-to-bad normal cruise food. I have so many options for things I am willing to try!
 
@@ -73,6 +73,8 @@ Can you tell how excited we are to be on our seventh continent??
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1794998179/ykqol7gsnwiw7dcpsig8.jpg)
 
 It was time to line up for the polar plunge! Actually, we were lined up really early, ready to knock it out! We had all our warm gear ready and suits on under our clothes.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795119207/kdxkbrjvzl3silgmn2ay.heic)
 
 That's when a leopard seal showed up…
 
