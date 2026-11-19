@@ -22,8 +22,8 @@ tags:
 new_tags: []
 location:
   name: Petermann island, antarctica
-  lat: -65.1667
-  lng: -64.1667
+  lat: -65.17249298095703
+  lng: -64.14290618896484
 stay: night
 toc: false
 ---
