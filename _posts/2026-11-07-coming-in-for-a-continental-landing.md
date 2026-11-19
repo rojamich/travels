@@ -30,37 +30,34 @@ The weather began to make trouble for the expedition, and we had to change landi
 
 We pulled up to Paradise Bay and the poor weather was threatening! We were told that there was a snow slide at the very top, halfway up was a photo op with the Antarctica flag, and the bottom had penguins for admiring!
 
-**\[photos incoming asap!]**
-
-
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795113090%2Fxavlcwt5xg7b2ji58v04.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795113087%2Fcusdvy5gjbsrw5jlvovb.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795113519%2Fcmccqhmok7zj2hwcpxen.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We debated for a moment and decided we would hurry to the flag before we had to be back at the zodiac (30 minutes only!)
 
 We were the second-to-last individuals to be photographed before they shut down the landing and hurried us all to the zodiac!
 
-**\[photos incoming asap!]**
-
-
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795113151/db1ngf8ger4isuct16op.jpg)
 
 The snow really began to come down, and I used this time to taste Antarctic snowflakes ❄️
-**\[photo incoming asap!]**
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795113210/ackdocxxplgnjkjpih2l.jpg)
 
 While we waited for the zodiac we saw another curious seal! How neat does he look moving through the water🦭🌊??
 
-**\[video incoming asap!]**
-
-
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795113265%2Fd6mgmchnjgskf1iyhttk.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795113263%2Fpbmow1efzpzi8nia1b6q.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 There was a directional signpost at the landing zone and I love those! Look how many point in one direction, haha, we are ***very*** south!
 
-**\[photo incoming asap!]**
-
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795113472/iobevrhtatrodhgmdh0f.jpg)
 
 The zodiacs were struggling to get through the icy water, and it was crazy to watch them try to find a path to us. We were wondering if we were going to have to shelter in one of the buildings overnight!
 
-**\[video incoming asap!]**
-
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FxghFc3ztxYM%22%7D %}
 
 We finally did make it to the ship and enjoyed a good dinner. The snow came down like crazy today!
 
-**\[photos incoming asap!]**
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795113670%2Fwn6jftubue5ee2ibneib.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795113682%2Flj1qxngtmrt9msro3m8z.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795113664%2Fyzaxq5qolbwcoictabn5.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We were grateful to feel good enough to start going to the evening debriefings where Pippa would give a run down of the day — what we did, where we went, what we saw, diversions and the plan for tomorrow. Ahead of the meeting, we got to hang out with our adopted family and they got some fun game time in!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795113999/dtl6htz0bjkrn3if7xpm.jpg)
