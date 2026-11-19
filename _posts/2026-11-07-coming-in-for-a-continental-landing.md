@@ -32,7 +32,7 @@ We pulled up to Paradise Bay and the poor weather was threatening! We were told 
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795113090%2Fxavlcwt5xg7b2ji58v04.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795113087%2Fcusdvy5gjbsrw5jlvovb.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795113519%2Fcmccqhmok7zj2hwcpxen.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-We debated for a moment and decided we would hurry to the flag before we had to be back at the zodiac (30 minutes only!)
+We debated for a moment and decided we would hurry to the flag before we had to be back at the zodiac (30 minutes only!) We heard Pippa over the radio discussing the impending stormy weather and how we may have to do an emergency evacuation!
 
 We were the second-to-last individuals to be photographed before they shut down the landing and hurried us all to the zodiac!
 
@@ -46,11 +46,13 @@ While we waited for the zodiac we saw another curious seal! How neat does he loo
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795113265%2Fd6mgmchnjgskf1iyhttk.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795113263%2Fpbmow1efzpzi8nia1b6q.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FURAq1G-fWYQ%22%7D %}
+
 There was a directional signpost at the landing zone and I love those! Look how many point in one direction, haha, we are ***very*** south!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795113472/iobevrhtatrodhgmdh0f.jpg)
 
-The zodiacs were struggling to get through the icy water, and it was crazy to watch them try to find a path to us. We were wondering if we were going to have to shelter in one of the buildings overnight!
+The zodiacs were struggling to get through the icy water, and it was crazy to watch them try to find a path to us. They really had to cut through the ice to try and create a path. Pippa finally advised them to converge into one line to be most efficient. We were wondering if we were going to have to shelter in one of the buildings overnight!
 
 {% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FxghFc3ztxYM%22%7D %}
 
