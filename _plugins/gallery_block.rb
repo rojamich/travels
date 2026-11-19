@@ -111,7 +111,11 @@ module Jekyll
       # The previous structure (<div> followed by sibling <p>) sometimes had
       # Kramdown wrap the <p> incorrectly when the gallery had only one
       # photo, causing the caption to disappear.
-      html = %(<figure class="inline-gallery-figure"><div class="inline-gallery">#{tiles}</div>)
+      # A few photos shouldn't sit in a grid sized for many. The count class
+      # lets main.scss give one photo the full width at its own shape, and
+      # two or three a row they fill. Four or more keep the usual grid.
+      count_class = items.size <= 3 ? " inline-gallery--n#{items.size}" : ""
+      html = %(<figure class="inline-gallery-figure"><div class="inline-gallery#{count_class}">#{tiles}</div>)
       unless caption.empty?
         html += %(<figcaption class="inline-gallery-caption">#{CGI.escapeHTML(caption)}</figcaption>)
       end
