@@ -14,10 +14,10 @@ header:
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795197560/gwgpljwv2znwtbshfduu.jpg
 tags:
   - Hiking
-  - Friends
   - Adventure
   - Nature
   - Wildlife
+  - Birds
 new_tags: []
 location:
   name: Danco Island, Antarctica
