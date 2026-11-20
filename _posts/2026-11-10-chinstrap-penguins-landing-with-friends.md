@@ -19,6 +19,10 @@ tags:
   - Ocean
   - Friends
 new_tags: []
+location:
+  name: Orne Harbor, Antarctica
+  lat: -64.616667
+  lng: -62.533333
 stay: night
 toc: false
 ---
