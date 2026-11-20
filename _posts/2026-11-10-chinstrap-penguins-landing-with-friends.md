@@ -61,3 +61,7 @@ We saw something odd and red floating in the water... I asked our guide what it 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795199938/yjjecyyvhpk8gzaf2mqx.jpg)
 
 The ship was doing a man overboard drill! I suspect we would not live because we never did see someone recover him lol!
+
+That evening, Mike caught another gorgeous sunset! Look at those colors 🌅
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795200141%2Fmntqfgbpgcyibrs9glrs.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795200149%2Fzmpjjvsdmcn1edatuvc3.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
