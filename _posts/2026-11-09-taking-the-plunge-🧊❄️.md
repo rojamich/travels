@@ -95,7 +95,7 @@ They called us by deck so deck three went first. The waiting felt like eternity 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795191808/m3r5w4kiigistplyyj7r.heic)
 
-Pre-dive! We couldn't dive together but they let us watch each other dive which was so sweet and really fun to support each other that way! Elizabeth, Jeannette, and Peggy were all watching, photographing, and videoing us in support 💗👏🏻📢
+Pre-dive! We couldn't dive together but they let us watch each other dive which was so sweet and really fun to support each other that way! Elizabeth, Jeanette, and Peggy were all watching, photographing, and videoing us in support 💗👏🏻📢
 
 We did rock, paper, scissors to see who would go first and Mike won so he'd be going first. He would sprint to the shower after and start thawing and I would run in after him. As we lined up in the open doorway, it was FREEZING 🥶 and I did some squats to keep warm. A girl finished hers and said it really wasn't cold, just go fast. Yeah, ok crazy lady. But then Elizabeth came to wish us luck and said it wasn't bad either! 
 
@@ -163,8 +163,16 @@ Later, we were approached by a shipmate who had filmed us in slomo which looked 
 
 We are so glad we got to experience this crazy bucket list accomplishment and it wasn't bad at all! Actually, the plunge we did in Norway was infinitely worse!
 
-That night, during the debrief of the day, we learned about the odd shape of seal teeth!
+The shower still felt pretty good but I wasn't in there for an hour as I thought I would be 🤣
+
+We headed upstairs for the debrief and you could FEEL the energy in the lounge. Everyone was buzzing with excitement and sharing photos and tales from their experience diving. 
+
+After talking about the day, we had a lesson on seals where we learned about the odd shape of seal teeth!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795195195/gpsjoyzw18rt8z7kfyjk.jpg)
 
 These are shaped this way to act as a sieve, trapping the crustaceans their mouth but keep the water flowing out through the teeth — yikes!
+
+That's when Pippa broke the news, we had a MAJOR storm coming our way. We would have a landing tomorrow but we would have to head back to Ushuaia after that (about a day early). A quote from Band of Brothers was ringing in my ears, "That's why they gave us ice cream." Meaning, we were probably allowed to do the plunge that way to soften the blow of returning early. 
+
+Other than camping, we had accomplished everything we set out to do with this expedition. With the weather we'd been having, we figured camping would be a stretch anyways. Everyone was really supportive and even asked about heading back earlier because the drake shake would be even worse than on our way down 🤮Wish us luck!
