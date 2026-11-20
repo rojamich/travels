@@ -16,6 +16,7 @@ tags:
   - Adventure
   - Nature
   - Birds
+  - Bucketlist
 new_tags: []
 location:
   name: Andvord Bay, Antarctica
