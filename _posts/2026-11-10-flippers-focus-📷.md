@@ -75,3 +75,5 @@ It really was a beautiful view from the top 🗻
 But I have to wonder what Mike did to earn this guy's steaming glare 😤
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795198458/eav6l6hhhzasl64pvs1y.jpg "He's coming for you!")
+
+We met back on the ship for lunch and got ready for our afternoon landing 🐧🐧
