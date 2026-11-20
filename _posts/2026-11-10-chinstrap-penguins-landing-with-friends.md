@@ -25,3 +25,9 @@ toc: false
 This afternoon was another continental landing so we lined up right away to get another good shot with the Antarctica flag!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795196924/tzqaa9zrlst58eytg2vv.jpg)
+
+I knew I wasn't feeling good enough to hike again so Mike went up while I kept the camera for the zodiac cruise to see the chinstrap penguins! 
+
+Elizabeth and Jeanette came in on the next zodiac and we were able to grab a photo! I can't believe Mike, Elizabeth and I have been to ***three*** continents together!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795199188/opdl8ptxeeqdhvkwre42.jpg)
