@@ -34,7 +34,7 @@ We lined up for the zodiacs and were surprised by another whale sighting! It was
 
 There were tons of gentoo penguins on the island and we think they are so darn cute!
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2232%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795196201%2Fgwyhxnpr1vqeqhipv4qf.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%220%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795197057%2Fqbhetgz0i0zphvkjfzly.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2269%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795196201%2Fgwyhxnpr1vqeqhipv4qf.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%220%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795197057%2Fqbhetgz0i0zphvkjfzly.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 Thanks to the incline, we got to see the penguins sliding down the hills and even chasing each other! It was so cool to see the snowy action shots 📷📹
 
@@ -56,7 +56,7 @@ Look at the drip coming off his beak! I would've totally missed that.
 
 This is another really detailed shot I liked.
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795197657/mzf4qjvuwzjuomaonerq.jpg)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795197657/mzf4qjvuwzjuomaonerq.jpg "Us as penguins 💗")
 
 I made it down to the zodiac where I loaded up with Pippa to be taken back to the boat. I was feeling down and embarrassed but, just then, a whale appeared in front of it! I didn't have my camera (naturally) but Pippa and I were able to sit there and enjoy the gorgeous gift. She said it was a baby!
 
