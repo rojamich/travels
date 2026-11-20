@@ -66,4 +66,8 @@ By some miracle! Mike saw it from above!!
 
 It really was a beautiful view from the top 🗻
 
-![]()
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795198462/j1ptroqsu4odkey1u3mw.jpg)
+
+But I have to wonder what Mike did to earn this guy's steaming glare 😤
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795198458/eav6l6hhhzasl64pvs1y.jpg "He's coming for you!")
