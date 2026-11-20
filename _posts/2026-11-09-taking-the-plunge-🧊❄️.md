@@ -34,7 +34,7 @@ I came back on deck after my workout, shower and breakfast and, of course, they 
 
 We loaded up into zodiacs and were privileged to have Gonzo as our guide. He's so passionate and excited about Antarctica so it was really fun to be with a guide in that mindset! 
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795191199%2Fmlasius7cvqteyet5la8.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795191192%2Fsrghzvpw5xaxqafbh756.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795191199%2Fmlasius7cvqteyet5la8.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795195367%2Ffpe1dyi39gwmbuecyi1b.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795191192%2Fsrghzvpw5xaxqafbh756.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 Gonzo took us around the unique glaciers and I thought this one looked like a damaged bullet 🔫
 
@@ -116,6 +116,54 @@ and dove like he was on assignment back in the military lol
 
 {% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FzBORm-SUUhM%22%7D %}
 
-I love how happy he looks! 
+I love how happy he looks and the snow falling really accentuates the experience ❄️
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795193341%2Fn3ommboy8lbbdxfsrycc.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795193339%2Fjga64ykhho61cm0wcazq.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+It felt like he was under for ***so long***!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795193168%2Fnywv7nu6km0wgzmbpfu0.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22I%20heard%20the%20staff%20very%20impressed%20by%20his%20complete%20lack%20of%20hesitation!%20%22%7D %}
+
+The current had started dragging him away and he was not roped back to the boat as promised. Thankfully, he gripped the ladder and drug himself back on the gangway. 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795193172/t7tj5kskefbh96kgjbqg.jpg)
+
+I was grateful to have him back safely and Pippa quickly supplied him with a warm towel and I hurried to step up for my turn. 
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2FtEu7RxUwmUc%3Ffeature%3Dshare%22%7D %}
+
+They told me to smile at Martin and I honestly have no idea what I was doing here.
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795194178%2Fymjg3ummzp2zpjhq7xgp.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795194278%2Fd6lega1fjeoxa9rrgcwx.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+When have I EVER stuck my tongue out like that?? My only explanation is that my brain shut off from nervousness and I channeled my inner George Kittle.
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795194278%2Fd6lega1fjeoxa9rrgcwx.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795194400%2Fhyyxdsjc7o4bjshakqt0.jpg%22%7D%5D%2C%22caption%22%3A%22I%20recently%20traded%20for%20him%20in%20fantasy%20football%20so%20I'm%20pretty%20happy.%20%22%7D %}
+
+I jumped in before I could think about it too much and, again, I have no idea what this jump was. I reportedly looked like a mermaid which I'm pretty happy about.
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2FGYn_Ipbm3CM%22%7D %}
+
+That one looney girl was right, I didn't register the cold. My body shouted "GET OUT" at me which could've been about the cold just as easily as it could've been about being under water lol
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795194272%2Fey5fiaqgjh1h9juydojy.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795194274%2Fprbnomwt2nsm4zru6fg6.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795194275%2Fkscjq7cyhapvtnbtlqog.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+I loved Martin's photos and Gonzo seemed thoroughly entertained by my entrance 🤣🧜🏻‍♀️
+
+Here is our before and after dunking!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795191808%2Fm3r5w4kiigistplyyj7r.heic%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795194829%2Fwlqc8hqjcp2jvmcborf2.heic%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Later, we were approached by a shipmate who had filmed us in slomo which looked pretty cool!
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2FGcbeFeIkxBE%22%7D %}
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutube.com%2Fshorts%2FVBpsFA4CkXc%3Ffeature%3Dshare%22%7D %}
+
+We are so glad we got to experience this crazy bucket list accomplishment and it wasn't bad at all! Actually, the plunge we did in Norway was infinitely worse!
+
+That night, during the debrief of the day, we learned about the odd shape of seal teeth!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795195195/gpsjoyzw18rt8z7kfyjk.jpg)
+
+These are shaped this way to act as a sieve, trapping the crustaceans their mouth but keep the water flowing out through the teeth — yikes!
