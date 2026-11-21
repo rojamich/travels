@@ -61,4 +61,14 @@ It was summer when we stepped foot on our seventh continent together: only four 
 
 And, we thought it would be colder! After freezing our butts off in Alaska in March, we were just fine for Antarctica's summer. We'd had to decide when to see Antarctica too, November-February is their typical cruising season and that influences what you'll see. We opted for the pristine white landscapes of early season over the later season of seeing baby penguins but everything and most penguins being poo-saturated. 
 
-It was amazing to have it snow so often. Even though this changed our plans frequently, it made the experience more magical and it *felt* like what'd you expect of Antarctica.
+It was amazing to have it snow so often. Even though this changed our plans frequently, it made the experience more magical and it *felt* like what'd you expect of Antarctica. 
+
+The food was excellent and plentiful when we weren't surviving off saltines. They had vegan, vegetarian, gluten free and meat-filled option at most meals and I never skimped because of options. I found a cheese I fell in love with (Boursin) and had nutella toast alongside every breakfast. 
+
+The ship provided 1.5GB of free wifi a day and there were packages for purchase if you wanted more. We also had $100 USD credit each to spend on ship for drinks (alcohol or soft drinks), wifi, laundry, and souvenirs. The laundry was same say turn around and all we had to do was bag and itemize it — it was clean and ready at our cabin door when we returned from our afternoon activities!
+
+We are SO happy we embarked on this journey. Was the drake hard? Yes, it was miserable, but was it worth it?
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795121880%2Fiydqfkipfy29o6cd6fye.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794152390%2Fqllm7vmhr6bpliwuj2rt.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795112768%2Fsswvswdealztx6jlh8ok.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795189493%2Ffz1bplwqxg773xemdsx5.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+A million times yes. Absolutely!! 🥾
