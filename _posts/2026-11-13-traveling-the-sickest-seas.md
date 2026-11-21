@@ -54,14 +54,14 @@ We packed our bags and Mike played cards until the wee hours, knowing it'd be ou
 
 Here is a list of all the books I finished on the cruise!
 
-1. Isn't it Bromantic by Lyssa Kay Adams
-2. The Midnight Lock by Jeffrey Deaver
-3. One Day, Everyone Will Have Always Been Against This by Omar El Akkad
-4. The Bodyguard by Katherine Center
-5. Wild: From Lost to Found on the Pacific Crest Trail by Cheryl Strayed Knopf
-6. Part of Your World by Abby Jimenez
-7. Book Lovers by Emily Henry
-8. People You Meet on Vacation by Emily Henry
+1. [Isn't it Bromantic by Lyssa Kay Adams](https://www.goodreads.com/en/book/show/55470802-isn-t-it-bromantic)
+2. [The Midnight Lock by Jeffrey Deaver](https://www.goodreads.com/book/show/58985537)
+3. [One Day, Everyone Will Have Always Been Against This by Omar El Akkad](https://www.goodreads.com/en/book/show/213870084-one-day-everyone-will-have-always-been-against-this)
+4. [The Bodyguard by Katherine Center](https://www.goodreads.com/book/show/58724801-the-bodyguard)
+5. [Wild: From Lost to Found on the Pacific Crest Trail by Cheryl Strayed Knopf](https://www.goodreads.com/en/book/show/12262741-wild)
+6. [Part of Your World by Abby Jimenez](https://www.goodreads.com/en/book/show/58684524-part-of-your-world)
+7. [Book Lovers by Emily Henry](https://www.goodreads.com/en/book/show/58690308-book-lovers)
+8. [People We Meet on Vacation by Emily Henry](https://www.goodreads.com/en/book/show/55076069-people-we-meet-on-vacation)
 
 While being sick was decisively miserable, the reading results were a fun bonus. I don't read many audiobooks so I'm really grateful I have so many Libby options and that the technology allowed me to have a great distraction. 
 
