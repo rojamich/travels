@@ -1170,6 +1170,9 @@ collections:
       - label: "Nomadic New Zealand Adventure 2022"
         field: categories
         pattern: "new-zealand"
+      - label: "Our Spanish Home"
+        field: categories
+        pattern: "our-spanish-home"
       - label: "Party in the USA"
         field: categories
         pattern: "party-in-the-usa"
