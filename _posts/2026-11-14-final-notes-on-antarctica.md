@@ -71,4 +71,10 @@ We are SO happy we embarked on this journey. Was the drake hard? Yes, it was mis
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795121880%2Fiydqfkipfy29o6cd6fye.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1794152390%2Fqllm7vmhr6bpliwuj2rt.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795112768%2Fsswvswdealztx6jlh8ok.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795189493%2Ffz1bplwqxg773xemdsx5.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-A million times yes. Absolutely!! 🥾🐧🛶🗻
+A million times yes. Absolutely!! 🥾🐧🛶🗻 
+
+If we could change anything about the journey it would probably be to bring heaters for my toes (like hot packs) and another camera body for both of my lenses so I could go back and forth without having to choose a lens for the day. Of course, we'd change the seasickness if we could, but we did everything in our power to stay well. 
+
+Overall it was an incredible adventure! We got to visit places we never considered like the southern-most postal office 📬Learned what sea ice sounds like when you kayak through it 🛶We saw *so* much wildlife — surpassing our wildest expectations with the whales 🐳and fearlessly dived into the icy waters of the Antarctic ocean 🌊 
+
+Thank you immensely for joining us on this journey of a lifetime! Please join us for our next adventure: Our Spanish Home. We'll see you there 🙋🏻‍♂️🙋🏻‍♀️
