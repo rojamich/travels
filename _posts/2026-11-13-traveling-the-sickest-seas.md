@@ -17,6 +17,9 @@ tags:
   - Food
   - Friends
   - Ocean
+  - Books
+  - IceCream
+  - Reading
 new_tags: []
 stay: night
 toc: false
@@ -41,10 +44,25 @@ The evening of the 14th gave us shelter from the wailing winds that had cursed u
 
 The walls were lined with a guide's (Bill) drawings. He's so creative!
 
-{% gallery_block %7B%22photos%22%3A%5B%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795242036%2Fyzzsezoqgjcv4fsp7uw2.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795244035%2Fgvv7bzxsozeknoq1utvo.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795244036%2Fmxjczwv1viekhdb6ixcm.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795244039%2Fnvcqow8deu4rmeoliia8.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 Could we make it to dinner without an emergency bathroom trip? Carefully, we plodded down the hallway with hope in our hearts and hunger in our bellies. We ate greedily and grateful to be back with everyone!
 
 That evening we tried a new dessert called the Baked Alaskan and were surprised by the ice cream flavors, strawberry, coffee, and banana?? Everything was a blissful, tummy relieving blessing and we were grateful to once again be among the living.
 
 We packed our bags and Mike played cards until the wee hours, knowing it'd be our last with our friends for awhile — we hope to see even more continents with them!
+
+Here is a list of all the books I finished on the cruise!
+
+1. Isn't it Bromantic by Lyssa Kay Adams
+2. The Midnight Lock by Jeffrey Deaver
+3. One Day, Everyone Will Have Always Been Against This by Omar El Akkad
+4. The Bodyguard by Katherine Center
+5. Wild: From Lost to Found on the Pacific Crest Trail by Cheryl Strayed Knopf
+6. Part of Your World by Abby Jimenez
+7. Book Lovers by Emily Henry
+8. People You Meet on Vacation by Emily Henry
+
+While being sick was decisively miserable, the reading results were a fun bonus. I don't read many audiobooks so I'm really grateful I have so many Libby options and that the technology allowed me to have a great distraction. 
+
+Additionally, the trip was so very worth it, but I'll say more about that in our wrap up post 📝
