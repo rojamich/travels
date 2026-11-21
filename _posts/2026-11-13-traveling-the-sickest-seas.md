@@ -21,6 +21,10 @@ tags:
   - IceCream
   - Reading
 new_tags: []
+location:
+  name: End of Drake's Passage
+  lat: -59
+  lng: -64.5
 stay: night
 toc: false
 ---
