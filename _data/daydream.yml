@@ -1,9 +1,5 @@
 intro: Where we're hoping to wander next...
 upcoming:
-  - country: Spain
-    why: Tapas, the Architecture, Historical Sites, Flamenco, and Kelli is coming to
-      visit!!!
-    when: November '26 - January '27
   - cover_focal_x: 50
     cover_focal_y: 50
     country: Morocco
@@ -25,6 +21,14 @@ upcoming:
     why: The Great Migration! Fulfilling dreams to see Africa's wildest animals in
       their natural habitat and watch them cross country lines 🤯
     when: July '27
+  - cover_focal_x: 50
+    cover_focal_y: 50
+    country: Kenya
+    why: Continuing on our pursuit of the Great Migration! This trip will take us
+      through border crossings on a grand adventure to see the wildest animals
+      that Africa has to offer 🦏🦒🐘
+    when: July/Aug '27
+    cover: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/330px-Flag_of_Kenya.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
 queue:
   - country: China
     why: The unreal landscapes, endless wonders, and amazing cities!
@@ -32,8 +36,13 @@ queue:
   - country: Portugal
     why: Dramatic cliffs (yes, Jenna's excited to cliff-jump finally!), hiking the
       Azores, volcanic lakes... we may not come back!
-  - country: Chile
-    why: Patagonia, please!
   - country: Ecuador
     why: The biggest bucket list item that hasn't been booked yet. The unreal
       diving, wildest nature, and untamed wildlife!
+  - cover_focal_x: 50
+    cover_focal_y: 50
+    country: Brazil
+    why: Another trek through the Amazon is in order to see anacondas 🐍 Iguazu
+      Falls deserves to be seen from both sides, and how could we miss seeing
+      Rio with the Christ the Redeemer Statue?!
+    cover: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/330px-Flag_of_Brazil.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
