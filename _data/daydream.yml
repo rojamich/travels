@@ -36,7 +36,7 @@ queue:
   - country: Portugal
     why: Dramatic cliffs (yes, Jenna's excited to cliff-jump finally!), hiking the
       Azores, volcanic lakes... we may not come back!
-    cover: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/330px-Flag_of_Portugal.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+    cover: ""
   - country: Ecuador
     why: The biggest bucket list item that hasn't been booked yet. The unreal
       diving, wildest nature, and untamed wildlife!
@@ -46,4 +46,4 @@ queue:
     why: Another trek through the Amazon is in order to see anacondas 🐍 Iguazu
       Falls deserves to be seen from both sides, and how could we miss seeing
       Rio with the Christ the Redeemer Statue?!
-    cover: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/330px-Flag_of_Brazil.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail
+    cover: ""
