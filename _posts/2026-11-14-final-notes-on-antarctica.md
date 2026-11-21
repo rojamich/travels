@@ -77,4 +77,4 @@ If we could change anything about the journey it would probably be to bring heat
 
 Overall it was an incredible adventure! We got to visit places we never considered like the southern-most postal office 📬Learned what sea ice sounds like when you kayak through it 🛶We saw *so* much wildlife — surpassing our wildest expectations with the whales 🐳and fearlessly dived into the icy waters of the Antarctic ocean 🌊 
 
-Thank you immensely for joining us on this journey of a lifetime! Please join us for our next adventure: Our Spanish Home. We'll see you there 🙋🏻‍♂️🙋🏻‍♀️
+Thank you immensely for joining us on this journey of a lifetime! Please join us for our next adventure: [Our Spanish Home](https://where-in-the-world-are-mike-and-jen.netlify.app/our-spanish-home/). We'll see you there 🙋🏻‍♂️🙋🏻‍♀️
