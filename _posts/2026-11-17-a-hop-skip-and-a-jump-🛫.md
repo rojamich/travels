@@ -48,7 +48,7 @@ We caught the free shuttle to the hotel only 15 minutes away. We didn't have to 
 
 It was hard to drag ourselves out of bed this morning but we managed it! Packed up again, we headed to the shell gas station next door for plane snacks! We grabbed the free shuttle back to the airport to fly to Madrid, Spain! The airport lounge was HUGE. Massive food bar, shower, and tons of comfy chairs. Too bad we didn't have longer to enjoy it! There was also a very loud family in there 😔
 
-Coffee in tow, we were off to board ⏰ After handing over our passports, we were asked for our return (home) flights as proof we would be leaving the country... Um we don't have flights.. We are heading to Gibraltar by train and then Morocco by ferry... We tried asking if they wanted airbnb reservations and they ended up settling for our flight from Morocco to Georgia (whew 😅)
+Coffee in tow, we were off to board ⏰ After handing over our passports, we were asked for our return (home) flights as proof we would be leaving the country... Um we don't have flights.. We are taking a train to the south of Spain and then Morocco by ferry... We tried asking if they wanted airbnb reservations and they ended up settling for our flight from Morocco to Georgia (whew 😅)
 
 Completely spoiled, we were in for another lie-flat flight!
 
@@ -66,7 +66,7 @@ I ended up taking a long nap but couldn't sleep for a long time after that! It w
 
 Well... we had hydrated ✅, ate well ✅... where's my sleep?!
 
-Mike enjoyed the movie \_\_\_ on the flight and was reading \_\_\__.
+Mike enjoyed the new spiderman movie on the flight and was reading [The Dungeon Anarchist's Cookbook ](https://www.goodreads.com/book/show/211721809-the-dungeon-anarchist-s-cookbook)by Matt Dinniman
 
 I was reading [Dead Mountain](https://www.goodreads.com/en/book/show/17557470-dead-mountain) by Donnie Eichar which was a fascinating book on Russian hikers that died mysteriously. When I still couldn't sleep, I read [Yours Truly](https://www.goodreads.com/en/book/show/61918816-yours-truly) (the next book in the series) by Abby Jimenez. Also, AMAZING book. I gobbled it up!
 
