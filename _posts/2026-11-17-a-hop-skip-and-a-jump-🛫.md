@@ -72,4 +72,16 @@ I was reading [Dead Mountain](https://www.goodreads.com/en/book/show/17557470-de
 
 Before we knew it, we were landing in Madrid. Could we take another lap, Mr. Pilot? Mr. Pilot says no. We shuffled off the plane and onto an airport bus to get to the terminal where we took approximately 30 seconds to get through a facial recognition passport control 🤯 It was amazing. 
 
-This airport is MASSIVE and the bus between terminal 1- Terminal 4 takes ten minutes! That's insane for an airport distance! It was less amazing that we landed at 5am local time and the airport lounge was booked solid til 1030am. 😩 Worse still, our hotel didn't have early check-in and we couldn't tack on another night for cost because they were fully booked. Filled with jetlag and frustration, Mike got us onto the airport
+This airport is MASSIVE and the bus between terminal 1- Terminal 4 takes ten minutes! That's insane for an airport distance! It was less amazing that we landed at 5am local time and the airport lounge was booked solid til 1030am. 😩 Worse still, our hotel didn't have early check-in and we couldn't tack on another night for cost because they were fully booked. Filled with jetlag and frustration, Mike got us onto the airport train that led us into the city. We transferred to another train that led to our hotel and stepped out into the square.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795456793/zydoju2o0hmmq4vyqxfl.jpg)
+
+It's officially Christmas season over here! Pretty cool to see the tree being constructed 🌲🎄Our hotel offered to let us store our bags while we sought nourishment so we ditched our big ones and kept our small laptop bags to find a spot to work. 
+
+Like a beacon of hope, Starbucks was a two minute walk from our hotel and OPEN 👐🏻☕😮‍💨
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795456809/nn1coqwnq3qldgmsv92v.jpg)
+
+At 8am, the rest of the city was absolutely still asleep. We worked and replenished ourselves happily in the warmth. Its actually pretty chilly here 10°c (50s f) and overcast. Mike unintentionally slipped into a nap and woke up 10 minutes later shocked with himself 😅
+
+Around noon, we packed up and hauled ourselves over to the taco bell 🔔 a few doors down. It was quite terrible. One of the biggest regret meals so far on this journey. Nothing like US TB so I still haven't learned. We walked over to our hotel and read books in the lobby until our room was ready (thankfully super early). We showered and crashed for a couple hours to catch up on rest 💤 But hey, we are in SPAIN! 😍
