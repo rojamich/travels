@@ -12,9 +12,50 @@ header:
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795452451/n3ob1af3d1r8uwyszcta.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795452447/atzujoh9ylygitobgzxi.jpg
-tags: []
+tags:
+  - Food
+  - Flights
+  - Europe
+  - Coffee
+  - Christmas
+  - SouthAmerica
+  - Markets
+  - Books
+  - Reading
 new_tags: []
+location:
+  name: Madrid, Spain
+  lat: 40.416782
+  lng: -3.703507
 stay: night
 toc: false
 ---
-draft
+This morning was a relaxed one, and thankfully so because we stayed up watching football the night before! Our flight wasn't until this evening so we had time to get ready, pack, and get to a coffee shop to work. 
+
+I got a lot of grading done and some of the blog worked on which was *really* nice before a lot of traveling to our next continent 🗺️✈️
+
+Our uber drove like he was late for work but thankfully it was a short ride to the airport! We had time to relax in the lounge as well, here in Ushuaia — it was so surprising that they had one! It's such a tiny airport! Understandably, it was tiny. Mike somehow found us seats together and we were able to get back to work 📝
+
+We had a 3.5 hour flight and one row apart, in aisle seats. It was a flight full of reading! I saw SO many people reading kindles, including all three of us in my row! I got to chatting with them, they're from North Carolina and had come down to hike Patagonia! I got to finish my book: [Part of Your World by Abby Jimenez](https://www.goodreads.com/en/book/show/58684524-part-of-your-world) which was amazing and she's one of my favorite authors!
+
+We arrived in Buenos Aires around 830pm and had the worst dinner at outback steakhouse. When will I realize that the meals in the US are not the same overseas?? 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795454757/mh93cgz5rusiupqcuhlc.jpg)
+
+The fries were a redeeming quality, super-seasoned and soft!
+
+We caught the free shuttle to the hotel only 15 minutes away. We didn't have to go all the way into BA for the night. It was a quick turnaround but at least we finally had a big bed after sleeping in twin beds for a few weeks! The air conditioner was wonderful too 🪭
+
+It was hard to drag ourselves out of bed this morning but we managed it! Packed up again, we headed to the shell gas station next door for plane snacks! We grabbed the free shuttle back to the airport to fly to Madrid, Spain! The airport lounge was HUGE. Massive food bar, shower, and tons of comfy chairs. Too bad we didn't have longer to enjoy it! There was also a very loud family in there 😔
+
+Coffee in tow, we were off to board ⏰ After handing over our passports, we were asked for our return (home) flights as proof we would be leaving the country... Um we don't have flights.. We are heading to Gibraltar by train and then Morocco by ferry... We tried asking if they wanted airbnb reservations and they ended up settling for our flight from Morocco to Georgia (whew 😅)
+
+Completely spoiled, we were in for another lie-flat flight!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795455485%2Fdm3fiofciiumf5mcbayh.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Less than thrilled that the loud family was behind me... but that's what the noise-cancelling headphones are for, right??
+
+The stewardesses immediately served beverages and we perused the menu for dinner 🦐🍝
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795455622%2Fqoooexesnixxjb2yiaaz.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795455621%2Fzcv0qerbrvqf4vqfqt4s.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795455612%2Fqin4fjnqhcpmdi5meihb.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
