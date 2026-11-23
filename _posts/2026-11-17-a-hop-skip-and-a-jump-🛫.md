@@ -59,3 +59,17 @@ Less than thrilled that the loud family was behind me... but that's what the noi
 The stewardesses immediately served beverages and we perused the menu for dinner 🦐🍝
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795455622%2Fqoooexesnixxjb2yiaaz.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795455621%2Fzcv0qerbrvqf4vqfqt4s.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795455612%2Fqin4fjnqhcpmdi5meihb.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Mike got the braised chuck tender with potatoes, peppers, and bacon. I got the pumpkin & goat cheese pasta and we both received poached salmon (I quickly shuffled mine off to Mike as I'm only team salmon when it's in sushi lol). The cheese board was really good though and we know this because I ate it too fast to photograph it.
+
+I ended up taking a long nap but couldn't sleep for a long time after that! It was a 12 hour flight but took off around 1pm. We were really hoping to sleep, hydrate, and eat well to avoid jetlag.
+
+Well... we had hydrated ✅, ate well ✅... where's my sleep?!
+
+Mike enjoyed the movie \_\_\_ on the flight and was reading \_\_\__.
+
+I was reading [Dead Mountain](https://www.goodreads.com/en/book/show/17557470-dead-mountain) by Donnie Eichar which was a fascinating book on Russian hikers that died mysteriously. When I still couldn't sleep, I read [Yours Truly](https://www.goodreads.com/en/book/show/61918816-yours-truly) (the next book in the series) by Abby Jimenez. Also, AMAZING book. I gobbled it up!
+
+Before we knew it, we were landing in Madrid. Could we take another lap, Mr. Pilot? Mr. Pilot says no. We shuffled off the plane and onto an airport bus to get to the terminal where we took approximately 30 seconds to get through a facial recognition passport control 🤯 It was amazing. 
+
+This airport is MASSIVE and the bus between terminal 1- Terminal 4 takes ten minutes! That's insane for an airport distance! It was less amazing that we landed at 5am local time and the airport lounge was booked solid til 1030am. 😩 Worse still, our hotel didn't have early check-in and we couldn't tack on another night for cost because they were fully booked. Filled with jetlag and frustration, Mike got us onto the airport
