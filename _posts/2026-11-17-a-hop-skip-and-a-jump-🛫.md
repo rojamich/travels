@@ -72,7 +72,9 @@ I was reading [Dead Mountain](https://www.goodreads.com/en/book/show/17557470-de
 
 Before we knew it, we were landing in Madrid. Could we take another lap, Mr. Pilot? Mr. Pilot says no. We shuffled off the plane and onto an airport bus to get to the terminal where we took approximately 30 seconds to get through a facial recognition passport control 🤯 It was amazing. 
 
-This airport is MASSIVE and the bus between terminal 1- Terminal 4 takes ten minutes! That's insane for an airport distance! It was less amazing that we landed at 5am local time and the airport lounge was booked solid til 1030am. 😩 Worse still, our hotel didn't have early check-in and we couldn't tack on another night for cost because they were fully booked. Filled with jetlag and frustration, Mike got us onto the airport train that led us into the city. We transferred to another train that led to our hotel and stepped out into the square.
+This airport is MASSIVE and the bus between terminal 1- Terminal 4 takes ten minutes! That's insane for an airport distance! It was less amazing that we landed at 5am local time and the airport lounge was booked solid til 1030am. 😩 Worse still, our hotel didn't have early check-in and we couldn't tack on another night for cost because they were fully booked. Filled with jetlag and frustration, Mike got us onto the airport train that led us into the city. We then transferred to another another train that would lead us to our hotel. Three different sets of locals helped us with doors at the trains. Some of them take tap on your phone, some you just walk through, and others needed a preloaded special card. Without asking, they saw us confused and immediately jumped in to help. One of them was a little boy who saw us and said, just walk through, in Spanish! It was the cutest little thing 🥹
+
+Successfully through all the transportation types ✈️🚏🚉🚃 we stepped out into the square.
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795456793/zydoju2o0hmmq4vyqxfl.jpg)
 
