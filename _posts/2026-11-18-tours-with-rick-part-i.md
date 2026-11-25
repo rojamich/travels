@@ -32,7 +32,7 @@ There was a cute NY bagel place nearby we decided to try as we’ve both been cr
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795606519/vwmx6fxqqspe3fefsiqb.jpg)
 
-They were both good sandwiches but the bagels weren’t very bagely. I’m not sure how to describe it but the bread didn’t taste like bagel-bread? Either way, I was grateful for the protein. Not many places were open this early (9am) and we were scheduled for a full day of tours 🚶🏻‍♀️‍➡️🚶🏻‍♂️‍➡️
+They were both good sandwiches but the bagels weren’t very bagely. I’m not sure how to describe it but the bread didn’t taste like bagel-bread? Either way, I was grateful for the protein as we were scheduled for a full day of tours 🚶🏻‍♀️‍➡️🚶🏻‍♂️‍➡️
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606517%2Fyow9atsuumnz4pdplxqj.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606530%2Fhpbaaptv9am1anorzipn.jpg%22%7D%5D%2C%22caption%22%3A%22I%20also%20tried%20the%20frozen%20blueberry%20lemonade%20(it%20was%20really%20good)%20and%20Mike%20had%20the%20coffee.%22%7D %}
 
@@ -64,7 +64,6 @@ Did you know that Madrid wasn’t Spain’s first capital city? It used to be in
 
 This is a pretty commercialized area and a really popular and well-known marker is the “Tio Pepe sign” hes been advertising the local sherry since the 1930s, can you believe that’s almost 100 years ago?
 
-
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606938%2Ffiibtzyfcsl8w5inobc8.jpg%22%7D%2C%7B%22x%22%3A%2248%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606928%2Fs1lcreqbjsissk7s3z5s.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 This pastry shop was founded in 1894 (holy crap!) and it was poppin' inside! 
@@ -76,7 +75,6 @@ I love how Christmassy everything is deocrated here!
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795607049/nmqssefkmjwtogxznbtj.jpg)
 
 We split a chocolate napolitana (what they’re most famous for) and I usually dont like croissant type pastries but this one was delightful! 
-
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607199%2Fqxwzx3akonmneezqeky1.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607198%2Frfpm1lehl420wbwswjuu.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
