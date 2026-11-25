@@ -1137,6 +1137,21 @@ a {
 }
 
 // -----------------------------------------------------------------------------
+// ROUNDED CORNERS — every photo in a post, to match the gallery tiles (8px)
+// -----------------------------------------------------------------------------
+// Gallery tiles were already rounded by their frame; photos on their own,
+// captioned or not, imported or added in the editor, had square corners.
+//
+// Matched by where post photos are hosted, and only on posts, because
+// `.page__content img` is also every flag, logo and card thumbnail on the
+// site and those have shapes of their own. Gallery tiles are left to their
+// frame, which does the clipping there.
+.layout--post .page__content :not(.inline-gallery-link) > img[src*="res.cloudinary.com"],
+.layout--post .page__content :not(.inline-gallery-link) > img[src*="blogger.googleusercontent.com"] {
+  border-radius: 8px;
+}
+
+// -----------------------------------------------------------------------------
 // FIXED-HEIGHT CARD THUMBNAILS — must fill and crop, not letterbox.
 // -----------------------------------------------------------------------------
 // `.page__content img` above sets height:auto + object-fit:contain for inline
@@ -1292,9 +1307,8 @@ a {
 //
 // Every tile stays SQUARE on purpose. Position Photo sets where a photo
 // sits inside its crop, and that only means the same thing while the crop
-// keeps its shape. A wide strip here (tried 2026-11-19) cropped top and
-// bottom where she had framed side to side, and quietly undid her setting
-// on 43 photos.
+// keeps its shape. A wide strip here (tried 2026-11-19) put 43 photos she
+// had positioned into a different crop, 27 of them framed side to side.
 @media (max-width: 600px) {
   .inline-gallery--n3 { grid-template-columns: repeat(2, 1fr); }
 }

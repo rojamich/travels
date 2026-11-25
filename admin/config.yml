@@ -51,13 +51,10 @@ backend:
 # 15 credits and gives the free plan 300 a month — twenty deploys, shared with
 # bandwidth — so every publish is a real cost and every save must not be one.
 #
-# Once a post is In Review, each save gets a deploy preview, which is free and
-# is the point: the whole site built from her branch, at its own URL, so she
-# can see the post as it will really look and fix it before spending anything.
-# Decap puts the link on the workflow card. While it is still a Draft, saves
-# build no preview at all, so the deploy list holds only posts worth checking
-# (netlify.toml and scripts/preview_gate.py). Moving the card to In Review
-# starts the preview.
+# Each save DOES get a deploy preview, which is free and is the point: the
+# whole site built from her branch, at its own URL, so she can see the post as
+# it will really look and fix it before spending anything. Decap puts the link
+# on the workflow card.
 #
 # In the Netlify dashboard that is Site configuration → Build & deploy →
 # Branches and deploy contexts:
