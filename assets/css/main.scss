@@ -1151,6 +1151,14 @@ a {
   border-radius: 8px;
 }
 
+// The theme sets `figure img { width: 100% }`. Together with the 60vh cap
+// that made a captioned landscape photo a box wider than its picture, with
+// the picture letterboxed inside — so the corners were rounded on empty
+// space and the photo itself stayed square. Its own width instead.
+.layout--post .page__content .captioned-image img {
+  width: auto;
+}
+
 // -----------------------------------------------------------------------------
 // FIXED-HEIGHT CARD THUMBNAILS — must fill and crop, not letterbox.
 // -----------------------------------------------------------------------------
