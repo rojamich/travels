@@ -33,7 +33,7 @@ We left the massage and it was POURING 🌦️☔Mike thought to have us bring o
 
 I tried to capture the essence of this walkway in Spain with the rain falling but the lights and people probably distract from it lol. 
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795606441/ujejpmyinlo9e9mjjekv.jpg)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795606441/ujejpmyinlo9e9mjjekv.jpg "The photo should at least give you an idea of the walkways you go through from one plaza or street to get into another 🙃")
 
 Just a few steps away was the Mercado de San Miguel — Shout out to Todd who recommended it just hours before!
 
