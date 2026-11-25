@@ -48,7 +48,7 @@ There was also a man dressed as Michael Jackson, poorly dancing to Billy Jean. K
 
 That man on a horse is King Charles III and is a beloved man from Madrid who is nicknamed “The best mayor of the city”! They say he did wonderful things for the country without attacking other countries as well. 
 
-That statue stands in front of the governor’s office but it was originally the first post in Madrid!
+That statue stands in front of the governor’s office but it was originally the first post office in Madrid!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2238%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606602%2Fwoxjblb1u0r2yuwiyxfh.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -56,13 +56,13 @@ We were led to a really cute statue in the square that depicts a bear eating ber
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2290%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606605%2Frigoeppndl8yj9ka6nh9.jpg%22%7D%2C%7B%22x%22%3A%2253%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606604%2Fz1h4ovz7gto0sx1yds4a.jpg%22%7D%5D%2C%22caption%22%3A%22El%20Oso%20y%20el%20Madro%C3%B1o%20(The%20Bear%20and%20the%20Strawberry%20Tree)%22%7D %}
 
-This is actually the symbol of Madrid now and we saw it on Madrid flags along out tour. There used to be bears on the royal hunting grounds here and these trees where everywhere! They’re used to make the local liqeur (the berries not the bear). 
+This is actually the symbol of Madrid now and we saw it on Madrid flags along out tour. There used to be bears on the royal hunting grounds here and these trees where everywhere! They’re used to make the local liquor (the berries not the bear). 
 
 Did you know that Madrid wasn’t Spain’s first capital city? It used to be in the tiny town of Toledo. This is a marker for the “center of spain”. We aren’t actually in the physical center of Spain but the country’s major highways fan out from this spot!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795606603/zjlpvehzfxrpokj0wewi.jpg)
 
-This is a pretty commercialized area and a really popular and well-known marker is the “Tio Pepe sign” hes been advertising the local sherry since the 1930s, can you believe that’s almost 100 years ago?
+This is a pretty commercialized area and a really popular and well-known marker is the “Tio Pepe sign” he's been advertising the local sherry since the 1930s, can you believe that’s almost 100 years ago?
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606938%2Ffiibtzyfcsl8w5inobc8.jpg%22%7D%2C%7B%22x%22%3A%2248%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606928%2Fs1lcreqbjsissk7s3z5s.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
@@ -70,7 +70,7 @@ This pastry shop was founded in 1894 (holy crap!) and it was poppin' inside! 
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606931%2Fvduvvhftkqwk1jnqmkgs.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606929%2Fvly0nztggu1phvzrste0.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607059%2Fnbtzkrns3nuo4bsvi20z.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22This%20is%20what%20the%20square%20used%20to%20look%20like%20originally!%22%7D %}
 
-I love how Christmassy everything is deocrated here!
+I love how Christmassy everything is decorated here!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795607049/nmqssefkmjwtogxznbtj.jpg)
 
