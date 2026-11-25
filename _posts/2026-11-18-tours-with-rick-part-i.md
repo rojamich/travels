@@ -38,11 +38,11 @@ They were both good sandwiches but the bagels weren’t very bagely. I’m not s
 
 This morning we were going to take a tour by Rick Steves — he has a free audio tour app that walks you through so many spots in Europe, we love him! There was a thread on Reddit that asked if he was a trustworthy character and the general consensus was a resounding YES! He’s a great all-around human. Many of the comments were hilarious like, “he may be the only man you CAN trust” or “heart of gold, pants of khaki”. We were dying at the comments 😂
 
-I digress. The tour began at La Puerta de Sol (the sun gate,) which was the giant plaza we’d stepped into yesterday morning when we arrived! And look! The tree is all set up!
+I digress. The tour began at La Puerta del Sol (the sun gate,) which was the giant plaza we’d stepped into yesterday morning when we arrived! And look! The tree is all set up!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795606609/yrfm51u4gxlgzpzxvddu.jpg)
 
-There was also a man dressed as Michael Jackson, poorly dancing to Billy Jean and King Kong… some very interesting choices. This is their version of Times Square so that checks out with the actors lol! 
+There was also a man dressed as Michael Jackson, poorly dancing to Billy Jean. King Kong and Mickey Mouse were also present. This is their version of Times Square so that checks out with the actors lol! 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795606601/rjmv5a8gt026q6gmobfl.jpg "Its also where they usually have political demonstrations and national celebrations!")
 
