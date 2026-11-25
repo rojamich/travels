@@ -88,9 +88,9 @@ For the second day in a row, we spotted this classical band pouring their hearts
 
 We don't typically love street performers but this one was absolutely worth stopping/tipping for 🎻
 
-Off to the next stop, we admired the gorgeous architecture and learned they have original street signs like these so that illiterate could also understand what street was which. 
+Off to the next stop, we admired the gorgeous architecture and learned they have original street signs like these so that the illiterate could also understand what street was which. 
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607418%2Fnkya4xisg1n2orwknbom.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607421%2Fitktmp4n2nkzy17hsvbi.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%229%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607420%2Faqp9cp6hmatuiux5wjmr.jpg%22%7D%5D%2C%22caption%22%3A%22Unfortunately%20we%20apparently%20cannot%20be%20helped%20with%20photos%20or%20words%20because%20we%20still%20took%20the%20wrong%20lane%20lol%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607418%2Fnkya4xisg1n2orwknbom.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607421%2Fitktmp4n2nkzy17hsvbi.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%229%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607420%2Faqp9cp6hmatuiux5wjmr.jpg%22%7D%5D%2C%22caption%22%3A%22Unfortunately%2C%20we%20apparently%20cannot%20be%20helped%20with%20photos%20or%20words%20because%20we%20still%20took%20the%20wrong%20lane%20lol%22%7D %}
 
 This is Museo de Jamon. Is it a ham museum? No, it’s a ham shop and restaurant. Though, it does look like a museum and worships ham. 
 
