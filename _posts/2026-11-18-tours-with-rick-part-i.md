@@ -29,3 +29,53 @@ This morning I cracked an eye open and shifted, waking Mike. He asked what time 
 We woke up overheated 🔥The hotel “has ac” but is on a weird shared system where everyone else is using a heater so our AC will randomly shut off and absolutely torch us with toasty air. I cannot sleep in the heat 🥵🫠 
 
 There was a cute NY bagel place nearby we decided to try as we’ve both been craving a bagel breakfast sandwich. Look how cute this spot is!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795606519/vwmx6fxqqspe3fefsiqb.jpg)
+
+They were both good sandwiches but the bagels weren’t very bagely. I’m not sure how to describe it but the bread didn’t taste like bagel-bread? Either way, I was grateful for the protein. Not many places were open this early (9am) and we were scheduled for a full day of tours 🚶🏻‍♀️‍➡️🚶🏻‍♂️‍➡️
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606517%2Fyow9atsuumnz4pdplxqj.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606530%2Fhpbaaptv9am1anorzipn.jpg%22%7D%5D%2C%22caption%22%3A%22I%20also%20tried%20the%20frozen%20blueberry%20lemonade%20(it%20was%20really%20good)%20and%20Mike%20had%20the%20coffee.%22%7D %}
+
+This morning we were going to take a tour by Rick Steves — he has a free audio tour app that walks you through so many spots in Europe, we love him! There was a thread on Reddit that asked if he was a trustworthy character and the general consensus was a resounding YES! He’s a great all-around human. Many of the comments were hilarious like, “he may be the only man you CAN trust” or “heart of gold, pants of khaki”. We were dying at the comments 😂
+
+I digress. The tour began at La Puerta de Sol (the sun gate,) which was the giant plaza we’d stepped into yesterday morning when we arrived! And look! The tree is all set up!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795606609/yrfm51u4gxlgzpzxvddu.jpg)
+
+There was also a man dressed as Michael Jackson, poorly dancing to Billy Jean and King Kong… some very interesting choices. This is their version of Times Square so that checks out with the actors lol! 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795606601/rjmv5a8gt026q6gmobfl.jpg "Its also where they usually have political demonstrations and national celebrations!")
+
+That man on a horse is King Charles III and is a beloved man from Madrid who is nicknamed “The best mayor of the city”! They say he did wonderful things for the country without attacking other countries as well. 
+
+That statue stands in front of the governor’s office but it was originally the first post in Madrid!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606602%2Fwoxjblb1u0r2yuwiyxfh.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We were led to a really cute statue in the square that depicts a bear eating berries from a tree.
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606605%2Frigoeppndl8yj9ka6nh9.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606604%2Fz1h4ovz7gto0sx1yds4a.jpg%22%7D%5D%2C%22caption%22%3A%22El%20Oso%20y%20el%20Madro%C3%B1o%20(The%20Bear%20and%20the%20Strawberry%20Tree)%22%7D %}
+
+This is actually the symbol of Madrid now and we saw it on Madrid flags along out tour. There used to be bears on the royal hunting grounds here and these trees where everywhere! They’re used to make the local liqeur (the berries not the bear). 
+
+Did you know that Madrid wasn’t Spain’s first capital city? It used to be in the tiny town of Toledo. This is a marker for the “center of spain”. We aren’t actually in the physical center of Spain but the country’s major highways fan out from this spot!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795606603/zjlpvehzfxrpokj0wewi.jpg)
+
+This is a pretty commercialized area and a really popular and well-known marker is the “Tio Pepe sign” hes been advertising the local sherry since the 1930s, can you believe that’s almost 100 years ago?
+
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606938%2Ffiibtzyfcsl8w5inobc8.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606928%2Fs1lcreqbjsissk7s3z5s.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+This pastry shop was founded in 1894 (holy crap!) and it was poppin' inside! 
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606931%2Fvduvvhftkqwk1jnqmkgs.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606929%2Fvly0nztggu1phvzrste0.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607059%2Fnbtzkrns3nuo4bsvi20z.jpg%22%7D%5D%2C%22caption%22%3A%22This%20is%20what%20the%20square%20used%20to%20look%20like%20originally!%22%7D %}
+
+I love how Christmassy everything is deocrated here!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795607049/nmqssefkmjwtogxznbtj.jpg)
+
+We split a chocolate napolitana (what they’re most famous for) and I usually dont like croissant type pastries but this one was delightful! 
+
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607199%2Fqxwzx3akonmneezqeky1.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607198%2Frfpm1lehl420wbwswjuu.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
