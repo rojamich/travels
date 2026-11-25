@@ -19,7 +19,6 @@ tags:
   - Coffee
   - Christmas
   - SouthAmerica
-  - Markets
   - Books
   - Reading
 new_tags: []
