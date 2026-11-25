@@ -8,10 +8,10 @@ header:
   teaser_focal_x: 50
   teaser_focal_y: 25
   overlay_focal_x: 50
-  overlay_focal_y: 82
+  overlay_focal_y: 25
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795606292/sav52w82mjviut58it7h.jpg
-  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795606300/ydvukcwmntsgoi1sw24b.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795607565/mfyjqbccsnbjernjwhyv.jpg
 tags:
   - Adventure
   - Tours
@@ -50,11 +50,11 @@ That man on a horse is King Charles III and is a beloved man from Madrid who is 
 
 That statue stands in front of the governor’s office but it was originally the first post in Madrid!
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606602%2Fwoxjblb1u0r2yuwiyxfh.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2238%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606602%2Fwoxjblb1u0r2yuwiyxfh.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We were led to a really cute statue in the square that depicts a bear eating berries from a tree.
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606605%2Frigoeppndl8yj9ka6nh9.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606604%2Fz1h4ovz7gto0sx1yds4a.jpg%22%7D%5D%2C%22caption%22%3A%22El%20Oso%20y%20el%20Madro%C3%B1o%20(The%20Bear%20and%20the%20Strawberry%20Tree)%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2290%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606605%2Frigoeppndl8yj9ka6nh9.jpg%22%7D%2C%7B%22x%22%3A%2253%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606604%2Fz1h4ovz7gto0sx1yds4a.jpg%22%7D%5D%2C%22caption%22%3A%22El%20Oso%20y%20el%20Madro%C3%B1o%20(The%20Bear%20and%20the%20Strawberry%20Tree)%22%7D %}
 
 This is actually the symbol of Madrid now and we saw it on Madrid flags along out tour. There used to be bears on the royal hunting grounds here and these trees where everywhere! They’re used to make the local liqeur (the berries not the bear). 
 
@@ -65,11 +65,11 @@ Did you know that Madrid wasn’t Spain’s first capital city? It used to be in
 This is a pretty commercialized area and a really popular and well-known marker is the “Tio Pepe sign” hes been advertising the local sherry since the 1930s, can you believe that’s almost 100 years ago?
 
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606938%2Ffiibtzyfcsl8w5inobc8.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606928%2Fs1lcreqbjsissk7s3z5s.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606938%2Ffiibtzyfcsl8w5inobc8.jpg%22%7D%2C%7B%22x%22%3A%2248%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606928%2Fs1lcreqbjsissk7s3z5s.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 This pastry shop was founded in 1894 (holy crap!) and it was poppin' inside! 
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606931%2Fvduvvhftkqwk1jnqmkgs.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606929%2Fvly0nztggu1phvzrste0.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607059%2Fnbtzkrns3nuo4bsvi20z.jpg%22%7D%5D%2C%22caption%22%3A%22This%20is%20what%20the%20square%20used%20to%20look%20like%20originally!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606931%2Fvduvvhftkqwk1jnqmkgs.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606929%2Fvly0nztggu1phvzrste0.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607059%2Fnbtzkrns3nuo4bsvi20z.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22This%20is%20what%20the%20square%20used%20to%20look%20like%20originally!%22%7D %}
 
 I love how Christmassy everything is deocrated here!
 
@@ -90,7 +90,7 @@ For the second day in a row, we spotted this classical band pouring their hearts
 
 Off to the next stop, we admired the gorgeous architecture and learned they have original street signs like these so that illiterate could also understand what street was which. 
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607418%2Fnkya4xisg1n2orwknbom.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607421%2Fitktmp4n2nkzy17hsvbi.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607420%2Faqp9cp6hmatuiux5wjmr.jpg%22%7D%5D%2C%22caption%22%3A%22Unfortunately%20we%20apparently%20cannot%20be%20helped%20with%20photos%20or%20words%20because%20we%20still%20took%20the%20wrong%20lane%20lol%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607418%2Fnkya4xisg1n2orwknbom.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607421%2Fitktmp4n2nkzy17hsvbi.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%229%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607420%2Faqp9cp6hmatuiux5wjmr.jpg%22%7D%5D%2C%22caption%22%3A%22Unfortunately%20we%20apparently%20cannot%20be%20helped%20with%20photos%20or%20words%20because%20we%20still%20took%20the%20wrong%20lane%20lol%22%7D %}
 
 This is Museo de Jamon. Is it a ham museum? No, it’s a ham shop and restaurant. Though, it does look like a museum and worships ham. 
 
@@ -98,15 +98,15 @@ This is Museo de Jamon. Is it a ham museum? No, it’s a ham shop and restaurant
 
 Unfortunately we had to make a quick stop at the pharmacy for cold meds for me and we were back on the tour! Still loving all the Christmas lights that are ready to be lit. I really can’t wait to see how it looks at night 😍
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607527%2Fhrnzfg8ltptlul6bc8qa.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607527%2Fchueao28lmunz3524yij.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607527%2Fhrnzfg8ltptlul6bc8qa.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%220%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607527%2Fchueao28lmunz3524yij.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We made it to Plaza Mayor which used to be Madrid’s main square. 
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607562%2Fliqckh3cxv4dh2dbnuvv.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607565%2Fmfyjqbccsnbjernjwhyv.jpg%22%7D%5D%2C%22caption%22%3A%22They're%20setting%20up%20the%20Christmas%20markets!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2243%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607562%2Fliqckh3cxv4dh2dbnuvv.jpg%22%7D%2C%7B%22x%22%3A%2223%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607565%2Fmfyjqbccsnbjernjwhyv.jpg%22%7D%5D%2C%22caption%22%3A%22They're%20setting%20up%20the%20Christmas%20markets!%22%7D %}
 
 The wildest thing about this square is La Torre del Oro Bar Andalu aka a Bullfighting Bar 🐂
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607604%2Fvybx3yrwnuzix3djb5ff.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607605%2Ffpwznzcrtjz4e5ulmnzj.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607609%2Ftkipi756owpplogi6hp7.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607608%2Fzi9rhopif90fzfvs2gde.jpg%22%7D%5D%2C%22caption%22%3A%22You%20can%20see%20many%20photos%20of%20celebrities%2C%20bull%20fights%2C%20and%20many%20men%20being%20gored%20by%20bulls.%20It%20was%20a%20really%20gory%20bar.%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2230%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607604%2Fvybx3yrwnuzix3djb5ff.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2249%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607605%2Ffpwznzcrtjz4e5ulmnzj.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2216%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607609%2Ftkipi756owpplogi6hp7.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%220%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607608%2Fzi9rhopif90fzfvs2gde.jpg%22%7D%5D%2C%22caption%22%3A%22You%20can%20see%20many%20photos%20of%20celebrities%2C%20bull%20fights%2C%20and%20many%20men%20being%20gored%20by%20bulls.%20It%20was%20a%20really%20gory%20bar.%22%7D %}
 
 Mike got a small beer which came with salami and crackers. 
 
@@ -118,7 +118,7 @@ On our way to the next stop, we passed a hat shop that has been in business sinc
 
 We were led to a church’s convent that usually sells cookies made by nuns! We were disappointed they were closed today 🙁
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607736%2Fmlnkj57jhlhz3iehczfc.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607734%2Fsxsojvafhqrrirbpihqd.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2224%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607736%2Fmlnkj57jhlhz3iehczfc.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607734%2Fsxsojvafhqrrirbpihqd.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 Pretty cool street sign to indicate the sell of armor on this street!
 
