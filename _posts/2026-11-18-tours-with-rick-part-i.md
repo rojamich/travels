@@ -79,3 +79,50 @@ We split a chocolate napolitana (what they’re most famous for) and I usually d
 
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607199%2Fqxwzx3akonmneezqeky1.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607198%2Frfpm1lehl420wbwswjuu.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Mike said it would be best paired with an espresso. Say no more!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795607254/ryrbpxmszk18h181v6a2.jpg)
+
+For the second day in a row, we spotted this classical band pouring their hearts into the music.
+
+{% youtube_block %7B%22url%22%3A%22https%3A%2F%2Fyoutu.be%2F9CkEGtR1W0A%22%7D %}
+
+Off to the next stop, we admired the gorgeous architecture and learned they have original street signs like these so that illiterate could also understand what street was which. 
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607418%2Fnkya4xisg1n2orwknbom.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607421%2Fitktmp4n2nkzy17hsvbi.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607420%2Faqp9cp6hmatuiux5wjmr.jpg%22%7D%5D%2C%22caption%22%3A%22Unfortunately%20we%20apparently%20cannot%20be%20helped%20with%20photos%20or%20words%20because%20we%20still%20took%20the%20wrong%20lane%20lol%22%7D %}
+
+This is Museo de Jamon. Is it a ham museum? No, it’s a ham shop and restaurant. Though, it does look like a museum and worships ham. 
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607468%2Fsxpdxsofn16yksvewfuj.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607471%2Fwaaltchs3p5xqtnud9io.jpg%22%7D%5D%2C%22caption%22%3A%22Ham%20is%20really%20big%20here%2C%20nationally%20and%20they%20cure%20it%20and%20enjoy%20it%20in%20small%20slices%20or%20on%20sandwiches.%20They%20have%20everything%20from%20cheap%20serrano%20to%20expensive%20Iberico.%20I%20personally%20do%20not%20see%20the%20appeal%20in%20ham.%20%22%7D %}
+
+Unfortunately we had to make a quick stop at the pharmacy for cold meds for me and we were back on the tour! Still loving all the Christmas lights that are ready to be lit. I really can’t wait to see how it looks at night 😍
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607527%2Fhrnzfg8ltptlul6bc8qa.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607527%2Fchueao28lmunz3524yij.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We made it to Plaza Mayor which used to be Madrid’s main square. 
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607562%2Fliqckh3cxv4dh2dbnuvv.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607565%2Fmfyjqbccsnbjernjwhyv.jpg%22%7D%5D%2C%22caption%22%3A%22They're%20setting%20up%20the%20Christmas%20markets!%22%7D %}
+
+The wildest thing about this square is La Torre del Oro Bar Andalu aka a Bullfighting Bar 🐂
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607604%2Fvybx3yrwnuzix3djb5ff.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607605%2Ffpwznzcrtjz4e5ulmnzj.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607609%2Ftkipi756owpplogi6hp7.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607608%2Fzi9rhopif90fzfvs2gde.jpg%22%7D%5D%2C%22caption%22%3A%22You%20can%20see%20many%20photos%20of%20celebrities%2C%20bull%20fights%2C%20and%20many%20men%20being%20gored%20by%20bulls.%20It%20was%20a%20really%20gory%20bar.%22%7D %}
+
+Mike got a small beer which came with salami and crackers. 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795607667/n52zgevpdvhsqhospbeh.jpg "#regrets: It was all so bad. ")
+
+On our way to the next stop, we passed a hat shop that has been in business since 1894, sheesh!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795607613/jspswx51juxs5cjsettc.jpg)
+
+We were led to a church’s convent that usually sells cookies made by nuns! We were disappointed they were closed today 🙁
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607736%2Fmlnkj57jhlhz3iehczfc.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795607734%2Fsxsojvafhqrrirbpihqd.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Pretty cool street sign to indicate the sell of armor on this street!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795607766/xp7puljtbexflf9yd91v.jpg)
+
+Back in the day, Toledo had a Cathedral for 300 years and Madrid did not, despite asking for one but being ignored. The Almudena cathedral opened in 1993 and the pope at the time even came to consecrate it!
+Head to Tours with Rick Part II to see more!
