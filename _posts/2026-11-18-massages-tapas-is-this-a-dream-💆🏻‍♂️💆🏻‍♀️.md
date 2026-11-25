@@ -31,12 +31,15 @@ We both had a great, deep pressure massage! They even had tea and snacks for us 
 
 We left the massage and it was POURING 🌦️☔Mike thought to have us bring our jackets so we lucked out there!
 
-I tried to capture the essence of this walkway in Spain with the rain falling but the lights and people probably distract from it lol. Just a few steps away was the Mercado de San Miguel — Shout out to Todd who recommended it just hours before!
+I tried to capture the essence of this walkway in Spain with the rain falling but the lights and people probably distract from it lol. 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795606441/ujejpmyinlo9e9mjjekv.jpg)
+
+Just a few steps away was the Mercado de San Miguel — Shout out to Todd who recommended it just hours before!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795605605/lqpfiibwwskfhox5leen.jpg)
 
 The market was chock full of different stalls selling tapa-sized foods for us to try 🤩
-
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2253%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795605655%2Frwmqtwbhspilmbd3iawn.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795605655%2Fvl4jm9knplekkuzx5uqr.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795605652%2Foogrx0oaddkmqjde9vlq.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
