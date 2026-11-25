@@ -45,7 +45,7 @@ The market was chock full of different stalls selling tapa-sized foods for us to
 
 We decided to try the taster tray of all different types of dumplings! I could not tell which flavor was which while we split each of them but I know the pork, teriyaki, and sweet pepper ones were good!
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795605703%2Ff7hqel0m95tm0nubhubu.jpg%22%7D%2C%7B%22x%22%3A%2276%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795605706%2Fthtiil49yd6zraolrgtg.jpg%22%7D%2C%7B%22x%22%3A%2285%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795605706%2Fthtiil49yd6zraolrgtg.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795605703%2Ff7hqel0m95tm0nubhubu.jpg%22%7D%2C%7B%22x%22%3A%2276%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795605706%2Fthtiil49yd6zraolrgtg.jpg%22%7D%2C%7B%22x%22%3A%2285%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795605751%2Fasmzhjwg7e9ll81yxfkj.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 I also tried a crab roll — I’ve been wanting to try a lobster roll for SO long and I figured this was the next best thing. Mike says with the meat grinded that way, you can’t tell the difference between them. I remain skeptical as he can’t tell the difference between coffee flavors like vanilla, caramel, hazelnut, or honey 😂He says it would go poorly if he was on the Hell's Kitchen episode where they differentiate between flavors in a dish 🍊🍍🥭
 
@@ -53,8 +53,7 @@ Slight derailment but the crab roll was REALLY good and I didn’t expect it to 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795605750/ffihl9jydjn8hkeqi8xz.jpg)
 
-Mike also tried the Vermut but still doesn’t like it. We now know that it’s a fortified wine he does not like. 
-For dessert we tried the dipped churros and they were scrumptious 🍡 I can’t decide if the white chocolate or strawberry one was better 🤷🏻‍♀️
+Mike also tried the Vermut but still doesn’t like it. We now know that it’s a fortified wine! For dessert we tried the dipped churros and they were scrumptious 🍡 I can’t decide if the white chocolate or strawberry one was better 🤷🏻‍♀️
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795605747/wrrkcl6f14dxg7omoa1k.jpg)
 
