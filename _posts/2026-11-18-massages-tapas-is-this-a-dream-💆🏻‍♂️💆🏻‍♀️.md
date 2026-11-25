@@ -1,0 +1,24 @@
+---
+title: "Massages & Tapas: is this a dream?! 💆🏻‍♂️💆🏻‍♀️"
+date: 2026-11-19
+categories:
+  - our-spanish-home
+order: 4
+header:
+  teaser_focal_x: 50
+  teaser_focal_y: 50
+  overlay_focal_x: 50
+  overlay_focal_y: 50
+  overlay_filter: 0.4
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795452451/n3ob1af3d1r8uwyszcta.jpg
+  overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795452447/atzujoh9ylygitobgzxi.jpg
+tags:
+  - Food
+  - Dessert
+  - Books
+  - Markets
+new_tags: []
+stay: night
+toc: false
+---
+Semi rested from our nap, we had a massage booked for that evening. It was just what we needed after that crazy drake’s passage experience and multiple flights/trains!
