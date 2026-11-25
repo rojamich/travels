@@ -1,9 +1,9 @@
 ---
 title: "Massages & Tapas: is this a dream?! 💆🏻‍♂️💆🏻‍♀️"
-date: 2026-11-19
+date: 2026-11-18
 categories:
   - our-spanish-home
-order: 4
+order: 3.5
 header:
   teaser_focal_x: 50
   teaser_focal_y: 17
