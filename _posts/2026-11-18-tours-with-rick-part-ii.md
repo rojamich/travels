@@ -20,6 +20,7 @@ tags:
   - Christmas
   - Adventure
   - Bucketlist
+  - Sight-Seeing
 new_tags: []
 stay: night
 toc: false
