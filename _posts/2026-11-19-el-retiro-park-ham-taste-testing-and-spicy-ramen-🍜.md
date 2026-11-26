@@ -85,7 +85,7 @@ For lunch, it was time to try a little of the local culture, and that meant head
 3. 25%
 4. 100%
 
-I rated them
+I rated them:
 
 1. 50% (actually really good, I don’t like ham but I’d eat this ham in a pinch).
 2. 25%
