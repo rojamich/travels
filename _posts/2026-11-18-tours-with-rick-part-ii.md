@@ -58,7 +58,7 @@ The view from the side, overlooking the city is endless! I was so happy to be re
 
 Following the major roadway here, we found a line wrapped around the royal palace and all the way down the road! If you are a resident, there is free entry to the palace from 4pm to 6pm. It was now 330pm, wow, they’ve been lined up awhile!
 
-We were led to a peaceful plaza and despite walking through a busy city filled with millions of people, it was near dead-silent. We could hear only a violinist — that’s pretty impressive from a city the size of Chicago!
+We were led to a peaceful plaza and despite walking through a busy city filled with millions of people, it was near dead-silent. We could hear only a violinist — that’s pretty impressive from a city the size of Chicago! And near a major landmark!
 
 We were led back to our side of town, passing another neat roadway sign, a cute cookie shop, and more beautiful Christmas decorations!
 
