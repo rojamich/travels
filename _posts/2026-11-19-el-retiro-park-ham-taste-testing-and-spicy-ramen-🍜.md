@@ -76,23 +76,23 @@ We snapped up those tour tickets so fast! Then booked the train in the quiet car
 
 For lunch, it was time to try a little of the local culture, and that meant heading back to the Ham Museum 🐷🐖🐽 We ordered their taster platter and decided to do a blind taste-test. 
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795720915/ovgyz2ovta9fqrvlnpmq.jpg)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795720915/ovgyz2ovta9fqrvlnpmq.jpg "From left to right, its 100%, 75%, 50%, and 25%")
 
-We took turns covering our eyes, and the other person would select a ham for the other to try. The person would rate its taste and onto the next blind taste. I fed Mike first and he rated the hams in this order:
+100% ham means its made with purebred imberico pigs. We took turns covering our eyes, and the other person would select a ham for the other to try. The person would rate its taste and onto the next blind taste. I fed Mike first and he rated the hams in this order (#1 being the best):
 
-1. 75%
-2. 50%
+1. 50%
+2. 75%
 3. 25%
 4. 100%
 
 I rated them
 
 1. 50% (actually really good, I don’t like ham but I’d eat this ham in a pinch).
-2. 75%
-3. 25%
+2. 25%
+3. 75%
 4. 100%
 
-The texture of the 100% is a no go. Cannot do it. So tough and lean. 100% ham means its made with purebred imberico pigs. Needless to say, we had A LOT of ham leftover after getting full on ham. We took the rest of it to go, for ham snack or sandwich later.
+The texture of the 100% is a no go. Cannot do it. So tough and lean. Needless to say, we had A LOT of ham leftover after getting full on ham. We took the rest of it to go, for ham snack or sandwich later.
 
 On the way back to our hotel, there was a protest going on in the Puerta del Sol, just like we’d learned about yesterday. This was an ongoing (44th day) public education strike, where teachers are demanding:
 
