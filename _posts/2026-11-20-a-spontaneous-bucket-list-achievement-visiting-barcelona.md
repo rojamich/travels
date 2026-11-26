@@ -40,4 +40,6 @@ We still aren’t totally sure why one train boarded at our seating level but ou
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795724003/eb8uewd97x6b3luqgiqx.jpg)
 
-It was a fun train ride! We loved it! If only it were longer, I could get more done! I thought the 3.5 hours would feel long after so much travel lately but, honestly, I really did need more time.
+It was a fun train ride! We loved it! If only it were longer, I could get more done! I thought the 3.5 hours would feel long after so much travel lately but, honestly, I really did need more time. There was a train delay so we actually got four hours lol.
+
+Our train pulled into the station at 10am and we went right into another Rick Steve's tour — Spain is full of them! We only had so much time
