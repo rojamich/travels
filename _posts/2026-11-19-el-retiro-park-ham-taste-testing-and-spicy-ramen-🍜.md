@@ -108,7 +108,7 @@ Mike suggested ramen across the street for dinner.
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795723370/o7yacddmanyaj4d1epxw.jpg)
 
-I am basking in the diversity of food choices here (so far bagels, spanish food, fast food, Vietnamese and now ramen options??) Mike was pleased to have his Asahi beer again and I opted for a sprite to go with my spicy ramen. 
+I am basking in the diversity of food choices here (so far bagels, spanish food, fast food, Vietnamese and now ramen options??) Mike was pleased to have his Kirin beer again and I opted for a sprite to go with my spicy ramen. 
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795723389/mrwg2mbi37unpauidwk3.jpg)
 
