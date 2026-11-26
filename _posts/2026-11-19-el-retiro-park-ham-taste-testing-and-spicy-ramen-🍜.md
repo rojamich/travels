@@ -36,7 +36,7 @@ We immediately went online to see how long the train takes…3.5 hours hmm… th
 
 We continued our walk, seeing the Metropolis Building and the Bank of Spain which were grand and enormous! The dome one reminded us of the Gringotts bank in Harry Potter. Mike says it just needs a dragon on top 🐲
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%22100%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795721553%2Fbhl3bssdzj3fh9fqsawm.jpg%22%7D%2C%7B%22x%22%3A%220%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795721557%2Fp8im6nwswqvra9ebybzc.jpg%22%7D%5D%2C%22caption%22%3A%22Seems%20like%20a%20lot%20for%20an%20insurance%20building%20and%20a%20bank...%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2249%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795721553%2Fbhl3bssdzj3fh9fqsawm.jpg%22%7D%2C%7B%22x%22%3A%220%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795721557%2Fp8im6nwswqvra9ebybzc.jpg%22%7D%5D%2C%22caption%22%3A%22Seems%20like%20a%20lot%20for%20an%20insurance%20building%20and%20a%20bank...%22%7D %}
 
 Here is another shot of the Bank of Spain!
 
