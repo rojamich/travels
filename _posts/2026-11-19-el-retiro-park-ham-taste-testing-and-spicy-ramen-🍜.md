@@ -100,7 +100,7 @@ On the way back to our hotel, there was a protest going on in the Puerta del Sol
 * Fewer students to teacher ratios
 * And the resignation of the Education Minister
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795723245/cif48ktvfbxqayyccj8r.jpg)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795723245/cif48ktvfbxqayyccj8r.jpg "It was peaceful and they educated others in the square about their cause.")
 
 Back at our hotel, we were able to do laundry for only 5euros, now THAT is a deal. 
 
