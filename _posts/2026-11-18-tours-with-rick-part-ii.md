@@ -51,12 +51,12 @@ Behind the church sits the Royal Palace!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2261%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795715903%2Fievtilm4av2ob3swlbvn.jpg%22%7D%2C%7B%22x%22%3A%2216%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795715909%2Fxbmbjyjuimmatsonenbn.jpg%22%7D%5D%2C%22caption%22%3A%22The%20Royal%20Palace!%22%7D %}
 
-A Moorish castle was in this spot in the 800s, but in the medieval times, there was Christian fortress! Before the final form you see now, it was a Renaissance palace. With 2800 rooms and sitting at 1.5 million square feet, its Europe’s largest palace! We had no idea it was in Spain 🤯
+A Moorish castle was in this spot in the 800s, but in the medieval times, there was a Christian fortress! Before the final form you see now, it was a Renaissance palace. With 2800 rooms and sitting at 1.5 million square feet, its Europe’s largest palace! We had no idea the largest palace in Europe was in Spain 🤯
 The view from the side, overlooking the city is endless! I was so happy to be reminded that it’s fall with crunchy leaves at our feet and a park filled with leaves changing color 😍
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795606300%2Fydvukcwmntsgoi1sw24b.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-Following the major roadway here, we found a line wrapped around the royal palace and down the road! If you are a resident, there is free entry to the palace from 4 to 6pm. It was now 330, wow, they’ve been lined up awhile!
+Following the major roadway here, we found a line wrapped around the royal palace and all the way down the road! If you are a resident, there is free entry to the palace from 4pm to 6pm. It was now 330pm, wow, they’ve been lined up awhile!
 
 We were led to a peaceful plaza and despite walking through a busy city filled with millions of people, it was near dead-silent. We could hear only a violinist — that’s pretty impressive from a city the size of Chicago!
 
