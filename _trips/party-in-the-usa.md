@@ -32,6 +32,7 @@ states:
   - Pennsylvania
   - Massachusetts
   - Hawaii
+  - Maryland
 tags:
   - Food
   - Hiking
