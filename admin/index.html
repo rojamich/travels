@@ -1971,11 +1971,24 @@
           var ownUrl = readImageUrlNearLabel(labels[i]);
 
           // Now walk up looking for a scope that holds this field's focal pair.
+          //
+          // Stop as soon as the scope holds a SECOND photo label: from there
+          // up, it is no longer this field's own group, and a focal pair
+          // found there belongs to some other photo. Gallery photos and the
+          // editor's "Add image" photos are both labelled "Image", and an
+          // "Add image" photo has no focal pair of its own — so without this
+          // the walk climbed to the whole post body and claimed the first
+          // gallery photo's inputs. Several tabs then shared one photo's
+          // inputs, and on Save the last of them wrote its stale value over
+          // the position she had just set (2026-11-26, El Retiro post).
           var node = labels[i].parentElement;
           for (var d = 0; d < 12 && node; d++) {
+            if (countLabels(node, imageLabel) > 1) break;
             var fx = findNumberInputWithin(node, focalXLabel);
             var fy = findNumberInputWithin(node, focalYLabel);
             if (fx && fy) {
+              // One tab per photo: never two tabs writing the same inputs.
+              if (out.some(function (o) { return o.fxInput === fx; })) break;
               out.push({
                 container: node,
                 url: ownUrl,
@@ -1991,6 +2004,16 @@
           }
         }
         return out;
+      }
+      // How many labels in scope match a photo field's label.
+      function countLabels(scope, labelText) {
+        var n = 0;
+        var labels = scope.querySelectorAll("label, span[class*='label']");
+        for (var i = 0; i < labels.length; i++) {
+          var t = (labels[i].textContent || "").trim();
+          if (t === labelText || t.indexOf(labelText) === 0) n++;
+        }
+        return n;
       }
       // Resolve the image belonging to THIS label specifically.
       //
@@ -2276,7 +2299,11 @@
               url: t.url,
               fxInput: t.fxInput,
               fyInput: t.fyInput,
-              pending: { x: readFocalValue(t.fxInput, 50), y: readFocalValue(t.fyInput, 50) }
+              pending: { x: readFocalValue(t.fxInput, 50), y: readFocalValue(t.fyInput, 50) },
+              // What the form held when the window opened. Save writes only
+              // the photos she actually moved, so a tab she never touched
+              // can't put an old value back over one she did.
+              opened: { x: readFocalValue(t.fxInput, 50), y: readFocalValue(t.fyInput, 50) }
             });
           });
         });
@@ -2345,6 +2372,8 @@
             // position she just dragged isn't lost along with the evidence.
             var failed = [];
             available.forEach(function (e) {
+              if (Math.round(e.pending.x) === Math.round(e.opened.x) &&
+                  Math.round(e.pending.y) === Math.round(e.opened.y)) return;
               var okX = setReactValue(e.fxInput, Math.round(e.pending.x));
               var okY = setReactValue(e.fyInput, Math.round(e.pending.y));
               if (!okX || !okY) failed.push(e.tab || e.key || "photo");
