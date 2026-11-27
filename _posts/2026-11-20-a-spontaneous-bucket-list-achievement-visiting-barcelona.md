@@ -107,3 +107,49 @@ Gosh, this street looks like something out of a painting! We can't believe we go
 Even the tiles are delicately styled!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795793437/r3gnsucnf3fydth77bn5.jpg)
+
+We walked by a cultural center that "welcomes everyone" and has public restrooms! A lot of Europe charges for the bathroom here but we hadn't run into a restroom for cost here yet in Spain. I used the restroom and came out to find Mike had vanished... There was a puppet show going on down the hall so I went to search for him there. No sign of him. I waited there to text him when a woman speaking spanish hurried over to me. I understood zero of what she was saying but it felt like the puppet show required tickets so I went back down the halls to find Mike. I can now say I've been kicked out of a children's puppet show lol. Thanks honey 🐝😄 After looking around on the street, he emerged from the building after using the restroom on another level lol.
+
+Back out on the street, we are directed to a high-end grocery store that has vintage ads for alcohol!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795794025/dqte17l6hhejqgdnn7ar.jpg)
+
+A few doors down, I could smell the flower shop before we saw it! 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795794433/kpthsim0dja2eykgka4j.jpg)
+
+They sell flowers here 24/7! Who needs flowers at all hours of the day?! It did smell amazing though. And look how beautiful it is!
+
+Can you believe this building is a public music school??
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795794769/zly5c8bawbpifda6lq39.jpg "All ages are welcome here. Recently, their students have ranged in age from 18-96!!")
+
+Again, Harry Potter worthy 🧙🏻‍♂️
+
+Moving on, we were able to walk through the La Concepcio Market:
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795794985%2Fc2rzreerpwdz8jes9cn1.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795794988%2Fwku62cseqxt5d8kpgykm.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795794987%2Fgq1rwaprv5wfwj7cxbdk.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795794987%2Fkdgbeyhv6ienuvjfjpi3.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We searched for a snack but didn't find anything that struck our fancy. Why did they have to pick ham to love here? Why couldn't it be honey-drizzled walnuts?
+
+Getting hungry, we were lucky to head to our last stop of the tour: the Church of the Holy Conception.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795795319/qpixgjjjjpg0otf3nflu.jpg)
+
+Interestingly enough, you can't enter the front, you have to come around the side to a secret entrance. Are they ashamed we are wearing hoodies (looking properly trashy for Spain standards). On a serious note, everyone enters from the side. 
+
+This is a 14th century church but sits in a neighborhood that didn't exist 150 years ago! This church was dismantled ***brick by brick*** and moved to this location. That is a *wild* amount of work but does have a beautiful courtyard at the entrance that looks ideal for meditation 🧘🏻‍♀️
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795795318/gvds3nqnebocevrenpwu.jpg)
+
+We passed this storefront on the way to find lunch and I was SO stoked to see this advertisement with different fingerprints 🫆
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795795318/zc8jqnmizcwu6jklryjm.jpg "Some of them actually resemble fingerprint types!")
+
+Keeping with tradition and getting desperate for food (had to be fast!), we checked out the local McDonalds.
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795795317/somzt9krvugxnyy5gtim.jpg "Wow, that is FANCY")
+
+We were in a rush and I hurried to the restroom. The line for the women's was out the door.. the men's was empty... I went for it, locking the stall behind me. I definitely thought it was a one-person bathroom. Thankfully, no one else came in for the urinal that was hiding behind the door! I also accidentally used the Starbucks men's restroom twice because the symbol looked too similar for men's / women's. Mike confirms the sign was unclear 😅
+
+Eating quickly, we tried to decide if we had time to sneak in Rick's other Barcelona tour... its 90 minutes long and we have 45 minutes until we meet for our tour. DANG IT! We headed to see Sagrada Familia early instead. WE CAN'T WAIT 🤸🏻‍♂️🤸🏻‍♀️
