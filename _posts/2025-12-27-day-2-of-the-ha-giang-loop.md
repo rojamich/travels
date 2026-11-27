@@ -11,7 +11,7 @@ header:
 tags: []
 location:
   name: " Dong Văn Ancient Town (Đồng Văn)"
-  lat: 21.8233
+  lat: 23.27841
   lng: 105.36291
 stay: night
 toc: false
