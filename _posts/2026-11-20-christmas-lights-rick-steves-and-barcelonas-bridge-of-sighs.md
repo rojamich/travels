@@ -12,9 +12,18 @@ header:
   overlay_filter: 0.4
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795816466/k9iexsn4plqsp3nemrrh.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795816458/qbj8mpyzfnepng01jsti.jpg
-tags: []
+tags:
+  - Architecture
+  - Tours
+  - Sight-Seeing
+  - Trains
+  - Christmas
 new_tags: []
-stay: night
+location:
+  name: " Monument to Francesc Macià, Barcelona"
+  lat: 41
+  lng: 2.1701
+stay: day_trip
 toc: false
 ---
 draft
