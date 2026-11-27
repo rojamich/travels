@@ -1,5 +1,5 @@
 ---
-title: "A Spontaneous Bucket List Achievement: Visiting Barcelona "
+title: "Tours with Rick: Barcelona Edition"
 date: 2026-11-21
 categories:
   - our-spanish-home
