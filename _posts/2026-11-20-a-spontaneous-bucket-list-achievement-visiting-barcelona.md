@@ -144,7 +144,7 @@ This is a 14th century church but sits in a neighborhood that didn't exist 150 y
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795795318/gvds3nqnebocevrenpwu.jpg)
 
-We passed this storefront on the way to find lunch and I was SO stoked to see this advertisement with different fingerprints 🫆
+This completed the tour and our next task was to find food! We passed this storefront on the way to find lunch and I was SO stoked to see this advertisement with different fingerprints 🫆
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795795318/zc8jqnmizcwu6jklryjm.jpg "Some of them actually resemble fingerprint types!")
 
