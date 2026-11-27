@@ -55,7 +55,11 @@ Our group was about 15 people and filled with some interesting characters. Thank
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795810164/ncf5e48mjdrxjz8sp4eb.jpg)
 
-We started at the front of the church which has a large park in front of it and a huge line of people taking photos. There was time to snap a few shots before he got us into the Basilica 📷
+We started at the front of the church which has a large park in front of it and a huge line of people taking photos. 
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795812181/ekrxrvwntxmp610b7ze3.jpg)
+
+There was time to snap a few shots before he got us into the Basilica 📷
 
 Here is where he pointed out the representations in the architecture that Gaudi designed (yes, him again!)
 
@@ -67,6 +71,14 @@ We were able to listen along on these headsets, which was great because it was q
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795811302%2Fugtobmtah2teshkprugd.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795811302%2Fppli6ct1e9txhfrnklny.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-We learned that construction began on the church in 1882. Gaudi was not the original architect but took over because there was a bitter dispute over costs and materials with the first one. The second choice declined the job and recommended Gaudi! He only had five years of professional experience before taking over 🤯
+We learned that construction began on the church in 1882. Gaudi was not the original architect but took over because there was a bitter dispute over costs and materials with the first one. Adrian, our guide, shows us what the original creator envisioned with the Sagrada.
 
-This is the tallest structure in the city, intentionally.
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795812278/yefs9g3ymmg4bxiion5n.jpg "Lookin' real different these days 😂")
+
+The second choice declined the job and recommended Gaudi! He only had five years of professional experience before taking over 🤯
+
+This is the tallest structure in the city, intentionally. It also happens to be the tallest religious building in the world (as of February '26). It was supposed to be completed this year but is nowhere near ready. Here we can see the model, what is yet to be built is in tan. 
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795812363%2Fliwsalsyttum5puqjeke.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795812365%2Fyl4ci7800hfpcnq1tjtt.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795812366%2Fo2zuozmm8iabaxgoccos.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+I really hope we are alive to see it completed. Unless their goal is to become the longest, continuous, construction Basilica.
