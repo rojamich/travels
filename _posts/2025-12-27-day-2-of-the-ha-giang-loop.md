@@ -9,11 +9,12 @@ header:
   teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780802354/20251227_142901_uun2vy.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1780802379/20251227_143326_dvhkzr.jpg
 tags: []
-toc: false
 location:
-  name: Ha Giang, Vietnam
-  lat: 22.8233
-  lng: 104.9784
+  name: " Dong Văn Ancient Town (Đồng Văn)"
+  lat: 21.8233
+  lng: 105.36291
+stay: night
+toc: false
 ---
 Our second full day exploring the Ha Giang Loop via motorbike :)
 
