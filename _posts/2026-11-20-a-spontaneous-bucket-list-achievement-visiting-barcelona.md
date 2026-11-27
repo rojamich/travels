@@ -22,9 +22,9 @@ tags:
   - Architecture
 new_tags: []
 location:
-  name: Barcelona, Spain
-  lat: 41.73088836669922
-  lng: 1.983791470527649
+  name: Barcelona-Sants, Barcelona, Spain
+  lat: 41.37908935546875
+  lng: 2.1401877403259277
 stay: day_trip
 toc: false
 ---
