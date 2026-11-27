@@ -50,13 +50,13 @@ And fancy it certainly was, we saw Montblanc (which I learned is not just a moun
 
 The first stop was La Pedrera aka Casa Mila — an enormous mansion built by Antoni Gaudi.
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795789698%2Ffm7e9lbndqs6jt5saz9u.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795789708%2Fzb8ifwr8sctonetf9gr8.jpg%22%7D%5D%2C%22caption%22%3A%22It%20even%20wraps%20around%20the%20corner!%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795789698%2Ffm7e9lbndqs6jt5saz9u.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2229%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795789708%2Fzb8ifwr8sctonetf9gr8.jpg%22%7D%5D%2C%22caption%22%3A%22It%20even%20wraps%20around%20the%20corner!%22%7D %}
 
 One of Gaudi's trademark designs is the bone-like columns 🦴🦴 Even though the design looks like melting ice cream of stone, it still has a steel skeleton. 
 
 The neighborhood was remarkable 🤩 We were dazzled at every corner by the architecture and how each building was different.
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795790186%2Fnqkpv6sa0tep7jv2cxvb.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795790187%2Fdwihmq1llgpsrsfdygak.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795790242%2Fimtgiqhsb7hmajyr4tgw.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795790265%2Fmfm3wmzjs8i8wklun8el.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795790186%2Fnqkpv6sa0tep7jv2cxvb.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795790187%2Fdwihmq1llgpsrsfdygak.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795790242%2Fimtgiqhsb7hmajyr4tgw.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%220%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795790265%2Fmfm3wmzjs8i8wklun8el.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 And those balconies 😲😲
 
@@ -76,13 +76,13 @@ Check out that massive bay window at the bottom! And see how the columns are sha
 
 Stepping back, the roof is equally as mesmerizing!
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795791196%2Fh5qunhxhu52kplhj3w65.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%229%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795791196%2Fh5qunhxhu52kplhj3w65.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 The tiles look iridescent, like the shiny rainbow-bubble quality you see 🫧and laid out like dragon scales.
 
 Turning next door, you can see Casa Amatller:
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795791195%2Fdjnkpcdvkqzrybmndyuf.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795791778%2Faqn5ivf3ez9szbnwv3ca.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795791195%2Fdjnkpcdvkqzrybmndyuf.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%226%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795791778%2Faqn5ivf3ez9szbnwv3ca.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 This one was designed by Josep Puig i Cadafalch. Say that name five time fast.
 
@@ -92,13 +92,13 @@ The artist designed it with many A's hidden in the fascade to symbolize the Amat
 
 On the same block is Casa Lleo Morera and it has a lot of different architectural styles!
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795793179%2Ff9qdlto2tzq5dmwenu8s.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2221%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795793179%2Ff9qdlto2tzq5dmwenu8s.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 I'm in love with this rounded bay window! Can you imagine this as a reading room? Bathed in sunlight and filled with cozy pillows?!
 
 The building is spectacularly topped with this rooftop cupola! Yes, I had to look up what it was called 😂
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795793189%2Fqd5xdq8tqkg6tjaqg16t.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795793325%2Fh1w4sgamyyjsciptterq.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2269%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795793189%2Fqd5xdq8tqkg6tjaqg16t.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795793325%2Fh1w4sgamyyjsciptterq.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 Look how ornately decorated the roof's interior is!
 
@@ -130,7 +130,7 @@ Again, Harry Potter worthy 🧙🏻‍♂️
 
 Moving on, we were able to walk through the La Concepcio Market:
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795794985%2Fc2rzreerpwdz8jes9cn1.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795794988%2Fwku62cseqxt5d8kpgykm.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795794987%2Fgq1rwaprv5wfwj7cxbdk.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795794987%2Fkdgbeyhv6ienuvjfjpi3.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795794985%2Fc2rzreerpwdz8jes9cn1.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795794988%2Fwku62cseqxt5d8kpgykm.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795794987%2Fgq1rwaprv5wfwj7cxbdk.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2221%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795794987%2Fkdgbeyhv6ienuvjfjpi3.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 We searched for a snack but didn't find anything that struck our fancy. Why did they have to pick ham to love here? Why couldn't it be honey-drizzled walnuts?
 
@@ -144,7 +144,7 @@ This is a 14th century church but sits in a neighborhood that didn't exist 150 y
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795795318/gvds3nqnebocevrenpwu.jpg)
 
-This completed the tour and our next task was to find food! We passed this storefront on the way to find lunch and I was SO stoked to see this advertisement with different fingerprints 🫆
+We passed this storefront on the way to find lunch and I was SO stoked to see this advertisement with different fingerprints 🫆
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795795318/zc8jqnmizcwu6jklryjm.jpg "Some of them actually resemble fingerprint types!")
 
