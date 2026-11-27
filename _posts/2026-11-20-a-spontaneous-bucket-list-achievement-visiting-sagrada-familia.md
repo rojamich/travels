@@ -81,4 +81,8 @@ This is the tallest structure in the city, intentionally. It also happens to be 
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795812363%2Fliwsalsyttum5puqjeke.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795812365%2Fyl4ci7800hfpcnq1tjtt.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795812366%2Fo2zuozmm8iabaxgoccos.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-I really hope we are alive to see it completed. Unless their goal is to become the longest, continuous, construction Basilica.
+I really hope we are alive to see it completed. Unless their goal is to become the longest, continuous, construction Basilica. 
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795812525%2Fitzirthlheldex0lc9i8.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795812527%2Fgzhpufftsybsbwbhhyhu.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+If you zoom into the Christmas tree, you can see Gaudi began designing with color but stopped when he decided it looked better without color added.
