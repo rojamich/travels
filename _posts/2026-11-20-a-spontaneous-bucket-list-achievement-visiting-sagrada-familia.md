@@ -67,4 +67,6 @@ We were able to listen along on these headsets, which was great because it was q
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795811302%2Fugtobmtah2teshkprugd.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795811302%2Fppli6ct1e9txhfrnklny.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-We learned that construction began on the church in 1882. Gaudi was not the original architect but took over because there was a bitter dispute over costs and materials with the first one. The second choice declined the job and recommended Gaudi! He only had five years of professional experience before taking over.
+We learned that construction began on the church in 1882. Gaudi was not the original architect but took over because there was a bitter dispute over costs and materials with the first one. The second choice declined the job and recommended Gaudi! He only had five years of professional experience before taking over 🤯
+
+This is the tallest structure in the city, intentionally.
