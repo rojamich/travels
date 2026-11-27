@@ -15,9 +15,9 @@ header:
 tags:
   - Vietnam
 location:
-  name: Ban Gioc Waterfall, Vietnam
-  lat: 22.853
-  lng: 106.7233
+  name: Tra Linh, Cao Bang, Vietnam
+  lat: 22.83056640625
+  lng: 106.32328033447266
 ---
 
 Hello! It's been a while, hasn't it? Spoiler: we have had two back-to-back tours and are preparing for another! So tired but happy and filled with experiences!
