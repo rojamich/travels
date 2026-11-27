@@ -31,7 +31,18 @@
 -->
 
 {% if site.comments_enabled %}
-<section class="comments-block" data-post="{{ page.id | remove_first: '/' }}">
+{%- comment -%}
+  A post renamed after publishing keeps its thread under the old name, the
+  same way its counters do (_data/renamed_posts.yml): swap the last part of
+  the key back to what it was.
+{%- endcomment -%}
+{%- assign comment_key = page.id | remove_first: '/' -%}
+{%- assign old_slug = site.data.renamed_posts[page.slug] -%}
+{%- if old_slug -%}
+  {%- assign key_parts = comment_key | split: '/' | pop | push: old_slug -%}
+  {%- assign comment_key = key_parts | join: '/' -%}
+{%- endif -%}
+<section class="comments-block" data-post="{{ comment_key }}">
   <h2>💬 Leave us a note</h2>
   <p class="comments-instructions">
     We love hearing from friends, family and fellow travelers — drop us a note

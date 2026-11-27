@@ -132,3 +132,42 @@
   from = "/the-singaporean-stopover/dinos-donuts/"
   to = "/the-singaporean-stopover/donuts-the-goddess-and-destroyer-of-evil/"
   status = 301
+
+# Renamed in the editor after they were created, so the file kept the old
+# words (found by a stricter pass than check_slug_drift.py). Their view,
+# heart and comment counters stay on the old names: _data/renamed_posts.yml.
+# (2026-11-27)
+[[redirects]]
+  from = "/the-end-of-the-world/mountaineering-the-fighting-penguins/"
+  to = "/the-end-of-the-world/an-avalanche-the-fighting-penguins/"
+  status = 301
+
+[[redirects]]
+  from = "/welcome-home-tbilisi-georgia/buses-vans-apple-pie/"
+  to = "/welcome-home-tbilisi-georgia/buses-bazaars-and-apple-pie/"
+  status = 301
+
+[[redirects]]
+  from = "/bamboo-bulgogi/taiwan-our-japan-arrival/"
+  to = "/bamboo-bulgogi/taiwan-onto-japan/"
+  status = 301
+
+[[redirects]]
+  from = "/fjords-forever/svalbard-timoten-the-walrus/"
+  to = "/fjords-forever/svalbard-timoten-the-lazy-walrus/"
+  status = 301
+
+[[redirects]]
+  from = "/peruvian-passage/fishing-for-pirahna-o/"
+  to = "/peruvian-passage/fishing-for-piranha/"
+  status = 301
+
+[[redirects]]
+  from = "/new-zealand/gisborne-and-the-first-sunrise-on-earth-friday-11-24/"
+  to = "/new-zealand/gisborne-and-the-first-sunrise-on-earth-friday-11-25/"
+  status = 301
+
+[[redirects]]
+  from = "/fjords-forever/hike-through-the-valley-of-a-thousand-rivers-and-waterfalls/"
+  to = "/fjords-forever/hike-through-the-valley-of-a-thousand-rivers-waterfall/"
+  status = 301
