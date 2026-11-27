@@ -77,3 +77,33 @@ Stepping back, the roof is equally as mesmerizing!
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795791196%2Fh5qunhxhu52kplhj3w65.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
 The tiles look iridescent, like the shiny rainbow-bubble quality you see 🫧and laid out like dragon scales.
+
+Turning next door, you can see Casa Amatller:
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795791195%2Fdjnkpcdvkqzrybmndyuf.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795791778%2Faqn5ivf3ez9szbnwv3ca.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+This one was designed by Josep Puig i Cadafalch. Say that name five time fast.
+
+The tiles are just an incredible pattern and look similar to Moorish palaces — we will get to see some of these in Morocco and I'm SO excited. The color combinations are really beautiful as well 🎨
+
+The artist designed it with many A's hidden in the fascade to symbolize the Amatller family (who he designed it for). If you look at the lower right-hand side, you'll see the large, stone A over the balcony. Within the A are branches growing from an almond tree because Amatller means almond tree! Wow, what creativity! This family was also known as Barcelona's best chocolate makers. 
+
+On the same block is Casa Lleo Morera and it has a lot of different architectural styles!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795793179%2Ff9qdlto2tzq5dmwenu8s.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+I'm in love with this rounded bay window! Can you imagine this as a reading room? Bathed in sunlight and filled with cozy pillows?!
+
+The building is spectacularly topped with this rooftop cupola! Yes, I had to look up what it was called 😂
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795793189%2Fqd5xdq8tqkg6tjaqg16t.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795793325%2Fh1w4sgamyyjsciptterq.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Look how ornately decorated the roof's interior is!
+
+Gosh, this street looks like something out of a painting! We can't believe we got to stroll down this 🏞️
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795793432/kf6pfhjgvyxqjscs49cj.jpg)
+
+Even the tiles are delicately styled!
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795793437/r3gnsucnf3fydth77bn5.jpg)
