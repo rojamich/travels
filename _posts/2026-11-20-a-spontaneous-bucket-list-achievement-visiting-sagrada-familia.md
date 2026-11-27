@@ -6,11 +6,11 @@ categories:
 order: 6.5
 header:
   teaser_focal_x: 50
-  teaser_focal_y: 37
+  teaser_focal_y: 65
   overlay_focal_x: 50
   overlay_focal_y: 51
   overlay_filter: 0.4
-  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795724506/qzsgu11xgpscnpnvgkgk.jpg
+  teaser: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795807917/rduvnflajnve6wxfq1hr.jpg
   overlay_image: https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795724514/yp8env7zkzirvtpfxutc.jpg
 tags:
   - Adventure
