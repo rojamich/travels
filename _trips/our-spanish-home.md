@@ -20,5 +20,25 @@ tags:
   - Trains
   - Markets
   - Dancing
+  - Art
+  - Tours
+  - Adventure
+  - Bucketlist
+  - Christmas
+  - IceCream
+  - Books
+  - Reading
+  - Castles
+  - City
+  - Cityscapes
+  - Coffee
+  - DayTrip
+  - Flights
+  - History
+  - Landmarks
+  - Parks
+  - Rain
+  - Running
+  - Sight-Seeing
 new_tags: []
 ---
