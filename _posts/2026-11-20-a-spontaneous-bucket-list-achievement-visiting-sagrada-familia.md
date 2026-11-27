@@ -125,13 +125,13 @@ We stood here, taking in it's beauty as Adrian explained that the rainbow-nature
 
 Gaudi really thought of everything when he designed the columns to be perfect for leaning against to rest during worship.
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795813906%2Ffpfdmfnyxyfs4cdpch2w.jpg%22%7D%5D%2C%22caption%22%3A%22Not%20a%20joke%2C%20that's%20really%20the%20intention%20behind%20the%20design.%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795813906%2Ffpfdmfnyxyfs4cdpch2w.jpg%22%7D%5D%2C%22caption%22%3A%22Not%20really%2C%20it%20was%20actually%20engineered%20for%20structural%20strength%2C%20geometry%2C%20and%20acoustics.%22%7D %}
 
 Gaudi died in June of 1926 — yep, that's 100 years ago this year! He was struck by a tram and received delay of his care in the hospital because his clothes made him appear homeless. Taxis refused to take him to the hospital but a police officer finally took him to a charity hospital where he died two days later. 
 
 To celebrate the anniversary of his death, they had a Solemn Mass inside the Basilica where they also blessed the newly completed Tower of Jesus. 
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795814255/oxrverpyxhtvfh9q1xj6.jpg)
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795814255/oxrverpyxhtvfh9q1xj6.jpg "Check out Gaudi's initials in gold!")
 
 The stone wall you see before you is actually a set of doors! It says Our father in many languages and has the Lord's Prayer in Catalan. This door is solely used for Popes entering the church. Its currently closed off to tourists but, when completed, this will serve as the main public entrance!
 
@@ -141,9 +141,9 @@ Looking back towards the altar, you can take in how grand this building really i
 
 The golden Christmas tree is actually a triangle made of glass mosaic to represent the Holy Trinity 🪙
 
-We were able to see the whole model of Sagrada Familia and it is sea turtle shaped!
+We were able to see the whole model of Sagrada Familia and it is sea turtle-shaped!
 
-![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795814632/ujhesxzs5btyd32yfi9k.jpg "That's actually on purpose! It's supposed to represent everlasting life because they typically have very long lives 🐢")
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795814632/ujhesxzs5btyd32yfi9k.jpg)
 
 There isn't a side of this church that isn't beautiful!
 
@@ -151,7 +151,7 @@ There isn't a side of this church that isn't beautiful!
 
 These symbols sit on the columns that encase the pews for worshipping near the altar. 
 
-{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795814779%2Fw5ymyz8dmdiqyv7qexwk.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795814786%2Fhld65ieyc1naebfik1a6.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795814786%2Fhld65ieyc1naebfik1a6.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795814781%2Fatmb9qqmsmw008xokjz2.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2224%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795814789%2Fpftv37dqeiovb09ujhwl.jpg%22%7D%5D%2C%22caption%22%3A%22These%20are%20the%20interiors%20of%20the%20four%20Evangelist%20columns%20(like%20the%20ones%20we%20saw%20outside)%20representing%20Matthew%2C%20Mark%2C%20Luke%2C%20and%20John.%22%7D %}
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795814779%2Fw5ymyz8dmdiqyv7qexwk.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795814786%2Fhld65ieyc1naebfik1a6.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795814784%2Fhxikiueh2byy4qdcemeg.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795814781%2Fatmb9qqmsmw008xokjz2.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2224%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795814789%2Fpftv37dqeiovb09ujhwl.jpg%22%7D%5D%2C%22caption%22%3A%22These%20are%20the%20interiors%20of%20the%20four%20Evangelist%20columns%20(like%20the%20ones%20we%20saw%20outside)%20representing%20Matthew%2C%20Mark%2C%20Luke%2C%20and%20John.%22%7D %}
 
 Looking back, we are absolutely in awe of this view. This has to be my favorite part of the whole Basilica.
 
