@@ -18,7 +18,13 @@
   ===========================================================================
 {%- endcomment -%}
 
-<div class="engagement-widget" data-slug="{{ page.slug }}" data-title="{{ page.title | escape }}">
+{%- comment -%}
+  A post renamed after publishing keeps counting under its old name, so its
+  views and hearts carry on instead of starting again. See
+  _data/renamed_posts.yml.
+{%- endcomment -%}
+{%- assign counter_slug = site.data.renamed_posts[page.slug] | default: page.slug -%}
+<div class="engagement-widget" data-slug="{{ counter_slug }}" data-title="{{ page.title | escape }}">
   <button type="button"
           class="engagement-btn engagement-heart"
           aria-label="Like this post"

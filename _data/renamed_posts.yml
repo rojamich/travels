@@ -1,0 +1,18 @@
+# Posts renamed after they were published: new name -> the name they had.
+#
+# Views, hearts and comments are stored against a post's name, so a rename
+# would quietly start them again from zero. _includes/engagement.html and
+# _includes/comments-providers/custom.html look a post up here first and keep
+# using its old name, so its counts carry on.
+#
+# The old addresses are redirected to the new ones in netlify.toml.
+#
+# Kept in its own file rather than in each post's front matter so the editor
+# can never drop it on a save.
+an-avalanche-the-fighting-penguins: mountaineering-the-fighting-penguins
+buses-bazaars-and-apple-pie: buses-vans-apple-pie
+taiwan-onto-japan: taiwan-our-japan-arrival
+svalbard-timoten-the-lazy-walrus: svalbard-timoten-the-walrus
+fishing-for-piranha: fishing-for-pirahna-o
+gisborne-and-the-first-sunrise-on-earth-friday-11-25: gisborne-and-the-first-sunrise-on-earth-friday-11-24
+hike-through-the-valley-of-a-thousand-rivers-waterfall: hike-through-the-valley-of-a-thousand-rivers-and-waterfalls
