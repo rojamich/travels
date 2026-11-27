@@ -47,6 +47,24 @@ Standing directly in front of Sagrada Familia, we felt so tiny!
 
 Check out that level of detail in the four Evangelist Towers — those are the ones you see topped with orange, surrounding the one with a cross on top! Those are the details I really wanted to take time to take in. They're shaped like pine cones but I'm fascinated with them for some reason 🤔
 
-We had to meet our guide at a shop nearby, so we headed there, able to take it all in on the way. 
+We had to meet our guide at a shop nearby, so we headed there, able to take it all in along the way. 
 
-![]()
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795808140/yijuoex3hunjb4sf77et.jpg)
+
+Our group was about 15 people and filled with some interesting characters. Thankfully, our guide was very kind and passionate about the tour 📹
+
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795810164/ncf5e48mjdrxjz8sp4eb.jpg)
+
+We started at the front of the church which has a large park in front of it and a huge line of people taking photos. There was time to snap a few shots before he got us into the Basilica 📷
+
+Here is where he pointed out the representations in the architecture that Gaudi designed (yes, him again!)
+
+* There are 12 Apostle bell towers surrounding the Basilica: One side's towers represent Nativity, one is for Passion, and one is for Glory. 
+* The 4 Evangelist Towers we pointed out earlier represent Matthew, Mark, Luke and John.
+* The second-to-tallest tower is for the Virgin Mary and the tallest (172.5m aka 565.94 feet) is for Jesus Christ.
+
+We were able to listen along on these headsets, which was great because it was quite loud with all the crowds!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795811302%2Fugtobmtah2teshkprugd.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795811302%2Fppli6ct1e9txhfrnklny.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+We learned that construction began on the church in 1882. Gaudi was not the original architect but took over because there was a bitter dispute over costs and materials with the first one. The second choice declined the job and recommended Gaudi! He only had five years of professional experience before taking over.
