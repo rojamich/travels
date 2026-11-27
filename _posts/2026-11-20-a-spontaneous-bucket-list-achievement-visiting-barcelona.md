@@ -42,7 +42,7 @@ We still aren’t totally sure why one train boarded at our seating level but ou
 
 It was a fun train ride! We loved it! If only it were longer, I could get more done! I thought the 3.5 hours would feel long after so much travel lately but, honestly, I really did need more time. There was a train delay so we actually got four hours lol.
 
-Our train pulled into the station at 10am and we went right into another Rick Steve's tour — Spain is full of them! We only had so much time before our scheduled tour of Sagrada Familia. Stepping out into the street, it was much warmer here than in Madrid! About 19.444°*C* (67°f), compared to 12°C (55°f) in Madrid. The tour started in Eixample, Barcelona's fanciest neighborhood, on Passeig de Gracia, which is the main street. 
+Our train pulled into the station at 1020am and we went right into another Rick Steve's tour — Spain is full of them! We only had so much time before our scheduled tour of Sagrada Familia. Stepping out into the street, it was much warmer here than in Madrid! About 19.4°*C* (67°f), compared to 12°C (55°f) in Madrid. The tour started in Eixample, Barcelona's fanciest neighborhood, on Passeig de Gracia, which is the main street. 
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795789673%2Ffzcqjismaf1lvgmhjatw.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795789673%2Fudjhayyc75t8opqu5xpm.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
