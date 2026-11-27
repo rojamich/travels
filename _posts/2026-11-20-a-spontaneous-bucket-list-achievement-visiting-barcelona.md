@@ -66,11 +66,13 @@ The streets had wide sidewalks, protected bike lanes, and hexagonal intersection
 
 The next stop was the Fundacio Antoni Tapies, it's an art museum, but looks like a prison who's barbed-wire installer had an accident.
 
+![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795805077/p5edms4gldro2sdj4pvh.jpg)
+
 Now, onto my *favorite* part of the tour! No, its not food, though, I'm surprised its not as well. It's the Casa Batllo and I can't believe I've never heard or seen  anything about it before!
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795791196%2Fe6infghegcrscclwtbu5.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
 
-Check out that massive bay window at the bottom! And see how the columns are shaped like bones, classic Baudi, am I right?? The windows on the edges are kinda egg-shaped 🥚But I really love the balconies and how it has mosaic features 😍 Those shards are actually from discarded, shattered items like dishes, tiles, and China dolls 🤯
+Check out that massive bay window at the bottom! And see how the columns are shaped like bones, classic Gaudi, am I right?? The windows on the edges are kinda egg-shaped 🥚But I really love the balconies and how it has mosaic features 😍 Those shards are actually from discarded, shattered items like dishes, tiles, and China dolls 🤯
 
 Stepping back, the roof is equally as mesmerizing!
 
