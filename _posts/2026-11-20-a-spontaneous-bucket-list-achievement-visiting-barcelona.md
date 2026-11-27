@@ -110,7 +110,7 @@ Even the tiles are delicately styled!
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795793437/r3gnsucnf3fydth77bn5.jpg)
 
-We walked by a cultural center that "welcomes everyone" and has public restrooms! A lot of Europe charges for the bathroom here but we hadn't run into a restroom for cost here yet in Spain. I used the restroom and came out to find Mike had vanished... There was a puppet show going on down the hall so I went to search for him there. No sign of him. I waited there to text him when a woman speaking spanish hurried over to me. I understood zero of what she was saying but it felt like the puppet show required tickets so I went back down the halls to find Mike. I can now say I've been kicked out of a children's puppet show lol. Thanks honey 🐝😄 After looking around on the street, he emerged from the building after using the restroom on another level lol.
+We walked by a cultural center that "welcomes everyone" and has public restrooms! A lot of Europe charges for the bathroom but we hadn't run into a restroom for cost yet in Spain. I used the restroom and came out to find Mike had vanished... There was a puppet show going on down the hall so I went to search for him there. No sign of him. I waited there to text him when a woman speaking spanish hurried over to me. I understood zero of what she was saying but it felt like the puppet show required tickets so I went back down the halls to find Mike. I can now say I've been kicked out of a children's puppet show lol. Thanks honey 🐝😄 After looking around on the street, he emerged from the building after using the restroom on another level lol.
 
 Back out on the street, we are directed to a high-end grocery store that has vintage ads for alcohol!
 
