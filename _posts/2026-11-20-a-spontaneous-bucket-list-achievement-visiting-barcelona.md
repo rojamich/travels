@@ -51,3 +51,29 @@ And fancy it certainly was, we saw Montblanc (which I learned is not just a moun
 The first stop was La Pedrera aka Casa Mila — an enormous mansion built by Antoni Gaudi.
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795789698%2Ffm7e9lbndqs6jt5saz9u.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795789708%2Fzb8ifwr8sctonetf9gr8.jpg%22%7D%5D%2C%22caption%22%3A%22It%20even%20wraps%20around%20the%20corner!%22%7D %}
+
+One of Gaudi's trademark designs is the bone-like columns 🦴🦴 Even though the design looks like melting ice cream of stone, it still has a steel skeleton. 
+
+The neighborhood was remarkable 🤩 We were dazzled at every corner by the architecture and how each building was different.
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795790186%2Fnqkpv6sa0tep7jv2cxvb.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795790187%2Fdwihmq1llgpsrsfdygak.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795790242%2Fimtgiqhsb7hmajyr4tgw.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795790265%2Fmfm3wmzjs8i8wklun8el.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+And those balconies 😲😲
+
+Barcelona was originally condensed into the Gothic Quarter and considered a slum before they tore down the walls and leveled this land to build the works of art you see now!
+
+The streets had wide sidewalks, protected bike lanes, and hexagonal intersections to show off the buildings' designs 🖼️ They have a thriving gay community here and that neighborhood is called Gayxample — playing off of the Eixample neighborhood name 😂
+
+The next stop was the Fundacio Antoni Tapies, it's an art museum, but looks like a prison who's barbed-wire installer had an accident.
+
+Now, onto my *favorite* part of the tour! No, its not food, though, I'm surprised its not as well. It's the Casa Batllo and I can't believe I've never heard or seen  anything about it before!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795791196%2Fe6infghegcrscclwtbu5.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+Check out that massive bay window at the bottom! And see how the columns are shaped like bones, classic Baudi, am I right?? The windows on the edges are kinda egg-shaped 🥚But I really love the balconies and how it has mosaic features 😍 Those shards are actually from discarded, shattered items like dishes, tiles, and China dolls 🤯
+
+Stepping back, the roof is equally as mesmerizing!
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795791196%2Fh5qunhxhu52kplhj3w65.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+The tiles look iridescent, like the shiny rainbow-bubble quality you see 🫧and laid out like dragon scales.
