@@ -22,8 +22,8 @@ tags:
 new_tags: []
 location:
   name: Sagrada Familia
-  lat: 41.4035046
-  lng: 41.4035046
+  lat: 41.40536117553711
+  lng: 2.17333984375
 stay: day_trip
 toc: false
 ---
