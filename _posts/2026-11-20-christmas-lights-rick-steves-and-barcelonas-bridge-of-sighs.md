@@ -65,3 +65,5 @@ Peaking through the narrow walkways, we see the highlight of the tour: Barcelona
 The spiky spires were designed to look like flickering, spiritual fires and is actually a gothic style called flamboyant (meaning flame-like!)
 
 {% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795869544%2Fuya8x40kbwoevikspm5t.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795869552%2Fkrf9fvj3hqi9iqvcawif.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795869560%2Fy5snjw4xjpm0dldbooc1.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+For 2,000 years, a religious site has stood on this ground — Roman temples, Pagan temples, and finally this Cathedral.
