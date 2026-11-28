@@ -57,3 +57,11 @@ Down a side alley, we found the Els Quatre Gats — The four cats and we learned
 Back out on the main pedestrian-only walkway, we find the most beautiful public water fountain ⛲
 
 ![](https://res.cloudinary.com/dgw35sldo/image/upload/c_limit,f_auto,q_auto,w_1200/v1795869311/xofpqj8du8g5kqcmhudy.jpg "Even in the 1940s, 10% of Barcelonians had to get their water from public fountains due to a lack of indoor plumbing. ")
+
+Peaking through the narrow walkways, we see the highlight of the tour: Barcelona Cathedral.
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795869523%2Fqpqht0g8kdeheamokitl.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
+
+The spiky spires were designed to look like flickering, spiritual fires and is actually a gothic style called flamboyant (meaning flame-like!)
+
+{% gallery_block %7B%22photos%22%3A%5B%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795869544%2Fuya8x40kbwoevikspm5t.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795869552%2Fkrf9fvj3hqi9iqvcawif.jpg%22%7D%2C%7B%22x%22%3A%2250%22%2C%22y%22%3A%2250%22%2C%22image%22%3A%22https%3A%2F%2Fres.cloudinary.com%2Fdgw35sldo%2Fimage%2Fupload%2Fc_limit%2Cf_auto%2Cq_auto%2Cw_1200%2Fv1795869560%2Fy5snjw4xjpm0dldbooc1.jpg%22%7D%5D%2C%22caption%22%3A%22%22%7D %}
